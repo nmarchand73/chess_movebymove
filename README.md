@@ -72,6 +72,8 @@ Open http://localhost:5173
 3. Copy `data/index.json` and `data/lessons/*.json` to `web/public/data/`
 4. Optional: `npm run compute-elos` → `web/public/data/performance-elos.json`
 
+`data/index.json` includes a `books` metadata array plus `chernov` and `nunn` lesson lists. Re-running `ingest_chernov.py` or `ingest_nunn.py` merges into the existing index instead of wiping the other book. The web app also accepts legacy indexes that only contain `chernov`.
+
 ## Python scripts
 
 | Script | Purpose |
@@ -81,6 +83,11 @@ Open http://localhost:5173
 | `scripts/fetch_chernov_pgns.py` | Fallback: fetch Chernev PGNs from chessgames.com |
 | `scripts/fetch_nunn_pgns.py` | Download Nunn PGNs from Lichess study |
 | `scripts/ingest_nunn.py` | Align Nunn EPUB commentary to PGN moves |
+| `scripts/lib/ingest_core.py` | Shared PGN ↔ commentary alignment helpers |
+
+## GitHub Pages
+
+Pushes to `main` trigger `.github/workflows/deploy.yml`, which builds the Vite app and publishes to https://nmarchand73.github.io/chess_movebymove/
 
 ## Git
 

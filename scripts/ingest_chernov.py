@@ -291,6 +291,37 @@ def ingest_game(
     }
 
 
+def _merge_index(chernov_lessons: list[dict]) -> dict:
+    index_path = ROOT / "data" / "index.json"
+    existing = json.loads(index_path.read_text(encoding="utf-8")) if index_path.exists() else {}
+    nunn_lessons = existing.get("nunn", [])
+    existing_books = {b["id"]: b for b in existing.get("books", []) if b.get("id")}
+
+    books = [{
+        "id": "chernov",
+        "title": "Logical Chess: Move By Move",
+        "author": "Irving Chernev",
+        "publisher": "Batsford",
+        "gameCount": len(chernov_lessons),
+        "sections": [
+            {"title": "The Kingside Attack", "range": "1–16", "blurb": "e4 openings and kingside attacks"},
+            {"title": "The Queen\u2019s Pawn Opening", "range": "17–23", "blurb": "d4 structures and queenside play"},
+            {"title": "The Chess Master Explains his Ideas", "range": "24–33", "blurb": "masterclass commentary"},
+        ],
+    }]
+    if nunn_lessons:
+        nunn_book = existing_books.get("nunn", {
+            "id": "nunn",
+            "title": "Understanding Chess Move by Move",
+            "author": "John Nunn",
+            "publisher": "Gambit",
+            "gameCount": len(nunn_lessons),
+        })
+        books.append({**nunn_book, "gameCount": len(nunn_lessons)})
+
+    return {"books": books, "chernov": chernov_lessons, "nunn": nunn_lessons}
+
+
 def main() -> None:
     pgn_index = {g["num"]: g for g in json.loads((PGN_DIR / "index.json").read_text(encoding="utf-8"))}
     OUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -322,7 +353,10 @@ def main() -> None:
             "annotatedMoves": lesson["annotatedMoves"], "file": out_file.name,
         })
 
-    (ROOT / "data" / "index.json").write_text(json.dumps({"chernov": lessons}, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    (ROOT / "data" / "index.json").write_text(
+        json.dumps(_merge_index(lessons), indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
     (ROOT / "data" / "ingest_report.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
     avg = sum(r["annotatedMoves"] for r in report) / sum(r["moveCount"] for r in report)
     print(f"\nMove marker coverage: {avg:.0%}")

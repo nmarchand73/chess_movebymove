@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { computeFullGamePerformance } from "../src/lib/performanceRating.ts";
+import { normalizeLessonIndex } from "../src/lib/normalizeIndex.ts";
 import type { Lesson, LessonIndex, PerformanceElo } from "../src/types.ts";
 import { analyzeFenNode, initStockfishNode, quitStockfishNode } from "./stockfishNode.ts";
 
@@ -31,14 +32,12 @@ function parseArgs(): { gameNum: number | null; bookId: string | null } {
 }
 
 function lessonsForIndex(index: LessonIndex, bookId: string | null): LessonIndex["chernov"] {
+  const normalized = normalizeLessonIndex(index as unknown as Record<string, unknown>);
   if (bookId) {
-    const lessons = index[bookId as keyof LessonIndex];
+    const lessons = normalized[bookId as keyof LessonIndex];
     return Array.isArray(lessons) ? lessons : [];
   }
-  return index.books.flatMap((book) => {
-    const lessons = index[book.id as keyof LessonIndex];
-    return Array.isArray(lessons) ? lessons : [];
-  });
+  return normalized.books.flatMap((book) => normalized[book.id] ?? []);
 }
 
 async function loadLesson(file: string): Promise<Lesson> {
@@ -63,7 +62,7 @@ function toPerformanceElo(
 
 async function stripCachedElosFromIndex(): Promise<void> {
   const indexRaw = await fs.readFile(INDEX_PATH, "utf8");
-  const index = JSON.parse(indexRaw) as LessonIndex;
+  const index = normalizeLessonIndex(JSON.parse(indexRaw) as Record<string, unknown>);
   let changed = false;
 
   for (const book of index.books) {
@@ -86,7 +85,7 @@ async function stripCachedElosFromIndex(): Promise<void> {
 async function main(): Promise<void> {
   const { gameNum, bookId } = parseArgs();
   const indexRaw = await fs.readFile(INDEX_PATH, "utf8");
-  const index = JSON.parse(indexRaw) as LessonIndex;
+  const index = normalizeLessonIndex(JSON.parse(indexRaw) as Record<string, unknown>);
   const targets = lessonsForIndex(index, bookId).filter(
     (entry) => gameNum === null || entry.gameNum === gameNum,
   );

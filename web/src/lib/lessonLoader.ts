@@ -1,4 +1,5 @@
 import type { Lesson, LessonIndex, PerformanceElo } from "../types";
+import { normalizeLessonIndex } from "./normalizeIndex";
 
 export type PerformanceEloData = Record<string, PerformanceElo>;
 
@@ -7,7 +8,8 @@ const base = import.meta.env.BASE_URL;
 export async function loadIndex(): Promise<LessonIndex> {
   const res = await fetch(`${base}data/index.json`);
   if (!res.ok) throw new Error("Failed to load lesson index");
-  return res.json();
+  const raw = (await res.json()) as Record<string, unknown>;
+  return normalizeLessonIndex(raw);
 }
 
 export async function loadPerformanceElos(): Promise<PerformanceEloData> {
