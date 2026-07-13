@@ -1,0 +1,30 @@
+{
+  "name": "web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "compute-elos": "node --experimental-strip-types scripts/computeGameElos.ts",
+    "test": "node --experimental-strip-types --test src/lib/commentary.test.ts src/lib/commentaryBeats.test.ts src/lib/moveNavigation.test.ts src/lib/openingTooltips.test.ts src/lib/lastMoveHighlight.test.ts src/lib/formatEval.test.ts src/lib/engineLine.test.ts src/lib/performanceRating.test.ts src/lib/playerStats.test.ts src/lib/gameResult.test.ts",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "chess.js": "^1.4.0",
+    "react": "^19.2.7",
+    "react-chessboard": "^5.10.0",
+    "react-dom": "^19.2.7",
+    "stockfish": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.2",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "oxlint": "^1.71.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.1.1"
+  }
+}

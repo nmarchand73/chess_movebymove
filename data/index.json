@@ -1,0 +1,565 @@
+{
+  "chernov": [
+    {
+      "id": "chernov-001",
+      "book": "chernov",
+      "gameNum": 1,
+      "title": "Game 1: von Scheve vs Teichmann",
+      "section": "The Kingside Attack",
+      "players": {
+        "white": "von Scheve",
+        "black": "Teichmann"
+      },
+      "event": "Berlin 1907",
+      "opening": "Giuoco Piano",
+      "eco": "C53",
+      "moveCount": 34,
+      "annotatedMoves": 30,
+      "file": "chernov-001.json"
+    },
+    {
+      "id": "chernov-002",
+      "book": "chernov",
+      "gameNum": 2,
+      "title": "Game 2: Liubarski vs Soultanbéieff",
+      "section": "The Kingside Attack",
+      "players": {
+        "white": "Liubarski",
+        "black": "Soultanbéieff"
+      },
+      "event": "Liège 1928",
+      "opening": "Giuoco Piano",
+      "eco": "C53",
+      "moveCount": 32,
+      "annotatedMoves": 30,
+      "file": "chernov-002.json"
+    },
+    {
+      "id": "chernov-003",
+      "book": "chernov",
+      "gameNum": 3,
+      "title": "Game 3: Colle vs Delvaux",
+      "section": "The Kingside Attack",
+      "players": {
+        "white": "Colle",
+        "black": "Delvaux"
+      },
+      "event": "Gand-Terneuzen 1929",
+      "opening": "Colle System",
+      "eco": "D05",
+      "moveCount": 43,
+      "annotatedMoves": 36,
+      "file": "chernov-003.json"
+    },
+    {
+      "id": "chernov-004",
+      "book": "chernov",
+      "gameNum": 4,
+      "title": "Game 4: Blackburne vs Blanchard",
+      "section": "The Kingside Attack",
+      "players": {
+        "white": "Blackburne",
+        "black": "Blanchard"
+      },
+      "event": "London 1891",
+      "opening": "King’s Gambit Declined",
+      "eco": "C30",
+      "moveCount": 35,
+      "annotatedMoves": 30,
+      "file": "chernov-004.json"
+    },
+    {
+      "id": "chernov-005",
+      "book": "chernov",
+      "gameNum": 5,
+      "title": "Game 5: Ruger vs Gebhard",
+      "section": "The Kingside Attack",
+      "players": {
+        "white": "Ruger",
+        "black": "Gebhard"
+      },
+      "event": "Dresden 1915",
+      "opening": "Giuoco Piano",
+      "eco": "C54",
+      "moveCount": 33,
+      "annotatedMoves": 31,
+      "file": "chernov-005.json"
+    },
+    {
+      "id": "chernov-006",
+      "book": "chernov",
+      "gameNum": 6,
+      "title": "Game 6: Zeissl vs Walthoffen",
+      "section": "The Kingside Attack",
+      "players": {
+        "white": "Zeissl",
+        "black": "Walthoffen"
+      },
+      "event": "Vienna 1899",
+      "opening": "Ruy Lopez",
+      "eco": "C63",
+      "moveCount": 34,
+      "annotatedMoves": 30,
+      "file": "chernov-006.json"
+    },
+    {
+      "id": "chernov-007",
+      "book": "chernov",
+      "gameNum": 7,
+      "title": "Game 7: Spielmann vs Wahle",
+      "section": "The Kingside Attack",
+      "players": {
+        "white": "Spielmann",
+        "black": "Wahle"
+      },
+      "event": "Vienna 1926",
+      "opening": "French Defense",
+      "eco": "C01",
+      "moveCount": 33,
+      "annotatedMoves": 30,
+      "file": "chernov-007.json"
+    },
+    {
+      "id": "chernov-008",
+      "book": "chernov",
+      "gameNum": 8,
+      "title": "Game 8: Przepiorka vs Prokeš",
+      "section": "The Kingside Attack",
+      "players": {
+        "white": "Przepiorka",
+        "black": "Prokeš"
+      },
+      "event": "Budapest 1929",
+      "opening": "Colle System",
+      "eco": "D05",
+      "moveCount": 47,
+      "annotatedMoves": 42,
+      "file": "chernov-008.json"
+    },
+    {
+      "id": "chernov-009",
+      "book": "chernov",
+      "gameNum": 9,
+      "title": "Game 9: Znosko-Borovsky vs Mackenzie",
+      "section": "The Kingside Attack",
+      "players": {
+        "white": "Znosko-Borovsky",
+        "black": "Mackenzie"
+      },
+      "event": "Weston-super-Mare 1924",
+      "opening": "Ruy Lopez",
+      "eco": "C90",
+      "moveCount": 59,
+      "annotatedMoves": 57,
+      "file": "chernov-009.json"
+    },
+    {
+      "id": "chernov-010",
+      "book": "chernov",
+      "gameNum": 10,
+      "title": "Game 10: Tarrasch vs Eckart",
+      "section": "The Kingside Attack",
+      "players": {
+        "white": "Tarrasch",
+        "black": "Eckart"
+      },
+      "event": "Nuremberg 1889",
+      "opening": "French Defense",
+      "eco": "C05",
+      "moveCount": 33,
+      "annotatedMoves": 28,
+      "file": "chernov-010.json"
+    },
+    {
+      "id": "chernov-011",
+      "book": "chernov",
+      "gameNum": 11,
+      "title": "Game 11: Flohr vs Pitschak",
+      "section": "The Kingside Attack",
+      "players": {
+        "white": "Flohr",
+        "black": "Pitschak"
+      },
+      "event": "Bilin 1930",
+      "opening": "Colle System",
+      "eco": "A46",
+      "moveCount": 34,
+      "annotatedMoves": 33,
+      "file": "chernov-011.json"
+    },
+    {
+      "id": "chernov-012",
+      "book": "chernov",
+      "gameNum": 12,
+      "title": "Game 12: Pitschak vs Flohr",
+      "section": "The Kingside Attack",
+      "players": {
+        "white": "Pitschak",
+        "black": "Flohr"
+      },
+      "event": "Liebwerda 1934",
+      "opening": "English Opening",
+      "eco": "A22",
+      "moveCount": 38,
+      "annotatedMoves": 37,
+      "file": "chernov-012.json"
+    },
+    {
+      "id": "chernov-013",
+      "book": "chernov",
+      "gameNum": 13,
+      "title": "Game 13: Dobias vs Podgorny",
+      "section": "The Kingside Attack",
+      "players": {
+        "white": "Dobias",
+        "black": "Podgorny"
+      },
+      "event": "Prague 1952",
+      "opening": "French Defense",
+      "eco": "C10",
+      "moveCount": 39,
+      "annotatedMoves": 37,
+      "file": "chernov-013.json"
+    },
+    {
+      "id": "chernov-014",
+      "book": "chernov",
+      "gameNum": 14,
+      "title": "Game 14: Tarrasch vs Mieses",
+      "section": "The Kingside Attack",
+      "players": {
+        "white": "Tarrasch",
+        "black": "Mieses"
+      },
+      "event": "Berlin 1916",
+      "opening": "French Defense",
+      "eco": "C10",
+      "moveCount": 39,
+      "annotatedMoves": 37,
+      "file": "chernov-014.json"
+    },
+    {
+      "id": "chernov-015",
+      "book": "chernov",
+      "gameNum": 15,
+      "title": "Game 15: Alekhine vs Poindle",
+      "section": "The Kingside Attack",
+      "players": {
+        "white": "Alekhine",
+        "black": "Poindle"
+      },
+      "event": "Simultaneous, Vienna 1936",
+      "opening": "Ruy Lopez",
+      "eco": "C67",
+      "moveCount": 59,
+      "annotatedMoves": 52,
+      "file": "chernov-015.json"
+    },
+    {
+      "id": "chernov-016",
+      "book": "chernov",
+      "gameNum": 16,
+      "title": "Game 16: Tarrasch vs Kurschner",
+      "section": "The Kingside Attack",
+      "players": {
+        "white": "Tarrasch",
+        "black": "Kurschner"
+      },
+      "event": "Nuremberg 1889",
+      "opening": "Queen’s Gambit Accepted",
+      "eco": "D20",
+      "moveCount": 43,
+      "annotatedMoves": 40,
+      "file": "chernov-016.json"
+    },
+    {
+      "id": "chernov-017",
+      "book": "chernov",
+      "gameNum": 17,
+      "title": "Game 17: Pillsbury vs Mason",
+      "section": "The Queen’s Pawn Opening",
+      "players": {
+        "white": "Pillsbury",
+        "black": "Mason"
+      },
+      "event": "Hastings 1895",
+      "opening": "Queen’s Gambit Declined",
+      "eco": "D53",
+      "moveCount": 71,
+      "annotatedMoves": 69,
+      "file": "chernov-017.json"
+    },
+    {
+      "id": "chernov-018",
+      "book": "chernov",
+      "gameNum": 18,
+      "title": "Game 18: Noteboom vs Doesburgh",
+      "section": "The Queen’s Pawn Opening",
+      "players": {
+        "white": "Noteboom",
+        "black": "Doesburgh"
+      },
+      "event": "Netherlands 1931",
+      "opening": "Queen’s Gambit Declined",
+      "eco": "D51",
+      "moveCount": 57,
+      "annotatedMoves": 54,
+      "file": "chernov-018.json"
+    },
+    {
+      "id": "chernov-019",
+      "book": "chernov",
+      "gameNum": 19,
+      "title": "Game 19: Grünfeld vs Schenkein",
+      "section": "The Queen’s Pawn Opening",
+      "players": {
+        "white": "Grünfeld",
+        "black": "Schenkein"
+      },
+      "event": "Vienna 1915",
+      "opening": "Queen’s Gambit Declined",
+      "eco": "D11",
+      "moveCount": 45,
+      "annotatedMoves": 43,
+      "file": "chernov-019.json"
+    },
+    {
+      "id": "chernov-020",
+      "book": "chernov",
+      "gameNum": 20,
+      "title": "Game 20: Rubinstein vs Salwe",
+      "section": "The Queen’s Pawn Opening",
+      "players": {
+        "white": "Rubinstein",
+        "black": "Salwe"
+      },
+      "event": "Lodz 1908",
+      "opening": "Queen’s Gambit Declined",
+      "eco": "D33",
+      "moveCount": 75,
+      "annotatedMoves": 73,
+      "file": "chernov-020.json"
+    },
+    {
+      "id": "chernov-021",
+      "book": "chernov",
+      "gameNum": 21,
+      "title": "Game 21: Chernev vs Hahlbohm",
+      "section": "The Queen’s Pawn Opening",
+      "players": {
+        "white": "Chernev",
+        "black": "Hahlbohm"
+      },
+      "event": "New York 1942",
+      "opening": "Colle System",
+      "eco": "D05",
+      "moveCount": 47,
+      "annotatedMoves": 41,
+      "file": "chernov-021.json"
+    },
+    {
+      "id": "chernov-022",
+      "book": "chernov",
+      "gameNum": 22,
+      "title": "Game 22: Pillsbury vs Marco",
+      "section": "The Queen’s Pawn Opening",
+      "players": {
+        "white": "Pillsbury",
+        "black": "Marco"
+      },
+      "event": "Paris 1900",
+      "opening": "Queen’s Gambit Declined",
+      "eco": "D55",
+      "moveCount": 55,
+      "annotatedMoves": 41,
+      "file": "chernov-022.json"
+    },
+    {
+      "id": "chernov-023",
+      "book": "chernov",
+      "gameNum": 23,
+      "title": "Game 23: Van Vliet vs Znosko-Borovsky",
+      "section": "The Queen’s Pawn Opening",
+      "players": {
+        "white": "Van Vliet",
+        "black": "Znosko-Borovsky"
+      },
+      "event": "Ostend 1907",
+      "opening": "Stonewall Attack",
+      "eco": "D00",
+      "moveCount": 72,
+      "annotatedMoves": 69,
+      "file": "chernov-023.json"
+    },
+    {
+      "id": "chernov-024",
+      "book": "chernov",
+      "gameNum": 24,
+      "title": "Game 24: Capablanca vs Mattison",
+      "section": "The Chess Master Explains his Ideas",
+      "players": {
+        "white": "Capablanca",
+        "black": "Mattison"
+      },
+      "event": "Karlsbad 1929",
+      "opening": "Nimzo-Indian Defense",
+      "eco": "E38",
+      "moveCount": 39,
+      "annotatedMoves": 37,
+      "file": "chernov-024.json"
+    },
+    {
+      "id": "chernov-025",
+      "book": "chernov",
+      "gameNum": 25,
+      "title": "Game 25: Janowsky vs Alapin",
+      "section": "The Chess Master Explains his Ideas",
+      "players": {
+        "white": "Janowsky",
+        "black": "Alapin"
+      },
+      "event": "Barmen 1905",
+      "opening": "Queen’s Gambit Declined",
+      "eco": "D31",
+      "moveCount": 93,
+      "annotatedMoves": 85,
+      "file": "chernov-025.json"
+    },
+    {
+      "id": "chernov-026",
+      "book": "chernov",
+      "gameNum": 26,
+      "title": "Game 26: O.Bernstein vs Mieses",
+      "section": "The Chess Master Explains his Ideas",
+      "players": {
+        "white": "O.Bernstein",
+        "black": "Mieses"
+      },
+      "event": "Coburg 1904",
+      "opening": "Sicilian Defense",
+      "eco": "B45",
+      "moveCount": 97,
+      "annotatedMoves": 93,
+      "file": "chernov-026.json"
+    },
+    {
+      "id": "chernov-027",
+      "book": "chernov",
+      "gameNum": 27,
+      "title": "Game 27: Chekhover vs Rudakovsky",
+      "section": "The Chess Master Explains his Ideas",
+      "players": {
+        "white": "Chekhover",
+        "black": "Rudakovsky"
+      },
+      "event": "Moscow 1945",
+      "opening": "Queen’s Gambit Declined",
+      "eco": "D61",
+      "moveCount": 77,
+      "annotatedMoves": 75,
+      "file": "chernov-027.json"
+    },
+    {
+      "id": "chernov-028",
+      "book": "chernov",
+      "gameNum": 28,
+      "title": "Game 28: Tarrasch vs Mieses",
+      "section": "The Chess Master Explains his Ideas",
+      "players": {
+        "white": "Tarrasch",
+        "black": "Mieses"
+      },
+      "event": "Gothenburg 1920",
+      "opening": "Scandinavian Defense",
+      "eco": "B01",
+      "moveCount": 81,
+      "annotatedMoves": 71,
+      "file": "chernov-028.json"
+    },
+    {
+      "id": "chernov-029",
+      "book": "chernov",
+      "gameNum": 29,
+      "title": "Game 29: Marshall vs Tarrasch",
+      "section": "The Chess Master Explains his Ideas",
+      "players": {
+        "white": "Marshall",
+        "black": "Tarrasch"
+      },
+      "event": "Nuremberg match (1) 1905",
+      "opening": "Queen’s Gambit Declined",
+      "eco": "D51",
+      "moveCount": 88,
+      "annotatedMoves": 83,
+      "file": "chernov-029.json"
+    },
+    {
+      "id": "chernov-030",
+      "book": "chernov",
+      "gameNum": 30,
+      "title": "Game 30: Capablanca vs Villegas",
+      "section": "The Chess Master Explains his Ideas",
+      "players": {
+        "white": "Capablanca",
+        "black": "Villegas"
+      },
+      "event": "Buenos Aires 1914",
+      "opening": "Queen’s Gambit Declined",
+      "eco": "D04",
+      "moveCount": 67,
+      "annotatedMoves": 63,
+      "file": "chernov-030.json"
+    },
+    {
+      "id": "chernov-031",
+      "book": "chernov",
+      "gameNum": 31,
+      "title": "Game 31: Havasi vs Capablanca",
+      "section": "The Chess Master Explains his Ideas",
+      "players": {
+        "white": "Havasi",
+        "black": "Capablanca"
+      },
+      "event": "Budapest 1929",
+      "opening": "Nimzo-Indian Defense",
+      "eco": "E32",
+      "moveCount": 68,
+      "annotatedMoves": 65,
+      "file": "chernov-031.json"
+    },
+    {
+      "id": "chernov-032",
+      "book": "chernov",
+      "gameNum": 32,
+      "title": "Game 32: Canal vs Capablanca",
+      "section": "The Chess Master Explains his Ideas",
+      "players": {
+        "white": "Canal",
+        "black": "Capablanca"
+      },
+      "event": "Budapest 1929",
+      "opening": "Queen’s Indian Defense",
+      "eco": "E15",
+      "moveCount": 114,
+      "annotatedMoves": 109,
+      "file": "chernov-032.json"
+    },
+    {
+      "id": "chernov-033",
+      "book": "chernov",
+      "gameNum": 33,
+      "title": "Game 33: Rubinstein vs Maroczy",
+      "section": "The Chess Master Explains his Ideas",
+      "players": {
+        "white": "Rubinstein",
+        "black": "Maroczy"
+      },
+      "event": "Gothenburg 1920",
+      "opening": "Queen’s Gambit Declined",
+      "eco": "D63",
+      "moveCount": 69,
+      "annotatedMoves": 67,
+      "file": "chernov-033.json"
+    }
+  ]
+}

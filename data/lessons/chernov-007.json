@@ -1,0 +1,223 @@
+{
+  "id": "chernov-007",
+  "book": "chernov",
+  "gameNum": 7,
+  "title": "Game 7: Spielmann vs Wahle",
+  "section": "The Kingside Attack",
+  "players": {
+    "white": "Spielmann",
+    "black": "Wahle"
+  },
+  "event": "Vienna 1926",
+  "opening": "French Defense",
+  "eco": "C01",
+  "pgnPath": "data/pgn/chernov/07.pgn",
+  "result": "1-0",
+  "moveCount": 33,
+  "annotatedMoves": 30,
+  "fullText": "Spielmann – Wahle\n\nVienna 1926\n\nFrench Defence\n\n1   e4\n\nThis move accomplishes a great deal:\n\nA pawn is fixed in the centre of the board.\n\nThe pawn exerts a grip on d5 and f5, and keeps Black’s pieces from settling on those squares.\n\nWhite’s queen and bishop immediately have breathing space.\n\n1   ...     e6\n\nWith several objects in view:\n\nOne, to prevent White from dictating the opening. After the conventional reply 1...e5 White can play the Ruy Lopez, the Giuoco Piano, the Scotch, the Vienna Game or a dangerous gambit of some sort.\n\nAnother is that Black’s cramped position may tempt White into a disastrous premature attack.\n\nA third is that the pawn at e6 supports an advance by 2...d5, an attack on the e-pawn which might wrest the initiative.\n\nThe French Defence is not to be underestimated. It conceals a great deal of dynamic energy behind a modest facade.\n\n2   d4\n\nIf it’s worthwhile to establish one pawn in the centre, then keeping\n\ntwo pawns there should double the benefits.\n\n2   ...     d5\n\nBlack gives his queen more scope and challenges the centre.\n\n3\n\nc3\n\nClearly an excellent response, as the knight develops to its proper square, protects the e-pawn, and bears down on d5.\n\n3   ...\n\nf6\n\n(D)\n\nBlack in turn brings\n\nhis own knight to its strongest position with gain of time – a further attack on the e4-pawn.\n\n4   exd5\n\nMany players prefer to add to the pressure by 4\n\ng5 (which develops a piece and renders one of the enemy’s impotent) rather than exchange pawns, which relaxes the tension.\n\nSpielmann, who likes wide-open positions, clears away a couple of pawns to give his pieces more room for their activities.\n\nWhich move is better? Which should you play? The answer is: play the move that you like, the one that best suits your style and temperament. If you are a careful, cautious player who knows the full value of a pawn – that each one is a potential queen, and that the loss of a pawn may be the loss of the game – stick to 4\n\ng5 and the openings of positional chess, the Ruy Lopez, the Queen’s Pawn openings, the Réti and the English. On the other hand, if you prefer daring, adventurous chess, and a pawn is simply a barrier to the sweeping onrush of an attack by your pieces, play openings which allow scope for your imagination, the Evans, Danish, King’s and other gambits.\n\nThe best openings to play are the ones you are most at home in.\n\n4   ...     exd5\n\nBetter than taking with the knight. Black keeps a pawn in the centre and frees his c8-bishop.\n\n5\n\ng5\n\nWhite pins the knight and threatens to break up Black’s game by 6\n\nxf6 gxf6 (6...\n\nxf6 loses the d5-pawn), when Black is left with a weak doubled pawn.\n\n5   ...\n\ne7\n\nThe simplest way of unpinning the knight. Moving the bishop only one square may not seem much of a move, but it complies with the first law of rapid development: Get your pieces off the back rank!\n\n6\n\nd3\n\nThis bishop’s stand is aggressive, especially against kingside castling.\n\n6   ...\n\nc6\n\n(D)\n\nThis knight’s debut is even more menacing, as it threatens to take the d-pawn.\n\n7\n\nge2!\n\nAfter the customary development 7\n\nf3, Black pins the knight by 7...\n\ng4 and again threatens the d-pawn. White could save the pawn, for instance by 8\n\ne2, but would lose the initiative.\n\nAfter the text-move, if Black pins the knight by 7...\n\ng4, 8 f3 repels the bishop and causes it to lose time retreating.\n\n7   ...\n\nb4\n\nIntending to get rid of a dangerous enemy piece and also to assure himself of a little advantage in keeping both his bishops.\n\n8\n\ng3\n\nNow we see another reason for developing the knight to e2. White wants to anchor a piece at f5, a dominating position for a knight or a bishop. A piece need do no more than just stand there and look menacing to rattle the opponent.\n\n8   ...\n\nxd3+\n\nMission accomplished. Black has a slight technical superiority in retaining two long-range bishops against White’s knight and bishop, but...\n\n9\n\nxd3\n\n...at the cost of a loss of time. Black has made three moves with the knight to exchange it for a bishop that moved only once. More than that, his knight came off the board completely, while the bishop left a piece in its place. The result is that White has four active pieces in play against two of Black’s. White is also prepared to castle on either side and mobilize both rooks quickly. Whatever advantage exists is therefore White’s.\n\n9   ...     g6\n\n(D)\n\nThis pawn move prevents White from placing his knight at f5, but it creates an organic weakness in Black’s position, one that is irremediable.\n\nThe squares f6 and h6, no longer guarded by the pawn, are weak and remain so permanently.\n\nNotice that the pawn was induced but not forced to move forward. The mere threat of an inroad by the knight was enough to influence Black to make a natural preventive move. It is the sort of move nine out of ten players make automatically in similar situations, which is why it is important to know how to exploit its defects, for no move is weak unless proper advantage is taken of its flaws.\n\n10   0-0\n\nNo violence, please, until the reserves have been brought up. Blackburne used to say, “Never start an attack until your queen’s rook is developed.”\n\nWhite secures the safety of his king and gets one rook out of hiding.\n\n10   ...     c6\n\nStrengthens Black’s pawn-centre and opens another avenue for his queen.\n\n11\n\nae1\n\nWhite seizes the only open file (since rooks belong on open files or on files likely to be opened) and pins the bishop.\n\nIt is worth noting that a pinned piece not only is unable to move but is also powerless to capture. It does not protect any other pieces, since it is completely paralysed.\n\nHence it follows that not only is the bishop immobilized and in danger of its life (as it may be attacked again and again) but the knight that depends on it for protection is no longer secure. Briefly, Black is now threatened with loss of a piece by 12\n\nxf6.\n\n11   ...     0-0\n\n(D)\n\nThe king takes refuge in flight, incidentally unpinning the bishop and preserving his knight.\n\nSpielmann’s strategy to this point and the decisive combination that follows would have pleased Lasker, who once said, “In the beginning of the game ignore the search for combinations, abstain from violent moves. Aim for small advantages, accumulate them, and only after having attained these ends search for the combination – and then with all the power of will and intellect, because then the combination must exist, however deeply hidden.”\n\nA glance shows that White has achieved the requisite positional superiority. If there is a combination to be evolved, it must be now, before Black has time to reorganize his pieces for defence. Now, while he has five pieces actively in play against two of Black’s. Now, while he has an open file – enough! enough! The combination must\n\nbe there!\n\nHere is White’s line of reasoning:\n\nBlack’s advance of the g-pawn has deprived the knight of stable support. It is still guarded by two pieces, but if the bishop were not there\n\nit would be defended only once. In fact, if the bishop were not there,\n\nthe knight would be pinned and subject to an enduring attack. The bishop appears in both equations.\n\nObviously the bishop is the culprit, and it must be destroyed! And at once, before Black has time for 12...\n\ne6!\n\n12\n\nxe7!!\n\n“When we know about the inspiring ideas, how simple the sacrifices appear!” says Znosko-Borovsky.\n\n12   ...\n\nxe7\n\n(D)\n\nBlack must recapture, leaving the knight pinned and a fine target for further attack.\n\n13\n\nf3\n\nPutting pressure on the pinned piece, and threatening to take the knight.\n\n13   ...\n\ng7\n\n(D)\n\nThe king comes to the rescue of the knight. Against the alternative defence 13...\n\nf5 Spielmann had this pretty continuation: 14\n\nxf5 gxf5 15\n\ng3(threatening g mate on the move by 16\n\nxf6#) 15...\n\ng7 (or 15...\n\nh8 16\n\nh4\n\ng7 17\n\nh6+\n\ng8 18\n\nxf6 and White wins) 16\n\nxf6++\n\nxf6 17\n\nh4+\n\ne6 18\n\ne1+\n\nd7 19\n\nxe7+\n\nand all Black’s pieces come off.\n\n14\n\nce4!\n\nWhite must keep hammering at the pinned knight, no matter how many brilliant moves he has to find! Again, White’s immediate threat is simple: 15\n\nxf6+, winning instantaneously.\n\n14   ...     dxe4\n\nBlack must take this knight or lose his own.\n\n15\n\nxe4\n\nThree pieces now attack the helpless knight. “Chess is not for the kind-hearted,” says the French proverb.\n\nWhite now threatens 16\n\nxf6+ followed by 17\n\nxe7.\n\n15   ...\n\ne6\n\nOn 15...\n\nxe4 White has the pleasant choice of winning the queen by 16\n\nxf6+ (removing the protector of the queen), followed by 17\n\nxe4, or forcing mate by 16\n\nxf6+\n\ng8 17\n\nh6 followed by 18\n\ng7#.\n\nIn the last line of play, notice how White screws his pieces firmly into the two holes in Black’s position, f6 and h6, the squares no longer guarded by the g-pawn after its advance.\n\nWith his last move, Black saves the queen. He is still ahead in material but has a lost game, as White’s pieces will insinuate themselves along the dark squares to get at the king.\n\n16\n\nxf6+\n\nWhite regains a piece and limits Black’s king to two moves.\n\n16   ...\n\ng8\n\nIf 16...\n\nh6, then 17\n\nf4+ and mate next move.\n\n17\n\nf4\n\nThreatening a final invasion at h6 followed by mate at g7 – triumph on the dark squares.\n\n1-0\n\nBlack, powerless to prevent mate, resigned.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Spielmann – Wahle\n\nVienna 1926\n\nFrench Defence"
+    },
+    {
+      "ply": 1,
+      "san": "e4",
+      "text": "This move accomplishes a great deal:\n\nA pawn is fixed in the centre of the board.\n\nThe pawn exerts a grip on d5 and f5, and keeps Black’s pieces from settling on those squares.\n\nWhite’s queen and bishop immediately have breathing space.",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "e6",
+      "text": "With several objects in view:\n\nOne, to prevent White from dictating the opening. After the conventional reply 1...e5 White can play the Ruy Lopez, the Giuoco Piano, the Scotch, the Vienna Game or a dangerous gambit of some sort.\n\nAnother is that Black’s cramped position may tempt White into a disastrous premature attack.\n\nA third is that the pawn at e6 supports an advance by 2...d5, an attack on the e-pawn which might wrest the initiative.\n\nThe French Defence is not to be underestimated. It conceals a great deal of dynamic energy behind a modest facade.",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "d4",
+      "text": "If it’s worthwhile to establish one pawn in the centre, then keeping\n\ntwo pawns there should double the benefits.",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "d5",
+      "text": "Black gives his queen more scope and challenges the centre.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "Nc3",
+      "text": "Clearly an excellent response, as the knight develops to its proper square, protects the e-pawn, and bears down on d5.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "Nf6",
+      "text": "Black in turn brings\n\nhis own knight to its strongest position with gain of time – a further attack on the e4-pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "exd5",
+      "text": "Many players prefer to add to the pressure by 4\n\ng5 (which develops a piece and renders one of the enemy’s impotent) rather than exchange pawns, which relaxes the tension.\n\nSpielmann, who likes wide-open positions, clears away a couple of pawns to give his pieces more room for their activities.\n\nWhich move is better? Which should you play? The answer is: play the move that you like, the one that best suits your style and temperament. If you are a careful, cautious player who knows the full value of a pawn – that each one is a potential queen, and that the loss of a pawn may be the loss of the game – stick to 4\n\ng5 and the openings of positional chess, the Ruy Lopez, the Queen’s Pawn openings, the Réti and the English. On the other hand, if you prefer daring, adventurous chess, and a pawn is simply a barrier to the sweeping onrush of an attack by your pieces, play openings which allow scope for your imagination, the Evans, Danish, King’s and other gambits.\n\nThe best openings to play are the ones you are most at home in.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "exd5",
+      "text": "Better than taking with the knight. Black keeps a pawn in the centre and frees his c8-bishop.",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "Bg5",
+      "text": "White pins the knight and threatens to break up Black’s game by 6\n\nxf6 gxf6 (6...\n\nxf6 loses the d5-pawn), when Black is left with a weak doubled pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "Be7",
+      "text": "The simplest way of unpinning the knight. Moving the bishop only one square may not seem much of a move, but it complies with the first law of rapid development: Get your pieces off the back rank!",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "Bd3",
+      "text": "This bishop’s stand is aggressive, especially against kingside castling.",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "Nc6",
+      "text": "This knight’s debut is even more menacing, as it threatens to take the d-pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "Nge2",
+      "text": "After the customary development 7\n\nf3, Black pins the knight by 7...\n\ng4 and again threatens the d-pawn. White could save the pawn, for instance by 8\n\ne2, but would lose the initiative.\n\nAfter the text-move, if Black pins the knight by 7...\n\ng4, 8 f3 repels the bishop and causes it to lose time retreating.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "Nb4",
+      "text": "Intending to get rid of a dangerous enemy piece and also to assure himself of a little advantage in keeping both his bishops.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "Ng3",
+      "text": "Now we see another reason for developing the knight to e2. White wants to anchor a piece at f5, a dominating position for a knight or a bishop. A piece need do no more than just stand there and look menacing to rattle the opponent.\n\n8   ...\n\nxd3+\n\nMission accomplished. Black has a slight technical superiority in retaining two long-range bishops against White’s knight and bishop, but...",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "Nxd3+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "Qxd3",
+      "text": "...at the cost of a loss of time. Black has made three moves with the knight to exchange it for a bishop that moved only once. More than that, his knight came off the board completely, while the bishop left a piece in its place. The result is that White has four active pieces in play against two of Black’s. White is also prepared to castle on either side and mobilize both rooks quickly. Whatever advantage exists is therefore White’s.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "g6",
+      "text": "This pawn move prevents White from placing his knight at f5, but it creates an organic weakness in Black’s position, one that is irremediable.\n\nThe squares f6 and h6, no longer guarded by the pawn, are weak and remain so permanently.\n\nNotice that the pawn was induced but not forced to move forward. The mere threat of an inroad by the knight was enough to influence Black to make a natural preventive move. It is the sort of move nine out of ten players make automatically in similar situations, which is why it is important to know how to exploit its defects, for no move is weak unless proper advantage is taken of its flaws.\n\n10   0-0\n\nNo violence, please, until the reserves have been brought up. Blackburne used to say, “Never start an attack until your queen’s rook is developed.”\n\nWhite secures the safety of his king and gets one rook out of hiding.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "c6",
+      "text": "Strengthens Black’s pawn-centre and opens another avenue for his queen.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "Rae1",
+      "text": "White seizes the only open file (since rooks belong on open files or on files likely to be opened) and pins the bishop.\n\nIt is worth noting that a pinned piece not only is unable to move but is also powerless to capture. It does not protect any other pieces, since it is completely paralysed.\n\nHence it follows that not only is the bishop immobilized and in danger of its life (as it may be attacked again and again) but the knight that depends on it for protection is no longer secure. Briefly, Black is now threatened with loss of a piece by 12\n\nxf6.",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "O-O",
+      "text": "The king takes refuge in flight, incidentally unpinning the bishop and preserving his knight.\n\nSpielmann’s strategy to this point and the decisive combination that follows would have pleased Lasker, who once said, “In the beginning of the game ignore the search for combinations, abstain from violent moves. Aim for small advantages, accumulate them, and only after having attained these ends search for the combination – and then with all the power of will and intellect, because then the combination must exist, however deeply hidden.”\n\nA glance shows that White has achieved the requisite positional superiority. If there is a combination to be evolved, it must be now, before Black has time to reorganize his pieces for defence. Now, while he has five pieces actively in play against two of Black’s. Now, while he has an open file – enough! enough! The combination must\n\nbe there!\n\nHere is White’s line of reasoning:\n\nBlack’s advance of the g-pawn has deprived the knight of stable support. It is still guarded by two pieces, but if the bishop were not there\n\nit would be defended only once. In fact, if the bishop were not there,\n\nthe knight would be pinned and subject to an enduring attack. The bishop appears in both equations.\n\nObviously the bishop is the culprit, and it must be destroyed! And at once, before Black has time for 12...\n\ne6!",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "Rxe7",
+      "text": "“When we know about the inspiring ideas, how simple the sacrifices appear!” says Znosko-Borovsky.",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "Qxe7",
+      "text": "Black must recapture, leaving the knight pinned and a fine target for further attack.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Qf3",
+      "text": "Putting pressure on the pinned piece, and threatening to take the knight.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "Kg7",
+      "text": "The king comes to the rescue of the knight. Against the alternative defence 13...\n\nf5 Spielmann had this pretty continuation: 14\n\nxf5 gxf5 15\n\ng3(threatening g mate on the move by 16\n\nxf6#) 15...\n\ng7 (or 15...\n\nh8 16\n\nh4\n\ng7 17\n\nh6+\n\ng8 18\n\nxf6 and White wins) 16\n\nxf6++\n\nxf6 17\n\nh4+\n\ne6 18\n\ne1+\n\nd7 19\n\nxe7+\n\nand all Black’s pieces come off.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Nce4",
+      "text": "White must keep hammering at the pinned knight, no matter how many brilliant moves he has to find! Again, White’s immediate threat is simple: 15\n\nxf6+, winning instantaneously.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "dxe4",
+      "text": "Black must take this knight or lose his own.",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Nxe4",
+      "text": "Three pieces now attack the helpless knight. “Chess is not for the kind-hearted,” says the French proverb.\n\nWhite now threatens 16\n\nxf6+ followed by 17\n\nxe7.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "Qe6",
+      "text": "On 15...\n\nxe4 White has the pleasant choice of winning the queen by 16\n\nxf6+ (removing the protector of the queen), followed by 17\n\nxe4, or forcing mate by 16\n\nxf6+\n\ng8 17\n\nh6 followed by 18\n\ng7#.\n\nIn the last line of play, notice how White screws his pieces firmly into the two holes in Black’s position, f6 and h6, the squares no longer guarded by the g-pawn after its advance.\n\nWith his last move, Black saves the queen. He is still ahead in material but has a lost game, as White’s pieces will insinuate themselves along the dark squares to get at the king.\n\n16\n\nxf6+\n\nWhite regains a piece and limits Black’s king to two moves.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Bxf6+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Kg8",
+      "text": "If 16...\n\nh6, then 17\n\nf4+ and mate next move.",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Qf4",
+      "text": "Threatening a final invasion at h6 followed by mate at g7 – triumph on the dark squares.\n\n1-0\n\nBlack, powerless to prevent mate, resigned.",
+      "isCritical": true
+    }
+  ]
+}

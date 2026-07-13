@@ -1,0 +1,217 @@
+{
+  "id": "chernov-002",
+  "book": "chernov",
+  "gameNum": 2,
+  "title": "Game 2: Liubarski vs Soultanbéieff",
+  "section": "The Kingside Attack",
+  "players": {
+    "white": "Liubarski",
+    "black": "Soultanbéieff"
+  },
+  "event": "Liège 1928",
+  "opening": "Giuoco Piano",
+  "eco": "C53",
+  "pgnPath": "data/pgn/chernov/02.pgn",
+  "result": "0-1",
+  "moveCount": 32,
+  "annotatedMoves": 30,
+  "fullText": "Liubarski – Soultanbéieff\n\nLiège 1928\n\nGiuoco Piano\n\n1   e4\n\nOne of the best moves on the board! A pawn occupies the centre, and two pieces are freed for action.\n\nOne hundred and fifty years ago the great Philidor said, “The game cannot better be opened than by advancing the e-pawn two squares.” This advice is still good today.\n\nOnly one other white first move, 1 d4, releases two pieces at the same time.\n\n1   ...     e5\n\n“Probably the best reply,” says Capablanca.\n\nBlack equalizes the pressure in the centre and frees his queen and a bishop.\n\n2\n\nf3\n\nThis is superior to such developing moves as 2\n\nc3 or 2\n\nc4, which are less energetic. The g1-knight comes into play with attack,\n\nwhich cuts down the choice of reply.\n\nBlack must defend his pawn with 2...\n\nc6 or 2...d6 or he may decide to counterattack by 2...\n\nf6.\n\nWhatever his answer, he cannot dawdle. He must do something to meet White’s threat.\n\n2   ...\n\nc6\n\nUndoubtedly the logical move. The pawn is protected without loss of time and the b8-knight is developed to its best post in the opening in one move.\n\n3\n\nc4\n\nExcellent, since the bishop seizes an important diagonal. The bishop strikes at f7, Black’s weakest point.\n\nA bishop is utilized to greatest effect either in controlling an important diagonal or in pinning (and rendering useless) an enemy piece.\n\n3   ...\n\nc5\n\n3...\n\nf6 is a good alternative. Either move is in accord with the maxims of the masters, which they advocate and put to use:\n\nGet your pieces out fast!\n\nMove each piece only once in the opening.\n\nDevelop with a view to control of the centre.\n\nMove only those pawns that facilitate the development of pieces.\n\nMove pieces, not pawns!\n\n4   c3\n\n(D)\n\nWhite’s intentions are clear: he wants to support a pawn advance in the centre. His next move, 5 d4, will attack pawn and bishop. To save his e-pawn, Black will be forced to play 5...exd4. The recapture by 6 cxd4 will give White a strong formation of pawns in the centre.\n\nWhite’s idea has some point if it can be enforced. If the plan fails, his pawn standing at c3 deprives the b1-knight of its most useful square.\n\n4   ...\n\nb6!\n\nChess is not a game to be played mechanically. Usually, moving a piece twice in the opening is a waste of time, but threats must be parried before continuing development.\n\nThe bishop retreats in order to pre-empt White’s contemplated 5 d4, which attacks pawn and bishop.\n\n5   d4\n\n(D)\n\nHoping to induce Black to exchange pawns. Note that Black’s e-pawn is attacked, but not his bishop.\n\n5   ...\n\ne7\n\nInstead of exchanging pawns (as he would have been compelled to do if his bishop were also under attack) Black defends his e-pawn while bringing another piece into play. His queen has advanced only one square, but even so the move is laudable: The act of leaving the back rank constitutes a developing move.\n\nIn addition to developing a piece and defending a pawn, Black’s last move threatens to continue 6...exd4 7 cxd4\n\nxe4+, winning a pawn.\n\n6   0-0\n\nBesides the usual benefits derived from castling (safeguarding the king and mobilizing the rook) White’s move indirectly protects his e-pawn. If Black tries 6...exd4 7 cxd4\n\nxe4, then 8\n\ne1 pins and wins the queen.\n\n6   ...\n\nf6!\n\n(D)\n\nThe knight develops with a threat – attack on the e4-pawn.\n\n7   d5\n\nTempting, as it will dislodge the c6-knight from its strong post.\n\nThe move is natural, but to be censured on several counts:\n\n1) The d-pawn blocks the path of White’s own c4-bishop, greatly limiting its action.\n\n2) The range of Black’s b6-bishop has been increased; now its attack leads straight to White’s king.\n\n3) White has moved a pawn while his queenside pieces are crying to be released.\n\nIn the opening, move only those pawns that help develop the pieces.\n\n7   ...\n\nb8\n\n(D)\n\nRetreat is safer than moving the knight to the side of the board. After 7...\n\na5 White’s response is 8\n\nd3 after which he threatens to win the awkwardly placed knight by 9 b4.\n\n8\n\nd3\n\nDefends the e-pawn, but the development of another piece is more consistent with opening strategy. Either 8\n\nbd2 or 8\n\ne2 protects the pawn while bringing one more piece into play.\n\nDo not move the same piece twice in the opening.\n\nIt is interesting to see how Black punishes these infractions of principle. On the chessboard, if nowhere else, justice does triumph.\n\n8   ...     d6\n\nNo exception can be taken to this pawn move: it strengthens the centre, opens a path for the c8-bishop and relieves the queen of the burden of watching over the e-pawn.\n\n9   h3\n\n(D)\n\nTo prevent Black from pinning his knight by 9...\n\ng4, but as Publius Syrus observed some considerable time ago, “There are some remedies worse than the disease.”\n\nIn disturbing the position of the pawns shielding his king, White weakens organically\n\nthe structure of the kingside castled position and sets up the unfortunate h-pawn itself as a convenient target for direct attack.\n\nAll chess theorists affirm the validity of the concept of leaving the kingside pawns unmoved, from Staunton, who said more than a hundred and forty years ago, “It is seldom prudent in an inexperienced player to advance the pawns on the side on which his king has castled,” to Reuben Fine, who said a century later, “The most essential consideration is that the king must not be subject to attack. He is safest when the three pawns are on their original squares.”\n\nHow does Black take advantage of White’s last move? What is the best way to expose its imperfections?\n\n9   ... h6!\n\nBy playing a move similar to the one I have severely censured!\n\nWhat is the justification for Black’s advance of the h-pawn?\n\nBlack has not weakened his defensive position, since his king is not castled on the kingside. His advance of the h-pawn is a gesture of attack,\n\nnot a timid attempt to ward off a pin. The h-pawn will constitute a base for the g-pawn, which will march up to g5 and then g4. From there it will strike in two directions, at White’s knight and his h3-pawn. White will be compelled either to capture this pawn or let it capture his own h3-pawn. No matter which exchange occurs, it results in an opening up of the g-file, along which Black can align his pieces for an attack on the king.\n\n10\n\ne2\n\nA developing move, but it may be too late.\n\n10   ...     g5!\n\nA bayonet thrust! The next step is to g4, where the pawn will break up White’s position.\n\n11\n\nh2\n\nTo prevent the intended advance. If the pawn moves on, it will be attacked three times and defended only twice.\n\nHas Black’s plan miscarried?\n\n11   ... g4!\n\nNot at all! If necessary, Black will sacrifice a pawn for the sake of ripping away the defensive screen around White’s king.\n\n12   hxg4\n\n(D)\n\nPractically forced, as Black was threatening 12...gxh3, as well as 12...g3.\n\nWhite has managed to close the file, for the time being.\n\n12   ...\n\ng8\n\nNow it is Black who attacks the g-pawn three times, while only two pieces defend it!\n\nObviously, White may not give his pawn more support by 13 f3, as it’s against the law. It exposes his king to check.\n\n13\n\nxh6\n\nDesperately snatching at a loose pawn. In view of his retarded development and the plight of his king, such a capture is risky policy. If any hope remains it lies in some such move as 13\n\ne3. Not only does this bring another piece into play, but also in opposing one force with another of equal strength, it neutralizes the pressure of Black’s bishop. The text-move disregards the admonition:\n\nDo not grab pawns at the expense of development or position.\n\n13   ...\n\nxg4\n\nGaining time by threatening the bishop – among other things.\n\nCan White save the game?\n\nIf he tries 14\n\nxg4, Black forces the win by 14...\n\nxg4 (attacking the queen) 15\n\nc2\n\nf3 (threatening 16...\n\nxg2+ 17\n\nh1\n\nh4#) 16 g3\n\nh4! and mate will come at h1.\n\nIn this line of play, Black skilfully exploits the helplessness of White’s pinned pawns.\n\n14\n\ne3\n\nThe bishop flees and attempts to repel one of the assailants.\n\n14   ...\n\nxh2\n\nThis capture greatly limits White’s choice of reply. The knight has taken a piece and now threatens the rook.\n\n15\n\nxh2\n\nOn the alternative 15\n\nxb6 Black wins by 15...axb6 16\n\nxh2\n\nh4+ 17\n\ng1\n\nxg2+! (the fastest) 18\n\nxg2\n\nh3+! and White must either walk into mate by 19\n\ng1\n\ng5+ 20\n\nh2\n\ng2#, or into a discovered check by 19\n\nh2\n\nxfl+ 20\n\ngl\n\nxe2, when the loss of material is ruinous.\n\n15   ...\n\nh4+\n\nBlack has two major pieces operating with full force on the two open files near the enemy king. The attack plays itself.\n\n16\n\ng1\n\n(D)\n\nWhite’s only move.\n\n16   ...\n\nh3\n\nThreatening mate on the move.\n\n0-1\n\nThere is no defence that will postpone the mate for long:\n\nIf 17 g3, then Black continues 17...\n\nh8 18 f3\n\nxe3+ 19\n\nxe3 (or 19\n\nf2\n\nh1#) 19...\n\nxg3#.\n\nOr if 17 f3, guarding the g-pawn with his queen, then 17...\n\nxe3 + 18\n\nf2\n\nxg2# is mate. Strange that White, who feared the pin so much, should perish by the pin!",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Liubarski – Soultanbéieff\n\nLiège 1928\n\nGiuoco Piano"
+    },
+    {
+      "ply": 1,
+      "san": "e4",
+      "text": "One of the best moves on the board! A pawn occupies the centre, and two pieces are freed for action.\n\nOne hundred and fifty years ago the great Philidor said, “The game cannot better be opened than by advancing the e-pawn two squares.” This advice is still good today.\n\nOnly one other white first move, 1 d4, releases two pieces at the same time.",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "e5",
+      "text": "“Probably the best reply,” says Capablanca.\n\nBlack equalizes the pressure in the centre and frees his queen and a bishop.",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "Nf3",
+      "text": "This is superior to such developing moves as 2\n\nc3 or 2\n\nc4, which are less energetic. The g1-knight comes into play with attack,\n\nwhich cuts down the choice of reply.\n\nBlack must defend his pawn with 2...\n\nc6 or 2...d6 or he may decide to counterattack by 2...\n\nf6.\n\nWhatever his answer, he cannot dawdle. He must do something to meet White’s threat.",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "Nc6",
+      "text": "Undoubtedly the logical move. The pawn is protected without loss of time and the b8-knight is developed to its best post in the opening in one move.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "Bc4",
+      "text": "Excellent, since the bishop seizes an important diagonal. The bishop strikes at f7, Black’s weakest point.\n\nA bishop is utilized to greatest effect either in controlling an important diagonal or in pinning (and rendering useless) an enemy piece.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "Bc5",
+      "text": "3...\n\nf6 is a good alternative. Either move is in accord with the maxims of the masters, which they advocate and put to use:\n\nGet your pieces out fast!\n\nMove each piece only once in the opening.\n\nDevelop with a view to control of the centre.\n\nMove only those pawns that facilitate the development of pieces.\n\nMove pieces, not pawns!",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "c3",
+      "text": "White’s intentions are clear: he wants to support a pawn advance in the centre. His next move, 5 d4, will attack pawn and bishop. To save his e-pawn, Black will be forced to play 5...exd4. The recapture by 6 cxd4 will give White a strong formation of pawns in the centre.\n\nWhite’s idea has some point if it can be enforced. If the plan fails, his pawn standing at c3 deprives the b1-knight of its most useful square.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "Bb6",
+      "text": "Chess is not a game to be played mechanically. Usually, moving a piece twice in the opening is a waste of time, but threats must be parried before continuing development.\n\nThe bishop retreats in order to pre-empt White’s contemplated 5 d4, which attacks pawn and bishop.",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "d4",
+      "text": "Hoping to induce Black to exchange pawns. Note that Black’s e-pawn is attacked, but not his bishop.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "Qe7",
+      "text": "Instead of exchanging pawns (as he would have been compelled to do if his bishop were also under attack) Black defends his e-pawn while bringing another piece into play. His queen has advanced only one square, but even so the move is laudable: The act of leaving the back rank constitutes a developing move.\n\nIn addition to developing a piece and defending a pawn, Black’s last move threatens to continue 6...exd4 7 cxd4\n\nxe4+, winning a pawn.\n\n6   0-0\n\nBesides the usual benefits derived from castling (safeguarding the king and mobilizing the rook) White’s move indirectly protects his e-pawn. If Black tries 6...exd4 7 cxd4\n\nxe4, then 8\n\ne1 pins and wins the queen.",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "Nf6",
+      "text": "The knight develops with a threat – attack on the e4-pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "d5",
+      "text": "Tempting, as it will dislodge the c6-knight from its strong post.\n\nThe move is natural, but to be censured on several counts:\n\n1) The d-pawn blocks the path of White’s own c4-bishop, greatly limiting its action.\n\n2) The range of Black’s b6-bishop has been increased; now its attack leads straight to White’s king.\n\n3) White has moved a pawn while his queenside pieces are crying to be released.\n\nIn the opening, move only those pawns that help develop the pieces.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "Nb8",
+      "text": "Retreat is safer than moving the knight to the side of the board. After 7...\n\na5 White’s response is 8\n\nd3 after which he threatens to win the awkwardly placed knight by 9 b4.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "Bd3",
+      "text": "Defends the e-pawn, but the development of another piece is more consistent with opening strategy. Either 8\n\nbd2 or 8\n\ne2 protects the pawn while bringing one more piece into play.\n\nDo not move the same piece twice in the opening.\n\nIt is interesting to see how Black punishes these infractions of principle. On the chessboard, if nowhere else, justice does triumph.",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "d6",
+      "text": "No exception can be taken to this pawn move: it strengthens the centre, opens a path for the c8-bishop and relieves the queen of the burden of watching over the e-pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "h3",
+      "text": "To prevent Black from pinning his knight by 9...\n\ng4, but as Publius Syrus observed some considerable time ago, “There are some remedies worse than the disease.”\n\nIn disturbing the position of the pawns shielding his king, White weakens organically\n\nthe structure of the kingside castled position and sets up the unfortunate h-pawn itself as a convenient target for direct attack.\n\nAll chess theorists affirm the validity of the concept of leaving the kingside pawns unmoved, from Staunton, who said more than a hundred and forty years ago, “It is seldom prudent in an inexperienced player to advance the pawns on the side on which his king has castled,” to Reuben Fine, who said a century later, “The most essential consideration is that the king must not be subject to attack. He is safest when the three pawns are on their original squares.”\n\nHow does Black take advantage of White’s last move? What is the best way to expose its imperfections?",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "h6",
+      "text": "By playing a move similar to the one I have severely censured!\n\nWhat is the justification for Black’s advance of the h-pawn?\n\nBlack has not weakened his defensive position, since his king is not castled on the kingside. His advance of the h-pawn is a gesture of attack,\n\nnot a timid attempt to ward off a pin. The h-pawn will constitute a base for the g-pawn, which will march up to g5 and then g4. From there it will strike in two directions, at White’s knight and his h3-pawn. White will be compelled either to capture this pawn or let it capture his own h3-pawn. No matter which exchange occurs, it results in an opening up of the g-file, along which Black can align his pieces for an attack on the king.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "Qe2",
+      "text": "A developing move, but it may be too late.",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "g5",
+      "text": "A bayonet thrust! The next step is to g4, where the pawn will break up White’s position.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "Nh2",
+      "text": "To prevent the intended advance. If the pawn moves on, it will be attacked three times and defended only twice.\n\nHas Black’s plan miscarried?",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "g4",
+      "text": "Not at all! If necessary, Black will sacrifice a pawn for the sake of ripping away the defensive screen around White’s king.",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "hxg4",
+      "text": "Practically forced, as Black was threatening 12...gxh3, as well as 12...g3.\n\nWhite has managed to close the file, for the time being.",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "Rg8",
+      "text": "Now it is Black who attacks the g-pawn three times, while only two pieces defend it!\n\nObviously, White may not give his pawn more support by 13 f3, as it’s against the law. It exposes his king to check.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Bxh6",
+      "text": "Desperately snatching at a loose pawn. In view of his retarded development and the plight of his king, such a capture is risky policy. If any hope remains it lies in some such move as 13\n\ne3. Not only does this bring another piece into play, but also in opposing one force with another of equal strength, it neutralizes the pressure of Black’s bishop. The text-move disregards the admonition:\n\nDo not grab pawns at the expense of development or position.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "Nxg4",
+      "text": "Gaining time by threatening the bishop – among other things.\n\nCan White save the game?\n\nIf he tries 14\n\nxg4, Black forces the win by 14...\n\nxg4 (attacking the queen) 15\n\nc2\n\nf3 (threatening 16...\n\nxg2+ 17\n\nh1\n\nh4#) 16 g3\n\nh4! and mate will come at h1.\n\nIn this line of play, Black skilfully exploits the helplessness of White’s pinned pawns.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Be3",
+      "text": "The bishop flees and attempts to repel one of the assailants.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "Nxh2",
+      "text": "This capture greatly limits White’s choice of reply. The knight has taken a piece and now threatens the rook.",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Kxh2",
+      "text": "On the alternative 15\n\nxb6 Black wins by 15...axb6 16\n\nh4+ 17\n\ng1\n\nxg2+! (the fastest) 18\n\nxg2\n\nh3+! and White must either walk into mate by 19\n\ng1\n\ng5+ 20\n\ng2#, or into a discovered check by 19\n\nxfl+ 20\n\ngl\n\nxe2, when the loss of material is ruinous.\n\n15   ...\n\nh4+\n\nBlack has two major pieces operating with full force on the two open files near the enemy king. The attack plays itself.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "Qh4+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Kg1",
+      "text": "White’s only move.",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Qh3",
+      "text": "Threatening mate on the move.\n\n0-1\n\nThere is no defence that will postpone the mate for long:\n\nIf 17 g3, then Black continues 17...\n\nh8 18 f3\n\nxe3+ 19\n\nxe3 (or 19\n\nf2\n\nh1#) 19...\n\nxg3#.\n\nOr if 17 f3, guarding the g-pawn with his queen, then 17...\n\nxe3 + 18\n\nf2\n\nxg2# is mate. Strange that White, who feared the pin so much, should perish by the pin!",
+      "isCritical": true
+    }
+  ]
+}

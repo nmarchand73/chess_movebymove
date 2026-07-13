@@ -1,0 +1,283 @@
+{
+  "id": "chernov-016",
+  "book": "chernov",
+  "gameNum": 16,
+  "title": "Game 16: Tarrasch vs Kurschner",
+  "section": "The Kingside Attack",
+  "players": {
+    "white": "Tarrasch",
+    "black": "Kurschner"
+  },
+  "event": "Nuremberg 1889",
+  "opening": "Queen’s Gambit Accepted",
+  "eco": "D20",
+  "pgnPath": "data/pgn/chernov/16.pgn",
+  "result": "1-0",
+  "moveCount": 43,
+  "annotatedMoves": 40,
+  "fullText": "Tarrasch – Kurschner\n\nNuremberg 1889\n\nQueen’s Gambit Accepted\n\n1   d4\n\nOne of the merits of beginning a game with 1 d4 is that the pawn standing in the centre is protected. It is safe from attack, whereas in openings starting with 1 e4, the e-pawn is more vulnerable.\n\nIn queen’s pawn openings, with the queen firmly backing up the centre pawn, White dictates the tempo. He has the initiative and keeps it for a long time against any defence, any line of play that Black may select. Right from the start, White is given the opportunity to build up his position, with little danger of being bothered by a counterattack, while Black struggles to achieve equality. If Black plays timidly – if he fails to dispute the centre by ...c5 at some stage – his queenside pieces, especially the c8-bishop, will be badly cramped and unable to develop decent activity. If he develops carelessly – moving the same piece several times in the opening or bringing his bishops out before the knights – punishment will come swiftly.\n\nThe purpose of chess being to win, not to entertain the gallery with pretty pictures on the chessboard, it is no wonder that many players prefer the ‘dull, safe Queen’s Gambit’ to the romantic but risky adventures of the kingside gambits.\n\nI venture to say (and this opinion has forty years of research behind it) that the queen’s pawn openings have contributed as many masterpieces and as many genuine brilliancies as did any of the kingside openings.\n\n1   ...     d5\n\nThis is the best way for Black to stabilize the pressure in the centre.\n\nEach side now has a pawn firmly stationed in the middle of the board, occupying one square and attacking two others; each side has released two pieces for action.\n\n2   c4\n\nThe object of this move is to destroy Black’s pawn-centre. First, White offers a pawn to induce Black to surrender the centre. If that does not work, White threatens to dissolve it by 3 cxd5\n\nxd5 4\n\nc3\n\na5 5 e4, and White controls most of the centre.\n\n2   ...     dxc4\n\n(D)\n\nBlack’s idea with this capture is to avoid the constricted positions that are normally his lot in the Queen’s Gambit Declined, but in doing so he has given up a beautifully centralized pawn for a less central one.\n\nAccepting the gambit is perfectly sound, but the resulting play requires great care on Black’s part. Above all, he must not hold on to the extra pawn for too long.\n\n3   e3\n\nA good move, but more to the point is 3\n\nf3 to prevent the counterthrust 3...e5.\n\nWhite plays to release his light-square bishop and recover the pawn at once.\n\n3   ...\n\nf5\n\nBy this, Black hopes to solve the problem of the shut-in c8-bishop, one of the evils the defence is heir to. However, the solution is not quite so simple! The bishop’s absence from the queenside weakens that section of the board and leaves the b-pawn vulnerable. Another drawback in Black’s move is that it violates one of the precepts for sound development:\n\nBring out your knights before the bishops!\n\nInstead of the text-move, Black’s best bet is in counterattack, viz.: 3...e5 4\n\nxc4 (or 4 dxe5\n\nxd1+ 5\n\nxd1\n\ne6) 4...exd4 5 exd4\n\nb4+.\n\nAttempting to hold on to the extra pawn might lead Black into one of the traps prepared for the greedy: 3...b5 4 a4 c6 5 axb5 cxb5 6\n\nf3, and White wins a piece.\n\n4\n\nxc4\n\n(D)\n\nThe recovery of the pawn equalizes the material, but White’s position is slightly superior.\n\n4   ...     e6\n\nA pawn move that contributes to the development of a piece, in this case the f8-bishop, is always in order.\n\nDeveloping one of the knights first is somewhat risky. For instance, 4...\n\nf6 5\n\nb3 threatens to win a pawn by 6\n\nxb7 or 6\n\nxf7+, or if 4...\n\nc6 5\n\nb3\n\na5, then 6\n\nxf7+\n\nd7 7\n\nd5+\n\nc8 8\n\nxf5+\n\nb8 9\n\nxa5, and White wins two pieces.\n\nEven at this early stage White is directing events.\n\n5\n\nb3\n\nWhy does White move his queen instead of getting his knights out?\n\nHis purpose is to punish Black for faulty development. Black’s play has not been normal procedure, and the way to take advantage of his sins is not with routine moves.\n\nWhite’s move, developing a piece with a threat (6\n\nxb7) keeps Black on the run. It does not give him time to consolidate his position.\n\n5   ...\n\ne4\n\nThis looks attractive, since Black protects his b-pawn, and at the same time threatens to play 6...\n\nxg2, winning a rook.\n\nBlack’s move, however, is abnormal and a serious infraction of the opening principle which states:\n\nMove each piece only once in the opening; place it at once on the square where it exerts most power and where it has the greatest freedom of movement.\n\n6   f3\n\nThis move is justified on more than one count. Not only does it parry a threat in an economical way, but it also forces Black to lose a move in the retreat of his bishop. Incidentally, the pawn at f3 will firmly support a later advance of the e3-pawn.\n\n6   ...\n\nc6\n\n(D)\n\nNow we see the results of the bishop’s ill-timed expedition. It stands at c6, depriving the b8-knight of its natural square of development in the opening. Worse yet, it obstructs the c-pawn. If this pawn cannot get to c5 to dispute control of the centre and to open the c-file for Black’s pieces, there is a danger that Black will be smothered.\n\n7\n\ne2\n\n“But the knight belongs on f3!” you must be protesting. So it does, but if it cannot develop at f3, get it into the game somehow! Move it, if only to get it off the back rank! Of course, the same comment applies to the other three knights, too.\n\nWhite is ready to castle and get the h1-rook working.\n\n7   ...\n\nf6\n\nAt last, a normal, reasonable developing move to which no exception can be taken! In nearly every variation of every opening, the king’s knight does its job most effectively at f6 (or f3 for White).\n\n8   e4\n\nThis move has a threefold purpose:\n\n1) to control the centre, by occupying it with pawns;\n\n2) to clear a path for the development of his c1-bishop;\n\n3) to limit further the activities of Black’s c6-bishop.\n\n8  ...\n\ne7\n\nThe only square open to the bishop. If instead 8...\n\nd6, the reply 9 e5 wins a piece for White.\n\nThe back rank is cleared and Black is ready to castle – if White lets him!\n\n9\n\nbc3\n\nBringing another piece into play with gain of tempo. The threat is 10 d5 exd5 11 exd5\n\nd7 12\n\nxb7, and White wins a piece.\n\n9  ...\n\nc8\n\nBlack must guard the b-pawn and put aside any thought of castling for a while.\n\n10  d5\n\n(D)\n\nIn order to drive the bishop back to the second rank.\n\n10  ...    exd5\n\nThis exchange of pawns is inferior to simply retreating the bishop. The opening up of lines favours the side that is better developed, and in this case White will benefit.\n\n11  exd5\n\nThis recapture opens the e-file for the use of White’s major pieces and compels Black’s bishop on c6 to retreat.\n\n11  ...\n\nd7\n\nAnything else loses material.\n\nBefore making his next move, White must decide whether to continue bringing pieces into play or to try exploiting his present lead in development. Thus, he pauses to take stock before committing himself to a definite course of action.\n\nHe has a pawn stationed at d5, which at first glance is doing an excellent job. It prevents Black’s b8-knight from developing at c6, keeps the d7-bishop from coming to e6, and restrains the f6-knight. The pawn does this single-handed, but at a price! In standing at d5 it occupies a square that should be reserved for pieces. Pieces have more mobility than pawns and can attack more readily. Pieces can utilize d5 as a jumping-off square, a point of departure to any part of the board. In fact, the wretched pawn does a disservice in obstructing the diagonal of the bishop and the supporting queen and takes up room on a file which should be open! Better that the d5-square be vacant than that a pawn block traffic there! (And in this last sentence, as we shall see, is the key to White’s problem).\n\nWhat about Black’s prospects?\n\nWith the exception of the f6-knight, his pieces are confined to the first two ranks. His position is a bit crowded, but if he gets a chance to castle and reorganize his forces, it will be hard to subdue him.\n\nWhite must not allow him time to do this. White must not dawdle!\n\n12  d6!\n\nThis energetic thrust opens the diagonal leading to Black’s tender spot, the f7-pawn, clears the d-file for later exploitation by a rook, and vacates the strategically important d5-square for the use of a piece. Meanwhile, the attack on Black’s bishop leaves him no time to breathe!\n\n12  ...\n\nxd6\n\nBetter than 12...cxd6 hemming the bishop in.\n\n13\n\nxf7+\n\nThis will smoke the king out! Once the king moves and loses the privilege of castling, he stands on insecure ground to the end of his days (which may not be far off).\n\n13  ...\n\nd8 (D)\n\nBlack prefers this to 13...\n\nf8 imprisoning the h8-rook.\n\n14\n\ng5\n\nThis pin paralyses Black’s most useful piece. Meanwhile – and this sums up the miserable state of his game – Black’s mighty queen is smothered by his own pieces!\n\n14  ...\n\nc6\n\nBlack’s idea is to develop a piece and give the queen and a8-rook freedom to move – if only to the next square! It is hard to suggest a better move, as every move is inadequate in a losing position. Black might have ventured on a more active defence, such as 14...\n\ne8 followed by 15...\n\nf8, 15...\n\nd7 or 15...\n\nf5. He must try to beat back White’s attacking pieces or get rid of them by exchanges.\n\nThe formula in such cases is:\n\nIn a cramped position try to relieve the pressure by forcing exchanges of pieces.\n\n15\n\ne4\n\nWhite puts more strain on the pinned knight. The threat (and there always is a threat when a pinned piece is attacked more than once) is 16\n\nxf6 gxf6 17\n\nxf6+, and White wins a rook.\n\n15  ...\n\ne7\n\nProtecting the knight once again, and at the same time unpinning it. This is a better defence than 15...\n\ne5, which helps guard the knight but does nothing to relieve the pin. In such situations, the extra defender itself may be on shaky ground and apt to be disturbed. For instance, after 15...\n\ne5 16 f4\n\nd4 17\n\nxd4 (removing one of the knight’s protectors) 17...\n\nxd4 18\n\nc3 Black is embarrassed for a plausible continuation.\n\n16\n\nxf6\n\nWhite does well to remove this rock of defence.\n\n16  ...    gxf6\n\n(D)\n\nBlack takes with the pawn, as he wants to keep both his bishops.\n\nWith his king so well sheltered by pieces, it looks difficult to penetrate Black’s barricades.\n\n17  0-0-0!\n\nMuch more energetic than castling on the other side. White’s king is somewhat exposed, but as compensation his a1-rook has an instant and powerful grip on the open d-file, putting particular pressure on the unfortunate bishop, which now is pinned. The manoeuvre of castling on the queenside gains a tempo for the attack, while White’s king is in little danger, since Black’s development is so backward.\n\nWhite threatens 18\n\ne6 or 18\n\ne6, either of which adds pressure to the pin.\n\n17  ...\n\ne5\n\nNot only to help the bishop but also to play 18...\n\nxf7, removing one of his tormentors.\n\n18\n\nf4\n\nThreatening sudden death by 19\n\ne6#.\n\n18  ...\n\nb8\n\nAn unhappy situation for Black’s queen, but the king needs a flight square.\n\nWhat else was there? If 18...\n\nf8 to free the e7-square for the king, then 19\n\ne6 (threatening 20\n\ne8#) 19...\n\ne7 20\n\nxe5! fxe5 21\n\ne6# mates neatly.\n\n19\n\ne6\n\nWith the queen’s entrance into the enemy camp, the attack gains momentum. White plans a win by 20\n\nxf6 (striking once more at the hapless bishop and threatening 21\n\nxd7+ and quick mate) 20...\n\nxf6 21\n\nxf6+\n\nc8 22\n\nxh8+ and mate next move.\n\n19  ...\n\nf8\n\n(D)\n\nHoping to scare off the bishop, when his f-pawn would be protected by the rook. The alternative 19...\n\nc8 runs into 20\n\nxe5 and the previous win.\n\n20\n\nxf6\n\nIsn’t it remarkable how threats are summoned up as if by magic against a piece that is pinned?\n\n20  ...\n\nd6\n\nInterfering with the rook’s action on the open file and thereby threatening to take the queen.\n\nOther defences promise no favourable results:\n\n1) 20...\n\nxf7 21\n\nxd7+ and mate in two.\n\n2) 20...\n\nxf6 21\n\nxf6+\n\nc8 22\n\nxe5\n\nxf7 23\n\nh8+.\n\n3) 20...\n\nc8 21\n\nxe5\n\nxf7 22\n\ne6#.\n\nWith the text, Black unpins his d7-bishop, guards the e5-knight, attacks the queen and threatens the f7-bishop.\n\n21\n\nxd7\n\nThis one hurts a bit. The knight captures one piece and attacks three others.\n\n21...\n\nxd7\n\nBlack recaptures and disposes of a troublesome piece.\n\n22\n\nhe1\n\nThe doubling of heavy pieces on the open e-file, with the consequent threat of 23\n\ne8+\n\nxe8 24\n\nxe8#, is enough to break anyone’s spirit.\n\n1-0\n\nThe c-pawn cannot move to give the king room because of the reply 23\n\nxd6, and if 22...\n\nc5, then 23\n\ne7+\n\nc8 24\n\nxf8+\n\nxf8 25\n\ne8# is the finishing touch.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Tarrasch – Kurschner\n\nNuremberg 1889\n\nQueen’s Gambit Accepted"
+    },
+    {
+      "ply": 1,
+      "san": "d4",
+      "text": "One of the merits of beginning a game with 1 d4 is that the pawn standing in the centre is protected. It is safe from attack, whereas in openings starting with 1 e4, the e-pawn is more vulnerable.\n\nIn queen’s pawn openings, with the queen firmly backing up the centre pawn, White dictates the tempo. He has the initiative and keeps it for a long time against any defence, any line of play that Black may select. Right from the start, White is given the opportunity to build up his position, with little danger of being bothered by a counterattack, while Black struggles to achieve equality. If Black plays timidly – if he fails to dispute the centre by ...c5 at some stage – his queenside pieces, especially the c8-bishop, will be badly cramped and unable to develop decent activity. If he develops carelessly – moving the same piece several times in the opening or bringing his bishops out before the knights – punishment will come swiftly.\n\nThe purpose of chess being to win, not to entertain the gallery with pretty pictures on the chessboard, it is no wonder that many players prefer the ‘dull, safe Queen’s Gambit’ to the romantic but risky adventures of the kingside gambits.\n\nI venture to say (and this opinion has forty years of research behind it) that the queen’s pawn openings have contributed as many masterpieces and as many genuine brilliancies as did any of the kingside openings.",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "d5",
+      "text": "This is the best way for Black to stabilize the pressure in the centre.\n\nEach side now has a pawn firmly stationed in the middle of the board, occupying one square and attacking two others; each side has released two pieces for action.",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "c4",
+      "text": "The object of this move is to destroy Black’s pawn-centre. First, White offers a pawn to induce Black to surrender the centre. If that does not work, White threatens to dissolve it by 3 cxd5\n\nxd5 4\n\nc3\n\na5 5 e4, and White controls most of the centre.",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "dxc4",
+      "text": "Black’s idea with this capture is to avoid the constricted positions that are normally his lot in the Queen’s Gambit Declined, but in doing so he has given up a beautifully centralized pawn for a less central one.\n\nAccepting the gambit is perfectly sound, but the resulting play requires great care on Black’s part. Above all, he must not hold on to the extra pawn for too long.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "e3",
+      "text": "A good move, but more to the point is 3\n\nf3 to prevent the counterthrust 3...e5.\n\nWhite plays to release his light-square bishop and recover the pawn at once.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "Bf5",
+      "text": "By this, Black hopes to solve the problem of the shut-in c8-bishop, one of the evils the defence is heir to. However, the solution is not quite so simple! The bishop’s absence from the queenside weakens that section of the board and leaves the b-pawn vulnerable. Another drawback in Black’s move is that it violates one of the precepts for sound development:\n\nBring out your knights before the bishops!\n\nInstead of the text-move, Black’s best bet is in counterattack, viz.: 3...e5 4\n\nxc4 (or 4 dxe5\n\nxd1+ 5\n\nxd1\n\ne6) 4...exd4 5 exd4\n\nb4+.\n\nAttempting to hold on to the extra pawn might lead Black into one of the traps prepared for the greedy: 3...b5 4 a4 c6 5 axb5 cxb5 6\n\nf3, and White wins a piece.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "Bxc4",
+      "text": "The recovery of the pawn equalizes the material, but White’s position is slightly superior.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "e6",
+      "text": "A pawn move that contributes to the development of a piece, in this case the f8-bishop, is always in order.\n\nDeveloping one of the knights first is somewhat risky. For instance, 4...\n\nf6 5\n\nb3 threatens to win a pawn by 6\n\nxb7 or 6\n\nxf7+, or if 4...\n\nc6 5\n\nb3\n\na5, then 6\n\nxf7+\n\nd7 7\n\nd5+\n\nc8 8\n\nxf5+\n\nb8 9\n\nxa5, and White wins two pieces.\n\nEven at this early stage White is directing events.",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "Qb3",
+      "text": "Why does White move his queen instead of getting his knights out?\n\nHis purpose is to punish Black for faulty development. Black’s play has not been normal procedure, and the way to take advantage of his sins is not with routine moves.\n\nWhite’s move, developing a piece with a threat (6\n\nxb7) keeps Black on the run. It does not give him time to consolidate his position.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "Be4",
+      "text": "This looks attractive, since Black protects his b-pawn, and at the same time threatens to play 6...\n\nxg2, winning a rook.\n\nBlack’s move, however, is abnormal and a serious infraction of the opening principle which states:\n\nMove each piece only once in the opening; place it at once on the square where it exerts most power and where it has the greatest freedom of movement.",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "f3",
+      "text": "This move is justified on more than one count. Not only does it parry a threat in an economical way, but it also forces Black to lose a move in the retreat of his bishop. Incidentally, the pawn at f3 will firmly support a later advance of the e3-pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "Bc6",
+      "text": "Now we see the results of the bishop’s ill-timed expedition. It stands at c6, depriving the b8-knight of its natural square of development in the opening. Worse yet, it obstructs the c-pawn. If this pawn cannot get to c5 to dispute control of the centre and to open the c-file for Black’s pieces, there is a danger that Black will be smothered.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "Ne2",
+      "text": "“But the knight belongs on f3!” you must be protesting. So it does, but if it cannot develop at f3, get it into the game somehow! Move it, if only to get it off the back rank! Of course, the same comment applies to the other three knights, too.\n\nWhite is ready to castle and get the h1-rook working.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "Nf6",
+      "text": "At last, a normal, reasonable developing move to which no exception can be taken! In nearly every variation of every opening, the king’s knight does its job most effectively at f6 (or f3 for White).",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "e4",
+      "text": "This move has a threefold purpose:\n\n1) to control the centre, by occupying it with pawns;\n\n2) to clear a path for the development of his c1-bishop;\n\n3) to limit further the activities of Black’s c6-bishop.",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "Be7",
+      "text": "The only square open to the bishop. If instead 8...\n\nd6, the reply 9 e5 wins a piece for White.\n\nThe back rank is cleared and Black is ready to castle – if White lets him!",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "Nbc3",
+      "text": "Bringing another piece into play with gain of tempo. The threat is 10 d5 exd5 11 exd5\n\nd7 12\n\nxb7, and White wins a piece.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "Qc8",
+      "text": "Black must guard the b-pawn and put aside any thought of castling for a while.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "d5",
+      "text": "In order to drive the bishop back to the second rank.",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "exd5",
+      "text": "This exchange of pawns is inferior to simply retreating the bishop. The opening up of lines favours the side that is better developed, and in this case White will benefit.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "exd5",
+      "text": "This recapture opens the e-file for the use of White’s major pieces and compels Black’s bishop on c6 to retreat.",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "Bd7",
+      "text": "Anything else loses material.\n\nBefore making his next move, White must decide whether to continue bringing pieces into play or to try exploiting his present lead in development. Thus, he pauses to take stock before committing himself to a definite course of action.\n\nHe has a pawn stationed at d5, which at first glance is doing an excellent job. It prevents Black’s b8-knight from developing at c6, keeps the d7-bishop from coming to e6, and restrains the f6-knight. The pawn does this single-handed, but at a price! In standing at d5 it occupies a square that should be reserved for pieces. Pieces have more mobility than pawns and can attack more readily. Pieces can utilize d5 as a jumping-off square, a point of departure to any part of the board. In fact, the wretched pawn does a disservice in obstructing the diagonal of the bishop and the supporting queen and takes up room on a file which should be open! Better that the d5-square be vacant than that a pawn block traffic there! (And in this last sentence, as we shall see, is the key to White’s problem).\n\nWhat about Black’s prospects?\n\nWith the exception of the f6-knight, his pieces are confined to the first two ranks. His position is a bit crowded, but if he gets a chance to castle and reorganize his forces, it will be hard to subdue him.\n\nWhite must not allow him time to do this. White must not dawdle!",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "d6",
+      "text": "This energetic thrust opens the diagonal leading to Black’s tender spot, the f7-pawn, clears the d-file for later exploitation by a rook, and vacates the strategically important d5-square for the use of a piece. Meanwhile, the attack on Black’s bishop leaves him no time to breathe!",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "Bxd6",
+      "text": "Better than 12...cxd6 hemming the bishop in.\n\n13\n\nxf7+\n\nThis will smoke the king out! Once the king moves and loses the privilege of castling, he stands on insecure ground to the end of his days (which may not be far off).\n\n13  ...\n\nd8 (D)\n\nBlack prefers this to 13...\n\nf8 imprisoning the h8-rook.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Bxf7+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "Kd8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Bg5",
+      "text": "This pin paralyses Black’s most useful piece. Meanwhile – and this sums up the miserable state of his game – Black’s mighty queen is smothered by his own pieces!",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "Nc6",
+      "text": "Black’s idea is to develop a piece and give the queen and a8-rook freedom to move – if only to the next square! It is hard to suggest a better move, as every move is inadequate in a losing position. Black might have ventured on a more active defence, such as 14...\n\ne8 followed by 15...\n\nf8, 15...\n\nd7 or 15...\n\nf5. He must try to beat back White’s attacking pieces or get rid of them by exchanges.\n\nThe formula in such cases is:\n\nIn a cramped position try to relieve the pressure by forcing exchanges of pieces.",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Ne4",
+      "text": "White puts more strain on the pinned knight. The threat (and there always is a threat when a pinned piece is attacked more than once) is 16\n\nxf6 gxf6 17\n\nxf6+, and White wins a rook.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "Be7",
+      "text": "Protecting the knight once again, and at the same time unpinning it. This is a better defence than 15...\n\ne5, which helps guard the knight but does nothing to relieve the pin. In such situations, the extra defender itself may be on shaky ground and apt to be disturbed. For instance, after 15...\n\ne5 16 f4\n\nd4 17\n\nxd4 (removing one of the knight’s protectors) 17...\n\nxd4 18\n\nc3 Black is embarrassed for a plausible continuation.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Bxf6",
+      "text": "White does well to remove this rock of defence.",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "gxf6",
+      "text": "Black takes with the pawn, as he wants to keep both his bishops.\n\nWith his king so well sheltered by pieces, it looks difficult to penetrate Black’s barricades.\n\n17  0-0-0!\n\nMuch more energetic than castling on the other side. White’s king is somewhat exposed, but as compensation his a1-rook has an instant and powerful grip on the open d-file, putting particular pressure on the unfortunate bishop, which now is pinned. The manoeuvre of castling on the queenside gains a tempo for the attack, while White’s king is in little danger, since Black’s development is so backward.\n\nWhite threatens 18\n\ne6 or 18\n\ne6, either of which adds pressure to the pin.",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "O-O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Ne5",
+      "text": "Not only to help the bishop but also to play 18...\n\nxf7, removing one of his tormentors.",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "Nf4",
+      "text": "Threatening sudden death by 19\n\ne6#.",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "Qb8",
+      "text": "An unhappy situation for Black’s queen, but the king needs a flight square.\n\nWhat else was there? If 18...\n\nf8 to free the e7-square for the king, then 19\n\ne6 (threatening 20\n\ne8#) 19...\n\ne7 20\n\nxe5! fxe5 21\n\ne6# mates neatly.",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "Qe6",
+      "text": "With the queen’s entrance into the enemy camp, the attack gains momentum. White plans a win by 20\n\nxf6 (striking once more at the hapless bishop and threatening 21\n\nxd7+ and quick mate) 20...\n\nxf6 21\n\nxf6+\n\nc8 22\n\nxh8+ and mate next move.",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "Rf8",
+      "text": "Hoping to scare off the bishop, when his f-pawn would be protected by the rook. The alternative 19...\n\nc8 runs into 20\n\nxe5 and the previous win.",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "Nxf6",
+      "text": "Isn’t it remarkable how threats are summoned up as if by magic against a piece that is pinned?",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "Bd6",
+      "text": "Interfering with the rook’s action on the open file and thereby threatening to take the queen.\n\nOther defences promise no favourable results:\n\n1) 20...\n\nxf7 21\n\nxd7+ and mate in two.\n\n2) 20...\n\nxf6 21\n\nxf6+\n\nc8 22\n\nxe5\n\nxf7 23\n\nh8+.\n\n3) 20...\n\nc8 21\n\nxe5\n\nxf7 22\n\ne6#.\n\nWith the text, Black unpins his d7-bishop, guards the e5-knight, attacks the queen and threatens the f7-bishop.",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "Nxd7",
+      "text": "This one hurts a bit. The knight captures one piece and attacks three others.",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "Nxd7",
+      "text": "Black recaptures and disposes of a troublesome piece.",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "Rhe1",
+      "text": "The doubling of heavy pieces on the open e-file, with the consequent threat of 23\n\ne8+\n\nxe8 24\n\nxe8#, is enough to break anyone’s spirit.\n\n1-0\n\nThe c-pawn cannot move to give the king room because of the reply 23\n\nxd6, and if 22...\n\nc5, then 23\n\ne7+\n\nc8 24\n\nxf8+\n\nxf8 25\n\ne8# is the finishing touch.",
+      "isCritical": true
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "id": "chernov-004",
+  "book": "chernov",
+  "gameNum": 4,
+  "title": "Game 4: Blackburne vs Blanchard",
+  "section": "The Kingside Attack",
+  "players": {
+    "white": "Blackburne",
+    "black": "Blanchard"
+  },
+  "event": "London 1891",
+  "opening": "King’s Gambit Declined",
+  "eco": "C30",
+  "pgnPath": "data/pgn/chernov/04.pgn",
+  "result": "1-0",
+  "moveCount": 35,
+  "annotatedMoves": 30,
+  "fullText": "Blackburne – Blanchard\n\nLondon 1891\n\nKing’s Gambit Declined\n\n1   e4\n\nValues were constant in many fields of endeavour at the time this game was played:\n\nStories began, “Once upon a time,”\n\nTic-tac-toe players put a cross in the central square,\n\nChecker masters started with 11-15,\n\nChess masters opened with 1 e4.\n\nDespite the researches of the scientists, these remain good beginnings.\n\n1   ...     e5\n\nBlack opens lines for two of his pieces and establishes equilibrium in the centre.\n\n2   f4\n\nAn offer of a pawn to induce Black to surrender his share of the centre.\n\nAccepting the gift enables White to continue with 3\n\nf3, followed by 4 d4, and dominate the centre with his pawns. In addition, the opening of the f-file will offer White the opportunity of directing his attack at the vulnerable point f7. This is a tender spot whether Black’s king stays at home or castles.\n\n2   ...\n\nc5\n\n(D)\n\nProbably the safest way to decline the gambit:\n\n1) The bishop bears down on the centre and controls an excellent diagonal.\n\n2) The bishop supplements the pawn’s attack on d4 and prevents White from moving his d-pawn to d4.\n\n3) The bishop’s presence at c5, overlooking gl, forbids White from castling in a hurry.\n\n3\n\nc3\n\nWhite avoids 3 fxe5 because the reply (coming like a shot, probably) 3...\n\nh4 + 4 g3 (even worse is 4\n\ne2\n\nxe4#) 4...\n\nxe4+ wins a rook for Black.\n\nWhite’s actual move is not as energetic as 3\n\nf3, but in playing 3\n\nc3 Blackburne was trying to lure his opponent into playing 3....\n\nxgl 4\n\nxgl\n\nh4+ 5 g3\n\nxh2, when 6\n\ng2 followed by 7 fxe5 gives White a fine game.\n\n3   ...\n\nc6\n\nA simple retort to the dubious invitation.\n\nBlack continues mustering his forces on the field of action. In the fight for control of the centre, his knight does its share by exerting pressure on the squares e5 and d4.\n\n4\n\nf3\n\nDid White miss a chance to win material by 4 fxe5\n\nxe5 5 d4? No, because 4 fxe5 is met by 4...d6, whereby Black offers a pawn for the sake of securing a free, easy development.\n\nThe text-move puts an end to the possibility of being bothered by a queen check and revives the threat of winning the e-pawn.\n\n4   ...     exf4\n\n(D)\n\nThis is a poor move on at least four counts:\n\n1) In moving a pawn instead of a piece, Black loses sight of the chief objective in all opening strategy: Move the pieces! Get them off the back rank and on the job!\n\n2) He surrenders his hold on the centre and the privileges it confers.\n\n3) He wastes time capturing a pawn which he cannot retain.\n\n4) He permits White to seize the centre next move, which forces a retreat by his bishop and a consequent loss of time.\n\nTarrasch considered a move such as the one just made by Black a worse offence than an outright blunder, such as leaving a piece en prise.\n\nInstead of this, Black might better have played 4...d6, which holds everything and lets the c8-bishop see daylight.\n\n5   d4!\n\nOf course! No player should take more than half a second to see the power of this pawn push! The pawn seizes control of a good bit of the centre (occupying d4 and attacking two other important squares), dislodges the bishop from its strong position, and uncovers an attack by his own c1-bishop on the f4-pawn.\n\n5   ...\n\nb4\n\nIt would have been sounder strategy to retreat to e7 instead, where the bishop is invaluable for defence.\n\n6\n\nxf4\n\nWhite gains a tempo with this capture, as he recovers the lost pawn and develops a piece at the same time.\n\n6   ...     d5\n\nBlack attacks the white e-pawn, disputing possession of the centre. Meanwhile, Black gives his queenside pieces more air.\n\n7   e5\n\nAll pawn moves have positive and negative aspects. (Tarrasch used to say, “Every pawn move loosens the position”)\n\nOne drawback for White in the advance of his e-pawn is that the occupation of e5 by a pawn deprives his pieces of a useful square. The knight especially operates to great advantage when posted at e5.\n\nIn compensation, the pawn exercises a cramping effect on Black’s entire position and imposes particular restraint on Black’s king’s knight, which cannot develop naturally at f6.\n\n7   ...\n\nxc3+\n\nBlack is intrigued by the prospect of saddling Blackburne with a doubled pawn, but why capture a piece that is pinned and can do no harm? Why relax the pressure at all?\n\nA more commendable procedure was to bring up the reserves, starting with 7...\n\nf5.\n\n8   bxc3\n\nIn return for the handicap of the doubled pawns (little enough, since the advance c4 forces an exchange and undoubles the pawns) White enjoys advantages in his two bishops and in the open b-file which his rook will put to good use.\n\n8   ...\n\ne6\n\n(D)\n\nA superficial move, as the bishop could develop to greater effect at f5. There it would hinder White from freely posting his bishop at d3, except at the cost of permitting the bishops to be exchanged.\n\nDeveloping the pieces to squares where they are most effective assures an advantage; preventing the opponent from doing likewise increases it.\n\nIt is important to fight for control of the vital squares.\n\n9\n\nd3\n\nClearly an excellent deployment: the bishop reaches out in two directions, ready to take a hand on either side of the board.\n\n9   ...     h6\n\nApparently to prevent 10\n\ng5 or 10\n\ng5.\n\nWhite, who is interested only in completing his development, has not the slightest intention of making either of these moves.\n\nThe move ...h6 by Black (or h3 by White) should be played only if the h-pawn is to form a base for an attack by pawns, i.e. if it supports an advance by the g-pawn. Defensively, the move does more harm than good, as it loosens the pawn structure and weakens its resistance to attack. It is especially dangerous if the king has castled on the kingside, as the pawn itself, standing out from the ranks, provides a convenient target. Also (as if the foregoing were not enough) it does nothing to further the cause of development and wastes time which should be devoted to the liberation of pieces which are still shut in.\n\n10   0-0\n\nAt one stroke White secures the safety of his king and brings his rook on to an open file. It is true that the file is cluttered up by a knight and bishop, which interfere with the rook’s influence, but they are pieces, not pawns, and can move quickly out of the way.\n\n10   ...\n\nge7\n\n(D)\n\nNot the happiest spot for the knight, but how else can it get into the game? Poor as this development is, it is by far preferable to letting the knight stay uselessly at home.\n\n11\n\nb1!\n\nThe master makes this move in a flash, while the run-of-the-mill player never even looks at it!\n\nWhat is the rook’s future on this file? It attacks a pawn, but the pawn is easily protected. Why not try for a kingside attack, instead of this futile demonstration?\n\nThe answer lies in this: the master’s instinct (or perhaps his knowledge or experience) tells him that he must seize any files that are open – control them at once with his rooks or his queen. “Make the moves,” it says, “that conform with the requirements of the position, and you will be suitably rewarded. Play the moves necessary to establish a superior position! Develop your pieces so that they enjoy maximum mobility, and control most of the territory. Direct your efforts to weakening the enemy position, cramping the movements of his pieces, and reducing the capacity of his resistance before you make the first move of a combination. When the time is ripe, the attack will play itself. The decisive combination will stare you in the face.”\n\n11   ... b6\n\nThis too is a move that distinguishes the master from the amateur!\n\nHow easy it is to advance the pawn, safeguard it from attack, and let the rook bite on granite! Obvious as this defence is, no top-ranking player would rush to adopt it! He would try to avoid disturbing the pawn formation and consider instead such alternatives as 11...\n\nb8 or 11...\n\nc8.\n\nAfter the actual move, the light squares on Black’s queenside have been weakened. More to the point, the advance of the pawn deprives the c6-knight of solid support – a circumstance that White will exploit in his forthcoming attack on the king, away over at the other side of the board.\n\n12\n\nd2\n\nThe queen leaves the first rank to enable the rooks to get in touch with each other. They may wish to increase the pressure on an open file by doubling on it, or otherwise work in concert.\n\nThe full meaning of White’s queen move might easily be overlooked by an opponent who makes plausible but superficial replies.\n\nChess must not be played mechanically, even in the simplest, most placid positions.\n\n12   ...     0-0 (D)\n\nWalking right into the teeth of the storm!\n\nBefore making a move that suggests itself so readily, Black might have asked himself, “How can I exploit White’s one weakness, the doubled pawns on the c-file?”\n\nHe might then have hit upon 12...\n\na5, with the object of swinging the knight to c4. There it blockades the doubled pawn, interferes with the free movement of White’s pieces, and in general sticks like a bone in the throat. White could capture the knight, but then he parts with one of his valuable bishops, and as a result of the exchange his pawn position would be inferior to Black’s. Finally, Black could\n\nthen anchor one of his pieces to great effect on d5, a square from which it could never be evicted by pawns.\n\n13\n\nxh6\n\nBlackburne must have snatched this pawn up at lightning speed!\n\nAt the price of a bishop, he immediately gets two pawns as material return, demolishes the barricade of pawns near the king – and more, as we shall see.\n\n13   ...     gxh6\n\nBlack must capture the bishop, or be a pawn down without any positional compensation.\n\n14\n\nxh6\n\nLet us see what White’s return is for the piece that he sacrificed:\n\n1) He has two pawns in tangible assets.\n\n2) His queen is powerfully placed in enemy territory – threatening mate on the move, in fact!\n\n3) He has ripped away the screen of pawns that sheltered Black’s king.\n\n4) He has a strong attack in prospect, starting with 15\n\ng5.\n\n5) If more help is needed, he can call up the reserves (after 15\n\ng5) by 16\n\nf3, followed by 17\n\ng3.\n\n14   ...\n\ng6\n\n(D)\n\nWas there any other defence?\n\n1) 14...\n\nf5 (to interfere with the action of the bishop), then 15\n\nxf5\n\nxf5 16\n\nxc6 picks up the unprotected knight on the queenside, a consequence of Black’s instinctive advance of his b-pawn at his eleventh move.\n\n2) 14...\n\nf5 15\n\nxf5\n\nxf5 16\n\nxc6, and again White scoops up the unfortunate knight.\n\n3) 14...f5 leaves Black’s bishop en prise.\n\nWhite would capture it following Tartakower’s excellent advice: “Take it first and philosophize afterward!”\n\n15\n\ng5\n\nAgain threatening mate at h7. This is speedier than the brutal alternative 15\n\nxg6 fxg6 16\n\nxg6+ followed by 17\n\nxe6, which wins material, and eventually the game.\n\nBlackburne heeds the injunction laid down by Baron von Heydebrand und der Lasa, who flourished in the nineteenth century: “The simplest and the shortest way of winning is the best way.”\n\n15   ...\n\ne8\n\n(D)\n\nThe rook provides the king with a flight square.\n\n16\n\nxf7\n\nAgain there is a pleasant choice of winning methods: two others are 16\n\nxg6 and if 16...fxg6, then 17\n\nh7#; and 16\n\nh7, followed by 17\n\nf6+ and a quick mate.\n\nThe move actually made nails down the king and renews the threat of mate on the move.\n\n16   ...\n\nxf7\n\nForced, if Black wants to avoid resigning.\n\n17\n\nh7+\n\nNudging the king into a fatal situation.\n\n17   ...\n\nf8\n\nThe only move.\n\n18\n\nxf7# (1-0)\n\nThe danger in playing plausible but perfunctory chess is finely illustrated in this game. Blackburne, who played this and seven other games simultaneously while blindfolded, relied on order and method to achieve victory. It proved easily superior to the move-to-move groping of his sighted opponent.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Blackburne – Blanchard\n\nLondon 1891\n\nKing’s Gambit Declined"
+    },
+    {
+      "ply": 1,
+      "san": "e4",
+      "text": "Values were constant in many fields of endeavour at the time this game was played:\n\nStories began, “Once upon a time,”\n\nTic-tac-toe players put a cross in the central square,\n\nChecker masters started with 11-15,\n\nChess masters opened with 1 e4.\n\nDespite the researches of the scientists, these remain good beginnings.",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "e5",
+      "text": "Black opens lines for two of his pieces and establishes equilibrium in the centre.",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "f4",
+      "text": "An offer of a pawn to induce Black to surrender his share of the centre.\n\nAccepting the gift enables White to continue with 3\n\nf3, followed by 4 d4, and dominate the centre with his pawns. In addition, the opening of the f-file will offer White the opportunity of directing his attack at the vulnerable point f7. This is a tender spot whether Black’s king stays at home or castles.",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "Bc5",
+      "text": "Probably the safest way to decline the gambit:\n\n1) The bishop bears down on the centre and controls an excellent diagonal.\n\n2) The bishop supplements the pawn’s attack on d4 and prevents White from moving his d-pawn to d4.\n\n3) The bishop’s presence at c5, overlooking gl, forbids White from castling in a hurry.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "Nc3",
+      "text": "White avoids 3 fxe5 because the reply (coming like a shot, probably) 3...\n\nh4 + 4 g3 (even worse is 4\n\ne2\n\nxe4#) 4...\n\nxe4+ wins a rook for Black.\n\nWhite’s actual move is not as energetic as 3\n\nf3, but in playing 3\n\nc3 Blackburne was trying to lure his opponent into playing 3....\n\nxgl 4\n\nxgl\n\nh4+ 5 g3\n\nxh2, when 6\n\ng2 followed by 7 fxe5 gives White a fine game.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "Nc6",
+      "text": "A simple retort to the dubious invitation.\n\nBlack continues mustering his forces on the field of action. In the fight for control of the centre, his knight does its share by exerting pressure on the squares e5 and d4.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "Nf3",
+      "text": "Did White miss a chance to win material by 4 fxe5\n\nxe5 5 d4? No, because 4 fxe5 is met by 4...d6, whereby Black offers a pawn for the sake of securing a free, easy development.\n\nThe text-move puts an end to the possibility of being bothered by a queen check and revives the threat of winning the e-pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "exf4",
+      "text": "This is a poor move on at least four counts:\n\n1) In moving a pawn instead of a piece, Black loses sight of the chief objective in all opening strategy: Move the pieces! Get them off the back rank and on the job!\n\n2) He surrenders his hold on the centre and the privileges it confers.\n\n3) He wastes time capturing a pawn which he cannot retain.\n\n4) He permits White to seize the centre next move, which forces a retreat by his bishop and a consequent loss of time.\n\nTarrasch considered a move such as the one just made by Black a worse offence than an outright blunder, such as leaving a piece en prise.\n\nInstead of this, Black might better have played 4...d6, which holds everything and lets the c8-bishop see daylight.",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "d4",
+      "text": "Of course! No player should take more than half a second to see the power of this pawn push! The pawn seizes control of a good bit of the centre (occupying d4 and attacking two other important squares), dislodges the bishop from its strong position, and uncovers an attack by his own c1-bishop on the f4-pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "Bb4",
+      "text": "It would have been sounder strategy to retreat to e7 instead, where the bishop is invaluable for defence.",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "Bxf4",
+      "text": "White gains a tempo with this capture, as he recovers the lost pawn and develops a piece at the same time.",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "d5",
+      "text": "Black attacks the white e-pawn, disputing possession of the centre. Meanwhile, Black gives his queenside pieces more air.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "e5",
+      "text": "All pawn moves have positive and negative aspects. (Tarrasch used to say, “Every pawn move loosens the position”)\n\nOne drawback for White in the advance of his e-pawn is that the occupation of e5 by a pawn deprives his pieces of a useful square. The knight especially operates to great advantage when posted at e5.\n\nIn compensation, the pawn exercises a cramping effect on Black’s entire position and imposes particular restraint on Black’s king’s knight, which cannot develop naturally at f6.\n\n7   ...\n\nxc3+\n\nBlack is intrigued by the prospect of saddling Blackburne with a doubled pawn, but why capture a piece that is pinned and can do no harm? Why relax the pressure at all?\n\nA more commendable procedure was to bring up the reserves, starting with 7...\n\nf5.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "Bxc3+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "bxc3",
+      "text": "In return for the handicap of the doubled pawns (little enough, since the advance c4 forces an exchange and undoubles the pawns) White enjoys advantages in his two bishops and in the open b-file which his rook will put to good use.",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "Be6",
+      "text": "A superficial move, as the bishop could develop to greater effect at f5. There it would hinder White from freely posting his bishop at d3, except at the cost of permitting the bishops to be exchanged.\n\nDeveloping the pieces to squares where they are most effective assures an advantage; preventing the opponent from doing likewise increases it.\n\nIt is important to fight for control of the vital squares.",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "Bd3",
+      "text": "Clearly an excellent deployment: the bishop reaches out in two directions, ready to take a hand on either side of the board.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "h6",
+      "text": "Apparently to prevent 10\n\ng5 or 10\n\ng5.\n\nWhite, who is interested only in completing his development, has not the slightest intention of making either of these moves.\n\nThe move ...h6 by Black (or h3 by White) should be played only if the h-pawn is to form a base for an attack by pawns, i.e. if it supports an advance by the g-pawn. Defensively, the move does more harm than good, as it loosens the pawn structure and weakens its resistance to attack. It is especially dangerous if the king has castled on the kingside, as the pawn itself, standing out from the ranks, provides a convenient target. Also (as if the foregoing were not enough) it does nothing to further the cause of development and wastes time which should be devoted to the liberation of pieces which are still shut in.\n\n10   0-0\n\nAt one stroke White secures the safety of his king and brings his rook on to an open file. It is true that the file is cluttered up by a knight and bishop, which interfere with the rook’s influence, but they are pieces, not pawns, and can move quickly out of the way.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "Nge7",
+      "text": "Not the happiest spot for the knight, but how else can it get into the game? Poor as this development is, it is by far preferable to letting the knight stay uselessly at home.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "Rb1",
+      "text": "The master makes this move in a flash, while the run-of-the-mill player never even looks at it!\n\nWhat is the rook’s future on this file? It attacks a pawn, but the pawn is easily protected. Why not try for a kingside attack, instead of this futile demonstration?\n\nThe answer lies in this: the master’s instinct (or perhaps his knowledge or experience) tells him that he must seize any files that are open – control them at once with his rooks or his queen. “Make the moves,” it says, “that conform with the requirements of the position, and you will be suitably rewarded. Play the moves necessary to establish a superior position! Develop your pieces so that they enjoy maximum mobility, and control most of the territory. Direct your efforts to weakening the enemy position, cramping the movements of his pieces, and reducing the capacity of his resistance before you make the first move of a combination. When the time is ripe, the attack will play itself. The decisive combination will stare you in the face.”",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "b6",
+      "text": "This too is a move that distinguishes the master from the amateur!\n\nHow easy it is to advance the pawn, safeguard it from attack, and let the rook bite on granite! Obvious as this defence is, no top-ranking player would rush to adopt it! He would try to avoid disturbing the pawn formation and consider instead such alternatives as 11...\n\nb8 or 11...\n\nc8.\n\nAfter the actual move, the light squares on Black’s queenside have been weakened. More to the point, the advance of the pawn deprives the c6-knight of solid support – a circumstance that White will exploit in his forthcoming attack on the king, away over at the other side of the board.",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "Qd2",
+      "text": "The queen leaves the first rank to enable the rooks to get in touch with each other. They may wish to increase the pressure on an open file by doubling on it, or otherwise work in concert.\n\nThe full meaning of White’s queen move might easily be overlooked by an opponent who makes plausible but superficial replies.\n\nChess must not be played mechanically, even in the simplest, most placid positions.\n\n12   ...     0-0 (D)\n\nWalking right into the teeth of the storm!\n\nBefore making a move that suggests itself so readily, Black might have asked himself, “How can I exploit White’s one weakness, the doubled pawns on the c-file?”\n\nHe might then have hit upon 12...\n\na5, with the object of swinging the knight to c4. There it blockades the doubled pawn, interferes with the free movement of White’s pieces, and in general sticks like a bone in the throat. White could capture the knight, but then he parts with one of his valuable bishops, and as a result of the exchange his pawn position would be inferior to Black’s. Finally, Black could\n\nthen anchor one of his pieces to great effect on d5, a square from which it could never be evicted by pawns.",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Bxh6",
+      "text": "Blackburne must have snatched this pawn up at lightning speed!\n\nAt the price of a bishop, he immediately gets two pawns as material return, demolishes the barricade of pawns near the king – and more, as we shall see.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "gxh6",
+      "text": "Black must capture the bishop, or be a pawn down without any positional compensation.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Qxh6",
+      "text": "Let us see what White’s return is for the piece that he sacrificed:\n\n1) He has two pawns in tangible assets.\n\n2) His queen is powerfully placed in enemy territory – threatening mate on the move, in fact!\n\n3) He has ripped away the screen of pawns that sheltered Black’s king.\n\n4) He has a strong attack in prospect, starting with 15\n\ng5.\n\n5) If more help is needed, he can call up the reserves (after 15\n\ng5) by 16\n\nf3, followed by 17\n\ng3.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "Ng6",
+      "text": "Was there any other defence?\n\n1) 14...\n\nf5 (to interfere with the action of the bishop), then 15\n\nxf5\n\nxf5 16\n\nxc6 picks up the unprotected knight on the queenside, a consequence of Black’s instinctive advance of his b-pawn at his eleventh move.\n\n2) 14...\n\nf5 15\n\nxf5\n\nxf5 16\n\nxc6, and again White scoops up the unfortunate knight.\n\n3) 14...f5 leaves Black’s bishop en prise.\n\nWhite would capture it following Tartakower’s excellent advice: “Take it first and philosophize afterward!”",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Ng5",
+      "text": "Again threatening mate at h7. This is speedier than the brutal alternative 15\n\nxg6 fxg6 16\n\nxg6+ followed by 17\n\nxe6, which wins material, and eventually the game.\n\nBlackburne heeds the injunction laid down by Baron von Heydebrand und der Lasa, who flourished in the nineteenth century: “The simplest and the shortest way of winning is the best way.”",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "Re8",
+      "text": "The rook provides the king with a flight square.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Rxf7",
+      "text": "Again there is a pleasant choice of winning methods: two others are 16\n\nxg6 and if 16...fxg6, then 17\n\nh7#; and 16\n\nh7, followed by 17\n\nf6+ and a quick mate.\n\nThe move actually made nails down the king and renews the threat of mate on the move.",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Bxf7",
+      "text": "Forced, if Black wants to avoid resigning.\n\n17\n\nh7+\n\nNudging the king into a fatal situation.",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Qh7+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Kf8",
+      "text": "The only move.\n\n18\n\nxf7# (1-0)\n\nThe danger in playing plausible but perfunctory chess is finely illustrated in this game. Blackburne, who played this and seven other games simultaneously while blindfolded, relied on order and method to achieve victory. It proved easily superior to the move-to-move groping of his sighted opponent.",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "Qxf7#",
+      "text": "",
+      "isCritical": true
+    }
+  ]
+}

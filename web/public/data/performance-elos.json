@@ -1,0 +1,200 @@
+{
+  "chernov-001": {
+    "white": 2010,
+    "black": 1925,
+    "whiteAcpl": 28,
+    "blackAcpl": 25
+  },
+  "chernov-002": {
+    "white": 1247,
+    "black": 3294,
+    "whiteAcpl": 66,
+    "blackAcpl": 6
+  },
+  "chernov-003": {
+    "white": 3181,
+    "black": 1663,
+    "whiteAcpl": 11,
+    "blackAcpl": 497
+  },
+  "chernov-004": {
+    "white": 2907,
+    "black": 1543,
+    "whiteAcpl": 17,
+    "blackAcpl": 584
+  },
+  "chernov-005": {
+    "white": 2656,
+    "black": 1498,
+    "whiteAcpl": 501,
+    "blackAcpl": 97
+  },
+  "chernov-006": {
+    "white": 1659,
+    "black": 3298,
+    "whiteAcpl": 543,
+    "blackAcpl": 3
+  },
+  "chernov-007": {
+    "white": 3297,
+    "black": 2301,
+    "whiteAcpl": 4,
+    "blackAcpl": 34
+  },
+  "chernov-008": {
+    "white": 3186,
+    "black": 1767,
+    "whiteAcpl": 10,
+    "blackAcpl": 370
+  },
+  "chernov-009": {
+    "white": 2895,
+    "black": 2692,
+    "whiteAcpl": 10,
+    "blackAcpl": 23
+  },
+  "chernov-010": {
+    "white": 3300,
+    "black": 1593,
+    "whiteAcpl": 1,
+    "blackAcpl": 607
+  },
+  "chernov-011": {
+    "white": 1898,
+    "black": 3298,
+    "whiteAcpl": 50,
+    "blackAcpl": 5
+  },
+  "chernov-012": {
+    "white": 2269,
+    "black": 3297,
+    "whiteAcpl": 32,
+    "blackAcpl": 4
+  },
+  "chernov-013": {
+    "white": 2736,
+    "black": 2471,
+    "whiteAcpl": 9,
+    "blackAcpl": 54
+  },
+  "chernov-014": {
+    "white": 2737,
+    "black": 2543,
+    "whiteAcpl": 14,
+    "blackAcpl": 30
+  },
+  "chernov-015": {
+    "white": 2711,
+    "black": 2032,
+    "whiteAcpl": 20,
+    "blackAcpl": 37
+  },
+  "chernov-016": {
+    "white": 3181,
+    "black": 2531,
+    "whiteAcpl": 5,
+    "blackAcpl": 36
+  },
+  "chernov-017": {
+    "white": 2900,
+    "black": 2886,
+    "whiteAcpl": 10,
+    "blackAcpl": 13
+  },
+  "chernov-018": {
+    "white": 3044,
+    "black": 2456,
+    "whiteAcpl": 9,
+    "blackAcpl": 26
+  },
+  "chernov-019": {
+    "white": 3298,
+    "black": 2281,
+    "whiteAcpl": 3,
+    "blackAcpl": 29
+  },
+  "chernov-020": {
+    "white": 3226,
+    "black": 2800,
+    "whiteAcpl": 7,
+    "blackAcpl": 21
+  },
+  "chernov-021": {
+    "white": 2668,
+    "black": 1732,
+    "whiteAcpl": 19,
+    "blackAcpl": 54
+  },
+  "chernov-022": {
+    "white": 2869,
+    "black": 1982,
+    "whiteAcpl": 21,
+    "blackAcpl": 338
+  },
+  "chernov-023": {
+    "white": 2653,
+    "black": 2898,
+    "whiteAcpl": 20,
+    "blackAcpl": 11
+  },
+  "chernov-024": {
+    "white": 3300,
+    "black": 2823,
+    "whiteAcpl": 2,
+    "blackAcpl": 23
+  },
+  "chernov-025": {
+    "white": 3040,
+    "black": 3181,
+    "whiteAcpl": 11,
+    "blackAcpl": 9
+  },
+  "chernov-026": {
+    "white": 2829,
+    "black": 2504,
+    "whiteAcpl": 16,
+    "blackAcpl": 23
+  },
+  "chernov-027": {
+    "white": 3163,
+    "black": 2546,
+    "whiteAcpl": 12,
+    "blackAcpl": 25
+  },
+  "chernov-028": {
+    "white": 3112,
+    "black": 2789,
+    "whiteAcpl": 10,
+    "blackAcpl": 15
+  },
+  "chernov-029": {
+    "white": 2783,
+    "black": 3178,
+    "whiteAcpl": 27,
+    "blackAcpl": 11
+  },
+  "chernov-030": {
+    "white": 3295,
+    "black": 2401,
+    "whiteAcpl": 5,
+    "blackAcpl": 20
+  },
+  "chernov-031": {
+    "white": 1973,
+    "black": 2205,
+    "whiteAcpl": 32,
+    "blackAcpl": 19
+  },
+  "chernov-032": {
+    "white": 2748,
+    "black": 2819,
+    "whiteAcpl": 15,
+    "blackAcpl": 16
+  },
+  "chernov-033": {
+    "white": 2636,
+    "black": 2201,
+    "whiteAcpl": 24,
+    "blackAcpl": 29
+  }
+}

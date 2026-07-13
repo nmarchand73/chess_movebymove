@@ -1,0 +1,307 @@
+{
+  "id": "chernov-021",
+  "book": "chernov",
+  "gameNum": 21,
+  "title": "Game 21: Chernev vs Hahlbohm",
+  "section": "The Queen’s Pawn Opening",
+  "players": {
+    "white": "Chernev",
+    "black": "Hahlbohm"
+  },
+  "event": "New York 1942",
+  "opening": "Colle System",
+  "eco": "D05",
+  "pgnPath": "data/pgn/chernov/21.pgn",
+  "result": "1-0",
+  "moveCount": 47,
+  "annotatedMoves": 41,
+  "fullText": "Chernev – Hahlbohm\n\nNew York 1942\n\nColle System\n\n1   d4\n\nThis is one of the best moves on the board – and so is 1 e4!\n\nEither move establishes a pawn in the centre, while permitting two pieces to come into play.\n\nWhich move should you adopt? The choice is a matter of taste. Broadly speaking, 1 e4 leads more often to wide-open attacking games, while 1 d4 tends toward a struggle for positional advantage. Blackburne says, “The first piece of advice I would offer to the young student who wishes to improve his chess is that in the formation of his style he should try to follow his own aptitude and temperament. One player derives pleasure in working a game out accurately like a sum in mathematics; another cares for nothing but ingenious combinations and brilliant attacks. It is by far the best for each to develop his own qualities.”\n\n1   ...     d5\n\nAn excellent reply, as it prevents White from continuing with 2 e4, when the two pawns abreast dominate the centre. Black, too, frees his queen and a bishop.\n\n2\n\nf3\n\nInstead of this, White often plays 2 c4, offering a pawn. This is a gambit only by the grace of definition, since White recovers the pawn easily while maintaining a strong position.\n\nThe knight move has the virtue of developing a piece to its most useful post while retaining the option of transposing into the Queen’s Gambit.\n\n2   ...     e6\n\nPerfectly safe, but somewhat modest. I would prefer 2...\n\nf6, which does not commit Black to defensive play and does not interfere with the c8-bishop’s development.\n\nThe text-move is the best way to support the d-pawn after White has attacked it by c4,\n\nbut White has not yet made this threatening gesture!\n\n3   e3!\n\nThis quiet move is the prelude to the Colle Attack, a vicious kingside assault.\n\nThe general plan of the Colle is to advance the e-pawn to e4, after suitable preparation.\n\nThis consists of the following manoeuvres:\n\n1) developing the f1-bishop at d3, to reinforce the pressure on the vital e4-square and to attack Black’s h-pawn, a tender point after he castles;\n\n2) posting the queen’s knight at d2 (not at c3, as the c-pawn must not be obstructed), to bear down on e4 and lend support to the e-pawn when it reaches that square;\n\n3) castling on the kingside, to mobilize the h1-rook;\n\n4) developing the queen at e2 and/or the rook at e1, to add further weight to the contemplated pawn push;\n\n5) advancing the pawn to e4.\n\nThe pawn moves only one square, but it sets all the machinery in motion: the position in the centre will be ripped apart and lines opened for White’s attacking forces.\n\n3   ...     c5\n\nThis thrust at the pawn-centre is practically compulsory for Black in queen’s pawn openings.\n\nBlack must fight\n\nfor an equal share of the centre.\n\nBlack must dispute\n\npossession of the important squares.\n\n4   c3\n\nSupporting White’s centre and making ready for\n\nd3, since it prepares the retreat square c2 in case Black should attack this bishop by ...c4.\n\n4   ...\n\nf6\n\n(D)\n\nNatural and strong. This is the best possible disposition of the king’s knight. It is developed toward the centre,\n\nso as to take part in the events there. It is in the centre that most of the fighting takes place, and whatever happens there affects the rest of the chessboard. Superiority in the centre is essential for a positional advantage, and control of the centre is indispensable to the successful conduct of a kingside attack.\n\nAll development should therefore be conducted with a view to the effect on the centre.\n\nA plausible move, instead of the text, is the advance 4...c4 to prevent White from placing his bishop at d3. It is the kind of move many players find irresistible, but it must be avoided. It is an error in strategy, as it relaxes the pressure on White’s d-pawn and the centre.\n\nIt is important to keep the pawn position in the centre fluid.\n\nIt is important to maintain pressure on White’s d-pawn in the centre.\n\nIt is important to retain the option of exchanging pawns in the centre.\n\n5\n\nd3\n\n(D)\n\nAn ideal development for the bishop: it controls the b1-h7 diagonal leading to Black’s king (after he castles) and bears down on the key e4-square, where the break will come.\n\n5   ...\n\nc6\n\nThe knight comes into play toward the centre, as prescribed. Black has an eye to freeing his game by an early ...e5. A good alternative is 5...\n\nbd7 in order to recapture with the knight, instead of with the bishop, if White should play 6 dxc5.\n\n6\n\nbd2\n\nOffhand this looks unnatural, as the knight seems awkwardly placed and blocks the path of the c1-bishop. In reality the knight performs its two assigned tasks: it gets into the game\n\n, even if it is only at the modest d2-square, and it also lends support to the coming action at the critical point e4. The c1-bishop is inconvenienced, but only temporarily.\n\n6   ...\n\ne7\n\nThis is preferable to the aggressive development at d6. The bishop is needed closer to home for defence of the king.\n\n7   0-0\n\n(D)\n\nThis remarkable coup,\n\nby means of which the king is spirited away to safety while the rook magically appears on the scene, is probably the most significant contribution to civilization since the invention of the wheel.\n\n7   ...     0-0\n\nBlack also hurries to safeguard his king and put the king’s rook to work.\n\n8\n\ne2\n\nA perfect spot for the queen in nearly every form of queen’s pawn opening. The queen supports the contemplated advance of the e-pawn and will add a great deal of weight to the consequent attack.\n\n8   ...\n\ne8\n\n(D)\n\nRooks must seize open files! What if there are none? Then bring your rooks toward the centre! They will then be at the head of files most likely to be opened. That is why the king’s rook is usually developed at e8 or d8, while the queen’s rook goes to d8 or c8.\n\n9   dxc5!\n\nThe thrust 9 e4 would be premature: after 9...dxe4 10\n\nxe4 cxd4 White would lose a pawn. The text-move was made with these further considerations in mind:\n\n1) Black’s bishop, which has moved once, will have to waste a move in recapturing the pawn;\n\n2) this bishop, needed for the defence of the kingside, will find itself on the wrong side of the board;\n\n3) at c5, the bishop will stand unprotected and subject to a surprise attack;\n\n4) White’s knight at d2 will gain a tempo later by moving to b3, where it threatens the exposed bishop while simultaneously clearing a way for his own dark-squared bishop;\n\n5) in the ending, if it comes to that, White will have the favourable arrangement of three pawns to two on the queenside.\n\n9   ...\n\nxc5\n\n(D)\n\nBlack must recapture or be a pawn down.\n\n10   e4!\n\nThe key move in the Colle Attack! It is the forcible break which releases all the fury of the pent-up pieces.\n\nHow should Black reply? If he exchanges by 10...dxe4, then after 11\n\nxe4\n\nxe4 12\n\nxe4, he is threatened with the devastating 13\n\nxh7+. No longer does he have a knight at f6 (the best defender of a castled position) so he would have to weaken himself by moving one of the pawns in front of the king.\n\nIf he avoids exchanging pawns and plays 10...d4 instead, then comes 11\n\nb3\n\nb6 (the bishop must stay in touch with the d-pawn) 12 e5\n\nd5, and White should win “accurately like a sum in mathematics”, as Blackburne puts it, by 13 cxd4. The attempt to win through “ingenious combination and brilliant attack” by\n\n13\n\nxh7+\n\nxh7 14\n\ng5+ succeeds after 14...\n\ng6 15\n\ne4+ f5 16 exf6+\n\nxf6 17\n\nf3+\n\ne7 (if 17...\n\ne5, then 18\n\nf7#) 18\n\nf7+\n\nd6 19\n\ne4+\n\ne5 20\n\nh5+ g5 (20...\n\nxe4 21\n\nd2+\n\nd3 22\n\ng6+\n\ne2 23\n\ng4+\n\nd3 24\n\ne4#) 21\n\nxg5, leading to mate in a few moves. However, 14...\n\ng8 15\n\nh5\n\nxe5 is a dash of cold water, after which White would be hard-pressed to justify his sacrifice.\n\n10   ...     e5\n\nBlack avoids both pitfalls and plays to prevent 11 e5, which would dislodge the knight. Meanwhile, the rook has more elbow-room, and the c8-bishop can now take part in the action.\n\n11   exd5\n\nWork in progress! White continues the process of opening lines for the attack. The e4-square is now available as a jumping-off spot for his pieces.\n\n11   ...\n\nxd5\n\nBlack did not care to capture with his queen, as after 11...\n\nxd5 12\n\nc4 these lines are possible:\n\n1) 12...\n\nd6 13\n\ng5 (threatening 14\n\nxf7+, winning the exchange) 13...\n\ne7 14\n\nde4\n\nxe4 15\n\nxe4, and White wins the bishop.\n\n2) 12...\n\nd7 13\n\ng5\n\ne7 14\n\nde4\n\nxe4 15\n\nxe4 (threatening the h-pawn) 15...g6 16\n\nh4 h5 17\n\ne4, and Black must give up his bishop to avert loss of his queen by a knight fork.\n\n3) 12...\n\nd8 13\n\nb3\n\nb6, and White will have a happy time weighing the effects of various attacks beginning with 14\n\ng5, 14\n\nd1 or 14\n\ng5.\n\n12\n\nb3\n\nGaining a tempo by the attack on the exposed bishop. Note too that White’s c1-bishop now has lots of room.\n\n12   ...\n\nb6\n\n(D)\n\nA move with deceptive aspects. It is true that the queen has made a developing move and that the bishop is now protected, but other factors appear in the reckoning. Black’s kingside lacks pieces for defence, and his knight at d5 is loose (unguarded by another piece or a pawn).\n\nIs there a combination? Is there a check or capture – a move that does some damage? Yes, indeed there is!\n\n13\n\nxh7+!\n\nSuch opportunities must be seized at once, before the opponent has a chance to catch his breath.\n\n13   ...\n\nxh7\n\nRefusing to capture is even worse: the bishop can run away with his booty or stay put while the attack continues with 14\n\nc4, and the queen pounces on the stranded pieces in the centre.\n\n14\n\ne4+\n\nThe point! By means of a double attack White regains his piece, with an extra pawn as interest on his investment.\n\n14   ...\n\ng8\n\nThere is nothing to be gained by interposing a pawn by 14...f5 or 14...g6, either of which moves further disrupts the kingside pawn position.\n\n15\n\nxd5\n\nWhite wins the piece back and gains another tempo by the double attack on the bishop. Black is kept busy defending and is given no time to consolidate his position. Without having made any moves that were obviously bad, Black has a theoretically lost game.\n\n15   ...\n\nf8\n\n(D)\n\nAbject retreat, but the alternative 15...\n\ne7 lets White take the poorly defended e-pawn.\n\n16\n\ng5\n\nThreatening 17\n\nxf7+, and mate in two more moves. Black must be given no respite!\n\n16   ...\n\ne6\n\nAt last, the light-squared bishop comes into the game. Black’s move looks effective as mate is warded off, the enemy queen driven back, a piece developed, and another one (the a8-rook) released.\n\n17\n\ne4\n\nThe queen retreats, but no time is lost as mate is threatened at h7.\n\n17   ...     g6\n\nBlack has little choice, and this is a better defence than 17...f5, after which 18\n\nh4\n\nd6 (or 18...\n\nc5 19\n\nxe6\n\nxe6 20\n\nc4 winning a piece) 19\n\nh7+\n\nf8 20\n\ng6\n\nd8 (if the e6-bishop moves, then its colleague on d6 falls) 21\n\nh7+\n\ne7 22\n\nxg7+ leads to a catastrophe.\n\n18\n\nh4\n\nAgain threatening mate on the move. Black is kept on the run and has to place his pieces where White’s mating threats compel them to go.\n\n18   ...\n\ng7\n\nWhite cannot be kept from checking at h7, but this prevents the queen’s further inroad at h8. Failure to keep the queen out, for instance by 18...\n\nd6 instead, would lose after 19\n\nh7+\n\nf8 20\n\nxe6+\n\nxe6 (if 20...fxe6, then 21\n\nh6#) 21\n\nh8+, and White wins a rook.\n\nWith the actual move, Black seems to have built a bomb-proof shelter for his king.\n\n19\n\ne3\n\nSo White brings up the reserves! The dark-squared bishop comes into active play with gain of tempo. The attack on the queen is incidental to the bishop’s real purpose, which is to gain control of c5 for itself or the knight. A knight planted there would dominate the centre and the queenside; a bishop would be useful to prevent Black’s king escaping by way of f8.\n\n19   ...\n\na6\n\nBlack rejects 19...\n\nc7 as he visualizes the continuation 20\n\nh7+\n\nf8 21\n\nc5+\n\ne7 22\n\nxg6! fxg6 (or 22...\n\nxc5 23\n\nxe6+ fxe6 24\n\nxe8+\n\nxe8 25\n\nxc5 winning easily) 23\n\nxe6+\n\ng8 24\n\nxc7, when Black’s rooks are impaled on a knight fork.\n\n20\n\nc5!\n\nOnce more one of White’s pieces invades the enemy’s half of the board by the timesaving expedient of attacking the queen.\n\n20   ...\n\nc4\n\nHoping to get some peace by effecting an exchange of queens.\n\n21\n\nh7+\n\nWith the object of smoking the king out and ripping away his pawn protection.\n\n21   ...\n\nf8\n\n(D)\n\nThe only move left.\n\n22\n\ncxe6+\n\nThere is often more than one way to win, once a positional superiority has been established.\n\nA pretty finish would be 22\n\ngxe6+ fxe6 23\n\nh6\n\ne7 (or 23...\n\nxh6 24\n\nd7#) 24\n\nh8+ (if only to show that the queen can\n\nget to h8) 24...\n\nf7 25\n\nxg7+\n\ne8 26\n\ng8#.\n\n22   ...     fxe6\n\nIf Black sacrifices the exchange by 22...\n\nxe6 then he may prolong but not alleviate the suffering.\n\n23\n\nxg6\n\n(D)\n\nThreatening 24\n\nf7#.\n\n23   ...\n\nd8\n\nI was hoping for 23...\n\ne7, when I could have forced the win by the ‘excelsior’ idea, a pawn march up the board, as follows: 24 f4 (threatening 25 fxe5+\n\ng8 26\n\nh7#) 24...e4 25 f5 (again threatening to deliver discovered check) 25...e5 26 f6 and White wins.\n\n24\n\nh7+\n\nHere I was sorely tempted to go in for the flashy win by 24 f4 e4 25 f5 e5 26 f6\n\nh8 27\n\nh7#, but common sense prevailed. One must win in the quickest possible way and play the simple, brutal move if thereby it shortens the struggle.\n\n1-0\n\nIf 24...\n\ng8, then 25\n\nf6+\n\nh8 (or 25...\n\nf8 26\n\nxe8#) 26\n\nh7#, or if 24...\n\ne7, then 25\n\nad1, and mate follows after 26\n\ng5+ or 26\n\nxg7+.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Chernev – Hahlbohm\n\nNew York 1942\n\nColle System"
+    },
+    {
+      "ply": 1,
+      "san": "d4",
+      "text": "This is one of the best moves on the board – and so is 1 e4!\n\nEither move establishes a pawn in the centre, while permitting two pieces to come into play.\n\nWhich move should you adopt? The choice is a matter of taste. Broadly speaking, 1 e4 leads more often to wide-open attacking games, while 1 d4 tends toward a struggle for positional advantage. Blackburne says, “The first piece of advice I would offer to the young student who wishes to improve his chess is that in the formation of his style he should try to follow his own aptitude and temperament. One player derives pleasure in working a game out accurately like a sum in mathematics; another cares for nothing but ingenious combinations and brilliant attacks. It is by far the best for each to develop his own qualities.”",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "d5",
+      "text": "An excellent reply, as it prevents White from continuing with 2 e4, when the two pawns abreast dominate the centre. Black, too, frees his queen and a bishop.",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "Nf3",
+      "text": "Instead of this, White often plays 2 c4, offering a pawn. This is a gambit only by the grace of definition, since White recovers the pawn easily while maintaining a strong position.\n\nThe knight move has the virtue of developing a piece to its most useful post while retaining the option of transposing into the Queen’s Gambit.",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "e6",
+      "text": "Perfectly safe, but somewhat modest. I would prefer 2...\n\nf6, which does not commit Black to defensive play and does not interfere with the c8-bishop’s development.\n\nThe text-move is the best way to support the d-pawn after White has attacked it by c4,\n\nbut White has not yet made this threatening gesture!",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "e3",
+      "text": "This quiet move is the prelude to the Colle Attack, a vicious kingside assault.\n\nThe general plan of the Colle is to advance the e-pawn to e4, after suitable preparation.\n\nThis consists of the following manoeuvres:\n\n1) developing the f1-bishop at d3, to reinforce the pressure on the vital e4-square and to attack Black’s h-pawn, a tender point after he castles;\n\n2) posting the queen’s knight at d2 (not at c3, as the c-pawn must not be obstructed), to bear down on e4 and lend support to the e-pawn when it reaches that square;\n\n3) castling on the kingside, to mobilize the h1-rook;\n\n4) developing the queen at e2 and/or the rook at e1, to add further weight to the contemplated pawn push;\n\n5) advancing the pawn to e4.\n\nThe pawn moves only one square, but it sets all the machinery in motion: the position in the centre will be ripped apart and lines opened for White’s attacking forces.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "c5",
+      "text": "This thrust at the pawn-centre is practically compulsory for Black in queen’s pawn openings.\n\nBlack must fight\n\nfor an equal share of the centre.\n\nBlack must dispute\n\npossession of the important squares.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "c3",
+      "text": "Supporting White’s centre and making ready for\n\nd3, since it prepares the retreat square c2 in case Black should attack this bishop by ...c4.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "Nf6",
+      "text": "Natural and strong. This is the best possible disposition of the king’s knight. It is developed toward the centre,\n\nso as to take part in the events there. It is in the centre that most of the fighting takes place, and whatever happens there affects the rest of the chessboard. Superiority in the centre is essential for a positional advantage, and control of the centre is indispensable to the successful conduct of a kingside attack.\n\nAll development should therefore be conducted with a view to the effect on the centre.\n\nA plausible move, instead of the text, is the advance 4...c4 to prevent White from placing his bishop at d3. It is the kind of move many players find irresistible, but it must be avoided. It is an error in strategy, as it relaxes the pressure on White’s d-pawn and the centre.\n\nIt is important to keep the pawn position in the centre fluid.\n\nIt is important to maintain pressure on White’s d-pawn in the centre.\n\nIt is important to retain the option of exchanging pawns in the centre.",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "Bd3",
+      "text": "An ideal development for the bishop: it controls the b1-h7 diagonal leading to Black’s king (after he castles) and bears down on the key e4-square, where the break will come.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "Nc6",
+      "text": "The knight comes into play toward the centre, as prescribed. Black has an eye to freeing his game by an early ...e5. A good alternative is 5...\n\nbd7 in order to recapture with the knight, instead of with the bishop, if White should play 6 dxc5.",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "Nbd2",
+      "text": "Offhand this looks unnatural, as the knight seems awkwardly placed and blocks the path of the c1-bishop. In reality the knight performs its two assigned tasks: it gets into the game\n\n, even if it is only at the modest d2-square, and it also lends support to the coming action at the critical point e4. The c1-bishop is inconvenienced, but only temporarily.",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "Be7",
+      "text": "This is preferable to the aggressive development at d6. The bishop is needed closer to home for defence of the king.\n\n7   0-0\n\nThis remarkable coup,\n\nby means of which the king is spirited away to safety while the rook magically appears on the scene, is probably the most significant contribution to civilization since the invention of the wheel.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "O-O",
+      "text": "Black also hurries to safeguard his king and put the king’s rook to work.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "Qe2",
+      "text": "A perfect spot for the queen in nearly every form of queen’s pawn opening. The queen supports the contemplated advance of the e-pawn and will add a great deal of weight to the consequent attack.",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "Re8",
+      "text": "Rooks must seize open files! What if there are none? Then bring your rooks toward the centre! They will then be at the head of files most likely to be opened. That is why the king’s rook is usually developed at e8 or d8, while the queen’s rook goes to d8 or c8.",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "dxc5",
+      "text": "The thrust 9 e4 would be premature: after 9...dxe4 10\n\nxe4 cxd4 White would lose a pawn. The text-move was made with these further considerations in mind:\n\n1) Black’s bishop, which has moved once, will have to waste a move in recapturing the pawn;\n\n2) this bishop, needed for the defence of the kingside, will find itself on the wrong side of the board;\n\n3) at c5, the bishop will stand unprotected and subject to a surprise attack;\n\n4) White’s knight at d2 will gain a tempo later by moving to b3, where it threatens the exposed bishop while simultaneously clearing a way for his own dark-squared bishop;\n\n5) in the ending, if it comes to that, White will have the favourable arrangement of three pawns to two on the queenside.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "Bxc5",
+      "text": "Black must recapture or be a pawn down.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "e4",
+      "text": "The key move in the Colle Attack! It is the forcible break which releases all the fury of the pent-up pieces.\n\nHow should Black reply? If he exchanges by 10...dxe4, then after 11\n\nxe4\n\nxe4 12\n\nxe4, he is threatened with the devastating 13\n\nxh7+. No longer does he have a knight at f6 (the best defender of a castled position) so he would have to weaken himself by moving one of the pawns in front of the king.\n\nIf he avoids exchanging pawns and plays 10...d4 instead, then comes 11\n\nb3\n\nb6 (the bishop must stay in touch with the d-pawn) 12 e5\n\nd5, and White should win “accurately like a sum in mathematics”, as Blackburne puts it, by 13 cxd4. The attempt to win through “ingenious combination and brilliant attack” by\n\n13\n\nxh7+\n\nxh7 14\n\ng5+ succeeds after 14...\n\ng6 15\n\ne4+ f5 16 exf6+\n\nxf6 17\n\nf3+\n\ne7 (if 17...\n\ne5, then 18\n\nf7#) 18\n\nf7+\n\nd6 19\n\ne5 20\n\nh5+ g5 (20...\n\nxe4 21\n\nd2+\n\nd3 22\n\ng6+\n\ne2 23\n\ng4+\n\nd3 24\n\ne4#) 21\n\nxg5, leading to mate in a few moves. However, 14...\n\ng8 15\n\nh5\n\nxe5 is a dash of cold water, after which White would be hard-pressed to justify his sacrifice.",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "e5",
+      "text": "Black avoids both pitfalls and plays to prevent 11 e5, which would dislodge the knight. Meanwhile, the rook has more elbow-room, and the c8-bishop can now take part in the action.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "exd5",
+      "text": "Work in progress! White continues the process of opening lines for the attack. The e4-square is now available as a jumping-off spot for his pieces.",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "Nxd5",
+      "text": "Black did not care to capture with his queen, as after 11...\n\nxd5 12\n\nc4 these lines are possible:\n\n1) 12...\n\nd6 13\n\ng5 (threatening 14\n\nxf7+, winning the exchange) 13...\n\ne7 14\n\nde4\n\nxe4 15\n\nxe4, and White wins the bishop.\n\n2) 12...\n\nd7 13\n\ng5\n\ne7 14\n\nde4\n\nxe4 15\n\nxe4 (threatening the h-pawn) 15...g6 16\n\nh4 h5 17\n\ne4, and Black must give up his bishop to avert loss of his queen by a knight fork.\n\n3) 12...\n\nd8 13\n\nb3\n\nb6, and White will have a happy time weighing the effects of various attacks beginning with 14\n\ng5, 14\n\nd1 or 14\n\ng5.",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "Nb3",
+      "text": "Gaining a tempo by the attack on the exposed bishop. Note too that White’s c1-bishop now has lots of room.",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "Qb6",
+      "text": "A move with deceptive aspects. It is true that the queen has made a developing move and that the bishop is now protected, but other factors appear in the reckoning. Black’s kingside lacks pieces for defence, and his knight at d5 is loose (unguarded by another piece or a pawn).\n\nIs there a combination? Is there a check or capture – a move that does some damage? Yes, indeed there is!\n\n13\n\nxh7+!\n\nSuch opportunities must be seized at once, before the opponent has a chance to catch his breath.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Bxh7+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "Kxh7",
+      "text": "Refusing to capture is even worse: the bishop can run away with his booty or stay put while the attack continues with 14\n\nc4, and the queen pounces on the stranded pieces in the centre.\n\n14\n\ne4+\n\nThe point! By means of a double attack White regains his piece, with an extra pawn as interest on his investment.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Qe4+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "Kg8",
+      "text": "There is nothing to be gained by interposing a pawn by 14...f5 or 14...g6, either of which moves further disrupts the kingside pawn position.",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Qxd5",
+      "text": "White wins the piece back and gains another tempo by the double attack on the bishop. Black is kept busy defending and is given no time to consolidate his position. Without having made any moves that were obviously bad, Black has a theoretically lost game.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "Bf8",
+      "text": "Abject retreat, but the alternative 15...\n\ne7 lets White take the poorly defended e-pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Ng5",
+      "text": "Threatening 17\n\nxf7+, and mate in two more moves. Black must be given no respite!",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Be6",
+      "text": "At last, the light-squared bishop comes into the game. Black’s move looks effective as mate is warded off, the enemy queen driven back, a piece developed, and another one (the a8-rook) released.",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Qe4",
+      "text": "The queen retreats, but no time is lost as mate is threatened at h7.",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "g6",
+      "text": "Black has little choice, and this is a better defence than 17...f5, after which 18\n\nh4\n\nd6 (or 18...\n\nc5 19\n\nxe6\n\nxe6 20\n\nc4 winning a piece) 19\n\nh7+\n\nf8 20\n\nd8 (if the e6-bishop moves, then its colleague on d6 falls) 21\n\nh7+\n\ne7 22\n\nxg7+ leads to a catastrophe.",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "Qh4",
+      "text": "Again threatening mate on the move. Black is kept on the run and has to place his pieces where White’s mating threats compel them to go.",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "Bg7",
+      "text": "White cannot be kept from checking at h7, but this prevents the queen’s further inroad at h8. Failure to keep the queen out, for instance by 18...\n\nd6 instead, would lose after 19\n\nh7+\n\nf8 20\n\nxe6+\n\nxe6 (if 20...fxe6, then 21\n\nh6#) 21\n\nh8+, and White wins a rook.\n\nWith the actual move, Black seems to have built a bomb-proof shelter for his king.",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "Be3",
+      "text": "So White brings up the reserves! The dark-squared bishop comes into active play with gain of tempo. The attack on the queen is incidental to the bishop’s real purpose, which is to gain control of c5 for itself or the knight. A knight planted there would dominate the centre and the queenside; a bishop would be useful to prevent Black’s king escaping by way of f8.",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "Qa6",
+      "text": "Black rejects 19...\n\nc7 as he visualizes the continuation 20\n\nh7+\n\nf8 21\n\nc5+\n\ne7 22\n\nxg6! fxg6 (or 22...\n\nxc5 23\n\nxe6+ fxe6 24\n\nxe8+\n\nxe8 25\n\nxc5 winning easily) 23\n\nxe6+\n\ng8 24\n\nxc7, when Black’s rooks are impaled on a knight fork.",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "Nc5",
+      "text": "Once more one of White’s pieces invades the enemy’s half of the board by the timesaving expedient of attacking the queen.",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "Qc4",
+      "text": "Hoping to get some peace by effecting an exchange of queens.\n\n21\n\nh7+\n\nWith the object of smoking the king out and ripping away his pawn protection.",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "Qh7+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "Kf8",
+      "text": "The only move left.\n\n22\n\ncxe6+\n\nThere is often more than one way to win, once a positional superiority has been established.\n\nA pretty finish would be 22\n\ngxe6+ fxe6 23\n\nh6\n\ne7 (or 23...\n\nxh6 24\n\nd7#) 24\n\nh8+ (if only to show that the queen can\n\nget to h8) 24...\n\nf7 25\n\nxg7+\n\ne8 26\n\ng8#.",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "Ncxe6+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "fxe6",
+      "text": "If Black sacrifices the exchange by 22...\n\nxe6 then he may prolong but not alleviate the suffering.",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "Qxg6",
+      "text": "Threatening 24\n\nf7#.",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "Nd8",
+      "text": "I was hoping for 23...\n\ne7, when I could have forced the win by the ‘excelsior’ idea, a pawn march up the board, as follows: 24 f4 (threatening 25 fxe5+\n\ng8 26\n\nh7#) 24...e4 25 f5 (again threatening to deliver discovered check) 25...e5 26 f6 and White wins.\n\n24\n\nh7+\n\nHere I was sorely tempted to go in for the flashy win by 24 f4 e4 25 f5 e5 26 f6\n\nh8 27\n\nh7#, but common sense prevailed. One must win in the quickest possible way and play the simple, brutal move if thereby it shortens the struggle.\n\n1-0\n\nIf 24...\n\ng8, then 25\n\nf6+\n\nh8 (or 25...\n\nf8 26\n\nxe8#) 26\n\nh7#, or if 24...\n\ne7, then 25\n\nad1, and mate follows after 26\n\ng5+ or 26\n\nxg7+.",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "Nh7+",
+      "text": "",
+      "isCritical": true
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "id": "chernov-006",
+  "book": "chernov",
+  "gameNum": 6,
+  "title": "Game 6: Zeissl vs Walthoffen",
+  "section": "The Kingside Attack",
+  "players": {
+    "white": "Zeissl",
+    "black": "Walthoffen"
+  },
+  "event": "Vienna 1899",
+  "opening": "Ruy Lopez",
+  "eco": "C63",
+  "pgnPath": "data/pgn/chernov/06.pgn",
+  "result": "0-1",
+  "moveCount": 34,
+  "annotatedMoves": 30,
+  "fullText": "Zeissl – Walthoffen\n\nVienna 1899\n\nRuy Lopez\n\n1   e4\n\n“Always deploy,” says Franklin K. Young, “so that the right oblique may be readily established in case the objective plane remains open or becomes permanently located on the centre or on the king’s wing, or that the crochet aligned may readily be established if the objective plane becomes permanently located otherwise than at the extremity of the strategic front.”\n\nIf this is somewhat obscure (and I see no reason to believe otherwise) the conclusion it reaches is stated in limpid prose by the same writer: “The best initial move for White is 1 e4”.\n\n1   ...     e5\n\nBlack’s best chance to equalize is to get a fair share of the most important squares – those in the centre.\n\nWith l...e5 he stakes out his claim, meanwhile freeing two of his pieces.\n\n2\n\nf3\n\nYou may play this confidently, secure in the knowledge that no master alive can make a better move.\n\nThe knight develops in one move to its most suitable square in the opening.\n\nIt exerts pressure on two of the four squares in the vital central area.\n\nIt comes in toward the centre so that it enjoys maximum mobility.\n\nIt helps clear the kingside, enabling early castling of the king on that side.\n\nIt is posted ideally for the defence of the king after he castles.\n\nIt comes into play with a gain of time – an attack on a pawn! In short, it’s a very good move!\n\n2   ...\n\nc6\n\nA commendable reply: Black develops a piece, protecting his pawn at the same time.\n\n3\n\nb5\n\n(D)\n\nProbably the strongest move on the board. The bishop puts a restraining hand on the pawn’s defender. There is no immediate threat of winning the pawn as after 4\n\nxc6 dxc6 5\n\nxe5, the reply 5...\n\nd4 regains the pawn. But there is pressure on the knight, and this pressure becomes intensified when Black sooner or later advances his d-pawn since the knight is then pinned.\n\n3   ...     f5\n\nA bold attempt to seize the initiative. The idea is to lure White into surrendering the centre by taking the f-pawn.\n\n4   d4\n\nAn aggressive player would like White’s counterattack on the e-pawn. Another dynamic line is 4\n\nc3, aiming for piece-play, while a conservative player might be content with 4 d3, supporting the e-pawn so that in the event of an exchange on e4 he would retain a pawn in the centre.\n\n4   ...     fxe4\n\n(D)\n\nBlack’s capture is intended mainly to evict the knight from its strong post.\n\n5\n\nxe5\n\nApparently a strong move. White gets his pawn back and prevents 5...d6 or 5...d5. After either of these moves, the continuation 6\n\nxc6 bxc6 7\n\nxc6+ wins the exchange.\n\nWhite also has a powerful threat in 6\n\nxc6 dxc6 7\n\nh5+\n\ne7 8\n\nf7+\n\nd6 9\n\nc4#.\n\nThis is all very tempting, since the possibility of mating so early in the game is attractive to the young player, but such ambition should be suppressed. Premature mating attacks are usually repulsed with loss of time or material to the aggressor.\n\nA safer continuation is 5\n\nxc6 dxc6 6\n\nxe5.\n\n5   ...\n\nxe5\n\nBlack removes the best defender of White’s kingside position and puts an end to any combinative notions White might have entertained.\n\n6   dxe5\n\nWhite has nothing to show for the over-energetic move 4 d4. The simple and natural development of the b1-knight by 4\n\nc3 would have been preferable.\n\n6   ...     c6!\n\n(D)\n\nA pawn move when pieces should be brought into play? Yes, if the move is justified by the particular position. Black has four good arguments for the pawn push:\n\n1) He must drive off the bishop before he can advance his d-pawn (otherwise the king is in check).\n\n2) The time lost in moving the pawn is compensated for by the fact that the bishop must also lose a move in retreating.\n\n3) He opens a fine diagonal for his queen.\n\n4) The attack on the bishop will win a pawn, and “A pawn is worth a little trouble,” according to Steinitz.\n\n7\n\nc4\n\nOrdinarily, this is an excellent place for the bishop, but e2 is more consistent with the requirements of the position. White has lost the services of his king’s knight, and the bishop might help the defence of the kingside.\n\n7   ...\n\na5+\n\nDouble attack on king and e5-pawn.\n\n8\n\nc3\n\nThe best way to get out of check. White places the b1-knight where it belongs in the opening.\n\n8   ...\n\nxe5\n\n(D)\n\nBlack has won a pawn, which is a good start toward winning the game. His aim now is to get an attack rolling in the direction of White’s denuded kingside.\n\n9   0-0\n\nPlausible – and bad! It was more discreet to conceal his intentions, develop the queenside pieces, and castle later, perhaps on the queenside.\n\n9   ...     d5!\n\nOf course! Black seizes the centre, chases off the enemy bishop, and enables his own c8-bishop to make an appearance. All this in one move!\n\n10\n\nb3\n\nHere too the defensive move 10\n\ne2, placing the bishop where he overlooks two diagonals, is preferable.\n\n10   ...\n\nf6\n\nOrganizing a kingside attack by a simple process – developing his pieces!\n\n11\n\ne3\n\n(D)\n\nPartly to prevent Black from playing 11...\n\nc5, partly to dislodge the centralized queen by 12\n\nd4 or 12\n\nd4.\n\n11   ...\n\nd6!\n\nThis fine move has more significance than the mere development of a piece combined with a mating threat. The ulterior object is to create a permanent irremediable weakness\n\nin White’s kingside position by forcing one of the defending pawns to make a move.\n\n12   g3\n\nThe only possible defence. If instead 12 f4, then 12...exf3 13\n\nxf3\n\nxh2+ 14\n\nf2\n\ng4 and Black wins.\n\nAfter the text move, Black starts an attack, but using his pieces rather than trying to break into the position by the pawn assault 12...h5 followed by ...h4.\n\n12   ...\n\ng4\n\n(D)\n\nBlack bases his attack on the theme of penetration.\n\nWhite has weakened the f3- and h3-squares by 12 g3, as these squares are no longer guarded by the g-pawn. These squares are now ‘holes’, as Steinitz first named them. Enemy pieces that settle themselves on these squares stand firm, as no pawns can ever drive them away.\n\nThe bishop attacks the queen, with the object of insinuating itself into f3 without loss of time.\n\n13\n\nd2\n\nAs good as there is. If White interposes the knight at e2 instead, then 13...\n\nh5, attacking the knight once more, forces 14\n\ne1, whereupon 14...\n\nh3 plants a piece in one hole. Black’s following move is 15...\n\nf3, occupying the other hole, and the stage is set for mate at g2.\n\n13   ...\n\nf3\n\nThe second step in the process of penetration.\n\n14\n\nf4\n\n(D)\n\nHoping for a line such as 14...\n\ne7 15\n\nxd6\n\nxd6 16\n\nf4, when an exchange or two might ease his difficulties.\n\nAfter White’s fourteenth move, Black has a forced mate in a few moves.\n\n14   ...\n\nf5!\n\nDeserts the bishop, but Black is interested only in getting the queen to h3, with a death grip on the light squares.\n\n15\n\nd1\n\nThe only possible chance to defend. The knight is to be brought to e3 to guard the g2-square, where mate impends.\n\n15   ...\n\nh3\n\nThreatening instant mate.\n\n16\n\ne3\n\nDefending the critical square.\n\n16   ...\n\ng4\n\nThe new threat is mate at h2. Notice the clever use of the weakened light squares on the kingside as the black pieces infiltrate the enemy position.\n\n17\n\nfc1\n\nRoom for the king!\n\n17   ...\n\nxh2+\n\nAnd mate comes next move.\n\n0-1",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Zeissl – Walthoffen\n\nVienna 1899\n\nRuy Lopez"
+    },
+    {
+      "ply": 1,
+      "san": "e4",
+      "text": "“Always deploy,” says Franklin K. Young, “so that the right oblique may be readily established in case the objective plane remains open or becomes permanently located on the centre or on the king’s wing, or that the crochet aligned may readily be established if the objective plane becomes permanently located otherwise than at the extremity of the strategic front.”\n\nIf this is somewhat obscure (and I see no reason to believe otherwise) the conclusion it reaches is stated in limpid prose by the same writer: “The best initial move for White is 1 e4”.",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "e5",
+      "text": "Black’s best chance to equalize is to get a fair share of the most important squares – those in the centre.\n\nWith l...e5 he stakes out his claim, meanwhile freeing two of his pieces.",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "Nf3",
+      "text": "You may play this confidently, secure in the knowledge that no master alive can make a better move.\n\nThe knight develops in one move to its most suitable square in the opening.\n\nIt exerts pressure on two of the four squares in the vital central area.\n\nIt comes in toward the centre so that it enjoys maximum mobility.\n\nIt helps clear the kingside, enabling early castling of the king on that side.\n\nIt is posted ideally for the defence of the king after he castles.\n\nIt comes into play with a gain of time – an attack on a pawn! In short, it’s a very good move!",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "Nc6",
+      "text": "A commendable reply: Black develops a piece, protecting his pawn at the same time.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "Bb5",
+      "text": "Probably the strongest move on the board. The bishop puts a restraining hand on the pawn’s defender. There is no immediate threat of winning the pawn as after 4\n\nxc6 dxc6 5\n\nxe5, the reply 5...\n\nd4 regains the pawn. But there is pressure on the knight, and this pressure becomes intensified when Black sooner or later advances his d-pawn since the knight is then pinned.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "f5",
+      "text": "A bold attempt to seize the initiative. The idea is to lure White into surrendering the centre by taking the f-pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "d4",
+      "text": "An aggressive player would like White’s counterattack on the e-pawn. Another dynamic line is 4\n\nc3, aiming for piece-play, while a conservative player might be content with 4 d3, supporting the e-pawn so that in the event of an exchange on e4 he would retain a pawn in the centre.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "fxe4",
+      "text": "Black’s capture is intended mainly to evict the knight from its strong post.",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "Nxe5",
+      "text": "Apparently a strong move. White gets his pawn back and prevents 5...d6 or 5...d5. After either of these moves, the continuation 6\n\nxc6 bxc6 7\n\nxc6+ wins the exchange.\n\nWhite also has a powerful threat in 6\n\nxc6 dxc6 7\n\nh5+\n\ne7 8\n\nf7+\n\nd6 9\n\nc4#.\n\nThis is all very tempting, since the possibility of mating so early in the game is attractive to the young player, but such ambition should be suppressed. Premature mating attacks are usually repulsed with loss of time or material to the aggressor.\n\nA safer continuation is 5\n\nxc6 dxc6 6\n\nxe5.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "Nxe5",
+      "text": "Black removes the best defender of White’s kingside position and puts an end to any combinative notions White might have entertained.",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "dxe5",
+      "text": "White has nothing to show for the over-energetic move 4 d4. The simple and natural development of the b1-knight by 4\n\nc3 would have been preferable.",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "c6",
+      "text": "A pawn move when pieces should be brought into play? Yes, if the move is justified by the particular position. Black has four good arguments for the pawn push:\n\n1) He must drive off the bishop before he can advance his d-pawn (otherwise the king is in check).\n\n2) The time lost in moving the pawn is compensated for by the fact that the bishop must also lose a move in retreating.\n\n3) He opens a fine diagonal for his queen.\n\n4) The attack on the bishop will win a pawn, and “A pawn is worth a little trouble,” according to Steinitz.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "Bc4",
+      "text": "Ordinarily, this is an excellent place for the bishop, but e2 is more consistent with the requirements of the position. White has lost the services of his king’s knight, and the bishop might help the defence of the kingside.\n\n7   ...\n\na5+\n\nDouble attack on king and e5-pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "Qa5+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "Nc3",
+      "text": "The best way to get out of check. White places the b1-knight where it belongs in the opening.",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "Qxe5",
+      "text": "Black has won a pawn, which is a good start toward winning the game. His aim now is to get an attack rolling in the direction of White’s denuded kingside.\n\n9   0-0\n\nPlausible – and bad! It was more discreet to conceal his intentions, develop the queenside pieces, and castle later, perhaps on the queenside.",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "d5",
+      "text": "Of course! Black seizes the centre, chases off the enemy bishop, and enables his own c8-bishop to make an appearance. All this in one move!",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "Bb3",
+      "text": "Here too the defensive move 10\n\ne2, placing the bishop where he overlooks two diagonals, is preferable.",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "Nf6",
+      "text": "Organizing a kingside attack by a simple process – developing his pieces!",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "Be3",
+      "text": "Partly to prevent Black from playing 11...\n\nc5, partly to dislodge the centralized queen by 12\n\nd4 or 12\n\nd4.",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "Bd6",
+      "text": "This fine move has more significance than the mere development of a piece combined with a mating threat. The ulterior object is to create a permanent irremediable weakness\n\nin White’s kingside position by forcing one of the defending pawns to make a move.",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "g3",
+      "text": "The only possible defence. If instead 12 f4, then 12...exf3 13\n\nxf3\n\nxh2+ 14\n\nf2\n\ng4 and Black wins.\n\nAfter the text move, Black starts an attack, but using his pieces rather than trying to break into the position by the pawn assault 12...h5 followed by ...h4.",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "Bg4",
+      "text": "Black bases his attack on the theme of penetration.\n\nWhite has weakened the f3- and h3-squares by 12 g3, as these squares are no longer guarded by the g-pawn. These squares are now ‘holes’, as Steinitz first named them. Enemy pieces that settle themselves on these squares stand firm, as no pawns can ever drive them away.\n\nThe bishop attacks the queen, with the object of insinuating itself into f3 without loss of time.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Qd2",
+      "text": "As good as there is. If White interposes the knight at e2 instead, then 13...\n\nh5, attacking the knight once more, forces 14\n\ne1, whereupon 14...\n\nh3 plants a piece in one hole. Black’s following move is 15...\n\nf3, occupying the other hole, and the stage is set for mate at g2.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "Bf3",
+      "text": "The second step in the process of penetration.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Bf4",
+      "text": "Hoping for a line such as 14...\n\ne7 15\n\nxd6\n\nxd6 16\n\nf4, when an exchange or two might ease his difficulties.\n\nAfter White’s fourteenth move, Black has a forced mate in a few moves.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "Qf5",
+      "text": "Deserts the bishop, but Black is interested only in getting the queen to h3, with a death grip on the light squares.",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Nd1",
+      "text": "The only possible chance to defend. The knight is to be brought to e3 to guard the g2-square, where mate impends.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "Qh3",
+      "text": "Threatening instant mate.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Ne3",
+      "text": "Defending the critical square.",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Ng4",
+      "text": "The new threat is mate at h2. Notice the clever use of the weakened light squares on the kingside as the black pieces infiltrate the enemy position.\n\n17\n\nfc1\n\nRoom for the king!\n\n17   ...\n\nxh2+\n\nAnd mate comes next move.\n\n0-1",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Rfe1",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Qxh2+",
+      "text": "",
+      "isCritical": true
+    }
+  ]
+}

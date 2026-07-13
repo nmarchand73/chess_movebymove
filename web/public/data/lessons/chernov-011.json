@@ -1,0 +1,229 @@
+{
+  "id": "chernov-011",
+  "book": "chernov",
+  "gameNum": 11,
+  "title": "Game 11: Flohr vs Pitschak",
+  "section": "The Kingside Attack",
+  "players": {
+    "white": "Flohr",
+    "black": "Pitschak"
+  },
+  "event": "Bilin 1930",
+  "opening": "Colle System",
+  "eco": "A46",
+  "pgnPath": "data/pgn/chernov/11.pgn",
+  "result": "0-1",
+  "moveCount": 34,
+  "annotatedMoves": 33,
+  "fullText": "Flohr – Pitschak\n\nBilin 1930\n\nColle System\n\n1   d4\n\nIn chess, unlike tennis, you cannot win by serving an ace. There is no trick move in the opening that will catch even a fair-to-middling player off-balance.\n\nWhat you can do is apply order and method in your conduct of this phase, so as to increase your chances of getting a favourable position. All you need do is follow a few simple rules for sound development:\n\nBegin with 1 e4 or 1 d4, either of which moves releases two pieces.\n\nAnchor at least one pawn in the centre and give it solid support. Pawns in the centre keep enemy pieces from settling themselves on the best squares.\n\nWherever feasible, bring out your knights before the bishops. Broadly speaking, the knights do their best work at f3 and c3 (f6\n\nand c6\n\nwhen Black), where their power is tremendous for defence as well as offence.\n\nOf two developing moves, select the more aggressive one. Develop with a threat if you can.\n\nMove each piece only once in the opening. Place it at once on a square where it has some bearing on the centre and where it has the greatest scope for attack.\n\nMove at most two pawns in the early stages of the game. Play with the pieces.\n\nDevelop the pieces with a view to controlling the centre, either by occupying it or bearing down on it from a distance, as fianchettoed bishops do.\n\nDevelop the queen, but close to home to avoid her being harassed by pawns and minor pieces.\n\nDo not chase after pawns at the expense of development.\n\nSecure the safety of the king by early castling, preferably on the kingside.\n\nCapablanca summed all this up when he said, “The main thing is to develop the pieces quickly: get them into play as fast as you can.”\n\nNow back to Flohr and Pitschak:\n\nWhite’s first move fixes a pawn in the centre and liberates two pieces.\n\n1   ...\n\nf6\n\nBlack brings his king’s knight out to its most favourable post and hinders White from continuing with 2 e4.\n\n2\n\nf3\n\nNapier recalls that in the first of several lessons he took from Steinitz, the World Champion said, “No doubt you move your knight out on each side before the bishop? And do you know why?” Napier says he was stuck for an intelligent answer. Steinitz went on to explain: “One good reason is that you know where the knight belongs before you know that much of your bishop; certainty is a far better friend than doubt.”\n\n2   ...   e6\n\nBlack postpones the straightforward reply 2...d5, which lets him in for the regular lines of the Queen’s Gambit. Meanwhile he opens a line for the f8\n\n-bishop.\n\n3\n\nbd2\n\nA typical knight manoeuvre in the Colle Attack: the knight puts pressure on the critical e4-square without blocking the c-file.\n\n3   ...     c5\n\nBlack strikes a blow at the d-pawn in an attempt to secure control of the centre. This flank thrust is almost compulsory in queen’s pawn openings because Black must try to disturb White’s central formation.\n\nThe immediate threat is 4...cxd4, so that the recapture by 5\n\nxd4 leaves no white pawn remaining in the centre.\n\n4   e3\n\nWhite shores up the d-pawn and provides an outlet for the f1-bishop.\n\n4   ...     b6\n\n(D)\n\nBlack too props up his advanced pawn and prepares to fianchetto the c8-bishop.\n\n5\n\nd3\n\nCustomary practice in this system of attack: the bishop adds his strength to the pressure exerted on e4 in preparation for an advance by the e-pawn, which will open up lines of attack for the pieces in the background. The bishop also aims at Black’s h-pawn, a fine target after the enemy king castles on that side.\n\n5   ...\n\nb7\n\nThis solves one of Black’s chief problems in queen’s pawn openings – an effective disposition of the light-squared bishop. By means of this fianchetto arrangement, the bishop commands the longest diagonal on the board and participates in the fight for domination of e4, the strategic square in the Colle System.\n\n6   0-0\n\nAs part of the process of development, White shields his king from danger and brings his rook closer to the centre files.\n\n6   ...\n\ne7\n\nDespite its modest appearance, there is a great deal of latent energy in the placement of this bishop at e7. It is close enough to home to help defend the king, yet easily manoeuvrable to a more aggressive post if occasion requires.\n\n7   c4\n\n(D)\n\nMore in the spirit of the Colle formation is the quiet 7 c3 to supply a support for the d4-pawn. The e-pawn is then free to advance, and if Black at any time plays ...cxd4, White recaptures with the c-pawn and maintains a strong pawn in the centre.\n\nThe idea of the text-move apparently is to prevent Black’s pieces from using d5 as a pivot for their movements about the board.\n\n7   ...     0-0\n\nBlack goes quietly about the business of mustering out all the troops. At one stroke his rook appears on the scene while the king is whisked away.\n\n8   b3\n\nClearly in order to develop the bishop at b2. This fianchettoing of the bishop is not conventional procedure in the Colle, but Flohr may have wanted to test some ideas of his own.\n\n8   ...     d5\n\nBlack seizes the opportunity to dispute possession of the centre. He also puts an end to White’s contemplated advance of the e-pawn, as he bears down on the critical e4-square with knight, pawn and bishop, while White has only two pieces trained on it.\n\nIt is true that the b7-bishop’s diagonal is blocked, but this condition is only temporary.\n\n9\n\nc2\n\n(D)\n\nConsiderably better was the simple development of the dark-squared bishop at b2\n\n, which he prepared with his previous move.\n\nThe purpose of 9\n\nc2 is to secure control of e4 and to prevent Black from establishing an outpost on that square by 9...\n\ne4. The trouble with the move is that it permits Black to seize the initiative and thereafter direct the course of events.\n\n9   ...\n\nc6\n\nA powerful move which combines development, aggressive intent and prophylaxis!\n\nDevelopment, in that the knight is placed at once on its most suitable square.\n\nAggression, in the knight’s threat to advance to b4, attacking queen and bishop and forcing an exchange which rids the board of White’s dangerous light-squared bishop.\n\nProphylaxis, in the prevention of 10 e4, the continuation after which would be 10 ...\n\nb4 11\n\nc3 xd3 12\n\nxd3 dxe4, and Black wins apiece.\n\n10   a3\n\nWhite must preserve his valuable light-squared bishop.\n\nUnfortunately, the time lost in being forced to make a pawn move is costly, as we shall see.\n\n10   ...     cxd4\n\n(D)\n\nBlack exchanges to clarify the position in the centre and to open the c-file for the convenience of his a8-rook.\n\n11   cxd5\n\nThe alternative capture 11 exd4 was unpleasant as the reply 11...dxc4 forces 12\n\nxc4 (otherwise White’s d-pawn is lost), when 12...\n\nc8 exercises uncomfortable pressure on White’s centre. Another possibility instead of the text-move is 11\n\nxd4\n\nxd4 12   exd4   dxc4   13\n\nxc4 (to save the d-pawn) 13 ...\n\nc8 14\n\na4\n\nc6 15\n\nxa7 (or 15\n\nc4\n\nxg2 and Black wins easily) 15 ...\n\na8 and Black wins the queen.\n\n11   ...\n\nxd5\n\nBlack nets a pawn with this and (as if it were not enough) takes over the attack.\n\nThe queen is in no danger, as White’s pieces are not sufficiently well developed to cause her any inconvenience.\n\n12   exd4\n\nWhite opens the position to get some counterplay; he hopes to utilize the e-file for his rook and the e4-square as a pivot for his pieces.\n\nInstead the superficially attractive 12 e4 does not accomplish much, as after 12...\n\nh5 the vital e4-square is occupied by a pawn, making it unavailable for the manoeuvring of pieces, while Black benefits in having an extra passed pawn on the d-file.\n\n12   ...\n\nxd4\n\nThis attack on the queen gains time as White must lose a move with his queen.\n\n13\n\nb1\n\nObviously 13\n\nxd4 would not do, as Black’s queen pounces down with instantaneous mate, while 13\n\nb2\n\nxf3+ 14\n\nxf3\n\nxd3 costs a piece. On 13\n\nc3, Black continues 13 ...\n\nfd8 followed by 14...\n\nac8, and again the queen must flee.\n\nWhite’s actual move is probably the least of the evils.\n\n13   ...\n\nfd8\n\nIntensifying the pressure along the d-file and particularly on the bishop, whose life is threatened by 14 ...\n\nxf3 + 15\n\nxf3\n\nxd3 16\n\nxd3\n\nxd3.\n\n14\n\ne1\n\n(D)\n\nWhite protects his bishop as well as the vulnerable g-pawn.\n\nAgainst 14\n\nc2 Black can choose from these themes:\n\n1) Simplification (being a pawn ahead), by 14...\n\nxc2.\n\n2) Stepping up the pressure by 14...\n\nac8, banishing the c2-bishop to the first rank.\n\n3) Combination, by 14 ...\n\ne2 + 15\n\nh1\n\na6 (threatening to win the exchange by 16...\n\nc3) 16\n\ne1\n\ng4 17\n\ne4\n\nxe4! 18\n\nxe4\n\nxf2#.\n\n14   ...\n\nh5!\n\nThere is no direct threat in this queen move, but Black threatens to threaten! He intends to storm White’s citadel of pawns with his queen supported by a minor piece, for instance by 15...\n\nd6 or 15...\n\ng4. This would compel one of the pawns to leave its base and create weaknesses that Black could exploit. The advanced pawn itself might be susceptible to attack, or avenues might be opened leading to the king.\n\nThis chipping away at the foundation is an interesting process for rendering an apparently strongly fortified position vulnerable to assault.\n\n15\n\nb2\n\nWhite has no dependable defence (especially against nebulous threats) so continues to develop his pieces. The more he has in play, the better his chances of surviving the coming storm.\n\n15   ...\n\nd6\n\nWith a simple but unmistakable threat: mate on the move!\n\nHow does White defend?\n\n1) 16\n\nef3\n\nxf3+ 17\n\nxf3\n\nxf3 18 gxf3\n\nxh2#.\n\n2) 16 f4\n\nc5 (threatening the deadly 17...\n\ne2++ 18\n\nh1\n\ng3#) 17\n\nh1\n\ng4 18 h3\n\nxh3+ and mate next move.\n\n3) 16 h3\n\ne5 (again aiming for mate at h2) 17 g3\n\nd5 (now trying for 18...\n\nh1#) 18 f3\n\ng5, and White’s game falls to pieces.\n\n16   g3\n\nBy a process of elimination, the only defence, if one still exists.\n\n16   ...\n\ng4\n\nWhite’s g-pawn has been compelled to step forward; now the threat of 17...\n\nxh2# forces the h-pawn’s advance.\n\n17   h4\n\n(D)\n\nWhite has no other move than this, which keeps the queen out – or does it?\n\n17   ...\n\nxh4!\n\nThis is brilliant! Not because of the fact that the queen is offered, but because it brings to an appropriate climax the systematic exploitation of pawn weaknesses cleverly brought into being.\n\nBlack introduces two threats of mate in one, at h1 and h2.\n\n0-1\n\nAfter 18 gxh4 the reply 18...\n\nh2# would come quick as a flash.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Flohr – Pitschak\n\nBilin 1930\n\nColle System"
+    },
+    {
+      "ply": 1,
+      "san": "d4",
+      "text": "In chess, unlike tennis, you cannot win by serving an ace. There is no trick move in the opening that will catch even a fair-to-middling player off-balance.\n\nWhat you can do is apply order and method in your conduct of this phase, so as to increase your chances of getting a favourable position. All you need do is follow a few simple rules for sound development:\n\nBegin with 1 e4 or 1 d4, either of which moves releases two pieces.\n\nAnchor at least one pawn in the centre and give it solid support. Pawns in the centre keep enemy pieces from settling themselves on the best squares.\n\nWherever feasible, bring out your knights before the bishops. Broadly speaking, the knights do their best work at f3 and c3 (f6\n\nand c6\n\nwhen Black), where their power is tremendous for defence as well as offence.\n\nOf two developing moves, select the more aggressive one. Develop with a threat if you can.\n\nMove each piece only once in the opening. Place it at once on a square where it has some bearing on the centre and where it has the greatest scope for attack.\n\nMove at most two pawns in the early stages of the game. Play with the pieces.\n\nDevelop the pieces with a view to controlling the centre, either by occupying it or bearing down on it from a distance, as fianchettoed bishops do.\n\nDevelop the queen, but close to home to avoid her being harassed by pawns and minor pieces.\n\nDo not chase after pawns at the expense of development.\n\nSecure the safety of the king by early castling, preferably on the kingside.\n\nCapablanca summed all this up when he said, “The main thing is to develop the pieces quickly: get them into play as fast as you can.”\n\nNow back to Flohr and Pitschak:\n\nWhite’s first move fixes a pawn in the centre and liberates two pieces.",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "Nf6",
+      "text": "Black brings his king’s knight out to its most favourable post and hinders White from continuing with 2 e4.",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "Nf3",
+      "text": "Napier recalls that in the first of several lessons he took from Steinitz, the World Champion said, “No doubt you move your knight out on each side before the bishop? And do you know why?” Napier says he was stuck for an intelligent answer. Steinitz went on to explain: “One good reason is that you know where the knight belongs before you know that much of your bishop; certainty is a far better friend than doubt.”",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "e6",
+      "text": "Black postpones the straightforward reply 2...d5, which lets him in for the regular lines of the Queen’s Gambit. Meanwhile he opens a line for the f8\n\n-bishop.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "Nbd2",
+      "text": "A typical knight manoeuvre in the Colle Attack: the knight puts pressure on the critical e4-square without blocking the c-file.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "c5",
+      "text": "Black strikes a blow at the d-pawn in an attempt to secure control of the centre. This flank thrust is almost compulsory in queen’s pawn openings because Black must try to disturb White’s central formation.\n\nThe immediate threat is 4...cxd4, so that the recapture by 5\n\nxd4 leaves no white pawn remaining in the centre.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "e3",
+      "text": "White shores up the d-pawn and provides an outlet for the f1-bishop.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "b6",
+      "text": "Black too props up his advanced pawn and prepares to fianchetto the c8-bishop.",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "Bd3",
+      "text": "Customary practice in this system of attack: the bishop adds his strength to the pressure exerted on e4 in preparation for an advance by the e-pawn, which will open up lines of attack for the pieces in the background. The bishop also aims at Black’s h-pawn, a fine target after the enemy king castles on that side.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "Bb7",
+      "text": "This solves one of Black’s chief problems in queen’s pawn openings – an effective disposition of the light-squared bishop. By means of this fianchetto arrangement, the bishop commands the longest diagonal on the board and participates in the fight for domination of e4, the strategic square in the Colle System.\n\n6   0-0\n\nAs part of the process of development, White shields his king from danger and brings his rook closer to the centre files.",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "Be7",
+      "text": "Despite its modest appearance, there is a great deal of latent energy in the placement of this bishop at e7. It is close enough to home to help defend the king, yet easily manoeuvrable to a more aggressive post if occasion requires.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "c4",
+      "text": "More in the spirit of the Colle formation is the quiet 7 c3 to supply a support for the d4-pawn. The e-pawn is then free to advance, and if Black at any time plays ...cxd4, White recaptures with the c-pawn and maintains a strong pawn in the centre.\n\nThe idea of the text-move apparently is to prevent Black’s pieces from using d5 as a pivot for their movements about the board.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "O-O",
+      "text": "Black goes quietly about the business of mustering out all the troops. At one stroke his rook appears on the scene while the king is whisked away.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "b3",
+      "text": "Clearly in order to develop the bishop at b2. This fianchettoing of the bishop is not conventional procedure in the Colle, but Flohr may have wanted to test some ideas of his own.",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "d5",
+      "text": "Black seizes the opportunity to dispute possession of the centre. He also puts an end to White’s contemplated advance of the e-pawn, as he bears down on the critical e4-square with knight, pawn and bishop, while White has only two pieces trained on it.\n\nIt is true that the b7-bishop’s diagonal is blocked, but this condition is only temporary.",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "Qc2",
+      "text": "Considerably better was the simple development of the dark-squared bishop at b2\n\n, which he prepared with his previous move.\n\nThe purpose of 9\n\nc2 is to secure control of e4 and to prevent Black from establishing an outpost on that square by 9...\n\ne4. The trouble with the move is that it permits Black to seize the initiative and thereafter direct the course of events.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "Nc6",
+      "text": "A powerful move which combines development, aggressive intent and prophylaxis!\n\nDevelopment, in that the knight is placed at once on its most suitable square.\n\nAggression, in the knight’s threat to advance to b4, attacking queen and bishop and forcing an exchange which rids the board of White’s dangerous light-squared bishop.\n\nProphylaxis, in the prevention of 10 e4, the continuation after which would be 10 ...\n\nb4 11\n\nc3 xd3 12\n\nxd3 dxe4, and Black wins apiece.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "a3",
+      "text": "White must preserve his valuable light-squared bishop.\n\nUnfortunately, the time lost in being forced to make a pawn move is costly, as we shall see.",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "cxd4",
+      "text": "Black exchanges to clarify the position in the centre and to open the c-file for the convenience of his a8-rook.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "cxd5",
+      "text": "The alternative capture 11 exd4 was unpleasant as the reply 11...dxc4 forces 12\n\nxc4 (otherwise White’s d-pawn is lost), when 12...\n\nc8 exercises uncomfortable pressure on White’s centre. Another possibility instead of the text-move is 11\n\nxd4\n\nxd4 12   exd4   dxc4   13\n\nxc4 (to save the d-pawn) 13 ...\n\nc8 14\n\na4\n\nc6 15\n\nxa7 (or 15\n\nc4\n\nxg2 and Black wins easily) 15 ...\n\na8 and Black wins the queen.",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "Qxd5",
+      "text": "Black nets a pawn with this and (as if it were not enough) takes over the attack.\n\nThe queen is in no danger, as White’s pieces are not sufficiently well developed to cause her any inconvenience.",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "exd4",
+      "text": "White opens the position to get some counterplay; he hopes to utilize the e-file for his rook and the e4-square as a pivot for his pieces.\n\nInstead the superficially attractive 12 e4 does not accomplish much, as after 12...\n\nh5 the vital e4-square is occupied by a pawn, making it unavailable for the manoeuvring of pieces, while Black benefits in having an extra passed pawn on the d-file.",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "Nxd4",
+      "text": "This attack on the queen gains time as White must lose a move with his queen.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Qb1",
+      "text": "Obviously 13\n\nxd4 would not do, as Black’s queen pounces down with instantaneous mate, while 13\n\nb2\n\nxf3+ 14\n\nxf3\n\nxd3 costs a piece. On 13\n\nc3, Black continues 13 ...\n\nfd8 followed by 14...\n\nac8, and again the queen must flee.\n\nWhite’s actual move is probably the least of the evils.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "Rfd8",
+      "text": "Intensifying the pressure along the d-file and particularly on the bishop, whose life is threatened by 14 ...\n\nxf3 + 15\n\nxf3\n\nxd3 16\n\nxd3\n\nxd3.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Ne1",
+      "text": "White protects his bishop as well as the vulnerable g-pawn.\n\nAgainst 14\n\nc2 Black can choose from these themes:\n\n1) Simplification (being a pawn ahead), by 14...\n\nxc2.\n\n2) Stepping up the pressure by 14...\n\nac8, banishing the c2-bishop to the first rank.\n\n3) Combination, by 14 ...\n\ne2 + 15\n\nh1\n\na6 (threatening to win the exchange by 16...\n\nc3) 16\n\ng4 17\n\ne4\n\nxe4! 18\n\nxe4\n\nxf2#.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "Qh5",
+      "text": "There is no direct threat in this queen move, but Black threatens to threaten! He intends to storm White’s citadel of pawns with his queen supported by a minor piece, for instance by 15...\n\nd6 or 15...\n\ng4. This would compel one of the pawns to leave its base and create weaknesses that Black could exploit. The advanced pawn itself might be susceptible to attack, or avenues might be opened leading to the king.\n\nThis chipping away at the foundation is an interesting process for rendering an apparently strongly fortified position vulnerable to assault.",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Bb2",
+      "text": "White has no dependable defence (especially against nebulous threats) so continues to develop his pieces. The more he has in play, the better his chances of surviving the coming storm.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "Bd6",
+      "text": "With a simple but unmistakable threat: mate on the move!\n\nHow does White defend?\n\n1) 16\n\nef3\n\nxf3+ 17\n\nxf3\n\nxf3 18 gxf3\n\nxh2#.\n\n2) 16 f4\n\nc5 (threatening the deadly 17...\n\ne2++ 18\n\nh1\n\ng3#) 17\n\nh1\n\ng4 18 h3\n\nxh3+ and mate next move.\n\n3) 16 h3\n\ne5 (again aiming for mate at h2) 17 g3\n\nd5 (now trying for 18...\n\nh1#) 18 f3\n\ng5, and White’s game falls to pieces.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "g3",
+      "text": "By a process of elimination, the only defence, if one still exists.",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Ng4",
+      "text": "White’s g-pawn has been compelled to step forward; now the threat of 17...\n\nxh2# forces the h-pawn’s advance.",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "h4",
+      "text": "White has no other move than this, which keeps the queen out – or does it?",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Qxh4",
+      "text": "This is brilliant! Not because of the fact that the queen is offered, but because it brings to an appropriate climax the systematic exploitation of pawn weaknesses cleverly brought into being.\n\nBlack introduces two threats of mate in one, at h1 and h2.\n\n0-1\n\nAfter 18 gxh4 the reply 18...\n\nh2# would come quick as a flash.",
+      "isCritical": true
+    }
+  ]
+}
