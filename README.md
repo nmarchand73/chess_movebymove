@@ -128,7 +128,7 @@ Pushes to `main` run `.github/workflows/deploy.yml`: `npm ci && npm run build` i
 ### Prerequisites
 
 - Python 3.11+
-- Node.js 20+
+- Node.js 22+
 - Local EPUB copies (not in repo):
   - `docs/Logical Chess- Move By Move.epub`
   - `docs/Understanding chess move by move - [a top-class grandmaster -- John Nunn -- 2013.epub`
