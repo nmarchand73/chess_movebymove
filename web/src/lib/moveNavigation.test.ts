@@ -25,6 +25,10 @@ describe("parseSanToken", () => {
   it("parses white move with dot", () => {
     assert.deepEqual(parseSanToken("2. d4"), { moveNum: 2, side: "white", san: "d4" });
   });
+
+  it("parses spaced white move without a dot", () => {
+    assert.deepEqual(parseSanToken("1 e4"), { moveNum: 1, side: "white", san: "e4" });
+  });
 });
 
 describe("resolveSanClick", () => {
@@ -41,6 +45,17 @@ describe("resolveSanClick", () => {
       assert.ok(result.fen.length > 10);
       assert.equal(result.label, "2...d6");
     }
+  });
+
+  it("previews a spaced first-move mention instead of jumping to a later e4", () => {
+    const nodes: AnnotationNode[] = [
+      { ply: 0, text: "Intro" },
+      { ply: 1, san: "Nf3", text: "Flexible." },
+      { ply: 10, san: "e4", text: "Later central push." },
+    ];
+    const result = resolveSanClick("1 e4", nodes, 0);
+    assert.equal(result.kind, "preview");
+    if (result.kind === "preview") assert.equal(result.label, "1 e4");
   });
 });
 

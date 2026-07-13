@@ -111,6 +111,12 @@ export function LessonPage({ summary, onBack }: Props) {
         return;
       }
       if (resolution.kind === "preview") {
+        if (ply === 0) {
+          const targetPly = nextAnnotatedPly(lesson.nodes, 0, lesson.moveCount) ?? 1;
+          setPly(targetPly);
+          setBeatIndex(0);
+          setRevealed(true);
+        }
         setPreview({ fen: resolution.fen, label: resolution.label });
       }
     },
@@ -126,6 +132,12 @@ export function LessonPage({ summary, onBack }: Props) {
         return;
       }
       if (resolution.kind === "preview") {
+        if (ply === 0) {
+          const targetPly = nextAnnotatedPly(lesson.nodes, 0, lesson.moveCount) ?? 1;
+          setPly(targetPly);
+          setBeatIndex(0);
+          setRevealed(true);
+        }
         setPreview({ fen: resolution.fen, label: resolution.label });
       }
     },
@@ -148,7 +160,6 @@ export function LessonPage({ summary, onBack }: Props) {
 
   useEffect(() => {
     setBeatIndex(0);
-    setPreview(null);
   }, [ply]);
 
   useEffect(() => {

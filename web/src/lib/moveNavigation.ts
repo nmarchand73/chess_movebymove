@@ -15,10 +15,15 @@ function plyForMoveNumber(moveNum: number, side: "white" | "black"): number {
   return (moveNum - 1) * 2 + 2;
 }
 
-function sideFromDots(dots: string | undefined, explicitBlack: boolean): "white" | "black" | null {
+function sideFromDots(
+  dots: string | undefined,
+  explicitBlack: boolean,
+  moveNum?: number,
+): "white" | "black" | null {
   if (dots?.includes("...")) return "black";
   if (dots === "." || dots === "..") return "white";
   if (explicitBlack) return "black";
+  if (moveNum) return "white";
   return null;
 }
 
@@ -29,9 +34,9 @@ export function parseSanToken(notation: string): { moveNum?: number; side?: "whi
   if (prefix) {
     const moveNum = Number(prefix[1]);
     const rest = trimmed.slice(prefix[0].length).trim();
-    const side = sideFromDots(prefix[2], prefix[0].includes("..."));
+    const side = sideFromDots(prefix[2], prefix[0].includes("..."), moveNum) ?? undefined;
     const san = rest.replace(/^\.+\s*/, "").trim();
-    return { moveNum, side: side ?? undefined, san };
+    return { moveNum, side, san };
   }
   return { san: trimmed };
 }
@@ -68,6 +73,23 @@ function findMainLinePly(nodes: AnnotationNode[], moveNum: number, side: "white"
   return null;
 }
 
+function findMainLineNode(
+  nodes: AnnotationNode[],
+  moveNum: number | undefined,
+  side: "white" | "black" | undefined,
+  san: string,
+): AnnotationNode | undefined {
+  const normalized = san.replace(/[+#!?]+$/, "");
+  if (moveNum && side) {
+    const targetPly = plyForMoveNumber(moveNum, side);
+    const node = nodes.find((n) => n.ply === targetPly && n.san);
+    if (!node?.san) return undefined;
+    if (node.san.replace(/[+#!?]+$/, "") === normalized) return node;
+    return undefined;
+  }
+  return nodes.find((n) => n.san && n.ply > 0 && n.san.replace(/[+#!?]+$/, "") === normalized);
+}
+
 export function resolveSanClick(
   notation: string,
   nodes: AnnotationNode[],
@@ -93,12 +115,7 @@ export function resolveSanClick(
     const base = buildPositionAtPly(nodes, basePly);
     const after = tryMove(base, san);
     if (after) {
-      const mainAt = nodes.find(
-        (n) =>
-          n.san &&
-          n.ply > 0 &&
-          n.san.replace(/[+#!?]+$/, "") === san.replace(/[+#!?]+$/, ""),
-      );
+      const mainAt = findMainLineNode(nodes, moveNum, side, san);
       if (mainAt) return { kind: "jump", ply: mainAt.ply };
       return { kind: "preview", fen: after.fen(), label: san };
     }
