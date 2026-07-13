@@ -103,6 +103,10 @@ function BeatContent({
   onSanClick: (notation: string) => void;
   onAltClick: (alt: AlternativeMove) => void;
 }) {
+  if (beat.kind === "heading") {
+    return <h3 className="commentary-chapter">{beat.text}</h3>;
+  }
+
   if (beat.kind === "prose") {
     return <CommentaryParagraph text={beat.text} onSanClick={onSanClick} />;
   }
@@ -144,11 +148,13 @@ export function CommentaryPanel({
   );
 
   const takeaway = useMemo(() => extractTakeaway(normalized), [normalized]);
-  const principles = useMemo(
-    () => extractPrinciples([...normalized.main, ...normalized.tail]),
-    [normalized],
-  );
   const beats = useMemo(() => buildCommentaryBeats(normalized), [normalized]);
+  const headingBeat = beats.find((beat): beat is Extract<CommentaryBeat, { kind: "heading" }> => beat.kind === "heading");
+  const principles = useMemo(() => {
+    const extracted = extractPrinciples([...normalized.main, ...normalized.tail]);
+    const blocked = new Set([takeaway, headingBeat?.text].filter(Boolean));
+    return extracted.filter((p) => !blocked.has(p));
+  }, [normalized, takeaway, headingBeat?.text]);
   const stepping = beatsNeedStepping(beats);
   const safeBeatIndex = Math.min(beatIndex, Math.max(0, beats.length - 1));
   const currentBeat = beats[safeBeatIndex];
@@ -178,7 +184,7 @@ export function CommentaryPanel({
           <p className="board-hint">Study the position on the board ←</p>
         )}
 
-        {takeaway && hasContent ? (
+        {takeaway && hasContent && !headingBeat ? (
           <p className="commentary-takeaway">{takeaway}</p>
         ) : null}
 

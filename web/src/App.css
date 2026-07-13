@@ -1774,6 +1774,15 @@ button.san-link:hover {
   color: var(--ink);
 }
 
+.commentary-chapter {
+  margin: 0 0 0.75rem;
+  font-family: Literata, Georgia, serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--ink);
+}
+
 .principle-list {
   display: flex;
   flex-direction: column;
