@@ -24,8 +24,6 @@ type Props = {
   onBeatChange: (index: number) => void;
   onSanClick: (notation: string) => void;
   onAltClick: (alt: AlternativeMove) => void;
-  studyMode: boolean;
-  onStudyModeChange: (value: boolean) => void;
   commentator: string;
 };
 
@@ -136,8 +134,6 @@ export function CommentaryPanel({
   onBeatChange,
   onSanClick,
   onAltClick,
-  studyMode,
-  onStudyModeChange,
   commentator,
 }: Props) {
   const label = ply === 0 ? "Introduction" : node?.san ? `${formatMoveNumber(ply)} ${node.san}` : `Move ${ply}`;
@@ -170,14 +166,6 @@ export function CommentaryPanel({
           <span className="pill">{ply}/{totalPlies}</span>
           {node?.isCritical ? <span className="pill critical">Key moment</span> : null}
           {hasContent ? <span className="pill accent">Annotated</span> : null}
-          <label className="study-mode-toggle" title={`${studyMode ? "Show" : "Hide"} engine eval and best line while reading ${commentator}`}>
-            <input
-              type="checkbox"
-              checked={studyMode}
-              onChange={(e) => onStudyModeChange(e.target.checked)}
-            />
-            Hide engine
-          </label>
         </div>
       </header>
 

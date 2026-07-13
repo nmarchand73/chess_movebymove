@@ -6,6 +6,7 @@ import { usePerformanceElos } from "../hooks/usePerformanceElos";
 import { loadIndex } from "../lib/lessonLoader";
 import { aggregatePlayerElos, formatPlayerWithElo } from "../lib/playerStats";
 import { getGameProgress, loadProgress } from "../lib/progress";
+import { getBookDetails } from "../lib/bookDetails";
 
 type Props = {
   selectedBook: BookId | null;
@@ -82,13 +83,13 @@ function LibraryView({
       <div className="book-card-grid" role="list">
         {index.books.map((book) => {
           const lessons = index[book.id] ?? [];
+          const details = getBookDetails(book.id);
           const { completedCount, inProgressCount } = bookProgress(lessons);
           const pctComplete = book.gameCount
             ? Math.round((completedCount / book.gameCount) * 100)
             : 0;
           const hasProgress = completedCount > 0 || inProgressCount > 0;
           const isResumeBook = progress.lastLessonId?.startsWith(`${book.id}-`);
-          const sectionCount = book.sections?.length ?? 0;
 
           return (
             <button
@@ -106,18 +107,36 @@ function LibraryView({
                 {isResumeBook ? <span className="book-card-pill">In progress</span> : null}
               </div>
               <h2 className="book-card-title">{book.title}</h2>
+              {details ? (
+                <>
+                  <p className="book-card-tagline">{details.tagline}</p>
+                  <p className="book-card-meta">
+                    <span>{details.published}</span>
+                    <span className="book-card-meta-sep" aria-hidden="true">·</span>
+                    <span>{details.audience}</span>
+                  </p>
+                  <p className="book-card-description">{details.description}</p>
+                  <ul className="book-card-highlights">
+                    {details.highlights.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                  {details.famousFor ? (
+                    <blockquote className="book-card-quote">{details.famousFor}</blockquote>
+                  ) : null}
+                </>
+              ) : null}
               <p className="book-card-stats">
-                {book.gameCount} games
-                {sectionCount > 0 ? ` · ${sectionCount} sections` : ""}
+                {book.gameCount} annotated games in this app
               </p>
               {book.sections && book.sections.length > 0 ? (
                 <ul className="book-card-sections" aria-label="Book sections">
-                  {book.sections.slice(0, 3).map((section) => (
-                    <li key={section.title}>{section.title}</li>
+                  {book.sections.map((section) => (
+                    <li key={section.title} title={section.blurb}>
+                      <span className="book-card-section-name">{section.title}</span>
+                      <span className="book-card-section-range">Games {section.range}</span>
+                    </li>
                   ))}
-                  {book.sections.length > 3 ? (
-                    <li className="book-card-sections-more">+{book.sections.length - 3} more</li>
-                  ) : null}
                 </ul>
               ) : null}
               <div className="book-card-footer">
@@ -155,6 +174,7 @@ function BookHomeView({
   const progress = loadProgress();
   const { performanceByLesson, loading: elosLoading } = usePerformanceElos();
   const sections = book.sections ?? [];
+  const details = getBookDetails(book.id);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -216,9 +236,17 @@ function BookHomeView({
           </button>
           <p className="eyebrow">{book.author}{book.publisher ? ` · ${book.publisher}` : ""}</p>
           <h1>{book.title}</h1>
-          <p className="hero-sub">
-            Study all {book.gameCount} games with {book.author.split(" ").pop()}&apos;s commentary and a synced board.
-          </p>
+          {details ? (
+            <>
+              <p className="hero-sub book-hero-tagline">{details.tagline}</p>
+              <p className="book-hero-description">{details.description}</p>
+              <p className="book-hero-meta">{details.published} · {details.audience}</p>
+            </>
+          ) : (
+            <p className="hero-sub">
+              Study all {book.gameCount} games with {book.author.split(" ").pop()}&apos;s commentary and a synced board.
+            </p>
+          )}
         </div>
 
         {continueLesson && (

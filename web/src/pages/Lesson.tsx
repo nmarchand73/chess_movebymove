@@ -35,7 +35,6 @@ export function LessonPage({ summary, onBack }: Props) {
   const [ply, setPly] = useState(0);
   const [beatIndex, setBeatIndex] = useState(0);
   const [preview, setPreview] = useState<{ fen: string; label: string } | null>(null);
-  const [studyMode, setStudyMode] = useState(false);
   const [guessEnabled, setGuessEnabled] = useState(false);
   const [revealed, setRevealed] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -64,7 +63,7 @@ export function LessonPage({ summary, onBack }: Props) {
   const beats = useMemo(() => buildCommentaryBeats(normalized), [normalized]);
   const hasMoreBeats = beatsNeedStepping(beats) && beatIndex < beats.length - 1;
 
-  const showEngine = ply > 0 && !studyMode;
+  const showEngine = ply > 0;
   const { eval: positionEval, status: evalStatus } = usePositionEval(
     chess?.fen() ?? null,
     showEngine,
@@ -328,8 +327,6 @@ export function LessonPage({ summary, onBack }: Props) {
           onBeatChange={setBeatIndex}
           onSanClick={handleSanClick}
           onAltClick={handleAltClick}
-          studyMode={studyMode}
-          onStudyModeChange={setStudyMode}
           commentator={commentator}
         />
       </div>
