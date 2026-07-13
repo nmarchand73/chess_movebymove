@@ -1,0 +1,373 @@
+{
+  "id": "nunn-014",
+  "book": "nunn",
+  "gameNum": 14,
+  "title": "Game 14: Bu Xiangzhi vs Ye Jiangchuan",
+  "section": "Defensive Play",
+  "players": {
+    "white": "Bu Xiangzhi",
+    "black": "Ye Jiangchuan"
+  },
+  "event": "Shenyang 1999",
+  "opening": "King’s Indian Defence, Sämisch Variation",
+  "eco": "E86",
+  "pgnPath": "data/pgn/nunn/14.pgn",
+  "result": "0-1",
+  "moveCount": 58,
+  "annotatedMoves": 57,
+  "fullText": "Defence and Counter-Attack\n\nWhen the scenario of kingside attack vs queenside attack is being played out, it is quite easy to fall into the trap of mentally dividing the board into the two halves. Take a look at this diagram (after 18 Rh2). Here it seems that there is a clear division. White is attacking down the h-file with the aim of giving mate on h7 or h8, while Black is striving to generate threats on the other side of the board. One might then mentally assign each piece to a particular half of the board. The white queen, for example, is the spearhead of White’s kingside assault, while Black’s queen and knight seem equally clearly to be part of the queenside activity. Yet there are many dangers in artificially compartmentalizing the board like this, because the interaction between the various parts of the board is ignored. What about the white rook on h2, for example? Is its main role on the kingside or the queenside? In fact, both are equally important. The rook is covering the mate on b2, but at any moment it might play a decisive role along the h-file. Mentally chopping the board into pieces can easily lead to oversights. If the white queen has been mentally assigned to the kingside, it would be easy to overlook that its control of c1 might play a vital defensive role in one line (for example, at the end of note ‘2a’ to White’s 15th move). It is said that long diagonal moves backward are hard to see; here there is an additional difficulty in spotting the possible change of function of the white queen. This comment applies equally to the black queen; in note ‘4’ to White’s 23rd move, for example, the queen suddenly arrives back on f6 to save the black king.\n\nIn this game the interaction between the kingside and queenside play is particularly intense; pieces are made to work hard performing multiple functions, and nothing can be taken for granted.\n\nBu Xiangzhi – Ye Jiangchuan\n\nShenyang 1999\n\nKing’s Indian Defence, Sämisch Variation\n\n1 d4\n\n1...Nf6\n\n2 c4\n\nFor comments on the moves up to this point, see Game 13.\n\n2...g6\n\nThis was mentioned as a possibility in the notes to Game 13. Black ignores White’s threat to force through e4 and concentrates on quick piece development and early castling.\n\n3 Nc3\n\nWhite continues with his plan to support the advance e4.\n\n3...Bg7\n\nThe main alternative is to act directly in the centre by 3...d5 (the Grünfeld Defence). One of the main lines of the Grünfeld runs 4 cxd5 Nxd5 5 e4 Nxc3 6 bxc3 Bg7. In this variation White has managed to force through e4 and has even gained a 2 vs 1 pawn-majority in the centre, but at the cost of some time. Black can use this time to assault the d4-pawn by ...c5 and ...Nc6. If the pawn is forced to move, then the g7-bishop will become more active. As so often in chess, it is a matter of balancing one advantage against another – in this case White’s superior centre against Black’s lead in development. See Game 29 for more on this opening.\n\nThe text-move introduces the King’s Indian Defence, an opening that became especially popular when Kasparov scored some notable victories with it.\n\n4 e4\n\nWhite, of course, follows his intended plan. His centre looks imposing, but he will have to catch up in development and this will give Black time to start his own play in the centre.\n\n4...d6\n\nBlack intends to organize his central play on the dark squares, for example by ...0-0, ...e5 and ...Nc6 to exert pressure on the d4-pawn. Note that the text-move effectively prevents e5 by White, since 5 e5 dxe5 6 dxe5 Qxd1+ 7 Nxd1 (7 Kxd1 Ng4 wins a pawn) 7...Nfd7 8 f4 f6 is obviously fine for Black.\n\n5 f3\n\nAt first sight this resembles a beginner’s move. Instead of developing a piece, White moves yet another pawn, at the same time taking away the best square from the g1-knight. Of course White supports e4, but this pawn was not attacked. Despite this, 5 f3 (called the Sämisch Variation) is considered one of White’s most dangerous lines against the King’s Indian, and it has been employed by Botvinnik, Petrosian, Karpov and Kramnik, amongst many other leading players. What, then, is the venom hidden in this apparently harmless move? In the note to Black’s 4th move, I mentioned that Black typically tries to exert pressure against the d4-pawn. White would like to support the d4-pawn by Be3, but this bishop can be dislodged by ...Ng4. Thus the move f3 is necessary preparation for the manoeuvre Be3 and Qd2. If the d4-pawn requires further support, then Nge2 is possible. Unusually for the King’s Indian, White often castles queenside in the Sämisch. This sharpens the struggle, since White may choose to launch a kingside attack by h4-h5 and Bh6 (much as in the Sicilian Dragon – see Game 10). A solid centre is a prerequisite for a flank attack, and White’s solid defence of d4 and e4 provides a reasonable foundation for kingside action. The dark side of White’s plan is that it is quite time-consuming, and his kingside pieces often have to stay at home for some time. Moreover, the move f3 slightly weakens the dark squares, so White must take care that Black is not able to exploit this.\n\n5...0-0\n\nThe natural move; Black completes his kingside development.\n\n6 Be3\n\nThis is the logical follow-up to White’s previous move.\n\n6...e5\n\nBlack has to decide how to act in the centre – he has quite a wide range of possible plans. The first idea is simply to continue with his normal central play against d4. In this case 6...c5 (Black gets adequate compensation if White wins a pawn on c5) or the text-move is indicated. Another plan is to expand on the queenside, so as to set up a possible counterattack there in anticipation of White’s 0-0-0. In this case Black might play 6...c6, followed by ...a6 and ...b5. Just to confuse the issue, there are some hybrid plans in which Black aims for both ...b5 and ...e5. As we shall see, Black adopts a such a hybrid plan in the main game.\n\n7 Nge2\n\nFurther support for d4 is necessary, as Black was threatening 7...exd4 8 Bxd4 Nc6. In view of his shaky dark squares, White cannot afford to let his dark-squared bishop be exchanged for a knight, and so the bishop would have to retreat from d4 with loss of time. The text-move permits White to recapture on d4 with a knight.\n\n7...c6\n\nA good, flexible move. White’s pieces are kept out of d5, Black prepares a possible development of his queen to a5, and he is ready for further queenside action by ...a6 and ...b5.\n\n8 Qd2\n\nFor the moment everything is secure in the centre, so White can complete his queenside development.\n\n8...Nbd7\n\nAfter White’s 0-0-0, there will be a threat of dxe5, so Black further supports his strongpoint in the centre.\n\n9 0-0-0\n\n9...a6\n\nNow that White’s king is committed to the queenside, Black’s natural plan is to prepare expansion via ...b5.\n\n10 Bh6\n\nWhite has to make a fundamental choice about how to proceed. There are basically two strategies: to play in the centre, or to launch a kingside attack. If White wants to play in the centre, he has to face the problem of developing his kingside pieces. The roadblock is the knight on e2, which locks in the bishop. The knight could move to g3, but there it has little future if White is not going to attack on the kingside. Therefore 10 Kb1 is the most natural move, preparing Nc1 and possibly Nb3. This line is indeed the most popular in practice, because White has chances for an advantage without incurring any great risk.\n\nIf White wants to play for a kingside attack, he might try 10 g4 or 10 h4, but since the exchange of the g7-bishop is almost certain to be necessary sooner or later, it is most flexible to start with the text-move.\n\n10...Bxh6\n\nThe problem of whether to meet Bh6 with ...Bxh6 occurs in several openings – for example, the Sicilian Dragon (see Game 10) and the Pirc, as well as the King’s Indian. In terms of tempi it usually makes no difference. We can see this if we look at the following sequences (in which Black’s tempi are indicated by B1, B2, etc.): 1...Bxh6 2 Qxh6 B1 3 h4 B2 4 h5 B3 5 hxg6 fxg6 and 1...B1 2 Bxg7 Kxg7 3 h4 B2 4 h5 B3 5 hxg6 fxg6 6 Qh6+ Kg8. These sequences end up with the same position, although the second takes one move longer. It is therefore necessary to see if there are any factors peculiar to the given position which favour one or the other. For example, if it might be better to retreat the king to h8 after Qh6+, then the second sequence could be preferable. In the current position it doesn’t matter much if Black plays ...Bxh6 straight away or not, as he can usually still play it later. However, he should not leave it too long; for example, after 10...b5 11 h4 Qa5 12 h5 b4 13 Nb1 Qxa2 14 Ng3 it is Black’s last chance to transpose to the line considered in the note to White’s 13th move. If he delays further with 14...exd4?, then 15 Bxg7! Kxg7 16 Qxd4 gives White a clear advantage. The d6-pawn will be captured, after which e5 will be very strong.\n\nIn this discussion, we assume that a white knight cannot easily reach g5. If it can, then it is usually very unwise to play ...Bxh6, as the combination of a queen on h6 and a knight on g5 is very dangerous.\n\n11 Qxh6\n\n11...b5\n\nBlack should not delay in starting his counterplay.\n\n12 h4\n\nAs we have mentioned earlier, launching an attack on the castled king usually involves a fair degree of commitment. Here the commitments are the decentralized queen and the time it takes to open the h-file. If the attack collapses, White may have to bring his queen back to the centre, in which case all the time he has spent will be wasted.\n\n12...Qa5\n\nBlack’s kingside will not defend itself for ever, so (just as in Game 12) he has to strike a balance between direct kingside defence and furthering his queenside counterplay. Black’s pieces are at the moment not especially well placed for a queenside attack, and he will need to involve his queen and at least one minor piece in order to create some serious threats. Note that White cannot defend his queenside directly by 13 Kb1?? because 13...b4 wins a piece.\n\n13 g4!?\n\nAt first sight this looks like a waste of time, because it is perfectly possible to play h5 without any further preparation. However, White has an interesting idea in mind, which we can only understand if we take a look at what happens after the immediate 13 h5. Black continues 13...b4 14 Nb1 Qxa2 and now:\n\n1) White should not exchange prematurely on g6, because this gives Black extra defensive possibilities along the second rank; for example, 15 hxg6 fxg6 16 Rd2 Qxc4+ 17 Rc2 Qf7 and Black stands well.\n\n2) The direct attempt 15 Ng3 leads to a forced draw by perpetual check after 15...Nb6 16 c5 (an attempt to displace the knight from f6, so that hxg6 would lead to mate) 16...Nc4 (16...Na4 also seems adequate for a draw in view of 17 Rd2 exd4 18 e5 Nxc5 {but not 18...dxe5? due to 19 Ne4 Qe6 20 hxg6 fxg6 21 Nxf6+ Rxf6 22 Qxh7+ Kf8 23 Qc7, when White has a clear advantage} 19 exf6 Nb3+ 20 Kc2 Na1+ 21 Kc1 Nb3+) 17 Rd2 Na5! (after 17...Nxd2? 18 Nxd2 Qa1+ 19 Nb1 White has a dangerous attack, since the elimination of Black’s knight has brought his attack to a halt, at least for the moment) 18 cxd6 Nb3+ 19 Kc2 Na1+ 20 Kc1 Nb3+. This sequence occurred in the game Beliavsky-Kasparov, Linares 1993.\n\n3) White can also try 15 Rd2 first, and this introduces some new ideas for both sides:\n\n3a) 15...Nb6 16 c5 (16 Qg5 Qxc4+ 17 Rc2 Qe6 18 Rxc6 Nfd7! 19 d5 Nxd5! 20 exd5 Qxd5 21 Rc2 Nc5 gives Black three pawns and a dangerous attack for the piece) 16...Nc4 17 cxd6 (17 Rc2 Na5 favours Black) 17...Na5 has been believed to result in the familiar draw by ...Nb3+ and ...Na1+, or if 18 Rd3, then 18...Nc4 forces a repetition. Indeed, the game T.Pähtz-Cvitan, Bad Wörishofen 1994 concluded 18 dxe5 Nb3+ 19 Kc2 Na1+ 20 Kc1 Nb3+ 21 Kc2 ½-½. However, 18 hxg6! fxg6 (18...Nb3+ 19 Kc2 Na1+ 20 Kd1! is similar) 19 dxe5 is very awkward for Black. Then 19...Nb3+ 20 Kc2 Na1+ 21 Kd1! Qxb1+ 22 Nc1 wins for White, as Black cannot meet the threats of 23 Bc4+, 23 Bd3 and 23 exf6, but Black’s alternative 19th moves also fail to give him a satisfactory position.\n\n3b) 15...Qxc4+ 16 Rc2 Qd3!? is an untested suggestion of Gallagher. The queen appears precariously placed on d3, but there is no obvious way for White to exploit this.\n\nThe point of 13 g4 is not so much to support h5, but to open the second rank to allow White to defend the b2-pawn by Rh2. Then the d1-rook will be free to move to d3, ready to meet ...Nb3+ by the exchange sacrifice Rxb3. White hopes Black’s counterattack will come to nothing without this perpetual, leaving White in the driving seat. The idea of using the rook on h2 for both attack and defence is ingenious. In this game it fails, but only because of a later slip by White.\n\n13...b4\n\n13...Nb6? is a mistake because of 14 dxe5 dxe5 15 Rd6!.\n\n14 Nb1\n\n14...Nb6\n\n14...Qxa2 15 Ng3 Nb6 transposes to the following note.\n\n15 dxe5?!\n\nThe opening of the d-file helps Black more than White, since in many lines White’s king is chased onto the open file. It is true that White can still draw after this move, but only by very accurate play.\n\nThe critical line runs 15 Ng3 Qxa2 16 h5 Nxc4 17 Rh2 and now:\n\n1) 17...Na5 allows White to put his plan into action: 18 Rd3! Nb3+ 19 Rxb3 (this is a defensive sacrifice of the type we saw in Game 13; a key attacking piece is eliminated, and the black attack grinds to a halt) 19...Qxb3 20 Nd2 (White has a very dangerous attack) 20...Qa2 (20...Qe6 21 Nf5! gxf5 22 gxf5 and 20...Qa4 21 dxe5 dxe5 22 hxg6 fxg6 23 Bc4+ Rf7 24 Nh5 are both winning for White) 21 hxg6 Qa1+ 22 Nb1 fxg6 23 dxe5 and Black is in serious trouble as he cannot play ...dxe5 due to Bc4+.\n\n2) 17...Na3! (this move exposes the weak point of defending b2 from h2 – the rook is undefended on h2) 18 Bd3 Nxb1 19 hxg6 (19 g5 Ng4 20 fxg4 Na3 21 hxg6 Qa1+ 22 Kd2 Qxb2+ 23 Ke1 is a draw) 19...fxg6 20 g5 with enormous complications:\n\n2a) 20...Nc3 21 bxc3! (21 Rdh1 exd4 22 gxf6 Ra7 23 Qxh7+!? Rxh7 24 Rxh7 Qa1+ 25 Kd2 Qxh1 26 Rg7+ Kh8 27 Nxh1 is also murky) 21...Qa1+ 22 Kd2 Qxc3+ 23 Ke2 and although Black gets four pawns for the piece, none of the pawns is really dangerous, while White’s residual attacking chances are still significant. White wins after 23...Nh5 24 Nxh5 gxh5 25 g6, while 23...Ra7 24 gxf6 Rxf6 25 Rc1! also favours White.\n\n2b) 20...Na3! (this is better, because Black’s queen ends up on a3 rather than c3, and so is not exposed to the tempo-gaining Rc1) 21 bxa3 Qxa3+ 22 Kd2 Ra7 23 gxf6 Rxf6 24 Rc1 Be6 with a totally unclear position.\n\nPerhaps put off by the result of this game, nobody seems to have cared to repeat White’s idea, but on the basis of this analysis it deserves another try.\n\n15...dxe5\n\n16 Ng3\n\n16 Rd6, which was successful in the note to Black’s 13th move, no longer works due to 16...Nxc4 17 Rxf6 Qxa2, when there is no way to defend b2.\n\n16...Qxa2\n\n17 h5\n\n17 g5 is a mistake; it does not help White’s kingside chances and only drives the f6-knight to join in Black’s queenside attack: 17...Nxc4 18 Rh2 Nd7 19 Bxc4 (19 h5 loses to 19...Nc5) 19...Qxc4+ 20 Rc2 Qb5 21 h5 Nc5 22 Nd2 Qa5! and Black wins.\n\n17...Nxc4\n\n18 Rh2!\n\nThe only consistent move. 18 Bxc4 is bad as 18...Qxc4+ 19 Kd2 Nxg4 20 fxg4 Rd8+ 21 Ke3 Bxg4 gives Black a decisive attack; the immediate threat is 22...Qc5+ and mate next move. 18 Rd2 is inconsistent with White’s plan. Then Black can force his usual draw by 18...Na5 19 hxg6 Nb3+ 20 Kc2 Na1+, but he can also very well play for a win by 18...Ra7! 19 hxg6 fxg6 20 g5 (20 Bxc4+ Qxc4+ 21 Rc2 Qd3 22 g5 Ng4! 23 fxg4 Qxg3 wins for Black) 20...Nxd2 21 Nxd2 Qa1+ 22 Nb1 Nd5! (a neat method of blocking the a2-g8 diagonal) 23 Bc4 (23 exd5 cxd5 followed by ...Rc7+ is an easy win for Black) 23...Rc7! and White cannot reinforce his attack. This line provides another example of a rook operating both defensively along a rank and aggressively along a file.\n\n18...Na3!\n\nOnce again, this stroke saves Black – indeed, in this position, it forces White to respond accurately.\n\n19 Bd3\n\nNot 19 Nxa3? bxa3 20 hxg6 fxg6 21 bxa3 Qxa3+ 22 Kc2 Be6, when Black’s attack strikes first.\n\n19...Nxb1\n\nA critical moment. Black has no immediately deadly threats, so White has a tempo to spend on reinforcing his attack. How can he best utilize this tempo?\n\n20 hxg6?\n\nWhite makes the wrong choice. Opening the second rank makes it easier for Black to defend g7 and h7, and the balance starts to tip in Black’s favour. 20 Bxb1 is also inferior; after 20...Qc4+ 21 Rc2 (21 Bc2 loses to 21...b3 22 Rd6 bxc2 23 Rxf6 Qa2 24 Kxc2 Rb8) 21...Qb3 22 Nf5 (22 Rxc6 Qxf3 23 Rd3 Qf4+ 24 Qxf4 exf4 25 Rxf6 fxg3 26 Rxg3 Be6 gives Black a large endgame advantage) 22...Bxf5 23 exf5 (23 gxf5 Nxh5) 23...Rad8 White’s attack is collapsing; for example, 24 hxg6 Rxd1+ 25 Kxd1 Qxf3+ 26 Ke1 Qg3+ 27 Kf1 fxg6.\n\n20 g5! is correct. There are many ways for Black to force a draw, but there is no route to an advantage. The trickiest line runs 20...Nc3 (20...Ng4 21 fxg4 Na3 22 hxg6 Qa1+ 23 Kd2 Qxb2+ 24 Ke3 Qd4+ 25 Kd2 is a draw) 21 Rdh1! (21 bxc3? loses to 21...Qa1+ 22 Kd2 Qxc3+ 23 Ke2 Ng4 24 fxg4 Bxg4+ 25 Ke3 Bxd1 26 hxg6 Qc1+) 21...Ng4 (21...Qa1+ 22 Kc2 Qa4+ 23 Kc1 is an immediate perpetual) 22 fxg4 Ra7 (now Black only needs a couple of tempi to put a rook on the d-file and deliver mate, but White is just in time) 23 Nf5! (23 bxc3? Qa1+ 24 Kd2 Qxc3+ 25 Ke3 Rd8 26 Rd1 Bxg4 is a win for Black) 23...gxf5 24 gxf5 and it is time for Black to give perpetual check by 24...Qa1+ 25 Kc2 Qa4+ 26 Kc1, or else he might even lose. In these lines, the defensive powers of the rook on h2 save White again and again.\n\n20...fxg6\n\n21 g5\n\n21 Bxb1 Qc4+ 22 Rc2 Qb3 is very good for Black, much as in the note to White’s 20th move.\n\n21...Rd8!\n\nThanks to White’s error, Black is suddenly able to switch to the attack himself. Sooner or later, White’s king will be chased onto the d-file; when that happens, the rook will be usefully posted on d8. 21...Nc3 is wrong since 22 bxc3 Qa1+ 23 Kd2 Qxc3+ 24 Ke2 favours White.\n\n22 gxf6\n\n22 Bc2 doesn’t help in view of 22...Rxd1+ 23 Bxd1 (23 Kxd1 loses to 23...Qxb2 24 gxf6 Ra7) 23...Ra7! (23...Nc3 24 bxc3 Qa1+ 25 Kd2 is less clear) 24 gxf6 Nc3! 25 bxc3 (25 Bb3+ Qxb3 26 Rd2 Nd5! 27 exd5 cxd5 should win for Black) 25...Qa1+ 26 Kd2 (26 Kc2 b3+ 27 Kxb3 Qxd1+ 28 Ka3 Be6 is decisive) 26...Rd7+ 27 Ke3 Qxd1 and Black wins.\n\n22...Ra7!\n\nThis move is only possible thanks to White’s premature pawn exchange on g6. In an echo of White’s earlier Rh2, Black’s rook provides a sturdy defence along the second rank.\n\nThe interaction of attack and defence in this game is quite complex. Neither side can afford to proceed with his attack without taking into account the actions of the opponent.\n\n23 Qg5?\n\nAfter this, Black wins fairly easily. Some of the alternatives offered better practical chances, although there is nothing fully satisfactory for White:\n\n1) 23 Rc2? Be6 (23...Nc3?? 24 Bc4+) 24 Nf5 Qa1 and Black wins at once.\n\n2) 23 Qe3 Rad7 24 Qb6 (24 Bc2? loses to 24...Rxd1+ 25 Bxd1 Nc3) 24...Nc3 25 bxc3 Qa1+ 26 Kc2 Qxc3+ 27 Kb1 Rxd3 28 Qxd8+ Rxd8 29 Rxd8+ Kf7 30 Rxc8 Qe1+ 31 Kb2 Qxg3 32 Rxh7+ Kxf6 33 Rxc6+ Kg5 gives Black excellent winning chances.\n\n3) 23 b3 is a better move which requires accurate handling by Black: 23...Qxb3 24 Bc2 Rxd1+ 25 Bxd1 Qd3 26 Be2 (after 26 Bc2, 26...Qa3+ 27 Kxb1 Be6 comes to the same thing, but Black must avoid the tempting 26...Qxf3 since 27 Nf5! gxf5 28 f7+! Rxf7 29 Qg5+ Rg7 30 Qd8+ forces perpetual check) 26...Qc3+ 27 Kxb1 Be6 and Black has the advantage since he has three pawns for the piece, plus threats against the exposed white king. One possible line is 28 Bd1 Qd3+ 29 Bc2 (29 Kc1 Rd7 30 f7+ Rxf7 31 Rd2 Qa3+ 32 Kb1 Rd7 favours Black) 29...Qa3 30 Qg5 (30 Bd1 Rd7) 30...Ba2+ 31 Ka1 Rd7! cutting the king’s escape route off and winning easily.\n\n4) 23 Nf5! is probably the best chance.\n\nAfter 23...Bxf5 (23...Rxd3? 24 Rg1 gives White a very dangerous attack) 24 exf5 Na3! (24...Rxd3? 25 Rg1 wins for White) 25 Kd2 (25 bxa3 Qa1+ 26 Kd2 Rxd3+ 27 Kxd3 Qxd1+ 28 Ke3 Rd7 and Black wins) 25...e4! 26 fxe4 (26 Ke1 loses to 26...Rxd3) 26...Qxb2+ 27 Ke1 Qxf6 28 fxg6 Kh8 Black has the advantage, although White has drawing chances thanks to Black’s rather exposed king and the reduction in the number of pawns.\n\n23...Rxd3!\n\nThis tactical shot forces a liquidation that takes the sting out of White’s attack and leaves Black with a safe material advantage.\n\n24 Rxd3\n\n24...Qc4+\n\n25 Kxb1\n\nOr 25 Rc2 Qxd3 26 Qxe5 Kf7! 27 Qc5 (27 Kxb1 b3) 27...Rd7 28 Kxb1 b3 29 Qc4+ Qxc4 30 Rxc4 Rd1+ 31 Rc1 Rxc1+ 32 Kxc1 Kxf6 with a winning ending for Black.\n\n25...Qxd3+\n\n26 Kc1\n\n26...Rd7\n\nSuddenly Black is two pawns up and has strong threats against White’s king.\n\n27 f7+\n\nThis is just desperation.\n\n27...Rxf7\n\n28 Rd2\n\n28...Qxf3\n\n29 Rd8+\n\n29...Rf8\n\n0-1\n\nFour extra pawns is too many.\n\nThis was an exceptionally complex and interesting game from which both players emerged with credit. White adopted a sharp opening and launched a direct kingside attack as soon as it was reasonable to do so. Black counterattacked on the other flank, but the attacks did not operate independently of each other; on the contrary, at every stage both players made an effort to combine attacking play on one wing with defensive play on the other. White made two errors, both involving pawn captures and both of a similar nature. The exchange on e5 was wrong because Black was better able to use the open d-file. The exchange on g6 was wrong because it opened the second rank and so made it easier for Black to defend the kingside. When there is a potential pawn exchange, there is often a temptation to make it sooner rather than later. The reason is that it is time-consuming to consider in each line what might happen with and without the exchange, and if the exchange is delayed, there is also the possibility that the opponent might exchange pawns instead. It often seems easier to clear the situation up by exchanging pawns, as it greatly simplifies all the calculations. Yet in making such a decision, one must make sure that it is justified in chess terms and is not simply laziness.\n\nOnce Black had his chance, he reacted with vigour, trying to cut the white king off along the d-file. White could still have fought, but now that the position had turned against him, he was unable to put up the greatest resistance and collapsed comparatively quickly.\n\nThe lessons here are:\n\n1) In several openings, White launches an attack against Black’s fianchettoed kingside position. Many ideas are common to all such attacks, and it is important to be aware of typical plans for both sides.\n\n2) A rook can prove an effective defender along the second rank, while still continuing to operate aggressively along a file.\n\n3) Avoid laziness. Clarifying the position might be a good idea, but making a pawn exchange too early can reduce one’s options later.\n\n4) Even though games are often decided by messy tactics, basic principles are frequently a useful guide to the right move. Here White did not really gain anything by exchanging so soon on g6; the opening of the second rank was always likely to prove of more value to Black than White.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Defence and Counter-Attack\n\nWhen the scenario of kingside attack vs queenside attack is being played out, it is quite easy to fall into the trap of mentally dividing the board into the two halves. Take a look at this diagram (after 18 Rh2). Here it seems that there is a clear division. White is attacking down the h-file with the aim of giving mate on h7 or h8, while Black is striving to generate threats on the other side of the board. One might then mentally assign each piece to a particular half of the board. The white queen, for example, is the spearhead of White’s kingside assault, while Black’s queen and knight seem equally clearly to be part of the queenside activity. Yet there are many dangers in artificially compartmentalizing the board like this, because the interaction between the various parts of the board is ignored. What about the white rook on h2, for example? Is its main role on the kingside or the queenside? In fact, both are equally important. The rook is covering the mate on b2, but at any moment it might play a decisive role along the h-file. Mentally chopping the board into pieces can easily lead to oversights. If the white queen has been mentally assigned to the kingside, it would be easy to overlook that its control of c1 might play a vital defensive role in one line (for example, at the end of note ‘2a’ to White’s 15th move). It is said that long diagonal moves backward are hard to see; here there is an additional difficulty in spotting the possible change of function of the white queen. This comment applies equally to the black queen; in note ‘4’ to White’s 23rd move, for example, the queen suddenly arrives back on f6 to save the black king.\n\nIn this game the interaction between the kingside and queenside play is particularly intense; pieces are made to work hard performing multiple functions, and nothing can be taken for granted.\n\nBu Xiangzhi – Ye Jiangchuan\n\nShenyang 1999\n\nKing’s Indian Defence, Sämisch Variation"
+    },
+    {
+      "ply": 1,
+      "san": "d4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "Nf6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "c4",
+      "text": "For comments on the moves up to this point, see Game 13.",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "g6",
+      "text": "This was mentioned as a possibility in the notes to Game 13. Black ignores White’s threat to force through e4 and concentrates on quick piece development and early castling.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "Nc3",
+      "text": "Black to play\n\nWhite continues with his plan to support the advance e4.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "Bg7",
+      "text": "The main alternative is to act directly in the centre by 3...d5 (the Grünfeld Defence). One of the main lines of the Grünfeld runs 4 cxd5 Nxd5 5 e4 Nxc3 6 bxc3 Bg7. In this variation White has managed to force through e4 and has even gained a 2 vs 1 pawn-majority in the centre, but at the cost of some time. Black can use this time to assault the d4-pawn by ...c5 and ...Nc6. If the pawn is forced to move, then the g7-bishop will become more active. As so often in chess, it is a matter of balancing one advantage against another – in this case White’s superior centre against Black’s lead in development. See Game 29 for more on this opening.\n\nThe text-move introduces the King’s Indian Defence, an opening that became especially popular when Kasparov scored some notable victories with it.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "e4",
+      "text": "White, of course, follows his intended plan. His centre looks imposing, but he will have to catch up in development and this will give Black time to start his own play in the centre.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "d6",
+      "text": "Black intends to organize his central play on the dark squares, for example by ...0-0, ...e5 and ...Nc6 to exert pressure on the d4-pawn. Note that the text-move effectively prevents e5 by White, since 5 e5 dxe5 6 dxe5 Qxd1+ 7 Nxd1 (7 Kxd1 Ng4 wins a pawn) 7...Nfd7 8 f4 f6 is obviously fine for Black.",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "f3",
+      "text": "Black to play\n\nAt first sight this resembles a beginner’s move. Instead of developing a piece, White moves yet another pawn, at the same time taking away the best square from the g1-knight. Of course White supports e4, but this pawn was not attacked. Despite this, 5 f3 (called the Sämisch Variation) is considered one of White’s most dangerous lines against the King’s Indian, and it has been employed by Botvinnik, Petrosian, Karpov and Kramnik, amongst many other leading players. What, then, is the venom hidden in this apparently harmless move? In the note to Black’s 4th move, I mentioned that Black typically tries to exert pressure against the d4-pawn. White would like to support the d4-pawn by Be3, but this bishop can be dislodged by ...Ng4. Thus the move f3 is necessary preparation for the manoeuvre Be3 and Qd2. If the d4-pawn requires further support, then Nge2 is possible. Unusually for the King’s Indian, White often castles queenside in the Sämisch. This sharpens the struggle, since White may choose to launch a kingside attack by h4-h5 and Bh6 (much as in the Sicilian Dragon – see Game 10). A solid centre is a prerequisite for a flank attack, and White’s solid defence of d4 and e4 provides a reasonable foundation for kingside action. The dark side of White’s plan is that it is quite time-consuming, and his kingside pieces often have to stay at home for some time. Moreover, the move f3 slightly weakens the dark squares, so White must take care that Black is not able to exploit this.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "O-O",
+      "text": "The natural move; Black completes his kingside development.",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "Be3",
+      "text": "Black to play\n\nThis is the logical follow-up to White’s previous move.",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "e5",
+      "text": "Black has to decide how to act in the centre – he has quite a wide range of possible plans. The first idea is simply to continue with his normal central play against d4. In this case 6...c5 (Black gets adequate compensation if White wins a pawn on c5) or the text-move is indicated. Another plan is to expand on the queenside, so as to set up a possible counterattack there in anticipation of White’s 0-0-0. In this case Black might play 6...c6, followed by ...a6 and ...b5. Just to confuse the issue, there are some hybrid plans in which Black aims for both ...b5 and ...e5. As we shall see, Black adopts a such a hybrid plan in the main game.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "Nge2",
+      "text": "Further support for d4 is necessary, as Black was threatening 7...exd4 8 Bxd4 Nc6. In view of his shaky dark squares, White cannot afford to let his dark-squared bishop be exchanged for a knight, and so the bishop would have to retreat from d4 with loss of time. The text-move permits White to recapture on d4 with a knight.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "c6",
+      "text": "White to play\n\nA good, flexible move. White’s pieces are kept out of d5, Black prepares a possible development of his queen to a5, and he is ready for further queenside action by ...a6 and ...b5.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "Qd2",
+      "text": "For the moment everything is secure in the centre, so White can complete his queenside development.",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "Nbd7",
+      "text": "After White’s 0-0-0, there will be a threat of dxe5, so Black further supports his strongpoint in the centre.\n\n9 0-0-0",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "O-O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "a6",
+      "text": "Now that White’s king is committed to the queenside, Black’s natural plan is to prepare expansion via ...b5.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "Bh6",
+      "text": "White has to make a fundamental choice about how to proceed. There are basically two strategies: to play in the centre, or to launch a kingside attack. If White wants to play in the centre, he has to face the problem of developing his kingside pieces. The roadblock is the knight on e2, which locks in the bishop. The knight could move to g3, but there it has little future if White is not going to attack on the kingside. Therefore 10 Kb1 is the most natural move, preparing Nc1 and possibly Nb3. This line is indeed the most popular in practice, because White has chances for an advantage without incurring any great risk.\n\nIf White wants to play for a kingside attack, he might try 10 g4 or 10 h4, but since the exchange of the g7-bishop is almost certain to be necessary sooner or later, it is most flexible to start with the text-move.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "Bxh6",
+      "text": "The problem of whether to meet Bh6 with ...Bxh6 occurs in several openings – for example, the Sicilian Dragon (see Game 10) and the Pirc, as well as the King’s Indian. In terms of tempi it usually makes no difference. We can see this if we look at the following sequences (in which Black’s tempi are indicated by B1, B2, etc.): 1...Bxh6 2 Qxh6 B1 3 h4 B2 4 h5 B3 5 hxg6 fxg6 and 1...B1 2 Bxg7 Kxg7 3 h4 B2 4 h5 B3 5 hxg6 fxg6 6 Qh6+ Kg8. These sequences end up with the same position, although the second takes one move longer. It is therefore necessary to see if there are any factors peculiar to the given position which favour one or the other. For example, if it might be better to retreat the king to h8 after Qh6+, then the second sequence could be preferable. In the current position it doesn’t matter much if Black plays ...Bxh6 straight away or not, as he can usually still play it later. However, he should not leave it too long; for example, after 10...b5 11 h4 Qa5 12 h5 b4 13 Nb1 Qxa2 14 Ng3 it is Black’s last chance to transpose to the line considered in the note to White’s 13th move. If he delays further with 14...exd4?, then 15 Bxg7! Kxg7 16 Qxd4 gives White a clear advantage. The d6-pawn will be captured, after which e5 will be very strong.\n\nIn this discussion, we assume that a white knight cannot easily reach g5. If it can, then it is usually very unwise to play ...Bxh6, as the combination of a queen on h6 and a knight on g5 is very dangerous.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "Qxh6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "b5",
+      "text": "Black should not delay in starting his counterplay.",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "h4",
+      "text": "As we have mentioned earlier, launching an attack on the castled king usually involves a fair degree of commitment. Here the commitments are the decentralized queen and the time it takes to open the h-file. If the attack collapses, White may have to bring his queen back to the centre, in which case all the time he has spent will be wasted.",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "Qa5",
+      "text": "White to play\n\nBlack’s kingside will not defend itself for ever, so (just as in Game 12) he has to strike a balance between direct kingside defence and furthering his queenside counterplay. Black’s pieces are at the moment not especially well placed for a queenside attack, and he will need to involve his queen and at least one minor piece in order to create some serious threats. Note that White cannot defend his queenside directly by 13 Kb1?? because 13...b4 wins a piece.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "g4",
+      "text": "At first sight this looks like a waste of time, because it is perfectly possible to play h5 without any further preparation. However, White has an interesting idea in mind, which we can only understand if we take a look at what happens after the immediate 13 h5. Black continues 13...b4 14 Nb1 Qxa2 and now:\n\nWhite to play\n\n1) White should not exchange prematurely on g6, because this gives Black extra defensive possibilities along the second rank; for example, 15 hxg6 fxg6 16 Rd2 Qxc4+ 17 Rc2 Qf7 and Black stands well.\n\n2) The direct attempt 15 Ng3 leads to a forced draw by perpetual check after 15...Nb6 16 c5 (an attempt to displace the knight from f6, so that hxg6 would lead to mate) 16...Nc4 (16...Na4 also seems adequate for a draw in view of 17 Rd2 exd4 18 e5 Nxc5 {but not 18...dxe5? due to 19 Ne4 Qe6 20 hxg6 fxg6 21 Nxf6+ Rxf6 22 Qxh7+ Kf8 23 Qc7, when White has a clear advantage} 19 exf6 Nb3+ 20 Kc2 Na1+ 21 Kc1 Nb3+) 17 Rd2 Na5! (after 17...Nxd2? 18 Nxd2 Qa1+ 19 Nb1 White has a dangerous attack, since the elimination of Black’s knight has brought his attack to a halt, at least for the moment) 18 cxd6 Nb3+ 19 Kc2 Na1+ 20 Kc1 Nb3+. This sequence occurred in the game Beliavsky-Kasparov, Linares 1993.\n\n3) White can also try 15 Rd2 first, and this introduces some new ideas for both sides:\n\n3a) 15...Nb6 16 c5 (16 Qg5 Qxc4+ 17 Rc2 Qe6 18 Rxc6 Nfd7! 19 d5 Nxd5! 20 exd5 Qxd5 21 Rc2 Nc5 gives Black three pawns and a dangerous attack for the piece) 16...Nc4 17 cxd6 (17 Rc2 Na5 favours Black) 17...Na5 has been believed to result in the familiar draw by ...Nb3+ and ...Na1+, or if 18 Rd3, then 18...Nc4 forces a repetition. Indeed, the game T.Pähtz-Cvitan, Bad Wörishofen 1994 concluded 18 dxe5 Nb3+ 19 Kc2 Na1+ 20 Kc1 Nb3+ 21 Kc2 ½-½. However, 18 hxg6! fxg6 (18...Nb3+ 19 Kc2 Na1+ 20 Kd1! is similar) 19 dxe5 is very awkward for Black. Then 19...Nb3+ 20 Kc2 Na1+ 21 Kd1! Qxb1+ 22 Nc1 wins for White, as Black cannot meet the threats of 23 Bc4+, 23 Bd3 and 23 exf6, but Black’s alternative 19th moves also fail to give him a satisfactory position.\n\n3b) 15...Qxc4+ 16 Rc2 Qd3!? is an untested suggestion of Gallagher. The queen appears precariously placed on d3, but there is no obvious way for White to exploit this.\n\nThe point of 13 g4 is not so much to support h5, but to open the second rank to allow White to defend the b2-pawn by Rh2. Then the d1-rook will be free to move to d3, ready to meet ...Nb3+ by the exchange sacrifice Rxb3. White hopes Black’s counterattack will come to nothing without this perpetual, leaving White in the driving seat. The idea of using the rook on h2 for both attack and defence is ingenious. In this game it fails, but only because of a later slip by White.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "b4",
+      "text": "13...Nb6? is a mistake because of 14 dxe5 dxe5 15 Rd6!.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Nb1",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "Nb6",
+      "text": "14...Qxa2 15 Ng3 Nb6 transposes to the following note.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "dxe5",
+      "text": "The opening of the d-file helps Black more than White, since in many lines White’s king is chased onto the open file. It is true that White can still draw after this move, but only by very accurate play.\n\nThe critical line runs 15 Ng3 Qxa2 16 h5 Nxc4 17 Rh2 and now:\n\n1) 17...Na5 allows White to put his plan into action: 18 Rd3! Nb3+ 19 Rxb3 (this is a defensive sacrifice of the type we saw in Game 13; a key attacking piece is eliminated, and the black attack grinds to a halt) 19...Qxb3 20 Nd2 (White has a very dangerous attack) 20...Qa2 (20...Qe6 21 Nf5! gxf5 22 gxf5 and 20...Qa4 21 dxe5 dxe5 22 hxg6 fxg6 23 Bc4+ Rf7 24 Nh5 are both winning for White) 21 hxg6 Qa1+ 22 Nb1 fxg6 23 dxe5 and Black is in serious trouble as he cannot play ...dxe5 due to Bc4+.\n\n2) 17...Na3! (this move exposes the weak point of defending b2 from h2 – the rook is undefended on h2) 18 Bd3 Nxb1 19 hxg6 (19 g5 Ng4 20 fxg4 Na3 21 hxg6 Qa1+ 22 Kd2 Qxb2+ 23 Ke1 is a draw) 19...fxg6 20 g5 with enormous complications:\n\nBlack to play\n\n2a) 20...Nc3 21 bxc3! (21 Rdh1 exd4 22 gxf6 Ra7 23 Qxh7+!? Rxh7 24 Rxh7 Qa1+ 25 Kd2 Qxh1 26 Rg7+ Kh8 27 Nxh1 is also murky) 21...Qa1+ 22 Kd2 Qxc3+ 23 Ke2 and although Black gets four pawns for the piece, none of the pawns is really dangerous, while White’s residual attacking chances are still significant. White wins after 23...Nh5 24 Nxh5 gxh5 25 g6, while 23...Ra7 24 gxf6 Rxf6 25 Rc1! also favours White.\n\n2b) 20...Na3! (this is better, because Black’s queen ends up on a3 rather than c3, and so is not exposed to the tempo-gaining Rc1) 21 bxa3 Qxa3+ 22 Kd2 Ra7 23 gxf6 Rxf6 24 Rc1 Be6 with a totally unclear position.\n\nPerhaps put off by the result of this game, nobody seems to have cared to repeat White’s idea, but on the basis of this analysis it deserves another try.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "dxe5",
+      "text": "White to play",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Ng3",
+      "text": "16 Rd6, which was successful in the note to Black’s 13th move, no longer works due to 16...Nxc4 17 Rxf6 Qxa2, when there is no way to defend b2.",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Qxa2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "h5",
+      "text": "17 g5 is a mistake; it does not help White’s kingside chances and only drives the f6-knight to join in Black’s queenside attack: 17...Nxc4 18 Rh2 Nd7 19 Bxc4 (19 h5 loses to 19...Nc5) 19...Qxc4+ 20 Rc2 Qb5 21 h5 Nc5 22 Nd2 Qa5! and Black wins.",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Nxc4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "Rh2",
+      "text": "The only consistent move. 18 Bxc4 is bad as 18...Qxc4+ 19 Kd2 Nxg4 20 fxg4 Rd8+ 21 Ke3 Bxg4 gives Black a decisive attack; the immediate threat is 22...Qc5+ and mate next move. 18 Rd2 is inconsistent with White’s plan. Then Black can force his usual draw by 18...Na5 19 hxg6 Nb3+ 20 Kc2 Na1+, but he can also very well play for a win by 18...Ra7! 19 hxg6 fxg6 20 g5 (20 Bxc4+ Qxc4+ 21 Rc2 Qd3 22 g5 Ng4! 23 fxg4 Qxg3 wins for Black) 20...Nxd2 21 Nxd2 Qa1+ 22 Nb1 Nd5! (a neat method of blocking the a2-g8 diagonal) 23 Bc4 (23 exd5 cxd5 followed by ...Rc7+ is an easy win for Black) 23...Rc7! and White cannot reinforce his attack. This line provides another example of a rook operating both defensively along a rank and aggressively along a file.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "Na3",
+      "text": "Once again, this stroke saves Black – indeed, in this position, it forces White to respond accurately.",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "Bd3",
+      "text": "Not 19 Nxa3? bxa3 20 hxg6 fxg6 21 bxa3 Qxa3+ 22 Kc2 Be6, when Black’s attack strikes first.",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "Nxb1",
+      "text": "A critical moment. Black has no immediately deadly threats, so White has a tempo to spend on reinforcing his attack. How can he best utilize this tempo?",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "hxg6",
+      "text": "White makes the wrong choice. Opening the second rank makes it easier for Black to defend g7 and h7, and the balance starts to tip in Black’s favour. 20 Bxb1 is also inferior; after 20...Qc4+ 21 Rc2 (21 Bc2 loses to 21...b3 22 Rd6 bxc2 23 Rxf6 Qa2 24 Kxc2 Rb8) 21...Qb3 22 Nf5 (22 Rxc6 Qxf3 23 Rd3 Qf4+ 24 Qxf4 exf4 25 Rxf6 fxg3 26 Rxg3 Be6 gives Black a large endgame advantage) 22...Bxf5 23 exf5 (23 gxf5 Nxh5) 23...Rad8 White’s attack is collapsing; for example, 24 hxg6 Rxd1+ 25 Kxd1 Qxf3+ 26 Ke1 Qg3+ 27 Kf1 fxg6.\n\n20 g5! is correct. There are many ways for Black to force a draw, but there is no route to an advantage. The trickiest line runs 20...Nc3 (20...Ng4 21 fxg4 Na3 22 hxg6 Qa1+ 23 Kd2 Qxb2+ 24 Ke3 Qd4+ 25 Kd2 is a draw) 21 Rdh1! (21 bxc3? loses to 21...Qa1+ 22 Kd2 Qxc3+ 23 Ke2 Ng4 24 fxg4 Bxg4+ 25 Ke3 Bxd1 26 hxg6 Qc1+) 21...Ng4 (21...Qa1+ 22 Kc2 Qa4+ 23 Kc1 is an immediate perpetual) 22 fxg4 Ra7 (now Black only needs a couple of tempi to put a rook on the d-file and deliver mate, but White is just in time) 23 Nf5! (23 bxc3? Qa1+ 24 Kd2 Qxc3+ 25 Ke3 Rd8 26 Rd1 Bxg4 is a win for Black) 23...gxf5 24 gxf5 and it is time for Black to give perpetual check by 24...Qa1+ 25 Kc2 Qa4+ 26 Kc1, or else he might even lose. In these lines, the defensive powers of the rook on h2 save White again and again.",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "fxg6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "g5",
+      "text": "21 Bxb1 Qc4+ 22 Rc2 Qb3 is very good for Black, much as in the note to White’s 20th move.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "Rd8",
+      "text": "Thanks to White’s error, Black is suddenly able to switch to the attack himself. Sooner or later, White’s king will be chased onto the d-file; when that happens, the rook will be usefully posted on d8. 21...Nc3 is wrong since 22 bxc3 Qa1+ 23 Kd2 Qxc3+ 24 Ke2 favours White.",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "gxf6",
+      "text": "22 Bc2 doesn’t help in view of 22...Rxd1+ 23 Bxd1 (23 Kxd1 loses to 23...Qxb2 24 gxf6 Ra7) 23...Ra7! (23...Nc3 24 bxc3 Qa1+ 25 Kd2 is less clear) 24 gxf6 Nc3! 25 bxc3 (25 Bb3+ Qxb3 26 Rd2 Nd5! 27 exd5 cxd5 should win for Black) 25...Qa1+ 26 Kd2 (26 Kc2 b3+ 27 Kxb3 Qxd1+ 28 Ka3 Be6 is decisive) 26...Rd7+ 27 Ke3 Qxd1 and Black wins.",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "Ra7",
+      "text": "This move is only possible thanks to White’s premature pawn exchange on g6. In an echo of White’s earlier Rh2, Black’s rook provides a sturdy defence along the second rank.\n\nThe interaction of attack and defence in this game is quite complex. Neither side can afford to proceed with his attack without taking into account the actions of the opponent.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "Qg5",
+      "text": "After this, Black wins fairly easily. Some of the alternatives offered better practical chances, although there is nothing fully satisfactory for White:\n\n1) 23 Rc2? Be6 (23...Nc3?? 24 Bc4+) 24 Nf5 Qa1 and Black wins at once.\n\n2) 23 Qe3 Rad7 24 Qb6 (24 Bc2? loses to 24...Rxd1+ 25 Bxd1 Nc3) 24...Nc3 25 bxc3 Qa1+ 26 Kc2 Qxc3+ 27 Kb1 Rxd3 28 Qxd8+ Rxd8 29 Rxd8+ Kf7 30 Rxc8 Qe1+ 31 Kb2 Qxg3 32 Rxh7+ Kxf6 33 Rxc6+ Kg5 gives Black excellent winning chances.\n\n3) 23 b3 is a better move which requires accurate handling by Black: 23...Qxb3 24 Bc2 Rxd1+ 25 Bxd1 Qd3 26 Be2 (after 26 Bc2, 26...Qa3+ 27 Kxb1 Be6 comes to the same thing, but Black must avoid the tempting 26...Qxf3 since 27 Nf5! gxf5 28 f7+! Rxf7 29 Qg5+ Rg7 30 Qd8+ forces perpetual check) 26...Qc3+ 27 Kxb1 Be6 and Black has the advantage since he has three pawns for the piece, plus threats against the exposed white king. One possible line is 28 Bd1 Qd3+ 29 Bc2 (29 Kc1 Rd7 30 f7+ Rxf7 31 Rd2 Qa3+ 32 Kb1 Rd7 favours Black) 29...Qa3 30 Qg5 (30 Bd1 Rd7) 30...Ba2+ 31 Ka1 Rd7! cutting the king’s escape route off and winning easily.\n\n4) 23 Nf5! is probably the best chance.\n\nBlack to play\n\nAfter 23...Bxf5 (23...Rxd3? 24 Rg1 gives White a very dangerous attack) 24 exf5 Na3! (24...Rxd3? 25 Rg1 wins for White) 25 Kd2 (25 bxa3 Qa1+ 26 Kd2 Rxd3+ 27 Kxd3 Qxd1+ 28 Ke3 Rd7 and Black wins) 25...e4! 26 fxe4 (26 Ke1 loses to 26...Rxd3) 26...Qxb2+ 27 Ke1 Qxf6 28 fxg6 Kh8 Black has the advantage, although White has drawing chances thanks to Black’s rather exposed king and the reduction in the number of pawns.",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "Rxd3",
+      "text": "This tactical shot forces a liquidation that takes the sting out of White’s attack and leaves Black with a safe material advantage.",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "Rxd3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 48,
+      "san": "Qc4+",
+      "text": "White to play",
+      "isCritical": true
+    },
+    {
+      "ply": 49,
+      "san": "Kxb1",
+      "text": "Or 25 Rc2 Qxd3 26 Qxe5 Kf7! 27 Qc5 (27 Kxb1 b3) 27...Rd7 28 Kxb1 b3 29 Qc4+ Qxc4 30 Rxc4 Rd1+ 31 Rc1 Rxc1+ 32 Kxc1 Kxf6 with a winning ending for Black.",
+      "isCritical": true
+    },
+    {
+      "ply": 50,
+      "san": "Qxd3+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 51,
+      "san": "Kc1",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 52,
+      "san": "Rd7",
+      "text": "Suddenly Black is two pawns up and has strong threats against White’s king.",
+      "isCritical": true
+    },
+    {
+      "ply": 53,
+      "san": "f7+",
+      "text": "This is just desperation.",
+      "isCritical": true
+    },
+    {
+      "ply": 54,
+      "san": "Rxf7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 55,
+      "san": "Rd2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 56,
+      "san": "Qxf3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 57,
+      "san": "Rd8+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 58,
+      "san": "Rf8",
+      "text": "0-1\n\nFour extra pawns is too many.\n\nThis was an exceptionally complex and interesting game from which both players emerged with credit. White adopted a sharp opening and launched a direct kingside attack as soon as it was reasonable to do so. Black counterattacked on the other flank, but the attacks did not operate independently of each other; on the contrary, at every stage both players made an effort to combine attacking play on one wing with defensive play on the other. White made two errors, both involving pawn captures and both of a similar nature. The exchange on e5 was wrong because Black was better able to use the open d-file. The exchange on g6 was wrong because it opened the second rank and so made it easier for Black to defend the kingside. When there is a potential pawn exchange, there is often a temptation to make it sooner rather than later. The reason is that it is time-consuming to consider in each line what might happen with and without the exchange, and if the exchange is delayed, there is also the possibility that the opponent might exchange pawns instead. It often seems easier to clear the situation up by exchanging pawns, as it greatly simplifies all the calculations. Yet in making such a decision, one must make sure that it is justified in chess terms and is not simply laziness.\n\nOnce Black had his chance, he reacted with vigour, trying to cut the white king off along the d-file. White could still have fought, but now that the position had turned against him, he was unable to put up the greatest resistance and collapsed comparatively quickly.\n\nThe lessons here are:\n\n1) In several openings, White launches an attack against Black’s fianchettoed kingside position. Many ideas are common to all such attacks, and it is important to be aware of typical plans for both sides.\n\n2) A rook can prove an effective defender along the second rank, while still continuing to operate aggressively along a file.\n\n3) Avoid laziness. Clarifying the position might be a good idea, but making a pawn exchange too early can reduce one’s options later.\n\n4) Even though games are often decided by messy tactics, basic principles are frequently a useful guide to the right move. Here White did not really gain anything by exchanging so soon on g6; the opening of the second rank was always likely to prove of more value to Black than White.",
+      "isCritical": true
+    }
+  ]
+}

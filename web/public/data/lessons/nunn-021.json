@@ -1,0 +1,367 @@
+{
+  "id": "nunn-021",
+  "book": "nunn",
+  "gameNum": 21,
+  "title": "Game 21: A. Yermolinsky vs L. Christiansen",
+  "section": "Positional Play",
+  "players": {
+    "white": "A. Yermolinsky",
+    "black": "L. Christiansen"
+  },
+  "event": "US Championship, Salt Lake City 1999",
+  "opening": "Queen’s Gambit Declined, Exchange Variation",
+  "eco": "D37",
+  "pgnPath": "data/pgn/nunn/21.pgn",
+  "result": "1-0",
+  "moveCount": 57,
+  "annotatedMoves": 56,
+  "fullText": "The Queenside Attack\n\nAn attack does not have to be directed at the enemy king – it is quite possible to launch an attack on the opposite flank. Here we will use the term ‘queenside attack’ to indicate such an attack, since the enemy king is most often on the kingside. Of course, if the enemy king has castled queenside, then all the comments we make here apply with ‘kingside’ and ‘queenside’ reversed. Certainly, the immediate object of a queenside attack cannot be mate, but that does not mean that a queenside attack is any less dangerous than one directed at the king. The object of the attack is usually to open some lines and penetrate into the enemy position. Along the way, any enemy pawns left on the queenside will be vulnerable to attack, so material gain may also be an objective. Once the pieces have entered the opposing fortress, they can switch sideways along the seventh and eighth ranks, and then the queenside attack may turn into an attack on the king. This idea is, of course, most effective if the attacker’s rooks have managed to penetrate.\n\nIf you are lucky, the defender will not have been able to generate much counterplay while all this has been going on. However, more likely he will try to launch a counterattack on the opposite wing. Such counterattacks should be treated with great respect; whereas a queenside attack is only a means to an end, a counterattack directed against the king can, if it is successful, decide the game at a stroke. Because of this disparity, a player conducting a queenside attack should keep a watchful eye on the other side of the board.\n\nIt is rare for a queenside attack to be conducted with pieces alone. Usually at least one pawn must be advanced in order to open some lines.\n\nWhen should you launch a queenside attack? This often depends on the pawn-structure. Typical indicators for launching a queenside attack are:\n\n1) Space advantage on the queenside. If White has pawns on d5 and e4 facing Black pawns on d6 and e5, then White’s space advantage is more significant on the queenside, and his chances to open a file with c4-c5 may be quite good.\n\n2) Enemy pawn weaknesses on the queenside.\n\n3) Where a ‘minority attack’ is possible.\n\nThis last point is one of the main themes of the following game.\n\nA. Yermolinsky – L. Christiansen\n\nUS Championship, Salt Lake City 1999\n\nQueen’s Gambit Declined, Exchange Variation\n\n1 d4\n\n1...Nf6\n\nFor comments on the moves up to here, see Game 13.\n\n2 Nf3\n\nIn previous games in this book starting 1 d4 Nf6, White played 2 c4, but the text-move is equally viable. Move-order choices are often determined by which openings the particular player wants to get into, and which he wants to avoid. If, for example, White is happy to enter the Orthodox Queen’s Gambit Declined (1 d4 Nf6 2 c4 e6 3 Nc3 d5 4 Nf3) but wants to avoid the Budapest Gambit (1 d4 Nf6 2 c4 e5), then he might prefer 2 Nf3 to 2 c4. Of course, you cannot keep every option open – all moves are committal to some extent. In playing the knight to f3, for example, White rules out certain lines against the King’s Indian (e.g. the Sämisch – see Game 14). If White’s normal response to the King’s Indian is one of these lines, then he should have a reserve option in place should Black continue 2...g6. Thus questions of move-order depend on the repertoire of the particular player concerned and his opponent – perhaps even on how he feels on the day the game is played!\n\n2...e6\n\nNo King’s Indian, at any rate.\n\n3 c4\n\nThis position is more often reached via the move-order 1 d4 Nf6 2 c4 e6 3 Nf3.\n\n3...d5\n\nBlack decides to go in for the Queen’s Gambit. The main alternatives are 3...Bb4+, the Bogo-Indian Defence, and 3...b6, the Queen’s Indian Defence.\n\n4 Nc3\n\nThe most natural and flexible move. White develops his knight to its most natural square, at the same time exerting pressure on Black’s strongpoint in the centre at d5. We have now transposed into Game 15.\n\n4...Nbd7\n\nIn Game 15, Black played 4...c6, the Semi-Slav Defence. Christiansen prefers a developing move which steers the game into the Orthodox Queen’s Gambit Declined, an opening which has been popular for more than a century.\n\n5 cxd5\n\nAlthough this opening has been around for a long time, that does not mean that there have been no developments in the past 100 years. On the contrary, there has been a gradual shift in opinion as regards the correct method of handling this type of position for White. At one time, White would almost invariably play Bg5, e3 and then, assuming Black plays ...Be7 and ...0-0, some combination of Rc1, Qc2 and Bd3. It was held that White should avoid taking on d5, as the reply ...exd5 would free the c8-bishop, which was thought to be Black’s problem piece in the Orthodox Queen’s Gambit Declined.\n\nGradually opinion has shifted, with white-players taking on d5 earlier and earlier. It turns out that it is not so easy for Black to find a good square for his c8-bishop. When White’s knight is on f3, he often plays h3 to prevent ...Bg4, while White’s bishop on d3 prevents Black from playing his own bishop to f5. Thus Black is usually reduced to ...Be6, which is not a sparklingly active square. The exchange on d5 also stabilizes the pawn-structure, which makes it easier for White to focus on his main plan – an attack on the queenside. I should add here that in cases where White has not played Nf3, there is a second plan he can adopt, namely e3, Bd3, Nge2 and 0-0 followed eventually by central expansion with f3 and e4. This plan leads to an entirely different type of position, but it need not concern us here as White gave up the option of this plan as early as move two.\n\n5...exd5\n\nBlack maintains his strongpoint in the centre. 5...Nxd5 6 e4 would give White a central advantage without any compensation.\n\n6 Bg5\n\nIn order to develop his light-squared bishop, White must play e3, so the other bishop should be developed first to avoid it being blocked in. It is quite possible to develop the bishop to f4, but the text-move is most popular.\n\n6...c6\n\nWhite was threatening to take on d5 (the trick 7 Nxd5 Nxd5 8 Bxd8 Bb4+ doesn’t work here because White can reply 9 Nd2). Black could have prevented this threat by 6...Be7, but he will probably have to play ...c6 sooner or later to secure his d5-pawn.\n\n7 e3\n\nWhite prepares to complete his kingside development.\n\n7...Be7\n\nBlack does likewise.\n\n8 Qc2\n\nWhite’s next two moves are probably going to be Qc2 and Bd3 in any case, so White chooses the order that keeps Black’s options to a minimum. After 8 Bd3, Black can play 8...Ne4.\n\n8...0-0\n\nNow, however, 8...Ne4 loses a pawn for insufficient compensation after 9 Nxe4 dxe4 10 Qxe4 Qa5+ 11 Kd1.\n\n9 Bd3\n\nExerting pressure along the b1-h7 diagonal. Black will be reluctant to play ...h6, because his plan for developing kingside play includes ...Re8 and ...Nf8-g6. With the pawn on h6, it isn’t possible to play ...Ng6.\n\n9...Re8\n\nThis natural developing move is also a step towards freeing Black’s slightly congested mass of minor pieces.\n\n10 0-0\n\nThe most common move, but it is not the only possibility. White can sharpen the struggle by playing 10 0-0-0 or 10 h3 followed soon by 0-0-0. Then we would have a situation of castling on opposite wings; both sides would play to attack the enemy king, Black by advancing his a- and b-pawns and White by pushing his g- and h-pawns.\n\n10...Nf8\n\nThe pawn-structure determines the basic plans for both sides. White’s ambitions lie on the queenside, where he will conduct the famous ‘minority attack’. The idea is to play b4-b5 (possibly supported by a4). If Black takes on b5, he is left with a weak d5-pawn; if he allows White to take on c6, then he must either recapture with a piece, when d5 is again weak, or with a pawn, when he has a backward pawn on c6. In many ways, the ideal response for Black is to meet b5 by ...c5. This often results in an isolated d-pawn for Black, but this may not be a high price to pay in return for the time White has spent advancing his queenside pawns. However, Black cannot guarantee to be able to meet b5 by ...c5 – it depends on the specifics of the position.\n\nBlack, on the other hand, will try to generate play on the kingside. White’s castled position is unweakened, and he has some defensive minor pieces on that side of the board, so progress will not be easy. However, Black should at least try to create enough play to ensure that White still has to keep an eye on the kingside and therefore cannot operate with complete freedom on the other flank. The above scenario is perhaps the most typical, but it is important for both players not be hamstrung by preconceived notions about their correct plan. If Black decentralizes his pieces, for example, White can change tack and play for a central break with e4.\n\n11 h3\n\nThis is one of those little moves which is quite hard to explain, because there is no single reason for playing it – it is based on a combination of small factors. Of course White would like to deny the c8-bishop any good squares, but there is no immediate threat to play ...Bg4, because White can reply Ne5. However, it is quite likely that h3 will be necessary sooner or later, so it is unlikely to be a waste of time. Secondly, the main alternative is 11 Rab1, preparing b4, but White still harbours a hope that he might be able to play b4 without the preparatory Rab1, in which case playing h3 first saves a tempo. As we shall see, whether White can get away with this depends on Black’s reply. Thirdly, White stops the f6-knight moving to g4. This is relevant if White plays Ne5 at some stage. Indeed, the best reply to the immediate 11 Ne5 is 11...Ng4!. Finally, White creates a bolt-hole for his bishop on h2. In many cases White would like to keep his dark-squared bishop, meeting ...Ne4 (for example) by Bf4. Then having h2 free is very useful. In any case, 11 h3 is the currently fashionable move, although several other moves have been tried. Note that the immediate 11 Bxf6 Bxf6 12 b4 (trying to save a tempo by missing out Rab1) is met by 12...Bg4, when the knight has to retreat to the relatively passive square d2.\n\n11...Be6\n\nBlack has tried a number of different responses:\n\n1) 11...Nh5 12 Bxe7 Rxe7 13 Rfe1 and White is preparing for action in the centre, while Black must still recall his offside knight back from h5.\n\n2) 11...Ng6 12 Bxf6 (12 Ne5 is also promising) 12...Bxf6 13 b4 gives White an edge, as Black can no longer play ...Bg4.\n\n3) 11...Ne4 12 Bf4! is awkward for Black, in view of the triple attack on e4. Neither 12...Nxc3 13 bxc3 nor 12...f5 13 Ne5 equalizes for Black.\n\n4) 11...g6 is one of Black’s better responses. The idea is to play ...Ne6, without losing a pawn to Bxf6 followed by Bxh7+.\n\nThe text-move is also quite solid. Black just develops a piece, and otherwise keeps his options open. If White now plays 12 Bxf6 Bxf6 13 b4, then after 13...Rc8 Black is in time to meet 14 b5 with 14...c5. The position of the bishop on e6 is also useful if White plays 12 Rab1, since after 12...Ne4! Black does not lose a pawn to 13 Bxe7 Rxe7 14 Nxe4, because the a2-pawn is hanging.\n\n12 Rfe1!?\n\nAn interesting and flexible move. White has tried quite a range of other moves, but this seems as good as any of them. It also has the advantage of being unexpected (so far as I can tell, it was only played once in grandmaster chess before the current game). I have already mentioned why 12 Rab1 is inferior, so if White wants to prepare b4 he has to play 12 a3, but then Black can reply 12...N6d7 13 Bf4 Nb6 aiming for the potentially weak square on c4 should White push his b-pawn. The text-move prepares to counter the ...N6d7-b6 plan, which decentralizes the black knight, with the central push e4.\n\n12...Rc8\n\n12...Ne4? loses a pawn to 13 Bxe7 Qxe7 14 Bxe4 dxe4 15 Qxe4, while 12...N6d7 13 Bf4 Nb6 (13...Ng6 14 Bh2 makes use of the h2-square) 14 e4 dxe4 15 Bxe4 gives White active piece-play. In particular, 15...Ng6 is bad because of 16 Bxg6 hxg6 17 Rxe6 fxe6 18 Qxg6 with excellent play for the exchange.\n\nThe move played is mainly defensive. It aims to meet b4-b5 by ...c5, but otherwise the rook is not especially well placed on c8.\n\n13 a3\n\nWhite has played as many flexible moves as he can, and now turns his attention toward the traditional minority attack plan.\n\n13...Ng6?!\n\nThe knight on f8 wasn’t going anywhere else, so this move is natural. Having said that, the knight doesn’t have many possible destinations from g6 either! One of Black’s problems in this line is that the correct organization of his minor pieces is not at all obvious, while White’s ideas are far more clear-cut. In my view, since Black doesn’t really know where his minor pieces belong, he should have left them where they were for the moment and played 13...a5, obstructing White’s queenside expansion, at least temporarily.\n\nNote that 13...c5 14 dxc5 Rxc5 15 Nd4 gives White a safe advantage. There is a big difference between playing ...c5 when White’s queenside pawns are still at home and playing it after b4-b5. In the latter case, White has wasted time and his advanced queenside pawns can easily become weak.\n\n14 b4\n\nThis is the natural follow-up to White’s previous move, even though 15 b5 is not a threat, because of the reply 15...c5. In fact, it is still not clear whether White will play on the queenside (for example, by Na4-c5) or in the centre with Rad1 and e4. Keeping your opponent guessing is always a good idea.\n\n14...a5\n\nBlack doesn’t have many constructive moves; for example, 14...Bd6 15 e4!? dxe4 16 Nxe4 Be7 17 Nc5 forces 17...Bxc5 18 dxc5, when White, with his two bishops and more active pieces, stands very well.\n\n15 Na4!?\n\nAn interesting move. The obvious continuation would be 15 Rab1 but White would prefer not to play Rab1 for two reasons. Firstly, it consumes a tempo and secondly, if Black opens the a-file by exchanging on b4, then the rook may well be better placed on a1. However, White had a safe and effective alternative in 15 Bxf6 Bxf6 16 Na4. Then:\n\n1) 16...axb4 17 axb4 Ra8 (17...b6 18 Ba6 Rc7 19 Nxb6 Be7 20 Reb1 favours White) 18 Nc5 Rxa1 19 Rxa1 b6 20 Nxe6 Rxe6 21 Bf5 Rd6 22 Ra7 followed by Qa2 or Qa4, with strong positional pressure.\n\n2) 16...Nf8 17 Nc5 b6 18 Nxe6 fxe6 19 bxa5 bxa5 (19...c5 is awkwardly met by 20 Ba6) 20 Rac1 and again White has a positional plus. Black cannot liquidate his backward c-pawn with 20...c5 21 dxc5 Be7 because 22 Bb5 Rxc5 23 Qa4 wins material.\n\nWith the text-move, White tries to save a tempo by transferring his knight to c5 at once, even at the cost of offering his b-pawn.\n\n15...Ne4?!\n\nBlack trusts White’s calculations and turns down the offered pawn, but now he falls into a very passive position. Black would have had reasonable chances to save the game if he had simply lopped off the b-pawn by 15...axb4!?. Then:\n\n1) 16 axb4 Bxb4 (16...Ne4 17 Bxe7 Rxe7 18 Nc5 f5 19 Ra7 is good for White) 17 Reb1 Qe7 18 Qb2 Bd6 (18...c5 19 dxc5 Bxc5 20 Bxf6 gxf6 transposes to line ‘2’) 19 Qxb7 Rc7 20 Qb6 h6 21 Bxf6 Qxf6 22 Be2 Bf5 is not very clear.\n\n2) 16 Bxf6 gxf6 17 axb4 Bxb4 18 Reb1 Qe7 19 Qb2 c5 20 dxc5 Bxc5 21 Qxb7 (after 21 Nxc5 Rxc5 White cannot regain the pawn by 22 Qxb7?? because of 22...Rc1+) 21...Ne5 (21...Ba7 22 Qb2 should be good for White) 22 Be2 (22 Nxe5 fxe5 23 Nxc5 Rxc5 doesn’t offer White much) 22...Ba7 and White has only a slight advantage. However, the prospect of defending a position in which Black has only a long period of arduous defence in view would have put many players off, even if objectively it was the right choice.\n\n16 Bxe7\n\nNow Black is left with his problem bishop, which still shows little sign of generating any activity.\n\n16...Rxe7\n\n17 Nc5\n\nAn excellent square for the knight, exerting pressure against both b7 and the e4-knight. Black can hardly take on c5, because after the reply bxc5 he has a backward pawn on an open file.\n\n17...f5\n\nSecuring the knight at e4 for the moment, but imprisoning the e6-bishop. The alternative is 17...Bf5, but then 18 Ng5 (18 Nd2 Nxc5 19 Bxf5 Ne6 20 Nb3 also offers White some advantage) 18...axb4 (18...Nxg5 19 Bxf5 Ra8 20 f4! b6 21 Nd3 Ne4 22 Ne5 Nxe5 23 dxe5 is very good for White) 19 axb4 Qe8 20 Bxe4 Bxe4 (20...dxe4 21 f3) 21 Ngxe4 dxe4 22 Ra7 Rb8 23 Rea1 offers White considerable pressure.\n\n18 bxa5!\n\nThis excellent move shows flexibility of thought. White abandons the traditional minority attack plan because in this position he sees that he can force his a3-pawn forward to a5. This will leave Black with a weak and backward b-pawn on a half-open file. On the kingside, it is hard for Black to get going because his pieces are inactive and White’s pressure against e4 restricts his freedom.\n\n18...Qxa5\n\n19 Reb1\n\n19...Qa7?!\n\nThis is rather a concession: Black voluntarily retreats his queen and thereby allows the a-pawn a free run up to a5. The alternatives are:\n\n1) 19...Nxc5? 20 dxc5 is positionally very bad for Black, as in addition to his other assets White now has the d4-square for his knight.\n\n2) 19...b6 20 Nxe6 Rxe6 21 Rb5! Qa6 22 Rc1 Rf8 23 Rxd5 Qxa3 24 Rd7 with a near-decisive advantage in view of Black’s numerous weak pawns and White’s excellent piece activity.\n\n3) 19...Rcc7 20 Rb4 (threatening 21 Ra4) 20...b5 (if Black retreats his queen, then a4-a5 as in the game) 21 Rbb1, with a4 to come, leaves Black much worse. If he tries 21...Qa8, with the idea of meeting 22 a4 by 22...Ra7, then White wins a pawn by 22 Nxe6 Rxe6 23 Rxb5.\n\n4) 19...Rb8 is probably the toughest defence. White continues 20 a4, followed by Nb3 and a5, reaching a similar type of position to that in the game, but at least Black would have gained some time.\n\n20 a4\n\n20...Rf8\n\nBlack is hoping to generate some kingside counterplay by ...f4. 20...b6 21 Nxe6 Rxe6 22 Qb3 Rb8 23 a5 b5 24 Rc1 Qa6 25 Qb4 is also very unpleasant for Black.\n\n21 a5\n\n21...Bc8\n\nThanks to the pressure against e4 and Black’s offside queen, he still isn’t ready to play ...f4. In any case, it is far too late since White’s queenside attack is close to breaking through. If 21...Nxc5 22 dxc5 Bc8, then 23 Nd4 Ref7 24 a6 and White crashes through even more quickly.\n\n22 Rb6!\n\nIntending to put the queen behind the rook and then play a6.\n\n22...h6\n\nThere is nothing Black can do. A typical line would be 22...Kh8 (trying to avoid the pin along the a2-g8 diagonal which occurs in the game) 23 Qb1 Nxc5 24 dxc5 Rf6 25 a6 bxa6 26 Bxa6 Bxa6 27 Raxa6 Qd7 28 Ra8+ Nf8 29 Rbb8 Kg8 30 Ng5! (leading up to an attractive finish) 30...h6 31 Rd8 Qc7 32 Rxf8+! Rxf8 33 Qxf5 and mates.\n\n23 Qb3\n\nWhite prepares a6, while at the same time preventing ...f4 because then the e4-knight would be hanging.\n\n23...Kh7\n\n24 a6!\n\nThe queenside attack has arrived. Black is lost.\n\n24...Nxc5\n\nAfter 24...f4 25 Re1 fxe3 (25...Nxc5 26 dxc5 fxe3 27 Qb1 exf2+ 28 Kxf2 is winning for White) 26 Rxe3 bxa6 (or 26...Nxc5 27 dxc5 Rxe3 28 fxe3 bxa6 29 Qc2 winning the pinned knight) 27 Nxe4 dxe4 28 Bxe4 Bf5 29 Bxf5 Rxf5 30 Rxc6 White has a straightforward win – he is a pawn up and Black’s position is in total disarray.\n\n25 dxc5\n\n25...Rf6\n\n26 Nd4\n\n26...Ne5\n\nThis allows a tactical finish, but even 26...Ref7 27 Qc2 is hopeless; for example, 27...bxa6 (27...f4 28 exf4) 28 Rxc6 Rxc6 29 Nxc6 Qc7 30 Nd4 Qe5 31 c6 Rc7 32 Qb1, threatening a6 and f5, and Black is dead lost.\n\n27 Bxf5+!\n\nSuddenly White strikes on the kingside as well.\n\n27...Bxf5\n\n27...Rxf5 28 Qb1 attacks f5 and, by defending the a1-rook, threatens axb7.\n\n28 Nxf5\n\n28...Rxf5\n\n29 Qb1\n\n29...1-0\n\nThe same principle. The twin threats ensure a large material gain.\n\nYermolinsky is an expert on handling the white side of the Orthodox Queen’s Gambit, and it shows. His opening play was full of little finesses (such as 12 Rfe1) to make life awkward for his opponent. For a time, he kept open the possibility of both a minority attack and play in the centre, and Christiansen found it hard to find a constructive plan which could cope with both these eventualities. When White definitely decided for queenside play, the odds were already stacked somewhat in his favour – Black’s rook on c8 was inactive and his position could not easily be reorganized to generate kingside counterplay. After Black turned down White’s b-pawn at move 15, he quickly ran into trouble. Yermolinsky pressed his queenside attack home with great vigour, and even managed to end with a tactical flourish on the kingside.\n\nThe lessons here are:\n\n1) One of White’s most dangerous plans with the Orthodox Queen’s Gambit pawn-structure is the minority attack on the queenside.\n\n2) However, flexibility is important. A queenside attack is much less committal than one conducted against the king and it is possible to change direction if circumstances warrant it.\n\n3) A queenside attack is usually combined with efforts to restrict the enemy counterplay.\n\n4) A queenside attack is a powerful weapon – it should not be underestimated.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "The Queenside Attack\n\nAn attack does not have to be directed at the enemy king – it is quite possible to launch an attack on the opposite flank. Here we will use the term ‘queenside attack’ to indicate such an attack, since the enemy king is most often on the kingside. Of course, if the enemy king has castled queenside, then all the comments we make here apply with ‘kingside’ and ‘queenside’ reversed. Certainly, the immediate object of a queenside attack cannot be mate, but that does not mean that a queenside attack is any less dangerous than one directed at the king. The object of the attack is usually to open some lines and penetrate into the enemy position. Along the way, any enemy pawns left on the queenside will be vulnerable to attack, so material gain may also be an objective. Once the pieces have entered the opposing fortress, they can switch sideways along the seventh and eighth ranks, and then the queenside attack may turn into an attack on the king. This idea is, of course, most effective if the attacker’s rooks have managed to penetrate.\n\nIf you are lucky, the defender will not have been able to generate much counterplay while all this has been going on. However, more likely he will try to launch a counterattack on the opposite wing. Such counterattacks should be treated with great respect; whereas a queenside attack is only a means to an end, a counterattack directed against the king can, if it is successful, decide the game at a stroke. Because of this disparity, a player conducting a queenside attack should keep a watchful eye on the other side of the board.\n\nIt is rare for a queenside attack to be conducted with pieces alone. Usually at least one pawn must be advanced in order to open some lines.\n\nWhen should you launch a queenside attack? This often depends on the pawn-structure. Typical indicators for launching a queenside attack are:\n\n1) Space advantage on the queenside. If White has pawns on d5 and e4 facing Black pawns on d6 and e5, then White’s space advantage is more significant on the queenside, and his chances to open a file with c4-c5 may be quite good.\n\n2) Enemy pawn weaknesses on the queenside.\n\n3) Where a ‘minority attack’ is possible.\n\nThis last point is one of the main themes of the following game.\n\nA. Yermolinsky – L. Christiansen\n\nUS Championship, Salt Lake City 1999\n\nQueen’s Gambit Declined, Exchange Variation"
+    },
+    {
+      "ply": 1,
+      "san": "d4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "Nf6",
+      "text": "For comments on the moves up to here, see Game 13.",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "Nf3",
+      "text": "In previous games in this book starting 1 d4 Nf6, White played 2 c4, but the text-move is equally viable. Move-order choices are often determined by which openings the particular player wants to get into, and which he wants to avoid. If, for example, White is happy to enter the Orthodox Queen’s Gambit Declined (1 d4 Nf6 2 c4 e6 3 Nc3 d5 4 Nf3) but wants to avoid the Budapest Gambit (1 d4 Nf6 2 c4 e5), then he might prefer 2 Nf3 to 2 c4. Of course, you cannot keep every option open – all moves are committal to some extent. In playing the knight to f3, for example, White rules out certain lines against the King’s Indian (e.g. the Sämisch – see Game 14). If White’s normal response to the King’s Indian is one of these lines, then he should have a reserve option in place should Black continue 2...g6. Thus questions of move-order depend on the repertoire of the particular player concerned and his opponent – perhaps even on how he feels on the day the game is played!",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "e6",
+      "text": "No King’s Indian, at any rate.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "c4",
+      "text": "Black to play\n\nThis position is more often reached via the move-order 1 d4 Nf6 2 c4 e6 3 Nf3.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "d5",
+      "text": "Black decides to go in for the Queen’s Gambit. The main alternatives are 3...Bb4+, the Bogo-Indian Defence, and 3...b6, the Queen’s Indian Defence.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "Nc3",
+      "text": "The most natural and flexible move. White develops his knight to its most natural square, at the same time exerting pressure on Black’s strongpoint in the centre at d5. We have now transposed into Game 15.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "Nbd7",
+      "text": "In Game 15, Black played 4...c6, the Semi-Slav Defence. Christiansen prefers a developing move which steers the game into the Orthodox Queen’s Gambit Declined, an opening which has been popular for more than a century.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "cxd5",
+      "text": "Although this opening has been around for a long time, that does not mean that there have been no developments in the past 100 years. On the contrary, there has been a gradual shift in opinion as regards the correct method of handling this type of position for White. At one time, White would almost invariably play Bg5, e3 and then, assuming Black plays ...Be7 and ...0-0, some combination of Rc1, Qc2 and Bd3. It was held that White should avoid taking on d5, as the reply ...exd5 would free the c8-bishop, which was thought to be Black’s problem piece in the Orthodox Queen’s Gambit Declined.\n\nGradually opinion has shifted, with white-players taking on d5 earlier and earlier. It turns out that it is not so easy for Black to find a good square for his c8-bishop. When White’s knight is on f3, he often plays h3 to prevent ...Bg4, while White’s bishop on d3 prevents Black from playing his own bishop to f5. Thus Black is usually reduced to ...Be6, which is not a sparklingly active square. The exchange on d5 also stabilizes the pawn-structure, which makes it easier for White to focus on his main plan – an attack on the queenside. I should add here that in cases where White has not played Nf3, there is a second plan he can adopt, namely e3, Bd3, Nge2 and 0-0 followed eventually by central expansion with f3 and e4. This plan leads to an entirely different type of position, but it need not concern us here as White gave up the option of this plan as early as move two.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "exd5",
+      "text": "Black maintains his strongpoint in the centre. 5...Nxd5 6 e4 would give White a central advantage without any compensation.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "Bg5",
+      "text": "In order to develop his light-squared bishop, White must play e3, so the other bishop should be developed first to avoid it being blocked in. It is quite possible to develop the bishop to f4, but the text-move is most popular.",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "c6",
+      "text": "White was threatening to take on d5 (the trick 7 Nxd5 Nxd5 8 Bxd8 Bb4+ doesn’t work here because White can reply 9 Nd2). Black could have prevented this threat by 6...Be7, but he will probably have to play ...c6 sooner or later to secure his d5-pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "e3",
+      "text": "White prepares to complete his kingside development.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "Be7",
+      "text": "Black does likewise.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "Qc2",
+      "text": "White’s next two moves are probably going to be Qc2 and Bd3 in any case, so White chooses the order that keeps Black’s options to a minimum. After 8 Bd3, Black can play 8...Ne4.",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "O-O",
+      "text": "Now, however, 8...Ne4 loses a pawn for insufficient compensation after 9 Nxe4 dxe4 10 Qxe4 Qa5+ 11 Kd1.",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "Bd3",
+      "text": "Exerting pressure along the b1-h7 diagonal. Black will be reluctant to play ...h6, because his plan for developing kingside play includes ...Re8 and ...Nf8-g6. With the pawn on h6, it isn’t possible to play ...Ng6.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "Re8",
+      "text": "This natural developing move is also a step towards freeing Black’s slightly congested mass of minor pieces.\n\n10 0-0\n\nThe most common move, but it is not the only possibility. White can sharpen the struggle by playing 10 0-0-0 or 10 h3 followed soon by 0-0-0. Then we would have a situation of castling on opposite wings; both sides would play to attack the enemy king, Black by advancing his a- and b-pawns and White by pushing his g- and h-pawns.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "Nf8",
+      "text": "White to play\n\nThe pawn-structure determines the basic plans for both sides. White’s ambitions lie on the queenside, where he will conduct the famous ‘minority attack’. The idea is to play b4-b5 (possibly supported by a4). If Black takes on b5, he is left with a weak d5-pawn; if he allows White to take on c6, then he must either recapture with a piece, when d5 is again weak, or with a pawn, when he has a backward pawn on c6. In many ways, the ideal response for Black is to meet b5 by ...c5. This often results in an isolated d-pawn for Black, but this may not be a high price to pay in return for the time White has spent advancing his queenside pawns. However, Black cannot guarantee to be able to meet b5 by ...c5 – it depends on the specifics of the position.\n\nBlack, on the other hand, will try to generate play on the kingside. White’s castled position is unweakened, and he has some defensive minor pieces on that side of the board, so progress will not be easy. However, Black should at least try to create enough play to ensure that White still has to keep an eye on the kingside and therefore cannot operate with complete freedom on the other flank. The above scenario is perhaps the most typical, but it is important for both players not be hamstrung by preconceived notions about their correct plan. If Black decentralizes his pieces, for example, White can change tack and play for a central break with e4.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "h3",
+      "text": "This is one of those little moves which is quite hard to explain, because there is no single reason for playing it – it is based on a combination of small factors. Of course White would like to deny the c8-bishop any good squares, but there is no immediate threat to play ...Bg4, because White can reply Ne5. However, it is quite likely that h3 will be necessary sooner or later, so it is unlikely to be a waste of time. Secondly, the main alternative is 11 Rab1, preparing b4, but White still harbours a hope that he might be able to play b4 without the preparatory Rab1, in which case playing h3 first saves a tempo. As we shall see, whether White can get away with this depends on Black’s reply. Thirdly, White stops the f6-knight moving to g4. This is relevant if White plays Ne5 at some stage. Indeed, the best reply to the immediate 11 Ne5 is 11...Ng4!. Finally, White creates a bolt-hole for his bishop on h2. In many cases White would like to keep his dark-squared bishop, meeting ...Ne4 (for example) by Bf4. Then having h2 free is very useful. In any case, 11 h3 is the currently fashionable move, although several other moves have been tried. Note that the immediate 11 Bxf6 Bxf6 12 b4 (trying to save a tempo by missing out Rab1) is met by 12...Bg4, when the knight has to retreat to the relatively passive square d2.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "Be6",
+      "text": "Black has tried a number of different responses:\n\n1) 11...Nh5 12 Bxe7 Rxe7 13 Rfe1 and White is preparing for action in the centre, while Black must still recall his offside knight back from h5.\n\n2) 11...Ng6 12 Bxf6 (12 Ne5 is also promising) 12...Bxf6 13 b4 gives White an edge, as Black can no longer play ...Bg4.\n\n3) 11...Ne4 12 Bf4! is awkward for Black, in view of the triple attack on e4. Neither 12...Nxc3 13 bxc3 nor 12...f5 13 Ne5 equalizes for Black.\n\n4) 11...g6 is one of Black’s better responses. The idea is to play ...Ne6, without losing a pawn to Bxf6 followed by Bxh7+.\n\nThe text-move is also quite solid. Black just develops a piece, and otherwise keeps his options open. If White now plays 12 Bxf6 Bxf6 13 b4, then after 13...Rc8 Black is in time to meet 14 b5 with 14...c5. The position of the bishop on e6 is also useful if White plays 12 Rab1, since after 12...Ne4! Black does not lose a pawn to 13 Bxe7 Rxe7 14 Nxe4, because the a2-pawn is hanging.",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "Rfe1",
+      "text": "An interesting and flexible move. White has tried quite a range of other moves, but this seems as good as any of them. It also has the advantage of being unexpected (so far as I can tell, it was only played once in grandmaster chess before the current game). I have already mentioned why 12 Rab1 is inferior, so if White wants to prepare b4 he has to play 12 a3, but then Black can reply 12...N6d7 13 Bf4 Nb6 aiming for the potentially weak square on c4 should White push his b-pawn. The text-move prepares to counter the ...N6d7-b6 plan, which decentralizes the black knight, with the central push e4.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "Rc8",
+      "text": "12...Ne4? loses a pawn to 13 Bxe7 Qxe7 14 Bxe4 dxe4 15 Qxe4, while 12...N6d7 13 Bf4 Nb6 (13...Ng6 14 Bh2 makes use of the h2-square) 14 e4 dxe4 15 Bxe4 gives White active piece-play. In particular, 15...Ng6 is bad because of 16 Bxg6 hxg6 17 Rxe6 fxe6 18 Qxg6 with excellent play for the exchange.\n\nThe move played is mainly defensive. It aims to meet b4-b5 by ...c5, but otherwise the rook is not especially well placed on c8.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "a3",
+      "text": "White has played as many flexible moves as he can, and now turns his attention toward the traditional minority attack plan.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "Ng6",
+      "text": "The knight on f8 wasn’t going anywhere else, so this move is natural. Having said that, the knight doesn’t have many possible destinations from g6 either! One of Black’s problems in this line is that the correct organization of his minor pieces is not at all obvious, while White’s ideas are far more clear-cut. In my view, since Black doesn’t really know where his minor pieces belong, he should have left them where they were for the moment and played 13...a5, obstructing White’s queenside expansion, at least temporarily.\n\nNote that 13...c5 14 dxc5 Rxc5 15 Nd4 gives White a safe advantage. There is a big difference between playing ...c5 when White’s queenside pawns are still at home and playing it after b4-b5. In the latter case, White has wasted time and his advanced queenside pawns can easily become weak.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "b4",
+      "text": "This is the natural follow-up to White’s previous move, even though 15 b5 is not a threat, because of the reply 15...c5. In fact, it is still not clear whether White will play on the queenside (for example, by Na4-c5) or in the centre with Rad1 and e4. Keeping your opponent guessing is always a good idea.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "a5",
+      "text": "Black doesn’t have many constructive moves; for example, 14...Bd6 15 e4!? dxe4 16 Nxe4 Be7 17 Nc5 forces 17...Bxc5 18 dxc5, when White, with his two bishops and more active pieces, stands very well.",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Na4",
+      "text": "An interesting move. The obvious continuation would be 15 Rab1 but White would prefer not to play Rab1 for two reasons. Firstly, it consumes a tempo and secondly, if Black opens the a-file by exchanging on b4, then the rook may well be better placed on a1. However, White had a safe and effective alternative in 15 Bxf6 Bxf6 16 Na4. Then:\n\n1) 16...axb4 17 axb4 Ra8 (17...b6 18 Ba6 Rc7 19 Nxb6 Be7 20 Reb1 favours White) 18 Nc5 Rxa1 19 Rxa1 b6 20 Nxe6 Rxe6 21 Bf5 Rd6 22 Ra7 followed by Qa2 or Qa4, with strong positional pressure.\n\n2) 16...Nf8 17 Nc5 b6 18 Nxe6 fxe6 19 bxa5 bxa5 (19...c5 is awkwardly met by 20 Ba6) 20 Rac1 and again White has a positional plus. Black cannot liquidate his backward c-pawn with 20...c5 21 dxc5 Be7 because 22 Bb5 Rxc5 23 Qa4 wins material.\n\nBlack to play\n\nWith the text-move, White tries to save a tempo by transferring his knight to c5 at once, even at the cost of offering his b-pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "Ne4",
+      "text": "Black trusts White’s calculations and turns down the offered pawn, but now he falls into a very passive position. Black would have had reasonable chances to save the game if he had simply lopped off the b-pawn by 15...axb4!?. Then:\n\n1) 16 axb4 Bxb4 (16...Ne4 17 Bxe7 Rxe7 18 Nc5 f5 19 Ra7 is good for White) 17 Reb1 Qe7 18 Qb2 Bd6 (18...c5 19 dxc5 Bxc5 20 Bxf6 gxf6 transposes to line ‘2’) 19 Qxb7 Rc7 20 Qb6 h6 21 Bxf6 Qxf6 22 Be2 Bf5 is not very clear.\n\n2) 16 Bxf6 gxf6 17 axb4 Bxb4 18 Reb1 Qe7 19 Qb2 c5 20 dxc5 Bxc5 21 Qxb7 (after 21 Nxc5 Rxc5 White cannot regain the pawn by 22 Qxb7?? because of 22...Rc1+) 21...Ne5 (21...Ba7 22 Qb2 should be good for White) 22 Be2 (22 Nxe5 fxe5 23 Nxc5 Rxc5 doesn’t offer White much) 22...Ba7 and White has only a slight advantage. However, the prospect of defending a position in which Black has only a long period of arduous defence in view would have put many players off, even if objectively it was the right choice.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Bxe7",
+      "text": "Now Black is left with his problem bishop, which still shows little sign of generating any activity.",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Rxe7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Nc5",
+      "text": "An excellent square for the knight, exerting pressure against both b7 and the e4-knight. Black can hardly take on c5, because after the reply bxc5 he has a backward pawn on an open file.",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "f5",
+      "text": "Securing the knight at e4 for the moment, but imprisoning the e6-bishop. The alternative is 17...Bf5, but then 18 Ng5 (18 Nd2 Nxc5 19 Bxf5 Ne6 20 Nb3 also offers White some advantage) 18...axb4 (18...Nxg5 19 Bxf5 Ra8 20 f4! b6 21 Nd3 Ne4 22 Ne5 Nxe5 23 dxe5 is very good for White) 19 axb4 Qe8 20 Bxe4 Bxe4 (20...dxe4 21 f3) 21 Ngxe4 dxe4 22 Ra7 Rb8 23 Rea1 offers White considerable pressure.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "bxa5",
+      "text": "This excellent move shows flexibility of thought. White abandons the traditional minority attack plan because in this position he sees that he can force his a3-pawn forward to a5. This will leave Black with a weak and backward b-pawn on a half-open file. On the kingside, it is hard for Black to get going because his pieces are inactive and White’s pressure against e4 restricts his freedom.",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "Qxa5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "Reb1",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "Qa7",
+      "text": "This is rather a concession: Black voluntarily retreats his queen and thereby allows the a-pawn a free run up to a5. The alternatives are:\n\n1) 19...Nxc5? 20 dxc5 is positionally very bad for Black, as in addition to his other assets White now has the d4-square for his knight.\n\n2) 19...b6 20 Nxe6 Rxe6 21 Rb5! Qa6 22 Rc1 Rf8 23 Rxd5 Qxa3 24 Rd7 with a near-decisive advantage in view of Black’s numerous weak pawns and White’s excellent piece activity.\n\n3) 19...Rcc7 20 Rb4 (threatening 21 Ra4) 20...b5 (if Black retreats his queen, then a4-a5 as in the game) 21 Rbb1, with a4 to come, leaves Black much worse. If he tries 21...Qa8, with the idea of meeting 22 a4 by 22...Ra7, then White wins a pawn by 22 Nxe6 Rxe6 23 Rxb5.\n\n4) 19...Rb8 is probably the toughest defence. White continues 20 a4, followed by Nb3 and a5, reaching a similar type of position to that in the game, but at least Black would have gained some time.",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "a4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "Rf8",
+      "text": "Black is hoping to generate some kingside counterplay by ...f4. 20...b6 21 Nxe6 Rxe6 22 Qb3 Rb8 23 a5 b5 24 Rc1 Qa6 25 Qb4 is also very unpleasant for Black.",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "a5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "Bc8",
+      "text": "Thanks to the pressure against e4 and Black’s offside queen, he still isn’t ready to play ...f4. In any case, it is far too late since White’s queenside attack is close to breaking through. If 21...Nxc5 22 dxc5 Bc8, then 23 Nd4 Ref7 24 a6 and White crashes through even more quickly.",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "Rb6",
+      "text": "Black to play\n\nIntending to put the queen behind the rook and then play a6.",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "h6",
+      "text": "There is nothing Black can do. A typical line would be 22...Kh8 (trying to avoid the pin along the a2-g8 diagonal which occurs in the game) 23 Qb1 Nxc5 24 dxc5 Rf6 25 a6 bxa6 26 Bxa6 Bxa6 27 Raxa6 Qd7 28 Ra8+ Nf8 29 Rbb8 Kg8 30 Ng5! (leading up to an attractive finish) 30...h6 31 Rd8 Qc7 32 Rxf8+! Rxf8 33 Qxf5 and mates.",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "Qb3",
+      "text": "White prepares a6, while at the same time preventing ...f4 because then the e4-knight would be hanging.",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "Kh7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "a6",
+      "text": "The queenside attack has arrived. Black is lost.",
+      "isCritical": true
+    },
+    {
+      "ply": 48,
+      "san": "Nxc5",
+      "text": "After 24...f4 25 Re1 fxe3 (25...Nxc5 26 dxc5 fxe3 27 Qb1 exf2+ 28 Kxf2 is winning for White) 26 Rxe3 bxa6 (or 26...Nxc5 27 dxc5 Rxe3 28 fxe3 bxa6 29 Qc2 winning the pinned knight) 27 Nxe4 dxe4 28 Bxe4 Bf5 29 Bxf5 Rxf5 30 Rxc6 White has a straightforward win – he is a pawn up and Black’s position is in total disarray.",
+      "isCritical": true
+    },
+    {
+      "ply": 49,
+      "san": "dxc5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 50,
+      "san": "Rf6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 51,
+      "san": "Nd4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 52,
+      "san": "Ne5",
+      "text": "This allows a tactical finish, but even 26...Ref7 27 Qc2 is hopeless; for example, 27...bxa6 (27...f4 28 exf4) 28 Rxc6 Rxc6 29 Nxc6 Qc7 30 Nd4 Qe5 31 c6 Rc7 32 Qb1, threatening a6 and f5, and Black is dead lost.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 53,
+      "san": "Bxf5+",
+      "text": "Suddenly White strikes on the kingside as well.",
+      "isCritical": true
+    },
+    {
+      "ply": 54,
+      "san": "Bxf5",
+      "text": "27...Rxf5 28 Qb1 attacks f5 and, by defending the a1-rook, threatens axb7.",
+      "isCritical": true
+    },
+    {
+      "ply": 55,
+      "san": "Nxf5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 56,
+      "san": "Rxf5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 57,
+      "san": "Qb1",
+      "text": "29...1-0\n\nThe same principle. The twin threats ensure a large material gain.\n\nYermolinsky is an expert on handling the white side of the Orthodox Queen’s Gambit, and it shows. His opening play was full of little finesses (such as 12 Rfe1) to make life awkward for his opponent. For a time, he kept open the possibility of both a minority attack and play in the centre, and Christiansen found it hard to find a constructive plan which could cope with both these eventualities. When White definitely decided for queenside play, the odds were already stacked somewhat in his favour – Black’s rook on c8 was inactive and his position could not easily be reorganized to generate kingside counterplay. After Black turned down White’s b-pawn at move 15, he quickly ran into trouble. Yermolinsky pressed his queenside attack home with great vigour, and even managed to end with a tactical flourish on the kingside.\n\nThe lessons here are:\n\n1) One of White’s most dangerous plans with the Orthodox Queen’s Gambit pawn-structure is the minority attack on the queenside.\n\n2) However, flexibility is important. A queenside attack is much less committal than one conducted against the king and it is possible to change direction if circumstances warrant it.\n\n3) A queenside attack is usually combined with efforts to restrict the enemy counterplay.\n\n4) A queenside attack is a powerful weapon – it should not be underestimated.",
+      "isCritical": true
+    }
+  ]
+}

@@ -23,6 +23,7 @@ import { MoveStrip } from "../components/MoveStrip";
 import { OpeningLabel } from "../components/OpeningLabel";
 import { TransportBar } from "../components/TransportBar";
 import { getOpeningTooltip } from "../lib/openingTooltips";
+import { commentatorName } from "../lib/bookMeta";
 
 type Props = {
   summary: LessonSummary;
@@ -34,7 +35,7 @@ export function LessonPage({ summary, onBack }: Props) {
   const [ply, setPly] = useState(0);
   const [beatIndex, setBeatIndex] = useState(0);
   const [preview, setPreview] = useState<{ fen: string; label: string } | null>(null);
-  const [studyMode, setStudyMode] = useState(true);
+  const [studyMode, setStudyMode] = useState(false);
   const [guessEnabled, setGuessEnabled] = useState(false);
   const [revealed, setRevealed] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -139,6 +140,8 @@ export function LessonPage({ summary, onBack }: Props) {
     }
     if (ply < maxPly) goTo(ply + 1);
   }, [hasMoreBeats, ply, maxPly, goTo]);
+
+  const commentator = commentatorName(summary.book);
 
   useEffect(() => {
     if (lesson) markContinue(lesson.id, ply, lesson.moveCount);
@@ -309,6 +312,7 @@ export function LessonPage({ summary, onBack }: Props) {
               key={ply}
               chess={chess}
               expectedSan={nextNode.san}
+              commentator={commentator}
               onReveal={revealNext}
               onCorrect={() => undefined}
               onWrong={() => enqueueReview(lesson.id, ply + 1)}
@@ -326,6 +330,7 @@ export function LessonPage({ summary, onBack }: Props) {
           onAltClick={handleAltClick}
           studyMode={studyMode}
           onStudyModeChange={setStudyMode}
+          commentator={commentator}
         />
       </div>
     </div>

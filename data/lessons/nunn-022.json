@@ -1,0 +1,787 @@
+{
+  "id": "nunn-022",
+  "book": "nunn",
+  "gameNum": 22,
+  "title": "Game 22: M. Gurevich vs N. Miezis",
+  "section": "Positional Play",
+  "players": {
+    "white": "M. Gurevich",
+    "black": "N. Miezis"
+  },
+  "event": "Bonn 1996",
+  "opening": "Budapest Gambit",
+  "eco": "A52",
+  "pgnPath": "data/pgn/nunn/22.pgn",
+  "result": "1-0",
+  "moveCount": 127,
+  "annotatedMoves": 126,
+  "fullText": "The Two Bishops\n\nTwo bishops, operating in concert, are usually worth more than a bishop and a knight or two knights – this is what is meant by ‘the advantage of the two bishops’. Of course, if the two bishops are pointing directly at the enemy king, one can well understand that the king might be in danger, but even when there are no immediate threats, the two bishops often confer a nagging advantage. Factors that tend to accentuate this advantage include:\n\n1) An open position. Bishops are generally superior to knights in open positions, so this should come as no surprise.\n\n2) A lack of outposts for the knight. If there are no stable squares for the knight, then it may end up being pushed away to the edge of the board, further reducing its activity. A special case of this arises when the centre is totally devoid of pawns, denying the knight any central support point.\n\n3) Potentially weak pawns on both wings. The bishops are effective at targeting both wings simultaneously, while the knight can only hop laboriously from flank to flank.\n\nThe factors that reduce the advantage of the two bishops are really just the converse of the three points mentioned above.\n\nIn the following game, White uses the power of the two bishops to torture Black into submission.\n\nM. Gurevich – N. Miezis\n\nBonn 1996\n\nBudapest Gambit\n\n1 d4\n\n1...Nf6\n\n2 c4\n\nFor comments on the moves up to here, see Game 13.\n\n2...e5\n\nThis is the Budapest Gambit, an attempt to seize the initiative by sacrificing a pawn. If White hangs on to the pawn, then Black does indeed obtain some compensation (although whether it is really sufficient is a matter for debate). The main problem with this gambit, and the reason why it is not more popular, is that White can simply return the pawn and thereby obtain the advantage of the two bishops.\n\n3 dxe5\n\nThe only test is to accept.\n\n3...Ng4\n\nThis is the most common continuation, in which Black plays simply to regain the pawn. The alternative is 3...Ne4, a risky idea which aims for active piece-play at the cost of not regaining the gambit pawn.\n\n4 Bf4\n\nThe main line against the Budapest involves playing Nf3 and Bf4, but White’s precise choice of move-order depends on which lines he wishes to avoid. The sequence 4 Nf3 Nc6 5 Bf4 transposes to the game, but this allows Black the option of 4...Bc5 5 e3 Nc6, regaining the e5-pawn without conceding the two bishops. True, this line is thought good for White on account of his grip on d5, but Gurevich probably reasons that as it costs little to prevent it, he might as well do so. The only possible drawback to the 4 Bf4 move-order is that it allows two possible sidelines by Black. The first is 4...Bb4+ 5 Nd2 d6 (5...Nc6 6 Nf3 again transposes to the game), but then 6 exd6 Qf6 7 Nh3 is thought to favour White. The other idea is 4...g5 5 Bg3 Bg7 6 Nf3 Nc6, but then 7 h4! is very promising. As with many move-order questions, there is little objective reason for preferring one option over another – it all depends on which lines one wants to avoid.\n\n4...Nc6\n\nBlack decides simply to head into the main line of the Budapest.\n\n5 Nf3\n\nWhite must put up a fight for the e5-pawn, in order to extract some sort of concession from Black.\n\n5...Bb4+\n\nBlack must now devote himself to regaining the pawn; otherwise he will be left without compensation.\n\n6 Nbd2\n\nThis is the most solid continuation. White can keep his extra pawn by playing 6 Nc3 Qe7 7 Qd5, but Black obtains fair compensation after 7...f6 8 exf6 Nxf6 9 Qd3 d6 10 e3 (10 g3 is also possible) 10...0-0. In this position, Black has a significant lead in development, his remaining pieces can easily come into play and his pressure along the e- and f-files makes it awkward for White to undertake any positive action. It is hard to say whether this is really enough for the pawn, and with few high-class examples to work from, any assessment will be partly a matter of guesswork.\n\n6...Qe7\n\nNow White is unable to keep the e5-pawn.\n\n7 a3\n\nIt is more accurate to play a3 sooner rather than later, as it virtually forces Black to part with his dark-squared bishop. The alternative is 7 e3 Ngxe5 8 Nxe5 Nxe5 9 Be2 (White can still play 9 a3 here, transposing to the game, but further delay is unwise) 9...0-0 10 0-0, but then Black has the option of 10...a5! 11 a3 Bc5, when he keeps his bishop.\n\n7...Ncxe5\n\nA little trick; Black threatens 8...Nd3# and so White has no time to take the bishop.\n\n8 Nxe5\n\n8...Nxe5\n\n9 e3\n\nStopping the mate and putting the question to the b4-bishop.\n\n9...Bxd2+\n\nThere is nothing better. 9...Bd6 is bad for Black in view of 10 Ne4! (10 Be2 Nd3+ 11 Bxd3 Bxf4 is unclear) 10...Nxc4 11 Nxd6+ Nxd6 12 Rc1 Kd8 (otherwise White regains the pawn, while retaining the two bishops and a vastly superior pawn-structure) 13 Qd4 Ne8 14 Bb5 with an enormous initiative for the pawn. The rarely-adopted 9...Bc5 is perhaps playable, although White can retain some advantage by 10 Nb3 (10 b4 Bd4! 11 Ra2 d6 12 Be2 0-0 13 0-0 Bb6 is only marginally better for White) 10...d6 11 Nxc5 dxc5 12 Qh5 Ng6 13 Bg3, when he can take comfort in his two bishops.\n\n10 Qxd2\n\n10...0-0?!\n\nAfter this inaccuracy, White can obtain a clear positional advantage. Black should have played 10...d6 in order to inhibit the advance c5. I do not want to go too deeply into questions of opening theory, but it is worth noting that White cannot hope for more than a slight advantage after 10...d6. His main ideas are based on trying to play c5 in any case:\n\n1) 11 c5 (this is clearly critical, but Black can accept the offer) 11...dxc5 (after any other move, Black ends up with the same poor position as in the game) 12 Qd5 Ng6 13 Bb5+ c6! 14 Bxc6+ bxc6 15 Qxc6+ Qd7 and Black obtains sufficient compensation for the sacrificed exchange.\n\n2) 11 Qc3 (definitely threatening c5) 11...f6 (by supporting the e5-square, Black once again prevents c5) 12 Be2 b6 13 0-0 0-0 14 b4 c5 with an unclear position. White has the two bishops, but Black’s e5-knight is well placed and his light-squared bishop will be active on the long diagonal.\n\n3) 11 Rc1 b6 12 c5 bxc5 13 Bxe5 Qxe5 14 Bb5+ Kf8 with an unclear position. White has enough compensation for the pawn but possibly not more.\n\nThe above lines make it clear that achieving c5 is a key target for White. Why is this move so important? The basic reason lies in White’s possession of the two bishops. They are at their best in an open position in which both bishops have plenty of scope. While the pawn is on c4, it is not easy for White to activate his light-squared bishop; it is blocked in by the c4-pawn and it cannot be developed to f3 since Black’s knight is controlling that square. However, once White has played c5 this bishop has much more scope, and the two bishops then have excellent chances of becoming a major force in the game. It is also relevant that the move c5 weakens Black’s support for his e5-knight. A knight occupying a firm post in the centre is usually a match for a bishop, but once the knight gets driven away towards the edge of the board, the bishop is usually far superior. Thus Black’s ability to maintain his knight on e5 is important, and anything White can do to undermine the knight is helpful.\n\nWe now return to 10...0-0?!:\n\n11 c5!\n\nWhite must make the most of his opportunity. After the less accurate 11 Be2 d6 12 0-0 b6 13 Qc3 Bb7 Black can consolidate his position, when White’s chances of gaining an advantage are much reduced. Note that this is a case in which White is fully justified in postponing castling while he gets on with more important business. Black’s poor development means that there is no risk involved in keeping the king in the centre for a few moves.\n\n11...Re8\n\nBlack is unable to avoid a significant positional disadvantage:\n\n1) 11...Qxc5 12 Rc1 Qd6 13 Qxd6 cxd6 14 Rd1 (14 Be2 followed by 0-0 and Rfd1 is also good) 14...Re8 15 Rxd6 b6 16 Be2 and White is better since he has the two bishops, while Black has an isolated and rather backward d-pawn.\n\n2) 11...b6?! 12 Qd5 Nc6 13 Bxc7 is very good for White.\n\n3) 11...d6 12 cxd6 cxd6 13 Be2 is similar to the game.\n\n12 Rc1\n\n12...d6\n\n12...b6 13 cxb6 cxb6 14 Qd5 Nc6 15 Be2 does not change the situation; White has two active bishops and Black has an isolated pawn. 12...c6 13 Qd4 f6 14 Be2 is unpleasant for Black since he can hardly free himself on the queenside.\n\n13 cxd6\n\n13...cxd6\n\nBlack has better chances of consolidating with queens on the board. After 13...Qxd6?! 14 Qxd6 cxd6 White has the choice between exerting positional pressure by 15 Rc7 and grabbing a pawn straight away by 15 Rd1 Bf5 16 Rxd6 Rac8 17 Bb5!, although in the latter case White has to allow opposite-coloured bishops after 17...Re6 18 Rxe6 Bxe6 19 Kd2 Nc4+ 20 Bxc4 Rxc4.\n\n14 Be2\n\nWhite has achieved his positional aim and now catches up on his kingside development.\n\n14...Be6\n\n15 0-0\n\n15...Rac8?!\n\nAn ingenious defence, offering a pawn for some counterplay. Although it is not totally correct, I cannot criticize the move harshly, because Black’s position is inferior after any move; for example, 15...Rad8 16 Bb5 Rf8 (16...Bd7 17 Rc7) 17 Qd4 b6 18 Rc3 and Black has weakened his queenside pawns, while White can gain control of the open c-file.\n\n16 Qd4\n\nAfter 16 Qb4 Rc5 17 Rfd1 b6 followed by ...Rec8 Black is in a good position to contest the c-file. However, the move played looks very strong since it attacks both e5 and a7.\n\n16...Nc6\n\nThis is the point of Black’s play: he offers the d6-pawn in order to gain counterplay. In positions where the defender’s position is crippled by a weak pawn, he should always be alert for a chance to offer this pawn in order to stir up trouble. It is often better to be a pawn down with some compensation than to have material equality with serious weaknesses. This particular case is a marginal example, since it is by no means clear that White couldn’t have taken the pawn.\n\n17 Qd2?\n\nGurevich decides to play safe and refuse the pawn. This is a typical practical decision since it would take considerable time to verify that it was really safe to take on d6, whereas repeating the position is a decision that can be taken quickly. However, in this case it would probably have been objectively better to take the pawn, as with accurate play White can consolidate his material advantage. 17 Qxd6! and now:\n\n1) 17...Qxd6 18 Bxd6 Red8 19 Rfd1 Nd4 (19...Bb3 20 Rd3 Nd4 21 Rxc8 Nxe2+ 22 Kf1 Rxc8 23 Rxb3 and White will be two pawns up) 20 exd4 Rxc1 21 Rxc1 Rxd6 22 Rc7 Rxd4 23 Rxb7 leaves White a clear pawn up.\n\n2) 17...Qf6 (this attacks b2 and threatens 18...Red8) 18 Qd3! (Black can be happy with his position after 18 Qc5 Qxb2 since he has exchanged his weak d6-pawn for the healthy pawn on b2; 18 Qd2?! Red8 is unpleasant for White as 19 Qc3? runs into 19...Nd4, when White loses material) with another branch:\n\n2a) 18...Rcd8 19 Qb5! (19 Qc3 Qxc3 20 bxc3 Rd2 21 Bf3 Na5 gives Black a little counterplay against the weak queenside pawns) 19...Nd4 20 exd4 Qxf4 21 Qxb7 Bd5 22 Qb5 and White will keep an extra pawn.\n\n2b) 18...Qxb2 19 Rb1 Qa2 20 Rxb7 Na5 21 Rc7 (this is the key move, as otherwise Black could continue 21...Bc4) 21...Nc4 22 Rc1 Rxc7 23 Bxc7 Nxa3 24 Be5 and Black is in considerable difficulties owing to his offside pieces; for example, 24...Nc4 25 Bd4 and White will win the a-pawn. The resulting position, with White having the two bishops and an extra kingside pawn, will be very uncomfortable for Black.\n\n17...Ne5\n\nBlack simply repeats. 17...d5 is inferior because Black gives up one of his main assets – the secure square e5 for his knight.\n\n18 Rxc8\n\nWhite decides to exchange all the rooks and try to exploit his advantage in the more simplified position that results. White retains some advantage with this plan, but far less than if he had taken the d6-pawn.\n\n18...Rxc8\n\nWhite has two positional advantages: the two bishops, and Black’s weak d-pawn. Despite this, the game is far from won. In most textbooks, you will find examples in which such advantages rapidly prove decisive. Readers who only study such examples will then wonder why it proves so difficult to win similar positions in their own games. Indeed, if Black were to make a couple of inferior moves here, he would probably soon lose the game. However, what makes this game so instructive is that Black puts up a determined resistance for a long time. This provides us with an object lesson in how to defend unpleasant positions, and how to overcome the obstacles placed in one’s path by the defender.\n\n19 Rc1\n\n19 Qd4 is no longer effective as 19...Rc2 gives Black counterplay.\n\n19...Rc7\n\nBlack does not want to exchange immediately, as this would leave White in control of the c-file. He cannot really prevent this in the end, as White can continue Rc3 and Qc2, but at least he makes it as hard for White as possible.\n\n20 Rc3\n\nDoubling the major pieces will more or less force Black to take on c3.\n\n20...f6\n\nReinforcing the important e5-knight, and thereby ruling out forks based on attacking e5 (such as Qd4, as White played earlier).\n\n21 e4\n\nWhite has to come up with a concrete plan for achieving progress. As has already been mentioned, the secure e5-knight is one of Black’s main assets because it restricts the activity of White’s dark-squared bishop. Therefore, White decides to circumvent the knight by repositioning his bishop on the g1-a7 diagonal, where it attacks Black’s queenside pawns.\n\n21...a6\n\nAnticipating White’s attack by Be3.\n\n22 Be3\n\n22...b5\n\nBlack would like to make use of the c4-square, and the secure outpost this move provides is probably more important than the slight weakening of the queenside pawns. Note that 22...Nc4?? loses a piece to 23 Qc1, followed by b3.\n\n23 Qc1\n\nBlack cannot avoid the exchange of rooks.\n\n23...Rxc3\n\n24 Qxc3\n\n24...Qb7\n\nBlack is content to play passively for the moment, but this gives White the chance to consolidate his position. However, active play, although more complicated, probably also does not completely equalize: 24...Nc4 25 Bd4 (25 Bc1 Bf7 26 b3 is wrong owing to 26...Qxe4 27 Bf1 Qe5!) 25...Bf7 26 f3! (26 b3 Nxa3 27 Bd3 Qe6 28 Qa5 b4 29 Qd8+ Be8 is unclear) 26...d5 and although Black liquidates his d-pawn, White retains some advantage by 27 b3 Nd6 (27...Nxa3? loses material to 28 Bc5 Qc7 29 exd5 Bxd5 30 Qe3) 28 Bc5 and now:\n\n1) 28...Qe6 29 Bxd6 (29 Qd2 Nb7 30 exd5 Qxd5 31 Qxd5 Bxd5 is a draw) 29...Qxd6 30 Qc8+ Qf8 31 Qxa6 dxe4 32 b4 exf3 33 gxf3 and Black faces the loss of his b5-pawn.\n\n2) 28...dxe4 29 Qb4 exf3 30 Bxf3 a5 31 Qxa5 Qe5 32 Bxd6 Qd4+ (32...Qxd6 33 Qa8+ Qf8 34 Qxf8+ Kxf8 35 a4 and White has an advantage due to his outside passed pawn; the point of the intermediary check becomes clear later) 33 Kf1 Qxd6 34 Qxb5 (34 Qa8+ Qf8 35 Qxf8+ Kxf8 36 a4 b4 is safe for Black; thanks to the position of the white king on f1, 37 a5 Bxb3 38 a6 may be met by 38...Bc4+ 39 Be2 Bd5) 34...Qxa3 35 Qb8+ Qf8 36 Qxf8+ Kxf8 37 b4 and White has just an edge.\n\n25 f3\n\n25...Bc4\n\n25...d5 is similar to the game. 25...Nc4 26 Bd4 is slightly better for White than the previous note, since he has already played f3.\n\n26 Bd1\n\nWhite must keep his two bishops; otherwise he has nothing.\n\n26...Be6\n\nFor the moment Black is not sure how to proceed; in particular, he cannot decide whether to play ...d5 or not. Of course, it is desirable for him to liquidate his isolated pawn, but on the other hand every exchange of pawns opens the position further and accentuates the power of the two bishops. This is a typical phenomenon when one side has the two bishops – it may not be their immediate power which is dangerous, but the latent power they may exert as the position becomes more simplified.\n\n27 Bd4\n\nWhite is also toying with different ideas; this move doesn’t actually threaten anything, but it does remove the bishop from attack after a possible ...Nc4.\n\n27...Nc6\n\nBlack decides to kick the bishop back.\n\n28 Bf2\n\n28...Qd7\n\n28...Ne5 29 h3 would be similar to the game.\n\n29 h3\n\nWhite’s plan is to gain space by f4 and Bf3, denying Black’s knight any central square. Now that White shows clear signs of an ability to make progress, Black decides to play ...d5.\n\n29...d5\n\n30 exd5\n\n30...Bxd5\n\n30...Qxd5 31 Bc2 threatens Be4, and if Black goes for an exchange of queens by playing 31...Qc4 then an ending similar to that in the game arises.\n\n31 Bc2!\n\nAn excellent move; White intends to attack h7 with Qd3. After the more or less forced reply ...g6, Black’s dark squares on the kingside will be weakened and the power of White’s dark-squared bishop will be enhanced.\n\n31...Qe6\n\n32 Qd3\n\n32...g6\n\n33 Qe3\n\nHaving softened Black up slightly, White decides to offer the exchange of queens.\n\n33...Qxe3\n\nSince the ending turns out to be unpleasant for Black, the question arises as to whether Black should have avoided the exchange of queens. However, it is not so easy to achieve this aim; for example, 33...Ne5 34 f4 Nc4 35 Qxe6+ Bxe6 36 Bd4 is rather similar to the game, while after 33...Qd7 34 Qb6 Qc8 35 h4 the possibility of h5 is a further worry for Black.\n\n34 Bxe3\n\nIt would be easy to dismiss this position as simply a draw, since the pawn-structure is fairly symmetrical, but in fact White has genuine winning chances. The two bishops are certainly better than a bishop and a knight in this relatively open position, and in addition Black’s knight lacks any stable outpost. However, the most important factor is that Black’s pawn-structure has been slightly weakened on both wings. Take the kingside, for example. The pawn on f6 can be attacked by the dark-squared bishop, leaving Black the choice of having one piece constantly tied down to defending it, or of pushing it by ...f5. The problem with this latter choice is that it opens up a path for the white king to penetrate into the kingside via the dark squares. The situation on the queenside also poses a potential danger for Black: his pawns are already fairly far advanced and on light squares, so again there is the possibility of a white king invasion.\n\nIt would therefore be quite wrong to dismiss the position as a dead draw. It may well be that objectively speaking the result should be a draw. However, a protracted period of accurate defence is required for Black to achieve this result, so White is fully justified in pressing on. The advantage of bishop against knight is often underestimated; the remainder of this game will show how White can play to exploit his advantage.\n\n34...Kf7\n\n35 Kf2\n\n35...Ke6\n\nBoth sides bring their kings to the centre.\n\n36 Bb6\n\nWhite clears the way for his king to advance to e3. In a position with the king on e3 and the dark-squared bishop on g3, Black’s knight would be tied down to preventing Kd4-c5 by White.\n\n36...f5?!\n\nWhether to play this move is a critical decision, but I think that Black jumped the wrong way. Offering the white king an entry route via f4, g5 and h6 is a major concession, which should certainly not have been made voluntarily. Black should simply wait by 36...Kd6 37 Ke3 Ke6, leaving the burden on White to make progress. One idea is 38 h4, intending to break up Black’s kingside pawns by h5. Black might have to meet h5 by ...f5 in any case, but at least the possible exchange on g6 would reduce the number of pawns on the kingside. If Black plays 36...Ne5, then 37 Bd4 Nc6 38 Bc3 followed by Ke3 and h4 is similar.\n\n37 Be3!\n\nPerhaps Black had not foreseen this switchback. Other moves are less effective; for example, the obvious 37 Ke3?! (after 37 g4?!, 37...f4 not only keeps the king out, but also enables Black to target f3 with ...Ne5) is met by 37...g5, when Black gains a measure of dark-square control on the kingside. If Black can play ...f4+ then White’s king will be shut out of the kingside, but attempts to prevent this move do not work: 38 f4 (38 g3 Ne5 attacks f3 and threatens ...Nc4+) 38...Bxg2 39 fxg5 Bxh3 40 Bb3+ Kd6 (40...Ke5 41 Bc7#) 41 Bg8, for example, backfires in view of 41...Ne7, when White cannot take the pawn on h7.\n\nThe strength of the move played is that it fixes Black’s kingside pawns and therefore prevents him from repairing the dark-squared weaknesses created by ...f5. Black now has the constant worry of an invasion by the white king.\n\n37...Bc4\n\n37...Ne5 is a reasonable alternative, since the plan of transferring the knight to c4 makes it harder for White to activate his pieces. White may continue 38 Kg3 Nc4 39 Bc1 (39 Bd4 g5 40 h4 f4+ is fine for Black) 39...Ke5 40 h4 Bf7 41 h5, and now:\n\n1) 41...gxh5 (tempting, but now White has a clear target on the kingside) 42 b3 Nb6 (after 42...Na5 43 Bb2+ Ke6 44 Kf4 Bg6 45 Bc3 Nc6 46 b4 Ne7 47 Bb3+ Nd5+ 48 Kg5 Kd6 49 Bd4 Black’s position remains uncomfortable) 43 Kh4 Nd5 44 Kg5 h6+ 45 Kxh6 f4 46 Bb2+ Ke6 47 b4 Ne3 48 Bb3+ Ke7 49 Bxf7 Kxf7 50 Kxh5 Nxg2 51 Kg4 Ke6 52 Bc1 Ke5 53 Kg5 and now Black is in zugzwang and must lose his f-pawn.\n\n2) After 41...Kf6! 42 Kh4 Bd5 it is not easy for White to make progress since b3 is met by ...Na5, when the b3-pawn comes under fire.\n\n38 g4!?\n\nThe immediate 38 Kg3 is met by 38...Bf1, when White cannot advance his king further. Hence, White decides first to push the g-pawn and only then to play Kg3.\n\n38...Ne5\n\nBlack immediately takes steps to attack the f3-pawn, which is now deprived of support.\n\n39 Kg3\n\n39...Be2\n\nThe alternatives are:\n\n1) 39...Bd5 40 gxf5+ gxf5 41 Kf4 Ng6+ 42 Kg5 f4 43 Bxf4 Bxf3 44 Bf5+ Kd5 45 Bc8 is unpleasant for Black.\n\n2) 39...Bd3!? is a reasonable defensive plan. After 40 Bd1 Nc4 41 Bc1 Nd6 (41...Nb6 42 Kf4 Nd5+ 43 Kg5 favours White) 42 Kf4 it is not easy for White to make progress since Kg5 may be met by ...Nf7+.\n\n3) 39...fxg4 is a logical move, because Black avoids the possible breaking-up of his kingside pawns by gxf5+. After 40 hxg4 (40 fxg4 Kd5 41 Kf4 Nd3+ 42 Kg5 Nxb2 43 Kh6 Bd3 44 Bxd3 Nxd3 45 Kxh7 Ne5 should be enough to draw) 40...Bd3 41 Bd1 Black’s active pieces make progress difficult.\n\nAs we can see, at this stage Black still has a choice of reasonable plans to obstruct White’s progress. However, his tiny inaccuracies in the last few moves before the time-control have a cumulative effect, with the result that the safe path starts to become very narrow.\n\n40 Kf4\n\nAttacking the f5-pawn. If White exchanges first, then 40 gxf5+ gxf5 41 Kf4 Bd3 42 Bd1 Bf1 43 Bd4 Ng6+ (only possible because of the exchange on f5) 44 Kg5 Bxh3 45 Bb3+ Kd6 46 Bg8 Ne5 offers White at most a slight advantage.\n\n40...Bd3?!\n\nNot 40...Nxf3? 41 gxf5+ gxf5? 42 Bxf5+ followed by Bg4 and White wins. However, 40...Nd3+ is a better defence; after 41 Kg5 fxg4 42 fxg4 we transpose to the note to Black’s 39th move, in which Black has excellent drawing chances.\n\n41 Bd1\n\nAgain, White must keep his two bishops to retain any winning chances.\n\n41...Bf1\n\nThreatening both the h-pawn and ...Nd3+.\n\n42 Bd4\n\nGaining time by attacking the knight.\n\n42...Nc6?!\n\nThis allows White to break up Black’s kingside pawns. Alternatives:\n\n1) The tactical try 42...fxg4? fails to 43 Bxe5 gxh3 44 Bb3+ Bc4 45 Bxc4+ bxc4 46 Ke4, when the h3-pawn is stopped.\n\n2) 42...Nd3+ 43 Ke3 (43 Kg5 Bxh3 44 gxf5+ Bxf5 is fine for Black) 43...Ne5 is a better defence. After 44 h4 fxg4 45 fxg4 Black has avoided the breaking-up of his kingside pawns, although he must still worry about Kf4-g5.\n\n43 gxf5+\n\n43...gxf5\n\n44 Bg7\n\nSuddenly it turns out that Black cannot take the h3-pawn for tactical reasons, and the result is that Black has no compensation for the shattering of his kingside pawns, which leaves him with two weaknesses instead of one.\n\n44...Ne7\n\nIf 44...Bxh3, then 45 Be2! (threatening 46 Kg3) 45...Bg2 46 Kg3 Bh1 47 Kh2 and the bishop is trapped.\n\nThe text-move supports the f5-pawn; this will be necessary sooner or later because White is threatening Bb3+ followed by Bc2, forcing the knight back to e7.\n\n45 Kg3?!\n\nWhite adopts a safety-first approach, but it was better to push the h-pawn straight away: 45 h4 Nd5+ 46 Kg5 Ne3 (forcing the exchange of a pair of bishops, but it is too late to do much good) 47 Bb3+ Bc4 48 Bxc4+ Nxc4 (48...bxc4 49 Bc3 followed by h5 and Kh6 is also very good for White) 49 Kh6 and White wins the h-pawn.\n\n45...Ng6?!\n\nBlack aims to control f4 and h4, and so stop White’s king advancing. However, after White plays h4, Black will face an awkward choice: to allow the knight to driven away by h5, or to play ...h5 himself, when the h-pawn will be more exposed to attack. 45...Nd5 was a more active continuation; after 46 f4 (46 Kh4 Nf4 draws) 46...Bd3 47 Be5 Ne3 48 Bf3 Nc4 49 Bc3 Nd6 50 Kh4 Ne4 51 Be5 Bf1 Black’s pieces work together well, since the knight controls g5 while the bishop attacks the h-pawn and so prevents Kh5.\n\n46 h4\n\n46...Bc4\n\n46...h5? is certainly not possible straightaway, as it loses a pawn to 47 f4.\n\n47 Bc2\n\n47 h5 is also possible, but after 47...Ne7 White should not play 48 Kf4? Nd5+ 49 Kg3 Ne3, which costs him at least a pawn, but 48 Bc2 Nd5 49 Kh4 with good winning chances.\n\n47...Be2\n\nBlack decides to allow h5. 47...h5 is no better in view of 48 Bh6 Be2 (48...Ke5 49 f4+ followed by Bd1 wins a pawn; 48...Bd5 49 f4 is similar) 49 Be3!, when Black is in zugzwang. A knight move allows Kf4, 49...Ke5 50 Bg5 Ke6 51 Kf2 Bc4 52 f4 and Bd1 wins a pawn, while 49...Bc4 50 Bd1 Ne5 51 Bd4 Nc6 52 Bc3 is followed by either f4 or Kf4.\n\n48 h5\n\n48...Ne5\n\n48...Ne7 49 Kf4 Nd5+ 50 Kg5 Ne3 51 Bb1 is also very bad for Black since 51...Bxf3? loses a piece to 52 Kf4.\n\n49 Kf4\n\n49...Bd3\n\nThe only move, because 49...Nd3+ 50 Ke3 Nc1 51 Kd2 costs Black a piece.\n\n50 Bd1\n\nOnce again, White ducks the exchange of bishops.\n\n50...Nc4\n\n51 Bc3\n\n51...Nd6\n\n51...a5 is ingenious, the idea being to answer Kg5-h6 with ...a4 and ...Ne3 trapping the bishop on d1. However, after 52 a4! b4 53 Bh8 White again threatens Kg5 and there seems little Black can do about it.\n\nThe text-move aims to keep White’s king out by meeting Kg5 with ...Nf7+.\n\n52 Ke3\n\nA typical situation has arisen for positions in which one side is defending passively. If Black makes the correct reply, White has the option of repeating the position, but if Black makes the wrong choice, then White can win fairly easily. The defender is in an unenviable position; he has to make the right choice again and again, while the attacker risks nothing. This is especially difficult at the end of a long and tiring game and in practice the laws of probability usually catch up with the defender, and he eventually makes a fatal slip.\n\n52...Bc4?\n\nBlack decides to abandon the b1-h7 diagonal, but now White is definitely winning. Black should have played 52...Bb1, maintaining the status quo. Then 53 Kd4 is tempting, heading for the queenside pawns, but after 53...Nc4 54 Kc5 Bd3 White’s king has to go a very long way round to attack the pawns. Therefore, White should adopt a different plan, possibly based on a preliminary a4 and axb5 to increase the effect of a subsequent Kd4-c5.\n\n53 Bc2\n\nThe bishop settles on an ideal diagonal exerting pressure on the weak f5-pawn. The immediate threat is Kf4 followed by Bb4.\n\n53...Bf1\n\nBlack aims to defend the f5-pawn from h3, but this is a journey into oblivion for Black’s bishop. Other moves:\n\n1) 53...Bd5 54 Kf4 followed by Bb4 wins the f5-pawn.\n\n2) 53...Nc8 54 Kf4 Ne7 55 Kg5 Bd5 is the toughest defence, when White has to take care:\n\n2a) 56 Bb4 Bxf3 57 Bxe7 Kxe7 58 Bxf5 is tempting, but Black can save the game by 58...h6+! 59 Kxh6 Kf6 60 Bg6 a5! 61 Kh7 (61 b4 axb4 62 axb4 Ke5 draws as Black can give up his bishop for the h-pawn) 61...b4 62 h6 bxa3 63 bxa3 Bd5 and the white king can never escape from the corner.\n\n2b) 56 Bd1! Bc4 57 Kh6 Nd5 58 Kxh7 Nxc3 (58...Ne3 59 Kg7 and the pawn slips through) 59 bxc3 Kf6 is another attempt to imprison White’s king in the corner, but it doesn’t work here: 60 f4! Bf7 61 h6 Bc4 62 Bf3 Be6 63 Bb7 a5 64 Bc6 Bc4 65 Bd7, followed by Bxf5, winning. If Black simply jettisons the f5-pawn, then White wins by playing f5 and manoeuvring the bishop to e6.\n\n54 Kf4\n\n54...Bh3\n\n55 Bd3\n\nThis little move causes Black’s defence to collapse. There is no reasonable way to meet the threat of Kg3, trapping the bishop.\n\n55...Bg2\n\nThe only move to avoid immediate loss of a piece.\n\n56 Bb4\n\n56 Kg3 Bh1 57 Be2 is also decisive. The text-move intends h6 followed by Bxd6, winning both kingside pawns.\n\n56...h6\n\nBlack tries to save one of his kingside pawns.\n\n57 Kg3\n\n57...Bh1\n\n58 Be2\n\n58 Bxd6 Kxd6 59 Bxf5 followed by Bg4 and Kh2 was simpler, but it makes no difference to the result.\n\n58...f4+\n\nOr else Kh2 wins a piece.\n\n59 Kxf4\n\n59 Kh2 Nf5 60 Bd1 Ng3 61 Be1 is also good enough.\n\n59...Nf5\n\nOr else Kg3-h2 wins the bishop after all. However, Black’s fate will not be long delayed because he cannot maintain his knight on the f5-square.\n\n60 Bc3\n\nIntending Bd1-b3+.\n\n60...Ne7\n\n61 Kg3\n\nThe king moves in to round up the cornered bishop.\n\n61...Nd5\n\n62 Bd2\n\nApparently White enjoys prolonging the agony!\n\n62...Nf6\n\n63 Kh2\n\n63...Nxh5\n\n64 Bd1\n\nNot, of course, 64 Kxh1?? Ng3+.\n\n1-0\n\nBlack finally loses his trapped bishop.\n\nReaders may well argue that I have overstated the power of the two bishops – after all, the above analysis shows how Black could have improved his defence at various moments. However, the point is not at which stage the position actually became winning for White, but rather that, starting from a roughly symmetrical position, White was able to create many problems for Black – so many, indeed, that Black was soon on the slippery slope to defeat.\n\nThe lessons here are:\n\n1) The advantage of the two bishops is often a significant asset, especially in open positions.\n\n2) This advantage is long-term, and may require considerable patience to be fully exploited.\n\n3) If your opponent offers a pawn, it is worth looking closely at taking it – a casual ‘that looks a bit risky’ isn’t good enough.\n\n4) Defending an inferior ending for several hours is a very tough job, and in practice it is very easy for the defender to lose his way through time shortage or exhaustion.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "The Two Bishops\n\nTwo bishops, operating in concert, are usually worth more than a bishop and a knight or two knights – this is what is meant by ‘the advantage of the two bishops’. Of course, if the two bishops are pointing directly at the enemy king, one can well understand that the king might be in danger, but even when there are no immediate threats, the two bishops often confer a nagging advantage. Factors that tend to accentuate this advantage include:\n\n1) An open position. Bishops are generally superior to knights in open positions, so this should come as no surprise.\n\n2) A lack of outposts for the knight. If there are no stable squares for the knight, then it may end up being pushed away to the edge of the board, further reducing its activity. A special case of this arises when the centre is totally devoid of pawns, denying the knight any central support point.\n\n3) Potentially weak pawns on both wings. The bishops are effective at targeting both wings simultaneously, while the knight can only hop laboriously from flank to flank.\n\nThe factors that reduce the advantage of the two bishops are really just the converse of the three points mentioned above.\n\nIn the following game, White uses the power of the two bishops to torture Black into submission.\n\nM. Gurevich – N. Miezis\n\nBonn 1996\n\nBudapest Gambit"
+    },
+    {
+      "ply": 1,
+      "san": "d4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "Nf6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "c4",
+      "text": "For comments on the moves up to here, see Game 13.",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "e5",
+      "text": "This is the Budapest Gambit, an attempt to seize the initiative by sacrificing a pawn. If White hangs on to the pawn, then Black does indeed obtain some compensation (although whether it is really sufficient is a matter for debate). The main problem with this gambit, and the reason why it is not more popular, is that White can simply return the pawn and thereby obtain the advantage of the two bishops.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "dxe5",
+      "text": "The only test is to accept.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "Ng4",
+      "text": "This is the most common continuation, in which Black plays simply to regain the pawn. The alternative is 3...Ne4, a risky idea which aims for active piece-play at the cost of not regaining the gambit pawn.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "Bf4",
+      "text": "The main line against the Budapest involves playing Nf3 and Bf4, but White’s precise choice of move-order depends on which lines he wishes to avoid. The sequence 4 Nf3 Nc6 5 Bf4 transposes to the game, but this allows Black the option of 4...Bc5 5 e3 Nc6, regaining the e5-pawn without conceding the two bishops. True, this line is thought good for White on account of his grip on d5, but Gurevich probably reasons that as it costs little to prevent it, he might as well do so. The only possible drawback to the 4 Bf4 move-order is that it allows two possible sidelines by Black. The first is 4...Bb4+ 5 Nd2 d6 (5...Nc6 6 Nf3 again transposes to the game), but then 6 exd6 Qf6 7 Nh3 is thought to favour White. The other idea is 4...g5 5 Bg3 Bg7 6 Nf3 Nc6, but then 7 h4! is very promising. As with many move-order questions, there is little objective reason for preferring one option over another – it all depends on which lines one wants to avoid.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "Nc6",
+      "text": "Black decides simply to head into the main line of the Budapest.",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "Nf3",
+      "text": "White must put up a fight for the e5-pawn, in order to extract some sort of concession from Black.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "Bb4+",
+      "text": "Black must now devote himself to regaining the pawn; otherwise he will be left without compensation.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "Nbd2",
+      "text": "This is the most solid continuation. White can keep his extra pawn by playing 6 Nc3 Qe7 7 Qd5, but Black obtains fair compensation after 7...f6 8 exf6 Nxf6 9 Qd3 d6 10 e3 (10 g3 is also possible) 10...0-0. In this position, Black has a significant lead in development, his remaining pieces can easily come into play and his pressure along the e- and f-files makes it awkward for White to undertake any positive action. It is hard to say whether this is really enough for the pawn, and with few high-class examples to work from, any assessment will be partly a matter of guesswork.",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "Qe7",
+      "text": "Now White is unable to keep the e5-pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "a3",
+      "text": "It is more accurate to play a3 sooner rather than later, as it virtually forces Black to part with his dark-squared bishop. The alternative is 7 e3 Ngxe5 8 Nxe5 Nxe5 9 Be2 (White can still play 9 a3 here, transposing to the game, but further delay is unwise) 9...0-0 10 0-0, but then Black has the option of 10...a5! 11 a3 Bc5, when he keeps his bishop.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "Ncxe5",
+      "text": "White to play\n\nA little trick; Black threatens 8...Nd3# and so White has no time to take the bishop.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "Nxe5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "Nxe5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "e3",
+      "text": "Stopping the mate and putting the question to the b4-bishop.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "Bxd2+",
+      "text": "There is nothing better. 9...Bd6 is bad for Black in view of 10 Ne4! (10 Be2 Nd3+ 11 Bxd3 Bxf4 is unclear) 10...Nxc4 11 Nxd6+ Nxd6 12 Rc1 Kd8 (otherwise White regains the pawn, while retaining the two bishops and a vastly superior pawn-structure) 13 Qd4 Ne8 14 Bb5 with an enormous initiative for the pawn. The rarely-adopted 9...Bc5 is perhaps playable, although White can retain some advantage by 10 Nb3 (10 b4 Bd4! 11 Ra2 d6 12 Be2 0-0 13 0-0 Bb6 is only marginally better for White) 10...d6 11 Nxc5 dxc5 12 Qh5 Ng6 13 Bg3, when he can take comfort in his two bishops.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "Qxd2",
+      "text": "Black to play",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "O-O",
+      "text": "After this inaccuracy, White can obtain a clear positional advantage. Black should have played 10...d6 in order to inhibit the advance c5. I do not want to go too deeply into questions of opening theory, but it is worth noting that White cannot hope for more than a slight advantage after 10...d6. His main ideas are based on trying to play c5 in any case:\n\n1) 11 c5 (this is clearly critical, but Black can accept the offer) 11...dxc5 (after any other move, Black ends up with the same poor position as in the game) 12 Qd5 Ng6 13 Bb5+ c6! 14 Bxc6+ bxc6 15 Qxc6+ Qd7 and Black obtains sufficient compensation for the sacrificed exchange.\n\n2) 11 Qc3 (definitely threatening c5) 11...f6 (by supporting the e5-square, Black once again prevents c5) 12 Be2 b6 13 0-0 0-0 14 b4 c5 with an unclear position. White has the two bishops, but Black’s e5-knight is well placed and his light-squared bishop will be active on the long diagonal.\n\n3) 11 Rc1 b6 12 c5 bxc5 13 Bxe5 Qxe5 14 Bb5+ Kf8 with an unclear position. White has enough compensation for the pawn but possibly not more.\n\nThe above lines make it clear that achieving c5 is a key target for White. Why is this move so important? The basic reason lies in White’s possession of the two bishops. They are at their best in an open position in which both bishops have plenty of scope. While the pawn is on c4, it is not easy for White to activate his light-squared bishop; it is blocked in by the c4-pawn and it cannot be developed to f3 since Black’s knight is controlling that square. However, once White has played c5 this bishop has much more scope, and the two bishops then have excellent chances of becoming a major force in the game. It is also relevant that the move c5 weakens Black’s support for his e5-knight. A knight occupying a firm post in the centre is usually a match for a bishop, but once the knight gets driven away towards the edge of the board, the bishop is usually far superior. Thus Black’s ability to maintain his knight on e5 is important, and anything White can do to undermine the knight is helpful.\n\nWe now return to 10...0-0?!:\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "c5",
+      "text": "White must make the most of his opportunity. After the less accurate 11 Be2 d6 12 0-0 b6 13 Qc3 Bb7 Black can consolidate his position, when White’s chances of gaining an advantage are much reduced. Note that this is a case in which White is fully justified in postponing castling while he gets on with more important business. Black’s poor development means that there is no risk involved in keeping the king in the centre for a few moves.",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "Re8",
+      "text": "Black is unable to avoid a significant positional disadvantage:\n\n1) 11...Qxc5 12 Rc1 Qd6 13 Qxd6 cxd6 14 Rd1 (14 Be2 followed by 0-0 and Rfd1 is also good) 14...Re8 15 Rxd6 b6 16 Be2 and White is better since he has the two bishops, while Black has an isolated and rather backward d-pawn.\n\n2) 11...b6?! 12 Qd5 Nc6 13 Bxc7 is very good for White.\n\n3) 11...d6 12 cxd6 cxd6 13 Be2 is similar to the game.",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "Rc1",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "d6",
+      "text": "12...b6 13 cxb6 cxb6 14 Qd5 Nc6 15 Be2 does not change the situation; White has two active bishops and Black has an isolated pawn. 12...c6 13 Qd4 f6 14 Be2 is unpleasant for Black since he can hardly free himself on the queenside.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "cxd6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "cxd6",
+      "text": "Black has better chances of consolidating with queens on the board. After 13...Qxd6?! 14 Qxd6 cxd6 White has the choice between exerting positional pressure by 15 Rc7 and grabbing a pawn straight away by 15 Rd1 Bf5 16 Rxd6 Rac8 17 Bb5!, although in the latter case White has to allow opposite-coloured bishops after 17...Re6 18 Rxe6 Bxe6 19 Kd2 Nc4+ 20 Bxc4 Rxc4.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Be2",
+      "text": "Black to play\n\nWhite has achieved his positional aim and now catches up on his kingside development.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "Be6",
+      "text": "15 0-0",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "Rac8",
+      "text": "An ingenious defence, offering a pawn for some counterplay. Although it is not totally correct, I cannot criticize the move harshly, because Black’s position is inferior after any move; for example, 15...Rad8 16 Bb5 Rf8 (16...Bd7 17 Rc7) 17 Qd4 b6 18 Rc3 and Black has weakened his queenside pawns, while White can gain control of the open c-file.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Qd4",
+      "text": "After 16 Qb4 Rc5 17 Rfd1 b6 followed by ...Rec8 Black is in a good position to contest the c-file. However, the move played looks very strong since it attacks both e5 and a7.",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Nc6",
+      "text": "This is the point of Black’s play: he offers the d6-pawn in order to gain counterplay. In positions where the defender’s position is crippled by a weak pawn, he should always be alert for a chance to offer this pawn in order to stir up trouble. It is often better to be a pawn down with some compensation than to have material equality with serious weaknesses. This particular case is a marginal example, since it is by no means clear that White couldn’t have taken the pawn.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Qd2",
+      "text": "Gurevich decides to play safe and refuse the pawn. This is a typical practical decision since it would take considerable time to verify that it was really safe to take on d6, whereas repeating the position is a decision that can be taken quickly. However, in this case it would probably have been objectively better to take the pawn, as with accurate play White can consolidate his material advantage. 17 Qxd6! and now:\n\n1) 17...Qxd6 18 Bxd6 Red8 19 Rfd1 Nd4 (19...Bb3 20 Rd3 Nd4 21 Rxc8 Nxe2+ 22 Kf1 Rxc8 23 Rxb3 and White will be two pawns up) 20 exd4 Rxc1 21 Rxc1 Rxd6 22 Rc7 Rxd4 23 Rxb7 leaves White a clear pawn up.\n\n2) 17...Qf6 (this attacks b2 and threatens 18...Red8) 18 Qd3! (Black can be happy with his position after 18 Qc5 Qxb2 since he has exchanged his weak d6-pawn for the healthy pawn on b2; 18 Qd2?! Red8 is unpleasant for White as 19 Qc3? runs into 19...Nd4, when White loses material) with another branch:\n\nBlack to play\n\n2a) 18...Rcd8 19 Qb5! (19 Qc3 Qxc3 20 bxc3 Rd2 21 Bf3 Na5 gives Black a little counterplay against the weak queenside pawns) 19...Nd4 20 exd4 Qxf4 21 Qxb7 Bd5 22 Qb5 and White will keep an extra pawn.\n\n2b) 18...Qxb2 19 Rb1 Qa2 20 Rxb7 Na5 21 Rc7 (this is the key move, as otherwise Black could continue 21...Bc4) 21...Nc4 22 Rc1 Rxc7 23 Bxc7 Nxa3 24 Be5 and Black is in considerable difficulties owing to his offside pieces; for example, 24...Nc4 25 Bd4 and White will win the a-pawn. The resulting position, with White having the two bishops and an extra kingside pawn, will be very uncomfortable for Black.",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Ne5",
+      "text": "Black simply repeats. 17...d5 is inferior because Black gives up one of his main assets – the secure square e5 for his knight.",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "Rxc8",
+      "text": "White decides to exchange all the rooks and try to exploit his advantage in the more simplified position that results. White retains some advantage with this plan, but far less than if he had taken the d6-pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "Rxc8",
+      "text": "White to play\n\nWhite has two positional advantages: the two bishops, and Black’s weak d-pawn. Despite this, the game is far from won. In most textbooks, you will find examples in which such advantages rapidly prove decisive. Readers who only study such examples will then wonder why it proves so difficult to win similar positions in their own games. Indeed, if Black were to make a couple of inferior moves here, he would probably soon lose the game. However, what makes this game so instructive is that Black puts up a determined resistance for a long time. This provides us with an object lesson in how to defend unpleasant positions, and how to overcome the obstacles placed in one’s path by the defender.",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "Rc1",
+      "text": "19 Qd4 is no longer effective as 19...Rc2 gives Black counterplay.",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "Rc7",
+      "text": "Black does not want to exchange immediately, as this would leave White in control of the c-file. He cannot really prevent this in the end, as White can continue Rc3 and Qc2, but at least he makes it as hard for White as possible.",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "Rc3",
+      "text": "Doubling the major pieces will more or less force Black to take on c3.",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "f6",
+      "text": "White to play\n\nReinforcing the important e5-knight, and thereby ruling out forks based on attacking e5 (such as Qd4, as White played earlier).",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "e4",
+      "text": "White has to come up with a concrete plan for achieving progress. As has already been mentioned, the secure e5-knight is one of Black’s main assets because it restricts the activity of White’s dark-squared bishop. Therefore, White decides to circumvent the knight by repositioning his bishop on the g1-a7 diagonal, where it attacks Black’s queenside pawns.",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "a6",
+      "text": "Anticipating White’s attack by Be3.",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "Be3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "b5",
+      "text": "Black would like to make use of the c4-square, and the secure outpost this move provides is probably more important than the slight weakening of the queenside pawns. Note that 22...Nc4?? loses a piece to 23 Qc1, followed by b3.",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "Qc1",
+      "text": "Black to play\n\nBlack cannot avoid the exchange of rooks.",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "Rxc3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "Qxc3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 48,
+      "san": "Qb7",
+      "text": "Black is content to play passively for the moment, but this gives White the chance to consolidate his position. However, active play, although more complicated, probably also does not completely equalize: 24...Nc4 25 Bd4 (25 Bc1 Bf7 26 b3 is wrong owing to 26...Qxe4 27 Bf1 Qe5!) 25...Bf7 26 f3! (26 b3 Nxa3 27 Bd3 Qe6 28 Qa5 b4 29 Qd8+ Be8 is unclear) 26...d5 and although Black liquidates his d-pawn, White retains some advantage by 27 b3 Nd6 (27...Nxa3? loses material to 28 Bc5 Qc7 29 exd5 Bxd5 30 Qe3) 28 Bc5 and now:\n\n1) 28...Qe6 29 Bxd6 (29 Qd2 Nb7 30 exd5 Qxd5 31 Qxd5 Bxd5 is a draw) 29...Qxd6 30 Qc8+ Qf8 31 Qxa6 dxe4 32 b4 exf3 33 gxf3 and Black faces the loss of his b5-pawn.\n\n2) 28...dxe4 29 Qb4 exf3 30 Bxf3 a5 31 Qxa5 Qe5 32 Bxd6 Qd4+ (32...Qxd6 33 Qa8+ Qf8 34 Qxf8+ Kxf8 35 a4 and White has an advantage due to his outside passed pawn; the point of the intermediary check becomes clear later) 33 Kf1 Qxd6 34 Qxb5 (34 Qa8+ Qf8 35 Qxf8+ Kxf8 36 a4 b4 is safe for Black; thanks to the position of the white king on f1, 37 a5 Bxb3 38 a6 may be met by 38...Bc4+ 39 Be2 Bd5) 34...Qxa3 35 Qb8+ Qf8 36 Qxf8+ Kxf8 37 b4 and White has just an edge.",
+      "isCritical": true
+    },
+    {
+      "ply": 49,
+      "san": "f3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 50,
+      "san": "Bc4",
+      "text": "25...d5 is similar to the game. 25...Nc4 26 Bd4 is slightly better for White than the previous note, since he has already played f3.",
+      "isCritical": true
+    },
+    {
+      "ply": 51,
+      "san": "Bd1",
+      "text": "White must keep his two bishops; otherwise he has nothing.",
+      "isCritical": true
+    },
+    {
+      "ply": 52,
+      "san": "Be6",
+      "text": "White to play\n\nFor the moment Black is not sure how to proceed; in particular, he cannot decide whether to play ...d5 or not. Of course, it is desirable for him to liquidate his isolated pawn, but on the other hand every exchange of pawns opens the position further and accentuates the power of the two bishops. This is a typical phenomenon when one side has the two bishops – it may not be their immediate power which is dangerous, but the latent power they may exert as the position becomes more simplified.",
+      "isCritical": true
+    },
+    {
+      "ply": 53,
+      "san": "Bd4",
+      "text": "White is also toying with different ideas; this move doesn’t actually threaten anything, but it does remove the bishop from attack after a possible ...Nc4.",
+      "isCritical": true
+    },
+    {
+      "ply": 54,
+      "san": "Nc6",
+      "text": "Black decides to kick the bishop back.",
+      "isCritical": true
+    },
+    {
+      "ply": 55,
+      "san": "Bf2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 56,
+      "san": "Qd7",
+      "text": "28...Ne5 29 h3 would be similar to the game.",
+      "isCritical": true
+    },
+    {
+      "ply": 57,
+      "san": "h3",
+      "text": "White’s plan is to gain space by f4 and Bf3, denying Black’s knight any central square. Now that White shows clear signs of an ability to make progress, Black decides to play ...d5.",
+      "isCritical": true
+    },
+    {
+      "ply": 58,
+      "san": "d5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 59,
+      "san": "exd5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 60,
+      "san": "Bxd5",
+      "text": "30...Qxd5 31 Bc2 threatens Be4, and if Black goes for an exchange of queens by playing 31...Qc4 then an ending similar to that in the game arises.",
+      "isCritical": true
+    },
+    {
+      "ply": 61,
+      "san": "Bc2",
+      "text": "Black to play\n\nAn excellent move; White intends to attack h7 with Qd3. After the more or less forced reply ...g6, Black’s dark squares on the kingside will be weakened and the power of White’s dark-squared bishop will be enhanced.",
+      "isCritical": true
+    },
+    {
+      "ply": 62,
+      "san": "Qe6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 63,
+      "san": "Qd3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 64,
+      "san": "g6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 65,
+      "san": "Qe3",
+      "text": "Having softened Black up slightly, White decides to offer the exchange of queens.",
+      "isCritical": true
+    },
+    {
+      "ply": 66,
+      "san": "Qxe3",
+      "text": "Since the ending turns out to be unpleasant for Black, the question arises as to whether Black should have avoided the exchange of queens. However, it is not so easy to achieve this aim; for example, 33...Ne5 34 f4 Nc4 35 Qxe6+ Bxe6 36 Bd4 is rather similar to the game, while after 33...Qd7 34 Qb6 Qc8 35 h4 the possibility of h5 is a further worry for Black.",
+      "isCritical": true
+    },
+    {
+      "ply": 67,
+      "san": "Bxe3",
+      "text": "Black to play\n\nIt would be easy to dismiss this position as simply a draw, since the pawn-structure is fairly symmetrical, but in fact White has genuine winning chances. The two bishops are certainly better than a bishop and a knight in this relatively open position, and in addition Black’s knight lacks any stable outpost. However, the most important factor is that Black’s pawn-structure has been slightly weakened on both wings. Take the kingside, for example. The pawn on f6 can be attacked by the dark-squared bishop, leaving Black the choice of having one piece constantly tied down to defending it, or of pushing it by ...f5. The problem with this latter choice is that it opens up a path for the white king to penetrate into the kingside via the dark squares. The situation on the queenside also poses a potential danger for Black: his pawns are already fairly far advanced and on light squares, so again there is the possibility of a white king invasion.\n\nIt would therefore be quite wrong to dismiss the position as a dead draw. It may well be that objectively speaking the result should be a draw. However, a protracted period of accurate defence is required for Black to achieve this result, so White is fully justified in pressing on. The advantage of bishop against knight is often underestimated; the remainder of this game will show how White can play to exploit his advantage.",
+      "isCritical": true
+    },
+    {
+      "ply": 68,
+      "san": "Kf7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 69,
+      "san": "Kf2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 70,
+      "san": "Ke6",
+      "text": "Both sides bring their kings to the centre.",
+      "isCritical": true
+    },
+    {
+      "ply": 71,
+      "san": "Bb6",
+      "text": "Black to play\n\nWhite clears the way for his king to advance to e3. In a position with the king on e3 and the dark-squared bishop on g3, Black’s knight would be tied down to preventing Kd4-c5 by White.",
+      "isCritical": true
+    },
+    {
+      "ply": 72,
+      "san": "f5",
+      "text": "Whether to play this move is a critical decision, but I think that Black jumped the wrong way. Offering the white king an entry route via f4, g5 and h6 is a major concession, which should certainly not have been made voluntarily. Black should simply wait by 36...Kd6 37 Ke3 Ke6, leaving the burden on White to make progress. One idea is 38 h4, intending to break up Black’s kingside pawns by h5. Black might have to meet h5 by ...f5 in any case, but at least the possible exchange on g6 would reduce the number of pawns on the kingside. If Black plays 36...Ne5, then 37 Bd4 Nc6 38 Bc3 followed by Ke3 and h4 is similar.",
+      "isCritical": true
+    },
+    {
+      "ply": 73,
+      "san": "Be3",
+      "text": "Perhaps Black had not foreseen this switchback. Other moves are less effective; for example, the obvious 37 Ke3?! (after 37 g4?!, 37...f4 not only keeps the king out, but also enables Black to target f3 with ...Ne5) is met by 37...g5, when Black gains a measure of dark-square control on the kingside. If Black can play ...f4+ then White’s king will be shut out of the kingside, but attempts to prevent this move do not work: 38 f4 (38 g3 Ne5 attacks f3 and threatens ...Nc4+) 38...Bxg2 39 fxg5 Bxh3 40 Bb3+ Kd6 (40...Ke5 41 Bc7#) 41 Bg8, for example, backfires in view of 41...Ne7, when White cannot take the pawn on h7.\n\nBlack to play\n\nThe strength of the move played is that it fixes Black’s kingside pawns and therefore prevents him from repairing the dark-squared weaknesses created by ...f5. Black now has the constant worry of an invasion by the white king.",
+      "isCritical": true
+    },
+    {
+      "ply": 74,
+      "san": "Bc4",
+      "text": "37...Ne5 is a reasonable alternative, since the plan of transferring the knight to c4 makes it harder for White to activate his pieces. White may continue 38 Kg3 Nc4 39 Bc1 (39 Bd4 g5 40 h4 f4+ is fine for Black) 39...Ke5 40 h4 Bf7 41 h5, and now:\n\n1) 41...gxh5 (tempting, but now White has a clear target on the kingside) 42 b3 Nb6 (after 42...Na5 43 Bb2+ Ke6 44 Kf4 Bg6 45 Bc3 Nc6 46 b4 Ne7 47 Bb3+ Nd5+ 48 Kg5 Kd6 49 Bd4 Black’s position remains uncomfortable) 43 Kh4 Nd5 44 Kg5 h6+ 45 Kxh6 f4 46 Bb2+ Ke6 47 b4 Ne3 48 Bb3+ Ke7 49 Bxf7 Kxf7 50 Kxh5 Nxg2 51 Kg4 Ke6 52 Bc1 Ke5 53 Kg5 and now Black is in zugzwang and must lose his f-pawn.\n\n2) After 41...Kf6! 42 Kh4 Bd5 it is not easy for White to make progress since b3 is met by ...Na5, when the b3-pawn comes under fire.",
+      "isCritical": true
+    },
+    {
+      "ply": 75,
+      "san": "g4",
+      "text": "The immediate 38 Kg3 is met by 38...Bf1, when White cannot advance his king further. Hence, White decides first to push the g-pawn and only then to play Kg3.",
+      "isCritical": true
+    },
+    {
+      "ply": 76,
+      "san": "Ne5",
+      "text": "White to play\n\nBlack immediately takes steps to attack the f3-pawn, which is now deprived of support.",
+      "isCritical": true
+    },
+    {
+      "ply": 77,
+      "san": "Kg3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 78,
+      "san": "Be2",
+      "text": "The alternatives are:\n\n1) 39...Bd5 40 gxf5+ gxf5 41 Kf4 Ng6+ 42 Kg5 f4 43 Bxf4 Bxf3 44 Bf5+ Kd5 45 Bc8 is unpleasant for Black.\n\n2) 39...Bd3!? is a reasonable defensive plan. After 40 Bd1 Nc4 41 Bc1 Nd6 (41...Nb6 42 Kf4 Nd5+ 43 Kg5 favours White) 42 Kf4 it is not easy for White to make progress since Kg5 may be met by ...Nf7+.\n\n3) 39...fxg4 is a logical move, because Black avoids the possible breaking-up of his kingside pawns by gxf5+. After 40 hxg4 (40 fxg4 Kd5 41 Kf4 Nd3+ 42 Kg5 Nxb2 43 Kh6 Bd3 44 Bxd3 Nxd3 45 Kxh7 Ne5 should be enough to draw) 40...Bd3 41 Bd1 Black’s active pieces make progress difficult.\n\nAs we can see, at this stage Black still has a choice of reasonable plans to obstruct White’s progress. However, his tiny inaccuracies in the last few moves before the time-control have a cumulative effect, with the result that the safe path starts to become very narrow.",
+      "isCritical": true
+    },
+    {
+      "ply": 79,
+      "san": "Kf4",
+      "text": "Attacking the f5-pawn. If White exchanges first, then 40 gxf5+ gxf5 41 Kf4 Bd3 42 Bd1 Bf1 43 Bd4 Ng6+ (only possible because of the exchange on f5) 44 Kg5 Bxh3 45 Bb3+ Kd6 46 Bg8 Ne5 offers White at most a slight advantage.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 80,
+      "san": "Bd3",
+      "text": "Not 40...Nxf3? 41 gxf5+ gxf5? 42 Bxf5+ followed by Bg4 and White wins. However, 40...Nd3+ is a better defence; after 41 Kg5 fxg4 42 fxg4 we transpose to the note to Black’s 39th move, in which Black has excellent drawing chances.",
+      "isCritical": true
+    },
+    {
+      "ply": 81,
+      "san": "Bd1",
+      "text": "Again, White must keep his two bishops to retain any winning chances.",
+      "isCritical": true
+    },
+    {
+      "ply": 82,
+      "san": "Bf1",
+      "text": "Threatening both the h-pawn and ...Nd3+.",
+      "isCritical": true
+    },
+    {
+      "ply": 83,
+      "san": "Bd4",
+      "text": "Gaining time by attacking the knight.",
+      "isCritical": true
+    },
+    {
+      "ply": 84,
+      "san": "Nc6",
+      "text": "This allows White to break up Black’s kingside pawns. Alternatives:\n\n1) The tactical try 42...fxg4? fails to 43 Bxe5 gxh3 44 Bb3+ Bc4 45 Bxc4+ bxc4 46 Ke4, when the h3-pawn is stopped.\n\n2) 42...Nd3+ 43 Ke3 (43 Kg5 Bxh3 44 gxf5+ Bxf5 is fine for Black) 43...Ne5 is a better defence. After 44 h4 fxg4 45 fxg4 Black has avoided the breaking-up of his kingside pawns, although he must still worry about Kf4-g5.",
+      "isCritical": true
+    },
+    {
+      "ply": 85,
+      "san": "gxf5+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 86,
+      "san": "gxf5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 87,
+      "san": "Bg7",
+      "text": "Black to play\n\nSuddenly it turns out that Black cannot take the h3-pawn for tactical reasons, and the result is that Black has no compensation for the shattering of his kingside pawns, which leaves him with two weaknesses instead of one.",
+      "isCritical": true
+    },
+    {
+      "ply": 88,
+      "san": "Ne7",
+      "text": "If 44...Bxh3, then 45 Be2! (threatening 46 Kg3) 45...Bg2 46 Kg3 Bh1 47 Kh2 and the bishop is trapped.\n\nThe text-move supports the f5-pawn; this will be necessary sooner or later because White is threatening Bb3+ followed by Bc2, forcing the knight back to e7.",
+      "isCritical": true
+    },
+    {
+      "ply": 89,
+      "san": "Kg3",
+      "text": "White adopts a safety-first approach, but it was better to push the h-pawn straight away: 45 h4 Nd5+ 46 Kg5 Ne3 (forcing the exchange of a pair of bishops, but it is too late to do much good) 47 Bb3+ Bc4 48 Bxc4+ Nxc4 (48...bxc4 49 Bc3 followed by h5 and Kh6 is also very good for White) 49 Kh6 and White wins the h-pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 90,
+      "san": "Ng6",
+      "text": "Black aims to control f4 and h4, and so stop White’s king advancing. However, after White plays h4, Black will face an awkward choice: to allow the knight to driven away by h5, or to play ...h5 himself, when the h-pawn will be more exposed to attack. 45...Nd5 was a more active continuation; after 46 f4 (46 Kh4 Nf4 draws) 46...Bd3 47 Be5 Ne3 48 Bf3 Nc4 49 Bc3 Nd6 50 Kh4 Ne4 51 Be5 Bf1 Black’s pieces work together well, since the knight controls g5 while the bishop attacks the h-pawn and so prevents Kh5.",
+      "isCritical": true
+    },
+    {
+      "ply": 91,
+      "san": "h4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 92,
+      "san": "Bc4",
+      "text": "46...h5? is certainly not possible straightaway, as it loses a pawn to 47 f4.",
+      "isCritical": true
+    },
+    {
+      "ply": 93,
+      "san": "Bc2",
+      "text": "47 h5 is also possible, but after 47...Ne7 White should not play 48 Kf4? Nd5+ 49 Kg3 Ne3, which costs him at least a pawn, but 48 Bc2 Nd5 49 Kh4 with good winning chances.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 94,
+      "san": "Be2",
+      "text": "Black decides to allow h5. 47...h5 is no better in view of 48 Bh6 Be2 (48...Ke5 49 f4+ followed by Bd1 wins a pawn; 48...Bd5 49 f4 is similar) 49 Be3!, when Black is in zugzwang. A knight move allows Kf4, 49...Ke5 50 Bg5 Ke6 51 Kf2 Bc4 52 f4 and Bd1 wins a pawn, while 49...Bc4 50 Bd1 Ne5 51 Bd4 Nc6 52 Bc3 is followed by either f4 or Kf4.",
+      "isCritical": true
+    },
+    {
+      "ply": 95,
+      "san": "h5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 96,
+      "san": "Ne5",
+      "text": "48...Ne7 49 Kf4 Nd5+ 50 Kg5 Ne3 51 Bb1 is also very bad for Black since 51...Bxf3? loses a piece to 52 Kf4.",
+      "isCritical": true
+    },
+    {
+      "ply": 97,
+      "san": "Kf4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 98,
+      "san": "Bd3",
+      "text": "The only move, because 49...Nd3+ 50 Ke3 Nc1 51 Kd2 costs Black a piece.",
+      "isCritical": true
+    },
+    {
+      "ply": 99,
+      "san": "Bd1",
+      "text": "Once again, White ducks the exchange of bishops.",
+      "isCritical": true
+    },
+    {
+      "ply": 100,
+      "san": "Nc4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 101,
+      "san": "Bc3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 102,
+      "san": "Nd6",
+      "text": "51...a5 is ingenious, the idea being to answer Kg5-h6 with ...a4 and ...Ne3 trapping the bishop on d1. However, after 52 a4! b4 53 Bh8 White again threatens Kg5 and there seems little Black can do about it.\n\nThe text-move aims to keep White’s king out by meeting Kg5 with ...Nf7+.",
+      "isCritical": true
+    },
+    {
+      "ply": 103,
+      "san": "Ke3",
+      "text": "Black to play\n\nA typical situation has arisen for positions in which one side is defending passively. If Black makes the correct reply, White has the option of repeating the position, but if Black makes the wrong choice, then White can win fairly easily. The defender is in an unenviable position; he has to make the right choice again and again, while the attacker risks nothing. This is especially difficult at the end of a long and tiring game and in practice the laws of probability usually catch up with the defender, and he eventually makes a fatal slip.",
+      "isCritical": true
+    },
+    {
+      "ply": 104,
+      "san": "Bc4",
+      "text": "Black decides to abandon the b1-h7 diagonal, but now White is definitely winning. Black should have played 52...Bb1, maintaining the status quo. Then 53 Kd4 is tempting, heading for the queenside pawns, but after 53...Nc4 54 Kc5 Bd3 White’s king has to go a very long way round to attack the pawns. Therefore, White should adopt a different plan, possibly based on a preliminary a4 and axb5 to increase the effect of a subsequent Kd4-c5.",
+      "isCritical": true
+    },
+    {
+      "ply": 105,
+      "san": "Bc2",
+      "text": "The bishop settles on an ideal diagonal exerting pressure on the weak f5-pawn. The immediate threat is Kf4 followed by Bb4.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 106,
+      "san": "Bf1",
+      "text": "Black aims to defend the f5-pawn from h3, but this is a journey into oblivion for Black’s bishop. Other moves:\n\n1) 53...Bd5 54 Kf4 followed by Bb4 wins the f5-pawn.\n\n2) 53...Nc8 54 Kf4 Ne7 55 Kg5 Bd5 is the toughest defence, when White has to take care:\n\n2a) 56 Bb4 Bxf3 57 Bxe7 Kxe7 58 Bxf5 is tempting, but Black can save the game by 58...h6+! 59 Kxh6 Kf6 60 Bg6 a5! 61 Kh7 (61 b4 axb4 62 axb4 Ke5 draws as Black can give up his bishop for the h-pawn) 61...b4 62 h6 bxa3 63 bxa3 Bd5 and the white king can never escape from the corner.\n\n2b) 56 Bd1! Bc4 57 Kh6 Nd5 58 Kxh7 Nxc3 (58...Ne3 59 Kg7 and the pawn slips through) 59 bxc3 Kf6 is another attempt to imprison White’s king in the corner, but it doesn’t work here: 60 f4! Bf7 61 h6 Bc4 62 Bf3 Be6 63 Bb7 a5 64 Bc6 Bc4 65 Bd7, followed by Bxf5, winning. If Black simply jettisons the f5-pawn, then White wins by playing f5 and manoeuvring the bishop to e6.",
+      "isCritical": true
+    },
+    {
+      "ply": 107,
+      "san": "Kf4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 108,
+      "san": "Bh3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 109,
+      "san": "Bd3",
+      "text": "This little move causes Black’s defence to collapse. There is no reasonable way to meet the threat of Kg3, trapping the bishop.",
+      "isCritical": true
+    },
+    {
+      "ply": 110,
+      "san": "Bg2",
+      "text": "The only move to avoid immediate loss of a piece.",
+      "isCritical": true
+    },
+    {
+      "ply": 111,
+      "san": "Bb4",
+      "text": "56 Kg3 Bh1 57 Be2 is also decisive. The text-move intends h6 followed by Bxd6, winning both kingside pawns.",
+      "isCritical": true
+    },
+    {
+      "ply": 112,
+      "san": "h6",
+      "text": "Black tries to save one of his kingside pawns.",
+      "isCritical": true
+    },
+    {
+      "ply": 113,
+      "san": "Kg3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 114,
+      "san": "Bh1",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 115,
+      "san": "Be2",
+      "text": "58 Bxd6 Kxd6 59 Bxf5 followed by Bg4 and Kh2 was simpler, but it makes no difference to the result.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 116,
+      "san": "f4+",
+      "text": "Or else Kh2 wins a piece.",
+      "isCritical": true
+    },
+    {
+      "ply": 117,
+      "san": "Kxf4",
+      "text": "59 Kh2 Nf5 60 Bd1 Ng3 61 Be1 is also good enough.",
+      "isCritical": true
+    },
+    {
+      "ply": 118,
+      "san": "Nf5",
+      "text": "Or else Kg3-h2 wins the bishop after all. However, Black’s fate will not be long delayed because he cannot maintain his knight on the f5-square.",
+      "isCritical": true
+    },
+    {
+      "ply": 119,
+      "san": "Bc3",
+      "text": "Intending Bd1-b3+.",
+      "isCritical": true
+    },
+    {
+      "ply": 120,
+      "san": "Ne7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 121,
+      "san": "Kg3",
+      "text": "The king moves in to round up the cornered bishop.",
+      "isCritical": true
+    },
+    {
+      "ply": 122,
+      "san": "Nd5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 123,
+      "san": "Bd2",
+      "text": "Apparently White enjoys prolonging the agony!",
+      "isCritical": true
+    },
+    {
+      "ply": 124,
+      "san": "Nf6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 125,
+      "san": "Kh2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 126,
+      "san": "Nxh5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 127,
+      "san": "Bd1",
+      "text": "Not, of course, 64 Kxh1?? Ng3+.\n\n1-0\n\nBlack finally loses his trapped bishop.\n\nReaders may well argue that I have overstated the power of the two bishops – after all, the above analysis shows how Black could have improved his defence at various moments. However, the point is not at which stage the position actually became winning for White, but rather that, starting from a roughly symmetrical position, White was able to create many problems for Black – so many, indeed, that Black was soon on the slippery slope to defeat.\n\nThe lessons here are:\n\n1) The advantage of the two bishops is often a significant asset, especially in open positions.\n\n2) This advantage is long-term, and may require considerable patience to be fully exploited.\n\n3) If your opponent offers a pawn, it is worth looking closely at taking it – a casual ‘that looks a bit risky’ isn’t good enough.\n\n4) Defending an inferior ending for several hours is a very tough job, and in practice it is very easy for the defender to lose his way through time shortage or exhaustion.",
+      "isCritical": true
+    }
+  ]
+}

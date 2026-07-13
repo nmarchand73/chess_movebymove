@@ -196,5 +196,185 @@
     "black": 2201,
     "whiteAcpl": 24,
     "blackAcpl": 29
+  },
+  "nunn-001": {
+    "white": 3300,
+    "black": 2738,
+    "whiteAcpl": 4,
+    "blackAcpl": 13
+  },
+  "nunn-002": {
+    "white": 3200,
+    "black": 3183,
+    "whiteAcpl": 3,
+    "blackAcpl": 20
+  },
+  "nunn-003": {
+    "white": 3099,
+    "black": 2965,
+    "whiteAcpl": 12,
+    "blackAcpl": 19
+  },
+  "nunn-004": {
+    "white": 1988,
+    "black": 2723,
+    "whiteAcpl": 35,
+    "blackAcpl": 21
+  },
+  "nunn-005": {
+    "white": 2935,
+    "black": 3299,
+    "whiteAcpl": 14,
+    "blackAcpl": 2
+  },
+  "nunn-006": {
+    "white": 3299,
+    "black": 2786,
+    "whiteAcpl": 1,
+    "blackAcpl": 12
+  },
+  "nunn-007": {
+    "white": 2703,
+    "black": 2627,
+    "whiteAcpl": 220,
+    "blackAcpl": 220
+  },
+  "nunn-008": {
+    "white": 2610,
+    "black": 2660,
+    "whiteAcpl": 19,
+    "blackAcpl": 25
+  },
+  "nunn-009": {
+    "white": 1656,
+    "black": 1795,
+    "whiteAcpl": 597,
+    "blackAcpl": 574
+  },
+  "nunn-010": {
+    "white": 3169,
+    "black": 3225,
+    "whiteAcpl": 7,
+    "blackAcpl": 8
+  },
+  "nunn-011": {
+    "white": 2181,
+    "black": 1980,
+    "whiteAcpl": 31,
+    "blackAcpl": 21
+  },
+  "nunn-012": {
+    "white": 2907,
+    "black": 2736,
+    "whiteAcpl": 14,
+    "blackAcpl": 24
+  },
+  "nunn-013": {
+    "white": 2725,
+    "black": 3109,
+    "whiteAcpl": 12,
+    "blackAcpl": 9
+  },
+  "nunn-014": {
+    "white": 2477,
+    "black": 3208,
+    "whiteAcpl": 20,
+    "blackAcpl": 5
+  },
+  "nunn-015": {
+    "white": 2086,
+    "black": 2430,
+    "whiteAcpl": 28,
+    "blackAcpl": 22
+  },
+  "nunn-016": {
+    "white": 3156,
+    "black": 2439,
+    "whiteAcpl": 7,
+    "blackAcpl": 15
+  },
+  "nunn-017": {
+    "white": 2986,
+    "black": 2507,
+    "whiteAcpl": 10,
+    "blackAcpl": 172
+  },
+  "nunn-018": {
+    "white": 3156,
+    "black": 2730,
+    "whiteAcpl": 6,
+    "blackAcpl": 26
+  },
+  "nunn-019": {
+    "white": 2658,
+    "black": 3138,
+    "whiteAcpl": 14,
+    "blackAcpl": 14
+  },
+  "nunn-020": {
+    "white": 3161,
+    "black": 3090,
+    "whiteAcpl": 9,
+    "blackAcpl": 9
+  },
+  "nunn-021": {
+    "white": 3301,
+    "black": 3028,
+    "whiteAcpl": 1,
+    "blackAcpl": 19
+  },
+  "nunn-022": {
+    "white": 3214,
+    "black": 2982,
+    "whiteAcpl": 7,
+    "blackAcpl": 12
+  },
+  "nunn-023": {
+    "white": 3120,
+    "black": 3026,
+    "whiteAcpl": 5,
+    "blackAcpl": 12
+  },
+  "nunn-024": {
+    "white": 2606,
+    "black": 2987,
+    "whiteAcpl": 18,
+    "blackAcpl": 10
+  },
+  "nunn-025": {
+    "white": 3124,
+    "black": 3077,
+    "whiteAcpl": 13,
+    "blackAcpl": 10
+  },
+  "nunn-026": {
+    "white": 3295,
+    "black": 3005,
+    "whiteAcpl": 5,
+    "blackAcpl": 14
+  },
+  "nunn-027": {
+    "white": 1604,
+    "black": 2421,
+    "whiteAcpl": 55,
+    "blackAcpl": 19
+  },
+  "nunn-028": {
+    "white": 2787,
+    "black": 2977,
+    "whiteAcpl": 14,
+    "blackAcpl": 10
+  },
+  "nunn-029": {
+    "white": 3211,
+    "black": 2756,
+    "whiteAcpl": 5,
+    "blackAcpl": 15
+  },
+  "nunn-030": {
+    "white": 1882,
+    "black": 2303,
+    "whiteAcpl": 30,
+    "blackAcpl": 22
   }
 }

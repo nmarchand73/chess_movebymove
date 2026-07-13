@@ -1,0 +1,349 @@
+{
+  "id": "nunn-004",
+  "book": "nunn",
+  "gameNum": 4,
+  "title": "Game 4: J. van der Wiel vs R. Vaganian",
+  "section": "Opening Themes",
+  "players": {
+    "white": "J. van der Wiel",
+    "black": "R. Vaganian"
+  },
+  "event": "Ter Apel 1993",
+  "opening": "Alekhine Defence, Four Pawns Attack",
+  "eco": "B03",
+  "pgnPath": "data/pgn/nunn/04.pgn",
+  "result": "0-1",
+  "moveCount": 54,
+  "annotatedMoves": 53,
+  "fullText": "An Over-Extended Pawn-Centre\n\nIf a player occupies the centre with pawns during the opening, he is taking on a significant responsibility. If he can maintain the pawn-centre intact, and support it adequately with pieces, then he is likely to gain the advantage. If, however, the support is inadequate, then, like any rickety construction, the pawn-centre is likely to collapse if given a good shove. The most common reason for poor piece support is lack of development. Erecting a pawn-centre consumes a certain number of tempi, which cannot also be used for developing pieces. Thus it is only natural that a large pawn-centre and a lack of development go hand-in-hand. The big question is whether the opponent has a way of exploiting the lack of development quickly, since otherwise the occupier of the centre will catch up with his development and gain the advantage. It is often extremely difficult to judge what the end result of such a contest will be. Indeed, there are whole opening systems that are based on allowing the opponent to construct a large pawn-centre; even after decades of analysis, nobody knows whether some of these systems are correct. In the following game Black adopts precisely such an opening. White duly builds up his centre, and battle is joined.\n\nJ. van der Wiel – R. Vaganian\n\nTer Apel 1993\n\nAlekhine Defence, Four Pawns Attack\n\n1 e4\n\nSee Game 3 for comments on this move.\n\n1...Nf6\n\nThis is one of the most forthright defences to 1 e4 in that Black’s plan is plain from the very first move. By attacking the e-pawn, he restricts White’s options. The only two natural moves are 2 Nc3 and 2 e5. However, at the very least 2 Nc3 allows Black’s to transpose into an innocuous King’s Pawn Opening by playing 2...e5 (this opening, called the Vienna Game, usually arises after 1 e4 e5 2 Nc3 Nf6). Therefore, the only real test of Black’s first move is 2 e5. At first sight White should display no hesitation in advancing his pawn, because he not only gains space in the centre, but he also apparently gains time, since Black must move his knight again. However, the basis of Black’s idea is that in order to support the advanced pawn on e5, White will have to play further pawn moves – d4 at the very least. In this game White decides to go the whole way and plays c4 and f4 as well. This gives White a broad centre, but in the meantime he falls behind in development. As mentioned in the introduction to this game, it is very hard to tell whether the centre will prove strong or just collapse – indeed, Alekhine’s Defence has been the subject of theoretical debate for around 80 years, with no clear conclusions being reached.\n\n2 e5\n\n2...Nd5\n\nThe best square. 2...Ne4 really would be too provocative; after 3 d4 the knight is stranded on e4.\n\n3 d4\n\nWhite supports his advanced pawn, while reserving the option of chasing the knight further by c4.\n\n3...d6\n\nAs always, you should not allow your opponent to erect a broad centre unchallenged. Here Black already starts to exert pressure on the e5-pawn.\n\n4 c4\n\nWhite decides to push another pawn. Black again has to move his knight, so this isn’t really a loss of time by White. However, White has taken on the additional responsibility of defending the c4-pawn. The feeling today is that these further pawn advances do not benefit White a great deal, and currently the favoured strategy is for White to content himself with the two pawns he has also already advanced and concentrate on supporting those. The best way to achieve this is by 4 Nf3, followed by Be2 and 0-0.\n\n4...Nb6\n\nExerting pressure on the c4-pawn and thereby limiting the activity of White’s light-squared bishop.\n\n5 f4\n\nWe met John van der Wiel in Game 1 and are familiar with his direct and aggressive style. Here he adopts the most ambitious, but also one of the most risky, lines against the Alekhine Defence. The Four Pawns Attack is based on staking out a massive swathe of territory in the centre, in the hope of developing the pieces behind it by Nc3, Nf3, Be3 and so on.\n\n5...dxe5\n\nThis exchange opens up the d-file for Black’s queen and prepares to exert pressure against the d4-pawn.\n\n6 fxe5\n\nAfter 6 dxe5 Qxd1+ 7 Kxd1 Nc6 Black’s lead in development will become serious, as White must lose further time with his king. In any case, it makes no sense to play an aggressive line such as the Four Pawns Attack and then offer the exchange of queens.\n\n6...Nc6\n\nAttacking d4.\n\n7 Be3\n\nWhite makes his first piece move. Had Black not wasted some time himself, the luxury of six consecutive pawn moves would surely have been fatal for White. However, Black has spent three moves having his knight chased to b6, so White’s lag in development, while real enough, is not so serious as to cause an immediate disaster.\n\n7 Nf3 is a mistake because after 7...Bg4 8 Be3 e6 Black effectively gains a tempo over the game continuation. It is more accurate to wait until Black plays ...Bf5 before continuing Nf3, since then Black will have to spend an extra tempo if he wants to pin the knight.\n\n7...Bf5\n\nPreparing to free his last minor piece by ...e6. At this stage it is not clear whether Black will aim for kingside castling or play for quick pressure against d4 by means of ...Qd7 followed by ...0-0-0.\n\n8 Nc3\n\nWhite is eager to make up for his deficit in development.\n\n8...e6\n\nThe f8-bishop can be developed to e7 or b4, according to circumstances.\n\n9 Nf3\n\nBoth sides have spent the past few moves concentrating on piece development, but now Black must decide how to step up the pressure against White’s pawns before White develops his remaining pieces and castles. One idea is 9...Be7, aiming to play ...0-0 and ...f6. This plan is quite effective, so White usually meets 9...Be7 by 10 d5, aiming to rip open Black’s position before he can castle. This book is not the place for a detailed discussion of opening theory; suffice to say that 10 d5, although very complicated, is considered satisfactory for Black. However, Vaganian decides to adopt another plan, which also appears to give Black a comfortable game. The fact that Black has a range of satisfactory options is the main reason why the Four Pawns Attack is rarely seen in contemporary grandmaster play.\n\n9...Bg4\n\nYes, Black has voluntarily moved the same piece twice, but with a definite purpose in mind. The elimination of the f3-knight will weaken White’s defence of d4, and after ...Qd7 and ...0-0-0 White may have real trouble defending it.\n\n10 Be2\n\n10 Qd2 is another idea, intending to defend the d4-pawn by 0-0-0. One possible line is 10...Qd7 (10...Bb4!? 11 a3 Be7 is interesting; after White plays 0-0-0, the reply ...Na5 will not only attack c4, but also threaten a fork at b3) 11 Be2 0-0-0 12 0-0-0 Na5, when White can no longer maintain his pawn-centre intact and must attempt to escape tactically by 13 Bg5, with unclear complications.\n\n10...Bxf3\n\nThanks to the pressure against c4, White has to recapture with the pawn, which breaks up his pawns and exposes his king. 10...Qd7 11 Qd2 would transpose to the previous note.\n\n11 gxf3\n\n11...Qd7!?\n\nThis move appears slightly odd in conjunction with the exchange on f3, although in view of its success in this game it is hard to criticize it. Black normally prefers 11...Qh4+ 12 Bf2 Qf4 13 c5 Nd7 14 Bb5 Be7, a theoretical line usually given the verdict ‘unclear’. Indeed, the motivation for exchanging on f3 is precisely with the idea of checking on h4. The text-move leads to positions similar to those arising in the note to White’s 10th move, but where Black has voluntarily exchanged on f3 (i.e. without being forced to by White playing h3).\n\n12 f4?!\n\nWhite seeks to exploit the early exchange on f3 by reinforcing the e5-pawn, and thereby setting up a possible thrust d4-d5. However, this plan is too ambitious given that White’s king is still in the centre and his development is rather poor. The result is that he soon ends up in trouble.\n\n12 Qd2, followed by 0-0-0, is better. Then White’s king is relatively safe and he has reinforced d4. In that case the position would be roughly equal.\n\n12...Rd8!\n\nVan der Wiel may well have overlooked this unexpected move. At first sight 12...0-0-0 seems more natural, but this allows White to play 13 c5! Nd5 14 Nxd5 Qxd5 15 Bf3 Qd7 16 d5, when he has achieved his central breakthrough. Black cannot play 16...exd5 because of the pin 17 Bg4, while otherwise White plays d6, driving a massive wedge into Black’s position and holding up the development of Black’s kingside. By playing ...Rd8 rather than ...0-0-0, Vaganian cunningly side-steps the pin Bg4, and now this line, on which White had been pinning his hopes, no longer works. This is an interesting example of how, when making chess decisions, the specific should always override the general. In principle, Black would rather castle than not, but when concrete analysis shows the latter to be superior, Vaganian shows no hesitation in abandoning the general principles.\n\n13 d5\n\nThe attack on the d4-pawn is not easy to meet. After 13 c5 Nd5 14 Nxd5 Qxd5 15 Bf3 Qd7 White has nothing better than 16 Rc1 (16 Rg1 Nxd4 17 Bxd4 Qxd4 18 Qxd4 Rxd4 19 Bxb7 Bxc5 picks up a pawn) 16...Nxd4 17 Bxb7 Qb5 18 Bxd4 Qxb7 19 Qa4+ c6 20 0-0 Be7. This position is very unpleasant for White. His bishop is bad, and after Black plays ...0-0, ...Rd5 and ...Rfd8 White will face increasing problems along the d-file.\n\nVan der Wiel plays the only alternative, namely to lunge forwards with the d-pawn. If a broad pawn-centre starts to come under intolerable pressure, a critical moment often arises when the only alternative to simply losing the pawns is to use them as a battering-ram to open up the enemy position. Whether this succeeds obviously depends on specific features of the position, but here one can say straight away that it doesn’t look good for White – his rooks are not yet in play and his king is exposed.\n\n13...Bb4!\n\nThis is stronger than 13...exd5 14 cxd5 (14 Bg4 Qe7 15 cxd5 is tempting, but 15...Qb4! is awkward for White) 14...Bb4 (14...Nxd5?! 15 Bg4 forces Black into a dubious queen sacrifice by 15...Qxg4 16 Qxg4 Nxe3) 15 Kf2! Qh3 (the key tactical point is that 15...Bxc3 16 dxc6 Qxc6 17 Qb3 threatens both the bishop and Bb5, and so wins a piece) 16 Qb3 Bxc3 17 dxc6 with a very unclear position.\n\n14 Bxb6?\n\nIn this critical position White makes a serious error. The alternatives were:\n\n1) 14 dxc6? Qxc6 attacks both d1 and h1, winning for Black.\n\n2) 14 Bf3? exd5 15 Bxb6 transposes to the game.\n\n3) 14 Rg1 exd5 15 Bxb6 axb6 16 cxd5 Qh3! is very good for Black after 17 Rxg7 Qh4+ 18 Rg3 Qxh2 or 17 Qd3 Qxh2 18 Rxg7 Qh1+ 19 Bf1 Rxd5.\n\n4) 14 Kf2! is the most resilient defence. After 14...Bxc3 (14...exd5?! 15 cxd5 transposes to the previous note) 15 dxc6 Qxc6 16 Qg1! (here 16 Qb3 doesn’t work, because there is no threat of Bb5; the move Qg1 is the reason why 14 Kf2! is better than 14 0-0 – another example of the specific overriding the general) 16...Bd4 17 Qxg7 Rf8 Black has some advantage because White’s king is the more exposed, but the battle is far from over.\n\nThe text-move is wrong since White’s dark-squared bishop is a key defensive piece. Without it, the dark squares in White’s position are horribly weak. It is true that the elimination of the b6-knight means that White can maintain his wobbly pawn-centre a bit longer, but the new weaknesses enable Black to exploit White’s problems in another way. The advancing pawns have left a huge vacuum behind them; with the disappearance of the last remnants of White’s dark-square control, Black’s pieces (in particular his queen) can funnel in through the gaping fissures.\n\n14...axb6\n\n15 Bf3\n\nNecessary if White is to avoid losing the d5-pawn. 15 Rg1 exd5 transposes into line ‘3’ of the preceding note.\n\n15...exd5\n\nNow this exchange serves a useful purpose – it allows Black’s queen to penetrate.\n\n16 cxd5\n\n16 Bxd5 Qh3 17 Qf3 Qxf3 18 Bxf3 Rd4 is no improvement, as White will lose at least one pawn.\n\n16...Qh3\n\nWhite is struggling to meet the immediate threat 17...Qh4+.\n\n17 Ke2\n\nThe only defence.\n\n17...0-0\n\nRubbing salt in the wound. White’s king is now floundering helplessly in the middle of the board, while Black’s is perfectly safe. The idea is ...Rfe8, when a piece sacrifice on e5 would be just around the corner.\n\n18 Qd3\n\nAfter 18 Nb5 (18 Ne4 Bc5!, followed by ...Nd4+, wins for Black) 18...Rfe8! (18...Qh4 19 Qc1 Bc5 is also winning) 19 Qb3 the sacrifice is deadly: 19...Nxe5 20 fxe5 Rxe5+ 21 Kd1 Rde8 (threatening 22...Re3) 22 Nd4 Bc5 and everything collapses.\n\n18...Ne7?!\n\nBlack is winning even after this, but it would have been simpler to put White out of his misery by 18...Qh4 19 Qe4 Bc5 20 Raf1 f5! 21 Qa4 Nd4+, etc.\n\n19 Qc4?!\n\nNow Black is once again comfortably winning. 19 Rad1 is a tougher defence, when Black should continue 19...Qh4 20 Qe4 Bxc3 (20...Bc5 21 Rdf1 Ng6 22 f5 is less clear) 21 bxc3 Ng6 22 Rd4 c5! 23 dxc6 Rxd4 24 cxd4 bxc6 25 f5 Nf4+ 26 Kd1 Rd8 and White’s exposed king must succumb.\n\n19...Bxc3\n\n20 bxc3\n\n20...b5!\n\nVaganian finishes with great energy. He only needs to open the d-file to complete the encirclement of the white king.\n\n21 Qxb5\n\nOr 21 Qd4 Ng6 22 a4 (22 Rag1 Ra8 and 22 Rab1 Ra8 are hopeless, because the threats of 23...Rxa2+ and 23...Ra4 cannot be met) 22...c5 23 Qe3 Qf5 and f4 falls.\n\n21...c6!\n\nThis is the point behind the previous move. Now the d5-pawn disappears and White’s king is attacked from all sides.\n\n22 dxc6\n\n22 Qxb7 Nxd5 is hopeless for White.\n\n22...bxc6\n\n23 Qc4\n\nDefending f4, but not for long.\n\n23...Ng6\n\nThreatening 23...Qh4 or 23...Qf5.\n\n24 Rag1\n\nAfter 24 Qe4 (24 Rad1 Qh4 attacks both f4 and e5) 24...Qh6 25 Ke3 Nxf4 26 Qxf4 Rd3+ 27 Ke4 Qg6+ 28 Qf5 Re3+ White loses his queen.\n\n24...Qf5\n\nThreatening both 25...Nxf4+ and 25...Qc2+.\n\n25 Rg4\n\nWhite cannot meet both threats.\n\n25...Qc2+\n\nThe queen penetrates decisively.\n\n26 Ke3\n\n26 Kf1 loses to 26...Rd1+ 27 Bxd1 Qxd1+ and 28...Qxg4.\n\n26...Qd2+\n\nThe king-hunt will not last long.\n\n27 Ke4\n\n27...Rd5 0-1\n\nA nice finish, unpinning the f7-pawn and threatening 28...f5+ 29 exf6 Re8#. 28 Be2 is the only defence, but then Black can choose between the simple 28...f5+ 29 exf6 Re8+ 30 Kf3 Qe3+ and the computer’s 28...Rc5 29 Qd3 f5+ 30 exf6 Re8+ 31 Kf3 Rxc3.\n\nThe difference between a strong and a weak pawn-centre can be very fine. When one player adopts the ambitious plan of forming a large pawn-centre, a small slip can often prove fatal. Here, Van der Wiel made the slip as early as move 12, when he played one pawn move too many and fell seriously behind in development. Had Vaganian responded in stereotyped fashion, then Van der Wiel might have got away with it, but Black produced a series of very accurate moves to put White in trouble. When White missed a chance to stay in the game at move 14, it was effectively all over. A combination of dark-squared weaknesses, a king stuck in the centre and a huge vacuum behind his over-extended pawn-centre led to a rapid collapse.\n\nThe lessons here are:\n\n1) Forming a large pawn-centre is often double-edged. If the pawn-centre can be maintained and supported by pieces then it will be strong, but there is a danger that it might collapse.\n\n2) Once you have built a large pawn-centre, you must hurry with your development; further time-wasting can be fatal.\n\n3) The exchange of a bishop for a knight may leave weaknesses on the squares that were controlled by the bishop.\n\n4) In deciding on a move, general considerations may be useful, but concrete analysis always takes precedence.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "An Over-Extended Pawn-Centre\n\nIf a player occupies the centre with pawns during the opening, he is taking on a significant responsibility. If he can maintain the pawn-centre intact, and support it adequately with pieces, then he is likely to gain the advantage. If, however, the support is inadequate, then, like any rickety construction, the pawn-centre is likely to collapse if given a good shove. The most common reason for poor piece support is lack of development. Erecting a pawn-centre consumes a certain number of tempi, which cannot also be used for developing pieces. Thus it is only natural that a large pawn-centre and a lack of development go hand-in-hand. The big question is whether the opponent has a way of exploiting the lack of development quickly, since otherwise the occupier of the centre will catch up with his development and gain the advantage. It is often extremely difficult to judge what the end result of such a contest will be. Indeed, there are whole opening systems that are based on allowing the opponent to construct a large pawn-centre; even after decades of analysis, nobody knows whether some of these systems are correct. In the following game Black adopts precisely such an opening. White duly builds up his centre, and battle is joined.\n\nJ. van der Wiel – R. Vaganian\n\nTer Apel 1993\n\nAlekhine Defence, Four Pawns Attack"
+    },
+    {
+      "ply": 1,
+      "san": "e4",
+      "text": "See Game 3 for comments on this move.",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "Nf6",
+      "text": "This is one of the most forthright defences to 1 e4 in that Black’s plan is plain from the very first move. By attacking the e-pawn, he restricts White’s options. The only two natural moves are 2 Nc3 and 2 e5. However, at the very least 2 Nc3 allows Black’s to transpose into an innocuous King’s Pawn Opening by playing 2...e5 (this opening, called the Vienna Game, usually arises after 1 e4 e5 2 Nc3 Nf6). Therefore, the only real test of Black’s first move is 2 e5. At first sight White should display no hesitation in advancing his pawn, because he not only gains space in the centre, but he also apparently gains time, since Black must move his knight again. However, the basis of Black’s idea is that in order to support the advanced pawn on e5, White will have to play further pawn moves – d4 at the very least. In this game White decides to go the whole way and plays c4 and f4 as well. This gives White a broad centre, but in the meantime he falls behind in development. As mentioned in the introduction to this game, it is very hard to tell whether the centre will prove strong or just collapse – indeed, Alekhine’s Defence has been the subject of theoretical debate for around 80 years, with no clear conclusions being reached.",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "e5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "Nd5",
+      "text": "The best square. 2...Ne4 really would be too provocative; after 3 d4 the knight is stranded on e4.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "d4",
+      "text": "Black to play\n\nWhite supports his advanced pawn, while reserving the option of chasing the knight further by c4.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "d6",
+      "text": "As always, you should not allow your opponent to erect a broad centre unchallenged. Here Black already starts to exert pressure on the e5-pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "c4",
+      "text": "White decides to push another pawn. Black again has to move his knight, so this isn’t really a loss of time by White. However, White has taken on the additional responsibility of defending the c4-pawn. The feeling today is that these further pawn advances do not benefit White a great deal, and currently the favoured strategy is for White to content himself with the two pawns he has also already advanced and concentrate on supporting those. The best way to achieve this is by 4 Nf3, followed by Be2 and 0-0.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "Nb6",
+      "text": "Exerting pressure on the c4-pawn and thereby limiting the activity of White’s light-squared bishop.",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "f4",
+      "text": "Black to play\n\nWe met John van der Wiel in Game 1 and are familiar with his direct and aggressive style. Here he adopts the most ambitious, but also one of the most risky, lines against the Alekhine Defence. The Four Pawns Attack is based on staking out a massive swathe of territory in the centre, in the hope of developing the pieces behind it by Nc3, Nf3, Be3 and so on.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "dxe5",
+      "text": "This exchange opens up the d-file for Black’s queen and prepares to exert pressure against the d4-pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "fxe5",
+      "text": "After 6 dxe5 Qxd1+ 7 Kxd1 Nc6 Black’s lead in development will become serious, as White must lose further time with his king. In any case, it makes no sense to play an aggressive line such as the Four Pawns Attack and then offer the exchange of queens.",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "Nc6",
+      "text": "White to play\n\nAttacking d4.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "Be3",
+      "text": "White makes his first piece move. Had Black not wasted some time himself, the luxury of six consecutive pawn moves would surely have been fatal for White. However, Black has spent three moves having his knight chased to b6, so White’s lag in development, while real enough, is not so serious as to cause an immediate disaster.\n\n7 Nf3 is a mistake because after 7...Bg4 8 Be3 e6 Black effectively gains a tempo over the game continuation. It is more accurate to wait until Black plays ...Bf5 before continuing Nf3, since then Black will have to spend an extra tempo if he wants to pin the knight.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "Bf5",
+      "text": "Preparing to free his last minor piece by ...e6. At this stage it is not clear whether Black will aim for kingside castling or play for quick pressure against d4 by means of ...Qd7 followed by ...0-0-0.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "Nc3",
+      "text": "White is eager to make up for his deficit in development.",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "e6",
+      "text": "The f8-bishop can be developed to e7 or b4, according to circumstances.",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "Nf3",
+      "text": "Black to play\n\nBoth sides have spent the past few moves concentrating on piece development, but now Black must decide how to step up the pressure against White’s pawns before White develops his remaining pieces and castles. One idea is 9...Be7, aiming to play ...0-0 and ...f6. This plan is quite effective, so White usually meets 9...Be7 by 10 d5, aiming to rip open Black’s position before he can castle. This book is not the place for a detailed discussion of opening theory; suffice to say that 10 d5, although very complicated, is considered satisfactory for Black. However, Vaganian decides to adopt another plan, which also appears to give Black a comfortable game. The fact that Black has a range of satisfactory options is the main reason why the Four Pawns Attack is rarely seen in contemporary grandmaster play.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "Bg4",
+      "text": "Yes, Black has voluntarily moved the same piece twice, but with a definite purpose in mind. The elimination of the f3-knight will weaken White’s defence of d4, and after ...Qd7 and ...0-0-0 White may have real trouble defending it.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "Be2",
+      "text": "10 Qd2 is another idea, intending to defend the d4-pawn by 0-0-0. One possible line is 10...Qd7 (10...Bb4!? 11 a3 Be7 is interesting; after White plays 0-0-0, the reply ...Na5 will not only attack c4, but also threaten a fork at b3) 11 Be2 0-0-0 12 0-0-0 Na5, when White can no longer maintain his pawn-centre intact and must attempt to escape tactically by 13 Bg5, with unclear complications.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "Bxf3",
+      "text": "Thanks to the pressure against c4, White has to recapture with the pawn, which breaks up his pawns and exposes his king. 10...Qd7 11 Qd2 would transpose to the previous note.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "gxf3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "Qd7",
+      "text": "This move appears slightly odd in conjunction with the exchange on f3, although in view of its success in this game it is hard to criticize it. Black normally prefers 11...Qh4+ 12 Bf2 Qf4 13 c5 Nd7 14 Bb5 Be7, a theoretical line usually given the verdict ‘unclear’. Indeed, the motivation for exchanging on f3 is precisely with the idea of checking on h4. The text-move leads to positions similar to those arising in the note to White’s 10th move, but where Black has voluntarily exchanged on f3 (i.e. without being forced to by White playing h3).",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "f4",
+      "text": "White seeks to exploit the early exchange on f3 by reinforcing the e5-pawn, and thereby setting up a possible thrust d4-d5. However, this plan is too ambitious given that White’s king is still in the centre and his development is rather poor. The result is that he soon ends up in trouble.\n\n12 Qd2, followed by 0-0-0, is better. Then White’s king is relatively safe and he has reinforced d4. In that case the position would be roughly equal.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "Rd8",
+      "text": "Van der Wiel may well have overlooked this unexpected move. At first sight 12...0-0-0 seems more natural, but this allows White to play 13 c5! Nd5 14 Nxd5 Qxd5 15 Bf3 Qd7 16 d5, when he has achieved his central breakthrough. Black cannot play 16...exd5 because of the pin 17 Bg4, while otherwise White plays d6, driving a massive wedge into Black’s position and holding up the development of Black’s kingside. By playing ...Rd8 rather than ...0-0-0, Vaganian cunningly side-steps the pin Bg4, and now this line, on which White had been pinning his hopes, no longer works. This is an interesting example of how, when making chess decisions, the specific should always override the general. In principle, Black would rather castle than not, but when concrete analysis shows the latter to be superior, Vaganian shows no hesitation in abandoning the general principles.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "d5",
+      "text": "The attack on the d4-pawn is not easy to meet. After 13 c5 Nd5 14 Nxd5 Qxd5 15 Bf3 Qd7 White has nothing better than 16 Rc1 (16 Rg1 Nxd4 17 Bxd4 Qxd4 18 Qxd4 Rxd4 19 Bxb7 Bxc5 picks up a pawn) 16...Nxd4 17 Bxb7 Qb5 18 Bxd4 Qxb7 19 Qa4+ c6 20 0-0 Be7. This position is very unpleasant for White. His bishop is bad, and after Black plays ...0-0, ...Rd5 and ...Rfd8 White will face increasing problems along the d-file.\n\nVan der Wiel plays the only alternative, namely to lunge forwards with the d-pawn. If a broad pawn-centre starts to come under intolerable pressure, a critical moment often arises when the only alternative to simply losing the pawns is to use them as a battering-ram to open up the enemy position. Whether this succeeds obviously depends on specific features of the position, but here one can say straight away that it doesn’t look good for White – his rooks are not yet in play and his king is exposed.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "Bb4",
+      "text": "This is stronger than 13...exd5 14 cxd5 (14 Bg4 Qe7 15 cxd5 is tempting, but 15...Qb4! is awkward for White) 14...Bb4 (14...Nxd5?! 15 Bg4 forces Black into a dubious queen sacrifice by 15...Qxg4 16 Qxg4 Nxe3) 15 Kf2! Qh3 (the key tactical point is that 15...Bxc3 16 dxc6 Qxc6 17 Qb3 threatens both the bishop and Bb5, and so wins a piece) 16 Qb3 Bxc3 17 dxc6 with a very unclear position.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Bxb6",
+      "text": "In this critical position White makes a serious error. The alternatives were:\n\n1) 14 dxc6? Qxc6 attacks both d1 and h1, winning for Black.\n\n2) 14 Bf3? exd5 15 Bxb6 transposes to the game.\n\n3) 14 Rg1 exd5 15 Bxb6 axb6 16 cxd5 Qh3! is very good for Black after 17 Rxg7 Qh4+ 18 Rg3 Qxh2 or 17 Qd3 Qxh2 18 Rxg7 Qh1+ 19 Bf1 Rxd5.\n\n4) 14 Kf2! is the most resilient defence. After 14...Bxc3 (14...exd5?! 15 cxd5 transposes to the previous note) 15 dxc6 Qxc6 16 Qg1! (here 16 Qb3 doesn’t work, because there is no threat of Bb5; the move Qg1 is the reason why 14 Kf2! is better than 14 0-0 – another example of the specific overriding the general) 16...Bd4 17 Qxg7 Rf8 Black has some advantage because White’s king is the more exposed, but the battle is far from over.\n\nThe text-move is wrong since White’s dark-squared bishop is a key defensive piece. Without it, the dark squares in White’s position are horribly weak. It is true that the elimination of the b6-knight means that White can maintain his wobbly pawn-centre a bit longer, but the new weaknesses enable Black to exploit White’s problems in another way. The advancing pawns have left a huge vacuum behind them; with the disappearance of the last remnants of White’s dark-square control, Black’s pieces (in particular his queen) can funnel in through the gaping fissures.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "axb6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Bf3",
+      "text": "Necessary if White is to avoid losing the d5-pawn. 15 Rg1 exd5 transposes into line ‘3’ of the preceding note.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "exd5",
+      "text": "Now this exchange serves a useful purpose – it allows Black’s queen to penetrate.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "cxd5",
+      "text": "16 Bxd5 Qh3 17 Qf3 Qxf3 18 Bxf3 Rd4 is no improvement, as White will lose at least one pawn.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Qh3",
+      "text": "White is struggling to meet the immediate threat 17...Qh4+.",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Ke2",
+      "text": "The only defence.",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "O-O",
+      "text": "Rubbing salt in the wound. White’s king is now floundering helplessly in the middle of the board, while Black’s is perfectly safe. The idea is ...Rfe8, when a piece sacrifice on e5 would be just around the corner.",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "Qd3",
+      "text": "After 18 Nb5 (18 Ne4 Bc5!, followed by ...Nd4+, wins for Black) 18...Rfe8! (18...Qh4 19 Qc1 Bc5 is also winning) 19 Qb3 the sacrifice is deadly: 19...Nxe5 20 fxe5 Rxe5+ 21 Kd1 Rde8 (threatening 22...Re3) 22 Nd4 Bc5 and everything collapses.",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "Ne7",
+      "text": "Black is winning even after this, but it would have been simpler to put White out of his misery by 18...Qh4 19 Qe4 Bc5 20 Raf1 f5! 21 Qa4 Nd4+, etc.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "Qc4",
+      "text": "Now Black is once again comfortably winning. 19 Rad1 is a tougher defence, when Black should continue 19...Qh4 20 Qe4 Bxc3 (20...Bc5 21 Rdf1 Ng6 22 f5 is less clear) 21 bxc3 Ng6 22 Rd4 c5! 23 dxc6 Rxd4 24 cxd4 bxc6 25 f5 Nf4+ 26 Kd1 Rd8 and White’s exposed king must succumb.",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "Bxc3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "bxc3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "b5",
+      "text": "Vaganian finishes with great energy. He only needs to open the d-file to complete the encirclement of the white king.",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "Qxb5",
+      "text": "Or 21 Qd4 Ng6 22 a4 (22 Rag1 Ra8 and 22 Rab1 Ra8 are hopeless, because the threats of 23...Rxa2+ and 23...Ra4 cannot be met) 22...c5 23 Qe3 Qf5 and f4 falls.",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "c6",
+      "text": "White to play\n\nThis is the point behind the previous move. Now the d5-pawn disappears and White’s king is attacked from all sides.",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "dxc6",
+      "text": "22 Qxb7 Nxd5 is hopeless for White.",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "bxc6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "Qc4",
+      "text": "Defending f4, but not for long.",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "Ng6",
+      "text": "Threatening 23...Qh4 or 23...Qf5.",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "Rag1",
+      "text": "After 24 Qe4 (24 Rad1 Qh4 attacks both f4 and e5) 24...Qh6 25 Ke3 Nxf4 26 Qxf4 Rd3+ 27 Ke4 Qg6+ 28 Qf5 Re3+ White loses his queen.",
+      "isCritical": true
+    },
+    {
+      "ply": 48,
+      "san": "Qf5",
+      "text": "Threatening both 25...Nxf4+ and 25...Qc2+.",
+      "isCritical": true
+    },
+    {
+      "ply": 49,
+      "san": "Rg4",
+      "text": "White cannot meet both threats.",
+      "isCritical": true
+    },
+    {
+      "ply": 50,
+      "san": "Qc2+",
+      "text": "The queen penetrates decisively.",
+      "isCritical": true
+    },
+    {
+      "ply": 51,
+      "san": "Ke3",
+      "text": "26 Kf1 loses to 26...Rd1+ 27 Bxd1 Qxd1+ and 28...Qxg4.",
+      "isCritical": true
+    },
+    {
+      "ply": 52,
+      "san": "Qd2+",
+      "text": "The king-hunt will not last long.",
+      "isCritical": true
+    },
+    {
+      "ply": 53,
+      "san": "Ke4",
+      "text": "Black to play\n\n27...Rd5 0-1\n\nA nice finish, unpinning the f7-pawn and threatening 28...f5+ 29 exf6 Re8#. 28 Be2 is the only defence, but then Black can choose between the simple 28...f5+ 29 exf6 Re8+ 30 Kf3 Qe3+ and the computer’s 28...Rc5 29 Qd3 f5+ 30 exf6 Re8+ 31 Kf3 Rxc3.\n\nThe difference between a strong and a weak pawn-centre can be very fine. When one player adopts the ambitious plan of forming a large pawn-centre, a small slip can often prove fatal. Here, Van der Wiel made the slip as early as move 12, when he played one pawn move too many and fell seriously behind in development. Had Vaganian responded in stereotyped fashion, then Van der Wiel might have got away with it, but Black produced a series of very accurate moves to put White in trouble. When White missed a chance to stay in the game at move 14, it was effectively all over. A combination of dark-squared weaknesses, a king stuck in the centre and a huge vacuum behind his over-extended pawn-centre led to a rapid collapse.\n\nThe lessons here are:\n\n1) Forming a large pawn-centre is often double-edged. If the pawn-centre can be maintained and supported by pieces then it will be strong, but there is a danger that it might collapse.\n\n2) Once you have built a large pawn-centre, you must hurry with your development; further time-wasting can be fatal.\n\n3) The exchange of a bishop for a knight may leave weaknesses on the squares that were controlled by the bishop.\n\n4) In deciding on a move, general considerations may be useful, but concrete analysis always takes precedence.",
+      "isCritical": true
+    },
+    {
+      "ply": 54,
+      "san": "Rd5",
+      "text": "",
+      "isCritical": true
+    }
+  ]
+}

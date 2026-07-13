@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import type { LessonSummary } from "../types";
+import type { BookId, BookMeta, LessonIndex, LessonSummary } from "../types";
 import { OpeningLabel } from "../components/OpeningLabel";
 import { GameResultBadge, gameWinner, resultWinnerClass } from "../components/GameResultBadge";
 import { usePerformanceElos } from "../hooks/usePerformanceElos";
@@ -8,29 +8,13 @@ import { aggregatePlayerElos, formatPlayerWithElo } from "../lib/playerStats";
 import { getGameProgress, loadProgress } from "../lib/progress";
 
 type Props = {
+  selectedBook: BookId | null;
+  onSelectBook: (bookId: BookId | null) => void;
   onOpenLesson: (lesson: LessonSummary) => void;
 };
 
-const SECTIONS: { title: string; range: string; blurb: string }[] = [
-  {
-    title: "The Kingside Attack",
-    range: "1–16",
-    blurb: "e4 openings and kingside attacks",
-  },
-  {
-    title: "The Queen\u2019s Pawn Opening",
-    range: "17–23",
-    blurb: "d4 structures and queenside play",
-  },
-  {
-    title: "The Chess Master Explains his Ideas",
-    range: "24–33",
-    blurb: "masterclass commentary",
-  },
-];
-
-function sectionMeta(title: string) {
-  return SECTIONS.find((s) => s.title === title);
+function sectionMeta(sections: BookMeta["sections"], title: string) {
+  return sections?.find((s) => s.title === title);
 }
 
 function progressLabel(pct: number): string {
@@ -39,18 +23,138 @@ function progressLabel(pct: number): string {
   return "Not started";
 }
 
-export function Home({ onOpenLesson }: Props) {
-  const [lessons, setLessons] = useState<LessonSummary[]>([]);
-  const [error, setError] = useState<string | null>(null);
+function bookProgress(lessons: LessonSummary[]) {
+  const completedCount = lessons.filter((l) => getGameProgress(l.id) >= 100).length;
+  const inProgressCount = lessons.filter((l) => {
+    const pct = getGameProgress(l.id);
+    return pct > 0 && pct < 100;
+  }).length;
+  return { completedCount, inProgressCount };
+}
+
+function LibraryView({
+  index,
+  onSelectBook,
+  onOpenLesson,
+}: {
+  index: LessonIndex;
+  onSelectBook: (bookId: BookId) => void;
+  onOpenLesson: (lesson: LessonSummary) => void;
+}) {
+  const progress = loadProgress();
+  const totalGames = index.books.reduce((sum, book) => sum + book.gameCount, 0);
+  const continueLesson = progress.lastLessonId
+    ? index.books
+        .flatMap((book) => index[book.id] ?? [])
+        .find((lesson) => lesson.id === progress.lastLessonId)
+    : undefined;
+  const continuePct = continueLesson ? getGameProgress(continueLesson.id) : 0;
+
+  return (
+    <div className="book-library">
+      <header className="library-hero">
+        <p className="eyebrow">Move-by-Move Coach</p>
+        <h1>Your library</h1>
+        <p className="library-hero-sub">
+          {index.books.length} books · {totalGames} annotated games with synced boards, author commentary,
+          and optional Stockfish analysis.
+        </p>
+      </header>
+
+      {continueLesson ? (
+        <button
+          type="button"
+          className="library-resume"
+          onClick={() => onOpenLesson(continueLesson)}
+        >
+          <span className="library-resume-label">Continue where you left off</span>
+          <strong>
+            Game {continueLesson.gameNum}: {continueLesson.players.white} vs {continueLesson.players.black}
+          </strong>
+          <span className="library-resume-meta">
+            {continueLesson.opening ?? continueLesson.section}
+            {continuePct > 0 && continuePct < 100 ? ` · ${continuePct}%` : continuePct >= 100 ? " · complete" : ""}
+          </span>
+          <span className="library-resume-cta">Resume →</span>
+        </button>
+      ) : null}
+
+      <div className="book-card-grid" role="list">
+        {index.books.map((book) => {
+          const lessons = index[book.id] ?? [];
+          const { completedCount, inProgressCount } = bookProgress(lessons);
+          const pctComplete = book.gameCount
+            ? Math.round((completedCount / book.gameCount) * 100)
+            : 0;
+          const hasProgress = completedCount > 0 || inProgressCount > 0;
+          const isResumeBook = progress.lastLessonId?.startsWith(`${book.id}-`);
+          const sectionCount = book.sections?.length ?? 0;
+
+          return (
+            <button
+              key={book.id}
+              type="button"
+              className={`book-card book-card-${book.id}${isResumeBook ? " is-resume" : ""}${hasProgress ? " has-progress" : ""}`}
+              onClick={() => onSelectBook(book.id)}
+              role="listitem"
+            >
+              <div className="book-card-top">
+                <p className="book-card-author">
+                  {book.author}
+                  {book.publisher ? <span className="book-card-publisher"> · {book.publisher}</span> : null}
+                </p>
+                {isResumeBook ? <span className="book-card-pill">In progress</span> : null}
+              </div>
+              <h2 className="book-card-title">{book.title}</h2>
+              <p className="book-card-stats">
+                {book.gameCount} games
+                {sectionCount > 0 ? ` · ${sectionCount} sections` : ""}
+              </p>
+              {book.sections && book.sections.length > 0 ? (
+                <ul className="book-card-sections" aria-label="Book sections">
+                  {book.sections.slice(0, 3).map((section) => (
+                    <li key={section.title}>{section.title}</li>
+                  ))}
+                  {book.sections.length > 3 ? (
+                    <li className="book-card-sections-more">+{book.sections.length - 3} more</li>
+                  ) : null}
+                </ul>
+              ) : null}
+              <div className="book-card-footer">
+                <div className="book-card-progress-wrap">
+                  <div className="book-card-progress-bar" aria-hidden="true">
+                    <span style={{ width: `${pctComplete}%` }} />
+                  </div>
+                  <span className="book-card-progress-label">
+                    {completedCount} complete
+                    {inProgressCount > 0 ? ` · ${inProgressCount} started` : ""}
+                  </span>
+                </div>
+                <span className="book-card-open">Browse games →</span>
+              </div>
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+function BookHomeView({
+  book,
+  lessons,
+  onBack,
+  onOpenLesson,
+}: {
+  book: BookMeta;
+  lessons: LessonSummary[];
+  onBack: () => void;
+  onOpenLesson: (lesson: LessonSummary) => void;
+}) {
   const [query, setQuery] = useState("");
   const progress = loadProgress();
   const { performanceByLesson, loading: elosLoading } = usePerformanceElos();
-
-  useEffect(() => {
-    loadIndex()
-      .then((idx) => setLessons(idx.chernov))
-      .catch((e: Error) => setError(e.message));
-  }, []);
+  const sections = book.sections ?? [];
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -73,10 +177,13 @@ export function Home({ onOpenLesson }: Props) {
       list.push(lesson);
       map.set(lesson.section, list);
     }
-    return SECTIONS
-      .map((s) => [s.title, map.get(s.title) ?? []] as const)
+    const orderedSections = sections.length
+      ? sections.map((s) => s.title)
+      : [...map.keys()];
+    return orderedSections
+      .map((title) => [title, map.get(title) ?? []] as const)
       .filter(([, items]) => items.length > 0);
-  }, [filtered]);
+  }, [filtered, sections]);
 
   const openingCount = useMemo(
     () => new Set(lessons.map((l) => l.opening).filter(Boolean)).size,
@@ -92,29 +199,25 @@ export function Home({ onOpenLesson }: Props) {
     return aggregatePlayerElos(rated);
   }, [lessons, performanceByLesson]);
 
-  const ratedGames = performanceByLesson.size;
+  const ratedGames = lessons.filter((l) => performanceByLesson.has(l.id)).length;
   const showEloColumn = elosLoading || ratedGames > 0;
 
   const continueLesson = lessons.find((l) => l.id === progress.lastLessonId);
   const continuePct = continueLesson ? getGameProgress(continueLesson.id) : 0;
-  const completedCount = lessons.filter((l) => getGameProgress(l.id) >= 100).length;
-  const inProgressCount = lessons.filter((l) => {
-    const pct = getGameProgress(l.id);
-    return pct > 0 && pct < 100;
-  }).length;
+  const { completedCount, inProgressCount } = bookProgress(lessons);
   const searchActive = query.trim().length > 0;
-
-  if (error) return <p className="error">{error}</p>;
-  if (!lessons.length) return <div className="loading">Loading library…</div>;
 
   return (
     <div className="home">
       <header className="home-hero">
         <div className="home-hero-copy">
-          <p className="eyebrow">Irving Chernev · Batsford</p>
-          <h1>Logical Chess<br />Move by Move</h1>
+          <button type="button" className="back-link library-back" onClick={onBack}>
+            ← Library
+          </button>
+          <p className="eyebrow">{book.author}{book.publisher ? ` · ${book.publisher}` : ""}</p>
+          <h1>{book.title}</h1>
           <p className="hero-sub">
-            Study all 33 games with Chernev&apos;s commentary and a synced board.
+            Study all {book.gameCount} games with {book.author.split(" ").pop()}&apos;s commentary and a synced board.
           </p>
         </div>
 
@@ -197,7 +300,7 @@ export function Home({ onOpenLesson }: Props) {
           <p className="empty-search">No games match “{query.trim()}”.</p>
         ) : (
           grouped.map(([section, items]) => {
-            const meta = sectionMeta(section);
+            const meta = sectionMeta(sections, section);
             return (
               <section key={section} className="section-block">
                 <div className="section-head">
@@ -292,5 +395,42 @@ export function Home({ onOpenLesson }: Props) {
         )}
       </section>
     </div>
+  );
+}
+
+export function Home({ selectedBook, onSelectBook, onOpenLesson }: Props) {
+  const [index, setIndex] = useState<LessonIndex | null>(null);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    loadIndex()
+      .then(setIndex)
+      .catch((e: Error) => setError(e.message));
+  }, []);
+
+  if (error) return <p className="error">{error}</p>;
+  if (!index) return <div className="loading">Loading library…</div>;
+
+  if (!selectedBook) {
+    return (
+      <LibraryView
+        index={index}
+        onSelectBook={onSelectBook}
+        onOpenLesson={onOpenLesson}
+      />
+    );
+  }
+
+  const book = index.books.find((b) => b.id === selectedBook);
+  const lessons = index[selectedBook] ?? [];
+  if (!book) return <p className="error">Book not found.</p>;
+
+  return (
+    <BookHomeView
+      book={book}
+      lessons={lessons}
+      onBack={() => onSelectBook(null)}
+      onOpenLesson={onOpenLesson}
+    />
   );
 }

@@ -1,0 +1,487 @@
+{
+  "id": "nunn-010",
+  "book": "nunn",
+  "gameNum": 10,
+  "title": "Game 10: J. Nunn vs C. Ward",
+  "section": "Attacking Play",
+  "players": {
+    "white": "J. Nunn",
+    "black": "C. Ward"
+  },
+  "event": "British League (4NCL) 1997/8",
+  "opening": "Sicilian Defence, Dragon Variation",
+  "eco": "B78",
+  "pgnPath": "data/pgn/nunn/10.pgn",
+  "result": "1-0",
+  "moveCount": 77,
+  "annotatedMoves": 76,
+  "fullText": "Opposite-Side Castling\n\nIt is often hard to decide whether to attack with pieces or pawns, since each method has its advantages and disadvantages. A piece attack can often be mounted quickly, but unless there are already weaknesses in the enemy castled position, it may be hard to break through with pieces alone. A pawn attack, on the other hand, is much slower, but once it does arrive it is often irresistible. The advancing pawns tear holes in the enemy castled position, which the attacker’s pieces can then exploit. Another point is that while the pawns are unmoved, it is hard for the attacker to bring his rooks to bear – this may require a manoeuvre such Re3-g3. A pawn attack naturally creates space for the rooks to operate effectively from the first rank.\n\nThe relative position of the kings is also important. When the kings are castled on the same side, pawn attacks are less likely, as these expose the attacker’s own king. Only if the centre is blocked, or if the attacker has a very solid central structure, can he contemplate a pawn attack. On the other hand, opposite-side castling leads to pawn attacks with much greater frequency. The main question then is how many pawns to advance. Too many, and the attack will proceed at a snail’s pace. The basic rule is that the attacker should advance just enough pawns to create a decisive weakening in the opposing castled position – any more are redundant. Very often, just a single pawn is sufficient. In the following game, two pawns are enough to do the job, as they converge on the g6-square.\n\nJ. Nunn – C. Ward\n\nBritish League (4NCL) 1997/8\n\nSicilian Defence, Dragon Variation\n\n1 e4\n\n1...c5\n\n2 Nf3\n\nFor comments on the moves up to here, see Game 8.\n\n2...d6\n\nThis move is an equally good alternative to 2...Nc6, as played in Games 8 and 9. Black intends to play ...Nf6, attacking the e4-pawn, but first prevents the reply e5.\n\n3 d4\n\nJust as in Games 8 and 9, White is prepared to exchange off a central pawn to speed up the development of his minor pieces.\n\n3...cxd4\n\nBlack is also satisfied with this exchange, which gives him a majority of pawns in the centre and a half-open c-file.\n\n4 Nxd4\n\n4...Nf6\n\nA natural developing move, which also attacks e4.\n\n5 Nc3\n\nThe most flexible way to defend e4.\n\n5...g6\n\nThis move introduces the Dragon Variation, one of the most controversial opening systems. The basic idea is logical enough: Black wants to develop his bishop actively on the long diagonal, rather than on e7, as occurs in most other lines of the Sicilian. White can counter the Dragon in numerous ways, but the sharpest and, according to theory, best plan is to aim for 0-0-0 and a direct attack against Black’s king. This leads to very double-edged play, with White’s kingside attack and Black’s queenside counterattack racing each other to strike first. Dragon players tend to be fanatical in their support for the opening. Playing the Dragon is obviously highly addictive, because many Dragon players who start out as occasional users prove unable to throw off the habit and get stuck with the opening for the rest of their lives. The cause of the Dragon was advanced when Kasparov used it in his PCA World Championship match against Anand in 1995, but despite this endorsement it has only caught on amongst a minority of leading grandmasters. Either they regard it as too risky, or perhaps they fear becoming wedded to a particular opening.\n\n6 Be3\n\nIf White wants to launch an attack against the black king, then 0-0-0 will be essential, so White immediately starts to develop his queenside pieces. His basic attacking plan will contain two key elements:\n\n1) the advance of the h-pawn to soften up Black’s kingside and bring the h1-rook into the attack from its initial square;\n\n2) playing Bh6 to eliminate the g7-bishop, which is both the main defender of Black’s kingside and a very useful piece for supporting Black’s queenside counterattack. This method of attacking a kingside fianchettoed position is not restricted to the Dragon, and it often occurs in the Pirc Defence (1 e4 d6) and certain lines of the King’s Indian Defence (especially the Sämisch – see Game 14).\n\n6...Bg7\n\nThe Dragon bishop settles onto its favourite diagonal. Although at the moment many pieces lie between g7 and the white queenside, innumerable games have been decided by the power of the Dragon bishop, and all players facing the Dragon have learnt to treat it with respect. The ideal solution, from White’s point of view, is to exchange the bishop with Bh6, but this may not be so easy to achieve under favourable circumstances. In the Dragon, the dark squares hold a particular importance, and both sides will be keen to avoid the exchange of their dark-squared bishop (except possibly in return for the opposing dark-squared bishop).\n\n7 f3\n\nThis is a necessary precaution. If White plays 7 Qd2, then Black can harass White’s dark-squared bishop by 7...Ng4. Note that Black could not have played 6...Ng4 because the reply 7 Bb5+ would have cost Black material. It is interesting to observe that in the lines of the Pirc and King’s Indian embodying the same strategy, White also feels it necessary to play the precautionary f3. In all cases the purpose is not only to secure the dark-squared bishop, but also to solidify the centre in preparation for a flank attack.\n\n7...Nc6\n\nThe most natural square for the knight, since the attack on d4 will make it harder for White to arrange Bh6.\n\n8 Qd2\n\nWhite prepares both queenside castling and an eventual Bh6.\n\n8...0-0\n\nEven though Black is well aware of White’s intentions, there is no better place for his king.\n\n9 Bc4\n\nThis move might appear inconsistent. Why does not White just get on with the job and play 9 0-0-0 without further ado? The answer is that Black is then able to steer the game into new channels by playing 9...d5. It is not clear whether White has any advantage in that case, but it is clear that White has been deflected from the plan of a direct attack down the h-file. Therefore, White often prefers to play the text-move, which rules out ...d5. Another plus point is that the bishop is aimed at Black’s kingside. There are two main negative points. The first is that White has to spend two tempi moving his bishop, since Bb3 will be inevitable sooner or later. The second is that the bishop may itself become vulnerable to attack, for example if Black manages to push his a- and b-pawns. The pros and cons more or less balance each other, which explains why both 9 0-0-0 and 9 Bc4 are often seen in practice.\n\n9...Bd7\n\nThe half-open c-file will be one of Black’s main avenues of attack, so it makes sense to clear c8 for one of the rooks.\n\n10 0-0-0\n\nOpposite-side castling usually leads to sharp play. When the kings are castled on the same side, an attack involving pawns entails some risk, as the pawns that are being advanced are those which are defending one’s own king. There is no such inhibiting factor when the kings are on opposite sides of the board, and it is quite normal for both players to launch an attack as soon as possible. Such a situation is like a race; whichever player manages to strike a real blow first is likely to win. There are two additional points to make. Winning material is of less significance in such situations than it normally is. It is no good gaining material if the result is the collapse of one’s attack, leaving the opponent free to go for mate. Secondly, having to pull one’s pieces back from the attack for defensive purposes is often equivalent to resignation, for then the opponent has all the time he needs to break through. This does not mean that no defensive moves at all should be made; for example, it is clearly worthwhile to make a defensive move if it delays the enemy attack by two moves. It does mean, however, that each defensive move must be carefully considered to see if it is worth the tempo it consumes.\n\n10...Qa5\n\nThis slightly unusual move is a lifelong favourite of Chris Ward. The idea is to move the f8-rook to c8, which has the advantage that the other rook can also join in the attack, for example by supporting ...b5 with ...Rab8. A second advantage is that Black can usually retain his key ‘Dragon’ bishop by answering Bh6 with ...Bh8. The disadvantages are twofold: first of all, the f8-rook is sometimes useful for defensive purposes and moving it away from the kingside leaves that part of the board looking a little short of defenders. Secondly, it isn’t really clear that a5 is a good square for the queen, since in some lines it is vulnerable to attack. We shall see how all these factors play a part in the game.\n\nQuite honestly, I regard this system as somewhat dubious for Black – in fact, it is quite hard to put one’s finger on an error by Black in this game, other than his choice of opening variation.\n\nThe most common line is 10...Ne5 11 Bb3 Rc8.\n\n11 h4\n\nWhite wastes no time in starting his attack.\n\n11...Ne5\n\nThis is the normal square for the knight in this variation. In some cases Black will eventually play ...Nc4 to force the exchange of White’s light-squared bishop, while in other lines the knight simply stays on e5, defending some squares on the kingside while retaining the option of helping on the queenside.\n\n12 Bb3\n\n12...Rfc8\n\nBlack follows the plan initiated at move 10.\n\n13 g4\n\nWhite has quite a wide range of moves here. Perhaps the most direct is 13 h5. It is quite normal in the Dragon for White to offer his h-pawn, since in taking it Black not only loses time with his knight, but also opens up the h-file. After 13...Nxh5, it is tempting to play 14 Bh6 since at this moment Black cannot avoid the exchange of bishops by 14...Bh8 due to 15 Rxh5 gxh5 16 Qg5+, when White wins Black’s queen. However, Black has a stronger reply in the surprising move 14...Nd3+ (14...Bxh6 is also playable), which leads to a satisfactory position for Black after 15 Kb1 Nxb2 16 Kxb2 Bxh6 17 Qxh6 Rxc3.\n\nTherefore, the most popular move for White here is 13 Kb1, again aiming to play h5, but having moved White’s king out of harm’s way first. This move raises the interesting question as to when White should play a consolidating move such as Kb1. One should certainly give far more thought to such moves in opposite-side castling situations than one would to, say, Kh1 when both kings are on the kingside. When the kings are on opposite sides every tempo is vital, and so a move such as Kb1 should not be played without a concrete reason. A typical reason would be to anticipate the exchange sacrifice ...Rxc3, bxc3 Qxc3, when Kb1 is normally forced in any case because of the threatened check on a1. If White is going to have to play Kb1 anyway, it might be less committal to get it out of the way immediately. In the current position there is certainly some point to 13 Kb1; we have already seen one line with an unexpected check to the king on c1, and if White plays Bh6 at some stage, Black might well reply ...Bxh6 and ...Rxc3. However, the arguments are quite finely balanced.\n\nJust before playing this game, I recalled a conversation I had with Chris Ward a few months earlier. We were having breakfast together the day after one of our battles in the Dragon (on that occasion, I had played 13 h5). Chris remarked that it was surprising 13 Kb1 was so popular, as 13 g4 looked like a more useful move. On thinking about this, it seemed a valid point, so I decided to give his own recommendation a try! The move g4 aims primarily to play h5 without sacrificing a pawn, but it has some other good points: it allows the white queen to switch to h2, and in some lines it supports the piece sacrifice Nf5.\n\n13...b5\n\nThere are three possible plans here for Black. The most obvious is 13...Nc4 14 Bxc4 Rxc4, but after 15 h5 Rac8 16 Nb3 Qa6 17 hxg6 fxg6 18 e5 White has a dangerous attack, because 18...dxe5 loses a piece to 19 g5, while if the f6-knight moves White can reply 19 Qh2.\n\nAnother option is the surprising 13...Rc4!?. The lines after this move provide a good illustration of typical Dragon themes:\n\n1) 14 Bxc4 is dubious, as Black is able to break through on the dark squares: 14...Nxc4 15 Qd3 Qb4 16 Nb3 Nxe4! (a surprising sacrifice on a triply defended square) 17 fxe4 (17 Nxe4 Nxb2 18 Qd5 Qa3 gives Black a very dangerous attack in return for the rook, while 17 Qxe4 Bxc3 18 Bd4 Nxb2 19 Bxc3 Qxc3 is just bad for White) 17...Bxc3 18 Bd4 (18 Qxc3 Qxc3 19 bxc3 Nxe3 favours Black) 18...Bxd4 19 Qxd4 Bxg4 is unclear. Black has two pawns for the exchange but White still has some attacking chances.\n\n2) 14 g5! Nh5 (14...Rxd4? 15 Bxd4 Nxf3 16 Qf2! Nxd4 17 Rxd4 and the weakness of f7 is fatal for Black) 15 f4 Rxd4 (15...Nf3? 16 Nxf3 Rxc3 looks like another typical Dragon combination based on a dark-squared breakthrough; however, such combinations don’t always work: here 17 e5! causes Black’s position to collapse) 16 Qxd4 Ng4 17 e5 (17 Qd3!? is also possible) 17...Ng3 18 Rhe1 Nf5 19 Qd2 Nfxe3 20 Rxe3 Nxe3 21 Qxe3 with some advantage to White.\n\nWith the move played, Black again aims to play ...Nc4, but now with the idea of recapturing on c4 with the pawn. This will give Black a ready-made attack along the b-file. The two problems with this plan are firstly that it is a little slow and secondly that, thanks to White’s omission of Kb1, a black queen arriving on b2 may not be mate.\n\n14 h5\n\nWhite gets on with the attack.\n\n14...Nc4\n\n15 Bxc4\n\nThis is best. After 15 Qd3 Ne5 White has nothing better than to repeat moves, since playing 16 Qe2 positively invites Black to sacrifice on c3.\n\n15...bxc4\n\nNow White has two free moves before Black lines up against b2.\n\n16 Bh6\n\nA logical step. Either Black’s bishop is exchanged, or White transfers his bishop to a more active square with gain of tempo. Note that White doesn’t have to worry any more about ...Rxc3, so there is no problem about the white queen being drawn away if Black plays ...Bxh6.\n\n16...Bh8\n\nThis is forced as here Black cannot allow his defensive bishop to be exchanged; for example, 16...Rab8 17 Bxg7 Kxg7 18 hxg6 fxg6 19 Qh6+ Kg8 20 g5 Nh5 21 Rxh5 gxh5 22 g6 hxg6 23 Qxg6+ Kf8 24 Rg1 mates, or 16...Bxh6 17 Qxh6 g5 18 Nf5 with a winning position.\n\n17 Nf5\n\nWe have reached a critical moment as White is now threatening mate in one on e7.\n\n17...Re8\n\nThis is perhaps most testing, although the resulting complications favour White. The alternative is 17...Bxf5, but this also appears unsatisfactory for Black in view of 18 exf5! (18 gxf5 Rab8 19 hxg6 fxg6 20 fxg6 hxg6 21 Rdg1 Kf7 22 Qg2 Rg8 is unclear as White’s attack has been brought to a halt) 18...Rab8 19 hxg6 fxg6 (19...hxg6 20 fxg6 Qb4 21 Qe3! Qxb2+ 22 Kd2 gives White a clear advantage) 20 Qe3 (the key advantage of playing exf5 rather than gxf5 is that White is now threatening mate in one) 20...Qe5 21 Qxe5 dxe5 22 g5 Ne8 23 Nd5 and the endgame favours White.\n\n18 Qg5!\n\nBefore the game, I looked at some recent copies of Informator to see if there had been any important games with the 10...Qa5 line. My eye was caught by the postal game Pavlov-Vaskin, which had continued 18 Bg7 Bxf5 19 Bxh8 Kxh8 20 exf5 Rg8 21 Rde1 Rae8 22 hxg6 fxg6 23 Qh6 Rg7 24 fxg6 Rb8. Here White played 25 Qf4 Qb4 26 Nd1 (not 26 Rxe7? Qxb2+ 27 Kd2 Qxc3+) and won after a long, hard struggle. It didn’t take long to spot that Black is just dead lost after 25 Qh4!. This again threatens 26 Rxe7 Rxe7 27 Qxf6+, against which Black has scant defence. If Black plays 25...Qb4 as in the game, then White wins by 26 Rxe7 Qxb2+ 27 Kd2 since Black no longer has the sacrifice on c3.\n\nAt the board I was mentally rubbing my hands with glee at the thought of springing this move on Chris Ward, when I decided to check the earlier moves in this line. I immediately received a dash of cold water; after 18 Bg7, Black can simply reply 18...gxf5.\n\nBlack will then meet 19 Qg5 with 19...h6! 20 Bxh6+ Kh7, when Black is a piece up for very little. Clearly Chris had spotted this and was prepared with his own surprise. Unfortunately for him, the position is in fact bad for Black, provided White finds the correct 18th move. After the game I looked again at my Informator and spotted a little note I hadn’t noticed before, which gave 18...gxf5 as unclear after 19 Qg5 h6 or 19 gxf5 Bxg7 20 h6 Bf8, with this last move being given the ‘only move’ symbol. As already noted, the first of these lines leaves Black a piece up for almost nothing, while the second is even more ludicrous. If Black plays 20...Bh8 21 Rhg1+ Kf8 instead of 20...Bf8, then he is two pieces up for nothing. White can only create a threat by tripling on the g-file, but even if he manages this, Black just plays ...e6 and the whole attack collapses. If anybody requires a stark warning that published analysis should always be checked carefully, then this is it.\n\nLuckily for me, it didn’t take long to find the powerful text-move. The threat of Nxe7+ forces Black to move his queen, but the net effect is that White has transferred his queen to a more aggressive position with gain of tempo.\n\n18...Qb6\n\nOf course, Black puts his queen on the b-file so as continue his attack against b2 but, as noted above, ...Qxb2+ is not the end of the world for White and in many cases it can simply be ignored.\n\n19 hxg6\n\nNow the time is ripe for the Bg7 combination, but first of all White opens the h-file.\n\n19...fxg6\n\n19...hxg6 20 Bf8! is instantly decisive, so this is forced.\n\n20 Bg7!\n\nOne could not wish for a more vivid demonstration of the importance of eliminating Black’s defensive bishop. White is prepared to sacrifice a piece to get rid of it.\n\n20...Bxg7\n\n20...Rab8 21 Bxh8 Qxb2+ 22 Kd2 Kxh8 loses to 23 Rxh7+! (23 Nxe7 is also very strong; for example, 23...Rxe7 24 Qxf6+ Rg7 25 Rb1) 23...Nxh7 24 Rh1 (threatening 25 Rxh7+, amongst other things) 24...Bxf5 25 Qh6 Kg8 26 Qxh7+ Kf8 27 gxf5 with a quick mate to follow.\n\n20...Bxf5 21 Bxh8 Kxh8 22 gxf5 is also very awkward for Black; for example, 22...Rab8 23 fxg6 Qxb2+ 24 Kd2 (threatening 25 Rxh7+ Nxh7 26 Qh6) 24...Qb6 (24...Rg8 25 Qxf6+!) 25 Ke2! (stopping any annoying checks and renewing the threat) 25...Rb7 26 Nd5 with a winning attack.\n\n21 Nxg7\n\n21...Reb8\n\nBlack decides to decline the offered piece. After 21...Kxg7 22 Nd5! there is no good square for the queen:\n\n1) 22...Qa5 23 Qh6+ Kf7 24 Nxf6 Kxf6 (24...exf6 25 Rxd6 Be6 26 Qxh7+ Kf8 27 Rxe6 Rxe6 28 Qb7! and White takes the a8-rook with check) 25 Rd5 Qb6 26 g5+ and White wins.\n\n2) 22...Qb7 23 Nxf6 exf6 24 Qh6+ Kf7 25 Qxh7+ Ke6 26 Qxg6 with a winning attack.\n\n3) 22...Qc5 23 Qh6+ Kf7 24 g5! Nh5 (24...Nxd5 25 Qxh7+ wins for White, as does 24...Ng8 25 Qxh7+ Kf8 26 Qxg6) 25 Rxh5 gxh5 26 Qxh7+ Kf8 27 g6 Be6 28 Qh8+ Bg8 29 Qh6#.\n\n4) 22...Qb5 23 Qh6+ Kf7 24 g5 wins as after 22...Qc5.\n\n22 Nh5!\n\nWhite ignores Black’s threat to b2 and concentrates on whittling away Black’s kingside defenders. Once the f6-knight has gone, White’s threats down the h-file will be extremely strong. Note that 22 Nf5 is wrong, as Black can eliminate the knight with his bishop, which is not a vital defensive piece.\n\n22...Nxh5\n\n22...Qxb2+ 23 Kd2 doesn’t help, since in some lines White can actually use the b-file for his attack:\n\n1) 23...Rf8 24 Nxf6+ Rxf6 (24...exf6 25 Qd5+ Kh8 26 Rb1 Qa3 27 Rb7 Rad8 28 Qe6! is a neat variation that wins for White) 25 Qd5+ Kg7 26 Qxa8 Rxf3 27 Rxh7+! (otherwise White might even lose) 27...Kxh7 28 Rh1+ Kg7 29 Qh8+ Kf7 30 Rh7+ Ke6 31 Rxe7+ Kxe7 32 Nd5+ winning the queen.\n\n2) 23...Nxh5 24 gxh5 and now:\n\n2a) 24...Be8 loses to 25 hxg6 Bxg6 26 Rxh7 Kxh7 27 Rh1+ Kg7 28 Qxe7+ Kg8 29 Qf6.\n\n2b) 24...Qb6 25 Ke2! Qb2 (25...Be8 is also met by 26 Nd5) 26 Nd5 and White wins.\n\n3) 23...Qb6 24 Nxf6+ exf6 25 Qd5+ Kg7 26 Rxh7+! Kxh7 27 Qf7+ Kh6 28 Rh1+ Kg5 29 f4+ Kxg4 30 Qxg6+ Kf3 31 Qh5+ Bg4 32 Rh3+ Kxf4 33 Nd5+ Kxe4 34 Nxf6+ Kf4 35 Qxg4+, etc.\n\n23 gxh5\n\n23...Be8\n\n23...Qxb2+ 24 Kd2 Be8 transposes to line ‘2a’ of the previous note.\n\n24 b3!\n\nThe simplest and most effective move. Now that Black’s dangerous dark-squared bishop has gone, White can afford to play this defensive move, which brings Black’s queenside play to a dead halt. White, on the other hand, retains a massive attack on the kingside – the immediate threat is 25 Nd5.\n\n24 hxg6 Bxg6 25 Rxh7 Kxh7 26 Rh1+ Kg7 27 Qxe7+ Bf7 only leads to a draw here, since Black’s queen is controlling g1.\n\n24...cxb3\n\n25 axb3\n\nThere is no real defence to Nd5.\n\n25...Qc5\n\n25...e6 26 Qf6 and 25...Bf7 26 hxg6 Bxg6 27 Nd5 are also hopeless for Black.\n\n26 Nd5\n\nWith a double attack against e7.\n\n26...Rb7\n\n26...Qa3+ 27 Kd2 Qa5+ 28 b4 brings the checks to an end. After 28...Rxb4 we have an echo of the idea at move 18 in that White can win Black’s queen with a knight check.\n\n27 Nxe7+\n\nPicking up the exchange.\n\n27...Rxe7\n\nAlternatively, 27...Kg7 (27...Kf7 28 hxg6+ hxg6 29 Rh7+) 28 Nf5+ Kg8 29 hxg6 Bxg6 30 Qf6 Bxf5 31 Rdg1+ Bg6 32 Rxg6+ hxg6 33 Rh8#.\n\n28 Qxe7\n\nBlack’s material situation is hopeless.\n\n28...Rc8\n\n29 Rh2\n\n29...gxh5\n\n30 Rg2+\n\n30...Bg6\n\n31 Rxd6\n\n31...Qe3+\n\n32 Rgd2\n\n32...Rf8\n\n33 Rd8\n\n33...Rxd8\n\n34 Qxd8+\n\n34...Kg7\n\n35 Qd4+\n\nPerhaps White could have won more quickly by another method, but it can’t be wrong to liquidate to a trivially won ending.\n\n35...Qxd4\n\n36 Rxd4\n\n36...h4\n\n37 Kd2\n\n37...h3\n\n38 Ke3\n\n38...Kh6\n\n39 Kf4\n\n39...1-0\n\nThis game was decided at a relatively early stage. Having chosen a very sharp opening, Black went in for a slightly unusual line. To begin with, White simply followed the standard attacking plan against a kingside fianchetto. It was only at move 18 that White really had to think hard and find the most accurate way to continue. By this stage White had built up an impressive array of attacking pieces on the kingside, but it was still not so easy to break through. White’s 20th and 22nd moves were the key; between them these two moves eliminated Black’s two main kingside defenders. After this Black was always in trouble, and soon the attack broke through.\n\nThe lessons here are:\n\n1) Opposite-side castling greatly sharpens the play. In the ensuing attacking race, every tempo is vital.\n\n2) The plan of h4-h5 and Bh6 is a typical method of attacking a kingside fianchettoed position.\n\n3) It may be worth considerable material to eliminate a key defensive piece.\n\n4) Don’t believe everything you see in print.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Opposite-Side Castling\n\nIt is often hard to decide whether to attack with pieces or pawns, since each method has its advantages and disadvantages. A piece attack can often be mounted quickly, but unless there are already weaknesses in the enemy castled position, it may be hard to break through with pieces alone. A pawn attack, on the other hand, is much slower, but once it does arrive it is often irresistible. The advancing pawns tear holes in the enemy castled position, which the attacker’s pieces can then exploit. Another point is that while the pawns are unmoved, it is hard for the attacker to bring his rooks to bear – this may require a manoeuvre such Re3-g3. A pawn attack naturally creates space for the rooks to operate effectively from the first rank.\n\nThe relative position of the kings is also important. When the kings are castled on the same side, pawn attacks are less likely, as these expose the attacker’s own king. Only if the centre is blocked, or if the attacker has a very solid central structure, can he contemplate a pawn attack. On the other hand, opposite-side castling leads to pawn attacks with much greater frequency. The main question then is how many pawns to advance. Too many, and the attack will proceed at a snail’s pace. The basic rule is that the attacker should advance just enough pawns to create a decisive weakening in the opposing castled position – any more are redundant. Very often, just a single pawn is sufficient. In the following game, two pawns are enough to do the job, as they converge on the g6-square.\n\nJ. Nunn – C. Ward\n\nBritish League (4NCL) 1997/8\n\nSicilian Defence, Dragon Variation"
+    },
+    {
+      "ply": 1,
+      "san": "e4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "c5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "Nf3",
+      "text": "For comments on the moves up to here, see Game 8.",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "d6",
+      "text": "This move is an equally good alternative to 2...Nc6, as played in Games 8 and 9. Black intends to play ...Nf6, attacking the e4-pawn, but first prevents the reply e5.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "d4",
+      "text": "Just as in Games 8 and 9, White is prepared to exchange off a central pawn to speed up the development of his minor pieces.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "cxd4",
+      "text": "Black is also satisfied with this exchange, which gives him a majority of pawns in the centre and a half-open c-file.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "Nxd4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "Nf6",
+      "text": "A natural developing move, which also attacks e4.",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "Nc3",
+      "text": "The most flexible way to defend e4.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "g6",
+      "text": "White to play\n\nThis move introduces the Dragon Variation, one of the most controversial opening systems. The basic idea is logical enough: Black wants to develop his bishop actively on the long diagonal, rather than on e7, as occurs in most other lines of the Sicilian. White can counter the Dragon in numerous ways, but the sharpest and, according to theory, best plan is to aim for 0-0-0 and a direct attack against Black’s king. This leads to very double-edged play, with White’s kingside attack and Black’s queenside counterattack racing each other to strike first. Dragon players tend to be fanatical in their support for the opening. Playing the Dragon is obviously highly addictive, because many Dragon players who start out as occasional users prove unable to throw off the habit and get stuck with the opening for the rest of their lives. The cause of the Dragon was advanced when Kasparov used it in his PCA World Championship match against Anand in 1995, but despite this endorsement it has only caught on amongst a minority of leading grandmasters. Either they regard it as too risky, or perhaps they fear becoming wedded to a particular opening.",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "Be3",
+      "text": "If White wants to launch an attack against the black king, then 0-0-0 will be essential, so White immediately starts to develop his queenside pieces. His basic attacking plan will contain two key elements:\n\n1) the advance of the h-pawn to soften up Black’s kingside and bring the h1-rook into the attack from its initial square;\n\n2) playing Bh6 to eliminate the g7-bishop, which is both the main defender of Black’s kingside and a very useful piece for supporting Black’s queenside counterattack. This method of attacking a kingside fianchettoed position is not restricted to the Dragon, and it often occurs in the Pirc Defence (1 e4 d6) and certain lines of the King’s Indian Defence (especially the Sämisch – see Game 14).",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "Bg7",
+      "text": "White to play\n\nThe Dragon bishop settles onto its favourite diagonal. Although at the moment many pieces lie between g7 and the white queenside, innumerable games have been decided by the power of the Dragon bishop, and all players facing the Dragon have learnt to treat it with respect. The ideal solution, from White’s point of view, is to exchange the bishop with Bh6, but this may not be so easy to achieve under favourable circumstances. In the Dragon, the dark squares hold a particular importance, and both sides will be keen to avoid the exchange of their dark-squared bishop (except possibly in return for the opposing dark-squared bishop).",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "f3",
+      "text": "This is a necessary precaution. If White plays 7 Qd2, then Black can harass White’s dark-squared bishop by 7...Ng4. Note that Black could not have played 6...Ng4 because the reply 7 Bb5+ would have cost Black material. It is interesting to observe that in the lines of the Pirc and King’s Indian embodying the same strategy, White also feels it necessary to play the precautionary f3. In all cases the purpose is not only to secure the dark-squared bishop, but also to solidify the centre in preparation for a flank attack.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "Nc6",
+      "text": "The most natural square for the knight, since the attack on d4 will make it harder for White to arrange Bh6.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "Qd2",
+      "text": "White prepares both queenside castling and an eventual Bh6.",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "O-O",
+      "text": "Even though Black is well aware of White’s intentions, there is no better place for his king.",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "Bc4",
+      "text": "This move might appear inconsistent. Why does not White just get on with the job and play 9 0-0-0 without further ado? The answer is that Black is then able to steer the game into new channels by playing 9...d5. It is not clear whether White has any advantage in that case, but it is clear that White has been deflected from the plan of a direct attack down the h-file. Therefore, White often prefers to play the text-move, which rules out ...d5. Another plus point is that the bishop is aimed at Black’s kingside. There are two main negative points. The first is that White has to spend two tempi moving his bishop, since Bb3 will be inevitable sooner or later. The second is that the bishop may itself become vulnerable to attack, for example if Black manages to push his a- and b-pawns. The pros and cons more or less balance each other, which explains why both 9 0-0-0 and 9 Bc4 are often seen in practice.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "Bd7",
+      "text": "The half-open c-file will be one of Black’s main avenues of attack, so it makes sense to clear c8 for one of the rooks.\n\n10 0-0-0\n\nBlack to play\n\nOpposite-side castling usually leads to sharp play. When the kings are castled on the same side, an attack involving pawns entails some risk, as the pawns that are being advanced are those which are defending one’s own king. There is no such inhibiting factor when the kings are on opposite sides of the board, and it is quite normal for both players to launch an attack as soon as possible. Such a situation is like a race; whichever player manages to strike a real blow first is likely to win. There are two additional points to make. Winning material is of less significance in such situations than it normally is. It is no good gaining material if the result is the collapse of one’s attack, leaving the opponent free to go for mate. Secondly, having to pull one’s pieces back from the attack for defensive purposes is often equivalent to resignation, for then the opponent has all the time he needs to break through. This does not mean that no defensive moves at all should be made; for example, it is clearly worthwhile to make a defensive move if it delays the enemy attack by two moves. It does mean, however, that each defensive move must be carefully considered to see if it is worth the tempo it consumes.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "O-O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "Qa5",
+      "text": "This slightly unusual move is a lifelong favourite of Chris Ward. The idea is to move the f8-rook to c8, which has the advantage that the other rook can also join in the attack, for example by supporting ...b5 with ...Rab8. A second advantage is that Black can usually retain his key ‘Dragon’ bishop by answering Bh6 with ...Bh8. The disadvantages are twofold: first of all, the f8-rook is sometimes useful for defensive purposes and moving it away from the kingside leaves that part of the board looking a little short of defenders. Secondly, it isn’t really clear that a5 is a good square for the queen, since in some lines it is vulnerable to attack. We shall see how all these factors play a part in the game.\n\nQuite honestly, I regard this system as somewhat dubious for Black – in fact, it is quite hard to put one’s finger on an error by Black in this game, other than his choice of opening variation.\n\nThe most common line is 10...Ne5 11 Bb3 Rc8.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "h4",
+      "text": "Black to play\n\nWhite wastes no time in starting his attack.",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "Ne5",
+      "text": "This is the normal square for the knight in this variation. In some cases Black will eventually play ...Nc4 to force the exchange of White’s light-squared bishop, while in other lines the knight simply stays on e5, defending some squares on the kingside while retaining the option of helping on the queenside.",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "Bb3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "Rfc8",
+      "text": "Black follows the plan initiated at move 10.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "g4",
+      "text": "White has quite a wide range of moves here. Perhaps the most direct is 13 h5. It is quite normal in the Dragon for White to offer his h-pawn, since in taking it Black not only loses time with his knight, but also opens up the h-file. After 13...Nxh5, it is tempting to play 14 Bh6 since at this moment Black cannot avoid the exchange of bishops by 14...Bh8 due to 15 Rxh5 gxh5 16 Qg5+, when White wins Black’s queen. However, Black has a stronger reply in the surprising move 14...Nd3+ (14...Bxh6 is also playable), which leads to a satisfactory position for Black after 15 Kb1 Nxb2 16 Kxb2 Bxh6 17 Qxh6 Rxc3.\n\nTherefore, the most popular move for White here is 13 Kb1, again aiming to play h5, but having moved White’s king out of harm’s way first. This move raises the interesting question as to when White should play a consolidating move such as Kb1. One should certainly give far more thought to such moves in opposite-side castling situations than one would to, say, Kh1 when both kings are on the kingside. When the kings are on opposite sides every tempo is vital, and so a move such as Kb1 should not be played without a concrete reason. A typical reason would be to anticipate the exchange sacrifice ...Rxc3, bxc3 Qxc3, when Kb1 is normally forced in any case because of the threatened check on a1. If White is going to have to play Kb1 anyway, it might be less committal to get it out of the way immediately. In the current position there is certainly some point to 13 Kb1; we have already seen one line with an unexpected check to the king on c1, and if White plays Bh6 at some stage, Black might well reply ...Bxh6 and ...Rxc3. However, the arguments are quite finely balanced.\n\nJust before playing this game, I recalled a conversation I had with Chris Ward a few months earlier. We were having breakfast together the day after one of our battles in the Dragon (on that occasion, I had played 13 h5). Chris remarked that it was surprising 13 Kb1 was so popular, as 13 g4 looked like a more useful move. On thinking about this, it seemed a valid point, so I decided to give his own recommendation a try! The move g4 aims primarily to play h5 without sacrificing a pawn, but it has some other good points: it allows the white queen to switch to h2, and in some lines it supports the piece sacrifice Nf5.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "b5",
+      "text": "There are three possible plans here for Black. The most obvious is 13...Nc4 14 Bxc4 Rxc4, but after 15 h5 Rac8 16 Nb3 Qa6 17 hxg6 fxg6 18 e5 White has a dangerous attack, because 18...dxe5 loses a piece to 19 g5, while if the f6-knight moves White can reply 19 Qh2.\n\nAnother option is the surprising 13...Rc4!?. The lines after this move provide a good illustration of typical Dragon themes:\n\n1) 14 Bxc4 is dubious, as Black is able to break through on the dark squares: 14...Nxc4 15 Qd3 Qb4 16 Nb3 Nxe4! (a surprising sacrifice on a triply defended square) 17 fxe4 (17 Nxe4 Nxb2 18 Qd5 Qa3 gives Black a very dangerous attack in return for the rook, while 17 Qxe4 Bxc3 18 Bd4 Nxb2 19 Bxc3 Qxc3 is just bad for White) 17...Bxc3 18 Bd4 (18 Qxc3 Qxc3 19 bxc3 Nxe3 favours Black) 18...Bxd4 19 Qxd4 Bxg4 is unclear. Black has two pawns for the exchange but White still has some attacking chances.\n\n2) 14 g5! Nh5 (14...Rxd4? 15 Bxd4 Nxf3 16 Qf2! Nxd4 17 Rxd4 and the weakness of f7 is fatal for Black) 15 f4 Rxd4 (15...Nf3? 16 Nxf3 Rxc3 looks like another typical Dragon combination based on a dark-squared breakthrough; however, such combinations don’t always work: here 17 e5! causes Black’s position to collapse) 16 Qxd4 Ng4 17 e5 (17 Qd3!? is also possible) 17...Ng3 18 Rhe1 Nf5 19 Qd2 Nfxe3 20 Rxe3 Nxe3 21 Qxe3 with some advantage to White.\n\nWith the move played, Black again aims to play ...Nc4, but now with the idea of recapturing on c4 with the pawn. This will give Black a ready-made attack along the b-file. The two problems with this plan are firstly that it is a little slow and secondly that, thanks to White’s omission of Kb1, a black queen arriving on b2 may not be mate.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "h5",
+      "text": "Black to play\n\nWhite gets on with the attack.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "Nc4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Bxc4",
+      "text": "This is best. After 15 Qd3 Ne5 White has nothing better than to repeat moves, since playing 16 Qe2 positively invites Black to sacrifice on c3.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "bxc4",
+      "text": "Now White has two free moves before Black lines up against b2.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Bh6",
+      "text": "A logical step. Either Black’s bishop is exchanged, or White transfers his bishop to a more active square with gain of tempo. Note that White doesn’t have to worry any more about ...Rxc3, so there is no problem about the white queen being drawn away if Black plays ...Bxh6.",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Bh8",
+      "text": "This is forced as here Black cannot allow his defensive bishop to be exchanged; for example, 16...Rab8 17 Bxg7 Kxg7 18 hxg6 fxg6 19 Qh6+ Kg8 20 g5 Nh5 21 Rxh5 gxh5 22 g6 hxg6 23 Qxg6+ Kf8 24 Rg1 mates, or 16...Bxh6 17 Qxh6 g5 18 Nf5 with a winning position.",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Nf5",
+      "text": "Black to play\n\nWe have reached a critical moment as White is now threatening mate in one on e7.",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Re8",
+      "text": "This is perhaps most testing, although the resulting complications favour White. The alternative is 17...Bxf5, but this also appears unsatisfactory for Black in view of 18 exf5! (18 gxf5 Rab8 19 hxg6 fxg6 20 fxg6 hxg6 21 Rdg1 Kf7 22 Qg2 Rg8 is unclear as White’s attack has been brought to a halt) 18...Rab8 19 hxg6 fxg6 (19...hxg6 20 fxg6 Qb4 21 Qe3! Qxb2+ 22 Kd2 gives White a clear advantage) 20 Qe3 (the key advantage of playing exf5 rather than gxf5 is that White is now threatening mate in one) 20...Qe5 21 Qxe5 dxe5 22 g5 Ne8 23 Nd5 and the endgame favours White.",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "Qg5",
+      "text": "Before the game, I looked at some recent copies of Informator to see if there had been any important games with the 10...Qa5 line. My eye was caught by the postal game Pavlov-Vaskin, which had continued 18 Bg7 Bxf5 19 Bxh8 Kxh8 20 exf5 Rg8 21 Rde1 Rae8 22 hxg6 fxg6 23 Qh6 Rg7 24 fxg6 Rb8. Here White played 25 Qf4 Qb4 26 Nd1 (not 26 Rxe7? Qxb2+ 27 Kd2 Qxc3+) and won after a long, hard struggle. It didn’t take long to spot that Black is just dead lost after 25 Qh4!. This again threatens 26 Rxe7 Rxe7 27 Qxf6+, against which Black has scant defence. If Black plays 25...Qb4 as in the game, then White wins by 26 Rxe7 Qxb2+ 27 Kd2 since Black no longer has the sacrifice on c3.\n\nAt the board I was mentally rubbing my hands with glee at the thought of springing this move on Chris Ward, when I decided to check the earlier moves in this line. I immediately received a dash of cold water; after 18 Bg7, Black can simply reply 18...gxf5.\n\nWhite to play\n\nBlack will then meet 19 Qg5 with 19...h6! 20 Bxh6+ Kh7, when Black is a piece up for very little. Clearly Chris had spotted this and was prepared with his own surprise. Unfortunately for him, the position is in fact bad for Black, provided White finds the correct 18th move. After the game I looked again at my Informator and spotted a little note I hadn’t noticed before, which gave 18...gxf5 as unclear after 19 Qg5 h6 or 19 gxf5 Bxg7 20 h6 Bf8, with this last move being given the ‘only move’ symbol. As already noted, the first of these lines leaves Black a piece up for almost nothing, while the second is even more ludicrous. If Black plays 20...Bh8 21 Rhg1+ Kf8 instead of 20...Bf8, then he is two pieces up for nothing. White can only create a threat by tripling on the g-file, but even if he manages this, Black just plays ...e6 and the whole attack collapses. If anybody requires a stark warning that published analysis should always be checked carefully, then this is it.\n\nLuckily for me, it didn’t take long to find the powerful text-move. The threat of Nxe7+ forces Black to move his queen, but the net effect is that White has transferred his queen to a more aggressive position with gain of tempo.",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "Qb6",
+      "text": "Of course, Black puts his queen on the b-file so as continue his attack against b2 but, as noted above, ...Qxb2+ is not the end of the world for White and in many cases it can simply be ignored.",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "hxg6",
+      "text": "Now the time is ripe for the Bg7 combination, but first of all White opens the h-file.",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "fxg6",
+      "text": "19...hxg6 20 Bf8! is instantly decisive, so this is forced.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "Bg7",
+      "text": "One could not wish for a more vivid demonstration of the importance of eliminating Black’s defensive bishop. White is prepared to sacrifice a piece to get rid of it.",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "Bxg7",
+      "text": "20...Rab8 21 Bxh8 Qxb2+ 22 Kd2 Kxh8 loses to 23 Rxh7+! (23 Nxe7 is also very strong; for example, 23...Rxe7 24 Qxf6+ Rg7 25 Rb1) 23...Nxh7 24 Rh1 (threatening 25 Rxh7+, amongst other things) 24...Bxf5 25 Qh6 Kg8 26 Qxh7+ Kf8 27 gxf5 with a quick mate to follow.\n\n20...Bxf5 21 Bxh8 Kxh8 22 gxf5 is also very awkward for Black; for example, 22...Rab8 23 fxg6 Qxb2+ 24 Kd2 (threatening 25 Rxh7+ Nxh7 26 Qh6) 24...Qb6 (24...Rg8 25 Qxf6+!) 25 Ke2! (stopping any annoying checks and renewing the threat) 25...Rb7 26 Nd5 with a winning attack.",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "Nxg7",
+      "text": "Black to play",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "Reb8",
+      "text": "Black decides to decline the offered piece. After 21...Kxg7 22 Nd5! there is no good square for the queen:\n\n1) 22...Qa5 23 Qh6+ Kf7 24 Nxf6 Kxf6 (24...exf6 25 Rxd6 Be6 26 Qxh7+ Kf8 27 Rxe6 Rxe6 28 Qb7! and White takes the a8-rook with check) 25 Rd5 Qb6 26 g5+ and White wins.\n\n2) 22...Qb7 23 Nxf6 exf6 24 Qh6+ Kf7 25 Qxh7+ Ke6 26 Qxg6 with a winning attack.\n\n3) 22...Qc5 23 Qh6+ Kf7 24 g5! Nh5 (24...Nxd5 25 Qxh7+ wins for White, as does 24...Ng8 25 Qxh7+ Kf8 26 Qxg6) 25 Rxh5 gxh5 26 Qxh7+ Kf8 27 g6 Be6 28 Qh8+ Bg8 29 Qh6#.\n\n4) 22...Qb5 23 Qh6+ Kf7 24 g5 wins as after 22...Qc5.",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "Nh5",
+      "text": "White ignores Black’s threat to b2 and concentrates on whittling away Black’s kingside defenders. Once the f6-knight has gone, White’s threats down the h-file will be extremely strong. Note that 22 Nf5 is wrong, as Black can eliminate the knight with his bishop, which is not a vital defensive piece.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "Nxh5",
+      "text": "22...Qxb2+ 23 Kd2 doesn’t help, since in some lines White can actually use the b-file for his attack:\n\n1) 23...Rf8 24 Nxf6+ Rxf6 (24...exf6 25 Qd5+ Kh8 26 Rb1 Qa3 27 Rb7 Rad8 28 Qe6! is a neat variation that wins for White) 25 Qd5+ Kg7 26 Qxa8 Rxf3 27 Rxh7+! (otherwise White might even lose) 27...Kxh7 28 Rh1+ Kg7 29 Qh8+ Kf7 30 Rh7+ Ke6 31 Rxe7+ Kxe7 32 Nd5+ winning the queen.\n\n2) 23...Nxh5 24 gxh5 and now:\n\n2a) 24...Be8 loses to 25 hxg6 Bxg6 26 Rxh7 Kxh7 27 Rh1+ Kg7 28 Qxe7+ Kg8 29 Qf6.\n\n2b) 24...Qb6 25 Ke2! Qb2 (25...Be8 is also met by 26 Nd5) 26 Nd5 and White wins.\n\n3) 23...Qb6 24 Nxf6+ exf6 25 Qd5+ Kg7 26 Rxh7+! Kxh7 27 Qf7+ Kh6 28 Rh1+ Kg5 29 f4+ Kxg4 30 Qxg6+ Kf3 31 Qh5+ Bg4 32 Rh3+ Kxf4 33 Nd5+ Kxe4 34 Nxf6+ Kf4 35 Qxg4+, etc.",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "gxh5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "Be8",
+      "text": "23...Qxb2+ 24 Kd2 Be8 transposes to line ‘2a’ of the previous note.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "b3",
+      "text": "The simplest and most effective move. Now that Black’s dangerous dark-squared bishop has gone, White can afford to play this defensive move, which brings Black’s queenside play to a dead halt. White, on the other hand, retains a massive attack on the kingside – the immediate threat is 25 Nd5.\n\n24 hxg6 Bxg6 25 Rxh7 Kxh7 26 Rh1+ Kg7 27 Qxe7+ Bf7 only leads to a draw here, since Black’s queen is controlling g1.",
+      "isCritical": true
+    },
+    {
+      "ply": 48,
+      "san": "cxb3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 49,
+      "san": "axb3",
+      "text": "There is no real defence to Nd5.",
+      "isCritical": true
+    },
+    {
+      "ply": 50,
+      "san": "Qc5",
+      "text": "25...e6 26 Qf6 and 25...Bf7 26 hxg6 Bxg6 27 Nd5 are also hopeless for Black.",
+      "isCritical": true
+    },
+    {
+      "ply": 51,
+      "san": "Nd5",
+      "text": "Black to play\n\nWith a double attack against e7.",
+      "isCritical": true
+    },
+    {
+      "ply": 52,
+      "san": "Rb7",
+      "text": "26...Qa3+ 27 Kd2 Qa5+ 28 b4 brings the checks to an end. After 28...Rxb4 we have an echo of the idea at move 18 in that White can win Black’s queen with a knight check.",
+      "isCritical": true
+    },
+    {
+      "ply": 53,
+      "san": "Nxe7+",
+      "text": "Picking up the exchange.",
+      "isCritical": true
+    },
+    {
+      "ply": 54,
+      "san": "Rxe7",
+      "text": "Alternatively, 27...Kg7 (27...Kf7 28 hxg6+ hxg6 29 Rh7+) 28 Nf5+ Kg8 29 hxg6 Bxg6 30 Qf6 Bxf5 31 Rdg1+ Bg6 32 Rxg6+ hxg6 33 Rh8#.",
+      "isCritical": true
+    },
+    {
+      "ply": 55,
+      "san": "Qxe7",
+      "text": "Black’s material situation is hopeless.",
+      "isCritical": true
+    },
+    {
+      "ply": 56,
+      "san": "Rc8",
+      "text": "White to play",
+      "isCritical": true
+    },
+    {
+      "ply": 57,
+      "san": "Rh2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 58,
+      "san": "gxh5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 59,
+      "san": "Rg2+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 60,
+      "san": "Bg6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 61,
+      "san": "Rxd6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 62,
+      "san": "Qe3+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 63,
+      "san": "Rgd2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 64,
+      "san": "Rf8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 65,
+      "san": "Rd8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 66,
+      "san": "Rxd8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 67,
+      "san": "Qxd8+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 68,
+      "san": "Kg7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 69,
+      "san": "Qd4+",
+      "text": "Perhaps White could have won more quickly by another method, but it can’t be wrong to liquidate to a trivially won ending.",
+      "isCritical": true
+    },
+    {
+      "ply": 70,
+      "san": "Qxd4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 71,
+      "san": "Rxd4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 72,
+      "san": "h4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 73,
+      "san": "Kd2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 74,
+      "san": "h3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 75,
+      "san": "Ke3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 76,
+      "san": "Kh6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 77,
+      "san": "Kf4",
+      "text": "39...1-0\n\nThis game was decided at a relatively early stage. Having chosen a very sharp opening, Black went in for a slightly unusual line. To begin with, White simply followed the standard attacking plan against a kingside fianchetto. It was only at move 18 that White really had to think hard and find the most accurate way to continue. By this stage White had built up an impressive array of attacking pieces on the kingside, but it was still not so easy to break through. White’s 20th and 22nd moves were the key; between them these two moves eliminated Black’s two main kingside defenders. After this Black was always in trouble, and soon the attack broke through.\n\nThe lessons here are:\n\n1) Opposite-side castling greatly sharpens the play. In the ensuing attacking race, every tempo is vital.\n\n2) The plan of h4-h5 and Bh6 is a typical method of attacking a kingside fianchettoed position.\n\n3) It may be worth considerable material to eliminate a key defensive piece.\n\n4) Don’t believe everything you see in print.",
+      "isCritical": true
+    }
+  ]
+}

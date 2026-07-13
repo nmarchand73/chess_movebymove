@@ -1,0 +1,319 @@
+{
+  "id": "nunn-001",
+  "book": "nunn",
+  "gameNum": 1,
+  "title": "Game 1: A. Chernin vs J. van der Wiel",
+  "section": "Opening Themes",
+  "players": {
+    "white": "A. Chernin",
+    "black": "J. van der Wiel"
+  },
+  "event": "European Clubs Cup, Slough 1997",
+  "opening": "English Opening",
+  "eco": "A04",
+  "pgnPath": "data/pgn/nunn/01.pgn",
+  "result": "1-0",
+  "moveCount": 49,
+  "annotatedMoves": 49,
+  "fullText": "Get the Pieces Out!\n\nOne of the main objectives in the opening is to bring the pieces into play. In the initial position, all the pieces are on the back rank, far from contact with the enemy. The knights, being short-range pieces, are particularly ineffective and one of the main priorities is to advance them into better positions. Early piece development is so crucial that failure to handle it effectively can result in the battle being lost while most of the army is still in bed. This is Black’s fate in the following game. All the decisive action takes place while his queenside pieces stand unmoved and unable to participate in the struggle.\n\nA. Chernin – J. van der Wiel\n\nEuropean Clubs Cup, Slough 1997\n\nEnglish Opening\n\n1 Nf3\n\nMany decades ago, virtually all games started with 1 e4 or 1 d4. Today, most games still start with one of these two moves, but the contemporary attitude to opening play is more flexible and open-minded. One often sees 1 c4 and 1 Nf3, and occasionally other moves such as 1 b3 and 1 g3.\n\nThe advantage of 1 Nf3 is its flexibility. White retains various options, and waits to see Black’s reply before deciding the type of structure to adopt. A later c4 may lead to the English Opening (as in this game), while a later d4 may transpose into a Queen’s Pawn opening. If Black plays 1...c5, White might even transpose into a Sicilian by 2 e4.\n\n1...d6\n\nWhite’s first move prevented Black from playing 1...e5, so if Black wants to occupy e5 with a pawn, then he must prepare it. It is also perfectly reasonable to play 1...d5 or 1...c5, while 1...Nf6 would show that Black, too, can aim for flexibility.\n\n2 g3\n\nThe development of a bishop at g2 (or the corresponding squares b2, b7 and g7) is called a fianchetto. At one time, this type of bishop development was frowned upon, but these days it is commonplace in a wide range of openings. While the fianchetto is not always appropriate, it has the advantage of moving the bishop to one of the longest diagonals on the board, where it may later exert a great deal of influence. The disadvantages are that it takes two moves to get the bishop out, and if the bishop is later exchanged, the kingside pawn-structure will have been weakened by the advance g3.\n\n2...e5\n\nThis is the natural follow-up to Black’s previous move. Although he now has a pawn in the centre while White does not, this does not mean that Black has won the battle for control of the centre.\n\n3 Bg2\n\nWhite’s bishop on g2 will exert pressure on the light squares e4 and d5, and this enables White to conduct the central struggle on at least equal terms.\n\n3...f5\n\nBlack’s third pawn move in a row. Because piece development is so important, it is risky to play too many pawn moves right at the start of the game – the more pawn moves you play, the fewer moves are available for developing pieces. A few pawn moves are essential, as otherwise only the knights could be developed, but it can be risky to play extra pawn moves that are not strictly necessary. A good rule of thumb is that you should not make more than three pawn moves in the first eight moves. As with all chess principles, there will inevitably be many exceptions, but if you violate a principle such as this, you should at least be clear in your mind exactly why you are violating it. Here Black’s move is not a mistake; the pawn on f5 improves Black’s central influence and, by attacking e4, helps to combat White’s plan to dominate the central light squares.\n\n4 c4\n\nWhite is not only bringing his pieces out, but he is also doing so with a concrete plan in mind: to control the central light squares, especially d5, and to exert pressure against Black’s queenside with the bishop on g2. His pawns and pieces must cooperate in executing this plan. The text-move stakes a claim to the d5-square; White will follow up with Nc3 to increase his control. Note that it would have been wrong to play 4 Nc3 first, as this would block the c-pawn and prevent c4.\n\n4...Nf6\n\nThis natural move develops a piece and contests White’s control of d5.\n\n5 b4!?\n\nThis is an ambitious and slightly provocative move. It fits it with White’s plan of exerting pressure against Black’s queenside, because it helps to gain space on that part of the board, but was it really more important to do this than to develop a piece? Most players have though otherwise, since 5 Nc3 is the most common move in the diagram position, but Chernin’s idea has a good deal of logic. After 5 Nc3 Nc6, White would at some stage like to play b4, but now this requires further preparation by a3 or Rb1. By playing b4 at once, White may be able to manage without one of these preparatory moves and thereby save a tempo. In addition, a psychological element was probably involved; Van der Wiel is a direct attacking player and Chernin may have guessed that Black would try to ‘refute’ White’s early pawn advance and thereby indulge in premature aggression.\n\n5...e4?!\n\nVan der Wiel is duly provoked and lunges forward in the centre. Such central advances have pros and cons. Here Black gains space and the e4-pawn blocks out the bishop on g2; the drawback is that the white bishop may be released by a later d3, and that the a1-h8 diagonal is weakened, which White can easily exploit by developing his other bishop to b2. My view is that this last factor outweighs the others. Moreover, to play 5...e4 is inconsistent in that Black has spent two moves occupying e5 (...d6 and ...e5) and to give this up just to give White’s knight a harmless prod seems a poor bargain. Black should have completed his kingside development by either 5...Be7 or 5...g6 and 6...Bg7, followed by castling.\n\n6 Nd4\n\n6...d5\n\nThis active move is the idea behind the previous advance, but it is already Black’s fifth pawn move, so the warning lights should have been flashing. Black could have developed his kingside by 6...c5 7 bxc5 dxc5 8 Nb3 Bd6 9 Nc3 0-0, although after 10 0-0 Nc6 11 d3 Black cannot maintain his pawn on e4 and so faces the problem of the activity of the g2-bishop, while his own light-squared bishop is restricted by the f5-pawn.\n\n7 cxd5\n\n7...Nxd5\n\nAfter 7...Qxd5, White has a choice of promising lines. The simple 8 Nc2 Bd6 9 Nc3 Qf7 10 0-0 0-0 11 d3 again activates the g2-bishop, while the more complicated 8 Bb2 Bxb4 9 Qa4+ Bd7 10 Qxb4 c5 11 Nc3! cxb4 12 Nxd5 Nxd5 13 f3 gives White a very promising ending. Black cannot keep his extra pawn and after 13...Nf6 14 fxe4 fxe4 (14...Nxe4 15 g4 is very awkward) 15 Nc2 Bc6 16 Bxf6 gxf6 17 Nxb4, for example, Black’s pawn-structure is seriously inferior.\n\n8 b5\n\nNow White had to do something about the doubly attacked b-pawn; this advance makes it harder for Black to develop the b8-knight.\n\n8...Nf4\n\nBlack goes in for a little piece of tactics that gives White doubled f-pawns. As we shall see, this does not help Black, but there was nothing better; for example, 8...Bc5 9 Bb2 Qf6 10 e3 Nb4 11 0-0 Nd3 (this looks good, but without any supporting pieces, the knight is not doing much on d3) 12 Bc3 0-0 13 f3! exf3 14 Bxf3 and Black is in trouble. His queen and d3-knight are exposed to attack, and while Black is rescuing these, White will amass a large lead in development.\n\n9 gxf4\n\nForced.\n\n9...Qxd4\n\n10 Nc3\n\nWhite meets the attack on his rook with a useful developing move.\n\n10...Bc5?\n\nBlack threatens mate in one, but White can meet this with gain of tempo, whereupon the bishop proves to be tactically vulnerable on c5 (after a later Rc1 and Qc2). 10...Nd7 would have been a better chance, heading for b6. This would prevent the Bf1-c4 manoeuvre which is so important in the game.\n\n11 e3\n\nWhite notices.\n\n11...Qc4?!\n\nThis is designed to prevent castling, but once again the queen is exposed and will have to move again after a later Rc1. It is usually unwise to play aggressively with the queen early on, because the queen is subject to the attack of the enemy’s lesser pieces, and can easily be chased around with loss of time. Another consequence of the ‘rapid development’ principle is that one should not repeatedly move the same piece in the opening, thereby losing time for the development of the remaining pieces. In eleven moves, Black has so far played a bishop move, five pawn moves, three queen moves and two knight moves; moreover, this knight has now vanished from the board, so Black did not really obtain any benefit from these two moves. In other words, Black has obtained very little in terms of development for his eleven moves and is now in serious trouble. Whereas most of Black’s pieces are on their original squares, White has two pieces out and the others can move directly to active squares (by Rc1 and Qc2 or Qb3), gaining tempi in the process. Black’s central pawn advance has gained some space, but at the cost of leaving a huge vacuum behind; the a1-h8 and a2-g8 diagonals are especially weak. White, it is true, has doubled pawns, but if anything this helps him. The assessment of doubled pawns depends very much on the position. Sometimes they can be a serious weakness; in other cases they can be an asset. In this position the following factors operate in White’s favour:\n\n1) The f4-pawn actually serves to increase White’s central control by covering e5. This is especially relevant as White is set to dominate the a1-h8 diagonal. Doubled pawns resulting from a capture towards the centre are usually much better than doubled pawns resulting from a capture away from the centre – the former increase central control, whereas the latter decrease it.\n\n2) The creation of the doubled pawn has opened the g-file. Is this open file useful? Definitely, yes! After White plays Rg1, the rook will work in tandem with the dark-squared bishop on b2 to exert terrible pressure against g7. In view of Black’s unmoved queenside, castling there is a distant dream, so Black will probably castle kingside, but then the pressure on g7 will be especially dangerous. Of course, playing Rg1 means that White’s king will stay in the centre. Haven’t I said that king safety is one of the objects of opening play? Doesn’t this mean that White has sinned just as much as Black? Not at all. White’s play in this game is a good example of the way old principles are flexibly interpreted in contemporary practice. White’s centralized king would only be a weakness if Black could somehow mount an attack against it. However, the game will be speedily decided by White’s lead in development and ferocious piece activity. Black is never in a position to mount any kind of attack – it is all downhill from now on.\n\nBlack could have resisted slightly more by 11...Qd6, but after 12 Bb2 0-0 13 Rg1 his position is unenviable.\n\n12 Bb2\n\nWhite’s bishop occupies the weakened diagonal.\n\n12...0-0\n\nIt is too late for 12...Nd7, as 13 Rc1 is very strong; for example, 13...0-0 14 Na4! Qd5 (14...Qxb5 15 Bf1 Qc6 16 Rg1 and 14...Qb4 15 a3 Qxb5 16 Bf1 are also hopeless for Black) 15 Bf1 (threatening 16 Bc4) 15...Kh8 16 Rg1 and Black cannot defend g7 without allowing Bc4 or leaving c5 en prise.\n\n13 Rg1!\n\nThe pressure against g7 is especially dangerous in that White can uncover the rook with gain of tempo by playing Bf1.\n\n13...Rf7\n\nAttempting to defend g7, but the line-up of pieces on the a2-g8 diagonal can be exploited by the manoeuvre Bf1-c4. Two other lines show how White might break through sacrificially:\n\n1) 13...Qf7 14 Bxe4! fxe4 15 Nxe4 Be7 16 Qb3! Kh8 (16...Qxb3 loses to 17 Rxg7+ Kh8 18 axb3) 17 Bxg7+ Qxg7 18 Rxg7 Kxg7 19 Ke2, followed by Rg1+, and Black’s king has no chance with most of his pieces still at home.\n\n2) 13...Nd7 14 Bf1 Qf7 15 Nxe4! fxe4 16 Bc4! Qxc4 17 Rxg7+ Kh8 18 Rxh7++ Kxh7 19 Qh5+ Kg8 20 Qg6#.\n\n14 Rc1!\n\nWhite conducts the attack accurately. The lurking threat against the insecure c5-bishop restricts Black’s options. By contrast, 14 Bf1 would allow Black to limp on by 14...Qe6 15 Qa4 Qd6.\n\n14...Qb4\n\nOr 14...Bf8 (14...Qe6 loses to 15 Nxe4 fxe4 16 Rxc5) 15 Nxe4 Qxb5 16 Ng5 Rd7 (16...Qxb2 17 Bd5) 17 Be5, and Black cannot meet the threat of 18 Bf1 and 19 Bc4+, coupled with Qh5 if necessary.\n\n15 Qc2\n\nWhite defends the attacked bishop with gain of tempo, as Black must meet the threat to win a piece by 16 Nd5 Qxb5 17 Bf1, followed by 18 Qxc5.\n\n15...Bd6\n\nAfter 15...Bb6, the simplest win is by 16 Nd5 (16 Nxe4 fxe4 17 Bxe4 is also very good) 16...Qd6 17 Bf1 Kh8 (17...Be6 loses to 18 Nf6+ Kh8 19 Ne8) 18 Bc4 Be6 19 Bxg7+ Rxg7 20 Qb2 Qf8 21 Nxb6 axb6 22 Bxe6 with a comical situation in which Black can hardly move a piece.\n\n16 Nd5!\n\nThe final attack begins.\n\n16...Qxb5\n\n16...Qa5 17 Bf1 is also decisive.\n\n17 Nf6+\n\nThe immediate 17 Bf1 is also very good.\n\n17...Kh8\n\nForced.\n\n18 Bf1\n\nThis long-awaited blow is decisive. After Bc4, the two bishops, operating against Black’s king on parallel diagonals, will prove too much.\n\n18...Qxb2\n\nIn desperation, Black surrenders his queen. There is nothing better; for example, 18...Qc6 19 Qd1 Qb6 20 Qh5, 18...Qb6 (18...Qb4 19 Bc4 is the same) 19 Bc4 Re7 20 Nd5 (or 20 Nh5), or 18...Qa5 19 Qb3, with even greater material loss in every case.\n\n19 Qxb2\n\n19...Rxf6\n\nBlack has two minor pieces and a pawn in return for the queen, which might allow him to prolong the game for a while, except for one thing: he is still catastrophically behind in development.\n\n20 Qxf6!\n\nWhite finds the simplest solution to the technical task by liquidating to an ending in which he is the exchange up for nothing.\n\n20...gxf6\n\n21 Bc4\n\nNow Black must surrender a piece.\n\n21...Be6\n\nAfter 21...h6 22 Rg8+ Kh7 23 Rxc8 Black is not only the exchange down, but also hopelessly pinned on the eighth rank.\n\n22 Bxe6\n\n22...Na6\n\nBlack has avoided mate on g8, but the situation is hopeless. He is material down, White’s pieces are very active and the pawns on f5 and e4 are sitting ducks.\n\n23 Ke2\n\nBlack cannot save the f5-pawn.\n\n23...Nc5\n\nTrying at least to defend the e4-pawn.\n\n24 Bxf5\n\n24...Rd8\n\n25 Rg3\n\n25...1-0\n\nWhite threatens 26 Rh3, and after 25...Rg8 26 Rxg8+ Kxg8 27 Rg1+ Kh8, the simplest win is by 28 f3 exf3+ 29 Kxf3, followed by d4 and e4-e5, when the central pawns march through.\n\nThis was a powerful display by Chernin. Admittedly, Van der Wiel was not on his best form, but the way in which Black’s position was torn to shreds was impressive. Note in particular how White was not hamstrung by traditional ideas. When it was best to abandon the idea of castling, White did so without hesitation, knowing that his centralized king would never be a factor in the struggle. Similarly, White managed to dominate the central squares almost without using his pawns at all. Remember the bishops on the a1-h8 and a2-g8 diagonals, spearing Black’s kingside through the centre; this activity was only possible because of Black’s poor development and concessions in the centre (mainly 5...e4?!).\n\nThe lessons here are:\n\n1) Do not make too many pawn moves in the opening.\n\n2) Do not expose your queen to harassment by enemy pieces in the opening.\n\n3) Do not repeatedly move the same piece in the opening.\n\n4) Weaknesses are only relevant if they can be exploited.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Get the Pieces Out!\n\nOne of the main objectives in the opening is to bring the pieces into play. In the initial position, all the pieces are on the back rank, far from contact with the enemy. The knights, being short-range pieces, are particularly ineffective and one of the main priorities is to advance them into better positions. Early piece development is so crucial that failure to handle it effectively can result in the battle being lost while most of the army is still in bed. This is Black’s fate in the following game. All the decisive action takes place while his queenside pieces stand unmoved and unable to participate in the struggle.\n\nA. Chernin – J. van der Wiel\n\nEuropean Clubs Cup, Slough 1997\n\nEnglish Opening"
+    },
+    {
+      "ply": 1,
+      "san": "Nf3",
+      "text": "Many decades ago, virtually all games started with 1 e4 or 1 d4. Today, most games still start with one of these two moves, but the contemporary attitude to opening play is more flexible and open-minded. One often sees 1 c4 and 1 Nf3, and occasionally other moves such as 1 b3 and 1 g3.\n\nThe advantage of 1 Nf3 is its flexibility. White retains various options, and waits to see Black’s reply before deciding the type of structure to adopt. A later c4 may lead to the English Opening (as in this game), while a later d4 may transpose into a Queen’s Pawn opening. If Black plays 1...c5, White might even transpose into a Sicilian by 2 e4.",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "d6",
+      "text": "White’s first move prevented Black from playing 1...e5, so if Black wants to occupy e5 with a pawn, then he must prepare it. It is also perfectly reasonable to play 1...d5 or 1...c5, while 1...Nf6 would show that Black, too, can aim for flexibility.",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "g3",
+      "text": "The development of a bishop at g2 (or the corresponding squares b2, b7 and g7) is called a fianchetto. At one time, this type of bishop development was frowned upon, but these days it is commonplace in a wide range of openings. While the fianchetto is not always appropriate, it has the advantage of moving the bishop to one of the longest diagonals on the board, where it may later exert a great deal of influence. The disadvantages are that it takes two moves to get the bishop out, and if the bishop is later exchanged, the kingside pawn-structure will have been weakened by the advance g3.",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "e5",
+      "text": "This is the natural follow-up to Black’s previous move. Although he now has a pawn in the centre while White does not, this does not mean that Black has won the battle for control of the centre.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "Bg2",
+      "text": "Black to play\n\nWhite’s bishop on g2 will exert pressure on the light squares e4 and d5, and this enables White to conduct the central struggle on at least equal terms.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "f5",
+      "text": "Black’s third pawn move in a row. Because piece development is so important, it is risky to play too many pawn moves right at the start of the game – the more pawn moves you play, the fewer moves are available for developing pieces. A few pawn moves are essential, as otherwise only the knights could be developed, but it can be risky to play extra pawn moves that are not strictly necessary. A good rule of thumb is that you should not make more than three pawn moves in the first eight moves. As with all chess principles, there will inevitably be many exceptions, but if you violate a principle such as this, you should at least be clear in your mind exactly why you are violating it. Here Black’s move is not a mistake; the pawn on f5 improves Black’s central influence and, by attacking e4, helps to combat White’s plan to dominate the central light squares.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "c4",
+      "text": "White is not only bringing his pieces out, but he is also doing so with a concrete plan in mind: to control the central light squares, especially d5, and to exert pressure against Black’s queenside with the bishop on g2. His pawns and pieces must cooperate in executing this plan. The text-move stakes a claim to the d5-square; White will follow up with Nc3 to increase his control. Note that it would have been wrong to play 4 Nc3 first, as this would block the c-pawn and prevent c4.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "Nf6",
+      "text": "This natural move develops a piece and contests White’s control of d5.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "b4",
+      "text": "This is an ambitious and slightly provocative move. It fits it with White’s plan of exerting pressure against Black’s queenside, because it helps to gain space on that part of the board, but was it really more important to do this than to develop a piece? Most players have though otherwise, since 5 Nc3 is the most common move in the diagram position, but Chernin’s idea has a good deal of logic. After 5 Nc3 Nc6, White would at some stage like to play b4, but now this requires further preparation by a3 or Rb1. By playing b4 at once, White may be able to manage without one of these preparatory moves and thereby save a tempo. In addition, a psychological element was probably involved; Van der Wiel is a direct attacking player and Chernin may have guessed that Black would try to ‘refute’ White’s early pawn advance and thereby indulge in premature aggression.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "e4",
+      "text": "Van der Wiel is duly provoked and lunges forward in the centre. Such central advances have pros and cons. Here Black gains space and the e4-pawn blocks out the bishop on g2; the drawback is that the white bishop may be released by a later d3, and that the a1-h8 diagonal is weakened, which White can easily exploit by developing his other bishop to b2. My view is that this last factor outweighs the others. Moreover, to play 5...e4 is inconsistent in that Black has spent two moves occupying e5 (...d6 and ...e5) and to give this up just to give White’s knight a harmless prod seems a poor bargain. Black should have completed his kingside development by either 5...Be7 or 5...g6 and 6...Bg7, followed by castling.",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "Nd4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "d5",
+      "text": "This active move is the idea behind the previous advance, but it is already Black’s fifth pawn move, so the warning lights should have been flashing. Black could have developed his kingside by 6...c5 7 bxc5 dxc5 8 Nb3 Bd6 9 Nc3 0-0, although after 10 0-0 Nc6 11 d3 Black cannot maintain his pawn on e4 and so faces the problem of the activity of the g2-bishop, while his own light-squared bishop is restricted by the f5-pawn.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "cxd5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "Nxd5",
+      "text": "After 7...Qxd5, White has a choice of promising lines. The simple 8 Nc2 Bd6 9 Nc3 Qf7 10 0-0 0-0 11 d3 again activates the g2-bishop, while the more complicated 8 Bb2 Bxb4 9 Qa4+ Bd7 10 Qxb4 c5 11 Nc3! cxb4 12 Nxd5 Nxd5 13 f3 gives White a very promising ending. Black cannot keep his extra pawn and after 13...Nf6 14 fxe4 fxe4 (14...Nxe4 15 g4 is very awkward) 15 Nc2 Bc6 16 Bxf6 gxf6 17 Nxb4, for example, Black’s pawn-structure is seriously inferior.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "b5",
+      "text": "Now White had to do something about the doubly attacked b-pawn; this advance makes it harder for Black to develop the b8-knight.",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "Nf4",
+      "text": "Black goes in for a little piece of tactics that gives White doubled f-pawns. As we shall see, this does not help Black, but there was nothing better; for example, 8...Bc5 9 Bb2 Qf6 10 e3 Nb4 11 0-0 Nd3 (this looks good, but without any supporting pieces, the knight is not doing much on d3) 12 Bc3 0-0 13 f3! exf3 14 Bxf3 and Black is in trouble. His queen and d3-knight are exposed to attack, and while Black is rescuing these, White will amass a large lead in development.",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "gxf4",
+      "text": "Forced.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "Qxd4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "Nc3",
+      "text": "Black to play\n\nWhite meets the attack on his rook with a useful developing move.",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "Bc5",
+      "text": "Black threatens mate in one, but White can meet this with gain of tempo, whereupon the bishop proves to be tactically vulnerable on c5 (after a later Rc1 and Qc2). 10...Nd7 would have been a better chance, heading for b6. This would prevent the Bf1-c4 manoeuvre which is so important in the game.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "e3",
+      "text": "White notices.",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "Qc4",
+      "text": "This is designed to prevent castling, but once again the queen is exposed and will have to move again after a later Rc1. It is usually unwise to play aggressively with the queen early on, because the queen is subject to the attack of the enemy’s lesser pieces, and can easily be chased around with loss of time. Another consequence of the ‘rapid development’ principle is that one should not repeatedly move the same piece in the opening, thereby losing time for the development of the remaining pieces. In eleven moves, Black has so far played a bishop move, five pawn moves, three queen moves and two knight moves; moreover, this knight has now vanished from the board, so Black did not really obtain any benefit from these two moves. In other words, Black has obtained very little in terms of development for his eleven moves and is now in serious trouble. Whereas most of Black’s pieces are on their original squares, White has two pieces out and the others can move directly to active squares (by Rc1 and Qc2 or Qb3), gaining tempi in the process. Black’s central pawn advance has gained some space, but at the cost of leaving a huge vacuum behind; the a1-h8 and a2-g8 diagonals are especially weak. White, it is true, has doubled pawns, but if anything this helps him. The assessment of doubled pawns depends very much on the position. Sometimes they can be a serious weakness; in other cases they can be an asset. In this position the following factors operate in White’s favour:\n\n1) The f4-pawn actually serves to increase White’s central control by covering e5. This is especially relevant as White is set to dominate the a1-h8 diagonal. Doubled pawns resulting from a capture towards the centre are usually much better than doubled pawns resulting from a capture away from the centre – the former increase central control, whereas the latter decrease it.\n\n2) The creation of the doubled pawn has opened the g-file. Is this open file useful? Definitely, yes! After White plays Rg1, the rook will work in tandem with the dark-squared bishop on b2 to exert terrible pressure against g7. In view of Black’s unmoved queenside, castling there is a distant dream, so Black will probably castle kingside, but then the pressure on g7 will be especially dangerous. Of course, playing Rg1 means that White’s king will stay in the centre. Haven’t I said that king safety is one of the objects of opening play? Doesn’t this mean that White has sinned just as much as Black? Not at all. White’s play in this game is a good example of the way old principles are flexibly interpreted in contemporary practice. White’s centralized king would only be a weakness if Black could somehow mount an attack against it. However, the game will be speedily decided by White’s lead in development and ferocious piece activity. Black is never in a position to mount any kind of attack – it is all downhill from now on.\n\nBlack could have resisted slightly more by 11...Qd6, but after 12 Bb2 0-0 13 Rg1 his position is unenviable.",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "Bb2",
+      "text": "White’s bishop occupies the weakened diagonal.",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "O-O",
+      "text": "It is too late for 12...Nd7, as 13 Rc1 is very strong; for example, 13...0-0 14 Na4! Qd5 (14...Qxb5 15 Bf1 Qc6 16 Rg1 and 14...Qb4 15 a3 Qxb5 16 Bf1 are also hopeless for Black) 15 Bf1 (threatening 16 Bc4) 15...Kh8 16 Rg1 and Black cannot defend g7 without allowing Bc4 or leaving c5 en prise.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Rg1",
+      "text": "The pressure against g7 is especially dangerous in that White can uncover the rook with gain of tempo by playing Bf1.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "Rf7",
+      "text": "Attempting to defend g7, but the line-up of pieces on the a2-g8 diagonal can be exploited by the manoeuvre Bf1-c4. Two other lines show how White might break through sacrificially:\n\n1) 13...Qf7 14 Bxe4! fxe4 15 Nxe4 Be7 16 Qb3! Kh8 (16...Qxb3 loses to 17 Rxg7+ Kh8 18 axb3) 17 Bxg7+ Qxg7 18 Rxg7 Kxg7 19 Ke2, followed by Rg1+, and Black’s king has no chance with most of his pieces still at home.\n\n2) 13...Nd7 14 Bf1 Qf7 15 Nxe4! fxe4 16 Bc4! Qxc4 17 Rxg7+ Kh8 18 Rxh7++ Kxh7 19 Qh5+ Kg8 20 Qg6#.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Rc1",
+      "text": "White conducts the attack accurately. The lurking threat against the insecure c5-bishop restricts Black’s options. By contrast, 14 Bf1 would allow Black to limp on by 14...Qe6 15 Qa4 Qd6.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "Qb4",
+      "text": "Or 14...Bf8 (14...Qe6 loses to 15 Nxe4 fxe4 16 Rxc5) 15 Nxe4 Qxb5 16 Ng5 Rd7 (16...Qxb2 17 Bd5) 17 Be5, and Black cannot meet the threat of 18 Bf1 and 19 Bc4+, coupled with Qh5 if necessary.",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Qc2",
+      "text": "Black to play\n\nWhite defends the attacked bishop with gain of tempo, as Black must meet the threat to win a piece by 16 Nd5 Qxb5 17 Bf1, followed by 18 Qxc5.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "Bd6",
+      "text": "After 15...Bb6, the simplest win is by 16 Nd5 (16 Nxe4 fxe4 17 Bxe4 is also very good) 16...Qd6 17 Bf1 Kh8 (17...Be6 loses to 18 Nf6+ Kh8 19 Ne8) 18 Bc4 Be6 19 Bxg7+ Rxg7 20 Qb2 Qf8 21 Nxb6 axb6 22 Bxe6 with a comical situation in which Black can hardly move a piece.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Nd5",
+      "text": "The final attack begins.",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Qxb5",
+      "text": "16...Qa5 17 Bf1 is also decisive.",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Nf6+",
+      "text": "The immediate 17 Bf1 is also very good.",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Kh8",
+      "text": "Forced.",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "Bf1",
+      "text": "This long-awaited blow is decisive. After Bc4, the two bishops, operating against Black’s king on parallel diagonals, will prove too much.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "Qxb2",
+      "text": "In desperation, Black surrenders his queen. There is nothing better; for example, 18...Qc6 19 Qd1 Qb6 20 Qh5, 18...Qb6 (18...Qb4 19 Bc4 is the same) 19 Bc4 Re7 20 Nd5 (or 20 Nh5), or 18...Qa5 19 Qb3, with even greater material loss in every case.",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "Qxb2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "Rxf6",
+      "text": "Black has two minor pieces and a pawn in return for the queen, which might allow him to prolong the game for a while, except for one thing: he is still catastrophically behind in development.",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "Qxf6",
+      "text": "White finds the simplest solution to the technical task by liquidating to an ending in which he is the exchange up for nothing.",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "gxf6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "Bc4",
+      "text": "Black to play\n\nNow Black must surrender a piece.",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "Be6",
+      "text": "After 21...h6 22 Rg8+ Kh7 23 Rxc8 Black is not only the exchange down, but also hopelessly pinned on the eighth rank.",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "Bxe6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "Na6",
+      "text": "Black has avoided mate on g8, but the situation is hopeless. He is material down, White’s pieces are very active and the pawns on f5 and e4 are sitting ducks.",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "Ke2",
+      "text": "Black cannot save the f5-pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "Nc5",
+      "text": "Trying at least to defend the e4-pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "Bxf5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 48,
+      "san": "Rd8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 49,
+      "san": "Rg3",
+      "text": "25...1-0\n\nWhite threatens 26 Rh3, and after 25...Rg8 26 Rxg8+ Kxg8 27 Rg1+ Kh8, the simplest win is by 28 f3 exf3+ 29 Kxf3, followed by d4 and e4-e5, when the central pawns march through.\n\nThis was a powerful display by Chernin. Admittedly, Van der Wiel was not on his best form, but the way in which Black’s position was torn to shreds was impressive. Note in particular how White was not hamstrung by traditional ideas. When it was best to abandon the idea of castling, White did so without hesitation, knowing that his centralized king would never be a factor in the struggle. Similarly, White managed to dominate the central squares almost without using his pawns at all. Remember the bishops on the a1-h8 and a2-g8 diagonals, spearing Black’s kingside through the centre; this activity was only possible because of Black’s poor development and concessions in the centre (mainly 5...e4?!).\n\nThe lessons here are:\n\n1) Do not make too many pawn moves in the opening.\n\n2) Do not expose your queen to harassment by enemy pieces in the opening.\n\n3) Do not repeatedly move the same piece in the opening.\n\n4) Weaknesses are only relevant if they can be exploited.",
+      "isCritical": true
+    }
+  ]
+}

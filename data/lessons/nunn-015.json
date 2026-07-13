@@ -1,0 +1,529 @@
+{
+  "id": "nunn-015",
+  "book": "nunn",
+  "gameNum": 15,
+  "title": "Game 15: V. Kramnik vs V. Anand",
+  "section": "Defensive Play",
+  "players": {
+    "white": "V. Kramnik",
+    "black": "V. Anand"
+  },
+  "event": "Belgrade 1997",
+  "opening": "Queen’s Gambit Declined, Semi-Slav Defence",
+  "eco": "D43",
+  "pgnPath": "data/pgn/nunn/15.pgn",
+  "result": "0-1",
+  "moveCount": 84,
+  "annotatedMoves": 83,
+  "fullText": "Grim Defence\n\nIn our previous examples, we have dealt mainly with cases in which there was a balance between attack and defence, or between attack and counterattack – in other words the defender was not objectively worse. In an ideal world, this would always be the case, but as we all know, it is sometimes necessary to defend positions that are objectively inferior. Of such cases, the most unpleasant are those in which there is only a distant prospect of counterplay. Then one is reduced to trying to anticipate the opponent’s threats, and fending them off as they arrive. However, even then one should not give up hope. Of course, since the position is actually inferior, if the opponent plays accurately then he will probably win, but one should certainly not make it easy. The first rule is not to become depressed; perhaps the position is lost, but one should resolve to put every possible obstruction in the opponent’s path. Poor defence is quite common, and your opponent, unused to a resolute rearguard action, will probably be anticipating a quick victory. When it does not come, he may panic and then the errors can creep in. Another good idea is, if possible, to offer your opponent plenty of choices. This will cause him to consume time on the clock and increase the chances of confusing him.\n\nIn the following game, Anand puts these principles into action so effectively that even such a strong player as Kramnik loses his way in the complications.\n\nV. Kramnik – V. Anand\n\nBelgrade 1997\n\nQueen’s Gambit Declined, Semi-Slav Defence\n\n1 Nf3\n\n1...Nf6\n\n2 c4\n\nFor comments on the moves up to here, see Game 11.\n\n2...e6\n\nWith this move, Black indicates that he will probably aim for central play on the light squares, based around the move ...d5.\n\n3 Nc3\n\nThe particular move-order chosen in the opening often depends as much on psychology as on objective chess considerations. Of course, 3 d4 is a perfectly playable alternative, arriving at a common position that is more often reached by 1 d4 Nf6 2 c4 e6 3 Nf3. However, this allows Black to continue with 3...b6 (the Queen’s Indian Defence) or 3...Bb4+ (the Bogo-Indian Defence). Both these popular openings are regarded as being very solid for Black, and White has to work hard to prove even a slight advantage against them. Kramnik’s move is quite cunning; he delays d4, and so prevents Black from adopting one of these ultra-solid defences. Black can, of course, play 3...b6 or 3...Bb4 even after 3 Nc3, but White is then by no means committed to playing d4, and indeed many players believe that White has better chances of an advantage without d4.\n\n3...d5\n\nAnand decides to play directly in the centre. Black now threatens ...d4, so White’s options are limited to the text-move, transposing to a standard Queen’s Gambit position, or 4 e3.\n\n4 d4\n\nSo, by a slightly circuitous route, we have arrived at one of those classical opening positions which have been played in top-level chess for over a century. Despite the enormous amount of practical experience with this position, there are still new discoveries to be made.\n\n4...c6\n\nBlack adopts the Semi-Slav pawn-structure, which we have already seen in Game 2 (although in that case White had not played Nc3). The pawns on c6 and e6 provide exceptionally solid support for the d5-pawn, allowing Black to develop by ...Bd6, ...Nbd7 and ...0-0. Curiously, the Semi-Slav had been one of Kramnik’s favourite openings for many years, so Anand’s choice of opening was a little provocative.\n\nBlack’s main alternatives are 4...Be7 and 4...Nbd7, which lead to the Orthodox Queen’s Gambit.\n\n5 Bg5\n\nThis is the most aggressive system for White, and the only one which really disrupts Black’s plan of development (as outlined in the previous note). The main alternative is 5 e3, which, although relatively quiet, can still give rise to some complicated positions.\n\n5...h6\n\nThis move introduces the Moscow Variation. The main alternatives are 5...Nbd7, which transposes into lines of the Orthodox Queen’s Gambit, and 5...dxc4, which leads to the fearsomely complicated Botvinnik System after 6 e4 b5 7 e5 h6 8 Bh4.\n\n6 Bh4\n\nFor many years, 6 Bxf6 Qxf6 7 e3 was held to be White’s best line against the Moscow Variation. It is certainly true that White obtains a considerable lead in development, especially as Black’s queen will probably have to move again at some stage. However, Black also has a major asset in the shape of the two bishops. Although the light-squared bishop is currently rather inactive, given time Black will bring it into play. Therefore White has to make the most of his temporary initiative, or else Black will complete his development and be at least equal. It turns out that it is not so easy for White to achieve this; Black’s solid pawn-structure operates in his favour, making it hard for White to open the game up quickly. Moreover, opening up the position also helps activate Black’s bishop-pair, so aggressive play by White can prove double-edged. As a result of White’s failures with 6 Bxf6, the more dynamic text-move became popular. While it offers White good attacking possibilities, it is also riskier as Black can win a pawn.\n\n6...dxc4\n\nBlack can still reach a normal Queen’s Gambit by 6...Be7 or 6...Nbd7, but there is no doubt that the text-move is the critical test of White’s opening. Black grabs a pawn and intends to keep it!\n\n7 e4\n\nThe most natural move. Black’s capture on c4 may net him a pawn, but it does give White a relatively free hand in the centre. The main alternative is 7 a4, to make it harder for Black to keep his extra pawn with ...b5. However, it is worth noting that even this does not guarantee that White will regain his pawn, since Black may continue 7...Bb4 8 e3 b5.\n\n7...g5\n\nBlack can transpose to the Botvinnik System by 7...b5 (see the note to Black’s 5th move), but given that Black passed by the chance to reach the Botvinnik at move five, it is unlikely that he will change his mind now.\n\n8 Bg3\n\n8...b5\n\nThe only reasonable move. Black has made several concessions, such as surrendering the centre and weakening his kingside, so he must keep the extra pawn to justify his play.\n\n9 Be2\n\nOnce again, I must return to the theme of modern gambit play (see also Games 5 and 13). Many contemporary gambits are not based on the idea of launching a quick attack against the enemy king. This is just such a case since White’s compensation lies mainly in positional factors. Black has compromised his pawn-structure on both wings, and has given White a firm grip on the centre. It is true that since Black’s king has no obviously safe spot, White’s compensation may evolve into a direct attack on the king, but that is a consequence of the compensation rather than its primary element. It follows that White has no need to hurry and he therefore quietly completes his development, while leaving Black to face the problem of coordinating his position.\n\n9...Bb7\n\nThis is the most popular move. It is natural for Black to develop his queenside pieces first, because it is hard to imagine them going anywhere apart from b7 and d7, so Black is not committing himself unduly. In contrast, the best square for the f8-bishop is not yet clear, so for the moment Black keeps it at home. Black should not invert his moves, because 9...Nbd7 allows a powerful central breakthrough by 10 d5!, exploiting the weak c6-square.\n\n10 e5?!\n\nWhite has a number of dangerous attacking ideas, and it is not clear which is best. The flexible 10 0-0 is popular, while the direct 10 h4 g4 11 Ne5 h5 12 0-0 also gives White a dangerous initiative. My own view is that this pawn sacrifice is quite unpleasant for Black, but perhaps that is because I am an attacking player and so naturally tend to prefer the white side. A strong defensive player might take the opposite point of view – chess is not an exact science and there is plenty of room for personal differences.\n\nKramnik’s move aims for a more rapid attack than the (relatively!) positional 10 0-0. Playing e5 takes away a useful square from the f3-knight, and blocks in the g3-bishop, so in order to justify it White has to follow up energetically. It seems to me, though, that this wasn’t really necessary and White could have obtained a promising initiative by less committal methods.\n\n10...Nh5\n\nThis invites White to make a piece sacrifice. The alternative is 10...Nd5; after 11 h4 g4 12 Nd2 the position is unclear – White has enough compensation for the pawn, but it is not clear whether he can claim an advantage.\n\n11 a4?!\n\nWhite could play the immediate sacrifice with 11 Nxg5 Nxg3 12 Nxf7 Kxf7 13 fxg3 Kg8 14 0-0 Nd7 (14...Na6? 15 Ne4 Bg7 16 Bh5! gives White a decisive attack), giving the same position as in the game, but without ...a6 and a4. This difference favours Black since, as we shall see, the possibility of capturing on b5 is an important option for White. The immediate sacrifice may be evaluated as unclear, whereas the sacrifice with ...a6 and a4 favours White.\n\nThe text-move aims to induce ...a6, in order to reach the more favourable form of the sacrifice. However, in playing a4 Kramnik gives Black the chance to avoid the sacrifice altogether.\n\n11...a6?\n\nAnand falls in with Kramnik’s plan and soon finds himself in a critical position. There were two reasonable alternatives:\n\n1) 11...Nxg3 rules out the sacrifice on g5, but after 12 hxg3 (12 fxg3 a6 is now fine for Black) 12...Bb4 13 Kf1, intending 14 Ne4, White has good compensation for the pawn.\n\n2) 11...b4! is the safest option. After 12 Ne4 c5 (12...g4 13 Nfd2 Qxd4 14 Bxc4 Nxg3 15 hxg3 Nd7 is more double-edged, but may be playable) 13 Nxc5 Bxc5 14 dxc5 Qxd1+ 15 Rxd1 Nd7 the endgame is fine for Black.\n\n12 Nxg5!\n\nKramnik starts a very dangerous attack.\n\n12...Nxg3\n\nForced, or else White regains the pawn with a large positional advantage.\n\n13 Nxf7\n\nForcing the king onto the f-file, which is about to be opened.\n\n13...Kxf7\n\n14 fxg3\n\nOf course, White takes this way so as operate with his rook on the open f-file. In return for the piece, White has just one pawn, but Black clearly has many problems to solve. Five of his pieces remain on their original squares, and all White’s pieces except the a1-rook are ready to join in the attack. A particular worry for Black is that the f6- and f7-squares are weak, thus providing potential entry points for a white rook. If one adds in the possibilities of Bh5, Qg4 and Ne4 then things look ominous for Black. There is no doubt that Black is worse here, and moreover the position is of a type which is very difficult to play in practice and would certainly have proved too much for most players. The position is particularly complicated because both sides have several reasonable alternatives at virtually every move and because the unbalanced situation makes it hard to assess any position accurately. One should view the ensuing inaccuracies in the light of these complexities – I am sure that only a few players in the world could have done so well as Anand and Kramnik.\n\nHaving landed himself in this awkward position, Anand defends with great accuracy over the next few moves. In a grim position such as this, the basic rules are not to give up, and to put the maximum difficulty in the way of the opponent by not allowing him a clear-cut win.\n\n14...Kg8\n\nAlready, on the very first move after the sacrifice, Black faces a difficult choice. Should the king try to flee to the queenside, or hide on the kingside? The former would provide the best solution to Black’s problems, but it involves giving up the e-pawn; after 14...Ke8 15 0-0 Kd7 16 Rf7+ Be7 (or 16...Kc8 17 Bg4 Qe8 18 Rf6 and e6 falls) 17 Bg4 Kc7 18 Bxe6 Rf8 19 Rg7 Nd7 (19...Kb6 20 d5 Bc5+ 21 Kh1 is very good for White, e.g. 21...cxd5 22 a5+ Ka7 23 Bxd5) 20 Qh5 Kb8 21 Rd1 White has two pawns and very strong pressure for the piece. At the very least, White can expect to get a third pawn (on h6) while retaining many of his threats.\n\n14...Nd7 is also dubious, because after 15 Bh5+ Black cannot move to g8 and so must put his king on an inferior square.\n\nThe various possibilities are:\n\n1) 15...Kg8?? loses to 16 Qg4+ Qg5 17 Qxe6+.\n\n2) 15...Ke7 16 0-0 Nxe5 (16...Qb6 17 a5 Qa7 18 Qg4 Nxe5 19 Qe4 Nd7 20 Rad1 is clearly better for White) 17 dxe5 Qxd1 18 Raxd1 Rh7 19 Ne4 and White wins.\n\n3) 15...Kg7 is relatively best, but now Black will have to waste time moving his king again to free the h8-rook. After 16 0-0 (16 Qg4+ Qg5 17 Qxe6 Qxh5 18 Qxd7+ Qf7 19 Qg4+ Qg6 is only a draw) 16...Rh7 White can try:\n\n3a) 17 Bg6 Kxg6 18 Qg4+ Qg5 19 Qxe6+ Kg7 is perpetual check.\n\n3b) 17 Rf7+ Kh8 18 Rxh7+ Kxh7 19 Qc2+ Kh8 20 Rf1 Bg7 (20...Qg5 21 Rf7 Bg7 22 Qe2 Qc1+ 23 Rf1 Qg5 24 Ne4 Qd8 25 Nd6 is good for White) 21 Rf7 Nf8 is unclear.\n\n3c) 17 Ne2! is the most unpleasant move, targeting both e6 and g6. After, for example, 17...Kh8 18 Nf4 Bb4 19 Bg6 Re7 20 Qh5 Bd2 21 Bf7! White has a clear advantage.\n\n15 0-0\n\nIf Black has to surrender his e6-pawn, then White will certainly have excellent compensation for the piece, so holding on to this key pawn is his first task.\n\n15...Nd7\n\nBlack wants to meet Bg4 by ...Qe7 and Bh5 by ...Rh7. Since these defences are already in place, he can afford to spend a tempo developing a piece, at the same time covering the sensitive f6-square. Instead, 15...c5!? is premature. Then White can try:\n\n1) 16 Qc2 Rh7 is unclear.\n\n2) 16 Bg4 Qxd4+ (16...Bc8 17 d5 b4 18 Ne4 Bg7 19 Nd6 is good for White) 17 Qxd4 cxd4 18 Bxe6+ Kh7 19 Rf7+ (19 Nd5 Bg7) 19...Bg7 20 Bf5+ Kg8 21 Rxb7 dxc3 22 bxc3 Nc6 23 axb5 Nxe5 24 bxa6 gives White some advantage.\n\n3) 16 d5! exd5 17 Bf3 Bg7 18 Bxd5+ Bxd5 19 Nxd5 Rh7 20 Nc7 Qxc7 21 Qd5+ Kh8 22 Rf7 Qc8 23 Qxa8 and Black is in serious trouble.\n\nIn the long run Black would certainly like to play ...c5 to activate the otherwise dead bishop on b7, but he must first fend off White’s immediate threats.\n\n16 Bg4\n\nWhite can force a draw by 16 Bxc4 bxc4 17 Qg4+ Bg7 18 Qxe6+ Kh7 19 Qf5+, but not surprisingly Kramnik goes for more.\n\n16 Bh5 Rh7 17 Qg4+ Kh8 18 Qxe6 wins the e6-pawn, but at the cost of dissipating White’s initiative. Black would then have the chance to activate his bishop by 18...c5 with good prospects, since 19 d5 Re7 costs White the e5-pawn.\n\n16...Qe7\n\nOnce again, Black cannot afford to jettison the e6-pawn, since 16...Rh7 17 Bxe6+ Kh8 18 Qh5 leaves Black badly tied up, while White now has two pawns for the piece.\n\n17 Ne4?!\n\nThis is a natural move, since d6 is now available for the knight, but it is probably inaccurate. 17 Qc2! is a dangerous alternative, after which Black would face serious difficulties. 17...Rh7 is bad, since after 18 Qg6+ Kh8 19 Bxe6 Qg5 20 Qe4 White avoids the exchange of queens, and without his e6-pawn Black is bound to be struggling. One line might be 20...Rb8 21 Rf5 Qe7 22 Bxd7 Qxd7 23 Raf1 Kg8 24 e6 Qd6 25 Rf7 Bg7 26 Kh1, when White has a winning position. Other moves are little better; for example, 17...Bg7 18 Qg6 Re8 19 Ne4 or 17...Qe8 (preventing Qg6+) 18 Ne4! (now that the white queen is not on d1, White cannot reply Bh5, but this alternative is very strong) 18...Rh7 19 Rf6 and again the e6-pawn falls, since 19...Re7? loses to 20 Nd6.\n\n17...Rh7?!\n\nAnand rejected 17...c5 but it might have been the best move. After 18 Nd6 Black has:\n\n1) 18...cxd4? 19 Rf7! (19 Nxb7 Nxe5! 20 Qxd4 Bg7 21 Qe4 Nxg4 22 Qxg4 Qxb7 23 Qxe6+ Kh7 24 Rf7 Qc8 is probably a draw) 19...Qxf7 20 Nxf7 Kxf7 21 Bf3! Bd5 22 Bxd5 exd5 23 Qf3+ Ke6 (23...Ke7 24 Qxd5) 24 Rf1 and White’s attack is too strong.\n\n2) 18...Bd5 19 Bf3! (19 Rf7 Qd8! 20 Qc2 Qg5 is unclear) and now:\n\n2a) 19...Bg7? 20 Nf5! Qe8 21 Bh5 Qd8 22 Nxg7 Kxg7 23 Rf7+ Kg8 24 h4 Rh7 25 Qg4+ Kh8 26 Rxh7+ Kxh7 27 Qg6+ Kh8 28 Qxh6+ Kg8 29 Bf7+! Kxf7 30 Rf1+ Kg8 31 Qg6+ Kh8 32 Rf7 mating.\n\n2b) 19...cxd4?! 20 Bxd5 exd5 21 Qg4+ Bg7 22 Rf7 Qxe5 23 Qxd7 and although White remains a pawn down, his attack is a far more important factor; for example, 23...Bf6 (23...d3 loses to 24 Re7 Qd4+ 25 Kh1 d2 26 Rd1) 24 Rxf6 Qxf6 25 Rf1 Qg6 26 Nc8 and White is winning.\n\n2c) 19...Rh7! 20 Bxd5 (20 dxc5 Bxf3 21 Qxf3 Rb8 is fine for Black) 20...exd5 21 Qg4+ and now:\n\n2c1) 21...Kh8 22 Qg6 Rg7 23 Nf7+ Kg8 24 Nxh6+ Kh8 25 Qc6 gives White a clear advantage.\n\n2c2) 21...Bg7 22 Rf7 Nxe5 23 dxe5 Qxe5 24 Qg6 Qg5 25 Qe6 Bd4+ 26 Kh1 Qe5 27 Qg6+ Rg7 28 Rxg7+ Qxg7 29 Qe6+ Kh7 30 Qxd5 may be slightly better for White.\n\n2c3) 21...Rg7! is safest. After 22 Qh3 Rh7 White seems to have nothing better than to repeat moves.\n\n18 Nd6\n\n18...Rb8\n\nAt this stage White thought a long time, and made an imaginative but incorrect choice.\n\n19 b4?\n\nThis is the wrong move. Kramnik reasons that Black’s only way to free himself is to play ...c5, so he attempts to clamp down on this move. It is certainly an unexpected move, but in fact it allows Black to slip out of the net. In a situation where one has a strong bind, it is often hard to decide between slowly trying to increase the pressure and cashing in with immediate action. Here White should have chosen the latter course.\n\nPerhaps the main defect of the text-move is that it doesn’t succeed in its main ambition. Black can often play ...c5 despite White’s pawn grip, since the activation of the light-squared bishop is usually worth more than a pawn. Moreover, if White meets ...c5 by bxc5 then Black obtains connected passed pawns, while White’s pawn-chain e5-d4-c5 can be blockaded on the light squares.\n\nThe correct choice was 19 axb5! cxb5 (if 19...axb5, then 20 Ra7 is good for White) 20 Nxb7 Rxb7 21 Rxa6 Rb6 (21...Nb6 22 Rf6) 22 Rxb6 Nxb6 23 Rf6 with a very unpleasant position for Black, since White obtains a third pawn for the piece and acquires two connected passed pawns in the centre of the board. The game Ward-Grabliauskas, Copenhagen 1998, played shortly after Kramnik-Anand, tested this assessment. Black was crushed after 23...Qd8 (23...Kh8 24 Bxe6! Bg7 25 Rg6 leaves Black badly tied up) 24 Bxe6+ Kh8 25 Qf3 (25 Qg4 is also good) 25...Bg7 26 Rf4 h5 27 h4 Bh6 28 Rf5 Qxd4+ 29 Kh2 Qd8 30 Rxh5 Nd7 31 Qd1 Qe8 32 Bxd7 Rxd7 33 Rxh6+ Kg7 34 Rd6 1-0. This line is a good example of how the addition of a4 and ...a6 helps White.\n\n19...h5!\n\nThis bid for space is essential. If White manages to play Bh5, then Black will be virtually paralysed. Of course, 19...cxb3 is bad since 20 Qxb3 wins the e6-pawn.\n\n20 Bh3\n\nWhite keeps his bishop trained on the weak e6-pawn. After 20 Bxh5 Qg5, followed by ...Bxd6, much of White’s pressure disappears, while 20 Bf3 h4 gives Black a little freedom.\n\n20...Bh6\n\nAt last, one of Black’s bishops shows signs of life. This is definitely a step in the right direction, but accurate play is still necessary.\n\n21 Kh1\n\nPreventing ...Be3+, and therefore threatening to take on h5.\n\n21...Bg5\n\nDefending h5, and taking the f4- and f6-squares away from the f1-rook. Now that f6 is defended, Black might be able to disentangle his position further by ...Nf8, incidentally providing much-needed support for the e6-pawn.\n\n22 Qc2\n\nThis is White’s idea; he intends to zigzag his queen to e4 by alternately threatening Qg6+ and Qxh5. After 22 Ra3 c5! 23 dxc5 (23 Nxb7 is met by 23...cxb4, while 23 bxc5 Bd5 secures the e6-pawn, after which Black’s connected passed pawns become very strong) 23...Bd5 24 axb5 axb5 25 Bf5 Rg7 26 Ra7 Rf8 Black is much better.\n\n22...Rg7\n\nBlack stops the check on g6. 22...Nf8 is also playable; for example, 23 Ra3 (23 Rf2 Be3 24 Rf6 Bxd4 gives White nothing, while 23 axb5 axb5 24 Ra7 c5! 25 Rxb7 Rxb7 26 Nxb7 Rf7! favours Black) 23...c5 24 dxc5 Bd5 25 axb5 axb5 26 Ra6. However, Anand did not like to block f8, because he intends to offer the exchange of rooks by ...Rf8.\n\n23 Qe2\n\nNow White attacks the h5-pawn.\n\n23...Ba8!\n\nThe strongest move. Black frees his rook to move to f8, and preserves his bishop ready for the eventual breakout with ...c5. This is in fact the last passive move Black plays in the game. Move by move, the circumstances for a breakout have been gradually improving – Black has organized his kingside pieces and activated his dark-squared bishop, while White has made scant progress. 23...Rh7 is also playable, although less strong than the text-move since, if nothing else, White can simply repeat moves.\n\n24 Qxh5\n\nWhite gets another pawn for the piece.\n\n24...Rf8\n\nThe natural move, but White has what appears to be an awkward reply.\n\n25 Ne4\n\nThis looks very unpleasant, because there is a nasty threat of 26 Nxg5 Rxg5 27 Qh6 (27 Bxe6+ is also possible), when the e6-pawn falls with disastrous consequences. Since the g5-bishop is almost trapped, it seems hard to counter this threat.\n\n25...c5!!\n\nA brilliant idea, the point of which is revealed next move. Black cannot play 25...Be3 as 26 Rxf8+ Kxf8 27 Qh8+ wins at once.\n\n26 Nxg5\n\nWhite, of course, snaps off the bishop.\n\n26...Bd5!\n\nRemarkable. Black simply ignores the fact that White has taken a piece and focuses on the real priority: supporting the crucial e6-pawn. 26...Rxg5 is bad as 27 Bxe6+ Kg7 28 Qh4 leaves Black in a deadly pin, and White wins after 28...cxd4 29 Bxd7 Rxf1+ 30 Rxf1 Rxe5 Qxe5 31 Be6!.\n\nAfter the text-move, Black is genuinely threatening to take the knight. White decides simply to retreat it, but then Black acquires two connected passed pawns on the queenside.\n\n27 Nf3?!\n\nThis passive move is hopeless, but the alternatives all leave Black with a clear advantage: 27 Bxe6+ (27 Rxf8+ Nxf8 28 Bxe6+ Nxe6 29 Nxe6 Qxe6 is also very good for Black) 27...Bxe6 28 Rxf8+ (28 Nxe6 Qxe6 29 bxc5 b4) 28...Nxf8 29 Ne4 Rh7 30 Qd1 (30 Qe2 cxd4 31 Nf6+ Kh8 and again Black comes out on top) 30...Rxh2+! 31 Kxh2 Qh7+ 32 Kg1 Qxe4 33 bxc5 Bd5 34 Qd2 Ne6 and Black should win.\n\n27...cxb4\n\nThe material balance has shifted so that instead of being a piece down, White is now a pawn up. However, everything else has changed in Black’s favour. All his pieces are now on active squares, he has two well-advanced connected passed pawns and White’s pieces (especially his queen and the h3-bishop) are out of play.\n\n28 axb5\n\n28...axb5\n\n29 Nh4\n\nHoping to play Ng6, but this threat is easily countered.\n\n29...Qg5!\n\nIf the queens are exchanged then, thanks to his offside minor pieces, White has no hope of halting the pawns. Thus, White has to duck the exchange, costing more time.\n\n30 Rxf8+\n\n30...Nxf8\n\n31 Qe8\n\n31...Rf7\n\nStopping Rf1 and leaving White without a major threat in sight.\n\n32 Nf3\n\n32 Qxb5 b3 is also losing for White.\n\n32...Qg6\n\nBy now there are several routes to victory, such as 32...Qe3 33 Bg4 b3 34 Bh5 Rxf3 or 32...Qh6 33 Bg4 c3. The text-move threatens 33...Rxf3, so White must move his queen yet again.\n\n33 Qxb5\n\n33...b3\n\n34 Rf1\n\nOr 34 Qb4 Rb7 and wins.\n\n34...Qd3\n\n35 Kg1\n\n35...Qe3+\n\n36 Kh1\n\n36...c3\n\nAvoiding the last trap: 36...Rb7?? 37 Bxe6+!.\n\n37 Bxe6\n\nDesperation.\n\n37...Bxe6\n\n38 d5\n\n38...Rxf3!\n\n39 gxf3\n\n39 Rxf3 c2 40 Qf1 Qxf3 41 gxf3 b2 is also dead lost for White.\n\n39...Bh3\n\n40 Qc4\n\n40...Bxf1\n\n41 Qg4+\n\n41...Kh7\n\n42 e6\n\n42...Ng6\n\n0-1\n\nThis was an unusually complicated game. Starting with a double-edged opening, Kramnik soon had the chance to sacrifice a piece for a very dangerous attack. Objectively speaking, Black was in trouble. However, Anand made sure that Kramnik never had a straightforward win. Perhaps Kramnik was hoping for too much from the position, because he turned down some promising lines and tried to set up a complete bind. However, there was still room for Anand to wriggle and slowly, bit by bit, Black started to free his position. Kramnik’s attack was still not dead, however, and it required an imaginative piece sacrifice by Anand before he could definitely take over the initiative. By this stage, White’s attack had evaporated and the rest was slaughter.\n\nThe lessons here are:\n\n1) In an ultra-sharp opening, it only takes one slip to end up in serious trouble.\n\n2) Totally unexpected moves can have a great psychological impact on the opponent. However, it helps if they are also good.\n\n3) If you have extra material in return for strong pressure, you should consider returning the material to free your position and take over the initiative.\n\n4) Never give up.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Grim Defence\n\nIn our previous examples, we have dealt mainly with cases in which there was a balance between attack and defence, or between attack and counterattack – in other words the defender was not objectively worse. In an ideal world, this would always be the case, but as we all know, it is sometimes necessary to defend positions that are objectively inferior. Of such cases, the most unpleasant are those in which there is only a distant prospect of counterplay. Then one is reduced to trying to anticipate the opponent’s threats, and fending them off as they arrive. However, even then one should not give up hope. Of course, since the position is actually inferior, if the opponent plays accurately then he will probably win, but one should certainly not make it easy. The first rule is not to become depressed; perhaps the position is lost, but one should resolve to put every possible obstruction in the opponent’s path. Poor defence is quite common, and your opponent, unused to a resolute rearguard action, will probably be anticipating a quick victory. When it does not come, he may panic and then the errors can creep in. Another good idea is, if possible, to offer your opponent plenty of choices. This will cause him to consume time on the clock and increase the chances of confusing him.\n\nIn the following game, Anand puts these principles into action so effectively that even such a strong player as Kramnik loses his way in the complications.\n\nV. Kramnik – V. Anand\n\nBelgrade 1997\n\nQueen’s Gambit Declined, Semi-Slav Defence"
+    },
+    {
+      "ply": 1,
+      "san": "Nf3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "Nf6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "c4",
+      "text": "For comments on the moves up to here, see Game 11.",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "e6",
+      "text": "With this move, Black indicates that he will probably aim for central play on the light squares, based around the move ...d5.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "Nc3",
+      "text": "The particular move-order chosen in the opening often depends as much on psychology as on objective chess considerations. Of course, 3 d4 is a perfectly playable alternative, arriving at a common position that is more often reached by 1 d4 Nf6 2 c4 e6 3 Nf3. However, this allows Black to continue with 3...b6 (the Queen’s Indian Defence) or 3...Bb4+ (the Bogo-Indian Defence). Both these popular openings are regarded as being very solid for Black, and White has to work hard to prove even a slight advantage against them. Kramnik’s move is quite cunning; he delays d4, and so prevents Black from adopting one of these ultra-solid defences. Black can, of course, play 3...b6 or 3...Bb4 even after 3 Nc3, but White is then by no means committed to playing d4, and indeed many players believe that White has better chances of an advantage without d4.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "d5",
+      "text": "Anand decides to play directly in the centre. Black now threatens ...d4, so White’s options are limited to the text-move, transposing to a standard Queen’s Gambit position, or 4 e3.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "d4",
+      "text": "So, by a slightly circuitous route, we have arrived at one of those classical opening positions which have been played in top-level chess for over a century. Despite the enormous amount of practical experience with this position, there are still new discoveries to be made.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "c6",
+      "text": "Black adopts the Semi-Slav pawn-structure, which we have already seen in Game 2 (although in that case White had not played Nc3). The pawns on c6 and e6 provide exceptionally solid support for the d5-pawn, allowing Black to develop by ...Bd6, ...Nbd7 and ...0-0. Curiously, the Semi-Slav had been one of Kramnik’s favourite openings for many years, so Anand’s choice of opening was a little provocative.\n\nBlack’s main alternatives are 4...Be7 and 4...Nbd7, which lead to the Orthodox Queen’s Gambit.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "Bg5",
+      "text": "This is the most aggressive system for White, and the only one which really disrupts Black’s plan of development (as outlined in the previous note). The main alternative is 5 e3, which, although relatively quiet, can still give rise to some complicated positions.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "h6",
+      "text": "This move introduces the Moscow Variation. The main alternatives are 5...Nbd7, which transposes into lines of the Orthodox Queen’s Gambit, and 5...dxc4, which leads to the fearsomely complicated Botvinnik System after 6 e4 b5 7 e5 h6 8 Bh4.",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "Bh4",
+      "text": "For many years, 6 Bxf6 Qxf6 7 e3 was held to be White’s best line against the Moscow Variation. It is certainly true that White obtains a considerable lead in development, especially as Black’s queen will probably have to move again at some stage. However, Black also has a major asset in the shape of the two bishops. Although the light-squared bishop is currently rather inactive, given time Black will bring it into play. Therefore White has to make the most of his temporary initiative, or else Black will complete his development and be at least equal. It turns out that it is not so easy for White to achieve this; Black’s solid pawn-structure operates in his favour, making it hard for White to open the game up quickly. Moreover, opening up the position also helps activate Black’s bishop-pair, so aggressive play by White can prove double-edged. As a result of White’s failures with 6 Bxf6, the more dynamic text-move became popular. While it offers White good attacking possibilities, it is also riskier as Black can win a pawn.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "dxc4",
+      "text": "Black can still reach a normal Queen’s Gambit by 6...Be7 or 6...Nbd7, but there is no doubt that the text-move is the critical test of White’s opening. Black grabs a pawn and intends to keep it!",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "e4",
+      "text": "The most natural move. Black’s capture on c4 may net him a pawn, but it does give White a relatively free hand in the centre. The main alternative is 7 a4, to make it harder for Black to keep his extra pawn with ...b5. However, it is worth noting that even this does not guarantee that White will regain his pawn, since Black may continue 7...Bb4 8 e3 b5.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "g5",
+      "text": "Black can transpose to the Botvinnik System by 7...b5 (see the note to Black’s 5th move), but given that Black passed by the chance to reach the Botvinnik at move five, it is unlikely that he will change his mind now.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "Bg3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "b5",
+      "text": "White to play\n\nThe only reasonable move. Black has made several concessions, such as surrendering the centre and weakening his kingside, so he must keep the extra pawn to justify his play.",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "Be2",
+      "text": "Once again, I must return to the theme of modern gambit play (see also Games 5 and 13). Many contemporary gambits are not based on the idea of launching a quick attack against the enemy king. This is just such a case since White’s compensation lies mainly in positional factors. Black has compromised his pawn-structure on both wings, and has given White a firm grip on the centre. It is true that since Black’s king has no obviously safe spot, White’s compensation may evolve into a direct attack on the king, but that is a consequence of the compensation rather than its primary element. It follows that White has no need to hurry and he therefore quietly completes his development, while leaving Black to face the problem of coordinating his position.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "Bb7",
+      "text": "This is the most popular move. It is natural for Black to develop his queenside pieces first, because it is hard to imagine them going anywhere apart from b7 and d7, so Black is not committing himself unduly. In contrast, the best square for the f8-bishop is not yet clear, so for the moment Black keeps it at home. Black should not invert his moves, because 9...Nbd7 allows a powerful central breakthrough by 10 d5!, exploiting the weak c6-square.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "e5",
+      "text": "White has a number of dangerous attacking ideas, and it is not clear which is best. The flexible 10 0-0 is popular, while the direct 10 h4 g4 11 Ne5 h5 12 0-0 also gives White a dangerous initiative. My own view is that this pawn sacrifice is quite unpleasant for Black, but perhaps that is because I am an attacking player and so naturally tend to prefer the white side. A strong defensive player might take the opposite point of view – chess is not an exact science and there is plenty of room for personal differences.\n\nBlack to play\n\nKramnik’s move aims for a more rapid attack than the (relatively!) positional 10 0-0. Playing e5 takes away a useful square from the f3-knight, and blocks in the g3-bishop, so in order to justify it White has to follow up energetically. It seems to me, though, that this wasn’t really necessary and White could have obtained a promising initiative by less committal methods.",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "Nh5",
+      "text": "This invites White to make a piece sacrifice. The alternative is 10...Nd5; after 11 h4 g4 12 Nd2 the position is unclear – White has enough compensation for the pawn, but it is not clear whether he can claim an advantage.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "a4",
+      "text": "White could play the immediate sacrifice with 11 Nxg5 Nxg3 12 Nxf7 Kxf7 13 fxg3 Kg8 14 0-0 Nd7 (14...Na6? 15 Ne4 Bg7 16 Bh5! gives White a decisive attack), giving the same position as in the game, but without ...a6 and a4. This difference favours Black since, as we shall see, the possibility of capturing on b5 is an important option for White. The immediate sacrifice may be evaluated as unclear, whereas the sacrifice with ...a6 and a4 favours White.\n\nBlack to play\n\nThe text-move aims to induce ...a6, in order to reach the more favourable form of the sacrifice. However, in playing a4 Kramnik gives Black the chance to avoid the sacrifice altogether.",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "a6",
+      "text": "Anand falls in with Kramnik’s plan and soon finds himself in a critical position. There were two reasonable alternatives:\n\n1) 11...Nxg3 rules out the sacrifice on g5, but after 12 hxg3 (12 fxg3 a6 is now fine for Black) 12...Bb4 13 Kf1, intending 14 Ne4, White has good compensation for the pawn.\n\n2) 11...b4! is the safest option. After 12 Ne4 c5 (12...g4 13 Nfd2 Qxd4 14 Bxc4 Nxg3 15 hxg3 Nd7 is more double-edged, but may be playable) 13 Nxc5 Bxc5 14 dxc5 Qxd1+ 15 Rxd1 Nd7 the endgame is fine for Black.",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "Nxg5",
+      "text": "Kramnik starts a very dangerous attack.",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "Nxg3",
+      "text": "Forced, or else White regains the pawn with a large positional advantage.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Nxf7",
+      "text": "Forcing the king onto the f-file, which is about to be opened.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "Kxf7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "fxg3",
+      "text": "Black to play\n\nOf course, White takes this way so as operate with his rook on the open f-file. In return for the piece, White has just one pawn, but Black clearly has many problems to solve. Five of his pieces remain on their original squares, and all White’s pieces except the a1-rook are ready to join in the attack. A particular worry for Black is that the f6- and f7-squares are weak, thus providing potential entry points for a white rook. If one adds in the possibilities of Bh5, Qg4 and Ne4 then things look ominous for Black. There is no doubt that Black is worse here, and moreover the position is of a type which is very difficult to play in practice and would certainly have proved too much for most players. The position is particularly complicated because both sides have several reasonable alternatives at virtually every move and because the unbalanced situation makes it hard to assess any position accurately. One should view the ensuing inaccuracies in the light of these complexities – I am sure that only a few players in the world could have done so well as Anand and Kramnik.\n\nHaving landed himself in this awkward position, Anand defends with great accuracy over the next few moves. In a grim position such as this, the basic rules are not to give up, and to put the maximum difficulty in the way of the opponent by not allowing him a clear-cut win.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "Kg8",
+      "text": "Already, on the very first move after the sacrifice, Black faces a difficult choice. Should the king try to flee to the queenside, or hide on the kingside? The former would provide the best solution to Black’s problems, but it involves giving up the e-pawn; after 14...Ke8 15 0-0 Kd7 16 Rf7+ Be7 (or 16...Kc8 17 Bg4 Qe8 18 Rf6 and e6 falls) 17 Bg4 Kc7 18 Bxe6 Rf8 19 Rg7 Nd7 (19...Kb6 20 d5 Bc5+ 21 Kh1 is very good for White, e.g. 21...cxd5 22 a5+ Ka7 23 Bxd5) 20 Qh5 Kb8 21 Rd1 White has two pawns and very strong pressure for the piece. At the very least, White can expect to get a third pawn (on h6) while retaining many of his threats.\n\n14...Nd7 is also dubious, because after 15 Bh5+ Black cannot move to g8 and so must put his king on an inferior square.\n\nBlack to play\n\nThe various possibilities are:\n\n1) 15...Kg8?? loses to 16 Qg4+ Qg5 17 Qxe6+.\n\n2) 15...Ke7 16 0-0 Nxe5 (16...Qb6 17 a5 Qa7 18 Qg4 Nxe5 19 Qe4 Nd7 20 Rad1 is clearly better for White) 17 dxe5 Qxd1 18 Raxd1 Rh7 19 Ne4 and White wins.\n\n3) 15...Kg7 is relatively best, but now Black will have to waste time moving his king again to free the h8-rook. After 16 0-0 (16 Qg4+ Qg5 17 Qxe6 Qxh5 18 Qxd7+ Qf7 19 Qg4+ Qg6 is only a draw) 16...Rh7 White can try:\n\n3a) 17 Bg6 Kxg6 18 Qg4+ Qg5 19 Qxe6+ Kg7 is perpetual check.\n\n3b) 17 Rf7+ Kh8 18 Rxh7+ Kxh7 19 Qc2+ Kh8 20 Rf1 Bg7 (20...Qg5 21 Rf7 Bg7 22 Qe2 Qc1+ 23 Rf1 Qg5 24 Ne4 Qd8 25 Nd6 is good for White) 21 Rf7 Nf8 is unclear.\n\n3c) 17 Ne2! is the most unpleasant move, targeting both e6 and g6. After, for example, 17...Kh8 18 Nf4 Bb4 19 Bg6 Re7 20 Qh5 Bd2 21 Bf7! White has a clear advantage.\n\n15 0-0\n\nIf Black has to surrender his e6-pawn, then White will certainly have excellent compensation for the piece, so holding on to this key pawn is his first task.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "Nd7",
+      "text": "Black wants to meet Bg4 by ...Qe7 and Bh5 by ...Rh7. Since these defences are already in place, he can afford to spend a tempo developing a piece, at the same time covering the sensitive f6-square. Instead, 15...c5!? is premature. Then White can try:\n\n1) 16 Qc2 Rh7 is unclear.\n\n2) 16 Bg4 Qxd4+ (16...Bc8 17 d5 b4 18 Ne4 Bg7 19 Nd6 is good for White) 17 Qxd4 cxd4 18 Bxe6+ Kh7 19 Rf7+ (19 Nd5 Bg7) 19...Bg7 20 Bf5+ Kg8 21 Rxb7 dxc3 22 bxc3 Nc6 23 axb5 Nxe5 24 bxa6 gives White some advantage.\n\n3) 16 d5! exd5 17 Bf3 Bg7 18 Bxd5+ Bxd5 19 Nxd5 Rh7 20 Nc7 Qxc7 21 Qd5+ Kh8 22 Rf7 Qc8 23 Qxa8 and Black is in serious trouble.\n\nIn the long run Black would certainly like to play ...c5 to activate the otherwise dead bishop on b7, but he must first fend off White’s immediate threats.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Bg4",
+      "text": "White can force a draw by 16 Bxc4 bxc4 17 Qg4+ Bg7 18 Qxe6+ Kh7 19 Qf5+, but not surprisingly Kramnik goes for more.\n\n16 Bh5 Rh7 17 Qg4+ Kh8 18 Qxe6 wins the e6-pawn, but at the cost of dissipating White’s initiative. Black would then have the chance to activate his bishop by 18...c5 with good prospects, since 19 d5 Re7 costs White the e5-pawn.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Qe7",
+      "text": "Once again, Black cannot afford to jettison the e6-pawn, since 16...Rh7 17 Bxe6+ Kh8 18 Qh5 leaves Black badly tied up, while White now has two pawns for the piece.",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Ne4",
+      "text": "This is a natural move, since d6 is now available for the knight, but it is probably inaccurate. 17 Qc2! is a dangerous alternative, after which Black would face serious difficulties. 17...Rh7 is bad, since after 18 Qg6+ Kh8 19 Bxe6 Qg5 20 Qe4 White avoids the exchange of queens, and without his e6-pawn Black is bound to be struggling. One line might be 20...Rb8 21 Rf5 Qe7 22 Bxd7 Qxd7 23 Raf1 Kg8 24 e6 Qd6 25 Rf7 Bg7 26 Kh1, when White has a winning position. Other moves are little better; for example, 17...Bg7 18 Qg6 Re8 19 Ne4 or 17...Qe8 (preventing Qg6+) 18 Ne4! (now that the white queen is not on d1, White cannot reply Bh5, but this alternative is very strong) 18...Rh7 19 Rf6 and again the e6-pawn falls, since 19...Re7? loses to 20 Nd6.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Rh7",
+      "text": "Anand rejected 17...c5 but it might have been the best move. After 18 Nd6 Black has:\n\n1) 18...cxd4? 19 Rf7! (19 Nxb7 Nxe5! 20 Qxd4 Bg7 21 Qe4 Nxg4 22 Qxg4 Qxb7 23 Qxe6+ Kh7 24 Rf7 Qc8 is probably a draw) 19...Qxf7 20 Nxf7 Kxf7 21 Bf3! Bd5 22 Bxd5 exd5 23 Qf3+ Ke6 (23...Ke7 24 Qxd5) 24 Rf1 and White’s attack is too strong.\n\n2) 18...Bd5 19 Bf3! (19 Rf7 Qd8! 20 Qc2 Qg5 is unclear) and now:\n\n2a) 19...Bg7? 20 Nf5! Qe8 21 Bh5 Qd8 22 Nxg7 Kxg7 23 Rf7+ Kg8 24 h4 Rh7 25 Qg4+ Kh8 26 Rxh7+ Kxh7 27 Qg6+ Kh8 28 Qxh6+ Kg8 29 Bf7+! Kxf7 30 Rf1+ Kg8 31 Qg6+ Kh8 32 Rf7 mating.\n\n2b) 19...cxd4?! 20 Bxd5 exd5 21 Qg4+ Bg7 22 Rf7 Qxe5 23 Qxd7 and although White remains a pawn down, his attack is a far more important factor; for example, 23...Bf6 (23...d3 loses to 24 Re7 Qd4+ 25 Kh1 d2 26 Rd1) 24 Rxf6 Qxf6 25 Rf1 Qg6 26 Nc8 and White is winning.\n\n2c) 19...Rh7! 20 Bxd5 (20 dxc5 Bxf3 21 Qxf3 Rb8 is fine for Black) 20...exd5 21 Qg4+ and now:\n\n2c1) 21...Kh8 22 Qg6 Rg7 23 Nf7+ Kg8 24 Nxh6+ Kh8 25 Qc6 gives White a clear advantage.\n\n2c2) 21...Bg7 22 Rf7 Nxe5 23 dxe5 Qxe5 24 Qg6 Qg5 25 Qe6 Bd4+ 26 Kh1 Qe5 27 Qg6+ Rg7 28 Rxg7+ Qxg7 29 Qe6+ Kh7 30 Qxd5 may be slightly better for White.\n\n2c3) 21...Rg7! is safest. After 22 Qh3 Rh7 White seems to have nothing better than to repeat moves.",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "Nd6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "Rb8",
+      "text": "White to play\n\nAt this stage White thought a long time, and made an imaginative but incorrect choice.",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "b4",
+      "text": "This is the wrong move. Kramnik reasons that Black’s only way to free himself is to play ...c5, so he attempts to clamp down on this move. It is certainly an unexpected move, but in fact it allows Black to slip out of the net. In a situation where one has a strong bind, it is often hard to decide between slowly trying to increase the pressure and cashing in with immediate action. Here White should have chosen the latter course.\n\nPerhaps the main defect of the text-move is that it doesn’t succeed in its main ambition. Black can often play ...c5 despite White’s pawn grip, since the activation of the light-squared bishop is usually worth more than a pawn. Moreover, if White meets ...c5 by bxc5 then Black obtains connected passed pawns, while White’s pawn-chain e5-d4-c5 can be blockaded on the light squares.\n\nThe correct choice was 19 axb5! cxb5 (if 19...axb5, then 20 Ra7 is good for White) 20 Nxb7 Rxb7 21 Rxa6 Rb6 (21...Nb6 22 Rf6) 22 Rxb6 Nxb6 23 Rf6 with a very unpleasant position for Black, since White obtains a third pawn for the piece and acquires two connected passed pawns in the centre of the board. The game Ward-Grabliauskas, Copenhagen 1998, played shortly after Kramnik-Anand, tested this assessment. Black was crushed after 23...Qd8 (23...Kh8 24 Bxe6! Bg7 25 Rg6 leaves Black badly tied up) 24 Bxe6+ Kh8 25 Qf3 (25 Qg4 is also good) 25...Bg7 26 Rf4 h5 27 h4 Bh6 28 Rf5 Qxd4+ 29 Kh2 Qd8 30 Rxh5 Nd7 31 Qd1 Qe8 32 Bxd7 Rxd7 33 Rxh6+ Kg7 34 Rd6 1-0. This line is a good example of how the addition of a4 and ...a6 helps White.",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "h5",
+      "text": "This bid for space is essential. If White manages to play Bh5, then Black will be virtually paralysed. Of course, 19...cxb3 is bad since 20 Qxb3 wins the e6-pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "Bh3",
+      "text": "White keeps his bishop trained on the weak e6-pawn. After 20 Bxh5 Qg5, followed by ...Bxd6, much of White’s pressure disappears, while 20 Bf3 h4 gives Black a little freedom.",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "Bh6",
+      "text": "White to play\n\nAt last, one of Black’s bishops shows signs of life. This is definitely a step in the right direction, but accurate play is still necessary.",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "Kh1",
+      "text": "Preventing ...Be3+, and therefore threatening to take on h5.",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "Bg5",
+      "text": "Defending h5, and taking the f4- and f6-squares away from the f1-rook. Now that f6 is defended, Black might be able to disentangle his position further by ...Nf8, incidentally providing much-needed support for the e6-pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "Qc2",
+      "text": "This is White’s idea; he intends to zigzag his queen to e4 by alternately threatening Qg6+ and Qxh5. After 22 Ra3 c5! 23 dxc5 (23 Nxb7 is met by 23...cxb4, while 23 bxc5 Bd5 secures the e6-pawn, after which Black’s connected passed pawns become very strong) 23...Bd5 24 axb5 axb5 25 Bf5 Rg7 26 Ra7 Rf8 Black is much better.",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "Rg7",
+      "text": "Black stops the check on g6. 22...Nf8 is also playable; for example, 23 Ra3 (23 Rf2 Be3 24 Rf6 Bxd4 gives White nothing, while 23 axb5 axb5 24 Ra7 c5! 25 Rxb7 Rxb7 26 Nxb7 Rf7! favours Black) 23...c5 24 dxc5 Bd5 25 axb5 axb5 26 Ra6. However, Anand did not like to block f8, because he intends to offer the exchange of rooks by ...Rf8.",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "Qe2",
+      "text": "Black to play\n\nNow White attacks the h5-pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "Ba8",
+      "text": "The strongest move. Black frees his rook to move to f8, and preserves his bishop ready for the eventual breakout with ...c5. This is in fact the last passive move Black plays in the game. Move by move, the circumstances for a breakout have been gradually improving – Black has organized his kingside pieces and activated his dark-squared bishop, while White has made scant progress. 23...Rh7 is also playable, although less strong than the text-move since, if nothing else, White can simply repeat moves.",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "Qxh5",
+      "text": "White gets another pawn for the piece.",
+      "isCritical": true
+    },
+    {
+      "ply": 48,
+      "san": "Rf8",
+      "text": "The natural move, but White has what appears to be an awkward reply.",
+      "isCritical": true
+    },
+    {
+      "ply": 49,
+      "san": "Ne4",
+      "text": "This looks very unpleasant, because there is a nasty threat of 26 Nxg5 Rxg5 27 Qh6 (27 Bxe6+ is also possible), when the e6-pawn falls with disastrous consequences. Since the g5-bishop is almost trapped, it seems hard to counter this threat.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 50,
+      "san": "c5",
+      "text": "A brilliant idea, the point of which is revealed next move. Black cannot play 25...Be3 as 26 Rxf8+ Kxf8 27 Qh8+ wins at once.",
+      "isCritical": true
+    },
+    {
+      "ply": 51,
+      "san": "Nxg5",
+      "text": "White, of course, snaps off the bishop.",
+      "isCritical": true
+    },
+    {
+      "ply": 52,
+      "san": "Bd5",
+      "text": "Remarkable. Black simply ignores the fact that White has taken a piece and focuses on the real priority: supporting the crucial e6-pawn. 26...Rxg5 is bad as 27 Bxe6+ Kg7 28 Qh4 leaves Black in a deadly pin, and White wins after 28...cxd4 29 Bxd7 Rxf1+ 30 Rxf1 Rxe5 Qxe5 31 Be6!.\n\nAfter the text-move, Black is genuinely threatening to take the knight. White decides simply to retreat it, but then Black acquires two connected passed pawns on the queenside.",
+      "isCritical": true
+    },
+    {
+      "ply": 53,
+      "san": "Nf3",
+      "text": "This passive move is hopeless, but the alternatives all leave Black with a clear advantage: 27 Bxe6+ (27 Rxf8+ Nxf8 28 Bxe6+ Nxe6 29 Nxe6 Qxe6 is also very good for Black) 27...Bxe6 28 Rxf8+ (28 Nxe6 Qxe6 29 bxc5 b4) 28...Nxf8 29 Ne4 Rh7 30 Qd1 (30 Qe2 cxd4 31 Nf6+ Kh8 and again Black comes out on top) 30...Rxh2+! 31 Kxh2 Qh7+ 32 Kg1 Qxe4 33 bxc5 Bd5 34 Qd2 Ne6 and Black should win.",
+      "isCritical": true
+    },
+    {
+      "ply": 54,
+      "san": "cxb4",
+      "text": "White to play\n\nThe material balance has shifted so that instead of being a piece down, White is now a pawn up. However, everything else has changed in Black’s favour. All his pieces are now on active squares, he has two well-advanced connected passed pawns and White’s pieces (especially his queen and the h3-bishop) are out of play.",
+      "isCritical": true
+    },
+    {
+      "ply": 55,
+      "san": "axb5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 56,
+      "san": "axb5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 57,
+      "san": "Nh4",
+      "text": "Hoping to play Ng6, but this threat is easily countered.",
+      "isCritical": true
+    },
+    {
+      "ply": 58,
+      "san": "Qg5",
+      "text": "If the queens are exchanged then, thanks to his offside minor pieces, White has no hope of halting the pawns. Thus, White has to duck the exchange, costing more time.",
+      "isCritical": true
+    },
+    {
+      "ply": 59,
+      "san": "Rxf8+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 60,
+      "san": "Nxf8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 61,
+      "san": "Qe8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 62,
+      "san": "Rf7",
+      "text": "Stopping Rf1 and leaving White without a major threat in sight.",
+      "isCritical": true
+    },
+    {
+      "ply": 63,
+      "san": "Nf3",
+      "text": "32 Qxb5 b3 is also losing for White.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 64,
+      "san": "Qg6",
+      "text": "By now there are several routes to victory, such as 32...Qe3 33 Bg4 b3 34 Bh5 Rxf3 or 32...Qh6 33 Bg4 c3. The text-move threatens 33...Rxf3, so White must move his queen yet again.",
+      "isCritical": true
+    },
+    {
+      "ply": 65,
+      "san": "Qxb5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 66,
+      "san": "b3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 67,
+      "san": "Rf1",
+      "text": "Or 34 Qb4 Rb7 and wins.",
+      "isCritical": true
+    },
+    {
+      "ply": 68,
+      "san": "Qd3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 69,
+      "san": "Kg1",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 70,
+      "san": "Qe3+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 71,
+      "san": "Kh1",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 72,
+      "san": "c3",
+      "text": "Avoiding the last trap: 36...Rb7?? 37 Bxe6+!.",
+      "isCritical": true
+    },
+    {
+      "ply": 73,
+      "san": "Bxe6",
+      "text": "Desperation.",
+      "isCritical": true
+    },
+    {
+      "ply": 74,
+      "san": "Bxe6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 75,
+      "san": "d5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 76,
+      "san": "Rxf3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 77,
+      "san": "gxf3",
+      "text": "39 Rxf3 c2 40 Qf1 Qxf3 41 gxf3 b2 is also dead lost for White.",
+      "isCritical": true
+    },
+    {
+      "ply": 78,
+      "san": "Bh3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 79,
+      "san": "Qc4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 80,
+      "san": "Bxf1",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 81,
+      "san": "Qg4+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 82,
+      "san": "Kh7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 83,
+      "san": "e6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 84,
+      "san": "Ng6",
+      "text": "0-1\n\nThis was an unusually complicated game. Starting with a double-edged opening, Kramnik soon had the chance to sacrifice a piece for a very dangerous attack. Objectively speaking, Black was in trouble. However, Anand made sure that Kramnik never had a straightforward win. Perhaps Kramnik was hoping for too much from the position, because he turned down some promising lines and tried to set up a complete bind. However, there was still room for Anand to wriggle and slowly, bit by bit, Black started to free his position. Kramnik’s attack was still not dead, however, and it required an imaginative piece sacrifice by Anand before he could definitely take over the initiative. By this stage, White’s attack had evaporated and the rest was slaughter.\n\nThe lessons here are:\n\n1) In an ultra-sharp opening, it only takes one slip to end up in serious trouble.\n\n2) Totally unexpected moves can have a great psychological impact on the opponent. However, it helps if they are also good.\n\n3) If you have extra material in return for strong pressure, you should consider returning the material to free your position and take over the initiative.\n\n4) Never give up.",
+      "isCritical": true
+    }
+  ]
+}

@@ -4,12 +4,13 @@ import { Chess } from "chess.js";
 type Props = {
   chess: Chess;
   expectedSan: string;
+  commentator: string;
   onReveal: () => void;
   onCorrect: () => void;
   onWrong: () => void;
 };
 
-export function GuessMove({ chess, expectedSan, onReveal, onCorrect, onWrong }: Props) {
+export function GuessMove({ chess, expectedSan, commentator, onReveal, onCorrect, onWrong }: Props) {
   const [guess, setGuess] = useState("");
   const [feedback, setFeedback] = useState<string | null>(null);
   const legal = useMemo(() => chess.moves(), [chess]);
@@ -25,11 +26,11 @@ export function GuessMove({ chess, expectedSan, onReveal, onCorrect, onWrong }: 
         return;
       }
       if (played.san.toLowerCase() === expectedSan.toLowerCase()) {
-        setFeedback("Correct — same as Chernev!");
+        setFeedback(`Correct — same as ${commentator}!`);
         onCorrect();
         onReveal();
       } else {
-        setFeedback(`Chernev played ${expectedSan} here.`);
+        setFeedback(`${commentator} played ${expectedSan} here.`);
         onWrong();
       }
     } catch {

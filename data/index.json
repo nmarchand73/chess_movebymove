@@ -1,4 +1,64 @@
 {
+  "books": [
+    {
+      "id": "chernov",
+      "title": "Logical Chess: Move By Move",
+      "author": "Irving Chernev",
+      "publisher": "Batsford",
+      "gameCount": 33,
+      "sections": [
+        {
+          "title": "The Kingside Attack",
+          "range": "1–16",
+          "blurb": "e4 openings and kingside attacks"
+        },
+        {
+          "title": "The Queen’s Pawn Opening",
+          "range": "17–23",
+          "blurb": "d4 structures and queenside play"
+        },
+        {
+          "title": "The Chess Master Explains his Ideas",
+          "range": "24–33",
+          "blurb": "masterclass commentary"
+        }
+      ]
+    },
+    {
+      "id": "nunn",
+      "title": "Understanding Chess Move by Move",
+      "author": "John Nunn",
+      "publisher": "Gambit",
+      "gameCount": 30,
+      "sections": [
+        {
+          "title": "Opening Themes",
+          "range": "1–5",
+          "blurb": "Development, king safety, and centre control"
+        },
+        {
+          "title": "Attacking Play",
+          "range": "6–11",
+          "blurb": "Sacrifices, reserves, and opposite-side castling"
+        },
+        {
+          "title": "Defensive Play",
+          "range": "12–15",
+          "blurb": "Defensive sacrifices and counter-attack"
+        },
+        {
+          "title": "Positional Play",
+          "range": "16–27",
+          "blurb": "Structure, space, outposts, and piece play"
+        },
+        {
+          "title": "Endgame Themes",
+          "range": "28–30",
+          "blurb": "Active king, passed pawns, rook on the seventh"
+        }
+      ]
+    }
+  ],
   "chernov": [
     {
       "id": "chernov-001",
@@ -560,6 +620,548 @@
       "moveCount": 69,
       "annotatedMoves": 67,
       "file": "chernov-033.json"
+    }
+  ],
+  "nunn": [
+    {
+      "id": "nunn-001",
+      "book": "nunn",
+      "gameNum": 1,
+      "title": "Game 1: A. Chernin vs J. van der Wiel",
+      "section": "Opening Themes",
+      "players": {
+        "white": "A. Chernin",
+        "black": "J. van der Wiel"
+      },
+      "event": "European Clubs Cup, Slough 1997",
+      "opening": "English Opening",
+      "eco": "A04",
+      "result": "1-0",
+      "moveCount": 49,
+      "annotatedMoves": 49,
+      "file": "nunn-001.json"
+    },
+    {
+      "id": "nunn-002",
+      "book": "nunn",
+      "gameNum": 2,
+      "title": "Game 2: A. Khalifman vs E. Sveshnikov",
+      "section": "Opening Themes",
+      "players": {
+        "white": "A. Khalifman",
+        "black": "E. Sveshnikov"
+      },
+      "event": "Russian Championship, Elista 1996",
+      "opening": "Queen’s Gambit Declined",
+      "eco": "E04",
+      "result": "1-0",
+      "moveCount": 51,
+      "annotatedMoves": 50,
+      "file": "nunn-002.json"
+    },
+    {
+      "id": "nunn-003",
+      "book": "nunn",
+      "gameNum": 3,
+      "title": "Game 3: K. Aseev vs N. Rashkovsky",
+      "section": "Opening Themes",
+      "players": {
+        "white": "K. Aseev",
+        "black": "N. Rashkovsky"
+      },
+      "event": "Russian Championship, St Petersburg 1998",
+      "opening": "Modern Defence, Austrian Attack",
+      "eco": "B06",
+      "result": "1-0",
+      "moveCount": 75,
+      "annotatedMoves": 74,
+      "file": "nunn-003.json"
+    },
+    {
+      "id": "nunn-004",
+      "book": "nunn",
+      "gameNum": 4,
+      "title": "Game 4: J. van der Wiel vs R. Vaganian",
+      "section": "Opening Themes",
+      "players": {
+        "white": "J. van der Wiel",
+        "black": "R. Vaganian"
+      },
+      "event": "Ter Apel 1993",
+      "opening": "Alekhine Defence, Four Pawns Attack",
+      "eco": "B03",
+      "result": "0-1",
+      "moveCount": 54,
+      "annotatedMoves": 53,
+      "file": "nunn-004.json"
+    },
+    {
+      "id": "nunn-005",
+      "book": "nunn",
+      "gameNum": 5,
+      "title": "Game 5: T. Markowski vs A. Onishchuk",
+      "section": "Opening Themes",
+      "players": {
+        "white": "T. Markowski",
+        "black": "A. Onishchuk"
+      },
+      "event": "Rubinstein Memorial, Polanica Zdroj 1999",
+      "opening": "Catalan Opening",
+      "eco": "E06",
+      "result": "0-1",
+      "moveCount": 52,
+      "annotatedMoves": 49,
+      "file": "nunn-005.json"
+    },
+    {
+      "id": "nunn-006",
+      "book": "nunn",
+      "gameNum": 6,
+      "title": "Game 6: G. Kasparov vs N. Short",
+      "section": "Attacking Play",
+      "players": {
+        "white": "G. Kasparov",
+        "black": "N. Short"
+      },
+      "event": "VSB tournament, Amsterdam 1994",
+      "opening": "French Defence, Classical Variation",
+      "eco": "C11",
+      "result": "1-0",
+      "moveCount": 63,
+      "annotatedMoves": 62,
+      "file": "nunn-006.json"
+    },
+    {
+      "id": "nunn-007",
+      "book": "nunn",
+      "gameNum": 7,
+      "title": "Game 7: G. Kasparov vs A. Karpov",
+      "section": "Attacking Play",
+      "players": {
+        "white": "G. Kasparov",
+        "black": "A. Karpov"
+      },
+      "event": "World Championship match (game 20), New York/Lyons 1990",
+      "opening": "Ruy Lopez, Flohr-Zaitsev Variation",
+      "eco": "C92",
+      "result": "1-0",
+      "moveCount": 81,
+      "annotatedMoves": 80,
+      "file": "nunn-007.json"
+    },
+    {
+      "id": "nunn-008",
+      "book": "nunn",
+      "gameNum": 8,
+      "title": "Game 8: A. Shirov vs D. Reinderman",
+      "section": "Attacking Play",
+      "players": {
+        "white": "A. Shirov",
+        "black": "D. Reinderman"
+      },
+      "event": "Wijk aan Zee 1999",
+      "opening": "Sicilian Defence, Taimanov Variation",
+      "eco": "B46",
+      "result": "1-0",
+      "moveCount": 87,
+      "annotatedMoves": 86,
+      "file": "nunn-008.json"
+    },
+    {
+      "id": "nunn-009",
+      "book": "nunn",
+      "gameNum": 9,
+      "title": "Game 9: J. Nunn vs I. Nataf",
+      "section": "Attacking Play",
+      "players": {
+        "white": "J. Nunn",
+        "black": "I. Nataf"
+      },
+      "event": "French Team Championship 1998/9",
+      "opening": "Sicilian Defence, Kalashnikov Variation",
+      "eco": "B32",
+      "result": "0-1",
+      "moveCount": 56,
+      "annotatedMoves": 54,
+      "file": "nunn-009.json"
+    },
+    {
+      "id": "nunn-010",
+      "book": "nunn",
+      "gameNum": 10,
+      "title": "Game 10: J. Nunn vs C. Ward",
+      "section": "Attacking Play",
+      "players": {
+        "white": "J. Nunn",
+        "black": "C. Ward"
+      },
+      "event": "British League (4NCL) 1997/8",
+      "opening": "Sicilian Defence, Dragon Variation",
+      "eco": "B78",
+      "result": "1-0",
+      "moveCount": 77,
+      "annotatedMoves": 76,
+      "file": "nunn-010.json"
+    },
+    {
+      "id": "nunn-011",
+      "book": "nunn",
+      "gameNum": 11,
+      "title": "Game 11: J. Timman vs J. Polgar",
+      "section": "Attacking Play",
+      "players": {
+        "white": "J. Timman",
+        "black": "J. Polgar"
+      },
+      "event": "Sigeman & Co. tournament, Malmö 2000",
+      "opening": "Queen’s Indian Defence, 4 g3 Ba6",
+      "eco": "E15",
+      "result": "0-1",
+      "moveCount": 80,
+      "annotatedMoves": 80,
+      "file": "nunn-011.json"
+    },
+    {
+      "id": "nunn-012",
+      "book": "nunn",
+      "gameNum": 12,
+      "title": "Game 12: M. Rõtsagov vs Z. Lanka",
+      "section": "Defensive Play",
+      "players": {
+        "white": "M. Rõtsagov",
+        "black": "Z. Lanka"
+      },
+      "event": "European Team Championship, Debrecen 1992",
+      "opening": "Sicilian Defence, Velimirović Attack",
+      "eco": "B89",
+      "result": "0-1",
+      "moveCount": 88,
+      "annotatedMoves": 87,
+      "file": "nunn-012.json"
+    },
+    {
+      "id": "nunn-013",
+      "book": "nunn",
+      "gameNum": 13,
+      "title": "Game 13: B. Lalić vs A. Khalifman",
+      "section": "Defensive Play",
+      "players": {
+        "white": "B. Lalić",
+        "black": "A. Khalifman"
+      },
+      "event": "Open tournament, Linares 1997",
+      "opening": "Benko Gambit",
+      "eco": "A57",
+      "result": "0-1",
+      "moveCount": 54,
+      "annotatedMoves": 53,
+      "file": "nunn-013.json"
+    },
+    {
+      "id": "nunn-014",
+      "book": "nunn",
+      "gameNum": 14,
+      "title": "Game 14: Bu Xiangzhi vs Ye Jiangchuan",
+      "section": "Defensive Play",
+      "players": {
+        "white": "Bu Xiangzhi",
+        "black": "Ye Jiangchuan"
+      },
+      "event": "Shenyang 1999",
+      "opening": "King’s Indian Defence, Sämisch Variation",
+      "eco": "E86",
+      "result": "0-1",
+      "moveCount": 58,
+      "annotatedMoves": 57,
+      "file": "nunn-014.json"
+    },
+    {
+      "id": "nunn-015",
+      "book": "nunn",
+      "gameNum": 15,
+      "title": "Game 15: V. Kramnik vs V. Anand",
+      "section": "Defensive Play",
+      "players": {
+        "white": "V. Kramnik",
+        "black": "V. Anand"
+      },
+      "event": "Belgrade 1997",
+      "opening": "Queen’s Gambit Declined, Semi-Slav Defence",
+      "eco": "D43",
+      "result": "0-1",
+      "moveCount": 84,
+      "annotatedMoves": 83,
+      "file": "nunn-015.json"
+    },
+    {
+      "id": "nunn-016",
+      "book": "nunn",
+      "gameNum": 16,
+      "title": "Game 16: G. Kasparov vs I. Sokolov",
+      "section": "Positional Play",
+      "players": {
+        "white": "G. Kasparov",
+        "black": "I. Sokolov"
+      },
+      "event": "Olympiad, Erevan 1996",
+      "opening": "Scotch Opening",
+      "eco": "C45",
+      "result": "1-0",
+      "moveCount": 71,
+      "annotatedMoves": 68,
+      "file": "nunn-016.json"
+    },
+    {
+      "id": "nunn-017",
+      "book": "nunn",
+      "gameNum": 17,
+      "title": "Game 17: A. Karpov vs Z. Ribli",
+      "section": "Positional Play",
+      "players": {
+        "white": "A. Karpov",
+        "black": "Z. Ribli"
+      },
+      "event": "Olympiad, Dubai 1986",
+      "opening": "English Opening, Hedgehog System",
+      "eco": "A30",
+      "result": "1-0",
+      "moveCount": 111,
+      "annotatedMoves": 110,
+      "file": "nunn-017.json"
+    },
+    {
+      "id": "nunn-018",
+      "book": "nunn",
+      "gameNum": 18,
+      "title": "Game 18: J. Piket vs I. Smirin",
+      "section": "Positional Play",
+      "players": {
+        "white": "J. Piket",
+        "black": "I. Smirin"
+      },
+      "event": "Interzonal tournament, Biel 1993",
+      "opening": "King’s Indian Defence, Classical Variation",
+      "eco": "E94",
+      "result": "1-0",
+      "moveCount": 71,
+      "annotatedMoves": 70,
+      "file": "nunn-018.json"
+    },
+    {
+      "id": "nunn-019",
+      "book": "nunn",
+      "gameNum": 19,
+      "title": "Game 19: N. Short vs J. Timman",
+      "section": "Positional Play",
+      "players": {
+        "white": "N. Short",
+        "black": "J. Timman"
+      },
+      "event": "Tilburg 1991",
+      "opening": "Alekhine Defence, Modern Variation",
+      "eco": "B04",
+      "result": "1-0",
+      "moveCount": 67,
+      "annotatedMoves": 66,
+      "file": "nunn-019.json"
+    },
+    {
+      "id": "nunn-020",
+      "book": "nunn",
+      "gameNum": 20,
+      "title": "Game 20: G. Kasparov vs A. Shirov",
+      "section": "Positional Play",
+      "players": {
+        "white": "G. Kasparov",
+        "black": "A. Shirov"
+      },
+      "event": "Horgen 1994",
+      "opening": "Sicilian Defence, Sveshnikov Variation",
+      "eco": "B33",
+      "result": "1-0",
+      "moveCount": 75,
+      "annotatedMoves": 74,
+      "file": "nunn-020.json"
+    },
+    {
+      "id": "nunn-021",
+      "book": "nunn",
+      "gameNum": 21,
+      "title": "Game 21: A. Yermolinsky vs L. Christiansen",
+      "section": "Positional Play",
+      "players": {
+        "white": "A. Yermolinsky",
+        "black": "L. Christiansen"
+      },
+      "event": "US Championship, Salt Lake City 1999",
+      "opening": "Queen’s Gambit Declined, Exchange Variation",
+      "eco": "D37",
+      "result": "1-0",
+      "moveCount": 57,
+      "annotatedMoves": 56,
+      "file": "nunn-021.json"
+    },
+    {
+      "id": "nunn-022",
+      "book": "nunn",
+      "gameNum": 22,
+      "title": "Game 22: M. Gurevich vs N. Miezis",
+      "section": "Positional Play",
+      "players": {
+        "white": "M. Gurevich",
+        "black": "N. Miezis"
+      },
+      "event": "Bonn 1996",
+      "opening": "Budapest Gambit",
+      "eco": "A52",
+      "result": "1-0",
+      "moveCount": 127,
+      "annotatedMoves": 126,
+      "file": "nunn-022.json"
+    },
+    {
+      "id": "nunn-023",
+      "book": "nunn",
+      "gameNum": 23,
+      "title": "Game 23: M. Stean vs G. Sax",
+      "section": "Positional Play",
+      "players": {
+        "white": "M. Stean",
+        "black": "G. Sax"
+      },
+      "event": "Las Palmas 1978",
+      "opening": "Sicilian Defence, Sveshnikov Variation",
+      "eco": "B33",
+      "result": "1-0",
+      "moveCount": 55,
+      "annotatedMoves": 54,
+      "file": "nunn-023.json"
+    },
+    {
+      "id": "nunn-024",
+      "book": "nunn",
+      "gameNum": 24,
+      "title": "Game 24: P. San Segundo vs V. Topalov",
+      "section": "Positional Play",
+      "players": {
+        "white": "P. San Segundo",
+        "black": "V. Topalov"
+      },
+      "event": "Madrid 1996",
+      "opening": "King’s Indian Defence, Classical Variation",
+      "eco": "E92",
+      "result": "0-1",
+      "moveCount": 96,
+      "annotatedMoves": 95,
+      "file": "nunn-024.json"
+    },
+    {
+      "id": "nunn-025",
+      "book": "nunn",
+      "gameNum": 25,
+      "title": "Game 25: G. Kamsky vs A. Karpov",
+      "section": "Positional Play",
+      "players": {
+        "white": "G. Kamsky",
+        "black": "A. Karpov"
+      },
+      "event": "FIDE World Championship match (game 4), Elista 1996",
+      "opening": "Caro-Kann Defence, Panov-Botvinnik Attack",
+      "eco": "B14",
+      "result": "0-1",
+      "moveCount": 90,
+      "annotatedMoves": 87,
+      "file": "nunn-025.json"
+    },
+    {
+      "id": "nunn-026",
+      "book": "nunn",
+      "gameNum": 26,
+      "title": "Game 26: G. Kamsky vs N. Short",
+      "section": "Positional Play",
+      "players": {
+        "white": "G. Kamsky",
+        "black": "N. Short"
+      },
+      "event": "PCA Candidates match (game 5), Linares 1994",
+      "opening": "Nimzo-Indian Defence, Rubinstein Variation",
+      "eco": "E41",
+      "result": "1-0",
+      "moveCount": 51,
+      "annotatedMoves": 50,
+      "file": "nunn-026.json"
+    },
+    {
+      "id": "nunn-027",
+      "book": "nunn",
+      "gameNum": 27,
+      "title": "Game 27: J. Lautier vs A. Shirov",
+      "section": "Positional Play",
+      "players": {
+        "white": "J. Lautier",
+        "black": "A. Shirov"
+      },
+      "event": "Interzonal tournament, Manila 1990",
+      "opening": "King’s Indian Defence, Fianchetto Variation",
+      "eco": "E63",
+      "result": "0-1",
+      "moveCount": 64,
+      "annotatedMoves": 63,
+      "file": "nunn-027.json"
+    },
+    {
+      "id": "nunn-028",
+      "book": "nunn",
+      "gameNum": 28,
+      "title": "Game 28: V. Smyslov vs G. Sax",
+      "section": "Endgame Themes",
+      "players": {
+        "white": "V. Smyslov",
+        "black": "G. Sax"
+      },
+      "event": "Tilburg 1979",
+      "opening": "Pirc Defence, Fianchetto Variation",
+      "eco": "A05",
+      "result": "0-1",
+      "moveCount": 108,
+      "annotatedMoves": 107,
+      "file": "nunn-028.json"
+    },
+    {
+      "id": "nunn-029",
+      "book": "nunn",
+      "gameNum": 29,
+      "title": "Game 29: V. Kramnik vs P. Svidler",
+      "section": "Endgame Themes",
+      "players": {
+        "white": "V. Kramnik",
+        "black": "P. Svidler"
+      },
+      "event": "Dortmund 1998",
+      "opening": "Grünfeld Defence, Exchange Variation",
+      "eco": "D86",
+      "result": "1-0",
+      "moveCount": 59,
+      "annotatedMoves": 59,
+      "file": "nunn-029.json"
+    },
+    {
+      "id": "nunn-030",
+      "book": "nunn",
+      "gameNum": 30,
+      "title": "Game 30: E. Handoko vs Xu Jun",
+      "section": "Endgame Themes",
+      "players": {
+        "white": "E. Handoko",
+        "black": "Xu Jun"
+      },
+      "event": "Asian Team Championship, Singapore 1995",
+      "opening": "Sicilian, 2 c3",
+      "eco": "B22",
+      "result": "0-1",
+      "moveCount": 83,
+      "annotatedMoves": 82,
+      "file": "nunn-030.json"
     }
   ]
 }

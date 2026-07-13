@@ -25,13 +25,54 @@ const OPENING_TOOLTIPS: Record<string, string> = {
     "Asymmetric fight after …c5: Black attacks the d4 centre from the flank. Imbalanced positions — White's space versus Black's counterplay.",
   "Scandinavian Defense":
     "Black immediately challenges 1.e4 with …d5. Early queen activity, but quick development and central pressure can compensate if White overreaches.",
+  "Alekhine Defense":
+    "Black provokes White's pawns forward with …Nf6, then attacks the overextended centre. Timing matters: strike the centre before White consolidates.",
+  "Benko Gambit":
+    "Black sacrifices a wing pawn for long-term queenside pressure on open files. White must accept the pawn and defend patiently or refuse and let Black keep the initiative.",
+  "Budapest Gambit":
+    "Black offers a pawn for rapid development and attacking chances after …Ng4. White can hold the extra material, but must develop carefully to avoid a swarming attack.",
+  "Caro-Kann Defense":
+    "Solid structure with …c6 supporting …d5. Black aims for safe development and a firm centre rather than the sharp imbalances of the Sicilian.",
+  "Catalan Opening":
+    "White combines d4 and c4 with a g2-bishop pressuring the long diagonal. Flexible central play: space on the queenside with latent pressure against …d5.",
+  "Grünfeld Defense":
+    "Black allows a big White centre, then counter-attacks it with …d5 and …c5. Dynamic piece play against pawn mass — the centre is a target, not a fortress.",
+  "King's Indian Defense":
+    "Black allows White a broad pawn centre, then strikes back with …e5 or …c5. Kingside fianchetto leads to opposite-wing attacks and tactical melees.",
+  "Modern Defense":
+    "Black delays central pawn commits with …g6 and …Bg7, inviting White to grab space. Counter-attack the overextended centre once pieces are coordinated.",
+  "Pirc Defense":
+    "A hypermodern setup: let White build in the centre, then undermine with …d6, …Nf6, and …g6. Flexible development with kingside castling and central breaks.",
+  "Scotch Opening":
+    "White opens the centre immediately with 3.d4 after …exd4. Open, tactical positions where quick development and piece activity decide the game.",
 };
 
 function normalizeOpeningName(name: string): string {
-  return name.replace(/\u2019/g, "'");
+  return name.replace(/\u2019/g, "'").replace(/Defence/g, "Defense");
 }
 
 export function getOpeningTooltip(opening?: string): string | undefined {
   if (!opening) return undefined;
-  return OPENING_TOOLTIPS[normalizeOpeningName(opening)];
+
+  const normalized = normalizeOpeningName(opening);
+  const exact = OPENING_TOOLTIPS[normalized];
+  if (exact) return exact;
+
+  const families = Object.keys(OPENING_TOOLTIPS).sort((a, b) => b.length - a.length);
+  for (const family of families) {
+    const normFamily = normalizeOpeningName(family);
+    if (
+      normalized === normFamily ||
+      normalized.startsWith(`${normFamily},`) ||
+      normalized.startsWith(`${normFamily} `)
+    ) {
+      return OPENING_TOOLTIPS[family];
+    }
+  }
+
+  if (normalized.startsWith("Sicilian,") || normalized.startsWith("Sicilian ")) {
+    return OPENING_TOOLTIPS["Sicilian Defense"];
+  }
+
+  return undefined;
 }

@@ -1,0 +1,379 @@
+{
+  "id": "nunn-029",
+  "book": "nunn",
+  "gameNum": 29,
+  "title": "Game 29: V. Kramnik vs P. Svidler",
+  "section": "Endgame Themes",
+  "players": {
+    "white": "V. Kramnik",
+    "black": "P. Svidler"
+  },
+  "event": "Dortmund 1998",
+  "opening": "Grünfeld Defence, Exchange Variation",
+  "eco": "D86",
+  "pgnPath": "data/pgn/nunn/29.pgn",
+  "result": "1-0",
+  "moveCount": 59,
+  "annotatedMoves": 59,
+  "fullText": "The Power of Passed Pawns\n\nThe advantage of a passed pawn is obvious – if it promotes, then the opponent will usually have to give up a piece for it. However, it is important to note that even if the passed pawn cannot promote by force, it usually still confers an advantage. The reason is that the opponent will have to keep a watchful eye on the pawn, and will probably have to assign one piece to keeping it under control, which is one less piece to take part in the rest of the battle.\n\nAs with all chess principles, this one comes with a number of provisos:\n\n1) First of all, it must be possible to support the passed pawn – indeed, the level of support is just as important as the mere fact of possessing a passed pawn. A passed pawn that cannot be supported may simply be one that has strayed too far into enemy territory, only to be surrounded and captured. Also, a passed pawn may not be much of an advantage if all the pieces are tied to protecting it. Thus, the most useful passed pawns are the ones that can be economically supported, leaving most of the pieces to fight the rest of the battle. Best of all is for the passed pawn to be supported by another pawn, as in the following game. In this case, no pieces at all need be allocated to defending the pawn.\n\n2) The danger posed by a passed pawn depends on how far advanced it is. A passed pawn on the second rank may not fill the opponent with terror, but one on the sixth rank probably will.\n\n3) Passed pawns become more dangerous as the number of pieces on the board decreases. The reason is clear. If you have six pieces, and one of them has to keep an eye on a passed pawn, it may be an inconvenience but it is not a disaster. If have only one piece, and that is tied down by an enemy passed pawn, then that may be the end of the game.\n\n4) A passed pawn which is securely blockaded and is no further advanced than the fifth rank may not be much of a danger. Suppose, for example, you have pawns on e4 and d5, and your opponent has a pawn on e5 and a knight on d6. If the blockading knight can’t be shifted, then the passed pawn may be of no value. Indeed, if, for example, White has only a light-squared bishop it may even be a handicap.\n\nIf one passed pawn is dangerous, then two are even more so. This applies particularly when the two passed pawns are on adjacent files – these are called connected passed pawns. If they advance abreast of one another, then it may be difficult or impossible to blockade them, because a piece which blockades one pawn can be driven away by the other one. In the following game, Kramnik creates first one dangerous passed pawn and then a second, by which time it is all too much for Black.\n\nV. Kramnik – P. Svidler\n\nDortmund 1998\n\nGrünfeld Defence, Exchange Variation\n\n1 d4\n\n1...Nf6\n\n2 c4\n\n2...g6\n\n3 Nc3\n\nFor comments on the moves up to here, see Game 14.\n\n3...d5\n\nThis move introduces the Grünfeld Defence. At first sight, playing ...d5 looks anti-positional, because it leads to the exchange of Black’s central d-pawn for White’s less central c-pawn. The upshot is that White gains a 2 to 1 preponderance of pawns in the centre. Indeed, if Black were to follow up passively and allow White to consolidate his grip in the centre, then the extra central pawn would be a key factor. However, Black has no intention of continuing passively. His main plan is to exert pressure on the pawn at d4, using the half-open d-file and the fianchettoed bishop on g7. In many lines Black plays ...c5 to enhance this pressure.\n\n4 cxd5\n\nWhite accepts the challenge straight away. There are a number of other lines in which the exchange of pawns is postponed. These include 4 Nf3, 4 Bf4, 4 Bg5 and even the boring 4 e3.\n\n4...Nxd5\n\nThere is a big difference between the Grünfeld and the bad line 1 d4 Nf6 2 c4 d5? 3 cxd5 Nxd5 4 Nf3. In this line Black is forced to retreat his knight when White plays e4, whereupon White consolidates his centre with Nc3, gaining a clear advantage. In the Grünfeld, on the other hand, Black can meet e4 with ...Nxc3, avoiding any loss of time. This is such an important point that some players have even tried 5 Na4!? in the Grünfeld, in order to play e4 without allowing the exchange on c3. It is probably only a matter of time before someone plays 5 Nb1!\n\n5 e4\n\nThis is the consistent follow-up to White’s previous move. He at once creates a ‘two-abreast’ pawn-centre.\n\n5...Nxc3\n\n6 bxc3\n\nThis is the fundamental position of what is called the Exchange Grünfeld. The battle will revolve around the strength or weakness of White’s pawn-centre. Black’s assault on d4 will be conducted by means of ...Bg7, ...c5 and ...Nc6. If White plays Nf3, Black may well reply ...Bg4. Black’s aim is to force White to move his d-pawn. If White can maintain his pawn on d4 permanently, without making a concession elsewhere, then he will usually gain some advantage.\n\nIf White does have to move the d-pawn, he will probably not play dxc5, even if it temporarily wins a pawn, since taking on c5 damages White’s pawn-structure too much. Instead, White will normally play d5. Then a new struggle ensues. The advance of the d-pawn activates the g7-bishop, but if White’s central pawns can push forward far enough, they can become dangerous in themselves.\n\n6...Bg7\n\nThe first minor piece is brought to bear on d4.\n\n7 Bc4\n\nWhite has two main ways of handling this position. He can either try to keep the pawn on d4, or else he can prepare to play d5 when the pressure becomes too much. If White adopts the first option, the d4-pawn will need all the support White can muster, so he should avoid Nf3, which allows ...Bg4 eliminating one defender. The knight will instead be developed to e2, where it is immune to the pin. White therefore develops his light-squared bishop first, to avoid it being blocked in. c4 is the most active square, and is obviously better than d3, which blocks the queen’s support of d4.\n\n7 Bb5+ is possible, and this line is quite popular. The idea is that each of the possible interpositions interferes with Black’s attack on d4. Clearly, playing a piece to d7 blocks the queen’s attack, while if Black plays ...c6 then ...Nc6 is no longer possible. The defect is that after 7...c6, Black has another method of undermining White’s centre, namely ...b5-b4, and this enables Black to keep the game more or less in balance.\n\nIf White adopts the alternative plan of playing d5 at some moment, then he must do something about the attack on c3 and the pressure on the long diagonal. White can continue with systems based on Nf3 and Rb1, or Be3 and Qd2, but we will not examine them in detail here.\n\n7...c5\n\nThe pressure starts to mount. White must defend d4.\n\n8 Ne2\n\n8...Nc6\n\nOnly eight moves, and already four black units are attacking d4.\n\n9 Be3\n\nThe fourth defender moves into place.\n\n9...cxd4\n\nFor the moment, Black’s attack on d4 has come to a dead end, because there are no further pieces to bring to bear. Although White is the immediate victor in this struggle, Black can claim to have tied many of White’s pieces down to defensive positions. The main question is how Black is going to proceed. The most common move is 9...0-0, when White usually plays 10 0-0 (although there is a case for 10 Rc1 or even 10 h4!?). Then Black has two different ideas. The first is 10...Qc7, eyeing the undefended bishop on c4 and preparing ...Rd8 to help in the attack on d4. The second idea, which is more common these days, is 10...Bg4 11 f3 Na5 12 Bd3 (12 Bxf7+ is another popular variation) 12...cxd4 13 cxd4 Be6. Now Black threatens to play ...Nc4, so White has a choice between sacrificing the exchange by 14 d5, and sacrificing his a-pawn by 14 Rc1. Neither of these lines is thought to give White a significant advantage.\n\nThe move played often transposes to one of the above variations, but in this game Black pursues an independent course.\n\n10 cxd4\n\n10...Qa5+\n\nThis is Black’s idea. He intends to disturb White’s plan of development.\n\n11 Bd2\n\n11 Qd2 doesn’t offer White much. After 11...0-0 White cannot castle, while 12 Qxa5 Nxa5 13 Bd3 Be6 gives Black active piece-play.\n\n11 Kf1 may look odd, but it is a reasonable move. White’s king is relatively safe on f1, while White intends to activate his rook by starting an attack with h4-h5. Kramnik prefers the less committal bishop retreat.\n\n11...Qd8\n\nBlack offers a repetition of moves, but if it were that simple to equalize, everybody would play the Grünfeld! The alternatives are:\n\n1) 11...Qa3 (now White can simply sacrifice his d-pawn) 12 0-0 and now:\n\n1a) 12...Nxd4? 13 Nxd4 Bxd4 14 Bb4 Qxb4 (after 14...Qb2, 15 Rb1 traps the queen) 15 Qxd4 and White wins due to the twin threats of 16 Qxh8+ and 16 Bxf7+.\n\n1b) After 12...0-0 13 Rb1 Black again cannot take the pawn: 13...Nxd4? 14 Bb4 Nxe2+ 15 Qxe2 Qa4 16 Bb5 and his queen is trapped. Given that Black cannot accept the sacrifice, it is hard to see what he has achieved by playing his queen to a3.\n\n2) 11...Qh5 12 d5 Ne5 13 Bb5+ Bd7 14 Bxd7+ Nxd7 15 Rc1 0-0 16 0-0 Rfc8 17 f3 and White is better since the black queen is not serving any useful function on h5.\n\n12 d5\n\nAssuming that White does not want a draw, he has two plans, mirroring his choice earlier. One is to maintain the pawn on d4 by 12 Bc3 0-0 13 0-0 Bd7 14 Qd2 and the second is to push the pawn to d5. Both plans are probably sufficient to give White an edge, but Kramnik’s choice is the more energetic.\n\n12...Ne5\n\n12...Bxa1? loses to 13 Qxa1.\n\nThis position is typical of lines in which White plays d5 in the Exchange Grünfeld. White still has his central majority and if he can consolidate then he can expect to gain the advantage. One day he may be able to push Black’s knight back by f4, and then roll forward in the centre by e5. However, before this can happen he must organize his position, which is not easy in the face of Black’s active pieces. White’s greater command of space leaves Black’s position a little cramped – in particular, the c8-bishop has no obviously good square. Thus, White should avoid piece exchanges, if possible.\n\n13 Bc3\n\nFrom the previous comment, it follows that 13 Bb5+ Bd7 14 Bxd7+ Qxd7 is wrong – Black is at least equal here. 13 Rc1 0-0 14 0-0 Nxc4 15 Rxc4 e6 16 Bc3 perhaps gives White a faint edge, but the general simplification of the position gives Black good defensive chances.\n\nKramnik’s move gives White the best chance of keeping all the minor pieces on the board.\n\n13...0-0\n\nNot, of course, 13...Nxc4 14 Bxg7, when Black will never be able to castle.\n\n14 Bb3\n\nBlack must now act quickly, or White will gain a large advantage by 15 f4.\n\n14...Qb6\n\nBlack anticipates White castling and ‘pins’ the f2-pawn in advance. Simple development by 14...Bd7 is not enough. After 15 f4 Ng4 16 Bxg7 Kxg7 17 Qd4+ Kg8 18 h3 Qa5+ 19 Nc3 Rac8 20 Rc1 Black must retreat his knight, whereupon White castles, consolidating his massive central superiority.\n\n15 f4!?\n\nThis move is far more challenging than 15 0-0 Bg4, when Black escapes from most of his difficulties. Thanks to the pin on the f-pawn, White cannot play f3, and so Black can exchange his problem bishop. The pin also makes it more awkward for White to play f4, and thus Black gains further time to activate his pieces. After 16 Kh1 (16 h3 Bxe2 17 Qxe2 Rfc8 18 Rac1 a5 gives Black sufficient counterplay) 16...Rac8!? 17 f3 Bd7, 18 Rb1 Bb5 is level, while 18 f4 may be met by 18...Rxc3 19 Nxc3 Ng4 20 Qf3 Bxc3 21 Qxc3 Nf2+ 22 Rxf2 Qxf2 with equality.\n\n15...Ng4?!\n\nA tempting but dubious move. Superficially, the knight is active on g4 but if Black is unable to maintain it there, it will have to drop back with considerable loss of time. 15...Nd7 is more solid. After 16 Bxg7 Kxg7 17 Qd4+ Qxd4 18 Nxd4 Nc5 19 Bc2 f5 20 exf5 Bxf5 21 Nxf5+ gxf5 22 0-0 White has an edge but nothing more.\n\n16 Bd4!\n\nThis more or less forces the exchange of queens. In the resulting ending, White has excellent chances to support his pawn-centre. White should avoid 16 Bxg7 Qf2+ 17 Kd2, when Black can take a draw with 17...Qe3+ or continue the game by 17...Kxg7 18 Qg1 Bd7, with unclear play.\n\n16...Qa5+\n\nOr 16...Bxd4 17 Qxd4 Qxd4 (17...Qa5+ 18 Nc3 Bd7 19 h3 transposes into the note to Black’s 14th move) 18 Nxd4 and now:\n\n1) 18...Nf6 19 e5 Ne4 (19...Nxd5 loses to 20 Bxd5 Rd8 21 Nb5 Rxd5 22 Nc7) 20 Rc1 gives White a clear advantage. His pawn-centre is secure and in some lines he can penetrate to the seventh rank with his rook.\n\n2) 18...Rd8 19 0-0 again favours White. If Black tries 19...e5 20 fxe5 Nxe5 then White seizes the initiative by 21 Nf3! Nxf3+ (or 21...f6 22 Nxe5 fxe5 23 Rac1) 22 Rxf3, when f7 is in White’s firing-line.\n\n17 Qd2\n\n17...Qxd2+\n\nOtherwise Black gets a bad position along the lines of the note to Black’s 14th move.\n\n18 Kxd2\n\n18...e5?\n\nA serious error. Black hopes to solve his problems with the g4-knight by the use of force, but this just rebounds on him. The alternatives are:\n\n1) 18...Nf6 19 e5 Ne4+ 20 Ke3 f5 21 Rac1 is winning for White.\n\n2) 18...Bxd4 19 Nxd4 Rd8 20 h3 Nf6 21 Ke3 gives White a clear advantage. Black still doesn’t have a good square for his bishop since if it goes to d7, White can play e5. Meanwhile, White is threatening to penetrate to c7 with a rook.\n\n3) 18...Rd8 is relatively the best chance, although Black’s position remains unpleasant after 19 h3 Nf6 20 Ke3; for example, 20...b6 (or 20...e6 21 d6) 21 Rac1 Ba6 22 Bxf6 Bxf6 23 e5 Bg7 24 Rc7.\n\n19 h3!\n\n19 fxe5 is a mistake, since after 19...Nxe5 Black’s firm grip on e5 keeps White’s central pawns under restraint. The text-move both sacrifices a pawn and allows a liquidation to an opposite-coloured bishop position. Nevertheless, it is a very strong move. The reason is that White is able to set up a chain of pawns lending firm support to a powerful passed pawn on d6. This passed pawn poses such a danger that the various factors in Black’s favour are irrelevant.\n\n19...exd4\n\nIf 19...Nf6 20 fxe5 Nxe4+, then 21 Ke3 Bf5 (21...f5 22 d6+ Kh8 23 Rac1 gives White a large advantage due to his two connected passed pawns) 22 g4 Bh6+ 23 Nf4 Ng3 24 Rhe1! Bd3 25 Kxd3 Bxf4 26 d6 with a winning position for White.\n\n20 hxg4\n\nWhite’s plan is simple – he will play e5 and d6, setting up an unbreakable pawn-chain. Thanks to the b3-bishop, Black will be unable to play ...f6, while ...g5 can simply be met by g3, so there will no way to dismantle White’s pawn-structure.\n\n20...g5\n\nBlack does his best to attack the pawn-chain. 20...Bxg4 21 e5 Bxe2 22 Kxe2 is similar to the game, while after 20...d3 21 Nc3 Re8 (21...Bxg4 22 Kxd3 Rac8 23 Rac1 is very good for White) 22 Rhe1 Bxg4 23 Kxd3, followed by Rac1 and e5, White again sets up his pawn-chain.\n\n21 g3\n\nKeeping his pawn-structure intact.\n\n21...Bxg4\n\n21...d3 22 Nc3 Bxg4 23 Kxd3 Bf3 24 Rhe1 does not solve Black’s problems.\n\n22 e5\n\nWhite takes another step towards establishing a pawn-chain that runs from g3 to d6. At the same time, he shuts Black’s dark-squared bishop out of play.\n\n22...Bxe2\n\nBlack takes the knight and so preserves his d-pawn, but this pawn is incapable of influencing the outcome of the game. After 22...Bf3 23 Rhf1 g4 24 d6 Black’s d-pawn falls.\n\n23 Kxe2\n\n23...Rfc8\n\nIntending to strike at g3 by ...Rc3.\n\n24 Rad1!\n\n24 Kd3? is a serious error, as after 24...Rc3+ 25 Kxd4 Rxg3 White’s pawn-chain crumbles.\n\n24...Rc3\n\n25 Rd3\n\nWhite shields the g3-pawn. For the past few moves, Black has been able to keep White busy with threats, but now he has come to the end of that particular road.\n\n25...Rac8?!\n\nThis makes life easy for White because the rook turns out to be tactically vulnerable on c8. Other moves:\n\n1) 25...Rd8 26 d6 makes no real difference, e.g. 26...Kf8 27 Rxh7 and 27...f6 is impossible because of 28 exf6 Bxf6 29 Rf7+.\n\n2) 25...b5 is probably the best chance. Black intends ...a5-a4 to dislodge the bishop from b3, when he will have better chances of tackling White’s menacing pawns. Nevertheless, with careful play White should still win in the end: 26 d6 a5 27 Rxc3 (27 Kd2 Rd8 is less clear) 27...dxc3 28 Kd3 b4 29 Ba4! (best, as Black’s pawns are blockaded and White’s king is free to advance; Black’s bishop is completely blocked in by White’s pawn-chain and is as effective as a dried pea rattling around in a tin can) 29...Rd8 30 Ke4 gxf4 (30...Bf8 loses to 31 Kd5 f6 32 Kc6) 31 gxf4 Bf8 32 Kd5 h6 33 Rg1+ Kh8 34 Kc6 h5 35 Kc7 Ra8 36 Bc6 Ra6 37 Kb7 and White wins.\n\n26 d6\n\nThe culmination of White’s strategy. The passed pawn on d6 dominates the position.\n\n26...b5\n\nThis allows a quick finish, but Black is lost in any case, e.g.:\n\n1) 26...Rxd3 27 Kxd3 Rc3+ 28 Kxd4 Rxg3 is not possible as White promotes his d-pawn by 29 d7.\n\n2) 26...Rd8 27 Rxc3 dxc3 28 Rc1 (threatening Rxc3 followed by Rc7) 28...h5 (28...gxf4 loses to 29 gxf4 Bh6 30 Kf3) 29 Rxc3 h4 30 Rc7 hxg3 31 Rxf7 Kh8 32 e6 and White wins.\n\n3) 26...Kf8 27 Rxh7 Rd8 28 Rh5! f6 (or 28...gxf4 29 gxf4, followed by Rf5) 29 Rh7 fxe5 30 fxe5 Bxe5 31 Rf7+ Ke8 32 Re7+ picks up the bishop.\n\n4) 26...Re8 27 Rxc3 dxc3 28 Kd3 and White wins much as in note ‘2’ to Black’s 25th move.\n\n27 Rxc3\n\n27...dxc3\n\nAfter 27...Rxc3 28 d7 the pawn will promote.\n\n28 e6!\n\nNow White acquires two far-advanced connected passed pawns. The game is decided.\n\n28...Kf8\n\nThe alternatives are grim:\n\n1) 28...Rb8 loses to 29 e7 Bf6 30 fxg5 Bxg5 31 Rf1.\n\n2) 28...Bf6 29 fxg5 Bxg5 30 Rh5 Bf6 31 e7 Rb8 32 Rf5 Kg7 33 d7 is the end.\n\n3) 28...Bf8 is the only way to play on, but after 29 e7 Bxe7 30 dxe7 Re8 31 Kd3 gxf4 32 gxf4 Rxe7 33 Kxc3 White will win in the end.\n\n29 e7+\n\nThe pawns run through.\n\n29...Ke8\n\n30 Bxf7+!\n\n30...1-0\n\nSince 30...Kd7 (30...Kxf7 31 d7 is an attractive picture – for White!) 31 Rxh7 c2 32 e8Q+ Rxe8+ 33 Bxe8+ Kxe8 34 Kd2 finishes Black off.\n\nThe Grünfeld is a popular and double-edged opening; White is allowed to gain control of the centre temporarily, but Black hopes to undermine this control later. In this game, Svidler chose an unusual manoeuvre at move 10, but Kramnik responded energetically, seizing more space in the centre. Black’s 15th move, although natural, turned out to be a mistake. Faced with the prospect of grovelling back with his knight, Svidler tried to make use of its position at g4. However, Kramnik seized the advantage with the powerful blow 19 h3!, guaranteeing him a powerful passed d-pawn. After this Black was always struggling, and Kramnik finished nicely with a piece sacrifice to obtain two connected passed pawns on the seventh rank. An impressive game by Kramnik.\n\nThe lessons here are:\n\n1) In the Grünfeld Defence, the burden is on Black to disrupt White’s centre. If White can keep it intact, then he can expect an advantage.\n\n2) A well-supported passed pawn is a useful asset.\n\n3) Passed pawns become more valuable as the endgame approaches.\n\n4) Two far-advanced connected passed pawns are usually worth at least a piece.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "The Power of Passed Pawns\n\nThe advantage of a passed pawn is obvious – if it promotes, then the opponent will usually have to give up a piece for it. However, it is important to note that even if the passed pawn cannot promote by force, it usually still confers an advantage. The reason is that the opponent will have to keep a watchful eye on the pawn, and will probably have to assign one piece to keeping it under control, which is one less piece to take part in the rest of the battle.\n\nAs with all chess principles, this one comes with a number of provisos:\n\n1) First of all, it must be possible to support the passed pawn – indeed, the level of support is just as important as the mere fact of possessing a passed pawn. A passed pawn that cannot be supported may simply be one that has strayed too far into enemy territory, only to be surrounded and captured. Also, a passed pawn may not be much of an advantage if all the pieces are tied to protecting it. Thus, the most useful passed pawns are the ones that can be economically supported, leaving most of the pieces to fight the rest of the battle. Best of all is for the passed pawn to be supported by another pawn, as in the following game. In this case, no pieces at all need be allocated to defending the pawn.\n\n2) The danger posed by a passed pawn depends on how far advanced it is. A passed pawn on the second rank may not fill the opponent with terror, but one on the sixth rank probably will.\n\n3) Passed pawns become more dangerous as the number of pieces on the board decreases. The reason is clear. If you have six pieces, and one of them has to keep an eye on a passed pawn, it may be an inconvenience but it is not a disaster. If have only one piece, and that is tied down by an enemy passed pawn, then that may be the end of the game.\n\n4) A passed pawn which is securely blockaded and is no further advanced than the fifth rank may not be much of a danger. Suppose, for example, you have pawns on e4 and d5, and your opponent has a pawn on e5 and a knight on d6. If the blockading knight can’t be shifted, then the passed pawn may be of no value. Indeed, if, for example, White has only a light-squared bishop it may even be a handicap.\n\nIf one passed pawn is dangerous, then two are even more so. This applies particularly when the two passed pawns are on adjacent files – these are called connected passed pawns. If they advance abreast of one another, then it may be difficult or impossible to blockade them, because a piece which blockades one pawn can be driven away by the other one. In the following game, Kramnik creates first one dangerous passed pawn and then a second, by which time it is all too much for Black.\n\nV. Kramnik – P. Svidler\n\nDortmund 1998\n\nGrünfeld Defence, Exchange Variation"
+    },
+    {
+      "ply": 1,
+      "san": "d4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "Nf6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "c4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "g6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "Nc3",
+      "text": "For comments on the moves up to here, see Game 14.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "d5",
+      "text": "White to play\n\nThis move introduces the Grünfeld Defence. At first sight, playing ...d5 looks anti-positional, because it leads to the exchange of Black’s central d-pawn for White’s less central c-pawn. The upshot is that White gains a 2 to 1 preponderance of pawns in the centre. Indeed, if Black were to follow up passively and allow White to consolidate his grip in the centre, then the extra central pawn would be a key factor. However, Black has no intention of continuing passively. His main plan is to exert pressure on the pawn at d4, using the half-open d-file and the fianchettoed bishop on g7. In many lines Black plays ...c5 to enhance this pressure.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "cxd5",
+      "text": "White accepts the challenge straight away. There are a number of other lines in which the exchange of pawns is postponed. These include 4 Nf3, 4 Bf4, 4 Bg5 and even the boring 4 e3.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "Nxd5",
+      "text": "There is a big difference between the Grünfeld and the bad line 1 d4 Nf6 2 c4 d5? 3 cxd5 Nxd5 4 Nf3. In this line Black is forced to retreat his knight when White plays e4, whereupon White consolidates his centre with Nc3, gaining a clear advantage. In the Grünfeld, on the other hand, Black can meet e4 with ...Nxc3, avoiding any loss of time. This is such an important point that some players have even tried 5 Na4!? in the Grünfeld, in order to play e4 without allowing the exchange on c3. It is probably only a matter of time before someone plays 5 Nb1!",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "e4",
+      "text": "This is the consistent follow-up to White’s previous move. He at once creates a ‘two-abreast’ pawn-centre.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "Nxc3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "bxc3",
+      "text": "Black to play\n\nThis is the fundamental position of what is called the Exchange Grünfeld. The battle will revolve around the strength or weakness of White’s pawn-centre. Black’s assault on d4 will be conducted by means of ...Bg7, ...c5 and ...Nc6. If White plays Nf3, Black may well reply ...Bg4. Black’s aim is to force White to move his d-pawn. If White can maintain his pawn on d4 permanently, without making a concession elsewhere, then he will usually gain some advantage.\n\nIf White does have to move the d-pawn, he will probably not play dxc5, even if it temporarily wins a pawn, since taking on c5 damages White’s pawn-structure too much. Instead, White will normally play d5. Then a new struggle ensues. The advance of the d-pawn activates the g7-bishop, but if White’s central pawns can push forward far enough, they can become dangerous in themselves.",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "Bg7",
+      "text": "The first minor piece is brought to bear on d4.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "Bc4",
+      "text": "White has two main ways of handling this position. He can either try to keep the pawn on d4, or else he can prepare to play d5 when the pressure becomes too much. If White adopts the first option, the d4-pawn will need all the support White can muster, so he should avoid Nf3, which allows ...Bg4 eliminating one defender. The knight will instead be developed to e2, where it is immune to the pin. White therefore develops his light-squared bishop first, to avoid it being blocked in. c4 is the most active square, and is obviously better than d3, which blocks the queen’s support of d4.\n\n7 Bb5+ is possible, and this line is quite popular. The idea is that each of the possible interpositions interferes with Black’s attack on d4. Clearly, playing a piece to d7 blocks the queen’s attack, while if Black plays ...c6 then ...Nc6 is no longer possible. The defect is that after 7...c6, Black has another method of undermining White’s centre, namely ...b5-b4, and this enables Black to keep the game more or less in balance.\n\nIf White adopts the alternative plan of playing d5 at some moment, then he must do something about the attack on c3 and the pressure on the long diagonal. White can continue with systems based on Nf3 and Rb1, or Be3 and Qd2, but we will not examine them in detail here.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "c5",
+      "text": "The pressure starts to mount. White must defend d4.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "Ne2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "Nc6",
+      "text": "Only eight moves, and already four black units are attacking d4.",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "Be3",
+      "text": "Black to play\n\nThe fourth defender moves into place.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "cxd4",
+      "text": "For the moment, Black’s attack on d4 has come to a dead end, because there are no further pieces to bring to bear. Although White is the immediate victor in this struggle, Black can claim to have tied many of White’s pieces down to defensive positions. The main question is how Black is going to proceed. The most common move is 9...0-0, when White usually plays 10 0-0 (although there is a case for 10 Rc1 or even 10 h4!?). Then Black has two different ideas. The first is 10...Qc7, eyeing the undefended bishop on c4 and preparing ...Rd8 to help in the attack on d4. The second idea, which is more common these days, is 10...Bg4 11 f3 Na5 12 Bd3 (12 Bxf7+ is another popular variation) 12...cxd4 13 cxd4 Be6. Now Black threatens to play ...Nc4, so White has a choice between sacrificing the exchange by 14 d5, and sacrificing his a-pawn by 14 Rc1. Neither of these lines is thought to give White a significant advantage.\n\nThe move played often transposes to one of the above variations, but in this game Black pursues an independent course.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "cxd4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "Qa5+",
+      "text": "This is Black’s idea. He intends to disturb White’s plan of development.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "Bd2",
+      "text": "11 Qd2 doesn’t offer White much. After 11...0-0 White cannot castle, while 12 Qxa5 Nxa5 13 Bd3 Be6 gives Black active piece-play.\n\n11 Kf1 may look odd, but it is a reasonable move. White’s king is relatively safe on f1, while White intends to activate his rook by starting an attack with h4-h5. Kramnik prefers the less committal bishop retreat.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "Qd8",
+      "text": "Black offers a repetition of moves, but if it were that simple to equalize, everybody would play the Grünfeld! The alternatives are:\n\n1) 11...Qa3 (now White can simply sacrifice his d-pawn) 12 0-0 and now:\n\n1a) 12...Nxd4? 13 Nxd4 Bxd4 14 Bb4 Qxb4 (after 14...Qb2, 15 Rb1 traps the queen) 15 Qxd4 and White wins due to the twin threats of 16 Qxh8+ and 16 Bxf7+.\n\n1b) After 12...0-0 13 Rb1 Black again cannot take the pawn: 13...Nxd4? 14 Bb4 Nxe2+ 15 Qxe2 Qa4 16 Bb5 and his queen is trapped. Given that Black cannot accept the sacrifice, it is hard to see what he has achieved by playing his queen to a3.\n\n2) 11...Qh5 12 d5 Ne5 13 Bb5+ Bd7 14 Bxd7+ Nxd7 15 Rc1 0-0 16 0-0 Rfc8 17 f3 and White is better since the black queen is not serving any useful function on h5.",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "d5",
+      "text": "Assuming that White does not want a draw, he has two plans, mirroring his choice earlier. One is to maintain the pawn on d4 by 12 Bc3 0-0 13 0-0 Bd7 14 Qd2 and the second is to push the pawn to d5. Both plans are probably sufficient to give White an edge, but Kramnik’s choice is the more energetic.",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "Ne5",
+      "text": "12...Bxa1? loses to 13 Qxa1.\n\nWhite to play\n\nThis position is typical of lines in which White plays d5 in the Exchange Grünfeld. White still has his central majority and if he can consolidate then he can expect to gain the advantage. One day he may be able to push Black’s knight back by f4, and then roll forward in the centre by e5. However, before this can happen he must organize his position, which is not easy in the face of Black’s active pieces. White’s greater command of space leaves Black’s position a little cramped – in particular, the c8-bishop has no obviously good square. Thus, White should avoid piece exchanges, if possible.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Bc3",
+      "text": "From the previous comment, it follows that 13 Bb5+ Bd7 14 Bxd7+ Qxd7 is wrong – Black is at least equal here. 13 Rc1 0-0 14 0-0 Nxc4 15 Rxc4 e6 16 Bc3 perhaps gives White a faint edge, but the general simplification of the position gives Black good defensive chances.\n\nKramnik’s move gives White the best chance of keeping all the minor pieces on the board.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "O-O",
+      "text": "Not, of course, 13...Nxc4 14 Bxg7, when Black will never be able to castle.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Bb3",
+      "text": "Black must now act quickly, or White will gain a large advantage by 15 f4.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "Qb6",
+      "text": "Black anticipates White castling and ‘pins’ the f2-pawn in advance. Simple development by 14...Bd7 is not enough. After 15 f4 Ng4 16 Bxg7 Kxg7 17 Qd4+ Kg8 18 h3 Qa5+ 19 Nc3 Rac8 20 Rc1 Black must retreat his knight, whereupon White castles, consolidating his massive central superiority.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "f4",
+      "text": "This move is far more challenging than 15 0-0 Bg4, when Black escapes from most of his difficulties. Thanks to the pin on the f-pawn, White cannot play f3, and so Black can exchange his problem bishop. The pin also makes it more awkward for White to play f4, and thus Black gains further time to activate his pieces. After 16 Kh1 (16 h3 Bxe2 17 Qxe2 Rfc8 18 Rac1 a5 gives Black sufficient counterplay) 16...Rac8!? 17 f3 Bd7, 18 Rb1 Bb5 is level, while 18 f4 may be met by 18...Rxc3 19 Nxc3 Ng4 20 Qf3 Bxc3 21 Qxc3 Nf2+ 22 Rxf2 Qxf2 with equality.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "Ng4",
+      "text": "A tempting but dubious move. Superficially, the knight is active on g4 but if Black is unable to maintain it there, it will have to drop back with considerable loss of time. 15...Nd7 is more solid. After 16 Bxg7 Kxg7 17 Qd4+ Qxd4 18 Nxd4 Nc5 19 Bc2 f5 20 exf5 Bxf5 21 Nxf5+ gxf5 22 0-0 White has an edge but nothing more.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Bd4",
+      "text": "This more or less forces the exchange of queens. In the resulting ending, White has excellent chances to support his pawn-centre. White should avoid 16 Bxg7 Qf2+ 17 Kd2, when Black can take a draw with 17...Qe3+ or continue the game by 17...Kxg7 18 Qg1 Bd7, with unclear play.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Qa5+",
+      "text": "Or 16...Bxd4 17 Qxd4 Qxd4 (17...Qa5+ 18 Nc3 Bd7 19 h3 transposes into the note to Black’s 14th move) 18 Nxd4 and now:\n\n1) 18...Nf6 19 e5 Ne4 (19...Nxd5 loses to 20 Bxd5 Rd8 21 Nb5 Rxd5 22 Nc7) 20 Rc1 gives White a clear advantage. His pawn-centre is secure and in some lines he can penetrate to the seventh rank with his rook.\n\n2) 18...Rd8 19 0-0 again favours White. If Black tries 19...e5 20 fxe5 Nxe5 then White seizes the initiative by 21 Nf3! Nxf3+ (or 21...f6 22 Nxe5 fxe5 23 Rac1) 22 Rxf3, when f7 is in White’s firing-line.",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Qd2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Qxd2+",
+      "text": "Otherwise Black gets a bad position along the lines of the note to Black’s 14th move.",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "Kxd2",
+      "text": "Black to play",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "e5",
+      "text": "A serious error. Black hopes to solve his problems with the g4-knight by the use of force, but this just rebounds on him. The alternatives are:\n\n1) 18...Nf6 19 e5 Ne4+ 20 Ke3 f5 21 Rac1 is winning for White.\n\n2) 18...Bxd4 19 Nxd4 Rd8 20 h3 Nf6 21 Ke3 gives White a clear advantage. Black still doesn’t have a good square for his bishop since if it goes to d7, White can play e5. Meanwhile, White is threatening to penetrate to c7 with a rook.\n\n3) 18...Rd8 is relatively the best chance, although Black’s position remains unpleasant after 19 h3 Nf6 20 Ke3; for example, 20...b6 (or 20...e6 21 d6) 21 Rac1 Ba6 22 Bxf6 Bxf6 23 e5 Bg7 24 Rc7.",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "h3",
+      "text": "19 fxe5 is a mistake, since after 19...Nxe5 Black’s firm grip on e5 keeps White’s central pawns under restraint. The text-move both sacrifices a pawn and allows a liquidation to an opposite-coloured bishop position. Nevertheless, it is a very strong move. The reason is that White is able to set up a chain of pawns lending firm support to a powerful passed pawn on d6. This passed pawn poses such a danger that the various factors in Black’s favour are irrelevant.",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "exd4",
+      "text": "If 19...Nf6 20 fxe5 Nxe4+, then 21 Ke3 Bf5 (21...f5 22 d6+ Kh8 23 Rac1 gives White a large advantage due to his two connected passed pawns) 22 g4 Bh6+ 23 Nf4 Ng3 24 Rhe1! Bd3 25 Kxd3 Bxf4 26 d6 with a winning position for White.",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "hxg4",
+      "text": "Black to play\n\nWhite’s plan is simple – he will play e5 and d6, setting up an unbreakable pawn-chain. Thanks to the b3-bishop, Black will be unable to play ...f6, while ...g5 can simply be met by g3, so there will no way to dismantle White’s pawn-structure.",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "g5",
+      "text": "Black does his best to attack the pawn-chain. 20...Bxg4 21 e5 Bxe2 22 Kxe2 is similar to the game, while after 20...d3 21 Nc3 Re8 (21...Bxg4 22 Kxd3 Rac8 23 Rac1 is very good for White) 22 Rhe1 Bxg4 23 Kxd3, followed by Rac1 and e5, White again sets up his pawn-chain.",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "g3",
+      "text": "Keeping his pawn-structure intact.",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "Bxg4",
+      "text": "21...d3 22 Nc3 Bxg4 23 Kxd3 Bf3 24 Rhe1 does not solve Black’s problems.",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "e5",
+      "text": "White takes another step towards establishing a pawn-chain that runs from g3 to d6. At the same time, he shuts Black’s dark-squared bishop out of play.",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "Bxe2",
+      "text": "Black takes the knight and so preserves his d-pawn, but this pawn is incapable of influencing the outcome of the game. After 22...Bf3 23 Rhf1 g4 24 d6 Black’s d-pawn falls.",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "Kxe2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "Rfc8",
+      "text": "White to play\n\nIntending to strike at g3 by ...Rc3.",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "Rad1",
+      "text": "24 Kd3? is a serious error, as after 24...Rc3+ 25 Kxd4 Rxg3 White’s pawn-chain crumbles.",
+      "isCritical": true
+    },
+    {
+      "ply": 48,
+      "san": "Rc3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 49,
+      "san": "Rd3",
+      "text": "White shields the g3-pawn. For the past few moves, Black has been able to keep White busy with threats, but now he has come to the end of that particular road.",
+      "isCritical": true
+    },
+    {
+      "ply": 50,
+      "san": "Rac8",
+      "text": "This makes life easy for White because the rook turns out to be tactically vulnerable on c8. Other moves:\n\n1) 25...Rd8 26 d6 makes no real difference, e.g. 26...Kf8 27 Rxh7 and 27...f6 is impossible because of 28 exf6 Bxf6 29 Rf7+.\n\n2) 25...b5 is probably the best chance. Black intends ...a5-a4 to dislodge the bishop from b3, when he will have better chances of tackling White’s menacing pawns. Nevertheless, with careful play White should still win in the end: 26 d6 a5 27 Rxc3 (27 Kd2 Rd8 is less clear) 27...dxc3 28 Kd3 b4 29 Ba4! (best, as Black’s pawns are blockaded and White’s king is free to advance; Black’s bishop is completely blocked in by White’s pawn-chain and is as effective as a dried pea rattling around in a tin can) 29...Rd8 30 Ke4 gxf4 (30...Bf8 loses to 31 Kd5 f6 32 Kc6) 31 gxf4 Bf8 32 Kd5 h6 33 Rg1+ Kh8 34 Kc6 h5 35 Kc7 Ra8 36 Bc6 Ra6 37 Kb7 and White wins.",
+      "isCritical": true
+    },
+    {
+      "ply": 51,
+      "san": "d6",
+      "text": "Black to play\n\nThe culmination of White’s strategy. The passed pawn on d6 dominates the position.",
+      "isCritical": true
+    },
+    {
+      "ply": 52,
+      "san": "b5",
+      "text": "This allows a quick finish, but Black is lost in any case, e.g.:\n\n1) 26...Rxd3 27 Kxd3 Rc3+ 28 Kxd4 Rxg3 is not possible as White promotes his d-pawn by 29 d7.\n\n2) 26...Rd8 27 Rxc3 dxc3 28 Rc1 (threatening Rxc3 followed by Rc7) 28...h5 (28...gxf4 loses to 29 gxf4 Bh6 30 Kf3) 29 Rxc3 h4 30 Rc7 hxg3 31 Rxf7 Kh8 32 e6 and White wins.\n\n3) 26...Kf8 27 Rxh7 Rd8 28 Rh5! f6 (or 28...gxf4 29 gxf4, followed by Rf5) 29 Rh7 fxe5 30 fxe5 Bxe5 31 Rf7+ Ke8 32 Re7+ picks up the bishop.\n\n4) 26...Re8 27 Rxc3 dxc3 28 Kd3 and White wins much as in note ‘2’ to Black’s 25th move.",
+      "isCritical": true
+    },
+    {
+      "ply": 53,
+      "san": "Rxc3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 54,
+      "san": "dxc3",
+      "text": "After 27...Rxc3 28 d7 the pawn will promote.",
+      "isCritical": true
+    },
+    {
+      "ply": 55,
+      "san": "e6",
+      "text": "Now White acquires two far-advanced connected passed pawns. The game is decided.",
+      "isCritical": true
+    },
+    {
+      "ply": 56,
+      "san": "Kf8",
+      "text": "The alternatives are grim:\n\n1) 28...Rb8 loses to 29 e7 Bf6 30 fxg5 Bxg5 31 Rf1.\n\n2) 28...Bf6 29 fxg5 Bxg5 30 Rh5 Bf6 31 e7 Rb8 32 Rf5 Kg7 33 d7 is the end.\n\n3) 28...Bf8 is the only way to play on, but after 29 e7 Bxe7 30 dxe7 Re8 31 Kd3 gxf4 32 gxf4 Rxe7 33 Kxc3 White will win in the end.",
+      "isCritical": true
+    },
+    {
+      "ply": 57,
+      "san": "e7+",
+      "text": "The pawns run through.",
+      "isCritical": true
+    },
+    {
+      "ply": 58,
+      "san": "Ke8",
+      "text": "White to play",
+      "isCritical": true
+    },
+    {
+      "ply": 59,
+      "san": "Bxf7+",
+      "text": "30...1-0\n\nSince 30...Kd7 (30...Kxf7 31 d7 is an attractive picture – for White!) 31 Rxh7 c2 32 e8Q+ Rxe8+ 33 Bxe8+ Kxe8 34 Kd2 finishes Black off.\n\nThe Grünfeld is a popular and double-edged opening; White is allowed to gain control of the centre temporarily, but Black hopes to undermine this control later. In this game, Svidler chose an unusual manoeuvre at move 10, but Kramnik responded energetically, seizing more space in the centre. Black’s 15th move, although natural, turned out to be a mistake. Faced with the prospect of grovelling back with his knight, Svidler tried to make use of its position at g4. However, Kramnik seized the advantage with the powerful blow 19 h3!, guaranteeing him a powerful passed d-pawn. After this Black was always struggling, and Kramnik finished nicely with a piece sacrifice to obtain two connected passed pawns on the seventh rank. An impressive game by Kramnik.\n\nThe lessons here are:\n\n1) In the Grünfeld Defence, the burden is on Black to disrupt White’s centre. If White can keep it intact, then he can expect an advantage.\n\n2) A well-supported passed pawn is a useful asset.\n\n3) Passed pawns become more valuable as the endgame approaches.\n\n4) Two far-advanced connected passed pawns are usually worth at least a piece.",
+      "isCritical": true
+    }
+  ]
+}

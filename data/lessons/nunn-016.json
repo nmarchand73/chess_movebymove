@@ -1,0 +1,451 @@
+{
+  "id": "nunn-016",
+  "book": "nunn",
+  "gameNum": 16,
+  "title": "Game 16: G. Kasparov vs I. Sokolov",
+  "section": "Positional Play",
+  "players": {
+    "white": "G. Kasparov",
+    "black": "I. Sokolov"
+  },
+  "event": "Olympiad, Erevan 1996",
+  "opening": "Scotch Opening",
+  "eco": "C45",
+  "pgnPath": "data/pgn/nunn/16.pgn",
+  "result": "1-0",
+  "moveCount": 71,
+  "annotatedMoves": 68,
+  "fullText": "Bad Pawn-Structure\n\nTextbooks usually devote a great deal of space to pawn weaknesses, perhaps because it is one of the few areas of middlegame play that can be treated systematically. Doubled pawns, isolated pawns, backward pawns, hanging pawns and so on are treated one by one. Usually the examples chosen to illustrate the exploitation of these weaknesses show a simple technical procedure leading to a win. One soon gains the impression that inflicting an isolated pawn on the opponent is tantamount to a decisive advantage. As we all know, real life is not like that. The writers of such textbooks want to make a clear-cut point, and usually select games in which the defender rolls on his back and practically asks for the coup de grâce to be administered. In practice, matters are usually less clear for two reasons.\n\nFirstly, most opponents are not so generous as to accept a pawn weakness without any compensation. Normally, there is a trade involved: a weak pawn in return for active piece-play, a lead in development or some other transient advantage. Then you have to work to nullify this advantage before you can consider exploiting the weak pawns. One thing is operating in your favour: most pawn weaknesses are more or less permanent, so the burden is on your opponent to prove his compensation, whereas all you have to do is counter his plans, exchange a few pieces and reach a more simplified position where the pawn weaknesses become the dominant feature of the position.\n\nSecondly, even if you succeed in nullifying your opponent’s compensation, it may not in fact prove so easy to win the game. Once again, some writers of textbooks often employ a little sleight of hand. They choose a position in which, say, Black has an isolated pawn and show how White wins. Very often, however, the position chosen is one in which White has some other advantages in addition to the enemy pawn weakness (e.g. Black has a bad bishop, or some other weak pawns). Without really mentioning these other advantages they blame Black’s defeat solely on his weak pawn. Before the 1974 Karpov-Korchnoi Candidates Final match, Karpov, as White, had won several games with a line in the French in which Black gets an isolated d-pawn (1 e4 e6 2 d4 d5 3 Nd2 c5 4 exd5 exd5 5 Ngf3 Nc6 6 Bb5). He almost made this line look like a forced win for White. In the match itself he repeatedly reached the same type of position and repeatedly failed to win. Korchnoi showed that the reason Karpov had won the earlier games was because he was stronger than his opponents, and not because the position was inherently bad. Thus you shouldn’t count on a win just because of a structural advantage – good defence counts for a lot. Similarly, if you are the player with the weakness, don’t give up or become depressed. Even Kasparov doesn’t find it easy to win such positions without allowing some counterchances, as we shall now see.\n\nG. Kasparov – I. Sokolov\n\nOlympiad, Erevan 1996\n\nScotch Opening\n\n1 e4\n\n1...e5\n\n2 Nf3\n\n2...Nc6\n\nFor comments on the moves up to here, see Game 7.\n\n3 d4\n\nThis move introduces the Scotch Opening. While 3 d4 might appear a logical move, in a way White is scaling down his ambitions by playing it. Ideally, White would like to have two pawns abreast on d4 and e4. In the Ruy Lopez (see Game 7), White manages to achieve this by playing c3 and only then d4. Then ...exd4 can be met by cxd4, and White keeps his ideal pawn-centre. The defect is that in order to achieve his ambition, White has to spend quite a lot of time (Bb5-a4-b3, and advancing his pawn to h3). The Scotch operates on a different philosophy. White gives up his aspiration to form an ideal pawn-centre, and simply concentrates of getting his pieces out. For many decades, this opening was considered a rather harmless sideline in comparison to the Ruy Lopez, but then Garry Kasparov started to play it with success, and now it has been subjected to a far more detailed examination. Although the theoretical status of the Scotch is satisfactory for Black, this game shows that it can be an effective weapon.\n\n3...exd4\n\nIt is a kind of triumph for Black to force White to recapture with a piece on d4.\n\n4 Nxd4\n\n4 c3 is the Göring Gambit. Black can obtain a satisfactory position by declining it with 4...d5 or 4...Nf6, but there is also little wrong with accepting it. In view of the wide range of good lines for Black, it has fallen into disuse.\n\n4...Nf6\n\nThis is one of Black’s two main lines in the Scotch. The other is 4...Bc5, when White has the choice between 5 Be3 Qf6 6 c3, supporting his central knight, and 5 Nxc6, doubling Black’s pawns at the cost of allowing Black active piece-play.\n\n5 Nxc6\n\nIt is this move that has formed the basis for Kasparov’s handling of the Scotch. Although it had been played before, Kasparov infused it with many new ideas. While the theoretical position is still satisfactory for Black, this game (amongst others) shows that it is not easy to handle Black’s position in practice. White’s idea is simple but ambitious. He at once inflicts doubled pawns on Black, and indeed these doubled pawns form the central theme of this whole game. However, in chess one can rarely get something for nothing. The price of inflicting this pawn weakness is that White will fall behind in development. The big question is whether White can consolidate his position, catch up with his development and set about exploiting the weak pawns. The alternative, 5 Nc3, is thought insufficiently challenging; after 5...Bb4 current theory suggests that Black has no real problems.\n\n5...bxc6\n\nBlack’s hopes rest on his piece activity, so he should not allow the exchange of queens by 5...dxc6 (which would also allow White to deprive Black of the right to castle).\n\n6 e5\n\nThis is the critical move, and the only one to justify the previous exchange. After 6 Bd3 d5 Black can develop with ease, and White will almost certainly have to exchange on d5 at some stage, relieving Black of his doubled pawns.\n\n6...Qe7\n\nThis more or less forces White to play Qe2, after which the development of White’s kingside is impeded. It can be argued that Black’s kingside development is similarly obstructed, so he hasn’t gained anything, but the concrete variations seem to indicate that White suffers slightly more than Black. The immediate 6...Nd5 is less effective, as after 7 Bd3 d6 8 exd6 Black faces a typical dilemma. If he takes back with the bishop, he can develop without difficulty, but he has permanently weak pawns on the queenside. If he plays 8...cxd6, then his pawn weaknesses are less serious, but it is harder for him to activate his dark-squared bishop. In both cases, White can claim some advantage. However, 6...Ne4 is a playable alternative to the text-move.\n\n7 Qe2\n\nWhite is obliged to play this (see Game 13 for a similar manoeuvre) because after 7 f4, for example, Black can play 7...d6 rather than move his knight.\n\n7...Nd5\n\nThe knight has to move, but unlike Game 13, it has a more active square available than g8!\n\n8 c4\n\nThe battle between White’s better structure and Black’s piece activity begins in earnest. White’s main aim is to keep Black’s activity under control while he develops his pieces. Black’s knight is well placed on the central square d5, and White cannot easily complete his development while the knight stands ready to hop to b4 or f4 at a moment’s notice. White therefore tries to kick the knight away, in order to know where it is going and if possible to sideline it completely.\n\n8...Ba6\n\nBlack is not giving anything away and plays to maintain the knight on d5. However, this is a fairly committal move. If Black’s scheme fails and the knight must eventually retreat to b6, then White will be able to secure the c4-pawn with b3, locking the a6-bishop and b6-knight out of play. Moreover, the slightly precarious position of the knight on d5 gives White some tactical opportunities (see the note to Black’s 9th move, for example). For this reason, some players prefer 8...Nb6, because if White then plays b3, Black’s a-pawn is still free and he can soften up White’s queenside with ...a5-a4.\n\n9 g3\n\nQuestions of move-order are important at this point. White’s ideal plan of development is b3 and Bb2 on the queenside, to secure the e5-pawn and lock the a6-bishop out, and g3 and Bg2 on the kingside, to prepare castling. Obviously, this is all rather slow and gives Black plenty of time to complete his own development. It also raises the question as to whether White should start with 9 b3 or 9 g3. Kasparov has played both moves, so we cannot obtain any guidance from the Master. After 9 b3, White has the extra option of meeting 9...g6 with 10 f4 (rather than 10 g3), but on the other hand Black has quite a few options against 9 b3 (9...g5 and 9...Qh4, for example) that don’t exist against 9 g3.\n\n9...g6\n\nThe most solid move; Black simply gets on with his development. Given that White is unable to support the e5-pawn with Bb2, it is tempting to challenge it by 9...f6, but this move is a mistake on account of 10 e6! dxe6 11 Bg2 Qd7 12 0-0 Nb6 13 b3 and, at the cost of a pawn, White has secured a number of positional assets. Black’s queenside minor pieces are definitely shut out, the c6-pawn is weak and exposed, and White can easily complete his development. Together, these factors are more relevant than the material, and so White has the advantage. Play might continue 13...0-0-0 14 Nc3 Bc5 15 Rd1 Bd4 16 Be3 e5 17 a4, when White has a strong initiative. This is a case in which it is even worth White sacrificing a pawn to stabilize the position and gain the time he needs to start exploiting Black’s pawn weaknesses.\n\n10 b3\n\nIn view of the imminent ...Bg7, White must make ready to defend his e5-pawn.\n\n10...Bg7\n\n11 Bb2\n\n11...0-0\n\nBoth sides continue with their development with the key question still unresolved: will Black find a way to exploit his lead in development and active pieces before White consolidates?\n\n12 Bg2\n\nNow White is ready to castle.\n\n12...Rfe8?!\n\nBlack must choose which rook to move to e8, and this certainly looks the more natural of the two. However, it is inaccurate for a very subtle reason. After 12...Rae8 13 0-0 Black, just as in the game, has the choice between:\n\n1) 13...Nb6 14 Re1 f6 (this move makes use of the position of the rook on f8) 15 Qe3 (15 e6 Qd6 is also unclear) 15...Qe6 with chances for both sides.\n\n2) 13...Bxe5 14 Qxe5 Qxe5 15 Bxe5 Rxe5 16 cxd5 Bxf1 17 Kxf1 cxd5 18 Nc3 c6. This ending is hard to assess. From the material point of view, Black has nothing to complain about, but he is handicapped by the immobile mass of pawns on the c- and d-files. However, it isn’t easy for White to make progress and although the practical results are rather in White’s favour, I suspect that the endgame should be a draw.\n\n13 0-0\n\nA key moment. Black must decide whether to liquidate to an ending by taking on e5.\n\n13...Nb6\n\n13...Bxe5 14 Qxe5 Qxe5 15 Bxe5 Rxe5 16 cxd5 Bxf1 17 Kxf1 cxd5 is very similar to the corresponding ending after 12...Rae8. However, White has one extra possibility here which did not exist in the note to Black’s 12th move, namely 18 f4! Re3 19 Bxd5. Now this gains a tempo by attacking a8, so Black has no time to respond with ...Rd3 and ...Rd1+, which would leave White completely tied up. After 19...Rae8 20 Nd2 Rd3 (20...Re2 21 Rd1 Rxh2 22 Bg2 looks promising for White) 21 Ne4 Kg7 22 Bc4 Rf3+ 23 Nf2 White has a definite advantage.\n\nIn the game, Black avoids the ending, but then he has to find another plan. The idea of playing ...f6 is far less promising when there is no rook on f8, so Black goes for a completely different plan, that of attacking the c4-pawn by ...d5. This plan is superficially tempting, because if it succeeds Black will have activated his queenside minor pieces at a stroke. However, Kasparov demonstrates that White can interfere with the clean execution of Black’s plan, in which case the weakening of c6 caused by ...d5 becomes significant.\n\n14 Re1\n\n14...d5\n\nIn this position, White can meet 14...f6 by 15 f4, maintaining the e5-pawn. Then, for example, 15...fxe5 16 fxe5 Qc5+ 17 Kh1 Re7 (17...Bxe5 18 Bxe5 d6 19 Nc3 Rxe5 20 Ne4 Qa5 21 Qb2 gives White good compensation for the pawn; note that, with the rook on f8 instead of a8, Black would have 17...Rf2 here) 18 Nd2 Rae8 19 Ne4 gives White the advantage. Summing up, it doesn’t matter whether Black wants to go for the ending or not – he is always better off playing 12...Rae8 rather than 12...Rfe8.\n\n15 Qc2!\n\nAn excellent move. White spends a tempo freeing himself from the awkward pins along the a6-e2 and e8-e2 lines. At first, it looks risky to move the queen again, but Kasparov has accurately calculated that Black cannot use the time to any great effect. Now White will only need two moves to complete his development.\n\n15 Nd2 Rad8 is inferior as White no longer has a good square for his queen. 15 Qd2 is playable but perhaps slightly less accurate than the text-move. White gains the advantage after 15...Qe6 16 cxd5 (16 Qa5? Bxc4 17 bxc4 Nxc4 18 Qc3 Rab8 is very good for Black) 16...cxd5 17 Qa5 Bb7 18 Nd2 or 15...Bxc4 16 bxc4 Nxc4 17 Qc2 Nxb2 18 Qxb2 Bxe5 19 Nc3, in the latter case because the piece is worth more than Black’s immobile pawn-mass on the c- and d-files. However, the simple 15...Bb7 is less clear. Then Black is threatening to take on c4 and after 16 cxd5 cxd5 he is able to force through ...c5.\n\n15...Rad8\n\nThe tactical justification behind White’s previous move is that 15...dxc4 loses an exchange to 16 Bxc6. Although the text-move fails to equalize, other moves are no better:\n\n1) 15...Bb7 16 Nd2 allows White to complete his development.\n\n2) 15...Qc5 16 Qd2 threatens to trap the queen by Ba3, and so Black has nothing better than 16...Qe7, which leaves White a tempo up over the note to his 15th move.\n\n3) 15...Nd7 16 cxd5 (16 Nd2 also gives White an edge) and now:\n\n3a) 16...Nxe5 17 Nd2 (17...Qb4 18 Re4 also favours White) 17...Bd3 18 Qc1 Qb4 19 Re3! (19 dxc6 Qb6 is unclear) 19...Bf5 20 Qe1 cxd5 21 Nc4! Qxe1+ 22 Raxe1 dxc4 23 Bxa8 Rxa8 24 Bxe5 gives White a clear advantage.\n\n3b) 16...cxd5 17 Nd2! (after 17 Bxd5 Nxe5 18 Bxe5 Rad8 19 Bc6 Bxe5 20 Bxe8 Qf6 21 Rxe5 Qxe5 22 Bxf7+ Kxf7 23 Nc3 the weak light squares around the white king provide Black with sufficient compensation for the pawn) 17...Bb7 18 Qxc7 Nxe5 19 Rac1 and White has a small but permanent advantage thanks to Black’s isolated d-pawn.\n\nThe text-move completes Black’s development, whereas White still has to bring his queenside pieces into play. The next couple of moves are critical; if Black cannot achieve anything concrete within this short span of time, then he will be in trouble.\n\n16 Nd2\n\n16...Qc5\n\nThe best move, stepping up the pressure against c4. After 16...dxc4 17 Bxc6 Rf8 18 Rad1 White retains an edge as his e5-pawn is secure, Black’s queenside pawns are broken and there is a continual danger of Ne4-f6+.\n\n17 Rac1\n\nDefending the queen, and so threatening to reach a favourable ending by playing cxd5.\n\n17...d4?\n\nBlack changes his plan, and abandons the pressure against c4 in the hope of making something of his passed pawn and attack on the e5-pawn. However, in view of his out-of-play queenside minor pieces, coupled with the exposed c6-pawn, this is doomed to failure – indeed, the passed d-pawn only turns out to be an additional weakness. However, it is hard to criticize this move too harshly, as the truth is that Black did not have a really satisfactory move:\n\n1) 17...Re7 is strongly met by the surprising 18 Nb1! (threatening Ba3) 18...Re6 19 Qd2 (by controlling d4, White threatens to trap the queen by Ba3) 19...Qe7 20 Bh3 and White wins material.\n\n2) 17...dxc4 18 bxc4 (18 Ne4 Qb4 19 Bc3 Qa3 is perhaps less clear) 18...Bxe5 (18...Re6 19 Ne4 and now 19...Qxc4 20 Nc5 wins for White, while 19...Qe7 20 Bh3 Rxe5 21 Bxe5 Qxe5 22 Rcd1 gives White a clear advantage) 19 Nb3 Qxc4 20 Bxe5 Rxe5 21 Rxe5 Qxc2 22 Rxc2 Rd1+ 23 Bf1 Bxf1 24 Rc1 Rxc1 25 Nxc1 and White has a clear endgame advantage as the doubled and isolated c-pawns do not compensate for the extra exchange. This line is an example of how weak pawns can be a curse throughout the game. If Black had two healthy pawns for the exchange, then he wouldn’t be in danger of losing, but as it is, he can only look forward to grim defence.\n\n18 Nf3\n\nDefending the e5-pawn, and preparing to besiege Black’s d-pawn by Qd2, Rcd1, etc.\n\n18...d3\n\nIf 18...Bxe5?, then 19 b4! wins a piece. After 18...Bc8 White can gain a clear advantage by 19 Bxd4 (19 Qd2 is another possibility, transposing to the game after 19...d3) 19...Rxd4 20 b4 Qxc4 21 Qb2 Re4 22 Rxc4 Nxc4 23 Qc1 Rxe1+ 24 Qxe1 Nxe5 25 Nxe5 Rxe5 26 Qd2 and again Black’s weak pawns tip the balance strongly in White’s favour.\n\n19 Qd2?!\n\n19 Qc3 Bc8 20 Rcd1 Bf5 21 h3 h5 22 Nh4 would have been even more effective, since Black cannot defend the advanced d-pawn for long; for example, 22...Bc8 23 Rxd3 Rxd3 24 Qxd3 Bxe5? 25 Nxg6 and White wins. Sometimes it is possible to fight on after losing a pawn, but not here, since Black still has his doubled c-pawns to contend with.\n\n19...Bc8\n\nThe only hope for defending the pawn is to transfer the bishop to f5.\n\n20 h3\n\nWhite has a wide range of promising lines. Many players would have gone for Black’s queen with 20 Bd4 Rxd4 21 b4 Qxc4 22 Rxc4 Rxc4 but Kasparov prefers to continue his attempts to encircle the d3-pawn.\n\n20...h5\n\nAfter 20...Bf5, 21 g4 picks up the pawn.\n\n21 Rcd1\n\n21...Bf5\n\n22 e6?\n\nUp to here, Kasparov has played instructively and well. Now, however, instead of simply winning a pawn, he goes in for a tactical liquidation which leads to an ending that is not so easy to win. It was both simpler and stronger to play, for example, 22 Bc3 Nc8 23 Nh4 Ne7 24 Bb4 Qd4 25 Bf1 or 22 Nh4 Be6 23 Bc3 Nc8 24 Qe3, when Black is hardly able to avoid losing a pawn.\n\nThe rest of the game is also instructive, but the lesson is different. It proves that you should never give up, even against the world’s strongest player.\n\n22...Rxe6\n\nAfter 22...Bxb2 23 exf7+ Kxf7 24 Qxb2, Black has an exposed king to add to his worries about his pawns. The alternative 22...fxe6 23 Bxg7 Kxg7 24 Qc3+ Kg8 25 Ne5 leaves Black temporarily a pawn up, but with c6, d3 and g6 all weak, and with g4 coming, Black will be doing well to restrict his losses to just two pawns!\n\n23 Rxe6\n\n23...Bxe6\n\nNot 23...fxe6? 24 Bxg7 Kxg7 25 Qg5 Qf8 (or else g4 wins a piece because of the pin along the fifth rank) 26 g4 hxg4 27 hxg4 and the bishop is lost in any case, as 27...Be4 is met by 28 Qe5+.\n\n24 Bxg7\n\n24...Kxg7\n\n25 Qc3+\n\n25...Kg8\n\n25...f6 26 Rxd3 leads to a position similar to the game.\n\n26 Rxd3\n\n26...Rxd3\n\n27 Qxd3\n\nThe position has been considerably simplified, but Black’s weak pawns remain. Pawn weaknesses vary in severity according to two main factors: whether there is any possibility of liquidating the weakness, and how easy the weakness is to attack. As an example of the first factor, a backward pawn may not be a real weakness at all if it is impossible to stop the pawn advancing abreast of another pawn. The relevance of the second factor is clear: a weakness that cannot be attacked may have little practical importance.\n\nIn the current situation, Black’s weaknesses come out badly. There is absolutely no hope of liquidating the doubled pawns, and the threats of Qd8+ and Nd4 make it clear that White will have no trouble at all bringing his pieces to bear on the weak pawns. Indeed, at first sight, White’s threats will win a pawn immediately, but Sokolov finds an ingenious defence which keeps him in the game.\n\n27...Nd7!\n\nThis move fends off the immediate threats and sets a neat trap. I suspect that Kasparov would not have gone in for the liquidation if he had seen this defence.\n\n28 Qc3?!\n\nThe obvious 28 Nd4? is met by the surprise tactic 28...Bxh3! 29 b4 (not 29 Bxh3 Ne5 followed by 30...Qxd4) 29...Qb6 30 Nxc6 Bxg2 31 Ne7+ Kf8 32 Qxd7 Bf3! and there is no mate. Thus White cannot win a pawn by force, and Black has greatly improved his position by finally bringing his offside knight back into the game. 28 Qe4! would probably have been stronger, centralizing his queen. After 28...Nf8 29 Nd4 Qa3 30 Qc2 c5 31 Nc6, for example, Black’s position is miserable.\n\nThe text-move shifts the queen out of harm’s way, and so genuinely threatens Nd4.\n\n28...Bf5\n\nBest. After 28...Nf8 29 Ne5 Bd7 30 b4 Qd6 31 c5 Qd1+ 32 Kh2 Qe2 33 Qd4 Be6 34 a4 the c6-pawn cannot be saved. If 28...Qa3, then 29 Nd4 Qxa2 30 Nxe6 fxe6 31 Bxc6 Nf8 leaves Black with a very unpleasant position.\n\n29 Nd4\n\n29...Qe5\n\nNow Black is able to occupy the centre with his own queen – another change in Black’s favour.\n\n30 Qd2\n\nThreatening Nxc6, so the reply is virtually forced.\n\n30...c5\n\n31 Nxf5\n\nWhite decides to play for the win of a pawn. This is by no means a forced win, but it requires accurate play by Black and was a good practical chance in view of Sokolov’s time-trouble.\n\n31...Qxf5\n\n32 Qa5\n\nWhite’s queen attacks all three weak pawns on the queenside; it is inevitable that one of them will be lost. The only question is whether Black can drum up any counterplay on the kingside with his queen and knight.\n\n32...Ne5\n\nAgain best. 32...Qb1+ 33 Kh2 Qb2 34 Qxc7 wins for White.\n\n33 Qxa7\n\n33 Qxc7 Nd3 34 f4 is also dangerous, but Black can hang on by 34...Kg7 35 Qe7 (35 Qa5?! h4 36 Qc3+ f6 37 Bf1 Nb4 gives Black good counterplay; 35 Qd8 is met by 35...Nc1) 35...Qe6 36 Qxe6 fxe6 37 a3 a5 38 Be4 Nc1 39 Bc2 Ne2+ 40 Kf2 Nd4 41 Bd1 and it is not clear if White can win.\n\n33...h4?\n\nThis time-trouble blunder allows White’s queen to return to the centre, after which Black’s counterplay is dead and the a-pawn will decide the game. 33...Nd3 would still have offered reasonable chances of survival. After 34 f4 Black has:\n\n1) 34...h4?! 35 Qa8+ Kg7 36 Qe4 Qxe4 (after 36...hxg3 37 Qxf5 gxf5 38 a4 White wins easily) 37 Bxe4 Nc1 38 a4 Nxb3 39 gxh4 and the extra pawn coupled with the outside a-pawn is decisive. The win is lengthy but not difficult: 39...f5 40 Bf3 Na5 41 Be2 Kh6 42 Kf2 Nc6 43 Ke3 Na5 44 Kd3 Nc6 45 Kc3 Na5 46 Bf3 (now Black is in zugzwang and must allow White to liquidate his doubled pawn with h5) 46...Kg7 47 h5 gxh5 48 Bxh5 Kh6 49 Bf3 Kg6 50 Be2 Kh6 51 Kd3 (the king begins the trek back to the kingside) 51...Kg6 52 Ke3 Kh6 53 Kf2 Kg6 54 Kg3 Kh6 55 h4 Kg6 56 h5+ Kh6 57 Kh4 Nb3 58 Bd3 Na5 59 Bxf5 Nxc4 60 Be6 and White finally wins.\n\n2) 34...Nc1! and now:\n\n2a) 35 Qxc7? Ne2+ 36 Kh2 (36 Kf2 Qc2 is also not clear) 36...Qd3 37 f5 Qe3 38 h4 gxf5 39 Qd8+ Kh7 (39...Kg7? loses to 40 Qg5+ Qxg5 41 hxg5 Nc1 42 a4 Nxb3 43 Kh3) 40 Qg5 Qg1+ 41 Kh3 Qf2! 42 Qxh5+ Kg7 43 Qg5+ Kh7 with a draw by repetition.\n\n2b) 35 Qb8+ Kg7 36 Qxc7 Nxa2! (now 36...Ne2+ 37 Kf2 is winning for White since he has a check on e5) and although White has an extra pawn, Black has good drawing prospects.\n\n34 Qa8+\n\n34...Kg7\n\n35 Qe4\n\nNow it’s all over because White keeps his passed a-pawn.\n\n35...Qf6\n\n35...Qxe4 36 Bxe4 also wins easily.\n\n36 Qxh4\n\n36...1-0\n\nThis game falls into two phases. In the first, Kasparov adopted an ambitious plan to inflict pawn weaknesses on his opponent, even at the cost of falling behind in development. When Sokolov committed a slight inaccuracy in the opening (12...Rfe8?!), Kasparov started to gain control of the game. A further error on move 17 left Black with a clutch of weak pawns to nurse, and some offside pieces to boot. Rather surprisingly, Kasparov failed to finish the game cleanly, instead liquidating to an ending. Perhaps he expected the win to be a simple technical task, but just at this moment Sokolov started to defend with great ingenuity. In the second phase, Sokolov managed to bring his offside pieces back into play, which meant that he had only his weak pawns to contend with. However, very accurate defence was still required and just when it appeared that he might reach a draw, Sokolov made one further error and the game was abruptly over.\n\nThe lessons here are:\n\n1) Pawn weaknesses tend to be long-term features of the position. If your opponent has weak pawns, you usually need not hurry to exploit them.\n\n2) Falling behind in development can be dangerous, unless you are sure your opponent cannot exploit it.\n\n3) If you can administer a lethal blow, do so even if it means a little calculation.\n\n4) Exploiting a single pawn weakness is not easy unless one also has some other advantage.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Bad Pawn-Structure\n\nTextbooks usually devote a great deal of space to pawn weaknesses, perhaps because it is one of the few areas of middlegame play that can be treated systematically. Doubled pawns, isolated pawns, backward pawns, hanging pawns and so on are treated one by one. Usually the examples chosen to illustrate the exploitation of these weaknesses show a simple technical procedure leading to a win. One soon gains the impression that inflicting an isolated pawn on the opponent is tantamount to a decisive advantage. As we all know, real life is not like that. The writers of such textbooks want to make a clear-cut point, and usually select games in which the defender rolls on his back and practically asks for the coup de grâce to be administered. In practice, matters are usually less clear for two reasons.\n\nFirstly, most opponents are not so generous as to accept a pawn weakness without any compensation. Normally, there is a trade involved: a weak pawn in return for active piece-play, a lead in development or some other transient advantage. Then you have to work to nullify this advantage before you can consider exploiting the weak pawns. One thing is operating in your favour: most pawn weaknesses are more or less permanent, so the burden is on your opponent to prove his compensation, whereas all you have to do is counter his plans, exchange a few pieces and reach a more simplified position where the pawn weaknesses become the dominant feature of the position.\n\nSecondly, even if you succeed in nullifying your opponent’s compensation, it may not in fact prove so easy to win the game. Once again, some writers of textbooks often employ a little sleight of hand. They choose a position in which, say, Black has an isolated pawn and show how White wins. Very often, however, the position chosen is one in which White has some other advantages in addition to the enemy pawn weakness (e.g. Black has a bad bishop, or some other weak pawns). Without really mentioning these other advantages they blame Black’s defeat solely on his weak pawn. Before the 1974 Karpov-Korchnoi Candidates Final match, Karpov, as White, had won several games with a line in the French in which Black gets an isolated d-pawn (1 e4 e6 2 d4 d5 3 Nd2 c5 4 exd5 exd5 5 Ngf3 Nc6 6 Bb5). He almost made this line look like a forced win for White. In the match itself he repeatedly reached the same type of position and repeatedly failed to win. Korchnoi showed that the reason Karpov had won the earlier games was because he was stronger than his opponents, and not because the position was inherently bad. Thus you shouldn’t count on a win just because of a structural advantage – good defence counts for a lot. Similarly, if you are the player with the weakness, don’t give up or become depressed. Even Kasparov doesn’t find it easy to win such positions without allowing some counterchances, as we shall now see.\n\nG. Kasparov – I. Sokolov\n\nOlympiad, Erevan 1996\n\nScotch Opening"
+    },
+    {
+      "ply": 1,
+      "san": "e4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "e5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "Nf3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "Nc6",
+      "text": "For comments on the moves up to here, see Game 7.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "d4",
+      "text": "Black to play\n\nThis move introduces the Scotch Opening. While 3 d4 might appear a logical move, in a way White is scaling down his ambitions by playing it. Ideally, White would like to have two pawns abreast on d4 and e4. In the Ruy Lopez (see Game 7), White manages to achieve this by playing c3 and only then d4. Then ...exd4 can be met by cxd4, and White keeps his ideal pawn-centre. The defect is that in order to achieve his ambition, White has to spend quite a lot of time (Bb5-a4-b3, and advancing his pawn to h3). The Scotch operates on a different philosophy. White gives up his aspiration to form an ideal pawn-centre, and simply concentrates of getting his pieces out. For many decades, this opening was considered a rather harmless sideline in comparison to the Ruy Lopez, but then Garry Kasparov started to play it with success, and now it has been subjected to a far more detailed examination. Although the theoretical status of the Scotch is satisfactory for Black, this game shows that it can be an effective weapon.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "exd4",
+      "text": "It is a kind of triumph for Black to force White to recapture with a piece on d4.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "Nxd4",
+      "text": "4 c3 is the Göring Gambit. Black can obtain a satisfactory position by declining it with 4...d5 or 4...Nf6, but there is also little wrong with accepting it. In view of the wide range of good lines for Black, it has fallen into disuse.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "Nf6",
+      "text": "This is one of Black’s two main lines in the Scotch. The other is 4...Bc5, when White has the choice between 5 Be3 Qf6 6 c3, supporting his central knight, and 5 Nxc6, doubling Black’s pawns at the cost of allowing Black active piece-play.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "Nxc6",
+      "text": "It is this move that has formed the basis for Kasparov’s handling of the Scotch. Although it had been played before, Kasparov infused it with many new ideas. While the theoretical position is still satisfactory for Black, this game (amongst others) shows that it is not easy to handle Black’s position in practice. White’s idea is simple but ambitious. He at once inflicts doubled pawns on Black, and indeed these doubled pawns form the central theme of this whole game. However, in chess one can rarely get something for nothing. The price of inflicting this pawn weakness is that White will fall behind in development. The big question is whether White can consolidate his position, catch up with his development and set about exploiting the weak pawns. The alternative, 5 Nc3, is thought insufficiently challenging; after 5...Bb4 current theory suggests that Black has no real problems.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "bxc6",
+      "text": "Black’s hopes rest on his piece activity, so he should not allow the exchange of queens by 5...dxc6 (which would also allow White to deprive Black of the right to castle).",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "e5",
+      "text": "This is the critical move, and the only one to justify the previous exchange. After 6 Bd3 d5 Black can develop with ease, and White will almost certainly have to exchange on d5 at some stage, relieving Black of his doubled pawns.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "Qe7",
+      "text": "This more or less forces White to play Qe2, after which the development of White’s kingside is impeded. It can be argued that Black’s kingside development is similarly obstructed, so he hasn’t gained anything, but the concrete variations seem to indicate that White suffers slightly more than Black. The immediate 6...Nd5 is less effective, as after 7 Bd3 d6 8 exd6 Black faces a typical dilemma. If he takes back with the bishop, he can develop without difficulty, but he has permanently weak pawns on the queenside. If he plays 8...cxd6, then his pawn weaknesses are less serious, but it is harder for him to activate his dark-squared bishop. In both cases, White can claim some advantage. However, 6...Ne4 is a playable alternative to the text-move.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "Qe2",
+      "text": "White is obliged to play this (see Game 13 for a similar manoeuvre) because after 7 f4, for example, Black can play 7...d6 rather than move his knight.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "Nd5",
+      "text": "White to play\n\nThe knight has to move, but unlike Game 13, it has a more active square available than g8!",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "c4",
+      "text": "The battle between White’s better structure and Black’s piece activity begins in earnest. White’s main aim is to keep Black’s activity under control while he develops his pieces. Black’s knight is well placed on the central square d5, and White cannot easily complete his development while the knight stands ready to hop to b4 or f4 at a moment’s notice. White therefore tries to kick the knight away, in order to know where it is going and if possible to sideline it completely.",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "Ba6",
+      "text": "Black is not giving anything away and plays to maintain the knight on d5. However, this is a fairly committal move. If Black’s scheme fails and the knight must eventually retreat to b6, then White will be able to secure the c4-pawn with b3, locking the a6-bishop and b6-knight out of play. Moreover, the slightly precarious position of the knight on d5 gives White some tactical opportunities (see the note to Black’s 9th move, for example). For this reason, some players prefer 8...Nb6, because if White then plays b3, Black’s a-pawn is still free and he can soften up White’s queenside with ...a5-a4.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "g3",
+      "text": "Questions of move-order are important at this point. White’s ideal plan of development is b3 and Bb2 on the queenside, to secure the e5-pawn and lock the a6-bishop out, and g3 and Bg2 on the kingside, to prepare castling. Obviously, this is all rather slow and gives Black plenty of time to complete his own development. It also raises the question as to whether White should start with 9 b3 or 9 g3. Kasparov has played both moves, so we cannot obtain any guidance from the Master. After 9 b3, White has the extra option of meeting 9...g6 with 10 f4 (rather than 10 g3), but on the other hand Black has quite a few options against 9 b3 (9...g5 and 9...Qh4, for example) that don’t exist against 9 g3.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "g6",
+      "text": "The most solid move; Black simply gets on with his development. Given that White is unable to support the e5-pawn with Bb2, it is tempting to challenge it by 9...f6, but this move is a mistake on account of 10 e6! dxe6 11 Bg2 Qd7 12 0-0 Nb6 13 b3 and, at the cost of a pawn, White has secured a number of positional assets. Black’s queenside minor pieces are definitely shut out, the c6-pawn is weak and exposed, and White can easily complete his development. Together, these factors are more relevant than the material, and so White has the advantage. Play might continue 13...0-0-0 14 Nc3 Bc5 15 Rd1 Bd4 16 Be3 e5 17 a4, when White has a strong initiative. This is a case in which it is even worth White sacrificing a pawn to stabilize the position and gain the time he needs to start exploiting Black’s pawn weaknesses.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "b3",
+      "text": "In view of the imminent ...Bg7, White must make ready to defend his e5-pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "Bg7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "Bb2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "O-O",
+      "text": "Both sides continue with their development with the key question still unresolved: will Black find a way to exploit his lead in development and active pieces before White consolidates?",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "Bg2",
+      "text": "Now White is ready to castle.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "Rfe8",
+      "text": "Black must choose which rook to move to e8, and this certainly looks the more natural of the two. However, it is inaccurate for a very subtle reason. After 12...Rae8 13 0-0 Black, just as in the game, has the choice between:\n\n1) 13...Nb6 14 Re1 f6 (this move makes use of the position of the rook on f8) 15 Qe3 (15 e6 Qd6 is also unclear) 15...Qe6 with chances for both sides.\n\n2) 13...Bxe5 14 Qxe5 Qxe5 15 Bxe5 Rxe5 16 cxd5 Bxf1 17 Kxf1 cxd5 18 Nc3 c6. This ending is hard to assess. From the material point of view, Black has nothing to complain about, but he is handicapped by the immobile mass of pawns on the c- and d-files. However, it isn’t easy for White to make progress and although the practical results are rather in White’s favour, I suspect that the endgame should be a draw.\n\n13 0-0\n\nBlack to play\n\nA key moment. Black must decide whether to liquidate to an ending by taking on e5.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "Nb6",
+      "text": "13...Bxe5 14 Qxe5 Qxe5 15 Bxe5 Rxe5 16 cxd5 Bxf1 17 Kxf1 cxd5 is very similar to the corresponding ending after 12...Rae8. However, White has one extra possibility here which did not exist in the note to Black’s 12th move, namely 18 f4! Re3 19 Bxd5. Now this gains a tempo by attacking a8, so Black has no time to respond with ...Rd3 and ...Rd1+, which would leave White completely tied up. After 19...Rae8 20 Nd2 Rd3 (20...Re2 21 Rd1 Rxh2 22 Bg2 looks promising for White) 21 Ne4 Kg7 22 Bc4 Rf3+ 23 Nf2 White has a definite advantage.\n\nIn the game, Black avoids the ending, but then he has to find another plan. The idea of playing ...f6 is far less promising when there is no rook on f8, so Black goes for a completely different plan, that of attacking the c4-pawn by ...d5. This plan is superficially tempting, because if it succeeds Black will have activated his queenside minor pieces at a stroke. However, Kasparov demonstrates that White can interfere with the clean execution of Black’s plan, in which case the weakening of c6 caused by ...d5 becomes significant.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Re1",
+      "text": "Black to play",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "d5",
+      "text": "In this position, White can meet 14...f6 by 15 f4, maintaining the e5-pawn. Then, for example, 15...fxe5 16 fxe5 Qc5+ 17 Kh1 Re7 (17...Bxe5 18 Bxe5 d6 19 Nc3 Rxe5 20 Ne4 Qa5 21 Qb2 gives White good compensation for the pawn; note that, with the rook on f8 instead of a8, Black would have 17...Rf2 here) 18 Nd2 Rae8 19 Ne4 gives White the advantage. Summing up, it doesn’t matter whether Black wants to go for the ending or not – he is always better off playing 12...Rae8 rather than 12...Rfe8.",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Qc2",
+      "text": "An excellent move. White spends a tempo freeing himself from the awkward pins along the a6-e2 and e8-e2 lines. At first, it looks risky to move the queen again, but Kasparov has accurately calculated that Black cannot use the time to any great effect. Now White will only need two moves to complete his development.\n\n15 Nd2 Rad8 is inferior as White no longer has a good square for his queen. 15 Qd2 is playable but perhaps slightly less accurate than the text-move. White gains the advantage after 15...Qe6 16 cxd5 (16 Qa5? Bxc4 17 bxc4 Nxc4 18 Qc3 Rab8 is very good for Black) 16...cxd5 17 Qa5 Bb7 18 Nd2 or 15...Bxc4 16 bxc4 Nxc4 17 Qc2 Nxb2 18 Qxb2 Bxe5 19 Nc3, in the latter case because the piece is worth more than Black’s immobile pawn-mass on the c- and d-files. However, the simple 15...Bb7 is less clear. Then Black is threatening to take on c4 and after 16 cxd5 cxd5 he is able to force through ...c5.\n\nBlack to play\n\n15...Rad8\n\nThe tactical justification behind White’s previous move is that 15...dxc4 loses an exchange to 16 Bxc6. Although the text-move fails to equalize, other moves are no better:\n\n1) 15...Bb7 16 Nd2 allows White to complete his development.\n\n2) 15...Qc5 16 Qd2 threatens to trap the queen by Ba3, and so Black has nothing better than 16...Qe7, which leaves White a tempo up over the note to his 15th move.\n\n3) 15...Nd7 16 cxd5 (16 Nd2 also gives White an edge) and now:\n\n3a) 16...Nxe5 17 Nd2 (17...Qb4 18 Re4 also favours White) 17...Bd3 18 Qc1 Qb4 19 Re3! (19 dxc6 Qb6 is unclear) 19...Bf5 20 Qe1 cxd5 21 Nc4! Qxe1+ 22 Raxe1 dxc4 23 Bxa8 Rxa8 24 Bxe5 gives White a clear advantage.\n\n3b) 16...cxd5 17 Nd2! (after 17 Bxd5 Nxe5 18 Bxe5 Rad8 19 Bc6 Bxe5 20 Bxe8 Qf6 21 Rxe5 Qxe5 22 Bxf7+ Kxf7 23 Nc3 the weak light squares around the white king provide Black with sufficient compensation for the pawn) 17...Bb7 18 Qxc7 Nxe5 19 Rac1 and White has a small but permanent advantage thanks to Black’s isolated d-pawn.\n\nThe text-move completes Black’s development, whereas White still has to bring his queenside pieces into play. The next couple of moves are critical; if Black cannot achieve anything concrete within this short span of time, then he will be in trouble.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "Qc5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Nd2",
+      "text": "16...Qc5\n\nThe best move, stepping up the pressure against c4. After 16...dxc4 17 Bxc6 Rf8 18 Rad1 White retains an edge as his e5-pawn is secure, Black’s queenside pawns are broken and there is a continual danger of Ne4-f6+.",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Rad8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Rac1",
+      "text": "Black to play\n\nDefending the queen, and so threatening to reach a favourable ending by playing cxd5.",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "d4",
+      "text": "Black changes his plan, and abandons the pressure against c4 in the hope of making something of his passed pawn and attack on the e5-pawn. However, in view of his out-of-play queenside minor pieces, coupled with the exposed c6-pawn, this is doomed to failure – indeed, the passed d-pawn only turns out to be an additional weakness. However, it is hard to criticize this move too harshly, as the truth is that Black did not have a really satisfactory move:\n\n1) 17...Re7 is strongly met by the surprising 18 Nb1! (threatening Ba3) 18...Re6 19 Qd2 (by controlling d4, White threatens to trap the queen by Ba3) 19...Qe7 20 Bh3 and White wins material.\n\n2) 17...dxc4 18 bxc4 (18 Ne4 Qb4 19 Bc3 Qa3 is perhaps less clear) 18...Bxe5 (18...Re6 19 Ne4 and now 19...Qxc4 20 Nc5 wins for White, while 19...Qe7 20 Bh3 Rxe5 21 Bxe5 Qxe5 22 Rcd1 gives White a clear advantage) 19 Nb3 Qxc4 20 Bxe5 Rxe5 21 Rxe5 Qxc2 22 Rxc2 Rd1+ 23 Bf1 Bxf1 24 Rc1 Rxc1 25 Nxc1 and White has a clear endgame advantage as the doubled and isolated c-pawns do not compensate for the extra exchange. This line is an example of how weak pawns can be a curse throughout the game. If Black had two healthy pawns for the exchange, then he wouldn’t be in danger of losing, but as it is, he can only look forward to grim defence.",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "Nf3",
+      "text": "Defending the e5-pawn, and preparing to besiege Black’s d-pawn by Qd2, Rcd1, etc.",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "d3",
+      "text": "If 18...Bxe5?, then 19 b4! wins a piece. After 18...Bc8 White can gain a clear advantage by 19 Bxd4 (19 Qd2 is another possibility, transposing to the game after 19...d3) 19...Rxd4 20 b4 Qxc4 21 Qb2 Re4 22 Rxc4 Nxc4 23 Qc1 Rxe1+ 24 Qxe1 Nxe5 25 Nxe5 Rxe5 26 Qd2 and again Black’s weak pawns tip the balance strongly in White’s favour.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "Qd2",
+      "text": "19 Qc3 Bc8 20 Rcd1 Bf5 21 h3 h5 22 Nh4 would have been even more effective, since Black cannot defend the advanced d-pawn for long; for example, 22...Bc8 23 Rxd3 Rxd3 24 Qxd3 Bxe5? 25 Nxg6 and White wins. Sometimes it is possible to fight on after losing a pawn, but not here, since Black still has his doubled c-pawns to contend with.",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "Bc8",
+      "text": "The only hope for defending the pawn is to transfer the bishop to f5.",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "h3",
+      "text": "White has a wide range of promising lines. Many players would have gone for Black’s queen with 20 Bd4 Rxd4 21 b4 Qxc4 22 Rxc4 Rxc4 but Kasparov prefers to continue his attempts to encircle the d3-pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "h5",
+      "text": "After 20...Bf5, 21 g4 picks up the pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "Rcd1",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "Bf5",
+      "text": "White to play",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "e6",
+      "text": "Up to here, Kasparov has played instructively and well. Now, however, instead of simply winning a pawn, he goes in for a tactical liquidation which leads to an ending that is not so easy to win. It was both simpler and stronger to play, for example, 22 Bc3 Nc8 23 Nh4 Ne7 24 Bb4 Qd4 25 Bf1 or 22 Nh4 Be6 23 Bc3 Nc8 24 Qe3, when Black is hardly able to avoid losing a pawn.\n\nThe rest of the game is also instructive, but the lesson is different. It proves that you should never give up, even against the world’s strongest player.",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "Rxe6",
+      "text": "After 22...Bxb2 23 exf7+ Kxf7 24 Qxb2, Black has an exposed king to add to his worries about his pawns. The alternative 22...fxe6 23 Bxg7 Kxg7 24 Qc3+ Kg8 25 Ne5 leaves Black temporarily a pawn up, but with c6, d3 and g6 all weak, and with g4 coming, Black will be doing well to restrict his losses to just two pawns!",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "Rxe6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "Bxe6",
+      "text": "Not 23...fxe6? 24 Bxg7 Kxg7 25 Qg5 Qf8 (or else g4 wins a piece because of the pin along the fifth rank) 26 g4 hxg4 27 hxg4 and the bishop is lost in any case, as 27...Be4 is met by 28 Qe5+.",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "Bxg7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 48,
+      "san": "Kxg7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 49,
+      "san": "Qc3+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 50,
+      "san": "Kg8",
+      "text": "25...f6 26 Rxd3 leads to a position similar to the game.",
+      "isCritical": true
+    },
+    {
+      "ply": 51,
+      "san": "Rxd3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 52,
+      "san": "Rxd3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 53,
+      "san": "Qxd3",
+      "text": "Black to play\n\nThe position has been considerably simplified, but Black’s weak pawns remain. Pawn weaknesses vary in severity according to two main factors: whether there is any possibility of liquidating the weakness, and how easy the weakness is to attack. As an example of the first factor, a backward pawn may not be a real weakness at all if it is impossible to stop the pawn advancing abreast of another pawn. The relevance of the second factor is clear: a weakness that cannot be attacked may have little practical importance.\n\nIn the current situation, Black’s weaknesses come out badly. There is absolutely no hope of liquidating the doubled pawns, and the threats of Qd8+ and Nd4 make it clear that White will have no trouble at all bringing his pieces to bear on the weak pawns. Indeed, at first sight, White’s threats will win a pawn immediately, but Sokolov finds an ingenious defence which keeps him in the game.",
+      "isCritical": true
+    },
+    {
+      "ply": 54,
+      "san": "Nd7",
+      "text": "This move fends off the immediate threats and sets a neat trap. I suspect that Kasparov would not have gone in for the liquidation if he had seen this defence.",
+      "isCritical": true
+    },
+    {
+      "ply": 55,
+      "san": "Qc3",
+      "text": "The obvious 28 Nd4? is met by the surprise tactic 28...Bxh3! 29 b4 (not 29 Bxh3 Ne5 followed by 30...Qxd4) 29...Qb6 30 Nxc6 Bxg2 31 Ne7+ Kf8 32 Qxd7 Bf3! and there is no mate. Thus White cannot win a pawn by force, and Black has greatly improved his position by finally bringing his offside knight back into the game. 28 Qe4! would probably have been stronger, centralizing his queen. After 28...Nf8 29 Nd4 Qa3 30 Qc2 c5 31 Nc6, for example, Black’s position is miserable.\n\nBlack to play\n\nThe text-move shifts the queen out of harm’s way, and so genuinely threatens Nd4.",
+      "isCritical": true
+    },
+    {
+      "ply": 56,
+      "san": "Bf5",
+      "text": "Best. After 28...Nf8 29 Ne5 Bd7 30 b4 Qd6 31 c5 Qd1+ 32 Kh2 Qe2 33 Qd4 Be6 34 a4 the c6-pawn cannot be saved. If 28...Qa3, then 29 Nd4 Qxa2 30 Nxe6 fxe6 31 Bxc6 Nf8 leaves Black with a very unpleasant position.",
+      "isCritical": true
+    },
+    {
+      "ply": 57,
+      "san": "Nd4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 58,
+      "san": "Qe5",
+      "text": "Now Black is able to occupy the centre with his own queen – another change in Black’s favour.",
+      "isCritical": true
+    },
+    {
+      "ply": 59,
+      "san": "Qd2",
+      "text": "Threatening Nxc6, so the reply is virtually forced.",
+      "isCritical": true
+    },
+    {
+      "ply": 60,
+      "san": "c5",
+      "text": "White to play",
+      "isCritical": true
+    },
+    {
+      "ply": 61,
+      "san": "Nxf5",
+      "text": "White decides to play for the win of a pawn. This is by no means a forced win, but it requires accurate play by Black and was a good practical chance in view of Sokolov’s time-trouble.",
+      "isCritical": true
+    },
+    {
+      "ply": 62,
+      "san": "Qxf5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 63,
+      "san": "Qa5",
+      "text": "White’s queen attacks all three weak pawns on the queenside; it is inevitable that one of them will be lost. The only question is whether Black can drum up any counterplay on the kingside with his queen and knight.",
+      "isCritical": true
+    },
+    {
+      "ply": 64,
+      "san": "Ne5",
+      "text": "Again best. 32...Qb1+ 33 Kh2 Qb2 34 Qxc7 wins for White.",
+      "isCritical": true
+    },
+    {
+      "ply": 65,
+      "san": "Qxa7",
+      "text": "33 Qxc7 Nd3 34 f4 is also dangerous, but Black can hang on by 34...Kg7 35 Qe7 (35 Qa5?! h4 36 Qc3+ f6 37 Bf1 Nb4 gives Black good counterplay; 35 Qd8 is met by 35...Nc1) 35...Qe6 36 Qxe6 fxe6 37 a3 a5 38 Be4 Nc1 39 Bc2 Ne2+ 40 Kf2 Nd4 41 Bd1 and it is not clear if White can win.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 66,
+      "san": "h4",
+      "text": "This time-trouble blunder allows White’s queen to return to the centre, after which Black’s counterplay is dead and the a-pawn will decide the game. 33...Nd3 would still have offered reasonable chances of survival. After 34 f4 Black has:\n\n1) 34...h4?! 35 Qa8+ Kg7 36 Qe4 Qxe4 (after 36...hxg3 37 Qxf5 gxf5 38 a4 White wins easily) 37 Bxe4 Nc1 38 a4 Nxb3 39 gxh4 and the extra pawn coupled with the outside a-pawn is decisive. The win is lengthy but not difficult: 39...f5 40 Bf3 Na5 41 Be2 Kh6 42 Kf2 Nc6 43 Ke3 Na5 44 Kd3 Nc6 45 Kc3 Na5 46 Bf3 (now Black is in zugzwang and must allow White to liquidate his doubled pawn with h5) 46...Kg7 47 h5 gxh5 48 Bxh5 Kh6 49 Bf3 Kg6 50 Be2 Kh6 51 Kd3 (the king begins the trek back to the kingside) 51...Kg6 52 Ke3 Kh6 53 Kf2 Kg6 54 Kg3 Kh6 55 h4 Kg6 56 h5+ Kh6 57 Kh4 Nb3 58 Bd3 Na5 59 Bxf5 Nxc4 60 Be6 and White finally wins.\n\n2) 34...Nc1! and now:\n\nWhite to play\n\n2a) 35 Qxc7? Ne2+ 36 Kh2 (36 Kf2 Qc2 is also not clear) 36...Qd3 37 f5 Qe3 38 h4 gxf5 39 Qd8+ Kh7 (39...Kg7? loses to 40 Qg5+ Qxg5 41 hxg5 Nc1 42 a4 Nxb3 43 Kh3) 40 Qg5 Qg1+ 41 Kh3 Qf2! 42 Qxh5+ Kg7 43 Qg5+ Kh7 with a draw by repetition.\n\n2b) 35 Qb8+ Kg7 36 Qxc7 Nxa2! (now 36...Ne2+ 37 Kf2 is winning for White since he has a check on e5) and although White has an extra pawn, Black has good drawing prospects.",
+      "isCritical": true
+    },
+    {
+      "ply": 67,
+      "san": "Qa8+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 68,
+      "san": "Kg7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 69,
+      "san": "Qe4",
+      "text": "Now it’s all over because White keeps his passed a-pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 70,
+      "san": "Qf6",
+      "text": "35...Qxe4 36 Bxe4 also wins easily.",
+      "isCritical": true
+    },
+    {
+      "ply": 71,
+      "san": "Qxh4",
+      "text": "36...1-0\n\nThis game falls into two phases. In the first, Kasparov adopted an ambitious plan to inflict pawn weaknesses on his opponent, even at the cost of falling behind in development. When Sokolov committed a slight inaccuracy in the opening (12...Rfe8?!), Kasparov started to gain control of the game. A further error on move 17 left Black with a clutch of weak pawns to nurse, and some offside pieces to boot. Rather surprisingly, Kasparov failed to finish the game cleanly, instead liquidating to an ending. Perhaps he expected the win to be a simple technical task, but just at this moment Sokolov started to defend with great ingenuity. In the second phase, Sokolov managed to bring his offside pieces back into play, which meant that he had only his weak pawns to contend with. However, very accurate defence was still required and just when it appeared that he might reach a draw, Sokolov made one further error and the game was abruptly over.\n\nThe lessons here are:\n\n1) Pawn weaknesses tend to be long-term features of the position. If your opponent has weak pawns, you usually need not hurry to exploit them.\n\n2) Falling behind in development can be dangerous, unless you are sure your opponent cannot exploit it.\n\n3) If you can administer a lethal blow, do so even if it means a little calculation.\n\n4) Exploiting a single pawn weakness is not easy unless one also has some other advantage.",
+      "isCritical": true
+    }
+  ]
+}

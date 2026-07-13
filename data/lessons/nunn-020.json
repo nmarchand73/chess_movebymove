@@ -1,0 +1,475 @@
+{
+  "id": "nunn-020",
+  "book": "nunn",
+  "gameNum": 20,
+  "title": "Game 20: G. Kasparov vs A. Shirov",
+  "section": "Positional Play",
+  "players": {
+    "white": "G. Kasparov",
+    "black": "A. Shirov"
+  },
+  "event": "Horgen 1994",
+  "opening": "Sicilian Defence, Sveshnikov Variation",
+  "eco": "B33",
+  "pgnPath": "data/pgn/nunn/20.pgn",
+  "result": "1-0",
+  "moveCount": 75,
+  "annotatedMoves": 74,
+  "fullText": "Weak Colour Complex\n\nOne often reads about a ‘weak colour complex’ in chess literature. It sounds like something to do with psychoanalysis, but in fact it is quite a simple chess concept. A ‘weak colour complex’ is basically a collection of weak squares of the same colour. Such complexes often arise when pawn-chains are present (see Game 24 for more about pawn-chains). If, for example, Black has pawns on a7, b7, d5, e6, g7 and h7 then the dark squares around the central pawns may become generally weak. If White has pawns on d4 and e5 this may not matter because the squares that might become weak are sealed off and cannot be occupied by White’s pieces. However, if White has knights on d4 and e5, then the weakness of the dark squares is quite obvious. Pawn-formations that potentially create a weak colour complex thus require special attention. In the above example Black may be able to cover the potentially weak squares at d4 and e5, for example with a queen on b6, knight on c6 and bishop on d6 (this can happen in the French Defence). If White cannot occupy the potentially weak squares, then in fact they may not be weak at all.\n\nThus the ability to use pieces to cover the potential weak spots between the pawns is critical and, as we shall see in the following game, it can be worth some material to deprive the opponent of this possibility.\n\nG. Kasparov – A. Shirov\n\nHorgen 1994\n\nSicilian Defence, Sveshnikov Variation\n\n1 e4\n\n1...c5\n\n2 Nf3\n\nFor comments on the moves up to here, see Game 8.\n\n2...e6\n\nIn earlier games, we have seen examples of 2...Nc6 and 2...d6. The move 2...e6 is another possibility for Black which gives priority to freeing the dark-squared bishop. While this move can lead to a transposition into other Sicilian lines, there are a number of independent variations.\n\n3 d4\n\nJust as after 2...Nc6 and 2...d6, this immediate advance is White’s most active continuation.\n\n3...cxd4\n\n4 Nxd4\n\nThe pawn exchange has left Black with a central pawn-majority, but White can develop his pieces quickly.\n\n4...Nf6\n\nAfter this move, play is likely to transpose into one of the main Sicilian systems. The two major lines which are specific to the 2...e6 move-order are 4...Nc6 (the Taimanov Variation) and 4...a6 (the Kan Variation).\n\n5 Nc3\n\n5...Nc6\n\nThe opening of this game shows how confusing move-order questions can be. Black is trying to reach the position arising in the game after 8 Bg5. There are two different move-orders arriving at the same position:\n\nA) 1 e4 c5 2 Nf3 Nc6 3 d4 cxd4 4 Nxd4 Nf6 5 Nc3 e5 6 Ndb5 d6 7 Bg5.\n\nB) 1 e4 c5 2 Nf3 e6 3 d4 cxd4 4 Nxd4 Nf6 5 Nc3 Nc6 6 Ndb5 d6 7 Bf4 e5 8 Bg5.\n\nYou will notice that the second move-order is one move longer, a fact which is very awkward for authors of opening books! It is also worth mentioning that some database programs have a ‘search position’ facility that does not correctly find positions with a different move numbering. In this case, it is quite easy to overlook key games in the database unless one does two searches.\n\nObviously, the above lines are not forced and in both cases White has a number of opportunities to deviate. Which move-order Black selects depends on which of White’s alternatives he wishes to prevent. Here is a list of the key differences:\n\nDisadvantages of move-order A:\n\nA1) White can play 3 Bb5.\n\nA2) White can play 7 Nd5 or 7 a4.\n\nDisadvantages of move-order B:\n\nB1) White can play 6 Nxc6 bxc6 7 e5.\n\nB2) Black may not succeed in completely avoiding the lines with Bb5, since White can play 3 Nc3 and if Black still wants to aim for his target position, then he must continue 3...Nc6, allowing 4 Bb5. It is true that with this move-order White’s options are restricted (for example, he cannot play c3 any more) but equally Black is limited by being committed to ...e6 (whereas after 1 e4 c5 2 Nf3 Nc6 3 Bb5, for example, Black might prefer to play 3...g6).\n\nWhen deciding on the best move-order, a player must consider not only objective factors but also which lines are more to his taste.\n\nIn this game, Black opts for move-order B (while in Game 23, he prefers move-order A).\n\n6 Ndb5\n\nThis is the most common move, targeting the weak square at d6. However, the line 6 Nxc6 bxc6 7 e5 Nd5 8 Ne4 is a major alternative and is quite irritating for Black, as the positions resulting are quite different from the ones he is aiming for.\n\n6...d6\n\nBlack has an alternative in 6...Bb4, but after 7 a3 Black is more or less forced to take on c3, which gives White the two bishops at little cost.\n\n7 Bf4\n\nThis is the logical follow-up to White’s previous move. He aims to force ...e5, when the d5-square will become weak.\n\n7...e5\n\nForced, as 7...Ne5 is strongly met by 8 Qd4.\n\n8 Bg5\n\nHere the bishop stands ready to eliminate the f6-knight, thus increasing White’s grip on d5.\n\n8...a6\n\nBlack’s compensation for the weak d5-square is the possibility to drive White’s knight to the edge of the board. Black must take advantage of it right away, as White is threatening 9 Nd5.\n\n9 Na3\n\nThis misplaced knight is one of the cornerstones of Black’s play. Thanks to Black’s ...e5, the d5-square is a weakness in his position, but dynamic factors can offer compensation for a static weakness. In this case, the offside knight on a3 must come back into the game, which gives Black time to develop his counterplay.\n\n9...b5\n\nThis whole line is usually referred to as the Sveshnikov Variation, after the Soviet grandmaster who popularized it in the 1970s. Sveshnikov’s move 9...b5 was really the key to the revitalization of this system. Previously, Black tended to play either 9...d5, a pawn sacrifice which is not really sound, or 9...Be6, which allows the offside knight to return to the centre by Nc4 and Ne3.\n\n10 Nd5\n\nThis is one of the two main methods of dealing with Black’s threat to win a piece by 10...b4. The other is 10 Bxf6, for which see Game 23.\n\n10...Be7\n\nThanks to White’s delay in exchanging on f6, Black is able to avoid the doubled f-pawns by this move. 10...Be6 is wrong, because after 11 Bxf6 gxf6 12 c3 f5 13 exf5 Bxf5 Black has wasted a tempo with his bishop (compared to the standard line 10 Bxf6 gxf6 11 c3 f5 12 exf5 Bxf5) and so White has the strong possibility 14 Qf3!, when the extra move c3 prevents the reply ...Nd4.\n\nThe text-move unpins the f6-knight and so threatens both 11...Nxe4 and the favourable liquidation 11...Nxd5 12 Qxd5 Bb7.\n\n11 Bxf6\n\nNow White takes the knight.\n\n11...Bxf6\n\nHere 11...gxf6 is wrong, as the bishop is not well placed on e7 in the resulting position (it should be on g7).\n\n12 c3\n\nBy exchanging the f6-knight, White has consolidated the position of his knight on d5. It is not easy for Black to break White’s grip on d5, for two reasons. The first is that the other knight can lend support by Nc2-e3 and the second is that the obvious challenge to d5, namely ...Ne7, allows White to double Black’s pawns by playing Nxf6+, without Black obtaining the two bishops as compensation.\n\nThe text-move aims to bring the offside knight on a3 back into the game via Nc2.\n\n12...Bb7\n\nThis interesting move became quite popular during the 1990s. Black aims to mount a direct challenge to the d5-square using the b7-bishop and c6-knight. The usual plan is ...Nb8-d7, ...Bg5 and ...Nf6. The bishop on g5 stands ready to eliminate White’s other knight (after Nc2 and Nce3), while Black’s remaining minor pieces converge on the d5-square. In principle, this is a very effective plan, which might well lead to White having to recapture on d5 with his e-pawn. However, being forced to make such a capture is almost always a sign that Black’s strategy has been a success. White wants d5 occupied by one of his pieces, not an immobile pawn, and the transfer of the pawn from e4 to d5 also gives Black the opportunity to develop active play by ...f5 and ...e4. The defect with Black’s plan is, of course, that it takes four moves to position his pieces on their ideal squares and this gives White the opportunity to undertake some active play of his own.\n\n12...0-0 13 Nc2 is the most common continuation, when Black has the choice between 13...Bg5 and 13...Rb8. Each of these has its disadvantages. One problem with 13...Rb8 is that White can reply 14 h4, preventing the activation of the bishop at g5. On the other hand, 13...Bg5 has the defect that after 14 a4 Black is obliged to play 14...bxa4, which frees c4 for White’s light-squared bishop and leaves Black’s a-pawn weak.\n\n13 Nc2\n\nA multi-purpose move. The knight returns to the centre, moves into position to support its colleague by Nce3, and frees the a-pawn to break open Black’s queenside pawn-structure by a4.\n\n13...Nb8\n\nAlthough this move is a continuation of the plan mentioned in the note to Black’s 12th move, it does look slightly odd to put the knight back on its original square. Why not, for example, play 13...Bg5 and then 14...Ne7, reaching the same type of position, but saving two moves? The answer is that 13...Bg5 14 a4 bxa4 15 Rxa4 Ne7 doesn’t really achieve Black’s objective of breaking White’s grip on d5, because after 16 Bc4 White is ready to keep recapturing with pieces on d5. As we shall see, the knight is much better placed on d7 to prevent White from reinforcing d5, partly because a later ...Nf6 also attacks the e4-pawn, but also because Black has various options to harass a rook on a4 by ...Nb6 or ...Nc5.\n\n14 a4\n\nAs explained above, White must take quick action to disrupt the execution of Black’s plan. This move exposes Black’s a-pawn to attack, and gains access to the c4-square.\n\n14...bxa4\n\nForced, as Black has no reasonable method of defending b5.\n\n15 Rxa4\n\nThere is no reason not to recapture the pawn immediately. The only real alternative is 15 Nce3, aiming to take on a4 with the queen. However, after 15...Nd7 16 Qxa4 0-0 17 Qc2 (17 Bc4 Bg5 knocks away the props supporting d5) 17...Bg5 White is unable to maintain his grip on d5.\n\n15...Nd7\n\nThis is a more flexible move than castling, since Black will definitely play ...Nd7 sooner or later.\n\n16 Rb4\n\nKasparov immediately puts the question to Black’s bishop. This is a more dynamic move than 16 Nce3, which causes Black fewer problems after 16...0-0.\n\n16...Nc5?!\n\nThe obvious reply, defending the bishop and preparing to chase away White’s rook by ...0-0 and ...a5. However, after White’s amazing reply Black is forced on the defensive. The devastating example offered by this game has put other players off repeating Shirov’s move and recent games have concentrated on 16...Rb8, when 17 Bc4 0-0 18 0-0 Bg5 19 Qe2 leaves White with a very slight advantage.\n\n16...Bc6?! is wrong; after 17 Rc4 Bxd5 (17...Rc8 18 Ncb4 is also very good for White) 18 Qxd5 0-0 (18...Nb6 19 Qc6+ Ke7 20 Rb4 gives White a near-decisive advantage) 19 Rc6 White will win a pawn for inadequate compensation.\n\n17 Rxb7!!\n\nAn extraordinary idea. White gives up a whole exchange in order to obtain a stranglehold on the light squares. It is worth taking some time to look at the play so far, so as to understand the justification for this remarkable sacrifice. Judged by the classic criteria for good opening play, White’s strategy has been about as far from the textbook as it is possible to imagine:\n\n‘Castle as quickly as you can’: here White’s king is still in the centre, and indeed he still requires two moves to castle.\n\n‘Don’t move the same piece twice in the opening’: White has moved his knights a total of seven times.\n\n‘Develop your rooks to the central files’: White has developed his queen’s rook like a beginner, to a4 and b4, and to cap this manoeuvre off he has given it up for a bishop!\n\nIn fact, if you had gone down to your local chess club and seen someone playing like this with White, then you would probably have laughed. However, White is one of the greatest players (some would say the greatest) of all time, so presumably there must some reason behind his play. Kasparov’s logic is based on two closely related factors: the light squares and the d5-square. Black’s opening involves establishing his central pawns on dark squares; this inevitably results in a weakening of the light squares. In cases such as this, where one player’s pawns are fixed on squares of one colour, it is important for that player to retain some control over the squares of the opposite colour. In some cases, this can be achieved using pawns; for example, if Black had a pawn on c6 then he would control d5 and the fact that his central pawns were on dark squares would be irrelevant. Where, as here, there are no pawns to do the job, then it must be done by pieces.\n\nThe key piece is very often the bishop that controls the squares of the opposite colour to the pawns. While this bishop remains on the board, the possibility of fighting for the squares not controlled by the pawns exists. If this bishop is missing, then the player can only fall back on his knights, but unless these are already well-posted, it can take time to manoeuvre them into effective positions.\n\nHow do these general considerations apply to the game under discussion? The d6-e5 pawn-chain leaves Black’s light squares generally weak, but the d5 outpost has particular significance. A knight established there will control several squares in Black’s position and exert a powerful influence on the game. We have already seen in the above notes how many lines revolve around the battle for d5. Thus the answer to the apparent paradox represented by Kasparov’s play is that he recognized the critical nature of the struggle for d5, and was prepared to assign the highest priority to it – even to the extent of sacrificing the exchange.\n\nNow more pieces of the jigsaw fall into place. White has not yet castled because Black’s plan of fighting for d5 demanded immediate attention; there was simply no time for quiet development by, for example, Be2 and 0-0. A further point is that White would really like to develop his f1-bishop to c4, where it controls d5, and so Kasparov is prepared to wait until he has played a4 before developing this bishop, so that it has a chance to occupy its optimum square without loss of time. The second point, about the odd development of White’s rook, is based on the same idea. White has greater ambitions for his a1-rook than simply to develop it to d1; this rook is to be used to eliminate Black’s important light-squared bishop. The third point, about White’s repeated knight moves, is again a question of priorities. White may have moved his knights seven times, but now they are ideally posted to control d5 – in any case, Black has nothing to boast about as he has moved his own queen’s knight four times.\n\nIn other words, White’s moves form a seamless whole; they may appear odd individually, but when examined together they represent an ambitious plan to obtain a complete grip on the light squares. Of course, the importance of controlling d5 in this type of Sicilian pawn-structure is well-known, but before this game I think few grandmasters would have been prepared to give up a whole exchange to cement control of d5.\n\nOne of the main differences between a strong player and a truly great one is that the latter is able to go beyond what is generally known and accepted to discover new ideas and principles. If successful, these are then incorporated into the general body of chess theory and become more familiar as time passes – to such an extent that what appeared extraordinary when played for the first time may elicit only a yawn when played a few years later. Of course, the same thing happens in virtually every area of human endeavour.\n\nThis game provides an excellent example of a theme I mentioned in the Introduction – that much top-class chess is incomprehensible when viewed in terms of the principles formulated in contemporary textbooks. Whereas chess has advanced greatly in the last half-century, much of the instructional material has not kept up with these advances. It is impossible to explain White’s play in this game in terms of the old ideas: ‘rooks belong in the centre’, ‘don’t move the same piece twice in the opening’, and so on. In order to make sense, the game has to be viewed in modern terms: White’s play is founded on the creation of a strategic plan and the single-minded execution of that plan, based on the specific requirements of the position.\n\n17...Nxb7\n\n18 b4\n\nA key move. The only black piece which is capable of fighting for the central light squares is the knight, which could return to play via ...Nc5-e6-c7, for example. This move cuts out that plan. In order to activate his knight, Black will have to move his queen and then play ...Nd8-e6, but this is not so easy to achieve since there is no good square for the queen.\n\nObjectively speaking, White probably has only a very slight advantage, but in practical play it is desirable to possess the initiative. Black has trouble finding a constructive plan whereas White’s options are much clearer.\n\n18...Bg5\n\nSince Black cannot activate his other pieces easily, he at least moves his bishop to a better square. The immediate 18...Qc8 19 Nce3 Nd8 leaves d6 too weak: after 20 Nc4 Qc6 21 b5! axb5 22 Nxe5 White wins material. 18...0-0 19 Nce3 is similar to the game.\n\n19 Na3\n\nThe knight cannot now be activated via e3, so it reaches c4 by an alternative route. In fact, the c4-square is a good outpost for both the f1-bishop and the c2-knight, but obviously both pieces cannot stand on the same square. It makes sense for the knight to take precedence since whereas the bishop has an alternative fairly good square (d3), the knight is doing very little on c2 or a3.\n\n19...0-0\n\n20 Nc4\n\nThere is still little danger of Black undertaking anything active, so White is taking no risk in leaving his king in the centre.\n\n20...a5\n\nBlack plays consistently to activate what pieces he can. This move will open up the a-file and bring the a8-rook into play. The alternative is 20...f5, aiming for counterplay via a different route. However, after 21 Bd3 f4 (21...fxe4 22 Bxe4 is worse as the bishop radiates power from e4) 22 Qg4 a5 23 0-0 axb4 24 cxb4 f3 25 g3 Black has not solved his problems; for example, 25...Kh8 26 Rd1 Bh6 27 Bf1 followed by Rd3 and Rxf3.\n\n21 Bd3\n\nThanks to White’s grip on the light squares, Black’s counterplay is very limited. Therefore, this is a good time for White to complete his development. 21 Ncb6 has little point as Black can just reply 21...Ra7.\n\n21...axb4\n\n22 cxb4\n\nIt is up to Black to find some way of activating his passively-placed pieces.\n\n22...Qb8\n\nShirov decides to concentrate on play along the a-file, by ...Qb8, ...Ra2, ...Qa7 and perhaps ultimately ...Ra8. This plan is satisfactory if followed up correctly, but 22...Rb8 is perhaps the most solid idea. Black eliminates the fork at b6, and so prepares ...Qd7 followed by ...Nd8-e6. After 23 h4 Bh6 24 Qg4 Kh8 25 0-0 Qc8 the position is unclear.\n\nOther possibilities are less effective. 22...Bh6 (22...Ra2 23 0-0 Qa8 24 Ncb6 Qa3 25 Bc4 Rd2 26 Qg4 favours White) 23 0-0 Qh4 (after 23...Qg5 24 g3 Black has no obvious plan, as 24...Nd8 loses to 25 h4) tries to activate the queen on the kingside, but White can continue 24 g3 Qh3 25 Be2 Bg5 (otherwise Black has to surrender material) 26 Bg4 Qh6 27 Ndb6 Ra2 28 h4 with a good position; for example, 28...Bd2 (or 28...Bxh4 29 gxh4 Qxh4 30 Qf3 and White retains his grip) 29 Qb3 Ra6 30 Rd1.\n\n23 h4\n\nNow Black is forced to make a critical decision. Should he keep the bishop on the c1-h6 diagonal, or should he drop it back to d8?\n\nThe alternatives 23 Ncb6 Ra2 24 Nd7 Qa7 and 23 0-0 Nd8 24 Ncb6 Ra7 favour Black.\n\n23...Bh6?\n\nThe wrong choice. The bishop certainly appears to be more active on h6, where it controls the squares d2 and c1, but in fact Black would have done better to retreat. 23...Bd8! intends ...Bc7 followed by ...Nd8, and covers b6 so that a white knight cannot jump there without being exchanged. White can continue 24 g3 Bc7 (24...Qa7 25 0-0 Qd4 26 Qb3 followed by Rd1 expels the queen) 25 0-0 Nd8 26 b5 (26 Qg4 Kh8 does little to change the situation) 26...Ne6 27 b6 Bd8 with an unclear position. White has managed to push his pawn to b6, but in compensation Black has activated his knight. After the text-move, White gains the upper hand.\n\n24 Ncb6\n\nWith the bishop on h6, this move can be played with impunity.\n\n24...Ra2\n\nNote that although Black has a theoretically ‘bad’ bishop, the bishop is actually relatively active on h6. It is not the inactivity of his bishop that dooms him, it is the amazing activity of White’s minor pieces on the light squares. It is true that weak colour complexes and bad bishops often go hand-in-hand, but in this case the weak squares are the primary factors in Black’s downfall. We will examine bad bishops more closely in Game 23.\n\n25 0-0\n\nStronger than 25 Nd7? Qa7 26 0-0 Ra8!, when a subsequent ...Ra1 will force exchanges.\n\n25...Rd2\n\nThis permits a powerful reply, but other moves were also fairly uninviting:\n\n1) 25...Qa7 26 Bc4 Rd2 27 Qh5 Nd8 28 Nf6+ Kh8 29 Nbd7 Re8 30 Nxe8 (30 Bxf7 Nxf7 31 Qxf7 Ra8 32 Ne8 Qa2 is less clear) 30...Qxd7 31 Nf6 Qc7 32 b5 with an advantage to White; for example, 32...Qxc4? fails to 33 Qf5 gxf6 34 Qxf6+ Kg8 35 Qxh6 followed by Qg5+, giving White a near-decisive advantage.\n\n2) 25...Qe8 26 Bc4 Ra7 27 Nc8 Ra3 28 Nce7+ Kh8 29 Nf5 (notice how the white knights hop around, making use of all the weakened light squares) 29...Qe6 30 Nde3 Qg6 31 h5 Qg5 32 Bd5 Nd8 33 b5 and Black’s coordination is so poor that he will have trouble stopping the b-pawn.\n\n26 Qf3?!\n\nA slip. White could have played the simple but strong 26 Qb1!, threatening to trap the rook with Nc4. There isn’t much Black can do to stop this; for example, 26...Qd8 (26...Qa7 27 Nc4 Ra2 28 Nc3 will also pick up the exchange) 27 g3 (27 Nc4 Rxd3 28 Qxd3 Qxh4 is less clear) and Black will have to surrender the exchange. This would leave a situation of material equality, but with most of White’s positional advantage intact.\n\n26...Qa7\n\n26...Qe8 is strongly met by 27 Ra1! followed by Nc4 (but not 27 Ba6? Nd8 28 Nc4 Rd4 29 Nxd6 Qe6 and Black wins).\n\n27 Nd7?!\n\nAnother slip. White could still have retained strong pressure by continuing 27 Bb5 Nd8 (27...Rc2 28 Nd7 Ra8 29 Ne7+ Kh8 30 Qxf7 Qa2 31 Nd5 gives White a clear advantage) 28 Nd7 Ne6 29 Ne7+ (29 Nxf8 Kxf8 30 Qc3 g6 31 Qc6 is also good for White) 29...Kh8 30 Nxf8 Qxe7 31 Nxe6 Qxe6 (31...fxe6 32 Ra1 g6 33 Bc4 is very unpleasant for Black) 32 Bc6 with good winning chances despite the opposite-coloured bishops.\n\n27...Nd8?\n\nBlack returns the exchange, but this does not solve his problems since White retains a strong initiative. The alternatives are:\n\n1) 27...Qa3? 28 Ne7+ Kh8 29 Nxf8 Rxd3 30 Qxf7 and White wins.\n\n2) 27...Nc5? 28 bxc5 Qxd7 29 c6 Qa7 30 c7 Qc5 31 Rb1 Ra2 32 Rb8 Ra8 33 Rxa8 Rxa8 34 Qf5 is winning for White.\n\n3) 27...Rd8?! 28 Ne7+ Kh8 29 Qxf7 Qa8 (29...g6 30 Nf6 Bg7 31 Qxg6 forces mate; 29...Rxd3 loses to 30 Nf8) 30 Bb5 and White has a very good position.\n\n4) 27...Ra8! is the only move.\n\nWhite can force a draw but he has no clear route to the advantage:\n\n4a) 28 N7b6?! Qa3 favours Black slightly.\n\n4b) 28 Ne7+ Kh8 29 Qxf7 Rxd3 30 Nf8 Qa2! 31 Qf5 g6 32 Nexg6+ hxg6 33 Qf6+ Bg7 (33...Kg8 34 Ne6 Kh7 35 Qe7+ is a draw) 34 Nxg6+ Kh7 35 Qf5 Qd2 36 Nxe5+ is also drawn.\n\n4c) 28 Bb5 Nd8 29 Qf5 is unclear.\n\n4d) 28 Bc4 Nd8 (28...Re8? loses to 29 N5f6+) 29 Qf5 (29 N5b6 Rb8 30 Nxb8 Qxb6 is unclear) 29...g6 30 Qf6 Bg7 31 Qxd6 Kh8 and Black is hanging on.\n\n28 Nxf8\n\n28...Kxf8\n\n29 b5\n\nWhite’s advantages are decisive: his pieces are more active, Black’s king is in danger, the b-pawn is very dangerous and to cap it all Black still has crippling light-squared weaknesses.\n\n29...Qa3\n\nBlack struggles to generate counterplay. Alternatives are no better:\n\n1) 29...Ne6 30 b6 Qa3 (30...Qb8 loses to 31 Ra1) 31 b7 Qb3 (31...Rb2 32 Bb5! Qa7 33 Qa3 is decisive) 32 Nc7 Nd4 (32...Nxc7 33 Bc4 finishes Black) 33 Qg4 Qxb7 34 Qd7 Qb8 35 Rb1 and there is no defence.\n\n2) 29...Qd4 30 Be2 (threatening both 31 Qa3 and 31 Qf5! Rxe2 32 Qd7) 30...Qa7 (or 30...Ne6 31 Rc1) 31 b6 Qa8 32 Qf5 Rxe2 33 Qxh7 f6 34 Qh8+ Kf7 35 Nc7 Qc6 36 Qxd8 and White wins.\n\n30 Qf5!\n\nAgain, a key move involves occupation of a light square. White sacrifices the bishop and plays for a direct attack.\n\n30...Ke8\n\nBlack cannot accept, as 30...Rxd3 loses to 31 Qd7 g6 32 Qxd8+ Kg7 33 b6.\n\n31 Bc4\n\n31...Rc2\n\nOr 31...Qc5 (31...Qa4 32 Qc8) 32 Qxh7 Kd7 33 Qf5+ Ke8 34 Bb3 Rb2 35 Bd1 and White wins.\n\n32 Qxh7!\n\n32...Rxc4\n\n32...Qc5 loses to 33 Bb3 Rb2 34 Qg8+ Kd7 35 Bd1.\n\n33 Qg8+\n\n33...Kd7\n\n34 Nb6+\n\n34...Ke7\n\n35 Nxc4\n\n35...Qc5\n\n35...Qb4 is also met by 36 Ra1.\n\n36 Ra1\n\n36...Qd4\n\n36...Qxc4 37 Ra7+ Kf6 38 Qxd8+ Kg6 39 Qxd6+ f6 40 Qc6 is winning for White.\n\n37 Ra3\n\n37...Bc1\n\n38 Ne3\n\n38...1-0\n\nThis was an exceptionally creative game by Kasparov. An amazing exchange sacrifice was followed by a gradual build-up of pressure on the numerous weak light squares. It was difficult for Black to find a plan to free himself, and the error on move 23 was quite understandable. There were a few inaccuracies in the following moves, but a further mistake by Shirov on move 28 sealed his fate.\n\nThe lessons here are:\n\n1) Squares which are weak relative to the central pawn-structure need to be covered by pieces.\n\n2) If this is not possible, then the weakness can become serious.\n\n3) The defender has to remain alert for any inaccuracy of the part of the attacker. Here Shirov had a momentary chance, but he let it pass by.\n\n4) Learning when you can break the ‘rules’ is part of chess improvement.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Weak Colour Complex\n\nOne often reads about a ‘weak colour complex’ in chess literature. It sounds like something to do with psychoanalysis, but in fact it is quite a simple chess concept. A ‘weak colour complex’ is basically a collection of weak squares of the same colour. Such complexes often arise when pawn-chains are present (see Game 24 for more about pawn-chains). If, for example, Black has pawns on a7, b7, d5, e6, g7 and h7 then the dark squares around the central pawns may become generally weak. If White has pawns on d4 and e5 this may not matter because the squares that might become weak are sealed off and cannot be occupied by White’s pieces. However, if White has knights on d4 and e5, then the weakness of the dark squares is quite obvious. Pawn-formations that potentially create a weak colour complex thus require special attention. In the above example Black may be able to cover the potentially weak squares at d4 and e5, for example with a queen on b6, knight on c6 and bishop on d6 (this can happen in the French Defence). If White cannot occupy the potentially weak squares, then in fact they may not be weak at all.\n\nThus the ability to use pieces to cover the potential weak spots between the pawns is critical and, as we shall see in the following game, it can be worth some material to deprive the opponent of this possibility.\n\nG. Kasparov – A. Shirov\n\nHorgen 1994\n\nSicilian Defence, Sveshnikov Variation"
+    },
+    {
+      "ply": 1,
+      "san": "e4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "c5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "Nf3",
+      "text": "For comments on the moves up to here, see Game 8.",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "e6",
+      "text": "In earlier games, we have seen examples of 2...Nc6 and 2...d6. The move 2...e6 is another possibility for Black which gives priority to freeing the dark-squared bishop. While this move can lead to a transposition into other Sicilian lines, there are a number of independent variations.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "d4",
+      "text": "Just as after 2...Nc6 and 2...d6, this immediate advance is White’s most active continuation.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "cxd4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "Nxd4",
+      "text": "The pawn exchange has left Black with a central pawn-majority, but White can develop his pieces quickly.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "Nf6",
+      "text": "After this move, play is likely to transpose into one of the main Sicilian systems. The two major lines which are specific to the 2...e6 move-order are 4...Nc6 (the Taimanov Variation) and 4...a6 (the Kan Variation).",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "Nc3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "Nc6",
+      "text": "White to play\n\nThe opening of this game shows how confusing move-order questions can be. Black is trying to reach the position arising in the game after 8 Bg5. There are two different move-orders arriving at the same position:\n\nA) 1 e4 c5 2 Nf3 Nc6 3 d4 cxd4 4 Nxd4 Nf6 5 Nc3 e5 6 Ndb5 d6 7 Bg5.\n\nB) 1 e4 c5 2 Nf3 e6 3 d4 cxd4 4 Nxd4 Nf6 5 Nc3 Nc6 6 Ndb5 d6 7 Bf4 e5 8 Bg5.\n\nYou will notice that the second move-order is one move longer, a fact which is very awkward for authors of opening books! It is also worth mentioning that some database programs have a ‘search position’ facility that does not correctly find positions with a different move numbering. In this case, it is quite easy to overlook key games in the database unless one does two searches.\n\nObviously, the above lines are not forced and in both cases White has a number of opportunities to deviate. Which move-order Black selects depends on which of White’s alternatives he wishes to prevent. Here is a list of the key differences:\n\nDisadvantages of move-order A:\n\nA1) White can play 3 Bb5.\n\nA2) White can play 7 Nd5 or 7 a4.\n\nDisadvantages of move-order B:\n\nB1) White can play 6 Nxc6 bxc6 7 e5.\n\nB2) Black may not succeed in completely avoiding the lines with Bb5, since White can play 3 Nc3 and if Black still wants to aim for his target position, then he must continue 3...Nc6, allowing 4 Bb5. It is true that with this move-order White’s options are restricted (for example, he cannot play c3 any more) but equally Black is limited by being committed to ...e6 (whereas after 1 e4 c5 2 Nf3 Nc6 3 Bb5, for example, Black might prefer to play 3...g6).\n\nWhen deciding on the best move-order, a player must consider not only objective factors but also which lines are more to his taste.\n\nIn this game, Black opts for move-order B (while in Game 23, he prefers move-order A).",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "Ndb5",
+      "text": "This is the most common move, targeting the weak square at d6. However, the line 6 Nxc6 bxc6 7 e5 Nd5 8 Ne4 is a major alternative and is quite irritating for Black, as the positions resulting are quite different from the ones he is aiming for.",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "d6",
+      "text": "Black has an alternative in 6...Bb4, but after 7 a3 Black is more or less forced to take on c3, which gives White the two bishops at little cost.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "Bf4",
+      "text": "This is the logical follow-up to White’s previous move. He aims to force ...e5, when the d5-square will become weak.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "e5",
+      "text": "Forced, as 7...Ne5 is strongly met by 8 Qd4.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "Bg5",
+      "text": "Here the bishop stands ready to eliminate the f6-knight, thus increasing White’s grip on d5.",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "a6",
+      "text": "Black’s compensation for the weak d5-square is the possibility to drive White’s knight to the edge of the board. Black must take advantage of it right away, as White is threatening 9 Nd5.",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "Na3",
+      "text": "Black to play\n\nThis misplaced knight is one of the cornerstones of Black’s play. Thanks to Black’s ...e5, the d5-square is a weakness in his position, but dynamic factors can offer compensation for a static weakness. In this case, the offside knight on a3 must come back into the game, which gives Black time to develop his counterplay.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "b5",
+      "text": "This whole line is usually referred to as the Sveshnikov Variation, after the Soviet grandmaster who popularized it in the 1970s. Sveshnikov’s move 9...b5 was really the key to the revitalization of this system. Previously, Black tended to play either 9...d5, a pawn sacrifice which is not really sound, or 9...Be6, which allows the offside knight to return to the centre by Nc4 and Ne3.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "Nd5",
+      "text": "This is one of the two main methods of dealing with Black’s threat to win a piece by 10...b4. The other is 10 Bxf6, for which see Game 23.",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "Be7",
+      "text": "Thanks to White’s delay in exchanging on f6, Black is able to avoid the doubled f-pawns by this move. 10...Be6 is wrong, because after 11 Bxf6 gxf6 12 c3 f5 13 exf5 Bxf5 Black has wasted a tempo with his bishop (compared to the standard line 10 Bxf6 gxf6 11 c3 f5 12 exf5 Bxf5) and so White has the strong possibility 14 Qf3!, when the extra move c3 prevents the reply ...Nd4.\n\nThe text-move unpins the f6-knight and so threatens both 11...Nxe4 and the favourable liquidation 11...Nxd5 12 Qxd5 Bb7.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "Bxf6",
+      "text": "Now White takes the knight.",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "Bxf6",
+      "text": "Here 11...gxf6 is wrong, as the bishop is not well placed on e7 in the resulting position (it should be on g7).\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "c3",
+      "text": "By exchanging the f6-knight, White has consolidated the position of his knight on d5. It is not easy for Black to break White’s grip on d5, for two reasons. The first is that the other knight can lend support by Nc2-e3 and the second is that the obvious challenge to d5, namely ...Ne7, allows White to double Black’s pawns by playing Nxf6+, without Black obtaining the two bishops as compensation.\n\nThe text-move aims to bring the offside knight on a3 back into the game via Nc2.",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "Bb7",
+      "text": "This interesting move became quite popular during the 1990s. Black aims to mount a direct challenge to the d5-square using the b7-bishop and c6-knight. The usual plan is ...Nb8-d7, ...Bg5 and ...Nf6. The bishop on g5 stands ready to eliminate White’s other knight (after Nc2 and Nce3), while Black’s remaining minor pieces converge on the d5-square. In principle, this is a very effective plan, which might well lead to White having to recapture on d5 with his e-pawn. However, being forced to make such a capture is almost always a sign that Black’s strategy has been a success. White wants d5 occupied by one of his pieces, not an immobile pawn, and the transfer of the pawn from e4 to d5 also gives Black the opportunity to develop active play by ...f5 and ...e4. The defect with Black’s plan is, of course, that it takes four moves to position his pieces on their ideal squares and this gives White the opportunity to undertake some active play of his own.\n\n12...0-0 13 Nc2 is the most common continuation, when Black has the choice between 13...Bg5 and 13...Rb8. Each of these has its disadvantages. One problem with 13...Rb8 is that White can reply 14 h4, preventing the activation of the bishop at g5. On the other hand, 13...Bg5 has the defect that after 14 a4 Black is obliged to play 14...bxa4, which frees c4 for White’s light-squared bishop and leaves Black’s a-pawn weak.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Nc2",
+      "text": "A multi-purpose move. The knight returns to the centre, moves into position to support its colleague by Nce3, and frees the a-pawn to break open Black’s queenside pawn-structure by a4.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "Nb8",
+      "text": "Although this move is a continuation of the plan mentioned in the note to Black’s 12th move, it does look slightly odd to put the knight back on its original square. Why not, for example, play 13...Bg5 and then 14...Ne7, reaching the same type of position, but saving two moves? The answer is that 13...Bg5 14 a4 bxa4 15 Rxa4 Ne7 doesn’t really achieve Black’s objective of breaking White’s grip on d5, because after 16 Bc4 White is ready to keep recapturing with pieces on d5. As we shall see, the knight is much better placed on d7 to prevent White from reinforcing d5, partly because a later ...Nf6 also attacks the e4-pawn, but also because Black has various options to harass a rook on a4 by ...Nb6 or ...Nc5.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "a4",
+      "text": "As explained above, White must take quick action to disrupt the execution of Black’s plan. This move exposes Black’s a-pawn to attack, and gains access to the c4-square.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "bxa4",
+      "text": "Forced, as Black has no reasonable method of defending b5.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Rxa4",
+      "text": "There is no reason not to recapture the pawn immediately. The only real alternative is 15 Nce3, aiming to take on a4 with the queen. However, after 15...Nd7 16 Qxa4 0-0 17 Qc2 (17 Bc4 Bg5 knocks away the props supporting d5) 17...Bg5 White is unable to maintain his grip on d5.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "Nd7",
+      "text": "This is a more flexible move than castling, since Black will definitely play ...Nd7 sooner or later.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Rb4",
+      "text": "Kasparov immediately puts the question to Black’s bishop. This is a more dynamic move than 16 Nce3, which causes Black fewer problems after 16...0-0.",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Nc5",
+      "text": "The obvious reply, defending the bishop and preparing to chase away White’s rook by ...0-0 and ...a5. However, after White’s amazing reply Black is forced on the defensive. The devastating example offered by this game has put other players off repeating Shirov’s move and recent games have concentrated on 16...Rb8, when 17 Bc4 0-0 18 0-0 Bg5 19 Qe2 leaves White with a very slight advantage.\n\n16...Bc6?! is wrong; after 17 Rc4 Bxd5 (17...Rc8 18 Ncb4 is also very good for White) 18 Qxd5 0-0 (18...Nb6 19 Qc6+ Ke7 20 Rb4 gives White a near-decisive advantage) 19 Rc6 White will win a pawn for inadequate compensation.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Rxb7",
+      "text": "An extraordinary idea. White gives up a whole exchange in order to obtain a stranglehold on the light squares. It is worth taking some time to look at the play so far, so as to understand the justification for this remarkable sacrifice. Judged by the classic criteria for good opening play, White’s strategy has been about as far from the textbook as it is possible to imagine:\n\n‘Castle as quickly as you can’: here White’s king is still in the centre, and indeed he still requires two moves to castle.\n\n‘Don’t move the same piece twice in the opening’: White has moved his knights a total of seven times.\n\n‘Develop your rooks to the central files’: White has developed his queen’s rook like a beginner, to a4 and b4, and to cap this manoeuvre off he has given it up for a bishop!\n\nIn fact, if you had gone down to your local chess club and seen someone playing like this with White, then you would probably have laughed. However, White is one of the greatest players (some would say the greatest) of all time, so presumably there must some reason behind his play. Kasparov’s logic is based on two closely related factors: the light squares and the d5-square. Black’s opening involves establishing his central pawns on dark squares; this inevitably results in a weakening of the light squares. In cases such as this, where one player’s pawns are fixed on squares of one colour, it is important for that player to retain some control over the squares of the opposite colour. In some cases, this can be achieved using pawns; for example, if Black had a pawn on c6 then he would control d5 and the fact that his central pawns were on dark squares would be irrelevant. Where, as here, there are no pawns to do the job, then it must be done by pieces.\n\nThe key piece is very often the bishop that controls the squares of the opposite colour to the pawns. While this bishop remains on the board, the possibility of fighting for the squares not controlled by the pawns exists. If this bishop is missing, then the player can only fall back on his knights, but unless these are already well-posted, it can take time to manoeuvre them into effective positions.\n\nHow do these general considerations apply to the game under discussion? The d6-e5 pawn-chain leaves Black’s light squares generally weak, but the d5 outpost has particular significance. A knight established there will control several squares in Black’s position and exert a powerful influence on the game. We have already seen in the above notes how many lines revolve around the battle for d5. Thus the answer to the apparent paradox represented by Kasparov’s play is that he recognized the critical nature of the struggle for d5, and was prepared to assign the highest priority to it – even to the extent of sacrificing the exchange.\n\nNow more pieces of the jigsaw fall into place. White has not yet castled because Black’s plan of fighting for d5 demanded immediate attention; there was simply no time for quiet development by, for example, Be2 and 0-0. A further point is that White would really like to develop his f1-bishop to c4, where it controls d5, and so Kasparov is prepared to wait until he has played a4 before developing this bishop, so that it has a chance to occupy its optimum square without loss of time. The second point, about the odd development of White’s rook, is based on the same idea. White has greater ambitions for his a1-rook than simply to develop it to d1; this rook is to be used to eliminate Black’s important light-squared bishop. The third point, about White’s repeated knight moves, is again a question of priorities. White may have moved his knights seven times, but now they are ideally posted to control d5 – in any case, Black has nothing to boast about as he has moved his own queen’s knight four times.\n\nIn other words, White’s moves form a seamless whole; they may appear odd individually, but when examined together they represent an ambitious plan to obtain a complete grip on the light squares. Of course, the importance of controlling d5 in this type of Sicilian pawn-structure is well-known, but before this game I think few grandmasters would have been prepared to give up a whole exchange to cement control of d5.\n\nOne of the main differences between a strong player and a truly great one is that the latter is able to go beyond what is generally known and accepted to discover new ideas and principles. If successful, these are then incorporated into the general body of chess theory and become more familiar as time passes – to such an extent that what appeared extraordinary when played for the first time may elicit only a yawn when played a few years later. Of course, the same thing happens in virtually every area of human endeavour.\n\nThis game provides an excellent example of a theme I mentioned in the Introduction – that much top-class chess is incomprehensible when viewed in terms of the principles formulated in contemporary textbooks. Whereas chess has advanced greatly in the last half-century, much of the instructional material has not kept up with these advances. It is impossible to explain White’s play in this game in terms of the old ideas: ‘rooks belong in the centre’, ‘don’t move the same piece twice in the opening’, and so on. In order to make sense, the game has to be viewed in modern terms: White’s play is founded on the creation of a strategic plan and the single-minded execution of that plan, based on the specific requirements of the position.",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Nxb7",
+      "text": "White to play",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "b4",
+      "text": "A key move. The only black piece which is capable of fighting for the central light squares is the knight, which could return to play via ...Nc5-e6-c7, for example. This move cuts out that plan. In order to activate his knight, Black will have to move his queen and then play ...Nd8-e6, but this is not so easy to achieve since there is no good square for the queen.\n\nObjectively speaking, White probably has only a very slight advantage, but in practical play it is desirable to possess the initiative. Black has trouble finding a constructive plan whereas White’s options are much clearer.",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "Bg5",
+      "text": "Since Black cannot activate his other pieces easily, he at least moves his bishop to a better square. The immediate 18...Qc8 19 Nce3 Nd8 leaves d6 too weak: after 20 Nc4 Qc6 21 b5! axb5 22 Nxe5 White wins material. 18...0-0 19 Nce3 is similar to the game.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "Na3",
+      "text": "The knight cannot now be activated via e3, so it reaches c4 by an alternative route. In fact, the c4-square is a good outpost for both the f1-bishop and the c2-knight, but obviously both pieces cannot stand on the same square. It makes sense for the knight to take precedence since whereas the bishop has an alternative fairly good square (d3), the knight is doing very little on c2 or a3.",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "Nc4",
+      "text": "There is still little danger of Black undertaking anything active, so White is taking no risk in leaving his king in the centre.",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "a5",
+      "text": "Black plays consistently to activate what pieces he can. This move will open up the a-file and bring the a8-rook into play. The alternative is 20...f5, aiming for counterplay via a different route. However, after 21 Bd3 f4 (21...fxe4 22 Bxe4 is worse as the bishop radiates power from e4) 22 Qg4 a5 23 0-0 axb4 24 cxb4 f3 25 g3 Black has not solved his problems; for example, 25...Kh8 26 Rd1 Bh6 27 Bf1 followed by Rd3 and Rxf3.",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "Bd3",
+      "text": "Thanks to White’s grip on the light squares, Black’s counterplay is very limited. Therefore, this is a good time for White to complete his development. 21 Ncb6 has little point as Black can just reply 21...Ra7.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "axb4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "cxb4",
+      "text": "It is up to Black to find some way of activating his passively-placed pieces.",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "Qb8",
+      "text": "Shirov decides to concentrate on play along the a-file, by ...Qb8, ...Ra2, ...Qa7 and perhaps ultimately ...Ra8. This plan is satisfactory if followed up correctly, but 22...Rb8 is perhaps the most solid idea. Black eliminates the fork at b6, and so prepares ...Qd7 followed by ...Nd8-e6. After 23 h4 Bh6 24 Qg4 Kh8 25 0-0 Qc8 the position is unclear.\n\nOther possibilities are less effective. 22...Bh6 (22...Ra2 23 0-0 Qa8 24 Ncb6 Qa3 25 Bc4 Rd2 26 Qg4 favours White) 23 0-0 Qh4 (after 23...Qg5 24 g3 Black has no obvious plan, as 24...Nd8 loses to 25 h4) tries to activate the queen on the kingside, but White can continue 24 g3 Qh3 25 Be2 Bg5 (otherwise Black has to surrender material) 26 Bg4 Qh6 27 Ndb6 Ra2 28 h4 with a good position; for example, 28...Bd2 (or 28...Bxh4 29 gxh4 Qxh4 30 Qf3 and White retains his grip) 29 Qb3 Ra6 30 Rd1.",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "h4",
+      "text": "Now Black is forced to make a critical decision. Should he keep the bishop on the c1-h6 diagonal, or should he drop it back to d8?\n\nThe alternatives 23 Ncb6 Ra2 24 Nd7 Qa7 and 23 0-0 Nd8 24 Ncb6 Ra7 favour Black.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "Bh6",
+      "text": "The wrong choice. The bishop certainly appears to be more active on h6, where it controls the squares d2 and c1, but in fact Black would have done better to retreat. 23...Bd8! intends ...Bc7 followed by ...Nd8, and covers b6 so that a white knight cannot jump there without being exchanged. White can continue 24 g3 Bc7 (24...Qa7 25 0-0 Qd4 26 Qb3 followed by Rd1 expels the queen) 25 0-0 Nd8 26 b5 (26 Qg4 Kh8 does little to change the situation) 26...Ne6 27 b6 Bd8 with an unclear position. White has managed to push his pawn to b6, but in compensation Black has activated his knight. After the text-move, White gains the upper hand.",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "Ncb6",
+      "text": "With the bishop on h6, this move can be played with impunity.",
+      "isCritical": true
+    },
+    {
+      "ply": 48,
+      "san": "Ra2",
+      "text": "Note that although Black has a theoretically ‘bad’ bishop, the bishop is actually relatively active on h6. It is not the inactivity of his bishop that dooms him, it is the amazing activity of White’s minor pieces on the light squares. It is true that weak colour complexes and bad bishops often go hand-in-hand, but in this case the weak squares are the primary factors in Black’s downfall. We will examine bad bishops more closely in Game 23.\n\n25 0-0\n\nStronger than 25 Nd7? Qa7 26 0-0 Ra8!, when a subsequent ...Ra1 will force exchanges.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 49,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 50,
+      "san": "Rd2",
+      "text": "This permits a powerful reply, but other moves were also fairly uninviting:\n\n1) 25...Qa7 26 Bc4 Rd2 27 Qh5 Nd8 28 Nf6+ Kh8 29 Nbd7 Re8 30 Nxe8 (30 Bxf7 Nxf7 31 Qxf7 Ra8 32 Ne8 Qa2 is less clear) 30...Qxd7 31 Nf6 Qc7 32 b5 with an advantage to White; for example, 32...Qxc4? fails to 33 Qf5 gxf6 34 Qxf6+ Kg8 35 Qxh6 followed by Qg5+, giving White a near-decisive advantage.\n\n2) 25...Qe8 26 Bc4 Ra7 27 Nc8 Ra3 28 Nce7+ Kh8 29 Nf5 (notice how the white knights hop around, making use of all the weakened light squares) 29...Qe6 30 Nde3 Qg6 31 h5 Qg5 32 Bd5 Nd8 33 b5 and Black’s coordination is so poor that he will have trouble stopping the b-pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 51,
+      "san": "Qf3",
+      "text": "A slip. White could have played the simple but strong 26 Qb1!, threatening to trap the rook with Nc4. There isn’t much Black can do to stop this; for example, 26...Qd8 (26...Qa7 27 Nc4 Ra2 28 Nc3 will also pick up the exchange) 27 g3 (27 Nc4 Rxd3 28 Qxd3 Qxh4 is less clear) and Black will have to surrender the exchange. This would leave a situation of material equality, but with most of White’s positional advantage intact.",
+      "isCritical": true
+    },
+    {
+      "ply": 52,
+      "san": "Qa7",
+      "text": "26...Qe8 is strongly met by 27 Ra1! followed by Nc4 (but not 27 Ba6? Nd8 28 Nc4 Rd4 29 Nxd6 Qe6 and Black wins).\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 53,
+      "san": "Nd7",
+      "text": "Another slip. White could still have retained strong pressure by continuing 27 Bb5 Nd8 (27...Rc2 28 Nd7 Ra8 29 Ne7+ Kh8 30 Qxf7 Qa2 31 Nd5 gives White a clear advantage) 28 Nd7 Ne6 29 Ne7+ (29 Nxf8 Kxf8 30 Qc3 g6 31 Qc6 is also good for White) 29...Kh8 30 Nxf8 Qxe7 31 Nxe6 Qxe6 (31...fxe6 32 Ra1 g6 33 Bc4 is very unpleasant for Black) 32 Bc6 with good winning chances despite the opposite-coloured bishops.",
+      "isCritical": true
+    },
+    {
+      "ply": 54,
+      "san": "Nd8",
+      "text": "Black returns the exchange, but this does not solve his problems since White retains a strong initiative. The alternatives are:\n\n1) 27...Qa3? 28 Ne7+ Kh8 29 Nxf8 Rxd3 30 Qxf7 and White wins.\n\n2) 27...Nc5? 28 bxc5 Qxd7 29 c6 Qa7 30 c7 Qc5 31 Rb1 Ra2 32 Rb8 Ra8 33 Rxa8 Rxa8 34 Qf5 is winning for White.\n\n3) 27...Rd8?! 28 Ne7+ Kh8 29 Qxf7 Qa8 (29...g6 30 Nf6 Bg7 31 Qxg6 forces mate; 29...Rxd3 loses to 30 Nf8) 30 Bb5 and White has a very good position.\n\n4) 27...Ra8! is the only move.\n\nWhite to play\n\nWhite can force a draw but he has no clear route to the advantage:\n\n4a) 28 N7b6?! Qa3 favours Black slightly.\n\n4b) 28 Ne7+ Kh8 29 Qxf7 Rxd3 30 Nf8 Qa2! 31 Qf5 g6 32 Nexg6+ hxg6 33 Qf6+ Bg7 (33...Kg8 34 Ne6 Kh7 35 Qe7+ is a draw) 34 Nxg6+ Kh7 35 Qf5 Qd2 36 Nxe5+ is also drawn.\n\n4c) 28 Bb5 Nd8 29 Qf5 is unclear.\n\n4d) 28 Bc4 Nd8 (28...Re8? loses to 29 N5f6+) 29 Qf5 (29 N5b6 Rb8 30 Nxb8 Qxb6 is unclear) 29...g6 30 Qf6 Bg7 31 Qxd6 Kh8 and Black is hanging on.",
+      "isCritical": true
+    },
+    {
+      "ply": 55,
+      "san": "Nxf8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 56,
+      "san": "Kxf8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 57,
+      "san": "b5",
+      "text": "White’s advantages are decisive: his pieces are more active, Black’s king is in danger, the b-pawn is very dangerous and to cap it all Black still has crippling light-squared weaknesses.",
+      "isCritical": true
+    },
+    {
+      "ply": 58,
+      "san": "Qa3",
+      "text": "Black struggles to generate counterplay. Alternatives are no better:\n\n1) 29...Ne6 30 b6 Qa3 (30...Qb8 loses to 31 Ra1) 31 b7 Qb3 (31...Rb2 32 Bb5! Qa7 33 Qa3 is decisive) 32 Nc7 Nd4 (32...Nxc7 33 Bc4 finishes Black) 33 Qg4 Qxb7 34 Qd7 Qb8 35 Rb1 and there is no defence.\n\n2) 29...Qd4 30 Be2 (threatening both 31 Qa3 and 31 Qf5! Rxe2 32 Qd7) 30...Qa7 (or 30...Ne6 31 Rc1) 31 b6 Qa8 32 Qf5 Rxe2 33 Qxh7 f6 34 Qh8+ Kf7 35 Nc7 Qc6 36 Qxd8 and White wins.",
+      "isCritical": true
+    },
+    {
+      "ply": 59,
+      "san": "Qf5",
+      "text": "Black to play\n\nAgain, a key move involves occupation of a light square. White sacrifices the bishop and plays for a direct attack.",
+      "isCritical": true
+    },
+    {
+      "ply": 60,
+      "san": "Ke8",
+      "text": "Black cannot accept, as 30...Rxd3 loses to 31 Qd7 g6 32 Qxd8+ Kg7 33 b6.",
+      "isCritical": true
+    },
+    {
+      "ply": 61,
+      "san": "Bc4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 62,
+      "san": "Rc2",
+      "text": "Or 31...Qc5 (31...Qa4 32 Qc8) 32 Qxh7 Kd7 33 Qf5+ Ke8 34 Bb3 Rb2 35 Bd1 and White wins.",
+      "isCritical": true
+    },
+    {
+      "ply": 63,
+      "san": "Qxh7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 64,
+      "san": "Rxc4",
+      "text": "32...Qc5 loses to 33 Bb3 Rb2 34 Qg8+ Kd7 35 Bd1.",
+      "isCritical": true
+    },
+    {
+      "ply": 65,
+      "san": "Qg8+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 66,
+      "san": "Kd7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 67,
+      "san": "Nb6+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 68,
+      "san": "Ke7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 69,
+      "san": "Nxc4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 70,
+      "san": "Qc5",
+      "text": "35...Qb4 is also met by 36 Ra1.",
+      "isCritical": true
+    },
+    {
+      "ply": 71,
+      "san": "Ra1",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 72,
+      "san": "Qd4",
+      "text": "36...Qxc4 37 Ra7+ Kf6 38 Qxd8+ Kg6 39 Qxd6+ f6 40 Qc6 is winning for White.",
+      "isCritical": true
+    },
+    {
+      "ply": 73,
+      "san": "Ra3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 74,
+      "san": "Bc1",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 75,
+      "san": "Ne3",
+      "text": "38...1-0\n\nThis was an exceptionally creative game by Kasparov. An amazing exchange sacrifice was followed by a gradual build-up of pressure on the numerous weak light squares. It was difficult for Black to find a plan to free himself, and the error on move 23 was quite understandable. There were a few inaccuracies in the following moves, but a further mistake by Shirov on move 28 sealed his fate.\n\nThe lessons here are:\n\n1) Squares which are weak relative to the central pawn-structure need to be covered by pieces.\n\n2) If this is not possible, then the weakness can become serious.\n\n3) The defender has to remain alert for any inaccuracy of the part of the attacker. Here Shirov had a momentary chance, but he let it pass by.\n\n4) Learning when you can break the ‘rules’ is part of chess improvement.",
+      "isCritical": true
+    }
+  ]
+}

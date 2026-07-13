@@ -24,3 +24,4 @@ data/ingest_report.json
 
 # Large copyrighted sources — place locally before running ingest
 docs/*.epub
+docs/nunn.pgn

@@ -2020,7 +2020,7 @@ button.secondary:hover:not(:disabled),
   color: var(--ink);
 }
 
-.continue-card, .lesson-row {
+.continue-card, .lesson-row, .book-card, .library-resume {
   border-color: var(--border);
   color: var(--ink);
 }
@@ -2142,5 +2142,269 @@ button:disabled {
     grid-column: 2;
     justify-self: start;
     text-align: left;
+  }
+}
+
+.book-library {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.library-hero {
+  margin-bottom: 1.5rem;
+  padding: 0 0.15rem;
+}
+
+.library-hero h1 {
+  margin: 0 0 0.5rem;
+  font-family: Literata, Georgia, serif;
+  font-size: clamp(1.9rem, 3.5vw, 2.5rem);
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+
+.library-hero-sub {
+  margin: 0;
+  max-width: 42rem;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--ink-muted);
+}
+
+.library-resume {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto auto;
+  gap: 0.15rem 1rem;
+  width: 100%;
+  margin-bottom: 1.25rem;
+  padding: 1rem 1.15rem;
+  border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--border));
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, var(--bg-elevated) 0%, var(--accent-pale) 100%);
+  text-align: left;
+  box-shadow: var(--shadow-soft);
+}
+
+.library-resume:hover {
+  border-color: var(--accent);
+  background: linear-gradient(135deg, var(--bg-elevated) 0%, color-mix(in srgb, var(--accent-pale) 80%, white) 100%);
+}
+
+.library-resume-label {
+  grid-column: 1;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.library-resume strong {
+  grid-column: 1;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.library-resume-meta {
+  grid-column: 1;
+  font-size: 0.86rem;
+  color: var(--ink-muted);
+}
+
+.library-resume-cta {
+  grid-column: 2;
+  grid-row: 1 / 4;
+  align-self: center;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.book-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.book-card {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.55rem;
+  min-height: 100%;
+  padding: 1.2rem 1.25rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-elevated);
+  text-align: left;
+  font-weight: 400;
+  box-shadow: var(--shadow-soft);
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.12s;
+}
+
+.book-card:hover {
+  border-color: var(--accent-soft);
+  box-shadow: var(--shadow);
+  transform: translateY(-1px);
+}
+
+.book-card-chernov {
+  border-top: 3px solid #8b5a2b;
+}
+
+.book-card-nunn {
+  border-top: 3px solid #2f5d50;
+}
+
+.book-card.is-resume {
+  border-color: color-mix(in srgb, var(--accent) 40%, var(--border));
+}
+
+.book-card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.book-card-author {
+  margin: 0;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.book-card-publisher {
+  font-weight: 600;
+  color: var(--ink-muted);
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.book-card-pill {
+  flex-shrink: 0;
+  padding: 0.12rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: var(--accent-pale);
+  color: var(--accent);
+}
+
+.book-card-title {
+  margin: 0;
+  font-family: Literata, Georgia, serif;
+  font-size: 1.2rem;
+  line-height: 1.3;
+  color: var(--ink);
+}
+
+.book-card-stats {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--ink-muted);
+}
+
+.book-card-sections {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.book-card-sections li {
+  padding: 0.2rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  color: var(--ink-muted);
+  background: var(--bg);
+  border: 1px solid var(--border);
+}
+
+.book-card-sections-more {
+  font-style: normal;
+  color: var(--ink-muted);
+  background: transparent;
+  border: none;
+  padding-left: 0;
+}
+
+.book-card-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  margin-top: auto;
+  padding-top: 0.65rem;
+  border-top: 1px solid var(--border);
+}
+
+.book-card-progress-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.book-card-progress-bar {
+  height: 5px;
+  border-radius: 999px;
+  background: var(--bg-muted);
+  overflow: hidden;
+}
+
+.book-card-progress-bar span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--accent-soft), var(--accent));
+  transition: width 0.2s ease;
+}
+
+.book-card-progress-label {
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+}
+
+.book-card-open {
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.book-card:hover .book-card-open {
+  color: var(--accent-hover);
+}
+
+.library-back {
+  margin-bottom: 0.75rem;
+  padding: 0;
+  border: none;
+  background: none;
+  color: var(--accent);
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.library-back:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+  .library-resume {
+    grid-template-columns: 1fr;
+  }
+
+  .library-resume-cta {
+    grid-column: 1;
+    grid-row: auto;
+    justify-self: start;
+    margin-top: 0.25rem;
   }
 }

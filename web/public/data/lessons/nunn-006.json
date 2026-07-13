@@ -1,0 +1,403 @@
+{
+  "id": "nunn-006",
+  "book": "nunn",
+  "gameNum": 6,
+  "title": "Game 6: G. Kasparov vs N. Short",
+  "section": "Attacking Play",
+  "players": {
+    "white": "G. Kasparov",
+    "black": "N. Short"
+  },
+  "event": "VSB tournament, Amsterdam 1994",
+  "opening": "French Defence, Classical Variation",
+  "eco": "C11",
+  "pgnPath": "data/pgn/nunn/06.pgn",
+  "result": "1-0",
+  "moveCount": 63,
+  "annotatedMoves": 62,
+  "fullText": "Basic Attacking Ideas\n\nOur coverage of attacking play starts with some of the fundamental attacking ideas. In order for an attack to be launched with any hope of success, at least some elements of the position must already favour the attacker. The nature of these preconditions can vary quite a lot, but typical examples are more active pieces, better central control, a lead in development, weaknesses in the opponent’s position and an exposed enemy king. Not all of these need be in place, but an attack is unlikely to succeed unless at least some of them are present. Once the attack has started, the attacker must bear in mind the following important attacking ideas:\n\n1) Momentum: it is important to keep the impetus of the attack going, in order to give the defender no chance to organize his position and beat off the attacking forces. Thus attacks often operate with direct threats.\n\n2) Opening lines: the attacking forces must be able to get to grips with the enemy, and this is easier if there are several open lines leading into the enemy position. If these open lines do not exist to begin with, it may be possible to force them open by appropriate pawn moves or, in extreme cases, by a sacrifice.\n\n3) Remove defenders: the exchange of a key defensive piece may make the difference between success and failure.\n\n4) Force weaknesses: if the opponent’s position is initially without weaknesses, you may have to induce some before the attack can really get under way. This applies particularly in the case of a direct attack on the king.\n\nThe following game is an excellent example of the first three attacking ideas mentioned above.\n\nG. Kasparov – N. Short\n\nVSB tournament, Amsterdam 1994\n\nFrench Defence, Classical Variation\n\n1 e4\n\nFor comments on this move, see Game 3.\n\n1...e6\n\nThis modest pawn advance, called the French Defence, plans to challenge the e4-pawn by ...d5 without having to recapture with the queen after exd5. In this respect it is quite similar to the Caro-Kann Defence 1...c6 (see Game 25), but in other ways it is quite different. The main defect of the French Defence is that Black, with his very first move, blocks the most natural diagonal for developing the c8-bishop. Many games in the French revolve around this bishop; if Black can activate it, then he often gets a good game, but if it ends up permanently imprisoned behind Black’s central pawns, then he may well be in trouble.\n\nBoth the Caro-Kann and the French are safe and solid methods of meeting 1 e4. The slightly passive positions Black obtains may not suit the style of every player, but there is no question that White has a great deal of work ahead to make any real inroads into Black’s position.\n\n2 d4\n\nWhite takes the chance to form a ‘two-abreast’ pawn-centre...\n\n2...d5\n\n...which Black immediately challenges.\n\n3 Nc3\n\nKasparov once described 3 Nc3 as ‘the strongest move in this position’ and most players would agree with him. The main alternatives are:\n\n1) 3 Nd2, which avoids a possible pin with ...Bb4 (since White could reply c3), but accepts a less active position for the queen’s knight.\n\n2) 3 e5, closing the centre straight away. This tips White’s hand rather early and does not cause Black any serious problems.\n\n3...Nf6\n\nOne of two equally popular moves. The other is 3...Bb4, which, by pinning the knight, attacks e4 and so virtually forces White’s hand in the centre. After the sequence 4 e5 c5 5 a3 Bxc3+ 6 bxc3 a complex and double-edged position arises. Black has exchanged off his ‘good’ bishop (the one not impeded by his central pawns) and is now somewhat weak on the dark squares. On the other hand, he has shattered White’s queenside pawns. The struggle between these advantages and disadvantages usually leads to sharp play.\n\nThe text-move, by contrast, is more conservative. Black again forces White to commit the e4-pawn by exerting pressure on e4, but without conceding his dark-squared bishop in the process. Of course, the disadvantage is that Black also doesn’t double White’s c-pawns.\n\n4 e5\n\nThis is one of two main options, the other being 4 Bg5. Note that defending the e4-pawn by 4 Bd3 would be a mistake since the d4-pawn is then undefended. Black would reply 4...c5, breaking up White’s centre and solving all his problems.\n\n4...Nfd7\n\n4...Ne4 is a risky move. After 5 Nxe4 dxe4 White can gain the advantage by either 6 Bc4 or 6 Be3, since the protruding pawn on e4 can easily become weak.\n\nAfter the text-move we have a typical position with a blocked pawn-centre. White controls more space, but his pawn-centre can easily be attacked by ...c5. The exchange of the d4-pawn might very well leave the e5-pawn weak, so White hastens to offer it extra support.\n\n5 f4\n\nNow that the e5-pawn is secure, White can develop his pieces by Nf3, etc.\n\n5...c5\n\nWhite’s pawn-centre certainly looks strong, and if he is allowed to develop in peace behind it, then Black will soon start feeling cramped. Therefore Black must strike straight away, before White has a chance to consolidate. When battling against a pawn-chain such as that on d4 and e5, there is usually a choice between attacking the base of the chain (here d4) or its head (here e5). Most textbooks will tell you that it is right to attack the base of the pawn-chain, but the truth of the matter is that it all depends on the precise position. Here White’s e5-pawn has the extra support of the pawn on f4, so ...f6 is ineffective – White can maintain the pawn on e5 without difficulty. Thus the attack by ...c5 is indicated. However, once the d4-pawn has been exchanged, Black may later on consider an attack by ...f6, since the e5-pawn will have less support. We will return to the subject of pawn-chains in Game 24.\n\n6 Nf3\n\nIf White’s knight weren’t on c3, then he would probably support his d4-pawn by playing c3, but as it is, the best he can do is to offer piece support.\n\n6...Nc6\n\nBlack steps up the pressure on d4 with this natural developing move.\n\n7 Be3\n\nIt is essential to lend further support to the key square d4. Here is what might happen if White casually starts to develop his kingside: 7 Be2? cxd4 8 Nb5 (8 Nxd4 loses a pawn to 8...Ndxe5! 9 fxe5 Qh4+) 8...Bc5 9 Nbxd4 Ndxe5! and again Black wins a pawn.\n\n7...cxd4\n\nBlack has quite a wide range of plans here. One is to step up the pressure on d4, by 7...Qb6 or 7...cxd4 8 Nxd4 Qb6. Alternatively, he can just continue his development, when he must decide whether to give priority to the queenside (by 7...a6 8 Qd2 b5) or, as in this game, to the kingside.\n\n8 Nxd4\n\n8...Bc5\n\nShort plays to complete his kingside development.\n\n9 Qd2\n\nWhite still cannot simply continue his kingside development, since 9 Be2 0-0 10 0-0 runs into 10...Qb6 11 Na4 Bxd4! 12 Nxb6 Bxe3+ 13 Kh1 Bxb6 with an excellent position for Black. Although three minor pieces have the same ‘point value’ as a queen, in most middlegame positions they are far superior.\n\nTherefore White prepares to castle queenside, when d4 will have plenty of support. With the players castling on opposite sides, sharp play can be expected.\n\n9...0-0\n\nNow that Black’s king is in safety, he can consider starting an attack by means of a gradual advance of his queenside pawns.\n\n9...Bxd4 10 Bxd4 Nxd4 11 Qxd4 Qb6 is an alternative, but the resulting endgame slightly favours White for two reasons; firstly, White controls more space and secondly his bishop is more active than Black’s.\n\n10 0-0-0\n\nThe general structure of the position indicates that White will play for a kingside attack and Black will aim for a queenside counterattack. At first sight White’s attacking chances look rather good; Black’s kingside is devoid of defensive minor pieces and the e5-pawn prevents Black from easily switching defensive units to the kingside. However, two factors mean that White’s attack is far from straightforward:\n\n1) Black’s kingside pawns are unweakened, so there is no obvious target on the kingside. In order to force such a weakness, White must either manoeuvre with his pieces or play h4-h5-h6, but both these plans require considerable time.\n\n2) The pressure against d4 restricts White’s freedom of movement. For example, the f1-bishop is currently playing no part in the attack, but it cannot move to d3 without interrupting the queen’s guard of d4.\n\n10...a6\n\nBlack’s counterplay inches forwards.\n\n11 h4\n\nThis is a good move which serves a dual purpose. As mentioned above, the pawn might go all the way to h6, in order to force a weakness in Black’s kingside pawn defences. However, White might prefer to conduct the attack using pieces, and now the manoeuvre Rh3-g3 is available. The rook is quite well placed on the third rank, since it can also perform a defensive function by operating sideways. This slightly unusual method of developing the rook is here quite logical. Not only does it fit in best with White’s kingside ambitions, but also the only other option would involve developing the f1-bishop, which could only go to the relatively useless square e2. White still hopes to play the bishop to d3 in one move, so at present the bishop should stay on f1 if it is at all possible.\n\n11...Nxd4\n\nThis exchange is a necessary preliminary to playing ...b5.\n\n12 Bxd4\n\n12...b5\n\n13 Rh3\n\nThis is a more flexible move than 13 h5. White develops his rook, but is not yet committed to a particular plan of attack.\n\n13...b4\n\nThe most direct response, which forces White to decide on the destination for his knight. However, 13...Qb6 and 13...Bb7 are playable alternatives.\n\n14 Na4\n\nIf White plays 14 Ne2, then 14...a5 is a good reply since Black makes progress with his queenside action and permits the inactive c8-bishop to be developed at a6.\n\n14...Bxd4\n\nThe attack on c5 forces Black to exchange on d4.\n\n15 Qxd4\n\nNow White is able to develop his bishop at d3, but on the other hand the a4-knight looks somewhat offside.\n\n15...f6?!\n\nBlack seeks to attack the e5-pawn and so further reduce White’s central control. If the exchange of pawns ...fxe5, fxe5 occurs, then the e5-pawn will be weak and exposed to attack. However, the move has a serious defect: Black opens the position up while he is behind in development. The newly-opened lines permit White to launch an attack which would not otherwise have been possible. In other words, there is nothing wrong with Black’s basic idea (to undermine e5) but in the given position it doesn’t work for concrete tactical reasons. While strategic planning is an important component of chess thinking, it is always necessary to take the specifics of a position into account. Having said that, Short’s idea only fails because of very accurate and dynamic play by Kasparov – a half-hearted response by White would have given Black good chances.\n\nIt is worth nothing that had White played 13 h5 instead of 13 Rh3, then the move ...f6 in the analogous position would have good chances of success – as we shall see, the activity of White’s rook along the third rank is an important factor.\n\n15...a5 is best, threatening 16...Ba6. After 16 Bb5 Rb8 (16...Ba6?? loses the exchange to 17 Bxd7 Qxd7 18 Nb6) 17 Bd3 Black, it is true, can no longer play ...Ba6, but he has gained time and by continuing 17...Qc7 can reach a reasonable position.\n\n16 Qxb4!\n\nBetter than 16 exf6 Qxf6 17 Qxf6 Rxf6 18 Rf3, which promises White only a slight endgame advantage.\n\n16...fxe5\n\nThus Black completes the demolition of White’s centre. However, in return White has gained a dangerous initiative.\n\n17 Qd6\n\nAttacking both the e6- and e5-pawns.\n\n17...Qf6\n\nThe only move to avoid losing a pawn, since 17...Rxf4 fails to 18 Qxe6+ Kh8 19 Qxd5 Rb8 20 Nc5. However, after the text-move everything appears fine for Black. The pawn on f4 is attacked, and the obvious 18 fxe5 loses a piece after 18...Qf4+ 19 Kb1 Qxf1!.\n\n18 f5!!\n\nThis pawn sacrifice is a brilliant solution to White’s problem. In the introduction to the game, I mentioned two key aspects of attacking play: the opening of lines, and the elimination of defensive pieces. Kasparov’s move combines both these themes in one move. If Black takes this pawn, the f-file is opened; this allows White’s rook to switch to f3, where it is able to eliminate Black’s defensive rook on the f-file. The exchange of this rook would be a serious blow to Black, since his three queenside pieces are poorly placed to help with the defence of the kingside.\n\n18...Qh6+\n\nThe only move. 18...Qxf5 loses to 19 Rf3 Qg4 20 Rxf8+ Nxf8 21 Nb6, when White wins a piece.\n\n19 Kb1\n\n19...Rxf5?!\n\nBlack decides to accept the pawn, but rapidly runs into serious trouble. 19...Nf6 was a better defence, when Kasparov gave the line 20 fxe6 Ne4 21 Qxd5 Nd2+ 22 Rxd2 Rxf1+ 23 Rd1 Rxd1+ 24 Qxd1 Bxe6 25 Nc5 as very good for White. However, in the middle of this variation Black can play 22...Bxe6! 23 Qd6 Qxd2! 24 Qxd2 Rxf1+ 25 Qc1 Bxa2+ 26 Kxa2 Rxc1, when it is not White but Black who wins. 20 Bd3 also fails to achieve much: after 20...exf5 (20...Qh5 21 Re1 e4 22 Be2 Qf7 23 Nb6 Ra7 24 Rc3 is slightly better for White) 21 Qxe5 f4 22 Rhh1 Bg4 23 Rdf1 Rae8 Black has active piece-play to compensate for his somewhat weakened pawns. White therefore does best to settle for the modest 20 Qxe5 Ne4 21 Qd4 (21 g4 Nf2 22 Nb6 Nxd1 23 Nxa8 Nf2 24 g5 Qh5 25 Be2 Rxf5 26 Rc3 Rxe5 27 Rxc8+ Qe8 28 Rxe8+ Kf7 leads to an unclear ending) 21...Rxf5 22 Rf3, when he retains some positional advantage thanks to his more active bishop; for example, 22...Rf4 23 Nb6 Rb8 24 Qe5 Rxf3 25 gxf3 Nd2+ 26 Ka1 Rxb6 27 Qc7 Qe3 28 Qxc8+ Kf7 29 Bd3 with a dangerous attack for White.\n\n20 Rf3!\n\nWhite steadfastly aims to swap the important rook. Black’s queenside pieces are virtually paralysed: his bishop cannot move, a knight move allows Nb6 and ...Rb8 is liable to run into Nc5. Thus, once the f5-rook has gone, Black will be playing with only his queen.\n\nNote how Kasparov works with a succession of direct threats. Black never gets a chance to repair the defects of his position because he is constantly having to deal with the immediate danger.\n\n20...Rxf3\n\nAfter 20...Qf6 21 Rxf5! Qxf5 22 Be2 White makes use of the open f-file, which he created with his pawn sacrifice. In order to meet the threat of 23 Rf1, Black must play 22...Qf7 but then 23 Bg4 Nf6 24 Nb6 wins the exchange for inadequate compensation.\n\nBy exchanging on f3, Black blocks the dangerous f-file, but opening the f1-h3 diagonal allows White’s bishop to occupy a very active post on h3.\n\n21 gxf3\n\nWith the deadly threat of 22 Bh3 (22 Qe7 is also very strong) 22...Kf7 23 f4! exf4 (or 23...e4 24 f5) 24 Re1 and Black’s position collapses.\n\n21...Qf6\n\nThe only move. 21...Kf7 loses to 22 Qc6 Rb8 23 Bxa6! Bxa6 24 Qxd7+ Kg8 25 Qa7.\n\n22 Bh3\n\n22...Kf7\n\nOnce again Black has no choice, because 22...Nf8 23 Nb6 Qxf3 24 Rf1 and 22...Kh8 23 Bxe6 Qxf3 24 Nc3 d4 25 Bd5 are both winning for White.\n\nAfter the text-move Black has temporarily met the enemy threats and so White must come up with a method of reinforcing his attack. Once again the key is to open lines.\n\n23 c4!\n\nThe next wave of the attack strikes Black’s position. White even had a second very promising continuation, also based on the theme of line-opening: 23 f4!. Then 23...exf4 24 Re1 wins for White, so 23...Qe7 24 fxe5 Qxd6 25 exd6 is forced. This ending is extremely unpleasant for Black, since his pieces are still tied up. The continuation might be 25...Ra7 26 Rf1+ Nf6 27 Nc5 h6 28 b3, when Black is virtually paralysed.\n\n23...dxc4\n\n23...d4 is met by 24 f4 (24 c5 is less convincing in view of 25 Qc7 Nf8 26 Qxe5 Qxh4 27 Nb6 Qxh3 28 Nxa8 Qxf3 29 Qxd4 e5! with counterplay; e.g., 30 Qc4+ Kf6 31 Rd6+ Ke7! or 30 Qd8 Ne6) 24...Qe7 25 fxe5 Qxd6 26 exd6 e5 27 c5 (27 Re1 is also good) 27...Nxc5 28 Bxc8 Rxc8 29 Rc1 Nxa4 30 Rxc8 Ke6 31 Ra8 and White should win the ending.\n\n23...Qg6+ 24 Ka1 d4 is no better: 25 f4! (line-opening again!) 25...exf4 26 Qxf4+ Kg8 27 Qxd4 Nf8 28 Nb6 Rb8 29 Qd6 and wins.\n\n24 Nc3!\n\nA cruel move. White returns his knight to the centre to exploit the newly-available square e4. Maintaining the pressure is much stronger than cashing in immediately by 24 Qc6 Rb8 25 Rxd7+ Bxd7 26 Qxd7+ Kg6, when Black has some counter-chances.\n\nThe immediate threat behind the text-move is 25 Ne4 Qe7 and now either 26 Bxe6+ or 26 Qc6 followed by Nd6+.\n\n24...Qe7\n\nBlack puts up the maximum resistance, but the position is beyond hope. 24...Nf8? loses to 25 Qc6 Rb8 26 Qc7+.\n\n25 Qc6\n\n25...Rb8\n\n26 Ne4\n\nWhite closes in for the kill.\n\n26...Nb6\n\nOnce again Black keeps the game going as best he can. After 26...Kf8 27 Bxe6 Qb4 28 Rd2 White wins a piece, while 26...Nf8 27 Nd6+ Kg8 28 Nxc8 Qb4 is beautifully met by 29 Qxe6+! Nxe6 (29...Kh8 loses to 30 Qxe5) 30 Bxe6+ Kf8 31 Rd8#.\n\n27 Ng5+\n\n27...Kg8\n\n27...Kf8 is only marginally better. After 28 Nxh7+ Kg8 29 Ng5 Bb7 30 Bxe6+ Kh8 31 Qd6! Qxd6 32 Rxd6 Ba8 33 Kc2 Black is totally tied up and must soon start shedding pawns.\n\n28 Qe4\n\nThe simplest. White centralizes his queen with gain of tempo.\n\n28...g6\n\n29 Qxe5\n\nAgain gaining time, this time by attacking Black’s rook.\n\n29...Rb7\n\n30 Rd6!\n\nAll White’s pieces occupy excellent positions; Black cannot avoid heavy material loss.\n\n30...c3\n\n30...Na4 is decisively met by 31 Bxe6+ Bxe6 32 Rxe6 Rxb2+ 33 Qxb2.\n\n31 Bxe6+\n\n31 Rxe6 also wins.\n\n31...Bxe6\n\n32 Rxe6\n\n32...1-0\n\nAfter 32...Nc4 the simplest win is 33 Qxc3! Na3+ 34 Kc1 Qd8 35 bxa3.\n\nIn this game, White’s space advantage and active pieces hinted at a possible attack, but it couldn’t actually be launched until Black unwisely opened up the position with 15...f6?!. Kasparov responded powerfully, forcing open the f-file with 18 f5!! and thereby compelling Black to exchange his defensive rook. Short never had a chance to get back into the game, as his time was occupied responding to White’s threats. Further line-opening with 23 c4! sealed Black’s fate. All in all, a textbook attacking performance by Kasparov.\n\nThe lessons here are:\n\n1) An attack should not be launched without at least some pre-existing advantages.\n\n2) Open lines favour the attacker.\n\n3) The attacker should try to identify and eliminate key defensive pieces.\n\n4) Keeping the defender off-balance with a stream of threats greatly improves the chance of the attack succeeding.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Basic Attacking Ideas\n\nOur coverage of attacking play starts with some of the fundamental attacking ideas. In order for an attack to be launched with any hope of success, at least some elements of the position must already favour the attacker. The nature of these preconditions can vary quite a lot, but typical examples are more active pieces, better central control, a lead in development, weaknesses in the opponent’s position and an exposed enemy king. Not all of these need be in place, but an attack is unlikely to succeed unless at least some of them are present. Once the attack has started, the attacker must bear in mind the following important attacking ideas:\n\n1) Momentum: it is important to keep the impetus of the attack going, in order to give the defender no chance to organize his position and beat off the attacking forces. Thus attacks often operate with direct threats.\n\n2) Opening lines: the attacking forces must be able to get to grips with the enemy, and this is easier if there are several open lines leading into the enemy position. If these open lines do not exist to begin with, it may be possible to force them open by appropriate pawn moves or, in extreme cases, by a sacrifice.\n\n3) Remove defenders: the exchange of a key defensive piece may make the difference between success and failure.\n\n4) Force weaknesses: if the opponent’s position is initially without weaknesses, you may have to induce some before the attack can really get under way. This applies particularly in the case of a direct attack on the king.\n\nThe following game is an excellent example of the first three attacking ideas mentioned above.\n\nG. Kasparov – N. Short\n\nVSB tournament, Amsterdam 1994\n\nFrench Defence, Classical Variation"
+    },
+    {
+      "ply": 1,
+      "san": "e4",
+      "text": "For comments on this move, see Game 3.",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "e6",
+      "text": "This modest pawn advance, called the French Defence, plans to challenge the e4-pawn by ...d5 without having to recapture with the queen after exd5. In this respect it is quite similar to the Caro-Kann Defence 1...c6 (see Game 25), but in other ways it is quite different. The main defect of the French Defence is that Black, with his very first move, blocks the most natural diagonal for developing the c8-bishop. Many games in the French revolve around this bishop; if Black can activate it, then he often gets a good game, but if it ends up permanently imprisoned behind Black’s central pawns, then he may well be in trouble.\n\nBoth the Caro-Kann and the French are safe and solid methods of meeting 1 e4. The slightly passive positions Black obtains may not suit the style of every player, but there is no question that White has a great deal of work ahead to make any real inroads into Black’s position.",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "d4",
+      "text": "White takes the chance to form a ‘two-abreast’ pawn-centre...",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "d5",
+      "text": "...which Black immediately challenges.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "Nc3",
+      "text": "Kasparov once described 3 Nc3 as ‘the strongest move in this position’ and most players would agree with him. The main alternatives are:\n\n1) 3 Nd2, which avoids a possible pin with ...Bb4 (since White could reply c3), but accepts a less active position for the queen’s knight.\n\n2) 3 e5, closing the centre straight away. This tips White’s hand rather early and does not cause Black any serious problems.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "Nf6",
+      "text": "One of two equally popular moves. The other is 3...Bb4, which, by pinning the knight, attacks e4 and so virtually forces White’s hand in the centre. After the sequence 4 e5 c5 5 a3 Bxc3+ 6 bxc3 a complex and double-edged position arises. Black has exchanged off his ‘good’ bishop (the one not impeded by his central pawns) and is now somewhat weak on the dark squares. On the other hand, he has shattered White’s queenside pawns. The struggle between these advantages and disadvantages usually leads to sharp play.\n\nThe text-move, by contrast, is more conservative. Black again forces White to commit the e4-pawn by exerting pressure on e4, but without conceding his dark-squared bishop in the process. Of course, the disadvantage is that Black also doesn’t double White’s c-pawns.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "e5",
+      "text": "This is one of two main options, the other being 4 Bg5. Note that defending the e4-pawn by 4 Bd3 would be a mistake since the d4-pawn is then undefended. Black would reply 4...c5, breaking up White’s centre and solving all his problems.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "Nfd7",
+      "text": "4...Ne4 is a risky move. After 5 Nxe4 dxe4 White can gain the advantage by either 6 Bc4 or 6 Be3, since the protruding pawn on e4 can easily become weak.\n\nAfter the text-move we have a typical position with a blocked pawn-centre. White controls more space, but his pawn-centre can easily be attacked by ...c5. The exchange of the d4-pawn might very well leave the e5-pawn weak, so White hastens to offer it extra support.",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "f4",
+      "text": "Now that the e5-pawn is secure, White can develop his pieces by Nf3, etc.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "c5",
+      "text": "White to play\n\nWhite’s pawn-centre certainly looks strong, and if he is allowed to develop in peace behind it, then Black will soon start feeling cramped. Therefore Black must strike straight away, before White has a chance to consolidate. When battling against a pawn-chain such as that on d4 and e5, there is usually a choice between attacking the base of the chain (here d4) or its head (here e5). Most textbooks will tell you that it is right to attack the base of the pawn-chain, but the truth of the matter is that it all depends on the precise position. Here White’s e5-pawn has the extra support of the pawn on f4, so ...f6 is ineffective – White can maintain the pawn on e5 without difficulty. Thus the attack by ...c5 is indicated. However, once the d4-pawn has been exchanged, Black may later on consider an attack by ...f6, since the e5-pawn will have less support. We will return to the subject of pawn-chains in Game 24.",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "Nf3",
+      "text": "If White’s knight weren’t on c3, then he would probably support his d4-pawn by playing c3, but as it is, the best he can do is to offer piece support.",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "Nc6",
+      "text": "Black steps up the pressure on d4 with this natural developing move.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "Be3",
+      "text": "It is essential to lend further support to the key square d4. Here is what might happen if White casually starts to develop his kingside: 7 Be2? cxd4 8 Nb5 (8 Nxd4 loses a pawn to 8...Ndxe5! 9 fxe5 Qh4+) 8...Bc5 9 Nbxd4 Ndxe5! and again Black wins a pawn.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "cxd4",
+      "text": "Black has quite a wide range of plans here. One is to step up the pressure on d4, by 7...Qb6 or 7...cxd4 8 Nxd4 Qb6. Alternatively, he can just continue his development, when he must decide whether to give priority to the queenside (by 7...a6 8 Qd2 b5) or, as in this game, to the kingside.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "Nxd4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "Bc5",
+      "text": "Short plays to complete his kingside development.",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "Qd2",
+      "text": "White still cannot simply continue his kingside development, since 9 Be2 0-0 10 0-0 runs into 10...Qb6 11 Na4 Bxd4! 12 Nxb6 Bxe3+ 13 Kh1 Bxb6 with an excellent position for Black. Although three minor pieces have the same ‘point value’ as a queen, in most middlegame positions they are far superior.\n\nTherefore White prepares to castle queenside, when d4 will have plenty of support. With the players castling on opposite sides, sharp play can be expected.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "O-O",
+      "text": "Now that Black’s king is in safety, he can consider starting an attack by means of a gradual advance of his queenside pawns.\n\n9...Bxd4 10 Bxd4 Nxd4 11 Qxd4 Qb6 is an alternative, but the resulting endgame slightly favours White for two reasons; firstly, White controls more space and secondly his bishop is more active than Black’s.\n\nWhite to play\n\n10 0-0-0\n\nThe general structure of the position indicates that White will play for a kingside attack and Black will aim for a queenside counterattack. At first sight White’s attacking chances look rather good; Black’s kingside is devoid of defensive minor pieces and the e5-pawn prevents Black from easily switching defensive units to the kingside. However, two factors mean that White’s attack is far from straightforward:\n\n1) Black’s kingside pawns are unweakened, so there is no obvious target on the kingside. In order to force such a weakness, White must either manoeuvre with his pieces or play h4-h5-h6, but both these plans require considerable time.\n\n2) The pressure against d4 restricts White’s freedom of movement. For example, the f1-bishop is currently playing no part in the attack, but it cannot move to d3 without interrupting the queen’s guard of d4.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "O-O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "a6",
+      "text": "Black’s counterplay inches forwards.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "h4",
+      "text": "Black to play\n\nThis is a good move which serves a dual purpose. As mentioned above, the pawn might go all the way to h6, in order to force a weakness in Black’s kingside pawn defences. However, White might prefer to conduct the attack using pieces, and now the manoeuvre Rh3-g3 is available. The rook is quite well placed on the third rank, since it can also perform a defensive function by operating sideways. This slightly unusual method of developing the rook is here quite logical. Not only does it fit in best with White’s kingside ambitions, but also the only other option would involve developing the f1-bishop, which could only go to the relatively useless square e2. White still hopes to play the bishop to d3 in one move, so at present the bishop should stay on f1 if it is at all possible.",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "Nxd4",
+      "text": "This exchange is a necessary preliminary to playing ...b5.",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "Bxd4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "b5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Rh3",
+      "text": "This is a more flexible move than 13 h5. White develops his rook, but is not yet committed to a particular plan of attack.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "b4",
+      "text": "The most direct response, which forces White to decide on the destination for his knight. However, 13...Qb6 and 13...Bb7 are playable alternatives.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Na4",
+      "text": "If White plays 14 Ne2, then 14...a5 is a good reply since Black makes progress with his queenside action and permits the inactive c8-bishop to be developed at a6.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "Bxd4",
+      "text": "The attack on c5 forces Black to exchange on d4.",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Qxd4",
+      "text": "Black to play\n\nNow White is able to develop his bishop at d3, but on the other hand the a4-knight looks somewhat offside.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "f6",
+      "text": "Black seeks to attack the e5-pawn and so further reduce White’s central control. If the exchange of pawns ...fxe5, fxe5 occurs, then the e5-pawn will be weak and exposed to attack. However, the move has a serious defect: Black opens the position up while he is behind in development. The newly-opened lines permit White to launch an attack which would not otherwise have been possible. In other words, there is nothing wrong with Black’s basic idea (to undermine e5) but in the given position it doesn’t work for concrete tactical reasons. While strategic planning is an important component of chess thinking, it is always necessary to take the specifics of a position into account. Having said that, Short’s idea only fails because of very accurate and dynamic play by Kasparov – a half-hearted response by White would have given Black good chances.\n\nIt is worth nothing that had White played 13 h5 instead of 13 Rh3, then the move ...f6 in the analogous position would have good chances of success – as we shall see, the activity of White’s rook along the third rank is an important factor.\n\n15...a5 is best, threatening 16...Ba6. After 16 Bb5 Rb8 (16...Ba6?? loses the exchange to 17 Bxd7 Qxd7 18 Nb6) 17 Bd3 Black, it is true, can no longer play ...Ba6, but he has gained time and by continuing 17...Qc7 can reach a reasonable position.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Qxb4",
+      "text": "Better than 16 exf6 Qxf6 17 Qxf6 Rxf6 18 Rf3, which promises White only a slight endgame advantage.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "fxe5",
+      "text": "Thus Black completes the demolition of White’s centre. However, in return White has gained a dangerous initiative.",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Qd6",
+      "text": "Attacking both the e6- and e5-pawns.",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Qf6",
+      "text": "The only move to avoid losing a pawn, since 17...Rxf4 fails to 18 Qxe6+ Kh8 19 Qxd5 Rb8 20 Nc5. However, after the text-move everything appears fine for Black. The pawn on f4 is attacked, and the obvious 18 fxe5 loses a piece after 18...Qf4+ 19 Kb1 Qxf1!.",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "f5",
+      "text": "Black to play\n\nThis pawn sacrifice is a brilliant solution to White’s problem. In the introduction to the game, I mentioned two key aspects of attacking play: the opening of lines, and the elimination of defensive pieces. Kasparov’s move combines both these themes in one move. If Black takes this pawn, the f-file is opened; this allows White’s rook to switch to f3, where it is able to eliminate Black’s defensive rook on the f-file. The exchange of this rook would be a serious blow to Black, since his three queenside pieces are poorly placed to help with the defence of the kingside.",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "Qh6+",
+      "text": "The only move. 18...Qxf5 loses to 19 Rf3 Qg4 20 Rxf8+ Nxf8 21 Nb6, when White wins a piece.",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "Kb1",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "Rxf5",
+      "text": "Black decides to accept the pawn, but rapidly runs into serious trouble. 19...Nf6 was a better defence, when Kasparov gave the line 20 fxe6 Ne4 21 Qxd5 Nd2+ 22 Rxd2 Rxf1+ 23 Rd1 Rxd1+ 24 Qxd1 Bxe6 25 Nc5 as very good for White. However, in the middle of this variation Black can play 22...Bxe6! 23 Qd6 Qxd2! 24 Qxd2 Rxf1+ 25 Qc1 Bxa2+ 26 Kxa2 Rxc1, when it is not White but Black who wins. 20 Bd3 also fails to achieve much: after 20...exf5 (20...Qh5 21 Re1 e4 22 Be2 Qf7 23 Nb6 Ra7 24 Rc3 is slightly better for White) 21 Qxe5 f4 22 Rhh1 Bg4 23 Rdf1 Rae8 Black has active piece-play to compensate for his somewhat weakened pawns. White therefore does best to settle for the modest 20 Qxe5 Ne4 21 Qd4 (21 g4 Nf2 22 Nb6 Nxd1 23 Nxa8 Nf2 24 g5 Qh5 25 Be2 Rxf5 26 Rc3 Rxe5 27 Rxc8+ Qe8 28 Rxe8+ Kf7 leads to an unclear ending) 21...Rxf5 22 Rf3, when he retains some positional advantage thanks to his more active bishop; for example, 22...Rf4 23 Nb6 Rb8 24 Qe5 Rxf3 25 gxf3 Nd2+ 26 Ka1 Rxb6 27 Qc7 Qe3 28 Qxc8+ Kf7 29 Bd3 with a dangerous attack for White.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "Rf3",
+      "text": "White steadfastly aims to swap the important rook. Black’s queenside pieces are virtually paralysed: his bishop cannot move, a knight move allows Nb6 and ...Rb8 is liable to run into Nc5. Thus, once the f5-rook has gone, Black will be playing with only his queen.\n\nNote how Kasparov works with a succession of direct threats. Black never gets a chance to repair the defects of his position because he is constantly having to deal with the immediate danger.",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "Rxf3",
+      "text": "After 20...Qf6 21 Rxf5! Qxf5 22 Be2 White makes use of the open f-file, which he created with his pawn sacrifice. In order to meet the threat of 23 Rf1, Black must play 22...Qf7 but then 23 Bg4 Nf6 24 Nb6 wins the exchange for inadequate compensation.\n\nBy exchanging on f3, Black blocks the dangerous f-file, but opening the f1-h3 diagonal allows White’s bishop to occupy a very active post on h3.",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "gxf3",
+      "text": "With the deadly threat of 22 Bh3 (22 Qe7 is also very strong) 22...Kf7 23 f4! exf4 (or 23...e4 24 f5) 24 Re1 and Black’s position collapses.",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "Qf6",
+      "text": "The only move. 21...Kf7 loses to 22 Qc6 Rb8 23 Bxa6! Bxa6 24 Qxd7+ Kg8 25 Qa7.",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "Bh3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "Kf7",
+      "text": "Once again Black has no choice, because 22...Nf8 23 Nb6 Qxf3 24 Rf1 and 22...Kh8 23 Bxe6 Qxf3 24 Nc3 d4 25 Bd5 are both winning for White.\n\nWhite to play\n\nAfter the text-move Black has temporarily met the enemy threats and so White must come up with a method of reinforcing his attack. Once again the key is to open lines.",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "c4",
+      "text": "The next wave of the attack strikes Black’s position. White even had a second very promising continuation, also based on the theme of line-opening: 23 f4!. Then 23...exf4 24 Re1 wins for White, so 23...Qe7 24 fxe5 Qxd6 25 exd6 is forced. This ending is extremely unpleasant for Black, since his pieces are still tied up. The continuation might be 25...Ra7 26 Rf1+ Nf6 27 Nc5 h6 28 b3, when Black is virtually paralysed.",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "dxc4",
+      "text": "23...d4 is met by 24 f4 (24 c5 is less convincing in view of 25 Qc7 Nf8 26 Qxe5 Qxh4 27 Nb6 Qxh3 28 Nxa8 Qxf3 29 Qxd4 e5! with counterplay; e.g., 30 Qc4+ Kf6 31 Rd6+ Ke7! or 30 Qd8 Ne6) 24...Qe7 25 fxe5 Qxd6 26 exd6 e5 27 c5 (27 Re1 is also good) 27...Nxc5 28 Bxc8 Rxc8 29 Rc1 Nxa4 30 Rxc8 Ke6 31 Ra8 and White should win the ending.\n\n23...Qg6+ 24 Ka1 d4 is no better: 25 f4! (line-opening again!) 25...exf4 26 Qxf4+ Kg8 27 Qxd4 Nf8 28 Nb6 Rb8 29 Qd6 and wins.",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "Nc3",
+      "text": "A cruel move. White returns his knight to the centre to exploit the newly-available square e4. Maintaining the pressure is much stronger than cashing in immediately by 24 Qc6 Rb8 25 Rxd7+ Bxd7 26 Qxd7+ Kg6, when Black has some counter-chances.\n\nBlack to play\n\nThe immediate threat behind the text-move is 25 Ne4 Qe7 and now either 26 Bxe6+ or 26 Qc6 followed by Nd6+.",
+      "isCritical": true
+    },
+    {
+      "ply": 48,
+      "san": "Qe7",
+      "text": "Black puts up the maximum resistance, but the position is beyond hope. 24...Nf8? loses to 25 Qc6 Rb8 26 Qc7+.",
+      "isCritical": true
+    },
+    {
+      "ply": 49,
+      "san": "Qc6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 50,
+      "san": "Rb8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 51,
+      "san": "Ne4",
+      "text": "White closes in for the kill.",
+      "isCritical": true
+    },
+    {
+      "ply": 52,
+      "san": "Nb6",
+      "text": "Once again Black keeps the game going as best he can. After 26...Kf8 27 Bxe6 Qb4 28 Rd2 White wins a piece, while 26...Nf8 27 Nd6+ Kg8 28 Nxc8 Qb4 is beautifully met by 29 Qxe6+! Nxe6 (29...Kh8 loses to 30 Qxe5) 30 Bxe6+ Kf8 31 Rd8#.",
+      "isCritical": true
+    },
+    {
+      "ply": 53,
+      "san": "Ng5+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 54,
+      "san": "Kg8",
+      "text": "27...Kf8 is only marginally better. After 28 Nxh7+ Kg8 29 Ng5 Bb7 30 Bxe6+ Kh8 31 Qd6! Qxd6 32 Rxd6 Ba8 33 Kc2 Black is totally tied up and must soon start shedding pawns.",
+      "isCritical": true
+    },
+    {
+      "ply": 55,
+      "san": "Qe4",
+      "text": "The simplest. White centralizes his queen with gain of tempo.",
+      "isCritical": true
+    },
+    {
+      "ply": 56,
+      "san": "g6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 57,
+      "san": "Qxe5",
+      "text": "Again gaining time, this time by attacking Black’s rook.",
+      "isCritical": true
+    },
+    {
+      "ply": 58,
+      "san": "Rb7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 59,
+      "san": "Rd6",
+      "text": "Black to play\n\nAll White’s pieces occupy excellent positions; Black cannot avoid heavy material loss.",
+      "isCritical": true
+    },
+    {
+      "ply": 60,
+      "san": "c3",
+      "text": "30...Na4 is decisively met by 31 Bxe6+ Bxe6 32 Rxe6 Rxb2+ 33 Qxb2.",
+      "isCritical": true
+    },
+    {
+      "ply": 61,
+      "san": "Bxe6+",
+      "text": "31 Rxe6 also wins.",
+      "isCritical": true
+    },
+    {
+      "ply": 62,
+      "san": "Bxe6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 63,
+      "san": "Rxe6",
+      "text": "32...1-0\n\nAfter 32...Nc4 the simplest win is 33 Qxc3! Na3+ 34 Kc1 Qd8 35 bxa3.\n\nIn this game, White’s space advantage and active pieces hinted at a possible attack, but it couldn’t actually be launched until Black unwisely opened up the position with 15...f6?!. Kasparov responded powerfully, forcing open the f-file with 18 f5!! and thereby compelling Black to exchange his defensive rook. Short never had a chance to get back into the game, as his time was occupied responding to White’s threats. Further line-opening with 23 c4! sealed Black’s fate. All in all, a textbook attacking performance by Kasparov.\n\nThe lessons here are:\n\n1) An attack should not be launched without at least some pre-existing advantages.\n\n2) Open lines favour the attacker.\n\n3) The attacker should try to identify and eliminate key defensive pieces.\n\n4) Keeping the defender off-balance with a stream of threats greatly improves the chance of the attack succeeding.",
+      "isCritical": true
+    }
+  ]
+}

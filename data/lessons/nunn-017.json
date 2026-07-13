@@ -1,0 +1,691 @@
+{
+  "id": "nunn-017",
+  "book": "nunn",
+  "gameNum": 17,
+  "title": "Game 17: A. Karpov vs Z. Ribli",
+  "section": "Positional Play",
+  "players": {
+    "white": "A. Karpov",
+    "black": "Z. Ribli"
+  },
+  "event": "Olympiad, Dubai 1986",
+  "opening": "English Opening, Hedgehog System",
+  "eco": "A30",
+  "pgnPath": "data/pgn/nunn/17.pgn",
+  "result": "1-0",
+  "moveCount": 111,
+  "annotatedMoves": 110,
+  "fullText": "Space Advantage\n\nIn general, it is an advantage to control more space. The reason is that it is easier to manoeuvre pieces in a wide-open area than a confined one. In particular, it is easier to switch pieces from one area of the board to another. Thus, a space advantage is most effective when there are weaknesses in the opposing position, especially if the weaknesses are well separated. The side with more space can switch the attack from one weakness to another, while his more restricted opponent cannot respond with the same speed.\n\nDespite the above, attitudes to space advantages have changed in the past few decades. It is now recognized that if the side with less space has a solid position, it may be very difficult to exploit the space advantage. Indeed, the side with more space must take care not to become over-extended and vulnerable to a sudden counter-attack. This principle is nowhere more evident than in the ‘Hedgehog’ opening system, which arises in the following game.\n\nA. Karpov – Z. Ribli\n\nOlympiad, Dubai 1986\n\nEnglish Opening, Hedgehog System\n\n1 c4\n\nThis is the first game in the book to feature 1 c4, a move which is called the English Opening. Like the Réti Opening, 1 Nf3 (see Game 1), it serves a useful purpose while not making any great commitment. Playing c4 stakes out a claim in the centre, and restrains Black from playing an immediate ...d5, since this would involve the exchange of his central d-pawn for White’s less central c-pawn. At the same time, White leaves his central pawns unmoved while he waits to see how Black intends to respond.\n\n1...c5\n\nThis symmetrical reply mimics White’s strategy. Black has a wide range of alternatives, ranging from the fairly committal 1...e5, through 1...e6, 1...c6, 1...d6 and 1...g6 to the flexible 1...Nf6 and 1...c5 (as played).\n\n2 Nf3\n\nNo matter what happens in the centre, the white knights will almost certainly be best placed at c3 and f3, so White preserves maximum flexibility by bringing them out first.\n\n2...Nf6\n\nBlack again preserves the symmetry.\n\n3 Nc3\n\nAgain, White keeps his options open. He may play d4 at some stage, which allows the exchange of his central d-pawn for Black’s less central c-pawn, but in compensation White would create free play for his pieces. The logic here is rather similar to that behind 3 d4 in the Sicilian (see Game 8); while the exchange of pawns leaves Black with a central majority, White’s greater control of space and active pieces are just as important.\n\n3...e6\n\nBlack breaks the symmetry. 3...Nc6 is also playable, when White has to choose between 4 d4, 4 g3 and 4 e3. As with most symmetrical openings, Black can maintain his imitation for a certain time, but at some point (usually when the central pawns come into contact) he will be unable to do so for tactical reasons. Then Black has to come up with a satisfactory way to break the symmetry or fall into a bad position. Symmetrical openings are usually fairly solid, but they can be risky because it is easy to fall into a passive position. In this game, Ribli breaks the symmetry early on.\n\n4 g3\n\nAfter 4 e3, symmetry might well be restored, but since Black has chosen to develop his f8-bishop along the f8-a3 diagonal, Karpov takes the chance to develop his f1-bishop along the other diagonal.\n\n4...b6\n\nThe most popular and logical move. Once Black has played ...e6, it will be hard to develop his c8-bishop along the c8-h3 diagonal, so b7 is its obvious destination. However, once White’s bishop is on g2, ...b6 may not be playable so Black makes sure his bishop is developed before White can exert pressure on his queenside.\n\n5 Bg2\n\n5...Bb7\n\nA useful side-effect of Black’s bishop development is that White’s e4 is prevented.\n\n6 0-0\n\nAt some stage, White would like to play d4, but then he has to decide how to meet ...cxd4. Taking back with the queen is possible, but the queen is clearly rather exposed on d4. Ideally, White would like to recapture on d4 with the knight but the problem with Nxd4 is that it allows Black to exchange bishops on g2. White is playing for a space advantage, and a key principle is that the side with the space advantage should avoid piece exchanges. The reason is that the side with little space will always have problems with pieces stepping on each other’s toes, and the congestion is worse when there are more pieces crammed into a small space. One possibility for White is to play Re1 followed by e4, and only then d4 and Nxd4, since the bishop exchange has been prevented.\n\n6...d6\n\nBlack is heading for a ‘Hedgehog’ position, which is characterized by the row of pawns along the third rank at a6, b6, d6 and e6. The most precise move-order to reach this position is to some extent a matter of taste, as the moves ...a6, ...d6 and ...Be7 will all occur at some stage. However, 6...Be7 may be the most accurate, since after 7 Re1 Black retains the option of crossing White’s plan by playing 7...d5.\n\nThe immediate 6...d5 7 cxd5 Nxd5 8 Nxd5 Bxd5 9 d4 favours White, as the position is opening at a time when he is considerably ahead in development.\n\n7 d4\n\nKarpov does not try to exploit Black’s move-order by playing 7 Re1, and heads straight for a standard Hedgehog position.\n\n7...cxd4\n\n8 Qxd4\n\nThe exposed position of the queen is a lesser evil than allowing Black to free his position by exchanging light-squared bishops.\n\n8...a6\n\nThis will be necessary sooner or later, or else Black’s d6-pawn will come under intolerable pressure after, for example, Rd1 and Nb5.\n\n9 Rd1\n\nThe quick build-up along the d-file forces Black to take care, or else he may lose his d6-pawn to b3 and Ba3.\n\n9...Be7\n\nGetting ready to castle.\n\n10 b3\n\nEven if White doesn’t manage to exploit the d6-pawn with Ba3, the b2-square will still be an effective post for the bishop.\n\n10...Nbd7\n\nIt might seem odd not to exploit the white queen’s exposed position by 10...Nc6, but after 11 Qf4 Black has real problems countering White’s build-up against d6 by Ba3, Rd2 and Rad1. With the knight on d7, this plan can be met by ...Nc5.\n\n11 e4\n\nWhite consolidates his grip on the centre and makes sure that Black cannot free himself by playing ...d5. A second point is that White might organize a quick breakthrough by e5.\n\n11...Qc8\n\nThis interesting idea had only been played a handful of times before the present game, but has since become very popular. Black’s immediate concern is to counter the threat of a breakthrough by Ba3 followed by e5. 11...0-0, for example, allows 12 Ba3 Nc5 13 e5 dxe5 14 Qxd8 Rfxd8 15 Nxe5 Bxg2 16 Kxg2 with a rather unpleasant ending for Black. The c6-square is weak, the knight on c5 is awkwardly pinned, and in the longer term, White’s queenside majority might prove a useful factor. 11...Qb8 is reasonable, but even here 12 Ba3 Nc5 13 e5 dxe5 14 Qxe5 Ncd7 15 Qxb8+ Rxb8 16 Bb2 is not completely equal – White preserves a slight edge. The text-move aims for an improved version of this line should White adopt the same plan.\n\n12 Bb2\n\nWhite abandons the idea of a central breakthrough and contents himself with simply developing his remaining pieces. After 12 Ba3 Nc5 13 e5 dxe5 14 Nxe5 (White is unable to play 14 Qxe5? because of the tactical point 14...Ncd7 winning a piece – this does not work with Black’s queen on b8 – and therefore has to content himself with the less dangerous knight capture) 14...Bxg2 15 Kxg2 Qb7+ 16 Kg1 0-0 the position is equal. The fact that the queens are not exchanged makes a big difference. The weakness of c6 is irrelevant, the c5-knight is not pinned, and with queens on the board White’s queenside majority is unlikely to be an important factor.\n\n12...0-0\n\nThis position is typical for Hedgehog set-ups. White controls four ranks and Black three, and there is a no-man’s-land of one rank which is inaccessible to White’s pieces because all the squares are controlled by Black’s ‘hedgehog’ pawns on the third rank. At one time, a position such as this would have been assessed as highly favourable for White, but now we know better. Although a space advantage is a positive factor, it is not an end in itself – one still has to find a way to make progress.\n\nWhite’s problem in the diagram position is that Black’s position is without weaknesses. The d6-pawn is a potential weakness, but it is very easy to defend by ...Qc7, ...Rfd8 and if necessary ...Nc5. There are no obvious pawn breakthroughs by White, except for e5, but normally this leads only to exchanges. Therefore, White must manoeuvre slowly, in the hope of making progress somewhere or another. One idea might be a kingside pawn advance with h3 and g4-g5. However, this is very weakening and after Black replies with ...Rfd8 and ...Ne8 it isn’t clear that White has achieved anything other than to expose his own king.\n\nOn the other hand, once Black has completed his development by ...Qc7, ...Rfd8 and ...Rac8, it isn’t clear what he can achieve. Black would like to force through a liberating move such as ...b5 or ...d5, but unless White is careless this won’t be possible. Thus games with the Hedgehog tend to be slow manoeuvring struggles, with both sides taking care not to create any weakness. Positions of this type certainly suit Karpov, and he puts his talent to good use in this game. Objectively speaking, White has only the faintest edge. Perhaps his only advantage is that if White plays solidly, there is nothing at all Black can do, whereas White has some chances to undertake a positive plan even against good defence by Black.\n\n13 Nd2\n\nWhite has various possible plans, and Karpov typically goes for one involving little risk. This move supports the pawns on e4 and c4, and by defending c4 opens up the possibility of queenside expansion by a3 and b4. In the long run, White could then hope for a4-a5 followed by an exchange on b6, with a weak a6-pawn as the ultimate prize. Another idea would be 13 Rac1 Re8 14 Qe3 Qc7 15 Nd4, which places both white knights on useful squares. Then White might aim for a slow-motion attack on the kingside with f4, h3 and g4, etc. However, as noted above, such a plan is not without its risks.\n\n13...Qc7\n\nBlack is content to bring his a8-rook into play.\n\n14 Rac1\n\nWhite develops his last piece.\n\n14...Rac8\n\n15 h3\n\nFor the moment White wants to keep Black guessing about his eventual plan, so he plays this little tidying-up move. It prevents an attack by ...Ng4 in case White plays Qe3, while at the same time Black is left to wonder if this might not be intended to support a later g4.\n\n15...Rfe8\n\nBlack also completes his development.\n\n16 a3\n\nWhite prepares b4. This move slightly weakens b3, but the knight on d2 secures this square against an attack by ...Nc5.\n\n16...Qb8\n\nBlack is also doing his best to remain flexible. He might follow up this move by either ...Ba8, aiming to play ...b5, or ...Qa8 to exert more pressure against e4.\n\n17 b4\n\nAt last, White makes a definite commitment. He gains more space on the queenside and keeps a black knight out of c5, but at the cost of weakening the c4-pawn. At the moment White is still a long way from creating a definite threat on the queenside, but the lurking danger of a4-a5 is a constant worry for Black.\n\n17...Red8\n\nAs is usual in the Hedgehog, both sides manoeuvre, trying to anticipate the opponent. Black puts his rook opposite the white queen ‘just in case’.\n\n18 Qe3\n\nWhite would like to support a4-a5 with Nb3, but at the moment 18 Nb3 Ne5 would more or less force the knight to return to d2.\n\nTherefore, White first locates his queen on the safer square e2 before contemplating Nb3.\n\n18...Ba8\n\n18...Ne5 is unwise; after 19 Qxb6 Rxc4 (19...Nxc4 20 Nxc4 Rxc4 21 e5 wins material) 20 f4 Rc6 21 Qd4 Ned7 22 Nb3 followed by Na5 White is slightly better.\n\nThe text-move threatens 19...b5.\n\n19 Qe2\n\nThere is still no real threat to play Nb3, since Black can again reply ...Ne5. White would first have to play f4 in order to continue with this plan, but every pawn advance creates a potential weakness, and at the moment White is not ready for this.\n\n19...Ne8\n\nBlack toys with the idea of playing ...Bf6.\n\n20 Nf1\n\nThe idea behind this move is the possible transfer of the knight to e3, where it again covers c4 but is otherwise more actively placed. Although this would make a4-a5 harder to achieve, with his knights so well placed White might again consider playing on the kingside. This sort of manoeuvring game, in which White toys first with this idea and then with that one, is very unpleasant to play against. Black must constantly be on the alert to counter attempts by White to make progress, while he has few active possibilities himself. The position itself does not significantly favour White, but this type of game is one which nobody played better than Karpov in his heyday. Of course, such leisurely manoeuvres are only possible because Black is unable to improve his position.\n\n20...Bb7\n\nBlack spots the defect in White’s Ne3 plan, namely that it weakens the e4-pawn. Therefore he prepares ...Qa8 and ...Nef6.\n\n21 Kh2\n\nKarpov does not want to commit himself to putting the knight on e3, so he again tidies up his position. If he eventually plays f4, it will be useful to have his king off the a7-g1 diagonal.\n\n21...Nef6\n\nNow the pressure against e4 definitely rules out Ne3.\n\n22 Nd2\n\nSo Karpov abandons that plan, and plays his knight back to d2.\n\n22...Ne8\n\nRibli is content to have forced Karpov to retract his plan, and puts his knight back on e8.\n\n23 Re1\n\nWhite introduces a new idea: he wants to play Nb3, meeting ...Ne5 by Nd1. Then he will either support the c4-pawn with Ne3, or simply kick Black’s knight away by f4.\n\n23...Ba8\n\nBlack waits, but 23...Rc7 might be slightly more accurate, as Black can then build up against c4 more rapidly. In this case, the plan with Nb3 would not be viable, and White would have to try something else.\n\n24 Nb3\n\nWhite is slowly moving in the right direction on the queenside.\n\n24...Bg5\n\nAttempting to pressurize c4 by 24...Ne5 25 Nd1 Qc7 is not very effective. After 26 Ne3 Black cannot step up the pressure any further, hence White will be able to drive the knight away by f4.\n\nThe text-move aims to induce f4, perhaps on the basis that this would be one pawn advance too many and would lead to the over-extension of White’s position. It is often quite hard to judge whether such an advance is space-gaining and therefore favourable for White, or weakening and therefore favourable for Black. The same comment applies to many pawn advances, but it is especially relevant to cases in which the side pushing the pawn has already made a number of other pawn advances. This steady gain of space may eventually squeeze the opponent to death, or it may open up the possibility for counterplay – everything depends on the level of piece support for the pawn advances. Here White’s forces are well coordinated and can take on the additional burden created by the new pawn advance.\n\n25 Rc2\n\nThe move-order doesn’t matter very much. Karpov plays Rc2 before f4, but he could also have reversed the order of these two moves. The battle over the next few moves revolves around the c4-pawn. If White can maintain the pawn while keeping his knight on b3, then he will have made progress, but if his knight has to retreat to d2 then Black will have foiled another attempt by White to achieve something.\n\n25...Rc7\n\nRather late in the day, Black decides to double rooks.\n\n26 f4\n\nThis is essential if White is to double rooks.\n\n26...Bf6\n\n27 Rec1\n\n27...Rdc8\n\nAfter this, White is forced to move his knight from c3.\n\n28 Nd1\n\nNow the exchange of dark-squared bishops is more or less inevitable. This favours Black in one respect, since the exchange of a pair of minor pieces should favour the player with less space. On the other hand, the d6-pawn was quite economically defended by the e7-bishop, and now Black will have to tie up one of his other pieces in its defence.\n\n28...Bb7\n\nBlack foresees that one of his knights will occupy f6 once the bishops are exchanged. This will provide him with ready-made pressure against e4, which he can now augment by ...Qa8.\n\n28...b5 was the alternative, but with White’s knight already on b3 it is less attractive. After 29 Na5 Bxb2 30 Nxb2 Black has the problem that an exchange on c4 would bring a white knight into an excellent position to attack the d6-pawn.\n\n29 Qd3\n\nThe queen eyes the potentially weak d6-pawn.\n\n29...Bxb2\n\n30 Nxb2\n\nNow that White has c4 securely defended, Black’s main task should be to rearrange his rooks so that d6 is defended, thereby releasing the knight from e8.\n\n30...Qa8\n\n31 Nd1\n\nThe knight must be ready to meet ...Ndf6 by Nf2.\n\n31...a5?\n\nUp to this point, Black has not made any mistakes, and White’s space advantage has not conferred any real advantage, because there simply haven’t been any targets to attack. Now, however, Black suddenly loses patience and voluntarily removes one of the ‘spines’ of the Hedgehog. The result is a serious weakness at b5. The correct continuation was 31...Rd8, so as to defend the d6-pawn with the rook. In this case, Black’s position would be without weaknesses, and White would find it hard to make progress.\n\n32 Nd4\n\nThe d1-knight cannot go to b5, because of the weakness of c4, but the other knight can arrive there with no less effect. Now the d6-pawn is a genuine target and White’s space advantage has something to bite on.\n\n32...Rd8\n\nTo support d6 and provide a retreat for the other rook. 32...Ba6 is bad in view of 33 e5 d5 34 Ne3 Qb8 35 b5 dxc4 36 Nxc4 with a nice pair of weak squares to jump into at c6 and d6.\n\n33 Nb5\n\n33...Rcc8\n\n34 Ndc3\n\nHaving forced Black to undouble, the pressure against c4 is relieved, and the other knight can lend a hand. Black’s clumsy rook manoeuvres are typical of the problems caused by lack of space. Note that 34 Nxd6? Ndf6 35 e5 Bxg2 36 Rxg2 Nxd6 37 exd6 Ne4 38 d7 Rc7 is fine for Black.\n\n34...Qb8\n\nReinforcement for d6.\n\n35 Rd1\n\nBlack is no longer able to mount any counterattack against c4, since both ...Ne5 and ...Qc7 are ruled out. Therefore, White is free to switch his rooks to the d-file to step up the attack on d6.\n\n35...Ndf6\n\nBlack has now manoeuvred his pieces into the best possible defensive positions and can only sit and wait to see how White intends to make progress.\n\n36 Rcd2\n\n36...h6\n\nThis move relieves any back-rank worries and might prove useful if White tries to expand on the kingside by g4-g5.\n\n37 Qe2\n\nWith the time-control approaching, neither side undertakes any positive action. White could win material by 37 e5 dxe5 38 Qxd8 but after 38...Bxg2 39 Qd3 Ba8 the situation would not be at all clear. Black has one pawn for the exchange, and his active bishop is well placed to generate threats against White’s rather exposed king.\n\n37...Ba8?!\n\n38 Kg1?!\n\nIn time-trouble, both players miss the strong possibility 38 bxa5! bxa5 39 Rb2 Bb7 40 e5 dxe5 41 Bxb7 Qxb7 42 Nd6, when White wins material.\n\n38...Bc6\n\n39 Kh2\n\n39...e5\n\nWaiting passively was not very satisfactory; for example, 39...Ba8 40 bxa5 bxa5 41 Rb2 winning as in the note to White’s 38th move, or 39...axb4 40 axb4 Ba8 41 Ra2, when the open a-file provides White with another method of tormenting Black. Therefore Black makes a move in the centre, and cuts out the possibility of White playing e5. The defect is that this advance makes it easier for White to gain further space on the kingside.\n\n40 f5\n\nNow White has the obvious plan of g4 followed by h4 and g5, pushing Black back on the kingside.\n\n40...Qa8\n\n41 g4\n\nNot 41 Nxd6 Nxd6 42 Rxd6 Rxd6 43 Rxd6 axb4 44 axb4 Qa3, when Black regains the pawn.\n\n41...Qb8\n\n42 h4\n\n42...Qb7\n\nBlack takes some action against White’s kingside advance. The queen is to be transferred to e7, where it casts a glance towards both the b4-pawn and the g5-square.\n\n43 Bf3\n\nAgain, it would be wrong to grab the d6-pawn. After 43 Nxd6 Nxd6 44 Rxd6 Rxd6 45 Rxd6 Qe7 46 Qd1 Ne8 White’s pawns are suddenly dropping off.\n\n43...Qe7\n\nThis is the best square for the queen. Black intends to meet g5 by ...Nh7, when White will have trouble maintaining the advanced pawn on g5.\n\n44 Kg3?!\n\nKarpov is content just to play positionally, but this allows Black a chance to break out from his passive position, based on tactical chances provided by the position of the king at g3. 44 Kg2 would have been sounder, retaining White’s advantage.\n\n44...axb4\n\nIt is undoubtedly correct to take advantage of the chance to break out, but in fact it is not so easy for White to win even if Black defends passively (and if White had played 44 Kg2, then Black would have been forced to adopt this option). After 44...Ba8 45 Rh1 Bc6, for example, 46 Rdd1 (46 g5 Nh7 is unclear) 46...axb4 47 axb4 d5 48 cxd5 Bxb5 49 Nxb5 Qxb4 50 g5 Rc4! 51 gxf6 Qxb5 52 Rc1 Rdc8 53 Rxc4 Qxc4 54 Qxc4 Rxc4 55 fxg7 b5 is unclear, as White’s bishop is seriously restricted by his own pawns. White’s problem is that it is not easy to prepare g5 without allowing Black to break out under more favourable circumstances than in the game. Of course, White would still have a clear advantage, but Black would not be lost.\n\n45 axb4\n\n45...d5!\n\nThis was the point behind Black’s previous move.\n\n46 cxd5\n\n46 exd5 Bxb5 47 Nxb5 Nd6 48 Nxd6 Qxd6 attacks b4 and threatens ...e4+.\n\n46...Bxb5\n\n47 Nxb5\n\n47...Qxb4?\n\nIt is natural to restore material equality, but in fact it was more important to blockade White’s dangerous d-pawn by 47...Nd6!. The idea is to play on a pawn down, but with a good knight against a very bad bishop. Then Black has good drawing chances, e.g. 48 Nxd6 (48 Ra1 Nxb5 49 Qxb5 Rc3 gives Black unpleasant counterplay – this is another case in which the white king is poorly placed on g3) 48...Qxd6 (48...Rxd6 49 Rc2 is very good for White) 49 g5 (49 Qb5 Rc3 50 Rd3 Rc2 51 R1d2 Rc1 is also not clear) 49...Nh7 50 Qe3 hxg5 51 hxg5 Qxb4 and White is not able to exploit the h-file as in the game.\n\n48 g5\n\nWhite tries to kick the black knight to an inferior square.\n\n48...hxg5\n\nOpening the h-file is asking for trouble, but the alternatives are also unsatisfactory:\n\n1) 48...Nh7 49 d6 Rc5 50 Rb2 Qc4 51 Qxc4 Rxc4 and Black’s passively placed pieces give White the chance to win by 52 d7 Nc7 53 Nd6 Rd4 54 Rxd4 exd4 55 Bh5! Rxd7 56 Bxf7+ Kf8 57 g6 Nf6 58 e5, etc.\n\n2) 48...Rc4 would have put up more of a fight:\n\n2a) 49 gxf6 Qxb5 50 Rc2 (50 fxg7 Qc5) 50...Rc5 (50...Rdc8 51 Rxc4 Rxc4 52 d6 Nxf6 53 d7 wins for White) 51 Qxb5 Rxb5 52 fxg7 Kxg7 is comfortable for Black.\n\n2b) 49 Rb2! Nxe4+ 50 Bxe4 (50 Kg2 Qa4 favours Black) 50...Rxe4 51 Rxb4 Rxe2 52 d6 is very good for White despite the minus pawn: 52...Rc2 (52...Rd7 53 Rc4!) 53 d7 Nc7 54 Na7 Na8 (54...b5 55 Rd6 is also very good for White) 55 Nc8 hxg5 56 hxg5 f6 57 gxf6 gxf6 58 Rg4+ with a large advantage for White.\n\n49 hxg5\n\n49...Nh7\n\n49...Rc4 gives White the pleasant choice between 50 Rb2 Nxe4+ 51 Bxe4 Rxe4 52 Rxb4 Rxe2 53 d6, as in the note to Black’s 48th move, and 50 gxf6 Qxb5 51 fxg7 Nxg7 (51...Kxg7 52 Qe3 gives White a winning attack) 52 Qh2 f6 53 Rh1, when White’s attack is too strong.\n\n50 d6!\n\nNow there will be no blockade of the d-pawn, and Black’s queen cannot return to the kingside. Black has no time to take on g5, because White threatens 51 d7.\n\n50...Rc5\n\n51 Rb2\n\n51 Qh2 Rxb5 52 Rh1 (52 Qxh7+ Kxh7 53 Rh1+ Kg8 54 Rdh2 allows Black to escape by 54...Qe1+) also wins: 52...Rxd6 53 Qxh7+ Kf8 54 f6 Nxf6 (54...gxf6 55 g6! fxg6 56 Qa7 and Black cannot meet the threat of Rh8#) 55 gxf6 gxf6 56 Rxd6 Qxd6 57 Rd1 Qc7 58 Bh5 and there is no defence to 59 Rd8+. However, the text-move is even more effective.\n\n51...Qc4\n\n51...Qa5 52 Rh1 Nxd6 53 Nxd6 Rxd6 54 Ra2 is also decisive.\n\n52 Qh2\n\nThis works now that Black no longer has the ...Qe1+ defence.\n\n52...Rxb5\n\nRibli generously allows a neat finish.\n\n53 Qxh7+!\n\nForcing mate in a further four moves.\n\n53...Kxh7\n\n54 Rh2+\n\n54...Kg8\n\n55 Rdh1\n\n55...f6\n\nOr 55...g6 56 Rh8+ Kg7 57 R1h7#.\n\n56 Rh8+\n\n56...1-0\n\nIt is mate next move.\n\nThis was a typical ‘Hedgehog’ game, with both sides manoeuvring slowly around, looking for an opportunity to undertake some concrete action. For a long time, the balance was preserved, until Black voluntarily weakened his position with 31...a5, giving White the opportunity to mount serious pressure against the d6-pawn. This, coupled with the possibility of a general kingside pawn advance by White, made Black’s position very awkward. Although there were a few inaccuracies later, Karpov was able to round off the game with an attractive finish.\n\nThe lessons here are:\n\n1) A space advantage usually confers an advantage, but this advantage is minimized if there are no weaknesses to attack.\n\n2) ‘Hedgehog’ positions require a great deal of patience by both players. Impetuous moves are liable to be punished severely.\n\n3) Even quite cramped positions offer scope for resourceful defence.\n\n4) Playing positionally for several hours can make it easy to overlook tactics when they do arise – a trap into which Karpov does not fall.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Space Advantage\n\nIn general, it is an advantage to control more space. The reason is that it is easier to manoeuvre pieces in a wide-open area than a confined one. In particular, it is easier to switch pieces from one area of the board to another. Thus, a space advantage is most effective when there are weaknesses in the opposing position, especially if the weaknesses are well separated. The side with more space can switch the attack from one weakness to another, while his more restricted opponent cannot respond with the same speed.\n\nDespite the above, attitudes to space advantages have changed in the past few decades. It is now recognized that if the side with less space has a solid position, it may be very difficult to exploit the space advantage. Indeed, the side with more space must take care not to become over-extended and vulnerable to a sudden counter-attack. This principle is nowhere more evident than in the ‘Hedgehog’ opening system, which arises in the following game.\n\nA. Karpov – Z. Ribli\n\nOlympiad, Dubai 1986\n\nEnglish Opening, Hedgehog System"
+    },
+    {
+      "ply": 1,
+      "san": "c4",
+      "text": "This is the first game in the book to feature 1 c4, a move which is called the English Opening. Like the Réti Opening, 1 Nf3 (see Game 1), it serves a useful purpose while not making any great commitment. Playing c4 stakes out a claim in the centre, and restrains Black from playing an immediate ...d5, since this would involve the exchange of his central d-pawn for White’s less central c-pawn. At the same time, White leaves his central pawns unmoved while he waits to see how Black intends to respond.",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "c5",
+      "text": "This symmetrical reply mimics White’s strategy. Black has a wide range of alternatives, ranging from the fairly committal 1...e5, through 1...e6, 1...c6, 1...d6 and 1...g6 to the flexible 1...Nf6 and 1...c5 (as played).",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "Nf3",
+      "text": "No matter what happens in the centre, the white knights will almost certainly be best placed at c3 and f3, so White preserves maximum flexibility by bringing them out first.",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "Nf6",
+      "text": "Black again preserves the symmetry.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "Nc3",
+      "text": "Again, White keeps his options open. He may play d4 at some stage, which allows the exchange of his central d-pawn for Black’s less central c-pawn, but in compensation White would create free play for his pieces. The logic here is rather similar to that behind 3 d4 in the Sicilian (see Game 8); while the exchange of pawns leaves Black with a central majority, White’s greater control of space and active pieces are just as important.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "e6",
+      "text": "Black breaks the symmetry. 3...Nc6 is also playable, when White has to choose between 4 d4, 4 g3 and 4 e3. As with most symmetrical openings, Black can maintain his imitation for a certain time, but at some point (usually when the central pawns come into contact) he will be unable to do so for tactical reasons. Then Black has to come up with a satisfactory way to break the symmetry or fall into a bad position. Symmetrical openings are usually fairly solid, but they can be risky because it is easy to fall into a passive position. In this game, Ribli breaks the symmetry early on.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "g3",
+      "text": "After 4 e3, symmetry might well be restored, but since Black has chosen to develop his f8-bishop along the f8-a3 diagonal, Karpov takes the chance to develop his f1-bishop along the other diagonal.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "b6",
+      "text": "The most popular and logical move. Once Black has played ...e6, it will be hard to develop his c8-bishop along the c8-h3 diagonal, so b7 is its obvious destination. However, once White’s bishop is on g2, ...b6 may not be playable so Black makes sure his bishop is developed before White can exert pressure on his queenside.",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "Bg2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "Bb7",
+      "text": "A useful side-effect of Black’s bishop development is that White’s e4 is prevented.\n\n6 0-0\n\nBlack to play\n\nAt some stage, White would like to play d4, but then he has to decide how to meet ...cxd4. Taking back with the queen is possible, but the queen is clearly rather exposed on d4. Ideally, White would like to recapture on d4 with the knight but the problem with Nxd4 is that it allows Black to exchange bishops on g2. White is playing for a space advantage, and a key principle is that the side with the space advantage should avoid piece exchanges. The reason is that the side with little space will always have problems with pieces stepping on each other’s toes, and the congestion is worse when there are more pieces crammed into a small space. One possibility for White is to play Re1 followed by e4, and only then d4 and Nxd4, since the bishop exchange has been prevented.",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "d6",
+      "text": "Black is heading for a ‘Hedgehog’ position, which is characterized by the row of pawns along the third rank at a6, b6, d6 and e6. The most precise move-order to reach this position is to some extent a matter of taste, as the moves ...a6, ...d6 and ...Be7 will all occur at some stage. However, 6...Be7 may be the most accurate, since after 7 Re1 Black retains the option of crossing White’s plan by playing 7...d5.\n\nThe immediate 6...d5 7 cxd5 Nxd5 8 Nxd5 Bxd5 9 d4 favours White, as the position is opening at a time when he is considerably ahead in development.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "d4",
+      "text": "Karpov does not try to exploit Black’s move-order by playing 7 Re1, and heads straight for a standard Hedgehog position.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "cxd4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "Qxd4",
+      "text": "The exposed position of the queen is a lesser evil than allowing Black to free his position by exchanging light-squared bishops.",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "a6",
+      "text": "This will be necessary sooner or later, or else Black’s d6-pawn will come under intolerable pressure after, for example, Rd1 and Nb5.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "Rd1",
+      "text": "The quick build-up along the d-file forces Black to take care, or else he may lose his d6-pawn to b3 and Ba3.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "Be7",
+      "text": "Getting ready to castle.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "b3",
+      "text": "Even if White doesn’t manage to exploit the d6-pawn with Ba3, the b2-square will still be an effective post for the bishop.",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "Nbd7",
+      "text": "It might seem odd not to exploit the white queen’s exposed position by 10...Nc6, but after 11 Qf4 Black has real problems countering White’s build-up against d6 by Ba3, Rd2 and Rad1. With the knight on d7, this plan can be met by ...Nc5.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "e4",
+      "text": "Black to play\n\nWhite consolidates his grip on the centre and makes sure that Black cannot free himself by playing ...d5. A second point is that White might organize a quick breakthrough by e5.",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "Qc8",
+      "text": "This interesting idea had only been played a handful of times before the present game, but has since become very popular. Black’s immediate concern is to counter the threat of a breakthrough by Ba3 followed by e5. 11...0-0, for example, allows 12 Ba3 Nc5 13 e5 dxe5 14 Qxd8 Rfxd8 15 Nxe5 Bxg2 16 Kxg2 with a rather unpleasant ending for Black. The c6-square is weak, the knight on c5 is awkwardly pinned, and in the longer term, White’s queenside majority might prove a useful factor. 11...Qb8 is reasonable, but even here 12 Ba3 Nc5 13 e5 dxe5 14 Qxe5 Ncd7 15 Qxb8+ Rxb8 16 Bb2 is not completely equal – White preserves a slight edge. The text-move aims for an improved version of this line should White adopt the same plan.",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "Bb2",
+      "text": "White abandons the idea of a central breakthrough and contents himself with simply developing his remaining pieces. After 12 Ba3 Nc5 13 e5 dxe5 14 Nxe5 (White is unable to play 14 Qxe5? because of the tactical point 14...Ncd7 winning a piece – this does not work with Black’s queen on b8 – and therefore has to content himself with the less dangerous knight capture) 14...Bxg2 15 Kxg2 Qb7+ 16 Kg1 0-0 the position is equal. The fact that the queens are not exchanged makes a big difference. The weakness of c6 is irrelevant, the c5-knight is not pinned, and with queens on the board White’s queenside majority is unlikely to be an important factor.",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "O-O",
+      "text": "White to play\n\nThis position is typical for Hedgehog set-ups. White controls four ranks and Black three, and there is a no-man’s-land of one rank which is inaccessible to White’s pieces because all the squares are controlled by Black’s ‘hedgehog’ pawns on the third rank. At one time, a position such as this would have been assessed as highly favourable for White, but now we know better. Although a space advantage is a positive factor, it is not an end in itself – one still has to find a way to make progress.\n\nWhite’s problem in the diagram position is that Black’s position is without weaknesses. The d6-pawn is a potential weakness, but it is very easy to defend by ...Qc7, ...Rfd8 and if necessary ...Nc5. There are no obvious pawn breakthroughs by White, except for e5, but normally this leads only to exchanges. Therefore, White must manoeuvre slowly, in the hope of making progress somewhere or another. One idea might be a kingside pawn advance with h3 and g4-g5. However, this is very weakening and after Black replies with ...Rfd8 and ...Ne8 it isn’t clear that White has achieved anything other than to expose his own king.\n\nOn the other hand, once Black has completed his development by ...Qc7, ...Rfd8 and ...Rac8, it isn’t clear what he can achieve. Black would like to force through a liberating move such as ...b5 or ...d5, but unless White is careless this won’t be possible. Thus games with the Hedgehog tend to be slow manoeuvring struggles, with both sides taking care not to create any weakness. Positions of this type certainly suit Karpov, and he puts his talent to good use in this game. Objectively speaking, White has only the faintest edge. Perhaps his only advantage is that if White plays solidly, there is nothing at all Black can do, whereas White has some chances to undertake a positive plan even against good defence by Black.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Nd2",
+      "text": "White has various possible plans, and Karpov typically goes for one involving little risk. This move supports the pawns on e4 and c4, and by defending c4 opens up the possibility of queenside expansion by a3 and b4. In the long run, White could then hope for a4-a5 followed by an exchange on b6, with a weak a6-pawn as the ultimate prize. Another idea would be 13 Rac1 Re8 14 Qe3 Qc7 15 Nd4, which places both white knights on useful squares. Then White might aim for a slow-motion attack on the kingside with f4, h3 and g4, etc. However, as noted above, such a plan is not without its risks.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "Qc7",
+      "text": "White to play\n\nBlack is content to bring his a8-rook into play.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Rac1",
+      "text": "White develops his last piece.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "Rac8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "h3",
+      "text": "For the moment White wants to keep Black guessing about his eventual plan, so he plays this little tidying-up move. It prevents an attack by ...Ng4 in case White plays Qe3, while at the same time Black is left to wonder if this might not be intended to support a later g4.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "Rfe8",
+      "text": "Black also completes his development.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "a3",
+      "text": "White prepares b4. This move slightly weakens b3, but the knight on d2 secures this square against an attack by ...Nc5.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Qb8",
+      "text": "Black is also doing his best to remain flexible. He might follow up this move by either ...Ba8, aiming to play ...b5, or ...Qa8 to exert more pressure against e4.",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "b4",
+      "text": "At last, White makes a definite commitment. He gains more space on the queenside and keeps a black knight out of c5, but at the cost of weakening the c4-pawn. At the moment White is still a long way from creating a definite threat on the queenside, but the lurking danger of a4-a5 is a constant worry for Black.",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Red8",
+      "text": "As is usual in the Hedgehog, both sides manoeuvre, trying to anticipate the opponent. Black puts his rook opposite the white queen ‘just in case’.",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "Qe3",
+      "text": "White would like to support a4-a5 with Nb3, but at the moment 18 Nb3 Ne5 would more or less force the knight to return to d2.\n\nBlack to play\n\nTherefore, White first locates his queen on the safer square e2 before contemplating Nb3.",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "Ba8",
+      "text": "18...Ne5 is unwise; after 19 Qxb6 Rxc4 (19...Nxc4 20 Nxc4 Rxc4 21 e5 wins material) 20 f4 Rc6 21 Qd4 Ned7 22 Nb3 followed by Na5 White is slightly better.\n\nThe text-move threatens 19...b5.",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "Qe2",
+      "text": "There is still no real threat to play Nb3, since Black can again reply ...Ne5. White would first have to play f4 in order to continue with this plan, but every pawn advance creates a potential weakness, and at the moment White is not ready for this.",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "Ne8",
+      "text": "Black toys with the idea of playing ...Bf6.",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "Nf1",
+      "text": "Black to play\n\nThe idea behind this move is the possible transfer of the knight to e3, where it again covers c4 but is otherwise more actively placed. Although this would make a4-a5 harder to achieve, with his knights so well placed White might again consider playing on the kingside. This sort of manoeuvring game, in which White toys first with this idea and then with that one, is very unpleasant to play against. Black must constantly be on the alert to counter attempts by White to make progress, while he has few active possibilities himself. The position itself does not significantly favour White, but this type of game is one which nobody played better than Karpov in his heyday. Of course, such leisurely manoeuvres are only possible because Black is unable to improve his position.",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "Bb7",
+      "text": "Black spots the defect in White’s Ne3 plan, namely that it weakens the e4-pawn. Therefore he prepares ...Qa8 and ...Nef6.",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "Kh2",
+      "text": "Karpov does not want to commit himself to putting the knight on e3, so he again tidies up his position. If he eventually plays f4, it will be useful to have his king off the a7-g1 diagonal.",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "Nef6",
+      "text": "Now the pressure against e4 definitely rules out Ne3.",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "Nd2",
+      "text": "So Karpov abandons that plan, and plays his knight back to d2.",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "Ne8",
+      "text": "Ribli is content to have forced Karpov to retract his plan, and puts his knight back on e8.",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "Re1",
+      "text": "Black to play\n\nWhite introduces a new idea: he wants to play Nb3, meeting ...Ne5 by Nd1. Then he will either support the c4-pawn with Ne3, or simply kick Black’s knight away by f4.",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "Ba8",
+      "text": "Black waits, but 23...Rc7 might be slightly more accurate, as Black can then build up against c4 more rapidly. In this case, the plan with Nb3 would not be viable, and White would have to try something else.",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "Nb3",
+      "text": "White is slowly moving in the right direction on the queenside.",
+      "isCritical": true
+    },
+    {
+      "ply": 48,
+      "san": "Bg5",
+      "text": "Attempting to pressurize c4 by 24...Ne5 25 Nd1 Qc7 is not very effective. After 26 Ne3 Black cannot step up the pressure any further, hence White will be able to drive the knight away by f4.\n\nWhite to play\n\nThe text-move aims to induce f4, perhaps on the basis that this would be one pawn advance too many and would lead to the over-extension of White’s position. It is often quite hard to judge whether such an advance is space-gaining and therefore favourable for White, or weakening and therefore favourable for Black. The same comment applies to many pawn advances, but it is especially relevant to cases in which the side pushing the pawn has already made a number of other pawn advances. This steady gain of space may eventually squeeze the opponent to death, or it may open up the possibility for counterplay – everything depends on the level of piece support for the pawn advances. Here White’s forces are well coordinated and can take on the additional burden created by the new pawn advance.",
+      "isCritical": true
+    },
+    {
+      "ply": 49,
+      "san": "Rc2",
+      "text": "The move-order doesn’t matter very much. Karpov plays Rc2 before f4, but he could also have reversed the order of these two moves. The battle over the next few moves revolves around the c4-pawn. If White can maintain the pawn while keeping his knight on b3, then he will have made progress, but if his knight has to retreat to d2 then Black will have foiled another attempt by White to achieve something.",
+      "isCritical": true
+    },
+    {
+      "ply": 50,
+      "san": "Rc7",
+      "text": "White to play\n\nRather late in the day, Black decides to double rooks.",
+      "isCritical": true
+    },
+    {
+      "ply": 51,
+      "san": "f4",
+      "text": "This is essential if White is to double rooks.",
+      "isCritical": true
+    },
+    {
+      "ply": 52,
+      "san": "Bf6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 53,
+      "san": "Rec1",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 54,
+      "san": "Rdc8",
+      "text": "After this, White is forced to move his knight from c3.",
+      "isCritical": true
+    },
+    {
+      "ply": 55,
+      "san": "Nd1",
+      "text": "Now the exchange of dark-squared bishops is more or less inevitable. This favours Black in one respect, since the exchange of a pair of minor pieces should favour the player with less space. On the other hand, the d6-pawn was quite economically defended by the e7-bishop, and now Black will have to tie up one of his other pieces in its defence.",
+      "isCritical": true
+    },
+    {
+      "ply": 56,
+      "san": "Bb7",
+      "text": "Black foresees that one of his knights will occupy f6 once the bishops are exchanged. This will provide him with ready-made pressure against e4, which he can now augment by ...Qa8.\n\n28...b5 was the alternative, but with White’s knight already on b3 it is less attractive. After 29 Na5 Bxb2 30 Nxb2 Black has the problem that an exchange on c4 would bring a white knight into an excellent position to attack the d6-pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 57,
+      "san": "Qd3",
+      "text": "The queen eyes the potentially weak d6-pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 58,
+      "san": "Bxb2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 59,
+      "san": "Nxb2",
+      "text": "Now that White has c4 securely defended, Black’s main task should be to rearrange his rooks so that d6 is defended, thereby releasing the knight from e8.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 60,
+      "san": "Qa8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 61,
+      "san": "Nd1",
+      "text": "The knight must be ready to meet ...Ndf6 by Nf2.",
+      "isCritical": true
+    },
+    {
+      "ply": 62,
+      "san": "a5",
+      "text": "Up to this point, Black has not made any mistakes, and White’s space advantage has not conferred any real advantage, because there simply haven’t been any targets to attack. Now, however, Black suddenly loses patience and voluntarily removes one of the ‘spines’ of the Hedgehog. The result is a serious weakness at b5. The correct continuation was 31...Rd8, so as to defend the d6-pawn with the rook. In this case, Black’s position would be without weaknesses, and White would find it hard to make progress.",
+      "isCritical": true
+    },
+    {
+      "ply": 63,
+      "san": "Nd4",
+      "text": "The d1-knight cannot go to b5, because of the weakness of c4, but the other knight can arrive there with no less effect. Now the d6-pawn is a genuine target and White’s space advantage has something to bite on.",
+      "isCritical": true
+    },
+    {
+      "ply": 64,
+      "san": "Rd8",
+      "text": "To support d6 and provide a retreat for the other rook. 32...Ba6 is bad in view of 33 e5 d5 34 Ne3 Qb8 35 b5 dxc4 36 Nxc4 with a nice pair of weak squares to jump into at c6 and d6.",
+      "isCritical": true
+    },
+    {
+      "ply": 65,
+      "san": "Nb5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 66,
+      "san": "Rcc8",
+      "text": "White to play",
+      "isCritical": true
+    },
+    {
+      "ply": 67,
+      "san": "Ndc3",
+      "text": "Having forced Black to undouble, the pressure against c4 is relieved, and the other knight can lend a hand. Black’s clumsy rook manoeuvres are typical of the problems caused by lack of space. Note that 34 Nxd6? Ndf6 35 e5 Bxg2 36 Rxg2 Nxd6 37 exd6 Ne4 38 d7 Rc7 is fine for Black.",
+      "isCritical": true
+    },
+    {
+      "ply": 68,
+      "san": "Qb8",
+      "text": "Reinforcement for d6.",
+      "isCritical": true
+    },
+    {
+      "ply": 69,
+      "san": "Rd1",
+      "text": "Black is no longer able to mount any counterattack against c4, since both ...Ne5 and ...Qc7 are ruled out. Therefore, White is free to switch his rooks to the d-file to step up the attack on d6.",
+      "isCritical": true
+    },
+    {
+      "ply": 70,
+      "san": "Ndf6",
+      "text": "Black has now manoeuvred his pieces into the best possible defensive positions and can only sit and wait to see how White intends to make progress.",
+      "isCritical": true
+    },
+    {
+      "ply": 71,
+      "san": "Rcd2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 72,
+      "san": "h6",
+      "text": "This move relieves any back-rank worries and might prove useful if White tries to expand on the kingside by g4-g5.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 73,
+      "san": "Qe2",
+      "text": "With the time-control approaching, neither side undertakes any positive action. White could win material by 37 e5 dxe5 38 Qxd8 but after 38...Bxg2 39 Qd3 Ba8 the situation would not be at all clear. Black has one pawn for the exchange, and his active bishop is well placed to generate threats against White’s rather exposed king.",
+      "isCritical": true
+    },
+    {
+      "ply": 74,
+      "san": "Ba8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 75,
+      "san": "Kg1",
+      "text": "In time-trouble, both players miss the strong possibility 38 bxa5! bxa5 39 Rb2 Bb7 40 e5 dxe5 41 Bxb7 Qxb7 42 Nd6, when White wins material.",
+      "isCritical": true
+    },
+    {
+      "ply": 76,
+      "san": "Bc6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 77,
+      "san": "Kh2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 78,
+      "san": "e5",
+      "text": "Waiting passively was not very satisfactory; for example, 39...Ba8 40 bxa5 bxa5 41 Rb2 winning as in the note to White’s 38th move, or 39...axb4 40 axb4 Ba8 41 Ra2, when the open a-file provides White with another method of tormenting Black. Therefore Black makes a move in the centre, and cuts out the possibility of White playing e5. The defect is that this advance makes it easier for White to gain further space on the kingside.",
+      "isCritical": true
+    },
+    {
+      "ply": 79,
+      "san": "f5",
+      "text": "Now White has the obvious plan of g4 followed by h4 and g5, pushing Black back on the kingside.",
+      "isCritical": true
+    },
+    {
+      "ply": 80,
+      "san": "Qa8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 81,
+      "san": "g4",
+      "text": "Not 41 Nxd6 Nxd6 42 Rxd6 Rxd6 43 Rxd6 axb4 44 axb4 Qa3, when Black regains the pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 82,
+      "san": "Qb8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 83,
+      "san": "h4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 84,
+      "san": "Qb7",
+      "text": "Black takes some action against White’s kingside advance. The queen is to be transferred to e7, where it casts a glance towards both the b4-pawn and the g5-square.",
+      "isCritical": true
+    },
+    {
+      "ply": 85,
+      "san": "Bf3",
+      "text": "Again, it would be wrong to grab the d6-pawn. After 43 Nxd6 Nxd6 44 Rxd6 Rxd6 45 Rxd6 Qe7 46 Qd1 Ne8 White’s pawns are suddenly dropping off.\n\nBlack to play",
+      "isCritical": true
+    },
+    {
+      "ply": 86,
+      "san": "Qe7",
+      "text": "This is the best square for the queen. Black intends to meet g5 by ...Nh7, when White will have trouble maintaining the advanced pawn on g5.",
+      "isCritical": true
+    },
+    {
+      "ply": 87,
+      "san": "Kg3",
+      "text": "Karpov is content just to play positionally, but this allows Black a chance to break out from his passive position, based on tactical chances provided by the position of the king at g3. 44 Kg2 would have been sounder, retaining White’s advantage.",
+      "isCritical": true
+    },
+    {
+      "ply": 88,
+      "san": "axb4",
+      "text": "It is undoubtedly correct to take advantage of the chance to break out, but in fact it is not so easy for White to win even if Black defends passively (and if White had played 44 Kg2, then Black would have been forced to adopt this option). After 44...Ba8 45 Rh1 Bc6, for example, 46 Rdd1 (46 g5 Nh7 is unclear) 46...axb4 47 axb4 d5 48 cxd5 Bxb5 49 Nxb5 Qxb4 50 g5 Rc4! 51 gxf6 Qxb5 52 Rc1 Rdc8 53 Rxc4 Qxc4 54 Qxc4 Rxc4 55 fxg7 b5 is unclear, as White’s bishop is seriously restricted by his own pawns. White’s problem is that it is not easy to prepare g5 without allowing Black to break out under more favourable circumstances than in the game. Of course, White would still have a clear advantage, but Black would not be lost.",
+      "isCritical": true
+    },
+    {
+      "ply": 89,
+      "san": "axb4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 90,
+      "san": "d5",
+      "text": "This was the point behind Black’s previous move.",
+      "isCritical": true
+    },
+    {
+      "ply": 91,
+      "san": "cxd5",
+      "text": "46 exd5 Bxb5 47 Nxb5 Nd6 48 Nxd6 Qxd6 attacks b4 and threatens ...e4+.",
+      "isCritical": true
+    },
+    {
+      "ply": 92,
+      "san": "Bxb5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 93,
+      "san": "Nxb5",
+      "text": "Black to play",
+      "isCritical": true
+    },
+    {
+      "ply": 94,
+      "san": "Qxb4",
+      "text": "It is natural to restore material equality, but in fact it was more important to blockade White’s dangerous d-pawn by 47...Nd6!. The idea is to play on a pawn down, but with a good knight against a very bad bishop. Then Black has good drawing chances, e.g. 48 Nxd6 (48 Ra1 Nxb5 49 Qxb5 Rc3 gives Black unpleasant counterplay – this is another case in which the white king is poorly placed on g3) 48...Qxd6 (48...Rxd6 49 Rc2 is very good for White) 49 g5 (49 Qb5 Rc3 50 Rd3 Rc2 51 R1d2 Rc1 is also not clear) 49...Nh7 50 Qe3 hxg5 51 hxg5 Qxb4 and White is not able to exploit the h-file as in the game.",
+      "isCritical": true
+    },
+    {
+      "ply": 95,
+      "san": "g5",
+      "text": "White tries to kick the black knight to an inferior square.",
+      "isCritical": true
+    },
+    {
+      "ply": 96,
+      "san": "hxg5",
+      "text": "Opening the h-file is asking for trouble, but the alternatives are also unsatisfactory:\n\n1) 48...Nh7 49 d6 Rc5 50 Rb2 Qc4 51 Qxc4 Rxc4 and Black’s passively placed pieces give White the chance to win by 52 d7 Nc7 53 Nd6 Rd4 54 Rxd4 exd4 55 Bh5! Rxd7 56 Bxf7+ Kf8 57 g6 Nf6 58 e5, etc.\n\n2) 48...Rc4 would have put up more of a fight:\n\n2a) 49 gxf6 Qxb5 50 Rc2 (50 fxg7 Qc5) 50...Rc5 (50...Rdc8 51 Rxc4 Rxc4 52 d6 Nxf6 53 d7 wins for White) 51 Qxb5 Rxb5 52 fxg7 Kxg7 is comfortable for Black.\n\n2b) 49 Rb2! Nxe4+ 50 Bxe4 (50 Kg2 Qa4 favours Black) 50...Rxe4 51 Rxb4 Rxe2 52 d6 is very good for White despite the minus pawn: 52...Rc2 (52...Rd7 53 Rc4!) 53 d7 Nc7 54 Na7 Na8 (54...b5 55 Rd6 is also very good for White) 55 Nc8 hxg5 56 hxg5 f6 57 gxf6 gxf6 58 Rg4+ with a large advantage for White.",
+      "isCritical": true
+    },
+    {
+      "ply": 97,
+      "san": "hxg5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 98,
+      "san": "Nh7",
+      "text": "49...Rc4 gives White the pleasant choice between 50 Rb2 Nxe4+ 51 Bxe4 Rxe4 52 Rxb4 Rxe2 53 d6, as in the note to Black’s 48th move, and 50 gxf6 Qxb5 51 fxg7 Nxg7 (51...Kxg7 52 Qe3 gives White a winning attack) 52 Qh2 f6 53 Rh1, when White’s attack is too strong.",
+      "isCritical": true
+    },
+    {
+      "ply": 99,
+      "san": "d6",
+      "text": "Black to play\n\nNow there will be no blockade of the d-pawn, and Black’s queen cannot return to the kingside. Black has no time to take on g5, because White threatens 51 d7.",
+      "isCritical": true
+    },
+    {
+      "ply": 100,
+      "san": "Rc5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 101,
+      "san": "Rb2",
+      "text": "51 Qh2 Rxb5 52 Rh1 (52 Qxh7+ Kxh7 53 Rh1+ Kg8 54 Rdh2 allows Black to escape by 54...Qe1+) also wins: 52...Rxd6 53 Qxh7+ Kf8 54 f6 Nxf6 (54...gxf6 55 g6! fxg6 56 Qa7 and Black cannot meet the threat of Rh8#) 55 gxf6 gxf6 56 Rxd6 Qxd6 57 Rd1 Qc7 58 Bh5 and there is no defence to 59 Rd8+. However, the text-move is even more effective.",
+      "isCritical": true
+    },
+    {
+      "ply": 102,
+      "san": "Qc4",
+      "text": "51...Qa5 52 Rh1 Nxd6 53 Nxd6 Rxd6 54 Ra2 is also decisive.",
+      "isCritical": true
+    },
+    {
+      "ply": 103,
+      "san": "Qh2",
+      "text": "This works now that Black no longer has the ...Qe1+ defence.",
+      "isCritical": true
+    },
+    {
+      "ply": 104,
+      "san": "Rxb5",
+      "text": "Ribli generously allows a neat finish.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 105,
+      "san": "Qxh7+",
+      "text": "Forcing mate in a further four moves.",
+      "isCritical": true
+    },
+    {
+      "ply": 106,
+      "san": "Kxh7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 107,
+      "san": "Rh2+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 108,
+      "san": "Kg8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 109,
+      "san": "Rdh1",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 110,
+      "san": "f6",
+      "text": "Or 55...g6 56 Rh8+ Kg7 57 R1h7#.",
+      "isCritical": true
+    },
+    {
+      "ply": 111,
+      "san": "Rh8+",
+      "text": "56...1-0\n\nIt is mate next move.\n\nThis was a typical ‘Hedgehog’ game, with both sides manoeuvring slowly around, looking for an opportunity to undertake some concrete action. For a long time, the balance was preserved, until Black voluntarily weakened his position with 31...a5, giving White the opportunity to mount serious pressure against the d6-pawn. This, coupled with the possibility of a general kingside pawn advance by White, made Black’s position very awkward. Although there were a few inaccuracies later, Karpov was able to round off the game with an attractive finish.\n\nThe lessons here are:\n\n1) A space advantage usually confers an advantage, but this advantage is minimized if there are no weaknesses to attack.\n\n2) ‘Hedgehog’ positions require a great deal of patience by both players. Impetuous moves are liable to be punished severely.\n\n3) Even quite cramped positions offer scope for resourceful defence.\n\n4) Playing positionally for several hours can make it easy to overlook tactics when they do arise – a trap into which Karpov does not fall.",
+      "isCritical": true
+    }
+  ]
+}

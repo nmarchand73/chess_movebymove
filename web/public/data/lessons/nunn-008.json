@@ -1,0 +1,547 @@
+{
+  "id": "nunn-008",
+  "book": "nunn",
+  "gameNum": 8,
+  "title": "Game 8: A. Shirov vs D. Reinderman",
+  "section": "Attacking Play",
+  "players": {
+    "white": "A. Shirov",
+    "black": "D. Reinderman"
+  },
+  "event": "Wijk aan Zee 1999",
+  "opening": "Sicilian Defence, Taimanov Variation",
+  "eco": "B46",
+  "pgnPath": "data/pgn/nunn/08.pgn",
+  "result": "1-0",
+  "moveCount": 87,
+  "annotatedMoves": 86,
+  "fullText": "Standard Sacrifices\n\nIn textbooks of attacking play, one can find all sorts of standard combinations: the ‘Greek gift’ sacrifice (Bxh7+ followed by Ng5+), the double bishop sacrifice on h7 and g7, etc. There are also many typical mating formations, such as Anastasia’s Mate (with a knight on e7, a sacrifice on h7 followed by mate along the h-file) and Boden’s Mate (against a king castled queenside, Qxc6+ followed by Ba6#). You probably won’t be a successful attacking player unless you are familiar with all these standard ideas – they are, as it were, the basic vocabulary of attack. I will not be presenting a list of attacking formations in this book, as my purpose is to show how the fundamental chess ideas fit into the overall strategy of a game.\n\nIf you are lucky, an opponent will allow one these familiar ideas in an absolutely clear-cut form. Then you need only check that everything works as it should, and you will have a point in the bag. Unfortunately, opponents are rarely so cooperative. Thus, when one of these standard ideas actually arises in practice, it is often in a rather unclear form. Considerable work may be required to determine whether the sacrifice is correct. It may even be the case that it is too complex for definite analysis, and then you must rely on your judgement. If your style inclines towards attacking play, then you may be prepared to take on the risk of an unclear sacrifice, whereas another player with a more positional outlook might make the opposite choice. Thus personal style enters the equation.\n\nIn the following game, it could not have been a surprise to anybody when, presented with a possible ‘Greek gift’ sacrifice, Alexei Shirov snapped off the h7-pawn without hesitation.\n\nA. Shirov – D. Reinderman\n\nWijk aan Zee 1999\n\nSicilian Defence, Taimanov Variation\n\n1 e4\n\nSee Game 3 for comments on this move.\n\n1...c5\n\nThis move is the Sicilian Defence, one of the most common present-day openings. The reason for this popularity is its combative nature; in many lines Black is playing not just for equality, but for the advantage. The drawback is that White often obtains an early initiative, so Black has to take care not to fall victim to a quick attack.\n\n2 Nf3\n\nWhite would like to play d4, but the immediate 2 d4 cxd4 3 Qxd4 is bad in view of 3...Nc6, gaining time. Thus White makes ready to recapture on d4 with his knight. Another popular line is 2 c3 (see Game 30), again preparing d4 but this time with the idea of recapturing with a pawn on d4.\n\n2...Nc6\n\nBlack has a wide range of moves here: 2...d6 (Game 10) and 2...e6 (Game 20) are also very popular.\n\n3 Nc3\n\nAlthough there is nothing wrong with 3 d4, White sometimes plays 3 Nc3 so as to avoid certain lines for Black. For example, after 3 d4, Black can enter the popular Sveshnikov system via 3...cxd4 4 Nxd4 Nf6 5 Nc3 e5. If White does not care to face this system, then he can make it more difficult for Black to reach it with 3 Nc3. If Black then plays 3...Nf6, White can continue 4 Bb5 and we have reached a Rossolimo Sicilian (2 Nf3 Nc6 3 Bb5) in which Black can no longer play certain lines. In text-books on the Sicilian, you will find that the main variations are always given with a standardized move-order. Unfortunately, this obscures subtleties of move-order that can be quite important in practice.\n\n3...e6\n\nBlack continues with a flexible move, which still leaves open the possibility of entering a range of systems.\n\n4 d4\n\nWhite decides to transpose into a standard Open Sicilian, although here too he could have reached a line of the Rossolimo by playing 4 Bb5.\n\n4...cxd4\n\n5 Nxd4\n\nThe exchange of Black’s c-pawn for White’s d-pawn is characteristic of the Sicilian, and this change in pawn-structure forms the basis of future strategy for both sides. Black has an extra central pawn, which represents a small but significant positional asset. White, on the other hand, can easily bring all his minor pieces into play and therefore is likely to complete his development before Black. Thus the battle-lines are drawn: White’s lead in development and greater space in the centre against Black’s longer-term positional assets.\n\n5...a6\n\nWith this move Black indicates that he will probably be heading for the Taimanov system, a line which is based on delaying the move ...d6 so as to leave open the option of developing the dark-squared bishop actively to c5 or b4. Had Black played 5...d6, we would have been heading for a Scheveningen system (which is based on pawns at d6 and e6), while after 5...Nf6 there would still have been various options open (see Game 20).\n\n6 Be2\n\nWhite has many possible moves, but Shirov opts simply to complete his kingside development and castle quickly.\n\n6...Nge7\n\nNow we are definitely in the Taimanov system. The idea behind the text-move is to continue with ...Nxd4 followed by ...Nc6, gaining time by attacking the white queen. The defect is that Black’s remaining pieces are not well posted to defend the kingside.\n\n7 f4\n\nWhite has tried several moves in this position, but Shirov’s is one of the most logical. The reason is that, now that the f2-square is cleared, the manoeuvre ...Nxd4 and ...Nc6 can be met by Qf2. The queen is very well posted on f2, partly because after a subsequent Be3 White is able to exert considerable pressure on Black’s queenside dark squares. Moreover, from f2 the queen is able to participate in a possible kingside attack, for example after f5.\n\n7...Nxd4\n\nBlack can delay this exchange, but he will have to play it sooner or later, since otherwise the e7-knight will prevent the development of his kingside pieces.\n\n8 Qxd4\n\n8...b5\n\nIf 8...Nc6, then of course 9 Qf2, so Black delays ...Nc6 in the hope that White will make the mistake of playing Be3, preventing the retreat to f2.\n\n9 0-0\n\nFor the moment White need not commit his queen.\n\n9...Qc7\n\nBlack continues to develop his queenside, and now that c5 is covered by the queen, there are some tricky ideas such as 10...Nf5 in the air.\n\n10 Qf2\n\nIn view of the danger along the a7-g1 diagonal, White decides to pull his queen back voluntarily. It turns out that Black has nothing better than to reply ...Nc6, since otherwise he cannot develop his kingside, so in fact Black has gained nothing by delaying ...Nc6.\n\n10...Nc6\n\nCompared to a normal Sicilian position, one pair of knights has disappeared. White is missing a knight on d4, and Black on f6. The exchange of one pair of knights has reduced White’s attacking power, but two other factors work slightly in White’s favour. Firstly, Black has no defensive knight on the kingside, so despite the reduced forces available White might still be able to mount a successful attack, and secondly Black has no pressure against e4, so White has greater freedom than normal to manoeuvre his pieces. Nevertheless, this system is perfectly playable for Black and White cannot count on anything more than a slight edge.\n\n11 Be3\n\nThe natural move, sending a probing glance towards the squares c5 and b6.\n\n11...Be7\n\nThe bishop is best placed here, in order to provide some defence for Black’s vulnerable kingside.\n\n12 a4!?\n\nShirov could, of course, have continued to develop with 12 Rad1, but White should be thinking about what his plan will be after he has brought out all his pieces. A direct kingside attack is not yet likely to succeed, as White’s pieces are not aimed at Black’s kingside. White’s main idea must be to improve the conditions for a possible kingside attack. One plan is 12 e5, intending moves such as Ne4, Rad1, Bd3, etc. However, this might not lead to anything if Black replies 12...d6 or 12...d5.\n\nShirov decides instead on a slower approach. The text-move more or less forces ...b4, when White can reposition his knight by Nb1-d2. Now that Black no longer has ...Nb4, White can play Bd3, lining up against Black’s king position. Depending on circumstances, the knight can move to f3 to help with the attack, or to c4 to probe Black’s queenside, especially the b6-square. If White is going to adopt this plan, he should do so before moving the rook from a1 as otherwise Black is not forced to reply ...b4.\n\n12...b4\n\nWith the rook on a1, 12...bxa4 can be met by 13 Rxa4, when the a6-pawn is very weak.\n\n13 Nb1\n\nWhite starts his knight manoeuvre.\n\n13...Rb8\n\nPreventing an annoying Bb6.\n\n14 Nd2\n\nThe knight returns to active play.\n\n14...0-0\n\nBlack finally castles. In this case there was no particular risk involved in leaving the king in the centre for so long, as White’s pieces were not active enough to pose any real danger.\n\n15 Bd3\n\nThe first overt sign of aggressive intent on the kingside.\n\n15...d6\n\nBlack would like to play his dark-squared bishop to f6, but first of all he must prevent the reply e5.\n\n16 Rad1\n\nIn fact, this is the first new move of the game. In Van der Wiel-Andersson, Wijk aan Zee 1987 White played more directly for an attack with 16 Qg3 (intending f5), but Black countered with 16...f5! 17 exf5 exf5 18 Nf3 Bf6 19 Rab1 Ne7 20 Rfe1 Bb7 with approximately equal play. Black has an isolated d-pawn, but this slight weakness is compensated for by the active position of his bishops on the long diagonals. Shirov’s move prepares the attack more gradually.\n\n16...b3?\n\nThis imaginative and ambitious move turns out badly, since Black’s position isn’t strong enough to support such an aggressive idea. The plan with ...f5 is not so effective with the rook on d1, since after 16...f5 17 exf5 exf5 18 Rfe1 Black cannot easily reposition his pieces as in the Van der Wiel-Andersson game given above. The reason is that after 18...Bf6? 19 Nc4!, there is already a threat of 20 Nxd6 Qxd6 21 Bc4+, and 19...d5 20 Bc5! is a neat tactical point giving White a clear advantage. However, Black should have continued with his basic plan by 16...Bf6, when White would have to decide how to meet the attack on the b2-pawn.\n\n17 cxb3\n\nAfter 17 Nxb3 Bf6 18 Bc1 Rb4 Black regains the pawn with an equal position; for example, 19 a5 Nxa5 20 Nxa5 Bd4 21 Be3 Bxe3 22 Qxe3 Qxa5.\n\n17...Bf6\n\nAfter 17...Nb4 18 Be2! Bf6 19 Rc1, followed by Nc4, Black doesn’t have much to show for the pawn.\n\n18 Rc1!\n\nShirov finds the best reply; he returns the pawn in order to denude Black’s kingside of defenders. White could have kept the extra pawn by 18 Bb1, since then 18...Bxb2 is bad because of 19 Nc4. However, by 18...a5, intending ...Ba6 and ...Nb4, Black could have obtained considerable piece activity in compensation. 18 Rb1 is also playable, but again Black has some play after 18...Nb4 19 Be2 Bb7. In all probability, neither of these lines gives Black fully adequate compensation for the pawn, but in general it is better to have equal material with a strong initiative than to be a pawn up but have to grovel in defence.\n\n18...Bxb2\n\nOtherwise Black will be a pawn down for nothing; for example, 18...Bb7 19 Nf3.\n\n19 Rc2\n\nNow Black faces a dangerous pin along the c-file.\n\n19...Ba3\n\nBlack must retain control of c1 since 19...Bf6 loses to 20 Rfc1 Bb7 21 e5! Be7 (21...dxe5 22 Be4) 22 Bxa6 Bxa6 23 Rxc6 Qb7 24 exd6. Thanks to Black’s misguided 16th move, the conditions for a kingside attack by White have significantly improved. Black has no defensive minor pieces at all on the kingside, and he has to deal with the c-file pin.\n\n20 e5!\n\nWhite opens up the diagonal for his light-squared bishop with gain of time, since Black must counter the threat of 21 exd6 Qxd6 22 Be4 followed by Nc4.\n\n20...d5\n\n20...dxe5 fails to 21 Be4 Bb7 22 Ra1 Bb4 23 Bxc6 Bxc6 24 Rac1, when White wins material.\n\n21 Nf3\n\nThis move introduces two unpleasant possibilities. The first is simply 22 Nd4 Bb7 23 Ra1, followed by Rac1 winning material, and the second is the ‘Greek gift’ sacrifice Bxh7+.\n\n21...Qd7?!\n\nAfter this the sacrifice on h7 is correct, although it demands very high-quality play by the attacker. Moving the other way by 21...Qb7 is not much help. Then 22 Bxh7+ Kxh7 23 Qh4+ Kg8 24 Ng5 Re8 25 Qh7+ Kf8 gives White an enormous attack after 26 Rfc1! Bd7 27 f5!; for example, 27...exf5 28 Qh8+ Ke7 29 Qxg7 Kd8 30 Nxf7+ Kc8 31 Bc5 Bxc5+ 32 Rxc5 and the defence crumbles.\n\nBlack’s only chance was to be brave and play 21...Rxb3. Now the best line is 22 Bxh7+! Kxh7 23 Nd4 (23 Qh4+ Kg8 24 Ng5 is probably not correct as White has the additional worry that his e3-bishop is hanging), aiming to regain the piece while keeping good attacking chances on the kingside. The variations are worth looking at in detail because they reveal how, when conducting a ‘kingside’ attack, one must be aware of tactical possibilities over the whole board:\n\n1) 23...Rb6 24 Nb5! (this is a case in point!) 24...axb5 25 Bxb6 Qb7 26 axb5 Ne7 27 Rc3 Bb4 28 Rb3 with an easy win for White.\n\n2) 23...Rb2 24 Bc1! Rxc2 (after 24...Nxd4 25 Qh4+ Kg8 26 Rxc7 Ne2+ 27 Kh1 Black has only two minor pieces for the queen) 25 Qxc2+ Kg8 26 Bxa3 Qb6 27 Bxf8 and White wins.\n\n3) 23...Rb4! 24 Rxc6 Qb7 25 Rc3! (25 f5 exf5 26 Rf6!? is an imaginative idea, but after 26...Bb2! White has no clear way to continue) 25...Bb2 26 Qc2+ Kg8 27 Rc7 Bxd4 (Black should eliminate this knight before it reaches g5; after 27...Qb8 28 Nf3 Rc4 29 Rxc4 dxc4 30 Ng5 g6 31 Qxc4 White is a pawn up and Black’s kingside is very weak) 28 Bxd4 Qa8 (28...Qb8 29 Ba7 Qa8 30 Rb1 Rxb1+ 31 Qxb1 paralyses Black) 29 Qc3 is awkward for Black. Material is equal, but White’s pieces occupy active positions and Black’s kingside remains weak due to the missing h-pawn. After 29...Rb7, for example, the breakthrough 30 f5 exf5 31 e6 fxe6 32 Rxg7+ Rxg7 33 Bxg7 Re8 34 Be5 gives White a crushing attack on the dark squares; 29...Rxa4 is also met by 30 f5. Thus Black’s best chance is probably 29...Rc4 30 Rxc4 dxc4 31 Qxc4, hoping to grovel to a draw a pawn down.\n\nThis analysis shows how finely balanced the position is. In one line, White follows up his sacrifice on h7 not by a direct attack on the king, but by play on the queenside (although with frequent glances to the other flank). After the text-move, however, the balance is tipped in favour of the direct kingside assault.\n\n22 Bxh7+!\n\nThe ‘Greek gift’ sacrifice is a familiar idea, which can be found in all books on attacking play. In favourable circumstances it can be immediately decisive: White follows up with Ng5+, meeting ...Kg8 with Qh5 and ...Kg6 with either h4, Qg4 or Qd3+ according to the precise position. Here, however, it is far less clear-cut. Black is immediately mated if he plays ...Kg6, but the ...Kg8 defence proves a tough nut to crack. Where White is able to play Ng5+ and Qh5, a move by the f8-rook can often be met by a crushing Qxf7+, but here the queen is on h4 rather than h5, so there is no attack on f7 (it is not important that the black queen defends f7, as it can be deflected by Rxc6). In fact White is able to win, but he must display considerable creativity to do so. Even within the general framework of a familiar idea, chess offers scope to the imagination.\n\n22...Kxh7\n\n23 Qh4+\n\n23 Ng5+ amounts to the same thing.\n\n23...Kg8\n\nNot 23...Kg6? 24 g4 mating in a few moves.\n\n24 Ng5\n\n24...Re8\n\n24...Rd8?! is inferior because Black’s king may need d8 to escape: after 25 Qh7+ Kf8 26 Qh8+ Ke7 27 Qxg7 Rf8 (27...Re8 28 Qf6+ Kf8 29 Nh7+ Kg8 30 Qg5+ Kxh7 31 Rf3 mates) 28 Nh7 Bb7 29 f5 White has a crushing attack.\n\n25 Rf3!\n\nWhite finds an original concept that you won’t find in any textbook of attacking play. The classical examples of the ‘Greek gift’ almost always involve chasing the king with 25 Qh7+ Kf8 26 Qh8+ Ke7 27 Qxg7, but here Black continues 27...Kd8, escaping the immediate threats. Shirov realizes that he must reinforce his attack without allowing Black’s king to escape via e7 and d8. The threat is simply 26 Rh3.\n\n25...Ne7\n\nThe key point is that 25...Kf8? loses: 26 Nh7+ Kg8 27 Nf6+! gxf6 28 Rg3+ Kf8 29 exf6 mating. As Black’s king cannot run, he must try to provide a defence on the kingside; a quick look shows that the text-move is the only one to avoid an immediate disaster.\n\n26 Qh7+\n\nNow the checks are appropriate, as 26 Rh3?? Ng6 allows Black to defend.\n\n26...Kf8\n\n27 Qh8+\n\n27...Ng8\n\nWhite’s finesse has allowed him to bring his queen to h8 while Black’s king is still on f8. Once again, chasing the king by 28 Nh7+ Ke7 29 Qxg7 Kd8 would only ease Black’s task. Instead, White must stir up trouble for the king before it can escape.\n\n28 f5!\n\nA successful attack often requires the participation of all, or almost all, the attacker’s pieces. At the moment, White’s queen and knight are in active positions, while the c2-rook looks well-placed to cut off a fleeing black king. However, the bishop and f3-rook are not doing very much. White finds a way to bring these into the attack and at the same time he bears in mind a second general principle: open lines generally favour the attacker. The text-move is the start of a breakthrough that fulfils both objectives: lines are opened and the two inactive pieces can use these same lines to join the attack.\n\n28...exf5\n\nForced, as otherwise Black could not meet the multiple threats of 29 fxe6 Rxe6 30 Nh7+, 29 Nh7+ Ke7 30 Bg5+ and 29 f6.\n\n29 e6!\n\nOpening more lines. 29 Nh7+ Ke7 30 Qxg7 is far less clear.\n\n29...fxe6\n\nOnce again forced, as 29...Rxe6 loses to 30 Nh7+ Ke7 31 Bg5+ f6 (31...Kd6 32 Bf4+) 32 Qxg8, threatening mate on f8.\n\n30 Rg3\n\nThe rook starts to play its part. Now that the seventh rank is opened, White has the deadly threat of 31 Nh7+ followed by 32 Rxg7+.\n\n30...g6\n\nBlack cannot even try surrendering the queen by 30...e5 31 Nh7+ Ke7 32 Rxg7+ Kd6, as the finesse 33 Rg6+! (33 Rxd7+ is of course not bad) 33...Re6 (33...Qe6 34 Qg7! threatens mate at c7 and leads to even greater material gains, while 33...Ke7 runs into 34 Bg5+ Kf7 35 Qg7#) 34 Rxg8 is crushing: Black cannot meet the threats of 35 Rgxc8, 35 Rd8, 35 Nf6 and 35 Nf8, to name but a few.\n\n31 Nh7+\n\n31...Kf7\n\nOr 31...Ke7 32 Bg5+ Kd6 (32...Kf7 transposes to the game) 33 Bf4+ e5 (33...Ke7 34 Qg7+ Kd8 35 Bc7+) 34 Rxg6+ Re6 35 Bxe5+ Ke7 36 Qg7+ with a quick mate.\n\n32 Bh6\n\nA beautiful and thematic finishing blow, threatening mate in one. White’s bishop utilizes the open lines created by the f5 breakthrough to join the attack.\n\n32...Ke7\n\nBoth 32...Nxh6 33 Qf6+ Kg8 34 Rxg6+ Kxh7 35 Rxh6+ Kg8 36 Rh8# and 32...Bf8 33 Nxf8 Nxh6 34 Rxg6 Rxf8 35 Rf6+ Ke7 36 Qxf8# lead to mate.\n\n33 Bg5+\n\n33...Kf7\n\nThe king cannot escape: 33...Kd6 34 Bf4+ Ke7 (34...e5 35 Rxg6+ also leads to mate) 35 Qg7+ Kd8 36 Bc7+ mates next move.\n\n34 Bf6\n\n34 Nf6 was a simpler win, but it would be churlish to criticize Shirov after such a wonderful attack.\n\n34...Rf8\n\n34...Qa7+ 35 Kh1 doesn’t help Black, while 34...e5 35 Rc7 Qxc7 36 Qg7+ wins the queen.\n\n35 Rc7!\n\nHere, too, this move wins the black queen.\n\n35...Nxf6\n\n35...Qxc7 36 Qg7+ Ke8 37 Qxc7 is equally hopeless for Black.\n\n36 Qxf6+\n\n36...Ke8\n\nOr 36...Kg8 37 Rxg6+ Kxh7 38 Rh6+ Kg8 39 Rh8#.\n\n37 Qxg6+\n\n37...Kd8\n\n37...Rf7 38 Nf6+ is even worse.\n\n38 Rxd7+\n\nWhite cashes in.\n\n38...Bxd7\n\n39 Nxf8\n\n39...Bxf8\n\nBlack has no hope with only two bishops for the queen.\n\n40 Qf6+\n\n40...Be7\n\n40...Ke8 loses to 41 Rg8.\n\n41 Rg8+\n\nForcing the exchange of rooks. The rest is easy.\n\n41...Kc7\n\n42 Qc3+\n\n42...Kb7\n\n43 Rxb8+\n\n43...Kxb8\n\n44 h4\n\n44...1-0\n\n44...Bxh4 is met by 45 Qh8+ while otherwise the h-pawn runs through.\n\nThe ‘Greek gift’ sacrifice goes back at least 400 years, but it is still relevant today. Like the other standard attacking ideas, it claims victims somewhere in the world every day. These days, however, defenders are more aware of such possibilities and are unlikely to allow them in a clear-cut form.\n\nIn this game the preconditions for the sacrifice arose as a result of play on the other side of the board, where an unwise operation by Black (16...b3?) led to his dark-squared bishop being deflected from the defence of the kingside. When the possibility to play Bxh7+ arose, Shirov went in for it even though he could not have worked out every variation. He undoubtedly calculated several lines, and from these judged that the weight of attacking force would be too great for Black to resist. The key idea was to combine the sacrifice with a central breakthrough by f5 and e6, thereby opening up more lines and allowing his entire army to participate in the attack. An attractive finish rounded off an excellent attacking game by Shirov.\n\nThe lessons here are:\n\n1) A good grasp of the standard attacking ideas and sacrifices is essential if you want to be a successful attacker.\n\n2) Typical ideas provide useful guidance, but you may have to adapt them to the specific requirements of the position in front of you.\n\n3) When conducting a kingside attack, keep your eye open for tactical possibilities on other parts of the board.\n\n4) The more open lines there are, the better it is for the attacker.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Standard Sacrifices\n\nIn textbooks of attacking play, one can find all sorts of standard combinations: the ‘Greek gift’ sacrifice (Bxh7+ followed by Ng5+), the double bishop sacrifice on h7 and g7, etc. There are also many typical mating formations, such as Anastasia’s Mate (with a knight on e7, a sacrifice on h7 followed by mate along the h-file) and Boden’s Mate (against a king castled queenside, Qxc6+ followed by Ba6#). You probably won’t be a successful attacking player unless you are familiar with all these standard ideas – they are, as it were, the basic vocabulary of attack. I will not be presenting a list of attacking formations in this book, as my purpose is to show how the fundamental chess ideas fit into the overall strategy of a game.\n\nIf you are lucky, an opponent will allow one these familiar ideas in an absolutely clear-cut form. Then you need only check that everything works as it should, and you will have a point in the bag. Unfortunately, opponents are rarely so cooperative. Thus, when one of these standard ideas actually arises in practice, it is often in a rather unclear form. Considerable work may be required to determine whether the sacrifice is correct. It may even be the case that it is too complex for definite analysis, and then you must rely on your judgement. If your style inclines towards attacking play, then you may be prepared to take on the risk of an unclear sacrifice, whereas another player with a more positional outlook might make the opposite choice. Thus personal style enters the equation.\n\nIn the following game, it could not have been a surprise to anybody when, presented with a possible ‘Greek gift’ sacrifice, Alexei Shirov snapped off the h7-pawn without hesitation.\n\nA. Shirov – D. Reinderman\n\nWijk aan Zee 1999\n\nSicilian Defence, Taimanov Variation"
+    },
+    {
+      "ply": 1,
+      "san": "e4",
+      "text": "See Game 3 for comments on this move.",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "c5",
+      "text": "This move is the Sicilian Defence, one of the most common present-day openings. The reason for this popularity is its combative nature; in many lines Black is playing not just for equality, but for the advantage. The drawback is that White often obtains an early initiative, so Black has to take care not to fall victim to a quick attack.",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "Nf3",
+      "text": "White would like to play d4, but the immediate 2 d4 cxd4 3 Qxd4 is bad in view of 3...Nc6, gaining time. Thus White makes ready to recapture on d4 with his knight. Another popular line is 2 c3 (see Game 30), again preparing d4 but this time with the idea of recapturing with a pawn on d4.",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "Nc6",
+      "text": "Black has a wide range of moves here: 2...d6 (Game 10) and 2...e6 (Game 20) are also very popular.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "Nc3",
+      "text": "Although there is nothing wrong with 3 d4, White sometimes plays 3 Nc3 so as to avoid certain lines for Black. For example, after 3 d4, Black can enter the popular Sveshnikov system via 3...cxd4 4 Nxd4 Nf6 5 Nc3 e5. If White does not care to face this system, then he can make it more difficult for Black to reach it with 3 Nc3. If Black then plays 3...Nf6, White can continue 4 Bb5 and we have reached a Rossolimo Sicilian (2 Nf3 Nc6 3 Bb5) in which Black can no longer play certain lines. In text-books on the Sicilian, you will find that the main variations are always given with a standardized move-order. Unfortunately, this obscures subtleties of move-order that can be quite important in practice.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "e6",
+      "text": "Black continues with a flexible move, which still leaves open the possibility of entering a range of systems.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "d4",
+      "text": "White decides to transpose into a standard Open Sicilian, although here too he could have reached a line of the Rossolimo by playing 4 Bb5.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "cxd4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "Nxd4",
+      "text": "Black to play\n\nThe exchange of Black’s c-pawn for White’s d-pawn is characteristic of the Sicilian, and this change in pawn-structure forms the basis of future strategy for both sides. Black has an extra central pawn, which represents a small but significant positional asset. White, on the other hand, can easily bring all his minor pieces into play and therefore is likely to complete his development before Black. Thus the battle-lines are drawn: White’s lead in development and greater space in the centre against Black’s longer-term positional assets.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "a6",
+      "text": "With this move Black indicates that he will probably be heading for the Taimanov system, a line which is based on delaying the move ...d6 so as to leave open the option of developing the dark-squared bishop actively to c5 or b4. Had Black played 5...d6, we would have been heading for a Scheveningen system (which is based on pawns at d6 and e6), while after 5...Nf6 there would still have been various options open (see Game 20).",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "Be2",
+      "text": "White has many possible moves, but Shirov opts simply to complete his kingside development and castle quickly.",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "Nge7",
+      "text": "White to play\n\nNow we are definitely in the Taimanov system. The idea behind the text-move is to continue with ...Nxd4 followed by ...Nc6, gaining time by attacking the white queen. The defect is that Black’s remaining pieces are not well posted to defend the kingside.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "f4",
+      "text": "White has tried several moves in this position, but Shirov’s is one of the most logical. The reason is that, now that the f2-square is cleared, the manoeuvre ...Nxd4 and ...Nc6 can be met by Qf2. The queen is very well posted on f2, partly because after a subsequent Be3 White is able to exert considerable pressure on Black’s queenside dark squares. Moreover, from f2 the queen is able to participate in a possible kingside attack, for example after f5.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "Nxd4",
+      "text": "Black can delay this exchange, but he will have to play it sooner or later, since otherwise the e7-knight will prevent the development of his kingside pieces.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "Qxd4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "b5",
+      "text": "If 8...Nc6, then of course 9 Qf2, so Black delays ...Nc6 in the hope that White will make the mistake of playing Be3, preventing the retreat to f2.\n\nWhite to play\n\n9 0-0\n\nFor the moment White need not commit his queen.",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "Qc7",
+      "text": "Black continues to develop his queenside, and now that c5 is covered by the queen, there are some tricky ideas such as 10...Nf5 in the air.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "Qf2",
+      "text": "In view of the danger along the a7-g1 diagonal, White decides to pull his queen back voluntarily. It turns out that Black has nothing better than to reply ...Nc6, since otherwise he cannot develop his kingside, so in fact Black has gained nothing by delaying ...Nc6.",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "Nc6",
+      "text": "White to play\n\nCompared to a normal Sicilian position, one pair of knights has disappeared. White is missing a knight on d4, and Black on f6. The exchange of one pair of knights has reduced White’s attacking power, but two other factors work slightly in White’s favour. Firstly, Black has no defensive knight on the kingside, so despite the reduced forces available White might still be able to mount a successful attack, and secondly Black has no pressure against e4, so White has greater freedom than normal to manoeuvre his pieces. Nevertheless, this system is perfectly playable for Black and White cannot count on anything more than a slight edge.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "Be3",
+      "text": "The natural move, sending a probing glance towards the squares c5 and b6.",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "Be7",
+      "text": "The bishop is best placed here, in order to provide some defence for Black’s vulnerable kingside.",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "a4",
+      "text": "Shirov could, of course, have continued to develop with 12 Rad1, but White should be thinking about what his plan will be after he has brought out all his pieces. A direct kingside attack is not yet likely to succeed, as White’s pieces are not aimed at Black’s kingside. White’s main idea must be to improve the conditions for a possible kingside attack. One plan is 12 e5, intending moves such as Ne4, Rad1, Bd3, etc. However, this might not lead to anything if Black replies 12...d6 or 12...d5.\n\nBlack to play\n\nShirov decides instead on a slower approach. The text-move more or less forces ...b4, when White can reposition his knight by Nb1-d2. Now that Black no longer has ...Nb4, White can play Bd3, lining up against Black’s king position. Depending on circumstances, the knight can move to f3 to help with the attack, or to c4 to probe Black’s queenside, especially the b6-square. If White is going to adopt this plan, he should do so before moving the rook from a1 as otherwise Black is not forced to reply ...b4.",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "b4",
+      "text": "With the rook on a1, 12...bxa4 can be met by 13 Rxa4, when the a6-pawn is very weak.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Nb1",
+      "text": "White starts his knight manoeuvre.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "Rb8",
+      "text": "Preventing an annoying Bb6.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Nd2",
+      "text": "The knight returns to active play.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "O-O",
+      "text": "Black finally castles. In this case there was no particular risk involved in leaving the king in the centre for so long, as White’s pieces were not active enough to pose any real danger.",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Bd3",
+      "text": "The first overt sign of aggressive intent on the kingside.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "d6",
+      "text": "White to play\n\nBlack would like to play his dark-squared bishop to f6, but first of all he must prevent the reply e5.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Rad1",
+      "text": "In fact, this is the first new move of the game. In Van der Wiel-Andersson, Wijk aan Zee 1987 White played more directly for an attack with 16 Qg3 (intending f5), but Black countered with 16...f5! 17 exf5 exf5 18 Nf3 Bf6 19 Rab1 Ne7 20 Rfe1 Bb7 with approximately equal play. Black has an isolated d-pawn, but this slight weakness is compensated for by the active position of his bishops on the long diagonals. Shirov’s move prepares the attack more gradually.",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "b3",
+      "text": "This imaginative and ambitious move turns out badly, since Black’s position isn’t strong enough to support such an aggressive idea. The plan with ...f5 is not so effective with the rook on d1, since after 16...f5 17 exf5 exf5 18 Rfe1 Black cannot easily reposition his pieces as in the Van der Wiel-Andersson game given above. The reason is that after 18...Bf6? 19 Nc4!, there is already a threat of 20 Nxd6 Qxd6 21 Bc4+, and 19...d5 20 Bc5! is a neat tactical point giving White a clear advantage. However, Black should have continued with his basic plan by 16...Bf6, when White would have to decide how to meet the attack on the b2-pawn.",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "cxb3",
+      "text": "After 17 Nxb3 Bf6 18 Bc1 Rb4 Black regains the pawn with an equal position; for example, 19 a5 Nxa5 20 Nxa5 Bd4 21 Be3 Bxe3 22 Qxe3 Qxa5.",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Bf6",
+      "text": "After 17...Nb4 18 Be2! Bf6 19 Rc1, followed by Nc4, Black doesn’t have much to show for the pawn.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "Rc1",
+      "text": "Shirov finds the best reply; he returns the pawn in order to denude Black’s kingside of defenders. White could have kept the extra pawn by 18 Bb1, since then 18...Bxb2 is bad because of 19 Nc4. However, by 18...a5, intending ...Ba6 and ...Nb4, Black could have obtained considerable piece activity in compensation. 18 Rb1 is also playable, but again Black has some play after 18...Nb4 19 Be2 Bb7. In all probability, neither of these lines gives Black fully adequate compensation for the pawn, but in general it is better to have equal material with a strong initiative than to be a pawn up but have to grovel in defence.",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "Bxb2",
+      "text": "Otherwise Black will be a pawn down for nothing; for example, 18...Bb7 19 Nf3.",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "Rc2",
+      "text": "Now Black faces a dangerous pin along the c-file.",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "Ba3",
+      "text": "Black must retain control of c1 since 19...Bf6 loses to 20 Rfc1 Bb7 21 e5! Be7 (21...dxe5 22 Be4) 22 Bxa6 Bxa6 23 Rxc6 Qb7 24 exd6. Thanks to Black’s misguided 16th move, the conditions for a kingside attack by White have significantly improved. Black has no defensive minor pieces at all on the kingside, and he has to deal with the c-file pin.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "e5",
+      "text": "White opens up the diagonal for his light-squared bishop with gain of time, since Black must counter the threat of 21 exd6 Qxd6 22 Be4 followed by Nc4.",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "d5",
+      "text": "20...dxe5 fails to 21 Be4 Bb7 22 Ra1 Bb4 23 Bxc6 Bxc6 24 Rac1, when White wins material.",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "Nf3",
+      "text": "This move introduces two unpleasant possibilities. The first is simply 22 Nd4 Bb7 23 Ra1, followed by Rac1 winning material, and the second is the ‘Greek gift’ sacrifice Bxh7+.",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "Qd7",
+      "text": "After this the sacrifice on h7 is correct, although it demands very high-quality play by the attacker. Moving the other way by 21...Qb7 is not much help. Then 22 Bxh7+ Kxh7 23 Qh4+ Kg8 24 Ng5 Re8 25 Qh7+ Kf8 gives White an enormous attack after 26 Rfc1! Bd7 27 f5!; for example, 27...exf5 28 Qh8+ Ke7 29 Qxg7 Kd8 30 Nxf7+ Kc8 31 Bc5 Bxc5+ 32 Rxc5 and the defence crumbles.\n\nBlack’s only chance was to be brave and play 21...Rxb3. Now the best line is 22 Bxh7+! Kxh7 23 Nd4 (23 Qh4+ Kg8 24 Ng5 is probably not correct as White has the additional worry that his e3-bishop is hanging), aiming to regain the piece while keeping good attacking chances on the kingside. The variations are worth looking at in detail because they reveal how, when conducting a ‘kingside’ attack, one must be aware of tactical possibilities over the whole board:\n\nBlack to play\n\n1) 23...Rb6 24 Nb5! (this is a case in point!) 24...axb5 25 Bxb6 Qb7 26 axb5 Ne7 27 Rc3 Bb4 28 Rb3 with an easy win for White.\n\n2) 23...Rb2 24 Bc1! Rxc2 (after 24...Nxd4 25 Qh4+ Kg8 26 Rxc7 Ne2+ 27 Kh1 Black has only two minor pieces for the queen) 25 Qxc2+ Kg8 26 Bxa3 Qb6 27 Bxf8 and White wins.\n\n3) 23...Rb4! 24 Rxc6 Qb7 25 Rc3! (25 f5 exf5 26 Rf6!? is an imaginative idea, but after 26...Bb2! White has no clear way to continue) 25...Bb2 26 Qc2+ Kg8 27 Rc7 Bxd4 (Black should eliminate this knight before it reaches g5; after 27...Qb8 28 Nf3 Rc4 29 Rxc4 dxc4 30 Ng5 g6 31 Qxc4 White is a pawn up and Black’s kingside is very weak) 28 Bxd4 Qa8 (28...Qb8 29 Ba7 Qa8 30 Rb1 Rxb1+ 31 Qxb1 paralyses Black) 29 Qc3 is awkward for Black. Material is equal, but White’s pieces occupy active positions and Black’s kingside remains weak due to the missing h-pawn. After 29...Rb7, for example, the breakthrough 30 f5 exf5 31 e6 fxe6 32 Rxg7+ Rxg7 33 Bxg7 Re8 34 Be5 gives White a crushing attack on the dark squares; 29...Rxa4 is also met by 30 f5. Thus Black’s best chance is probably 29...Rc4 30 Rxc4 dxc4 31 Qxc4, hoping to grovel to a draw a pawn down.\n\nThis analysis shows how finely balanced the position is. In one line, White follows up his sacrifice on h7 not by a direct attack on the king, but by play on the queenside (although with frequent glances to the other flank). After the text-move, however, the balance is tipped in favour of the direct kingside assault.",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "Bxh7+",
+      "text": "Black to play\n\nThe ‘Greek gift’ sacrifice is a familiar idea, which can be found in all books on attacking play. In favourable circumstances it can be immediately decisive: White follows up with Ng5+, meeting ...Kg8 with Qh5 and ...Kg6 with either h4, Qg4 or Qd3+ according to the precise position. Here, however, it is far less clear-cut. Black is immediately mated if he plays ...Kg6, but the ...Kg8 defence proves a tough nut to crack. Where White is able to play Ng5+ and Qh5, a move by the f8-rook can often be met by a crushing Qxf7+, but here the queen is on h4 rather than h5, so there is no attack on f7 (it is not important that the black queen defends f7, as it can be deflected by Rxc6). In fact White is able to win, but he must display considerable creativity to do so. Even within the general framework of a familiar idea, chess offers scope to the imagination.",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "Kxh7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "Qh4+",
+      "text": "23 Ng5+ amounts to the same thing.",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "Kg8",
+      "text": "Not 23...Kg6? 24 g4 mating in a few moves.",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "Ng5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 48,
+      "san": "Re8",
+      "text": "24...Rd8?! is inferior because Black’s king may need d8 to escape: after 25 Qh7+ Kf8 26 Qh8+ Ke7 27 Qxg7 Rf8 (27...Re8 28 Qf6+ Kf8 29 Nh7+ Kg8 30 Qg5+ Kxh7 31 Rf3 mates) 28 Nh7 Bb7 29 f5 White has a crushing attack.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 49,
+      "san": "Rf3",
+      "text": "White finds an original concept that you won’t find in any textbook of attacking play. The classical examples of the ‘Greek gift’ almost always involve chasing the king with 25 Qh7+ Kf8 26 Qh8+ Ke7 27 Qxg7, but here Black continues 27...Kd8, escaping the immediate threats. Shirov realizes that he must reinforce his attack without allowing Black’s king to escape via e7 and d8. The threat is simply 26 Rh3.",
+      "isCritical": true
+    },
+    {
+      "ply": 50,
+      "san": "Ne7",
+      "text": "The key point is that 25...Kf8? loses: 26 Nh7+ Kg8 27 Nf6+! gxf6 28 Rg3+ Kf8 29 exf6 mating. As Black’s king cannot run, he must try to provide a defence on the kingside; a quick look shows that the text-move is the only one to avoid an immediate disaster.",
+      "isCritical": true
+    },
+    {
+      "ply": 51,
+      "san": "Qh7+",
+      "text": "Now the checks are appropriate, as 26 Rh3?? Ng6 allows Black to defend.",
+      "isCritical": true
+    },
+    {
+      "ply": 52,
+      "san": "Kf8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 53,
+      "san": "Qh8+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 54,
+      "san": "Ng8",
+      "text": "White’s finesse has allowed him to bring his queen to h8 while Black’s king is still on f8. Once again, chasing the king by 28 Nh7+ Ke7 29 Qxg7 Kd8 would only ease Black’s task. Instead, White must stir up trouble for the king before it can escape.",
+      "isCritical": true
+    },
+    {
+      "ply": 55,
+      "san": "f5",
+      "text": "Black to play\n\nA successful attack often requires the participation of all, or almost all, the attacker’s pieces. At the moment, White’s queen and knight are in active positions, while the c2-rook looks well-placed to cut off a fleeing black king. However, the bishop and f3-rook are not doing very much. White finds a way to bring these into the attack and at the same time he bears in mind a second general principle: open lines generally favour the attacker. The text-move is the start of a breakthrough that fulfils both objectives: lines are opened and the two inactive pieces can use these same lines to join the attack.",
+      "isCritical": true
+    },
+    {
+      "ply": 56,
+      "san": "exf5",
+      "text": "Forced, as otherwise Black could not meet the multiple threats of 29 fxe6 Rxe6 30 Nh7+, 29 Nh7+ Ke7 30 Bg5+ and 29 f6.",
+      "isCritical": true
+    },
+    {
+      "ply": 57,
+      "san": "e6",
+      "text": "Opening more lines. 29 Nh7+ Ke7 30 Qxg7 is far less clear.",
+      "isCritical": true
+    },
+    {
+      "ply": 58,
+      "san": "fxe6",
+      "text": "Once again forced, as 29...Rxe6 loses to 30 Nh7+ Ke7 31 Bg5+ f6 (31...Kd6 32 Bf4+) 32 Qxg8, threatening mate on f8.\n\nWhite to play",
+      "isCritical": true
+    },
+    {
+      "ply": 59,
+      "san": "Rg3",
+      "text": "The rook starts to play its part. Now that the seventh rank is opened, White has the deadly threat of 31 Nh7+ followed by 32 Rxg7+.",
+      "isCritical": true
+    },
+    {
+      "ply": 60,
+      "san": "g6",
+      "text": "Black cannot even try surrendering the queen by 30...e5 31 Nh7+ Ke7 32 Rxg7+ Kd6, as the finesse 33 Rg6+! (33 Rxd7+ is of course not bad) 33...Re6 (33...Qe6 34 Qg7! threatens mate at c7 and leads to even greater material gains, while 33...Ke7 runs into 34 Bg5+ Kf7 35 Qg7#) 34 Rxg8 is crushing: Black cannot meet the threats of 35 Rgxc8, 35 Rd8, 35 Nf6 and 35 Nf8, to name but a few.",
+      "isCritical": true
+    },
+    {
+      "ply": 61,
+      "san": "Nh7+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 62,
+      "san": "Kf7",
+      "text": "Or 31...Ke7 32 Bg5+ Kd6 (32...Kf7 transposes to the game) 33 Bf4+ e5 (33...Ke7 34 Qg7+ Kd8 35 Bc7+) 34 Rxg6+ Re6 35 Bxe5+ Ke7 36 Qg7+ with a quick mate.",
+      "isCritical": true
+    },
+    {
+      "ply": 63,
+      "san": "Bh6",
+      "text": "Black to play\n\nA beautiful and thematic finishing blow, threatening mate in one. White’s bishop utilizes the open lines created by the f5 breakthrough to join the attack.",
+      "isCritical": true
+    },
+    {
+      "ply": 64,
+      "san": "Ke7",
+      "text": "Both 32...Nxh6 33 Qf6+ Kg8 34 Rxg6+ Kxh7 35 Rxh6+ Kg8 36 Rh8# and 32...Bf8 33 Nxf8 Nxh6 34 Rxg6 Rxf8 35 Rf6+ Ke7 36 Qxf8# lead to mate.",
+      "isCritical": true
+    },
+    {
+      "ply": 65,
+      "san": "Bg5+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 66,
+      "san": "Kf7",
+      "text": "The king cannot escape: 33...Kd6 34 Bf4+ Ke7 (34...e5 35 Rxg6+ also leads to mate) 35 Qg7+ Kd8 36 Bc7+ mates next move.",
+      "isCritical": true
+    },
+    {
+      "ply": 67,
+      "san": "Bf6",
+      "text": "34 Nf6 was a simpler win, but it would be churlish to criticize Shirov after such a wonderful attack.",
+      "isCritical": true
+    },
+    {
+      "ply": 68,
+      "san": "Rf8",
+      "text": "34...Qa7+ 35 Kh1 doesn’t help Black, while 34...e5 35 Rc7 Qxc7 36 Qg7+ wins the queen.",
+      "isCritical": true
+    },
+    {
+      "ply": 69,
+      "san": "Rc7",
+      "text": "Black to play\n\nHere, too, this move wins the black queen.",
+      "isCritical": true
+    },
+    {
+      "ply": 70,
+      "san": "Nxf6",
+      "text": "35...Qxc7 36 Qg7+ Ke8 37 Qxc7 is equally hopeless for Black.",
+      "isCritical": true
+    },
+    {
+      "ply": 71,
+      "san": "Qxf6+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 72,
+      "san": "Ke8",
+      "text": "Or 36...Kg8 37 Rxg6+ Kxh7 38 Rh6+ Kg8 39 Rh8#.",
+      "isCritical": true
+    },
+    {
+      "ply": 73,
+      "san": "Qxg6+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 74,
+      "san": "Kd8",
+      "text": "37...Rf7 38 Nf6+ is even worse.",
+      "isCritical": true
+    },
+    {
+      "ply": 75,
+      "san": "Rxd7+",
+      "text": "White cashes in.",
+      "isCritical": true
+    },
+    {
+      "ply": 76,
+      "san": "Bxd7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 77,
+      "san": "Nxf8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 78,
+      "san": "Bxf8",
+      "text": "Black has no hope with only two bishops for the queen.",
+      "isCritical": true
+    },
+    {
+      "ply": 79,
+      "san": "Qf6+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 80,
+      "san": "Be7",
+      "text": "40...Ke8 loses to 41 Rg8.",
+      "isCritical": true
+    },
+    {
+      "ply": 81,
+      "san": "Rg8+",
+      "text": "Forcing the exchange of rooks. The rest is easy.",
+      "isCritical": true
+    },
+    {
+      "ply": 82,
+      "san": "Kc7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 83,
+      "san": "Qc3+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 84,
+      "san": "Kb7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 85,
+      "san": "Rxb8+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 86,
+      "san": "Kxb8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 87,
+      "san": "h4",
+      "text": "44...1-0\n\n44...Bxh4 is met by 45 Qh8+ while otherwise the h-pawn runs through.\n\nThe ‘Greek gift’ sacrifice goes back at least 400 years, but it is still relevant today. Like the other standard attacking ideas, it claims victims somewhere in the world every day. These days, however, defenders are more aware of such possibilities and are unlikely to allow them in a clear-cut form.\n\nIn this game the preconditions for the sacrifice arose as a result of play on the other side of the board, where an unwise operation by Black (16...b3?) led to his dark-squared bishop being deflected from the defence of the kingside. When the possibility to play Bxh7+ arose, Shirov went in for it even though he could not have worked out every variation. He undoubtedly calculated several lines, and from these judged that the weight of attacking force would be too great for Black to resist. The key idea was to combine the sacrifice with a central breakthrough by f5 and e6, thereby opening up more lines and allowing his entire army to participate in the attack. An attractive finish rounded off an excellent attacking game by Shirov.\n\nThe lessons here are:\n\n1) A good grasp of the standard attacking ideas and sacrifices is essential if you want to be a successful attacker.\n\n2) Typical ideas provide useful guidance, but you may have to adapt them to the specific requirements of the position in front of you.\n\n3) When conducting a kingside attack, keep your eye open for tactical possibilities on other parts of the board.\n\n4) The more open lines there are, the better it is for the attacker.",
+      "isCritical": true
+    }
+  ]
+}

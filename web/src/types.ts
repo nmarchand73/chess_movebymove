@@ -1,3 +1,20 @@
+export type BookId = "chernov" | "nunn";
+
+export type BookSection = {
+  title: string;
+  range: string;
+  blurb: string;
+};
+
+export type BookMeta = {
+  id: BookId;
+  title: string;
+  author: string;
+  publisher?: string;
+  gameCount: number;
+  sections?: BookSection[];
+};
+
 export type AnnotationNode = {
   ply: number;
   san?: string;
@@ -7,7 +24,7 @@ export type AnnotationNode = {
 
 export type Lesson = {
   id: string;
-  book: "chernov" | "nunn";
+  book: BookId;
   gameNum: number;
   title: string;
   section: string;
@@ -55,5 +72,7 @@ export type LessonSummary = {
 };
 
 export type LessonIndex = {
+  books: BookMeta[];
   chernov: LessonSummary[];
+  nunn: LessonSummary[];
 };

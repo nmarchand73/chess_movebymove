@@ -26,6 +26,7 @@ type Props = {
   onAltClick: (alt: AlternativeMove) => void;
   studyMode: boolean;
   onStudyModeChange: (value: boolean) => void;
+  commentator: string;
 };
 
 function CommentaryParagraph({
@@ -137,6 +138,7 @@ export function CommentaryPanel({
   onAltClick,
   studyMode,
   onStudyModeChange,
+  commentator,
 }: Props) {
   const label = ply === 0 ? "Introduction" : node?.san ? `${formatMoveNumber(ply)} ${node.san}` : `Move ${ply}`;
 
@@ -161,27 +163,27 @@ export function CommentaryPanel({
     <section className="commentary">
       <header className="commentary-header">
         <div>
-          <p className="eyebrow">Chernev explains</p>
+          <p className="eyebrow">{commentator} explains</p>
           <h2>{label}</h2>
         </div>
         <div className="commentary-badges">
           <span className="pill">{ply}/{totalPlies}</span>
           {node?.isCritical ? <span className="pill critical">Key moment</span> : null}
           {hasContent ? <span className="pill accent">Annotated</span> : null}
-          <label className="study-mode-toggle" title="Hide engine eval while reading Chernev">
+          <label className="study-mode-toggle" title={`${studyMode ? "Show" : "Hide"} engine eval and best line while reading ${commentator}`}>
             <input
               type="checkbox"
               checked={studyMode}
               onChange={(e) => onStudyModeChange(e.target.checked)}
             />
-            Study mode
+            Hide engine
           </label>
         </div>
       </header>
 
       <article className="commentary-body">
         {!hasContent && (
-          <p className="muted empty-note">Chernev does not pause on this move — continue to the next.</p>
+          <p className="muted empty-note">{commentator} does not pause on this move — continue to the next.</p>
         )}
 
         {normalized.hadDiagram && hasContent && (
