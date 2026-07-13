@@ -275,10 +275,12 @@
   transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
 }
 
-.continue-card:hover {
+.continue-card:hover:not(:disabled) {
+  background: linear-gradient(135deg, var(--bg-elevated), color-mix(in srgb, var(--accent-pale) 85%, white));
   transform: translateY(-2px);
   box-shadow: 0 14px 36px rgba(28, 24, 18, 0.12);
   border-color: var(--accent-soft);
+  color: var(--ink);
 }
 
 .continue-card strong {
@@ -432,10 +434,27 @@
   border-color: var(--accent-soft);
 }
 
-.lesson-row:hover {
+.lesson-row:hover:not(:disabled),
+button.lesson-row:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--accent-pale) 32%, var(--bg-elevated));
   transform: translateY(-1px);
   border-color: var(--accent-soft);
   box-shadow: var(--shadow);
+  color: var(--ink);
+}
+
+.lesson-row.is-complete:hover:not(:disabled),
+button.lesson-row.is-complete:hover:not(:disabled) {
+  background: linear-gradient(
+    90deg,
+    color-mix(in srgb, var(--accent-pale) 32%, var(--bg-elevated)),
+    rgba(245, 230, 212, 0.45)
+  );
+}
+
+.lesson-row.is-started:hover:not(:disabled),
+button.lesson-row.is-started:hover:not(:disabled) {
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--border));
 }
 
 .game-table.has-elo .lesson-row {
@@ -1981,12 +2000,12 @@ button {
   transition: background 0.12s ease, border-color 0.12s ease, transform 0.1s ease;
 }
 
-button:hover:not(:disabled) {
+button:hover:not(:disabled):not(.secondary):not(.back-btn):not(.text-btn):not(.back-link):not(.library-back):not(.book-card):not(.continue-card):not(.lesson-row):not(.library-resume):not(.san-link):not(.alt-chip):not(.icon-btn) {
   background: var(--accent-hover);
   border-color: var(--accent-hover);
 }
 
-button:active:not(:disabled) {
+button:active:not(:disabled):not(.book-card):not(.continue-card):not(.lesson-row):not(.library-resume) {
   transform: scale(0.98);
 }
 
@@ -2008,6 +2027,33 @@ button.secondary:hover:not(:disabled),
 .continue-card, .lesson-row, .book-card, .library-resume {
   border-color: var(--border);
   color: var(--ink);
+}
+
+/* Card-style buttons: override global primary button chrome */
+button.lesson-row,
+button.book-card,
+button.continue-card,
+button.library-resume,
+button.library-back {
+  font-weight: inherit;
+}
+
+button.lesson-row {
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-elevated);
+  color: var(--ink);
+  font-weight: 400;
+  box-shadow: var(--shadow-soft);
+}
+
+button.lesson-row.is-complete {
+  background: linear-gradient(90deg, var(--bg-elevated), rgba(245, 230, 212, 0.35));
+}
+
+button.lesson-row.is-started {
+  border-color: var(--accent-soft);
 }
 
 button:disabled {
@@ -2171,9 +2217,10 @@ button:disabled {
   box-shadow: var(--shadow-soft);
 }
 
-.library-resume:hover {
+.library-resume:hover:not(:disabled) {
   border-color: var(--accent);
   background: linear-gradient(135deg, var(--bg-elevated) 0%, color-mix(in srgb, var(--accent-pale) 80%, white) 100%);
+  color: var(--ink);
 }
 
 .library-resume-label {
@@ -2228,10 +2275,12 @@ button:disabled {
   transition: border-color 0.15s, box-shadow 0.15s, transform 0.12s;
 }
 
-.book-card:hover {
+.book-card:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--accent-pale) 28%, var(--bg-elevated));
   border-color: var(--accent-soft);
   box-shadow: var(--shadow);
   transform: translateY(-1px);
+  color: var(--ink);
 }
 
 .book-card-chernov {
@@ -2468,7 +2517,10 @@ button:disabled {
   cursor: pointer;
 }
 
-.library-back:hover {
+.library-back:hover:not(:disabled) {
+  background: none;
+  border: none;
+  color: var(--accent-hover);
   text-decoration: underline;
 }
 
