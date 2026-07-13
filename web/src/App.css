@@ -89,7 +89,7 @@
 .home-library {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .library-head {
@@ -113,7 +113,8 @@
 }
 
 .library-head .toolbar {
-  flex: 1 1 280px;
+  flex: 1 1 auto;
+  min-width: min(100%, 280px);
   max-width: 420px;
   margin: 0;
 }
@@ -333,7 +334,6 @@
 }
 
 .toolbar {
-  margin-bottom: 1.5rem;
   position: relative;
 }
 
@@ -364,7 +364,11 @@
 }
 
 .section-block {
-  margin-bottom: 2rem;
+  margin-bottom: 1.25rem;
+}
+
+.section-block:last-child {
+  margin-bottom: 0;
 }
 
 .section-head {
@@ -518,6 +522,10 @@ button.lesson-row.is-started:hover:not(:disabled) {
   font-weight: 500;
 }
 
+.lesson-meta-chips {
+  display: contents;
+}
+
 .lesson-result {
   justify-self: end;
   font-size: 0.82rem;
@@ -570,10 +578,11 @@ button.lesson-row.is-started:hover:not(:disabled) {
   content: attr(data-tip);
   position: absolute;
   z-index: 20;
-  right: 0;
+  left: 0;
+  right: auto;
   bottom: calc(100% + 0.45rem);
   width: max-content;
-  max-width: min(18rem, 70vw);
+  max-width: min(18rem, calc(100vw - 2.5rem));
   padding: 0.55rem 0.7rem;
   border-radius: 10px;
   border: 1px solid var(--border);
@@ -589,6 +598,11 @@ button.lesson-row.is-started:hover:not(:disabled) {
   opacity: 0;
   transform: translateY(4px);
   transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.lesson-opening .opening-tip::after {
+  left: auto;
+  right: 0;
 }
 
 .opening-tip:hover::after,
@@ -647,6 +661,22 @@ button.lesson-row.is-started:hover:not(:disabled) {
 
 .opening-hint-details p {
   margin: 0.35rem 0 0;
+  font-size: 0.8rem;
+  line-height: 1.45;
+  color: var(--ink-muted);
+}
+
+.opening-hint-goal {
+  margin: 0.35rem 0 0.2rem;
+  font-family: Literata, Georgia, serif;
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--ink);
+}
+
+.opening-hint-explanation {
+  margin: 0;
   font-size: 0.8rem;
   line-height: 1.45;
   color: var(--ink-muted);
@@ -2085,6 +2115,10 @@ button:disabled {
 .feedback.ok { color: #2f6b3a; }
 
 @media (max-width: 960px) {
+  .app-shell {
+    padding: 1rem 1rem 2rem;
+  }
+
   .hero, .lesson-layout {
     grid-template-columns: 1fr;
   }
@@ -2101,7 +2135,20 @@ button:disabled {
 
   .home-stats {
     grid-column: 1;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(6.5rem, 1fr));
+  }
+
+  .home-hero-copy h1 {
+    font-size: clamp(1.55rem, 6vw, 2.1rem);
+  }
+
+  .book-hero-description {
+    font-size: 0.9rem;
+  }
+
+  .section-head {
+    flex-wrap: wrap;
+    align-items: center;
   }
 
   .study-panel {
@@ -2120,7 +2167,10 @@ button:disabled {
   }
 
   .library-head .toolbar {
+    flex: 0 0 auto;
+    min-width: 0;
     max-width: none;
+    width: 100%;
   }
 
   .game-table-head {
@@ -2146,33 +2196,145 @@ button:disabled {
 
   .progress-block { text-align: left; }
 
-  .lesson-row {
-    grid-template-columns: 2.5rem 1fr;
-    grid-template-rows: auto auto auto;
+  .lesson-row,
+  .game-table.has-elo .lesson-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 0.35rem 0.5rem;
+    padding: 0.75rem 0.85rem 0.7rem;
   }
 
-  .lesson-opening {
-    grid-column: 2;
+  .lesson-num {
+    flex: 0 0 1.75rem;
+    width: 1.75rem;
+    height: 1.75rem;
+    margin-top: 0.1rem;
+    font-size: 0.76rem;
+  }
+
+  .lesson-main {
+    flex: 1 1 calc(100% - 2.25rem);
+    min-width: 0;
+  }
+
+  .lesson-main strong {
+    font-size: 0.92rem;
+    line-height: 1.35;
+  }
+
+  .lesson-event {
+    font-size: 0.78rem;
+  }
+
+  .lesson-meta-chips {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.25rem 0.75rem;
+    flex: 1 1 100%;
+    margin-left: 2.25rem;
+    width: calc(100% - 2.25rem);
+    font-size: 0.78rem;
+    line-height: 1.35;
+    color: var(--ink-muted);
+  }
+
+  /* Elo already shown in player names on mobile */
+  .lesson-meta-chips .lesson-elo {
+    display: none;
+  }
+
+  .lesson-meta-chips .lesson-result,
+  .lesson-meta-chips .lesson-opening,
+  .lesson-meta-chips .lesson-status {
+    flex: 0 0 auto;
+    padding: 0;
+    border: none;
+    background: none;
+    text-align: left;
+  }
+
+  .lesson-meta-chips .lesson-result {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--ink);
+  }
+
+  .lesson-meta-chips .lesson-result.white-won,
+  .lesson-meta-chips .lesson-result.black-won {
+    color: var(--ink);
+  }
+
+  .lesson-meta-chips .lesson-result::after {
+    content: "·";
+    margin: 0 0.35rem;
+    font-weight: 400;
+    color: var(--ink-muted);
+  }
+
+  .lesson-meta-chips .lesson-opening {
+    flex: 1 1 auto;
+    min-width: 0;
     justify-content: flex-start;
-    text-align: left;
   }
 
-  .lesson-result {
-    grid-column: 2;
-    justify-self: start;
-    text-align: left;
-  }
-
-  .lesson-elo {
-    grid-column: 2;
+  .lesson-meta-chips .opening-label {
     justify-content: flex-start;
-    text-align: left;
+    gap: 0.3rem;
+    min-width: 0;
   }
 
-  .lesson-status {
-    grid-column: 2;
-    justify-self: start;
+  .lesson-meta-chips .opening-name {
+    font-size: 0.78rem;
+    color: var(--ink-muted);
     text-align: left;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: unset;
+    max-width: none;
+  }
+
+  .lesson-meta-chips .opening-tip {
+    border-bottom: 1px dotted var(--accent-soft);
+  }
+
+  .lesson-meta-chips .opening-tip::after,
+  .lesson-opening .opening-tip::after {
+    left: 0;
+    right: auto;
+    max-width: min(20rem, calc(100vw - 2.5rem));
+  }
+
+  .lesson-meta-chips,
+  .lesson-opening,
+  .opening-label {
+    overflow: visible;
+  }
+
+  .lesson-meta-chips .eco-badge {
+    padding: 0.06rem 0.32rem;
+    font-size: 0.62rem;
+    line-height: 1.2;
+  }
+
+  .lesson-meta-chips .lesson-status {
+    margin-left: auto;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: 0;
+    color: var(--ink-muted);
+    white-space: nowrap;
+  }
+
+  .lesson-meta-chips .lesson-status.is-active {
+    color: var(--accent);
+  }
+
+  .lesson-meta-chips .lesson-status.is-done {
+    color: #2f6b3a;
   }
 }
 
@@ -2527,6 +2689,14 @@ button:disabled {
 @media (max-width: 640px) {
   .book-card-grid {
     grid-template-columns: 1fr;
+  }
+
+  .book-card-highlights {
+    font-size: 0.78rem;
+  }
+
+  .book-card-description {
+    font-size: 0.84rem;
   }
 
   .library-resume {

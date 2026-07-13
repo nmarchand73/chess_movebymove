@@ -383,30 +383,32 @@ function BookHomeView({
                             </strong>
                             {lesson.event && <span className="lesson-event">{lesson.event}</span>}
                           </span>
-                          <GameResultBadge result={lesson.result} />
-                          {showEloColumn && (
-                            <span className="lesson-elo" title="White · Black estimated Elo">
-                              {performanceElo ? (
-                                <>
-                                  <span className="elo-white">{performanceElo.white}</span>
-                                  <span className="elo-sep" aria-hidden="true">·</span>
-                                  <span className="elo-black">{performanceElo.black}</span>
-                                </>
+                          <div className="lesson-meta-chips">
+                            <GameResultBadge result={lesson.result} />
+                            {showEloColumn && (
+                              <span className="lesson-elo" title="White · Black estimated Elo">
+                                {performanceElo ? (
+                                  <>
+                                    <span className="elo-white">{performanceElo.white}</span>
+                                    <span className="elo-sep" aria-hidden="true">·</span>
+                                    <span className="elo-black">{performanceElo.black}</span>
+                                  </>
+                                ) : (
+                                  <span className="muted">{elosLoading ? "…" : "—"}</span>
+                                )}
+                              </span>
+                            )}
+                            <span className="lesson-opening">
+                              {lesson.opening ? (
+                                <OpeningLabel name={lesson.opening} eco={lesson.eco} />
                               ) : (
-                                <span className="muted">{elosLoading ? "…" : "—"}</span>
+                                <span className="muted">—</span>
                               )}
                             </span>
-                          )}
-                          <span className="lesson-opening">
-                            {lesson.opening ? (
-                              <OpeningLabel name={lesson.opening} eco={lesson.eco} />
-                            ) : (
-                              <span className="muted">—</span>
-                            )}
-                          </span>
-                          <span className={`lesson-status${pct >= 100 ? " is-done" : pct > 0 ? " is-active" : ""}`}>
-                            {status}
-                          </span>
+                            <span className={`lesson-status${pct >= 100 ? " is-done" : pct > 0 ? " is-active" : ""}`}>
+                              {status}
+                            </span>
+                          </div>
                           {pct > 0 && pct < 100 && (
                             <span className="lesson-progress" aria-hidden="true">
                               <span style={{ width: `${pct}%` }} />

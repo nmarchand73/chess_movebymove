@@ -22,7 +22,7 @@ import { GuessMove } from "../components/GuessMove";
 import { MoveStrip } from "../components/MoveStrip";
 import { OpeningLabel } from "../components/OpeningLabel";
 import { TransportBar } from "../components/TransportBar";
-import { getOpeningTooltip } from "../lib/openingTooltips";
+import { contextualizeOpeningExplanation, getOpeningTooltip } from "../lib/openingTooltips";
 import { commentatorName } from "../lib/bookMeta";
 
 type Props = {
@@ -238,10 +238,13 @@ export function LessonPage({ summary, onBack }: Props) {
             </div>
           </div>
 
-          {openingTip && ply === 0 ? (
+          {openingTip && lesson.opening && ply === 0 ? (
             <details className="opening-hint-details">
               <summary>Opening idea</summary>
-              <p>{openingTip}</p>
+              <p className="opening-hint-goal">{openingTip.goal}</p>
+              <p className="opening-hint-explanation">
+                {contextualizeOpeningExplanation(lesson.opening, openingTip.explanation)}
+              </p>
             </details>
           ) : null}
         </div>
