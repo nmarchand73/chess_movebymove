@@ -2372,16 +2372,42 @@ button:disabled {
 }
 
 .library-hero {
+  display: grid;
+  gap: 1rem;
   margin-bottom: 1.5rem;
-  padding: 0 0.15rem;
+  padding: 1.35rem 1.4rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-elevated);
+  box-shadow: var(--shadow-soft);
+}
+
+.library-hero-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
 }
 
 .library-hero h1 {
-  margin: 0 0 0.5rem;
+  margin: 0;
   font-family: Literata, Georgia, serif;
   font-size: clamp(1.9rem, 3.5vw, 2.5rem);
   line-height: 1.1;
   letter-spacing: -0.01em;
+}
+
+.library-hero-lead {
+  margin: 0;
+  max-width: 40rem;
+  font-size: 0.98rem;
+  line-height: 1.6;
+  color: var(--ink-muted);
+}
+
+.library-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.65rem;
 }
 
 .library-hero-sub {
@@ -2736,5 +2762,21 @@ button:disabled {
     grid-row: auto;
     justify-self: start;
     margin-top: 0.25rem;
+  }
+
+  .library-hero {
+    padding: 1.1rem 1rem;
+  }
+
+  .library-hero h1 {
+    font-size: clamp(1.55rem, 6vw, 2.1rem);
+  }
+
+  .library-hero-lead {
+    font-size: 0.92rem;
+  }
+
+  .library-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }

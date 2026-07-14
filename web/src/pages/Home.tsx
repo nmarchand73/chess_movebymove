@@ -33,6 +33,17 @@ function bookProgress(lessons: LessonSummary[]) {
   return { completedCount, inProgressCount };
 }
 
+function libraryProgress(index: LessonIndex) {
+  const lessons = index.books.flatMap((book) => index[book.id] ?? []);
+  const { completedCount, inProgressCount } = bookProgress(lessons);
+  return {
+    totalGames: lessons.length,
+    completedCount,
+    inProgressCount,
+  };
+}
+
+
 function LibraryView({
   index,
   onSelectBook,
@@ -43,7 +54,7 @@ function LibraryView({
   onOpenLesson: (lesson: LessonSummary) => void;
 }) {
   const progress = loadProgress();
-  const totalGames = index.books.reduce((sum, book) => sum + book.gameCount, 0);
+  const { totalGames, completedCount, inProgressCount } = libraryProgress(index);
   const continueLesson = progress.lastLessonId
     ? index.books
         .flatMap((book) => index[book.id] ?? [])
@@ -54,12 +65,32 @@ function LibraryView({
   return (
     <div className="book-library">
       <header className="library-hero">
-        <p className="eyebrow">Move-by-Move Coach</p>
-        <h1>Your library</h1>
-        <p className="library-hero-sub">
-          {index.books.length} books · {totalGames} annotated games with synced boards, author commentary,
-          and optional Stockfish analysis.
-        </p>
+        <div className="library-hero-copy">
+          <p className="eyebrow">Move-by-Move Coach</p>
+          <h1>Study classic games move by move</h1>
+          <p className="library-hero-lead">
+            Chernev and Nunn, {totalGames} games — synced board, commentary, Stockfish, and AI analysis prompts.
+          </p>
+        </div>
+
+        <div className="library-stats" aria-label="Library overview">
+          <div className="stat-card">
+            <strong>{index.books.length}</strong>
+            <span>Books</span>
+          </div>
+          <div className="stat-card">
+            <strong>{totalGames}</strong>
+            <span>Games</span>
+          </div>
+          <div className="stat-card">
+            <strong>{completedCount}</strong>
+            <span>Completed</span>
+          </div>
+          <div className="stat-card">
+            <strong>{inProgressCount}</strong>
+            <span>In progress</span>
+          </div>
+        </div>
       </header>
 
       {continueLesson ? (
