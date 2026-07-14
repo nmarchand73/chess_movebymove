@@ -22,6 +22,7 @@ import { GuessMove } from "../components/GuessMove";
 import { MoveStrip } from "../components/MoveStrip";
 import { OpeningLabel } from "../components/OpeningLabel";
 import { TransportBar } from "../components/TransportBar";
+import { ExportPromptButton } from "../components/ExportPromptButton";
 import { contextualizeOpeningExplanation, getOpeningTooltip } from "../lib/openingTooltips";
 import { commentatorName } from "../lib/bookMeta";
 
@@ -220,12 +221,15 @@ export function LessonPage({ summary, onBack }: Props) {
           <div className="lesson-header-identity">
             <span className="lesson-game-num">Game {lesson.gameNum}</span>
           </div>
-          <div className="lesson-header-progress">
-            <span className="lesson-progress-label">
-              Move {ply} <span className="muted">/ {maxPly}</span>
-            </span>
-            <div className="progress-track">
-              <div className="progress-fill" style={{ width: `${progressPct}%` }} />
+          <div className="lesson-header-actions">
+            <ExportPromptButton lesson={lesson} ply={ply} />
+            <div className="lesson-header-progress">
+              <span className="lesson-progress-label">
+                Move {ply} <span className="muted">/ {maxPly}</span>
+              </span>
+              <div className="progress-track">
+                <div className="progress-fill" style={{ width: `${progressPct}%` }} />
+              </div>
             </div>
           </div>
         </div>

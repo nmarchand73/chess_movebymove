@@ -882,6 +882,18 @@ button.lesson-row.is-started:hover:not(:disabled) {
   min-width: 118px;
 }
 
+.lesson-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.export-prompt-btn {
+  white-space: nowrap;
+  font-size: 0.72rem;
+  padding: 0.35rem 0.65rem;
+}
+
 .lesson-progress-label {
   font-size: 0.74rem;
   font-weight: 600;
@@ -2190,9 +2202,16 @@ button:disabled {
     flex-wrap: wrap;
   }
 
-  .lesson-header-progress {
+  .lesson-header-actions {
     width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .lesson-header-progress {
     align-items: stretch;
+    flex: 1;
+    min-width: 118px;
   }
 
   .hero-aside {

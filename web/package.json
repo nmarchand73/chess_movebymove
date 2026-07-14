@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "compute-elos": "node --experimental-strip-types scripts/computeGameElos.ts",
-    "test": "node --experimental-strip-types --test src/lib/commentary.test.ts src/lib/commentaryBeats.test.ts src/lib/moveNavigation.test.ts src/lib/openingTooltips.test.ts src/lib/normalizeIndex.test.ts src/lib/lastMoveHighlight.test.ts src/lib/formatEval.test.ts src/lib/engineLine.test.ts src/lib/performanceRating.test.ts src/lib/playerStats.test.ts src/lib/gameResult.test.ts",
+    "test": "node --experimental-strip-types --test src/lib/analysisPrompt.test.ts src/lib/commentary.test.ts src/lib/commentaryBeats.test.ts src/lib/moveNavigation.test.ts src/lib/openingTooltips.test.ts src/lib/normalizeIndex.test.ts src/lib/lastMoveHighlight.test.ts src/lib/formatEval.test.ts src/lib/engineLine.test.ts src/lib/performanceRating.test.ts src/lib/playerStats.test.ts src/lib/gameResult.test.ts",
     "lint": "oxlint",
     "preview": "vite preview"
   },
