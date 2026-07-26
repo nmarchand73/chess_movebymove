@@ -496,6 +496,70 @@ button.lesson-row.is-started:hover:not(:disabled) {
   color: var(--ink-muted);
 }
 
+.lesson-why {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.82rem;
+  line-height: 1.4;
+  color: var(--ink-muted);
+}
+
+.lesson-opening-idea {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 0.78rem;
+  line-height: 1.4;
+  color: var(--ink-muted);
+}
+
+.lesson-opening-idea strong {
+  font-weight: 650;
+  color: var(--ink);
+}
+
+.intention-openings {
+  display: grid;
+  gap: 0.4rem;
+  margin: 0.65rem 0 0;
+  padding: 0;
+  list-style: none;
+  max-width: 42rem;
+}
+
+.intention-openings li {
+  display: grid;
+  gap: 0.1rem;
+  padding: 0.45rem 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg);
+}
+
+.intention-openings strong {
+  font-size: 0.8rem;
+  font-weight: 650;
+  color: var(--ink);
+}
+
+.intention-openings span {
+  font-size: 0.78rem;
+  line-height: 1.4;
+  color: var(--ink-muted);
+}
+
+.lesson-source-badge {
+  display: inline-block;
+  margin-top: 0.3rem;
+  padding: 0.1rem 0.45rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--ink-muted);
+}
+
 .lesson-elo {
   display: flex;
   align-items: center;
@@ -963,6 +1027,13 @@ button.lesson-row.is-started:hover:not(:disabled) {
   color: var(--accent);
   background: var(--accent-pale);
   border-color: var(--accent-soft);
+}
+
+.meta-chip.meta-intention {
+  font-weight: 600;
+  color: #3d5a80;
+  background: color-mix(in srgb, #3d5a80 12%, var(--bg));
+  border-color: color-mix(in srgb, #3d5a80 28%, var(--border));
 }
 
 .back-btn {
@@ -2505,6 +2576,10 @@ button:disabled {
 
 .book-card-nunn {
   border-top: 3px solid #2f5d50;
+}
+
+.book-card-intentions {
+  border-top: 3px solid #3d5a80;
 }
 
 .book-card.is-resume {

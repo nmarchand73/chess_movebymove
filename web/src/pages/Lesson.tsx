@@ -153,7 +153,7 @@ export function LessonPage({ summary, onBack }: Props) {
     if (ply < maxPly) goTo(ply + 1);
   }, [hasMoreBeats, ply, maxPly, goTo]);
 
-  const commentator = commentatorName(summary.book);
+  const commentator = commentatorName(summary.book, summary.sourceBook);
 
   useEffect(() => {
     if (lesson) markContinue(lesson.id, ply, lesson.moveCount);
@@ -243,6 +243,18 @@ export function LessonPage({ summary, onBack }: Props) {
             </h1>
 
             <div className="lesson-meta">
+              {summary.intentionId || summary.book === "intentions" ? (
+                <span
+                  className="meta-chip meta-intention"
+                  title={
+                    summary.openingIdea
+                      ? `${summary.openingName ?? "Ouverture"} — ${summary.openingIdea}`
+                      : summary.why
+                  }
+                >
+                  Intention · {summary.section}
+                </span>
+              ) : null}
               {lesson.event && <span className="meta-chip">{lesson.event}</span>}
               {lesson.opening && (
                 <span className="meta-chip meta-opening">

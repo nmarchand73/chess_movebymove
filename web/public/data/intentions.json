@@ -1,0 +1,460 @@
+{
+  "id": "intentions",
+  "title": "Initiation par intentions de jeu",
+  "author": "Curriculum Move-by-Move",
+  "publisher": "Chernev · Nunn",
+  "sections": [
+    {
+      "id": "aile-roi",
+      "title": "Offensive sur l'aile Roi",
+      "blurb": "Construire puis lancer une attaque contre le roi — lignes ouvertes, sacrifices, courses d'ailes.",
+      "openings": [
+        {
+          "name": "Gambit du Roi",
+          "idea": "Sacrifie un pion pour ouvrir les colonnes f et g et attaquer rapidement le roi adverse."
+        },
+        {
+          "name": "Sicilienne Dragon",
+          "idea": "Attaque puissante sur l'aile Roi grâce à une poussée de pions et un fianchetto."
+        }
+      ],
+      "gameIds": [
+        "chernov-004",
+        "nunn-010",
+        "chernov-001",
+        "nunn-006"
+      ]
+    },
+    {
+      "id": "aile-dame",
+      "title": "Offensive sur l'aile Dame",
+      "blurb": "Initiative latérale : files a–c, majorité de pions et pression sans viser le roi.",
+      "openings": [
+        {
+          "name": "Gambit Benko",
+          "idea": "Sacrifie un pion pour obtenir une forte pression sur l'aile Dame et les colonnes ouvertes."
+        },
+        {
+          "name": "Défense Grünfeld",
+          "idea": "Contrôle du centre puis contre-attaque sur l'aile Dame (…c5)."
+        },
+        {
+          "name": "Ouverture Orang-Outan",
+          "idea": "Attaque rapidement l'aile Dame avec 1.b4 pour désorganiser le développement adverse."
+        }
+      ],
+      "gameIds": [
+        "nunn-021",
+        "chernov-017",
+        "chernov-020"
+      ]
+    },
+    {
+      "id": "centre",
+      "title": "Contrôle du centre",
+      "blurb": "Occuper, élargir ou punir le centre — la base de presque tous les plans.",
+      "openings": [
+        {
+          "name": "Ouverture du Centre",
+          "idea": "Ouvre immédiatement le centre pour perturber l'équilibre central."
+        },
+        {
+          "name": "Partie Espagnole",
+          "idea": "Contrôle durable du centre avant de lancer des attaques."
+        },
+        {
+          "name": "Partie Italienne",
+          "idea": "Contrôle rapide des cases centrales grâce au développement des pièces."
+        },
+        {
+          "name": "Défense Scandinave",
+          "idea": "Échange rapide au centre pour obtenir un développement actif."
+        },
+        {
+          "name": "Défense Nimzo-Indienne",
+          "idea": "Influence le centre en échangeant le fou contre le cavalier c3."
+        }
+      ],
+      "gameIds": [
+        "nunn-003",
+        "nunn-004",
+        "nunn-001",
+        "nunn-005"
+      ]
+    },
+    {
+      "id": "positionnel",
+      "title": "Jeu positionnel",
+      "blurb": "Espace, avant-postes, cases faibles et manœuvres à long terme.",
+      "openings": [
+        {
+          "name": "Système Réti",
+          "idea": "Développement souple visant un contrôle indirect du centre."
+        },
+        {
+          "name": "Défense Anglaise (1.c4 e5)",
+          "idea": "Contrôle indirect du centre par les pions et les pièces."
+        },
+        {
+          "name": "Défense Indienne de la Dame",
+          "idea": "Prépare des contre-attaques tout en contrôlant le centre."
+        },
+        {
+          "name": "Partie Catalane",
+          "idea": "Contrôle central associé à une pression à distance."
+        },
+        {
+          "name": "Système de Londres",
+          "idea": "Structure solide limitant les contre-attaques adverses."
+        },
+        {
+          "name": "Défense Caro-Kann (classique)",
+          "idea": "Position solide et équilibrée."
+        }
+      ],
+      "gameIds": [
+        "nunn-017",
+        "nunn-020",
+        "nunn-018",
+        "nunn-019"
+      ]
+    },
+    {
+      "id": "defensif",
+      "title": "Jeu défensif",
+      "blurb": "Parer l'attaque, sacrifier pour tenir, puis contre-attaquer.",
+      "openings": [
+        {
+          "name": "Défense Caro-Kann",
+          "idea": "Neutralise les attaques tout en restant flexible."
+        },
+        {
+          "name": "Défense Française",
+          "idea": "Ferme le centre avant de contre-attaquer sur les ailes."
+        },
+        {
+          "name": "Défense Pirc",
+          "idea": "Défense solide avec possibilités de contre-jeu."
+        },
+        {
+          "name": "Défense Slave",
+          "idea": "Structure robuste destinée à contenir l'adversaire."
+        }
+      ],
+      "gameIds": [
+        "nunn-012",
+        "nunn-014",
+        "nunn-015",
+        "nunn-013"
+      ]
+    },
+    {
+      "id": "finale",
+      "title": "Jeu cherchant la finale",
+      "blurb": "Simplifier au bon moment : roi actif, pions passés, tour en septième.",
+      "openings": [
+        {
+          "name": "Variante d'échange de la Française",
+          "idea": "Simplifie rapidement vers une finale."
+        },
+        {
+          "name": "Caro-Kann",
+          "idea": "Structure saine visant une finale favorable."
+        }
+      ],
+      "gameIds": [
+        "nunn-028",
+        "nunn-029",
+        "nunn-030"
+      ]
+    },
+    {
+      "id": "dynamique",
+      "title": "Jeu dynamique ou tactique",
+      "blurb": "Sacrifices, initiative et calcul forcé — le concret avant la structure.",
+      "openings": [
+        {
+          "name": "Défense Sicilienne",
+          "idea": "Recherche immédiatement les déséquilibres."
+        },
+        {
+          "name": "Sicilienne Scheveningen",
+          "idea": "Jeu tactique avec contre-attaques coordonnées."
+        },
+        {
+          "name": "Sicilienne Najdorf",
+          "idea": "Variante très dynamique favorisant l'initiative."
+        },
+        {
+          "name": "Sicilienne Dragon",
+          "idea": "Jeu tactique basé sur des attaques opposées."
+        },
+        {
+          "name": "Gambit Evans",
+          "idea": "Sacrifie un pion pour accélérer l'attaque."
+        },
+        {
+          "name": "Défense Alekhine",
+          "idea": "Provoque des déséquilibres en attirant le centre blanc."
+        }
+      ],
+      "gameIds": [
+        "nunn-008",
+        "nunn-009",
+        "nunn-011",
+        "chernov-026"
+      ]
+    },
+    {
+      "id": "structure",
+      "title": "Jeu de structure de pions",
+      "blurb": "Isolani, structures fixes et exploitation des faiblesses de pions.",
+      "openings": [
+        {
+          "name": "Défense Slave",
+          "idea": "Mise sur une structure de pions très solide."
+        },
+        {
+          "name": "Défense Hollandaise",
+          "idea": "Structure de pions agressive pour contrôler le centre."
+        },
+        {
+          "name": "Défense Nimzo-Indienne",
+          "idea": "Recherche des structures de pions favorables à long terme."
+        }
+      ],
+      "gameIds": [
+        "nunn-025",
+        "nunn-026",
+        "chernov-022",
+        "chernov-019"
+      ]
+    },
+    {
+      "id": "prophylaxie",
+      "title": "Jeu prophylactique",
+      "blurb": "Empêcher le plan adverse avant qu'il ne naisse — restriction et anticipation.",
+      "openings": [
+        {
+          "name": "Système Réti",
+          "idea": "Anticipe les plans adverses avant de prendre le centre."
+        },
+        {
+          "name": "Défense Nimzo-Indienne",
+          "idea": "Flexibilité et anticipation grâce au contrôle des cases centrales."
+        }
+      ],
+      "gameIds": [
+        "chernov-030",
+        "chernov-031"
+      ]
+    },
+    {
+      "id": "hypermoderne",
+      "title": "Jeu hypermoderne",
+      "blurb": "Laisser ou provoquer le centre pour le contre-attaquer à distance.",
+      "openings": [
+        {
+          "name": "Défense Moderne",
+          "idea": "Laisse l'adversaire occuper le centre pour mieux l'attaquer."
+        },
+        {
+          "name": "Défense Alekhine",
+          "idea": "Attaque le centre à distance après l'avoir provoqué."
+        },
+        {
+          "name": "Défense Nimzo-Indienne",
+          "idea": "Contrôle le centre par les pièces plutôt que par les pions."
+        }
+      ],
+      "gameIds": [
+        "chernov-024",
+        "nunn-027",
+        "nunn-024"
+      ]
+    },
+    {
+      "id": "hybride",
+      "title": "Jeu hybride ou flexible",
+      "blurb": "Systèmes qui peuvent basculer : attaque, centre ou simplification selon la réponse.",
+      "openings": [
+        {
+          "name": "Début Bird",
+          "idea": "Contrôle du centre et possibilités d'attaque sur les ailes."
+        },
+        {
+          "name": "Système Colle",
+          "idea": "Développement rapide et adaptable."
+        },
+        {
+          "name": "Partie Anglaise",
+          "idea": "Ouverture très polyvalente pouvant mener à de nombreuses structures."
+        }
+      ],
+      "gameIds": [
+        "chernov-021",
+        "chernov-012",
+        "chernov-011",
+        "chernov-023"
+      ]
+    }
+  ],
+  "entries": {
+    "chernov-004": {
+      "primary": "aile-roi",
+      "why": "Trajectoire d'attaque aile roi (Gambit du Roi) — section Chernev Kingside Attack."
+    },
+    "nunn-010": {
+      "primary": "aile-roi",
+      "why": "Opposite-Side Castling : courses d'attaques, pression mesurée sur l'aile roi."
+    },
+    "chernov-001": {
+      "primary": "aile-roi",
+      "why": "Coups vers f/g/h et mat — modèle Chernev d'attaque royale (malgré ouverture italienne)."
+    },
+    "nunn-006": {
+      "primary": "aile-roi",
+      "why": "Basic Attacking Ideas : plan d'attaque sur le roi, pas seulement tactique isolée."
+    },
+    "nunn-021": {
+      "primary": "aile-dame",
+      "why": "The Queenside Attack : plus de coups a–c que f–h ; objectif latéral explicite."
+    },
+    "chernov-017": {
+      "primary": "aile-dame",
+      "why": "Pillsbury : initiative et avancées à l'aile dame (ratio queenside élevé)."
+    },
+    "chernov-020": {
+      "primary": "aile-dame",
+      "why": "Rubinstein : pression latérale (a–c) dans une structure de gambit dame."
+    },
+    "nunn-003": {
+      "primary": "centre",
+      "why": "Successful Control of the Centre — le chapitre et les coups gravitent autour d4/e4/d5/e5."
+    },
+    "nunn-004": {
+      "primary": "centre",
+      "why": "Over-Extended Pawn-Centre : punir un centre trop avancé (fort ratio de coups centraux)."
+    },
+    "nunn-001": {
+      "primary": "centre",
+      "why": "Get the Pieces Out! : développement et lutte pour le centre dès l'ouverture."
+    },
+    "nunn-005": {
+      "primary": "centre",
+      "why": "Modern Gambit Play / Catalane : enjeux centraux et espace, avant le milieu de jeu."
+    },
+    "nunn-017": {
+      "primary": "positionnel",
+      "why": "Space Advantage : espace et restriction — peu d'assaut roi, beaucoup de manœuvre."
+    },
+    "nunn-020": {
+      "primary": "positionnel",
+      "why": "Weak Colour Complex : cases faibles et jeu de couleur, pas une course d'ailes."
+    },
+    "nunn-018": {
+      "primary": "positionnel",
+      "why": "Outpost : avant-poste et occupation de cases — plan positionnel clair."
+    },
+    "nunn-019": {
+      "primary": "positionnel",
+      "why": "Open File : activité des tours sur colonne ouverte (Alekhine hypermoderne en ouverture seulement)."
+    },
+    "nunn-012": {
+      "primary": "defensif",
+      "why": "Don't Panic : défendre sous une attaque Velimirović — le thème est la tenue."
+    },
+    "nunn-014": {
+      "primary": "defensif",
+      "why": "Defence and Counter-Attack : parer l'aile puis riposter."
+    },
+    "nunn-015": {
+      "primary": "defensif",
+      "why": "Grim Defence : structure slave et ressources défensives."
+    },
+    "nunn-013": {
+      "primary": "defensif",
+      "why": "The Defensive Sacrifice : Benko à l'aile dame, mais la leçon Nunn est le sacrifice défensif."
+    },
+    "nunn-028": {
+      "primary": "finale",
+      "why": "The Active King + ~60% des plies en finale réduite — conversion technique."
+    },
+    "nunn-029": {
+      "primary": "finale",
+      "why": "The Power of Passed Pawns : le plan décisif est la finale de pions passés."
+    },
+    "nunn-030": {
+      "primary": "finale",
+      "why": "Rook on the Seventh + forte phase finale — thème technique pur."
+    },
+    "nunn-008": {
+      "primary": "dynamique",
+      "why": "Standard Sacrifices : tactique et sacrifices types (initiative concrète)."
+    },
+    "nunn-009": {
+      "primary": "dynamique",
+      "why": "All-Out Sacrificial Onslaught : calcul forcé et déséquilibres."
+    },
+    "nunn-011": {
+      "primary": "dynamique",
+      "why": "Deadly Long Diagonal : combinaison / géométrie tactique, pas un plan lent d'aile."
+    },
+    "chernov-026": {
+      "primary": "dynamique",
+      "why": "Sicilienne : déséquilibres et jeu concret dès le milieu de partie."
+    },
+    "nunn-025": {
+      "primary": "structure",
+      "why": "Exploiting the Isolated d-Pawn — le isolani dicte tous les plans."
+    },
+    "nunn-026": {
+      "primary": "structure",
+      "why": "The Isolated d-Pawn Triumphs : dynamisme de l'IQP vs faiblesses structurelles."
+    },
+    "chernov-022": {
+      "primary": "structure",
+      "why": "Pillsbury–Marco : pression fondée sur la structure de pions du gambit dame."
+    },
+    "chernov-019": {
+      "primary": "structure",
+      "why": "Grünfeld–Schenkein (QGD) : jeu autour des faiblesses et chaînes de pions."
+    },
+    "chernov-030": {
+      "primary": "prophylaxie",
+      "why": "Capablanca : étouffer les plans adverses avant l'explosion — peu de coups « bruyants »."
+    },
+    "chernov-031": {
+      "primary": "prophylaxie",
+      "why": "Havasi–Capablanca (Nimzo) : restriction et anticipation plutôt qu'attaque directe."
+    },
+    "chernov-024": {
+      "primary": "hypermoderne",
+      "why": "Nimzo Capablanca : pièces contre centre de pions — idée hypermoderne pure."
+    },
+    "nunn-027": {
+      "primary": "hypermoderne",
+      "why": "KID fianchetto : pression à distance ; sacrifices positionnels sur structure hypermoderne."
+    },
+    "nunn-024": {
+      "primary": "hypermoderne",
+      "why": "KID classique : laisser le centre blanc pour le frapper ensuite."
+    },
+    "chernov-021": {
+      "primary": "hybride",
+      "why": "Colle (section QP) : système adaptable, pas encore braqué sur une seule aile."
+    },
+    "chernov-012": {
+      "primary": "hybride",
+      "why": "Anglaise : ouverture polyvalente (même si la partie finit en attaque Chernev)."
+    },
+    "chernov-011": {
+      "primary": "hybride",
+      "why": "Colle : développement flexible pouvant basculer vers l'attaque."
+    },
+    "chernov-023": {
+      "primary": "hybride",
+      "why": "Stonewall : structure-système avec plusieurs plans possibles."
+    }
+  }
+}

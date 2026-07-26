@@ -7,6 +7,7 @@ import { loadIndex } from "../lib/lessonLoader";
 import { aggregatePlayerElos, formatPlayerWithElo } from "../lib/playerStats";
 import { getGameProgress, loadProgress } from "../lib/progress";
 import { getBookDetails } from "../lib/bookDetails";
+import { sourceBookLabel } from "../lib/bookMeta";
 
 type Props = {
   selectedBook: BookId | null;
@@ -34,7 +35,13 @@ function bookProgress(lessons: LessonSummary[]) {
 }
 
 function libraryProgress(index: LessonIndex) {
-  const lessons = index.books.flatMap((book) => index[book.id] ?? []);
+  const byId = new Map<string, LessonSummary>();
+  for (const book of index.books) {
+    for (const lesson of index[book.id] ?? []) {
+      if (!byId.has(lesson.id)) byId.set(lesson.id, lesson);
+    }
+  }
+  const lessons = [...byId.values()];
   const { completedCount, inProgressCount } = bookProgress(lessons);
   return {
     totalGames: lessons.length,
@@ -120,7 +127,7 @@ function LibraryView({
             ? Math.round((completedCount / book.gameCount) * 100)
             : 0;
           const hasProgress = completedCount > 0 || inProgressCount > 0;
-          const isResumeBook = progress.lastLessonId?.startsWith(`${book.id}-`);
+          const isResumeBook = lessons.some((l) => l.id === progress.lastLessonId);
 
           return (
             <button
@@ -158,16 +165,23 @@ function LibraryView({
                 </>
               ) : null}
               <p className="book-card-stats">
-                {book.gameCount} annotated games in this app
+                {book.id === "intentions"
+                  ? `${book.gameCount} selected games from Chernev & Nunn`
+                  : `${book.gameCount} annotated games in this app`}
               </p>
               {book.sections && book.sections.length > 0 ? (
                 <ul className="book-card-sections" aria-label="Book sections">
-                  {book.sections.map((section) => (
+                  {(book.id === "intentions" ? book.sections.slice(0, 6) : book.sections).map((section) => (
                     <li key={section.title} title={section.blurb}>
                       <span className="book-card-section-name">{section.title}</span>
                       <span className="book-card-section-range">Games {section.range}</span>
                     </li>
                   ))}
+                  {book.id === "intentions" && book.sections.length > 6 ? (
+                    <li className="book-card-sections-more">
+                      +{book.sections.length - 6} more intentions
+                    </li>
+                  ) : null}
                 </ul>
               ) : null}
               <div className="book-card-footer">
@@ -217,7 +231,11 @@ function BookHomeView({
       l.section.toLowerCase().includes(q) ||
       (l.event?.toLowerCase().includes(q) ?? false) ||
       (l.opening?.toLowerCase().includes(q) ?? false) ||
-      (l.eco?.toLowerCase().includes(q) ?? false)
+      (l.eco?.toLowerCase().includes(q) ?? false) ||
+      (l.why?.toLowerCase().includes(q) ?? false) ||
+      (l.openingIdea?.toLowerCase().includes(q) ?? false) ||
+      (l.openingName?.toLowerCase().includes(q) ?? false) ||
+      (l.sourceBook?.toLowerCase().includes(q) ?? false)
     );
   }, [lessons, query]);
 
@@ -341,7 +359,9 @@ function BookHomeView({
                 ? `${filtered.length} of ${lessons.length} games match your search`
                 : elosLoading
                   ? "Loading estimated Elo ratings…"
-                  : "All games in book order — click a row to open"}
+                  : book.id === "intentions"
+                    ? "Games grouped by play intention — click a row to open"
+                    : "All games in book order — click a row to open"}
             </p>
           </div>
           <div className="toolbar">
@@ -370,6 +390,16 @@ function BookHomeView({
                         Games {meta.range} · {meta.blurb}
                       </p>
                     )}
+                    {meta?.openings && meta.openings.length > 0 ? (
+                      <ul className="intention-openings" aria-label="Typical openings for this intention">
+                        {meta.openings.map((opening) => (
+                          <li key={opening.name}>
+                            <strong>{opening.name}</strong>
+                            <span>{opening.idea}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    ) : null}
                   </div>
                   <span className="section-count">{items.length} games</span>
                 </div>
@@ -393,9 +423,13 @@ function BookHomeView({
                       const status = progressLabel(pct);
                       const performanceElo = performanceByLesson.get(lesson.id);
                       const winner = gameWinner(lesson.result);
+                      const sourceLabel = sourceBookLabel(lesson.sourceBook);
+                      const sourceGameNum = lesson.sourceLessonId
+                        ? Number(lesson.sourceLessonId.split("-").pop())
+                        : null;
                       return (
                         <button
-                          key={lesson.id}
+                          key={`${lesson.book}-${lesson.id}-${lesson.section}`}
                           type="button"
                           className={`lesson-row${pct >= 100 ? " is-complete" : pct > 0 ? " is-started" : ""}`}
                           onClick={() => onOpenLesson(lesson)}
@@ -412,7 +446,20 @@ function BookHomeView({
                                 {formatPlayerWithElo(lesson.players.black, performanceElo?.black)}
                               </span>
                             </strong>
-                            {lesson.event && <span className="lesson-event">{lesson.event}</span>}
+                            {lesson.why ? <span className="lesson-why">{lesson.why}</span> : null}
+                            {lesson.openingIdea ? (
+                              <span className="lesson-opening-idea">
+                                <strong>{lesson.openingName ?? "Ouverture"}</strong>
+                                {" — "}
+                                {lesson.openingIdea}
+                              </span>
+                            ) : null}
+                            {lesson.event && !lesson.why ? <span className="lesson-event">{lesson.event}</span> : null}
+                            {sourceLabel && sourceGameNum ? (
+                              <span className="lesson-source-badge">
+                                {sourceLabel} · Game {sourceGameNum}
+                              </span>
+                            ) : null}
                           </span>
                           <div className="lesson-meta-chips">
                             <GameResultBadge result={lesson.result} />

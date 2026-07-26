@@ -44,6 +44,22 @@ export const BOOK_DETAILS: Record<BookId, BookDetails> = {
     famousFor:
       "Gambit: \u201cA top-class grandmaster explains step-by-step how chess games are won.\u201d",
   },
+  intentions: {
+    published: "Curriculum · Chernev & Nunn",
+    tagline: "Learn to name your plan — then study games that embody it.",
+    description:
+      "A guided path through selected games from Chernev and Nunn, reorganised around eleven play intentions. "
+      + "Each intention lists typical openings and their main idea, then points you to teaching games that illustrate the plan.",
+    audience: "Club players · after a few annotated games",
+    highlights: [
+      "Eleven intentions with a table of openings and main ideas",
+      "Reuses the best teaching games — no duplicate commentary files",
+      "Progress is shared with the source books",
+      "Each game carries a short \u201cwhy this game\u201d note for the intention",
+    ],
+    famousFor:
+      "Study the same classics twice: once in book order, once by intention.",
+  },
 };
 
 export function getBookDetails(bookId: BookId | string): BookDetails | undefined {
