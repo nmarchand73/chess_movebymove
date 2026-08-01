@@ -18,23 +18,36 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - name: Checkout move_by_move
+        uses: actions/checkout@v6
+        with:
+          path: move_by_move
+
+      - name: Checkout eboard-connect-js
+        uses: actions/checkout@v6
+        with:
+          repository: nmarchand73/eboard-connect-js
+          path: eboard-connect-js
 
       - uses: actions/setup-node@v6
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: web/package-lock.json
+          cache-dependency-path: |
+            move_by_move/web/package-lock.json
+            eboard-connect-js/package-lock.json
 
       - name: Install and build
-        working-directory: web
+        working-directory: move_by_move/web
         run: |
+          npm --prefix ../../eboard-connect-js ci
+          npm --prefix ../../eboard-connect-js run build
           npm ci
           npm run build
 
       - uses: actions/upload-pages-artifact@v5
         with:
-          path: web/dist
+          path: move_by_move/web/dist
 
   deploy:
     needs: build

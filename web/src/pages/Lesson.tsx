@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Lesson, LessonSummary } from "../types";
 import { loadLesson } from "../lib/lessonLoader";
 import { buildPositionAtPly } from "../lib/chess";
@@ -17,7 +17,10 @@ import { BoardPanel, chessFromFen } from "../components/BoardPanel";
 import { usePositionEval } from "../hooks/usePositionEval";
 import { usePerformanceRating } from "../hooks/usePerformanceRating";
 import { usePerformanceElos } from "../hooks/usePerformanceElos";
+import { useChessnutBoard } from "../hooks/useChessnutBoard";
 import { CommentaryPanel } from "../components/CommentaryPanel";
+import { ChessnutConnectBar } from "../components/ChessnutConnectBar";
+import { BoardGuideBanner } from "../components/BoardGuideBanner";
 import { GuessMove } from "../components/GuessMove";
 import { MoveStrip } from "../components/MoveStrip";
 import { OpeningLabel } from "../components/OpeningLabel";
@@ -25,6 +28,7 @@ import { TransportBar } from "../components/TransportBar";
 import { ExportPromptButton } from "../components/ExportPromptButton";
 import { contextualizeOpeningExplanation, getOpeningTooltip } from "../lib/openingTooltips";
 import { commentatorName } from "../lib/bookMeta";
+import { buildBoardGuide, guideLedSquares } from "../lib/boardGuide";
 
 type Props = {
   summary: LessonSummary;
@@ -39,6 +43,8 @@ export function LessonPage({ summary, onBack }: Props) {
   const [guessEnabled, setGuessEnabled] = useState(false);
   const [revealed, setRevealed] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const chessnut = useChessnutBoard();
+  const lastHandledPlacement = useRef<string | null>(null);
 
   useEffect(() => {
     loadLesson(summary.file)
@@ -170,6 +176,38 @@ export function LessonPage({ summary, onBack }: Props) {
       setRevealed(true);
     }
   }, [ply, nextNode, guessEnabled]);
+
+  useEffect(() => {
+    if (chessnut.status !== "connected" || !chessnut.placement || !lesson) return;
+    if (chessnut.placement === lastHandledPlacement.current) return;
+    if (ply >= lesson.moveCount) return;
+
+    const expectedPlacement = buildPositionAtPly(lesson.nodes, ply + 1).fen().split(" ")[0];
+    if (chessnut.placement !== expectedPlacement) return;
+
+    lastHandledPlacement.current = chessnut.placement;
+    setRevealed(true);
+    goTo(ply + 1);
+  }, [chessnut.status, chessnut.placement, lesson, ply, goTo]);
+
+  const boardGuide = useMemo(() => {
+    if (chessnut.status !== "connected" || !chess) return null;
+    return buildBoardGuide({
+      boardPlacement: chessnut.placement,
+      lessonPlacement: chess.fen().split(" ")[0]!,
+      nextSan: nextNode?.san ?? null,
+      chess,
+      atEnd: ply >= maxPly,
+    });
+  }, [chessnut.status, chessnut.placement, chess, nextNode?.san, ply, maxPly]);
+
+  useEffect(() => {
+    if (!boardGuide) {
+      void chessnut.setLeds([]);
+      return;
+    }
+    void chessnut.setLeds(guideLedSquares(boardGuide));
+  }, [boardGuide, chessnut.setLeds]);
 
   useEffect(() => {
     function onKeyDown(e: KeyboardEvent) {
@@ -328,6 +366,19 @@ export function LessonPage({ summary, onBack }: Props) {
             onToggleGuess={() => setGuessEnabled((v) => !v)}
             nextBlocked={guessing}
           />
+
+          <ChessnutConnectBar
+            status={chessnut.status}
+            transport={chessnut.transport}
+            battery={chessnut.battery}
+            error={chessnut.error}
+            supported={chessnut.supported}
+            onConnect={(kind) => void chessnut.connect(kind)}
+            onDisconnect={() => void chessnut.disconnect()}
+            hint={boardGuide ? null : undefined}
+          />
+
+          {boardGuide ? <BoardGuideBanner guide={boardGuide} /> : null}
 
           <MoveStrip
             nodes={lesson.nodes}

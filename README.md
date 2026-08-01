@@ -66,9 +66,15 @@ move_by_move/
 │   └── src/
 │       ├── pages/           # Home (library + game list), Lesson (reader)
 │       ├── components/      # Board, commentary, transport, guess-move
-│       ├── hooks/           # Stockfish eval, performance rating
+│       ├── hooks/           # Stockfish eval, performance rating, Chessnut
 │       └── lib/             # Chess, commentary parsing, progress, index
 └── .github/workflows/deploy.yml
+
+Shared board connector (sibling repo / folder):
+
+```
+../eboard-connect-js/        # Shared e-board connector (Chessnut BLE + USB)
+```
 ```
 
 ### Data model

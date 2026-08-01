@@ -13,6 +13,7 @@ type Props = {
   selectedBook: BookId | null;
   onSelectBook: (bookId: BookId | null) => void;
   onOpenLesson: (lesson: LessonSummary) => void;
+  onOpenSettings: () => void;
 };
 
 function sectionMeta(sections: BookMeta["sections"], title: string) {
@@ -55,10 +56,12 @@ function LibraryView({
   index,
   onSelectBook,
   onOpenLesson,
+  onOpenSettings,
 }: {
   index: LessonIndex;
   onSelectBook: (bookId: BookId) => void;
   onOpenLesson: (lesson: LessonSummary) => void;
+  onOpenSettings: () => void;
 }) {
   const progress = loadProgress();
   const { totalGames, completedCount, inProgressCount } = libraryProgress(index);
@@ -73,7 +76,12 @@ function LibraryView({
     <div className="book-library">
       <header className="library-hero">
         <div className="library-hero-copy">
-          <p className="eyebrow">Move-by-Move Coach</p>
+          <div className="library-hero-top">
+            <p className="eyebrow">Move-by-Move Coach</p>
+            <button type="button" className="text-btn settings-link" onClick={onOpenSettings}>
+              Settings
+            </button>
+          </div>
           <h1>Study classic games move by move</h1>
           <p className="library-hero-lead">
             Chernev and Nunn, {totalGames} games — synced board, commentary, Stockfish, and AI analysis prompts.
@@ -209,11 +217,13 @@ function BookHomeView({
   lessons,
   onBack,
   onOpenLesson,
+  onOpenSettings,
 }: {
   book: BookMeta;
   lessons: LessonSummary[];
   onBack: () => void;
   onOpenLesson: (lesson: LessonSummary) => void;
+  onOpenSettings: () => void;
 }) {
   const [query, setQuery] = useState("");
   const progress = loadProgress();
@@ -280,9 +290,14 @@ function BookHomeView({
     <div className="home">
       <header className="home-hero">
         <div className="home-hero-copy">
-          <button type="button" className="back-link library-back" onClick={onBack}>
-            ← Library
-          </button>
+          <div className="library-hero-top">
+            <button type="button" className="back-link library-back" onClick={onBack}>
+              ← Library
+            </button>
+            <button type="button" className="text-btn settings-link" onClick={onOpenSettings}>
+              Settings
+            </button>
+          </div>
           <p className="eyebrow">{book.author}{book.publisher ? ` · ${book.publisher}` : ""}</p>
           <h1>{book.title}</h1>
           {details ? (
@@ -506,7 +521,7 @@ function BookHomeView({
   );
 }
 
-export function Home({ selectedBook, onSelectBook, onOpenLesson }: Props) {
+export function Home({ selectedBook, onSelectBook, onOpenLesson, onOpenSettings }: Props) {
   const [index, setIndex] = useState<LessonIndex | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -525,6 +540,7 @@ export function Home({ selectedBook, onSelectBook, onOpenLesson }: Props) {
         index={index}
         onSelectBook={onSelectBook}
         onOpenLesson={onOpenLesson}
+        onOpenSettings={onOpenSettings}
       />
     );
   }
@@ -539,6 +555,7 @@ export function Home({ selectedBook, onSelectBook, onOpenLesson }: Props) {
       lessons={lessons}
       onBack={() => onSelectBook(null)}
       onOpenLesson={onOpenLesson}
+      onOpenSettings={onOpenSettings}
     />
   );
 }
