@@ -150,10 +150,14 @@ export function useChessnutBoard() {
 
   useEffect(() => {
     let cancelled = false;
+    // Read via a helper so TS does not narrow the ref after the early return
+    // (connect() mutates statusRef across awaits).
+    const currentStatus = (): ChessnutConnectionStatus => statusRef.current;
 
     async function tryAutoReconnect() {
       if (!loadWantConnected()) return;
-      if (statusRef.current === "connected" || statusRef.current === "connecting") return;
+      const initial = currentStatus();
+      if (initial === "connected" || initial === "connecting") return;
 
       const kind = loadLastTransport();
       if (!kind) return;
@@ -162,10 +166,10 @@ export function useChessnutBoard() {
 
       const attempts = kind === "ble" ? 3 : 1;
       for (let i = 0; i < attempts; i++) {
-        if (cancelled || statusRef.current === "connected") return;
+        if (cancelled || currentStatus() === "connected") return;
         console.info("[Chessnut] auto-reconnect attempt", i + 1, "/", attempts, kind);
         await connect(kind, { reconnect: true });
-        if (cancelled || statusRef.current === "connected") return;
+        if (cancelled || currentStatus() === "connected") return;
         if (i < attempts - 1) await sleep(900 * (i + 1));
       }
     }
