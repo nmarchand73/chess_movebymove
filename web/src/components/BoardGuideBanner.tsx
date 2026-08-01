@@ -3,9 +3,11 @@ import type { BoardGuide } from "../lib/boardGuide";
 
 type Props = {
   guide: BoardGuide;
+  /** Lesson ply — used to label a full reset to the starting position. */
+  ply?: number;
 };
 
-export function BoardGuideBanner({ guide }: Props) {
+export function BoardGuideBanner({ guide, ply = -1 }: Props) {
   switch (guide.kind) {
     case "waiting_signal":
       return (
@@ -17,11 +19,13 @@ export function BoardGuideBanner({ guide }: Props) {
     case "setup":
       return (
         <div className="board-guide is-setup" role="status">
-          <strong>Match the screen position</strong>
+          <strong>{ply === 0 ? "Reset to the starting position" : "Match the screen position"}</strong>
           <p>
             {guide.mismatchCount === 0
               ? "Adjust the pieces on the board until they match the diagram."
-              : `${guide.mismatchCount} square${guide.mismatchCount === 1 ? "" : "s"} differ — lit on your Chessnut. Fix those pieces to continue.`}
+              : ply === 0
+                ? `${guide.mismatchCount} square${guide.mismatchCount === 1 ? "" : "s"} off the initial setup — lit on your Chessnut. Put every piece back to continue.`
+                : `${guide.mismatchCount} square${guide.mismatchCount === 1 ? "" : "s"} differ — lit on your Chessnut. Fix those pieces to continue.`}
           </p>
         </div>
       );

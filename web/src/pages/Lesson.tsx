@@ -2,8 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Lesson, LessonSummary } from "../types";
 import { loadLesson } from "../lib/lessonLoader";
 import { buildPositionAtPly } from "../lib/chess";
-import { normalizeCommentary, type AlternativeMove } from "../lib/commentary";
-import { buildCommentaryBeats, beatsNeedStepping } from "../lib/commentaryBeats";
+import { type AlternativeMove } from "../lib/commentary";
 import {
   formatAnnotatedJumpLabel,
   nextAnnotatedPly,
@@ -38,13 +37,16 @@ type Props = {
 export function LessonPage({ summary, onBack }: Props) {
   const [lesson, setLesson] = useState<Lesson | null>(null);
   const [ply, setPly] = useState(0);
-  const [beatIndex, setBeatIndex] = useState(0);
   const [preview, setPreview] = useState<{ fen: string; label: string } | null>(null);
   const [guessEnabled, setGuessEnabled] = useState(false);
   const [revealed, setRevealed] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  /** After First/scrub: wait until the physical board matches the diagram. */
+  const [awaitingPhysicalSync, setAwaitingPhysicalSync] = useState(false);
   const chessnut = useChessnutBoard();
-  const lastHandledPlacement = useRef<string | null>(null);
+  /** Board placement when the lesson ply last changed — blocks auto-advance on rewind. */
+  const placementAtPlyLanding = useRef<string | null>(null);
+  const lastAutoAdvancedPlacement = useRef<string | null>(null);
 
   useEffect(() => {
     loadLesson(summary.file)
@@ -62,13 +64,6 @@ export function LessonPage({ summary, onBack }: Props) {
     if (preview) return chessFromFen(preview.fen);
     return chess;
   }, [preview, chess]);
-
-  const normalized = useMemo(
-    () => normalizeCommentary(node?.text ?? "", node?.san),
-    [node],
-  );
-  const beats = useMemo(() => buildCommentaryBeats(normalized), [normalized]);
-  const hasMoreBeats = beatsNeedStepping(beats) && beatIndex < beats.length - 1;
 
   const showEngine = ply > 0;
   const { eval: positionEval, status: evalStatus } = usePositionEval(
@@ -104,7 +99,6 @@ export function LessonPage({ summary, onBack }: Props) {
   const goTo = useCallback((target: number) => {
     if (!lesson) return;
     setPly(Math.max(0, Math.min(target, lesson.moveCount)));
-    setBeatIndex(0);
     setPreview(null);
     setRevealed(true);
   }, [lesson]);
@@ -121,7 +115,6 @@ export function LessonPage({ summary, onBack }: Props) {
         if (ply === 0) {
           const targetPly = nextAnnotatedPly(lesson.nodes, 0, lesson.moveCount) ?? 1;
           setPly(targetPly);
-          setBeatIndex(0);
           setRevealed(true);
         }
         setPreview({ fen: resolution.fen, label: resolution.label });
@@ -142,7 +135,6 @@ export function LessonPage({ summary, onBack }: Props) {
         if (ply === 0) {
           const targetPly = nextAnnotatedPly(lesson.nodes, 0, lesson.moveCount) ?? 1;
           setPly(targetPly);
-          setBeatIndex(0);
           setRevealed(true);
         }
         setPreview({ fen: resolution.fen, label: resolution.label });
@@ -152,22 +144,14 @@ export function LessonPage({ summary, onBack }: Props) {
   );
 
   const advance = useCallback(() => {
-    if (hasMoreBeats) {
-      setBeatIndex((index) => index + 1);
-      return;
-    }
     if (ply < maxPly) goTo(ply + 1);
-  }, [hasMoreBeats, ply, maxPly, goTo]);
+  }, [ply, maxPly, goTo]);
 
   const commentator = commentatorName(summary.book, summary.sourceBook);
 
   useEffect(() => {
     if (lesson) markContinue(lesson.id, ply, lesson.moveCount);
   }, [lesson, ply]);
-
-  useEffect(() => {
-    setBeatIndex(0);
-  }, [ply]);
 
   useEffect(() => {
     if (guessEnabled && nextNode?.san) {
@@ -177,18 +161,48 @@ export function LessonPage({ summary, onBack }: Props) {
     }
   }, [ply, nextNode, guessEnabled]);
 
+  // Remember physical position when ply changes (First / scrub / keyboard).
+  // Auto-advance only if the board moves AFTER landing on this ply — otherwise
+  // rewinding to the start while pieces are mid-game would instantly jump forward.
+  useEffect(() => {
+    placementAtPlyLanding.current = chessnut.placement;
+    lastAutoAdvancedPlacement.current = null;
+    if (chessnut.status === "connected") {
+      setAwaitingPhysicalSync(true);
+    }
+  }, [ply, chessnut.status]);
+
+  useEffect(() => {
+    if (placementAtPlyLanding.current == null && chessnut.placement) {
+      placementAtPlyLanding.current = chessnut.placement;
+    }
+  }, [chessnut.placement]);
+
+  const lessonPlacement = chess?.fen().split(" ")[0] ?? null;
+
+  useEffect(() => {
+    if (!awaitingPhysicalSync || !chessnut.placement || !lessonPlacement) return;
+    if (chessnut.placement === lessonPlacement) {
+      setAwaitingPhysicalSync(false);
+    }
+  }, [awaitingPhysicalSync, chessnut.placement, lessonPlacement]);
+
   useEffect(() => {
     if (chessnut.status !== "connected" || !chessnut.placement || !lesson) return;
-    if (chessnut.placement === lastHandledPlacement.current) return;
     if (ply >= lesson.moveCount) return;
+    // Do not advance while the board still needs to match the diagram (e.g. reset to start).
+    if (awaitingPhysicalSync) return;
+    if (placementAtPlyLanding.current == null) return;
+    if (chessnut.placement === placementAtPlyLanding.current) return;
+    if (chessnut.placement === lastAutoAdvancedPlacement.current) return;
 
-    const expectedPlacement = buildPositionAtPly(lesson.nodes, ply + 1).fen().split(" ")[0];
-    if (chessnut.placement !== expectedPlacement) return;
+    const nextPlacement = buildPositionAtPly(lesson.nodes, ply + 1).fen().split(" ")[0];
+    if (chessnut.placement !== nextPlacement) return;
 
-    lastHandledPlacement.current = chessnut.placement;
+    lastAutoAdvancedPlacement.current = chessnut.placement;
     setRevealed(true);
     goTo(ply + 1);
-  }, [chessnut.status, chessnut.placement, lesson, ply, goTo]);
+  }, [chessnut.status, chessnut.placement, lesson, ply, goTo, awaitingPhysicalSync]);
 
   const boardGuide = useMemo(() => {
     if (chessnut.status !== "connected" || !chess) return null;
@@ -198,16 +212,28 @@ export function LessonPage({ summary, onBack }: Props) {
       nextSan: nextNode?.san ?? null,
       chess,
       atEnd: ply >= maxPly,
+      requireExactSync: awaitingPhysicalSync,
     });
-  }, [chessnut.status, chessnut.placement, chess, nextNode?.san, ply, maxPly]);
+  }, [chessnut.status, chessnut.placement, chess, nextNode?.san, ply, maxPly, awaitingPhysicalSync]);
 
+  // Apply play_move / clear LEDs immediately; debounce setup floods so a noisy
+  // lift reading cannot flash every mismatched square. Exact sync after rewind
+  // applies setup LEDs immediately (player must reset pieces).
   useEffect(() => {
     if (!boardGuide) {
       void chessnut.setLeds([]);
       return;
     }
-    void chessnut.setLeds(guideLedSquares(boardGuide));
-  }, [boardGuide, chessnut.setLeds]);
+    const squares = guideLedSquares(boardGuide);
+    if (boardGuide.kind !== "setup" || awaitingPhysicalSync) {
+      void chessnut.setLeds(squares);
+      return;
+    }
+    const timer = window.setTimeout(() => {
+      void chessnut.setLeds(squares);
+    }, 140);
+    return () => window.clearTimeout(timer);
+  }, [boardGuide, chessnut.setLeds, awaitingPhysicalSync]);
 
   useEffect(() => {
     function onKeyDown(e: KeyboardEvent) {
@@ -219,11 +245,7 @@ export function LessonPage({ summary, onBack }: Props) {
         advance();
       } else if (e.key === "ArrowLeft") {
         e.preventDefault();
-        if (beatIndex > 0) {
-          setBeatIndex((index) => index - 1);
-        } else if (ply > 0) {
-          goTo(ply - 1);
-        }
+        if (ply > 0) goTo(ply - 1);
       } else if (e.key === "Home") {
         e.preventDefault();
         goTo(0);
@@ -237,7 +259,7 @@ export function LessonPage({ summary, onBack }: Props) {
     }
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
-  }, [ply, maxPly, goTo, guessEnabled, revealed, nextNode, advance, beatIndex, preview]);
+  }, [ply, maxPly, goTo, guessEnabled, revealed, nextNode, advance, preview]);
 
   if (error) return <p className="error">{error}</p>;
   if (!lesson || !chess || !displayChess) return <div className="loading">Loading lesson…</div>;
@@ -353,12 +375,8 @@ export function LessonPage({ summary, onBack }: Props) {
             sideToMove={sideToMove}
             nextAnnotatedPly={nextNotePly}
             nextAnnotatedLabel={nextNoteLabel}
-            hasMoreBeats={hasMoreBeats}
             onFirst={() => goTo(0)}
-            onPrev={() => {
-              if (beatIndex > 0) setBeatIndex((index) => index - 1);
-              else goTo(ply - 1);
-            }}
+            onPrev={() => goTo(ply - 1)}
             onNext={advance}
             onNextAnnotated={() => nextNotePly && goTo(nextNotePly)}
             onLast={() => goTo(maxPly)}
@@ -378,7 +396,7 @@ export function LessonPage({ summary, onBack }: Props) {
             hint={boardGuide ? null : undefined}
           />
 
-          {boardGuide ? <BoardGuideBanner guide={boardGuide} /> : null}
+          {boardGuide ? <BoardGuideBanner guide={boardGuide} ply={ply} /> : null}
 
           <MoveStrip
             nodes={lesson.nodes}
@@ -404,8 +422,6 @@ export function LessonPage({ summary, onBack }: Props) {
           node={node}
           ply={ply}
           totalPlies={maxPly}
-          beatIndex={beatIndex}
-          onBeatChange={setBeatIndex}
           onSanClick={handleSanClick}
           onAltClick={handleAltClick}
           commentator={commentator}

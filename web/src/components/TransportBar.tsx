@@ -5,7 +5,6 @@ type Props = {
   sideToMove: "white" | "black" | "none";
   nextAnnotatedPly: number | null;
   nextAnnotatedLabel?: string | null;
-  hasMoreBeats: boolean;
   onFirst: () => void;
   onPrev: () => void;
   onNext: () => void;
@@ -23,7 +22,6 @@ export function TransportBar({
   sideToMove,
   nextAnnotatedPly,
   nextAnnotatedLabel,
-  hasMoreBeats,
   onFirst,
   onPrev,
   onNext,
@@ -65,10 +63,10 @@ export function TransportBar({
           className="transport-next"
           onClick={onNext}
           disabled={ply >= maxPly || nextBlocked}
-          aria-label={hasMoreBeats ? "Continue reading" : "Next move"}
-          title={hasMoreBeats ? "Continue reading (→ or Space)" : "Next move (→ or Space)"}
+          aria-label="Next move"
+          title="Next move (→ or Space)"
         >
-          {hasMoreBeats ? "Continue ▶" : "Next ▶"}
+          Next ▶
         </button>
         <button type="button" className="secondary icon-btn" onClick={onLast} disabled={ply >= maxPly} aria-label="Last move" title="Last (End)">
           ⏭

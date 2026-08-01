@@ -2,8 +2,6 @@ import { useMemo } from "react";
 import type { AnnotationNode } from "../types";
 import {
   buildCommentaryBeats,
-  beatsNeedStepping,
-  extractPrinciples,
   extractTakeaway,
   type CommentaryBeat,
 } from "../lib/commentaryBeats";
@@ -20,8 +18,6 @@ type Props = {
   node: AnnotationNode | undefined;
   ply: number;
   totalPlies: number;
-  beatIndex: number;
-  onBeatChange: (index: number) => void;
   onSanClick: (notation: string) => void;
   onAltClick: (alt: AlternativeMove) => void;
   commentator: string;
@@ -103,39 +99,37 @@ function BeatContent({
   onSanClick: (notation: string) => void;
   onAltClick: (alt: AlternativeMove) => void;
 }) {
-  if (beat.kind === "heading") {
-    return <h3 className="commentary-chapter">{beat.text}</h3>;
+  switch (beat.kind) {
+    case "heading":
+      return <h3 className="commentary-chapter">{beat.text}</h3>;
+    case "prose":
+    case "principle":
+      return <CommentaryParagraph text={beat.text} onSanClick={onSanClick} />;
+    case "alternatives":
+      return (
+        <div className="prelude-block">
+          <h3>{beat.intro ? "Choosing the reply" : "Alternatives considered"}</h3>
+          <div className="alt-intro-row">
+            {beat.intro ? <p className="alt-intro">{beat.intro}</p> : null}
+            <ul className="alt-chip-row">
+              {beat.alternatives.map((alt) => (
+                <AlternativeChip key={alt.label + alt.quote.slice(0, 24)} alt={alt} onAltClick={onAltClick} />
+              ))}
+            </ul>
+          </div>
+        </div>
+      );
+    default: {
+      const _exhaustive: never = beat;
+      return _exhaustive;
+    }
   }
-
-  if (beat.kind === "prose") {
-    return <CommentaryParagraph text={beat.text} onSanClick={onSanClick} />;
-  }
-
-  if (beat.kind === "principle") {
-    return <blockquote className="principle-callout">{beat.text}</blockquote>;
-  }
-
-  return (
-    <div className="prelude-block">
-      <h3>{beat.intro ? "Choosing the reply" : "Alternatives considered"}</h3>
-      <div className="alt-intro-row">
-        {beat.intro ? <p className="alt-intro">{beat.intro}</p> : null}
-        <ul className="alt-chip-row">
-          {beat.alternatives.map((alt) => (
-            <AlternativeChip key={alt.label + alt.quote.slice(0, 24)} alt={alt} onAltClick={onAltClick} />
-          ))}
-        </ul>
-      </div>
-    </div>
-  );
 }
 
 export function CommentaryPanel({
   node,
   ply,
   totalPlies,
-  beatIndex,
-  onBeatChange,
   onSanClick,
   onAltClick,
   commentator,
@@ -150,16 +144,7 @@ export function CommentaryPanel({
   const takeaway = useMemo(() => extractTakeaway(normalized), [normalized]);
   const beats = useMemo(() => buildCommentaryBeats(normalized), [normalized]);
   const headingBeat = beats.find((beat): beat is Extract<CommentaryBeat, { kind: "heading" }> => beat.kind === "heading");
-  const principles = useMemo(() => {
-    const extracted = extractPrinciples([...normalized.main, ...normalized.tail]);
-    const blocked = new Set([takeaway, headingBeat?.text].filter(Boolean));
-    return extracted.filter((p) => !blocked.has(p));
-  }, [normalized, takeaway, headingBeat?.text]);
-  const stepping = beatsNeedStepping(beats);
-  const safeBeatIndex = Math.min(beatIndex, Math.max(0, beats.length - 1));
-  const currentBeat = beats[safeBeatIndex];
-
-  const hasContent = beats.length > 0 || principles.length > 0;
+  const hasContent = beats.length > 0;
 
   return (
     <section className="commentary">
@@ -188,41 +173,14 @@ export function CommentaryPanel({
           <p className="commentary-takeaway">{takeaway}</p>
         ) : null}
 
-        {principles.length > 0 ? (
-          <div className="principle-list">
-            {principles.slice(0, 2).map((p) => (
-              <blockquote key={p} className="principle-callout">{p}</blockquote>
-            ))}
-          </div>
-        ) : null}
-
-        {currentBeat ? (
-          <BeatContent beat={currentBeat} onSanClick={onSanClick} onAltClick={onAltClick} />
-        ) : null}
-
-        {stepping ? (
-          <div className="beat-nav">
-            <button
-              type="button"
-              className="secondary"
-              disabled={safeBeatIndex === 0}
-              onClick={() => onBeatChange(safeBeatIndex - 1)}
-            >
-              ← Earlier
-            </button>
-            <span className="beat-counter">
-              Part {safeBeatIndex + 1} / {beats.length}
-            </span>
-            <button
-              type="button"
-              className="secondary"
-              disabled={safeBeatIndex >= beats.length - 1}
-              onClick={() => onBeatChange(safeBeatIndex + 1)}
-            >
-              Continue →
-            </button>
-          </div>
-        ) : null}
+        {beats.map((beat, index) => (
+          <BeatContent
+            key={`${beat.kind}-${index}`}
+            beat={beat}
+            onSanClick={onSanClick}
+            onAltClick={onAltClick}
+          />
+        ))}
       </article>
     </section>
   );
