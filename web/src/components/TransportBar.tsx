@@ -90,9 +90,14 @@ export function TransportBar({
       <div className="transport-footer">
         <label className="guess-toggle">
           <input type="checkbox" checked={guessEnabled} onChange={onToggleGuess} />
-          {physicalBoard
-            ? "Quiz on the board (hide next move)"
-            : "Guess-the-move before advancing"}
+          <span className="guess-toggle-full">
+            {physicalBoard
+              ? "Quiz on the board (hide next move)"
+              : "Guess-the-move before advancing"}
+          </span>
+          <span className="guess-toggle-short">
+            {physicalBoard ? "Quiz on board" : "Guess mode"}
+          </span>
         </label>
         <span className="keyboard-hint">← → navigate · Space next</span>
       </div>
