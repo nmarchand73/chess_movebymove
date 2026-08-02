@@ -430,11 +430,25 @@ export function LessonPage({ summary, onBack }: Props) {
               fen={chess.fen()}
               eval={positionEval}
               status={evalStatus}
-              hidden={!showEngine}
+              hidden={!showEngine || guessing}
             />
           </div>
 
           <div className="study-chrome">
+            {guessing && nextNode?.san ? (
+              <GuessMove
+                key={ply}
+                chess={chess}
+                expectedSan={nextNode.san}
+                commentator={commentator}
+                onReveal={revealNext}
+                onCorrect={() => undefined}
+                onWrong={() => enqueueReview(lesson.id, ply + 1)}
+                physicalBoard={physicalConnected}
+                externalFeedback={physicalGuessFeedback}
+              />
+            ) : null}
+
             <TransportBar
               ply={ply}
               maxPly={maxPly}
@@ -471,20 +485,6 @@ export function LessonPage({ summary, onBack }: Props) {
               onSelect={goTo}
               hideFuture={guessing}
             />
-
-            {guessing && nextNode?.san && (
-              <GuessMove
-                key={ply}
-                chess={chess}
-                expectedSan={nextNode.san}
-                commentator={commentator}
-                onReveal={revealNext}
-                onCorrect={() => undefined}
-                onWrong={() => enqueueReview(lesson.id, ply + 1)}
-                physicalBoard={physicalConnected}
-                externalFeedback={physicalGuessFeedback}
-              />
-            )}
           </div>
         </aside>
 
