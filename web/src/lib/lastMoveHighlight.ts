@@ -1,18 +1,19 @@
 import type { CSSProperties } from "react";
 import type { Chess } from "chess.js";
 
-const WHITE_ARROW_COLOR = "#c45c1a";
-const BLACK_ARROW_COLOR = "#2b5278";
+const WHITE_ARROW_COLOR = "#e91e63";
+/** Cover knight gold/orange — reads clear on lavender dark squares, distinct from white magenta. */
+const BLACK_ARROW_COLOR = "#ff8a3d";
 
-const WHITE_FROM_TINT = "rgba(196, 92, 26, 0.18)";
-const WHITE_TO_TINT = "rgba(196, 92, 26, 0.32)";
-const WHITE_FROM_RING = "inset 0 0 0 3px rgba(196, 92, 26, 0.55)";
-const WHITE_TO_RING = "inset 0 0 0 3px #c45c1a";
+const WHITE_FROM_TINT = "rgba(233, 30, 99, 0.18)";
+const WHITE_TO_TINT = "rgba(233, 30, 99, 0.32)";
+const WHITE_FROM_RING = "inset 0 0 0 3px rgba(233, 30, 99, 0.55)";
+const WHITE_TO_RING = "inset 0 0 0 3px #e91e63";
 
-const BLACK_FROM_TINT = "rgba(43, 82, 120, 0.18)";
-const BLACK_TO_TINT = "rgba(43, 82, 120, 0.32)";
-const BLACK_FROM_RING = "inset 0 0 0 3px rgba(43, 82, 120, 0.55)";
-const BLACK_TO_RING = "inset 0 0 0 3px #2b5278";
+const BLACK_FROM_TINT = "rgba(255, 138, 61, 0.22)";
+const BLACK_TO_TINT = "rgba(255, 138, 61, 0.38)";
+const BLACK_FROM_RING = "inset 0 0 0 3px rgba(255, 138, 61, 0.65)";
+const BLACK_TO_RING = "inset 0 0 0 3px #ff8a3d";
 
 export function arrowColorForSide(color: "w" | "b"): string {
   return color === "w" ? WHITE_ARROW_COLOR : BLACK_ARROW_COLOR;

@@ -19,7 +19,6 @@ import { usePerformanceElos } from "../hooks/usePerformanceElos";
 import { useChessnutBoard } from "../hooks/useChessnutBoard";
 import { CommentaryPanel } from "../components/CommentaryPanel";
 import { ChessnutConnectBar } from "../components/ChessnutConnectBar";
-import { BoardGuideBanner } from "../components/BoardGuideBanner";
 import { GuessMove } from "../components/GuessMove";
 import { MoveStrip } from "../components/MoveStrip";
 import { OpeningLabel } from "../components/OpeningLabel";
@@ -368,54 +367,55 @@ export function LessonPage({ summary, onBack }: Props) {
             />
           </div>
 
-          <TransportBar
-            ply={ply}
-            maxPly={maxPly}
-            currentSan={node?.san}
-            sideToMove={sideToMove}
-            nextAnnotatedPly={nextNotePly}
-            nextAnnotatedLabel={nextNoteLabel}
-            onFirst={() => goTo(0)}
-            onPrev={() => goTo(ply - 1)}
-            onNext={advance}
-            onNextAnnotated={() => nextNotePly && goTo(nextNotePly)}
-            onLast={() => goTo(maxPly)}
-            guessEnabled={guessEnabled}
-            onToggleGuess={() => setGuessEnabled((v) => !v)}
-            nextBlocked={guessing}
-          />
-
-          <ChessnutConnectBar
-            status={chessnut.status}
-            transport={chessnut.transport}
-            battery={chessnut.battery}
-            error={chessnut.error}
-            supported={chessnut.supported}
-            onConnect={(kind) => void chessnut.connect(kind)}
-            onDisconnect={() => void chessnut.disconnect()}
-            hint={boardGuide ? null : undefined}
-          />
-
-          {boardGuide ? <BoardGuideBanner guide={boardGuide} ply={ply} /> : null}
-
-          <MoveStrip
-            nodes={lesson.nodes}
-            ply={ply}
-            onSelect={goTo}
-            hideFuture={guessing}
-          />
-
-          {guessing && nextNode?.san && (
-            <GuessMove
-              key={ply}
-              chess={chess}
-              expectedSan={nextNode.san}
-              commentator={commentator}
-              onReveal={revealNext}
-              onCorrect={() => undefined}
-              onWrong={() => enqueueReview(lesson.id, ply + 1)}
+          <div className="study-chrome">
+            <TransportBar
+              ply={ply}
+              maxPly={maxPly}
+              currentSan={node?.san}
+              sideToMove={sideToMove}
+              nextAnnotatedPly={nextNotePly}
+              nextAnnotatedLabel={nextNoteLabel}
+              onFirst={() => goTo(0)}
+              onPrev={() => goTo(ply - 1)}
+              onNext={advance}
+              onNextAnnotated={() => nextNotePly && goTo(nextNotePly)}
+              onLast={() => goTo(maxPly)}
+              guessEnabled={guessEnabled}
+              onToggleGuess={() => setGuessEnabled((v) => !v)}
+              nextBlocked={guessing}
             />
-          )}
+
+            <ChessnutConnectBar
+              status={chessnut.status}
+              transport={chessnut.transport}
+              battery={chessnut.battery}
+              error={chessnut.error}
+              supported={chessnut.supported}
+              onConnect={(kind) => void chessnut.connect(kind)}
+              onDisconnect={() => void chessnut.disconnect()}
+              guide={boardGuide}
+              guidePly={ply}
+            />
+
+            <MoveStrip
+              nodes={lesson.nodes}
+              ply={ply}
+              onSelect={goTo}
+              hideFuture={guessing}
+            />
+
+            {guessing && nextNode?.san && (
+              <GuessMove
+                key={ply}
+                chess={chess}
+                expectedSan={nextNode.san}
+                commentator={commentator}
+                onReveal={revealNext}
+                onCorrect={() => undefined}
+                onWrong={() => enqueueReview(lesson.id, ply + 1)}
+              />
+            )}
+          </div>
         </aside>
 
         <CommentaryPanel

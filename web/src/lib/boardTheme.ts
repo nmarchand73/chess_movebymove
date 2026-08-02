@@ -1,11 +1,11 @@
-/** Board colors matching the B&W hatched diagrams in Chernev's edition. */
+/** Board colors matching the Chernev cover cream / violet language. */
 export const BOARD_THEME = {
   lightSquareStyle: { backgroundColor: "var(--board-light)" },
   darkSquareStyle: {
     background: `repeating-linear-gradient(
       45deg,
-      #8f877c 0,
-      #8f877c 1.5px,
+      #b5a3cc 0,
+      #b5a3cc 1.5px,
       var(--board-dark) 1.5px,
       var(--board-dark) 5px
     )`,

@@ -14,6 +14,7 @@ type Props = {
   onSelectBook: (bookId: BookId | null) => void;
   onOpenLesson: (lesson: LessonSummary) => void;
   onOpenSettings: () => void;
+  onBackToLanding?: () => void;
 };
 
 function sectionMeta(sections: BookMeta["sections"], title: string) {
@@ -57,11 +58,13 @@ function LibraryView({
   onSelectBook,
   onOpenLesson,
   onOpenSettings,
+  onBackToLanding,
 }: {
   index: LessonIndex;
   onSelectBook: (bookId: BookId) => void;
   onOpenLesson: (lesson: LessonSummary) => void;
   onOpenSettings: () => void;
+  onBackToLanding?: () => void;
 }) {
   const progress = loadProgress();
   const { totalGames, completedCount, inProgressCount } = libraryProgress(index);
@@ -77,7 +80,23 @@ function LibraryView({
       <header className="library-hero">
         <div className="library-hero-copy">
           <div className="library-hero-top">
-            <p className="eyebrow">Move-by-Move Coach</p>
+            <div className="library-brand-row">
+              <img
+                className="library-brand-mark"
+                src={`${import.meta.env.BASE_URL}images/move-by-move-knight.png`}
+                alt=""
+                width={40}
+                height={48}
+                decoding="async"
+              />
+              {onBackToLanding ? (
+                <button type="button" className="text-btn landing-back-link" onClick={onBackToLanding}>
+                  ← About
+                </button>
+              ) : (
+                <p className="eyebrow">Move-by-Move Coach</p>
+              )}
+            </div>
             <button type="button" className="text-btn settings-link" onClick={onOpenSettings}>
               Settings
             </button>
@@ -521,7 +540,7 @@ function BookHomeView({
   );
 }
 
-export function Home({ selectedBook, onSelectBook, onOpenLesson, onOpenSettings }: Props) {
+export function Home({ selectedBook, onSelectBook, onOpenLesson, onOpenSettings, onBackToLanding }: Props) {
   const [index, setIndex] = useState<LessonIndex | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -541,6 +560,7 @@ export function Home({ selectedBook, onSelectBook, onOpenLesson, onOpenSettings 
         onSelectBook={onSelectBook}
         onOpenLesson={onOpenLesson}
         onOpenSettings={onOpenSettings}
+        onBackToLanding={onBackToLanding}
       />
     );
   }
