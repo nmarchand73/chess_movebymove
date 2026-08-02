@@ -3716,6 +3716,27 @@ button:disabled {
   animation: landing-floor-in 1.2s cubic-bezier(0.22, 1, 0.36, 1) 0.05s both;
 }
 
+.landing-slides {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
+
+.landing-slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.55s ease, visibility 0.55s ease;
+  pointer-events: none;
+}
+
+.landing-slide.is-active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
 .landing-hero-knight {
   position: absolute;
   inset: 4% 3% 2% 8%;
@@ -3742,7 +3763,37 @@ button:disabled {
   user-select: none;
 }
 
-.landing-hero-visual::after {
+.landing-slide.is-shot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(0.75rem, 3vh, 1.5rem) clamp(0.85rem, 3vw, 1.75rem);
+  background:
+    radial-gradient(ellipse 70% 55% at 50% 40%, rgba(107, 63, 160, 0.1), transparent 65%),
+    var(--landing-cream);
+}
+
+.landing-lesson-shot {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  object-position: center top;
+  border-radius: 14px;
+  border: 1px solid color-mix(in srgb, var(--landing-ink) 12%, var(--border));
+  box-shadow:
+    0 18px 40px rgba(43, 24, 72, 0.16),
+    0 2px 0 rgba(255, 255, 255, 0.45) inset;
+  background: var(--landing-cream-hot);
+}
+
+.landing-hero-visual.is-shot .landing-hero-floor {
+  opacity: 0.18;
+}
+
+.landing-hero-visual.is-knight::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -3758,6 +3809,45 @@ button:disabled {
   animation: landing-shimmer 8s ease-in-out infinite;
   pointer-events: none;
   mix-blend-mode: soft-light;
+}
+
+.landing-slide-dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0.7rem;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  gap: 0.4rem;
+  pointer-events: none;
+}
+
+.landing-slide-dot {
+  pointer-events: auto;
+  width: 0.45rem;
+  height: 0.45rem;
+  padding: 0;
+  border: none;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--landing-ink) 22%, transparent);
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease, width 0.2s ease;
+}
+
+.landing-slide-dot.is-active {
+  width: 1.15rem;
+  background: var(--landing-magenta);
+  transform: none;
+}
+
+.landing-slide-dot:hover {
+  background: color-mix(in srgb, var(--landing-magenta) 70%, var(--landing-ink));
+}
+
+.landing-slide-dot:focus-visible {
+  outline: 2px solid var(--landing-magenta);
+  outline-offset: 2px;
 }
 
 .landing-brand-mark {
@@ -4172,6 +4262,19 @@ button:disabled {
     bottom: 0;
     opacity: 0.45;
   }
+
+  .landing-slide.is-shot {
+    padding: 0.45rem 0.65rem 1.35rem;
+  }
+
+  .landing-lesson-shot {
+    border-radius: 10px;
+    box-shadow: 0 10px 24px rgba(43, 24, 72, 0.14);
+  }
+
+  .landing-slide-dots {
+    bottom: 0.4rem;
+  }
 }
 
 @media (max-width: 960px) and (max-height: 740px) {
@@ -4257,10 +4360,12 @@ button:disabled {
 @media (prefers-reduced-motion: reduce) {
   .landing-hero-visual,
   .landing-hero-content,
-  .landing-hero-visual::after,
+  .landing-hero-visual.is-knight::after,
   .landing-hero-floor,
-  .landing-hero-knight {
+  .landing-hero-knight,
+  .landing-slide {
     animation: none !important;
+    transition: none !important;
   }
 
   .landing-hero-knight {

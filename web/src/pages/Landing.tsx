@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { getGameProgress, loadProgress } from "../lib/progress";
 
 type Props = {
@@ -6,9 +6,33 @@ type Props = {
   onContinueLesson?: () => void;
 };
 
-const KNIGHT_SRC = `${import.meta.env.BASE_URL}images/move-by-move-knight.png`;
+const BASE = import.meta.env.BASE_URL;
+const KNIGHT_SRC = `${BASE}images/move-by-move-knight.png`;
+
+const SLIDES = [
+  { id: "knight", kind: "knight" as const, label: "Cover art" },
+  {
+    id: "lesson",
+    kind: "shot" as const,
+    label: "Study a game",
+    src: `${BASE}images/landing-lesson.png`,
+    alt: "Lesson view: board, evaluation, and move-by-move controls for von Scheve vs Teichmann",
+  },
+  {
+    id: "commentary",
+    kind: "shot" as const,
+    label: "Chernev explains",
+    src: `${BASE}images/landing-commentary.png`,
+    alt: "Commentary panel: Chernev explains 6.d4 with key-moment summary and annotated variations",
+  },
+] as const;
+
+const SLIDE_MS = 5200;
 
 export function Landing({ onEnterLibrary, onContinueLesson }: Props) {
+  const [slide, setSlide] = useState(0);
+  const [paused, setPaused] = useState(false);
+
   const continueAction = useMemo(() => {
     const progress = loadProgress();
     if (!progress.lastLessonId) return null;
@@ -17,6 +41,17 @@ export function Landing({ onEnterLibrary, onContinueLesson }: Props) {
     if (pct <= 0) return { label: "Continue studying", pct: null as number | null };
     return { label: "Continue", pct };
   }, []);
+
+  useEffect(() => {
+    if (paused) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const id = window.setInterval(() => {
+      setSlide((i) => (i + 1) % SLIDES.length);
+    }, SLIDE_MS);
+    return () => window.clearInterval(id);
+  }, [paused]);
+
+  const active = SLIDES[slide] ?? SLIDES[0];
 
   return (
     <div className="landing">
@@ -91,18 +126,74 @@ export function Landing({ onEnterLibrary, onContinueLesson }: Props) {
           </div>
         </div>
 
-        <div className="landing-hero-visual" aria-hidden="true">
-          <div className="landing-hero-floor" />
-          <div className="landing-hero-knight">
-            <img
-              className="landing-hero-logo"
-              src={KNIGHT_SRC}
-              alt=""
-              width={854}
-              height={1024}
-              decoding="async"
-              fetchPriority="high"
-            />
+        <div
+          className={`landing-hero-visual is-${active.kind}`}
+          onMouseEnter={() => setPaused(true)}
+          onMouseLeave={() => setPaused(false)}
+          onFocusCapture={() => setPaused(true)}
+          onBlurCapture={(e) => {
+            if (!e.currentTarget.contains(e.relatedTarget as Node | null)) setPaused(false);
+          }}
+        >
+          <div className="landing-hero-floor" aria-hidden="true" />
+
+          <div className="landing-slides" aria-roledescription="carousel" aria-label="Product preview">
+            {SLIDES.map((item, index) => {
+              const isActive = index === slide;
+              if (item.kind === "knight") {
+                return (
+                  <div
+                    key={item.id}
+                    className={`landing-slide is-knight${isActive ? " is-active" : ""}`}
+                    aria-hidden={!isActive}
+                  >
+                    <div className="landing-hero-knight">
+                      <img
+                        className="landing-hero-logo"
+                        src={KNIGHT_SRC}
+                        alt=""
+                        width={854}
+                        height={1024}
+                        decoding="async"
+                        fetchPriority="high"
+                      />
+                    </div>
+                  </div>
+                );
+              }
+
+              return (
+                <div
+                  key={item.id}
+                  className={`landing-slide is-shot${isActive ? " is-active" : ""}`}
+                  aria-hidden={!isActive}
+                >
+                  <img
+                    className="landing-lesson-shot"
+                    src={item.src}
+                    alt={item.alt}
+                    width={1170}
+                    height={2532}
+                    decoding="async"
+                    loading="lazy"
+                  />
+                </div>
+              );
+            })}
+          </div>
+
+          <div className="landing-slide-dots" role="tablist" aria-label="Choose preview">
+            {SLIDES.map((item, index) => (
+              <button
+                key={item.id}
+                type="button"
+                role="tab"
+                aria-selected={index === slide}
+                aria-label={item.label}
+                className={`landing-slide-dot${index === slide ? " is-active" : ""}`}
+                onClick={() => setSlide(index)}
+              />
+            ))}
           </div>
         </div>
       </section>
