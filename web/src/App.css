@@ -2685,7 +2685,8 @@ button:disabled {
   .app-shell:has(.lesson) {
     height: auto;
     max-height: none;
-    overflow: visible;
+    overflow-x: clip;
+    overflow-y: visible;
     display: block;
     padding:
       max(0.75rem, env(safe-area-inset-top, 0px))
@@ -2740,6 +2741,22 @@ button:disabled {
     height: auto;
     max-height: none;
     overflow: visible;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .lesson,
+  .lesson-layout,
+  .study-board,
+  .study-chrome,
+  .study-board-main,
+  .transport-bar,
+  .chessnut-bar,
+  .commentary {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
   }
 
   .study-chrome {
@@ -2748,25 +2765,21 @@ button:disabled {
     padding: 0 0.55rem 0.55rem;
   }
 
-  .study-board-main {
-    flex: none;
-    grid-template-columns: 1fr;
-    gap: 0.45rem;
-  }
-
-  .board-slot {
-    container-type: normal;
-    height: auto;
-    display: block;
-  }
-
-  .study-panel .board-panel {
+  /* Move chips must scroll inside the panel — never widen the page. */
+  .move-strip-wrap {
     width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    overflow: hidden;
   }
 
-  .study-panel .board-frame {
-    max-width: min(100%, calc(100vw - 2rem));
-    margin: 0 auto;
+  .move-strip {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
   }
 
   .study-board {
@@ -2780,27 +2793,99 @@ button:disabled {
     box-shadow: 0 6px 16px rgba(79, 51, 137, 0.08);
   }
 
+  .study-board-main {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex: none;
+    gap: 0.4rem;
+    min-height: 0;
+    height: auto;
+  }
+
+  /* Board size must not depend on container-query height (cqh → 0 here).
+     Keep the playable board exactly square — non-square boards break arrow SVG alignment. */
+  .board-slot {
+    container-type: normal;
+    display: block;
+    width: min(calc(100vw - 2.5rem), 26rem);
+    margin: 0 auto;
+    height: auto;
+    min-height: 0;
+  }
+
+  .study-panel .board-panel,
+  .study-panel .board-frame {
+    width: 100%;
+    height: auto;
+    max-width: none;
+    margin: 0;
+  }
+
+  .study-panel .board-grid {
+    width: 100%;
+    height: auto;
+    grid-template-rows: minmax(0, auto) auto;
+  }
+
+  .study-panel .board-frame .board-wrap {
+    width: 100%;
+    height: auto;
+    max-height: min(72dvh, 26rem);
+    aspect-ratio: 1;
+  }
+
+  .study-panel .board-ranks {
+    height: auto;
+    align-self: stretch;
+  }
+
   .eval-display.is-hidden {
     display: none;
   }
 
   .eval-display:not(.is-hidden) {
-    width: 100%;
+    width: min(100%, 26rem);
+    margin: 0 auto;
     flex-direction: row;
-    align-items: stretch;
+    align-items: center;
     gap: 0.45rem;
+    flex: 0 0 auto;
+    min-height: 0;
+    max-height: none;
   }
 
   .eval-display:not(.is-hidden) .eval-bar {
-    width: 0.45rem;
-    flex: 0 0 0.45rem;
-    height: auto;
-    min-height: 3.25rem;
-    align-self: stretch;
+    width: 0.4rem;
+    flex: 0 0 0.4rem;
+    height: 2.75rem;
+    min-height: 2.75rem;
+    align-self: center;
   }
 
   .eval-display:not(.is-hidden) .eval-readout {
     flex: 1 1 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.15rem 0.55rem;
+  }
+
+  .eval-display:not(.is-hidden) .elo-sparklines-wrap {
+    display: none;
+  }
+
+  .study-panel .transport-buttons {
+    grid-template-columns: 2.5rem 2.5rem minmax(4.5rem, 1fr) 2.5rem;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .study-panel .transport-bar .transport-next {
+    min-width: 0;
+    width: 100%;
+    padding: 0.4rem 0.5rem;
+    font-size: 0.88rem;
   }
 
   .commentary {
@@ -2867,14 +2952,25 @@ button:disabled {
     display: none;
   }
 
+  .lesson-header {
+    margin-bottom: 0.55rem;
+  }
+
   .lesson-header-bar {
     flex-wrap: wrap;
+    gap: 0.35rem;
+    padding: 0.4rem 0.7rem;
+  }
+
+  .lesson-header-body {
+    padding: 0.4rem 0.7rem 0.55rem;
   }
 
   .lesson-header-actions {
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 0.35rem;
   }
 
   .lesson-header-progress {
@@ -2887,11 +2983,23 @@ button:disabled {
     font-size: clamp(1.05rem, 5vw, 1.35rem);
   }
 
+  .lesson-meta {
+    flex-wrap: wrap;
+    gap: 0.3rem;
+  }
+
   .export-prompt-btn {
     font-size: 0.68rem;
-    white-space: normal;
+    white-space: nowrap;
     line-height: 1.25;
-    max-width: 9.5rem;
+    max-width: none;
+    padding: 0.28rem 0.5rem;
+  }
+
+  .engine-scenario-bar {
+    width: min(100%, 26rem);
+    margin: 0 auto;
+    grid-template-columns: 3.2rem minmax(0, 1fr);
   }
 
   .guess-toggle-full {
