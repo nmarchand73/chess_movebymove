@@ -84,8 +84,9 @@ export function Landing({ onEnterLibrary, onContinueLesson }: Props) {
               ) : null}
             </div>
             <p className="landing-quote">
-              “The novice who plays through Logical Chess can learn an ocean of basic chess wisdom.”
-              <cite> — Leonard Barden</cite>
+              “Each game that you play through will be an exciting adventure in chess in which
+              courage, wit, imagination and ingenuity reap their just reward.”
+              <cite> — Irving Chernev</cite>
             </p>
           </div>
         </div>
