@@ -34,6 +34,8 @@ function guideInlineLabel(guide: BoardGuide, ply: number): string {
           : "Match the screen position";
     case "play_move":
       return `Play ${formatSanWithSymbols(guide.san)} · ${guide.from}→${guide.to}`;
+    case "guess_waiting":
+      return `Your move · quiz · ${guide.side}`;
     default: {
       const _exhaustive: never = guide;
       return _exhaustive;

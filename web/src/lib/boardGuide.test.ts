@@ -151,4 +151,35 @@ describe("boardGuide", () => {
     assert.ok(guideLedSquares(guide).length >= 2);
     assert.ok(guideLedSquares(guide).includes("a2") || guideLedSquares(guide).includes("a4"));
   });
+
+  it("hides the book move in quiz mode when synced", () => {
+    const chess = new Chess();
+    const start = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR";
+    const guide = buildBoardGuide({
+      boardPlacement: start,
+      lessonPlacement: start,
+      nextSan: "e4",
+      chess,
+      atEnd: false,
+      hideNextMove: true,
+    });
+    assert.deepEqual(guide, { kind: "guess_waiting", side: "white" });
+    assert.deepEqual(guideLedSquares(guide), []);
+  });
+
+  it("still shows setup LEDs in quiz mode when the board is off-diagram", () => {
+    const chess = new Chess();
+    const start = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR";
+    const wrong = "rnbqkbnr/pppppppp/8/8/P7/8/1PPPPPPP/RNBQKBNR";
+    const guide = buildBoardGuide({
+      boardPlacement: wrong,
+      lessonPlacement: start,
+      nextSan: "e4",
+      chess,
+      atEnd: false,
+      hideNextMove: true,
+    });
+    assert.equal(guide.kind, "setup");
+    assert.ok(guideLedSquares(guide).length >= 2);
+  });
 });

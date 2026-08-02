@@ -25,6 +25,11 @@ export type BoardGuide =
       from: string;
       to: string;
       side: "white" | "black";
+    }
+  /** Quiz mode: board matches diagram, waiting for a physical guess (no spoiler LEDs). */
+  | {
+      kind: "guess_waiting";
+      side: "white" | "black";
     };
 
 /** Expand a FEN placement into square → piece letter (empty omitted). */
@@ -190,6 +195,8 @@ export function buildBoardGuide(input: {
   atEnd: boolean;
   /** After rewind / ply jump: require an exact physical match before move guides. */
   requireExactSync?: boolean;
+  /** Guess/quiz mode: never light the book move; wait for a physical guess. */
+  hideNextMove?: boolean;
 }): BoardGuide {
   if (input.atEnd) return { kind: "lesson_complete" };
   if (!input.boardPlacement) return { kind: "waiting_signal" };
@@ -214,6 +221,20 @@ export function buildBoardGuide(input: {
       };
     }
     return { kind: "lesson_complete" };
+  }
+
+  const side = input.chess.turn() === "w" ? "white" as const : "black" as const;
+
+  // Quiz mode: only setup LEDs when off-diagram; otherwise wait silently for a guess.
+  if (input.hideNextMove) {
+    if (mismatches.length > 0) {
+      return {
+        kind: "setup",
+        mismatchedSquares: mismatches,
+        mismatchCount: mismatches.length,
+      };
+    }
+    return { kind: "guess_waiting", side };
   }
 
   const lights = resolveNextMoveLights(input.chess, input.nextSan);
@@ -282,6 +303,7 @@ export function guideLedSquares(guide: BoardGuide): string[] {
   switch (guide.kind) {
     case "waiting_signal":
     case "lesson_complete":
+    case "guess_waiting":
       return [];
     case "setup":
       return guide.mismatchedSquares;

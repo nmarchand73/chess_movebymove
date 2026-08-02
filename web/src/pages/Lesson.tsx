@@ -27,6 +27,7 @@ import { ExportPromptButton } from "../components/ExportPromptButton";
 import { contextualizeOpeningExplanation, getOpeningTooltip } from "../lib/openingTooltips";
 import { commentatorName } from "../lib/bookMeta";
 import { buildBoardGuide, guideLedSquares } from "../lib/boardGuide";
+import { legalMoveMatchingPlacement } from "../lib/physicalGuess";
 
 type Props = {
   summary: LessonSummary;
@@ -42,10 +43,13 @@ export function LessonPage({ summary, onBack }: Props) {
   const [error, setError] = useState<string | null>(null);
   /** After First/scrub: wait until the physical board matches the diagram. */
   const [awaitingPhysicalSync, setAwaitingPhysicalSync] = useState(false);
+  const [physicalGuessFeedback, setPhysicalGuessFeedback] = useState<string | null>(null);
   const chessnut = useChessnutBoard();
   /** Board placement when the lesson ply last changed — blocks auto-advance on rewind. */
   const placementAtPlyLanding = useRef<string | null>(null);
   const lastAutoAdvancedPlacement = useRef<string | null>(null);
+  const lastWrongGuessPlacement = useRef<string | null>(null);
+  const prevChessnutStatus = useRef<typeof chessnut.status | null>(null);
 
   useEffect(() => {
     loadLesson(summary.file)
@@ -160,12 +164,23 @@ export function LessonPage({ summary, onBack }: Props) {
     }
   }, [ply, nextNode, guessEnabled]);
 
+  // Auto-enable quiz mode when the physical board connects (including reconnect on load).
+  useEffect(() => {
+    const was = prevChessnutStatus.current;
+    if (chessnut.status === "connected" && was !== "connected") {
+      setGuessEnabled(true);
+    }
+    prevChessnutStatus.current = chessnut.status;
+  }, [chessnut.status]);
+
   // Remember physical position when ply changes (First / scrub / keyboard).
   // Auto-advance only if the board moves AFTER landing on this ply — otherwise
   // rewinding to the start while pieces are mid-game would instantly jump forward.
   useEffect(() => {
     placementAtPlyLanding.current = chessnut.placement;
     lastAutoAdvancedPlacement.current = null;
+    lastWrongGuessPlacement.current = null;
+    setPhysicalGuessFeedback(null);
     if (chessnut.status === "connected") {
       setAwaitingPhysicalSync(true);
     }
@@ -178,6 +193,8 @@ export function LessonPage({ summary, onBack }: Props) {
   }, [chessnut.placement]);
 
   const lessonPlacement = chess?.fen().split(" ")[0] ?? null;
+  const isGuessing = guessEnabled && !revealed && !!nextNode?.san;
+  const physicalConnected = chessnut.status === "connected";
 
   useEffect(() => {
     if (!awaitingPhysicalSync || !chessnut.placement || !lessonPlacement) return;
@@ -187,13 +204,41 @@ export function LessonPage({ summary, onBack }: Props) {
   }, [awaitingPhysicalSync, chessnut.placement, lessonPlacement]);
 
   useEffect(() => {
-    if (chessnut.status !== "connected" || !chessnut.placement || !lesson) return;
+    if (chessnut.status !== "connected" || !chessnut.placement || !lesson || !chess) return;
     if (ply >= lesson.moveCount) return;
     // Do not advance while the board still needs to match the diagram (e.g. reset to start).
     if (awaitingPhysicalSync) return;
     if (placementAtPlyLanding.current == null) return;
+
+    // Back on the diagram — clear wrong-guess state and wait for the next attempt.
+    if (chessnut.placement === lessonPlacement) {
+      lastWrongGuessPlacement.current = null;
+      setPhysicalGuessFeedback(null);
+      return;
+    }
+
     if (chessnut.placement === placementAtPlyLanding.current) return;
     if (chessnut.placement === lastAutoAdvancedPlacement.current) return;
+
+    if (isGuessing && nextNode?.san) {
+      const guess = legalMoveMatchingPlacement(chess.fen(), chessnut.placement);
+      if (!guess) return;
+
+      if (guess.san.toLowerCase() === nextNode.san.toLowerCase()) {
+        lastAutoAdvancedPlacement.current = chessnut.placement;
+        setPhysicalGuessFeedback(`Correct — same as ${commentator}!`);
+        setRevealed(true);
+        goTo(ply + 1);
+        return;
+      }
+
+      if (lastWrongGuessPlacement.current !== chessnut.placement) {
+        lastWrongGuessPlacement.current = chessnut.placement;
+        setPhysicalGuessFeedback(`${commentator} played ${nextNode.san} here.`);
+        enqueueReview(lesson.id, ply + 1);
+      }
+      return;
+    }
 
     const nextPlacement = buildPositionAtPly(lesson.nodes, ply + 1).fen().split(" ")[0];
     if (chessnut.placement !== nextPlacement) return;
@@ -201,7 +246,19 @@ export function LessonPage({ summary, onBack }: Props) {
     lastAutoAdvancedPlacement.current = chessnut.placement;
     setRevealed(true);
     goTo(ply + 1);
-  }, [chessnut.status, chessnut.placement, lesson, ply, goTo, awaitingPhysicalSync]);
+  }, [
+    chessnut.status,
+    chessnut.placement,
+    lesson,
+    chess,
+    ply,
+    goTo,
+    awaitingPhysicalSync,
+    isGuessing,
+    nextNode?.san,
+    lessonPlacement,
+    commentator,
+  ]);
 
   const boardGuide = useMemo(() => {
     if (chessnut.status !== "connected" || !chess) return null;
@@ -212,8 +269,18 @@ export function LessonPage({ summary, onBack }: Props) {
       chess,
       atEnd: ply >= maxPly,
       requireExactSync: awaitingPhysicalSync,
+      hideNextMove: isGuessing,
     });
-  }, [chessnut.status, chessnut.placement, chess, nextNode?.san, ply, maxPly, awaitingPhysicalSync]);
+  }, [
+    chessnut.status,
+    chessnut.placement,
+    chess,
+    nextNode?.san,
+    ply,
+    maxPly,
+    awaitingPhysicalSync,
+    isGuessing,
+  ]);
 
   // Apply play_move / clear LEDs immediately; debounce setup floods so a noisy
   // lift reading cannot flash every mismatched square. Exact sync after rewind
@@ -265,7 +332,7 @@ export function LessonPage({ summary, onBack }: Props) {
 
   const openingTip = getOpeningTooltip(lesson.opening);
   const sideToMove = ply === 0 ? "none" as const : chess.turn() === "w" ? "white" as const : "black" as const;
-  const guessing = guessEnabled && !revealed && !!nextNode?.san;
+  const guessing = isGuessing;
 
   function revealNext() {
     setRevealed(true);
@@ -383,6 +450,7 @@ export function LessonPage({ summary, onBack }: Props) {
               guessEnabled={guessEnabled}
               onToggleGuess={() => setGuessEnabled((v) => !v)}
               nextBlocked={guessing}
+              physicalBoard={physicalConnected}
             />
 
             <ChessnutConnectBar
@@ -413,6 +481,8 @@ export function LessonPage({ summary, onBack }: Props) {
                 onReveal={revealNext}
                 onCorrect={() => undefined}
                 onWrong={() => enqueueReview(lesson.id, ply + 1)}
+                physicalBoard={physicalConnected}
+                externalFeedback={physicalGuessFeedback}
               />
             )}
           </div>

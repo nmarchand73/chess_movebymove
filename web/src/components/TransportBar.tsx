@@ -13,6 +13,8 @@ type Props = {
   guessEnabled: boolean;
   onToggleGuess: () => void;
   nextBlocked?: boolean;
+  /** Chessnut connected — quiz uses the physical board. */
+  physicalBoard?: boolean;
 };
 
 export function TransportBar({
@@ -30,6 +32,7 @@ export function TransportBar({
   guessEnabled,
   onToggleGuess,
   nextBlocked = false,
+  physicalBoard = false,
 }: Props) {
   const positionLabel = ply === 0
     ? "Starting position"
@@ -87,7 +90,9 @@ export function TransportBar({
       <div className="transport-footer">
         <label className="guess-toggle">
           <input type="checkbox" checked={guessEnabled} onChange={onToggleGuess} />
-          Guess-the-move before advancing
+          {physicalBoard
+            ? "Quiz on the board (hide next move)"
+            : "Guess-the-move before advancing"}
         </label>
         <span className="keyboard-hint">← → navigate · Space next</span>
       </div>
