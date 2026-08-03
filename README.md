@@ -23,6 +23,7 @@ Study classic chess books the way they were written: **every move explained**, w
 ### Lesson reader (board + commentary)
 - Synced chessboard for every ply, with last-move highlights and knight-path arrows
 - Author commentary stepped move-by-move (Chernev / Nunn voice)
+- **Listen** icon reads the current annotation aloud (voice & speed in Settings)
 - Clickable SAN and alternative lines that jump or preview on the board
 - Transport controls: first / prev / next / last, jump to next annotated note
 - Horizontal move strip for quick navigation
