@@ -965,8 +965,13 @@ button.lesson-row.is-started:hover:not(:disabled) {
 
 .export-prompt-btn {
   white-space: nowrap;
-  font-size: 0.72rem;
-  padding: 0.35rem 0.65rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.35rem 0.75rem;
+  min-height: 2.05rem;
+  line-height: 1.25;
+  border-radius: 999px;
+  box-sizing: border-box;
 }
 
 .lesson-progress-label {
@@ -1048,9 +1053,15 @@ button.lesson-row.is-started:hover:not(:disabled) {
   border-color: color-mix(in srgb, #3d5a80 28%, var(--border));
 }
 
-.back-btn {
-  padding: 0.28rem 0.55rem;
-  font-size: 0.78rem;
+.back-btn,
+.settings-link,
+.landing-back-link {
+  padding: 0.35rem 0.75rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1.25;
+  min-height: 2.05rem;
+  box-sizing: border-box;
 }
 
 .back-btn, button.secondary, .text-btn {
@@ -2087,18 +2098,11 @@ button.lesson-row.is-started:hover:not(:disabled) {
 }
 
 .library-hero-top .landing-back-link {
-  font-size: 0.82rem;
-  font-weight: 600;
   color: var(--ink-muted);
 }
 
 .library-hero-top .landing-back-link:hover {
   color: var(--accent);
-}
-
-.settings-link {
-  font-size: 0.78rem;
-  padding: 0.28rem 0.55rem;
 }
 
 .settings-page {
@@ -2892,6 +2896,13 @@ button.secondary, .back-btn, .text-btn, .move-chip {
   border-radius: 10px;
 }
 
+.back-btn,
+.settings-link,
+.landing-back-link {
+  font-weight: 600;
+  border-radius: 999px;
+}
+
 button.secondary:hover:not(:disabled),
 .back-btn:hover:not(:disabled),
 .text-btn:hover:not(:disabled) {
@@ -2909,8 +2920,7 @@ button.secondary:hover:not(:disabled),
 button.lesson-row,
 button.book-card,
 button.continue-card,
-button.library-resume,
-button.library-back {
+button.library-resume {
   font-weight: inherit;
   border-radius: var(--radius);
   background: var(--bg-elevated);
@@ -3887,21 +3897,25 @@ button:disabled {
 }
 
 .library-back {
-  margin-bottom: 0.75rem;
-  padding: 0;
-  border: none;
-  background: none;
-  color: var(--accent);
-  font-size: 0.88rem;
+  /* Prefer .landing-back-link for top nav; keep as alias for older markup */
+  padding: 0.35rem 0.75rem;
+  min-height: 2.05rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--bg-elevated);
+  color: var(--ink-muted);
+  font-size: 0.82rem;
   font-weight: 600;
+  line-height: 1.25;
+  box-shadow: none;
   cursor: pointer;
 }
 
 .library-back:hover:not(:disabled) {
-  background: none;
-  border: none;
-  color: var(--accent-hover);
-  text-decoration: underline;
+  background: var(--accent-pale);
+  border-color: var(--accent-soft);
+  color: var(--accent);
+  text-decoration: none;
 }
 
 @media (max-width: 640px) {

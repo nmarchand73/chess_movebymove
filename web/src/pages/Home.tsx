@@ -310,7 +310,7 @@ function BookHomeView({
       <header className="home-hero">
         <div className="home-hero-copy">
           <div className="library-hero-top">
-            <button type="button" className="back-link library-back" onClick={onBack}>
+            <button type="button" className="text-btn landing-back-link" onClick={onBack}>
               ← Library
             </button>
             <button type="button" className="text-btn settings-link" onClick={onOpenSettings}>
