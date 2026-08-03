@@ -66,6 +66,40 @@ describe("prepareCommentarySpeech", () => {
     assert.equal(normalizeEvalMarks("g3‼"), "g3!!");
     assert.match(speakInformatorSymbols("unclear ∞ position"), /unclear/);
   });
+
+  it("speaks full move pairs with a pause between white and black", () => {
+    assert.equal(
+      prepareCommentarySpeech("28 f3 exf3+"),
+      "move 28, f three, e takes f three check",
+    );
+    assert.equal(
+      prepareCommentarySpeech("28. f3 exf3+"),
+      "move 28, f three, e takes f three check",
+    );
+    assert.match(
+      prepareCommentarySpeech("by 28 f3 exf3+ 29 Kxf3, followed by d4"),
+      /move 28, f three, e takes f three check\. move 29, king takes f three/,
+    );
+  });
+
+  it("handles promotions, diagonals, and glued move sequences", () => {
+    assert.equal(
+      prepareCommentarySpeech("e8=Q+"),
+      "e eight promotes to queen check",
+    );
+    assert.match(
+      prepareCommentarySpeech("a2-g8 diagonals"),
+      /a two to g eight diagonals/,
+    );
+    assert.match(
+      prepareCommentarySpeech("16...Nxf3+ 17 exf3"),
+      /check\. move 17/,
+    );
+    assert.match(
+      prepareCommentarySpeech("45 Bxa7?? loses"),
+      /blunder and loses/,
+    );
+  });
 });
 
 describe("splitIntoSpeechSentences", () => {

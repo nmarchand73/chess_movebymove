@@ -49,7 +49,7 @@ Study classic chess books the way they were written: **every move explained**, w
 
 ### Experience
 - Chernev-inspired visual design (cream / violet / magenta)
-- Landing page with product preview carousel (cover, board, commentary)
+- Landing page with product preview carousel (cover, board, commentary) and Listen called out in the lead
 - Responsive layout: desktop 50/50 board+notes; mobile sticky board and single-viewport landing
 
 ---

@@ -23,7 +23,7 @@ const SLIDES = [
     kind: "shot" as const,
     label: "Chernev explains",
     src: `${BASE}images/landing-commentary.png`,
-    alt: "Commentary panel: Chernev explains 6.d4 with key-moment summary and annotated variations",
+    alt: "Commentary panel: Chernev explains a move with takeaway, Listen speaker, and annotated variations",
   },
 ] as const;
 
@@ -70,8 +70,8 @@ export function Landing({ onEnterLibrary, onContinueLesson }: Props) {
             <h1 className="landing-headline">Every move explained</h1>
             <p className="landing-lead">
               Chernev’s 1957 classic and Nunn’s modern grandmaster sequel — 63 complete games
-              where each move gets a reason, not a variation dump. Read the author’s note, see
-              the position on the board, then try the next move yourself.
+              where each move gets a reason, not a variation dump. Read the author’s note —
+              or listen to it — see the position on the board, then try the next move yourself.
             </p>
           </div>
 
@@ -88,8 +88,8 @@ export function Landing({ onEnterLibrary, onContinueLesson }: Props) {
             </li>
             <li>
               <strong>Board in sync</strong>
-              Step through commentary with a live diagram. Optional Chessnut quiz: hide the
-              next move, play it on the physical board, no LED spoilers.
+              Step through commentary with a live diagram, tap Listen for chess-aware speech,
+              and optionally quiz yourself on a Chessnut board with no LED spoilers.
             </li>
           </ul>
 

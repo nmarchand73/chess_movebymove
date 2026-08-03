@@ -11,9 +11,22 @@ const PIECE_WORDS: Record<string, string> = {
   K: "king",
 };
 
+/** One SAN / castling token (no move number). */
+const SAN_TOKEN =
+  "(?:O-O-O|O-O|0-0-0|0-0|[NBRQK][a-h]?[1-8]?x?[a-h][1-8](?:=[NBRQK])?|[a-h]x[a-h][1-8](?:=[NBRQK])?|[a-h][1-8]=[NBRQK]|x[a-h][1-8](?:=[NBRQK])?|[a-h][1-8])[+#?!‼⁇⁉⁈]*";
+
+/** Full move pair: "28 f3 exf3+" / "28. f3 exf3+". */
+const FULL_MOVE_PAIR = new RegExp(`\\b(\\d+)\\s*\\.?\\s*(${SAN_TOKEN})\\s+(${SAN_TOKEN})`, "gi");
+
 /** Move tokens worth expanding for TTS (with optional move-number prefix). */
-const SPEECH_MOVE_PATTERN =
-  /(?:\d+\s*\.{2,3}\s*|\d+\.\s*|\b\d+\s+)?(?:O-O-O|O-O|0-0-0|0-0|[NBRQK][a-h]?[1-8]?x?[a-h][1-8](?:=[NBRQK])?|[a-h]x[a-h][1-8](?:=[NBRQK])?|x[a-h][1-8](?:=[NBRQK])?|[a-h][1-8])[+#?!‼⁇⁉⁈]*/gi;
+const SPEECH_MOVE_PATTERN = new RegExp(
+  `(?:\\d+\\s*\\.{2,3}\\s*|\\d+\\.\\s*|\\b\\d+\\s+)?(?:${SAN_TOKEN})`,
+  "gi",
+);
+
+/** Spoken SAN endings — used to insert a pause before the next numbered move. */
+const SPOKEN_MOVE_TAIL =
+  /(?:checkmate|check|brilliant|blunder|interesting|dubious|good|mistake|kingside|queenside|knight|bishop|rook|queen|king|one|two|three|four|five|six|seven|eight)\s+(?=move\s+\d+)/gi;
 
 /** Unicode NAG glyphs → ASCII, so one suffix parser covers both. */
 export function normalizeEvalMarks(text: string): string {
@@ -183,13 +196,32 @@ export function prepareCommentarySpeech(text: string): string {
 
   // Hyphenated chess jargon before generic square rewrites.
   out = out.replace(/\b([a-h])-pawn\b/gi, (_, file: string) => `${file.toLowerCase()} pawn`);
+  // Diagonals / segments: "a2-g8" before bare squares are rewritten.
+  out = out.replace(/\b([a-h][1-8])-([a-h][1-8])\b/gi, (_match, a: string, b: string) => {
+    return `${speakSquare(a)} to ${speakSquare(b)}`;
+  });
   out = out.replace(/\b([a-h][1-8])-square\b/gi, (_, sq: string) => `${speakSquare(sq)} square`);
 
   // Spaced check / mate marks left by EPUB cleanup: "h4 +" / "xe4 #"
   out = out.replace(/\b([NBRQK]?[a-h]?x?[a-h][1-8])\s+\+/gi, "$1+");
   out = out.replace(/\b([NBRQK]?[a-h]?x?[a-h][1-8])\s+#/gi, "$1#");
 
+  // Full move pairs before single moves: "28 f3 exf3+" → clear white / black pause.
+  out = out.replace(FULL_MOVE_PAIR, (_match, num: string, white: string, black: string) => {
+    return `move ${num}, ${speakableSan(white)}, ${speakableSan(black)}`;
+  });
+
   out = out.replace(SPEECH_MOVE_PATTERN, (match) => speakableSan(match));
+
+  // "… check move 17 …" → "… check. move 17 …"
+  out = out.replace(SPOKEN_MOVE_TAIL, (tail) => `${tail.trimEnd()}. `);
+
+  // "blunder loses" → "blunder and loses"
+  out = out.replace(
+    /\b(brilliant|blunder|interesting|dubious|good|mistake)\s+(loses|wins|gives|leads|allows|misses|fails)\b/gi,
+    "$1 and $2",
+  );
+
   out = speakInformatorSymbols(out);
 
   return out.replace(/\s+/g, " ").trim();
