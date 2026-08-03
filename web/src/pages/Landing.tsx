@@ -15,15 +15,15 @@ const SLIDES = [
     id: "lesson",
     kind: "shot" as const,
     label: "Study a game",
-    src: `${BASE}images/landing-lesson.png`,
-    alt: "Lesson view: board, evaluation, and move-by-move controls for von Scheve vs Teichmann",
+    src: `${BASE}images/landing-lesson.jpg`,
+    alt: "Lesson view: board with knight path arrow, evaluation, best line, and move controls on 12.Nd2",
   },
   {
     id: "commentary",
     kind: "shot" as const,
     label: "Chernev explains",
-    src: `${BASE}images/landing-commentary.png`,
-    alt: "Commentary panel: Chernev explains a move with takeaway, Listen speaker, and annotated variations",
+    src: `${BASE}images/landing-commentary.jpg`,
+    alt: "Commentary panel for 12.Nd2 with takeaway, Listen speaker, and Chernev’s annotation",
   },
 ] as const;
 
