@@ -36,6 +36,7 @@ export function Landing({ onEnterLibrary, onContinueLesson }: Props) {
   const [paused, setPaused] = useState(false);
   const [quoteIndex, setQuoteIndex] = useState(0);
   const [quotePaused, setQuotePaused] = useState(false);
+  const [narrow, setNarrow] = useState(false);
 
   const continueAction = useMemo(() => {
     const progress = loadProgress();
@@ -46,14 +47,31 @@ export function Landing({ onEnterLibrary, onContinueLesson }: Props) {
     return { label: "Continue", pct };
   }, []);
 
+  const slides = useMemo(
+    () => (narrow ? SLIDES.filter((item) => item.id !== "commentary") : [...SLIDES]),
+    [narrow],
+  );
+
+  useEffect(() => {
+    const mq = window.matchMedia("(max-width: 960px)");
+    const sync = () => setNarrow(mq.matches);
+    sync();
+    mq.addEventListener("change", sync);
+    return () => mq.removeEventListener("change", sync);
+  }, []);
+
+  useEffect(() => {
+    setSlide(0);
+  }, [narrow]);
+
   useEffect(() => {
     if (paused) return;
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     const id = window.setInterval(() => {
-      setSlide((i) => (i + 1) % SLIDES.length);
+      setSlide((i) => (i + 1) % slides.length);
     }, SLIDE_MS);
     return () => window.clearInterval(id);
-  }, [paused]);
+  }, [paused, slides.length]);
 
   useEffect(() => {
     if (quotePaused) return;
@@ -64,7 +82,7 @@ export function Landing({ onEnterLibrary, onContinueLesson }: Props) {
     return () => window.clearInterval(id);
   }, [quotePaused]);
 
-  const active = SLIDES[slide] ?? SLIDES[0];
+  const active = slides[slide] ?? slides[0];
 
   return (
     <div className="landing">
@@ -81,10 +99,14 @@ export function Landing({ onEnterLibrary, onContinueLesson }: Props) {
             />
             <p className="landing-brand">Move by Move</p>
             <h1 className="landing-headline">Every move explained</h1>
-            <p className="landing-lead">
+            <p className="landing-lead landing-lead-full">
               Chernev’s 1957 classic and Nunn’s modern grandmaster sequel — 63 complete games
               where each move gets a reason, not a variation dump. Read the author’s note —
               or listen to it — see the position on the board, then try the next move yourself.
+            </p>
+            <p className="landing-lead landing-lead-short">
+              Chernev and Nunn — 63 games where every move gets a reason. Read it, or listen,
+              with the board in sync.
             </p>
           </div>
 
@@ -106,59 +128,58 @@ export function Landing({ onEnterLibrary, onContinueLesson }: Props) {
             </li>
           </ul>
 
-          <div className="landing-actions">
-            <div className="landing-cta-group">
-              <button type="button" className="landing-cta-primary" onClick={onEnterLibrary}>
-                Open the library
+          <div className="landing-cta-group">
+            <button type="button" className="landing-cta-primary" onClick={onEnterLibrary}>
+              Open the library
+            </button>
+            {continueAction && onContinueLesson ? (
+              <button
+                type="button"
+                className="landing-cta-secondary"
+                onClick={onContinueLesson}
+                aria-label={
+                  continueAction.pct != null
+                    ? `Continue studying, ${continueAction.pct}% complete`
+                    : continueAction.label
+                }
+              >
+                <span>{continueAction.label}</span>
+                {continueAction.pct != null ? (
+                  <span className="landing-cta-pct" aria-hidden="true">
+                    {continueAction.pct}%
+                  </span>
+                ) : null}
               </button>
-              {continueAction && onContinueLesson ? (
-                <button
-                  type="button"
-                  className="landing-cta-secondary"
-                  onClick={onContinueLesson}
-                  aria-label={
-                    continueAction.pct != null
-                      ? `Continue studying, ${continueAction.pct}% complete`
-                      : continueAction.label
-                  }
+            ) : null}
+          </div>
+
+          <div
+            className="landing-quote-carousel"
+            aria-live="polite"
+            aria-atomic="true"
+            onMouseEnter={() => setQuotePaused(true)}
+            onMouseLeave={() => setQuotePaused(false)}
+            onFocusCapture={() => setQuotePaused(true)}
+            onBlurCapture={(e) => {
+              if (!e.currentTarget.contains(e.relatedTarget as Node | null)) setQuotePaused(false);
+            }}
+          >
+            {LANDING_QUOTES.map((quote, index) => {
+              const isActive = index === quoteIndex;
+              return (
+                <blockquote
+                  key={quote.id}
+                  className={`landing-quote${isActive ? " is-active" : ""}`}
+                  aria-hidden={!isActive}
                 >
-                  <span>{continueAction.label}</span>
-                  {continueAction.pct != null ? (
-                    <span className="landing-cta-pct" aria-hidden="true">
-                      {continueAction.pct}%
-                    </span>
-                  ) : null}
-                </button>
-              ) : null}
-            </div>
-            <div
-              className="landing-quote-carousel"
-              aria-live="polite"
-              aria-atomic="true"
-              onMouseEnter={() => setQuotePaused(true)}
-              onMouseLeave={() => setQuotePaused(false)}
-              onFocusCapture={() => setQuotePaused(true)}
-              onBlurCapture={(e) => {
-                if (!e.currentTarget.contains(e.relatedTarget as Node | null)) setQuotePaused(false);
-              }}
-            >
-              {LANDING_QUOTES.map((quote, index) => {
-                const isActive = index === quoteIndex;
-                return (
-                  <blockquote
-                    key={quote.id}
-                    className={`landing-quote${isActive ? " is-active" : ""}`}
-                    aria-hidden={!isActive}
-                  >
-                    <p className="landing-quote-text">“{quote.text}”</p>
-                    <footer className="landing-quote-meta">
-                      <cite> — {quote.attribution}</cite>
-                      <span className="landing-quote-book">{landingQuoteBookLabel(quote.book)}</span>
-                    </footer>
-                  </blockquote>
-                );
-              })}
-            </div>
+                  <p className="landing-quote-text">“{quote.text}”</p>
+                  <footer className="landing-quote-meta">
+                    <cite> — {quote.attribution}</cite>
+                    <span className="landing-quote-book">{landingQuoteBookLabel(quote.book)}</span>
+                  </footer>
+                </blockquote>
+              );
+            })}
           </div>
         </div>
 
@@ -174,7 +195,7 @@ export function Landing({ onEnterLibrary, onContinueLesson }: Props) {
           <div className="landing-hero-floor" aria-hidden="true" />
 
           <div className="landing-slides" aria-roledescription="carousel" aria-label="Product preview">
-            {SLIDES.map((item, index) => {
+            {slides.map((item, index) => {
               const isActive = index === slide;
               if (item.kind === "knight") {
                 return (
@@ -219,7 +240,7 @@ export function Landing({ onEnterLibrary, onContinueLesson }: Props) {
           </div>
 
           <div className="landing-slide-dots" role="tablist" aria-label="Choose preview">
-            {SLIDES.map((item, index) => (
+            {slides.map((item, index) => (
               <button
                 key={item.id}
                 type="button"
