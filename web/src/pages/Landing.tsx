@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { getGameProgress, loadProgress } from "../lib/progress";
+import { LANDING_QUOTES, landingQuoteBookLabel } from "../lib/landingQuotes";
 
 type Props = {
   onEnterLibrary: () => void;
@@ -28,10 +29,13 @@ const SLIDES = [
 ] as const;
 
 const SLIDE_MS = 5200;
+const QUOTE_MS = 6200;
 
 export function Landing({ onEnterLibrary, onContinueLesson }: Props) {
   const [slide, setSlide] = useState(0);
   const [paused, setPaused] = useState(false);
+  const [quoteIndex, setQuoteIndex] = useState(0);
+  const [quotePaused, setQuotePaused] = useState(false);
 
   const continueAction = useMemo(() => {
     const progress = loadProgress();
@@ -50,6 +54,15 @@ export function Landing({ onEnterLibrary, onContinueLesson }: Props) {
     }, SLIDE_MS);
     return () => window.clearInterval(id);
   }, [paused]);
+
+  useEffect(() => {
+    if (quotePaused) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const id = window.setInterval(() => {
+      setQuoteIndex((i) => (i + 1) % LANDING_QUOTES.length);
+    }, QUOTE_MS);
+    return () => window.clearInterval(id);
+  }, [quotePaused]);
 
   const active = SLIDES[slide] ?? SLIDES[0];
 
@@ -118,11 +131,34 @@ export function Landing({ onEnterLibrary, onContinueLesson }: Props) {
                 </button>
               ) : null}
             </div>
-            <p className="landing-quote">
-              “Each game that you play through will be an exciting adventure in chess in which
-              courage, wit, imagination and ingenuity reap their just reward.”
-              <cite> — Irving Chernev</cite>
-            </p>
+            <div
+              className="landing-quote-carousel"
+              aria-live="polite"
+              aria-atomic="true"
+              onMouseEnter={() => setQuotePaused(true)}
+              onMouseLeave={() => setQuotePaused(false)}
+              onFocusCapture={() => setQuotePaused(true)}
+              onBlurCapture={(e) => {
+                if (!e.currentTarget.contains(e.relatedTarget as Node | null)) setQuotePaused(false);
+              }}
+            >
+              {LANDING_QUOTES.map((quote, index) => {
+                const isActive = index === quoteIndex;
+                return (
+                  <blockquote
+                    key={quote.id}
+                    className={`landing-quote${isActive ? " is-active" : ""}`}
+                    aria-hidden={!isActive}
+                  >
+                    <p className="landing-quote-text">“{quote.text}”</p>
+                    <footer className="landing-quote-meta">
+                      <cite> — {quote.attribution}</cite>
+                      <span className="landing-quote-book">{landingQuoteBookLabel(quote.book)}</span>
+                    </footer>
+                  </blockquote>
+                );
+              })}
+            </div>
           </div>
         </div>
 

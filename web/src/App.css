@@ -4268,8 +4268,28 @@ button:disabled {
   color: var(--landing-ink);
 }
 
-.landing-quote {
+.landing-quote-carousel {
+  display: grid;
   margin: 1rem 0 0;
+  max-width: 30rem;
+}
+
+.landing-quote-carousel > .landing-quote {
+  grid-area: 1 / 1;
+  margin: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.55s ease, visibility 0.55s ease;
+  pointer-events: none;
+}
+
+.landing-quote-carousel > .landing-quote.is-active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.landing-quote {
   max-width: 30rem;
   font-family: var(--font-body);
   font-size: clamp(0.78rem, 1.35vh, 0.88rem);
@@ -4278,10 +4298,31 @@ button:disabled {
   color: color-mix(in srgb, var(--landing-ink) 62%, var(--landing-violet));
 }
 
+.landing-quote-text {
+  margin: 0;
+}
+
+.landing-quote-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 0.65rem;
+  margin-top: 0.35rem;
+}
+
 .landing-quote cite {
   font-style: normal;
   font-weight: 600;
   color: var(--landing-ink);
+}
+
+.landing-quote-book {
+  font-style: normal;
+  font-size: 0.72em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--landing-ink) 48%, var(--landing-magenta));
 }
 
 .landing-cta-group {
@@ -4609,12 +4650,21 @@ button:disabled {
     font-size: 0.8rem;
   }
 
-  .landing-quote {
+  .landing-quote-carousel {
     order: 0;
     margin: 0;
+    max-width: none;
+    justify-items: center;
+  }
+
+  .landing-quote {
     font-size: 0.72rem;
     line-height: 1.35;
     text-align: center;
+  }
+
+  .landing-quote-meta {
+    justify-content: center;
   }
 
   .landing-hero-knight {
@@ -4679,7 +4729,7 @@ button:disabled {
     grid-template-rows: minmax(0, 22dvh) minmax(0, 1fr);
   }
 
-  .landing-quote {
+  .landing-quote-carousel {
     display: none;
   }
 
@@ -4718,7 +4768,8 @@ button:disabled {
   .landing-hero-visual.is-knight::after,
   .landing-hero-floor,
   .landing-hero-knight,
-  .landing-slide {
+  .landing-slide,
+  .landing-quote-carousel > .landing-quote {
     animation: none !important;
     transition: none !important;
   }
