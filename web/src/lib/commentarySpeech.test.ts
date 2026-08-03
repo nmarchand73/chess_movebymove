@@ -3,8 +3,10 @@ import { describe, it } from "node:test";
 import {
   commentaryToSpeechText,
   joinSpeechParts,
+  normalizeEvalMarks,
   prepareCommentarySpeech,
   speakableSan,
+  speakInformatorSymbols,
   splitIntoSpeechSentences,
 } from "./commentarySpeech.ts";
 import type { CommentaryBeat } from "./commentaryBeats.ts";
@@ -24,6 +26,17 @@ describe("speakableSan", () => {
     assert.equal(speakableSan("5...exd4"), "move 5 for black, e takes d four");
     assert.equal(speakableSan("2.d4"), "move 2, d four");
   });
+
+  it("speaks ASCII and Unicode evaluation marks", () => {
+    assert.equal(speakableSan("Nf3!!"), "knight to f three brilliant");
+    assert.equal(speakableSan("Nf3‼"), "knight to f three brilliant");
+    assert.equal(speakableSan("e5??"), "e five blunder");
+    assert.equal(speakableSan("e5⁇"), "e five blunder");
+    assert.equal(speakableSan("Bd6!?"), "bishop to d six interesting");
+    assert.equal(speakableSan("Bd6⁉"), "bishop to d six interesting");
+    assert.equal(speakableSan("Nc6?!"), "knight to c six dubious");
+    assert.equal(speakableSan("Nc6⁈"), "knight to c six dubious");
+  });
 });
 
 describe("prepareCommentarySpeech", () => {
@@ -40,6 +53,18 @@ describe("prepareCommentarySpeech", () => {
 
   it("softens hyphenated pawn jargon", () => {
     assert.match(prepareCommentarySpeech("guards the e-pawn"), /e pawn/);
+  });
+
+  it("speaks Informator evaluation symbols in prose", () => {
+    const text = prepareCommentarySpeech(
+      "After the exchange White is ± and Black has ⇄. The idea △ Nf3 is □.",
+    );
+    assert.match(text, /White is better/);
+    assert.match(text, /with counterplay/);
+    assert.match(text, /with the idea/);
+    assert.match(text, /only move/);
+    assert.equal(normalizeEvalMarks("g3‼"), "g3!!");
+    assert.match(speakInformatorSymbols("unclear ∞ position"), /unclear/);
   });
 });
 

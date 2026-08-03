@@ -16,6 +16,7 @@ import {
 } from "../lib/commentary";
 import {
   commentaryToSpeechText,
+  normalizeEvalMarks,
   speakCommentary,
   speechSupported,
   stopCommentarySpeech,
@@ -165,7 +166,9 @@ export function CommentaryPanel({
     const body = commentaryToSpeechText(beats, displayTakeaway);
     if (!body) return "";
     if (ply === 0) return body;
-    return `${label}. ${body}`;
+    // Drop !/? glyphs on the move header — they become "good"/"mistake" and glue into the prose.
+    const speakLabel = normalizeEvalMarks(label).replace(/[!?]+$/g, "");
+    return `${speakLabel}. ${body}`;
   }, [beats, displayTakeaway, label, ply]);
 
   useEffect(() => {

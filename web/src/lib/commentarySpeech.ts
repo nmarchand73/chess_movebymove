@@ -13,7 +13,84 @@ const PIECE_WORDS: Record<string, string> = {
 
 /** Move tokens worth expanding for TTS (with optional move-number prefix). */
 const SPEECH_MOVE_PATTERN =
-  /(?:\d+\s*\.{2,3}\s*|\d+\.\s*|\b\d+\s+)?(?:O-O-O|O-O|0-0-0|0-0|[NBRQK][a-h]?[1-8]?x?[a-h][1-8](?:=[NBRQK])?|[a-h]x[a-h][1-8](?:=[NBRQK])?|x[a-h][1-8](?:=[NBRQK])?|[a-h][1-8])[+#?!]*/gi;
+  /(?:\d+\s*\.{2,3}\s*|\d+\.\s*|\b\d+\s+)?(?:O-O-O|O-O|0-0-0|0-0|[NBRQK][a-h]?[1-8]?x?[a-h][1-8](?:=[NBRQK])?|[a-h]x[a-h][1-8](?:=[NBRQK])?|x[a-h][1-8](?:=[NBRQK])?|[a-h][1-8])[+#?!‼⁇⁉⁈]*/gi;
+
+/** Unicode NAG glyphs → ASCII, so one suffix parser covers both. */
+export function normalizeEvalMarks(text: string): string {
+  return text
+    .replace(/‼/g, "!!")
+    .replace(/⁇/g, "??")
+    .replace(/⁉/g, "!?")
+    .replace(/⁈/g, "?!");
+}
+
+/**
+ * Classic NAG / check marks after a move (longest tokens first).
+ * Order matters: !! before !, !? before !, etc.
+ */
+const ANNOTATION_SUFFIX_TOKENS: Array<[string, string]> = [
+  ["!!", "brilliant"],
+  ["??", "blunder"],
+  ["!?", "interesting"],
+  ["?!", "dubious"],
+  ["!", "good"],
+  ["?", "mistake"],
+  ["#", "checkmate"],
+  ["+", "check"],
+];
+
+function speakAnnotationSuffix(raw: string): string {
+  const words: string[] = [];
+  let rest = normalizeEvalMarks(raw);
+  while (rest.length > 0) {
+    const hit = ANNOTATION_SUFFIX_TOKENS.find(([token]) => rest.startsWith(token));
+    if (!hit) break;
+    words.push(hit[1]);
+    rest = rest.slice(hit[0].length);
+  }
+  return words.join(" ");
+}
+
+/**
+ * Informator / evaluation symbols in prose (not SAN suffixes).
+ * Longer / more specific patterns first.
+ */
+const INFORMATOR_SPEECH: Array<[RegExp, string]> = [
+  [/\+\-\-/g, "White is winning"],
+  [/--\+/g, "Black is winning"],
+  [/\+\/\-/g, "White is better"],
+  [/-\/\+/g, "Black is better"],
+  [/\+\/=/g, "White is slightly better"],
+  [/=\/\+/g, "Black is slightly better"],
+  [/=\/∞/g, "with compensation"],
+  [/∞\/=/g, "with compensation"],
+  [/±/g, "White is better"],
+  [/∓/g, "Black is better"],
+  [/⩲/g, "White is slightly better"],
+  [/⩱/g, "Black is slightly better"],
+  [/∞/g, "unclear"],
+  [/△/g, "with the idea"],
+  [/▲/g, "with the idea"],
+  [/□/g, "only move"],
+  [/⊙/g, "zugzwang"],
+  [/◯/g, "zugzwang"],
+  [/↑/g, "with initiative"],
+  [/↓/g, "with a disadvantage"],
+  [/⇄/g, "with counterplay"],
+  [/⊕/g, "in time trouble"],
+  [/†/g, "check"],
+  [/‡/g, "checkmate"],
+  // Informator attack arrow — only as a spaced symbol, not prose arrows.
+  [/(?<=\s|^)→(?=\s|$)/g, "with an attack"],
+];
+
+export function speakInformatorSymbols(text: string): string {
+  let out = text;
+  for (const [pattern, spoken] of INFORMATOR_SPEECH) {
+    out = out.replace(pattern, ` ${spoken} `);
+  }
+  return out;
+}
 
 function speakRank(rank: string): string {
   return RANK_WORDS[Number(rank)] ?? rank;
@@ -27,31 +104,9 @@ function speakPiece(letter: string): string {
   return PIECE_WORDS[letter.toUpperCase()] ?? letter;
 }
 
-function speakAnnotationSuffix(raw: string): string {
-  const words: string[] = [];
-  let rest = raw;
-  const tokens: Array<[string, string]> = [
-    ["!!", "brilliant"],
-    ["??", "blunder"],
-    ["!?", "interesting"],
-    ["?!", "dubious"],
-    ["!", "good"],
-    ["?", "mistake"],
-    ["#", "checkmate"],
-    ["+", "check"],
-  ];
-  while (rest.length > 0) {
-    const hit = tokens.find(([token]) => rest.startsWith(token));
-    if (!hit) break;
-    words.push(hit[1]);
-    rest = rest.slice(hit[0].length);
-  }
-  return words.join(" ");
-}
-
 /** Expand a single SAN / castling token into spoken English. */
 export function speakableSan(token: string): string {
-  const trimmed = token.trim();
+  const trimmed = normalizeEvalMarks(token.trim());
   if (!trimmed) return trimmed;
 
   // Castling before move-number parsing — "0-0" must not become "move 0".
@@ -124,7 +179,7 @@ export function speakableSan(token: string): string {
  * instead of "plus" / "N F three".
  */
 export function prepareCommentarySpeech(text: string): string {
-  let out = text;
+  let out = normalizeEvalMarks(text);
 
   // Hyphenated chess jargon before generic square rewrites.
   out = out.replace(/\b([a-h])-pawn\b/gi, (_, file: string) => `${file.toLowerCase()} pawn`);
@@ -135,6 +190,7 @@ export function prepareCommentarySpeech(text: string): string {
   out = out.replace(/\b([NBRQK]?[a-h]?x?[a-h][1-8])\s+#/gi, "$1#");
 
   out = out.replace(SPEECH_MOVE_PATTERN, (match) => speakableSan(match));
+  out = speakInformatorSymbols(out);
 
   return out.replace(/\s+/g, " ").trim();
 }
@@ -238,9 +294,16 @@ export function speechSupported(): boolean {
 
 /** Bumped on cancel so in-flight sentence queues stop cleanly. */
 let speakGeneration = 0;
+const pendingPauseTimers = new Set<ReturnType<typeof setTimeout>>();
+
+function clearSpeechPauseTimers(): void {
+  for (const timer of pendingPauseTimers) clearTimeout(timer);
+  pendingPauseTimers.clear();
+}
 
 export function stopCommentarySpeech(): void {
   speakGeneration += 1;
+  clearSpeechPauseTimers();
   if (!speechSupported()) return;
   window.speechSynthesis.cancel();
 }
@@ -249,6 +312,8 @@ type SpeakHandlers = {
   onEnd?: () => void;
   onError?: () => void;
 };
+
+const SENTENCE_GAP_MS = 320;
 
 /** Speak commentary sentence-by-sentence so end-of-sentence pauses are heard. */
 export function speakCommentary(text: string, handlers: SpeakHandlers = {}): boolean {
@@ -264,7 +329,7 @@ export function speakCommentary(text: string, handlers: SpeakHandlers = {}): boo
 
   let index = 0;
 
-  const speakNext = () => {
+  const queueNext = () => {
     if (myGeneration !== speakGeneration) return;
 
     if (index >= sentences.length) {
@@ -278,7 +343,19 @@ export function speakCommentary(text: string, handlers: SpeakHandlers = {}): boo
     utterance.rate = settings.rate;
     utterance.pitch = 1;
     if (voice) utterance.voice = voice;
-    utterance.onend = () => speakNext();
+    utterance.onend = () => {
+      if (myGeneration !== speakGeneration) return;
+      if (index >= sentences.length) {
+        handlers.onEnd?.();
+        return;
+      }
+      // Browser TTS often glues utterances together — insert a real gap.
+      const timer = setTimeout(() => {
+        pendingPauseTimers.delete(timer);
+        queueNext();
+      }, SENTENCE_GAP_MS);
+      pendingPauseTimers.add(timer);
+    };
     utterance.onerror = () => {
       if (myGeneration !== speakGeneration) return;
       // cancel() triggers error on the current utterance — ignore if we stopped on purpose
@@ -292,7 +369,8 @@ export function speakCommentary(text: string, handlers: SpeakHandlers = {}): boo
     window.speechSynthesis.speak(utterance);
   };
 
-  speakNext();
+  queueNext();
   return true;
 }
+
 
