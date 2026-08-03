@@ -1,6 +1,6 @@
 # Move-by-Move Coach
 
-Interactive study app for classic move-by-move chess books — synced board, author commentary, guess-the-move, and optional Stockfish analysis.
+Study classic chess books the way they were written: **every move explained**, with a live board in sync.
 
 **Live:** https://nmarchand73.github.io/chess_movebymove/
 
@@ -9,205 +9,149 @@ Interactive study app for classic move-by-move chess books — synced board, aut
 | *Logical Chess: Move By Move* | Irving Chernev | 33 |
 | *Understanding Chess Move by Move* | John Nunn | 30 |
 
+**63 annotated games** from Capablanca and Tarrasch through Kasparov and Polgar.
+
+---
+
+## What the app delivers
+
+### Library & progress
+- Browse both books by section, with search and opening filters
+- Resume where you left off (local progress per game)
+- Estimated Elo / progress cues on game lists
+
+### Lesson reader (board + commentary)
+- Synced chessboard for every ply, with last-move highlights and knight-path arrows
+- Author commentary stepped move-by-move (Chernev / Nunn voice)
+- Clickable SAN and alternative lines that jump or preview on the board
+- Transport controls: first / prev / next / last, jump to next annotated note
+- Horizontal move strip for quick navigation
+- Copy an AI analysis prompt for the current position
+
+### Guess-the-move
+- Optional quiz mode: hide the next move and try it before advancing
+- On screen: typed guess or board interaction cues
+- On a **Chessnut** board: physical guess without LED spoilers — play the move on the board to advance
+
+### Engine & ratings
+- Stockfish evaluation bar and best line (optional)
+- Live Lucas-style performance Elo as you play through a game
+- Optional precomputed full-game Elo batch for the library
+
+### Physical board (Chessnut)
+- Connect via Bluetooth or USB (`eboard-connect-js`)
+- Sync lesson positions to the e-board
+- Guided quiz mode: hide the next move, verify placement, no LED spoilers
+
+### Experience
+- Chernev-inspired visual design (cream / violet / magenta)
+- Landing page with product preview carousel (cover, board, commentary)
+- Responsive layout: desktop 50/50 board+notes; mobile sticky board and single-viewport landing
+
 ---
 
 ## Architecture
 
-The project splits cleanly into an **offline ingestion pipeline** (Python) and a **static web reader** (React/Vite). Lesson JSON is the contract between them.
+Offline **Python ingest** (EPUB ↔ PGN) produces lesson JSON. The **React/Vite** app is a static reader of that JSON.
 
 ```
-┌─────────────────────────────────────────────────────────────────────────┐
-│  SOURCES (local, not in repo)                                           │
-│  docs/*.epub          Book commentary                                   │
-│  docs/logical chess.pgn   Chernev multi-game PGN                        │
-│  Lichess study moJOC4Se   Nunn PGNs (fetched by script)                 │
-└───────────────────────────────┬─────────────────────────────────────────┘
-                                │
-                    Python ingest scripts
-                    (align EPUB text ↔ PGN moves)
-                                │
-                                ▼
-┌─────────────────────────────────────────────────────────────────────────┐
-│  data/                                                                  │
-│  ├── index.json              Library catalog + per-book lesson lists    │
-│  ├── lessons/{book}-{nnn}.json   One file per game (nodes + metadata)   │
-│  └── pgn/{book}/{nn}.pgn     Canonical move sequences                   │
-└───────────────────────────────┬─────────────────────────────────────────┘
-                                │  cp → web/public/data/
-                                ▼
-┌─────────────────────────────────────────────────────────────────────────┐
-│  web/  (React 19 + Vite 8 + TypeScript)                                 │
-│  ├── public/data/            Static assets served at deploy             │
-│  └── src/                    UI, chess logic, Stockfish worker           │
-└───────────────────────────────┬─────────────────────────────────────────┘
-                                │  npm run build → web/dist/
-                                ▼
-                    GitHub Pages  (/chess_movebymove/)
+SOURCES (local EPUBs + PGN)
+        │
+        ▼  Python ingest (align commentary ↔ moves)
+data/index.json + data/lessons/*.json
+        │
+        ▼  cp → web/public/data/
+web/ (React 19 + Vite 8 + TypeScript + chess.js + Stockfish)
+        │
+        ▼  npm run build → GitHub Pages (/chess_movebymove/)
 ```
 
 ### Repository layout
 
 ```
 move_by_move/
-├── data/                    # Generated lessons (committed; source of truth)
-│   ├── index.json
-│   ├── lessons/
-│   └── pgn/
-├── docs/                    # Source PGN + local EPUBs (EPUBs gitignored)
-├── scripts/
-│   ├── lib/ingest_core.py   # Shared EPUB↔PGN alignment
-│   ├── split_chernov_pgn.py
-│   ├── ingest_chernov.py
-│   ├── fetch_nunn_pgns.py
-│   └── ingest_nunn.py
+├── data/                 # Generated lessons (committed)
+├── docs/                 # Source PGN; EPUBs gitignored
+├── scripts/              # Python ingest + PGN fetch/split
 ├── web/
-│   ├── public/data/         # Copy of data/ for dev + deploy
-│   ├── scripts/             # Node batch jobs (Elo computation)
+│   ├── public/data/      # Served lesson JSON + Elo cache
+│   ├── public/images/    # Landing assets
 │   └── src/
-│       ├── pages/           # Home (library + game list), Lesson (reader)
-│       ├── components/      # Board, commentary, transport, guess-move
-│       ├── hooks/           # Stockfish eval, performance rating, Chessnut
-│       └── lib/             # Chess, commentary parsing, progress, index
+│       ├── pages/        # Landing, library, lesson, settings
+│       ├── components/   # Board, commentary, transport, guess, Chessnut
+│       ├── hooks/        # Eval, performance, Chessnut connect
+│       └── lib/          # Chess, commentary, progress, physical guess
 └── .github/workflows/deploy.yml
+```
 
-Shared board connector (sibling repo / folder):
-
-```
-../eboard-connect-js/        # Shared e-board connector (Chessnut BLE + USB)
-```
-```
+Shared e-board connector (sibling folder): `../eboard-connect-js/`
 
 ### Data model
 
-**`data/index.json`** — library manifest consumed at startup:
+**`data/index.json`** — books, sections, and `LessonSummary` rows.
 
-- `books[]` — metadata per title (`id`, `title`, `author`, `sections[]`)
-- `chernov[]`, `nunn[]` — lightweight `LessonSummary` rows pointing at lesson files
+**`data/lessons/{id}.json`** — full game: `nodes[]` (`ply`, `san?`, `text`, flags), headers, move counts.
 
-**`data/lessons/{id}.json`** — full game payload:
+Positions are rebuilt from `nodes` with `chess.js` (no PGN at runtime).
 
-| Field | Purpose |
-|-------|---------|
-| `nodes[]` | Commentary aligned to ply: `{ ply, san?, text, isCritical? }` |
-| `fullText` | Raw concatenated commentary (search / fallback) |
-| `players`, `opening`, `eco`, `result` | Game header |
-| `moveCount`, `annotatedMoves` | Navigation bounds |
+**`web/public/data/performance-elos.json`** — optional precomputed Lucas Elo per game.
 
-The web app never reads PGN at runtime; positions are rebuilt from `nodes` via `chess.js`.
+### Ingestion
 
-**`web/public/data/performance-elos.json`** — optional precomputed Lucas Elo per game (batch script).
-
-### Ingestion pipeline
-
-Each book follows the same pattern:
-
-1. **Acquire PGN** — split local file (Chernev) or fetch Lichess study (Nunn).
-2. **Parse EPUB** — book-specific HTML/structure rules in `ingest_*.py`.
-3. **Align moves** — `ingest_core.py` walks PGN plies and matches inline move tokens in commentary text (fuzzy SAN matching, OCR fixes).
-4. **Emit JSON** — one lesson file per game; merge into `data/index.json` without overwriting the other book.
-
-Re-running `ingest_chernov.py` or `ingest_nunn.py` **merges** into the existing index. Legacy indexes with only `chernov` are normalized at load time (`normalizeIndex.ts`).
-
-### Web app
-
-**Routing** is state-based in `App.tsx`: library → book game list → lesson reader. No client-side router.
-
-| Layer | Key modules |
-|-------|-------------|
-| **Pages** | `Home.tsx` (library cards, search, progress), `Lesson.tsx` (reader shell) |
-| **Board** | `BoardPanel`, `react-chessboard`, `chess.ts` (FEN from ply) |
-| **Commentary** | `commentary.ts` (SAN links, alternatives), `commentaryBeats.ts` (step-through paragraphs) |
-| **Study aids** | `GuessMove.tsx`, `progress.ts` (localStorage resume), `openingTooltips.ts` |
-| **Engine** | `stockfishEngine.ts` + `usePositionEval` (WASM worker, ply > 0) |
-| **Ratings** | `performanceRating.ts` (live Lucas Elo), `computeGameElos.ts` (batch) |
-
-**Lesson reader flow:** load lesson JSON → set ply → rebuild position → show commentary beat → optional guess-the-move → Stockfish eval + performance sparklines when past move 0.
-
-### Deploy
-
-Pushes to `main` run `.github/workflows/deploy.yml`: `npm ci && npm run build` in `web/`, upload `web/dist/` to GitHub Pages. Vite `base` is `/chess_movebymove/`.
+1. Acquire PGN (split Chernev file or fetch Nunn Lichess study).
+2. Parse EPUB with book-specific rules.
+3. Align plies to commentary (`ingest_core.py`).
+4. Emit lesson JSON and merge into `index.json`.
 
 ---
 
 ## Quick start
 
-### Prerequisites
-
-- Python 3.11+
-- Node.js 22+
-- Local EPUB copies (not in repo):
-  - `docs/Logical Chess- Move By Move.epub`
-  - `docs/Understanding chess move by move - [a top-class grandmaster -- John Nunn -- 2013.epub`
-
-### Regenerate lessons (optional)
-
-Lesson JSON is already committed. Only re-run ingest after EPUB/PGN changes.
-
-```bash
-python3 -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-
-# Chernev
-python scripts/split_chernov_pgn.py
-python scripts/ingest_chernov.py
-
-# Nunn
-python scripts/fetch_nunn_pgns.py   # needs network; Playwright
-python scripts/ingest_nunn.py
-
-# Sync into web app
-cp data/index.json web/public/data/
-cp data/lessons/*.json web/public/data/lessons/
-```
-
-### Run locally
-
 ```bash
 cd web && npm install && npm run dev
 ```
 
-Open http://localhost:5173
+Open http://localhost:5173/chess_movebymove/
+
+### Regenerate lessons (optional)
+
+Lesson JSON is already committed. Re-run only after EPUB/PGN changes.
+
+```bash
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+python scripts/split_chernov_pgn.py && python scripts/ingest_chernov.py
+python scripts/fetch_nunn_pgns.py && python scripts/ingest_nunn.py   # network
+cp data/index.json web/public/data/
+cp data/lessons/*.json web/public/data/lessons/
+```
+
+Prerequisites: Python 3.11+, Node.js 22+, local EPUBs under `docs/` (see filenames in repo docs / `.gitignore`).
 
 ---
 
 ## Scripts
 
-### Python
-
-| Script | Purpose |
-|--------|---------|
-| `scripts/split_chernov_pgn.py` | Split `docs/logical chess.pgn` → `data/pgn/chernov/{01..33}.pgn` |
-| `scripts/ingest_chernov.py` | Chernev EPUB + PGN → `data/lessons/chernov-*.json` |
-| `scripts/fetch_chernov_pgns.py` | Fallback: fetch Chernev PGNs from chessgames.com |
-| `scripts/fetch_nunn_pgns.py` | Download Nunn PGNs from [Lichess study](https://lichess.org/study/moJOC4Se) |
-| `scripts/ingest_nunn.py` | Nunn EPUB + PGN → `data/lessons/nunn-*.json` |
-| `scripts/lib/ingest_core.py` | Shared PGN ↔ commentary alignment helpers |
-
-### npm (`web/`)
-
-| Command | Purpose |
-|---------|---------|
-| `npm run dev` | Dev server |
-| `npm run build` | Production build (`tsc` + Vite) |
-| `npm test` | Unit tests (commentary, navigation, index, Elo, etc.) |
-| `npm run compute-elos` | Batch Lucas Elo → `web/public/data/performance-elos.json` |
-| `npm run compute-elos -- --book nunn` | Single book |
-| `npm run compute-elos -- --book chernov --game 1` | Single game |
+| Script / command | Purpose |
+|------------------|---------|
+| `scripts/split_chernov_pgn.py` | Split Chernev multi-game PGN |
+| `scripts/ingest_chernov.py` | Chernev EPUB + PGN → lessons |
+| `scripts/fetch_nunn_pgns.py` | Nunn PGNs from Lichess study |
+| `scripts/ingest_nunn.py` | Nunn EPUB + PGN → lessons |
+| `cd web && npm run dev` | Dev server |
+| `cd web && npm run build` | Production build |
+| `cd web && npm test` | Unit tests |
+| `cd web && npm run compute-elos` | Batch Lucas Elo JSON |
 
 ---
 
-## Adding another book
+## Deploy
 
-1. Add a `BookId` in `web/src/types.ts` and book metadata in `data/index.json`.
-2. Write `scripts/ingest_<book>.py` (reuse `ingest_core.py`; EPUB structure is book-specific).
-3. Add PGN source script if needed.
-4. Extend `bookDetails.ts`, `bookMeta.ts`, and `normalizeIndex.ts`.
-5. Copy JSON to `web/public/data/`, run tests, deploy.
+Pushes to `main` run GitHub Actions: build `web/` and publish `web/dist/` to GitHub Pages (`base`: `/chess_movebymove/`).
 
 ---
 
 ## Git
 
-**Tracked:** source, `data/`, `web/public/data/`, `docs/logical chess.pgn`
-
-**Ignored:** `.venv/`, `web/node_modules/`, `web/dist/`, `docs/*.epub`, `docs/nunn.pgn`, `data/ingest_report.json`
+**Tracked:** source, `data/`, `web/public/data/`, landing images, `docs/logical chess.pgn`  
+**Ignored:** `.venv/`, `web/node_modules/`, `web/dist/`, `docs/*.epub`
