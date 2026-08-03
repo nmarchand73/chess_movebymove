@@ -347,13 +347,18 @@
 }
 
 .toolbar::before {
-  content: "⌕";
+  content: "";
   position: absolute;
   left: 0.95rem;
-  top: 0.72rem;
-  color: var(--ink-muted);
-  font-size: 0.95rem;
+  top: 0.78rem;
+  width: 0.85rem;
+  height: 0.85rem;
+  border: 1.6px solid var(--ink-muted);
+  border-radius: 999px;
+  box-sizing: border-box;
   pointer-events: none;
+  background: transparent;
+  box-shadow: 0.35rem 0.35rem 0 -0.28rem var(--ink-muted);
 }
 
 .toolbar-meta {
@@ -727,11 +732,23 @@ button.lesson-row.is-started:hover:not(:disabled) {
 }
 
 .opening-hint-details summary::before {
-  content: "▸ ";
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-right: 0.4rem;
+  border-top: 0.28rem solid transparent;
+  border-bottom: 0.28rem solid transparent;
+  border-left: 0.4rem solid currentColor;
+  vertical-align: 0.05em;
 }
 
 .opening-hint-details[open] summary::before {
-  content: "▾ ";
+  border-left: 0.28rem solid transparent;
+  border-right: 0.28rem solid transparent;
+  border-top: 0.4rem solid currentColor;
+  border-bottom: 0;
+  vertical-align: 0.12em;
 }
 
 .opening-hint-details p {
@@ -1202,8 +1219,8 @@ button.lesson-row.is-started:hover:not(:disabled) {
   height: auto;
 }
 
-/* Move-path arrows: semi-transparent overlay (library default z-index 20). */
-.board-wrap #chernov-board-board > svg path {
+/* Move-path arrows only — do not filter piece artwork (Safari iOS glitches). */
+.board-wrap .cg-shapes path {
   stroke-linecap: round;
   filter: drop-shadow(0 0 1px rgba(255, 248, 240, 0.85));
 }
@@ -1667,6 +1684,10 @@ button.lesson-row.is-started:hover:not(:disabled) {
 }
 
 .transport-next {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
   font-family: var(--font-display);
   font-weight: 400;
   padding: 0.38rem 0.7rem;
@@ -1931,6 +1952,22 @@ button.lesson-row.is-started:hover:not(:disabled) {
 .icon-btn {
   min-width: 2.15rem;
   padding: 0.4rem 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+}
+
+.transport-icon {
+  display: block;
+  width: 1.05rem;
+  height: 1.05rem;
+  flex-shrink: 0;
+}
+
+.transport-icon-next {
+  width: 0.95rem;
+  height: 0.95rem;
 }
 
 .guess-toggle {
@@ -2828,14 +2865,23 @@ button.alt-chip:hover {
 }
 
 .alt-chip-played {
-  font-size: 0.7rem;
-  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   color: var(--accent);
-  line-height: 1;
+  line-height: 0;
 }
 
-.empty-note {
-  color: var(--ink-muted);
+.alt-chip-played-icon {
+  display: block;
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.alt-chip-move,
+.chessnut-guide,
+.move-chip {
+  font-variant-emoji: text;
 }
 
 .guess-panel {
@@ -3376,7 +3422,8 @@ button:disabled {
   .app-shell:has(.home),
   .app-shell:has(.book-library),
   .app-shell:has(.settings-page) {
-    padding-bottom: max(2rem, env(safe-area-inset-bottom, 0px));
+    /* Extra room under Safari’s floating tab bar on iPhone. */
+    padding-bottom: max(4.5rem, calc(env(safe-area-inset-bottom, 0px) + 3.25rem));
   }
 
   .hero-aside {

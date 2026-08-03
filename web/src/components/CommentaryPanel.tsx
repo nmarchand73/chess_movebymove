@@ -93,7 +93,16 @@ function AlternativeChip({
       >
         <span className="alt-chip-move">{formatSanWithSymbols(alt.label)}</span>
         {alt.verdict ? <span className="alt-chip-verdict">{alt.verdict}</span> : null}
-        {alt.isPlayed ? <span className="alt-chip-played" aria-label="Played">✓</span> : null}
+        {alt.isPlayed ? (
+          <span className="alt-chip-played" aria-label="Played">
+            <svg className="alt-chip-played-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+              <path
+                fill="currentColor"
+                d="M6.2 11.4 2.8 8l1.1-1.1 2.3 2.3 5-5L12.3 5.3 6.2 11.4z"
+              />
+            </svg>
+          </span>
+        ) : null}
       </button>
       {showQuote ? <p className="alt-chip-quote">{alt.quote}</p> : null}
     </li>

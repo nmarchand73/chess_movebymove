@@ -151,8 +151,9 @@ describe("splitPreludeParagraphs", () => {
 
 describe("formatSanWithSymbols", () => {
   it("replaces piece letters with Unicode symbols in alternative labels", () => {
-    assert.equal(formatSanWithSymbols("2...Nc6"), "2...♘c6");
-    assert.equal(formatSanWithSymbols("3...Bxc5"), "3...♗xc5");
+    const text = "\uFE0E";
+    assert.equal(formatSanWithSymbols("2...Nc6"), `2...♘${text}c6`);
+    assert.equal(formatSanWithSymbols("3...Bxc5"), `3...♗${text}xc5`);
     assert.equal(formatSanWithSymbols("3...b4"), "3...b4");
   });
 });

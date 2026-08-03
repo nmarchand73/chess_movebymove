@@ -1,9 +1,12 @@
+/** Text-presentation VS15 — keeps pieces as glyphs, not emoji, on iOS Safari. */
+const TEXT = "\uFE0E";
+
 const PIECE_SYMBOL: Record<string, string> = {
-  K: "♔",
-  Q: "♕",
-  R: "♖",
-  B: "♗",
-  N: "♘",
+  K: `♔${TEXT}`,
+  Q: `♕${TEXT}`,
+  R: `♖${TEXT}`,
+  B: `♗${TEXT}`,
+  N: `♘${TEXT}`,
 };
 
 /** Display SAN with Unicode piece symbols (Nf3 → ♘f3). Pawn moves unchanged. */
