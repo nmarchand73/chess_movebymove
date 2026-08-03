@@ -22,6 +22,8 @@ import {
   stopCommentarySpeech,
 } from "../lib/commentarySpeech";
 
+type ListenMode = "idle" | "once" | "follow";
+
 type Props = {
   node: AnnotationNode | undefined;
   ply: number;
@@ -143,6 +145,7 @@ export function CommentaryPanel({
   commentator,
 }: Props) {
   const [speaking, setSpeaking] = useState(false);
+  const [listenMode, setListenMode] = useState<ListenMode>("idle");
   const canSpeak = speechSupported();
 
   const label = ply === 0 ? "Introduction" : node?.san ? `${formatMoveNumber(ply)} ${node.san}` : `Move ${ply}`;
@@ -161,26 +164,64 @@ export function CommentaryPanel({
     [rawBeats, displayTakeaway],
   );
   const hasContent = beats.length > 0 || Boolean(displayTakeaway);
+  const speakLabel = useMemo(
+    () => (ply === 0 ? "" : normalizeEvalMarks(label).replace(/[!?]+$/g, "")),
+    [label, ply],
+  );
 
   const speechText = useMemo(() => {
     const body = commentaryToSpeechText(beats, displayTakeaway);
-    if (!body) return "";
     if (ply === 0) return body;
-    // Drop !/? glyphs on the move header — they become "good"/"mistake" and glue into the prose.
-    const speakLabel = normalizeEvalMarks(label).replace(/[!?]+$/g, "");
+    if (!speakLabel) return body;
+    if (!body) return speakLabel;
     return `${speakLabel}. ${body}`;
-  }, [beats, displayTakeaway, label, ply]);
+  }, [beats, displayTakeaway, speakLabel, ply]);
 
-  useEffect(() => {
+  const canListen = canSpeak && Boolean(speechText.trim());
+  const followActive = listenMode === "follow";
+  const onceActive = listenMode === "once" && speaking;
+
+  function stopListening() {
     stopCommentarySpeech();
     setSpeaking(false);
-  }, [ply, node?.text]);
+    setListenMode("idle");
+  }
 
-  useEffect(() => () => stopCommentarySpeech(), []);
+  function toggleOnce() {
+    if (listenMode === "once" && speaking) {
+      stopListening();
+      return;
+    }
+    if (followActive) stopListening();
+    setListenMode("once");
+    const started = speakCommentary(speechText, {
+      onEnd: () => {
+        setSpeaking(false);
+        setListenMode("idle");
+      },
+      onError: () => {
+        setSpeaking(false);
+        setListenMode("idle");
+      },
+    });
+    setSpeaking(started);
+    if (!started) setListenMode("idle");
+  }
 
-  function toggleListen() {
-    if (speaking) {
-      stopCommentarySpeech();
+  function toggleFollow() {
+    if (followActive) {
+      stopListening();
+      return;
+    }
+    stopCommentarySpeech();
+    setSpeaking(false);
+    setListenMode("follow");
+  }
+
+  // Follow mode: narrate this ply, then again each time Next advances.
+  useEffect(() => {
+    if (listenMode !== "follow") return;
+    if (!speechText.trim()) {
       setSpeaking(false);
       return;
     }
@@ -189,7 +230,17 @@ export function CommentaryPanel({
       onError: () => setSpeaking(false),
     });
     setSpeaking(started);
-  }
+  }, [ply, listenMode, speechText]);
+
+  // Navigating away during a one-shot listen stops playback.
+  useEffect(() => {
+    if (listenMode === "follow") return;
+    stopCommentarySpeech();
+    setSpeaking(false);
+    setListenMode((mode) => (mode === "once" ? "idle" : mode));
+  }, [ply]);
+
+  useEffect(() => () => stopCommentarySpeech(), []);
 
   return (
     <section className="commentary">
@@ -202,17 +253,30 @@ export function CommentaryPanel({
           <span className="pill">{ply}/{totalPlies}</span>
           {node?.isCritical ? <span className="pill critical">Key moment</span> : null}
           {hasContent ? <span className="pill accent">Annotated</span> : null}
-          {canSpeak && hasContent ? (
-            <button
-              type="button"
-              className={`commentary-listen${speaking ? " is-speaking" : ""}`}
-              onClick={toggleListen}
-              aria-pressed={speaking}
-              aria-label={speaking ? "Stop reading" : "Listen to this commentary"}
-              title={speaking ? "Stop reading" : "Listen to this commentary"}
-            >
-              {speaking ? <StopIcon /> : <SpeakerIcon />}
-            </button>
+          {followActive ? <span className="pill accent">Follow</span> : null}
+          {canListen ? (
+            <div className="commentary-listen-wrap">
+              <button
+                type="button"
+                className={`commentary-listen${onceActive ? " is-speaking" : ""}`}
+                onClick={toggleOnce}
+                aria-pressed={onceActive}
+                aria-label={onceActive ? "Stop listening" : "Listen to this move"}
+                title={onceActive ? "Stop" : "This move"}
+              >
+                {onceActive ? <StopIcon /> : <SpeakerIcon />}
+              </button>
+              <button
+                type="button"
+                className={`commentary-listen commentary-listen-follow${followActive ? " is-follow" : ""}`}
+                onClick={toggleFollow}
+                aria-pressed={followActive}
+                aria-label={followActive ? "Stop following moves" : "Listen to this move and each next move"}
+                title={followActive ? "Stop following" : "This & next moves"}
+              >
+                {followActive ? <StopIcon /> : <FollowIcon />}
+              </button>
+            </div>
           ) : null}
         </div>
       </header>
@@ -255,6 +319,20 @@ function SpeakerIcon() {
         fill="currentColor"
         d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"
       />
+    </svg>
+  );
+}
+
+function FollowIcon() {
+  // Speaker + skip-next: "keep listening as you advance"
+  return (
+    <svg className="commentary-listen-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path
+        fill="currentColor"
+        d="M2 9v6h3.2L10 20V4L5.2 9H2zm9.6 1.1v3.8c.72-.36 1.2-1.1 1.2-1.9s-.48-1.54-1.2-1.9z"
+      />
+      <path fill="currentColor" d="M14.4 7.2v9.6L21 12l-6.6-4.8z" />
+      <path fill="currentColor" d="M21.2 7.2h1.6v9.6h-1.6z" />
     </svg>
   );
 }

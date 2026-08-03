@@ -23,7 +23,7 @@ const SLIDES = [
     kind: "shot" as const,
     label: "Chernev explains",
     src: `${BASE}images/landing-commentary.jpg`,
-    alt: "Commentary panel for 12.Nd2 with takeaway, Listen speaker, and Chernev’s annotation",
+    alt: "Commentary panel for 12.Nd2 with takeaway, Listen and Follow controls, and Chernev’s annotation",
   },
 ] as const;
 

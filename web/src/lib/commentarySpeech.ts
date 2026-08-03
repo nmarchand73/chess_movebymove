@@ -326,6 +326,8 @@ export function speechSupported(): boolean {
 
 /** Bumped on cancel so in-flight sentence queues stop cleanly. */
 let speakGeneration = 0;
+let speechHoldPaused = false;
+let resumeAfterHold: (() => void) | null = null;
 const pendingPauseTimers = new Set<ReturnType<typeof setTimeout>>();
 
 function clearSpeechPauseTimers(): void {
@@ -335,9 +337,34 @@ function clearSpeechPauseTimers(): void {
 
 export function stopCommentarySpeech(): void {
   speakGeneration += 1;
+  speechHoldPaused = false;
+  resumeAfterHold = null;
   clearSpeechPauseTimers();
   if (!speechSupported()) return;
   window.speechSynthesis.cancel();
+}
+
+export function pauseCommentarySpeech(): boolean {
+  if (!speechSupported()) return false;
+  speechHoldPaused = true;
+  window.speechSynthesis.pause();
+  return true;
+}
+
+export function resumeCommentarySpeech(): boolean {
+  if (!speechSupported()) return false;
+  speechHoldPaused = false;
+  window.speechSynthesis.resume();
+  if (resumeAfterHold) {
+    const cont = resumeAfterHold;
+    resumeAfterHold = null;
+    cont();
+  }
+  return true;
+}
+
+export function commentarySpeechPaused(): boolean {
+  return speechHoldPaused || (speechSupported() && window.speechSynthesis.paused);
 }
 
 type SpeakHandlers = {
@@ -347,12 +374,28 @@ type SpeakHandlers = {
 
 const SENTENCE_GAP_MS = 320;
 
+function scheduleNextSentence(myGeneration: number, queueNext: () => void): void {
+  const timer = setTimeout(() => {
+    pendingPauseTimers.delete(timer);
+    if (myGeneration !== speakGeneration) return;
+    if (speechHoldPaused) {
+      resumeAfterHold = () => {
+        if (myGeneration === speakGeneration) queueNext();
+      };
+      return;
+    }
+    queueNext();
+  }, SENTENCE_GAP_MS);
+  pendingPauseTimers.add(timer);
+}
+
 /** Speak commentary sentence-by-sentence so end-of-sentence pauses are heard. */
 export function speakCommentary(text: string, handlers: SpeakHandlers = {}): boolean {
   if (!speechSupported() || !text.trim()) return false;
 
   stopCommentarySpeech();
   const myGeneration = speakGeneration;
+  speechHoldPaused = false;
   const settings = loadListenSettings();
   const voice = resolveSpeechVoice(settings.voiceURI);
 
@@ -381,12 +424,7 @@ export function speakCommentary(text: string, handlers: SpeakHandlers = {}): boo
         handlers.onEnd?.();
         return;
       }
-      // Browser TTS often glues utterances together — insert a real gap.
-      const timer = setTimeout(() => {
-        pendingPauseTimers.delete(timer);
-        queueNext();
-      }, SENTENCE_GAP_MS);
-      pendingPauseTimers.add(timer);
+      scheduleNextSentence(myGeneration, queueNext);
     };
     utterance.onerror = () => {
       if (myGeneration !== speakGeneration) return;

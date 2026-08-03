@@ -2478,6 +2478,14 @@ button.lesson-row.is-started:hover:not(:disabled) {
   flex-wrap: wrap;
 }
 
+.commentary-listen-wrap {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  flex-shrink: 0;
+}
+
 .commentary-listen {
   appearance: none;
   display: inline-flex;
@@ -2511,7 +2519,8 @@ button.lesson-row.is-started:hover:not(:disabled) {
   transform: none;
 }
 
-.commentary-listen.is-speaking {
+.commentary-listen.is-speaking,
+.commentary-listen.is-follow {
   background: var(--accent);
   border-color: var(--accent);
   color: #fff;
