@@ -37,8 +37,20 @@ jobs:
             move_by_move/web/package-lock.json
             eboard-connect-js/package-lock.json
 
+      - name: Resolve semantic version
+        id: version
+        working-directory: move_by_move/web
+        run: |
+          # major.minor from package.json; patch = Actions run number (increments each Pages deploy)
+          BASE=$(node -p "const [maj,min]=require('./package.json').version.split('.'); maj + '.' + min")
+          echo "app_version=${BASE}.${{ github.run_number }}" >> "$GITHUB_OUTPUT"
+          echo "Resolved APP_VERSION=${BASE}.${{ github.run_number }}"
+
       - name: Install and build
         working-directory: move_by_move/web
+        env:
+          APP_VERSION: ${{ steps.version.outputs.app_version }}
+          APP_COMMIT: ${{ github.sha }}
         run: |
           npm --prefix ../../eboard-connect-js ci
           npm --prefix ../../eboard-connect-js run build

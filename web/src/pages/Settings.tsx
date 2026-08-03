@@ -3,6 +3,7 @@ import { ChessnutConnectBar } from "../components/ChessnutConnectBar";
 import { useChessnutBoard } from "../hooks/useChessnutBoard";
 import { speakCommentary, speechSupported, stopCommentarySpeech } from "../lib/commentarySpeech";
 import { buildLedBallet } from "../lib/ledBallet";
+import { APP_COMMIT, APP_VERSION } from "../lib/appVersion";
 import {
   englishSpeechVoices,
   ensureDefaultVoiceSelected,
@@ -280,6 +281,10 @@ export function SettingsPage({ onBack }: Props) {
           ) : null}
         </div>
       </section>
+
+      <p className="settings-version muted" title={`commit ${APP_COMMIT}`}>
+        Move by Move · v{APP_VERSION}
+      </p>
     </div>
   );
 }

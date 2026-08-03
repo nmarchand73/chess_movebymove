@@ -2164,6 +2164,13 @@ button.lesson-row.is-started:hover:not(:disabled) {
   line-height: 1.45;
 }
 
+.settings-version {
+  margin: 0.35rem 0 0;
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+}
+
 .settings-panel {
   display: flex;
   flex-direction: column;
