@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import type { AnnotationNode } from "../types";
 import {
   buildCommentaryBeats,
+  beatsWithoutTakeawayDuplicate,
   extractTakeaway,
   type CommentaryBeat,
 } from "../lib/commentaryBeats";
@@ -151,16 +152,21 @@ export function CommentaryPanel({
   );
 
   const takeaway = useMemo(() => extractTakeaway(normalized), [normalized]);
-  const beats = useMemo(() => buildCommentaryBeats(normalized), [normalized]);
-  const headingBeat = beats.find((beat): beat is Extract<CommentaryBeat, { kind: "heading" }> => beat.kind === "heading");
-  const hasContent = beats.length > 0;
+  const rawBeats = useMemo(() => buildCommentaryBeats(normalized), [normalized]);
+  const headingBeat = rawBeats.find((beat): beat is Extract<CommentaryBeat, { kind: "heading" }> => beat.kind === "heading");
+  const displayTakeaway = takeaway && !headingBeat ? takeaway : null;
+  const beats = useMemo(
+    () => beatsWithoutTakeawayDuplicate(rawBeats, displayTakeaway),
+    [rawBeats, displayTakeaway],
+  );
+  const hasContent = beats.length > 0 || Boolean(displayTakeaway);
 
   const speechText = useMemo(() => {
-    const body = commentaryToSpeechText(beats, headingBeat ? null : takeaway);
+    const body = commentaryToSpeechText(beats, displayTakeaway);
     if (!body) return "";
     if (ply === 0) return body;
     return `${label}. ${body}`;
-  }, [beats, takeaway, headingBeat, label, ply]);
+  }, [beats, displayTakeaway, label, ply]);
 
   useEffect(() => {
     stopCommentarySpeech();
@@ -217,8 +223,8 @@ export function CommentaryPanel({
           <p className="board-hint">Study the position on the board ←</p>
         )}
 
-        {takeaway && hasContent && !headingBeat ? (
-          <p className="commentary-takeaway">{takeaway}</p>
+        {displayTakeaway && hasContent ? (
+          <p className="commentary-takeaway">{displayTakeaway}</p>
         ) : null}
 
         {beats.map((beat, index) => (

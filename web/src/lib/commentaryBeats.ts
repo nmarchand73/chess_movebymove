@@ -65,6 +65,64 @@ export function extractTakeaway(normalized: NormalizedCommentary): string | null
   return sentence;
 }
 
+function normalizeSentenceKey(text: string): string {
+  return text
+    .trim()
+    .replace(/…$/u, "")
+    .replace(/[.!?]+$/u, "")
+    .replace(/\s+/g, " ")
+    .toLowerCase();
+}
+
+/** Remove a leading sentence from prose when it already appears as the takeaway. */
+export function stripLeadingTakeaway(text: string, takeaway: string): string {
+  const key = normalizeSentenceKey(takeaway);
+  if (!key) return text;
+
+  const trimmed = text.trim();
+  if (!trimmed) return text;
+
+  if (normalizeSentenceKey(trimmed) === key) return "";
+
+  const leading = firstSentence(trimmed);
+  if (leading && normalizeSentenceKey(leading) === key) {
+    return trimmed.slice(leading.length).trim();
+  }
+
+  // Truncated takeaways ("…") — strip the matching prefix sentence if present.
+  if (takeaway.trim().endsWith("…") && normalizeSentenceKey(trimmed).startsWith(key)) {
+    const leadingPrefix = firstSentence(trimmed);
+    if (leadingPrefix) return trimmed.slice(leadingPrefix.length).trim();
+  }
+
+  return text;
+}
+
+/** Drop the takeaway sentence from the first prose/principle beat so UI never repeats it. */
+export function beatsWithoutTakeawayDuplicate(
+  beats: CommentaryBeat[],
+  takeaway: string | null | undefined,
+): CommentaryBeat[] {
+  if (!takeaway?.trim()) return beats;
+
+  let stripped = false;
+  const out: CommentaryBeat[] = [];
+
+  for (const beat of beats) {
+    if (stripped || (beat.kind !== "prose" && beat.kind !== "principle")) {
+      out.push(beat);
+      continue;
+    }
+
+    stripped = true;
+    const nextText = stripLeadingTakeaway(beat.text, takeaway);
+    if (!nextText.trim()) continue;
+    out.push(nextText === beat.text ? beat : { ...beat, text: nextText });
+  }
+
+  return out;
+}
+
 export function extractPrinciples(paragraphs: string[]): string[] {
   const found = new Set<string>();
 
