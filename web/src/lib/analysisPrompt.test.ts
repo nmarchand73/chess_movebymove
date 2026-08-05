@@ -53,9 +53,10 @@ describe("buildAnalysisPrompt", () => {
   it("wraps the current game PGN with the French analysis instructions", () => {
     const prompt = buildAnalysisPrompt(sampleLesson, 2);
     assert.ok(prompt.startsWith(ANALYSIS_PROMPT_INSTRUCTIONS));
-    assert.match(prompt, /Act as an International Master of chess\./);
-    assert.match(prompt, /The answer must be in Français\./);
-    assert.match(prompt, /The game is:/);
+    assert.match(prompt, /Agis comme un Maître International et un entraîneur d'échecs expérimenté\./);
+    assert.match(prompt, /génère un PGN intégralement annoté en français/);
+    assert.match(prompt, /Processus de réflexion :/);
+    assert.match(prompt, /Partie à analyser :/);
     assert.match(prompt, /1\. e4 e5/);
   });
 });
