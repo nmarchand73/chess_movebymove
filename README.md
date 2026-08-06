@@ -13,6 +13,19 @@ Study classic chess books the way they were written: **every move explained**, w
 
 ---
 
+## Copyright disclaimer
+
+This is a **personal / educational** study tool. It is **not** affiliated with, endorsed by, or published by Irving Chernev, John Nunn, Batsford, Gambit Publications, or their rights holders.
+
+- **Book PDFs / EPUB / full commercial text are copyrighted.** They are **not** included in this repository and are **not** deployed to GitHub Pages. Keep any legally obtained EPUB sources under local `docs/` (gitignored) for ingest only.
+- Lesson JSON, FENs, and board positions in the app are a **study aid** for interactive practice. If you own the books, prefer them as the primary source.
+- **Do not redistribute** scanned books, OCR dumps, EPUB files, or other copyrighted book content via this project or forks of it.
+- Historical game scores in common PGN form may appear; author commentary should be treated with the same care as the book text.
+
+If you are a rights holder and want content removed or adjusted, open an issue on the repo.
+
+---
+
 ## What the app delivers
 
 ### Library & progress
@@ -23,12 +36,13 @@ Study classic chess books the way they were written: **every move explained**, w
 ### Lesson reader (board + commentary)
 - Synced chessboard for every ply, with last-move highlights and knight-path arrows
 - Author commentary stepped move-by-move (Chernev / Nunn voice)
-- **Listen** icon reads the current annotation aloud (voice & speed in Settings)
+- **Listen** — two controls, Stop only (no pause menu):
+  - **This move** — speak the current annotation
+  - **Follow** — keep narrating as you press Next
   - Chess-aware speech: SAN, checks/mates, NAG marks (`!` `!!` `?` … and Unicode), Informator symbols (`±` `△` `□` …)
-  - Sentence pauses; move-header eval glyphs skipped so they don’t glue into the prose
-  - Deduped takeaway so the highlighted line isn’t repeated in the body
+  - Voice & speed in Settings (Chrome / Safari defaults; Enhanced voices via system settings on Apple)
 - Clickable SAN and alternative lines that jump or preview on the board
-- Transport controls: first / prev / next / last, jump to next annotated note
+- Transport controls: first / prev / next / last (SVG icons for consistent Safari rendering), jump to next annotated note
 - Horizontal move strip for quick navigation
 - Copy an AI analysis prompt for the current position
 
@@ -46,11 +60,13 @@ Study classic chess books the way they were written: **every move explained**, w
 - Connect via Bluetooth or USB (`eboard-connect-js`)
 - Sync lesson positions to the e-board
 - Guided quiz mode: hide the next move, verify placement, no LED spoilers
+- LED ballet in Settings to verify every square
 
 ### Experience
 - Chernev-inspired visual design (cream / violet / magenta)
-- Landing page with product preview carousel (cover, board, commentary) and Listen called out in the lead
-- Responsive layout: desktop 50/50 board+notes; mobile sticky board and single-viewport landing
+- Landing page: product preview carousel + rotating Chernev / Nunn quotations
+- Responsive layout: desktop 50/50 board+notes; mobile brand-first landing and scrollable lesson chrome
+- Settings footer shows a **semantic version** from GitHub Pages deploys (`major.minor` from `package.json`, patch = Actions run number)
 
 ---
 
@@ -84,7 +100,7 @@ move_by_move/
 │       ├── pages/        # Landing, library, lesson, settings
 │       ├── components/   # Board, commentary, transport, guess, Chessnut
 │       ├── hooks/        # Eval, performance, Chessnut connect
-│       └── lib/          # Chess, commentary, progress, physical guess
+│       └── lib/          # Chess, commentary, speech, progress, physical guess
 └── .github/workflows/deploy.yml
 ```
 
@@ -103,7 +119,7 @@ Positions are rebuilt from `nodes` with `chess.js` (no PGN at runtime).
 ### Ingestion
 
 1. Acquire PGN (split Chernev file or fetch Nunn Lichess study).
-2. Parse EPUB with book-specific rules.
+2. Parse EPUB with book-specific rules (local copyrighted sources only — see disclaimer).
 3. Align plies to commentary (`ingest_core.py`).
 4. Emit lesson JSON and merge into `index.json`.
 
@@ -152,6 +168,8 @@ Prerequisites: Python 3.11+, Node.js 22+, local EPUBs under `docs/` (see filenam
 ## Deploy
 
 Pushes to `main` run GitHub Actions: build `web/` and publish `web/dist/` to GitHub Pages (`base`: `/chess_movebymove/`).
+
+Each deploy injects a semver into Settings: `v{major}.{minor}.{github.run_number}` (major/minor from `web/package.json`).
 
 ---
 
