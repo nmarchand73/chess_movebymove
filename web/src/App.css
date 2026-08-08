@@ -2516,7 +2516,7 @@ button.lesson-row.is-started:hover:not(:disabled) {
   font-size: 1.65rem;
   font-weight: 400;
   letter-spacing: 0.04em;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .commentary-badges {
