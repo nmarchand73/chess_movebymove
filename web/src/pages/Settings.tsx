@@ -1,6 +1,8 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { ChessnutConnectBar } from "../components/ChessnutConnectBar";
+import { ChessUpConnectBar } from "../components/ChessUpConnectBar";
 import { useChessnutBoard } from "../hooks/useChessnutBoard";
+import { useChessUpBoard } from "../hooks/useChessUpBoard";
 import { speakCommentary, speechSupported, stopCommentarySpeech } from "../lib/commentarySpeech";
 import { buildLedBallet } from "../lib/ledBallet";
 import { APP_COMMIT, APP_VERSION } from "../lib/appVersion";
@@ -27,6 +29,7 @@ const PREVIEW_LINE =
 
 export function SettingsPage({ onBack }: Props) {
   const chessnut = useChessnutBoard();
+  const chessup = useChessUpBoard();
   const [balletRunning, setBalletRunning] = useState(false);
   const [balletProgress, setBalletProgress] = useState<string | null>(null);
   const cancelRef = useRef(false);
@@ -240,7 +243,10 @@ export function SettingsPage({ onBack }: Props) {
           battery={chessnut.battery}
           error={chessnut.error}
           supported={chessnut.supported}
-          onConnect={(kind) => void chessnut.connect(kind)}
+          onConnect={(kind) => {
+            void chessup.disconnect();
+            void chessnut.connect(kind);
+          }}
           onDisconnect={() => {
             void stopBallet();
             void chessnut.disconnect();
@@ -280,6 +286,36 @@ export function SettingsPage({ onBack }: Props) {
             </p>
           ) : null}
         </div>
+      </section>
+
+      <section className="settings-panel settings-panel-board">
+        <div className="settings-panel-head">
+          <div>
+            <p className="settings-eyebrow">Hardware</p>
+            <h2>ChessUp board</h2>
+          </div>
+        </div>
+        <p className="settings-copy muted">
+          Connect over Bluetooth (Nordic UART). The board resolves moves itself — no LED API.
+          Close the official ChessUp app before connecting.
+        </p>
+        <ChessUpConnectBar
+          status={chessup.status}
+          battery={chessup.battery}
+          error={chessup.error}
+          supported={chessup.supported}
+          onConnect={() => {
+            void stopBallet();
+            void chessnut.disconnect();
+            void chessup.connect();
+          }}
+          onDisconnect={() => void chessup.disconnect()}
+          hint={
+            chessup.status === "connected"
+              ? "Listen-only connection — open a lesson and play moves on the ChessUp."
+              : null
+          }
+        />
       </section>
 
       <p className="settings-version muted" title={`commit ${APP_COMMIT}`}>

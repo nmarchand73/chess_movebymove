@@ -17,8 +17,10 @@ import { usePositionEval } from "../hooks/usePositionEval";
 import { usePerformanceRating } from "../hooks/usePerformanceRating";
 import { usePerformanceElos } from "../hooks/usePerformanceElos";
 import { useChessnutBoard } from "../hooks/useChessnutBoard";
+import { useChessUpBoard } from "../hooks/useChessUpBoard";
 import { CommentaryPanel } from "../components/CommentaryPanel";
 import { ChessnutConnectBar } from "../components/ChessnutConnectBar";
+import { ChessUpConnectBar } from "../components/ChessUpConnectBar";
 import { GuessMove } from "../components/GuessMove";
 import { MoveStrip } from "../components/MoveStrip";
 import { OpeningLabel } from "../components/OpeningLabel";
@@ -27,6 +29,8 @@ import { ExportPromptButton } from "../components/ExportPromptButton";
 import { contextualizeOpeningExplanation, getOpeningTooltip } from "../lib/openingTooltips";
 import { commentatorName } from "../lib/bookMeta";
 import { buildBoardGuide, guideLedSquares } from "../lib/boardGuide";
+import { chessUpAssistanceClear, chessUpAssistanceForMove } from "../lib/chessUpAssistance";
+import { chessUpMoveMatchesSan } from "../lib/chessUpMove";
 import { legalMoveMatchingPlacement } from "../lib/physicalGuess";
 
 type Props = {
@@ -45,11 +49,25 @@ export function LessonPage({ summary, onBack }: Props) {
   const [awaitingPhysicalSync, setAwaitingPhysicalSync] = useState(false);
   const [physicalGuessFeedback, setPhysicalGuessFeedback] = useState<string | null>(null);
   const chessnut = useChessnutBoard();
+  const chessup = useChessUpBoard();
   /** Board placement when the lesson ply last changed — blocks auto-advance on rewind. */
   const placementAtPlyLanding = useRef<string | null>(null);
   const lastAutoAdvancedPlacement = useRef<string | null>(null);
   const lastWrongGuessPlacement = useRef<string | null>(null);
-  const prevChessnutStatus = useRef<typeof chessnut.status | null>(null);
+  const prevPhysicalConnected = useRef(false);
+  const physicalSource =
+    chessnut.status === "connected"
+      ? ("chessnut" as const)
+      : chessup.status === "connected"
+        ? ("chessup" as const)
+        : null;
+  const physicalPlacement =
+    physicalSource === "chessnut"
+      ? chessnut.placement
+      : physicalSource === "chessup"
+        ? chessup.placement
+        : null;
+  const physicalConnected = physicalSource !== null;
 
   useEffect(() => {
     loadLesson(summary.file)
@@ -164,76 +182,115 @@ export function LessonPage({ summary, onBack }: Props) {
     }
   }, [ply, nextNode, guessEnabled]);
 
-  // Auto-enable quiz mode when the physical board connects (including reconnect on load).
+  // Auto-enable quiz mode when a physical board connects (including reconnect on load).
   useEffect(() => {
-    const was = prevChessnutStatus.current;
-    if (chessnut.status === "connected" && was !== "connected") {
+    if (physicalConnected && !prevPhysicalConnected.current) {
       setGuessEnabled(true);
     }
-    prevChessnutStatus.current = chessnut.status;
-  }, [chessnut.status]);
+    prevPhysicalConnected.current = physicalConnected;
+  }, [physicalConnected]);
 
   // Remember physical position when ply changes (First / scrub / keyboard).
   // Auto-advance only if the board moves AFTER landing on this ply — otherwise
   // rewinding to the start while pieces are mid-game would instantly jump forward.
   useEffect(() => {
-    placementAtPlyLanding.current = chessnut.placement;
+    placementAtPlyLanding.current = physicalPlacement;
     lastAutoAdvancedPlacement.current = null;
     lastWrongGuessPlacement.current = null;
     setPhysicalGuessFeedback(null);
-    if (chessnut.status === "connected") {
+    if (physicalConnected) {
       setAwaitingPhysicalSync(true);
     }
-  }, [ply, chessnut.status]);
+  }, [ply, physicalConnected]);
 
   useEffect(() => {
-    if (placementAtPlyLanding.current == null && chessnut.placement) {
-      placementAtPlyLanding.current = chessnut.placement;
+    if (placementAtPlyLanding.current == null && physicalPlacement) {
+      placementAtPlyLanding.current = physicalPlacement;
     }
-  }, [chessnut.placement]);
+  }, [physicalPlacement]);
 
   const lessonPlacement = chess?.fen().split(" ")[0] ?? null;
   const isGuessing = guessEnabled && !revealed && !!nextNode?.san;
-  const physicalConnected = chessnut.status === "connected";
 
   useEffect(() => {
-    if (!awaitingPhysicalSync || !chessnut.placement || !lessonPlacement) return;
-    if (chessnut.placement === lessonPlacement) {
+    if (!awaitingPhysicalSync || !physicalPlacement || !lessonPlacement) return;
+    if (physicalPlacement === lessonPlacement) {
       setAwaitingPhysicalSync(false);
     }
-  }, [awaitingPhysicalSync, chessnut.placement, lessonPlacement]);
+  }, [awaitingPhysicalSync, physicalPlacement, lessonPlacement]);
 
+  // ChessUp resolves moves on-board — advance from the `move` event (not inferMove).
   useEffect(() => {
-    if (chessnut.status !== "connected" || !chessnut.placement || !lesson || !chess) return;
+    if (physicalSource !== "chessup" || !lesson || !chess) return;
+
+    return chessup.onMove((move) => {
+      if (ply >= lesson.moveCount) return;
+      if (awaitingPhysicalSync) return;
+      if (!nextNode?.san) return;
+
+      if (isGuessing) {
+        if (chessUpMoveMatchesSan(chess, nextNode.san, move)) {
+          setPhysicalGuessFeedback(`Correct — same as ${commentator}!`);
+          setRevealed(true);
+          goTo(ply + 1);
+          return;
+        }
+        setPhysicalGuessFeedback(`${commentator} played ${nextNode.san} here.`);
+        enqueueReview(lesson.id, ply + 1);
+        return;
+      }
+
+      if (chessUpMoveMatchesSan(chess, nextNode.san, move)) {
+        setRevealed(true);
+        goTo(ply + 1);
+      }
+    });
+  }, [
+    physicalSource,
+    chessup.onMove,
+    lesson,
+    chess,
+    ply,
+    goTo,
+    awaitingPhysicalSync,
+    isGuessing,
+    nextNode?.san,
+    commentator,
+  ]);
+
+  // Chessnut (and ChessUp boardState fallback): placement-delta advance.
+  useEffect(() => {
+    if (!physicalConnected || !physicalPlacement || !lesson || !chess) return;
+    if (physicalSource === "chessup") return; // move event owns ChessUp advances
     if (ply >= lesson.moveCount) return;
     // Do not advance while the board still needs to match the diagram (e.g. reset to start).
     if (awaitingPhysicalSync) return;
     if (placementAtPlyLanding.current == null) return;
 
     // Back on the diagram — clear wrong-guess state and wait for the next attempt.
-    if (chessnut.placement === lessonPlacement) {
+    if (physicalPlacement === lessonPlacement) {
       lastWrongGuessPlacement.current = null;
       setPhysicalGuessFeedback(null);
       return;
     }
 
-    if (chessnut.placement === placementAtPlyLanding.current) return;
-    if (chessnut.placement === lastAutoAdvancedPlacement.current) return;
+    if (physicalPlacement === placementAtPlyLanding.current) return;
+    if (physicalPlacement === lastAutoAdvancedPlacement.current) return;
 
     if (isGuessing && nextNode?.san) {
-      const guess = legalMoveMatchingPlacement(chess.fen(), chessnut.placement);
+      const guess = legalMoveMatchingPlacement(chess.fen(), physicalPlacement);
       if (!guess) return;
 
       if (guess.san.toLowerCase() === nextNode.san.toLowerCase()) {
-        lastAutoAdvancedPlacement.current = chessnut.placement;
+        lastAutoAdvancedPlacement.current = physicalPlacement;
         setPhysicalGuessFeedback(`Correct — same as ${commentator}!`);
         setRevealed(true);
         goTo(ply + 1);
         return;
       }
 
-      if (lastWrongGuessPlacement.current !== chessnut.placement) {
-        lastWrongGuessPlacement.current = chessnut.placement;
+      if (lastWrongGuessPlacement.current !== physicalPlacement) {
+        lastWrongGuessPlacement.current = physicalPlacement;
         setPhysicalGuessFeedback(`${commentator} played ${nextNode.san} here.`);
         enqueueReview(lesson.id, ply + 1);
       }
@@ -241,14 +298,15 @@ export function LessonPage({ summary, onBack }: Props) {
     }
 
     const nextPlacement = buildPositionAtPly(lesson.nodes, ply + 1).fen().split(" ")[0];
-    if (chessnut.placement !== nextPlacement) return;
+    if (physicalPlacement !== nextPlacement) return;
 
-    lastAutoAdvancedPlacement.current = chessnut.placement;
+    lastAutoAdvancedPlacement.current = physicalPlacement;
     setRevealed(true);
     goTo(ply + 1);
   }, [
-    chessnut.status,
-    chessnut.placement,
+    physicalConnected,
+    physicalSource,
+    physicalPlacement,
     lesson,
     chess,
     ply,
@@ -261,9 +319,10 @@ export function LessonPage({ summary, onBack }: Props) {
   ]);
 
   const boardGuide = useMemo(() => {
-    if (chessnut.status !== "connected" || !chess) return null;
+    if (!physicalConnected || !chess) return null;
+    // ChessUp has no free-form LED API; we still compute the guide for copy + assistance.
     return buildBoardGuide({
-      boardPlacement: chessnut.placement,
+      boardPlacement: physicalPlacement,
       lessonPlacement: chess.fen().split(" ")[0]!,
       nextSan: nextNode?.san ?? null,
       chess,
@@ -272,8 +331,8 @@ export function LessonPage({ summary, onBack }: Props) {
       hideNextMove: isGuessing,
     });
   }, [
-    chessnut.status,
-    chessnut.placement,
+    physicalConnected,
+    physicalPlacement,
     chess,
     nextNode?.san,
     ply,
@@ -282,10 +341,12 @@ export function LessonPage({ summary, onBack }: Props) {
     isGuessing,
   ]);
 
-  // Apply play_move / clear LEDs immediately; debounce setup floods so a noisy
-  // lift reading cannot flash every mismatched square. Exact sync after rewind
-  // applies setup LEDs immediately (player must reset pieces).
+  // Chessnut LEDs
   useEffect(() => {
+    if (physicalSource !== "chessnut") {
+      if (chessnut.status === "connected") void chessnut.setLeds([]);
+      return;
+    }
     if (!boardGuide) {
       void chessnut.setLeds([]);
       return;
@@ -299,7 +360,20 @@ export function LessonPage({ summary, onBack }: Props) {
       void chessnut.setLeds(squares);
     }, 140);
     return () => window.clearTimeout(timer);
-  }, [boardGuide, chessnut.setLeds, awaitingPhysicalSync]);
+  }, [boardGuide, chessnut.setLeds, chessnut.status, awaitingPhysicalSync, physicalSource]);
+
+  // ChessUp unofficial assistance lights (green = book move, red = other legal moves).
+  useEffect(() => {
+    if (physicalSource !== "chessup" || !chess) {
+      return;
+    }
+    if (!boardGuide || boardGuide.kind !== "play_move") {
+      void chessup.sendAssistance(chessUpAssistanceClear());
+      return;
+    }
+    const colours = chessUpAssistanceForMove(chess, boardGuide.from, boardGuide.to);
+    void chessup.sendAssistance(colours);
+  }, [physicalSource, boardGuide, chess, chessup.sendAssistance]);
 
   useEffect(() => {
     function onKeyDown(e: KeyboardEvent) {
@@ -473,10 +547,30 @@ export function LessonPage({ summary, onBack }: Props) {
               battery={chessnut.battery}
               error={chessnut.error}
               supported={chessnut.supported}
-              onConnect={(kind) => void chessnut.connect(kind)}
+              onConnect={(kind) => {
+                void chessup.disconnect();
+                void chessnut.connect(kind);
+              }}
               onDisconnect={() => void chessnut.disconnect()}
               guide={boardGuide}
               guidePly={ply}
+            />
+
+            <ChessUpConnectBar
+              status={chessup.status}
+              battery={chessup.battery}
+              error={chessup.error}
+              supported={chessup.supported}
+              onConnect={() => {
+                void chessnut.disconnect();
+                void chessup.connect();
+              }}
+              onDisconnect={() => void chessup.disconnect()}
+              hint={
+                chessup.status === "connected"
+                  ? "Assistance lights on (unofficial) — green = book move when you lift a piece"
+                  : null
+              }
             />
 
             <MoveStrip
