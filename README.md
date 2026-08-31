@@ -11,6 +11,8 @@ Study classic chess books the way they were written: **every move explained**, w
 
 **63 annotated games** from Capablanca and Tarrasch through Kasparov and Polgar.
 
+**Languages:** English and French UI, with bilingual lesson commentary (`data/en` / `data/fr`) and chess-aware speech in both languages.
+
 ---
 
 ## Copyright disclaimer
@@ -32,16 +34,18 @@ If you are a rights holder and want content removed or adjusted, open an issue o
 - Browse both books by section, with search and opening filters
 - Resume where you left off (local progress per game)
 - Estimated Elo / progress cues on game lists
+- **EN / FR** language toggle in Settings (chrome, book intros, landing quotes, lesson text)
 
 ### Lesson reader (board + commentary)
 - Synced chessboard for every ply, with last-move highlights and knight-path arrows
-- Author commentary stepped move-by-move (Chernev / Nunn voice)
+- Author commentary stepped move-by-move (Chernev / Nunn), loaded from `en` or `fr` lesson JSON
 - **Listen** — two controls, Stop only (no pause menu):
   - **This move** — speak the current annotation
   - **Follow** — keep narrating as you press Next
-  - Chess-aware speech: SAN, checks/mates, NAG marks (`!` `!!` `?` … and Unicode), Informator symbols (`±` `△` `□` …)
-  - Voice & speed in Settings (Chrome / Safari defaults; Enhanced voices via system settings on Apple)
-- Clickable SAN and alternative lines that jump or preview on the board
+  - Chess-aware speech (EN + FR): SAN → spoken pieces/squares, castling, checks/mates, NAG marks (`!` `!!` `?` … and Unicode), Informator symbols (`±` `△` `□` …)
+  - French examples: `Nf3` → « cavalier en f trois », `O-O` → « petit roque », `±` → « les Blancs sont mieux »
+  - Voice & speed in Settings; French UI prefers Google français / Thomas (Chrome / Safari); Enhanced voices via system settings on Apple
+- Clickable SAN and alternative lines that jump or preview on the board (SAN stays English notation in the data)
 - Transport controls: first / prev / next / last (SVG icons for consistent Safari rendering), jump to next annotated note
 - Horizontal move strip for quick navigation
 - Copy an AI analysis prompt for the current position
@@ -64,7 +68,8 @@ If you are a rights holder and want content removed or adjusted, open an issue o
 
 ### Experience
 - Chernev-inspired visual design (cream / violet / magenta)
-- Landing page: product preview carousel + rotating Chernev / Nunn quotations
+- Landing page: product preview carousel + rotating Chernev / Nunn quotations (localized)
+- Book intro pages and section blurbs follow the UI language
 - Responsive layout: desktop 50/50 board+notes; mobile brand-first landing and scrollable lesson chrome
 - Settings footer shows a **semantic version** from GitHub Pages deploys (`major.minor` from `package.json`, patch = Actions run number)
 
@@ -91,16 +96,18 @@ web/ (React 19 + Vite 8 + TypeScript + chess.js + Stockfish)
 ```
 move_by_move/
 ├── data/                 # Generated lessons (committed)
+│   ├── en/lessons/       # English commentary JSON
+│   └── fr/lessons/       # French commentary JSON
 ├── docs/                 # Source PGN; EPUBs gitignored
 ├── scripts/              # Python ingest + PGN fetch/split
 ├── web/
-│   ├── public/data/      # Served lesson JSON + Elo cache
+│   ├── public/data/      # Served lesson JSON + Elo cache (mirrors en/fr)
 │   ├── public/images/    # Landing assets
 │   └── src/
 │       ├── pages/        # Landing, library, lesson, settings
 │       ├── components/   # Board, commentary, transport, guess, Chessnut
 │       ├── hooks/        # Eval, performance, Chessnut connect
-│       └── lib/          # Chess, commentary, speech, progress, physical guess
+│       └── lib/          # Chess, commentary, speech (EN/FR), i18n, progress
 └── .github/workflows/deploy.yml
 ```
 
@@ -112,7 +119,9 @@ Shared e-board connector (sibling folder): `../eboard-connect-js/`
 
 **`data/en/lessons/{id}.json`** — English commentary: `nodes[]` (`ply`, `san?`, `text`, flags), headers, move counts.
 
-**`data/fr/lessons/{id}.json`** — French commentary (same schema). Loader falls back to `en` when a FR file is missing.
+**`data/fr/lessons/{id}.json`** — French commentary (same schema; SAN tokens remain English). Loader falls back to `en` when a FR file is missing. See `data/fr/TRANSLATION.md` for chess vocabulary conventions.
+
+Speech lexicons live in `web/src/lib/commentarySpeech.ts` (EN + FR).
 
 Positions are rebuilt from `nodes` with `chess.js` (no PGN at runtime).
 
