@@ -9,16 +9,17 @@ import { APP_COMMIT, APP_VERSION } from "../lib/appVersion";
 import type { Lang } from "../lib/lang";
 import { fill, ui } from "../lib/uiCopy";
 import {
-  englishSpeechVoices,
   ensureDefaultVoiceSelected,
   formatVoiceLabel,
   isPreferredDefaultVoice,
   LISTEN_RATE_DEFAULT,
   LISTEN_RATE_MAX,
   LISTEN_RATE_MIN,
+  listenPreviewLine,
   listenVoicePlatformTip,
   loadListenSettings,
   saveListenSettings,
+  speechVoicesForLang,
   type ListenSettings,
 } from "../lib/listenSettings";
 
@@ -27,9 +28,6 @@ type Props = {
   onLangChange: (lang: Lang) => void;
   onBack: () => void;
 };
-
-const PREVIEW_LINE =
-  "White anchors a pawn in the centre. His next move will be knight to f three.";
 
 export function SettingsPage({ lang, onLangChange, onBack }: Props) {
   const t = ui(lang);
@@ -64,14 +62,14 @@ export function SettingsPage({ lang, onLangChange, onBack }: Props) {
     if (!canListen) return;
 
     const refresh = () => {
-      const nextVoices = englishSpeechVoices();
+      const nextVoices = speechVoicesForLang(lang);
       setVoices(nextVoices);
-      setListen((prev) => ensureDefaultVoiceSelected(prev, nextVoices));
+      setListen((prev) => ensureDefaultVoiceSelected(prev, nextVoices, lang));
     };
     refresh();
     window.speechSynthesis.addEventListener("voiceschanged", refresh);
     return () => window.speechSynthesis.removeEventListener("voiceschanged", refresh);
-  }, [canListen]);
+  }, [canListen, lang]);
 
   const updateListen = useCallback((patch: Partial<ListenSettings>) => {
     setListen((prev) => {
@@ -130,7 +128,7 @@ export function SettingsPage({ lang, onLangChange, onBack }: Props) {
       setPreviewing(false);
       return;
     }
-    const started = speakCommentary(PREVIEW_LINE, {
+    const started = speakCommentary(listenPreviewLine(lang), {
       onEnd: () => setPreviewing(false),
       onError: () => setPreviewing(false),
     });
@@ -139,7 +137,7 @@ export function SettingsPage({ lang, onLangChange, onBack }: Props) {
 
   const ratePercent = Math.round(listen.rate * 100);
   const selectedVoice = voices.find((voice) => voice.voiceURI === listen.voiceURI);
-  const platformTip = listenVoicePlatformTip(voices);
+  const platformTip = listenVoicePlatformTip(voices, lang);
 
   return (
     <div className="settings-page">
@@ -186,7 +184,7 @@ export function SettingsPage({ lang, onLangChange, onBack }: Props) {
             <h2>{t.listen}</h2>
           </div>
           {canListen && selectedVoice ? (
-            <p className="settings-voice-chip" title={formatVoiceLabel(selectedVoice)}>
+            <p className="settings-voice-chip" title={formatVoiceLabel(selectedVoice, lang)}>
               {selectedVoice.name.replace(/^Google\s+/i, "")}
             </p>
           ) : null}
@@ -209,8 +207,8 @@ export function SettingsPage({ lang, onLangChange, onBack }: Props) {
                   {voices.length === 0 ? <option value="">{t.loadingVoices}</option> : null}
                   {voices.map((voice) => (
                     <option key={voice.voiceURI} value={voice.voiceURI}>
-                      {formatVoiceLabel(voice)}
-                      {isPreferredDefaultVoice(voice) ? ` ${t.recommended}` : ""}
+                      {formatVoiceLabel(voice, lang)}
+                      {isPreferredDefaultVoice(voice, lang) ? ` ${t.recommended}` : ""}
                     </option>
                   ))}
                 </select>

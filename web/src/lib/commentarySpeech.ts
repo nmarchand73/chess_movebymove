@@ -1,5 +1,6 @@
 import type { CommentaryBeat } from "./commentaryBeats.ts";
-import { loadListenSettings, resolveSpeechVoice } from "./listenSettings.ts";
+import { loadLang } from "./lang.ts";
+import { loadListenSettings, resolveSpeechVoice, speechVoicesForLang } from "./listenSettings.ts";
 
 const RANK_WORDS = ["", "one", "two", "three", "four", "five", "six", "seven", "eight"] as const;
 
@@ -397,7 +398,8 @@ export function speakCommentary(text: string, handlers: SpeakHandlers = {}): boo
   const myGeneration = speakGeneration;
   speechHoldPaused = false;
   const settings = loadListenSettings();
-  const voice = resolveSpeechVoice(settings.voiceURI);
+  const lang = loadLang();
+  const voice = resolveSpeechVoice(settings.voiceURI, speechVoicesForLang(lang), lang);
 
   const sentences = splitIntoSpeechSentences(prepareCommentarySpeech(text));
   if (sentences.length === 0) return false;
@@ -414,7 +416,7 @@ export function speakCommentary(text: string, handlers: SpeakHandlers = {}): boo
 
     const utterance = new SpeechSynthesisUtterance(sentences[index]!);
     index += 1;
-    utterance.lang = voice?.lang ?? "en-GB";
+    utterance.lang = voice?.lang ?? (lang === "fr" ? "fr-FR" : "en-GB");
     utterance.rate = settings.rate;
     utterance.pitch = 1;
     if (voice) utterance.voice = voice;
