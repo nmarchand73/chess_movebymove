@@ -5,6 +5,7 @@ import { Landing } from "./pages/Landing";
 import { LessonPage } from "./pages/Lesson";
 import { SettingsPage } from "./pages/Settings";
 import { loadIndex } from "./lib/lessonLoader";
+import { loadLang, saveLang, type Lang } from "./lib/lang";
 import { loadProgress } from "./lib/progress";
 import "./App.css";
 
@@ -27,9 +28,21 @@ function App() {
   const [view, setView] = useState<AppView>(() =>
     typeof window === "undefined" ? "landing" : viewFromHash(),
   );
+  const [lang, setLangState] = useState<Lang>(() =>
+    typeof window === "undefined" ? "en" : loadLang(),
+  );
   const [selectedBook, setSelectedBook] = useState<BookId | null>(null);
   const [activeLesson, setActiveLesson] = useState<LessonSummary | null>(null);
   const [showSettings, setShowSettings] = useState(false);
+
+  const setLang = useCallback((next: Lang) => {
+    setLangState(next);
+    saveLang(next);
+  }, []);
+
+  useEffect(() => {
+    document.documentElement.lang = lang;
+  }, [lang]);
 
   useEffect(() => {
     function onHashChange() {
@@ -91,13 +104,18 @@ function App() {
   return (
     <main className={shellClass}>
       {activeLesson ? (
-        <LessonPage summary={activeLesson} onBack={() => setActiveLesson(null)} />
+        <LessonPage summary={activeLesson} lang={lang} onBack={() => setActiveLesson(null)} />
       ) : showSettings ? (
-        <SettingsPage onBack={() => setShowSettings(false)} />
+        <SettingsPage lang={lang} onLangChange={setLang} onBack={() => setShowSettings(false)} />
       ) : view === "landing" ? (
-        <Landing onEnterLibrary={goLibrary} onContinueLesson={() => void continueStudying()} />
+        <Landing
+          lang={lang}
+          onEnterLibrary={goLibrary}
+          onContinueLesson={() => void continueStudying()}
+        />
       ) : (
         <Home
+          lang={lang}
           selectedBook={selectedBook}
           onSelectBook={setSelectedBook}
           onOpenLesson={openLesson}

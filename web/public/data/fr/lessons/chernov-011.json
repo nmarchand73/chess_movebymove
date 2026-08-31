@@ -1,0 +1,229 @@
+{
+  "id": "chernov-011",
+  "book": "chernov",
+  "gameNum": 11,
+  "title": "Partie 11 : Flohr – Pitschak",
+  "section": "L'attaque à l'aile roi",
+  "players": {
+    "white": "Flohr",
+    "black": "Pitschak"
+  },
+  "event": "Bilin 1930",
+  "opening": "Système Colle",
+  "eco": "A46",
+  "pgnPath": "data/pgn/chernov/11.pgn",
+  "result": "0-1",
+  "moveCount": 34,
+  "annotatedMoves": 33,
+  "fullText": "Flohr – Pitschak\n\nBilin 1930\n\nSystème Colle\n\nd4\n\nAux échecs, contrairement au tennis, on ne gagne pas en servant un ace. Il n'existe pas de coup-piège dans l'ouverture qui surprenne même un joueur moyen.\n\nCe que l'on peut faire, c'est appliquer ordre et méthode dans la conduite de cette phase, afin d'augmenter ses chances d'obtenir une position favorable. Il suffit de suivre quelques règles simples pour un développement sain :\n\nCommencer par 1 e4 ou 1 d4, l'un ou l'autre libérant deux pièces.\n\nAncrer au moins un pion au centre et lui donner un soutien solide. Les pions au centre empêchent les pièces adverses de s'installer sur les meilleures cases.\n\nDans la mesure du possible, sortir les cavaliers avant les fous. En règle générale, les cavaliers font leur meilleur travail en f3 et c3 (f6 et c6 pour les Noirs), où leur puissance est considérable en défense comme en attaque.\n\nDe deux coups de développement, choisir le plus agressif. Développer avec une menace si l'on peut.\n\nNe déplacer chaque pièce qu'une seule fois dans l'ouverture. La placer d'emblée sur une case où elle a une influence sur le centre et où elle a le plus grand champ d'attaque.\n\nAvancer au plus deux pions dans les premiers stades de la partie. Jouer avec les pièces.\n\nDévelopper les pièces en vue de contrôler le centre, soit en l'occupant, soit en pesant sur lui à distance, comme le font les fous fianchettés.\n\nDévelopper la dame, mais près de la maison pour éviter qu'elle soit harcelée par les pions et les pièces mineures.\n\nNe pas courir après les pions au détriment du développement.\n\nAssurer la sécurité du roi par un roque précoce, de préférence à l'aile roi.\n\nCapablanca résumait tout cela en disant : « L'essentiel est de développer les pièces rapidement : mettez-les en jeu aussi vite que vous le pouvez. »\n\nRevenons à Flohr et Pitschak :\n\nLe premier coup des Blancs fixe un pion au centre et libère deux pièces.\n\nNf6\n\nLes Noirs sortent leur cavalier-roi à son meilleur poste et empêchent les Blancs de continuer par 2 e4.\n\nNf3\n\nNapier se souvient que, dans la première des plusieurs leçons qu'il prit auprès de Steinitz, le champion du monde dit : « Sans doute sortez-vous votre cavalier de chaque côté avant le fou ? Et savez-vous pourquoi ? » Napier dit qu'il fut coincé pour une réponse intelligente. Steinitz poursuivit : « Une bonne raison est que vous savez où appartient le cavalier avant de savoir autant de votre fou ; la certitude est une bien meilleure amie que le doute. »\n\ne6\n\nLes Noirs ajournent la réponse directe 2...d5, qui les entraînerait dans les lignes régulières du gambit de la dame. En attendant, ils ouvrent une ligne pour le fou f8.\n\nNbd2\n\nUne manœuvre de cavalier typique dans l'attaque Colle : le cavalier met la pression sur la case critique e4 sans boucher la colonne c.\n\nc5\n\nLes Noirs portent un coup au pion d dans une tentative de s'assurer le contrôle du centre. Cette poussée de flanc est presque obligatoire dans les ouvertures du pion dame, car les Noirs doivent chercher à déranger la formation centrale des Blancs.\n\nLa menace immédiate est 4...cxd4, de sorte que la reprise par 5 Nxd4 ne laisse plus aucun pion blanc au centre.\n\ne3\n\nLes Blancs consolident le pion d et ménagent une issue au fou f1.\n\nb6\n\nLes Noirs aussi étayent leur pion avancé et se préparent à fianchetter le fou c8.\n\nBd3\n\nPratique habituelle dans ce système d'attaque : le fou ajoute sa force à la pression exercée sur e4 en préparation d'une avance du pion e, qui ouvrira des lignes d'attaque pour les pièces en arrière-plan. Le fou vise aussi le pion h noir, belle cible après que le roi adverse aura roqué de ce côté.\n\nBb7\n\nCela résout l'un des principaux problèmes des Noirs dans les ouvertures du pion dame — une disposition efficace du fou des cases claires. Grâce à ce fianchetto, le fou commande la plus longue diagonale de l'échiquier et participe à la lutte pour la domination de e4, la case stratégique du système Colle.\n\n6 0-0\n\nDans le processus de développement, les Blancs mettent leur roi à l'abri et rapprochent leur tour des colonnes centrales.\n\nBe7\n\nMalgré son apparence modeste, il y a une grande énergie latente dans le placement de ce fou en e7. Il est assez près de la maison pour aider à défendre le roi, tout en étant facilement manœuvrable vers un poste plus agressif si l'occasion l'exige.\n\nc4\n\nPlus dans l'esprit de la formation Colle est le tranquille 7 c3 pour fournir un soutien au pion d4. Le pion e est alors libre d'avancer, et si les Noirs jouent à tout moment ...cxd4, les Blancs reprennent avec le pion c et maintiennent un pion fort au centre.\n\nL'idée du coup du texte est apparemment d'empêcher les pièces noires d'utiliser d5 comme pivot pour leurs mouvements sur l'échiquier.\n\nO-O\n\nLes Noirs vaquent tranquillement à la mobilisation de toutes les troupes. D'un seul coup, leur tour apparaît sur la scène tandis que le roi est mis à l'écart.\n\nb3\n\nClairement pour développer le fou en b2. Ce fianchetto du fou n'est pas la procédure conventionnelle dans le Colle, mais Flohr a peut-être voulu tester quelques idées personnelles.\n\nd5\n\nLes Noirs saisissent l'occasion de disputer la possession du centre. Ils mettent aussi fin à l'avance envisagée du pion e blanc, car ils pèsent sur la case critique e4 avec cavalier, pion et fou, tandis que les Blancs n'ont que deux pièces braquées dessus.\n\nIl est vrai que la diagonale du fou b7 est bloquée, mais cet état n'est que temporaire.\n\nQc2\n\nBien meilleur était le simple développement du fou des cases sombres en b2, qu'il avait préparé par son coup précédent.\n\nLe but de 9 Qc2 est de s'assurer le contrôle de e4 et d'empêcher les Noirs d'établir un avant-poste sur cette case par 9...Ne4. Le problème du coup est qu'il permet aux Noirs de s'emparer de l'initiative et de diriger ensuite le cours des événements.\n\nNc6\n\nUn coup puissant qui combine développement, intention agressive et prophylaxie !\n\nDéveloppement, en ce que le cavalier est placé d'emblée sur sa case la plus appropriée.\n\nAgression, dans la menace du cavalier d'avancer en b4, attaquant dame et fou et forçant un échange qui débarrasse l'échiquier du dangereux fou des cases claires des Blancs.\n\nProphylaxie, dans la prévention de 10 e4, dont la suite serait 10...Nb4 11 Qc3 Nxd3 12 Qxd3 dxe4, et les Noirs gagnent une pièce.\n\na3\n\nLes Blancs doivent préserver leur précieux fou des cases claires.\n\nMalheureusement, le tempo perdu à être forcé de jouer un coup de pion est coûteux, comme nous le verrons.\n\ncxd4\n\nLes Noirs échangent pour clarifier la position au centre et ouvrir la colonne c à la convenance de leur tour a8.\n\ncxd5\n\nLa prise alternative 11 exd4 était désagréable car la réponse 11...dxc4 force 12 Bxc4 (sinon le pion d blanc est perdu), après quoi 12...Rc8 exerce une pression inconfortable sur le centre blanc. Une autre possibilité au lieu du coup du texte est 11 Nxd4 Nxd4 12 exd4 dxc4 13 Bxc4 (pour sauver le pion d) 13...Rc8 14 Qa4 Qc6 15 Qxa7 (ou 15 Qc4 Bxg2 et les Noirs gagnent facilement) 15...Ra8 et les Noirs gagnent la dame.\n\nQxd5\n\nLes Noirs empochent un pion avec ceci et (comme si ce n'était pas assez) prennent l'attaque en main.\n\nLa dame n'est en aucun danger, car les pièces blanches ne sont pas assez bien développées pour lui causer le moindre désagrément.\n\nexd4\n\nLes Blancs ouvrent la position pour obtenir du contre-jeu ; ils espèrent utiliser la colonne e pour leur tour et la case e4 comme pivot pour leurs pièces.\n\nAu contraire, le superficiellement attrayant 12 e4 n'accomplit pas grand-chose, car après 12...Qh5 la case vitale e4 est occupée par un pion, la rendant indisponible pour la manœuvre des pièces, tandis que les Noirs bénéficient d'un pion passé supplémentaire sur la colonne d.\n\nNxd4\n\nCette attaque sur la dame gagne un tempo car les Blancs doivent perdre un coup avec leur dame.\n\nQb1\n\nÉvidemment 13 Nxd4 ne ferait pas l'affaire, car la dame noire fondrait avec mat instantané, tandis que 13 Qb2 Nxf3+ 14 Bxf3 Qxd3 coûte une pièce. Sur 13 Qc3, les Noirs continuent 13...Rfd8 suivi de 14...Rac8, et de nouveau la dame doit fuir.\n\nLe coup effectivement joué est probablement le moindre mal.\n\nRfd8\n\nIntensifiant la pression le long de la colonne d et particulièrement sur le fou, dont la vie est menacée par 14...Nxf3+ 15 Bxf3 Qxd3 16 Qxd3 Rxd3.\n\nNe1\n\nLes Blancs protègent leur fou ainsi que le pion g vulnérable.\n\nContre 14 Qc2 les Noirs peuvent choisir parmi ces thèmes :\n\n1) Simplification (étant un pion en plus), par 14...Qxc2.\n\n2) Accroître la pression par 14...Rac8, renvoyant le fou c2 à la première rangée.\n\n3) Combinaison, par 14...Ne2+ 15 Kh1 Ba6 (menaçant de gagner la qualité par 16...Nc3) 16 Ne1 Ng4 17 Be4 Nxe4! 18 Rxe4 Nxf2#.\n\nQh5\n\nIl n'y a pas de menace directe dans ce coup de dame, mais les Noirs menacent de menacer ! Ils ont l'intention d'assiéger la citadelle de pions blanche avec leur dame soutenue par une pièce mineure, par exemple par 15...Bd6 ou 15...Ng4. Cela forcerait l'un des pions à quitter sa base et créerait des faiblesses que les Noirs pourraient exploiter. Le pion avancé lui-même pourrait être susceptible d'attaque, ou des avenues pourraient s'ouvrir menant au roi.\n\nCe grignotage des fondations est un processus intéressant pour rendre une position apparemment bien fortifiée vulnérable à l'assaut.\n\nBb2\n\nLes Blancs n'ont pas de défense fiable (surtout contre des menaces nébuleuses) et continuent donc à développer leurs pièces. Plus ils en ont en jeu, meilleures sont leurs chances de survivre à la tempête qui vient.\n\nBd6\n\nAvec une menace simple mais non équivoque : mat sur-le-champ !\n\nComment les Blancs se défendent-ils ?\n\n1) 16 Nef3 Nxf3+ 17 Bxf3 Bxf3 18 gxf3 Qxh2#.\n\n2) 16 f4 Bc5 (menaçant le mortel 17...Ne2++ 18 Kh1 Ng3#) 17 Kh1 Ng4 18 h3 Qxh3+ et mat au coup suivant.\n\n3) 16 h3 Ne5 (visant encore le mat en h2) 17 g3 Qd5 (cherchant maintenant 18...Qh1#) 18 f3 Qg5, et la partie des Blancs s'écroule.\n\ng3\n\nPar élimination, la seule défense, s'il en existe encore une.\n\nNg4\n\nLe pion g blanc a été forcé d'avancer ; maintenant la menace de 17...Qxh2# force l'avance du pion h.\n\nh4\n\nLes Blancs n'ont pas d'autre coup que celui-ci, qui tient la dame à distance — ou le fait-il ?\n\nQxh4\n\nC'est brillant ! Non pas parce que la dame est offerte, mais parce que cela amène à un climax approprié l'exploitation systématique des faiblesses de pions habilement créées.\n\nLes Noirs introduisent deux menaces de mat en un coup, en h1 et h2.\n\n0-1\n\nAprès 18 gxh4 la réponse 18...Bh2# viendrait rapide comme l'éclair.\n",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Flohr – Pitschak\n\nBilin 1930\n\nSystème Colle"
+    },
+    {
+      "ply": 1,
+      "san": "d4",
+      "text": "Aux échecs, contrairement au tennis, on ne gagne pas en servant un ace. Il n'existe pas de coup-piège dans l'ouverture qui surprenne même un joueur moyen.\n\nCe que l'on peut faire, c'est appliquer ordre et méthode dans la conduite de cette phase, afin d'augmenter ses chances d'obtenir une position favorable. Il suffit de suivre quelques règles simples pour un développement sain :\n\nCommencer par 1 e4 ou 1 d4, l'un ou l'autre libérant deux pièces.\n\nAncrer au moins un pion au centre et lui donner un soutien solide. Les pions au centre empêchent les pièces adverses de s'installer sur les meilleures cases.\n\nDans la mesure du possible, sortir les cavaliers avant les fous. En règle générale, les cavaliers font leur meilleur travail en f3 et c3 (f6 et c6 pour les Noirs), où leur puissance est considérable en défense comme en attaque.\n\nDe deux coups de développement, choisir le plus agressif. Développer avec une menace si l'on peut.\n\nNe déplacer chaque pièce qu'une seule fois dans l'ouverture. La placer d'emblée sur une case où elle a une influence sur le centre et où elle a le plus grand champ d'attaque.\n\nAvancer au plus deux pions dans les premiers stades de la partie. Jouer avec les pièces.\n\nDévelopper les pièces en vue de contrôler le centre, soit en l'occupant, soit en pesant sur lui à distance, comme le font les fous fianchettés.\n\nDévelopper la dame, mais près de la maison pour éviter qu'elle soit harcelée par les pions et les pièces mineures.\n\nNe pas courir après les pions au détriment du développement.\n\nAssurer la sécurité du roi par un roque précoce, de préférence à l'aile roi.\n\nCapablanca résumait tout cela en disant : « L'essentiel est de développer les pièces rapidement : mettez-les en jeu aussi vite que vous le pouvez. »\n\nRevenons à Flohr et Pitschak :\n\nLe premier coup des Blancs fixe un pion au centre et libère deux pièces.",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "Nf6",
+      "text": "Les Noirs sortent leur cavalier-roi à son meilleur poste et empêchent les Blancs de continuer par 2 e4.",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "Nf3",
+      "text": "Napier se souvient que, dans la première des plusieurs leçons qu'il prit auprès de Steinitz, le champion du monde dit : « Sans doute sortez-vous votre cavalier de chaque côté avant le fou ? Et savez-vous pourquoi ? » Napier dit qu'il fut coincé pour une réponse intelligente. Steinitz poursuivit : « Une bonne raison est que vous savez où appartient le cavalier avant de savoir autant de votre fou ; la certitude est une bien meilleure amie que le doute. »",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "e6",
+      "text": "Les Noirs ajournent la réponse directe 2...d5, qui les entraînerait dans les lignes régulières du gambit de la dame. En attendant, ils ouvrent une ligne pour le fou f8.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "Nbd2",
+      "text": "Une manœuvre de cavalier typique dans l'attaque Colle : le cavalier met la pression sur la case critique e4 sans boucher la colonne c.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "c5",
+      "text": "Les Noirs portent un coup au pion d dans une tentative de s'assurer le contrôle du centre. Cette poussée de flanc est presque obligatoire dans les ouvertures du pion dame, car les Noirs doivent chercher à déranger la formation centrale des Blancs.\n\nLa menace immédiate est 4...cxd4, de sorte que la reprise par 5 Nxd4 ne laisse plus aucun pion blanc au centre.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "e3",
+      "text": "Les Blancs consolident le pion d et ménagent une issue au fou f1.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "b6",
+      "text": "Les Noirs aussi étayent leur pion avancé et se préparent à fianchetter le fou c8.",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "Bd3",
+      "text": "Pratique habituelle dans ce système d'attaque : le fou ajoute sa force à la pression exercée sur e4 en préparation d'une avance du pion e, qui ouvrira des lignes d'attaque pour les pièces en arrière-plan. Le fou vise aussi le pion h noir, belle cible après que le roi adverse aura roqué de ce côté.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "Bb7",
+      "text": "Cela résout l'un des principaux problèmes des Noirs dans les ouvertures du pion dame — une disposition efficace du fou des cases claires. Grâce à ce fianchetto, le fou commande la plus longue diagonale de l'échiquier et participe à la lutte pour la domination de e4, la case stratégique du système Colle.\n\n6 0-0\n\nDans le processus de développement, les Blancs mettent leur roi à l'abri et rapprochent leur tour des colonnes centrales.",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "Be7",
+      "text": "Malgré son apparence modeste, il y a une grande énergie latente dans le placement de ce fou en e7. Il est assez près de la maison pour aider à défendre le roi, tout en étant facilement manœuvrable vers un poste plus agressif si l'occasion l'exige.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "c4",
+      "text": "Plus dans l'esprit de la formation Colle est le tranquille 7 c3 pour fournir un soutien au pion d4. Le pion e est alors libre d'avancer, et si les Noirs jouent à tout moment ...cxd4, les Blancs reprennent avec le pion c et maintiennent un pion fort au centre.\n\nL'idée du coup du texte est apparemment d'empêcher les pièces noires d'utiliser d5 comme pivot pour leurs mouvements sur l'échiquier.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "O-O",
+      "text": "Les Noirs vaquent tranquillement à la mobilisation de toutes les troupes. D'un seul coup, leur tour apparaît sur la scène tandis que le roi est mis à l'écart.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "b3",
+      "text": "Clairement pour développer le fou en b2. Ce fianchetto du fou n'est pas la procédure conventionnelle dans le Colle, mais Flohr a peut-être voulu tester quelques idées personnelles.",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "d5",
+      "text": "Les Noirs saisissent l'occasion de disputer la possession du centre. Ils mettent aussi fin à l'avance envisagée du pion e blanc, car ils pèsent sur la case critique e4 avec cavalier, pion et fou, tandis que les Blancs n'ont que deux pièces braquées dessus.\n\nIl est vrai que la diagonale du fou b7 est bloquée, mais cet état n'est que temporaire.",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "Qc2",
+      "text": "Bien meilleur était le simple développement du fou des cases sombres en b2, qu'il avait préparé par son coup précédent.\n\nLe but de 9 Qc2 est de s'assurer le contrôle de e4 et d'empêcher les Noirs d'établir un avant-poste sur cette case par 9...Ne4. Le problème du coup est qu'il permet aux Noirs de s'emparer de l'initiative et de diriger ensuite le cours des événements.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "Nc6",
+      "text": "Un coup puissant qui combine développement, intention agressive et prophylaxie !\n\nDéveloppement, en ce que le cavalier est placé d'emblée sur sa case la plus appropriée.\n\nAgression, dans la menace du cavalier d'avancer en b4, attaquant dame et fou et forçant un échange qui débarrasse l'échiquier du dangereux fou des cases claires des Blancs.\n\nProphylaxie, dans la prévention de 10 e4, dont la suite serait 10...Nb4 11 Qc3 Nxd3 12 Qxd3 dxe4, et les Noirs gagnent une pièce.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "a3",
+      "text": "Les Blancs doivent préserver leur précieux fou des cases claires.\n\nMalheureusement, le tempo perdu à être forcé de jouer un coup de pion est coûteux, comme nous le verrons.",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "cxd4",
+      "text": "Les Noirs échangent pour clarifier la position au centre et ouvrir la colonne c à la convenance de leur tour a8.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "cxd5",
+      "text": "La prise alternative 11 exd4 était désagréable car la réponse 11...dxc4 force 12 Bxc4 (sinon le pion d blanc est perdu), après quoi 12...Rc8 exerce une pression inconfortable sur le centre blanc. Une autre possibilité au lieu du coup du texte est 11 Nxd4 Nxd4 12 exd4 dxc4 13 Bxc4 (pour sauver le pion d) 13...Rc8 14 Qa4 Qc6 15 Qxa7 (ou 15 Qc4 Bxg2 et les Noirs gagnent facilement) 15...Ra8 et les Noirs gagnent la dame.",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "Qxd5",
+      "text": "Les Noirs empochent un pion avec ceci et (comme si ce n'était pas assez) prennent l'attaque en main.\n\nLa dame n'est en aucun danger, car les pièces blanches ne sont pas assez bien développées pour lui causer le moindre désagrément.",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "exd4",
+      "text": "Les Blancs ouvrent la position pour obtenir du contre-jeu ; ils espèrent utiliser la colonne e pour leur tour et la case e4 comme pivot pour leurs pièces.\n\nAu contraire, le superficiellement attrayant 12 e4 n'accomplit pas grand-chose, car après 12...Qh5 la case vitale e4 est occupée par un pion, la rendant indisponible pour la manœuvre des pièces, tandis que les Noirs bénéficient d'un pion passé supplémentaire sur la colonne d.",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "Nxd4",
+      "text": "Cette attaque sur la dame gagne un tempo car les Blancs doivent perdre un coup avec leur dame.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Qb1",
+      "text": "Évidemment 13 Nxd4 ne ferait pas l'affaire, car la dame noire fondrait avec mat instantané, tandis que 13 Qb2 Nxf3+ 14 Bxf3 Qxd3 coûte une pièce. Sur 13 Qc3, les Noirs continuent 13...Rfd8 suivi de 14...Rac8, et de nouveau la dame doit fuir.\n\nLe coup effectivement joué est probablement le moindre mal.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "Rfd8",
+      "text": "Intensifiant la pression le long de la colonne d et particulièrement sur le fou, dont la vie est menacée par 14...Nxf3+ 15 Bxf3 Qxd3 16 Qxd3 Rxd3.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Ne1",
+      "text": "Les Blancs protègent leur fou ainsi que le pion g vulnérable.\n\nContre 14 Qc2 les Noirs peuvent choisir parmi ces thèmes :\n\n1) Simplification (étant un pion en plus), par 14...Qxc2.\n\n2) Accroître la pression par 14...Rac8, renvoyant le fou c2 à la première rangée.\n\n3) Combinaison, par 14...Ne2+ 15 Kh1 Ba6 (menaçant de gagner la qualité par 16...Nc3) 16 Ne1 Ng4 17 Be4 Nxe4! 18 Rxe4 Nxf2#.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "Qh5",
+      "text": "Il n'y a pas de menace directe dans ce coup de dame, mais les Noirs menacent de menacer ! Ils ont l'intention d'assiéger la citadelle de pions blanche avec leur dame soutenue par une pièce mineure, par exemple par 15...Bd6 ou 15...Ng4. Cela forcerait l'un des pions à quitter sa base et créerait des faiblesses que les Noirs pourraient exploiter. Le pion avancé lui-même pourrait être susceptible d'attaque, ou des avenues pourraient s'ouvrir menant au roi.\n\nCe grignotage des fondations est un processus intéressant pour rendre une position apparemment bien fortifiée vulnérable à l'assaut.",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Bb2",
+      "text": "Les Blancs n'ont pas de défense fiable (surtout contre des menaces nébuleuses) et continuent donc à développer leurs pièces. Plus ils en ont en jeu, meilleures sont leurs chances de survivre à la tempête qui vient.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "Bd6",
+      "text": "Avec une menace simple mais non équivoque : mat sur-le-champ !\n\nComment les Blancs se défendent-ils ?\n\n1) 16 Nef3 Nxf3+ 17 Bxf3 Bxf3 18 gxf3 Qxh2#.\n\n2) 16 f4 Bc5 (menaçant le mortel 17...Ne2++ 18 Kh1 Ng3#) 17 Kh1 Ng4 18 h3 Qxh3+ et mat au coup suivant.\n\n3) 16 h3 Ne5 (visant encore le mat en h2) 17 g3 Qd5 (cherchant maintenant 18...Qh1#) 18 f3 Qg5, et la partie des Blancs s'écroule.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "g3",
+      "text": "Par élimination, la seule défense, s'il en existe encore une.",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Ng4",
+      "text": "Le pion g blanc a été forcé d'avancer ; maintenant la menace de 17...Qxh2# force l'avance du pion h.",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "h4",
+      "text": "Les Blancs n'ont pas d'autre coup que celui-ci, qui tient la dame à distance — ou le fait-il ?",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Qxh4",
+      "text": "C'est brillant ! Non pas parce que la dame est offerte, mais parce que cela amène à un climax approprié l'exploitation systématique des faiblesses de pions habilement créées.\n\nLes Noirs introduisent deux menaces de mat en un coup, en h1 et h2.\n\n0-1\n\nAprès 18 gxh4 la réponse 18...Bh2# viendrait rapide comme l'éclair.",
+      "isCritical": true
+    }
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "id": "nunn-006",
+  "book": "nunn",
+  "gameNum": 6,
+  "title": "Partie 6 : G. Kasparov – N. Short",
+  "section": "Le jeu d'attaque",
+  "players": {
+    "white": "G. Kasparov",
+    "black": "N. Short"
+  },
+  "event": "VSB tournament, Amsterdam 1994",
+  "opening": "Défense française, variante classique",
+  "eco": "C11",
+  "pgnPath": "data/pgn/nunn/06.pgn",
+  "result": "1-0",
+  "moveCount": 63,
+  "annotatedMoves": 62,
+  "fullText": "Idées d'attaque élémentaires\n\nNotre couverture du jeu d'attaque commence par quelques idées fondamentales. Pour qu'une attaque soit lancée avec une chance réelle de succès, au moins certains éléments de la position doivent déjà favoriser l'attaquant. La nature de ces préconditions peut varier beaucoup, mais des exemples typiques sont des pièces plus actives, un meilleur contrôle du centre, une avance de développement, des faiblesses dans la position adverse et un roi ennemi exposé. Toutes n'ont pas besoin d'être réunies, mais une attaque a peu de chances de réussir si aucune d'elles n'est présente. Une fois l'attaque engagée, l'attaquant doit garder à l'esprit les idées d'attaque importantes suivantes :\n\n1) Momentum : il est important de maintenir l'élan de l'attaque, afin de ne laisser au défenseur aucune chance d'organiser sa position et de repousser les forces attaquantes. Ainsi les attaques opèrent souvent avec des menaces directes.\n\n2) Ouvrir les lignes : les forces attaquantes doivent pouvoir s'en prendre à l'ennemi, et c'est plus facile s'il y a plusieurs lignes ouvertes menant dans la position adverse. Si ces lignes ouvertes n'existent pas au départ, il peut être possible de les forcer par des coups de pion appropriés ou, dans les cas extrêmes, par un sacrifice.\n\n3) Éliminer les défenseurs : l'échange d'une pièce défensive clé peut faire la différence entre le succès et l'échec.\n\n4) Forcer des faiblesses : si la position adverse est initialement sans faiblesses, vous pourrez devoir en provoquer avant que l'attaque puisse vraiment démarrer. Cela s'applique particulièrement dans le cas d'une attaque directe contre le roi.\n\nLa partie suivante est un excellent exemple des trois premières idées d'attaque mentionnées ci-dessus.\n\nG. Kasparov – N. Short\n\nTournoi VSB, Amsterdam 1994\n\nDéfense française, variante classique\n\n1 e4\n\nPour les commentaires sur ce coup, voir la partie 3.\n\n1...e6\n\nCette modeste avance de pion, appelée défense française, prévoit de contester le pion e4 par ...d5 sans avoir à reprendre avec la dame après exd5. À cet égard elle est assez similaire à la défense Caro-Kann 1...c6 (voir la partie 25), mais à d'autres égards elle est assez différente. Le principal défaut de la défense française est que les Noirs, dès leur premier coup, bloquent la diagonale la plus naturelle pour développer le fou c8. Bien des parties dans la Française tournent autour de ce fou ; si les Noirs peuvent l'activer, ils obtiennent souvent une bonne partie, mais s'il reste définitivement emprisonné derrière les pions centraux noirs, ils peuvent bien se retrouver en difficulté.\n\nLa Caro-Kann comme la Française sont des méthodes sûres et solides de répondre à 1 e4. Les positions un peu passives que les Noirs obtiennent peuvent ne pas convenir au style de chaque joueur, mais il ne fait aucun doute que les Blancs ont beaucoup de travail devant eux pour réellement entamer la position noire.\n\n2 d4\n\nLes Blancs saisissent l'occasion de former un centre de pions « côte à côte »...\n\n2...d5\n\n...que les Noirs contestent immédiatement.\n\n3 Nc3\n\nKasparov a un jour décrit 3 Nc3 comme « le coup le plus fort dans cette position » et la plupart des joueurs seraient d'accord avec lui. Les principales alternatives sont :\n\n1) 3 Nd2, qui évite un éventuel clouage par ...Bb4 (puisque les Blancs pourraient répondre c3), mais accepte une position moins active pour le cavalier dame.\n\n2) 3 e5, fermant le centre tout de suite. Cela découvre trop tôt les intentions des Blancs et ne cause pas de problèmes sérieux aux Noirs.\n\n3...Nf6\n\nL'un des deux coups également populaires. L'autre est 3...Bb4, qui, en clouant le cavalier, attaque e4 et force ainsi quasiment la main des Blancs au centre. Après la séquence 4 e5 c5 5 a3 Bxc3+ 6 bxc3 une position complexe et à double tranchant apparaît. Les Noirs ont échangé leur « bon » fou (celui qui n'est pas gêné par leurs pions centraux) et sont maintenant un peu faibles sur les cases sombres. En revanche, ils ont brisé les pions de l'aile dame blanche. La lutte entre ces avantages et inconvénients conduit généralement à un jeu tranchant.\n\nLe coup du texte, en revanche, est plus conservateur. Les Noirs forcent à nouveau les Blancs à engager le pion e4 en exerçant une pression sur e4, mais sans céder leur fou des cases sombres dans l'opération. Bien sûr, l'inconvénient est que les Noirs ne doublent pas non plus les pions c blancs.\n\n4 e5\n\nC'est l'une des deux options principales, l'autre étant 4 Bg5. Notez que défendre le pion e4 par 4 Bd3 serait une erreur car le pion d4 serait alors sans défense. Les Noirs répondraient 4...c5, brisant le centre blanc et résolvant tous leurs problèmes.\n\n4...Nfd7\n\n4...Ne4 est un coup risqué. Après 5 Nxe4 dxe4 les Blancs peuvent prendre l'avantage par 6 Bc4 ou 6 Be3, car le pion saillant en e4 peut facilement devenir faible.\n\nAprès le coup du texte, nous avons une position typique avec un centre de pions bloqué. Les Blancs contrôlent plus d'espace, mais leur centre de pions peut facilement être attaqué par ...c5. L'échange du pion d4 pourrait fort bien laisser le pion e5 faible, aussi les Blancs se hâtent de lui offrir un soutien supplémentaire.\n\n5 f4\n\nMaintenant que le pion e5 est en sécurité, les Blancs peuvent développer leurs pièces par Nf3, etc.\n\n5...c5\n\nLe centre de pions blanc paraît certainement fort, et s'ils sont autorisés à se développer tranquillement derrière lui, les Noirs commenceront bientôt à se sentir à l'étroit. Les Noirs doivent donc frapper tout de suite, avant que les Blancs n'aient le temps de se consolider. Quand on lutte contre une chaîne de pions telle que celle en d4 et e5, il y a généralement le choix entre attaquer la base de la chaîne (ici d4) ou sa tête (ici e5). La plupart des manuels diront qu'il faut attaquer la base de la chaîne de pions, mais la vérité est que tout dépend de la position précise. Ici le pion e5 blanc a le soutien supplémentaire du pion f4, si bien que ...f6 est inefficace — les Blancs peuvent maintenir le pion en e5 sans difficulté. L'attaque par ...c5 est donc indiquée. Cependant, une fois le pion d4 échangé, les Noirs pourront plus tard envisager une attaque par ...f6, car le pion e5 aura moins de soutien. Nous reviendrons sur le sujet des chaînes de pions dans la partie 24.\n\n6 Nf3\n\nSi le cavalier blanc n'était pas en c3, les Blancs soutiendraient probablement leur pion d4 en jouant c3, mais tel quel, le mieux qu'ils puissent faire est d'offrir un soutien de pièces.\n\n6...Nc6\n\nLes Noirs intensifient la pression sur d4 avec ce coup de développement naturel.\n\n7 Be3\n\nIl est essentiel d'apporter un soutien supplémentaire à la case clé d4. Voici ce qui pourrait arriver si les Blancs commencent négligemment à développer l'aile roi : 7 Be2? cxd4 8 Nb5 (8 Nxd4 perd un pion sur 8...Ndxe5! 9 fxe5 Qh4+) 8...Bc5 9 Nbxd4 Ndxe5! et à nouveau les Noirs gagnent un pion.\n\n7...cxd4\n\nLes Noirs ont ici un assez large choix de plans. L'un est d'intensifier la pression sur d4, par 7...Qb6 ou 7...cxd4 8 Nxd4 Qb6. Alternativement, ils peuvent simplement poursuivre leur développement, auquel cas ils doivent décider s'ils donnent la priorité à l'aile dame (par 7...a6 8 Qd2 b5) ou, comme dans cette partie, à l'aile roi.\n\n8 Nxd4\n\n8...Bc5\n\nShort joue pour achever son développement à l'aile roi.\n\n9 Qd2\n\nLes Blancs ne peuvent toujours pas simplement poursuivre leur développement à l'aile roi, car 9 Be2 0-0 10 0-0 se heurte à 10...Qb6 11 Na4 Bxd4! 12 Nxb6 Bxe3+ 13 Kh1 Bxb6 avec une excellente position pour les Noirs. Bien que trois pièces mineures aient la même « valeur en points » qu'une dame, dans la plupart des positions de milieu de jeu elles sont bien supérieures.\n\nLes Blancs préparent donc le grand roque, quand d4 aura un abondant soutien. Avec les joueurs roquant du côté opposé, on peut s'attendre à un jeu tranchant.\n\n9...0-0\n\nMaintenant que le roi noir est en sécurité, ils peuvent envisager de lancer une attaque au moyen d'une avance progressive de leurs pions de l'aile dame.\n\n9...Bxd4 10 Bxd4 Nxd4 11 Qxd4 Qb6 est une alternative, mais la finale qui en résulte favorise légèrement les Blancs pour deux raisons ; premièrement, les Blancs contrôlent plus d'espace et deuxièmement leur fou est plus actif que celui des Noirs.\n\n10 0-0-0\n\nLa structure générale de la position indique que les Blancs joueront pour une attaque à l'aile roi et les Noirs viseront une contre-attaque à l'aile dame. À première vue les chances d'attaque blanches paraissent plutôt bonnes ; l'aile roi noire est dépourvue de pièces mineures défensives et le pion e5 empêche les Noirs de basculer facilement des unités défensives vers l'aile roi. Cependant, deux facteurs font que l'attaque blanche est loin d'être simple :\n\n1) Les pions de l'aile roi noire sont non affaiblis, si bien qu'il n'y a pas de cible évidente à l'aile roi. Pour forcer une telle faiblesse, les Blancs doivent soit manœuvrer avec leurs pièces, soit jouer h4-h5-h6, mais ces deux plans demandent un temps considérable.\n\n2) La pression contre d4 restreint la liberté de mouvement des Blancs. Par exemple, le fou f1 ne participe actuellement pas à l'attaque, mais il ne peut aller en d3 sans interrompre la garde de la dame sur d4.\n\n10...a6\n\nLe contre-jeu noir avance petit à petit.\n\n11 h4\n\nC'est un bon coup qui sert un double objectif. Comme mentionné plus haut, le pion pourrait aller jusqu'en h6, afin de forcer une faiblesse dans les défenses de pions de l'aile roi noire. Cependant, les Blancs pourraient préférer mener l'attaque avec des pièces, et maintenant la manœuvre Rh3-g3 est disponible. La tour est assez bien placée sur la troisième rangée, puisqu'elle peut aussi remplir une fonction défensive en opérant latéralement. Cette méthode un peu inhabituelle de développer la tour est ici tout à fait logique. Non seulement elle s'accorde le mieux avec les ambitions blanches à l'aile roi, mais la seule autre option impliquerait de développer le fou f1, qui ne pourrait aller que sur la case relativement inutile e2. Les Blancs espèrent encore jouer le fou en d3 en un seul coup, aussi pour le moment le fou devrait rester en f1 si c'est possible.\n\n11...Nxd4\n\nCet échange est un préliminaire nécessaire avant de jouer ...b5.\n\n12 Bxd4\n\n12...b5\n\n13 Rh3\n\nC'est un coup plus flexible que 13 h5. Les Blancs développent leur tour, mais ne sont pas encore engagés dans un plan d'attaque particulier.\n\n13...b4\n\nLa réponse la plus directe, qui force les Blancs à décider de la destination de leur cavalier. Cependant, 13...Qb6 et 13...Bb7 sont des alternatives jouables.\n\n14 Na4\n\nSi les Blancs jouent 14 Ne2, alors 14...a5 est une bonne réponse car les Noirs progressent dans leur action à l'aile dame et permettent au fou c8 inactif d'être développé en a6.\n\n14...Bxd4\n\nL'attaque contre c5 force les Noirs à échanger en d4.\n\n15 Qxd4\n\nMaintenant les Blancs peuvent développer leur fou en d3, mais d'un autre côté le cavalier a4 paraît quelque peu hors-jeu.\n\n15...f6?!\n\nLes Noirs cherchent à attaquer le pion e5 et ainsi réduire encore le contrôle central des Blancs. Si l'échange de pions ...fxe5, fxe5 se produit, alors le pion e5 sera faible et exposé à l'attaque. Cependant, le coup a un défaut sérieux : les Noirs ouvrent la position alors qu'ils sont en retard de développement. Les lignes nouvellement ouvertes permettent aux Blancs de lancer une attaque qui n'aurait pas été possible autrement. En d'autres termes, il n'y a rien de faux dans l'idée de base des Noirs (miner e5) mais dans la position donnée cela ne fonctionne pas pour des raisons tactiques concrètes. Bien que la planification stratégique soit une composante importante de la pensée échiquéenne, il est toujours nécessaire de prendre en compte les spécificités d'une position. Cela dit, l'idée de Short n'échoue que grâce au jeu très précis et dynamique de Kasparov — une réponse tiède des Blancs aurait donné de bonnes chances aux Noirs.\n\nIl convient de noter que si les Blancs avaient joué 13 h5 au lieu de 13 Rh3, alors le coup ...f6 dans la position analogue aurait de bonnes chances de succès — comme nous le verrons, l'activité de la tour blanche le long de la troisième rangée est un facteur important.\n\n15...a5 est le meilleur, menaçant 16...Ba6. Après 16 Bb5 Rb8 (16...Ba6?? perd la qualité sur 17 Bxd7 Qxd7 18 Nb6) 17 Bd3 les Noirs, il est vrai, ne peuvent plus jouer ...Ba6, mais ils ont gagné du temps et en continuant 17...Qc7 peuvent atteindre une position raisonnable.\n\n16 Qxb4!\n\nMeilleur que 16 exf6 Qxf6 17 Qxf6 Rxf6 18 Rf3, qui ne promet aux Blancs qu'un léger avantage de finale.\n\n16...fxe5\n\nAinsi les Noirs achèvent la démolition du centre blanc. Cependant, en retour les Blancs ont obtenu une initiative dangereuse.\n\n17 Qd6\n\nAttaquant à la fois les pions e6 et e5.\n\n17...Qf6\n\nLe seul coup pour éviter de perdre un pion, car 17...Rxf4 échoue sur 18 Qxe6+ Kh8 19 Qxd5 Rb8 20 Nc5. Cependant, après le coup du texte tout paraît bien pour les Noirs. Le pion f4 est attaqué, et l'évident 18 fxe5 perd une pièce après 18...Qf4+ 19 Kb1 Qxf1!.\n\n18 f5!!\n\nCe sacrifice de pion est une solution brillante au problème des Blancs. Dans l'introduction de la partie, j'ai mentionné deux aspects clés du jeu d'attaque : l'ouverture des lignes, et l'élimination des pièces défensives. Le coup de Kasparov combine ces deux thèmes en un seul coup. Si les Noirs prennent ce pion, la colonne f s'ouvre ; cela permet à la tour blanche de basculer en f3, où elle est en mesure d'éliminer la tour défensive noire sur la colonne f. L'échange de cette tour serait un coup dur pour les Noirs, car leurs trois pièces de l'aile dame sont mal placées pour aider à la défense de l'aile roi.\n\n18...Qh6+\n\nLe seul coup. 18...Qxf5 perd sur 19 Rf3 Qg4 20 Rxf8+ Nxf8 21 Nb6, quand les Blancs gagnent une pièce.\n\n19 Kb1\n\n19...Rxf5?!\n\nLes Noirs décident d'accepter le pion, mais se retrouvent rapidement en sérieuse difficulté. 19...Nf6 était une meilleure défense, où Kasparov donnait la ligne 20 fxe6 Ne4 21 Qxd5 Nd2+ 22 Rxd2 Rxf1+ 23 Rd1 Rxd1+ 24 Qxd1 Bxe6 25 Nc5 comme très bonne pour les Blancs. Cependant, au milieu de cette variante les Noirs peuvent jouer 22...Bxe6! 23 Qd6 Qxd2! 24 Qxd2 Rxf1+ 25 Qc1 Bxa2+ 26 Kxa2 Rxc1, quand ce n'est pas les Blancs mais les Noirs qui gagnent. 20 Bd3 n'apporte pas grand-chose non plus : après 20...exf5 (20...Qh5 21 Re1 e4 22 Be2 Qf7 23 Nb6 Ra7 24 Rc3 est légèrement meilleur pour les Blancs) 21 Qxe5 f4 22 Rhh1 Bg4 23 Rdf1 Rae8 les Noirs ont un jeu de pièces actif pour compenser leurs pions quelque peu affaiblis. Les Blancs font donc mieux de se contenter du modeste 20 Qxe5 Ne4 21 Qd4 (21 g4 Nf2 22 Nb6 Nxd1 23 Nxa8 Nf2 24 g5 Qh5 25 Be2 Rxf5 26 Rc3 Rxe5 27 Rxc8+ Qe8 28 Rxe8+ Kf7 conduit à une finale peu claire) 21...Rxf5 22 Rf3, quand ils conservent un certain avantage positionnel grâce à leur fou plus actif ; par exemple, 22...Rf4 23 Nb6 Rb8 24 Qe5 Rxf3 25 gxf3 Nd2+ 26 Ka1 Rxb6 27 Qc7 Qe3 28 Qxc8+ Kf7 29 Bd3 avec une attaque dangereuse pour les Blancs.\n\n20 Rf3!\n\nLes Blancs visent résolument l'échange de la tour importante. Les pièces de l'aile dame noire sont quasiment paralysées : leur fou ne peut bouger, un coup de cavalier permet Nb6 et ...Rb8 risque de se heurter à Nc5. Ainsi, une fois la tour f5 partie, les Noirs ne joueront plus qu'avec leur dame.\n\nNotez comment Kasparov travaille avec une succession de menaces directes. Les Noirs n'ont jamais la chance de réparer les défauts de leur position car ils doivent constamment faire face au danger immédiat.\n\n20...Rxf3\n\nAprès 20...Qf6 21 Rxf5! Qxf5 22 Be2 les Blancs exploitent la colonne f ouverte, qu'ils ont créée avec leur sacrifice de pion. Pour parer la menace 23 Rf1, les Noirs doivent jouer 22...Qf7 mais alors 23 Bg4 Nf6 24 Nb6 gagne la qualité pour une compensation insuffisante.\n\nEn échangeant en f3, les Noirs bloquent la dangereuse colonne f, mais l'ouverture de la diagonale f1-h3 permet au fou blanc d'occuper un poste très actif en h3.\n\n21 gxf3\n\nAvec la menace mortelle 22 Bh3 (22 Qe7 est aussi très fort) 22...Kf7 23 f4! exf4 (ou 23...e4 24 f5) 24 Re1 et la position noire s'effondre.\n\n21...Qf6\n\nLe seul coup. 21...Kf7 perd sur 22 Qc6 Rb8 23 Bxa6! Bxa6 24 Qxd7+ Kg8 25 Qa7.\n\n22 Bh3\n\n22...Kf7\n\nUne fois de plus les Noirs n'ont pas le choix, car 22...Nf8 23 Nb6 Qxf3 24 Rf1 et 22...Kh8 23 Bxe6 Qxf3 24 Nc3 d4 25 Bd5 gagnent tous deux pour les Blancs.\n\nAprès le coup du texte les Noirs ont temporairement paré les menaces adverses et les Blancs doivent donc trouver une méthode pour renforcer leur attaque. Une fois de plus la clé est d'ouvrir les lignes.\n\n23 c4!\n\nLa vague suivante de l'attaque frappe la position noire. Les Blancs avaient même une seconde suite très prometteuse, également fondée sur le thème de l'ouverture des lignes : 23 f4!. Alors 23...exf4 24 Re1 gagne pour les Blancs, si bien que 23...Qe7 24 fxe5 Qxd6 25 exd6 est forcé. Cette finale est extrêmement désagréable pour les Noirs, car leurs pièces sont encore liées. La suite pourrait être 25...Ra7 26 Rf1+ Nf6 27 Nc5 h6 28 b3, quand les Noirs sont quasiment paralysés.\n\n23...dxc4\n\n23...d4 est rencontré par 24 f4 (24 c5 est moins convaincant en vue de 25 Qc7 Nf8 26 Qxe5 Qxh4 27 Nb6 Qxh3 28 Nxa8 Qxf3 29 Qxd4 e5! avec du contre-jeu ; p. ex. 30 Qc4+ Kf6 31 Rd6+ Ke7! ou 30 Qd8 Ne6) 24...Qe7 25 fxe5 Qxd6 26 exd6 e5 27 c5 (27 Re1 est aussi bon) 27...Nxc5 28 Bxc8 Rxc8 29 Rc1 Nxa4 30 Rxc8 Ke6 31 Ra8 et les Blancs devraient gagner la finale.\n\n23...Qg6+ 24 Ka1 d4 n'est pas mieux : 25 f4! (encore l'ouverture des lignes !) 25...exf4 26 Qxf4+ Kg8 27 Qxd4 Nf8 28 Nb6 Rb8 29 Qd6 et gagne.\n\n24 Nc3!\n\nUn coup cruel. Les Blancs ramènent leur cavalier au centre pour exploiter la case e4 nouvellement disponible. Maintenir la pression est beaucoup plus fort que d'encaisser immédiatement par 24 Qc6 Rb8 25 Rxd7+ Bxd7 26 Qxd7+ Kg6, quand les Noirs ont quelques chances de contre-jeu.\n\nLa menace immédiate derrière le coup du texte est 25 Ne4 Qe7 et maintenant soit 26 Bxe6+, soit 26 Qc6 suivi de Nd6+.\n\n24...Qe7\n\nLes Noirs opposent la résistance maximale, mais la position est sans espoir. 24...Nf8? perd sur 25 Qc6 Rb8 26 Qc7+.\n\n25 Qc6\n\n25...Rb8\n\n26 Ne4\n\nLes Blancs se rapprochent pour le coup de grâce.\n\n26...Nb6\n\nUne fois de plus les Noirs prolongent la partie du mieux qu'ils peuvent. Après 26...Kf8 27 Bxe6 Qb4 28 Rd2 les Blancs gagnent une pièce, tandis que 26...Nf8 27 Nd6+ Kg8 28 Nxc8 Qb4 est superbement rencontré par 29 Qxe6+! Nxe6 (29...Kh8 perd sur 30 Qxe5) 30 Bxe6+ Kf8 31 Rd8#.\n\n27 Ng5+\n\n27...Kg8\n\n27...Kf8 n'est que marginalement meilleur. Après 28 Nxh7+ Kg8 29 Ng5 Bb7 30 Bxe6+ Kh8 31 Qd6! Qxd6 32 Rxd6 Ba8 33 Kc2 les Noirs sont totalement liés et devront bientôt commencer à lâcher des pions.\n\n28 Qe4\n\nLe plus simple. Les Blancs centralisent leur dame avec gain de tempo.\n\n28...g6\n\n29 Qxe5\n\nEncore un gain de temps, cette fois en attaquant la tour noire.\n\n29...Rb7\n\n30 Rd6!\n\nToutes les pièces blanches occupent d'excellentes positions ; les Noirs ne peuvent éviter de lourdes pertes matérielles.\n\n30...c3\n\n30...Na4 est décisivement rencontré par 31 Bxe6+ Bxe6 32 Rxe6 Rxb2+ 33 Qxb2.\n\n31 Bxe6+\n\n31 Rxe6 gagne aussi.\n\n31...Bxe6\n\n32 Rxe6\n\n32...1-0\n\nAprès 32...Nc4 la victoire la plus simple est 33 Qxc3! Na3+ 34 Kc1 Qd8 35 bxa3.\n\nDans cette partie, l'avantage d'espace et les pièces actives des Blancs laissaient entrevoir une possible attaque, mais celle-ci n'a pu réellement être lancée que lorsque les Noirs ont imprudemment ouvert la position avec 15...f6?!. Kasparov a répondu avec puissance, forçant l'ouverture de la colonne f avec 18 f5!! et contraignant ainsi les Noirs à échanger leur tour défensive. Short n'a jamais eu la chance de revenir dans la partie, son temps étant occupé à répondre aux menaces blanches. Une nouvelle ouverture de lignes avec 23 c4! a scellé le sort des Noirs. Dans l'ensemble, une performance d'attaque digne d'un manuel par Kasparov.\n\nLes leçons à retenir :\n\n1) Une attaque ne devrait pas être lancée sans au moins quelques avantages préexistants.\n\n2) Les lignes ouvertes favorisent l'attaquant.\n\n3) L'attaquant devrait tenter d'identifier et d'éliminer les pièces défensives clés.\n\n4) Maintenir le défenseur hors d'équilibre avec un flot de menaces améliore grandement les chances de succès de l'attaque.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Idées d'attaque élémentaires\n\nNotre couverture du jeu d'attaque commence par quelques idées fondamentales. Pour qu'une attaque soit lancée avec une chance réelle de succès, au moins certains éléments de la position doivent déjà favoriser l'attaquant. La nature de ces préconditions peut varier beaucoup, mais des exemples typiques sont des pièces plus actives, un meilleur contrôle du centre, une avance de développement, des faiblesses dans la position adverse et un roi ennemi exposé. Toutes n'ont pas besoin d'être réunies, mais une attaque a peu de chances de réussir si aucune d'elles n'est présente. Une fois l'attaque engagée, l'attaquant doit garder à l'esprit les idées d'attaque importantes suivantes :\n\n1) Momentum : il est important de maintenir l'élan de l'attaque, afin de ne laisser au défenseur aucune chance d'organiser sa position et de repousser les forces attaquantes. Ainsi les attaques opèrent souvent avec des menaces directes.\n\n2) Ouvrir les lignes : les forces attaquantes doivent pouvoir s'en prendre à l'ennemi, et c'est plus facile s'il y a plusieurs lignes ouvertes menant dans la position adverse. Si ces lignes ouvertes n'existent pas au départ, il peut être possible de les forcer par des coups de pion appropriés ou, dans les cas extrêmes, par un sacrifice.\n\n3) Éliminer les défenseurs : l'échange d'une pièce défensive clé peut faire la différence entre le succès et l'échec.\n\n4) Forcer des faiblesses : si la position adverse est initialement sans faiblesses, vous pourrez devoir en provoquer avant que l'attaque puisse vraiment démarrer. Cela s'applique particulièrement dans le cas d'une attaque directe contre le roi.\n\nLa partie suivante est un excellent exemple des trois premières idées d'attaque mentionnées ci-dessus.\n\nG. Kasparov – N. Short\n\nTournoi VSB, Amsterdam 1994\n\nDéfense française, variante classique"
+    },
+    {
+      "ply": 1,
+      "san": "e4",
+      "text": "Pour les commentaires sur ce coup, voir la partie 3.",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "e6",
+      "text": "Cette modeste avance de pion, appelée défense française, prévoit de contester le pion e4 par ...d5 sans avoir à reprendre avec la dame après exd5. À cet égard elle est assez similaire à la défense Caro-Kann 1...c6 (voir la partie 25), mais à d'autres égards elle est assez différente. Le principal défaut de la défense française est que les Noirs, dès leur premier coup, bloquent la diagonale la plus naturelle pour développer le fou c8. Bien des parties dans la Française tournent autour de ce fou ; si les Noirs peuvent l'activer, ils obtiennent souvent une bonne partie, mais s'il reste définitivement emprisonné derrière les pions centraux noirs, ils peuvent bien se retrouver en difficulté.\n\nLa Caro-Kann comme la Française sont des méthodes sûres et solides de répondre à 1 e4. Les positions un peu passives que les Noirs obtiennent peuvent ne pas convenir au style de chaque joueur, mais il ne fait aucun doute que les Blancs ont beaucoup de travail devant eux pour réellement entamer la position noire.",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "d4",
+      "text": "Les Blancs saisissent l'occasion de former un centre de pions « côte à côte »...",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "d5",
+      "text": "...que les Noirs contestent immédiatement.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "Nc3",
+      "text": "Kasparov a un jour décrit 3 Nc3 comme « le coup le plus fort dans cette position » et la plupart des joueurs seraient d'accord avec lui. Les principales alternatives sont :\n\n1) 3 Nd2, qui évite un éventuel clouage par ...Bb4 (puisque les Blancs pourraient répondre c3), mais accepte une position moins active pour le cavalier dame.\n\n2) 3 e5, fermant le centre tout de suite. Cela découvre trop tôt les intentions des Blancs et ne cause pas de problèmes sérieux aux Noirs.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "Nf6",
+      "text": "L'un des deux coups également populaires. L'autre est 3...Bb4, qui, en clouant le cavalier, attaque e4 et force ainsi quasiment la main des Blancs au centre. Après la séquence 4 e5 c5 5 a3 Bxc3+ 6 bxc3 une position complexe et à double tranchant apparaît. Les Noirs ont échangé leur « bon » fou (celui qui n'est pas gêné par leurs pions centraux) et sont maintenant un peu faibles sur les cases sombres. En revanche, ils ont brisé les pions de l'aile dame blanche. La lutte entre ces avantages et inconvénients conduit généralement à un jeu tranchant.\n\nLe coup du texte, en revanche, est plus conservateur. Les Noirs forcent à nouveau les Blancs à engager le pion e4 en exerçant une pression sur e4, mais sans céder leur fou des cases sombres dans l'opération. Bien sûr, l'inconvénient est que les Noirs ne doublent pas non plus les pions c blancs.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "e5",
+      "text": "C'est l'une des deux options principales, l'autre étant 4 Bg5. Notez que défendre le pion e4 par 4 Bd3 serait une erreur car le pion d4 serait alors sans défense. Les Noirs répondraient 4...c5, brisant le centre blanc et résolvant tous leurs problèmes.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "Nfd7",
+      "text": "4...Ne4 est un coup risqué. Après 5 Nxe4 dxe4 les Blancs peuvent prendre l'avantage par 6 Bc4 ou 6 Be3, car le pion saillant en e4 peut facilement devenir faible.\n\nAprès le coup du texte, nous avons une position typique avec un centre de pions bloqué. Les Blancs contrôlent plus d'espace, mais leur centre de pions peut facilement être attaqué par ...c5. L'échange du pion d4 pourrait fort bien laisser le pion e5 faible, aussi les Blancs se hâtent de lui offrir un soutien supplémentaire.",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "f4",
+      "text": "Maintenant que le pion e5 est en sécurité, les Blancs peuvent développer leurs pièces par Nf3, etc.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "c5",
+      "text": "Trait aux Blancs\n\nLe centre de pions blanc paraît certainement fort, et s'ils sont autorisés à se développer tranquillement derrière lui, les Noirs commenceront bientôt à se sentir à l'étroit. Les Noirs doivent donc frapper tout de suite, avant que les Blancs n'aient le temps de se consolider. Quand on lutte contre une chaîne de pions telle que celle en d4 et e5, il y a généralement le choix entre attaquer la base de la chaîne (ici d4) ou sa tête (ici e5). La plupart des manuels diront qu'il faut attaquer la base de la chaîne de pions, mais la vérité est que tout dépend de la position précise. Ici le pion e5 blanc a le soutien supplémentaire du pion f4, si bien que ...f6 est inefficace — les Blancs peuvent maintenir le pion en e5 sans difficulté. L'attaque par ...c5 est donc indiquée. Cependant, une fois le pion d4 échangé, les Noirs pourront plus tard envisager une attaque par ...f6, car le pion e5 aura moins de soutien. Nous reviendrons sur le sujet des chaînes de pions dans la partie 24.",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "Nf3",
+      "text": "Si le cavalier blanc n'était pas en c3, les Blancs soutiendraient probablement leur pion d4 en jouant c3, mais tel quel, le mieux qu'ils puissent faire est d'offrir un soutien de pièces.",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "Nc6",
+      "text": "Les Noirs intensifient la pression sur d4 avec ce coup de développement naturel.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "Be3",
+      "text": "Il est essentiel d'apporter un soutien supplémentaire à la case clé d4. Voici ce qui pourrait arriver si les Blancs commencent négligemment à développer l'aile roi : 7 Be2? cxd4 8 Nb5 (8 Nxd4 perd un pion sur 8...Ndxe5! 9 fxe5 Qh4+) 8...Bc5 9 Nbxd4 Ndxe5! et à nouveau les Noirs gagnent un pion.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "cxd4",
+      "text": "Les Noirs ont ici un assez large choix de plans. L'un est d'intensifier la pression sur d4, par 7...Qb6 ou 7...cxd4 8 Nxd4 Qb6. Alternativement, ils peuvent simplement poursuivre leur développement, auquel cas ils doivent décider s'ils donnent la priorité à l'aile dame (par 7...a6 8 Qd2 b5) ou, comme dans cette partie, à l'aile roi.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "Nxd4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "Bc5",
+      "text": "Short joue pour achever son développement à l'aile roi.",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "Qd2",
+      "text": "Les Blancs ne peuvent toujours pas simplement poursuivre leur développement à l'aile roi, car 9 Be2 0-0 10 0-0 se heurte à 10...Qb6 11 Na4 Bxd4! 12 Nxb6 Bxe3+ 13 Kh1 Bxb6 avec une excellente position pour les Noirs. Bien que trois pièces mineures aient la même « valeur en points » qu'une dame, dans la plupart des positions de milieu de jeu elles sont bien supérieures.\n\nLes Blancs préparent donc le grand roque, quand d4 aura un abondant soutien. Avec les joueurs roquant du côté opposé, on peut s'attendre à un jeu tranchant.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "O-O",
+      "text": "Maintenant que le roi noir est en sécurité, ils peuvent envisager de lancer une attaque au moyen d'une avance progressive de leurs pions de l'aile dame.\n\n9...Bxd4 10 Bxd4 Nxd4 11 Qxd4 Qb6 est une alternative, mais la finale qui en résulte favorise légèrement les Blancs pour deux raisons ; premièrement, les Blancs contrôlent plus d'espace et deuxièmement leur fou est plus actif que celui des Noirs.\n\nTrait aux Blancs\n\n10 0-0-0\n\nLa structure générale de la position indique que les Blancs joueront pour une attaque à l'aile roi et les Noirs viseront une contre-attaque à l'aile dame. À première vue les chances d'attaque blanches paraissent plutôt bonnes ; l'aile roi noire est dépourvue de pièces mineures défensives et le pion e5 empêche les Noirs de basculer facilement des unités défensives vers l'aile roi. Cependant, deux facteurs font que l'attaque blanche est loin d'être simple :\n\n1) Les pions de l'aile roi noire sont non affaiblis, si bien qu'il n'y a pas de cible évidente à l'aile roi. Pour forcer une telle faiblesse, les Blancs doivent soit manœuvrer avec leurs pièces, soit jouer h4-h5-h6, mais ces deux plans demandent un temps considérable.\n\n2) La pression contre d4 restreint la liberté de mouvement des Blancs. Par exemple, le fou f1 ne participe actuellement pas à l'attaque, mais il ne peut aller en d3 sans interrompre la garde de la dame sur d4.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "O-O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "a6",
+      "text": "Le contre-jeu noir avance petit à petit.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "h4",
+      "text": "Trait aux Noirs\n\nC'est un bon coup qui sert un double objectif. Comme mentionné plus haut, le pion pourrait aller jusqu'en h6, afin de forcer une faiblesse dans les défenses de pions de l'aile roi noire. Cependant, les Blancs pourraient préférer mener l'attaque avec des pièces, et maintenant la manœuvre Rh3-g3 est disponible. La tour est assez bien placée sur la troisième rangée, puisqu'elle peut aussi remplir une fonction défensive en opérant latéralement. Cette méthode un peu inhabituelle de développer la tour est ici tout à fait logique. Non seulement elle s'accorde le mieux avec les ambitions blanches à l'aile roi, mais la seule autre option impliquerait de développer le fou f1, qui ne pourrait aller que sur la case relativement inutile e2. Les Blancs espèrent encore jouer le fou en d3 en un seul coup, aussi pour le moment le fou devrait rester en f1 si c'est possible.",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "Nxd4",
+      "text": "Cet échange est un préliminaire nécessaire avant de jouer ...b5.",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "Bxd4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "b5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Rh3",
+      "text": "C'est un coup plus flexible que 13 h5. Les Blancs développent leur tour, mais ne sont pas encore engagés dans un plan d'attaque particulier.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "b4",
+      "text": "La réponse la plus directe, qui force les Blancs à décider de la destination de leur cavalier. Cependant, 13...Qb6 et 13...Bb7 sont des alternatives jouables.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Na4",
+      "text": "Si les Blancs jouent 14 Ne2, alors 14...a5 est une bonne réponse car les Noirs progressent dans leur action à l'aile dame et permettent au fou c8 inactif d'être développé en a6.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "Bxd4",
+      "text": "L'attaque contre c5 force les Noirs à échanger en d4.",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Qxd4",
+      "text": "Trait aux Noirs\n\nMaintenant les Blancs peuvent développer leur fou en d3, mais d'un autre côté le cavalier a4 paraît quelque peu hors-jeu.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "f6",
+      "text": "Les Noirs cherchent à attaquer le pion e5 et ainsi réduire encore le contrôle central des Blancs. Si l'échange de pions ...fxe5, fxe5 se produit, alors le pion e5 sera faible et exposé à l'attaque. Cependant, le coup a un défaut sérieux : les Noirs ouvrent la position alors qu'ils sont en retard de développement. Les lignes nouvellement ouvertes permettent aux Blancs de lancer une attaque qui n'aurait pas été possible autrement. En d'autres termes, il n'y a rien de faux dans l'idée de base des Noirs (miner e5) mais dans la position donnée cela ne fonctionne pas pour des raisons tactiques concrètes. Bien que la planification stratégique soit une composante importante de la pensée échiquéenne, il est toujours nécessaire de prendre en compte les spécificités d'une position. Cela dit, l'idée de Short n'échoue que grâce au jeu très précis et dynamique de Kasparov — une réponse tiède des Blancs aurait donné de bonnes chances aux Noirs.\n\nIl convient de noter que si les Blancs avaient joué 13 h5 au lieu de 13 Rh3, alors le coup ...f6 dans la position analogue aurait de bonnes chances de succès — comme nous le verrons, l'activité de la tour blanche le long de la troisième rangée est un facteur important.\n\n15...a5 est le meilleur, menaçant 16...Ba6. Après 16 Bb5 Rb8 (16...Ba6?? perd la qualité sur 17 Bxd7 Qxd7 18 Nb6) 17 Bd3 les Noirs, il est vrai, ne peuvent plus jouer ...Ba6, mais ils ont gagné du temps et en continuant 17...Qc7 peuvent atteindre une position raisonnable.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Qxb4",
+      "text": "Meilleur que 16 exf6 Qxf6 17 Qxf6 Rxf6 18 Rf3, qui ne promet aux Blancs qu'un léger avantage de finale.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "fxe5",
+      "text": "Ainsi les Noirs achèvent la démolition du centre blanc. Cependant, en retour les Blancs ont obtenu une initiative dangereuse.",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Qd6",
+      "text": "Attaquant à la fois les pions e6 et e5.",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Qf6",
+      "text": "Le seul coup pour éviter de perdre un pion, car 17...Rxf4 échoue sur 18 Qxe6+ Kh8 19 Qxd5 Rb8 20 Nc5. Cependant, après le coup du texte tout paraît bien pour les Noirs. Le pion f4 est attaqué, et l'évident 18 fxe5 perd une pièce après 18...Qf4+ 19 Kb1 Qxf1!.",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "f5",
+      "text": "Trait aux Noirs\n\nCe sacrifice de pion est une solution brillante au problème des Blancs. Dans l'introduction de la partie, j'ai mentionné deux aspects clés du jeu d'attaque : l'ouverture des lignes, et l'élimination des pièces défensives. Le coup de Kasparov combine ces deux thèmes en un seul coup. Si les Noirs prennent ce pion, la colonne f s'ouvre ; cela permet à la tour blanche de basculer en f3, où elle est en mesure d'éliminer la tour défensive noire sur la colonne f. L'échange de cette tour serait un coup dur pour les Noirs, car leurs trois pièces de l'aile dame sont mal placées pour aider à la défense de l'aile roi.",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "Qh6+",
+      "text": "Le seul coup. 18...Qxf5 perd sur 19 Rf3 Qg4 20 Rxf8+ Nxf8 21 Nb6, quand les Blancs gagnent une pièce.",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "Kb1",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "Rxf5",
+      "text": "Les Noirs décident d'accepter le pion, mais se retrouvent rapidement en sérieuse difficulté. 19...Nf6 était une meilleure défense, où Kasparov donnait la ligne 20 fxe6 Ne4 21 Qxd5 Nd2+ 22 Rxd2 Rxf1+ 23 Rd1 Rxd1+ 24 Qxd1 Bxe6 25 Nc5 comme très bonne pour les Blancs. Cependant, au milieu de cette variante les Noirs peuvent jouer 22...Bxe6! 23 Qd6 Qxd2! 24 Qxd2 Rxf1+ 25 Qc1 Bxa2+ 26 Kxa2 Rxc1, quand ce n'est pas les Blancs mais les Noirs qui gagnent. 20 Bd3 n'apporte pas grand-chose non plus : après 20...exf5 (20...Qh5 21 Re1 e4 22 Be2 Qf7 23 Nb6 Ra7 24 Rc3 est légèrement meilleur pour les Blancs) 21 Qxe5 f4 22 Rhh1 Bg4 23 Rdf1 Rae8 les Noirs ont un jeu de pièces actif pour compenser leurs pions quelque peu affaiblis. Les Blancs font donc mieux de se contenter du modeste 20 Qxe5 Ne4 21 Qd4 (21 g4 Nf2 22 Nb6 Nxd1 23 Nxa8 Nf2 24 g5 Qh5 25 Be2 Rxf5 26 Rc3 Rxe5 27 Rxc8+ Qe8 28 Rxe8+ Kf7 conduit à une finale peu claire) 21...Rxf5 22 Rf3, quand ils conservent un certain avantage positionnel grâce à leur fou plus actif ; par exemple, 22...Rf4 23 Nb6 Rb8 24 Qe5 Rxf3 25 gxf3 Nd2+ 26 Ka1 Rxb6 27 Qc7 Qe3 28 Qxc8+ Kf7 29 Bd3 avec une attaque dangereuse pour les Blancs.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "Rf3",
+      "text": "Les Blancs visent résolument l'échange de la tour importante. Les pièces de l'aile dame noire sont quasiment paralysées : leur fou ne peut bouger, un coup de cavalier permet Nb6 et ...Rb8 risque de se heurter à Nc5. Ainsi, une fois la tour f5 partie, les Noirs ne joueront plus qu'avec leur dame.\n\nNotez comment Kasparov travaille avec une succession de menaces directes. Les Noirs n'ont jamais la chance de réparer les défauts de leur position car ils doivent constamment faire face au danger immédiat.",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "Rxf3",
+      "text": "Après 20...Qf6 21 Rxf5! Qxf5 22 Be2 les Blancs exploitent la colonne f ouverte, qu'ils ont créée avec leur sacrifice de pion. Pour parer la menace 23 Rf1, les Noirs doivent jouer 22...Qf7 mais alors 23 Bg4 Nf6 24 Nb6 gagne la qualité pour une compensation insuffisante.\n\nEn échangeant en f3, les Noirs bloquent la dangereuse colonne f, mais l'ouverture de la diagonale f1-h3 permet au fou blanc d'occuper un poste très actif en h3.",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "gxf3",
+      "text": "Avec la menace mortelle 22 Bh3 (22 Qe7 est aussi très fort) 22...Kf7 23 f4! exf4 (ou 23...e4 24 f5) 24 Re1 et la position noire s'effondre.",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "Qf6",
+      "text": "Le seul coup. 21...Kf7 perd sur 22 Qc6 Rb8 23 Bxa6! Bxa6 24 Qxd7+ Kg8 25 Qa7.",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "Bh3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "Kf7",
+      "text": "Une fois de plus les Noirs n'ont pas le choix, car 22...Nf8 23 Nb6 Qxf3 24 Rf1 et 22...Kh8 23 Bxe6 Qxf3 24 Nc3 d4 25 Bd5 gagnent tous deux pour les Blancs.\n\nTrait aux Blancs\n\nAprès le coup du texte les Noirs ont temporairement paré les menaces adverses et les Blancs doivent donc trouver une méthode pour renforcer leur attaque. Une fois de plus la clé est d'ouvrir les lignes.",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "c4",
+      "text": "La vague suivante de l'attaque frappe la position noire. Les Blancs avaient même une seconde suite très prometteuse, également fondée sur le thème de l'ouverture des lignes : 23 f4!. Alors 23...exf4 24 Re1 gagne pour les Blancs, si bien que 23...Qe7 24 fxe5 Qxd6 25 exd6 est forcé. Cette finale est extrêmement désagréable pour les Noirs, car leurs pièces sont encore liées. La suite pourrait être 25...Ra7 26 Rf1+ Nf6 27 Nc5 h6 28 b3, quand les Noirs sont quasiment paralysés.",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "dxc4",
+      "text": "23...d4 est rencontré par 24 f4 (24 c5 est moins convaincant en vue de 25 Qc7 Nf8 26 Qxe5 Qxh4 27 Nb6 Qxh3 28 Nxa8 Qxf3 29 Qxd4 e5! avec du contre-jeu ; p. ex. 30 Qc4+ Kf6 31 Rd6+ Ke7! ou 30 Qd8 Ne6) 24...Qe7 25 fxe5 Qxd6 26 exd6 e5 27 c5 (27 Re1 est aussi bon) 27...Nxc5 28 Bxc8 Rxc8 29 Rc1 Nxa4 30 Rxc8 Ke6 31 Ra8 et les Blancs devraient gagner la finale.\n\n23...Qg6+ 24 Ka1 d4 n'est pas mieux : 25 f4! (encore l'ouverture des lignes !) 25...exf4 26 Qxf4+ Kg8 27 Qxd4 Nf8 28 Nb6 Rb8 29 Qd6 et gagne.",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "Nc3",
+      "text": "Un coup cruel. Les Blancs ramènent leur cavalier au centre pour exploiter la case e4 nouvellement disponible. Maintenir la pression est beaucoup plus fort que d'encaisser immédiatement par 24 Qc6 Rb8 25 Rxd7+ Bxd7 26 Qxd7+ Kg6, quand les Noirs ont quelques chances de contre-jeu.\n\nTrait aux Noirs\n\nLa menace immédiate derrière le coup du texte est 25 Ne4 Qe7 et maintenant soit 26 Bxe6+, soit 26 Qc6 suivi de Nd6+.",
+      "isCritical": true
+    },
+    {
+      "ply": 48,
+      "san": "Qe7",
+      "text": "Les Noirs opposent la résistance maximale, mais la position est sans espoir. 24...Nf8? perd sur 25 Qc6 Rb8 26 Qc7+.",
+      "isCritical": true
+    },
+    {
+      "ply": 49,
+      "san": "Qc6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 50,
+      "san": "Rb8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 51,
+      "san": "Ne4",
+      "text": "Les Blancs se rapprochent pour le coup de grâce.",
+      "isCritical": true
+    },
+    {
+      "ply": 52,
+      "san": "Nb6",
+      "text": "Une fois de plus les Noirs prolongent la partie du mieux qu'ils peuvent. Après 26...Kf8 27 Bxe6 Qb4 28 Rd2 les Blancs gagnent une pièce, tandis que 26...Nf8 27 Nd6+ Kg8 28 Nxc8 Qb4 est superbement rencontré par 29 Qxe6+! Nxe6 (29...Kh8 perd sur 30 Qxe5) 30 Bxe6+ Kf8 31 Rd8#.",
+      "isCritical": true
+    },
+    {
+      "ply": 53,
+      "san": "Ng5+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 54,
+      "san": "Kg8",
+      "text": "27...Kf8 n'est que marginalement meilleur. Après 28 Nxh7+ Kg8 29 Ng5 Bb7 30 Bxe6+ Kh8 31 Qd6! Qxd6 32 Rxd6 Ba8 33 Kc2 les Noirs sont totalement liés et devront bientôt commencer à lâcher des pions.",
+      "isCritical": true
+    },
+    {
+      "ply": 55,
+      "san": "Qe4",
+      "text": "Le plus simple. Les Blancs centralisent leur dame avec gain de tempo.",
+      "isCritical": true
+    },
+    {
+      "ply": 56,
+      "san": "g6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 57,
+      "san": "Qxe5",
+      "text": "Encore un gain de temps, cette fois en attaquant la tour noire.",
+      "isCritical": true
+    },
+    {
+      "ply": 58,
+      "san": "Rb7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 59,
+      "san": "Rd6",
+      "text": "Trait aux Noirs\n\nToutes les pièces blanches occupent d'excellentes positions ; les Noirs ne peuvent éviter de lourdes pertes matérielles.",
+      "isCritical": true
+    },
+    {
+      "ply": 60,
+      "san": "c3",
+      "text": "30...Na4 est décisivement rencontré par 31 Bxe6+ Bxe6 32 Rxe6 Rxb2+ 33 Qxb2.",
+      "isCritical": true
+    },
+    {
+      "ply": 61,
+      "san": "Bxe6+",
+      "text": "31 Rxe6 gagne aussi.",
+      "isCritical": true
+    },
+    {
+      "ply": 62,
+      "san": "Bxe6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 63,
+      "san": "Rxe6",
+      "text": "32...1-0\n\nAprès 32...Nc4 la victoire la plus simple est 33 Qxc3! Na3+ 34 Kc1 Qd8 35 bxa3.\n\nDans cette partie, l'avantage d'espace et les pièces actives des Blancs laissaient entrevoir une possible attaque, mais celle-ci n'a pu réellement être lancée que lorsque les Noirs ont imprudemment ouvert la position avec 15...f6?!. Kasparov a répondu avec puissance, forçant l'ouverture de la colonne f avec 18 f5!! et contraignant ainsi les Noirs à échanger leur tour défensive. Short n'a jamais eu la chance de revenir dans la partie, son temps étant occupé à répondre aux menaces blanches. Une nouvelle ouverture de lignes avec 23 c4! a scellé le sort des Noirs. Dans l'ensemble, une performance d'attaque digne d'un manuel par Kasparov.\n\nLes leçons à retenir :\n\n1) Une attaque ne devrait pas être lancée sans au moins quelques avantages préexistants.\n\n2) Les lignes ouvertes favorisent l'attaquant.\n\n3) L'attaquant devrait tenter d'identifier et d'éliminer les pièces défensives clés.\n\n4) Maintenir le défenseur hors d'équilibre avec un flot de menaces améliore grandement les chances de succès de l'attaque.",
+      "isCritical": true
+    }
+  ]
+}

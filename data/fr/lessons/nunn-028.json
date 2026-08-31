@@ -1,0 +1,673 @@
+{
+  "id": "nunn-028",
+  "book": "nunn",
+  "gameNum": 28,
+  "title": "Partie 28 : V. Smyslov vs G. Sax",
+  "section": "Thèmes de finale",
+  "players": {
+    "white": "V. Smyslov",
+    "black": "G. Sax"
+  },
+  "event": "Tilburg 1979",
+  "opening": "Défense Pirc, variante du fianchetto",
+  "eco": "A05",
+  "pgnPath": "data/pgn/nunn/28.pgn",
+  "result": "0-1",
+  "moveCount": 108,
+  "annotatedMoves": 107,
+  "fullText": "Le roi actif\n\nAu milieu de jeu, le roi est mieux tenu à l'abri derrière un rempart de pions, mais à mesure que la finale approche et que les deux armées s'éclaircissent, le roi devient un facteur de plus en plus important. Lorsqu'il n'y a plus de danger d'être maté (et vous devez en être sûr !), le roi peut sortir de son abri et prendre une part active aux opérations – en fait il le doit, car en finale le roi représente une fraction significative de son armée, et on ne peut le gaspiller.\n\nLe roi est particulièrement efficace s'il peut pénétrer parmi les pions adverses. Une chaîne de pions peut être dévorée par un roi déchaîné en quelques coups seulement, si bien qu'un roi actif peut poser un sérieux danger. Même si le roi ne peut réellement envahir la position adverse, la menace de le faire peut immobiliser l'une des pièces adverses et ainsi procurer un avantage exploitable par d'autres moyens.\n\nDans cette partie la position est pratiquement symétrique à un facteur près – le roi noir est plus actif que le roi blanc. Cet avantage s'avère décisif.\n\nV. Smyslov – G. Sax\n\nTilburg 1979\n\nDéfense Pirc, variante du fianchetto\n\n1 Nf3\n\n1...Nf6\n\nPour les commentaires sur les coups jusqu'ici, voir la Partie 11.\n\n2 g3\n\nC'est l'un des coups les plus flexibles disponibles dans cette position. Le but des Blancs est simplement d'achever leur développement à l'aile roi par Bg2 et 0-0, tout en conservant toutes leurs options au centre.\n\n2...g6\n\nLes Noirs sont prêts à maintenir la symétrie pour le moment. Nous avons déjà vu des ouvertures symétriques dans les Parties 17 et 27 et, comme mentionné dans ces parties, le principal problème des Noirs est de décider quand briser la symétrie, car la maintenir trop longtemps peut s'avérer dangereux.\n\n3 Bg2\n\n3...Bg7\n\n4 0-0\n\n4...0-0\n\nLes deux camps ont achevé leur développement de base à l'aile roi ; c'est donc aux Blancs qu'incombe la responsabilité de jouer le premier coup engageant au centre.\n\n5 d4\n\nNous avons maintenant transposé dans la Partie 27.\n\n5...d6\n\nTout comme Shirov, Sax décide de briser la symétrie en n'avançant son pion d que d'une case.\n\n6 Nc3\n\nLautier a joué 6 c4, transposant dans la défense indienne du roi, mais Smyslov préfère une voie différente et inhabituelle. Le coup du texte vise à établir un centre « à deux de front » en jouant e4. Les Noirs peuvent hésiter à empêcher cela par ...d5, car cela implique de perdre un tempo. Si les Blancs parviennent à jouer e4, le résultat sera une transposition dans la défense Pirc (1 e4 d6). Le problème de cette stratégie est que la ligne de la Pirc qui en découle n'est pas considérée comme particulièrement favorable aux Blancs.\n\n6...Nbd7\n\nC'est la réponse la plus naturelle au plan des Blancs ; les Noirs préparent leur propre contre-action au centre avec ...e5.\n\nMalgré la perte de tempo, 6...d5 est une alternative jouable. Elle empêche e4, et maintenant que le cavalier blanc est en c3, il ne peut pas facilement jouer c4. Ainsi les Blancs ont peu de jeu dynamique au centre, si bien que les Noirs ont peu de problèmes à achever leur développement avec une partie satisfaisante.\n\n7 e4\n\nLes Blancs poursuivent leur plan.\n\n7...e5\n\nCette position peut aussi naître via l'ordre de coups 1 e4 d6 2 d4 Nf6 3 Nc3 g6 4 g3 Bg7 5 Bg2 0-0 6 Nf3 Nbd7 7 0-0 e5. Jouer g3 contre la défense Pirc est un système parfaitement respectable, mais le développement du fou en g2 est presque invariablement associé à Nge2 plutôt qu'à Nf3. La raison en est assez évidente : en e2 le cavalier ne bloque pas le fou de g2 et les Blancs conservent ainsi une pression considérable sur d5. La combinaison de g3 et Nf3 n'est pas gênante pour les Noirs.\n\n8 dxe5?!\n\nDe nombreuses ouvertures donnent naissance à une structure de pions centrale avec d4, e4 contre d6, e5 – l'exemple le plus connu est peut-être l'Espagnole fermée. Ce type de structure confère intrinsèquement un léger avantage aux Blancs, pourvu qu'ils puissent maintenir leur centre de pions « à deux de front ». La raison est que les Blancs conservent plus d'options au centre que les Noirs – ils peuvent jouer dxe5, ou fermer le centre avec d5, ou simplement laisser les pions où ils sont. Les Noirs doivent tenir compte de ces options à chaque coup, et cela restreint souvent leurs propres possibilités.\n\nLe jeu central des Noirs est plus limité. Ils peuvent, bien sûr, jouer ...exd4 mais cela abandonne leur principal point d'appui au centre et laisse aux Blancs un avantage d'espace. Les Noirs aimeraient jouer ...d5, mais ce n'est généralement pas possible pour des raisons tactiques (cela perd souvent un pion).\n\nCes considérations sont assez générales et peuvent être contredites par la situation particulière sur l'échiquier, mais le principe de base est clair – les Blancs ont intérêt à maintenir leur centre de pions tel quel, à moins de pouvoir obtenir un avantage précis en clarifiant la situation. En effet, dans l'Espagnole fermée les Noirs se donnent souvent beaucoup de mal pour exercer une pression contre e4 (voir la Partie 7) afin de forcer les Blancs à s'engager au centre. Dans la position actuelle, il n'y a pas de réelle raison pour les Blancs d'échanger si vite en e5. Cela relâche la tension au centre et mène à une structure de pions symétrique n'offrant aux Blancs que des chances minimales d'avantage. Il aurait été préférable pour les Blancs d'améliorer leur position tout en laissant le centre fluide. Plusieurs coups étaient possibles ; par exemple, 8 Re1 soutenant le centre, 8 h3 préparant Be3 et 8 a4 gagnant de l'espace à l'aile dame.\n\n8...dxe5\n\nMaintenant que la structure de pions est symétrique, la seule prétention des Blancs à un avantage est le léger avance de développement qu'ils possèdent en vertu d'avoir les Blancs.\n\n9 b3\n\nDans le but de développer le fou en a3. Bien que cela puisse causer aux Noirs quelque inconvénient temporaire, à long terme il y a un danger que les Noirs échangent les fous des cases noires par ...Bf8, ne laissant aux Blancs que le fou inactif en g2.\n\n9...b6\n\nUn plan combatif. Les Noirs ont l'intention de ...Bb7 pour exercer une pression contre e4, exploitant le fait que le fou de g2 ne défend pas ce pion. Il est aussi possible pour les Noirs de continuer 9...Re8 10 Ba3 Bf8, avec une position à peu près égale.\n\n10 a4\n\nLes Blancs visent à gagner de l'espace à l'aile dame, mais ce plan n'aboutit à rien et pousser le pion a consomme un précieux tempo de développement. 10 Ba3 Re8 11 Qe2 aurait été une suite plus logique au jeu précédent des Blancs. Après 11...Bf8 12 Bxf8 Nxf8 13 Rad1 Qe7 14 Nd5 Nxd5 15 exd5 e4 16 Nd4, les Blancs peuvent encore avoir un léger avantage.\n\n10...Bb7\n\nForçant les Blancs à s'occuper du pion e4.\n\n11 Nd2\n\nCela active le fou de g2, mais les Blancs ont perdu du temps en déplaçant deux fois leur cavalier roi.\n\n11...Re8\n\nAnticipant Ba3 des Blancs.\n\n12 Ba3\n\n12...Bf8\n\nLe fou noir de g7 est le moins actif des deux, car pour le moment il ne fait que regarder le pion e5, tandis que le fou de b7 exerce une pression sur la position blanche. Les Noirs sont donc tout à fait heureux d'échanger les fous des cases noires.\n\n13 Bxf8\n\nLes Blancs n'ont rien de mieux que d'échanger.\n\n13...Nxf8\n\nGrâce à l'ouverture terne des Blancs, les Noirs ont égalisé – en effet, si c'était le trait aux Noirs ils pourraient jouer ...Ne6, en route vers d4, et prétendre être légèrement mieux grâce à leur fou plus actif. Cependant, c'est aux Blancs de jouer et ils ont le temps d'empêcher la manœuvre du cavalier noir.\n\n14 Nc4\n\nLe cavalier blanc se dirige vers une case plus active, exerçant une pression sur e5 et préparant une action à l'aile dame avec a5.\n\n14...Ne6?\n\nLes Noirs croient pouvoir jouer ce coup thématique malgré l'attaque blanche sur e5. Cependant, il semble probable que ce coup reposait sur une erreur tactique des Noirs.\n\nUn développement simple par 14...Qe7 et ...Rad8 laisserait la partie égale.\n\n15 Re1?\n\nLes Blancs prennent les Noirs au mot et répondent en soutenant leur pion e4. Cependant, s'ils avaient simplement pris le pion, les Noirs auraient peiné à trouver une compensation : 15 Nxe5 ! et maintenant :\n\n1) 15...Nc5 16 Ng4 ! Nxg4 17 Qxg4 Qd2 18 Nd5 et les Noirs n'ont pas assez pour le pion ; par exemple, après 18...Bxd5 19 exd5 Qxc2 20 d6 Rad8 21 dxc7 Rc8 22 Rae1 Ne6 23 Bd5 les Noirs ne peuvent pas récupérer leur pion par 23...Nxc7 à cause de 24 Rc1 et 25 Bb7.\n\n2) 15...Qd4 (d'après les notes de Sax, c'était sa réponse prévue, mais elle se heurte à une réplique tactique) 16 Nd5 ! (le seul autre coup est 16 Qxd4, mais alors 16...Nxd4 17 Nf3 Nxf3+ 18 Bxf3 Nxe4 mène à une égalité totale) 16...Nxd5 (les Noirs n'ont pas de réponse vraiment satisfaisante, puisque 16...Qxe5 perd sur 17 f4 Qb2 18 Rb1) 17 exd5 Qxe5 18 dxe6 Rad8 (c'est relativement la meilleure chance, car les Noirs obtiennent un peu de compensation pour le pion) 19 exf7+ Kxf7 20 Qg4 Bxg2 21 Kxg2 Qc3 22 Rad1 Rxd1 23 Qxd1 et les Blancs ont consolidé leur pion de plus, bien qu'au vu de la position passive de leurs pièces il ne soit pas certain qu'ils puissent gagner.\n\n15...Qd4\n\nOu 15...Nd4 16 Nb5 a6 17 Nxd4 Qxd4 18 Qxd4 exd4 19 e5 Bxg2 20 Kxg2 Nd5 21 Rad1 c5 avec une finale égale.\n\nLe coup du texte est plus ambitieux mais quelque peu à double tranchant.\n\n16 Nd5\n\n16 Qf3 Kg7 17 Rad1 Qc5 est bien pour les Noirs, si bien que le coup du texte est le seul à les inquiéter.\n\n16...Kg7\n\nIl paraît risqué de permettre au roi d'être attiré en f6, mais en fait les Blancs ne peuvent pas en profiter. 16...Nd7 est inférieur car 17 c3 Qxd1 18 Rexd1 Rad8 19 b4 donne aux Blancs la meilleure finale – leurs cavaliers occupent des cases actives et les Blancs ont gagné beaucoup d'espace à l'aile dame.\n\n17 Qf3\n\nOu 17 Nxf6 Kxf6 18 Qf3+ Kg7 19 Rad1 Qc5 20 Rd7 (si les Blancs ne font rien d'actif les Noirs occuperont simplement d4 avec leur cavalier) 20...Re7 21 Rxe7 (21 Nxe5 perd du matériel après 21...Ng5 22 Qf4 Rxe5 23 h4 Bc8) 21...Qxe7 et les Noirs sont en sécurité car les Blancs ne peuvent pas prendre le pion e : 22 Nxe5 ? Nd4 23 Qf4 g5 et les Noirs gagnent une pièce.\n\nLa liquidation par 17 Qxd4 Nxd4 18 Nxc7 Nxc2 19 Nxe8+ Rxe8 20 Nd6 Re7 21 Rac1 Nxe1 22 Rxe1 Rd7 23 Nxb7 Rxb7 devrait être nulle.\n\n17...Bxd5\n\nCette liquidation force une finale égale.\n\n18 exd5\n\n18 c3 n'est pas mieux, bien qu'il force les Noirs à être précis. Ils peuvent essayer :\n\n1) 18...Ng5 19 Qxf6+ Kxf6 20 cxd4 Bxc4 21 bxc4 est légèrement inconfortable pour les Noirs, car les Blancs prendront en e5 puis activeront leur fou par f4 et e5.\n\n2) 18...Qc5 19 exd5 e4 20 Qe2 Nxd5 21 b4 Qe7 22 Qxe4 Rad8 23 Ne5 est à nouveau malaisé pour les Noirs, en raison de la faiblesse de la case c6. Notons que 23...Nxc3 ?? perd sur 24 Qc4.\n\n3) 18...Bxe4 ! 19 Qxf6+ Kxf6 20 cxd4 Bxg2 21 dxe5+ Ke7 22 Kxg2 Nc5 23 Rab1 Rad8 et, si quelque chose, les Noirs ont un léger avantage car les pions blancs de l'aile dame sont un peu vulnérables.\n\n18...e4\n\n19 Qd1\n\n19 Qe3 est marginalement meilleur. Après 19...Qxd5 (19...Nxd5 20 Qxe4 Qxe4 21 Bxe4 Rad8 22 Kf1 est aussi nulle morte) 20 Bxe4 (20 Rad1 Qh5 est peut-être légèrement plus risqué pour les Blancs car 21 Bxe4 Nxe4 22 Qxe4 Ng5 23 Qd4+ Kg8 favorise les Noirs ; cependant, les Blancs ont probablement assez de compensation pour le pion après 21 Qc3 !) 20...Qxe4 21 Qxe4 Nxe4 22 Rxe4 la position est totalement égale.\n\n19...Nxd5\n\n19...Qxd5 20 Bxe4 Qxd1 21 Raxd1 Nxe4 22 Rxe4 Rad8 est complètement égal. Le coup du texte est meilleur car il donne aux Blancs plus de chances de se tromper.\n\n20 Bxe4\n\nLes Blancs ont d'autres possibilités, mais il est difficile d'empêcher les Noirs de conserver un avantage microscopique :\n\n1) 20 Qxd4+ Nxd4 21 Bxe4 Rad8 est plus clairement défavorable aux Blancs, p.ex. 22 Bxd5 Rxe1+ 23 Rxe1 Rxd5 24 Re7 Rc5 et les Noirs sont nettement mieux.\n\n2) 20 Rxe4 Qxd1+ 21 Rxd1 Nc3 22 Ree1 Rad8 23 Rxd8 Rxd8 est peut-être fractionnellement meilleur pour les Noirs car leurs cavaliers sont assez activement placés.\n\n20...Rad8\n\nLes Noirs espèrent inciter les Blancs à échanger en d4, amenant leur cavalier sur une bonne case avec gain de temps.\n\n21 Bxd5\n\n21 Qxd4+ Nxd4 transpose dans la ligne « 1 » de la note au 20e coup des Blancs.\n\n21...Qxd5\n\n21...Rxd5 22 Qxd4+ Rxd4 23 a5 b5 24 Ne5 n'offre aucune chance aux Noirs.\n\n22 Qxd5\n\n22...Rxd5\n\n23 Rad1\n\nAvec la tour en d5, 23 a5 b5 24 Ne5 ? est impossible à cause de 24...Nd4, quand les Noirs gagnent. Par conséquent, les Blancs échangent simplement une paire de tours.\n\n23...Red8\n\n24 Rxd5\n\n24...Rxd5\n\nIl est temps de faire le point. Après un coup d'œil rapide à la position, la plupart des joueurs l'évalueraient comme « nulle morte ». Il est certes vrai que la position est nulle, mais elle n'est peut-être pas entièrement morte. En fait, il ne faut pas beaucoup d'imprécisions des Blancs pour donner aux Noirs des chances concrètes de gain. Le principal problème des Blancs est le léger affaiblissement de leurs pions de l'aile dame créé par b3 et surtout a4. Si le cavalier noir s'installe en d4, alors il sera difficile de l'expulser, car la poussée naturelle de pion c3 laissera le pion b3 en prise. Un autre facteur qui favorise légèrement les Noirs est que leur tour est mieux placée. Elle occupe une colonne ouverte qui est encore assez éloignée des rois. Après ...Kf6 les Noirs peuvent bouger leur cavalier sans s'inquiéter de Re7, tandis que les Blancs n'ont pas de manœuvre correspondante pour libérer leur propre cavalier.\n\nÉvidemment, ces avantages sont très légers et à ce stade la partie reste bien dans les limites d'une nulle. Cependant, l'histoire des échecs est pleine de cas où un jeu sans plan a perdu des positions « nulle morte ». Ce qui est peut-être surprenant, c'est que c'est le virtuose de la finale Smyslov qui glisse progressivement vers une position perdue. S'il y a une leçon à en tirer, c'est que même des finales simplifiées peuvent être assez délicates, et qu'on ne devrait pas relâcher sa concentration un seul instant, même quand une défaite semble hors de question.\n\n25 Kg2\n\nLa première petite inexactitude. 25 Kf1 était plus précis, car après 25...Kf6 26 Ne3 Rd2 les Blancs peuvent continuer 27 Re2. Alors l'échange des tours ne donne rien du tout aux Noirs, tandis qu'après 27...Rd8 28 Ng4+ Kg7 29 Ne5 il est difficile de voir comment les Noirs peuvent progresser car 29...Nd4 30 Rd2 Kf6 31 Nf3 c5 est totalement égal.\n\n25...Kf6\n\nLes Noirs peuvent peut-être exercer un certain degré de pression avec leur tour et leur cavalier, mais comme si souvent en finale, c'est l'activité du roi qui est le facteur décisif. Pour le moment, le roi noir n'est guère plus actif que le roi blanc, mais si les tours sont échangées alors il y a un danger que le roi noir puisse foncer vers les pions blancs de l'aile dame. Le principal problème ici est le coup b3, qui laisse la case c3 mûre pour l'occupation par le roi adverse.\n\n26 Ne3?\n\nLorsqu'on se trouve dans une position légèrement inférieure, on fait souvent face à un choix délicat : vaut-il mieux simplement attendre, ou faut-il prendre une action positive ? Le danger d'attendre est que l'adversaire trouvera quelque moyen d'améliorer progressivement sa position, si bien qu'au bout du compte on est forcé d'agir de toute façon, mais dans des circonstances moins favorables que si cette décision avait été prise tout de suite. D'un autre côté, agir peut simplement créer de nouvelles faiblesses et donner à l'adversaire des options qui n'existaient pas auparavant.\n\nCe type de décision a souvent des conséquences lointaines, car dans les deux cas il peut être difficile de basculer vers un plan alternatif plus tard. Du point de vue psychologique, il est presque toujours plus facile d'agir, mais on devrait s'assurer qu'une telle décision s'appuie sur une évaluation objective de la position.\n\nDans ce cas, Smyslov décide de permettre à la tour noire d'entrer sur la deuxième rangée blanche. Il est vrai que les Blancs peuvent toujours échanger cette tour en jouant Rd1, mais cela mène au type de position mentionné plus haut, où les Noirs peuvent jouer à attaquer les pions blancs de l'aile dame avec leur roi. En fait, je pense que ce n'était pas la bonne décision. Les Blancs auraient pu corriger leur coup précédent imprécis avec 26 Kf1, ou simplement attendre puisque les Noirs n'ont pas de menaces concrètes.\n\nNotons que le plan actif alternatif 26 Kf3 échoue aussi à égaliser car 26...Rd8 (26...Nd4+ serait mauvais car après 27 Ke4 Nxc2 28 Kxd5 Nxe1 29 Kc6 les Blancs ont un roi bien plus actif et ne sont certainement pas moins bien) 27 Rc1 Nd4+ 28 Ke4 a5 donne un avantage aux Noirs ; par exemple, 29 Rd1 Re8+ 30 Kd3 Nf3 et maintenant c'est la faiblesse créée par g3 qui donne aux Noirs l'occasion d'attaquer les pions blancs.\n\n26...Rd2\n\nLa tour exerce une pression considérable depuis ici, et le seul moyen de s'en débarrasser est d'offrir l'échange des tours par Rd1.\n\n27 Ng4+?\n\nLes Blancs font face à un choix désagréable puisqu'ils ne peuvent plus égaliser :\n\n1) 27 Rd1 Rxd1 28 Nxd1 Nd4 29 Ne3 Ke5 30 f3 (sinon ...Ke4, après quoi il n'y aura plus moyen de déloger les pièces noires) 30...Kd6 31 Kf2 Kc5 32 f4 Kb4 avec le même type de position que dans la partie.\n\n2) 27 Rc1 peut être relativement la meilleure chance, visant à expulser la tour par Nc4. Après 27...Nd4 28 Nd5+ Ke5 29 Nxc7 Nxc2 30 Nb5 a6 31 Nc3 Nb4 (pas 31...Kd4 ? 32 Nb1 Re2 33 Kf1), cependant, les Noirs conservent un certain avantage.\n\n27...Ke7\n\nLe roi noir a été chassé de f6, mais se dirige maintenant vers l'aile dame et une pénétration via c5 et b4.\n\n28 Ne3\n\nForcé.\n\n28...Kd7\n\nCe n'est clairement pas une position où les Blancs peuvent attendre, car les Noirs menacent d'avancer leur roi via le réseau de cases noires faibles à l'aile dame. Par conséquent, les Blancs décident d'échanger la tour intruse.\n\n29 Rd1\n\n29 Rc1 Nd4 laisse les Blancs pratiquement paralysés.\n\n29...Rxd1\n\n30 Nxd1\n\n30...Nd4\n\n31 Ne3\n\nLe cavalier noir est étonnamment efficace puisqu'il immobilise le cavalier blanc et fige les pions blancs de l'aile dame. Il est aussi extrêmement difficile à chasser car même l'option Kf1-e1-d2 n'est pas immédiatement disponible, car cela coûterait aux Blancs leur pion h après ...Nf3+. Il est curieux de voir comment les coups de pion des Blancs conspirent contre eux pour empêcher tout contrejeu.\n\n31...Kd6\n\nEn route vers c3.\n\n32 h4\n\nLes Blancs doivent d'abord déplacer leur pion h avant de pouvoir jouer leur roi en f1 et e1.\n\n32...Kc5\n\n33 Kf1\n\n33...Kb4\n\n34 Ke1\n\n34 Nd5+ Ka3 35 Nxc7 Nxc2 36 Nb5+ Kxb3 37 Nxa7 Kxa4 est sans espoir pour les Blancs. En plus du pion passé éloigné supplémentaire, le roi noir est très actif et le cavalier blanc est hors-jeu.\n\n34...Kc3\n\nLe roi s'installe sur sa case cible. Les Blancs peuvent se défendre contre cette attaque immédiate, mais leurs forces sont gravement liées dans le processus. Cela donne aux Noirs le temps de lancer un assaut contre la structure de pions blanche à l'aile roi par ...f5-f4 ; lorsque les Noirs auront créé une nouvelle faiblesse à l'aile roi, leur roi sera bien placé pour basculer de l'autre côté et profiter des nouvelles possibilités de ce côté de l'échiquier.\n\n35 Kd1\n\nLes Blancs espèrent encore expulser le roi noir par Kc1 suivi d'un échec de cavalier.\n\n35...c6\n\nLes Noirs écartent l'échec le plus dangereux en d5. 35...Kb2 ? est tout à fait mauvais car après 36 Kd2 le roi blanc devient actif.\n\n36 Kc1\n\nLes Blancs menacent même maintenant de gagner par 37 Nd1+ et 38 c3+, si bien que les Noirs sont forcés de déplacer leur cavalier, ce qui libère à son tour le cavalier blanc. Les Noirs ont évidemment un grand avantage mais il n'y a pas encore de gain forcé.\n\n36...Nf3\n\nCette position pourrait servir de leçon concrète sur la faiblesse de la structure de fianchetto une fois que le fou a disparu. Les coups b3 et g3 ont créé des faiblesses qui sont occupées par les deux pièces restantes des Noirs. Je reconnais que les Noirs ont aussi fianchetté leurs deux fous, mais comme je l'ai mentionné plus tôt, les faiblesses ne sont significatives que si elles peuvent être exploitées. Grâce aux pièces actives des Noirs, en particulier leur roi, les faiblesses blanches sont sérieuses tandis que celles des Noirs ne jouent aucun rôle dans la partie.\n\n37 Nc4?!\n\nAprès cette défense passive, les Noirs gagnent sans difficulté. 37 Nd1+ était un meilleur essai, et après 37...Kd4 les Blancs peuvent continuer :\n\n1) 38 Kb2 f5 (visant ...f4 et ...fxg3 pour créer une nouvelle faiblesse en g3) 39 Ne3 (simplement attendre par 39 Kc1 n'aide pas ; les Noirs gagnent par 39...f4 40 Kb2 h5 41 Kc1 fxg3 42 fxg3 g5 43 hxg5 Nxg5 44 Nf2 Ne4 et le pion g3 tombe) 39...f4 40 Ng4 (40 Nd1 transpose à la parenthèse précédente) 40...h5 41 Nf6 Ke5 42 Nd7+ Kf5 43 Nf8 (43 Nb8 fxg3 44 fxg3 Ne5) 43...g5 44 hxg5 Nxg5, suivi de ...Ne4, avec une position gagnante pour les Noirs.\n\n2) 38 Ne3 ! est la défense la plus résistante. Les Noirs ont alors une gamme d'idées prometteuses, mais pas de gain forcé. 38...b5 est une possibilité ; alors 39 a5 Kc3 suivi de ...Kb4 devrait gagner un pion, tandis que permettre ...bxa4 laisse le pion a4 faible. Ainsi 39 axb5 cxb5 40 Kb2 a5 41 Nd1 est le mieux, avec Nc3 à venir. L'alternative est 38...f5 39 h5 (ceci n'était pas disponible après 38 Kb2) 39...Ke4 40 hxg6 hxg6 quand 41 Kd1 ou 41 Nc4 donne aux Blancs de minces chances de nulle, bien que les Noirs conservent un grand avantage.\n\n37...f5\n\nDans cette position les Blancs ne peuvent pas contrer le plan des Noirs d'affaiblir les pions blancs de l'aile roi par ...f4 et ...fxg3.\n\n38 Nb2\n\n38 Ne3 f4 39 Nd1+ Kd4 transpose dans une variante donnée dans la note « 1 » au 37e coup des Blancs qui est perdante pour les Blancs.\n\n38...f4\n\n39 Nc4\n\nCe coup coûte un pion, mais les alternatives n'étaient pas meilleures. 39 Nd3 perd aussi un pion, sur 39...fxg3 40 fxg3 Nd4, tandis que 39 Nd1+ Kd4 transpose comme dans la note précédente.\n\n39...Nd4\n\nMaintenant les menaces jumelles de ...Nxc2 et ...fxg3 suivi de ...Ne2+ ramassent un pion.\n\n40 Ne5\n\nLes Blancs essaient au moins d'activer leur cavalier. 40 a5 b5 41 Ne5 fxg3 42 fxg3 a6 est sans espoir pour les Blancs.\n\n40...fxg3\n\n41 fxg3\n\n41...c5\n\nÉloignant le pion c de l'attaque et empochant le pion c2.\n\n42 a5\n\nLes Blancs essaient d'échanger autant de pions que possible.\n\n42...Nxc2\n\n42...bxa5 43 Nd7 Nxc2 44 Nxc5 Nd4 est aussi décisif.\n\n43 axb6\n\n43...axb6\n\n44 Nd7\n\nBien que les Blancs échangent résolument des pions, ils ne peuvent pas sauver la partie. Ce n'est pas seulement le fait que les Noirs aient un pion de plus qui décide ; c'est aussi l'avantage persistant conféré par l'excellente position de leur roi qui rend la tâche technique simple.\n\n44...Nd4\n\n45 Nxb6\n\n45...Ne2+\n\n45...Nxb3+ 46 Kd1 Nd4 est encore plus facile, p.ex. 47 Na4+ Kb4 48 Nb2 c4 ou 47 Nd7 c4 48 Nf8 Kb2.\n\n46 Kd1\n\n46...Nxg3\n\nAinsi les Noirs se retrouvent avec un pion de plus à l'aile roi au lieu de l'aile dame, mais cela ne change rien au résultat.\n\n47 Nd7\n\n47...Kb4\n\n47...Nf5 est rencontré par 48 h5.\n\n48 Kc2\n\n48 Nf8 Kxb3 49 Nxh7 c4 promeut le pion, si bien que les Blancs doivent défendre b3.\n\n48...Nf5\n\n49 Nf8\n\n49...Nxh4\n\nLes Noirs doivent encore prendre quelques précautions ; par exemple, 49...Nd4+ 50 Kb2 Nxb3 ? permet aux Blancs de s'échapper par 51 Nxh7 c4 52 Nf8 c3+ 53 Kb1 ! Nd4 54 Nxg6 Kb3 55 Nf4, quand le cavalier revient juste à temps.\n\n50 Nxh7\n\n50...Nf5\n\nVisant le dernier pion des Blancs.\n\n51 Nf6\n\nAprès 51 Nf8 g5 le pion s'envole.\n\n51...Nd4+\n\n52 Kd3\n\nOu 52 Kb2 Nxb3 53 Nd5+ Kc4 54 Ne3+ (54 Nb6+ Kb5 conserve aussi les deux pions noirs) 54...Kd3 55 Ng4 (55 Nd5 perd sur 55...c4 56 Nf4+ Kd2) 55...Na5 ! (pas 55...c4 ?? 56 Ne5+, faisant nulle) 56 Ne5+ Kd2 57 Nxg6 c4 et les Blancs ne peuvent pas arrêter le pion.\n\n52...Kxb3\n\nAvec deux pions de plus, il n'y a bien sûr aucun espoir pour les Blancs.\n\n53 Nd7\n\nAprès 53 Ke4 Nc6 54 Kd5 le gain le plus simple est 54...c4 55 Ne4 c3 56 Nc5+ Kb4 57 Nd3+ Kb5 58 Nc1 c2.\n\n53...Ne6\n\n54 Ne5\n\n54...g5\n\n0-1\n\nLes Blancs ne peuvent pas arrêter les deux pions.\n\nDans cette partie, le roi noir actif, couplé aux légères faiblesses de pions des Blancs des deux côtés de l'échiquier, s'est avéré trop fort pour les Blancs. Curieusement, les Blancs semblaient presque inconscients du danger jusqu'à ce qu'il soit trop tard. Néanmoins, les Noirs ont très bien joué la finale pour tirer le maximum de leurs chances.\n\nLes leçons ici sont :\n\n1) Prenez garde dans les positions « nulle morte » ; il ne faut que quelques erreurs pour que la position soit « morte » plutôt que « nulle ».\n\n2) En finale, un roi actif peut être un avantage décisif à lui seul.\n\n3) Le danger posé par un roi actif est accru s'il y a des faiblesses de pions dans la position adverse.\n\n4) Je ne peux que répéter la leçon de la Partie 22 : si votre adversaire offre un pion, cela vaut la peine d'examiner de près la prise – un vague « cela a l'air un peu risqué » ne suffit pas.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Le roi actif\n\nAu milieu de jeu, le roi est mieux tenu à l'abri derrière un rempart de pions, mais à mesure que la finale approche et que les deux armées s'éclaircissent, le roi devient un facteur de plus en plus important. Lorsqu'il n'y a plus de danger d'être maté (et vous devez en être sûr !), le roi peut sortir de son abri et prendre une part active aux opérations – en fait il le doit, car en finale le roi représente une fraction significative de son armée, et on ne peut le gaspiller.\n\nLe roi est particulièrement efficace s'il peut pénétrer parmi les pions adverses. Une chaîne de pions peut être dévorée par un roi déchaîné en quelques coups seulement, si bien qu'un roi actif peut poser un sérieux danger. Même si le roi ne peut réellement envahir la position adverse, la menace de le faire peut immobiliser l'une des pièces adverses et ainsi procurer un avantage exploitable par d'autres moyens.\n\nDans cette partie la position est pratiquement symétrique à un facteur près – le roi noir est plus actif que le roi blanc. Cet avantage s'avère décisif.\n\nV. Smyslov – G. Sax\n\nTilburg 1979\n\nDéfense Pirc, variante du fianchetto"
+    },
+    {
+      "ply": 1,
+      "san": "Nf3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "Nf6",
+      "text": "Pour les commentaires sur les coups jusqu'ici, voir la Partie 11.",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "g3",
+      "text": "C'est l'un des coups les plus flexibles disponibles dans cette position. Le but des Blancs est simplement d'achever leur développement à l'aile roi par Bg2 et 0-0, tout en conservant toutes leurs options au centre.",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "g6",
+      "text": "Les Noirs sont prêts à maintenir la symétrie pour le moment. Nous avons déjà vu des ouvertures symétriques dans les Parties 17 et 27 et, comme mentionné dans ces parties, le principal problème des Noirs est de décider quand briser la symétrie, car la maintenir trop longtemps peut s'avérer dangereux.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "Bg2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "Bg7",
+      "text": "4 0-0",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "O-O",
+      "text": "Les deux camps ont achevé leur développement de base à l'aile roi ; c'est donc aux Blancs qu'incombe la responsabilité de jouer le premier coup engageant au centre.",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "d4",
+      "text": "Nous avons maintenant transposé dans la Partie 27.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "d6",
+      "text": "Tout comme Shirov, Sax décide de briser la symétrie en n'avançant son pion d que d'une case.",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "Nc3",
+      "text": "Lautier a joué 6 c4, transposant dans la défense indienne du roi, mais Smyslov préfère une voie différente et inhabituelle. Le coup du texte vise à établir un centre « à deux de front » en jouant e4. Les Noirs peuvent hésiter à empêcher cela par ...d5, car cela implique de perdre un tempo. Si les Blancs parviennent à jouer e4, le résultat sera une transposition dans la défense Pirc (1 e4 d6). Le problème de cette stratégie est que la ligne de la Pirc qui en découle n'est pas considérée comme particulièrement favorable aux Blancs.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "Nbd7",
+      "text": "C'est la réponse la plus naturelle au plan des Blancs ; les Noirs préparent leur propre contre-action au centre avec ...e5.\n\nMalgré la perte de tempo, 6...d5 est une alternative jouable. Elle empêche e4, et maintenant que le cavalier blanc est en c3, il ne peut pas facilement jouer c4. Ainsi les Blancs ont peu de jeu dynamique au centre, si bien que les Noirs ont peu de problèmes à achever leur développement avec une partie satisfaisante.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "e4",
+      "text": "Les Blancs poursuivent leur plan.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "e5",
+      "text": "Trait aux Blancs\n\nCette position peut aussi naître via l'ordre de coups 1 e4 d6 2 d4 Nf6 3 Nc3 g6 4 g3 Bg7 5 Bg2 0-0 6 Nf3 Nbd7 7 0-0 e5. Jouer g3 contre la défense Pirc est un système parfaitement respectable, mais le développement du fou en g2 est presque invariablement associé à Nge2 plutôt qu'à Nf3. La raison en est assez évidente : en e2 le cavalier ne bloque pas le fou de g2 et les Blancs conservent ainsi une pression considérable sur d5. La combinaison de g3 et Nf3 n'est pas gênante pour les Noirs.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "dxe5",
+      "text": "De nombreuses ouvertures donnent naissance à une structure de pions centrale avec d4, e4 contre d6, e5 – l'exemple le plus connu est peut-être l'Espagnole fermée. Ce type de structure confère intrinsèquement un léger avantage aux Blancs, pourvu qu'ils puissent maintenir leur centre de pions « à deux de front ». La raison est que les Blancs conservent plus d'options au centre que les Noirs – ils peuvent jouer dxe5, ou fermer le centre avec d5, ou simplement laisser les pions où ils sont. Les Noirs doivent tenir compte de ces options à chaque coup, et cela restreint souvent leurs propres possibilités.\n\nLe jeu central des Noirs est plus limité. Ils peuvent, bien sûr, jouer ...exd4 mais cela abandonne leur principal point d'appui au centre et laisse aux Blancs un avantage d'espace. Les Noirs aimeraient jouer ...d5, mais ce n'est généralement pas possible pour des raisons tactiques (cela perd souvent un pion).\n\nCes considérations sont assez générales et peuvent être contredites par la situation particulière sur l'échiquier, mais le principe de base est clair – les Blancs ont intérêt à maintenir leur centre de pions tel quel, à moins de pouvoir obtenir un avantage précis en clarifiant la situation. En effet, dans l'Espagnole fermée les Noirs se donnent souvent beaucoup de mal pour exercer une pression contre e4 (voir la Partie 7) afin de forcer les Blancs à s'engager au centre. Dans la position actuelle, il n'y a pas de réelle raison pour les Blancs d'échanger si vite en e5. Cela relâche la tension au centre et mène à une structure de pions symétrique n'offrant aux Blancs que des chances minimales d'avantage. Il aurait été préférable pour les Blancs d'améliorer leur position tout en laissant le centre fluide. Plusieurs coups étaient possibles ; par exemple, 8 Re1 soutenant le centre, 8 h3 préparant Be3 et 8 a4 gagnant de l'espace à l'aile dame.",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "dxe5",
+      "text": "Maintenant que la structure de pions est symétrique, la seule prétention des Blancs à un avantage est le léger avance de développement qu'ils possèdent en vertu d'avoir les Blancs.",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "b3",
+      "text": "Dans le but de développer le fou en a3. Bien que cela puisse causer aux Noirs quelque inconvénient temporaire, à long terme il y a un danger que les Noirs échangent les fous des cases noires par ...Bf8, ne laissant aux Blancs que le fou inactif en g2.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "b6",
+      "text": "Un plan combatif. Les Noirs ont l'intention de ...Bb7 pour exercer une pression contre e4, exploitant le fait que le fou de g2 ne défend pas ce pion. Il est aussi possible pour les Noirs de continuer 9...Re8 10 Ba3 Bf8, avec une position à peu près égale.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "a4",
+      "text": "Les Blancs visent à gagner de l'espace à l'aile dame, mais ce plan n'aboutit à rien et pousser le pion a consomme un précieux tempo de développement. 10 Ba3 Re8 11 Qe2 aurait été une suite plus logique au jeu précédent des Blancs. Après 11...Bf8 12 Bxf8 Nxf8 13 Rad1 Qe7 14 Nd5 Nxd5 15 exd5 e4 16 Nd4, les Blancs peuvent encore avoir un léger avantage.",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "Bb7",
+      "text": "Forçant les Blancs à s'occuper du pion e4.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "Nd2",
+      "text": "Cela active le fou de g2, mais les Blancs ont perdu du temps en déplaçant deux fois leur cavalier roi.",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "Re8",
+      "text": "Anticipant Ba3 des Blancs.",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "Ba3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "Bf8",
+      "text": "Trait aux Blancs\n\nLe fou noir de g7 est le moins actif des deux, car pour le moment il ne fait que regarder le pion e5, tandis que le fou de b7 exerce une pression sur la position blanche. Les Noirs sont donc tout à fait heureux d'échanger les fous des cases noires.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Bxf8",
+      "text": "Les Blancs n'ont rien de mieux que d'échanger.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "Nxf8",
+      "text": "Grâce à l'ouverture terne des Blancs, les Noirs ont égalisé – en effet, si c'était le trait aux Noirs ils pourraient jouer ...Ne6, en route vers d4, et prétendre être légèrement mieux grâce à leur fou plus actif. Cependant, c'est aux Blancs de jouer et ils ont le temps d'empêcher la manœuvre du cavalier noir.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Nc4",
+      "text": "Le cavalier blanc se dirige vers une case plus active, exerçant une pression sur e5 et préparant une action à l'aile dame avec a5.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "Ne6",
+      "text": "Les Noirs croient pouvoir jouer ce coup thématique malgré l'attaque blanche sur e5. Cependant, il semble probable que ce coup reposait sur une erreur tactique des Noirs.\n\nUn développement simple par 14...Qe7 et ...Rad8 laisserait la partie égale.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Re1",
+      "text": "Les Blancs prennent les Noirs au mot et répondent en soutenant leur pion e4. Cependant, s'ils avaient simplement pris le pion, les Noirs auraient peiné à trouver une compensation : 15 Nxe5 ! et maintenant :\n\n1) 15...Nc5 16 Ng4 ! Nxg4 17 Qxg4 Qd2 18 Nd5 et les Noirs n'ont pas assez pour le pion ; par exemple, après 18...Bxd5 19 exd5 Qxc2 20 d6 Rad8 21 dxc7 Rc8 22 Rae1 Ne6 23 Bd5 les Noirs ne peuvent pas récupérer leur pion par 23...Nxc7 à cause de 24 Rc1 et 25 Bb7.\n\n2) 15...Qd4 (d'après les notes de Sax, c'était sa réponse prévue, mais elle se heurte à une réplique tactique) 16 Nd5 ! (le seul autre coup est 16 Qxd4, mais alors 16...Nxd4 17 Nf3 Nxf3+ 18 Bxf3 Nxe4 mène à une égalité totale) 16...Nxd5 (les Noirs n'ont pas de réponse vraiment satisfaisante, puisque 16...Qxe5 perd sur 17 f4 Qb2 18 Rb1) 17 exd5 Qxe5 18 dxe6 Rad8 (c'est relativement la meilleure chance, car les Noirs obtiennent un peu de compensation pour le pion) 19 exf7+ Kxf7 20 Qg4 Bxg2 21 Kxg2 Qc3 22 Rad1 Rxd1 23 Qxd1 et les Blancs ont consolidé leur pion de plus, bien qu'au vu de la position passive de leurs pièces il ne soit pas certain qu'ils puissent gagner.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "Qd4",
+      "text": "Ou 15...Nd4 16 Nb5 a6 17 Nxd4 Qxd4 18 Qxd4 exd4 19 e5 Bxg2 20 Kxg2 Nd5 21 Rad1 c5 avec une finale égale.\n\nTrait aux Blancs\n\nLe coup du texte est plus ambitieux mais quelque peu à double tranchant.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Nd5",
+      "text": "16 Qf3 Kg7 17 Rad1 Qc5 est bien pour les Noirs, si bien que le coup du texte est le seul à les inquiéter.",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Kg7",
+      "text": "Il paraît risqué de permettre au roi d'être attiré en f6, mais en fait les Blancs ne peuvent pas en profiter. 16...Nd7 est inférieur car 17 c3 Qxd1 18 Rexd1 Rad8 19 b4 donne aux Blancs la meilleure finale – leurs cavaliers occupent des cases actives et les Blancs ont gagné beaucoup d'espace à l'aile dame.",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Qf3",
+      "text": "Ou 17 Nxf6 Kxf6 18 Qf3+ Kg7 19 Rad1 Qc5 20 Rd7 (si les Blancs ne font rien d'actif les Noirs occuperont simplement d4 avec leur cavalier) 20...Re7 21 Rxe7 (21 Nxe5 perd du matériel après 21...Ng5 22 Qf4 Rxe5 23 h4 Bc8) 21...Qxe7 et les Noirs sont en sécurité car les Blancs ne peuvent pas prendre le pion e : 22 Nxe5 ? Nd4 23 Qf4 g5 et les Noirs gagnent une pièce.\n\nLa liquidation par 17 Qxd4 Nxd4 18 Nxc7 Nxc2 19 Nxe8+ Rxe8 20 Nd6 Re7 21 Rac1 Nxe1 22 Rxe1 Rd7 23 Nxb7 Rxb7 devrait être nulle.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Bxd5",
+      "text": "Cette liquidation force une finale égale.",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "exd5",
+      "text": "18 c3 n'est pas mieux, bien qu'il force les Noirs à être précis. Ils peuvent essayer :\n\n1) 18...Ng5 19 Qxf6+ Kxf6 20 cxd4 Bxc4 21 bxc4 est légèrement inconfortable pour les Noirs, car les Blancs prendront en e5 puis activeront leur fou par f4 et e5.\n\n2) 18...Qc5 19 exd5 e4 20 Qe2 Nxd5 21 b4 Qe7 22 Qxe4 Rad8 23 Ne5 est à nouveau malaisé pour les Noirs, en raison de la faiblesse de la case c6. Notons que 23...Nxc3 ?? perd sur 24 Qc4.\n\n3) 18...Bxe4 ! 19 Qxf6+ Kxf6 20 cxd4 Bxg2 21 dxe5+ Ke7 22 Kxg2 Nc5 23 Rab1 Rad8 et, si quelque chose, les Noirs ont un léger avantage car les pions blancs de l'aile dame sont un peu vulnérables.",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "e4",
+      "text": "Trait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "Qd1",
+      "text": "19 Qe3 est marginalement meilleur. Après 19...Qxd5 (19...Nxd5 20 Qxe4 Qxe4 21 Bxe4 Rad8 22 Kf1 est aussi nulle morte) 20 Bxe4 (20 Rad1 Qh5 est peut-être légèrement plus risqué pour les Blancs car 21 Bxe4 Nxe4 22 Qxe4 Ng5 23 Qd4+ Kg8 favorise les Noirs ; cependant, les Blancs ont probablement assez de compensation pour le pion après 21 Qc3 !) 20...Qxe4 21 Qxe4 Nxe4 22 Rxe4 la position est totalement égale.",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "Nxd5",
+      "text": "19...Qxd5 20 Bxe4 Qxd1 21 Raxd1 Nxe4 22 Rxe4 Rad8 est complètement égal. Le coup du texte est meilleur car il donne aux Blancs plus de chances de se tromper.",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "Bxe4",
+      "text": "Les Blancs ont d'autres possibilités, mais il est difficile d'empêcher les Noirs de conserver un avantage microscopique :\n\n1) 20 Qxd4+ Nxd4 21 Bxe4 Rad8 est plus clairement défavorable aux Blancs, p.ex. 22 Bxd5 Rxe1+ 23 Rxe1 Rxd5 24 Re7 Rc5 et les Noirs sont nettement mieux.\n\n2) 20 Rxe4 Qxd1+ 21 Rxd1 Nc3 22 Ree1 Rad8 23 Rxd8 Rxd8 est peut-être fractionnellement meilleur pour les Noirs car leurs cavaliers sont assez activement placés.",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "Rad8",
+      "text": "Les Noirs espèrent inciter les Blancs à échanger en d4, amenant leur cavalier sur une bonne case avec gain de temps.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "Bxd5",
+      "text": "21 Qxd4+ Nxd4 transpose dans la ligne « 1 » de la note au 20e coup des Blancs.",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "Qxd5",
+      "text": "21...Rxd5 22 Qxd4+ Rxd4 23 a5 b5 24 Ne5 n'offre aucune chance aux Noirs.",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "Qxd5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "Rxd5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "Rad1",
+      "text": "Avec la tour en d5, 23 a5 b5 24 Ne5 ? est impossible à cause de 24...Nd4, quand les Noirs gagnent. Par conséquent, les Blancs échangent simplement une paire de tours.",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "Red8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "Rxd5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 48,
+      "san": "Rxd5",
+      "text": "Trait aux Blancs\n\nIl est temps de faire le point. Après un coup d'œil rapide à la position, la plupart des joueurs l'évalueraient comme « nulle morte ». Il est certes vrai que la position est nulle, mais elle n'est peut-être pas entièrement morte. En fait, il ne faut pas beaucoup d'imprécisions des Blancs pour donner aux Noirs des chances concrètes de gain. Le principal problème des Blancs est le léger affaiblissement de leurs pions de l'aile dame créé par b3 et surtout a4. Si le cavalier noir s'installe en d4, alors il sera difficile de l'expulser, car la poussée naturelle de pion c3 laissera le pion b3 en prise. Un autre facteur qui favorise légèrement les Noirs est que leur tour est mieux placée. Elle occupe une colonne ouverte qui est encore assez éloignée des rois. Après ...Kf6 les Noirs peuvent bouger leur cavalier sans s'inquiéter de Re7, tandis que les Blancs n'ont pas de manœuvre correspondante pour libérer leur propre cavalier.\n\nÉvidemment, ces avantages sont très légers et à ce stade la partie reste bien dans les limites d'une nulle. Cependant, l'histoire des échecs est pleine de cas où un jeu sans plan a perdu des positions « nulle morte ». Ce qui est peut-être surprenant, c'est que c'est le virtuose de la finale Smyslov qui glisse progressivement vers une position perdue. S'il y a une leçon à en tirer, c'est que même des finales simplifiées peuvent être assez délicates, et qu'on ne devrait pas relâcher sa concentration un seul instant, même quand une défaite semble hors de question.",
+      "isCritical": true
+    },
+    {
+      "ply": 49,
+      "san": "Kg2",
+      "text": "La première petite inexactitude. 25 Kf1 était plus précis, car après 25...Kf6 26 Ne3 Rd2 les Blancs peuvent continuer 27 Re2. Alors l'échange des tours ne donne rien du tout aux Noirs, tandis qu'après 27...Rd8 28 Ng4+ Kg7 29 Ne5 il est difficile de voir comment les Noirs peuvent progresser car 29...Nd4 30 Rd2 Kf6 31 Nf3 c5 est totalement égal.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 50,
+      "san": "Kf6",
+      "text": "Les Noirs peuvent peut-être exercer un certain degré de pression avec leur tour et leur cavalier, mais comme si souvent en finale, c'est l'activité du roi qui est le facteur décisif. Pour le moment, le roi noir n'est guère plus actif que le roi blanc, mais si les tours sont échangées alors il y a un danger que le roi noir puisse foncer vers les pions blancs de l'aile dame. Le principal problème ici est le coup b3, qui laisse la case c3 mûre pour l'occupation par le roi adverse.",
+      "isCritical": true
+    },
+    {
+      "ply": 51,
+      "san": "Ne3",
+      "text": "Lorsqu'on se trouve dans une position légèrement inférieure, on fait souvent face à un choix délicat : vaut-il mieux simplement attendre, ou faut-il prendre une action positive ? Le danger d'attendre est que l'adversaire trouvera quelque moyen d'améliorer progressivement sa position, si bien qu'au bout du compte on est forcé d'agir de toute façon, mais dans des circonstances moins favorables que si cette décision avait été prise tout de suite. D'un autre côté, agir peut simplement créer de nouvelles faiblesses et donner à l'adversaire des options qui n'existaient pas auparavant.\n\nCe type de décision a souvent des conséquences lointaines, car dans les deux cas il peut être difficile de basculer vers un plan alternatif plus tard. Du point de vue psychologique, il est presque toujours plus facile d'agir, mais on devrait s'assurer qu'une telle décision s'appuie sur une évaluation objective de la position.\n\nDans ce cas, Smyslov décide de permettre à la tour noire d'entrer sur la deuxième rangée blanche. Il est vrai que les Blancs peuvent toujours échanger cette tour en jouant Rd1, mais cela mène au type de position mentionné plus haut, où les Noirs peuvent jouer à attaquer les pions blancs de l'aile dame avec leur roi. En fait, je pense que ce n'était pas la bonne décision. Les Blancs auraient pu corriger leur coup précédent imprécis avec 26 Kf1, ou simplement attendre puisque les Noirs n'ont pas de menaces concrètes.\n\nNotons que le plan actif alternatif 26 Kf3 échoue aussi à égaliser car 26...Rd8 (26...Nd4+ serait mauvais car après 27 Ke4 Nxc2 28 Kxd5 Nxe1 29 Kc6 les Blancs ont un roi bien plus actif et ne sont certainement pas moins bien) 27 Rc1 Nd4+ 28 Ke4 a5 donne un avantage aux Noirs ; par exemple, 29 Rd1 Re8+ 30 Kd3 Nf3 et maintenant c'est la faiblesse créée par g3 qui donne aux Noirs l'occasion d'attaquer les pions blancs.",
+      "isCritical": true
+    },
+    {
+      "ply": 52,
+      "san": "Rd2",
+      "text": "Trait aux Blancs\n\nLa tour exerce une pression considérable depuis ici, et le seul moyen de s'en débarrasser est d'offrir l'échange des tours par Rd1.",
+      "isCritical": true
+    },
+    {
+      "ply": 53,
+      "san": "Ng4+",
+      "text": "Les Blancs font face à un choix désagréable puisqu'ils ne peuvent plus égaliser :\n\n1) 27 Rd1 Rxd1 28 Nxd1 Nd4 29 Ne3 Ke5 30 f3 (sinon ...Ke4, après quoi il n'y aura plus moyen de déloger les pièces noires) 30...Kd6 31 Kf2 Kc5 32 f4 Kb4 avec le même type de position que dans la partie.\n\n2) 27 Rc1 peut être relativement la meilleure chance, visant à expulser la tour par Nc4. Après 27...Nd4 28 Nd5+ Ke5 29 Nxc7 Nxc2 30 Nb5 a6 31 Nc3 Nb4 (pas 31...Kd4 ? 32 Nb1 Re2 33 Kf1), cependant, les Noirs conservent un certain avantage.",
+      "isCritical": true
+    },
+    {
+      "ply": 54,
+      "san": "Ke7",
+      "text": "Le roi noir a été chassé de f6, mais se dirige maintenant vers l'aile dame et une pénétration via c5 et b4.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 55,
+      "san": "Ne3",
+      "text": "Forcé.",
+      "isCritical": true
+    },
+    {
+      "ply": 56,
+      "san": "Kd7",
+      "text": "Ce n'est clairement pas une position où les Blancs peuvent attendre, car les Noirs menacent d'avancer leur roi via le réseau de cases noires faibles à l'aile dame. Par conséquent, les Blancs décident d'échanger la tour intruse.",
+      "isCritical": true
+    },
+    {
+      "ply": 57,
+      "san": "Rd1",
+      "text": "29 Rc1 Nd4 laisse les Blancs pratiquement paralysés.",
+      "isCritical": true
+    },
+    {
+      "ply": 58,
+      "san": "Rxd1",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 59,
+      "san": "Nxd1",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 60,
+      "san": "Nd4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 61,
+      "san": "Ne3",
+      "text": "Le cavalier noir est étonnamment efficace puisqu'il immobilise le cavalier blanc et fige les pions blancs de l'aile dame. Il est aussi extrêmement difficile à chasser car même l'option Kf1-e1-d2 n'est pas immédiatement disponible, car cela coûterait aux Blancs leur pion h après ...Nf3+. Il est curieux de voir comment les coups de pion des Blancs conspirent contre eux pour empêcher tout contrejeu.",
+      "isCritical": true
+    },
+    {
+      "ply": 62,
+      "san": "Kd6",
+      "text": "En route vers c3.",
+      "isCritical": true
+    },
+    {
+      "ply": 63,
+      "san": "h4",
+      "text": "Les Blancs doivent d'abord déplacer leur pion h avant de pouvoir jouer leur roi en f1 et e1.",
+      "isCritical": true
+    },
+    {
+      "ply": 64,
+      "san": "Kc5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 65,
+      "san": "Kf1",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 66,
+      "san": "Kb4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 67,
+      "san": "Ke1",
+      "text": "34 Nd5+ Ka3 35 Nxc7 Nxc2 36 Nb5+ Kxb3 37 Nxa7 Kxa4 est sans espoir pour les Blancs. En plus du pion passé éloigné supplémentaire, le roi noir est très actif et le cavalier blanc est hors-jeu.",
+      "isCritical": true
+    },
+    {
+      "ply": 68,
+      "san": "Kc3",
+      "text": "Trait aux Blancs\n\nLe roi s'installe sur sa case cible. Les Blancs peuvent se défendre contre cette attaque immédiate, mais leurs forces sont gravement liées dans le processus. Cela donne aux Noirs le temps de lancer un assaut contre la structure de pions blanche à l'aile roi par ...f5-f4 ; lorsque les Noirs auront créé une nouvelle faiblesse à l'aile roi, leur roi sera bien placé pour basculer de l'autre côté et profiter des nouvelles possibilités de ce côté de l'échiquier.",
+      "isCritical": true
+    },
+    {
+      "ply": 69,
+      "san": "Kd1",
+      "text": "Les Blancs espèrent encore expulser le roi noir par Kc1 suivi d'un échec de cavalier.",
+      "isCritical": true
+    },
+    {
+      "ply": 70,
+      "san": "c6",
+      "text": "Les Noirs écartent l'échec le plus dangereux en d5. 35...Kb2 ? est tout à fait mauvais car après 36 Kd2 le roi blanc devient actif.",
+      "isCritical": true
+    },
+    {
+      "ply": 71,
+      "san": "Kc1",
+      "text": "Les Blancs menacent même maintenant de gagner par 37 Nd1+ et 38 c3+, si bien que les Noirs sont forcés de déplacer leur cavalier, ce qui libère à son tour le cavalier blanc. Les Noirs ont évidemment un grand avantage mais il n'y a pas encore de gain forcé.",
+      "isCritical": true
+    },
+    {
+      "ply": 72,
+      "san": "Nf3",
+      "text": "Cette position pourrait servir de leçon concrète sur la faiblesse de la structure de fianchetto une fois que le fou a disparu. Les coups b3 et g3 ont créé des faiblesses qui sont occupées par les deux pièces restantes des Noirs. Je reconnais que les Noirs ont aussi fianchetté leurs deux fous, mais comme je l'ai mentionné plus tôt, les faiblesses ne sont significatives que si elles peuvent être exploitées. Grâce aux pièces actives des Noirs, en particulier leur roi, les faiblesses blanches sont sérieuses tandis que celles des Noirs ne jouent aucun rôle dans la partie.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 73,
+      "san": "Nc4",
+      "text": "Après cette défense passive, les Noirs gagnent sans difficulté. 37 Nd1+ était un meilleur essai, et après 37...Kd4 les Blancs peuvent continuer :\n\n1) 38 Kb2 f5 (visant ...f4 et ...fxg3 pour créer une nouvelle faiblesse en g3) 39 Ne3 (simplement attendre par 39 Kc1 n'aide pas ; les Noirs gagnent par 39...f4 40 Kb2 h5 41 Kc1 fxg3 42 fxg3 g5 43 hxg5 Nxg5 44 Nf2 Ne4 et le pion g3 tombe) 39...f4 40 Ng4 (40 Nd1 transpose à la parenthèse précédente) 40...h5 41 Nf6 Ke5 42 Nd7+ Kf5 43 Nf8 (43 Nb8 fxg3 44 fxg3 Ne5) 43...g5 44 hxg5 Nxg5, suivi de ...Ne4, avec une position gagnante pour les Noirs.\n\n2) 38 Ne3 ! est la défense la plus résistante. Les Noirs ont alors une gamme d'idées prometteuses, mais pas de gain forcé. 38...b5 est une possibilité ; alors 39 a5 Kc3 suivi de ...Kb4 devrait gagner un pion, tandis que permettre ...bxa4 laisse le pion a4 faible. Ainsi 39 axb5 cxb5 40 Kb2 a5 41 Nd1 est le mieux, avec Nc3 à venir. L'alternative est 38...f5 39 h5 (ceci n'était pas disponible après 38 Kb2) 39...Ke4 40 hxg6 hxg6 quand 41 Kd1 ou 41 Nc4 donne aux Blancs de minces chances de nulle, bien que les Noirs conservent un grand avantage.",
+      "isCritical": true
+    },
+    {
+      "ply": 74,
+      "san": "f5",
+      "text": "Trait aux Blancs\n\nDans cette position les Blancs ne peuvent pas contrer le plan des Noirs d'affaiblir les pions blancs de l'aile roi par ...f4 et ...fxg3.",
+      "isCritical": true
+    },
+    {
+      "ply": 75,
+      "san": "Nb2",
+      "text": "38 Ne3 f4 39 Nd1+ Kd4 transpose dans une variante donnée dans la note « 1 » au 37e coup des Blancs qui est perdante pour les Blancs.",
+      "isCritical": true
+    },
+    {
+      "ply": 76,
+      "san": "f4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 77,
+      "san": "Nc4",
+      "text": "Ce coup coûte un pion, mais les alternatives n'étaient pas meilleures. 39 Nd3 perd aussi un pion, sur 39...fxg3 40 fxg3 Nd4, tandis que 39 Nd1+ Kd4 transpose comme dans la note précédente.",
+      "isCritical": true
+    },
+    {
+      "ply": 78,
+      "san": "Nd4",
+      "text": "Maintenant les menaces jumelles de ...Nxc2 et ...fxg3 suivi de ...Ne2+ ramassent un pion.",
+      "isCritical": true
+    },
+    {
+      "ply": 79,
+      "san": "Ne5",
+      "text": "Les Blancs essaient au moins d'activer leur cavalier. 40 a5 b5 41 Ne5 fxg3 42 fxg3 a6 est sans espoir pour les Blancs.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 80,
+      "san": "fxg3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 81,
+      "san": "fxg3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 82,
+      "san": "c5",
+      "text": "Éloignant le pion c de l'attaque et empochant le pion c2.",
+      "isCritical": true
+    },
+    {
+      "ply": 83,
+      "san": "a5",
+      "text": "Les Blancs essaient d'échanger autant de pions que possible.",
+      "isCritical": true
+    },
+    {
+      "ply": 84,
+      "san": "Nxc2",
+      "text": "42...bxa5 43 Nd7 Nxc2 44 Nxc5 Nd4 est aussi décisif.",
+      "isCritical": true
+    },
+    {
+      "ply": 85,
+      "san": "axb6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 86,
+      "san": "axb6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 87,
+      "san": "Nd7",
+      "text": "Bien que les Blancs échangent résolument des pions, ils ne peuvent pas sauver la partie. Ce n'est pas seulement le fait que les Noirs aient un pion de plus qui décide ; c'est aussi l'avantage persistant conféré par l'excellente position de leur roi qui rend la tâche technique simple.",
+      "isCritical": true
+    },
+    {
+      "ply": 88,
+      "san": "Nd4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 89,
+      "san": "Nxb6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 90,
+      "san": "Ne2+",
+      "text": "45...Nxb3+ 46 Kd1 Nd4 est encore plus facile, p.ex. 47 Na4+ Kb4 48 Nb2 c4 ou 47 Nd7 c4 48 Nf8 Kb2.",
+      "isCritical": true
+    },
+    {
+      "ply": 91,
+      "san": "Kd1",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 92,
+      "san": "Nxg3",
+      "text": "Ainsi les Noirs se retrouvent avec un pion de plus à l'aile roi au lieu de l'aile dame, mais cela ne change rien au résultat.",
+      "isCritical": true
+    },
+    {
+      "ply": 93,
+      "san": "Nd7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 94,
+      "san": "Kb4",
+      "text": "47...Nf5 est rencontré par 48 h5.",
+      "isCritical": true
+    },
+    {
+      "ply": 95,
+      "san": "Kc2",
+      "text": "48 Nf8 Kxb3 49 Nxh7 c4 promeut le pion, si bien que les Blancs doivent défendre b3.",
+      "isCritical": true
+    },
+    {
+      "ply": 96,
+      "san": "Nf5",
+      "text": "Trait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 97,
+      "san": "Nf8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 98,
+      "san": "Nxh4",
+      "text": "Les Noirs doivent encore prendre quelques précautions ; par exemple, 49...Nd4+ 50 Kb2 Nxb3 ? permet aux Blancs de s'échapper par 51 Nxh7 c4 52 Nf8 c3+ 53 Kb1 ! Nd4 54 Nxg6 Kb3 55 Nf4, quand le cavalier revient juste à temps.",
+      "isCritical": true
+    },
+    {
+      "ply": 99,
+      "san": "Nxh7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 100,
+      "san": "Nf5",
+      "text": "Visant le dernier pion des Blancs.",
+      "isCritical": true
+    },
+    {
+      "ply": 101,
+      "san": "Nf6",
+      "text": "Après 51 Nf8 g5 le pion s'envole.",
+      "isCritical": true
+    },
+    {
+      "ply": 102,
+      "san": "Nd4+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 103,
+      "san": "Kd3",
+      "text": "Ou 52 Kb2 Nxb3 53 Nd5+ Kc4 54 Ne3+ (54 Nb6+ Kb5 conserve aussi les deux pions noirs) 54...Kd3 55 Ng4 (55 Nd5 perd sur 55...c4 56 Nf4+ Kd2) 55...Na5 ! (pas 55...c4 ?? 56 Ne5+, faisant nulle) 56 Ne5+ Kd2 57 Nxg6 c4 et les Blancs ne peuvent pas arrêter le pion.",
+      "isCritical": true
+    },
+    {
+      "ply": 104,
+      "san": "Kxb3",
+      "text": "Avec deux pions de plus, il n'y a bien sûr aucun espoir pour les Blancs.",
+      "isCritical": true
+    },
+    {
+      "ply": 105,
+      "san": "Nd7",
+      "text": "Après 53 Ke4 Nc6 54 Kd5 le gain le plus simple est 54...c4 55 Ne4 c3 56 Nc5+ Kb4 57 Nd3+ Kb5 58 Nc1 c2.",
+      "isCritical": true
+    },
+    {
+      "ply": 106,
+      "san": "Ne6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 107,
+      "san": "Ne5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 108,
+      "san": "g5",
+      "text": "0-1\n\nLes Blancs ne peuvent pas arrêter les deux pions.\n\nDans cette partie, le roi noir actif, couplé aux légères faiblesses de pions des Blancs des deux côtés de l'échiquier, s'est avéré trop fort pour les Blancs. Curieusement, les Blancs semblaient presque inconscients du danger jusqu'à ce qu'il soit trop tard. Néanmoins, les Noirs ont très bien joué la finale pour tirer le maximum de leurs chances.\n\nLes leçons ici sont :\n\n1) Prenez garde dans les positions « nulle morte » ; il ne faut que quelques erreurs pour que la position soit « morte » plutôt que « nulle ».\n\n2) En finale, un roi actif peut être un avantage décisif à lui seul.\n\n3) Le danger posé par un roi actif est accru s'il y a des faiblesses de pions dans la position adverse.\n\n4) Je ne peux que répéter la leçon de la Partie 22 : si votre adversaire offre un pion, cela vaut la peine d'examiner de près la prise – un vague « cela a l'air un peu risqué » ne suffit pas.",
+      "isCritical": true
+    }
+  ]
+}

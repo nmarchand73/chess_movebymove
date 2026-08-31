@@ -1,0 +1,691 @@
+{
+  "id": "nunn-017",
+  "book": "nunn",
+  "gameNum": 17,
+  "title": "Partie 17 : A. Karpov vs Z. Ribli",
+  "section": "Jeu positionnel",
+  "players": {
+    "white": "A. Karpov",
+    "black": "Z. Ribli"
+  },
+  "event": "Olympiad, Dubai 1986",
+  "opening": "Ouverture anglaise, système Hérisson",
+  "eco": "A30",
+  "pgnPath": "data/pgn/nunn/17.pgn",
+  "result": "1-0",
+  "moveCount": 111,
+  "annotatedMoves": 110,
+  "fullText": "Avantage d'espace\n\nEn général, contrôler davantage d'espace est un avantage. La raison en est qu'il est plus facile de manœuvrer ses pièces dans un espace vaste et ouvert que dans un espace confiné. En particulier, il est plus facile de basculer les pièces d'une zone de l'échiquier à une autre. Ainsi, un avantage d'espace est surtout efficace lorsqu'il y a des faiblesses dans la position adverse, surtout si ces faiblesses sont bien séparées. Le camp qui a plus d'espace peut faire basculer l'attaque d'une faiblesse à l'autre, tandis que son adversaire plus restreint ne peut pas répondre avec la même rapidité.\n\nMalgré ce qui précède, les attitudes envers les avantages d'espace ont changé au cours des dernières décennies. On reconnaît désormais que si le camp qui a moins d'espace dispose d'une position solide, il peut être très difficile d'exploiter l'avantage d'espace. De fait, le camp qui a plus d'espace doit veiller à ne pas se surétendre et devenir vulnérable à une contre-attaque soudaine. Ce principe n'est nulle part plus évident que dans le système d'ouverture du « Hérisson », qui apparaît dans la partie suivante.\n\nA. Karpov – Z. Ribli\n\nOlympiad, Dubai 1986\n\nOuverture anglaise, système Hérisson\n\n1 c4\n\nC'est la première partie du livre à présenter 1 c4, un coup appelé l'ouverture anglaise. Comme l'ouverture Réti, 1 Nf3 (voir la Partie 1), elle sert un but utile sans engager grandement. Jouer c4 revendique un territoire au centre, et empêche les Noirs de jouer immédiatement ...d5, car cela impliquerait l'échange de leur pion d central contre le pion c moins central des Blancs. En même temps, les Blancs laissent leurs pions centraux immobiles pendant qu'ils attendent de voir comment les Noirs entendent répondre.\n\n1...c5\n\nCette réponse symétrique imite la stratégie blanche. Les Noirs disposent d'un large éventail d'alternatives, allant du relativement engageant 1...e5, en passant par 1...e6, 1...c6, 1...d6 et 1...g6, jusqu'aux flexibles 1...Nf6 et 1...c5 (comme joué).\n\n2 Nf3\n\nQuoi qu'il arrive au centre, les cavaliers blancs seront presque certainement mieux placés en c3 et f3, si bien que les Blancs préservent une flexibilité maximale en les sortant d'abord.\n\n2...Nf6\n\nLes Noirs préservent à nouveau la symétrie.\n\n3 Nc3\n\nÀ nouveau, les Blancs gardent leurs options ouvertes. Ils peuvent jouer d4 à un moment donné, ce qui permet l'échange de leur pion d central contre le pion c moins central des Noirs, mais en compensation les Blancs créeraient un jeu libre pour leurs pièces. La logique ici est assez semblable à celle derrière 3 d4 dans la sicilienne (voir la Partie 8) ; tandis que l'échange de pions laisse aux Noirs une majorité centrale, le plus grand contrôle d'espace des Blancs et leurs pièces actives sont tout aussi importants.\n\n3...e6\n\nLes Noirs rompent la symétrie. 3...Nc6 est aussi jouable, auquel cas les Blancs doivent choisir entre 4 d4, 4 g3 et 4 e3. Comme dans la plupart des ouvertures symétriques, les Noirs peuvent maintenir leur imitation pendant un certain temps, mais à un moment (généralement lorsque les pions centraux entrent en contact) ils ne pourront plus le faire pour des raisons tactiques. Alors les Noirs doivent trouver une façon satisfaisante de rompre la symétrie, faute de quoi ils tombent dans une mauvaise position. Les ouvertures symétriques sont généralement assez solides, mais elles peuvent être risquées car il est facile de tomber dans une position passive. Dans cette partie, Ribli rompt la symétrie tôt.\n\n4 g3\n\nAprès 4 e3, la symétrie pourrait bien être rétablie, mais puisque les Noirs ont choisi de développer leur fou de f8 le long de la diagonale f8-a3, Karpov saisit l'occasion de développer son fou de f1 le long de l'autre diagonale.\n\n4...b6\n\nLe coup le plus populaire et le plus logique. Une fois que les Noirs ont joué ...e6, il sera difficile de développer leur fou de c8 le long de la diagonale c8-h3, si bien que b7 est sa destination évidente. Cependant, une fois le fou blanc en g2, ...b6 peut ne plus être jouable, aussi les Noirs s'assurent-ils que leur fou est développé avant que les Blancs puissent exercer une pression sur leur aile dame.\n\n5 Bg2\n\n5...Bb7\n\nUn effet secondaire utile du développement du fou noir est que e4 des Blancs est empêché.\n\n6 0-0\n\nÀ un moment donné, les Blancs voudraient jouer d4, mais ils doivent alors décider comment rencontrer ...cxd4. Reprendre avec la dame est possible, mais la dame est clairement assez exposée en d4. Idéalement, les Blancs voudraient reprendre en d4 avec le cavalier, mais le problème de Nxd4 est qu'il permet aux Noirs d'échanger les fous en g2. Les Blancs jouent pour un avantage d'espace, et un principe clé est que le camp qui a l'avantage d'espace devrait éviter les échanges de pièces. La raison en est que le camp qui a peu d'espace aura toujours des problèmes de pièces qui se marchent sur les pieds, et l'encombrement est pire lorsqu'il y a davantage de pièces entassées dans un petit espace. Une possibilité pour les Blancs est de jouer Re1 suivi de e4, et seulement ensuite d4 et Nxd4, puisque l'échange de fous a été empêché.\n\n6...d6\n\nLes Noirs se dirigent vers une position de « Hérisson », caractérisée par la rangée de pions le long de la troisième rangée en a6, b6, d6 et e6. L'ordre de coups le plus précis pour atteindre cette position est dans une certaine mesure une question de goût, car les coups ...a6, ...d6 et ...Be7 surviendront tous à un moment donné. Cependant, 6...Be7 peut être le plus exact, puisque après 7 Re1 les Noirs conservent l'option de contrarier le plan blanc en jouant 7...d5.\n\nL'immédiat 6...d5 7 cxd5 Nxd5 8 Nxd5 Bxd5 9 d4 favorise les Blancs, car la position s'ouvre à un moment où ils ont une avance considérable de développement.\n\n7 d4\n\nKarpov ne tente pas d'exploiter l'ordre de coups des Noirs par 7 Re1, et vise directement une position standard de Hérisson.\n\n7...cxd4\n\n8 Qxd4\n\nLa position exposée de la dame est un moindre mal que de permettre aux Noirs de libérer leur position en échangeant les fous des cases claires.\n\n8...a6\n\nCela sera nécessaire tôt ou tard, sinon le pion d6 des Noirs subira une pression intolérable après, par exemple, Rd1 et Nb5.\n\n9 Rd1\n\nLa montée rapide le long de la colonne d force les Noirs à prendre garde, faute de quoi ils peuvent perdre leur pion d6 par b3 et Ba3.\n\n9...Be7\n\nSe préparant à roquer.\n\n10 b3\n\nMême si les Blancs ne parviennent pas à exploiter le pion d6 avec Ba3, la case b2 restera un poste efficace pour le fou.\n\n10...Nbd7\n\nIl peut sembler étrange de ne pas exploiter la position exposée de la dame blanche par 10...Nc6, mais après 11 Qf4 les Noirs ont de réels problèmes pour contrer la montée blanche contre d6 par Ba3, Rd2 et Rad1. Avec le cavalier en d7, ce plan peut être rencontré par ...Nc5.\n\n11 e4\n\nLes Blancs consolident leur emprise sur le centre et s'assurent que les Noirs ne peuvent pas se libérer en jouant ...d5. Un second point est que les Blancs pourraient organiser une percée rapide par e5.\n\n11...Qc8\n\nCette idée intéressante n'avait été jouée qu'une poignée de fois avant la présente partie, mais elle est devenue très populaire depuis. Le souci immédiat des Noirs est de contrer la menace d'une percée par Ba3 suivi de e5. 11...0-0, par exemple, permet 12 Ba3 Nc5 13 e5 dxe5 14 Qxd8 Rfxd8 15 Nxe5 Bxg2 16 Kxg2 avec une finale assez désagréable pour les Noirs. La case c6 est faible, le cavalier en c5 est maladroitement cloué, et à plus long terme la majorité blanche à l'aile dame pourrait s'avérer un facteur utile. 11...Qb8 est raisonnable, mais même ici 12 Ba3 Nc5 13 e5 dxe5 14 Qxe5 Ncd7 15 Qxb8+ Rxb8 16 Bb2 n'est pas complètement égal — les Blancs conservent un léger avantage. Le coup du texte vise une version améliorée de cette ligne si les Blancs adoptent le même plan.\n\n12 Bb2\n\nLes Blancs abandonnent l'idée d'une percée centrale et se contentent de simplement développer leurs pièces restantes. Après 12 Ba3 Nc5 13 e5 dxe5 14 Nxe5 (les Blancs ne peuvent pas jouer 14 Qxe5? à cause du point tactique 14...Ncd7 gagnant une pièce — cela ne fonctionne pas avec la dame noire en b8 — et doivent donc se contenter de la prise de cavalier moins dangereuse) 14...Bxg2 15 Kxg2 Qb7+ 16 Kg1 0-0 la position est égale. Le fait que les dames ne soient pas échangées fait une grande différence. La faiblesse de c6 est sans importance, le cavalier de c5 n'est pas cloué, et avec les dames sur l'échiquier la majorité blanche à l'aile dame a peu de chances d'être un facteur important.\n\n12...O-O\n\nCette position est typique des montages de Hérisson. Les Blancs contrôlent quatre rangées et les Noirs trois, et il y a un no man's land d'une rangée inaccessible aux pièces blanches parce que toutes les cases sont contrôlées par les pions « hérisson » des Noirs sur la troisième rangée. Autrefois, une position de ce type aurait été évaluée comme très favorable aux Blancs, mais maintenant nous savons mieux. Bien qu'un avantage d'espace soit un facteur positif, ce n'est pas une fin en soi — il faut encore trouver un moyen de progresser.\n\nLe problème des Blancs dans la position du diagramme est que la position noire est sans faiblesses. Le pion d6 est une faiblesse potentielle, mais il est très facile à défendre par ...Qc7, ...Rfd8 et si nécessaire ...Nc5. Il n'y a pas de percées de pions évidentes pour les Blancs, sauf e5, mais normalement cela ne mène qu'à des échanges. Par conséquent, les Blancs doivent manœuvrer lentement, dans l'espoir de progresser quelque part. Une idée pourrait être une avance de pions à l'aile roi avec h3 et g4-g5. Cependant, cela affaiblit beaucoup et après que les Noirs répondent par ...Rfd8 et ...Ne8, il n'est pas clair que les Blancs aient accompli autre chose que d'exposer leur propre roi.\n\nD'un autre côté, une fois que les Noirs ont achevé leur développement par ...Qc7, ...Rfd8 et ...Rac8, il n'est pas clair ce qu'ils peuvent accomplir. Les Noirs voudraient forcer un coup libérateur tel que ...b5 ou ...d5, mais à moins que les Blancs ne soient négligents cela ne sera pas possible. Ainsi les parties avec le Hérisson tendent à être des luttes de manœuvres lentes, les deux camps prenant soin de ne créer aucune faiblesse. Les positions de ce type conviennent certainement à Karpov, et il met son talent à profit dans cette partie. Objectivement, les Blancs n'ont qu'un avantage infime. Peut-être leur seul avantage est-il que si les Blancs jouent solidement, les Noirs ne peuvent absolument rien faire, tandis que les Blancs ont quelques chances d'entreprendre un plan positif même contre une bonne défense des Noirs.\n\n13 Nd2\n\nLes Blancs ont divers plans possibles, et Karpov opte typiquement pour un plan à faible risque. Ce coup soutient les pions en e4 et c4, et en défendant c4 ouvre la possibilité d'un élargissement à l'aile dame par a3 et b4. À long terme, les Blancs pourraient alors espérer a4-a5 suivi d'un échange en b6, avec un pion a6 faible comme but ultime. Une autre idée serait 13 Rac1 Re8 14 Qe3 Qc7 15 Nd4, qui place les deux cavaliers blancs sur des cases utiles. Alors les Blancs pourraient viser une attaque au ralenti à l'aile roi avec f4, h3 et g4, etc. Cependant, comme noté plus haut, un tel plan n'est pas sans risques.\n\n13...Qc7\n\nLes Noirs se contentent de mettre en jeu leur tour de a8.\n\n14 Rac1\n\nLes Blancs développent leur dernière pièce.\n\n14...Rac8\n\n15 h3\n\nPour le moment les Blancs veulent laisser les Noirs dans l'incertitude quant à leur plan éventuel, aussi jouent-ils ce petit coup de rangement. Il empêche une attaque par ...Ng4 au cas où les Blancs joueraient Qe3, tout en laissant les Noirs se demander si ce coup ne serait pas destiné à soutenir un g4 ultérieur.\n\n15...Rfe8\n\nLes Noirs achèvent aussi leur développement.\n\n16 a3\n\nLes Blancs préparent b4. Ce coup affaiblit légèrement b3, mais le cavalier en d2 sécurise cette case contre une attaque par ...Nc5.\n\n16...Qb8\n\nLes Noirs font aussi de leur mieux pour rester flexibles. Ils pourraient suivre ce coup soit par ...Ba8, visant à jouer ...b5, soit par ...Qa8 pour exercer davantage de pression contre e4.\n\n17 b4\n\nEnfin, les Blancs prennent un engagement défini. Ils gagnent plus d'espace à l'aile dame et tiennent un cavalier noir hors de c5, mais au prix d'affaiblir le pion c4. Pour le moment les Blancs sont encore loin de créer une menace définie à l'aile dame, mais le danger latent de a4-a5 est une inquiétude constante pour les Noirs.\n\n17...Red8\n\nComme d'habitude dans le Hérisson, les deux camps manœuvrent, tentant d'anticiper l'adversaire. Les Noirs placent leur tour face à la dame blanche « au cas où ».\n\n18 Qe3\n\nLes Blancs voudraient soutenir a4-a5 avec Nb3, mais pour le moment 18 Nb3 Ne5 forcerait plus ou moins le cavalier à revenir en d2.\n\nPar conséquent, les Blancs placent d'abord leur dame sur la case plus sûre e2 avant d'envisager Nb3.\n\n18...Ba8\n\n18...Ne5 est imprudent ; après 19 Qxb6 Rxc4 (19...Nxc4 20 Nxc4 Rxc4 21 e5 gagne du matériel) 20 f4 Rc6 21 Qd4 Ned7 22 Nb3 suivi de Na5 les Blancs sont légèrement mieux.\n\nLe coup du texte menace 19...b5.\n\n19 Qe2\n\nIl n'y a toujours pas de réelle menace de jouer Nb3, puisque les Noirs peuvent à nouveau répondre ...Ne5. Les Blancs devraient d'abord jouer f4 pour continuer avec ce plan, mais chaque avance de pion crée une faiblesse potentielle, et pour le moment les Blancs ne sont pas prêts pour cela.\n\n19...Ne8\n\nLes Noirs jouent avec l'idée de ...Bf6.\n\n20 Nf1\n\nL'idée derrière ce coup est le transfert possible du cavalier en e3, où il couvre à nouveau c4 mais est autrement plus activement placé. Bien que cela rende a4-a5 plus difficile à réaliser, avec ses cavaliers si bien placés les Blancs pourraient à nouveau envisager de jouer à l'aile roi. Ce genre de partie de manœuvres, où les Blancs jouent d'abord avec une idée puis avec une autre, est très désagréable à affronter. Les Noirs doivent constamment rester en alerte pour contrer les tentatives blanches de progresser, tandis qu'ils ont eux-mêmes peu de possibilités actives. La position elle-même ne favorise pas significativement les Blancs, mais ce type de partie est celui que personne ne jouait mieux que Karpov à son apogée. Bien sûr, de telles manœuvres paisibles ne sont possibles que parce que les Noirs sont incapables d'améliorer leur position.\n\n20...Bb7\n\nLes Noirs repèrent le défaut du plan Ne3 des Blancs, à savoir qu'il affaiblit le pion e4. Par conséquent ils préparent ...Qa8 et ...Nef6.\n\n21 Kh2\n\nKarpov ne veut pas s'engager à placer le cavalier en e3, aussi range-t-il à nouveau sa position. S'il joue éventuellement f4, il sera utile d'avoir son roi hors de la diagonale a7-g1.\n\n21...Nef6\n\nMaintenant la pression contre e4 exclut définitivement Ne3.\n\n22 Nd2\n\nAinsi Karpov abandonne ce plan, et ramène son cavalier en d2.\n\n22...Ne8\n\nRibli se contente d'avoir forcé Karpov à rétracter son plan, et replace son cavalier en e8.\n\n23 Re1\n\nLes Blancs introduisent une nouvelle idée : ils veulent jouer Nb3, rencontrant ...Ne5 par Nd1. Alors ils soutiendront soit le pion c4 avec Ne3, soit simplement chasseront le cavalier noir par f4.\n\n23...Ba8\n\nLes Noirs attendent, mais 23...Rc7 pourrait être légèrement plus exact, car les Noirs peuvent alors monter la pression contre c4 plus rapidement. Dans ce cas, le plan avec Nb3 ne serait pas viable, et les Blancs devraient essayer autre chose.\n\n24 Nb3\n\nLes Blancs progressent lentement dans la bonne direction à l'aile dame.\n\n24...Bg5\n\nTenter de presser c4 par 24...Ne5 25 Nd1 Qc7 n'est pas très efficace. Après 26 Ne3 les Noirs ne peuvent renforcer davantage la pression, si bien que les Blancs pourront chasser le cavalier par f4.\n\nLe coup du texte vise à induire f4, peut-être sur la base que ce serait une avance de pion de trop et mènerait à la sur-extension de la position blanche. Il est souvent assez difficile de juger si une telle avance gagne de l'espace et favorise donc les Blancs, ou affaiblit et favorise donc les Noirs. Le même commentaire s'applique à de nombreuses avances de pions, mais il est particulièrement pertinent dans les cas où le camp qui pousse le pion a déjà fait un certain nombre d'autres avances de pions. Ce gain d'espace régulier peut finir par étouffer l'adversaire, ou il peut ouvrir la possibilité d'un contrejeu — tout dépend du niveau de soutien des pièces pour les avances de pions. Ici les forces blanches sont bien coordonnées et peuvent assumer la charge supplémentaire créée par la nouvelle avance de pion.\n\n25 Rc2\n\nL'ordre de coups n'a pas beaucoup d'importance. Karpov joue Rc2 avant f4, mais il aurait aussi pu inverser l'ordre de ces deux coups. La bataille sur les quelques coups suivants tourne autour du pion c4. Si les Blancs peuvent maintenir le pion tout en gardant leur cavalier en b3, alors ils auront progressé, mais si leur cavalier doit reculer en d2 alors les Noirs auront déjoué une autre tentative blanche d'accomplir quelque chose.\n\n25...Rc7\n\nAssez tardivement, les Noirs décident de doubler les tours.\n\n26 f4\n\nC'est essentiel si les Blancs veulent doubler les tours.\n\n26...Bf6\n\n27 Rec1\n\n27...Rdc8\n\nAprès cela, les Blancs sont forcés de déplacer leur cavalier de c3.\n\n28 Nd1\n\nMaintenant l'échange des fous des cases noires est plus ou moins inévitable. Cela favorise les Noirs à un égard, puisque l'échange d'une paire de pièces mineures devrait favoriser le joueur qui a moins d'espace. D'un autre côté, le pion d6 était assez économiquement défendu par le fou de e7, et maintenant les Noirs devront immobiliser une de leurs autres pièces dans sa défense.\n\n28...Bb7\n\nLes Noirs prévoient qu'un de leurs cavaliers occupera f6 une fois les fous échangés. Cela leur fournira une pression toute prête contre e4, qu'ils peuvent maintenant augmenter par ...Qa8.\n\n28...b5 était l'alternative, mais avec le cavalier blanc déjà en b3 elle est moins attrayante. Après 29 Na5 Bxb2 30 Nxb2 les Noirs ont le problème qu'un échange en c4 amènerait un cavalier blanc dans une excellente position pour attaquer le pion d6.\n\n29 Qd3\n\nLa dame vise le pion d6 potentiellement faible.\n\n29...Bxb2\n\n30 Nxb2\n\nMaintenant que les Blancs ont c4 solidement défendu, la tâche principale des Noirs devrait être de réarranger leurs tours pour que d6 soit défendu, libérant ainsi le cavalier de e8.\n\n30...Qa8\n\n31 Nd1\n\nLe cavalier doit être prêt à rencontrer ...Ndf6 par Nf2.\n\n31...a5\n\nJusqu'à ce point, les Noirs n'ont pas fait d'erreurs, et l'avantage d'espace des Blancs n'a conféré aucun avantage réel, parce qu'il n'y a tout simplement pas eu de cibles à attaquer. Maintenant, cependant, les Noirs perdent soudain patience et retirent volontairement l'une des « épines » du Hérisson. Le résultat est une faiblesse sérieuse en b5. La suite correcte était 31...Rd8, afin de défendre le pion d6 avec la tour. Dans ce cas, la position noire serait sans faiblesses, et les Blancs auraient du mal à progresser.\n\n32 Nd4\n\nLe cavalier de d1 ne peut aller en b5, à cause de la faiblesse de c4, mais l'autre cavalier peut y arriver avec un effet non moindre. Maintenant le pion d6 est une véritable cible et l'avantage d'espace des Blancs a quelque chose à mordre.\n\n32...Rd8\n\nPour soutenir d6 et offrir un retrait à l'autre tour. 32...Ba6 est mauvais vu 33 e5 d5 34 Ne3 Qb8 35 b5 dxc4 36 Nxc4 avec une belle paire de cases faibles où sauter en c6 et d6.\n\n33 Nb5\n\n33...Rcc8\n\n34 Ndc3\n\nAyant forcé les Noirs à dédoubler, la pression contre c4 est soulagée, et l'autre cavalier peut prêter main-forte. Les manœuvres maladroites de tours des Noirs sont typiques des problèmes causés par le manque d'espace. Notons que 34 Nxd6? Ndf6 35 e5 Bxg2 36 Rxg2 Nxd6 37 exd6 Ne4 38 d7 Rc7 est bon pour les Noirs.\n\n34...Qb8\n\nRenforcement pour d6.\n\n35 Rd1\n\nLes Noirs ne sont plus capables de monter une quelconque contre-attaque contre c4, puisque ...Ne5 et ...Qc7 sont tous deux exclus. Par conséquent, les Blancs sont libres de basculer leurs tours sur la colonne d pour intensifier l'attaque sur d6.\n\n35...Ndf6\n\nLes Noirs ont maintenant manœuvré leurs pièces dans les meilleures positions défensives possibles et ne peuvent que s'asseoir et attendre de voir comment les Blancs entendent progresser.\n\n36 Rcd2\n\n36...h6\n\nCe coup soulage toute inquiétude de dernière rangée et pourrait s'avérer utile si les Blancs tentent de s'élargir à l'aile roi par g4-g5.\n\n37 Qe2\n\nAvec le contrôle du temps qui approche, aucun des deux camps n'entreprend d'action positive. Les Blancs pourraient gagner du matériel par 37 e5 dxe5 38 Qxd8 mais après 38...Bxg2 39 Qd3 Ba8 la situation ne serait pas du tout claire. Les Noirs ont un pion pour la qualité, et leur fou actif est bien placé pour générer des menaces contre le roi blanc assez exposé.\n\n37...Ba8\n\n38 Kg1\n\nEn zeitnot, les deux joueurs manquent la forte possibilité 38 bxa5! bxa5 39 Rb2 Bb7 40 e5 dxe5 41 Bxb7 Qxb7 42 Nd6, où les Blancs gagnent du matériel.\n\n38...Bc6\n\n39 Kh2\n\n39...e5\n\nAttendre passivement n'était pas très satisfaisant ; par exemple, 39...Ba8 40 bxa5 bxa5 41 Rb2 gagnant comme dans la note au 38e coup des Blancs, ou 39...axb4 40 axb4 Ba8 41 Ra2, où la colonne a ouverte offre aux Blancs une autre méthode pour tourmenter les Noirs. Par conséquent les Noirs font un coup au centre, et écartent la possibilité que les Blancs jouent e5. Le défaut est que cette avance facilite pour les Blancs de gagner davantage d'espace à l'aile roi.\n\n40 f5\n\nMaintenant les Blancs ont le plan évident de g4 suivi de h4 et g5, repoussant les Noirs à l'aile roi.\n\n40...Qa8\n\n41 g4\n\nPas 41 Nxd6 Nxd6 42 Rxd6 Rxd6 43 Rxd6 axb4 44 axb4 Qa3, où les Noirs récupèrent le pion.\n\n41...Qb8\n\n42 h4\n\n42...Qb7\n\nLes Noirs prennent quelques mesures contre l'avance blanche à l'aile roi. La dame doit être transférée en e7, d'où elle jette un œil à la fois vers le pion b4 et la case g5.\n\n43 Bf3\n\nÀ nouveau, il serait mauvais de croquer le pion d6. Après 43 Nxd6 Nxd6 44 Rxd6 Rxd6 45 Rxd6 Qe7 46 Qd1 Ne8 les pions blancs commencent soudain à tomber.\n\n43...Qe7\n\nC'est la meilleure case pour la dame. Les Noirs ont l'intention de rencontrer g5 par ...Nh7, où les Blancs auront du mal à maintenir le pion avancé en g5.\n\n44 Kg3\n\nKarpov se contente de jouer positionnellement, mais cela permet aux Noirs une chance de s'échapper de leur position passive, fondée sur des chances tactiques offertes par la position du roi en g3. 44 Kg2 aurait été plus solide, conservant l'avantage blanc.\n\n44...axb4\n\nIl est sans doute correct de profiter de la chance de s'échapper, mais en fait il n'est pas si facile pour les Blancs de gagner même si les Noirs défendent passivement (et si les Blancs avaient joué 44 Kg2, alors les Noirs auraient été forcés d'adopter cette option). Après 44...Ba8 45 Rh1 Bc6, par exemple, 46 Rdd1 (46 g5 Nh7 est obscur) 46...axb4 47 axb4 d5 48 cxd5 Bxb5 49 Nxb5 Qxb4 50 g5 Rc4! 51 gxf6 Qxb5 52 Rc1 Rdc8 53 Rxc4 Qxc4 54 Qxc4 Rxc4 55 fxg7 b5 est obscur, car le fou blanc est sérieusement restreint par ses propres pions. Le problème des Blancs est qu'il n'est pas facile de préparer g5 sans permettre aux Noirs de s'échapper dans des circonstances plus favorables que dans la partie. Bien sûr, les Blancs auraient encore un avantage clair, mais les Noirs ne seraient pas perdus.\n\n45 axb4\n\n45...d5\n\nC'était le point derrière le coup précédent des Noirs.\n\n46 cxd5\n\n46 exd5 Bxb5 47 Nxb5 Nd6 48 Nxd6 Qxd6 attaque b4 et menace ...e4+.\n\n46...Bxb5\n\n47 Nxb5\n\n47...Qxb4\n\nIl est naturel de rétablir l'égalité matérielle, mais en fait il était plus important de bloquer le dangereux pion d blanc par 47...Nd6 !. L'idée est de jouer un pion en moins, mais avec un bon cavalier contre un très mauvais fou. Alors les Noirs ont de bonnes chances de nulle, p.ex. 48 Nxd6 (48 Ra1 Nxb5 49 Qxb5 Rc3 donne aux Noirs un contrejeu désagréable — c'est un autre cas où le roi blanc est mal placé en g3) 48...Qxd6 (48...Rxd6 49 Rc2 est très bon pour les Blancs) 49 g5 (49 Qb5 Rc3 50 Rd3 Rc2 51 R1d2 Rc1 n'est pas clair non plus) 49...Nh7 50 Qe3 hxg5 51 hxg5 Qxb4 et les Blancs ne peuvent pas exploiter la colonne h comme dans la partie.\n\n48 g5\n\nLes Blancs tentent de chasser le cavalier noir vers une case inférieure.\n\n48...hxg5\n\nOuvrir la colonne h c'est chercher les ennuis, mais les alternatives sont aussi insatisfaisantes :\n\n1) 48...Nh7 49 d6 Rc5 50 Rb2 Qc4 51 Qxc4 Rxc4 et les pièces passivement placées des Noirs donnent aux Blancs la chance de gagner par 52 d7 Nc7 53 Nd6 Rd4 54 Rxd4 exd4 55 Bh5! Rxd7 56 Bxf7+ Kf8 57 g6 Nf6 58 e5, etc.\n\n2) 48...Rc4 aurait opposé une résistance plus forte :\n\n2a) 49 gxf6 Qxb5 50 Rc2 (50 fxg7 Qc5) 50...Rc5 (50...Rdc8 51 Rxc4 Rxc4 52 d6 Nxf6 53 d7 gagne pour les Blancs) 51 Qxb5 Rxb5 52 fxg7 Kxg7 est confortable pour les Noirs.\n\n2b) 49 Rb2! Nxe4+ 50 Bxe4 (50 Kg2 Qa4 favorise les Noirs) 50...Rxe4 51 Rxb4 Rxe2 52 d6 est très bon pour les Blancs malgré le pion de moins : 52...Rc2 (52...Rd7 53 Rc4!) 53 d7 Nc7 54 Na7 Na8 (54...b5 55 Rd6 est aussi très bon pour les Blancs) 55 Nc8 hxg5 56 hxg5 f6 57 gxf6 gxf6 58 Rg4+ avec un large avantage pour les Blancs.\n\n49 hxg5\n\n49...Nh7\n\n49...Rc4 donne aux Blancs le choix agréable entre 50 Rb2 Nxe4+ 51 Bxe4 Rxe4 52 Rxb4 Rxe2 53 d6, comme dans la note au 48e coup des Noirs, et 50 gxf6 Qxb5 51 fxg7 Nxg7 (51...Kxg7 52 Qe3 donne aux Blancs une attaque gagnante) 52 Qh2 f6 53 Rh1, où l'attaque blanche est trop forte.\n\n50 d6\n\nMaintenant il n'y aura pas de blocus du pion d, et la dame noire ne peut pas revenir à l'aile roi. Les Noirs n'ont pas le temps de prendre en g5, car les Blancs menacent 51 d7.\n\n50...Rc5\n\n51 Rb2\n\n51 Qh2 Rxb5 52 Rh1 (52 Qxh7+ Kxh7 53 Rh1+ Kg8 54 Rdh2 permet aux Noirs de s'échapper par 54...Qe1+) gagne aussi : 52...Rxd6 53 Qxh7+ Kf8 54 f6 Nxf6 (54...gxf6 55 g6! fxg6 56 Qa7 et les Noirs ne peuvent parer la menace de Rh8#) 55 gxf6 gxf6 56 Rxd6 Qxd6 57 Rd1 Qc7 58 Bh5 et il n'y a pas de défense contre 59 Rd8+. Cependant, le coup du texte est encore plus efficace.\n\n51...Qc4\n\n51...Qa5 52 Rh1 Nxd6 53 Nxd6 Rxd6 54 Ra2 est aussi décisif.\n\n52 Qh2\n\nCela fonctionne maintenant que les Noirs n'ont plus la défense ...Qe1+.\n\n52...Rxb5\n\nRibli permet généreusement une jolie conclusion.\n\n53 Qxh7+\n\nForçant le mat en quatre coups de plus.\n\n53...Kxh7\n\n54 Rh2+\n\n54...Kg8\n\n55 Rdh1\n\n55...f6\n\nOu 55...g6 56 Rh8+ Kg7 57 R1h7#.\n\n56 Rh8+\n\n56...1-0\n\nC'est mat au coup suivant.\n\nCe fut une partie typique de « Hérisson », les deux camps manœuvrant lentement, cherchant une occasion d'entreprendre une action concrète. Pendant longtemps, l'équilibre fut préservé, jusqu'à ce que les Noirs affaiblissent volontairement leur position avec 31...a5, donnant aux Blancs l'occasion de monter une pression sérieuse contre le pion d6. Cela, couplé à la possibilité d'une avance générale de pions à l'aile roi par les Blancs, rendit la position noire très gênante. Bien qu'il y eût quelques imprécisions plus tard, Karpov put conclure la partie avec une jolie finition.\n\nLes leçons ici sont :\n\n1) Un avantage d'espace confère généralement un avantage, mais cet avantage est minimisé s'il n'y a pas de faiblesses à attaquer.\n\n2) Les positions de « Hérisson » exigent beaucoup de patience des deux joueurs. Les coups impétueux sont susceptibles d'être sévèrement punis.\n\n3) Même des positions assez étriquées offrent des ressources pour une défense ingénieuse.\n\n4) Jouer positionnellement pendant plusieurs heures peut faire qu'il soit facile de négliger les tactiques lorsqu'elles surgissent — un piège dans lequel Karpov ne tombe pas.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Avantage d'espace\n\nEn général, contrôler davantage d'espace est un avantage. La raison en est qu'il est plus facile de manœuvrer ses pièces dans un espace vaste et ouvert que dans un espace confiné. En particulier, il est plus facile de basculer les pièces d'une zone de l'échiquier à une autre. Ainsi, un avantage d'espace est surtout efficace lorsqu'il y a des faiblesses dans la position adverse, surtout si ces faiblesses sont bien séparées. Le camp qui a plus d'espace peut faire basculer l'attaque d'une faiblesse à l'autre, tandis que son adversaire plus restreint ne peut pas répondre avec la même rapidité.\n\nMalgré ce qui précède, les attitudes envers les avantages d'espace ont changé au cours des dernières décennies. On reconnaît désormais que si le camp qui a moins d'espace dispose d'une position solide, il peut être très difficile d'exploiter l'avantage d'espace. De fait, le camp qui a plus d'espace doit veiller à ne pas se surétendre et devenir vulnérable à une contre-attaque soudaine. Ce principe n'est nulle part plus évident que dans le système d'ouverture du « Hérisson », qui apparaît dans la partie suivante.\n\nA. Karpov – Z. Ribli\n\nOlympiad, Dubai 1986\n\nOuverture anglaise, système Hérisson"
+    },
+    {
+      "ply": 1,
+      "san": "c4",
+      "text": "C'est la première partie du livre à présenter 1 c4, un coup appelé l'ouverture anglaise. Comme l'ouverture Réti, 1 Nf3 (voir la Partie 1), elle sert un but utile sans engager grandement. Jouer c4 revendique un territoire au centre, et empêche les Noirs de jouer immédiatement ...d5, car cela impliquerait l'échange de leur pion d central contre le pion c moins central des Blancs. En même temps, les Blancs laissent leurs pions centraux immobiles pendant qu'ils attendent de voir comment les Noirs entendent répondre.",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "c5",
+      "text": "Cette réponse symétrique imite la stratégie blanche. Les Noirs disposent d'un large éventail d'alternatives, allant du relativement engageant 1...e5, en passant par 1...e6, 1...c6, 1...d6 et 1...g6, jusqu'aux flexibles 1...Nf6 et 1...c5 (comme joué).",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "Nf3",
+      "text": "Quoi qu'il arrive au centre, les cavaliers blancs seront presque certainement mieux placés en c3 et f3, si bien que les Blancs préservent une flexibilité maximale en les sortant d'abord.",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "Nf6",
+      "text": "Les Noirs préservent à nouveau la symétrie.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "Nc3",
+      "text": "À nouveau, les Blancs gardent leurs options ouvertes. Ils peuvent jouer d4 à un moment donné, ce qui permet l'échange de leur pion d central contre le pion c moins central des Noirs, mais en compensation les Blancs créeraient un jeu libre pour leurs pièces. La logique ici est assez semblable à celle derrière 3 d4 dans la sicilienne (voir la Partie 8) ; tandis que l'échange de pions laisse aux Noirs une majorité centrale, le plus grand contrôle d'espace des Blancs et leurs pièces actives sont tout aussi importants.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "e6",
+      "text": "Les Noirs rompent la symétrie. 3...Nc6 est aussi jouable, auquel cas les Blancs doivent choisir entre 4 d4, 4 g3 et 4 e3. Comme dans la plupart des ouvertures symétriques, les Noirs peuvent maintenir leur imitation pendant un certain temps, mais à un moment (généralement lorsque les pions centraux entrent en contact) ils ne pourront plus le faire pour des raisons tactiques. Alors les Noirs doivent trouver une façon satisfaisante de rompre la symétrie, faute de quoi ils tombent dans une mauvaise position. Les ouvertures symétriques sont généralement assez solides, mais elles peuvent être risquées car il est facile de tomber dans une position passive. Dans cette partie, Ribli rompt la symétrie tôt.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "g3",
+      "text": "Après 4 e3, la symétrie pourrait bien être rétablie, mais puisque les Noirs ont choisi de développer leur fou de f8 le long de la diagonale f8-a3, Karpov saisit l'occasion de développer son fou de f1 le long de l'autre diagonale.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "b6",
+      "text": "Le coup le plus populaire et le plus logique. Une fois que les Noirs ont joué ...e6, il sera difficile de développer leur fou de c8 le long de la diagonale c8-h3, si bien que b7 est sa destination évidente. Cependant, une fois le fou blanc en g2, ...b6 peut ne plus être jouable, aussi les Noirs s'assurent-ils que leur fou est développé avant que les Blancs puissent exercer une pression sur leur aile dame.",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "Bg2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "Bb7",
+      "text": "Un effet secondaire utile du développement du fou noir est que e4 des Blancs est empêché.\n\n6 0-0\n\nTrait aux Noirs\n\nÀ un moment donné, les Blancs voudraient jouer d4, mais ils doivent alors décider comment rencontrer ...cxd4. Reprendre avec la dame est possible, mais la dame est clairement assez exposée en d4. Idéalement, les Blancs voudraient reprendre en d4 avec le cavalier, mais le problème de Nxd4 est qu'il permet aux Noirs d'échanger les fous en g2. Les Blancs jouent pour un avantage d'espace, et un principe clé est que le camp qui a l'avantage d'espace devrait éviter les échanges de pièces. La raison en est que le camp qui a peu d'espace aura toujours des problèmes de pièces qui se marchent sur les pieds, et l'encombrement est pire lorsqu'il y a davantage de pièces entassées dans un petit espace. Une possibilité pour les Blancs est de jouer Re1 suivi de e4, et seulement ensuite d4 et Nxd4, puisque l'échange de fous a été empêché.",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "d6",
+      "text": "Les Noirs se dirigent vers une position de « Hérisson », caractérisée par la rangée de pions le long de la troisième rangée en a6, b6, d6 et e6. L'ordre de coups le plus précis pour atteindre cette position est dans une certaine mesure une question de goût, car les coups ...a6, ...d6 et ...Be7 surviendront tous à un moment donné. Cependant, 6...Be7 peut être le plus exact, puisque après 7 Re1 les Noirs conservent l'option de contrarier le plan blanc en jouant 7...d5.\n\nL'immédiat 6...d5 7 cxd5 Nxd5 8 Nxd5 Bxd5 9 d4 favorise les Blancs, car la position s'ouvre à un moment où ils ont une avance considérable de développement.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "d4",
+      "text": "Karpov ne tente pas d'exploiter l'ordre de coups des Noirs par 7 Re1, et vise directement une position standard de Hérisson.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "cxd4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "Qxd4",
+      "text": "La position exposée de la dame est un moindre mal que de permettre aux Noirs de libérer leur position en échangeant les fous des cases claires.",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "a6",
+      "text": "Cela sera nécessaire tôt ou tard, sinon le pion d6 des Noirs subira une pression intolérable après, par exemple, Rd1 et Nb5.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "Rd1",
+      "text": "La montée rapide le long de la colonne d force les Noirs à prendre garde, faute de quoi ils peuvent perdre leur pion d6 par b3 et Ba3.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "Be7",
+      "text": "Se préparant à roquer.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "b3",
+      "text": "Même si les Blancs ne parviennent pas à exploiter le pion d6 avec Ba3, la case b2 restera un poste efficace pour le fou.",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "Nbd7",
+      "text": "Il peut sembler étrange de ne pas exploiter la position exposée de la dame blanche par 10...Nc6, mais après 11 Qf4 les Noirs ont de réels problèmes pour contrer la montée blanche contre d6 par Ba3, Rd2 et Rad1. Avec le cavalier en d7, ce plan peut être rencontré par ...Nc5.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "e4",
+      "text": "Trait aux Noirs\n\nLes Blancs consolident leur emprise sur le centre et s'assurent que les Noirs ne peuvent pas se libérer en jouant ...d5. Un second point est que les Blancs pourraient organiser une percée rapide par e5.",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "Qc8",
+      "text": "Cette idée intéressante n'avait été jouée qu'une poignée de fois avant la présente partie, mais elle est devenue très populaire depuis. Le souci immédiat des Noirs est de contrer la menace d'une percée par Ba3 suivi de e5. 11...0-0, par exemple, permet 12 Ba3 Nc5 13 e5 dxe5 14 Qxd8 Rfxd8 15 Nxe5 Bxg2 16 Kxg2 avec une finale assez désagréable pour les Noirs. La case c6 est faible, le cavalier en c5 est maladroitement cloué, et à plus long terme la majorité blanche à l'aile dame pourrait s'avérer un facteur utile. 11...Qb8 est raisonnable, mais même ici 12 Ba3 Nc5 13 e5 dxe5 14 Qxe5 Ncd7 15 Qxb8+ Rxb8 16 Bb2 n'est pas complètement égal — les Blancs conservent un léger avantage. Le coup du texte vise une version améliorée de cette ligne si les Blancs adoptent le même plan.",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "Bb2",
+      "text": "Les Blancs abandonnent l'idée d'une percée centrale et se contentent de simplement développer leurs pièces restantes. Après 12 Ba3 Nc5 13 e5 dxe5 14 Nxe5 (les Blancs ne peuvent pas jouer 14 Qxe5? à cause du point tactique 14...Ncd7 gagnant une pièce — cela ne fonctionne pas avec la dame noire en b8 — et doivent donc se contenter de la prise de cavalier moins dangereuse) 14...Bxg2 15 Kxg2 Qb7+ 16 Kg1 0-0 la position est égale. Le fait que les dames ne soient pas échangées fait une grande différence. La faiblesse de c6 est sans importance, le cavalier de c5 n'est pas cloué, et avec les dames sur l'échiquier la majorité blanche à l'aile dame a peu de chances d'être un facteur important.",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "O-O",
+      "text": "Trait aux Blancs\n\nCette position est typique des montages de Hérisson. Les Blancs contrôlent quatre rangées et les Noirs trois, et il y a un no man's land d'une rangée inaccessible aux pièces blanches parce que toutes les cases sont contrôlées par les pions « hérisson » des Noirs sur la troisième rangée. Autrefois, une position de ce type aurait été évaluée comme très favorable aux Blancs, mais maintenant nous savons mieux. Bien qu'un avantage d'espace soit un facteur positif, ce n'est pas une fin en soi — il faut encore trouver un moyen de progresser.\n\nLe problème des Blancs dans la position du diagramme est que la position noire est sans faiblesses. Le pion d6 est une faiblesse potentielle, mais il est très facile à défendre par ...Qc7, ...Rfd8 et si nécessaire ...Nc5. Il n'y a pas de percées de pions évidentes pour les Blancs, sauf e5, mais normalement cela ne mène qu'à des échanges. Par conséquent, les Blancs doivent manœuvrer lentement, dans l'espoir de progresser quelque part. Une idée pourrait être une avance de pions à l'aile roi avec h3 et g4-g5. Cependant, cela affaiblit beaucoup et après que les Noirs répondent par ...Rfd8 et ...Ne8, il n'est pas clair que les Blancs aient accompli autre chose que d'exposer leur propre roi.\n\nD'un autre côté, une fois que les Noirs ont achevé leur développement par ...Qc7, ...Rfd8 et ...Rac8, il n'est pas clair ce qu'ils peuvent accomplir. Les Noirs voudraient forcer un coup libérateur tel que ...b5 ou ...d5, mais à moins que les Blancs ne soient négligents cela ne sera pas possible. Ainsi les parties avec le Hérisson tendent à être des luttes de manœuvres lentes, les deux camps prenant soin de ne créer aucune faiblesse. Les positions de ce type conviennent certainement à Karpov, et il met son talent à profit dans cette partie. Objectivement, les Blancs n'ont qu'un avantage infime. Peut-être leur seul avantage est-il que si les Blancs jouent solidement, les Noirs ne peuvent absolument rien faire, tandis que les Blancs ont quelques chances d'entreprendre un plan positif même contre une bonne défense des Noirs.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Nd2",
+      "text": "Les Blancs ont divers plans possibles, et Karpov opte typiquement pour un plan à faible risque. Ce coup soutient les pions en e4 et c4, et en défendant c4 ouvre la possibilité d'un élargissement à l'aile dame par a3 et b4. À long terme, les Blancs pourraient alors espérer a4-a5 suivi d'un échange en b6, avec un pion a6 faible comme but ultime. Une autre idée serait 13 Rac1 Re8 14 Qe3 Qc7 15 Nd4, qui place les deux cavaliers blancs sur des cases utiles. Alors les Blancs pourraient viser une attaque au ralenti à l'aile roi avec f4, h3 et g4, etc. Cependant, comme noté plus haut, un tel plan n'est pas sans risques.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "Qc7",
+      "text": "Trait aux Blancs\n\nLes Noirs se contentent de mettre en jeu leur tour de a8.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Rac1",
+      "text": "Les Blancs développent leur dernière pièce.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "Rac8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "h3",
+      "text": "Pour le moment les Blancs veulent laisser les Noirs dans l'incertitude quant à leur plan éventuel, aussi jouent-ils ce petit coup de rangement. Il empêche une attaque par ...Ng4 au cas où les Blancs joueraient Qe3, tout en laissant les Noirs se demander si ce coup ne serait pas destiné à soutenir un g4 ultérieur.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "Rfe8",
+      "text": "Les Noirs achèvent aussi leur développement.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "a3",
+      "text": "Les Blancs préparent b4. Ce coup affaiblit légèrement b3, mais le cavalier en d2 sécurise cette case contre une attaque par ...Nc5.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Qb8",
+      "text": "Les Noirs font aussi de leur mieux pour rester flexibles. Ils pourraient suivre ce coup soit par ...Ba8, visant à jouer ...b5, soit par ...Qa8 pour exercer davantage de pression contre e4.",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "b4",
+      "text": "Enfin, les Blancs prennent un engagement défini. Ils gagnent plus d'espace à l'aile dame et tiennent un cavalier noir hors de c5, mais au prix d'affaiblir le pion c4. Pour le moment les Blancs sont encore loin de créer une menace définie à l'aile dame, mais le danger latent de a4-a5 est une inquiétude constante pour les Noirs.",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Red8",
+      "text": "Comme d'habitude dans le Hérisson, les deux camps manœuvrent, tentant d'anticiper l'adversaire. Les Noirs placent leur tour face à la dame blanche « au cas où ».",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "Qe3",
+      "text": "Les Blancs voudraient soutenir a4-a5 avec Nb3, mais pour le moment 18 Nb3 Ne5 forcerait plus ou moins le cavalier à revenir en d2.\n\nTrait aux Noirs\n\nPar conséquent, les Blancs placent d'abord leur dame sur la case plus sûre e2 avant d'envisager Nb3.",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "Ba8",
+      "text": "18...Ne5 est imprudent ; après 19 Qxb6 Rxc4 (19...Nxc4 20 Nxc4 Rxc4 21 e5 gagne du matériel) 20 f4 Rc6 21 Qd4 Ned7 22 Nb3 suivi de Na5 les Blancs sont légèrement mieux.\n\nLe coup du texte menace 19...b5.",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "Qe2",
+      "text": "Il n'y a toujours pas de réelle menace de jouer Nb3, puisque les Noirs peuvent à nouveau répondre ...Ne5. Les Blancs devraient d'abord jouer f4 pour continuer avec ce plan, mais chaque avance de pion crée une faiblesse potentielle, et pour le moment les Blancs ne sont pas prêts pour cela.",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "Ne8",
+      "text": "Les Noirs jouent avec l'idée de ...Bf6.",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "Nf1",
+      "text": "Trait aux Noirs\n\nL'idée derrière ce coup est le transfert possible du cavalier en e3, où il couvre à nouveau c4 mais est autrement plus activement placé. Bien que cela rende a4-a5 plus difficile à réaliser, avec ses cavaliers si bien placés les Blancs pourraient à nouveau envisager de jouer à l'aile roi. Ce genre de partie de manœuvres, où les Blancs jouent d'abord avec une idée puis avec une autre, est très désagréable à affronter. Les Noirs doivent constamment rester en alerte pour contrer les tentatives blanches de progresser, tandis qu'ils ont eux-mêmes peu de possibilités actives. La position elle-même ne favorise pas significativement les Blancs, mais ce type de partie est celui que personne ne jouait mieux que Karpov à son apogée. Bien sûr, de telles manœuvres paisibles ne sont possibles que parce que les Noirs sont incapables d'améliorer leur position.",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "Bb7",
+      "text": "Les Noirs repèrent le défaut du plan Ne3 des Blancs, à savoir qu'il affaiblit le pion e4. Par conséquent ils préparent ...Qa8 et ...Nef6.",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "Kh2",
+      "text": "Karpov ne veut pas s'engager à placer le cavalier en e3, aussi range-t-il à nouveau sa position. S'il joue éventuellement f4, il sera utile d'avoir son roi hors de la diagonale a7-g1.",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "Nef6",
+      "text": "Maintenant la pression contre e4 exclut définitivement Ne3.",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "Nd2",
+      "text": "Ainsi Karpov abandonne ce plan, et ramène son cavalier en d2.",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "Ne8",
+      "text": "Ribli se contente d'avoir forcé Karpov à rétracter son plan, et replace son cavalier en e8.",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "Re1",
+      "text": "Trait aux Noirs\n\nLes Blancs introduisent une nouvelle idée : ils veulent jouer Nb3, rencontrant ...Ne5 par Nd1. Alors ils soutiendront soit le pion c4 avec Ne3, soit simplement chasseront le cavalier noir par f4.",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "Ba8",
+      "text": "Les Noirs attendent, mais 23...Rc7 pourrait être légèrement plus exact, car les Noirs peuvent alors monter la pression contre c4 plus rapidement. Dans ce cas, le plan avec Nb3 ne serait pas viable, et les Blancs devraient essayer autre chose.",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "Nb3",
+      "text": "Les Blancs progressent lentement dans la bonne direction à l'aile dame.",
+      "isCritical": true
+    },
+    {
+      "ply": 48,
+      "san": "Bg5",
+      "text": "Tenter de presser c4 par 24...Ne5 25 Nd1 Qc7 n'est pas très efficace. Après 26 Ne3 les Noirs ne peuvent renforcer davantage la pression, si bien que les Blancs pourront chasser le cavalier par f4.\n\nTrait aux Blancs\n\nLe coup du texte vise à induire f4, peut-être sur la base que ce serait une avance de pion de trop et mènerait à la sur-extension de la position blanche. Il est souvent assez difficile de juger si une telle avance gagne de l'espace et favorise donc les Blancs, ou affaiblit et favorise donc les Noirs. Le même commentaire s'applique à de nombreuses avances de pions, mais il est particulièrement pertinent dans les cas où le camp qui pousse le pion a déjà fait un certain nombre d'autres avances de pions. Ce gain d'espace régulier peut finir par étouffer l'adversaire, ou il peut ouvrir la possibilité d'un contrejeu — tout dépend du niveau de soutien des pièces pour les avances de pions. Ici les forces blanches sont bien coordonnées et peuvent assumer la charge supplémentaire créée par la nouvelle avance de pion.",
+      "isCritical": true
+    },
+    {
+      "ply": 49,
+      "san": "Rc2",
+      "text": "L'ordre de coups n'a pas beaucoup d'importance. Karpov joue Rc2 avant f4, mais il aurait aussi pu inverser l'ordre de ces deux coups. La bataille sur les quelques coups suivants tourne autour du pion c4. Si les Blancs peuvent maintenir le pion tout en gardant leur cavalier en b3, alors ils auront progressé, mais si leur cavalier doit reculer en d2 alors les Noirs auront déjoué une autre tentative blanche d'accomplir quelque chose.",
+      "isCritical": true
+    },
+    {
+      "ply": 50,
+      "san": "Rc7",
+      "text": "Trait aux Blancs\n\nAssez tardivement, les Noirs décident de doubler les tours.",
+      "isCritical": true
+    },
+    {
+      "ply": 51,
+      "san": "f4",
+      "text": "C'est essentiel si les Blancs veulent doubler les tours.",
+      "isCritical": true
+    },
+    {
+      "ply": 52,
+      "san": "Bf6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 53,
+      "san": "Rec1",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 54,
+      "san": "Rdc8",
+      "text": "Après cela, les Blancs sont forcés de déplacer leur cavalier de c3.",
+      "isCritical": true
+    },
+    {
+      "ply": 55,
+      "san": "Nd1",
+      "text": "Maintenant l'échange des fous des cases noires est plus ou moins inévitable. Cela favorise les Noirs à un égard, puisque l'échange d'une paire de pièces mineures devrait favoriser le joueur qui a moins d'espace. D'un autre côté, le pion d6 était assez économiquement défendu par le fou de e7, et maintenant les Noirs devront immobiliser une de leurs autres pièces dans sa défense.",
+      "isCritical": true
+    },
+    {
+      "ply": 56,
+      "san": "Bb7",
+      "text": "Les Noirs prévoient qu'un de leurs cavaliers occupera f6 une fois les fous échangés. Cela leur fournira une pression toute prête contre e4, qu'ils peuvent maintenant augmenter par ...Qa8.\n\n28...b5 était l'alternative, mais avec le cavalier blanc déjà en b3 elle est moins attrayante. Après 29 Na5 Bxb2 30 Nxb2 les Noirs ont le problème qu'un échange en c4 amènerait un cavalier blanc dans une excellente position pour attaquer le pion d6.",
+      "isCritical": true
+    },
+    {
+      "ply": 57,
+      "san": "Qd3",
+      "text": "La dame vise le pion d6 potentiellement faible.",
+      "isCritical": true
+    },
+    {
+      "ply": 58,
+      "san": "Bxb2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 59,
+      "san": "Nxb2",
+      "text": "Maintenant que les Blancs ont c4 solidement défendu, la tâche principale des Noirs devrait être de réarranger leurs tours pour que d6 soit défendu, libérant ainsi le cavalier de e8.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 60,
+      "san": "Qa8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 61,
+      "san": "Nd1",
+      "text": "Le cavalier doit être prêt à rencontrer ...Ndf6 par Nf2.",
+      "isCritical": true
+    },
+    {
+      "ply": 62,
+      "san": "a5",
+      "text": "Jusqu'à ce point, les Noirs n'ont pas fait d'erreurs, et l'avantage d'espace des Blancs n'a conféré aucun avantage réel, parce qu'il n'y a tout simplement pas eu de cibles à attaquer. Maintenant, cependant, les Noirs perdent soudain patience et retirent volontairement l'une des « épines » du Hérisson. Le résultat est une faiblesse sérieuse en b5. La suite correcte était 31...Rd8, afin de défendre le pion d6 avec la tour. Dans ce cas, la position noire serait sans faiblesses, et les Blancs auraient du mal à progresser.",
+      "isCritical": true
+    },
+    {
+      "ply": 63,
+      "san": "Nd4",
+      "text": "Le cavalier de d1 ne peut aller en b5, à cause de la faiblesse de c4, mais l'autre cavalier peut y arriver avec un effet non moindre. Maintenant le pion d6 est une véritable cible et l'avantage d'espace des Blancs a quelque chose à mordre.",
+      "isCritical": true
+    },
+    {
+      "ply": 64,
+      "san": "Rd8",
+      "text": "Pour soutenir d6 et offrir un retrait à l'autre tour. 32...Ba6 est mauvais vu 33 e5 d5 34 Ne3 Qb8 35 b5 dxc4 36 Nxc4 avec une belle paire de cases faibles où sauter en c6 et d6.",
+      "isCritical": true
+    },
+    {
+      "ply": 65,
+      "san": "Nb5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 66,
+      "san": "Rcc8",
+      "text": "Trait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 67,
+      "san": "Ndc3",
+      "text": "Ayant forcé les Noirs à dédoubler, la pression contre c4 est soulagée, et l'autre cavalier peut prêter main-forte. Les manœuvres maladroites de tours des Noirs sont typiques des problèmes causés par le manque d'espace. Notons que 34 Nxd6? Ndf6 35 e5 Bxg2 36 Rxg2 Nxd6 37 exd6 Ne4 38 d7 Rc7 est bon pour les Noirs.",
+      "isCritical": true
+    },
+    {
+      "ply": 68,
+      "san": "Qb8",
+      "text": "Renforcement pour d6.",
+      "isCritical": true
+    },
+    {
+      "ply": 69,
+      "san": "Rd1",
+      "text": "Les Noirs ne sont plus capables de monter une quelconque contre-attaque contre c4, puisque ...Ne5 et ...Qc7 sont tous deux exclus. Par conséquent, les Blancs sont libres de basculer leurs tours sur la colonne d pour intensifier l'attaque sur d6.",
+      "isCritical": true
+    },
+    {
+      "ply": 70,
+      "san": "Ndf6",
+      "text": "Les Noirs ont maintenant manœuvré leurs pièces dans les meilleures positions défensives possibles et ne peuvent que s'asseoir et attendre de voir comment les Blancs entendent progresser.",
+      "isCritical": true
+    },
+    {
+      "ply": 71,
+      "san": "Rcd2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 72,
+      "san": "h6",
+      "text": "Ce coup soulage toute inquiétude de dernière rangée et pourrait s'avérer utile si les Blancs tentent de s'élargir à l'aile roi par g4-g5.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 73,
+      "san": "Qe2",
+      "text": "Avec le contrôle du temps qui approche, aucun des deux camps n'entreprend d'action positive. Les Blancs pourraient gagner du matériel par 37 e5 dxe5 38 Qxd8 mais après 38...Bxg2 39 Qd3 Ba8 la situation ne serait pas du tout claire. Les Noirs ont un pion pour la qualité, et leur fou actif est bien placé pour générer des menaces contre le roi blanc assez exposé.",
+      "isCritical": true
+    },
+    {
+      "ply": 74,
+      "san": "Ba8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 75,
+      "san": "Kg1",
+      "text": "En zeitnot, les deux joueurs manquent la forte possibilité 38 bxa5! bxa5 39 Rb2 Bb7 40 e5 dxe5 41 Bxb7 Qxb7 42 Nd6, où les Blancs gagnent du matériel.",
+      "isCritical": true
+    },
+    {
+      "ply": 76,
+      "san": "Bc6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 77,
+      "san": "Kh2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 78,
+      "san": "e5",
+      "text": "Attendre passivement n'était pas très satisfaisant ; par exemple, 39...Ba8 40 bxa5 bxa5 41 Rb2 gagnant comme dans la note au 38e coup des Blancs, ou 39...axb4 40 axb4 Ba8 41 Ra2, où la colonne a ouverte offre aux Blancs une autre méthode pour tourmenter les Noirs. Par conséquent les Noirs font un coup au centre, et écartent la possibilité que les Blancs jouent e5. Le défaut est que cette avance facilite pour les Blancs de gagner davantage d'espace à l'aile roi.",
+      "isCritical": true
+    },
+    {
+      "ply": 79,
+      "san": "f5",
+      "text": "Maintenant les Blancs ont le plan évident de g4 suivi de h4 et g5, repoussant les Noirs à l'aile roi.",
+      "isCritical": true
+    },
+    {
+      "ply": 80,
+      "san": "Qa8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 81,
+      "san": "g4",
+      "text": "Pas 41 Nxd6 Nxd6 42 Rxd6 Rxd6 43 Rxd6 axb4 44 axb4 Qa3, où les Noirs récupèrent le pion.",
+      "isCritical": true
+    },
+    {
+      "ply": 82,
+      "san": "Qb8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 83,
+      "san": "h4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 84,
+      "san": "Qb7",
+      "text": "Les Noirs prennent quelques mesures contre l'avance blanche à l'aile roi. La dame doit être transférée en e7, d'où elle jette un œil à la fois vers le pion b4 et la case g5.",
+      "isCritical": true
+    },
+    {
+      "ply": 85,
+      "san": "Bf3",
+      "text": "À nouveau, il serait mauvais de croquer le pion d6. Après 43 Nxd6 Nxd6 44 Rxd6 Rxd6 45 Rxd6 Qe7 46 Qd1 Ne8 les pions blancs commencent soudain à tomber.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 86,
+      "san": "Qe7",
+      "text": "C'est la meilleure case pour la dame. Les Noirs ont l'intention de rencontrer g5 par ...Nh7, où les Blancs auront du mal à maintenir le pion avancé en g5.",
+      "isCritical": true
+    },
+    {
+      "ply": 87,
+      "san": "Kg3",
+      "text": "Karpov se contente de jouer positionnellement, mais cela permet aux Noirs une chance de s'échapper de leur position passive, fondée sur des chances tactiques offertes par la position du roi en g3. 44 Kg2 aurait été plus solide, conservant l'avantage blanc.",
+      "isCritical": true
+    },
+    {
+      "ply": 88,
+      "san": "axb4",
+      "text": "Il est sans doute correct de profiter de la chance de s'échapper, mais en fait il n'est pas si facile pour les Blancs de gagner même si les Noirs défendent passivement (et si les Blancs avaient joué 44 Kg2, alors les Noirs auraient été forcés d'adopter cette option). Après 44...Ba8 45 Rh1 Bc6, par exemple, 46 Rdd1 (46 g5 Nh7 est obscur) 46...axb4 47 axb4 d5 48 cxd5 Bxb5 49 Nxb5 Qxb4 50 g5 Rc4! 51 gxf6 Qxb5 52 Rc1 Rdc8 53 Rxc4 Qxc4 54 Qxc4 Rxc4 55 fxg7 b5 est obscur, car le fou blanc est sérieusement restreint par ses propres pions. Le problème des Blancs est qu'il n'est pas facile de préparer g5 sans permettre aux Noirs de s'échapper dans des circonstances plus favorables que dans la partie. Bien sûr, les Blancs auraient encore un avantage clair, mais les Noirs ne seraient pas perdus.",
+      "isCritical": true
+    },
+    {
+      "ply": 89,
+      "san": "axb4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 90,
+      "san": "d5",
+      "text": "C'était le point derrière le coup précédent des Noirs.",
+      "isCritical": true
+    },
+    {
+      "ply": 91,
+      "san": "cxd5",
+      "text": "46 exd5 Bxb5 47 Nxb5 Nd6 48 Nxd6 Qxd6 attaque b4 et menace ...e4+.",
+      "isCritical": true
+    },
+    {
+      "ply": 92,
+      "san": "Bxb5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 93,
+      "san": "Nxb5",
+      "text": "Trait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 94,
+      "san": "Qxb4",
+      "text": "Il est naturel de rétablir l'égalité matérielle, mais en fait il était plus important de bloquer le dangereux pion d blanc par 47...Nd6 !. L'idée est de jouer un pion en moins, mais avec un bon cavalier contre un très mauvais fou. Alors les Noirs ont de bonnes chances de nulle, p.ex. 48 Nxd6 (48 Ra1 Nxb5 49 Qxb5 Rc3 donne aux Noirs un contrejeu désagréable — c'est un autre cas où le roi blanc est mal placé en g3) 48...Qxd6 (48...Rxd6 49 Rc2 est très bon pour les Blancs) 49 g5 (49 Qb5 Rc3 50 Rd3 Rc2 51 R1d2 Rc1 n'est pas clair non plus) 49...Nh7 50 Qe3 hxg5 51 hxg5 Qxb4 et les Blancs ne peuvent pas exploiter la colonne h comme dans la partie.",
+      "isCritical": true
+    },
+    {
+      "ply": 95,
+      "san": "g5",
+      "text": "Les Blancs tentent de chasser le cavalier noir vers une case inférieure.",
+      "isCritical": true
+    },
+    {
+      "ply": 96,
+      "san": "hxg5",
+      "text": "Ouvrir la colonne h c'est chercher les ennuis, mais les alternatives sont aussi insatisfaisantes :\n\n1) 48...Nh7 49 d6 Rc5 50 Rb2 Qc4 51 Qxc4 Rxc4 et les pièces passivement placées des Noirs donnent aux Blancs la chance de gagner par 52 d7 Nc7 53 Nd6 Rd4 54 Rxd4 exd4 55 Bh5! Rxd7 56 Bxf7+ Kf8 57 g6 Nf6 58 e5, etc.\n\n2) 48...Rc4 aurait opposé une résistance plus forte :\n\n2a) 49 gxf6 Qxb5 50 Rc2 (50 fxg7 Qc5) 50...Rc5 (50...Rdc8 51 Rxc4 Rxc4 52 d6 Nxf6 53 d7 gagne pour les Blancs) 51 Qxb5 Rxb5 52 fxg7 Kxg7 est confortable pour les Noirs.\n\n2b) 49 Rb2! Nxe4+ 50 Bxe4 (50 Kg2 Qa4 favorise les Noirs) 50...Rxe4 51 Rxb4 Rxe2 52 d6 est très bon pour les Blancs malgré le pion de moins : 52...Rc2 (52...Rd7 53 Rc4!) 53 d7 Nc7 54 Na7 Na8 (54...b5 55 Rd6 est aussi très bon pour les Blancs) 55 Nc8 hxg5 56 hxg5 f6 57 gxf6 gxf6 58 Rg4+ avec un large avantage pour les Blancs.",
+      "isCritical": true
+    },
+    {
+      "ply": 97,
+      "san": "hxg5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 98,
+      "san": "Nh7",
+      "text": "49...Rc4 donne aux Blancs le choix agréable entre 50 Rb2 Nxe4+ 51 Bxe4 Rxe4 52 Rxb4 Rxe2 53 d6, comme dans la note au 48e coup des Noirs, et 50 gxf6 Qxb5 51 fxg7 Nxg7 (51...Kxg7 52 Qe3 donne aux Blancs une attaque gagnante) 52 Qh2 f6 53 Rh1, où l'attaque blanche est trop forte.",
+      "isCritical": true
+    },
+    {
+      "ply": 99,
+      "san": "d6",
+      "text": "Trait aux Noirs\n\nMaintenant il n'y aura pas de blocus du pion d, et la dame noire ne peut pas revenir à l'aile roi. Les Noirs n'ont pas le temps de prendre en g5, car les Blancs menacent 51 d7.",
+      "isCritical": true
+    },
+    {
+      "ply": 100,
+      "san": "Rc5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 101,
+      "san": "Rb2",
+      "text": "51 Qh2 Rxb5 52 Rh1 (52 Qxh7+ Kxh7 53 Rh1+ Kg8 54 Rdh2 permet aux Noirs de s'échapper par 54...Qe1+) gagne aussi : 52...Rxd6 53 Qxh7+ Kf8 54 f6 Nxf6 (54...gxf6 55 g6! fxg6 56 Qa7 et les Noirs ne peuvent parer la menace de Rh8#) 55 gxf6 gxf6 56 Rxd6 Qxd6 57 Rd1 Qc7 58 Bh5 et il n'y a pas de défense contre 59 Rd8+. Cependant, le coup du texte est encore plus efficace.",
+      "isCritical": true
+    },
+    {
+      "ply": 102,
+      "san": "Qc4",
+      "text": "51...Qa5 52 Rh1 Nxd6 53 Nxd6 Rxd6 54 Ra2 est aussi décisif.",
+      "isCritical": true
+    },
+    {
+      "ply": 103,
+      "san": "Qh2",
+      "text": "Cela fonctionne maintenant que les Noirs n'ont plus la défense ...Qe1+.",
+      "isCritical": true
+    },
+    {
+      "ply": 104,
+      "san": "Rxb5",
+      "text": "Ribli permet généreusement une jolie conclusion.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 105,
+      "san": "Qxh7+",
+      "text": "Forçant le mat en quatre coups de plus.",
+      "isCritical": true
+    },
+    {
+      "ply": 106,
+      "san": "Kxh7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 107,
+      "san": "Rh2+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 108,
+      "san": "Kg8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 109,
+      "san": "Rdh1",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 110,
+      "san": "f6",
+      "text": "Ou 55...g6 56 Rh8+ Kg7 57 R1h7#.",
+      "isCritical": true
+    },
+    {
+      "ply": 111,
+      "san": "Rh8+",
+      "text": "56...1-0\n\nC'est mat au coup suivant.\n\nCe fut une partie typique de « Hérisson », les deux camps manœuvrant lentement, cherchant une occasion d'entreprendre une action concrète. Pendant longtemps, l'équilibre fut préservé, jusqu'à ce que les Noirs affaiblissent volontairement leur position avec 31...a5, donnant aux Blancs l'occasion de monter une pression sérieuse contre le pion d6. Cela, couplé à la possibilité d'une avance générale de pions à l'aile roi par les Blancs, rendit la position noire très gênante. Bien qu'il y eût quelques imprécisions plus tard, Karpov put conclure la partie avec une jolie finition.\n\nLes leçons ici sont :\n\n1) Un avantage d'espace confère généralement un avantage, mais cet avantage est minimisé s'il n'y a pas de faiblesses à attaquer.\n\n2) Les positions de « Hérisson » exigent beaucoup de patience des deux joueurs. Les coups impétueux sont susceptibles d'être sévèrement punis.\n\n3) Même des positions assez étriquées offrent des ressources pour une défense ingénieuse.\n\n4) Jouer positionnellement pendant plusieurs heures peut faire qu'il soit facile de négliger les tactiques lorsqu'elles surgissent — un piège dans lequel Karpov ne tombe pas.",
+      "isCritical": true
+    }
+  ]
+}

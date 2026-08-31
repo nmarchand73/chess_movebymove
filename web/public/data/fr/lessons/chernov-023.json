@@ -1,0 +1,457 @@
+{
+  "id": "chernov-023",
+  "book": "chernov",
+  "gameNum": 23,
+  "title": "Partie 23 : Van Vliet vs Znosko-Borovsky",
+  "section": "L'ouverture du pion dame",
+  "players": {
+    "white": "Van Vliet",
+    "black": "Znosko-Borovsky"
+  },
+  "event": "Ostend 1907",
+  "opening": "Attaque Stonewall",
+  "eco": "D00",
+  "pgnPath": "data/pgn/chernov/23.pgn",
+  "result": "0-1",
+  "moveCount": 72,
+  "annotatedMoves": 69,
+  "fullText": "Van Vliet – Znosko-Borovsky\n\nOstende 1907\n\nAttaque Stonewall\n\n1   d4\n\nL'ouverture du pion dame, pour paraphraser George Bernard Shaw, « offre le maximum de sécurité avec le maximum d'occasions. »\n\nDès le premier coup, les Blancs occupent le centre avec un pion et libèrent deux des pièces de l'aile dame.\n\nLeur plan général de développement s'articule à peu près ainsi :\n\nIls établiront et maintiendront au moins un pion au centre.\n\nCe pion servira de soutien à un avant-poste de cavalier en e5 ou c5.\n\nLes fous devront prendre en charge les diagonales clés ou clouer les pièces adverses.\n\nLes tours contrôleront les colonnes ouvertes ou partiellement ouvertes.\n\nLa dame devrait se tenir en c2 ou e2, près de la maison mais hors de la dernière rangée.\n\nLe roi devrait trouver la sécurité dans le roque, de préférence petit.\n\nFondamentalement, le but des Blancs est de gagner de l'espace et de coincer les Noirs contre le mur. Avec moins de place pour manœuvrer, et la difficulté qui en résulte de manœuvrer efficacement leurs pièces, les Noirs seront forcés d'affaiblir leur position. Ils devront faire de mauvais coups, parce que les bons coups ne sont pas facilement disponibles dans une position étriquée. Les faiblesses apparaîtront, et l'occasion de les exploiter viendra sous la forme d'une combinaison, résolvant la question d'un seul coup.\n\n1   ...     d5\n\nC'est un coup plus direct que 1...Nf6. L'un comme l'autre empêche les Blancs de jouer 2 e4 et d'établir deux pions au centre. Le coup du texte contrebalance la pression blanche au centre et y crée un état d'équilibre.\n\n2   e3\n\nUn coup étrangement passif dans une ouverture où chaque instant compte.\n\nHabituellement, les Blancs frappent le pion d noir par 2 c4 pour affaiblir son emprise sur le centre. Ou, s'ils ne veulent pas trop tôt montrer leur jeu, ils développent simplement une pièce par 2 Nf3.\n\n2   ...     c5\n\nAussi les Noirs prennent-ils l'initiative et jouent-ils ce coup libérateur capital. Il ouvre la colonne c pour l'usage des tours et donne au cavalier de b8 plus de champ en lui permettant de sortir en c6. Le pion c lui-même lutte pour la possession du centre par son attaque sur le pion d blanc.\n\n3   c3\n\nIndiquant qu'ils entendent répondre à 3...cxd4 par 4 cxd4. Cela garderait intacte leur position de pions au centre et ouvrirait la colonne c pour leurs pièces lourdes.\n\n3   ...     e6\n\nLes Noirs doivent protéger le pion c. Sinon les Blancs pourraient jouer 4 dxc5, puis s'accrocher au pion supplémentaire en le soutenant par 5 b4.\n\n4   Bd3\n\nLe fou se développe sur une diagonale utile, où il exerce une pression sur le centre et est prêt à participer à une attaque à l'aile roi.\n\n4   ...     Nc6\n\nUne rare occasion pour ce cavalier, qui obtient rarement de bonnes opportunités dans les ouvertures du pion dame. De son poste en c6, le cavalier exerce une influence considérable sur e5 et d4 et, comme on le verra plus tard, sur un autre secteur important.\n\n5   f4\n\nLes Blancs ont fait quatre coups sur cinq avec des pions afin d'obtenir un arrangement particulier connu sous le nom d'Attaque Stonewall. Outre le fait que faire tant de coups de pions dans l'ouverture est une violation flagrante des principes, l'adoption d'un système qui appelle au lancement d'une attaque par une formation de pièces conçue à l'avance, sans égard à l'opportunité d'une attaque et sans référence aux exigences de la position particulière, est contraire au concept de stratégie correcte et à l'esprit même des échecs. Une telle expédition revient à prendre le risque d'assumer l'offensive contre un ennemi dont la force est égale, dont le dispositif de puissance est inconnu et qui n'a trahi aucun point vulnérable. Dans ces conditions, une attaque est prématurée et est sûre d'être repoussée et transformée en retraite désordonnée. Si un tel système marchait, ce serait parfait pour les Blancs, qui gagneraient toujours, mais alors qui voudrait jouer les Noirs ?\n\n5   ...     Nf6\n\nUn excellent développement en attendant la suite ! Les deux cavaliers noirs sont admirablement postés, l'un veillant sur e5 et d4, tandis que l'autre observe les deux cases centrales restantes.\n\n6   Nd2\n\nCe cavalier a le choix malheureux de faire son entrée sur cette case ou en a3. En d2, il bloque le fou et n'a lui-même aucune perspective brillante. En a3 il n'est qu'à moitié cavalier, puisqu'il n'atteint au mieux que quatre directions au lieu de huit.\n\n6   ...     Qc7\n\nTrès bon, puisque les pièces lourdes (la dame et les tours) remplissent le mieux leurs fonctions lorsqu'elles sont placées sur des colonnes ouvertes, ou susceptibles de s'ouvrir.\n\nLa dame se développe avec gain de tempo puisqu'une menace positionnelle est en jeu – que les Blancs ou bien négligent, ou bien dédaignent.\n\n7   Ngf3\n\nDéveloppement de routine et, en l'occurrence, irréfléchi. Les Blancs sont si préoccupés d'exécuter le thème de base de l'attaque Stonewall (placement d'un cavalier en e5, solidement soutenu par des pions) qu'ils omettent de s'arrêter à chaque coup pour se demander : « Que menace mon adversaire avec son dernier coup ? A-t-il des échecs ou des prises qui réduisent mon choix de réponses ? »\n\n7   ...     cxd4\n\nLes Noirs arrachent l'ouverture de la colonne c d'un seul coup !\n\n8   cxd4\n\nLe point du coup noir se révèle dans cette reprise forcée. Les Blancs ne pouvaient pas prendre par 8 exd4 (dans l'espoir de maintenir un fort soutien de pions pour le poste éventuel d'un cavalier en e5) car cela permet la réponse brutale 8...Qxf4 gagnant un pion pour les Noirs. L'alternative, 8 Nxd4, entre en conflit avec le système que les Blancs avaient décidé de suivre avant même que les lignes de bataille ne soient tracées. Dans ce schéma, le cavalier appartient en e5, pas en d4, tandis que la case d4 devrait être occupée par un pion.\n\n8   ...     Nb4\n\nUne attaque gênante sur le fou ! Sans les services de cette pièce, les Blancs ne peuvent jamais espérer monter une attaque efficace à l'aile roi.\n\n9   Bb1\n\nUne case de retraite inhabituelle, mais la seule disponible si le fou veut rester sur la diagonale menant à l'aile roi des Noirs.\n\nLes Blancs ne sont pas trop troublés par ce revers. Ils s'attendent à chasser le cavalier ennemi par 10 a3 puis à réorganiser leurs troupes.\n\n9   ...     Bd7\n\nUn coup tranquille, mais subtil. Le fou fera sentir sa présence, même depuis ce départ modeste.\n\nLes Noirs sont maintenant préparés à déplacer leur tour en c8 pour renforcer leur emprise sur la colonne c.\n\n10   a3\n\nAvant de vaquer à leurs affaires, les Blancs doivent déloger le cavalier importun, qui perturbe toute leur aile dame.\n\n10   ...     Rc8\n\nCette contre-attaque a dû surprendre les Blancs.\n\nQue faire contre la menace de 11...Rxc1 ? S'ils jouent 11 axb4, vient 11...Rxc1 12 Rxa7 (certainement pas 12 Qxc1 Qxc1+, et les Noirs gagnent une tour) 12...Qxb2 (menaçant 13...Rc1, clouant la dame) 13 0-0 Qxb4, et les Noirs ont un pion d'avance – et un pion passé qui plus est.\n\n11  0-0\n\nMaintenant le fou est gardé par dame et tour, et donc à l'abri de la capture. Le roi pendant ce temps se met à l'abri.\n\n11   O-O\n\n11   ...     Bb5\n\nLe fou s'empare d'une belle diagonale avec gain de temps, car les Blancs doivent éloigner leur tour hors de portée.\n\n12   Re1\n\nClairement forcé, puisque 12 Rf2 perd sur-le-champ sur 12...Rxc1, tandis que 12 axb4 Bxf1 (menaçant de continuer par 13...Rxc1) coûte la qualité.\n\n12   ...     Nc2\n\nUne attaque sur les deux tours qui ne laisse aux Blancs aucun choix de réponse. Ils doivent éliminer ce terrible cavalier.\n\n13   Bxc2\n\nAprès la prise alternative 13 Qxc2,\n\nles Noirs jouent 13...Bxc2 14 Nxc2 Rxc2 et ont une tour sur la septième rangée, comme dans la partie réelle.\n\n13   ...     Qxc2\n\nLes Noirs pénètrent dans les entrailles de la position ennemie – la septième rangée.\n\nLes Blancs sont presque paralysés :\n\nLeur tour de e1 et leur dame sont empêchées de bouger par le fou noir de b5.\n\nLeur fou ne peut pas bouger du tout.\n\nUn cavalier doit rester en d2 pour empêcher 14...Ne4.\n\nLa tour de a1 peut bouger – mais en vain.\n\n14   Qxc2\n\nAussi échangent-ils leur dame impuissante contre la dame active des Noirs.\n\n14   ...     Rxc2\n\nLe résultat de la combinaison positionnelle des Noirs est qu'elle leur a donné le plein contrôle de la colonne ouverte et une emprise sur la septième rangée avec leur tour. La position de la tour en c2 a un effet terriblement constrictif sur la partie des Blancs. C'est particulièrement gênant car la tour n'est pas facilement chassée, tandis que les pièces blanches se gênent encore mutuellement.\n\n15   h3\n\nPour empêcher 15...Ng4, une invasion par une autre pièce.\n\n15   ...     Bd6\n\nLe fou se développe sur une diagonale utile.\n\n16   Nb1\n\nL'idée des Blancs est de réarranger leurs forces afin d'obtenir quelque liberté de mouvement. Ils projettent la suite 17 Nc3 Ba6 18 Nd1, suivie de 19 Bd2, pour se débarrasser de la tour noire importune. Par ce moyen, leur fou pourrait éventuellement voir quelque action.\n\n16   ...     Ne4\n\nLe cavalier fond immédiatement sur cet excellent avant-poste ! Non seulement cela étouffe toute avance libératrice du pion e3, mais cela balaie aussi le plan de réorganisation des Blancs. Si les Blancs essaient 17 Nc3, alors 17...Nxc3 18 bxc3 Rxc3 gagne un pion pour les Noirs.\n\n17   Nfd2\n\nLes Blancs essaient donc d'échanger ou autrement de se débarrasser du cavalier noir puissamment placé. Après cela, ils pourraient parvenir à quelque développement raisonnable.\n\n17   ...     Bd3\n\nLes Noirs acceptent cette offre, à la condition que si les cavaliers doivent être échangés, ils veulent une autre pièce occupant l'avant-poste e4.\n\n18   Nxe4\n\nLes Blancs n'ont d'autre choix que de débarrasser l'échiquier du plus de pièces possible, sinon ils ne pourront jamais extraire leurs forces de leur position embrouillée. Le coup 18 Nc3, qui plus tôt aurait perdu un pion, est encore pire maintenant parce qu'après 18...Bxd2 19 Nxd2 Rxd2 les Noirs gagnent une pièce.\n\n18   ...     Bxe4\n\nLes Noirs reprennent avec la menace de 19...Rxg2+, de sorte que les Blancs n'ont pas le temps de jouer 19 Nc3.\n\n19   Nd2\n\nLes Blancs sauvent le pion g en bloquant la tour, mais ils coupent aussi leur propre fou – et les Blancs se retrouvent dans l'enchevêtrement précédent.\n\nMalheureusement, rien d'autre n'est prometteur. Si 19 Bd2, alors 19...Rxb2 20 Rc1 (obtenant une colonne ouverte pour le pion et menaçant 21 Rc8+) 20...Kd7, et les Blancs seront chassés de la colonne par la menace de 21...Rxb1 gagnant davantage de matériel, ou 21...Rc8 opposant les tours sur la colonne.\n\n19   ...     Kd7\n\nBeaucoup plus énergique que le roque. Les menaces de mat sont peu probables avec si peu de pièces sur l'échiquier, aussi le roi sort-il au grand jour. La puissance du roi augmente avec chaque réduction de force, et, comme il sied à une pièce combative, le roi se dirige vers le centre pour assister à l'attaque. Cependant, une nouvelle avenue a été ouverte au bénéfice de la tour de h8.\n\n20   Nxe4\n\nLe seul espoir des Blancs est de continuer à débarrasser l'échiquier.\n\n20   ...     dxe4\n\nAprès cette reprise, un examen montre l'infériorité de la position blanche :\n\nLe fou est non développé, empêchant la communication entre les tours.\n\nLe groupe de pions au centre est complètement immobilisé.\n\nToutes les pièces sont encore sur la première rangée.\n\nOutre les particularités de cette position, il est important d'apprécier la force particulière dont est imprégnée une tour lorsqu'elle domine (comme celle des Noirs) la septième rangée :\n\nElle attaque les pions encore restés sur la rangée, frappant tout le long de la ligne, de sorte que les défendre est difficile.\n\nLa tour peut se placer derrière les pions qui ont quitté la rangée et maintenir une pression constante, puisque les pions sont toujours attaqués par la tour, quelle que soit la distance qu'ils avancent sur la colonne.\n\nLa tour empêche le roi adverse de sortir pour prendre part à la finale, en gardant la ligne de sortie.\n\nLa morale est :\n\nDans l'ouverture, amenez les tours vers le centre, sur des colonnes susceptibles de s'ouvrir.\n\nDans le milieu de jeu, saisissez les colonnes ouvertes et commandez-les avec vos tours.\n\nDans la finale, placez vos tours sur la septième rangée. Des tours doublées sur la septième rangée sont presque irrésistibles dans les attaques de mat. S'il reste peu de matériel sur l'échiquier, la septième rangée est un moyen commode de manœuvrer une tour derrière les pions ennemis.\n\n21   Rb1\n\nPrépare à jouer 22 b4 suivi de 23 Bb2, pour laisser enfin le fou voir le jour.\n\nIl est inutile de tenter de déloger la tour noire, par exemple après 21 Kf1 Rhc8 22 Ke2 Rxc1+ les Noirs gagnent une pièce.\n\n21   ...     Rhc8\n\nLe doublement des tours sur une colonne ouverte plus que double leur force sur cette colonne.\n\nLeur puissance se manifeste ici, où elles réduisent la résistance des Blancs au faible espoir de développer leur fou. Les tours blanches ne peuvent quitter la première rangée que si le fou le fait d'abord.\n\n22   b4\n\nCela rend la case b2 disponible pour le fou.\n\n22   ...     R8c3\n\nDécourageant ce projet ! Contre 23 Bb2, les Noirs jouent 23...Rb3, avec une double attaque sur le fou. Cela force 24 Ba1, où 24...Rxa3 gagne un pion pour les Noirs, qui doublent alors les tours sur la septième rangée pour une victoire aisée.\n\n23   Kf1\n\nLe roi se rapproche pour garder la tour, qui protégera le fou lorsqu'il quittera la première rangée. En langage échiquéen, les Blancs entendent 24 Bb2 Rb3 25 Ke2 (un coup auparavant impossible) où tous les points sont au moins temporairement sécurisés.\n\n23   ...     Kc6\n\nLe roi prend part à la finale, faisant son chemin le long des cases claires affaiblies.\n\nLa recette de Tarrasch dans des cas similaires est : « Le roi doit être avancé (en finale) aussi loin que compatible avec sa sécurité, droit dans le camp ennemi, où il peut capturer des pions, arrêter les pions hostiles et mener ses propres pions à la promotion. »\n\nReuben Fine dit clairement et simplement : « Le roi est une pièce forte – utilisez-le ! »\n\n24   Bb2\n\nLe fou parvient à sortir, mais est-ce trop tard ?\n\n24   ...     Rb3\n\nAttaquant immédiatement le fou et forçant le prochain coup des Blancs.\n\n25   Re2\n\nClairement la seule façon de sauver le fou sans perdre le pion a. Si au lieu de cela 25 Rec1, alors 25...Rxb2 gagne une pièce pour les Noirs.\n\n25   ...     Rxe2\n\nLes Noirs sont heureux d'échanger les tours et de simplifier la finale. Ils conservent un avantage positionnel dans la mobilité supérieure de leurs pièces, y compris leur roi, qui projette de s'introduire parmi les pions ennemis et d'y faire des ravages.\n\n26   Kxe2\n\nLes Blancs reprennent et menacent de se dégager par 27 Rc1+ Kb5 28 Rc2, et le fou est désépinglé tandis que la tour (après 29 Rc1) pourrait même utiliser la colonne ouverte !\n\n26   ...     Kb5\n\nS'écartant légèrement, le roi évite l'échec. Il se dirige vers a4, pour obtenir une bonne emprise sur l'aile dame blanche avant de commencer à saper les pions de cette aile.\n\n27   Kd2\n\nLa tour et le fou des Blancs sont immobilisés, aussi sont-ils réduits aux coups de roi – et pas trop nombreux, car le pion e a besoin de protection.\n\n27   ...     Ka4\n\nAvant de commencer la combinaison décisive, les Noirs rendent les pions adverses impuissants.\n\n28   Ke2\n\nTout ce qui reste aux Blancs, hormis des coups sans signification des pions de l'aile roi.\n\n28   ...     a5\n\nLes pions, comme nous le verrons, sont inégalés comme fer de lance d'une attaque. Ils peuvent percer presque n'importe quelle barrière.\n\nLa menace des Noirs est 29...axb4 30 axb4 Bxb4, gagnant un pion.\n\n29   Kf2\n\nSur 29 bxa5, 29...Bxa3 reprend le pion puis gagne le fou, tandis qu'après 29 Kd2 axb4 30 axb4 Bxb4+ 31 Kc2 Ba3 les Noirs échangent toutes les pièces pour se laisser avec un pion d'avance et une victoire élémentaire.\n\n29   ...     axb4\n\nLe premier butin.\n\n30   axb4\n\nSinon le pion noir continue à faire des ravages.\n\n30   ...     Kxb4\n\nLes Noirs ne prennent ni avec la tour ni avec le fou. L'une comme l'autre donnerait aux Blancs le temps pour 31 Ra1+ et la liberté pour leur fou.\n\n31   Ke2\n\nLes Blancs sont réduits à des coups d'attente.\n\n31   ...     Kb5\n\nIci aussi, déplacer le roi sur la colonne a ou la colonne c permet un échec de la tour.\n\nLes Noirs menacent maintenant de doubler la pression sur le fou cloué par 32...Ba3 et de gagner une pièce.\n\n32   Kd2\n\nLe roi se rapproche pour sauver le fou.\n\n32   ...     Ba3\n\nForçant la décision en attaquant à nouveau le fou.\n\n33   Kc2\n\nLe seul coup.\n\n33  ... Rxb2+!\n\nDébarrassant l'échiquier des pièces et réduisant à une finale de pions. C'est la façon la plus simple de gagner une finale avec un pion d'avance.\n\n34 Rxb2+\n\nLes Blancs doivent reprendre.\n\n33   ...     Rxb2+\n\n34   Rxb2+\n\n34   ...     Bxb2\n\nPoursuivant la simplification.\n\n35   Kxb2\n\nLe seul coup.\n\n35   ...     Kc4\n\nMenançant d'atteindre les pions de l'aile roi via d3.\n\n36   Kc2\n\nEmpêchant l'invasion prévue.\n\n36   ...     b5\n\nLes pions passés doivent être poussés ! Cela scelle la victoire, car les Blancs ne peuvent arrêter le pion sans laisser le roi noir s'introduire parmi leurs pions abandonnés.\n\n0-1\n\nLa suite pourrait être 37 g4 b4 38 h4 b3+ 39 Kd2 b2 40 Kc2 b1Q+ 41 Kxb1 Kd3 42 Kc1 Kxe3 43 Kd1 Kf2, et le nouveau pion passé avance sur l'échiquier pour devenir une dame.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Van Vliet – Znosko-Borovsky\n\nOstende 1907\n\nAttaque Stonewall"
+    },
+    {
+      "ply": 1,
+      "san": "d4",
+      "text": "L'ouverture du pion dame, pour paraphraser George Bernard Shaw, « offre le maximum de sécurité avec le maximum d'occasions. »\n\nDès le premier coup, les Blancs occupent le centre avec un pion et libèrent deux des pièces de l'aile dame.\n\nLeur plan général de développement s'articule à peu près ainsi :\n\nIls établiront et maintiendront au moins un pion au centre.\n\nCe pion servira de soutien à un avant-poste de cavalier en e5 ou c5.\n\nLes fous devront prendre en charge les diagonales clés ou clouer les pièces adverses.\n\nLes tours contrôleront les colonnes ouvertes ou partiellement ouvertes.\n\nLa dame devrait se tenir en c2 ou e2, près de la maison mais hors de la dernière rangée.\n\nLe roi devrait trouver la sécurité dans le roque, de préférence petit.\n\nFondamentalement, le but des Blancs est de gagner de l'espace et de coincer les Noirs contre le mur. Avec moins de place pour manœuvrer, et la difficulté qui en résulte de manœuvrer efficacement leurs pièces, les Noirs seront forcés d'affaiblir leur position. Ils devront faire de mauvais coups, parce que les bons coups ne sont pas facilement disponibles dans une position étriquée. Les faiblesses apparaîtront, et l'occasion de les exploiter viendra sous la forme d'une combinaison, résolvant la question d'un seul coup.",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "d5",
+      "text": "C'est un coup plus direct que 1...Nf6. L'un comme l'autre empêche les Blancs de jouer 2 e4 et d'établir deux pions au centre. Le coup du texte contrebalance la pression blanche au centre et y crée un état d'équilibre.",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "e3",
+      "text": "Un coup étrangement passif dans une ouverture où chaque instant compte.\n\nHabituellement, les Blancs frappent le pion d noir par 2 c4 pour affaiblir son emprise sur le centre. Ou, s'ils ne veulent pas trop tôt montrer leur jeu, ils développent simplement une pièce par 2 Nf3.",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "c5",
+      "text": "Aussi les Noirs prennent-ils l'initiative et jouent-ils ce coup libérateur capital. Il ouvre la colonne c pour l'usage des tours et donne au cavalier de b8 plus de champ en lui permettant de sortir en c6. Le pion c lui-même lutte pour la possession du centre par son attaque sur le pion d blanc.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "c3",
+      "text": "Indiquant qu'ils entendent répondre à 3...cxd4 par 4 cxd4. Cela garderait intacte leur position de pions au centre et ouvrirait la colonne c pour leurs pièces lourdes.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "e6",
+      "text": "Les Noirs doivent protéger le pion c. Sinon les Blancs pourraient jouer 4 dxc5, puis s'accrocher au pion supplémentaire en le soutenant par 5 b4.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "Bd3",
+      "text": "Le fou se développe sur une diagonale utile, où il exerce une pression sur le centre et est prêt à participer à une attaque à l'aile roi.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "Nc6",
+      "text": "Une rare occasion pour ce cavalier, qui obtient rarement de bonnes opportunités dans les ouvertures du pion dame. De son poste en c6, le cavalier exerce une influence considérable sur e5 et d4 et, comme on le verra plus tard, sur un autre secteur important.",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "f4",
+      "text": "Les Blancs ont fait quatre coups sur cinq avec des pions afin d'obtenir un arrangement particulier connu sous le nom d'Attaque Stonewall. Outre le fait que faire tant de coups de pions dans l'ouverture est une violation flagrante des principes, l'adoption d'un système qui appelle au lancement d'une attaque par une formation de pièces conçue à l'avance, sans égard à l'opportunité d'une attaque et sans référence aux exigences de la position particulière, est contraire au concept de stratégie correcte et à l'esprit même des échecs. Une telle expédition revient à prendre le risque d'assumer l'offensive contre un ennemi dont la force est égale, dont le dispositif de puissance est inconnu et qui n'a trahi aucun point vulnérable. Dans ces conditions, une attaque est prématurée et est sûre d'être repoussée et transformée en retraite désordonnée. Si un tel système marchait, ce serait parfait pour les Blancs, qui gagneraient toujours, mais alors qui voudrait jouer les Noirs ?",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "Nf6",
+      "text": "Un excellent développement en attendant la suite ! Les deux cavaliers noirs sont admirablement postés, l'un veillant sur e5 et d4, tandis que l'autre observe les deux cases centrales restantes.",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "Nd2",
+      "text": "Ce cavalier a le choix malheureux de faire son entrée sur cette case ou en a3. En d2, il bloque le fou et n'a lui-même aucune perspective brillante. En a3 il n'est qu'à moitié cavalier, puisqu'il n'atteint au mieux que quatre directions au lieu de huit.",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "Qc7",
+      "text": "Très bon, puisque les pièces lourdes (la dame et les tours) remplissent le mieux leurs fonctions lorsqu'elles sont placées sur des colonnes ouvertes, ou susceptibles de s'ouvrir.\n\nLa dame se développe avec gain de tempo puisqu'une menace positionnelle est en jeu – que les Blancs ou bien négligent, ou bien dédaignent.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "Ngf3",
+      "text": "Développement de routine et, en l'occurrence, irréfléchi. Les Blancs sont si préoccupés d'exécuter le thème de base de l'attaque Stonewall (placement d'un cavalier en e5, solidement soutenu par des pions) qu'ils omettent de s'arrêter à chaque coup pour se demander : « Que menace mon adversaire avec son dernier coup ? A-t-il des échecs ou des prises qui réduisent mon choix de réponses ? »",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "cxd4",
+      "text": "Les Noirs arrachent l'ouverture de la colonne c d'un seul coup !",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "cxd4",
+      "text": "Le point du coup noir se révèle dans cette reprise forcée. Les Blancs ne pouvaient pas prendre par 8 exd4 (dans l'espoir de maintenir un fort soutien de pions pour le poste éventuel d'un cavalier en e5) car cela permet la réponse brutale 8...Qxf4 gagnant un pion pour les Noirs. L'alternative, 8 Nxd4, entre en conflit avec le système que les Blancs avaient décidé de suivre avant même que les lignes de bataille ne soient tracées. Dans ce schéma, le cavalier appartient en e5, pas en d4, tandis que la case d4 devrait être occupée par un pion.",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "Nb4",
+      "text": "Une attaque gênante sur le fou ! Sans les services de cette pièce, les Blancs ne peuvent jamais espérer monter une attaque efficace à l'aile roi.",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "Bb1",
+      "text": "Une case de retraite inhabituelle, mais la seule disponible si le fou veut rester sur la diagonale menant à l'aile roi des Noirs.\n\nLes Blancs ne sont pas trop troublés par ce revers. Ils s'attendent à chasser le cavalier ennemi par 10 a3 puis à réorganiser leurs troupes.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "Bd7",
+      "text": "Un coup tranquille, mais subtil. Le fou fera sentir sa présence, même depuis ce départ modeste.\n\nLes Noirs sont maintenant préparés à déplacer leur tour en c8 pour renforcer leur emprise sur la colonne c.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "a3",
+      "text": "Avant de vaquer à leurs affaires, les Blancs doivent déloger le cavalier importun, qui perturbe toute leur aile dame.",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "Rc8",
+      "text": "Cette contre-attaque a dû surprendre les Blancs.\n\nQue faire contre la menace de 11...Rxc1 ? S'ils jouent 11 axb4, vient 11...Rxc1 12 Rxa7 (certainement pas 12 Qxc1 Qxc1+, et les Noirs gagnent une tour) 12...Qxb2 (menaçant 13...Rc1, clouant la dame) 13 0-0 Qxb4, et les Noirs ont un pion d'avance – et un pion passé qui plus est.\n\n11  0-0\n\nMaintenant le fou est gardé par dame et tour, et donc à l'abri de la capture. Le roi pendant ce temps se met à l'abri.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "Bb5",
+      "text": "Le fou s'empare d'une belle diagonale avec gain de temps, car les Blancs doivent éloigner leur tour hors de portée.",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "Re1",
+      "text": "Clairement forcé, puisque 12 Rf2 perd sur-le-champ sur 12...Rxc1, tandis que 12 axb4 Bxf1 (menaçant de continuer par 13...Rxc1) coûte la qualité.",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "Nc2",
+      "text": "Une attaque sur les deux tours qui ne laisse aux Blancs aucun choix de réponse. Ils doivent éliminer ce terrible cavalier.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Bxc2",
+      "text": "Après la prise alternative 13 Qxc2,\n\nles Noirs jouent 13...Bxc2 14 Nxc2 Rxc2 et ont une tour sur la septième rangée, comme dans la partie réelle.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "Qxc2",
+      "text": "Les Noirs pénètrent dans les entrailles de la position ennemie – la septième rangée.\n\nLes Blancs sont presque paralysés :\n\nLeur tour de e1 et leur dame sont empêchées de bouger par le fou noir de b5.\n\nLeur fou ne peut pas bouger du tout.\n\nUn cavalier doit rester en d2 pour empêcher 14...Ne4.\n\nLa tour de a1 peut bouger – mais en vain.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Qxc2",
+      "text": "Aussi échangent-ils leur dame impuissante contre la dame active des Noirs.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "Rxc2",
+      "text": "Le résultat de la combinaison positionnelle des Noirs est qu'elle leur a donné le plein contrôle de la colonne ouverte et une emprise sur la septième rangée avec leur tour. La position de la tour en c2 a un effet terriblement constrictif sur la partie des Blancs. C'est particulièrement gênant car la tour n'est pas facilement chassée, tandis que les pièces blanches se gênent encore mutuellement.",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "h3",
+      "text": "Pour empêcher 15...Ng4, une invasion par une autre pièce.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "Bd6",
+      "text": "Le fou se développe sur une diagonale utile.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Nb1",
+      "text": "L'idée des Blancs est de réarranger leurs forces afin d'obtenir quelque liberté de mouvement. Ils projettent la suite 17 Nc3 Ba6 18 Nd1, suivie de 19 Bd2, pour se débarrasser de la tour noire importune. Par ce moyen, leur fou pourrait éventuellement voir quelque action.",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Ne4",
+      "text": "Le cavalier fond immédiatement sur cet excellent avant-poste ! Non seulement cela étouffe toute avance libératrice du pion e3, mais cela balaie aussi le plan de réorganisation des Blancs. Si les Blancs essaient 17 Nc3, alors 17...Nxc3 18 bxc3 Rxc3 gagne un pion pour les Noirs.",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Nfd2",
+      "text": "Les Blancs essaient donc d'échanger ou autrement de se débarrasser du cavalier noir puissamment placé. Après cela, ils pourraient parvenir à quelque développement raisonnable.",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Bd3",
+      "text": "Les Noirs acceptent cette offre, à la condition que si les cavaliers doivent être échangés, ils veulent une autre pièce occupant l'avant-poste e4.",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "Nxe4",
+      "text": "Les Blancs n'ont d'autre choix que de débarrasser l'échiquier du plus de pièces possible, sinon ils ne pourront jamais extraire leurs forces de leur position embrouillée. Le coup 18 Nc3, qui plus tôt aurait perdu un pion, est encore pire maintenant parce qu'après 18...Bxd2 19 Nxd2 Rxd2 les Noirs gagnent une pièce.",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "Bxe4",
+      "text": "Les Noirs reprennent avec la menace de 19...Rxg2+, de sorte que les Blancs n'ont pas le temps de jouer 19 Nc3.",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "Nd2",
+      "text": "Les Blancs sauvent le pion g en bloquant la tour, mais ils coupent aussi leur propre fou – et les Blancs se retrouvent dans l'enchevêtrement précédent.\n\nMalheureusement, rien d'autre n'est prometteur. Si 19 Bd2, alors 19...Rxb2 20 Rc1 (obtenant une colonne ouverte pour le pion et menaçant 21 Rc8+) 20...Kd7, et les Blancs seront chassés de la colonne par la menace de 21...Rxb1 gagnant davantage de matériel, ou 21...Rc8 opposant les tours sur la colonne.",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "Kd7",
+      "text": "Beaucoup plus énergique que le roque. Les menaces de mat sont peu probables avec si peu de pièces sur l'échiquier, aussi le roi sort-il au grand jour. La puissance du roi augmente avec chaque réduction de force, et, comme il sied à une pièce combative, le roi se dirige vers le centre pour assister à l'attaque. Cependant, une nouvelle avenue a été ouverte au bénéfice de la tour de h8.",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "Nxe4",
+      "text": "Le seul espoir des Blancs est de continuer à débarrasser l'échiquier.",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "dxe4",
+      "text": "Après cette reprise, un examen montre l'infériorité de la position blanche :\n\nLe fou est non développé, empêchant la communication entre les tours.\n\nLe groupe de pions au centre est complètement immobilisé.\n\nToutes les pièces sont encore sur la première rangée.\n\nOutre les particularités de cette position, il est important d'apprécier la force particulière dont est imprégnée une tour lorsqu'elle domine (comme celle des Noirs) la septième rangée :\n\nElle attaque les pions encore restés sur la rangée, frappant tout le long de la ligne, de sorte que les défendre est difficile.\n\nLa tour peut se placer derrière les pions qui ont quitté la rangée et maintenir une pression constante, puisque les pions sont toujours attaqués par la tour, quelle que soit la distance qu'ils avancent sur la colonne.\n\nLa tour empêche le roi adverse de sortir pour prendre part à la finale, en gardant la ligne de sortie.\n\nLa morale est :\n\nDans l'ouverture, amenez les tours vers le centre, sur des colonnes susceptibles de s'ouvrir.\n\nDans le milieu de jeu, saisissez les colonnes ouvertes et commandez-les avec vos tours.\n\nDans la finale, placez vos tours sur la septième rangée. Des tours doublées sur la septième rangée sont presque irrésistibles dans les attaques de mat. S'il reste peu de matériel sur l'échiquier, la septième rangée est un moyen commode de manœuvrer une tour derrière les pions ennemis.",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "Rb1",
+      "text": "Prépare à jouer 22 b4 suivi de 23 Bb2, pour laisser enfin le fou voir le jour.\n\nIl est inutile de tenter de déloger la tour noire, par exemple après 21 Kf1 Rhc8 22 Ke2 Rxc1+ les Noirs gagnent une pièce.",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "Rhc8",
+      "text": "Le doublement des tours sur une colonne ouverte plus que double leur force sur cette colonne.\n\nLeur puissance se manifeste ici, où elles réduisent la résistance des Blancs au faible espoir de développer leur fou. Les tours blanches ne peuvent quitter la première rangée que si le fou le fait d'abord.",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "b4",
+      "text": "Cela rend la case b2 disponible pour le fou.",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "R8c3",
+      "text": "Décourageant ce projet ! Contre 23 Bb2, les Noirs jouent 23...Rb3, avec une double attaque sur le fou. Cela force 24 Ba1, où 24...Rxa3 gagne un pion pour les Noirs, qui doublent alors les tours sur la septième rangée pour une victoire aisée.",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "Kf1",
+      "text": "Le roi se rapproche pour garder la tour, qui protégera le fou lorsqu'il quittera la première rangée. En langage échiquéen, les Blancs entendent 24 Bb2 Rb3 25 Ke2 (un coup auparavant impossible) où tous les points sont au moins temporairement sécurisés.",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "Kc6",
+      "text": "Le roi prend part à la finale, faisant son chemin le long des cases claires affaiblies.\n\nLa recette de Tarrasch dans des cas similaires est : « Le roi doit être avancé (en finale) aussi loin que compatible avec sa sécurité, droit dans le camp ennemi, où il peut capturer des pions, arrêter les pions hostiles et mener ses propres pions à la promotion. »\n\nReuben Fine dit clairement et simplement : « Le roi est une pièce forte – utilisez-le ! »",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "Bb2",
+      "text": "Le fou parvient à sortir, mais est-ce trop tard ?",
+      "isCritical": true
+    },
+    {
+      "ply": 48,
+      "san": "Rb3",
+      "text": "Attaquant immédiatement le fou et forçant le prochain coup des Blancs.",
+      "isCritical": true
+    },
+    {
+      "ply": 49,
+      "san": "Re2",
+      "text": "Clairement la seule façon de sauver le fou sans perdre le pion a. Si au lieu de cela 25 Rec1, alors 25...Rxb2 gagne une pièce pour les Noirs.",
+      "isCritical": true
+    },
+    {
+      "ply": 50,
+      "san": "Rxe2",
+      "text": "Les Noirs sont heureux d'échanger les tours et de simplifier la finale. Ils conservent un avantage positionnel dans la mobilité supérieure de leurs pièces, y compris leur roi, qui projette de s'introduire parmi les pions ennemis et d'y faire des ravages.",
+      "isCritical": true
+    },
+    {
+      "ply": 51,
+      "san": "Kxe2",
+      "text": "Les Blancs reprennent et menacent de se dégager par 27 Rc1+ Kb5 28 Rc2, et le fou est désépinglé tandis que la tour (après 29 Rc1) pourrait même utiliser la colonne ouverte !",
+      "isCritical": true
+    },
+    {
+      "ply": 52,
+      "san": "Kb5",
+      "text": "S'écartant légèrement, le roi évite l'échec. Il se dirige vers a4, pour obtenir une bonne emprise sur l'aile dame blanche avant de commencer à saper les pions de cette aile.",
+      "isCritical": true
+    },
+    {
+      "ply": 53,
+      "san": "Kd2",
+      "text": "La tour et le fou des Blancs sont immobilisés, aussi sont-ils réduits aux coups de roi – et pas trop nombreux, car le pion e a besoin de protection.",
+      "isCritical": true
+    },
+    {
+      "ply": 54,
+      "san": "Ka4",
+      "text": "Avant de commencer la combinaison décisive, les Noirs rendent les pions adverses impuissants.",
+      "isCritical": true
+    },
+    {
+      "ply": 55,
+      "san": "Ke2",
+      "text": "Tout ce qui reste aux Blancs, hormis des coups sans signification des pions de l'aile roi.",
+      "isCritical": true
+    },
+    {
+      "ply": 56,
+      "san": "a5",
+      "text": "Les pions, comme nous le verrons, sont inégalés comme fer de lance d'une attaque. Ils peuvent percer presque n'importe quelle barrière.\n\nLa menace des Noirs est 29...axb4 30 axb4 Bxb4, gagnant un pion.",
+      "isCritical": true
+    },
+    {
+      "ply": 57,
+      "san": "Kf2",
+      "text": "Sur 29 bxa5, 29...Bxa3 reprend le pion puis gagne le fou, tandis qu'après 29 Kd2 axb4 30 axb4 Bxb4+ 31 Kc2 Ba3 les Noirs échangent toutes les pièces pour se laisser avec un pion d'avance et une victoire élémentaire.",
+      "isCritical": true
+    },
+    {
+      "ply": 58,
+      "san": "axb4",
+      "text": "Le premier butin.",
+      "isCritical": true
+    },
+    {
+      "ply": 59,
+      "san": "axb4",
+      "text": "Sinon le pion noir continue à faire des ravages.",
+      "isCritical": true
+    },
+    {
+      "ply": 60,
+      "san": "Kxb4",
+      "text": "Les Noirs ne prennent ni avec la tour ni avec le fou. L'une comme l'autre donnerait aux Blancs le temps pour 31 Ra1+ et la liberté pour leur fou.",
+      "isCritical": true
+    },
+    {
+      "ply": 61,
+      "san": "Ke2",
+      "text": "Les Blancs sont réduits à des coups d'attente.",
+      "isCritical": true
+    },
+    {
+      "ply": 62,
+      "san": "Kb5",
+      "text": "Ici aussi, déplacer le roi sur la colonne a ou la colonne c permet un échec de la tour.\n\nLes Noirs menacent maintenant de doubler la pression sur le fou cloué par 32...Ba3 et de gagner une pièce.",
+      "isCritical": true
+    },
+    {
+      "ply": 63,
+      "san": "Kd2",
+      "text": "Le roi se rapproche pour sauver le fou.",
+      "isCritical": true
+    },
+    {
+      "ply": 64,
+      "san": "Ba3",
+      "text": "Forçant la décision en attaquant à nouveau le fou.",
+      "isCritical": true
+    },
+    {
+      "ply": 65,
+      "san": "Kc2",
+      "text": "Le seul coup.\n\n33  ... Rxb2+!\n\nDébarrassant l'échiquier des pièces et réduisant à une finale de pions. C'est la façon la plus simple de gagner une finale avec un pion d'avance.\n\n34 Rxb2+\n\nLes Blancs doivent reprendre.",
+      "isCritical": true
+    },
+    {
+      "ply": 66,
+      "san": "Rxb2+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 67,
+      "san": "Rxb2+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 68,
+      "san": "Bxb2",
+      "text": "Poursuivant la simplification.",
+      "isCritical": true
+    },
+    {
+      "ply": 69,
+      "san": "Kxb2",
+      "text": "Le seul coup.",
+      "isCritical": true
+    },
+    {
+      "ply": 70,
+      "san": "Kc4",
+      "text": "Menançant d'atteindre les pions de l'aile roi via d3.",
+      "isCritical": true
+    },
+    {
+      "ply": 71,
+      "san": "Kc2",
+      "text": "Empêchant l'invasion prévue.",
+      "isCritical": true
+    },
+    {
+      "ply": 72,
+      "san": "b5",
+      "text": "Les pions passés doivent être poussés ! Cela scelle la victoire, car les Blancs ne peuvent arrêter le pion sans laisser le roi noir s'introduire parmi leurs pions abandonnés.\n\n0-1\n\nLa suite pourrait être 37 g4 b4 38 h4 b3+ 39 Kd2 b2 40 Kc2 b1Q+ 41 Kxb1 Kd3 42 Kc1 Kxe3 43 Kd1 Kf2, et le nouveau pion passé avance sur l'échiquier pour devenir une dame.",
+      "isCritical": true
+    }
+  ]
+}

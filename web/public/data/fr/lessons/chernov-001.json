@@ -1,0 +1,229 @@
+{
+  "id": "chernov-001",
+  "book": "chernov",
+  "gameNum": 1,
+  "title": "Partie 1 : von Scheve – Teichmann",
+  "section": "L'attaque à l'aile roi",
+  "players": {
+    "white": "von Scheve",
+    "black": "Teichmann"
+  },
+  "event": "Berlin 1907",
+  "opening": "Partie italienne / Giuoco Piano",
+  "eco": "C53",
+  "pgnPath": "data/pgn/chernov/01.pgn",
+  "result": "0-1",
+  "moveCount": 34,
+  "annotatedMoves": 30,
+  "fullText": "von Scheve – Teichmann\n\nBerlin 1907\n\nGiuoco Piano\n\nLe but principal de toute stratégie d'ouverture est de sortir les pièces rapidement — hors de la dernière rangée et dans le jeu actif.\n\nOn ne peut pas attaquer (encore moins chercher le mat) avec une ou deux pièces.\n\nIl faut les développer toutes, car chacune a un rôle à jouer.\n\nUn bon moyen de commencer est de libérer deux pièces d'un seul coup, et cela se fait en avançant l'un des pions du centre.\n\n1  e4\n\nC'est un excellent coup d'ouverture. Les Blancs ancrent un pion au centre de l'échiquier et ouvrent des lignes pour leur dame et un fou. Leur prochain coup, s'ils y sont autorisés, sera 2 d4. Les deux pions contrôleront alors quatre cases de la cinquième rangée, c5, d5, e5 et f5, et empêcheront les Noirs de placer aucune de leurs pièces sur ces cases importantes.\n\nComment les Noirs doivent-ils répondre au premier coup des Blancs ? Ils ne doivent pas perdre de temps à envisager des coups sans signification, comme 1...h6 ou 1...a6. Ces coups, et d'autres coups sans but, ne font rien pour développer les pièces, et n'entravent pas non plus la menace des Blancs de monopoliser le centre.\n\nLes Noirs doivent lutter pour une part égale des bonnes cases. Les Noirs doivent contester la possession du centre.\n\nPourquoi tant d'insistance sur le centre ? Pourquoi est-il si important ?\n\nLes pièces placées au centre jouissent de la plus grande liberté d'action et ont le plus large champ pour leurs pouvoirs d'attaque. Un cavalier, par exemple, posté au centre, rayonne dans huit directions et attaque huit cases. Debout sur le bord de l'échiquier, son rayon d'attaque se limite à quatre cases. Ce n'est qu'un demi-cavalier !\n\nL'occupation du centre signifie le contrôle du territoire le plus précieux. Elle laisse moins d'espace aux pièces adverses et rend la défense difficile, car ses pièces tendent à se gêner mutuellement.\n\nL'occupation du centre, ou son contrôle à distance, dresse une barrière qui divise les forces de l'adversaire et les empêche de coopérer harmonieusement. La résistance d'une armée ainsi désunie n'est généralement pas très efficace.\n\n1   ...     e5\n\nTrès bien ! Les Noirs insistent pour obtenir une juste part du centre. Ils fixent solidement un pion à cet endroit et libèrent deux de leurs pièces.\n\n2 Nf3!\n\n(D)\n\nAbsolument le meilleur coup sur l'échiquier !\n\nLe cavalier se développe avec une menace — l'attaque d'un pion. Cela gagne du temps, car les Noirs ne sont pas libres de se développer comme ils l'entendent. Ils doivent sauver le pion avant toute autre chose,\n\net cela réduit leur choix de réponse.\n\nLe cavalier se développe vers le centre,\n\nce qui accroît la portée de son attaque.\n\nLe cavalier exerce une pression sur deux des cases stratégiquement importantes du centre, e5 et d4.\n\nLe cavalier entre en jeu tôt dans la partie, conformément au précepte : développez les cavaliers avant les fous !\n\nUne raison de la pertinence de ce principe est que le cavalier fait des pas plus courts que le fou. Il lui faut plus de temps pour atteindre la zone de combat. Le fou peut balayer toute la longueur de l'échiquier en un seul coup (remarquez comment le fou de f1 peut atteindre jusqu'à a6). Là où le cavalier met un saut, un bond et une pirouette pour arriver à b5, le fou le fait d'un seul élan.\n\nUn autre but du développement prioritaire des cavaliers est que nous savons assez bien où ils appartiennent dans l'ouverture. Nous savons qu'ils sont les plus efficaces sur certaines cases. Nous ne sommes pas toujours certains de la bonne place pour le fou. Nous pouvons vouloir que le fou commande une longue diagonale, ou préférer qu'il cloue une pièce adverse. Donc : sortez vos cavaliers avant de développer les fous !\n\nÀ ce stade, vous noterez que les Noirs doivent défendre leur pion e avant de s'occuper du reste.\n\nIl y a plusieurs façons de protéger le pion. Ils doivent évaluer et choisir parmi ces possibilités : 2...f6 ; 2...Qf6 ; 2...Qe7 ; 2...Bd6 ; 2...d6 ; et 2...Nc6. Comment les Noirs décident-ils du bon coup ? Doivent-ils analyser d'innombrables combinaisons et tenter de visualiser toute sorte d'attaque et de défense pour les dix ou quinze coups suivants ?\n\nLaissez-moi vous assurer sans délai qu'un maître ne perd pas de temps précieux en spéculations vaines. Au contraire, il se sert d'une arme secrète puissante — le jugement positionnel. L'appliquer lui permet d'éliminer de sa considération les coups inférieurs, auxquels le joueur moyen consacre beaucoup de réflexion. Il jette à peine un coup d'œil aux coups qui violent manifestement les principes !\n\nVoici ce qui pourrait lui passer par l'esprit lorsqu'il choisit le bon coup :\n\n2...f6 : « Terrible ! Mon pion f occupe une case qui devrait être réservée au cavalier et il bloque aussi le chemin de la dame le long de la diagonale. Et j'ai bougé un pion alors que je devrais développer des pièces. »\n\n2...Qf6 : « Mauvais, car mon cavalier appartient à f6, pas la dame. De plus, je gaspille la puissance de ma pièce la plus forte pour défendre un pion. »\n\n2...Qe7 :\n\n« Cela enferme le fou de f8, tandis que ma dame fait un travail qu'une pièce moindre pourrait assumer. »\n\n2...Bd6 : « J'ai développé une pièce, mais le pion d est obstrué, et mon fou de c8 risque d'être enterré vivant. »\n\n2...d6 : « Pas mal, puisque cela donne une issue au fou de c8. Mais attendez — cela limite la portée du fou de f8, et une fois de plus j'ai bougé un pion alors que je devrais mettre les pièces au travail. »\n\n2...Nc6 : « Eurêka ! C'est sûrement\n\nle meilleur, car j'ai développé une pièce sur sa case la plus appropriée et protégé le pion e en même temps. »\n\n2   ... Nc6!\n\nSans entrer dans une analyse fastidieuse, les Noirs choisissent le meilleur coup possible. Ils suivent le conseil du Français qui a dit : « Sortez les pièces ! ».\n\nIls sortent une pièce et sauvent le pion e sans aucune perte de temps.\n\nJe vous mettrais en garde : cette maxime et les autres ne doivent pas être suivies aveuglément. Aux échecs, comme dans la vie, les règles doivent souvent être mises de côté. En général, toutefois, les principes qui régissent un jeu sain font d'excellents jalons, surtout dans l'ouverture, le milieu de jeu et la finale !\n\n3 Bc4\n\n(D)\n\n« La meilleure pièce d'attaque est le fou du roi », dit Tarrasch, aussi les Blancs mettent-ils cette pièce au travail et dégagent-ils la voie pour un roque précoce.\n\nLe fou s'empare d'une diagonale précieuse au centre et attaque le pion f7 des Noirs. Ce pion est particulièrement vulnérable car il n'est gardé que par une seule pièce — le roi. Il n'est pas rare, même tôt dans la partie, de sacrifier une pièce pour ce pion, afin que le roi, en le prenant, soit déraciné, chassé à découvert et exposé à une attaque violente.\n\n3   ... Bc5\n\nEst-ce la case la plus appropriée pour le fou ? Examinons les alternatives :\n\n3...Bb4 : Inférieur, car le fou des Noirs ne prend aucune part à la lutte pour le contrôle du centre et a peu de portée ici.\n\n3...Bd6 : Pauvre, puisque le pion d est bloqué, et l'autre fou peut avoir du mal à sortir.\n\n3...Be7 : Pas trop mauvais, car le fou regarde sur deux diagonales et est bien placé pour la défense. En e7, le fou n'a fait qu'un pas en avant, mais il a été développé dès qu'il a quitté la dernière rangée.\n\nL'important à retenir est que chaque\n\npièce doit être mise en mouvement.\n\nLe coup de développement le plus fort est 3...Bc5. Sur cette excellente case, le fou commande une diagonale importante, exerce une pression sur le centre et attaque un pion faible. Ce déploiement se conforme à deux règles d'or du jeu d'ouverture :\n\nPlacez chaque pièce le plus vite possible sur la case où elle est la plus efficace.\n\nNe jouez chaque pièce qu'une seule fois dans l'ouverture.\n\n4   c3\n\n(D)\n\nL'objectif premier des Blancs est d'établir deux pions au centre et, avec ce coup, ils entendent soutenir une avance du pion d. Après 5 d4, attaquant fou et pion, les Noirs doivent répondre 5...exd4. La reprise par 6 cxd4 laisse les Blancs avec deux pions maîtrisant le centre.\n\nLeur but secondaire est d'amener la dame en b3, intensifiant la pression sur le pion f7.\n\nTelles sont ses vertus, mais 4 c3 a aussi des inconvénients :\n\nDans l'ouverture, ce sont les pièces, non les pions, qui doivent être déplacées.\n\nEn avançant en c3, le pion occupe une case qui devrait être réservée au cavalier de b1.\n\n4   ... Qe7\n\nTrès bien ! Les Noirs développent une pièce tout en parant la menace. Si les Blancs persistent à jouer 5 d4, la suite 5...exd4 6 cxd4 Qxe4+ gagne un pion. La prise avec échec\n\nne laisse aux Blancs aucun temps pour récupérer le pion, et un pion de plus, toutes choses égales par ailleurs, suffit à gagner la partie.\n\n5   0-0\n\nLes Blancs ajournent l'avance du pion d et déplacent leur roi vers un endroit plus sûr.\n\nRoquez tôt dans la partie, de préférence à l'aile roi.\n\n5   ...     d6\n\nRenforce le centre et soutient le pion e et le fou. Maintenant le fou de c8 peut entrer dans la partie.\n\n6   d4\n\nAvec l'espoir que les Noirs échangent les pions. Cela laisserait aux Blancs un alignement impressionnant au centre, tandis que la case c3 serait alors disponible pour leur cavalier. Si maintenant 6...exd4 7 cxd4 Qxe4, les Blancs punissent le vol de pion par 8 Re1 clouant la dame.\n\n6   ... Bb6\n\nMais les Noirs n'ont pas besoin de prendre ! Maintenant que leur pion e est en sécurité, le fou recule simplement, continuant à peser sur le centre blanc depuis sa nouvelle position.\n\nMalgré son apparence redoutable, le centre de pions des Blancs est chancelant. Le pion d est attaqué trois fois, et les Blancs doivent maintenir une triple garde sur lui tout en essayant d'achever leur développement. Sur 7 Qb3, qu'ils avaient envisagé plus tôt, la protection de la dame est retirée, tandis que sur 7 Nbd2 elle est coupée. Pendant ce temps, les Blancs sont confrontés à la menace de 7...Bg4 clouant et rendant ainsi inutile l'un des soutiens du pion.\n\nAvant de s'engager dans une ligne d'action définie, les Blancs tendent un petit piège :\n\n7   a4\n\n(D)\n\nUn coup retors, mais illogique. Les Blancs menacent une attaque sur le fou par 8 a5. Si alors 8...Bxa5, 9 d5 frappe le cavalier qui protège le fou. Après la réponse 9...Nd8, les Blancs prennent par 10 Rxa5, gagnant une pièce. Si les Noirs, après 8 a5, jouent 8...Nxa5, la suite 9 Rxa5 Nxa5 10 Qa4+ rapporte aux Blancs deux pièces pour une tour.\n\nMais quel droit ont les Blancs de jouer des combinaisons alors que leur développement est si arriéré ? Une attaque telle qu'ils l'entreprennent ici est prématurée et ne devrait pas réussir.\n\nDéveloppez toutes vos pièces avant d'entamer quelque combinaison que ce soit !\n\n7   ...     a6\n\nLes Noirs préparent un retrait pour leur fou. Cela ne viole pas le précepte qui déconseille les coups de pion inutiles dans l'ouverture. Le développement n'est pas censé être routinier ou automatique ; les menaces doivent toujours être parées d'abord. S'il faut davantage de justification, considérez que la perte de temps des Noirs est compensée par le coup stérile 7 a4 des Blancs.\n\n8   a5\n\nIl y a juste une petite chance que les Noirs soient tentés de prendre le pion.\n\n8   ... Ba7\n\nMais les Noirs ne mordent pas à l'hameçon !\n\n9   h3\n\n(D)\n\nUn coup de café du commerce ! Les joueurs faibles font ce coup instinctivement, dans la terreur panique d'avoir une pièce clouée.\n\nIl vaut mieux subir le clouage — un inconvénient temporaire — que de le prévenir par un coup qui relâche la position des pions défendant le roi et affaiblit la structure de façon permanente. Jouer h3 ou g3 après le roque crée une faiblesse organique qui ne peut jamais être remédiée, car un pion une fois avancé ne peut reculer, et la position, une fois altérée, ne peut être restaurée. Le pion qui a avancé devient lui-même une cible d'attaque directe, tandis que la case qu'il gardait auparavant (ici c'est g3) devient un terrain d'atterrissage pour les troupes ennemies.\n\n« Vous ne devez jamais, sauf nécessité ou pour gagner un avantage, bouger les pions devant le roi roqué », dit Tarrasch, « car chaque coup de pion relâche la position. »\n\nAlekhine s'exprime encore plus fortement :\n\n« Essayez toujours de garder les trois pions devant votre roi roqué sur leurs cases d'origine aussi longtemps que possible. »\n\nLes Noirs peuvent maintenant spéculer sur le bris de l'aile roi des Blancs en éliminant le pion h3, même au prix d'une pièce. La reprise ouvre la colonne g et expose le roi blanc à l'attaque. Ce plan, bien sûr, ne doit pas être mis à exécution avant que davantage de pièces soient amenées en jeu.\n\n9   ... Nf6\n\nLe cavalier entre dans la mêlée avec une attaque sur le pion e.\n\nLe coup est excellent et se conforme à un principe général utile :\n\nDéveloppez avec une menace chaque fois que possible !\n\nSouvenez-vous que pour parer la menace, l'adversaire doit abandonner tout ce qu'il était en train de faire.\n\n10   dxe5\n\nLes Blancs échangent et ouvrent des lignes pour leurs pièces. Malheureusement, cela tourne à l'avantage des Noirs, conformément à la règle en ces cas :\n\nLes lignes ouvertes sont à l'avantage du joueur dont le développement est supérieur.\n\n10   ... Nxe5\n\n(D)\n\nBien plus fort que de prendre avec le pion. Le cavalier en e5, magnifiquement centralisé, rayonne de puissance dans toutes les directions (ce qu'un pion ne peut faire).\n\nLa disparition du pion d des Blancs a bénéficié au fou des Noirs, caché en a7. Sa portée s'est étendue, de sorte qu'il contrôle maintenant toute la longue diagonale menant au pion f2 des Blancs — et le roi est juste derrière le pion !\n\nQue doivent faire les Blancs maintenant ? Ils n'ont rien fait pour soulager le sort de leur pion e — il est toujours attaqué par l'un des cavaliers noirs, tandis que leur fou est menacé par l'autre.\n\n11 Nxe5\n\nCela paraît plausible, car les Blancs se débarrassent d'une pièce puissamment placée, mais en faisant cet échange, leur propre cavalier de f3, le meilleur défenseur de la position roquée\n\n, quitte aussi l'échiquier. L'importance de conserver le cavalier dans de telles situations a été soulignée par Steinitz il y a plus de soixante-dix ans, lorsqu'il disait : « Trois pions non avancés à l'aile roi, conjugués à une pièce mineure, forment un solide rempart contre une attaque sur cette aile. » Tarrasch atteste des propriétés précieuses du cavalier de f3 par une affirmation simple et emphatique : « Un cavalier en f3 [f6 pour les Noirs] est la meilleure défense d'une position roquée à l'aile roi. »\n\n11   ... Qxe5\n\n(D)\n\nObservez que le cavalier des Blancs a complètement disparu de l'échiquier, mais que le cavalier des Noirs a été remplacé par une autre pièce.\n\nCette nouvelle pièce, la dame, est magnifiquement postée en e5. Elle domine le centre, pèse sur le malheureux pion e, et est prête à une action rapide sur n'importe quelle partie de l'échiquier.\n\nComment les Blancs résolvent-ils les problèmes posés par la position de la dame menaçante et les attaques sur leur pion e ? Ils aimeraient déloger la dame par 12 f4, mais malheureusement le coup est illégal. Peuvent-ils sauver le pion ?\n\n12 Nd2\n\nEspérant désespérément que les Noirs saisissent le pion par 12...Qxe4, auquel cas suivrait 13 Nxe4 Qxe4 14 Re1, et le clouage gagne la dame.\n\nMais les Noirs ne s'intéressent pas à ramasser des pions. Leur supériorité positionnelle est assez grande pour justifier la recherche d'une combinaison qui forcera de façon concluante la victoire. Leurs fous exercent une pression terrible sur leurs diagonales respectives (même si un fou est encore non développé !). Chacun d'eux attaque un pion qui protège le roi. La dame des Noirs est prête à basculer vers l'aile roi, tandis que le cavalier peut bondir si davantage d'aide est nécessaire. Les Noirs contrôlent le centre, une condition qui, dit Capablanca, est essentielle pour une attaque réussie contre le roi. Bref, les Noirs ont droit à une combinaison gagnante en récompense de leur jeu positionnel méthodique.\n\nLa question est : y a-t-il une cible disponible pour l'explosion de cette puissance contenue ?\n\n12   ... Bxh3!\n\nOui, vraiment ! Le pion h, qui a innocemment avancé en h3 pour prévenir un clouage !\n\nLes Noirs éliminent le pion coupable — juste châtiment pour le crime d'avoir affaibli la position des Blancs et trahi leur roi.\n\n13   gxh3\n\nLes Blancs doivent prendre le fou ou se retrouver un pion en moins sans rien en échange.\n\n13   ... Qg3+!\n\nUne entrée fracassante ! Remarquez comment les Noirs ont exploité les deux principaux défauts de 9 h3. Ils ont pris le pion h lui-même et utiliséé la case g3, affaiblie par son avance, comme point d'invasion.\n\n14 Kh1\n\nLes Blancs ne peuvent pas prendre la dame, car leur pion f est cloué.\n\n14   ... Qxh3+\n\nLes Noirs détruisent un autre\n\npion défenseur, exposant davantage le roi.\n\n15 Kg1\n\nLe seul coup des Blancs. En échange du fou sacrifié, les Noirs ont deux pions et l'attaque.\n\n15   ... Ng4\n\n(D)\n\nMenace le mat au coup suivant. Les Blancs doivent parer la menace en h2 ou donner à leur roi une case de fuite. S'ils tentent de donner de l'air à leur roi par 16 Re1, ils tombent dans 16...Qxf2#. D'où...\n\n16 Nf3\n\nPour garder h2 et empêcher le mat par la dame.\n\nComment les Noirs concluent-ils l'attaque ? Ils raisonnent ainsi : j'ai pris deux des pions près du roi. Si je peux éliminer le troisième pion, cela privera le roi de son dernier lambeau de protection, et il sera sans défense. Ce dernier défenseur, le pion f, est attaqué par mon cavalier et mon fou, et protégé par sa tour et son roi. Je dois soit chasser l'un des défenseurs, soit attaquer le pion une troisième fois. Peut-être puis-je faire les deux !\n\n16   ... Qg3+\n\nExploitant à nouveau le fait que le pion f est cloué, les Noirs l'attaquent avec une troisième pièce, la dame.\n\n17 Kh1\n\n(D)\n\nLe roi doit aller au coin et abandonner le pion. Seule la tour le défend maintenant, contre une attaque de la dame, du cavalier et du fou. Le pion doit tomber, et avec lui la partie.\n\n17   ... Bxf2\n\nCouvre la case de fuite du roi, g1, et l'empêche d'y revenir en réponse à un échec.\n\n0-1\n\nLa menace des Noirs était 18...Qh3+ 19 Nh2 Qxh2#. Comme 18 Rxf2 tombe dans 18...Qxf2#, il n'y avait aucune échappatoire.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "von Scheve – Teichmann\n\nBerlin 1907\n\nGiuoco Piano\n\nLe but principal de toute stratégie d'ouverture est de sortir les pièces rapidement — hors de la dernière rangée et dans le jeu actif.\n\nOn ne peut pas attaquer (encore moins chercher le mat) avec une ou deux pièces.\n\nIl faut les développer toutes, car chacune a un rôle à jouer.\n\nUn bon moyen de commencer est de libérer deux pièces d'un seul coup, et cela se fait en avançant l'un des pions du centre."
+    },
+    {
+      "ply": 1,
+      "san": "e4",
+      "text": "C'est un excellent coup d'ouverture. Les Blancs ancrent un pion au centre de l'échiquier et ouvrent des lignes pour leur dame et un fou. Leur prochain coup, s'ils y sont autorisés, sera 2 d4. Les deux pions contrôleront alors quatre cases de la cinquième rangée, c5, d5, e5 et f5, et empêcheront les Noirs de placer aucune de leurs pièces sur ces cases importantes.\n\nComment les Noirs doivent-ils répondre au premier coup des Blancs ? Ils ne doivent pas perdre de temps à envisager des coups sans signification, comme 1...h6 ou 1...a6. Ces coups, et d'autres coups sans but, ne font rien pour développer les pièces, et n'entravent pas non plus la menace des Blancs de monopoliser le centre.\n\nLes Noirs doivent lutter pour une part égale des bonnes cases. Les Noirs doivent contester la possession du centre.\n\nPourquoi tant d'insistance sur le centre ? Pourquoi est-il si important ?\n\nLes pièces placées au centre jouissent de la plus grande liberté d'action et ont le plus large champ pour leurs pouvoirs d'attaque. Un cavalier, par exemple, posté au centre, rayonne dans huit directions et attaque huit cases. Debout sur le bord de l'échiquier, son rayon d'attaque se limite à quatre cases. Ce n'est qu'un demi-cavalier !\n\nL'occupation du centre signifie le contrôle du territoire le plus précieux. Elle laisse moins d'espace aux pièces adverses et rend la défense difficile, car ses pièces tendent à se gêner mutuellement.\n\nL'occupation du centre, ou son contrôle à distance, dresse une barrière qui divise les forces de l'adversaire et les empêche de coopérer harmonieusement. La résistance d'une armée ainsi désunie n'est généralement pas très efficace.",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "e5",
+      "text": "Très bien ! Les Noirs insistent pour obtenir une juste part du centre. Ils fixent solidement un pion à cet endroit et libèrent deux de leurs pièces.",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "Nf3",
+      "text": "Absolument le meilleur coup sur l'échiquier !\n\nLe cavalier se développe avec une menace — l'attaque d'un pion. Cela gagne du temps, car les Noirs ne sont pas libres de se développer comme ils l'entendent. Ils doivent sauver le pion avant toute autre chose,\n\net cela réduit leur choix de réponse.\n\nLe cavalier se développe vers le centre,\n\nce qui accroît la portée de son attaque.\n\nLe cavalier exerce une pression sur deux des cases stratégiquement importantes du centre, e5 et d4.\n\nLe cavalier entre en jeu tôt dans la partie, conformément au précepte : développez les cavaliers avant les fous !\n\nUne raison de la pertinence de ce principe est que le cavalier fait des pas plus courts que le fou. Il lui faut plus de temps pour atteindre la zone de combat. Le fou peut balayer toute la longueur de l'échiquier en un seul coup (remarquez comment le fou de f1 peut atteindre jusqu'à a6). Là où le cavalier met un saut, un bond et une pirouette pour arriver à b5, le fou le fait d'un seul élan.\n\nUn autre but du développement prioritaire des cavaliers est que nous savons assez bien où ils appartiennent dans l'ouverture. Nous savons qu'ils sont les plus efficaces sur certaines cases. Nous ne sommes pas toujours certains de la bonne place pour le fou. Nous pouvons vouloir que le fou commande une longue diagonale, ou préférer qu'il cloue une pièce adverse. Donc : sortez vos cavaliers avant de développer les fous !\n\nÀ ce stade, vous noterez que les Noirs doivent défendre leur pion e avant de s'occuper du reste.\n\nIl y a plusieurs façons de protéger le pion. Ils doivent évaluer et choisir parmi ces possibilités : 2...f6 ; 2...Qf6 ; 2...Qe7 ; 2...Bd6 ; 2...d6 ; et 2...Nc6. Comment les Noirs décident-ils du bon coup ? Doivent-ils analyser d'innombrables combinaisons et tenter de visualiser toute sorte d'attaque et de défense pour les dix ou quinze coups suivants ?\n\nLaissez-moi vous assurer sans délai qu'un maître ne perd pas de temps précieux en spéculations vaines. Au contraire, il se sert d'une arme secrète puissante — le jugement positionnel. L'appliquer lui permet d'éliminer de sa considération les coups inférieurs, auxquels le joueur moyen consacre beaucoup de réflexion. Il jette à peine un coup d'œil aux coups qui violent manifestement les principes !\n\nVoici ce qui pourrait lui passer par l'esprit lorsqu'il choisit le bon coup :\n\n2...f6 : « Terrible ! Mon pion f occupe une case qui devrait être réservée au cavalier et il bloque aussi le chemin de la dame le long de la diagonale. Et j'ai bougé un pion alors que je devrais développer des pièces. »\n\n2...Qf6 : « Mauvais, car mon cavalier appartient à f6, pas la dame. De plus, je gaspille la puissance de ma pièce la plus forte pour défendre un pion. »\n\n2...Qe7 :\n\n« Cela enferme le fou de f8, tandis que ma dame fait un travail qu'une pièce moindre pourrait assumer. »\n\n2...Bd6 : « J'ai développé une pièce, mais le pion d est obstrué, et mon fou de c8 risque d'être enterré vivant. »\n\n2...d6 : « Pas mal, puisque cela donne une issue au fou de c8. Mais attendez — cela limite la portée du fou de f8, et une fois de plus j'ai bougé un pion alors que je devrais mettre les pièces au travail. »\n\n2...Nc6 : « Eurêka ! C'est sûrement\n\nle meilleur, car j'ai développé une pièce sur sa case la plus appropriée et protégé le pion e en même temps. »",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "Nc6",
+      "text": "Sans entrer dans une analyse fastidieuse, les Noirs choisissent le meilleur coup possible. Ils suivent le conseil du Français qui a dit : « Sortez les pièces ! ».\n\nIls sortent une pièce et sauvent le pion e sans aucune perte de temps.\n\nJe vous mettrais en garde : cette maxime et les autres ne doivent pas être suivies aveuglément. Aux échecs, comme dans la vie, les règles doivent souvent être mises de côté. En général, toutefois, les principes qui régissent un jeu sain font d'excellents jalons, surtout dans l'ouverture, le milieu de jeu et la finale !",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "Bc4",
+      "text": "« La meilleure pièce d'attaque est le fou du roi », dit Tarrasch, aussi les Blancs mettent-ils cette pièce au travail et dégagent-ils la voie pour un roque précoce.\n\nLe fou s'empare d'une diagonale précieuse au centre et attaque le pion f7 des Noirs. Ce pion est particulièrement vulnérable car il n'est gardé que par une seule pièce — le roi. Il n'est pas rare, même tôt dans la partie, de sacrifier une pièce pour ce pion, afin que le roi, en le prenant, soit déraciné, chassé à découvert et exposé à une attaque violente.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "Bc5",
+      "text": "Est-ce la case la plus appropriée pour le fou ? Examinons les alternatives :\n\n3...Bb4 : Inférieur, car le fou des Noirs ne prend aucune part à la lutte pour le contrôle du centre et a peu de portée ici.\n\n3...Bd6 : Pauvre, puisque le pion d est bloqué, et l'autre fou peut avoir du mal à sortir.\n\n3...Be7 : Pas trop mauvais, car le fou regarde sur deux diagonales et est bien placé pour la défense. En e7, le fou n'a fait qu'un pas en avant, mais il a été développé dès qu'il a quitté la dernière rangée.\n\nL'important à retenir est que chaque\n\npièce doit être mise en mouvement.\n\nLe coup de développement le plus fort est 3...Bc5. Sur cette excellente case, le fou commande une diagonale importante, exerce une pression sur le centre et attaque un pion faible. Ce déploiement se conforme à deux règles d'or du jeu d'ouverture :\n\nPlacez chaque pièce le plus vite possible sur la case où elle est la plus efficace.\n\nNe jouez chaque pièce qu'une seule fois dans l'ouverture.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "c3",
+      "text": "L'objectif premier des Blancs est d'établir deux pions au centre et, avec ce coup, ils entendent soutenir une avance du pion d. Après 5 d4, attaquant fou et pion, les Noirs doivent répondre 5...exd4. La reprise par 6 cxd4 laisse les Blancs avec deux pions maîtrisant le centre.\n\nLeur but secondaire est d'amener la dame en b3, intensifiant la pression sur le pion f7.\n\nTelles sont ses vertus, mais 4 c3 a aussi des inconvénients :\n\nDans l'ouverture, ce sont les pièces, non les pions, qui doivent être déplacées.\n\nEn avançant en c3, le pion occupe une case qui devrait être réservée au cavalier de b1.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "Qe7",
+      "text": "Très bien ! Les Noirs développent une pièce tout en parant la menace. Si les Blancs persistent à jouer 5 d4, la suite 5...exd4 6 cxd4 Qxe4+ gagne un pion. La prise avec échec\n\nne laisse aux Blancs aucun temps pour récupérer le pion, et un pion de plus, toutes choses égales par ailleurs, suffit à gagner la partie.\n\n5   0-0\n\nLes Blancs ajournent l'avance du pion d et déplacent leur roi vers un endroit plus sûr.\n\nRoquez tôt dans la partie, de préférence à l'aile roi.",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "d6",
+      "text": "Renforce le centre et soutient le pion e et le fou. Maintenant le fou de c8 peut entrer dans la partie.",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "d4",
+      "text": "Avec l'espoir que les Noirs échangent les pions. Cela laisserait aux Blancs un alignement impressionnant au centre, tandis que la case c3 serait alors disponible pour leur cavalier. Si maintenant 6...exd4 7 cxd4 Qxe4, les Blancs punissent le vol de pion par 8 Re1 clouant la dame.",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "Bb6",
+      "text": "Mais les Noirs n'ont pas besoin de prendre ! Maintenant que leur pion e est en sécurité, le fou recule simplement, continuant à peser sur le centre blanc depuis sa nouvelle position.\n\nMalgré son apparence redoutable, le centre de pions des Blancs est chancelant. Le pion d est attaqué trois fois, et les Blancs doivent maintenir une triple garde sur lui tout en essayant d'achever leur développement. Sur 7 Qb3, qu'ils avaient envisagé plus tôt, la protection de la dame est retirée, tandis que sur 7 Nbd2 elle est coupée. Pendant ce temps, les Blancs sont confrontés à la menace de 7...Bg4 clouant et rendant ainsi inutile l'un des soutiens du pion.\n\nAvant de s'engager dans une ligne d'action définie, les Blancs tendent un petit piège :",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "a4",
+      "text": "Un coup retors, mais illogique. Les Blancs menacent une attaque sur le fou par 8 a5. Si alors 8...Bxa5, 9 d5 frappe le cavalier qui protège le fou. Après la réponse 9...Nd8, les Blancs prennent par 10 Rxa5, gagnant une pièce. Si les Noirs, après 8 a5, jouent 8...Nxa5, la suite 9 Rxa5 Nxa5 10 Qa4+ rapporte aux Blancs deux pièces pour une tour.\n\nMais quel droit ont les Blancs de jouer des combinaisons alors que leur développement est si arriéré ? Une attaque telle qu'ils l'entreprennent ici est prématurée et ne devrait pas réussir.\n\nDéveloppez toutes vos pièces avant d'entamer quelque combinaison que ce soit !",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "a6",
+      "text": "Les Noirs préparent un retrait pour leur fou. Cela ne viole pas le précepte qui déconseille les coups de pion inutiles dans l'ouverture. Le développement n'est pas censé être routinier ou automatique ; les menaces doivent toujours être parées d'abord. S'il faut davantage de justification, considérez que la perte de temps des Noirs est compensée par le coup stérile 7 a4 des Blancs.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "a5",
+      "text": "Il y a juste une petite chance que les Noirs soient tentés de prendre le pion.",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "Ba7",
+      "text": "Mais les Noirs ne mordent pas à l'hameçon !",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "h3",
+      "text": "Un coup de café du commerce ! Les joueurs faibles font ce coup instinctivement, dans la terreur panique d'avoir une pièce clouée.\n\nIl vaut mieux subir le clouage — un inconvénient temporaire — que de le prévenir par un coup qui relâche la position des pions défendant le roi et affaiblit la structure de façon permanente. Jouer h3 ou g3 après le roque crée une faiblesse organique qui ne peut jamais être remédiée, car un pion une fois avancé ne peut reculer, et la position, une fois altérée, ne peut être restaurée. Le pion qui a avancé devient lui-même une cible d'attaque directe, tandis que la case qu'il gardait auparavant (ici c'est g3) devient un terrain d'atterrissage pour les troupes ennemies.\n\n« Vous ne devez jamais, sauf nécessité ou pour gagner un avantage, bouger les pions devant le roi roqué », dit Tarrasch, « car chaque coup de pion relâche la position. »\n\nAlekhine s'exprime encore plus fortement :\n\n« Essayez toujours de garder les trois pions devant votre roi roqué sur leurs cases d'origine aussi longtemps que possible. »\n\nLes Noirs peuvent maintenant spéculer sur le bris de l'aile roi des Blancs en éliminant le pion h3, même au prix d'une pièce. La reprise ouvre la colonne g et expose le roi blanc à l'attaque. Ce plan, bien sûr, ne doit pas être mis à exécution avant que davantage de pièces soient amenées en jeu.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "Nf6",
+      "text": "Le cavalier entre dans la mêlée avec une attaque sur le pion e.\n\nLe coup est excellent et se conforme à un principe général utile :\n\nDéveloppez avec une menace chaque fois que possible !\n\nSouvenez-vous que pour parer la menace, l'adversaire doit abandonner tout ce qu'il était en train de faire.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "dxe5",
+      "text": "Les Blancs échangent et ouvrent des lignes pour leurs pièces. Malheureusement, cela tourne à l'avantage des Noirs, conformément à la règle en ces cas :\n\nLes lignes ouvertes sont à l'avantage du joueur dont le développement est supérieur.",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "Nxe5",
+      "text": "Bien plus fort que de prendre avec le pion. Le cavalier en e5, magnifiquement centralisé, rayonne de puissance dans toutes les directions (ce qu'un pion ne peut faire).\n\nLa disparition du pion d des Blancs a bénéficié au fou des Noirs, caché en a7. Sa portée s'est étendue, de sorte qu'il contrôle maintenant toute la longue diagonale menant au pion f2 des Blancs — et le roi est juste derrière le pion !\n\nQue doivent faire les Blancs maintenant ? Ils n'ont rien fait pour soulager le sort de leur pion e — il est toujours attaqué par l'un des cavaliers noirs, tandis que leur fou est menacé par l'autre.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "Nxe5",
+      "text": "Cela paraît plausible, car les Blancs se débarrassent d'une pièce puissamment placée, mais en faisant cet échange, leur propre cavalier de f3, le meilleur défenseur de la position roquée\n\n, quitte aussi l'échiquier. L'importance de conserver le cavalier dans de telles situations a été soulignée par Steinitz il y a plus de soixante-dix ans, lorsqu'il disait : « Trois pions non avancés à l'aile roi, conjugués à une pièce mineure, forment un solide rempart contre une attaque sur cette aile. » Tarrasch atteste des propriétés précieuses du cavalier de f3 par une affirmation simple et emphatique : « Un cavalier en f3 [f6 pour les Noirs] est la meilleure défense d'une position roquée à l'aile roi. »",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "Qxe5",
+      "text": "Observez que le cavalier des Blancs a complètement disparu de l'échiquier, mais que le cavalier des Noirs a été remplacé par une autre pièce.\n\nCette nouvelle pièce, la dame, est magnifiquement postée en e5. Elle domine le centre, pèse sur le malheureux pion e, et est prête à une action rapide sur n'importe quelle partie de l'échiquier.\n\nComment les Blancs résolvent-ils les problèmes posés par la position de la dame menaçante et les attaques sur leur pion e ? Ils aimeraient déloger la dame par 12 f4, mais malheureusement le coup est illégal. Peuvent-ils sauver le pion ?",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "Nd2",
+      "text": "Espérant désespérément que les Noirs saisissent le pion par 12...Qxe4, auquel cas suivrait 13 Nxe4 Qxe4 14 Re1, et le clouage gagne la dame.\n\nMais les Noirs ne s'intéressent pas à ramasser des pions. Leur supériorité positionnelle est assez grande pour justifier la recherche d'une combinaison qui forcera de façon concluante la victoire. Leurs fous exercent une pression terrible sur leurs diagonales respectives (même si un fou est encore non développé !). Chacun d'eux attaque un pion qui protège le roi. La dame des Noirs est prête à basculer vers l'aile roi, tandis que le cavalier peut bondir si davantage d'aide est nécessaire. Les Noirs contrôlent le centre, une condition qui, dit Capablanca, est essentielle pour une attaque réussie contre le roi. Bref, les Noirs ont droit à une combinaison gagnante en récompense de leur jeu positionnel méthodique.\n\nLa question est : y a-t-il une cible disponible pour l'explosion de cette puissance contenue ?",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "Bxh3",
+      "text": "Oui, vraiment ! Le pion h, qui a innocemment avancé en h3 pour prévenir un clouage !\n\nLes Noirs éliminent le pion coupable — juste châtiment pour le crime d'avoir affaibli la position des Blancs et trahi leur roi.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "gxh3",
+      "text": "Les Blancs doivent prendre le fou ou se retrouver un pion en moins sans rien en échange.\n\n13   ... Qg3+!\n\nUne entrée fracassante ! Remarquez comment les Noirs ont exploité les deux principaux défauts de 9 h3. Ils ont pris le pion h lui-même et utiliséé la case g3, affaiblie par son avance, comme point d'invasion.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "Qg3+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Kh1",
+      "text": "Les Blancs ne peuvent pas prendre la dame, car leur pion f est cloué.\n\n14   ... Qxh3+\n\nLes Noirs détruisent un autre\n\npion défenseur, exposant davantage le roi.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "Qxh3+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Kg1",
+      "text": "Le seul coup des Blancs. En échange du fou sacrifié, les Noirs ont deux pions et l'attaque.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "Ng4",
+      "text": "Menace le mat au coup suivant. Les Blancs doivent parer la menace en h2 ou donner à leur roi une case de fuite. S'ils tentent de donner de l'air à leur roi par 16 Re1, ils tombent dans 16...Qxf2#. D'où...",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Nf3",
+      "text": "Pour garder h2 et empêcher le mat par la dame.\n\nComment les Noirs concluent-ils l'attaque ? Ils raisonnent ainsi : j'ai pris deux des pions près du roi. Si je peux éliminer le troisième pion, cela privera le roi de son dernier lambeau de protection, et il sera sans défense. Ce dernier défenseur, le pion f, est attaqué par mon cavalier et mon fou, et protégé par sa tour et son roi. Je dois soit chasser l'un des défenseurs, soit attaquer le pion une troisième fois. Peut-être puis-je faire les deux !\n\n16   ... Qg3+\n\nExploitant à nouveau le fait que le pion f est cloué, les Noirs l'attaquent avec une troisième pièce, la dame.",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Qg3+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Kh1",
+      "text": "Le roi doit aller au coin et abandonner le pion. Seule la tour le défend maintenant, contre une attaque de la dame, du cavalier et du fou. Le pion doit tomber, et avec lui la partie.",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Bxf2",
+      "text": "Couvre la case de fuite du roi, g1, et l'empêche d'y revenir en réponse à un échec.\n\n0-1\n\nLa menace des Noirs était 18...Qh3+ 19 Nh2 Qxh2#. Comme 18 Rxf2 tombe dans 18...Qxf2#, il n'y avait aucune échappatoire.",
+      "isCritical": true
+    }
+  ]
+}

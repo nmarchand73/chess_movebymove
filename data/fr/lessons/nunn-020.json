@@ -1,0 +1,475 @@
+{
+  "id": "nunn-020",
+  "book": "nunn",
+  "gameNum": 20,
+  "title": "Partie 20 : G. Kasparov vs A. Shirov",
+  "section": "Jeu positionnel",
+  "players": {
+    "white": "G. Kasparov",
+    "black": "A. Shirov"
+  },
+  "event": "Horgen 1994",
+  "opening": "Défense sicilienne, variante Sveshnikov",
+  "eco": "B33",
+  "pgnPath": "data/pgn/nunn/20.pgn",
+  "result": "1-0",
+  "moveCount": 75,
+  "annotatedMoves": 74,
+  "fullText": "Complexe de cases faibles\n\nLa littérature échiquéenne évoque souvent un « complexe de cases faibles ». Cela sonne comme quelque chose lié à la psychanalyse, mais c'est en fait un concept échiquéen assez simple. Un « complexe de cases faibles » est essentiellement un ensemble de cases faibles de la même couleur. De tels complexes naissent souvent en présence de chaînes de pions (voir la Partie 24 pour davantage sur les chaînes de pions). Si, par exemple, les Noirs ont des pions en a7, b7, d5, e6, g7 et h7, alors les cases noires autour des pions centraux peuvent devenir généralement faibles. Si les Blancs ont des pions en d4 et e5, cela peut n'avoir guère d'importance car les cases qui pourraient s'affaiblir sont scellées et ne peuvent être occupées par les pièces blanches. Cependant, si les Blancs ont des cavaliers en d4 et e5, alors la faiblesse des cases noires est tout à fait évidente. Les formations de pions susceptibles de créer un complexe de cases faibles méritent donc une attention particulière. Dans l'exemple ci-dessus, les Noirs peuvent être en mesure de couvrir les cases potentiellement faibles en d4 et e5, par exemple avec une dame en b6, un cavalier en c6 et un fou en d6 (cela peut se produire dans la défense française). Si les Blancs ne peuvent pas occuper les cases potentiellement faibles, alors en fait elles peuvent ne pas être faibles du tout.\n\nAinsi, la capacité d'utiliser les pièces pour couvrir les points faibles potentiels entre les pions est critique et, comme nous le verrons dans la partie suivante, il peut valoir quelque matériel de priver l'adversaire de cette possibilité.\n\nG. Kasparov – A. Shirov\n\nHorgen 1994\n\nDéfense sicilienne, variante Sveshnikov\n\n1 e4\n\n1...c5\n\n2 Nf3\n\nPour les commentaires sur les coups jusqu'ici, voir la Partie 8.\n\n2...e6\n\nDans des parties antérieures, nous avons vu des exemples de 2...Nc6 et 2...d6. Le coup 2...e6 est une autre possibilité pour les Noirs qui donne la priorité à la libération du fou des cases noires. Bien que ce coup puisse mener à une transposition dans d'autres lignes siciliennes, il existe un certain nombre de variantes indépendantes.\n\n3 d4\n\nTout comme après 2...Nc6 et 2...d6, cette avance immédiate est la continuation la plus active des Blancs.\n\n3...cxd4\n\n4 Nxd4\n\nL'échange de pions a laissé aux Noirs une majorité de pions au centre, mais les Blancs peuvent développer leurs pièces rapidement.\n\n4...Nf6\n\nAprès ce coup, le jeu est susceptible de transposer dans l'un des systèmes siciliens principaux. Les deux grandes lignes spécifiques à l'ordre de coups 2...e6 sont 4...Nc6 (la variante Taimanov) et 4...a6 (la variante Kan).\n\n5 Nc3\n\n5...Nc6\n\nL'ouverture de cette partie montre à quel point les questions d'ordre de coups peuvent être déroutantes. Les Noirs tentent d'atteindre la position survenant dans la partie après 8 Bg5. Il y a deux ordres de coups différents aboutissant à la même position :\n\nA) 1 e4 c5 2 Nf3 Nc6 3 d4 cxd4 4 Nxd4 Nf6 5 Nc3 e5 6 Ndb5 d6 7 Bg5.\n\nB) 1 e4 c5 2 Nf3 e6 3 d4 cxd4 4 Nxd4 Nf6 5 Nc3 Nc6 6 Ndb5 d6 7 Bf4 e5 8 Bg5.\n\nVous remarquerez que le second ordre de coups est plus long d'un coup, ce qui est très gênant pour les auteurs de livres d'ouvertures ! Il vaut aussi de mentionner que certains programmes de bases de données ont une fonction « recherche de position » qui ne trouve pas correctement les positions avec une numérotation de coups différente. Dans ce cas, il est assez facile de manquer des parties clés dans la base à moins de faire deux recherches.\n\nÉvidemment, les lignes ci-dessus ne sont pas forcées et dans les deux cas les Blancs ont un certain nombre d'occasions de dévier. Quel ordre de coups les Noirs choisissent dépend de quelles alternatives blanches ils souhaitent empêcher. Voici une liste des différences clés :\n\nInconvénients de l'ordre de coups A :\n\nA1) Les Blancs peuvent jouer 3 Bb5.\n\nA2) Les Blancs peuvent jouer 7 Nd5 ou 7 a4.\n\nInconvénients de l'ordre de coups B :\n\nB1) Les Blancs peuvent jouer 6 Nxc6 bxc6 7 e5.\n\nB2) Les Noirs peuvent ne pas réussir à éviter complètement les lignes avec Bb5, puisque les Blancs peuvent jouer 3 Nc3 et si les Noirs veulent encore viser leur position cible, alors ils doivent continuer 3...Nc6, permettant 4 Bb5. Il est vrai qu'avec cet ordre de coups les options des Blancs sont restreintes (par exemple, ils ne peuvent plus jouer c3) mais également les Noirs sont limités par leur engagement à ...e6 (alors qu'après 1 e4 c5 2 Nf3 Nc6 3 Bb5, par exemple, les Noirs pourraient préférer jouer 3...g6).\n\nEn décidant du meilleur ordre de coups, un joueur doit considérer non seulement les facteurs objectifs mais aussi quelles lignes correspondent davantage à son goût.\n\nDans cette partie, les Noirs optent pour l'ordre de coups B (tandis que dans la Partie 23, ils préfèrent l'ordre de coups A).\n\n6 Ndb5\n\nC'est le coup le plus courant, visant la case faible en d6. Cependant, la ligne 6 Nxc6 bxc6 7 e5 Nd5 8 Ne4 est une alternative majeure et assez irritante pour les Noirs, car les positions résultantes sont fort différentes de celles qu'ils visent.\n\n6...d6\n\nLes Noirs ont une alternative en 6...Bb4, mais après 7 a3 les Noirs sont plus ou moins forcés de prendre en c3, ce qui donne aux Blancs la paire de fous à peu de frais.\n\n7 Bf4\n\nC'est la suite logique du coup précédent des Blancs. Ils visent à forcer ...e5, après quoi la case d5 deviendra faible.\n\n7...e5\n\nForcé, car 7...Ne5 est fortement rencontré par 8 Qd4.\n\n8 Bg5\n\nIci le fou se tient prêt à éliminer le cavalier de f6, accroissant ainsi l'emprise des Blancs sur d5.\n\n8...a6\n\nLa compensation des Noirs pour la case d5 faible est la possibilité de chasser le cavalier blanc vers le bord de l'échiquier. Les Noirs doivent en profiter tout de suite, car les Blancs menacent 9 Nd5.\n\n9 Na3\n\nCe cavalier mal placé est l'une des pierres angulaires du jeu noir. Grâce au ...e5 des Noirs, la case d5 est une faiblesse dans leur position, mais des facteurs dynamiques peuvent offrir une compensation pour une faiblesse statique. Dans ce cas, le cavalier hors jeu en a3 doit revenir dans la partie, ce qui donne aux Noirs le temps de développer leur contrejeu.\n\n9...b5\n\nToute cette ligne est généralement appelée variante Sveshnikov, d'après le grand maître soviétique qui l'a popularisée dans les années 1970. Le coup 9...b5 de Sveshnikov était vraiment la clé de la revitalisation de ce système. Auparavant, les Noirs avaient tendance à jouer soit 9...d5, un sacrifice de pion qui n'est pas vraiment correct, soit 9...Be6, qui permet au cavalier hors jeu de revenir au centre par Nc4 et Ne3.\n\n10 Nd5\n\nC'est l'une des deux méthodes principales pour traiter la menace noire de gagner une pièce par 10...b4. L'autre est 10 Bxf6, pour laquelle voir la Partie 23.\n\n10...Be7\n\nGrâce au retard des Blancs à échanger en f6, les Noirs peuvent éviter les pions f doublés par ce coup. 10...Be6 est mauvais, car après 11 Bxf6 gxf6 12 c3 f5 13 exf5 Bxf5 les Noirs ont perdu un tempo avec leur fou (par rapport à la ligne standard 10 Bxf6 gxf6 11 c3 f5 12 exf5 Bxf5) et les Blancs ont donc la forte possibilité 14 Qf3!, où le coup supplémentaire c3 empêche la réponse ...Nd4.\n\nLe coup du texte décloue le cavalier de f6 et menace donc à la fois 11...Nxe4 et la liquidation favorable 11...Nxd5 12 Qxd5 Bb7.\n\n11 Bxf6\n\nMaintenant les Blancs prennent le cavalier.\n\n11...Bxf6\n\nIci 11...gxf6 est mauvais, car le fou n'est pas bien placé en e7 dans la position résultante (il devrait être en g7).\n\n12 c3\n\nEn échangeant le cavalier de f6, les Blancs ont consolidé la position de leur cavalier en d5. Il n'est pas facile pour les Noirs de briser l'emprise blanche sur d5, pour deux raisons. La première est que l'autre cavalier peut prêter soutien par Nc2-e3 et la seconde est que le défi évident à d5, à savoir ...Ne7, permet aux Blancs de doubler les pions noirs en jouant Nxf6+, sans que les Noirs obtiennent la paire de fous en compensation.\n\nLe coup du texte vise à ramener le cavalier hors jeu de a3 dans la partie via Nc2.\n\n12...Bb7\n\nCe coup intéressant est devenu assez populaire durant les années 1990. Les Noirs visent à monter un défi direct à la case d5 à l'aide du fou de b7 et du cavalier de c6. Le plan habituel est ...Nb8-d7, ...Bg5 et ...Nf6. Le fou en g5 se tient prêt à éliminer l'autre cavalier blanc (après Nc2 et Nce3), tandis que les pièces mineures restantes des Noirs convergent sur la case d5. En principe, c'est un plan très efficace, qui pourrait bien conduire les Blancs à devoir reprendre en d5 avec leur pion e. Cependant, être forcé à une telle prise est presque toujours le signe que la stratégie noire a réussi. Les Blancs veulent d5 occupé par l'une de leurs pièces, non un pion immobile, et le transfert du pion de e4 à d5 donne aussi aux Noirs l'occasion de développer un jeu actif par ...f5 et ...e4. Le défaut du plan noir est, bien sûr, qu'il faut quatre coups pour placer les pièces sur leurs cases idéales et cela donne aux Blancs l'occasion d'entreprendre quelque jeu actif de leur côté.\n\n12...0-0 13 Nc2 est la continuation la plus courante, où les Noirs ont le choix entre 13...Bg5 et 13...Rb8. Chacune a ses inconvénients. Un problème avec 13...Rb8 est que les Blancs peuvent répondre 14 h4, empêchant l'activation du fou en g5. D'un autre côté, 13...Bg5 a le défaut qu'après 14 a4 les Noirs sont obligés de jouer 14...bxa4, ce qui libère c4 pour le fou des cases blanches blanc et laisse le pion a noir faible.\n\n13 Nc2\n\nUn coup à usages multiples. Le cavalier revient au centre, se place pour soutenir son collègue par Nce3, et libère le pion a pour briser la structure de pions de l'aile dame noire par a4.\n\n13...Nb8\n\nBien que ce coup soit une continuation du plan mentionné dans la note au 12e coup des Noirs, il paraît un peu étrange de remettre le cavalier sur sa case d'origine. Pourquoi ne pas, par exemple, jouer 13...Bg5 puis 14...Ne7, atteignant le même type de position, mais en économisant deux coups ? La réponse est que 13...Bg5 14 a4 bxa4 15 Rxa4 Ne7 n'atteint pas vraiment l'objectif noir de briser l'emprise blanche sur d5, car après 16 Bc4 les Blancs sont prêts à continuer de reprendre avec des pièces en d5. Comme nous le verrons, le cavalier est bien mieux placé en d7 pour empêcher les Blancs de renforcer d5, en partie parce qu'un ...Nf6 ultérieur attaque aussi le pion e4, mais aussi parce que les Noirs ont diverses options pour harceler une tour en a4 par ...Nb6 ou ...Nc5.\n\n14 a4\n\nComme expliqué plus haut, les Blancs doivent agir vite pour perturber l'exécution du plan noir. Ce coup expose le pion a noir à l'attaque, et donne accès à la case c4.\n\n14...bxa4\n\nForcé, car les Noirs n'ont pas de méthode raisonnable pour défendre b5.\n\n15 Rxa4\n\nIl n'y a aucune raison de ne pas reprendre le pion immédiatement. La seule véritable alternative est 15 Nce3, visant à prendre en a4 avec la dame. Cependant, après 15...Nd7 16 Qxa4 0-0 17 Qc2 (17 Bc4 Bg5 fait tomber les supports de d5) 17...Bg5 les Blancs sont incapables de maintenir leur emprise sur d5.\n\n15...Nd7\n\nC'est un coup plus flexible que le roque, puisque les Noirs joueront définitivement ...Nd7 tôt ou tard.\n\n16 Rb4\n\nKasparov pose immédiatement la question au fou noir. C'est un coup plus dynamique que 16 Nce3, qui pose moins de problèmes aux Noirs après 16...0-0.\n\n16...Nc5\n\nLa réponse évidente, défendant le fou et préparant de chasser la tour blanche par ...0-0 et ...a5. Cependant, après l'étonnante réponse des Blancs, les Noirs sont forcés sur la défensive. L'exemple dévastateur offert par cette partie a dissuadé d'autres joueurs de répéter le coup de Shirov et les parties récentes se sont concentrées sur 16...Rb8, où 17 Bc4 0-0 18 0-0 Bg5 19 Qe2 laisse aux Blancs un très léger avantage.\n\n16...Bc6?! est mauvais ; après 17 Rc4 Bxd5 (17...Rc8 18 Ncb4 est aussi très bon pour les Blancs) 18 Qxd5 0-0 (18...Nb6 19 Qc6+ Ke7 20 Rb4 donne aux Blancs un avantage quasi décisif) 19 Rc6 les Blancs gagneront un pion pour une compensation insuffisante.\n\n17 Rxb7\n\nUne idée extraordinaire. Les Blancs abandonnent toute la qualité afin d'obtenir un étouffement sur les cases blanches. Il vaut la peine de prendre quelque temps pour examiner le jeu jusqu'ici, afin de comprendre la justification de ce remarquable sacrifice. Jugée selon les critères classiques d'un bon jeu d'ouverture, la stratégie des Blancs a été aussi éloignée du manuel qu'il est possible de l'imaginer :\n\n« Roquez aussi vite que possible » : ici le roi blanc est encore au centre, et il leur faut encore deux coups pour roquer.\n\n« Ne jouez pas deux fois la même pièce dans l'ouverture » : les Blancs ont déplacé leurs cavaliers un total de sept fois.\n\n« Développez vos tours vers les colonnes centrales » : les Blancs ont développé leur tour dame comme un débutant, en a4 et b4, et pour couronner cette manœuvre ils l'ont donnée pour un fou !\n\nEn fait, si vous étiez descendu dans votre club d'échecs local et aviez vu quelqu'un jouer ainsi avec les Blancs, vous auriez probablement ri. Cependant, les Blancs sont l'un des plus grands joueurs (certains diraient le plus grand) de tous les temps, si bien qu'il doit y avoir quelque raison derrière leur jeu. La logique de Kasparov repose sur deux facteurs étroitement liés : les cases blanches et la case d5. L'ouverture des Noirs consiste à établir leurs pions centraux sur des cases noires ; cela aboutit inévitablement à un affaiblissement des cases blanches. Dans des cas comme celui-ci, où les pions d'un joueur sont fixés sur des cases d'une seule couleur, il est important pour ce joueur de conserver quelque contrôle sur les cases de la couleur opposée. Dans certains cas, cela peut se faire à l'aide de pions ; par exemple, si les Noirs avaient un pion en c6 alors ils contrôleraient d5 et le fait que leurs pions centraux soient sur cases noires serait sans importance. Là où, comme ici, il n'y a pas de pions pour faire le travail, alors ce doit être fait par les pièces.\n\nLa pièce clé est très souvent le fou qui contrôle les cases de la couleur opposée aux pions. Tant que ce fou reste sur l'échiquier, la possibilité de lutter pour les cases non contrôlées par les pions existe. Si ce fou manque, alors le joueur ne peut plus compter que sur ses cavaliers, mais à moins que ceux-ci soient déjà bien placés, il peut falloir du temps pour les manœuvrer vers des positions efficaces.\n\nComment ces considérations générales s'appliquent-elles à la partie en discussion ? La chaîne de pions d6-e5 laisse les cases blanches des Noirs généralement faibles, mais l'avant-poste d5 a une signification particulière. Un cavalier établi là contrôlera plusieurs cases dans la position noire et exercera une influence puissante sur la partie. Nous avons déjà vu dans les notes ci-dessus combien de lignes tournent autour de la bataille pour d5. Ainsi la réponse au paradoxe apparent représenté par le jeu de Kasparov est qu'il a reconnu la nature critique de la lutte pour d5, et était prêt à lui assigner la plus haute priorité – jusqu'à sacrifier la qualité.\n\nMaintenant d'autres pièces du puzzle s'assemblent. Les Blancs n'ont pas encore roqué parce que le plan noir de lutter pour d5 exigeait une attention immédiate ; il n'y avait simplement pas de temps pour un développement paisible par, par exemple, Be2 et 0-0. Un autre point est que les Blancs aimeraient vraiment développer leur fou de f1 en c4, où il contrôle d5, et Kasparov est donc prêt à attendre d'avoir joué a4 avant de développer ce fou, afin qu'il ait une chance d'occuper sa case optimale sans perte de tempo. Le second point, sur le développement étrange de la tour blanche, repose sur la même idée. Les Blancs ont de plus grandes ambitions pour leur tour de a1 que de simplement la développer en d1 ; cette tour doit servir à éliminer le important fou des cases blanches des Noirs. Le troisième point, sur les coups répétés de cavalier des Blancs, est encore une question de priorités. Les Blancs ont peut-être déplacé leurs cavaliers sept fois, mais maintenant ils sont idéalement placés pour contrôler d5 – de toute façon, les Noirs n'ont rien à se vanter puisqu'ils ont déplacé leur propre cavalier dame quatre fois.\n\nAutrement dit, les coups des Blancs forment un tout cohérent ; ils peuvent paraître étranges individuellement, mais examinés ensemble ils représentent un plan ambitieux pour obtenir une emprise complète sur les cases blanches. Bien sûr, l'importance de contrôler d5 dans ce type de structure de pions sicilienne est bien connue, mais avant cette partie je pense que peu de grands maîtres auraient été prêts à abandonner toute la qualité pour cimenter le contrôle de d5.\n\nL'une des principales différences entre un joueur fort et un véritable grand est que ce dernier est capable d'aller au-delà de ce qui est généralement connu et accepté pour découvrir de nouvelles idées et principes. Si elles réussissent, celles-ci sont alors incorporées au corps général de la théorie échiquéenne et deviennent plus familières avec le temps – à tel point que ce qui paraissait extraordinaire lorsqu'il a été joué pour la première fois ne peut plus susciter qu'un bâillement quelques années plus tard. Bien sûr, la même chose se produit dans pratiquement tous les domaines de l'activité humaine.\n\nCette partie fournit un excellent exemple d'un thème que j'ai mentionné dans l'Introduction – qu'une grande part des échecs de haut niveau est incompréhensible lorsqu'on la regarde à travers les principes formulés dans les manuels contemporains. Alors que les échecs ont beaucoup progressé au cours du demi-siècle passé, une grande part du matériel pédagogique n'a pas suivi ces avancées. Il est impossible d'expliquer le jeu des Blancs dans cette partie en termes des vieilles idées : « les tours appartiennent au centre », « ne jouez pas deux fois la même pièce dans l'ouverture », et ainsi de suite. Pour avoir un sens, la partie doit être vue en termes modernes : le jeu des Blancs repose sur la création d'un plan stratégique et l'exécution obstinée de ce plan, fondée sur les exigences spécifiques de la position.\n\n17...Nxb7\n\n18 b4\n\nUn coup clé. La seule pièce noire capable de lutter pour les cases blanches centrales est le cavalier, qui pourrait revenir en jeu via ...Nc5-e6-c7, par exemple. Ce coup coupe ce plan. Afin d'activer son cavalier, les Noirs devront déplacer leur dame puis jouer ...Nd8-e6, mais cela n'est pas si facile à réaliser puisqu'il n'y a pas de bonne case pour la dame.\n\nObjectivement, les Blancs n'ont probablement qu'un très léger avantage, mais en pratique il est souhaitable de posséder l'initiative. Les Noirs ont du mal à trouver un plan constructif tandis que les options des Blancs sont bien plus claires.\n\n18...Bg5\n\nPuisque les Noirs ne peuvent activer facilement leurs autres pièces, ils déplacent au moins leur fou vers une meilleure case. L'immédiat 18...Qc8 19 Nce3 Nd8 laisse d6 trop faible : après 20 Nc4 Qc6 21 b5! axb5 22 Nxe5 les Blancs gagnent du matériel. 18...0-0 19 Nce3 est similaire à la partie.\n\n19 Na3\n\nLe cavalier ne peut plus être activé via e3, aussi atteint-il c4 par une route alternative. En fait, la case c4 est un bon avant-poste à la fois pour le fou de f1 et le cavalier de c2, mais évidemment les deux pièces ne peuvent se tenir sur la même case. Il est logique que le cavalier prenne le pas car alors que le fou a une autre case assez bonne (d3), le cavalier fait très peu en c2 ou a3.\n\n19...O-O\n\n20 Nc4\n\nIl y a encore peu de danger que les Noirs entreprennent quelque chose d'actif, si bien que les Blancs ne prennent aucun risque en laissant leur roi au centre.\n\n20...a5\n\nLes Noirs jouent de façon cohérente pour activer les pièces qu'ils peuvent. Ce coup ouvrira la colonne a et amènera la tour de a8 en jeu. L'alternative est 20...f5, visant du contrejeu par une autre voie. Cependant, après 21 Bd3 f4 (21...fxe4 22 Bxe4 est pire car le fou irradie de puissance depuis e4) 22 Qg4 a5 23 0-0 axb4 24 cxb4 f3 25 g3 les Noirs n'ont pas résolu leurs problèmes ; par exemple, 25...Kh8 26 Rd1 Bh6 27 Bf1 suivi de Rd3 et Rxf3.\n\n21 Bd3\n\nGrâce à l'emprise des Blancs sur les cases blanches, le contrejeu noir est très limité. Aussi est-ce un bon moment pour les Blancs de terminer leur développement. 21 Ncb6 a peu de sens car les Noirs peuvent simplement répondre 21...Ra7.\n\n21...axb4\n\n22 cxb4\n\nC'est aux Noirs de trouver un moyen d'activer leurs pièces placées passivement.\n\n22...Qb8\n\nShirov décide de se concentrer sur le jeu le long de la colonne a, par ...Qb8, ...Ra2, ...Qa7 et peut-être finalement ...Ra8. Ce plan est satisfaisant s'il est suivi correctement, mais 22...Rb8 est peut-être l'idée la plus solide. Les Noirs éliminent la fourchette en b6, et préparent ainsi ...Qd7 suivi de ...Nd8-e6. Après 23 h4 Bh6 24 Qg4 Kh8 25 0-0 Qc8 la position est obscure.\n\nLes autres possibilités sont moins efficaces. 22...Bh6 (22...Ra2 23 0-0 Qa8 24 Ncb6 Qa3 25 Bc4 Rd2 26 Qg4 favorise les Blancs) 23 0-0 Qh4 (après 23...Qg5 24 g3 les Noirs n'ont pas de plan évident, car 24...Nd8 perd sur 25 h4) tente d'activer la dame à l'aile roi, mais les Blancs peuvent continuer 24 g3 Qh3 25 Be2 Bg5 (sinon les Noirs doivent abandonner du matériel) 26 Bg4 Qh6 27 Ndb6 Ra2 28 h4 avec une bonne position ; par exemple, 28...Bd2 (ou 28...Bxh4 29 gxh4 Qxh4 30 Qf3 et les Blancs conservent leur emprise) 29 Qb3 Ra6 30 Rd1.\n\n23 h4\n\nMaintenant les Noirs sont forcés de prendre une décision critique. Doivent-ils garder le fou sur la diagonale c1-h6, ou le faire reculer en d8 ?\n\nLes alternatives 23 Ncb6 Ra2 24 Nd7 Qa7 et 23 0-0 Nd8 24 Ncb6 Ra7 favorisent les Noirs.\n\n23...Bh6\n\nLe mauvais choix. Le fou paraît certes plus actif en h6, où il contrôle les cases d2 et c1, mais en fait les Noirs auraient mieux fait de reculer. 23...Bd8! a l'intention de ...Bc7 suivi de ...Nd8, et couvre b6 de sorte qu'un cavalier blanc ne puisse y sauter sans être échangé. Les Blancs peuvent continuer 24 g3 Bc7 (24...Qa7 25 0-0 Qd4 26 Qb3 suivi de Rd1 expulse la dame) 25 0-0 Nd8 26 b5 (26 Qg4 Kh8 change peu la situation) 26...Ne6 27 b6 Bd8 avec une position obscure. Les Blancs ont réussi à pousser leur pion en b6, mais en compensation les Noirs ont activé leur cavalier. Après le coup du texte, les Blancs prennent le dessus.\n\n24 Ncb6\n\nAvec le fou en h6, ce coup peut être joué en toute impunité.\n\n24...Ra2\n\nNotons que bien que les Noirs aient un fou théoriquement « mauvais », le fou est en fait relativement actif en h6. Ce n'est pas l'inactivité de leur fou qui les condamne, c'est l'étonnante activité des pièces mineures blanches sur les cases blanches. Il est vrai que complexes de cases faibles et mauvais fous vont souvent de pair, mais dans ce cas les cases faibles sont les facteurs primaires de la chute des Noirs. Nous examinerons les mauvais fous de plus près dans la Partie 23.\n\n25 0-0\n\nPlus fort que 25 Nd7? Qa7 26 0-0 Ra8!, où un ...Ra1 ultérieur forcera des échanges.\n\n25 O-O\n\n25...Rd2\n\nCela permet une réponse puissante, mais les autres coups étaient aussi assez peu engageants :\n\n1) 25...Qa7 26 Bc4 Rd2 27 Qh5 Nd8 28 Nf6+ Kh8 29 Nbd7 Re8 30 Nxe8 (30 Bxf7 Nxf7 31 Qxf7 Ra8 32 Ne8 Qa2 est moins clair) 30...Qxd7 31 Nf6 Qc7 32 b5 avec un avantage pour les Blancs ; par exemple, 32...Qxc4? échoue sur 33 Qf5 gxf6 34 Qxf6+ Kg8 35 Qxh6 suivi de Qg5+, donnant aux Blancs un avantage quasi décisif.\n\n2) 25...Qe8 26 Bc4 Ra7 27 Nc8 Ra3 28 Nce7+ Kh8 29 Nf5 (remarquez comment les cavaliers blancs sautillent, utilisant toutes les cases blanches affaiblies) 29...Qe6 30 Nde3 Qg6 31 h5 Qg5 32 Bd5 Nd8 33 b5 et la coordination des Noirs est si mauvaise qu'ils auront du mal à arrêter le pion b.\n\n26 Qf3\n\nUne imprécision. Les Blancs auraient pu jouer le simple mais fort 26 Qb1!, menaçant de piéger la tour avec Nc4. Les Noirs ne peuvent guère l'empêcher ; par exemple, 26...Qd8 (26...Qa7 27 Nc4 Ra2 28 Nc3 ramassera aussi la qualité) 27 g3 (27 Nc4 Rxd3 28 Qxd3 Qxh4 est moins clair) et les Noirs devront abandonner la qualité. Cela laisserait une situation d'égalité matérielle, mais avec la plus grande part de l'avantage positionnel des Blancs intact.\n\n26...Qa7\n\n26...Qe8 est fortement rencontré par 27 Ra1! suivi de Nc4 (mais pas 27 Ba6? Nd8 28 Nc4 Rd4 29 Nxd6 Qe6 et les Noirs gagnent).\n\n27 Nd7\n\nUne autre imprécision. Les Blancs auraient encore pu conserver une forte pression en continuant 27 Bb5 Nd8 (27...Rc2 28 Nd7 Ra8 29 Ne7+ Kh8 30 Qxf7 Qa2 31 Nd5 donne aux Blancs un avantage clair) 28 Nd7 Ne6 29 Ne7+ (29 Nxf8 Kxf8 30 Qc3 g6 31 Qc6 est aussi bon pour les Blancs) 29...Kh8 30 Nxf8 Qxe7 31 Nxe6 Qxe6 (31...fxe6 32 Ra1 g6 33 Bc4 est très désagréable pour les Noirs) 32 Bc6 avec de bonnes chances de gain malgré les fous de couleurs opposées.\n\n27...Nd8\n\nLes Noirs rendent la qualité, mais cela ne résout pas leurs problèmes puisque les Blancs conservent une forte initiative. Les alternatives sont :\n\n1) 27...Qa3? 28 Ne7+ Kh8 29 Nxf8 Rxd3 30 Qxf7 et les Blancs gagnent.\n\n2) 27...Nc5? 28 bxc5 Qxd7 29 c6 Qa7 30 c7 Qc5 31 Rb1 Ra2 32 Rb8 Ra8 33 Rxa8 Rxa8 34 Qf5 est gagnant pour les Blancs.\n\n3) 27...Rd8?! 28 Ne7+ Kh8 29 Qxf7 Qa8 (29...g6 30 Nf6 Bg7 31 Qxg6 force le mat ; 29...Rxd3 perd sur 30 Nf8) 30 Bb5 et les Blancs ont une très bonne position.\n\n4) 27...Ra8! est le seul coup.\n\nLes Blancs peuvent forcer la nulle mais n'ont pas de voie claire vers l'avantage :\n\n4a) 28 N7b6?! Qa3 favorise légèrement les Noirs.\n\n4b) 28 Ne7+ Kh8 29 Qxf7 Rxd3 30 Nf8 Qa2! 31 Qf5 g6 32 Nexg6+ hxg6 33 Qf6+ Bg7 (33...Kg8 34 Ne6 Kh7 35 Qe7+ est nulle) 34 Nxg6+ Kh7 35 Qf5 Qd2 36 Nxe5+ est aussi nulle.\n\n4c) 28 Bb5 Nd8 29 Qf5 est obscur.\n\n4d) 28 Bc4 Nd8 (28...Re8? perd sur 29 N5f6+) 29 Qf5 (29 N5b6 Rb8 30 Nxb8 Qxb6 est obscur) 29...g6 30 Qf6 Bg7 31 Qxd6 Kh8 et les Noirs tiennent encore.\n\n28 Nxf8\n\n28...Kxf8\n\n29 b5\n\nLes avantages des Blancs sont décisifs : leurs pièces sont plus actives, le roi noir est en danger, le pion b est très dangereux et pour couronner le tout les Noirs ont encore des faiblesses criantes sur les cases blanches.\n\n29...Qa3\n\nLes Noirs luttent pour générer du contrejeu. Les alternatives ne valent pas mieux :\n\n1) 29...Ne6 30 b6 Qa3 (30...Qb8 perd sur 31 Ra1) 31 b7 Qb3 (31...Rb2 32 Bb5! Qa7 33 Qa3 est décisif) 32 Nc7 Nd4 (32...Nxc7 33 Bc4 achève les Noirs) 33 Qg4 Qxb7 34 Qd7 Qb8 35 Rb1 et il n'y a pas de défense.\n\n2) 29...Qd4 30 Be2 (menaçant à la fois 31 Qa3 et 31 Qf5! Rxe2 32 Qd7) 30...Qa7 (ou 30...Ne6 31 Rc1) 31 b6 Qa8 32 Qf5 Rxe2 33 Qxh7 f6 34 Qh8+ Kf7 35 Nc7 Qc6 36 Qxd8 et les Blancs gagnent.\n\n30 Qf5\n\nEncore une fois, un coup clé implique l'occupation d'une case blanche. Les Blancs sacrifient le fou et jouent pour une attaque directe.\n\n30...Ke8\n\nLes Noirs ne peuvent accepter, car 30...Rxd3 perd sur 31 Qd7 g6 32 Qxd8+ Kg7 33 b6.\n\n31 Bc4\n\n31...Rc2\n\nOu 31...Qc5 (31...Qa4 32 Qc8) 32 Qxh7 Kd7 33 Qf5+ Ke8 34 Bb3 Rb2 35 Bd1 et les Blancs gagnent.\n\n32 Qxh7\n\n32...Rxc4\n\n32...Qc5 perd sur 33 Bb3 Rb2 34 Qg8+ Kd7 35 Bd1.\n\n33 Qg8+\n\n33...Kd7\n\n34 Nb6+\n\n34...Ke7\n\n35 Nxc4\n\n35...Qc5\n\n35...Qb4 est aussi rencontré par 36 Ra1.\n\n36 Ra1\n\n36...Qd4\n\n36...Qxc4 37 Ra7+ Kf6 38 Qxd8+ Kg6 39 Qxd6+ f6 40 Qc6 est gagnant pour les Blancs.\n\n37 Ra3\n\n37...Bc1\n\n38 Ne3\n\n38...1-0\n\nCe fut une partie exceptionnellement créative de Kasparov. Un étonnant sacrifice de qualité a été suivi d'une montée progressive de pression sur les nombreuses cases blanches faibles. Il était difficile pour les Noirs de trouver un plan pour se libérer, et l'erreur au 23e coup était tout à fait compréhensible. Il y eut quelques imprécisions dans les coups suivants, mais une nouvelle erreur de Shirov au 28e coup scella son sort.\n\nLes leçons ici sont :\n\n1) Les cases qui sont faibles par rapport à la structure de pions centrale doivent être couvertes par des pièces.\n\n2) Si cela n'est pas possible, alors la faiblesse peut devenir sérieuse.\n\n3) Le défenseur doit rester alerte à toute imprécision de la part de l'attaquant. Ici Shirov a eu une chance momentanée, mais il l'a laissée passer.\n\n4) Apprendre quand on peut briser les « règles » fait partie de la progression aux échecs.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Complexe de cases faibles\n\nLa littérature échiquéenne évoque souvent un « complexe de cases faibles ». Cela sonne comme quelque chose lié à la psychanalyse, mais c'est en fait un concept échiquéen assez simple. Un « complexe de cases faibles » est essentiellement un ensemble de cases faibles de la même couleur. De tels complexes naissent souvent en présence de chaînes de pions (voir la Partie 24 pour davantage sur les chaînes de pions). Si, par exemple, les Noirs ont des pions en a7, b7, d5, e6, g7 et h7, alors les cases noires autour des pions centraux peuvent devenir généralement faibles. Si les Blancs ont des pions en d4 et e5, cela peut n'avoir guère d'importance car les cases qui pourraient s'affaiblir sont scellées et ne peuvent être occupées par les pièces blanches. Cependant, si les Blancs ont des cavaliers en d4 et e5, alors la faiblesse des cases noires est tout à fait évidente. Les formations de pions susceptibles de créer un complexe de cases faibles méritent donc une attention particulière. Dans l'exemple ci-dessus, les Noirs peuvent être en mesure de couvrir les cases potentiellement faibles en d4 et e5, par exemple avec une dame en b6, un cavalier en c6 et un fou en d6 (cela peut se produire dans la défense française). Si les Blancs ne peuvent pas occuper les cases potentiellement faibles, alors en fait elles peuvent ne pas être faibles du tout.\n\nAinsi, la capacité d'utiliser les pièces pour couvrir les points faibles potentiels entre les pions est critique et, comme nous le verrons dans la partie suivante, il peut valoir quelque matériel de priver l'adversaire de cette possibilité.\n\nG. Kasparov – A. Shirov\n\nHorgen 1994\n\nDéfense sicilienne, variante Sveshnikov"
+    },
+    {
+      "ply": 1,
+      "san": "e4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "c5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "Nf3",
+      "text": "Pour les commentaires sur les coups jusqu'ici, voir la Partie 8.",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "e6",
+      "text": "Dans des parties antérieures, nous avons vu des exemples de 2...Nc6 et 2...d6. Le coup 2...e6 est une autre possibilité pour les Noirs qui donne la priorité à la libération du fou des cases noires. Bien que ce coup puisse mener à une transposition dans d'autres lignes siciliennes, il existe un certain nombre de variantes indépendantes.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "d4",
+      "text": "Tout comme après 2...Nc6 et 2...d6, cette avance immédiate est la continuation la plus active des Blancs.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "cxd4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "Nxd4",
+      "text": "L'échange de pions a laissé aux Noirs une majorité de pions au centre, mais les Blancs peuvent développer leurs pièces rapidement.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "Nf6",
+      "text": "Après ce coup, le jeu est susceptible de transposer dans l'un des systèmes siciliens principaux. Les deux grandes lignes spécifiques à l'ordre de coups 2...e6 sont 4...Nc6 (la variante Taimanov) et 4...a6 (la variante Kan).",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "Nc3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "Nc6",
+      "text": "Trait aux Blancs\n\nL'ouverture de cette partie montre à quel point les questions d'ordre de coups peuvent être déroutantes. Les Noirs tentent d'atteindre la position survenant dans la partie après 8 Bg5. Il y a deux ordres de coups différents aboutissant à la même position :\n\nA) 1 e4 c5 2 Nf3 Nc6 3 d4 cxd4 4 Nxd4 Nf6 5 Nc3 e5 6 Ndb5 d6 7 Bg5.\n\nB) 1 e4 c5 2 Nf3 e6 3 d4 cxd4 4 Nxd4 Nf6 5 Nc3 Nc6 6 Ndb5 d6 7 Bf4 e5 8 Bg5.\n\nVous remarquerez que le second ordre de coups est plus long d'un coup, ce qui est très gênant pour les auteurs de livres d'ouvertures ! Il vaut aussi de mentionner que certains programmes de bases de données ont une fonction « recherche de position » qui ne trouve pas correctement les positions avec une numérotation de coups différente. Dans ce cas, il est assez facile de manquer des parties clés dans la base à moins de faire deux recherches.\n\nÉvidemment, les lignes ci-dessus ne sont pas forcées et dans les deux cas les Blancs ont un certain nombre d'occasions de dévier. Quel ordre de coups les Noirs choisissent dépend de quelles alternatives blanches ils souhaitent empêcher. Voici une liste des différences clés :\n\nInconvénients de l'ordre de coups A :\n\nA1) Les Blancs peuvent jouer 3 Bb5.\n\nA2) Les Blancs peuvent jouer 7 Nd5 ou 7 a4.\n\nInconvénients de l'ordre de coups B :\n\nB1) Les Blancs peuvent jouer 6 Nxc6 bxc6 7 e5.\n\nB2) Les Noirs peuvent ne pas réussir à éviter complètement les lignes avec Bb5, puisque les Blancs peuvent jouer 3 Nc3 et si les Noirs veulent encore viser leur position cible, alors ils doivent continuer 3...Nc6, permettant 4 Bb5. Il est vrai qu'avec cet ordre de coups les options des Blancs sont restreintes (par exemple, ils ne peuvent plus jouer c3) mais également les Noirs sont limités par leur engagement à ...e6 (alors qu'après 1 e4 c5 2 Nf3 Nc6 3 Bb5, par exemple, les Noirs pourraient préférer jouer 3...g6).\n\nEn décidant du meilleur ordre de coups, un joueur doit considérer non seulement les facteurs objectifs mais aussi quelles lignes correspondent davantage à son goût.\n\nDans cette partie, les Noirs optent pour l'ordre de coups B (tandis que dans la Partie 23, ils préfèrent l'ordre de coups A).",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "Ndb5",
+      "text": "C'est le coup le plus courant, visant la case faible en d6. Cependant, la ligne 6 Nxc6 bxc6 7 e5 Nd5 8 Ne4 est une alternative majeure et assez irritante pour les Noirs, car les positions résultantes sont fort différentes de celles qu'ils visent.",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "d6",
+      "text": "Les Noirs ont une alternative en 6...Bb4, mais après 7 a3 les Noirs sont plus ou moins forcés de prendre en c3, ce qui donne aux Blancs la paire de fous à peu de frais.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "Bf4",
+      "text": "C'est la suite logique du coup précédent des Blancs. Ils visent à forcer ...e5, après quoi la case d5 deviendra faible.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "e5",
+      "text": "Forcé, car 7...Ne5 est fortement rencontré par 8 Qd4.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "Bg5",
+      "text": "Ici le fou se tient prêt à éliminer le cavalier de f6, accroissant ainsi l'emprise des Blancs sur d5.",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "a6",
+      "text": "La compensation des Noirs pour la case d5 faible est la possibilité de chasser le cavalier blanc vers le bord de l'échiquier. Les Noirs doivent en profiter tout de suite, car les Blancs menacent 9 Nd5.",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "Na3",
+      "text": "Trait aux Noirs\n\nCe cavalier mal placé est l'une des pierres angulaires du jeu noir. Grâce au ...e5 des Noirs, la case d5 est une faiblesse dans leur position, mais des facteurs dynamiques peuvent offrir une compensation pour une faiblesse statique. Dans ce cas, le cavalier hors jeu en a3 doit revenir dans la partie, ce qui donne aux Noirs le temps de développer leur contrejeu.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "b5",
+      "text": "Toute cette ligne est généralement appelée variante Sveshnikov, d'après le grand maître soviétique qui l'a popularisée dans les années 1970. Le coup 9...b5 de Sveshnikov était vraiment la clé de la revitalisation de ce système. Auparavant, les Noirs avaient tendance à jouer soit 9...d5, un sacrifice de pion qui n'est pas vraiment correct, soit 9...Be6, qui permet au cavalier hors jeu de revenir au centre par Nc4 et Ne3.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "Nd5",
+      "text": "C'est l'une des deux méthodes principales pour traiter la menace noire de gagner une pièce par 10...b4. L'autre est 10 Bxf6, pour laquelle voir la Partie 23.",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "Be7",
+      "text": "Grâce au retard des Blancs à échanger en f6, les Noirs peuvent éviter les pions f doublés par ce coup. 10...Be6 est mauvais, car après 11 Bxf6 gxf6 12 c3 f5 13 exf5 Bxf5 les Noirs ont perdu un tempo avec leur fou (par rapport à la ligne standard 10 Bxf6 gxf6 11 c3 f5 12 exf5 Bxf5) et les Blancs ont donc la forte possibilité 14 Qf3!, où le coup supplémentaire c3 empêche la réponse ...Nd4.\n\nLe coup du texte décloue le cavalier de f6 et menace donc à la fois 11...Nxe4 et la liquidation favorable 11...Nxd5 12 Qxd5 Bb7.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "Bxf6",
+      "text": "Maintenant les Blancs prennent le cavalier.",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "Bxf6",
+      "text": "Ici 11...gxf6 est mauvais, car le fou n'est pas bien placé en e7 dans la position résultante (il devrait être en g7).\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "c3",
+      "text": "En échangeant le cavalier de f6, les Blancs ont consolidé la position de leur cavalier en d5. Il n'est pas facile pour les Noirs de briser l'emprise blanche sur d5, pour deux raisons. La première est que l'autre cavalier peut prêter soutien par Nc2-e3 et la seconde est que le défi évident à d5, à savoir ...Ne7, permet aux Blancs de doubler les pions noirs en jouant Nxf6+, sans que les Noirs obtiennent la paire de fous en compensation.\n\nLe coup du texte vise à ramener le cavalier hors jeu de a3 dans la partie via Nc2.",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "Bb7",
+      "text": "Ce coup intéressant est devenu assez populaire durant les années 1990. Les Noirs visent à monter un défi direct à la case d5 à l'aide du fou de b7 et du cavalier de c6. Le plan habituel est ...Nb8-d7, ...Bg5 et ...Nf6. Le fou en g5 se tient prêt à éliminer l'autre cavalier blanc (après Nc2 et Nce3), tandis que les pièces mineures restantes des Noirs convergent sur la case d5. En principe, c'est un plan très efficace, qui pourrait bien conduire les Blancs à devoir reprendre en d5 avec leur pion e. Cependant, être forcé à une telle prise est presque toujours le signe que la stratégie noire a réussi. Les Blancs veulent d5 occupé par l'une de leurs pièces, non un pion immobile, et le transfert du pion de e4 à d5 donne aussi aux Noirs l'occasion de développer un jeu actif par ...f5 et ...e4. Le défaut du plan noir est, bien sûr, qu'il faut quatre coups pour placer les pièces sur leurs cases idéales et cela donne aux Blancs l'occasion d'entreprendre quelque jeu actif de leur côté.\n\n12...0-0 13 Nc2 est la continuation la plus courante, où les Noirs ont le choix entre 13...Bg5 et 13...Rb8. Chacune a ses inconvénients. Un problème avec 13...Rb8 est que les Blancs peuvent répondre 14 h4, empêchant l'activation du fou en g5. D'un autre côté, 13...Bg5 a le défaut qu'après 14 a4 les Noirs sont obligés de jouer 14...bxa4, ce qui libère c4 pour le fou des cases blanches blanc et laisse le pion a noir faible.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Nc2",
+      "text": "Un coup à usages multiples. Le cavalier revient au centre, se place pour soutenir son collègue par Nce3, et libère le pion a pour briser la structure de pions de l'aile dame noire par a4.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "Nb8",
+      "text": "Bien que ce coup soit une continuation du plan mentionné dans la note au 12e coup des Noirs, il paraît un peu étrange de remettre le cavalier sur sa case d'origine. Pourquoi ne pas, par exemple, jouer 13...Bg5 puis 14...Ne7, atteignant le même type de position, mais en économisant deux coups ? La réponse est que 13...Bg5 14 a4 bxa4 15 Rxa4 Ne7 n'atteint pas vraiment l'objectif noir de briser l'emprise blanche sur d5, car après 16 Bc4 les Blancs sont prêts à continuer de reprendre avec des pièces en d5. Comme nous le verrons, le cavalier est bien mieux placé en d7 pour empêcher les Blancs de renforcer d5, en partie parce qu'un ...Nf6 ultérieur attaque aussi le pion e4, mais aussi parce que les Noirs ont diverses options pour harceler une tour en a4 par ...Nb6 ou ...Nc5.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "a4",
+      "text": "Comme expliqué plus haut, les Blancs doivent agir vite pour perturber l'exécution du plan noir. Ce coup expose le pion a noir à l'attaque, et donne accès à la case c4.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "bxa4",
+      "text": "Forcé, car les Noirs n'ont pas de méthode raisonnable pour défendre b5.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Rxa4",
+      "text": "Il n'y a aucune raison de ne pas reprendre le pion immédiatement. La seule véritable alternative est 15 Nce3, visant à prendre en a4 avec la dame. Cependant, après 15...Nd7 16 Qxa4 0-0 17 Qc2 (17 Bc4 Bg5 fait tomber les supports de d5) 17...Bg5 les Blancs sont incapables de maintenir leur emprise sur d5.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "Nd7",
+      "text": "C'est un coup plus flexible que le roque, puisque les Noirs joueront définitivement ...Nd7 tôt ou tard.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Rb4",
+      "text": "Kasparov pose immédiatement la question au fou noir. C'est un coup plus dynamique que 16 Nce3, qui pose moins de problèmes aux Noirs après 16...0-0.",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Nc5",
+      "text": "La réponse évidente, défendant le fou et préparant de chasser la tour blanche par ...0-0 et ...a5. Cependant, après l'étonnante réponse des Blancs, les Noirs sont forcés sur la défensive. L'exemple dévastateur offert par cette partie a dissuadé d'autres joueurs de répéter le coup de Shirov et les parties récentes se sont concentrées sur 16...Rb8, où 17 Bc4 0-0 18 0-0 Bg5 19 Qe2 laisse aux Blancs un très léger avantage.\n\n16...Bc6?! est mauvais ; après 17 Rc4 Bxd5 (17...Rc8 18 Ncb4 est aussi très bon pour les Blancs) 18 Qxd5 0-0 (18...Nb6 19 Qc6+ Ke7 20 Rb4 donne aux Blancs un avantage quasi décisif) 19 Rc6 les Blancs gagneront un pion pour une compensation insuffisante.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Rxb7",
+      "text": "Une idée extraordinaire. Les Blancs abandonnent toute la qualité afin d'obtenir un étouffement sur les cases blanches. Il vaut la peine de prendre quelque temps pour examiner le jeu jusqu'ici, afin de comprendre la justification de ce remarquable sacrifice. Jugée selon les critères classiques d'un bon jeu d'ouverture, la stratégie des Blancs a été aussi éloignée du manuel qu'il est possible de l'imaginer :\n\n« Roquez aussi vite que possible » : ici le roi blanc est encore au centre, et il leur faut encore deux coups pour roquer.\n\n« Ne jouez pas deux fois la même pièce dans l'ouverture » : les Blancs ont déplacé leurs cavaliers un total de sept fois.\n\n« Développez vos tours vers les colonnes centrales » : les Blancs ont développé leur tour dame comme un débutant, en a4 et b4, et pour couronner cette manœuvre ils l'ont donnée pour un fou !\n\nEn fait, si vous étiez descendu dans votre club d'échecs local et aviez vu quelqu'un jouer ainsi avec les Blancs, vous auriez probablement ri. Cependant, les Blancs sont l'un des plus grands joueurs (certains diraient le plus grand) de tous les temps, si bien qu'il doit y avoir quelque raison derrière leur jeu. La logique de Kasparov repose sur deux facteurs étroitement liés : les cases blanches et la case d5. L'ouverture des Noirs consiste à établir leurs pions centraux sur des cases noires ; cela aboutit inévitablement à un affaiblissement des cases blanches. Dans des cas comme celui-ci, où les pions d'un joueur sont fixés sur des cases d'une seule couleur, il est important pour ce joueur de conserver quelque contrôle sur les cases de la couleur opposée. Dans certains cas, cela peut se faire à l'aide de pions ; par exemple, si les Noirs avaient un pion en c6 alors ils contrôleraient d5 et le fait que leurs pions centraux soient sur cases noires serait sans importance. Là où, comme ici, il n'y a pas de pions pour faire le travail, alors ce doit être fait par les pièces.\n\nLa pièce clé est très souvent le fou qui contrôle les cases de la couleur opposée aux pions. Tant que ce fou reste sur l'échiquier, la possibilité de lutter pour les cases non contrôlées par les pions existe. Si ce fou manque, alors le joueur ne peut plus compter que sur ses cavaliers, mais à moins que ceux-ci soient déjà bien placés, il peut falloir du temps pour les manœuvrer vers des positions efficaces.\n\nComment ces considérations générales s'appliquent-elles à la partie en discussion ? La chaîne de pions d6-e5 laisse les cases blanches des Noirs généralement faibles, mais l'avant-poste d5 a une signification particulière. Un cavalier établi là contrôlera plusieurs cases dans la position noire et exercera une influence puissante sur la partie. Nous avons déjà vu dans les notes ci-dessus combien de lignes tournent autour de la bataille pour d5. Ainsi la réponse au paradoxe apparent représenté par le jeu de Kasparov est qu'il a reconnu la nature critique de la lutte pour d5, et était prêt à lui assigner la plus haute priorité – jusqu'à sacrifier la qualité.\n\nMaintenant d'autres pièces du puzzle s'assemblent. Les Blancs n'ont pas encore roqué parce que le plan noir de lutter pour d5 exigeait une attention immédiate ; il n'y avait simplement pas de temps pour un développement paisible par, par exemple, Be2 et 0-0. Un autre point est que les Blancs aimeraient vraiment développer leur fou de f1 en c4, où il contrôle d5, et Kasparov est donc prêt à attendre d'avoir joué a4 avant de développer ce fou, afin qu'il ait une chance d'occuper sa case optimale sans perte de tempo. Le second point, sur le développement étrange de la tour blanche, repose sur la même idée. Les Blancs ont de plus grandes ambitions pour leur tour de a1 que de simplement la développer en d1 ; cette tour doit servir à éliminer le important fou des cases blanches des Noirs. Le troisième point, sur les coups répétés de cavalier des Blancs, est encore une question de priorités. Les Blancs ont peut-être déplacé leurs cavaliers sept fois, mais maintenant ils sont idéalement placés pour contrôler d5 – de toute façon, les Noirs n'ont rien à se vanter puisqu'ils ont déplacé leur propre cavalier dame quatre fois.\n\nAutrement dit, les coups des Blancs forment un tout cohérent ; ils peuvent paraître étranges individuellement, mais examinés ensemble ils représentent un plan ambitieux pour obtenir une emprise complète sur les cases blanches. Bien sûr, l'importance de contrôler d5 dans ce type de structure de pions sicilienne est bien connue, mais avant cette partie je pense que peu de grands maîtres auraient été prêts à abandonner toute la qualité pour cimenter le contrôle de d5.\n\nL'une des principales différences entre un joueur fort et un véritable grand est que ce dernier est capable d'aller au-delà de ce qui est généralement connu et accepté pour découvrir de nouvelles idées et principes. Si elles réussissent, celles-ci sont alors incorporées au corps général de la théorie échiquéenne et deviennent plus familières avec le temps – à tel point que ce qui paraissait extraordinaire lorsqu'il a été joué pour la première fois ne peut plus susciter qu'un bâillement quelques années plus tard. Bien sûr, la même chose se produit dans pratiquement tous les domaines de l'activité humaine.\n\nCette partie fournit un excellent exemple d'un thème que j'ai mentionné dans l'Introduction – qu'une grande part des échecs de haut niveau est incompréhensible lorsqu'on la regarde à travers les principes formulés dans les manuels contemporains. Alors que les échecs ont beaucoup progressé au cours du demi-siècle passé, une grande part du matériel pédagogique n'a pas suivi ces avancées. Il est impossible d'expliquer le jeu des Blancs dans cette partie en termes des vieilles idées : « les tours appartiennent au centre », « ne jouez pas deux fois la même pièce dans l'ouverture », et ainsi de suite. Pour avoir un sens, la partie doit être vue en termes modernes : le jeu des Blancs repose sur la création d'un plan stratégique et l'exécution obstinée de ce plan, fondée sur les exigences spécifiques de la position.",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Nxb7",
+      "text": "Trait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "b4",
+      "text": "Un coup clé. La seule pièce noire capable de lutter pour les cases blanches centrales est le cavalier, qui pourrait revenir en jeu via ...Nc5-e6-c7, par exemple. Ce coup coupe ce plan. Afin d'activer son cavalier, les Noirs devront déplacer leur dame puis jouer ...Nd8-e6, mais cela n'est pas si facile à réaliser puisqu'il n'y a pas de bonne case pour la dame.\n\nObjectivement, les Blancs n'ont probablement qu'un très léger avantage, mais en pratique il est souhaitable de posséder l'initiative. Les Noirs ont du mal à trouver un plan constructif tandis que les options des Blancs sont bien plus claires.",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "Bg5",
+      "text": "Puisque les Noirs ne peuvent activer facilement leurs autres pièces, ils déplacent au moins leur fou vers une meilleure case. L'immédiat 18...Qc8 19 Nce3 Nd8 laisse d6 trop faible : après 20 Nc4 Qc6 21 b5! axb5 22 Nxe5 les Blancs gagnent du matériel. 18...0-0 19 Nce3 est similaire à la partie.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "Na3",
+      "text": "Le cavalier ne peut plus être activé via e3, aussi atteint-il c4 par une route alternative. En fait, la case c4 est un bon avant-poste à la fois pour le fou de f1 et le cavalier de c2, mais évidemment les deux pièces ne peuvent se tenir sur la même case. Il est logique que le cavalier prenne le pas car alors que le fou a une autre case assez bonne (d3), le cavalier fait très peu en c2 ou a3.",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "Nc4",
+      "text": "Il y a encore peu de danger que les Noirs entreprennent quelque chose d'actif, si bien que les Blancs ne prennent aucun risque en laissant leur roi au centre.",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "a5",
+      "text": "Les Noirs jouent de façon cohérente pour activer les pièces qu'ils peuvent. Ce coup ouvrira la colonne a et amènera la tour de a8 en jeu. L'alternative est 20...f5, visant du contrejeu par une autre voie. Cependant, après 21 Bd3 f4 (21...fxe4 22 Bxe4 est pire car le fou irradie de puissance depuis e4) 22 Qg4 a5 23 0-0 axb4 24 cxb4 f3 25 g3 les Noirs n'ont pas résolu leurs problèmes ; par exemple, 25...Kh8 26 Rd1 Bh6 27 Bf1 suivi de Rd3 et Rxf3.",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "Bd3",
+      "text": "Grâce à l'emprise des Blancs sur les cases blanches, le contrejeu noir est très limité. Aussi est-ce un bon moment pour les Blancs de terminer leur développement. 21 Ncb6 a peu de sens car les Noirs peuvent simplement répondre 21...Ra7.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "axb4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "cxb4",
+      "text": "C'est aux Noirs de trouver un moyen d'activer leurs pièces placées passivement.",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "Qb8",
+      "text": "Shirov décide de se concentrer sur le jeu le long de la colonne a, par ...Qb8, ...Ra2, ...Qa7 et peut-être finalement ...Ra8. Ce plan est satisfaisant s'il est suivi correctement, mais 22...Rb8 est peut-être l'idée la plus solide. Les Noirs éliminent la fourchette en b6, et préparent ainsi ...Qd7 suivi de ...Nd8-e6. Après 23 h4 Bh6 24 Qg4 Kh8 25 0-0 Qc8 la position est obscure.\n\nLes autres possibilités sont moins efficaces. 22...Bh6 (22...Ra2 23 0-0 Qa8 24 Ncb6 Qa3 25 Bc4 Rd2 26 Qg4 favorise les Blancs) 23 0-0 Qh4 (après 23...Qg5 24 g3 les Noirs n'ont pas de plan évident, car 24...Nd8 perd sur 25 h4) tente d'activer la dame à l'aile roi, mais les Blancs peuvent continuer 24 g3 Qh3 25 Be2 Bg5 (sinon les Noirs doivent abandonner du matériel) 26 Bg4 Qh6 27 Ndb6 Ra2 28 h4 avec une bonne position ; par exemple, 28...Bd2 (ou 28...Bxh4 29 gxh4 Qxh4 30 Qf3 et les Blancs conservent leur emprise) 29 Qb3 Ra6 30 Rd1.",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "h4",
+      "text": "Maintenant les Noirs sont forcés de prendre une décision critique. Doivent-ils garder le fou sur la diagonale c1-h6, ou le faire reculer en d8 ?\n\nLes alternatives 23 Ncb6 Ra2 24 Nd7 Qa7 et 23 0-0 Nd8 24 Ncb6 Ra7 favorisent les Noirs.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "Bh6",
+      "text": "Le mauvais choix. Le fou paraît certes plus actif en h6, où il contrôle les cases d2 et c1, mais en fait les Noirs auraient mieux fait de reculer. 23...Bd8! a l'intention de ...Bc7 suivi de ...Nd8, et couvre b6 de sorte qu'un cavalier blanc ne puisse y sauter sans être échangé. Les Blancs peuvent continuer 24 g3 Bc7 (24...Qa7 25 0-0 Qd4 26 Qb3 suivi de Rd1 expulse la dame) 25 0-0 Nd8 26 b5 (26 Qg4 Kh8 change peu la situation) 26...Ne6 27 b6 Bd8 avec une position obscure. Les Blancs ont réussi à pousser leur pion en b6, mais en compensation les Noirs ont activé leur cavalier. Après le coup du texte, les Blancs prennent le dessus.",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "Ncb6",
+      "text": "Avec le fou en h6, ce coup peut être joué en toute impunité.",
+      "isCritical": true
+    },
+    {
+      "ply": 48,
+      "san": "Ra2",
+      "text": "Notons que bien que les Noirs aient un fou théoriquement « mauvais », le fou est en fait relativement actif en h6. Ce n'est pas l'inactivité de leur fou qui les condamne, c'est l'étonnante activité des pièces mineures blanches sur les cases blanches. Il est vrai que complexes de cases faibles et mauvais fous vont souvent de pair, mais dans ce cas les cases faibles sont les facteurs primaires de la chute des Noirs. Nous examinerons les mauvais fous de plus près dans la Partie 23.\n\n25 0-0\n\nPlus fort que 25 Nd7? Qa7 26 0-0 Ra8!, où un ...Ra1 ultérieur forcera des échanges.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 49,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 50,
+      "san": "Rd2",
+      "text": "Cela permet une réponse puissante, mais les autres coups étaient aussi assez peu engageants :\n\n1) 25...Qa7 26 Bc4 Rd2 27 Qh5 Nd8 28 Nf6+ Kh8 29 Nbd7 Re8 30 Nxe8 (30 Bxf7 Nxf7 31 Qxf7 Ra8 32 Ne8 Qa2 est moins clair) 30...Qxd7 31 Nf6 Qc7 32 b5 avec un avantage pour les Blancs ; par exemple, 32...Qxc4? échoue sur 33 Qf5 gxf6 34 Qxf6+ Kg8 35 Qxh6 suivi de Qg5+, donnant aux Blancs un avantage quasi décisif.\n\n2) 25...Qe8 26 Bc4 Ra7 27 Nc8 Ra3 28 Nce7+ Kh8 29 Nf5 (remarquez comment les cavaliers blancs sautillent, utilisant toutes les cases blanches affaiblies) 29...Qe6 30 Nde3 Qg6 31 h5 Qg5 32 Bd5 Nd8 33 b5 et la coordination des Noirs est si mauvaise qu'ils auront du mal à arrêter le pion b.",
+      "isCritical": true
+    },
+    {
+      "ply": 51,
+      "san": "Qf3",
+      "text": "Une imprécision. Les Blancs auraient pu jouer le simple mais fort 26 Qb1!, menaçant de piéger la tour avec Nc4. Les Noirs ne peuvent guère l'empêcher ; par exemple, 26...Qd8 (26...Qa7 27 Nc4 Ra2 28 Nc3 ramassera aussi la qualité) 27 g3 (27 Nc4 Rxd3 28 Qxd3 Qxh4 est moins clair) et les Noirs devront abandonner la qualité. Cela laisserait une situation d'égalité matérielle, mais avec la plus grande part de l'avantage positionnel des Blancs intact.",
+      "isCritical": true
+    },
+    {
+      "ply": 52,
+      "san": "Qa7",
+      "text": "26...Qe8 est fortement rencontré par 27 Ra1! suivi de Nc4 (mais pas 27 Ba6? Nd8 28 Nc4 Rd4 29 Nxd6 Qe6 et les Noirs gagnent).\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 53,
+      "san": "Nd7",
+      "text": "Une autre imprécision. Les Blancs auraient encore pu conserver une forte pression en continuant 27 Bb5 Nd8 (27...Rc2 28 Nd7 Ra8 29 Ne7+ Kh8 30 Qxf7 Qa2 31 Nd5 donne aux Blancs un avantage clair) 28 Nd7 Ne6 29 Ne7+ (29 Nxf8 Kxf8 30 Qc3 g6 31 Qc6 est aussi bon pour les Blancs) 29...Kh8 30 Nxf8 Qxe7 31 Nxe6 Qxe6 (31...fxe6 32 Ra1 g6 33 Bc4 est très désagréable pour les Noirs) 32 Bc6 avec de bonnes chances de gain malgré les fous de couleurs opposées.",
+      "isCritical": true
+    },
+    {
+      "ply": 54,
+      "san": "Nd8",
+      "text": "Les Noirs rendent la qualité, mais cela ne résout pas leurs problèmes puisque les Blancs conservent une forte initiative. Les alternatives sont :\n\n1) 27...Qa3? 28 Ne7+ Kh8 29 Nxf8 Rxd3 30 Qxf7 et les Blancs gagnent.\n\n2) 27...Nc5? 28 bxc5 Qxd7 29 c6 Qa7 30 c7 Qc5 31 Rb1 Ra2 32 Rb8 Ra8 33 Rxa8 Rxa8 34 Qf5 est gagnant pour les Blancs.\n\n3) 27...Rd8?! 28 Ne7+ Kh8 29 Qxf7 Qa8 (29...g6 30 Nf6 Bg7 31 Qxg6 force le mat ; 29...Rxd3 perd sur 30 Nf8) 30 Bb5 et les Blancs ont une très bonne position.\n\n4) 27...Ra8! est le seul coup.\n\nTrait aux Blancs\n\nLes Blancs peuvent forcer la nulle mais n'ont pas de voie claire vers l'avantage :\n\n4a) 28 N7b6?! Qa3 favorise légèrement les Noirs.\n\n4b) 28 Ne7+ Kh8 29 Qxf7 Rxd3 30 Nf8 Qa2! 31 Qf5 g6 32 Nexg6+ hxg6 33 Qf6+ Bg7 (33...Kg8 34 Ne6 Kh7 35 Qe7+ est nulle) 34 Nxg6+ Kh7 35 Qf5 Qd2 36 Nxe5+ est aussi nulle.\n\n4c) 28 Bb5 Nd8 29 Qf5 est obscur.\n\n4d) 28 Bc4 Nd8 (28...Re8? perd sur 29 N5f6+) 29 Qf5 (29 N5b6 Rb8 30 Nxb8 Qxb6 est obscur) 29...g6 30 Qf6 Bg7 31 Qxd6 Kh8 et les Noirs tiennent encore.",
+      "isCritical": true
+    },
+    {
+      "ply": 55,
+      "san": "Nxf8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 56,
+      "san": "Kxf8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 57,
+      "san": "b5",
+      "text": "Les avantages des Blancs sont décisifs : leurs pièces sont plus actives, le roi noir est en danger, le pion b est très dangereux et pour couronner le tout les Noirs ont encore des faiblesses criantes sur les cases blanches.",
+      "isCritical": true
+    },
+    {
+      "ply": 58,
+      "san": "Qa3",
+      "text": "Les Noirs luttent pour générer du contrejeu. Les alternatives ne valent pas mieux :\n\n1) 29...Ne6 30 b6 Qa3 (30...Qb8 perd sur 31 Ra1) 31 b7 Qb3 (31...Rb2 32 Bb5! Qa7 33 Qa3 est décisif) 32 Nc7 Nd4 (32...Nxc7 33 Bc4 achève les Noirs) 33 Qg4 Qxb7 34 Qd7 Qb8 35 Rb1 et il n'y a pas de défense.\n\n2) 29...Qd4 30 Be2 (menaçant à la fois 31 Qa3 et 31 Qf5! Rxe2 32 Qd7) 30...Qa7 (ou 30...Ne6 31 Rc1) 31 b6 Qa8 32 Qf5 Rxe2 33 Qxh7 f6 34 Qh8+ Kf7 35 Nc7 Qc6 36 Qxd8 et les Blancs gagnent.",
+      "isCritical": true
+    },
+    {
+      "ply": 59,
+      "san": "Qf5",
+      "text": "Trait aux Noirs\n\nEncore une fois, un coup clé implique l'occupation d'une case blanche. Les Blancs sacrifient le fou et jouent pour une attaque directe.",
+      "isCritical": true
+    },
+    {
+      "ply": 60,
+      "san": "Ke8",
+      "text": "Les Noirs ne peuvent accepter, car 30...Rxd3 perd sur 31 Qd7 g6 32 Qxd8+ Kg7 33 b6.",
+      "isCritical": true
+    },
+    {
+      "ply": 61,
+      "san": "Bc4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 62,
+      "san": "Rc2",
+      "text": "Ou 31...Qc5 (31...Qa4 32 Qc8) 32 Qxh7 Kd7 33 Qf5+ Ke8 34 Bb3 Rb2 35 Bd1 et les Blancs gagnent.",
+      "isCritical": true
+    },
+    {
+      "ply": 63,
+      "san": "Qxh7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 64,
+      "san": "Rxc4",
+      "text": "32...Qc5 perd sur 33 Bb3 Rb2 34 Qg8+ Kd7 35 Bd1.",
+      "isCritical": true
+    },
+    {
+      "ply": 65,
+      "san": "Qg8+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 66,
+      "san": "Kd7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 67,
+      "san": "Nb6+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 68,
+      "san": "Ke7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 69,
+      "san": "Nxc4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 70,
+      "san": "Qc5",
+      "text": "35...Qb4 est aussi rencontré par 36 Ra1.",
+      "isCritical": true
+    },
+    {
+      "ply": 71,
+      "san": "Ra1",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 72,
+      "san": "Qd4",
+      "text": "36...Qxc4 37 Ra7+ Kf6 38 Qxd8+ Kg6 39 Qxd6+ f6 40 Qc6 est gagnant pour les Blancs.",
+      "isCritical": true
+    },
+    {
+      "ply": 73,
+      "san": "Ra3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 74,
+      "san": "Bc1",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 75,
+      "san": "Ne3",
+      "text": "38...1-0\n\nCe fut une partie exceptionnellement créative de Kasparov. Un étonnant sacrifice de qualité a été suivi d'une montée progressive de pression sur les nombreuses cases blanches faibles. Il était difficile pour les Noirs de trouver un plan pour se libérer, et l'erreur au 23e coup était tout à fait compréhensible. Il y eut quelques imprécisions dans les coups suivants, mais une nouvelle erreur de Shirov au 28e coup scella son sort.\n\nLes leçons ici sont :\n\n1) Les cases qui sont faibles par rapport à la structure de pions centrale doivent être couvertes par des pièces.\n\n2) Si cela n'est pas possible, alors la faiblesse peut devenir sérieuse.\n\n3) Le défenseur doit rester alerte à toute imprécision de la part de l'attaquant. Ici Shirov a eu une chance momentanée, mais il l'a laissée passer.\n\n4) Apprendre quand on peut briser les « règles » fait partie de la progression aux échecs.",
+      "isCritical": true
+    }
+  ]
+}

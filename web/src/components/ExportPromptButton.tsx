@@ -1,13 +1,17 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { Lesson } from "../types.ts";
 import { buildAnalysisPrompt } from "../lib/analysisPrompt.ts";
+import type { Lang } from "../lib/lang";
+import { ui } from "../lib/uiCopy";
 
 type Props = {
   lesson: Lesson;
   ply: number;
+  lang: Lang;
 };
 
-export function ExportPromptButton({ lesson, ply }: Props) {
+export function ExportPromptButton({ lesson, ply, lang }: Props) {
+  const t = ui(lang);
   const [status, setStatus] = useState<"idle" | "copied" | "error">("idle");
   const resetTimer = useRef<number | null>(null);
 
@@ -29,14 +33,15 @@ export function ExportPromptButton({ lesson, ply }: Props) {
     resetTimer.current = window.setTimeout(() => setStatus("idle"), 2000);
   }, [lesson, ply]);
 
-  const label = status === "copied" ? "Prompt copied" : status === "error" ? "Copy failed" : "Copy analysis prompt";
+  const label =
+    status === "copied" ? t.promptCopied : status === "error" ? t.copyFailed : t.copyPrompt;
 
   return (
     <button
       type="button"
       className="secondary export-prompt-btn"
       onClick={handleCopy}
-      title="Copy an AI prompt with the game PGN up to the current move"
+      title={t.copyPrompt}
     >
       {label}
     </button>

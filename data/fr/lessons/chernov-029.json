@@ -1,0 +1,553 @@
+{
+  "id": "chernov-029",
+  "book": "chernov",
+  "gameNum": 29,
+  "title": "Partie 29 : Marshall vs Tarrasch",
+  "section": "Le maître d'échecs explique ses idées",
+  "players": {
+    "white": "Marshall",
+    "black": "Tarrasch"
+  },
+  "event": "Nuremberg match (1) 1905",
+  "opening": "Gambit dame refusé",
+  "eco": "D51",
+  "pgnPath": "data/pgn/chernov/29.pgn",
+  "result": "0-1",
+  "moveCount": 88,
+  "annotatedMoves": 83,
+  "fullText": "Marshall – Tarrasch\n\nMatch de Nuremberg (1) 1905\n\nGambit dame refusé\n\n1   d4\n\nBien que les ouvertures du pion dame soient jouées dans l'idée d'obtenir un avantage positionnel précoce, Marshall considérait que la meilleure façon de commencer une attaque était de débuter la partie par 1 d4. Une raison de son avis pouvait être que les ouvertures du pion e ne pouvaient plus être comptées pour mener à des parties largement ouvertes avec des occasions de jeu combinatoire. Autrefois, quand les Blancs commençaient par 1 e4, la réponse était presque automatiquement 1...e5. Les Blancs pouvaient alors offrir un pion par 2 f4, compter sur son acceptation, et se lancer joyeusement dans l'excitation d'un Gambit du roi. En prenant le pion et en s'y accrochant farouchement, les Noirs gagnaient du matériel, mais la perte de temps les jetait sur la défensive. Peu à peu, après avoir subi de nombreuses défaites, les joueurs des Noirs se lassèrent d'être les victimes de brillances. Ils prirent une attitude plus rationnelle, et devinrent prudents. Ils eurent recours à 1...e6, 1...c5 ou 1...c6, orientant la partie dans des voies de leur choix. Le résultat fut qu'un joueur agressif, commençant par 1 e4, se trouvait face à des défenses « irrégulières », qui forçaient la partie dans des canaux inhabituels. Il se trouvait engagé dans des positions très serrées exigeant une planification systématique, alors qu'il brûlait de faire démarrer une attaque. Il était censé avoir l'initiative, mais ici on la lui arrachait ! Comment jouer un gambit (même au mieux une affaire risquée) si l'adversaire ne lui obligeait pas une franche 1...e5 en réponse à son entreprenant 1 e4 ?\n\nEn débutant par 1 d4, les Blancs obtiennent un avantage, si léger soit-il, contre tout système de défense — et avec cela ils conservent d'excellentes chances d'attaque !\n\n1   ...     d5\n\nSans aucun doute l'une des plus fortes réponses. Les Noirs stabilisent la pression au centre, empêchent les Blancs de renforcer leur emprise par 2 e4, et ouvrent eux-mêmes des lignes pour deux de leurs pièces.\n\n2   c4\n\nUne offre de pion (avec des conditions) pour induire les Noirs à abandonner le centre.\n\n2   ...     e6\n\nPrendre le pion est parfaitement sain, mais pourquoi abandonner le centre pour gagner un pion qu'il s'avère qu'on ne peut garder ? Jouer 2...dxc4 équivaut à échanger un pion central contre un pion latéral, en soi une transaction peu profitable. Pourtant, beaucoup de grands joueurs sont heureux de jouer cette ouverture, aussi doit-il y avoir des points positifs compensateurs. L'avantage principal est que les Noirs n'ont plus la responsabilité de soutenir le pion d5, et cela leur facilite l'organisation de la poussée cruciale ...c5, échangeant leur propre pion c contre le pion d blanc. Ainsi, bien que les Blancs aient une supériorité temporaire au centre, il n'est souvent pas long avant que les Noirs puissent rétablir une situation centrale symétrique.\n\nAprès le coup réel des Noirs, leur pion d est fermement soutenu. Si maintenant 3 cxd5, les Noirs reprennent avec un pion, maintenant un pion au centre.\n\nIl est vrai que le fou de c8 des Noirs est enfermé par le pion e, rendant son développement difficile, et c'est un inconvénient de la défense. Mais si les deux premiers coups des Noirs sont bons, et qu'ils forment probablement la meilleure réponse au Gambit dame, alors on peut apprécier la formidable force de cette ouverture, et pourquoi tant de joueurs adoptent 1 d4 sans hésiter dès qu'ils ont les Blancs.\n\n3   Nc3\n\nC'est un peu plus aigu que de développer l'autre cavalier d'abord, car une pression supplémentaire est immédiatement mise sur le point central d5.\n\n3   ...     Nf6\n\nTarrasch n'approuvait pas ce coup de cavalier, que la plupart d'entre nous feraient instinctivement. Il est vrai que f6 est la case la plus utile pour le cavalier roi 99,44 % du temps, puisque de là il influence fortement les affaires du centre, jouit d'une grande liberté de mouvement, et est magnifiquement placé pour l'attaque et la défense. Cependant, Tarrasch redoutait la force du clouage que les Blancs peuvent imposer au cavalier au coup suivant. Au lieu de 3...Nf6, il recommandait donc que les Noirs contestent aussitôt le centre blanc par 3...c5 (l'avance ...c5 est presque indispensable à un moment ou un autre dans les parties du pion dame), ouvrant en même temps la colonne c pour l'usage de leurs pièces lourdes.\n\nPourquoi alors, demanderez-vous, Tarrasch a-t-il joué un coup qu'il dénigrait lui-même ? Son explication est que c'était la première partie d'un match contre l'un des meilleurs maîtres du monde (Marshall avait récemment remporté le tournoi de Cambridge Springs sans perdre une partie, devant Lasker, Schlechter, Pillsbury et Janowsky) et il ne souhaitait pas s'écarter sitôt des chemins orthodoxes.\n\n4   Bg5\n\nNaturellement ! Non seulement parce que le fou exerce une pression inconfortable sur le cavalier, mais aussi parce qu'il est de bonne politique de jouer les coups que l'adversaire trouve dérangeants. Si Tarrasch pense que clouer le cavalier est gênant — clouez le cavalier et mettez-le mal à l'aise !\n\n4   ...     Nbd7\n\nCela paraît maladroit, le cavalier bloquant le peu de vue qu'avait le fou de c8, mais les pièces peuvent facilement s'écarter l'une de l'autre. Le cavalier appartient en d7 et non en c6, où il obstrue le pion c. Ce pion ne doit pas être empêché d'avancer tôt ou tard en c5. Aussi petit que soit le pion, il représente une force majeure pour disputer la possession du centre !\n\nAvec 4...Nbd7 les Noirs tendent un petit piège aux imprudents, inventé par Tarrasch. Si les Blancs, comptant sur l'impuissance du cavalier noir cloué, tentent de ramasser un pion par 5 cxd5 exd5 6 Nxd5, les Noirs abandonnent leur dame avec 6...Nxd5 (brisant le clouage de force) 7 Bxd8, seulement pour la récupérer avec une pièce en prime par 7...Bb4+ 8 Qd2 Bxd2+ 9 Kxd2 Kxd8.\n\nLa morale est : ne partez pas à la chasse aux pions dans l'ouverture !\n\n5   e3\n\nCe genre de coup de pion n'est pas une perte de temps. Sans un coup de pion libérateur, les fous ne peuvent jamais décoller, aussi cela fait-il partie du processus de mise en jeu des pièces.\n\nAvec le coup du texte, les Blancs ouvrent deux diagonales à la fois, une pour leur fou de f1 et une autre pour la dame. Le pion e contribue un service supplémentaire en étayant le centre de pions.\n\n5   ...     c6\n\nLes Noirs aussi renforcent leur centre de pions et donnent à leur dame une sortie à l'aile dame.\n\n6   Qc2\n\nIl est d'usage de développer d'abord les pièces mineures, à peu près dans cet ordre :\n\nD'abord les cavaliers, généralement en c3 et f3, mais vers le centre en tout cas ; puis les fous (après les coups de pion nécessaires), soit pour contrôler des diagonales vitales, soit pour clouer les cavaliers ennemis ; ensuite, il est temps pour la dame de faire son entrée. Si la dame entre trop tôt dans la partie, elle court le danger d'être harcelée — peut-être même encerclée et capturée — par les pièces mineures ennemies.\n\nViennent enfin les tours, qui après le roque sont amenées en e1, d1 ou c1, pour commander des colonnes au centre qui sont partiellement ouvertes. Ces colonnes ont chance de devenir complètement ouvertes après des échanges de pions au centre.\n\nCette méthode de développement ne doit en aucune façon être considérée comme un cours fixe à suivre. Rien aux échecs — aucune convention, principe ou procédure recommandée — ne doit être pratiqué rigidement. La valeur de tout coup unique ou combinaison de coups ne peut être mesurée qu'au regard de la position particulière sur l'échiquier. Elle doit s'insérer dans le schéma de la partie que vous jouez et être tempérée par les exigences de l'adversaire. Beaucoup dépend de ce qu'il fait, ou vous laisse faire. C'est pourquoi il peut être opportun de développer la dame au sixième coup ou de roquer au soixantième.\n\nDans cette position les Noirs ont indiqué qu'ils pourraient contre-attaquer par 6...Qa5 et 7...Bb4, clouant le cavalier de c3 puis accroissant la pression sur lui. Il eût été plus pertinent pour les Blancs de mobiliser à la place une autre pièce mineure par 6 Nf3 (comme mettre de l'argent en banque), en vue d'un roque rapide ou peut-être de neutraliser la pression anticipée sur le cavalier de c3 en basculant le cavalier de f3 vers d2.\n\n6   ...     Qa5\n\nUn coup à multiples facettes : la dame non seulement décloue le cavalier de f6 mais commence une contre-action en clouant le cavalier blanc ; les Noirs menacent d'intensifier la pression en amenant le fou de f8 en b4. En attraction supplémentaire, les Noirs tendent un petit piège pour attraper l'imprudent — et cela pourrait même inclure des joueurs experts qui traitent parfois l'ouverture de façon perfunctoire. Le piège pourrait se refermer sur un joueur qui développe innocentement son fou en d3 pour découvrir que 7...dxc4 menace ses deux fous d'un seul coup. Les Blancs ne peuvent échapper au piège par 8 Bxf6 car 8...cxd3 attaque leur dame et gagne un fou.\n\nIl convient de dire à ce point que Tarrasch ne s'attendait pas à attraper Marshall avec un piège aussi primitif. Les maîtres ne tendent pas de pièges s'il s'agit d'endommager leur propre position. Un piège qui surgit dans le cours naturel du développement est une chose, mais jouer pour eux délibérément au risque de perdre un temps précieux est impardonnable.\n\n7   cxd5\n\nLes Blancs neutralisent l'attaque indirecte de la dame sur leur fou et dégagent la colonne c au profit de leurs pièces lourdes.\n\n7   ...     Nxd5\n\nTarrasch avait prévu de reprendre par 7...exd5 afin de maintenir un pion au centre. Maintenant il réalise qu'un danger peut être impliqué dans le report plus longtemps du développement des pièces de l'aile dame.\n\nSon fou de c8 est enfermé d'un côté par le cavalier de d7, et ce cavalier doit rester où il est, car il soutient l'autre cavalier en f6. S'il tente de développer le fou à l'aile dame, alors après ...b6 il coupe la retraite de la dame. Mais la stratégie d'un maître doit être flexible : elle doit être cohérente avec les exigences de la position particulière. Tarrasch aimerait beaucoup avoir un fort centre de pions mais n'ose négliger les exigences du développement. Aussi écoute-t-il Nimzowitsch, qui dit un jour : « Abandonner le centre ne doit pas être regardé ici comme illogique ; le bonheur n'était-il pas bonheur parce qu'il n'a duré qu'un court moment ? On ne peut pas toujours être heureux. »\n\nEn même temps le cavalier ajoute à la pression sur le cavalier blanc cloué et renouvelle la menace de gagner le fou exposé par 8...Nxc3 9 bxc3 Qxg5.\n\n8   Nf3\n\n« Dans son anxiété », dit Tarrasch, « de garder le fou menacé, les Blancs font une erreur décisive. »\n\nC'est un intéressant exemple de la valeur du timing précis aux échecs. Le fait qu'un coup de développement normal ait une force intrinsèque est secondaire à la question de son utilité dans la seule position devant vous, non dans des positions vaguement similaires.\n\nMalgré le fait que le cavalier occupe un poste très utile en f3, et protège en même temps le fou, son développement est soit trop tôt soit trop tard. Les Blancs ne font rien au sujet du problème de leur cavalier cloué. C'est là que la pression s'exerce ; c'est là que le danger menace.\n\nPlus pertinent est 8 e4 à la place, évincant le cavalier noir et le forçant à déclarer ses intentions. Si alors 8...Nxc3 9 Qd2 Qa4 10 Qxc3, les Blancs ont résolu une situation inconfortable.\n\n8   ...     Bb4\n\nTriplant l'attaque sur le cavalier. Les Noirs menacent de gagner aussitôt par 9...Nxc3 10 bxc3 Bxc3+ suivi de 11...Bxa1.\n\nComment les Blancs doivent-ils rencontrer la menace ? S'ils jouent le naturel 9 Rc1, le cavalier est adéquatement gardé puisqu'il est attaqué trois fois et défendu trois fois. Cependant, les Noirs capitalisent alors sur un fait curieux concernant le pouvoir d'une pièce clouée : non seulement elle est impuissante à faire un coup mais elle a aussi perdu sa capacité à défendre ! Traduit en langage échiquéen, cela signifie que 9 Rc1 peut être rencontré par 9...Nxa2, une prise saisissante au premier regard mais évidente si l'on réalise que le pouvoir défensif du cavalier est illusoire ! J'insiste sur cette circonstance parce qu'elle est importante. La connaître, la reconnaître et l'appliquer a fait tomber des royaumes (échiquéens).\n\nTout ce tapage pour gagner un misérable pion a ? Voyons ce qui se passerait ensuite :\n\nAprès 9 Rc1 Nxa2, la méthode des Noirs est classique dans sa simplicité. Ils suivent par ...Bxc3+ et après la reprise par le pion échangent les dames. Ils ont un pion d'avance, mais ce n'est pas assez d'avantage pour amener le mat. Ils doivent accroître leur supériorité matérielle suffisamment pour justifier la chasse au roi, et cela ne peut se faire qu'en transformant l'un de leurs pions en dame. Aussi sélectionnent-ils le candidat le plus probable, en l'occurrence le pion a passé, et le poussent pas à pas sur l'échiquier. L'avance du pion confronte l'adversaire à un problème qui devient plus aigu à chaque pas du pion. Il doit intercepter le pion ou le bloquer complètement, dans les deux cas immobilisant une ou plusieurs de ses pièces pour ce faire. La défense est sous la tension de garder le pion sous surveillance constante, tout en devant se garder contre un brusque basculement de l'attaque vers son roi. Ce qui arrive souvent, c'est qu'il doit soit donner une pièce pour le pion, soit permettre de nouveaux échanges de pièces, procédure qui mène à une perte inévitable.\n\nDe tels plans à long terme ne reposent pas sur un calcul exact ; ils représentent une idée générale de la méthode pour gagner dans des positions de cette nature.\n\n9   Kd2\n\nPas un coup appétissant, car le roi perd le privilège de roquer, mais c'est le seul moyen de se garder de perdre du matériel.\n\n9   ...     c5\n\n« Ça tape dans le mille », dit Tarrasch. Avec l'échange de pions qui suit, la colonne c sera forcée ouverte, mettant davantage en danger le malheureux cavalier.\n\n10   a3\n\nLes Blancs sont anxieux d'en finir. L'alternative 10 e4 cède à 10...cxd4 11 exd5 (ou 11 Nxd4 Nxc3 12 bxc3 Qxg5+ et les Noirs gagnent une pièce — le fou exposé qui semblait condamné dès le début) 11...dxc3+ 12 bxc3 Qxd5+ et les Noirs ont un pion d'avance avec une position gagnante.\n\n10 ... Bxc3+\n\nTarrasch simplifie et évite les difficultés liées au gain de la qualité, telles que : 10...cxd4 11 axb4 dxc3+ 12 Qxc3 Qxa1 13 Bxg7 Rf8 14 Qxb4 Qb5 15 Qxh1 Qxf6 et les Blancs forcent le mat. Il est vrai que les Noirs pourraient gagner la partie à leur quinzième coup en jouant 15...Qa5, mais pourquoi risquer toutes ces complications quand l'avantage peut être maintenu par des moyens moins hasardeux ?\n\n10   ...     Bxc3+\n\n11   bxc3\n\nLa seule façon pour les Blancs de reprendre.\n\n11   ...     cxd4\n\nPoursuivant le bon travail d'ouverture de la colonne c.\n\n12   exd4\n\nDe nouveau, les Blancs n'ont pas le choix de la reprise : le pion c est cloué, et 12 Nxd4 est réfuté par 12...Qxc3 13 Qxc3 Nxg5, quand les Noirs ont gagné un pion.\n\n12   ...     N7b6\n\nLe cavalier blanc cloué a disparu, mais il a été remplacé par un pion — et ce pion est aussi cloué ! Il fait une belle cible, aussi les Noirs dirigent-ils leur feu dessus. Ils menacent de le frapper à nouveau par 13...Na4 ou par 13...Bd7 suivi de 14...Rc8.\n\n13   Bd3\n\nEnfin, une autre pièce de l'aile roi voit le jour !\n\n13   ...     Bd7\n\nLes Noirs peuvent fondre sur le pion avec 13...Na4, mais ils préfèrent achever d'abord leur développement puis amener toutes leurs pièces à porter dessus. « D'ailleurs », comme il dit, anticipant Nimzowitsch, « le pion ne s'enfuit pas. »\n\n14   Rhc1\n\nLes Blancs doivent développer et défendre en même temps. S'ils obtiennent un moment de répit, ils libéreront le pion cloué par Ke2, 16 Kd2 et 17 c4.\n\n14   ...     Rc8\n\nMais les Noirs ne relâchent pas même un instant ! La tour s'empare du contrôle de la belle colonne ouverte et ajoute aussitôt son poids à la pression sur le pion c immobilisé.\n\n15   Qb3\n\nTentant d'attirer les Noirs dans 15...Na4 16 Qxb7 Rxc3 17 Rxc3 Qxc3+ 18 Ke2, où ils ont du contrejeu.\n\n15   ...     O-O\n\n« D'abord », pense Tarrasch, « mettons le roi à l'écart des combats et rapprochons l'autre tour. »\n\n16   Ke2\n\nClairement le pion c doit être perdu, car les Noirs peuvent l'attaquer avec plus de pièces que les Blancs n'en peuvent convoquer pour la défense, aussi les Blancs gagnent-ils du temps en abandonnant le pion et en fuyant avec leur roi.\n\n16   ...     Rxc3\n\nLe premier gain matériel, et avec lui l'entrée dans la position ennemie.\n\n17   Rxc3\n\nÉviter l'échange de tours par 17 Qb2 laisse les Noirs conserver leur emprise sur la colonne ouverte.\n\n17   ...     Qxc3\n\nBien mieux que de prendre avec le cavalier. L'idée des Noirs est d'occuper un avant-poste stratégiquement fort sur la seule colonne ouverte ou de forcer un échange de dames. Le retrait des dames simplifierait les choses à leur avantage, car ils ont un pion d'avance.\n\n18   Qb1\n\nForcée au retrait, la dame blanche parvient à incorporer la menace de Bxh7+, récupérant son pion.\n\n18   ...     h6\n\nLe moyen le plus simple de sauver le pion ; cela fournit aussi au roi une utile case de fuite contre un échec surprise sur la dernière rangée.\n\n19   Bd2\n\nRepoussée, cette pièce aussi se retire avec une menace.\n\n19   ...     Qc7\n\nLa dame quitte à regret le bel avant-poste en c3 mais reste sur la toute-importante colonne c. Notez la raison pour laquelle la dame choisit la case c7 : en c6 l'action du fou est gênée, en c8 celle de la tour.\n\nLes Noirs menacent 20...Nf4+, forçant un échange du cavalier contre l'un des fous blancs.\n\n20 ... Kf1\n\nTout le monde rentre à la maison ?\n\n20   Kf1\n\n20   ...     Nc4\n\nCommence une nouvelle phase où les Noirs enfoncent des pièces en territoire ennemi. Celles-ci contrôleront des cases clés et cramperont les mouvements blancs en limitant la mobilité de leurs pièces.\n\n21   Bc1\n\nÀ peu près le seul endroit qui reste, si les Blancs veulent garder leurs deux fous.\n\n21   ...     Ba4\n\nEt cela réduit les activités de la dame blanche.\n\n22   Qa2\n\nDouble attaque sur le cavalier ! C'est moins une menace qu'un moyen commode de gagner du temps pour basculer la dame vers l'aile roi. La seule chance des Blancs, bien sûr, est d'imaginer une sorte de contre-attaque. Un jeu passif ne mènera qu'à être progressivement écrasés.\n\n22   ...     Rc8\n\nLes Noirs protègent le cavalier et prennent simultanément possession indisputée de la colonne c.\n\n23   Qe2\n\nLes Blancs ont l'intention de semer le trouble en jouant Qe4 (menaçant Bxh7+ Kf8 26 Qh8+ Ke7 Qxg7). Alors si 24...Nf6, la réponse 25 Qh4, menaçant 26 Bxh6, pourrait soulever une sorte d'attaque à l'aile roi.\n\n23   ...     Nc3\n\nNon seulement ce coup met fin à toute idée que les Blancs auraient pu avoir de lancer une contre-offensive, mais il restreint aussi leur dame, qui est attaquée, à un seul coup ! Telle est l'étendue de la domination noire de l'échiquier !\n\n24   Qe1\n\nLe seul refuge qui reste face aux terribles cavaliers qui couvrent sept des cases de fuite de la dame !\n\n24   ...     Na5\n\nAvec le plan évident de pénétrer plus profondément dans la position blanche par 25...Nb3. Cela aboutirait, pour commencer, au gain de la qualité.\n\n25   Bxh6\n\nFrapper avec la sauvagerie née du désespoir !\n\nLa partie n'aurait pu être sauvée par 25 Bd2 car après 25...Nb3 (les cavaliers circonscrivent maintenant les activités de la tour comme ils l'ont fait pour la dame) 26 Bxc3 Nxc3 27 Rd1 (ou 27 Qxc3 Qxc3 28 Rd1 Rc1, quand les Noirs gagnent la qualité ou une pièce) 27...Rc1, quand l'attaque sur la tour et le fou blancs gagnera du matériel.\n\n25   ...     Nb3\n\nPrendre le fou pourrait mener à un gain, mais pourquoi exposer le roi inutilement ? Le coup réel des Noirs est plus simple et plus conforme à leurs manœuvres de l'aile dame jusqu'ici.\n\n26   Bd2\n\nLes Blancs ne pouvaient sauver la tour impuissante, aussi doivent-ils se contenter d'avoir récupéré le pion perdu.\n\n26   ...     Nxa1\n\nGagner la qualité est le couronnement de quelque habile jeu de cavaliers.\n\n27   Qxa1\n\nLes Blancs doivent prendre ainsi, et non 27 Qxc3, qui perd une tour entière après 27...Qxc3.\n\n27   ...     Bb5\n\nLe bel art de la simplification ! Les Noirs échangent des pièces pour réduire la résistance. Avec moins de pièces sur l'échiquier, moins de complications peuvent être introduites par les Blancs, tandis que l'avantage matériel des Noirs devient proportionnellement plus grand. Remarquez comment les Noirs ménagent ces échanges sans affaiblir leur emprise sur la position.\n\n28   Bxb5\n\nAussi bon que possible : après 28 Qxc3 Nxd3+ suivi de 29...Qxc3 les Noirs gagnent une pièce, tandis que 28 Bxc3 Qxc3 29 Qxc3 Nxd3+ et 30...Qxc3 fait de même.\n\n28   ...     Nxb5\n\nMaintenant les Noirs menacent 29...Nc4+ 30 Ke1 Qc3, et la menace de mat en e2 force 31 Qxc3, sur quoi 31...Qxc3+ 32 Bxc3 Rxc3 laisse une position gagnante élémentaire.\n\n29   g3\n\nLes Blancs espèrent trouver abri pour le roi en g2, où il est moins exposé, et installent aussi un soutien de pion pour le fou, qui pourrait prendre un nouveau départ en f4.\n\n29   ...     Qc6\n\nLa dame fond sur les cases claires affaiblies par le dernier coup des Blancs. L'attaque sur le cavalier gagne un tempo pour la pénétration ultérieure de la dame en territoire blanc.\n\n30   Kg2\n\nUne avance du cavalier, p. ex. 30 Ne5, perd la dame après 30...Qh1+, tandis que protéger le cavalier par 30 Qe2 se heurte à 30...Qe4+ 31 Be3 Qc2+ 32 Bd2 (ou 32 Kd1 Qc3+ gagnant) 32...Qa2 ! quand 33 Qxa2 Nc3+ coûte aux Blancs leur dame, tandis qu'autrement le pion d4 tombe avec échec.\n\n30   ...     Rd8\n\nMaintenant sur cette colonne, où le pion isolé fait une belle cible.\n\n31   Be3\n\nGardant le pion d, puisque le cavalier cloué n'est aucune protection.\n\n31   ...     Qe4\n\nLa dame travaille son chemin plus profondément au cœur de la position.\n\n32   Qb2\n\nLes Blancs tentent d'obtenir quelque jeu pour leur dame, tandis que les autres pièces se blottissent les unes contre les autres pour une protection mutuelle.\n\nLa dame ne se précipite pas pour saisir la colonne ouverte, car après 32 Qc1 Rxd4 33 Nxd4 Rxd4 la menace de 34...Rd3 est plus que les Blancs ne peuvent supporter.\n\n32   ...     Rd5\n\nUn coup diabolique ! Non seulement les Noirs gardent leur propre cavalier, mais ils menacent aussi de gagner celui des Blancs par 33...Nf5 34 Qe2 Rxd4 !, une attaque sur la dame et une triple attaque sur le cavalier. Il n'y a pas de réponse à cela car les Blancs sont cloués partout !\n\n33   a4\n\nChassant le cavalier pour qu'il n'attaque plus le pion d.\n\n33   ...     Nd6\n\nLe cavalier part, prenant soin de protéger le pion b.\n\n34   Bf4\n\nSinon, les Noirs jouent 34...g5, menaçant 35...g4 ou 35...Nf5, ou les deux !\n\n34   ...     Nf5\n\nFrappant une fois de plus le pion d.\n\n35   Be3\n\nLes Blancs ne peuvent se permettre Qxb7 car après 35...Rxd4 36 Qc8+ Kh7 37 Qc3 g5 ils perdent plus de matériel.\n\n35 ... Nxe3+\n\nPlus simple que les combinaisons commençant par 35...e5. Après le coup du texte, deux pièces de plus quittent l'échiquier, et un autre pion tombera.\n\n35   ...     Nxe3+\n\n36   fxe3\n\nLes Blancs doivent reprendre.\n\n36   ...     Qxe3\n\nCela décloue le cavalier, mais le cavalier doit rester où il est pour protéger le pion d.\n\n37   g4\n\nLes Blancs ne doivent pas jouer 37 Qxb7 car la réponse 37...Qe2+ force le roi loin du cavalier et coûte une pièce. Leur coup réel empêche les Noirs d'accroître la pression par 37...Nf5.\n\n37   ...     f5\n\nLes Noirs peuvent se permettre cette ouverture de la position. Leur roi souffre moins de l'exposition que celui des Blancs. La menace est bien sûr 38...fxg4, gagnant aussitôt.\n\n38   g5\n\nAprès 38 h3 fxg4 39 hxg4 Nf4 40 g5 Qg4+ 41 Kf2 Qf5 les menaces de 42...Qxf3+ et 42...Qxg5 ne peuvent toutes deux être parées.\n\n38   ...     Qe4\n\nClouant une fois de plus le cavalier !\n\n39   Qc3\n\nÉvitant soigneusement Qxb7, quand 39...f4 le confronte à la perte du cavalier par 40...Qe2+ ou à la perte du pion g par 40...Qxg5+.\n\n39   ...     f4\n\nPas tout de suite 39...e5 parce que 40 g6 laisse les Blancs menaçant un mat soudain !\n\n40 Qc8+\n\nSi les Blancs avaient essayé 40 g6 alors 40...Qxg5+ mettrait fin à la carrière du pion g.\n\n40   Qc8+\n\n40   ...     Kh7\n\nPour échapper à d'autres échecs de la dame.\n\n41   Qc3\n\nRetour à la défense du cavalier et du pion d.\n\n41   ...     e5\n\nCela signale le début de la dernière phase : la rupture du centre blanc.\n\nC'est plus fort que 41...Qxg5+ 42 Kf2 Qh5 43 h4, quand les Blancs menacent 44 Qg5+.\n\nL'idée du coup du texte est de continuer par 42...Rxd4, avec quoi les Noirs accomplissent ces choses :\n\nIls ont démoli le centre blanc.\n\nIls menacent un gain immédiat par 43...Rd3.\n\nIls sont assurés (si ce qui précède n'est pas assez convaincant) de rester avec deux pions passés liés au centre.\n\n42   h4\n\nMarshall voit que 42 dxe5 perd une pièce après 42...Rd3 mais il a encore quelques tours dans son sac.\n\n42   ...     Rxd4\n\nAvec l'intention d'attaquer dame et cavalier par 43...Rd3, coupant accessoirement la dame de la défense du cavalier.\n\n43   g6+\n\nVoici l'un des pièges : si les Noirs jouent 43...Kxg6, les Blancs répondent 44 Qb3 (apparemment cherchant un échec perpétuel) 44...Rd3, et maintenant au lieu de 45 Qe6+ les Blancs jouent 45 Qxd3 Qxd3 46 Nxe5+ suivi de 47 Nxd3 récupérant la dame et gagnant une tour.\n\n43   ...     Kh6\n\nLes Noirs évitent celui-ci.\n\n44   Kh2\n\nAussi les Blancs tendent-ils un autre piège : si 44...Rd3 45 Nxe5 Qxf3, alors 46 Qg5# !\n\n44 ... Qe2+\n\n0-1\n\nÀ cela il n'y a pas de réponse : 45 Kg1 Rd1+ 46 Ne1 Qxe1+ gagne, ou 45 Kh3 Rd3, clouant le pauvre cavalier pour la dernière fois, éteint les dernières lueurs de résistance.\n\n44   ...     Qe2+",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Marshall – Tarrasch\n\nMatch de Nuremberg (1) 1905\n\nGambit dame refusé"
+    },
+    {
+      "ply": 1,
+      "san": "d4",
+      "text": "Bien que les ouvertures du pion dame soient jouées dans l'idée d'obtenir un avantage positionnel précoce, Marshall considérait que la meilleure façon de commencer une attaque était de débuter la partie par 1 d4. Une raison de son avis pouvait être que les ouvertures du pion e ne pouvaient plus être comptées pour mener à des parties largement ouvertes avec des occasions de jeu combinatoire. Autrefois, quand les Blancs commençaient par 1 e4, la réponse était presque automatiquement 1...e5. Les Blancs pouvaient alors offrir un pion par 2 f4, compter sur son acceptation, et se lancer joyeusement dans l'excitation d'un Gambit du roi. En prenant le pion et en s'y accrochant farouchement, les Noirs gagnaient du matériel, mais la perte de temps les jetait sur la défensive. Peu à peu, après avoir subi de nombreuses défaites, les joueurs des Noirs se lassèrent d'être les victimes de brillances. Ils prirent une attitude plus rationnelle, et devinrent prudents. Ils eurent recours à 1...e6, 1...c5 ou 1...c6, orientant la partie dans des voies de leur choix. Le résultat fut qu'un joueur agressif, commençant par 1 e4, se trouvait face à des défenses « irrégulières », qui forçaient la partie dans des canaux inhabituels. Il se trouvait engagé dans des positions très serrées exigeant une planification systématique, alors qu'il brûlait de faire démarrer une attaque. Il était censé avoir l'initiative, mais ici on la lui arrachait ! Comment jouer un gambit (même au mieux une affaire risquée) si l'adversaire ne lui obligeait pas une franche 1...e5 en réponse à son entreprenant 1 e4 ?\n\nEn débutant par 1 d4, les Blancs obtiennent un avantage, si léger soit-il, contre tout système de défense — et avec cela ils conservent d'excellentes chances d'attaque !",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "d5",
+      "text": "Sans aucun doute l'une des plus fortes réponses. Les Noirs stabilisent la pression au centre, empêchent les Blancs de renforcer leur emprise par 2 e4, et ouvrent eux-mêmes des lignes pour deux de leurs pièces.",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "c4",
+      "text": "Une offre de pion (avec des conditions) pour induire les Noirs à abandonner le centre.",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "e6",
+      "text": "Prendre le pion est parfaitement sain, mais pourquoi abandonner le centre pour gagner un pion qu'il s'avère qu'on ne peut garder ? Jouer 2...dxc4 équivaut à échanger un pion central contre un pion latéral, en soi une transaction peu profitable. Pourtant, beaucoup de grands joueurs sont heureux de jouer cette ouverture, aussi doit-il y avoir des points positifs compensateurs. L'avantage principal est que les Noirs n'ont plus la responsabilité de soutenir le pion d5, et cela leur facilite l'organisation de la poussée cruciale ...c5, échangeant leur propre pion c contre le pion d blanc. Ainsi, bien que les Blancs aient une supériorité temporaire au centre, il n'est souvent pas long avant que les Noirs puissent rétablir une situation centrale symétrique.\n\nAprès le coup réel des Noirs, leur pion d est fermement soutenu. Si maintenant 3 cxd5, les Noirs reprennent avec un pion, maintenant un pion au centre.\n\nIl est vrai que le fou de c8 des Noirs est enfermé par le pion e, rendant son développement difficile, et c'est un inconvénient de la défense. Mais si les deux premiers coups des Noirs sont bons, et qu'ils forment probablement la meilleure réponse au Gambit dame, alors on peut apprécier la formidable force de cette ouverture, et pourquoi tant de joueurs adoptent 1 d4 sans hésiter dès qu'ils ont les Blancs.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "Nc3",
+      "text": "C'est un peu plus aigu que de développer l'autre cavalier d'abord, car une pression supplémentaire est immédiatement mise sur le point central d5.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "Nf6",
+      "text": "Tarrasch n'approuvait pas ce coup de cavalier, que la plupart d'entre nous feraient instinctivement. Il est vrai que f6 est la case la plus utile pour le cavalier roi 99,44 % du temps, puisque de là il influence fortement les affaires du centre, jouit d'une grande liberté de mouvement, et est magnifiquement placé pour l'attaque et la défense. Cependant, Tarrasch redoutait la force du clouage que les Blancs peuvent imposer au cavalier au coup suivant. Au lieu de 3...Nf6, il recommandait donc que les Noirs contestent aussitôt le centre blanc par 3...c5 (l'avance ...c5 est presque indispensable à un moment ou un autre dans les parties du pion dame), ouvrant en même temps la colonne c pour l'usage de leurs pièces lourdes.\n\nPourquoi alors, demanderez-vous, Tarrasch a-t-il joué un coup qu'il dénigrait lui-même ? Son explication est que c'était la première partie d'un match contre l'un des meilleurs maîtres du monde (Marshall avait récemment remporté le tournoi de Cambridge Springs sans perdre une partie, devant Lasker, Schlechter, Pillsbury et Janowsky) et il ne souhaitait pas s'écarter sitôt des chemins orthodoxes.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "Bg5",
+      "text": "Naturellement ! Non seulement parce que le fou exerce une pression inconfortable sur le cavalier, mais aussi parce qu'il est de bonne politique de jouer les coups que l'adversaire trouve dérangeants. Si Tarrasch pense que clouer le cavalier est gênant — clouez le cavalier et mettez-le mal à l'aise !",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "Nbd7",
+      "text": "Cela paraît maladroit, le cavalier bloquant le peu de vue qu'avait le fou de c8, mais les pièces peuvent facilement s'écarter l'une de l'autre. Le cavalier appartient en d7 et non en c6, où il obstrue le pion c. Ce pion ne doit pas être empêché d'avancer tôt ou tard en c5. Aussi petit que soit le pion, il représente une force majeure pour disputer la possession du centre !\n\nAvec 4...Nbd7 les Noirs tendent un petit piège aux imprudents, inventé par Tarrasch. Si les Blancs, comptant sur l'impuissance du cavalier noir cloué, tentent de ramasser un pion par 5 cxd5 exd5 6 Nxd5, les Noirs abandonnent leur dame avec 6...Nxd5 (brisant le clouage de force) 7 Bxd8, seulement pour la récupérer avec une pièce en prime par 7...Bb4+ 8 Qd2 Bxd2+ 9 Kxd2 Kxd8.\n\nLa morale est : ne partez pas à la chasse aux pions dans l'ouverture !",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "e3",
+      "text": "Ce genre de coup de pion n'est pas une perte de temps. Sans un coup de pion libérateur, les fous ne peuvent jamais décoller, aussi cela fait-il partie du processus de mise en jeu des pièces.\n\nAvec le coup du texte, les Blancs ouvrent deux diagonales à la fois, une pour leur fou de f1 et une autre pour la dame. Le pion e contribue un service supplémentaire en étayant le centre de pions.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "c6",
+      "text": "Les Noirs aussi renforcent leur centre de pions et donnent à leur dame une sortie à l'aile dame.",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "Qc2",
+      "text": "Il est d'usage de développer d'abord les pièces mineures, à peu près dans cet ordre :\n\nD'abord les cavaliers, généralement en c3 et f3, mais vers le centre en tout cas ; puis les fous (après les coups de pion nécessaires), soit pour contrôler des diagonales vitales, soit pour clouer les cavaliers ennemis ; ensuite, il est temps pour la dame de faire son entrée. Si la dame entre trop tôt dans la partie, elle court le danger d'être harcelée — peut-être même encerclée et capturée — par les pièces mineures ennemies.\n\nViennent enfin les tours, qui après le roque sont amenées en e1, d1 ou c1, pour commander des colonnes au centre qui sont partiellement ouvertes. Ces colonnes ont chance de devenir complètement ouvertes après des échanges de pions au centre.\n\nCette méthode de développement ne doit en aucune façon être considérée comme un cours fixe à suivre. Rien aux échecs — aucune convention, principe ou procédure recommandée — ne doit être pratiqué rigidement. La valeur de tout coup unique ou combinaison de coups ne peut être mesurée qu'au regard de la position particulière sur l'échiquier. Elle doit s'insérer dans le schéma de la partie que vous jouez et être tempérée par les exigences de l'adversaire. Beaucoup dépend de ce qu'il fait, ou vous laisse faire. C'est pourquoi il peut être opportun de développer la dame au sixième coup ou de roquer au soixantième.\n\nDans cette position les Noirs ont indiqué qu'ils pourraient contre-attaquer par 6...Qa5 et 7...Bb4, clouant le cavalier de c3 puis accroissant la pression sur lui. Il eût été plus pertinent pour les Blancs de mobiliser à la place une autre pièce mineure par 6 Nf3 (comme mettre de l'argent en banque), en vue d'un roque rapide ou peut-être de neutraliser la pression anticipée sur le cavalier de c3 en basculant le cavalier de f3 vers d2.",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "Qa5",
+      "text": "Un coup à multiples facettes : la dame non seulement décloue le cavalier de f6 mais commence une contre-action en clouant le cavalier blanc ; les Noirs menacent d'intensifier la pression en amenant le fou de f8 en b4. En attraction supplémentaire, les Noirs tendent un petit piège pour attraper l'imprudent — et cela pourrait même inclure des joueurs experts qui traitent parfois l'ouverture de façon perfunctoire. Le piège pourrait se refermer sur un joueur qui développe innocentement son fou en d3 pour découvrir que 7...dxc4 menace ses deux fous d'un seul coup. Les Blancs ne peuvent échapper au piège par 8 Bxf6 car 8...cxd3 attaque leur dame et gagne un fou.\n\nIl convient de dire à ce point que Tarrasch ne s'attendait pas à attraper Marshall avec un piège aussi primitif. Les maîtres ne tendent pas de pièges s'il s'agit d'endommager leur propre position. Un piège qui surgit dans le cours naturel du développement est une chose, mais jouer pour eux délibérément au risque de perdre un temps précieux est impardonnable.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "cxd5",
+      "text": "Les Blancs neutralisent l'attaque indirecte de la dame sur leur fou et dégagent la colonne c au profit de leurs pièces lourdes.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "Nxd5",
+      "text": "Tarrasch avait prévu de reprendre par 7...exd5 afin de maintenir un pion au centre. Maintenant il réalise qu'un danger peut être impliqué dans le report plus longtemps du développement des pièces de l'aile dame.\n\nSon fou de c8 est enfermé d'un côté par le cavalier de d7, et ce cavalier doit rester où il est, car il soutient l'autre cavalier en f6. S'il tente de développer le fou à l'aile dame, alors après ...b6 il coupe la retraite de la dame. Mais la stratégie d'un maître doit être flexible : elle doit être cohérente avec les exigences de la position particulière. Tarrasch aimerait beaucoup avoir un fort centre de pions mais n'ose négliger les exigences du développement. Aussi écoute-t-il Nimzowitsch, qui dit un jour : « Abandonner le centre ne doit pas être regardé ici comme illogique ; le bonheur n'était-il pas bonheur parce qu'il n'a duré qu'un court moment ? On ne peut pas toujours être heureux. »\n\nEn même temps le cavalier ajoute à la pression sur le cavalier blanc cloué et renouvelle la menace de gagner le fou exposé par 8...Nxc3 9 bxc3 Qxg5.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "Nf3",
+      "text": "« Dans son anxiété », dit Tarrasch, « de garder le fou menacé, les Blancs font une erreur décisive. »\n\nC'est un intéressant exemple de la valeur du timing précis aux échecs. Le fait qu'un coup de développement normal ait une force intrinsèque est secondaire à la question de son utilité dans la seule position devant vous, non dans des positions vaguement similaires.\n\nMalgré le fait que le cavalier occupe un poste très utile en f3, et protège en même temps le fou, son développement est soit trop tôt soit trop tard. Les Blancs ne font rien au sujet du problème de leur cavalier cloué. C'est là que la pression s'exerce ; c'est là que le danger menace.\n\nPlus pertinent est 8 e4 à la place, évincant le cavalier noir et le forçant à déclarer ses intentions. Si alors 8...Nxc3 9 Qd2 Qa4 10 Qxc3, les Blancs ont résolu une situation inconfortable.",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "Bb4",
+      "text": "Triplant l'attaque sur le cavalier. Les Noirs menacent de gagner aussitôt par 9...Nxc3 10 bxc3 Bxc3+ suivi de 11...Bxa1.\n\nComment les Blancs doivent-ils rencontrer la menace ? S'ils jouent le naturel 9 Rc1, le cavalier est adéquatement gardé puisqu'il est attaqué trois fois et défendu trois fois. Cependant, les Noirs capitalisent alors sur un fait curieux concernant le pouvoir d'une pièce clouée : non seulement elle est impuissante à faire un coup mais elle a aussi perdu sa capacité à défendre ! Traduit en langage échiquéen, cela signifie que 9 Rc1 peut être rencontré par 9...Nxa2, une prise saisissante au premier regard mais évidente si l'on réalise que le pouvoir défensif du cavalier est illusoire ! J'insiste sur cette circonstance parce qu'elle est importante. La connaître, la reconnaître et l'appliquer a fait tomber des royaumes (échiquéens).\n\nTout ce tapage pour gagner un misérable pion a ? Voyons ce qui se passerait ensuite :\n\nAprès 9 Rc1 Nxa2, la méthode des Noirs est classique dans sa simplicité. Ils suivent par ...Bxc3+ et après la reprise par le pion échangent les dames. Ils ont un pion d'avance, mais ce n'est pas assez d'avantage pour amener le mat. Ils doivent accroître leur supériorité matérielle suffisamment pour justifier la chasse au roi, et cela ne peut se faire qu'en transformant l'un de leurs pions en dame. Aussi sélectionnent-ils le candidat le plus probable, en l'occurrence le pion a passé, et le poussent pas à pas sur l'échiquier. L'avance du pion confronte l'adversaire à un problème qui devient plus aigu à chaque pas du pion. Il doit intercepter le pion ou le bloquer complètement, dans les deux cas immobilisant une ou plusieurs de ses pièces pour ce faire. La défense est sous la tension de garder le pion sous surveillance constante, tout en devant se garder contre un brusque basculement de l'attaque vers son roi. Ce qui arrive souvent, c'est qu'il doit soit donner une pièce pour le pion, soit permettre de nouveaux échanges de pièces, procédure qui mène à une perte inévitable.\n\nDe tels plans à long terme ne reposent pas sur un calcul exact ; ils représentent une idée générale de la méthode pour gagner dans des positions de cette nature.",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "Kd2",
+      "text": "Pas un coup appétissant, car le roi perd le privilège de roquer, mais c'est le seul moyen de se garder de perdre du matériel.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "c5",
+      "text": "« Ça tape dans le mille », dit Tarrasch. Avec l'échange de pions qui suit, la colonne c sera forcée ouverte, mettant davantage en danger le malheureux cavalier.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "a3",
+      "text": "Les Blancs sont anxieux d'en finir. L'alternative 10 e4 cède à 10...cxd4 11 exd5 (ou 11 Nxd4 Nxc3 12 bxc3 Qxg5+ et les Noirs gagnent une pièce — le fou exposé qui semblait condamné dès le début) 11...dxc3+ 12 bxc3 Qxd5+ et les Noirs ont un pion d'avance avec une position gagnante.\n\n10 ... Bxc3+\n\nTarrasch simplifie et évite les difficultés liées au gain de la qualité, telles que : 10...cxd4 11 axb4 dxc3+ 12 Qxc3 Qxa1 13 Bxg7 Rf8 14 Qxb4 Qb5 15 Qxh1 Qxf6 et les Blancs forcent le mat. Il est vrai que les Noirs pourraient gagner la partie à leur quinzième coup en jouant 15...Qa5, mais pourquoi risquer toutes ces complications quand l'avantage peut être maintenu par des moyens moins hasardeux ?",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "Bxc3+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "bxc3",
+      "text": "La seule façon pour les Blancs de reprendre.",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "cxd4",
+      "text": "Poursuivant le bon travail d'ouverture de la colonne c.",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "exd4",
+      "text": "De nouveau, les Blancs n'ont pas le choix de la reprise : le pion c est cloué, et 12 Nxd4 est réfuté par 12...Qxc3 13 Qxc3 Nxg5, quand les Noirs ont gagné un pion.",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "N7b6",
+      "text": "Le cavalier blanc cloué a disparu, mais il a été remplacé par un pion — et ce pion est aussi cloué ! Il fait une belle cible, aussi les Noirs dirigent-ils leur feu dessus. Ils menacent de le frapper à nouveau par 13...Na4 ou par 13...Bd7 suivi de 14...Rc8.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Bd3",
+      "text": "Enfin, une autre pièce de l'aile roi voit le jour !",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "Bd7",
+      "text": "Les Noirs peuvent fondre sur le pion avec 13...Na4, mais ils préfèrent achever d'abord leur développement puis amener toutes leurs pièces à porter dessus. « D'ailleurs », comme il dit, anticipant Nimzowitsch, « le pion ne s'enfuit pas. »",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Rhc1",
+      "text": "Les Blancs doivent développer et défendre en même temps. S'ils obtiennent un moment de répit, ils libéreront le pion cloué par Ke2, 16 Kd2 et 17 c4.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "Rc8",
+      "text": "Mais les Noirs ne relâchent pas même un instant ! La tour s'empare du contrôle de la belle colonne ouverte et ajoute aussitôt son poids à la pression sur le pion c immobilisé.",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Qb3",
+      "text": "Tentant d'attirer les Noirs dans 15...Na4 16 Qxb7 Rxc3 17 Rxc3 Qxc3+ 18 Ke2, où ils ont du contrejeu.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "O-O",
+      "text": "« D'abord », pense Tarrasch, « mettons le roi à l'écart des combats et rapprochons l'autre tour. »",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Ke2",
+      "text": "Clairement le pion c doit être perdu, car les Noirs peuvent l'attaquer avec plus de pièces que les Blancs n'en peuvent convoquer pour la défense, aussi les Blancs gagnent-ils du temps en abandonnant le pion et en fuyant avec leur roi.",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Rxc3",
+      "text": "Le premier gain matériel, et avec lui l'entrée dans la position ennemie.",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Rxc3",
+      "text": "Éviter l'échange de tours par 17 Qb2 laisse les Noirs conserver leur emprise sur la colonne ouverte.",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Qxc3",
+      "text": "Bien mieux que de prendre avec le cavalier. L'idée des Noirs est d'occuper un avant-poste stratégiquement fort sur la seule colonne ouverte ou de forcer un échange de dames. Le retrait des dames simplifierait les choses à leur avantage, car ils ont un pion d'avance.",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "Qb1",
+      "text": "Forcée au retrait, la dame blanche parvient à incorporer la menace de Bxh7+, récupérant son pion.",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "h6",
+      "text": "Le moyen le plus simple de sauver le pion ; cela fournit aussi au roi une utile case de fuite contre un échec surprise sur la dernière rangée.",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "Bd2",
+      "text": "Repoussée, cette pièce aussi se retire avec une menace.",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "Qc7",
+      "text": "La dame quitte à regret le bel avant-poste en c3 mais reste sur la toute-importante colonne c. Notez la raison pour laquelle la dame choisit la case c7 : en c6 l'action du fou est gênée, en c8 celle de la tour.\n\nLes Noirs menacent 20...Nf4+, forçant un échange du cavalier contre l'un des fous blancs.\n\n20 ... Kf1\n\nTout le monde rentre à la maison ?",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "Kf1",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "Nc4",
+      "text": "Commence une nouvelle phase où les Noirs enfoncent des pièces en territoire ennemi. Celles-ci contrôleront des cases clés et cramperont les mouvements blancs en limitant la mobilité de leurs pièces.",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "Bc1",
+      "text": "À peu près le seul endroit qui reste, si les Blancs veulent garder leurs deux fous.",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "Ba4",
+      "text": "Et cela réduit les activités de la dame blanche.",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "Qa2",
+      "text": "Double attaque sur le cavalier ! C'est moins une menace qu'un moyen commode de gagner du temps pour basculer la dame vers l'aile roi. La seule chance des Blancs, bien sûr, est d'imaginer une sorte de contre-attaque. Un jeu passif ne mènera qu'à être progressivement écrasés.",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "Rc8",
+      "text": "Les Noirs protègent le cavalier et prennent simultanément possession indisputée de la colonne c.",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "Qe2",
+      "text": "Les Blancs ont l'intention de semer le trouble en jouant Qe4 (menaçant Bxh7+ Kf8 26 Qh8+ Ke7 Qxg7). Alors si 24...Nf6, la réponse 25 Qh4, menaçant 26 Bxh6, pourrait soulever une sorte d'attaque à l'aile roi.",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "Nc3",
+      "text": "Non seulement ce coup met fin à toute idée que les Blancs auraient pu avoir de lancer une contre-offensive, mais il restreint aussi leur dame, qui est attaquée, à un seul coup ! Telle est l'étendue de la domination noire de l'échiquier !",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "Qe1",
+      "text": "Le seul refuge qui reste face aux terribles cavaliers qui couvrent sept des cases de fuite de la dame !",
+      "isCritical": true
+    },
+    {
+      "ply": 48,
+      "san": "Na5",
+      "text": "Avec le plan évident de pénétrer plus profondément dans la position blanche par 25...Nb3. Cela aboutirait, pour commencer, au gain de la qualité.",
+      "isCritical": true
+    },
+    {
+      "ply": 49,
+      "san": "Bxh6",
+      "text": "Frapper avec la sauvagerie née du désespoir !\n\nLa partie n'aurait pu être sauvée par 25 Bd2 car après 25...Nb3 (les cavaliers circonscrivent maintenant les activités de la tour comme ils l'ont fait pour la dame) 26 Bxc3 Nxc3 27 Rd1 (ou 27 Qxc3 Qxc3 28 Rd1 Rc1, quand les Noirs gagnent la qualité ou une pièce) 27...Rc1, quand l'attaque sur la tour et le fou blancs gagnera du matériel.",
+      "isCritical": true
+    },
+    {
+      "ply": 50,
+      "san": "Nb3",
+      "text": "Prendre le fou pourrait mener à un gain, mais pourquoi exposer le roi inutilement ? Le coup réel des Noirs est plus simple et plus conforme à leurs manœuvres de l'aile dame jusqu'ici.",
+      "isCritical": true
+    },
+    {
+      "ply": 51,
+      "san": "Bd2",
+      "text": "Les Blancs ne pouvaient sauver la tour impuissante, aussi doivent-ils se contenter d'avoir récupéré le pion perdu.",
+      "isCritical": true
+    },
+    {
+      "ply": 52,
+      "san": "Nxa1",
+      "text": "Gagner la qualité est le couronnement de quelque habile jeu de cavaliers.",
+      "isCritical": true
+    },
+    {
+      "ply": 53,
+      "san": "Qxa1",
+      "text": "Les Blancs doivent prendre ainsi, et non 27 Qxc3, qui perd une tour entière après 27...Qxc3.",
+      "isCritical": true
+    },
+    {
+      "ply": 54,
+      "san": "Bb5",
+      "text": "Le bel art de la simplification ! Les Noirs échangent des pièces pour réduire la résistance. Avec moins de pièces sur l'échiquier, moins de complications peuvent être introduites par les Blancs, tandis que l'avantage matériel des Noirs devient proportionnellement plus grand. Remarquez comment les Noirs ménagent ces échanges sans affaiblir leur emprise sur la position.",
+      "isCritical": true
+    },
+    {
+      "ply": 55,
+      "san": "Bxb5",
+      "text": "Aussi bon que possible : après 28 Qxc3 Nxd3+ suivi de 29...Qxc3 les Noirs gagnent une pièce, tandis que 28 Bxc3 Qxc3 29 Qxc3 Nxd3+ et 30...Qxc3 fait de même.",
+      "isCritical": true
+    },
+    {
+      "ply": 56,
+      "san": "Nxb5",
+      "text": "Maintenant les Noirs menacent 29...Nc4+ 30 Ke1 Qc3, et la menace de mat en e2 force 31 Qxc3, sur quoi 31...Qxc3+ 32 Bxc3 Rxc3 laisse une position gagnante élémentaire.",
+      "isCritical": true
+    },
+    {
+      "ply": 57,
+      "san": "g3",
+      "text": "Les Blancs espèrent trouver abri pour le roi en g2, où il est moins exposé, et installent aussi un soutien de pion pour le fou, qui pourrait prendre un nouveau départ en f4.",
+      "isCritical": true
+    },
+    {
+      "ply": 58,
+      "san": "Qc6",
+      "text": "La dame fond sur les cases claires affaiblies par le dernier coup des Blancs. L'attaque sur le cavalier gagne un tempo pour la pénétration ultérieure de la dame en territoire blanc.",
+      "isCritical": true
+    },
+    {
+      "ply": 59,
+      "san": "Kg2",
+      "text": "Une avance du cavalier, p. ex. 30 Ne5, perd la dame après 30...Qh1+, tandis que protéger le cavalier par 30 Qe2 se heurte à 30...Qe4+ 31 Be3 Qc2+ 32 Bd2 (ou 32 Kd1 Qc3+ gagnant) 32...Qa2 ! quand 33 Qxa2 Nc3+ coûte aux Blancs leur dame, tandis qu'autrement le pion d4 tombe avec échec.",
+      "isCritical": true
+    },
+    {
+      "ply": 60,
+      "san": "Rd8",
+      "text": "Maintenant sur cette colonne, où le pion isolé fait une belle cible.",
+      "isCritical": true
+    },
+    {
+      "ply": 61,
+      "san": "Be3",
+      "text": "Gardant le pion d, puisque le cavalier cloué n'est aucune protection.",
+      "isCritical": true
+    },
+    {
+      "ply": 62,
+      "san": "Qe4",
+      "text": "La dame travaille son chemin plus profondément au cœur de la position.",
+      "isCritical": true
+    },
+    {
+      "ply": 63,
+      "san": "Qb2",
+      "text": "Les Blancs tentent d'obtenir quelque jeu pour leur dame, tandis que les autres pièces se blottissent les unes contre les autres pour une protection mutuelle.\n\nLa dame ne se précipite pas pour saisir la colonne ouverte, car après 32 Qc1 Rxd4 33 Nxd4 Rxd4 la menace de 34...Rd3 est plus que les Blancs ne peuvent supporter.",
+      "isCritical": true
+    },
+    {
+      "ply": 64,
+      "san": "Rd5",
+      "text": "Un coup diabolique ! Non seulement les Noirs gardent leur propre cavalier, mais ils menacent aussi de gagner celui des Blancs par 33...Nf5 34 Qe2 Rxd4 !, une attaque sur la dame et une triple attaque sur le cavalier. Il n'y a pas de réponse à cela car les Blancs sont cloués partout !",
+      "isCritical": true
+    },
+    {
+      "ply": 65,
+      "san": "a4",
+      "text": "Chassant le cavalier pour qu'il n'attaque plus le pion d.",
+      "isCritical": true
+    },
+    {
+      "ply": 66,
+      "san": "Nd6",
+      "text": "Le cavalier part, prenant soin de protéger le pion b.",
+      "isCritical": true
+    },
+    {
+      "ply": 67,
+      "san": "Bf4",
+      "text": "Sinon, les Noirs jouent 34...g5, menaçant 35...g4 ou 35...Nf5, ou les deux !",
+      "isCritical": true
+    },
+    {
+      "ply": 68,
+      "san": "Nf5",
+      "text": "Frappant une fois de plus le pion d.",
+      "isCritical": true
+    },
+    {
+      "ply": 69,
+      "san": "Be3",
+      "text": "Les Blancs ne peuvent se permettre Qxb7 car après 35...Rxd4 36 Qc8+ Kh7 37 Qc3 g5 ils perdent plus de matériel.\n\n35 ... Nxe3+\n\nPlus simple que les combinaisons commençant par 35...e5. Après le coup du texte, deux pièces de plus quittent l'échiquier, et un autre pion tombera.",
+      "isCritical": true
+    },
+    {
+      "ply": 70,
+      "san": "Nxe3+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 71,
+      "san": "fxe3",
+      "text": "Les Blancs doivent reprendre.",
+      "isCritical": true
+    },
+    {
+      "ply": 72,
+      "san": "Qxe3",
+      "text": "Cela décloue le cavalier, mais le cavalier doit rester où il est pour protéger le pion d.",
+      "isCritical": true
+    },
+    {
+      "ply": 73,
+      "san": "g4",
+      "text": "Les Blancs ne doivent pas jouer 37 Qxb7 car la réponse 37...Qe2+ force le roi loin du cavalier et coûte une pièce. Leur coup réel empêche les Noirs d'accroître la pression par 37...Nf5.",
+      "isCritical": true
+    },
+    {
+      "ply": 74,
+      "san": "f5",
+      "text": "Les Noirs peuvent se permettre cette ouverture de la position. Leur roi souffre moins de l'exposition que celui des Blancs. La menace est bien sûr 38...fxg4, gagnant aussitôt.",
+      "isCritical": true
+    },
+    {
+      "ply": 75,
+      "san": "g5",
+      "text": "Après 38 h3 fxg4 39 hxg4 Nf4 40 g5 Qg4+ 41 Kf2 Qf5 les menaces de 42...Qxf3+ et 42...Qxg5 ne peuvent toutes deux être parées.",
+      "isCritical": true
+    },
+    {
+      "ply": 76,
+      "san": "Qe4",
+      "text": "Clouant une fois de plus le cavalier !",
+      "isCritical": true
+    },
+    {
+      "ply": 77,
+      "san": "Qc3",
+      "text": "Évitant soigneusement Qxb7, quand 39...f4 le confronte à la perte du cavalier par 40...Qe2+ ou à la perte du pion g par 40...Qxg5+.",
+      "isCritical": true
+    },
+    {
+      "ply": 78,
+      "san": "f4",
+      "text": "Pas tout de suite 39...e5 parce que 40 g6 laisse les Blancs menaçant un mat soudain !\n\n40 Qc8+\n\nSi les Blancs avaient essayé 40 g6 alors 40...Qxg5+ mettrait fin à la carrière du pion g.",
+      "isCritical": true
+    },
+    {
+      "ply": 79,
+      "san": "Qc8+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 80,
+      "san": "Kh7",
+      "text": "Pour échapper à d'autres échecs de la dame.",
+      "isCritical": true
+    },
+    {
+      "ply": 81,
+      "san": "Qc3",
+      "text": "Retour à la défense du cavalier et du pion d.",
+      "isCritical": true
+    },
+    {
+      "ply": 82,
+      "san": "e5",
+      "text": "Cela signale le début de la dernière phase : la rupture du centre blanc.\n\nC'est plus fort que 41...Qxg5+ 42 Kf2 Qh5 43 h4, quand les Blancs menacent 44 Qg5+.\n\nL'idée du coup du texte est de continuer par 42...Rxd4, avec quoi les Noirs accomplissent ces choses :\n\nIls ont démoli le centre blanc.\n\nIls menacent un gain immédiat par 43...Rd3.\n\nIls sont assurés (si ce qui précède n'est pas assez convaincant) de rester avec deux pions passés liés au centre.",
+      "isCritical": true
+    },
+    {
+      "ply": 83,
+      "san": "h4",
+      "text": "Marshall voit que 42 dxe5 perd une pièce après 42...Rd3 mais il a encore quelques tours dans son sac.",
+      "isCritical": true
+    },
+    {
+      "ply": 84,
+      "san": "Rxd4",
+      "text": "Avec l'intention d'attaquer dame et cavalier par 43...Rd3, coupant accessoirement la dame de la défense du cavalier.",
+      "isCritical": true
+    },
+    {
+      "ply": 85,
+      "san": "g6+",
+      "text": "Voici l'un des pièges : si les Noirs jouent 43...Kxg6, les Blancs répondent 44 Qb3 (apparemment cherchant un échec perpétuel) 44...Rd3, et maintenant au lieu de 45 Qe6+ les Blancs jouent 45 Qxd3 Qxd3 46 Nxe5+ suivi de 47 Nxd3 récupérant la dame et gagnant une tour.",
+      "isCritical": true
+    },
+    {
+      "ply": 86,
+      "san": "Kh6",
+      "text": "Les Noirs évitent celui-ci.",
+      "isCritical": true
+    },
+    {
+      "ply": 87,
+      "san": "Kh2",
+      "text": "Aussi les Blancs tendent-ils un autre piège : si 44...Rd3 45 Nxe5 Qxf3, alors 46 Qg5# !\n\n44 ... Qe2+\n\n0-1\n\nÀ cela il n'y a pas de réponse : 45 Kg1 Rd1+ 46 Ne1 Qxe1+ gagne, ou 45 Kh3 Rd3, clouant le pauvre cavalier pour la dernière fois, éteint les dernières lueurs de résistance.",
+      "isCritical": true
+    },
+    {
+      "ply": 88,
+      "san": "Qe2+",
+      "text": "",
+      "isCritical": true
+    }
+  ]
+}

@@ -8,8 +8,11 @@ import { aggregatePlayerElos, formatPlayerWithElo } from "../lib/playerStats";
 import { getGameProgress, loadProgress } from "../lib/progress";
 import { getBookDetails } from "../lib/bookDetails";
 import { sourceBookLabel } from "../lib/bookMeta";
+import type { Lang } from "../lib/lang";
+import { fill, ui, type UiCopy } from "../lib/uiCopy";
 
 type Props = {
+  lang: Lang;
   selectedBook: BookId | null;
   onSelectBook: (bookId: BookId | null) => void;
   onOpenLesson: (lesson: LessonSummary) => void;
@@ -21,10 +24,10 @@ function sectionMeta(sections: BookMeta["sections"], title: string) {
   return sections?.find((s) => s.title === title);
 }
 
-function progressLabel(pct: number): string {
-  if (pct >= 100) return "Complete";
+function progressLabel(pct: number, t: UiCopy): string {
+  if (pct >= 100) return t.complete;
   if (pct > 0) return `${pct}%`;
-  return "Not started";
+  return t.notStarted;
 }
 
 function bookProgress(lessons: LessonSummary[]) {
@@ -55,17 +58,20 @@ function libraryProgress(index: LessonIndex) {
 
 function LibraryView({
   index,
+  lang,
   onSelectBook,
   onOpenLesson,
   onOpenSettings,
   onBackToLanding,
 }: {
   index: LessonIndex;
+  lang: Lang;
   onSelectBook: (bookId: BookId) => void;
   onOpenLesson: (lesson: LessonSummary) => void;
   onOpenSettings: () => void;
   onBackToLanding?: () => void;
 }) {
+  const t = ui(lang);
   const progress = loadProgress();
   const { totalGames, completedCount, inProgressCount } = libraryProgress(index);
   const continueLesson = progress.lastLessonId
@@ -91,38 +97,36 @@ function LibraryView({
               />
               {onBackToLanding ? (
                 <button type="button" className="text-btn landing-back-link" onClick={onBackToLanding}>
-                  ← About
+                  {t.about}
                 </button>
               ) : (
-                <p className="eyebrow">Move-by-Move Coach</p>
+                <p className="eyebrow">{t.coachEyebrow}</p>
               )}
             </div>
             <button type="button" className="text-btn settings-link" onClick={onOpenSettings}>
-              Settings
+              {t.settings}
             </button>
           </div>
-          <h1>Study classic games move by move</h1>
-          <p className="library-hero-lead">
-            Chernev and Nunn, {totalGames} games — synced board, commentary, Stockfish, and AI analysis prompts.
-          </p>
+          <h1>{t.libraryHeadline}</h1>
+          <p className="library-hero-lead">{fill(t.libraryLead, { n: totalGames })}</p>
         </div>
 
-        <div className="library-stats" aria-label="Library overview">
+        <div className="library-stats" aria-label={t.books}>
           <div className="stat-card">
             <strong>{index.books.length}</strong>
-            <span>Books</span>
+            <span>{t.books}</span>
           </div>
           <div className="stat-card">
             <strong>{totalGames}</strong>
-            <span>Games</span>
+            <span>{t.games}</span>
           </div>
           <div className="stat-card">
             <strong>{completedCount}</strong>
-            <span>Completed</span>
+            <span>{t.completed}</span>
           </div>
           <div className="stat-card">
             <strong>{inProgressCount}</strong>
-            <span>In progress</span>
+            <span>{t.inProgress}</span>
           </div>
         </div>
       </header>
@@ -133,15 +137,20 @@ function LibraryView({
           className="library-resume"
           onClick={() => onOpenLesson(continueLesson)}
         >
-          <span className="library-resume-label">Continue where you left off</span>
+          <span className="library-resume-label">{t.continueWhereLeft}</span>
           <strong>
-            Game {continueLesson.gameNum}: {continueLesson.players.white} vs {continueLesson.players.black}
+            {fill(t.gameN, { n: continueLesson.gameNum })}: {continueLesson.players.white}{" "}
+            {t.vs} {continueLesson.players.black}
           </strong>
           <span className="library-resume-meta">
             {continueLesson.opening ?? continueLesson.section}
-            {continuePct > 0 && continuePct < 100 ? ` · ${continuePct}%` : continuePct >= 100 ? " · complete" : ""}
+            {continuePct > 0 && continuePct < 100
+              ? ` · ${continuePct}%`
+              : continuePct >= 100
+                ? ` · ${t.complete}`
+                : ""}
           </span>
-          <span className="library-resume-cta">Resume →</span>
+          <span className="library-resume-cta">{t.resume}</span>
         </button>
       ) : null}
 
@@ -169,7 +178,7 @@ function LibraryView({
                   {book.author}
                   {book.publisher ? <span className="book-card-publisher"> · {book.publisher}</span> : null}
                 </p>
-                {isResumeBook ? <span className="book-card-pill">In progress</span> : null}
+                {isResumeBook ? <span className="book-card-pill">{t.inProgress}</span> : null}
               </div>
               <h2 className="book-card-title">{book.title}</h2>
               {details ? (
@@ -193,20 +202,22 @@ function LibraryView({
               ) : null}
               <p className="book-card-stats">
                 {book.id === "intentions"
-                  ? `${book.gameCount} selected games from Chernev & Nunn`
-                  : `${book.gameCount} annotated games in this app`}
+                  ? fill(t.selectedFromBoth, { n: book.gameCount })
+                  : fill(t.annotatedGames, { n: book.gameCount })}
               </p>
               {book.sections && book.sections.length > 0 ? (
-                <ul className="book-card-sections" aria-label="Book sections">
+                <ul className="book-card-sections" aria-label={t.books}>
                   {(book.id === "intentions" ? book.sections.slice(0, 6) : book.sections).map((section) => (
                     <li key={section.title} title={section.blurb}>
                       <span className="book-card-section-name">{section.title}</span>
-                      <span className="book-card-section-range">Games {section.range}</span>
+                      <span className="book-card-section-range">
+                        {fill(t.gamesRange, { range: section.range })}
+                      </span>
                     </li>
                   ))}
                   {book.id === "intentions" && book.sections.length > 6 ? (
                     <li className="book-card-sections-more">
-                      +{book.sections.length - 6} more intentions
+                      {fill(t.moreIntentions, { n: book.sections.length - 6 })}
                     </li>
                   ) : null}
                 </ul>
@@ -217,11 +228,15 @@ function LibraryView({
                     <span style={{ width: `${pctComplete}%` }} />
                   </div>
                   <span className="book-card-progress-label">
-                    {completedCount} complete
-                    {inProgressCount > 0 ? ` · ${inProgressCount} started` : ""}
+                    {inProgressCount > 0
+                      ? fill(t.completeStarted, {
+                          done: completedCount,
+                          started: inProgressCount,
+                        })
+                      : `${completedCount} ${t.complete}`}
                   </span>
                 </div>
-                <span className="book-card-open">Browse games →</span>
+                <span className="book-card-open">{t.browseGames}</span>
               </div>
             </button>
           );
@@ -234,16 +249,19 @@ function LibraryView({
 function BookHomeView({
   book,
   lessons,
+  lang,
   onBack,
   onOpenLesson,
   onOpenSettings,
 }: {
   book: BookMeta;
   lessons: LessonSummary[];
+  lang: Lang;
   onBack: () => void;
   onOpenLesson: (lesson: LessonSummary) => void;
   onOpenSettings: () => void;
 }) {
+  const t = ui(lang);
   const [query, setQuery] = useState("");
   const progress = loadProgress();
   const { performanceByLesson, loading: elosLoading } = usePerformanceElos();
@@ -311,10 +329,10 @@ function BookHomeView({
         <div className="home-hero-copy">
           <div className="library-hero-top">
             <button type="button" className="text-btn landing-back-link" onClick={onBack}>
-              ← Library
+              {t.backLibrary}
             </button>
             <button type="button" className="text-btn settings-link" onClick={onOpenSettings}>
-              Settings
+              {t.settings}
             </button>
           </div>
           <p className="eyebrow">{book.author}{book.publisher ? ` · ${book.publisher}` : ""}</p>
@@ -327,7 +345,7 @@ function BookHomeView({
             </>
           ) : (
             <p className="hero-sub">
-              Study all {book.gameCount} games with {book.author.split(" ").pop()}&apos;s commentary and a synced board.
+              {fill(t.annotatedGames, { n: book.gameCount })}
             </p>
           )}
         </div>
@@ -336,11 +354,13 @@ function BookHomeView({
           <button type="button" className="continue-card" onClick={() => onOpenLesson(continueLesson)}>
             <div className="continue-card-top">
               <span className="continue-label">
-                {continuePct >= 100 ? "Review last game" : "Continue studying"}
+                {continuePct >= 100 ? t.reviewLastGame : t.continueStudying}
               </span>
-              <span className="continue-game-num">Game {continueLesson.gameNum}</span>
+              <span className="continue-game-num">{fill(t.gameN, { n: continueLesson.gameNum })}</span>
             </div>
-            <strong>{continueLesson.players.white} vs {continueLesson.players.black}</strong>
+            <strong>
+              {continueLesson.players.white} {t.vs} {continueLesson.players.black}
+            </strong>
             <div className="continue-meta">
               {continueLesson.opening && (
                 <OpeningLabel name={continueLesson.opening} eco={continueLesson.eco} showTip={false} />
@@ -349,8 +369,8 @@ function BookHomeView({
             </div>
             <span className="continue-progress-text">
               {continuePct >= 100
-                ? "Finished — open to review"
-                : `Move ${progress.lastPly ?? 0} of ${continueLesson.moveCount}`}
+                ? t.finishedOpenReview
+                : fill(t.moveOf, { x: progress.lastPly ?? 0, y: continueLesson.moveCount })}
             </span>
             <div className="card-progress">
               <div style={{ width: `${continuePct}%` }} />
@@ -361,24 +381,24 @@ function BookHomeView({
         <div className="home-stats">
           <div className="stat-card">
             <strong>{lessons.length}</strong>
-            <span>Games</span>
+            <span>{t.games}</span>
           </div>
           <div className="stat-card">
             <strong>{openingCount}</strong>
-            <span>Openings</span>
+            <span>{t.openings}</span>
           </div>
           <div className="stat-card">
             <strong>{completedCount}</strong>
-            <span>Completed</span>
+            <span>{t.completed}</span>
           </div>
           <div className="stat-card">
             <strong>{inProgressCount}</strong>
-            <span>In progress</span>
+            <span>{t.inProgress}</span>
           </div>
           {ratedGames > 0 && (
-            <div className="stat-card" title="Average estimated playing strength across all rated players (Stockfish move-quality analysis)">
+            <div className="stat-card" title={t.lucasElo}>
               <strong>{playerStats.length}</strong>
-              <span>Rated players</span>
+              <span>{t.ratedPlayers}</span>
             </div>
           )}
         </div>
@@ -387,30 +407,28 @@ function BookHomeView({
       <section className="home-library" aria-labelledby="library-heading">
         <div className="library-head">
           <div>
-            <h2 id="library-heading">Game index</h2>
+            <h2 id="library-heading">{t.gameIndex}</h2>
             <p className="library-sub">
               {searchActive
-                ? `${filtered.length} of ${lessons.length} games match your search`
+                ? `${filtered.length} / ${lessons.length}`
                 : elosLoading
-                  ? "Loading estimated Elo ratings…"
-                  : book.id === "intentions"
-                    ? "Games grouped by play intention — click a row to open"
-                    : "All games in book order — click a row to open"}
+                  ? t.loadingLibrary
+                  : fill(t.annotatedGames, { n: lessons.length })}
             </p>
           </div>
           <div className="toolbar">
             <input
               type="search"
-              placeholder="Search players, openings, cities…"
+              placeholder={t.searchGames}
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              aria-label="Search games"
+              aria-label={t.searchGames}
             />
           </div>
         </div>
 
         {filtered.length === 0 ? (
-          <p className="empty-search">No games match “{query.trim()}”.</p>
+          <p className="empty-search">{fill(t.noGamesMatch, { q: query.trim() })}</p>
         ) : (
           grouped.map(([section, items]) => {
             const meta = sectionMeta(sections, section);
@@ -421,11 +439,11 @@ function BookHomeView({
                     <h3>{section}</h3>
                     {meta && (
                       <p className="section-blurb">
-                        Games {meta.range} · {meta.blurb}
+                        {fill(t.gamesRange, { range: meta.range })} · {meta.blurb}
                       </p>
                     )}
                     {meta?.openings && meta.openings.length > 0 ? (
-                      <ul className="intention-openings" aria-label="Typical openings for this intention">
+                      <ul className="intention-openings" aria-label={t.openings}>
                         {meta.openings.map((opening) => (
                           <li key={opening.name}>
                             <strong>{opening.name}</strong>
@@ -435,26 +453,28 @@ function BookHomeView({
                       </ul>
                     ) : null}
                   </div>
-                  <span className="section-count">{items.length} games</span>
+                  <span className="section-count">
+                    {items.length} {t.games.toLowerCase()}
+                  </span>
                 </div>
 
                 <div className={`game-table${showEloColumn ? " has-elo" : ""} has-result`}>
                   <div className="game-table-head" aria-hidden="true">
                     <span className="col-num">#</span>
-                    <span className="col-players">Players</span>
-                    <span className="col-result">Result</span>
+                    <span className="col-players">{t.players}</span>
+                    <span className="col-result">{t.result}</span>
                     {showEloColumn && (
-                      <span className="col-elo" title="Estimated playing strength from Stockfish move-quality analysis">
-                        Est. Elo
+                      <span className="col-elo" title={t.lucasElo}>
+                        {t.estElo}
                       </span>
                     )}
-                    <span className="col-opening">Opening</span>
-                    <span className="col-progress">Progress</span>
+                    <span className="col-opening">{t.opening}</span>
+                    <span className="col-progress">{t.progress}</span>
                   </div>
                   <div className="lesson-list" role="list">
                     {items.map((lesson) => {
                       const pct = getGameProgress(lesson.id);
-                      const status = progressLabel(pct);
+                      const status = progressLabel(pct, t);
                       const performanceElo = performanceByLesson.get(lesson.id);
                       const winner = gameWinner(lesson.result);
                       const sourceLabel = sourceBookLabel(lesson.sourceBook);
@@ -475,7 +495,7 @@ function BookHomeView({
                               <span className={resultWinnerClass("white", winner)}>
                                 {formatPlayerWithElo(lesson.players.white, performanceElo?.white)}
                               </span>
-                              {" vs "}
+                              {` ${t.vs} `}
                               <span className={resultWinnerClass("black", winner)}>
                                 {formatPlayerWithElo(lesson.players.black, performanceElo?.black)}
                               </span>
@@ -483,7 +503,7 @@ function BookHomeView({
                             {lesson.why ? <span className="lesson-why">{lesson.why}</span> : null}
                             {lesson.openingIdea ? (
                               <span className="lesson-opening-idea">
-                                <strong>{lesson.openingName ?? "Ouverture"}</strong>
+                                <strong>{lesson.openingName ?? t.opening}</strong>
                                 {" — "}
                                 {lesson.openingIdea}
                               </span>
@@ -491,14 +511,14 @@ function BookHomeView({
                             {lesson.event && !lesson.why ? <span className="lesson-event">{lesson.event}</span> : null}
                             {sourceLabel && sourceGameNum ? (
                               <span className="lesson-source-badge">
-                                {sourceLabel} · Game {sourceGameNum}
+                                {sourceLabel} · {fill(t.gameN, { n: sourceGameNum })}
                               </span>
                             ) : null}
                           </span>
                           <div className="lesson-meta-chips">
-                            <GameResultBadge result={lesson.result} />
+                            <GameResultBadge result={lesson.result} lang={lang} />
                             {showEloColumn && (
-                              <span className="lesson-elo" title="White · Black estimated Elo">
+                              <span className="lesson-elo" title={t.estElo}>
                                 {performanceElo ? (
                                   <>
                                     <span className="elo-white">{performanceElo.white}</span>
@@ -540,7 +560,15 @@ function BookHomeView({
   );
 }
 
-export function Home({ selectedBook, onSelectBook, onOpenLesson, onOpenSettings, onBackToLanding }: Props) {
+export function Home({
+  lang,
+  selectedBook,
+  onSelectBook,
+  onOpenLesson,
+  onOpenSettings,
+  onBackToLanding,
+}: Props) {
+  const t = ui(lang);
   const [index, setIndex] = useState<LessonIndex | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -551,12 +579,13 @@ export function Home({ selectedBook, onSelectBook, onOpenLesson, onOpenSettings,
   }, []);
 
   if (error) return <p className="error">{error}</p>;
-  if (!index) return <div className="loading">Loading library…</div>;
+  if (!index) return <div className="loading">{t.loadingLibrary}</div>;
 
   if (!selectedBook) {
     return (
       <LibraryView
         index={index}
+        lang={lang}
         onSelectBook={onSelectBook}
         onOpenLesson={onOpenLesson}
         onOpenSettings={onOpenSettings}
@@ -567,12 +596,13 @@ export function Home({ selectedBook, onSelectBook, onOpenLesson, onOpenSettings,
 
   const book = index.books.find((b) => b.id === selectedBook);
   const lessons = index[selectedBook] ?? [];
-  if (!book) return <p className="error">Book not found.</p>;
+  if (!book) return <p className="error">{t.bookNotFound}</p>;
 
   return (
     <BookHomeView
       book={book}
       lessons={lessons}
+      lang={lang}
       onBack={() => onSelectBook(null)}
       onOpenLesson={onOpenLesson}
       onOpenSettings={onOpenSettings}

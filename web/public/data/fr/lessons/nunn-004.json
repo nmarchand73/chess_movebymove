@@ -1,0 +1,349 @@
+{
+  "id": "nunn-004",
+  "book": "nunn",
+  "gameNum": 4,
+  "title": "Partie 4 : J. van der Wiel – R. Vaganian",
+  "section": "Thèmes d'ouverture",
+  "players": {
+    "white": "J. van der Wiel",
+    "black": "R. Vaganian"
+  },
+  "event": "Ter Apel 1993",
+  "opening": "Défense Alekhine, Attaque des quatre pions",
+  "eco": "B03",
+  "pgnPath": "data/pgn/nunn/04.pgn",
+  "result": "0-1",
+  "moveCount": 54,
+  "annotatedMoves": 53,
+  "fullText": "Un centre de pions trop étendu\n\nSi un joueur occupe le centre avec des pions dès l'ouverture, il assume une responsabilité importante. S'il peut maintenir ce centre de pions intact et le soutenir correctement avec des pièces, il a de bonnes chances d'obtenir l'avantage. Si, en revanche, le soutien est insuffisant, alors, comme toute construction bancale, le centre de pions risque de s'effondrer dès qu'on lui donne une bonne poussée. La cause la plus fréquente d'un mauvais soutien des pièces est le manque de développement. Ériger un centre de pions consomme un certain nombre de tempos, qui ne peuvent pas aussi servir au développement des pièces. Il est donc naturel qu'un large centre de pions et un retard de développement aillent de pair. La grande question est de savoir si l'adversaire a un moyen d'exploiter rapidement ce retard de développement, faute de quoi l'occupant du centre rattrapera son développement et prendra l'avantage. Il est souvent extrêmement difficile de juger quelle sera l'issue d'un tel duel. En effet, il existe des systèmes d'ouverture entiers fondés sur le fait de laisser l'adversaire construire un large centre de pions ; même après des décennies d'analyses, personne ne sait si certains de ces systèmes sont corrects. Dans la partie qui suit, les Noirs adoptent précisément une telle ouverture. Les Blancs construisent comme prévu leur centre, et la bataille s'engage.\n\nJ. van der Wiel – R. Vaganian\n\nTer Apel 1993\n\nDéfense Alekhine, Attaque des quatre pions\n\n1 e4\n\nVoir la partie 3 pour les commentaires sur ce coup.\n\n1...Nf6\n\nC'est l'une des défenses les plus directes contre 1 e4, en ce que le plan des Noirs est clair dès le premier coup. En attaquant le pion e, ils restreignent les options des Blancs. Les deux seuls coups naturels sont 2 Nc3 et 2 e5. Cependant, 2 Nc3 permet au moins aux Noirs de transposer dans une ouverture du pion roi inoffensive en jouant 2...e5 (cette ouverture, appelée Partie viennoise, apparaît habituellement après 1 e4 e5 2 Nc3 Nf6). Dès lors, le seul vrai test du premier coup des Noirs est 2 e5. À première vue, les Blancs ne devraient pas hésiter à avancer leur pion, car ils gagnent non seulement de l'espace au centre, mais aussi apparemment du temps, puisque les Noirs doivent rejouer leur cavalier. Pourtant, le fondement de l'idée noire est que, pour soutenir le pion avancé en e5, les Blancs devront jouer d'autres coups de pion — d4 au minimum. Dans cette partie, les Blancs décident d'aller jusqu'au bout et jouent aussi c4 et f4. Cela leur donne un large centre, mais entre-temps ils prennent du retard dans le développement. Comme indiqué dans l'introduction de cette partie, il est très difficile de dire si le centre se révélera fort ou s'effondrera tout simplement — en effet, la défense Alekhine fait l'objet d'un débat théorique depuis environ 80 ans, sans conclusions claires.\n\n2 e5\n\n2...Nd5\n\nLa meilleure case. 2...Ne4 serait vraiment trop provocateur ; après 3 d4 le cavalier est isolé en e4.\n\n3 d4\n\nLes Blancs soutiennent leur pion avancé, tout en se réservant la possibilité de chasser encore le cavalier par c4.\n\n3...d6\n\nComme toujours, il ne faut pas laisser l'adversaire ériger un large centre sans le contester. Ici les Noirs commencent déjà à exercer une pression sur le pion e5.\n\n4 c4\n\nLes Blancs décident de pousser un autre pion. Les Noirs doivent à nouveau jouer leur cavalier, ce n'est donc pas vraiment une perte de temps pour les Blancs. Cependant, ceux-ci ont pris la responsabilité supplémentaire de défendre le pion c4. Le sentiment actuel est que ces avancées de pions supplémentaires ne profitent guère aux Blancs, et la stratégie privilégiée aujourd'hui est de se contenter des deux pions déjà avancés et de se concentrer sur leur soutien. La meilleure façon d'y parvenir est 4 Nf3, suivi de Be2 et 0-0.\n\n4...Nb6\n\nExerçant une pression sur le pion c4 et limitant ainsi l'activité du fou des cases claires des Blancs.\n\n5 f4\n\nNous avons rencontré John van der Wiel dans la partie 1 et connaissons son style direct et agressif. Ici il adopte la ligne la plus ambitieuse, mais aussi l'une des plus risquées, contre la défense Alekhine. L'Attaque des quatre pions repose sur la revendication d'un vaste territoire au centre, dans l'espoir de développer les pièces derrière ce centre par Nc3, Nf3, Be3, etc.\n\n5...dxe5\n\nCet échange ouvre la colonne d pour la dame noire et prépare une pression contre le pion d4.\n\n6 fxe5\n\nAprès 6 dxe5 Qxd1+ 7 Kxd1 Nc6, l'avance de développement des Noirs devient sérieuse, car les Blancs doivent encore perdre du temps avec leur roi. De toute façon, cela n'a aucun sens de jouer une ligne agressive comme l'Attaque des quatre pions puis de proposer l'échange des dames.\n\n6...Nc6\n\nAttaquant d4.\n\n7 Be3\n\nLes Blancs jouent leur première pièce. Si les Noirs n'avaient pas eux-mêmes perdu un peu de temps, le luxe de six coups de pion consécutifs aurait sûrement été fatal aux Blancs. Cependant, les Noirs ont passé trois coups à se faire chasser le cavalier jusqu'en b6, si bien que le retard de développement blanc, bien réel, n'est pas assez grave pour provoquer une catastrophe immédiate.\n\n7 Nf3 est une erreur car après 7...Bg4 8 Be3 e6 les Noirs gagnent effectivement un tempo par rapport à la suite de la partie. Il est plus précis d'attendre que les Noirs jouent ...Bf5 avant de continuer par Nf3, car alors ils devront dépenser un tempo supplémentaire s'ils veulent clouer le cavalier.\n\n7...Bf5\n\nPrépare à libérer la dernière pièce mineure par ...e6. À ce stade, il n'est pas clair si les Noirs viseront le petit roque ou chercheront une pression rapide contre d4 au moyen de ...Qd7 suivi de ...0-0-0.\n\n8 Nc3\n\nLes Blancs sont impatients de combler leur retard de développement.\n\n8...e6\n\nLe fou de f8 peut être développé en e7 ou b4, selon les circonstances.\n\n9 Nf3\n\nLes deux camps ont passé les derniers coups à se concentrer sur le développement des pièces, mais maintenant les Noirs doivent décider comment intensifier la pression contre les pions blancs avant que les Blancs ne développent leurs pièces restantes et ne roquent. Une idée est 9...Be7, visant ...0-0 et ...f6. Ce plan est assez efficace, si bien que les Blancs répondent généralement à 9...Be7 par 10 d5, cherchant à éventrer la position noire avant le roque. Ce livre n'est pas le lieu d'une discussion détaillée de la théorie d'ouverture ; disons simplement que 10 d5, bien que très compliqué, est considéré comme satisfaisant pour les Noirs. Cependant, Vaganian décide d'adopter un autre plan, qui semble aussi offrir aux Noirs une partie confortable. Le fait que les Noirs disposent d'une gamme d'options satisfaisantes est la principale raison pour laquelle l'Attaque des quatre pions se voit rarement au niveau grand maître contemporain.\n\n9...Bg4\n\nOui, les Noirs ont volontairement joué deux fois la même pièce, mais avec un but précis. L'élimination du cavalier f3 affaiblira la défense blanche de d4, et après ...Qd7 et ...0-0-0 les Blancs peuvent avoir de réelles difficultés à le défendre.\n\n10 Be2\n\n10 Qd2 est une autre idée, visant à défendre le pion d4 par 0-0-0. Une ligne possible est 10...Qd7 (10...Bb4!? 11 a3 Be7 est intéressant ; après 0-0-0 des Blancs, la réponse ...Na5 attaquera non seulement c4, mais menacera aussi une fourchette en b3) 11 Be2 0-0-0 12 0-0-0 Na5, quand les Blancs ne peuvent plus maintenir leur centre de pions intact et doivent tenter de s'en sortir tactiquement par 13 Bg5, avec des complications peu claires.\n\n10...Bxf3\n\nGrâce à la pression contre c4, les Blancs doivent reprendre avec le pion, ce qui brise leur structure de pions et expose leur roi. 10...Qd7 11 Qd2 transposerait dans la note précédente.\n\n11 gxf3\n\n11...Qd7!?\n\nCe coup paraît un peu étrange en conjonction avec l'échange en f3, même si, vu son succès dans cette partie, il est difficile de le critiquer. Les Noirs préfèrent normalement 11...Qh4+ 12 Bf2 Qf4 13 c5 Nd7 14 Bb5 Be7, une ligne théorique habituellement jugée « peu claire ». En effet, la motivation de l'échange en f3 est précisément l'idée d'échec en h4. Le coup du texte conduit à des positions similaires à celles de la note au 10e coup des Blancs, mais où les Noirs ont volontairement échangé en f3 (c'est-à-dire sans y être forcés par h3 des Blancs).\n\n12 f4?!\n\nLes Blancs cherchent à exploiter l'échange précoce en f3 en renforçant le pion e5, et en préparant ainsi une éventuelle poussée d4-d5. Cependant, ce plan est trop ambitieux étant donné que le roi blanc est encore au centre et que le développement est assez médiocre. Le résultat est qu'ils se retrouvent bientôt en difficulté.\n\n12 Qd2, suivi de 0-0-0, est meilleur. Alors le roi blanc est relativement en sécurité et d4 est renforcé. Dans ce cas la position serait à peu près égale.\n\n12...Rd8!\n\nVan der Wiel a fort bien pu négliger ce coup inattendu. À première vue 12...0-0-0 semble plus naturel, mais cela permet aux Blancs de jouer 13 c5! Nd5 14 Nxd5 Qxd5 15 Bf3 Qd7 16 d5, quand ils ont réalisé leur percée centrale. Les Noirs ne peuvent pas jouer 16...exd5 à cause du clouage 17 Bg4, tandis qu'autrement les Blancs jouent d6, enfonçant un coin massif dans la position noire et freinant le développement de l'aile roi. En jouant ...Rd8 plutôt que ...0-0-0, Vaganian contourne habilement le clouage Bg4, et maintenant cette ligne, sur laquelle les Blancs fondaient leurs espoirs, ne fonctionne plus. C'est un exemple intéressant de la façon dont, dans les décisions aux échecs, le spécifique doit toujours l'emporter sur le général. En principe, les Noirs préfèrent roquer plutôt que non, mais quand l'analyse concrète montre que le second choix est supérieur, Vaganian n'hésite pas à abandonner les principes généraux.\n\n13 d5\n\nL'attaque contre le pion d4 n'est pas facile à parer. Après 13 c5 Nd5 14 Nxd5 Qxd5 15 Bf3 Qd7 les Blancs n'ont rien de mieux que 16 Rc1 (16 Rg1 Nxd4 17 Bxd4 Qxd4 18 Qxd4 Rxd4 19 Bxb7 Bxc5 gagne un pion) 16...Nxd4 17 Bxb7 Qb5 18 Bxd4 Qxb7 19 Qa4+ c6 20 0-0 Be7. Cette position est très désagréable pour les Blancs. Leur fou est mauvais, et après ...0-0, ...Rd5 et ...Rfd8 des Noirs, ils affronteront des problèmes croissants sur la colonne d.\n\nVan der Wiel joue la seule alternative, à savoir foncer en avant avec le pion d. Si un large centre de pions commence à subir une pression intolérable, un moment critique survient souvent où la seule alternative à la simple perte des pions est de s'en servir comme d'un bélier pour ouvrir la position adverse. Le succès dépend évidemment des traits concrets de la position, mais ici on peut dire d'emblée que cela ne paraît pas bon pour les Blancs — leurs tours ne sont pas encore en jeu et leur roi est exposé.\n\n13...Bb4!\n\nC'est plus fort que 13...exd5 14 cxd5 (14 Bg4 Qe7 15 cxd5 est tentant, mais 15...Qb4! est gênant pour les Blancs) 14...Bb4 (14...Nxd5?! 15 Bg4 force les Noirs à un sacrifice de dame douteux par 15...Qxg4 16 Qxg4 Nxe3) 15 Kf2! Qh3 (le point tactique clé est que 15...Bxc3 16 dxc6 Qxc6 17 Qb3 menace à la fois le fou et Bb5, et gagne donc une pièce) 16 Qb3 Bxc3 17 dxc6 avec une position très peu claire.\n\n14 Bxb6?\n\nDans cette position critique, les Blancs commettent une erreur grave. Les alternatives étaient :\n\n1) 14 dxc6? Qxc6 attaque à la fois d1 et h1, gagnant pour les Noirs.\n\n2) 14 Bf3? exd5 15 Bxb6 transpose dans la partie.\n\n3) 14 Rg1 exd5 15 Bxb6 axb6 16 cxd5 Qh3! est très bon pour les Noirs après 17 Rxg7 Qh4+ 18 Rg3 Qxh2 ou 17 Qd3 Qxh2 18 Rxg7 Qh1+ 19 Bf1 Rxd5.\n\n4) 14 Kf2! est la défense la plus résistante. Après 14...Bxc3 (14...exd5?! 15 cxd5 transpose dans la note précédente) 15 dxc6 Qxc6 16 Qg1! (ici 16 Qb3 ne fonctionne pas, car il n'y a pas de menace Bb5 ; le coup Qg1 est la raison pour laquelle 14 Kf2! est meilleur que 14 0-0 — un autre exemple du spécifique l'emportant sur le général) 16...Bd4 17 Qxg7 Rf8 les Noirs ont un certain avantage car le roi blanc est le plus exposé, mais la bataille est loin d'être terminée.\n\nLe coup du texte est mauvais car le fou des cases sombres des Blancs est une pièce défensive clé. Sans lui, les cases sombres de la position blanche sont horriblement faibles. Il est vrai que l'élimination du cavalier b6 permet aux Blancs de maintenir un peu plus longtemps leur centre de pions chancelant, mais les nouvelles faiblesses permettent aux Noirs d'exploiter les problèmes blancs d'une autre façon. Les pions avancés ont laissé un immense vide derrière eux ; avec la disparition des derniers vestiges du contrôle des cases sombres, les pièces noires (en particulier la dame) peuvent s'engouffrer par les fissures béantes.\n\n14...axb6\n\n15 Bf3\n\nNécessaire si les Blancs veulent éviter de perdre le pion d5. 15 Rg1 exd5 transpose dans la ligne « 3 » de la note précédente.\n\n15...exd5\n\nMaintenant cet échange sert un but utile — il permet à la dame noire de pénétrer.\n\n16 cxd5\n\n16 Bxd5 Qh3 17 Qf3 Qxf3 18 Bxf3 Rd4 n'est pas une amélioration, car les Blancs perdront au moins un pion.\n\n16...Qh3\n\nLes Blancs peinent à parer la menace immédiate 17...Qh4+.\n\n17 Ke2\n\nLa seule défense.\n\n17...0-0\n\nEnfonçant le clou. Le roi blanc se débat maintenant sans défense au milieu de l'échiquier, tandis que celui des Noirs est parfaitement en sécurité. L'idée est ...Rfe8, après quoi un sacrifice de pièce en e5 serait imminent.\n\n18 Qd3\n\nAprès 18 Nb5 (18 Ne4 Bc5!, suivi de ...Nd4+, gagne pour les Noirs) 18...Rfe8! (18...Qh4 19 Qc1 Bc5 gagne aussi) 19 Qb3 le sacrifice est mortel : 19...Nxe5 20 fxe5 Rxe5+ 21 Kd1 Rde8 (menaçant 22...Re3) 22 Nd4 Bc5 et tout s'effondre.\n\n18...Ne7?!\n\nLes Noirs gagnent même après cela, mais il aurait été plus simple d'achever les Blancs par 18...Qh4 19 Qe4 Bc5 20 Raf1 f5! 21 Qa4 Nd4+, etc.\n\n19 Qc4?!\n\nMaintenant les Noirs gagnent à nouveau confortablement. 19 Rad1 est une défense plus coriace, où les Noirs devraient continuer 19...Qh4 20 Qe4 Bxc3 (20...Bc5 21 Rdf1 Ng6 22 f5 est moins clair) 21 bxc3 Ng6 22 Rd4 c5! 23 dxc6 Rxd4 24 cxd4 bxc6 25 f5 Nf4+ 26 Kd1 Rd8 et le roi blanc exposé doit succomber.\n\n19...Bxc3\n\n20 bxc3\n\n20...b5!\n\nVaganian termine avec une grande énergie. Il lui suffit d'ouvrir la colonne d pour achever l'encerclement du roi blanc.\n\n21 Qxb5\n\nOu 21 Qd4 Ng6 22 a4 (22 Rag1 Ra8 et 22 Rab1 Ra8 sont sans espoir, car les menaces 23...Rxa2+ et 23...Ra4 ne peuvent être parées) 22...c5 23 Qe3 Qf5 et f4 tombe.\n\n21...c6!\n\nC'est le point du coup précédent. Maintenant le pion d5 disparaît et le roi blanc est attaqué de tous côtés.\n\n22 dxc6\n\n22 Qxb7 Nxd5 est sans espoir pour les Blancs.\n\n22...bxc6\n\n23 Qc4\n\nDéfendant f4, mais pas pour longtemps.\n\n23...Ng6\n\nMençant 23...Qh4 ou 23...Qf5.\n\n24 Rag1\n\nAprès 24 Qe4 (24 Rad1 Qh4 attaque à la fois f4 et e5) 24...Qh6 25 Ke3 Nxf4 26 Qxf4 Rd3+ 27 Ke4 Qg6+ 28 Qf5 Re3+ les Blancs perdent leur dame.\n\n24...Qf5\n\nMençant à la fois 25...Nxf4+ et 25...Qc2+.\n\n25 Rg4\n\nLes Blancs ne peuvent pas parer les deux menaces.\n\n25...Qc2+\n\nLa dame pénètre de façon décisive.\n\n26 Ke3\n\n26 Kf1 perd sur 26...Rd1+ 27 Bxd1 Qxd1+ et 28...Qxg4.\n\n26...Qd2+\n\nLa chasse au roi ne durera pas longtemps.\n\n27 Ke4\n\n27...Rd5 0-1\n\nUne jolie finition, déclouant le pion f7 et menaçant 28...f5+ 29 exf6 Re8#. 28 Be2 est la seule défense, mais alors les Noirs peuvent choisir entre le simple 28...f5+ 29 exf6 Re8+ 30 Kf3 Qe3+ et la suggestion de l'ordinateur 28...Rc5 29 Qd3 f5+ 30 exf6 Re8+ 31 Kf3 Rxc3.\n\nLa différence entre un centre de pions fort et un centre faible peut être très fine. Quand un joueur adopte le plan ambitieux de former un large centre de pions, une petite erreur peut souvent s'avérer fatale. Ici, Van der Wiel a commis l'erreur dès le 12e coup, en jouant un coup de pion de trop et en prenant un sérieux retard de développement. Si Vaganian avait répondu de façon stéréotypée, Van der Wiel aurait peut-être pu s'en tirer, mais les Noirs ont produit une série de coups très précis pour mettre les Blancs en difficulté. Quand les Blancs ont manqué une chance de rester dans la partie au 14e coup, c'était effectivement fini. Une combinaison de faiblesses sur les cases sombres, d'un roi coincé au centre et d'un immense vide derrière un centre de pions trop étendu a conduit à un effondrement rapide.\n\nLes leçons à retenir :\n\n1) Former un large centre de pions est souvent à double tranchant. Si le centre peut être maintenu et soutenu par des pièces, il sera fort, mais il y a un danger qu'il s'effondre.\n\n2) Une fois un large centre de pions construit, il faut se hâter de développer ; perdre encore du temps peut être fatal.\n\n3) L'échange d'un fou contre un cavalier peut laisser des faiblesses sur les cases contrôlées par le fou.\n\n4) Pour décider d'un coup, les considérations générales peuvent être utiles, mais l'analyse concrète a toujours la priorité.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Un centre de pions trop étendu\n\nSi un joueur occupe le centre avec des pions dès l'ouverture, il assume une responsabilité importante. S'il peut maintenir ce centre de pions intact et le soutenir correctement avec des pièces, il a de bonnes chances d'obtenir l'avantage. Si, en revanche, le soutien est insuffisant, alors, comme toute construction bancale, le centre de pions risque de s'effondrer dès qu'on lui donne une bonne poussée. La cause la plus fréquente d'un mauvais soutien des pièces est le manque de développement. Ériger un centre de pions consomme un certain nombre de tempos, qui ne peuvent pas aussi servir au développement des pièces. Il est donc naturel qu'un large centre de pions et un retard de développement aillent de pair. La grande question est de savoir si l'adversaire a un moyen d'exploiter rapidement ce retard de développement, faute de quoi l'occupant du centre rattrapera son développement et prendra l'avantage. Il est souvent extrêmement difficile de juger quelle sera l'issue d'un tel duel. En effet, il existe des systèmes d'ouverture entiers fondés sur le fait de laisser l'adversaire construire un large centre de pions ; même après des décennies d'analyses, personne ne sait si certains de ces systèmes sont corrects. Dans la partie qui suit, les Noirs adoptent précisément une telle ouverture. Les Blancs construisent comme prévu leur centre, et la bataille s'engage.\n\nJ. van der Wiel – R. Vaganian\n\nTer Apel 1993\n\nDéfense Alekhine, Attaque des quatre pions"
+    },
+    {
+      "ply": 1,
+      "san": "e4",
+      "text": "Voir la partie 3 pour les commentaires sur ce coup.",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "Nf6",
+      "text": "C'est l'une des défenses les plus directes contre 1 e4, en ce que le plan des Noirs est clair dès le premier coup. En attaquant le pion e, ils restreignent les options des Blancs. Les deux seuls coups naturels sont 2 Nc3 et 2 e5. Cependant, 2 Nc3 permet au moins aux Noirs de transposer dans une ouverture du pion roi inoffensive en jouant 2...e5 (cette ouverture, appelée Partie viennoise, apparaît habituellement après 1 e4 e5 2 Nc3 Nf6). Dès lors, le seul vrai test du premier coup des Noirs est 2 e5. À première vue, les Blancs ne devraient pas hésiter à avancer leur pion, car ils gagnent non seulement de l'espace au centre, mais aussi apparemment du temps, puisque les Noirs doivent rejouer leur cavalier. Pourtant, le fondement de l'idée noire est que, pour soutenir le pion avancé en e5, les Blancs devront jouer d'autres coups de pion — d4 au minimum. Dans cette partie, les Blancs décident d'aller jusqu'au bout et jouent aussi c4 et f4. Cela leur donne un large centre, mais entre-temps ils prennent du retard dans le développement. Comme indiqué dans l'introduction de cette partie, il est très difficile de dire si le centre se révélera fort ou s'effondrera tout simplement — en effet, la défense Alekhine fait l'objet d'un débat théorique depuis environ 80 ans, sans conclusions claires.",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "e5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "Nd5",
+      "text": "La meilleure case. 2...Ne4 serait vraiment trop provocateur ; après 3 d4 le cavalier est isolé en e4.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "d4",
+      "text": "Trait aux Noirs\n\nLes Blancs soutiennent leur pion avancé, tout en se réservant la possibilité de chasser encore le cavalier par c4.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "d6",
+      "text": "Comme toujours, il ne faut pas laisser l'adversaire ériger un large centre sans le contester. Ici les Noirs commencent déjà à exercer une pression sur le pion e5.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "c4",
+      "text": "Les Blancs décident de pousser un autre pion. Les Noirs doivent à nouveau jouer leur cavalier, ce n'est donc pas vraiment une perte de temps pour les Blancs. Cependant, ceux-ci ont pris la responsabilité supplémentaire de défendre le pion c4. Le sentiment actuel est que ces avancées de pions supplémentaires ne profitent guère aux Blancs, et la stratégie privilégiée aujourd'hui est de se contenter des deux pions déjà avancés et de se concentrer sur leur soutien. La meilleure façon d'y parvenir est 4 Nf3, suivi de Be2 et 0-0.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "Nb6",
+      "text": "Exerçant une pression sur le pion c4 et limitant ainsi l'activité du fou des cases claires des Blancs.",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "f4",
+      "text": "Trait aux Noirs\n\nNous avons rencontré John van der Wiel dans la partie 1 et connaissons son style direct et agressif. Ici il adopte la ligne la plus ambitieuse, mais aussi l'une des plus risquées, contre la défense Alekhine. L'Attaque des quatre pions repose sur la revendication d'un vaste territoire au centre, dans l'espoir de développer les pièces derrière ce centre par Nc3, Nf3, Be3, etc.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "dxe5",
+      "text": "Cet échange ouvre la colonne d pour la dame noire et prépare une pression contre le pion d4.",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "fxe5",
+      "text": "Après 6 dxe5 Qxd1+ 7 Kxd1 Nc6, l'avance de développement des Noirs devient sérieuse, car les Blancs doivent encore perdre du temps avec leur roi. De toute façon, cela n'a aucun sens de jouer une ligne agressive comme l'Attaque des quatre pions puis de proposer l'échange des dames.",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "Nc6",
+      "text": "Trait aux Blancs\n\nAttaquant d4.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "Be3",
+      "text": "Les Blancs jouent leur première pièce. Si les Noirs n'avaient pas eux-mêmes perdu un peu de temps, le luxe de six coups de pion consécutifs aurait sûrement été fatal aux Blancs. Cependant, les Noirs ont passé trois coups à se faire chasser le cavalier jusqu'en b6, si bien que le retard de développement blanc, bien réel, n'est pas assez grave pour provoquer une catastrophe immédiate.\n\n7 Nf3 est une erreur car après 7...Bg4 8 Be3 e6 les Noirs gagnent effectivement un tempo par rapport à la suite de la partie. Il est plus précis d'attendre que les Noirs jouent ...Bf5 avant de continuer par Nf3, car alors ils devront dépenser un tempo supplémentaire s'ils veulent clouer le cavalier.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "Bf5",
+      "text": "Prépare à libérer la dernière pièce mineure par ...e6. À ce stade, il n'est pas clair si les Noirs viseront le petit roque ou chercheront une pression rapide contre d4 au moyen de ...Qd7 suivi de ...0-0-0.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "Nc3",
+      "text": "Les Blancs sont impatients de combler leur retard de développement.",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "e6",
+      "text": "Le fou de f8 peut être développé en e7 ou b4, selon les circonstances.",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "Nf3",
+      "text": "Trait aux Noirs\n\nLes deux camps ont passé les derniers coups à se concentrer sur le développement des pièces, mais maintenant les Noirs doivent décider comment intensifier la pression contre les pions blancs avant que les Blancs ne développent leurs pièces restantes et ne roquent. Une idée est 9...Be7, visant ...0-0 et ...f6. Ce plan est assez efficace, si bien que les Blancs répondent généralement à 9...Be7 par 10 d5, cherchant à éventrer la position noire avant le roque. Ce livre n'est pas le lieu d'une discussion détaillée de la théorie d'ouverture ; disons simplement que 10 d5, bien que très compliqué, est considéré comme satisfaisant pour les Noirs. Cependant, Vaganian décide d'adopter un autre plan, qui semble aussi offrir aux Noirs une partie confortable. Le fait que les Noirs disposent d'une gamme d'options satisfaisantes est la principale raison pour laquelle l'Attaque des quatre pions se voit rarement au niveau grand maître contemporain.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "Bg4",
+      "text": "Oui, les Noirs ont volontairement joué deux fois la même pièce, mais avec un but précis. L'élimination du cavalier f3 affaiblira la défense blanche de d4, et après ...Qd7 et ...0-0-0 les Blancs peuvent avoir de réelles difficultés à le défendre.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "Be2",
+      "text": "10 Qd2 est une autre idée, visant à défendre le pion d4 par 0-0-0. Une ligne possible est 10...Qd7 (10...Bb4!? 11 a3 Be7 est intéressant ; après 0-0-0 des Blancs, la réponse ...Na5 attaquera non seulement c4, mais menacera aussi une fourchette en b3) 11 Be2 0-0-0 12 0-0-0 Na5, quand les Blancs ne peuvent plus maintenir leur centre de pions intact et doivent tenter de s'en sortir tactiquement par 13 Bg5, avec des complications peu claires.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "Bxf3",
+      "text": "Grâce à la pression contre c4, les Blancs doivent reprendre avec le pion, ce qui brise leur structure de pions et expose leur roi. 10...Qd7 11 Qd2 transposerait dans la note précédente.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "gxf3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "Qd7",
+      "text": "Ce coup paraît un peu étrange en conjonction avec l'échange en f3, même si, vu son succès dans cette partie, il est difficile de le critiquer. Les Noirs préfèrent normalement 11...Qh4+ 12 Bf2 Qf4 13 c5 Nd7 14 Bb5 Be7, une ligne théorique habituellement jugée « peu claire ». En effet, la motivation de l'échange en f3 est précisément l'idée d'échec en h4. Le coup du texte conduit à des positions similaires à celles de la note au 10e coup des Blancs, mais où les Noirs ont volontairement échangé en f3 (c'est-à-dire sans y être forcés par h3 des Blancs).",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "f4",
+      "text": "Les Blancs cherchent à exploiter l'échange précoce en f3 en renforçant le pion e5, et en préparant ainsi une éventuelle poussée d4-d5. Cependant, ce plan est trop ambitieux étant donné que le roi blanc est encore au centre et que le développement est assez médiocre. Le résultat est qu'ils se retrouvent bientôt en difficulté.\n\n12 Qd2, suivi de 0-0-0, est meilleur. Alors le roi blanc est relativement en sécurité et d4 est renforcé. Dans ce cas la position serait à peu près égale.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "Rd8",
+      "text": "Van der Wiel a fort bien pu négliger ce coup inattendu. À première vue 12...0-0-0 semble plus naturel, mais cela permet aux Blancs de jouer 13 c5! Nd5 14 Nxd5 Qxd5 15 Bf3 Qd7 16 d5, quand ils ont réalisé leur percée centrale. Les Noirs ne peuvent pas jouer 16...exd5 à cause du clouage 17 Bg4, tandis qu'autrement les Blancs jouent d6, enfonçant un coin massif dans la position noire et freinant le développement de l'aile roi. En jouant ...Rd8 plutôt que ...0-0-0, Vaganian contourne habilement le clouage Bg4, et maintenant cette ligne, sur laquelle les Blancs fondaient leurs espoirs, ne fonctionne plus. C'est un exemple intéressant de la façon dont, dans les décisions aux échecs, le spécifique doit toujours l'emporter sur le général. En principe, les Noirs préfèrent roquer plutôt que non, mais quand l'analyse concrète montre que le second choix est supérieur, Vaganian n'hésite pas à abandonner les principes généraux.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "d5",
+      "text": "L'attaque contre le pion d4 n'est pas facile à parer. Après 13 c5 Nd5 14 Nxd5 Qxd5 15 Bf3 Qd7 les Blancs n'ont rien de mieux que 16 Rc1 (16 Rg1 Nxd4 17 Bxd4 Qxd4 18 Qxd4 Rxd4 19 Bxb7 Bxc5 gagne un pion) 16...Nxd4 17 Bxb7 Qb5 18 Bxd4 Qxb7 19 Qa4+ c6 20 0-0 Be7. Cette position est très désagréable pour les Blancs. Leur fou est mauvais, et après ...0-0, ...Rd5 et ...Rfd8 des Noirs, ils affronteront des problèmes croissants sur la colonne d.\n\nVan der Wiel joue la seule alternative, à savoir foncer en avant avec le pion d. Si un large centre de pions commence à subir une pression intolérable, un moment critique survient souvent où la seule alternative à la simple perte des pions est de s'en servir comme d'un bélier pour ouvrir la position adverse. Le succès dépend évidemment des traits concrets de la position, mais ici on peut dire d'emblée que cela ne paraît pas bon pour les Blancs — leurs tours ne sont pas encore en jeu et leur roi est exposé.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "Bb4",
+      "text": "C'est plus fort que 13...exd5 14 cxd5 (14 Bg4 Qe7 15 cxd5 est tentant, mais 15...Qb4! est gênant pour les Blancs) 14...Bb4 (14...Nxd5?! 15 Bg4 force les Noirs à un sacrifice de dame douteux par 15...Qxg4 16 Qxg4 Nxe3) 15 Kf2! Qh3 (le point tactique clé est que 15...Bxc3 16 dxc6 Qxc6 17 Qb3 menace à la fois le fou et Bb5, et gagne donc une pièce) 16 Qb3 Bxc3 17 dxc6 avec une position très peu claire.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Bxb6",
+      "text": "Dans cette position critique, les Blancs commettent une erreur grave. Les alternatives étaient :\n\n1) 14 dxc6? Qxc6 attaque à la fois d1 et h1, gagnant pour les Noirs.\n\n2) 14 Bf3? exd5 15 Bxb6 transpose dans la partie.\n\n3) 14 Rg1 exd5 15 Bxb6 axb6 16 cxd5 Qh3! est très bon pour les Noirs après 17 Rxg7 Qh4+ 18 Rg3 Qxh2 ou 17 Qd3 Qxh2 18 Rxg7 Qh1+ 19 Bf1 Rxd5.\n\n4) 14 Kf2! est la défense la plus résistante. Après 14...Bxc3 (14...exd5?! 15 cxd5 transpose dans la note précédente) 15 dxc6 Qxc6 16 Qg1! (ici 16 Qb3 ne fonctionne pas, car il n'y a pas de menace Bb5 ; le coup Qg1 est la raison pour laquelle 14 Kf2! est meilleur que 14 0-0 — un autre exemple du spécifique l'emportant sur le général) 16...Bd4 17 Qxg7 Rf8 les Noirs ont un certain avantage car le roi blanc est le plus exposé, mais la bataille est loin d'être terminée.\n\nLe coup du texte est mauvais car le fou des cases sombres des Blancs est une pièce défensive clé. Sans lui, les cases sombres de la position blanche sont horriblement faibles. Il est vrai que l'élimination du cavalier b6 permet aux Blancs de maintenir un peu plus longtemps leur centre de pions chancelant, mais les nouvelles faiblesses permettent aux Noirs d'exploiter les problèmes blancs d'une autre façon. Les pions avancés ont laissé un immense vide derrière eux ; avec la disparition des derniers vestiges du contrôle des cases sombres, les pièces noires (en particulier la dame) peuvent s'engouffrer par les fissures béantes.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "axb6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Bf3",
+      "text": "Nécessaire si les Blancs veulent éviter de perdre le pion d5. 15 Rg1 exd5 transpose dans la ligne « 3 » de la note précédente.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "exd5",
+      "text": "Maintenant cet échange sert un but utile — il permet à la dame noire de pénétrer.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "cxd5",
+      "text": "16 Bxd5 Qh3 17 Qf3 Qxf3 18 Bxf3 Rd4 n'est pas une amélioration, car les Blancs perdront au moins un pion.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Qh3",
+      "text": "Les Blancs peinent à parer la menace immédiate 17...Qh4+.",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Ke2",
+      "text": "La seule défense.",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "O-O",
+      "text": "Enfonçant le clou. Le roi blanc se débat maintenant sans défense au milieu de l'échiquier, tandis que celui des Noirs est parfaitement en sécurité. L'idée est ...Rfe8, après quoi un sacrifice de pièce en e5 serait imminent.",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "Qd3",
+      "text": "Après 18 Nb5 (18 Ne4 Bc5!, suivi de ...Nd4+, gagne pour les Noirs) 18...Rfe8! (18...Qh4 19 Qc1 Bc5 gagne aussi) 19 Qb3 le sacrifice est mortel : 19...Nxe5 20 fxe5 Rxe5+ 21 Kd1 Rde8 (menaçant 22...Re3) 22 Nd4 Bc5 et tout s'effondre.",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "Ne7",
+      "text": "Les Noirs gagnent même après cela, mais il aurait été plus simple d'achever les Blancs par 18...Qh4 19 Qe4 Bc5 20 Raf1 f5! 21 Qa4 Nd4+, etc.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "Qc4",
+      "text": "Maintenant les Noirs gagnent à nouveau confortablement. 19 Rad1 est une défense plus coriace, où les Noirs devraient continuer 19...Qh4 20 Qe4 Bxc3 (20...Bc5 21 Rdf1 Ng6 22 f5 est moins clair) 21 bxc3 Ng6 22 Rd4 c5! 23 dxc6 Rxd4 24 cxd4 bxc6 25 f5 Nf4+ 26 Kd1 Rd8 et le roi blanc exposé doit succomber.",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "Bxc3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "bxc3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "b5",
+      "text": "Vaganian termine avec une grande énergie. Il lui suffit d'ouvrir la colonne d pour achever l'encerclement du roi blanc.",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "Qxb5",
+      "text": "Ou 21 Qd4 Ng6 22 a4 (22 Rag1 Ra8 et 22 Rab1 Ra8 sont sans espoir, car les menaces 23...Rxa2+ et 23...Ra4 ne peuvent être parées) 22...c5 23 Qe3 Qf5 et f4 tombe.",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "c6",
+      "text": "Trait aux Blancs\n\nC'est le point du coup précédent. Maintenant le pion d5 disparaît et le roi blanc est attaqué de tous côtés.",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "dxc6",
+      "text": "22 Qxb7 Nxd5 est sans espoir pour les Blancs.",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "bxc6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "Qc4",
+      "text": "Défendant f4, mais pas pour longtemps.",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "Ng6",
+      "text": "Mençant 23...Qh4 ou 23...Qf5.",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "Rag1",
+      "text": "Après 24 Qe4 (24 Rad1 Qh4 attaque à la fois f4 et e5) 24...Qh6 25 Ke3 Nxf4 26 Qxf4 Rd3+ 27 Ke4 Qg6+ 28 Qf5 Re3+ les Blancs perdent leur dame.",
+      "isCritical": true
+    },
+    {
+      "ply": 48,
+      "san": "Qf5",
+      "text": "Mençant à la fois 25...Nxf4+ et 25...Qc2+.",
+      "isCritical": true
+    },
+    {
+      "ply": 49,
+      "san": "Rg4",
+      "text": "Les Blancs ne peuvent pas parer les deux menaces.",
+      "isCritical": true
+    },
+    {
+      "ply": 50,
+      "san": "Qc2+",
+      "text": "La dame pénètre de façon décisive.",
+      "isCritical": true
+    },
+    {
+      "ply": 51,
+      "san": "Ke3",
+      "text": "26 Kf1 perd sur 26...Rd1+ 27 Bxd1 Qxd1+ et 28...Qxg4.",
+      "isCritical": true
+    },
+    {
+      "ply": 52,
+      "san": "Qd2+",
+      "text": "La chasse au roi ne durera pas longtemps.",
+      "isCritical": true
+    },
+    {
+      "ply": 53,
+      "san": "Ke4",
+      "text": "Trait aux Noirs\n\n27...Rd5 0-1\n\nUne jolie finition, déclouant le pion f7 et menaçant 28...f5+ 29 exf6 Re8#. 28 Be2 est la seule défense, mais alors les Noirs peuvent choisir entre le simple 28...f5+ 29 exf6 Re8+ 30 Kf3 Qe3+ et la suggestion de l'ordinateur 28...Rc5 29 Qd3 f5+ 30 exf6 Re8+ 31 Kf3 Rxc3.\n\nLa différence entre un centre de pions fort et un centre faible peut être très fine. Quand un joueur adopte le plan ambitieux de former un large centre de pions, une petite erreur peut souvent s'avérer fatale. Ici, Van der Wiel a commis l'erreur dès le 12e coup, en jouant un coup de pion de trop et en prenant un sérieux retard de développement. Si Vaganian avait répondu de façon stéréotypée, Van der Wiel aurait peut-être pu s'en tirer, mais les Noirs ont produit une série de coups très précis pour mettre les Blancs en difficulté. Quand les Blancs ont manqué une chance de rester dans la partie au 14e coup, c'était effectivement fini. Une combinaison de faiblesses sur les cases sombres, d'un roi coincé au centre et d'un immense vide derrière un centre de pions trop étendu a conduit à un effondrement rapide.\n\nLes leçons à retenir :\n\n1) Former un large centre de pions est souvent à double tranchant. Si le centre peut être maintenu et soutenu par des pièces, il sera fort, mais il y a un danger qu'il s'effondre.\n\n2) Une fois un large centre de pions construit, il faut se hâter de développer ; perdre encore du temps peut être fatal.\n\n3) L'échange d'un fou contre un cavalier peut laisser des faiblesses sur les cases contrôlées par le fou.\n\n4) Pour décider d'un coup, les considérations générales peuvent être utiles, mais l'analyse concrète a toujours la priorité.",
+      "isCritical": true
+    },
+    {
+      "ply": 54,
+      "san": "Rd5",
+      "text": "",
+      "isCritical": true
+    }
+  ]
+}

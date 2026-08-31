@@ -1,0 +1,361 @@
+{
+  "id": "nunn-009",
+  "book": "nunn",
+  "gameNum": 9,
+  "title": "Partie 9 : J. Nunn vs I. Nataf",
+  "section": "Le jeu d'attaque",
+  "players": {
+    "white": "J. Nunn",
+    "black": "I. Nataf"
+  },
+  "event": "French Team Championship 1998/9",
+  "opening": "Défense sicilienne, variante Kalashnikov",
+  "eco": "B32",
+  "pgnPath": "data/pgn/nunn/09.pgn",
+  "result": "0-1",
+  "moveCount": 56,
+  "annotatedMoves": 54,
+  "fullText": "L'assaut sacrificiel total\n\nTout joueur d'échecs rêve de mener une attaque brillante, ponctuée de multiples sacrifices et couronnée par un mat spectaculaire. Cela n'arrive pas très souvent. Il y a deux raisons principales à cela : premièrement, les circonstances propices à une telle attaque se présentent rarement ; deuxièmement, même lorsqu'elles se présentent, le joueur n'a pas le courage de se lancer dans le sacrifice ou négocie mal la suite de la partie.\n\nPour ce qui est des circonstances, elles dépendent dans une large mesure du style de chacun. Ceux qui aiment exploiter d'infimes avantages positionnels ont peu de chances d'atteindre une situation leur permettant d'enchaîner une cascade de sacrifices. Même avec le style adéquat, parvenir à une position d'attaque prometteuse implique souvent de prendre certains risques, par exemple en jouant un gambit.\n\nLe manque de courage nécessaire pour effectuer un sacrifice, même après l'avoir vu, résulte souvent d'un manque de confiance dans ses propres capacités de calcul. Face à un sacrifice qui exige de calculer une variante sur dix coups, sans échappatoire en cas d'erreur, de nombreux joueurs reculent. On peut remédier à ce problème par un entraînement tactique approprié : se mesurer à des positions difficiles, puis vérifier son analyse à l'aide d'un ordinateur (oserai-je proposer le John Nunn’s Chess Puzzle Book comme source d'exemples appropriée...). À supposer que le sacrifice soit correct, une mauvaise conduite ultérieure peut fort bien résulter d'une excitation excessive ou d'autres facteurs psychologiques. Il est probablement impossible de rester parfaitement calme face à un tourbillon sur l'échiquier, mais il faut au moins essayer !\n\nJ. Nunn – I. Nataf\n\nChampionnat de France par équipes 1998/9\n\nDéfense sicilienne, variante Kalashnikov\n\n1 e4\n\n1...c5\n\n2 Nf3\n\n2...Nc6\n\nPour les commentaires sur les coups joués jusqu'ici, voir la Partie 8.\n\n3 d4\n\nComme expliqué dans la Partie 8, les Blancs jouent parfois 3 Nc3 afin de tenter de limiter les options des Noirs. Cependant, le choix le plus courant est le coup naturel du texte. Les Blancs ouvrent immédiatement le jeu et assurent à leurs pièces un développement sans entrave, au prix d'une majorité centrale de deux pions contre un pour les Noirs.\n\n3...cxd4\n\nLes Noirs sont heureux d'éliminer le pion central des Blancs.\n\n4 Nxd4\n\n4...e5\n\nCe coup légèrement inhabituel introduit la variante Kalashnikov. L'idée fondamentale est la même que dans la variante Sveshnikov, plus populaire (qui peut survenir après 4...Nf6 5 Nc3 e5 — voir les Parties 20 et 23) : les Noirs gagnent du temps en chassant le cavalier blanc.\n\nLa contrepartie est l'affaiblissement de la case d5 et le retard du pion d des Noirs. Au cours des premières décennies de ce siècle, on accordait une grande importance aux faiblesses statiques de pions, telles que les pions arriérés. De nombreux manuels reflètent encore ce point de vue, mais les échecs pratiqués par les meilleurs grands maîtres ont beaucoup évolué depuis l'époque de Tarrasch. Aujourd'hui, l'accent est bien davantage mis sur les possibilités dynamiques, et l'on reconnaît qu'il peut être tout à fait judicieux d'accepter une faiblesse de pion si elle est compensée par des pièces actives ou une avance de développement.\n\n5 Nb5\n\nC'est le seul véritable test du dernier coup des Noirs. Les Blancs menacent de bondir en d6.\n\n5...d6\n\nEn réalité, 4...e5 est loin d'être une idée entièrement nouvelle. Ce coup fut joué à l'occasion au XIXe siècle (notamment à trois reprises lors des célèbres matchs McDonnell-La Bourdonnais de 1834) et connut un bref regain de popularité juste après la Seconde Guerre mondiale. Toutefois, ces premières apparitions reposaient surtout sur l'idée 5...a6 6 Nd6+ Bxd6 7 Qxd6 Qf6, par laquelle les Noirs abandonnent la paire de fous dans l'espoir d'obtenir une avance de développement. De nos jours, cette stratégie est considérée avec une grande méfiance et, lorsque 4...e5 apparaît dans la pratique contemporaine, c'est presque toujours avec l'intention de poursuivre par 5...d6. Il peut sembler paradoxal que les grands maîtres actuels acceptent volontiers un pion faible en échange d'un meilleur développement, mais refusent d'abandonner la paire de fous dans le même but ! Cependant, dans la variante 5...a6, la paire de fous constitue réellement un facteur important, car la position est assez ouverte, tandis que l'avance de développement des Noirs n'est pas particulièrement significative puisque les Blancs peuvent eux-mêmes mettre leurs pièces en jeu assez facilement.\n\n6 c4\n\nLa position après 5...d6 présente plusieurs différences avec la position Sveshnikov plus familière qui survient après 4...Nf6 5 Nc3 e5 6 Ndb5 d6. La plus évidente est que les pions c2 et f7 ne sont pas bloqués, ce qui offre des possibilités supplémentaires aux deux camps. Deuxièmement, les Noirs ne sont pas obligés de jouer ...Nf6. Ils peuvent développer ce cavalier en e7, ou en retarder le développement afin d'essayer d'échanger leur fou de cases noires par ...Be7 et ...Bg5 (après ...a6, bien sûr). Les Blancs ont deux options principales. La première consiste simplement à poursuivre par 6 N1c3. Si les Noirs jouent ...Nf6 à un moment donné, nous retrouverons une Sveshnikov normale, mais il est plus probable qu'ils continuent par 6...a6 7 Na3 b5 8 Nd5 Nge7 ; le coup standard Bg5 des Blancs dans la Sveshnikov n'a alors plus le même effet. En particulier, les Noirs évitent les pions f doublés caractéristiques de nombreuses positions Sveshnikov.\n\nLe coup du texte est donc le plus fréquent en pratique. Les Blancs consolident leur emprise sur d5, condamnant le pion d6 à rester définitivement arriéré. De plus, lorsque le cavalier b5 sera repoussé par ...a6, les Noirs ne disposeront pas de l'expansion à l'aile dame par ...b5, comme dans la Sveshnikov. En revanche, jouer c4 coûte un tempo de développement et affaiblit légèrement la case d4.\n\n6...Be7\n\nC'est de loin le coup le plus populaire. Les Noirs gardent ouvertes autant d'options que possible : ils peuvent encore jouer ...Nf6, viser ...Bg5 (peut-être soutenu par ...h6) ou jouer ...f5. Les Blancs restent dans l'incertitude.\n\n7 N1c3\n\nLes Blancs ont un problème avec leurs cavaliers, car tous deux aimeraient se trouver en c3. Il n'existe pas de solution parfaite. Si le cavalier b5 recule volontairement en c3, non seulement les Blancs ne disposent plus d'une bonne case pour le cavalier b1, mais les Noirs pourraient aussi économiser un tempo en se passant de ...a6. Le coup du texte signifie que le cavalier b5 devra reculer sur la case inférieure a3, mais au moins les Noirs sont obligés de consacrer un tempo à ...a6.\n\n7...a6\n\nForcé, car les Blancs menaçaient 8 Nd5.\n\n8 Na3\n\nBien entendu, a3 n'est pas une case idéale pour le cavalier ; les Blancs projettent donc de jouer Nc2, puis éventuellement Ne3.\n\n8...f5\n\nLa variante la plus courante est 8...Be6, qui vise une fois encore à préserver les options des Noirs. Le coup du texte est nettement inhabituel. L'échange du pion e des Blancs contre le pion f des Noirs affaiblit encore la structure de pions noire, et l'on imagine aisément les Blancs établir à terme une emprise dominante sur les cases e4 et d5. Cependant, dans l'intervalle, les Noirs disposent de pièces actives ; il n'est donc pas certain que les Blancs puissent réaliser leur rêve.\n\n9 Bd3\n\nIl se peut fort bien que ce coup ambitieux ne soit pas le meilleur. L'alternative est 9 exf5 Bxf5 10 Bd3 Be6 11 0-0 Nf6 12 Nc2 0-0. Dans ce cas, les Noirs ont toujours leurs pions faibles, mais leurs pièces sont actives et ils exercent une certaine pression sur la colonne f semi-ouverte. Les Blancs ont peut-être un avantage, mais il ne saurait être très important. Le coup du texte vise à inciter les Noirs à prendre eux-mêmes en e4, ce qui donnerait effectivement un tempo supplémentaire aux Blancs.\n\n9...f4!\n\nLes Noirs affichent à leur tour leurs ambitions. Le pion f4 complique le développement du fou de cases noires des Blancs et contrarie la manœuvre prévue Nc2-e3.\n\n10 g3\n\nJ'ai décidé d'éliminer ce pion gênant et, à ce stade, j'avais toute confiance dans ma position. Les Blancs peuvent bien sûr se développer simplement par b3 et Bb2, puis effectuer le grand roque, mais quel serait alors leur plan à long terme ? Avec leur roi à l'aile dame, il serait risqué d'agir de ce côté et, une fois le développement des Noirs achevé, il serait difficile de contester le pion f4.\n\n10...Nf6!\n\nUne réponse surprenante, qui offre le pion f4. Je m'attendais à 10...fxg3 11 hxg3 Nf6, mais les Blancs auraient alors un avantage certain. Après 12 Nc2 0-0 13 f3, suivi de Be3, Qd2 (ou Qe2) et 0-0-0, les Blancs disposeraient d'une attaque toute prête à l'aile roi grâce à la colonne h ouverte et à la possibilité de jouer g4-g5.\n\nAprès le coup du texte, les Blancs doivent accepter le sacrifice, faute de quoi leur dernier coup n'aurait aucun sens.\n\n11 gxf4\n\n11...exf4\n\n12 Bxf4\n\n12...0-0\n\nLes Noirs ont une certaine compensation pour le pion, car l'aile roi des Blancs est disloquée, ce qui rend 0-0 peu engageant, et il leur faudra deux coups avant de pouvoir organiser le grand roque. Je n'étais toutefois pas particulièrement inquiet, car les Blancs ne sont pas en retard de développement — en fait, la plupart des pièces de l'aile dame des Noirs se trouvent encore sur leurs cases d'origine. Sur ce point, mon adversaire a fait preuve d'un meilleur jugement que moi. Les deux coups nécessaires aux Blancs pour roquer se révèlent être un coup de trop. Le cavalier a3, hors jeu, constitue un autre problème. Lorsque le corps à corps commencera, ce cavalier manquera cruellement aux Blancs. Là encore, il faut deux coups pour le remettre en jeu, un délai que les Blancs ne peuvent se permettre.\n\nComme nous l'avons vu dans la Partie 2, lorsque le roi adverse est bloqué au centre, il est essentiel d'agir rapidement (une exception peut se présenter si le roi a définitivement perdu le droit de roquer). Entretenir l'élan de l'attaque et maintenir l'adversaire en déséquilibre par des menaces sont des éléments essentiels de l'attaque. S'il faut investir davantage de matériel, qu'il en soit ainsi.\n\n13 Bg3\n\nC'est le coup le plus naturel. Le fou était vulnérable en f4 et aurait de toute façon dû bouger tôt ou tard ; le déplacer maintenant préserve donc une souplesse maximale. La position après 13 Qd2 Ng4! montre déjà combien les menaces noires peuvent devenir dangereuses ; par exemple, 14 Bg3 Nxf2! 15 Bxf2 Rxf2 16 Kxf2 Bg5 gagne pour les Noirs, car les Blancs n'ont aucune case convenable pour leur dame (17 Qe2 Bh4+ force le mat en quelques coups). Puisque 14 0-0-0? est impossible à cause de 14...Rxf4, les Blancs devraient probablement jouer 14 Nd5, mais même alors 14...Bh4 leur est désagréable.\n\n13...Ng4!\n\nLes Noirs visent le point faible traditionnel lorsque le roi n'a pas roqué : la case f2 (f7 pour les Noirs). On met les débutants en garde contre le danger potentiel d'une attaque sur cette case, et il est bon de rappeler que ce danger ne concerne pas seulement les débutants. Les Noirs se préparent à lancer un assaut sacrificiel total sur f2 et, malgré le coup dont disposent les Blancs, il est très difficile de l'arrêter.\n\n14 Be2?\n\nCe coup semblait sauver la partie, car les Blancs disposent maintenant d'un échec en d5 pour activer leur dame avec gain de tempo, mais le sacrifice fonctionne malgré tout. 14 Qd2? perd sur 14...Nxf2!, comme dans la note précédente, tandis que 14 h3? Nxf2! 15 Bxf2 Rxf2 16 Kxf2 Bh4+ 17 Ke2 (les autres coups conduisent également au mat) 17...Nd4+ 18 Kd2 Qg5# donne un joli mat. En réalité, les seuls coups raisonnables pour empêcher le sacrifice sont 14 Rf1 et 14 0-0. Après 14 Rf1 Nd4 15 Be2 Nxe2 16 Qxe2 Ne5, les Noirs ont une bonne compensation pour le pion ; les Blancs auraient donc dû essayer 14 0-0, avec un jeu peu clair.\n\n14...Nxf2!\n\nJe pense que c'est l'une de ces combinaisons qu'aucun principe général ne permet réellement de justifier. De fait, étant donné que relativement peu de pièces noires occupent des positions d'attaque actives, il est difficile d'imaginer que ce sacrifice soit correct. Pourtant, dans les variantes concrètes, la maîtrise des cases noires par les Noirs, le cavalier blanc excentré en a3 et la possibilité pour les pièces noires d'entrer en jeu avec gain de tempo font pencher la balance en leur faveur. Les autres coups donnent l'avantage aux Blancs ; par exemple, 14...Nge5 15 Qd5+, suivi de 16 0-0-0 qui met le roi à l'abri, ou 14...Nce5 15 f4 Ne3 16 Qd2 Ng2+ 17 Kd1 Ng6 18 Nd5, et les Noirs n'ont pas grand-chose pour le pion.\n\n15 Qd5+\n\nLes Blancs ne peuvent se passer de cet échec, car 15 Bxf2 Rxf2 16 Kxf2 Bh4+ 17 Kg2 (17 Ke3 Qg5+ 18 Kd3 Nb4+ 19 Kd4 Qc5#) 17...Qg5+ 18 Bg4 Ne5 (18...Bxg4? 19 Qd5+) 19 h3 h5 regagne une pièce tout en conservant une attaque énorme. Avec la dame en d5, les Noirs ne disposent plus d'un échec en g5 ; le sacrifice est donc beaucoup moins évident.\n\n15...Kh8\n\n16 Bxf2?\n\nEn réalité, les Blancs auraient dû poursuivre par 16 Rf1, après quoi 16...Ng4 ne donne qu'un léger avantage aux Noirs. Cependant, je n'avais pas vu le 24e coup des Noirs et j'ai donc accepté le sacrifice, convaincu qu'il ne mènerait qu'à un échec perpétuel. Après la partie, Nataf déclara qu'à ce stade il n'avait pas non plus vu son 24e coup, mais que la puissance de son attaque l'avait encouragé et que l'existence d'un filet de sécurité sous la forme d'un échec perpétuel forcé (par 24...Qxf3+) l'avait rassuré.\n\n16...Nb4\n\nLe coup Qd5+ des Blancs visait à priver la dame noire d'un échec en g5 ; ce coup a pour but de rendre la case g5 à la dame noire. Les Noirs ne doivent pas jouer 16...Bh4?, car 17 Bg3 gagne, mais ils auraient également pu inverser l'ordre de leurs coups par 16...Rxf2 17 Kxf2 Nb4, puisque la seule possibilité supplémentaire, 18 Qf7 Bh4+ 19 Kf3, échoue sur l'élégant retour 19...Nc6! 20 Qf4 g5 21 Qe3 Bh3!, qui enferme le roi.\n\n17 Qh5\n\nLes Blancs s'efforcent de conserver le contrôle de g5. Les autres coups perdent plus rapidement :\n\n1) 17 Qd1 Rxf2! 18 Kxf2 Bh4+ 19 Kg2 Qg5+ 20 Bg4 Bxg4, et les Noirs gagnent.\n\n2) 17 Qd4 Rxf2! 18 Kxf2 Bh4+ 19 Kf3 Bh3! 20 Nd5 (il n'y a rien de mieux) 20...Qg5 21 Nf4 Rf8! (21...Qxf4+ 22 Kxf4 Rf8+ est erroné à cause de 23 Qf6) 22 Qxd6 Bg4+ 23 Ke3 Rxf4 24 Qxf4 Bf2+ 25 Kxf2 Qxf4+, avec encore d'énormes pertes matérielles à venir.\n\n3) 17 Qd2 Rxf2! 18 Kxf2 Bg5! 19 Qd4 Bh4+ transpose dans la variante « 2 ».\n\n17...Rxf2!\n\nUn nouveau coup de massue sur f2 ; l'acceptation est forcée.\n\n18 Kxf2\n\n18...Bh4+\n\nMener une telle attaque sacrificielle exige évidemment une excellente capacité de calcul pur, mais il est également utile d'examiner la position d'un point de vue général. Ici, bien que le sacrifice paraisse quelque peu improbable, certains éléments jouent en faveur des Noirs, le principal étant leur domination presque totale des cases noires. Les deux cavaliers blancs se trouvent sur des cases noires et ne contrôlent donc que des cases blanches ; les Blancs n'ont plus leur fou de cases noires, et leurs deux tours sont encore sur leurs cases d'origine, sans pouvoir intervenir immédiatement dans la bataille. Il revient donc à la dame blanche de lutter pour contrôler quelques cases noires. Puisque la dame et, dans une certaine mesure, le fou de cases blanches sont les seuls défenseurs des Blancs, le fait que toutes les pièces noires ne soient pas encore en jeu perd de son importance : autour du roi blanc, les Noirs ont au moins une chance d'obtenir une supériorité numérique. Tout dépend de la possibilité pour leur dame de rejoindre l'attaque avec gain de tempo. Une telle évaluation générale peut au moins orienter les calculs dans la bonne direction, et les Noirs peuvent conclure que :\n\n1) Ils ne doivent examiner que les variantes très forcées ; si les Blancs ont le temps de mettre une tour en jeu ou de contrôler certaines cases noires avec un cavalier, l'attaque a peu de chances de réussir.\n\n2) Faire entrer la dame dans l'attaque avec gain de tempo constitue un facteur essentiel.\n\nGarder de tels repères à l'esprit peut faire gagner beaucoup de temps au moment du calcul précis. Cette méthode présente toutefois de nombreuses limites ; par exemple, je ne pense pas qu'un coup spectaculaire tel que le 24e des Noirs puisse être anticipé à partir de principes généraux : il faut tout simplement le voir, et certains joueurs repèrent mieux que d'autres les possibilités tactiques.\n\n19 Kg2\n\nLes autres possibilités ne valent pas mieux. 19 Kg1 g6 20 Qf3 Qg5+ 21 Kf1 transpose dans la partie, tandis que 19 Ke3 g6 20 Qf3 Qg5+ 21 Qf4 Qc5+ 22 Kd2 Bg5 gagne la dame.\n\n19...g6\n\nLe point essentiel est que 20 Qh6 perd sur 20...Bg5 ; les Blancs doivent donc abandonner le contrôle de g5.\n\n20 Qf3\n\n20...Qg5+\n\nLes pièces noires commencent maintenant à rejoindre l'attaque avec gain de tempo.\n\n21 Kf1\n\nÀ la seule vue de l'échiquier, le sacrifice des Noirs paraît encore loin d'être convaincant. Les Blancs ont une tour entière de plus, et les pièces de l'aile dame des Noirs doivent encore rejoindre l'attaque.\n\n21...Bh3+!\n\nUn nouveau sacrifice. Il vaut la peine d'investir une pièce supplémentaire afin d'activer la tour avec gain de tempo.\n\n22 Qxh3\n\nJe n'avais pas grand-chose à réfléchir durant cette phase de la partie, car tous les coups des Blancs sont forcés.\n\n22...Rf8+\n\n23 Bf3\n\nLes Blancs ne peuvent même pas s'échapper en abandonnant leur dame par 23 Qf3 Rxf3+ 24 Bxf3, à cause de 24...Qe3 25 Kg2 Qf2+ 26 Kh3 Qxf3+ 27 Kxh4 h6 28 Rhg1 g5+ 29 Rxg5 hxg5+ 30 Kxg5 Qg2+, suivi de ...Qxb2, puis d'une nouvelle moisson à l'aile dame.\n\n23...Qe3\n\n24 Qxh4\n\n24 Nd1 Rxf3+ 25 Qxf3 Qxf3+ 26 Kg1 Nd3 force le mat en quelques coups.\n\n24...Nd3!\n\nC'est un coup remarquablement calme, alors que les Noirs ont une tour et deux pièces de moins. Aucune des deux captures en f3 ne gagne, mais ce coup, qui fait entrer les dernières réserves dans l'attaque, décide la partie en faveur des Noirs. En revanche, 24...Qxf3+ 25 Kg1 Qe3+ 26 Kg2 ne donne qu'un échec perpétuel, tandis que 24...Rxf3+? 25 Kg2 ferait même perdre les Noirs. Le coup du texte menace un mat en trois par 25...Rxf3+ 26 Kg2 Nf4+ 27 Qxf4 Qf2#.\n\n25 Nd5\n\nAprès 25 Kg2 Qxf3+ 26 Kg1 Nf4, les Noirs matent en quelques coups, et 25 Qg3 n'arrête pas la menace : 25...Rxf3+ 26 Kg2 Nf4+.\n\n25...Qxf3+\n\nCela ne change rien au résultat de la partie, mais les Noirs pouvaient forcer le mat en sept coups en commençant par 25...Rxf3+! 26 Kg2 Qe2+ 27 Kg1 g5. Cela semble être la seule faute (très mineure) des Noirs dans une partie exceptionnellement bien jouée.\n\n26 Kg1\n\n26...Nf2\n\n27 Kf1\n\n27 Nf6 était la seule façon de prolonger la partie, mais la position reste tout à fait désespérée après 27...Nh3+ (27...Rxf6 28 Qxf6+ Qxf6 29 Rf1 est moins clair) 28 Qxh3 Qxh3 29 Rf1 Qe3+ 30 Kg2 Qg5+ 31 Kh3 Rxf6 32 Rxf6 Qxf6, après quoi les Blancs perdent au moins deux pions à l'aile dame.\n\n27...Qxh1+\n\n28 Ke2 Qxa1 0-1\n\nLa combinaison de Nataf lui valut à juste titre le prix de la meilleure partie dans l'Informateur 75.\n\nLa plus grande force de Nataf réside dans ses capacités tactiques, et son choix d'ouverture était judicieux pour les exploiter. En jouant de manière tranchante et ambitieuse dès le début, il lança un défi aux Blancs : reculer et accepter de ne tirer que peu ou pas d'avantage de l'ouverture, ou relever le défi. Je l'ai relevé (en jouant 9 Bd3), mais une erreur au 14e coup permit aux Noirs de déclencher une attaque imaginative contre le roi blanc resté au centre. Dès lors, tout alla de mal en pis, la position blanche vacillant sous une succession de coups de massue.\n\nVoici les enseignements à retenir :\n\n1) Lorsque le roi blanc n'a pas roqué, f2 est une case vulnérable, même pour un grand maître expérimenté.\n\n2) Après le premier sacrifice, l'attaque doit être menée avec une énergie maximale afin de ne laisser aucun répit au défenseur.\n\n3) Il est utile de disposer d'un filet de sécurité, c'est-à-dire d'une continuation de réserve possible (menant peut-être à la nulle), au cas où la principale variante d'attaque se révélerait moins favorable que prévu.\n\n4) Vous ne devriez probablement pas essayer de jouer ainsi sans posséder de solides capacités tactiques !",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "L'assaut sacrificiel total\n\nTout joueur d'échecs rêve de mener une attaque brillante, ponctuée de multiples sacrifices et couronnée par un mat spectaculaire. Cela n'arrive pas très souvent. Il y a deux raisons principales à cela : premièrement, les circonstances propices à une telle attaque se présentent rarement ; deuxièmement, même lorsqu'elles se présentent, le joueur n'a pas le courage de se lancer dans le sacrifice ou négocie mal la suite de la partie.\n\nPour ce qui est des circonstances, elles dépendent dans une large mesure du style de chacun. Ceux qui aiment exploiter d'infimes avantages positionnels ont peu de chances d'atteindre une situation leur permettant d'enchaîner une cascade de sacrifices. Même avec le style adéquat, parvenir à une position d'attaque prometteuse implique souvent de prendre certains risques, par exemple en jouant un gambit.\n\nLe manque de courage nécessaire pour effectuer un sacrifice, même après l'avoir vu, résulte souvent d'un manque de confiance dans ses propres capacités de calcul. Face à un sacrifice qui exige de calculer une variante sur dix coups, sans échappatoire en cas d'erreur, de nombreux joueurs reculent. On peut remédier à ce problème par un entraînement tactique approprié : se mesurer à des positions difficiles, puis vérifier son analyse à l'aide d'un ordinateur (oserai-je proposer le John Nunn’s Chess Puzzle Book comme source d'exemples appropriée...). À supposer que le sacrifice soit correct, une mauvaise conduite ultérieure peut fort bien résulter d'une excitation excessive ou d'autres facteurs psychologiques. Il est probablement impossible de rester parfaitement calme face à un tourbillon sur l'échiquier, mais il faut au moins essayer !\n\nJ. Nunn – I. Nataf\n\nChampionnat de France par équipes 1998/9\n\nDéfense sicilienne, variante Kalashnikov"
+    },
+    {
+      "ply": 1,
+      "san": "e4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "c5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "Nf3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "Nc6",
+      "text": "Pour les commentaires sur les coups joués jusqu'ici, voir la Partie 8.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "d4",
+      "text": "Comme expliqué dans la Partie 8, les Blancs jouent parfois 3 Nc3 afin de tenter de limiter les options des Noirs. Cependant, le choix le plus courant est le coup naturel du texte. Les Blancs ouvrent immédiatement le jeu et assurent à leurs pièces un développement sans entrave, au prix d'une majorité centrale de deux pions contre un pour les Noirs.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "cxd4",
+      "text": "Les Noirs sont heureux d'éliminer le pion central des Blancs.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "Nxd4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "e5",
+      "text": "Ce coup légèrement inhabituel introduit la variante Kalashnikov. L'idée fondamentale est la même que dans la variante Sveshnikov, plus populaire (qui peut survenir après 4...Nf6 5 Nc3 e5 — voir les Parties 20 et 23) : les Noirs gagnent du temps en chassant le cavalier blanc.\n\nTrait aux Blancs\n\nLa contrepartie est l'affaiblissement de la case d5 et le retard du pion d des Noirs. Au cours des premières décennies de ce siècle, on accordait une grande importance aux faiblesses statiques de pions, telles que les pions arriérés. De nombreux manuels reflètent encore ce point de vue, mais les échecs pratiqués par les meilleurs grands maîtres ont beaucoup évolué depuis l'époque de Tarrasch. Aujourd'hui, l'accent est bien davantage mis sur les possibilités dynamiques, et l'on reconnaît qu'il peut être tout à fait judicieux d'accepter une faiblesse de pion si elle est compensée par des pièces actives ou une avance de développement.",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "Nb5",
+      "text": "C'est le seul véritable test du dernier coup des Noirs. Les Blancs menacent de bondir en d6.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "d6",
+      "text": "En réalité, 4...e5 est loin d'être une idée entièrement nouvelle. Ce coup fut joué à l'occasion au XIXe siècle (notamment à trois reprises lors des célèbres matchs McDonnell-La Bourdonnais de 1834) et connut un bref regain de popularité juste après la Seconde Guerre mondiale. Toutefois, ces premières apparitions reposaient surtout sur l'idée 5...a6 6 Nd6+ Bxd6 7 Qxd6 Qf6, par laquelle les Noirs abandonnent la paire de fous dans l'espoir d'obtenir une avance de développement. De nos jours, cette stratégie est considérée avec une grande méfiance et, lorsque 4...e5 apparaît dans la pratique contemporaine, c'est presque toujours avec l'intention de poursuivre par 5...d6. Il peut sembler paradoxal que les grands maîtres actuels acceptent volontiers un pion faible en échange d'un meilleur développement, mais refusent d'abandonner la paire de fous dans le même but ! Cependant, dans la variante 5...a6, la paire de fous constitue réellement un facteur important, car la position est assez ouverte, tandis que l'avance de développement des Noirs n'est pas particulièrement significative puisque les Blancs peuvent eux-mêmes mettre leurs pièces en jeu assez facilement.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "c4",
+      "text": "La position après 5...d6 présente plusieurs différences avec la position Sveshnikov plus familière qui survient après 4...Nf6 5 Nc3 e5 6 Ndb5 d6. La plus évidente est que les pions c2 et f7 ne sont pas bloqués, ce qui offre des possibilités supplémentaires aux deux camps. Deuxièmement, les Noirs ne sont pas obligés de jouer ...Nf6. Ils peuvent développer ce cavalier en e7, ou en retarder le développement afin d'essayer d'échanger leur fou de cases noires par ...Be7 et ...Bg5 (après ...a6, bien sûr). Les Blancs ont deux options principales. La première consiste simplement à poursuivre par 6 N1c3. Si les Noirs jouent ...Nf6 à un moment donné, nous retrouverons une Sveshnikov normale, mais il est plus probable qu'ils continuent par 6...a6 7 Na3 b5 8 Nd5 Nge7 ; le coup standard Bg5 des Blancs dans la Sveshnikov n'a alors plus le même effet. En particulier, les Noirs évitent les pions f doublés caractéristiques de nombreuses positions Sveshnikov.\n\nLe coup du texte est donc le plus fréquent en pratique. Les Blancs consolident leur emprise sur d5, condamnant le pion d6 à rester définitivement arriéré. De plus, lorsque le cavalier b5 sera repoussé par ...a6, les Noirs ne disposeront pas de l'expansion à l'aile dame par ...b5, comme dans la Sveshnikov. En revanche, jouer c4 coûte un tempo de développement et affaiblit légèrement la case d4.",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "Be7",
+      "text": "C'est de loin le coup le plus populaire. Les Noirs gardent ouvertes autant d'options que possible : ils peuvent encore jouer ...Nf6, viser ...Bg5 (peut-être soutenu par ...h6) ou jouer ...f5. Les Blancs restent dans l'incertitude.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "N1c3",
+      "text": "Les Blancs ont un problème avec leurs cavaliers, car tous deux aimeraient se trouver en c3. Il n'existe pas de solution parfaite. Si le cavalier b5 recule volontairement en c3, non seulement les Blancs ne disposent plus d'une bonne case pour le cavalier b1, mais les Noirs pourraient aussi économiser un tempo en se passant de ...a6. Le coup du texte signifie que le cavalier b5 devra reculer sur la case inférieure a3, mais au moins les Noirs sont obligés de consacrer un tempo à ...a6.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "a6",
+      "text": "Forcé, car les Blancs menaçaient 8 Nd5.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "Na3",
+      "text": "Trait aux Noirs\n\nBien entendu, a3 n'est pas une case idéale pour le cavalier ; les Blancs projettent donc de jouer Nc2, puis éventuellement Ne3.",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "f5",
+      "text": "La variante la plus courante est 8...Be6, qui vise une fois encore à préserver les options des Noirs. Le coup du texte est nettement inhabituel. L'échange du pion e des Blancs contre le pion f des Noirs affaiblit encore la structure de pions noire, et l'on imagine aisément les Blancs établir à terme une emprise dominante sur les cases e4 et d5. Cependant, dans l'intervalle, les Noirs disposent de pièces actives ; il n'est donc pas certain que les Blancs puissent réaliser leur rêve.",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "Bd3",
+      "text": "Il se peut fort bien que ce coup ambitieux ne soit pas le meilleur. L'alternative est 9 exf5 Bxf5 10 Bd3 Be6 11 0-0 Nf6 12 Nc2 0-0. Dans ce cas, les Noirs ont toujours leurs pions faibles, mais leurs pièces sont actives et ils exercent une certaine pression sur la colonne f semi-ouverte. Les Blancs ont peut-être un avantage, mais il ne saurait être très important. Le coup du texte vise à inciter les Noirs à prendre eux-mêmes en e4, ce qui donnerait effectivement un tempo supplémentaire aux Blancs.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "f4",
+      "text": "Trait aux Blancs\n\nLes Noirs affichent à leur tour leurs ambitions. Le pion f4 complique le développement du fou de cases noires des Blancs et contrarie la manœuvre prévue Nc2-e3.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "g3",
+      "text": "J'ai décidé d'éliminer ce pion gênant et, à ce stade, j'avais toute confiance dans ma position. Les Blancs peuvent bien sûr se développer simplement par b3 et Bb2, puis effectuer le grand roque, mais quel serait alors leur plan à long terme ? Avec leur roi à l'aile dame, il serait risqué d'agir de ce côté et, une fois le développement des Noirs achevé, il serait difficile de contester le pion f4.",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "Nf6",
+      "text": "Une réponse surprenante, qui offre le pion f4. Je m'attendais à 10...fxg3 11 hxg3 Nf6, mais les Blancs auraient alors un avantage certain. Après 12 Nc2 0-0 13 f3, suivi de Be3, Qd2 (ou Qe2) et 0-0-0, les Blancs disposeraient d'une attaque toute prête à l'aile roi grâce à la colonne h ouverte et à la possibilité de jouer g4-g5.\n\nAprès le coup du texte, les Blancs doivent accepter le sacrifice, faute de quoi leur dernier coup n'aurait aucun sens.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "gxf4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "exf4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "Bxf4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "O-O",
+      "text": "Trait aux Blancs\n\nLes Noirs ont une certaine compensation pour le pion, car l'aile roi des Blancs est disloquée, ce qui rend 0-0 peu engageant, et il leur faudra deux coups avant de pouvoir organiser le grand roque. Je n'étais toutefois pas particulièrement inquiet, car les Blancs ne sont pas en retard de développement — en fait, la plupart des pièces de l'aile dame des Noirs se trouvent encore sur leurs cases d'origine. Sur ce point, mon adversaire a fait preuve d'un meilleur jugement que moi. Les deux coups nécessaires aux Blancs pour roquer se révèlent être un coup de trop. Le cavalier a3, hors jeu, constitue un autre problème. Lorsque le corps à corps commencera, ce cavalier manquera cruellement aux Blancs. Là encore, il faut deux coups pour le remettre en jeu, un délai que les Blancs ne peuvent se permettre.\n\nComme nous l'avons vu dans la Partie 2, lorsque le roi adverse est bloqué au centre, il est essentiel d'agir rapidement (une exception peut se présenter si le roi a définitivement perdu le droit de roquer). Entretenir l'élan de l'attaque et maintenir l'adversaire en déséquilibre par des menaces sont des éléments essentiels de l'attaque. S'il faut investir davantage de matériel, qu'il en soit ainsi.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Bg3",
+      "text": "C'est le coup le plus naturel. Le fou était vulnérable en f4 et aurait de toute façon dû bouger tôt ou tard ; le déplacer maintenant préserve donc une souplesse maximale. La position après 13 Qd2 Ng4! montre déjà combien les menaces noires peuvent devenir dangereuses ; par exemple, 14 Bg3 Nxf2! 15 Bxf2 Rxf2 16 Kxf2 Bg5 gagne pour les Noirs, car les Blancs n'ont aucune case convenable pour leur dame (17 Qe2 Bh4+ force le mat en quelques coups). Puisque 14 0-0-0? est impossible à cause de 14...Rxf4, les Blancs devraient probablement jouer 14 Nd5, mais même alors 14...Bh4 leur est désagréable.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "Ng4",
+      "text": "Trait aux Blancs\n\nLes Noirs visent le point faible traditionnel lorsque le roi n'a pas roqué : la case f2 (f7 pour les Noirs). On met les débutants en garde contre le danger potentiel d'une attaque sur cette case, et il est bon de rappeler que ce danger ne concerne pas seulement les débutants. Les Noirs se préparent à lancer un assaut sacrificiel total sur f2 et, malgré le coup dont disposent les Blancs, il est très difficile de l'arrêter.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Be2",
+      "text": "Ce coup semblait sauver la partie, car les Blancs disposent maintenant d'un échec en d5 pour activer leur dame avec gain de tempo, mais le sacrifice fonctionne malgré tout. 14 Qd2? perd sur 14...Nxf2!, comme dans la note précédente, tandis que 14 h3? Nxf2! 15 Bxf2 Rxf2 16 Kxf2 Bh4+ 17 Ke2 (les autres coups conduisent également au mat) 17...Nd4+ 18 Kd2 Qg5# donne un joli mat. En réalité, les seuls coups raisonnables pour empêcher le sacrifice sont 14 Rf1 et 14 0-0. Après 14 Rf1 Nd4 15 Be2 Nxe2 16 Qxe2 Ne5, les Noirs ont une bonne compensation pour le pion ; les Blancs auraient donc dû essayer 14 0-0, avec un jeu peu clair.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "Nxf2",
+      "text": "Je pense que c'est l'une de ces combinaisons qu'aucun principe général ne permet réellement de justifier. De fait, étant donné que relativement peu de pièces noires occupent des positions d'attaque actives, il est difficile d'imaginer que ce sacrifice soit correct. Pourtant, dans les variantes concrètes, la maîtrise des cases noires par les Noirs, le cavalier blanc excentré en a3 et la possibilité pour les pièces noires d'entrer en jeu avec gain de tempo font pencher la balance en leur faveur. Les autres coups donnent l'avantage aux Blancs ; par exemple, 14...Nge5 15 Qd5+, suivi de 16 0-0-0 qui met le roi à l'abri, ou 14...Nce5 15 f4 Ne3 16 Qd2 Ng2+ 17 Kd1 Ng6 18 Nd5, et les Noirs n'ont pas grand-chose pour le pion.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Qd5+",
+      "text": "Les Blancs ne peuvent se passer de cet échec, car 15 Bxf2 Rxf2 16 Kxf2 Bh4+ 17 Kg2 (17 Ke3 Qg5+ 18 Kd3 Nb4+ 19 Kd4 Qc5#) 17...Qg5+ 18 Bg4 Ne5 (18...Bxg4? 19 Qd5+) 19 h3 h5 regagne une pièce tout en conservant une attaque énorme. Avec la dame en d5, les Noirs ne disposent plus d'un échec en g5 ; le sacrifice est donc beaucoup moins évident.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "Kh8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Bxf2",
+      "text": "En réalité, les Blancs auraient dû poursuivre par 16 Rf1, après quoi 16...Ng4 ne donne qu'un léger avantage aux Noirs. Cependant, je n'avais pas vu le 24e coup des Noirs et j'ai donc accepté le sacrifice, convaincu qu'il ne mènerait qu'à un échec perpétuel. Après la partie, Nataf déclara qu'à ce stade il n'avait pas non plus vu son 24e coup, mais que la puissance de son attaque l'avait encouragé et que l'existence d'un filet de sécurité sous la forme d'un échec perpétuel forcé (par 24...Qxf3+) l'avait rassuré.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Nb4",
+      "text": "Le coup Qd5+ des Blancs visait à priver la dame noire d'un échec en g5 ; ce coup a pour but de rendre la case g5 à la dame noire. Les Noirs ne doivent pas jouer 16...Bh4?, car 17 Bg3 gagne, mais ils auraient également pu inverser l'ordre de leurs coups par 16...Rxf2 17 Kxf2 Nb4, puisque la seule possibilité supplémentaire, 18 Qf7 Bh4+ 19 Kf3, échoue sur l'élégant retour 19...Nc6! 20 Qf4 g5 21 Qe3 Bh3!, qui enferme le roi.",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Qh5",
+      "text": "Les Blancs s'efforcent de conserver le contrôle de g5. Les autres coups perdent plus rapidement :\n\n1) 17 Qd1 Rxf2! 18 Kxf2 Bh4+ 19 Kg2 Qg5+ 20 Bg4 Bxg4, et les Noirs gagnent.\n\n2) 17 Qd4 Rxf2! 18 Kxf2 Bh4+ 19 Kf3 Bh3! 20 Nd5 (il n'y a rien de mieux) 20...Qg5 21 Nf4 Rf8! (21...Qxf4+ 22 Kxf4 Rf8+ est erroné à cause de 23 Qf6) 22 Qxd6 Bg4+ 23 Ke3 Rxf4 24 Qxf4 Bf2+ 25 Kxf2 Qxf4+, avec encore d'énormes pertes matérielles à venir.\n\n3) 17 Qd2 Rxf2! 18 Kxf2 Bg5! 19 Qd4 Bh4+ transpose dans la variante « 2 ».",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Rxf2",
+      "text": "Un nouveau coup de massue sur f2 ; l'acceptation est forcée.",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "Kxf2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "Bh4+",
+      "text": "Trait aux Blancs\n\nMener une telle attaque sacrificielle exige évidemment une excellente capacité de calcul pur, mais il est également utile d'examiner la position d'un point de vue général. Ici, bien que le sacrifice paraisse quelque peu improbable, certains éléments jouent en faveur des Noirs, le principal étant leur domination presque totale des cases noires. Les deux cavaliers blancs se trouvent sur des cases noires et ne contrôlent donc que des cases blanches ; les Blancs n'ont plus leur fou de cases noires, et leurs deux tours sont encore sur leurs cases d'origine, sans pouvoir intervenir immédiatement dans la bataille. Il revient donc à la dame blanche de lutter pour contrôler quelques cases noires. Puisque la dame et, dans une certaine mesure, le fou de cases blanches sont les seuls défenseurs des Blancs, le fait que toutes les pièces noires ne soient pas encore en jeu perd de son importance : autour du roi blanc, les Noirs ont au moins une chance d'obtenir une supériorité numérique. Tout dépend de la possibilité pour leur dame de rejoindre l'attaque avec gain de tempo. Une telle évaluation générale peut au moins orienter les calculs dans la bonne direction, et les Noirs peuvent conclure que :\n\n1) Ils ne doivent examiner que les variantes très forcées ; si les Blancs ont le temps de mettre une tour en jeu ou de contrôler certaines cases noires avec un cavalier, l'attaque a peu de chances de réussir.\n\n2) Faire entrer la dame dans l'attaque avec gain de tempo constitue un facteur essentiel.\n\nGarder de tels repères à l'esprit peut faire gagner beaucoup de temps au moment du calcul précis. Cette méthode présente toutefois de nombreuses limites ; par exemple, je ne pense pas qu'un coup spectaculaire tel que le 24e des Noirs puisse être anticipé à partir de principes généraux : il faut tout simplement le voir, et certains joueurs repèrent mieux que d'autres les possibilités tactiques.",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "Kg2",
+      "text": "Les autres possibilités ne valent pas mieux. 19 Kg1 g6 20 Qf3 Qg5+ 21 Kf1 transpose dans la partie, tandis que 19 Ke3 g6 20 Qf3 Qg5+ 21 Qf4 Qc5+ 22 Kd2 Bg5 gagne la dame.",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "g6",
+      "text": "Le point essentiel est que 20 Qh6 perd sur 20...Bg5 ; les Blancs doivent donc abandonner le contrôle de g5.",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "Qf3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "Qg5+",
+      "text": "Les pièces noires commencent maintenant à rejoindre l'attaque avec gain de tempo.",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "Kf1",
+      "text": "À la seule vue de l'échiquier, le sacrifice des Noirs paraît encore loin d'être convaincant. Les Blancs ont une tour entière de plus, et les pièces de l'aile dame des Noirs doivent encore rejoindre l'attaque.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "Bh3+",
+      "text": "Un nouveau sacrifice. Il vaut la peine d'investir une pièce supplémentaire afin d'activer la tour avec gain de tempo.",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "Qxh3",
+      "text": "Je n'avais pas grand-chose à réfléchir durant cette phase de la partie, car tous les coups des Blancs sont forcés.",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "Rf8+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "Bf3",
+      "text": "Les Blancs ne peuvent même pas s'échapper en abandonnant leur dame par 23 Qf3 Rxf3+ 24 Bxf3, à cause de 24...Qe3 25 Kg2 Qf2+ 26 Kh3 Qxf3+ 27 Kxh4 h6 28 Rhg1 g5+ 29 Rxg5 hxg5+ 30 Kxg5 Qg2+, suivi de ...Qxb2, puis d'une nouvelle moisson à l'aile dame.",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "Qe3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "Qxh4",
+      "text": "24 Nd1 Rxf3+ 25 Qxf3 Qxf3+ 26 Kg1 Nd3 force le mat en quelques coups.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 48,
+      "san": "Nd3",
+      "text": "C'est un coup remarquablement calme, alors que les Noirs ont une tour et deux pièces de moins. Aucune des deux captures en f3 ne gagne, mais ce coup, qui fait entrer les dernières réserves dans l'attaque, décide la partie en faveur des Noirs. En revanche, 24...Qxf3+ 25 Kg1 Qe3+ 26 Kg2 ne donne qu'un échec perpétuel, tandis que 24...Rxf3+? 25 Kg2 ferait même perdre les Noirs. Le coup du texte menace un mat en trois par 25...Rxf3+ 26 Kg2 Nf4+ 27 Qxf4 Qf2#.",
+      "isCritical": true
+    },
+    {
+      "ply": 49,
+      "san": "Nd5",
+      "text": "Après 25 Kg2 Qxf3+ 26 Kg1 Nf4, les Noirs matent en quelques coups, et 25 Qg3 n'arrête pas la menace : 25...Rxf3+ 26 Kg2 Nf4+.",
+      "isCritical": true
+    },
+    {
+      "ply": 50,
+      "san": "Qxf3+",
+      "text": "Cela ne change rien au résultat de la partie, mais les Noirs pouvaient forcer le mat en sept coups en commençant par 25...Rxf3+! 26 Kg2 Qe2+ 27 Kg1 g5. Cela semble être la seule faute (très mineure) des Noirs dans une partie exceptionnellement bien jouée.",
+      "isCritical": true
+    },
+    {
+      "ply": 51,
+      "san": "Kg1",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 52,
+      "san": "Nf2",
+      "text": "Trait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 53,
+      "san": "Kf1",
+      "text": "27 Nf6 était la seule façon de prolonger la partie, mais la position reste tout à fait désespérée après 27...Nh3+ (27...Rxf6 28 Qxf6+ Qxf6 29 Rf1 est moins clair) 28 Qxh3 Qxh3 29 Rf1 Qe3+ 30 Kg2 Qg5+ 31 Kh3 Rxf6 32 Rxf6 Qxf6, après quoi les Blancs perdent au moins deux pions à l'aile dame.",
+      "isCritical": true
+    },
+    {
+      "ply": 54,
+      "san": "Qxh1+",
+      "text": "28 Ke2 Qxa1 0-1\n\nLa combinaison de Nataf lui valut à juste titre le prix de la meilleure partie dans l'Informateur 75.\n\nLa plus grande force de Nataf réside dans ses capacités tactiques, et son choix d'ouverture était judicieux pour les exploiter. En jouant de manière tranchante et ambitieuse dès le début, il lança un défi aux Blancs : reculer et accepter de ne tirer que peu ou pas d'avantage de l'ouverture, ou relever le défi. Je l'ai relevé (en jouant 9 Bd3), mais une erreur au 14e coup permit aux Noirs de déclencher une attaque imaginative contre le roi blanc resté au centre. Dès lors, tout alla de mal en pis, la position blanche vacillant sous une succession de coups de massue.\n\nVoici les enseignements à retenir :\n\n1) Lorsque le roi blanc n'a pas roqué, f2 est une case vulnérable, même pour un grand maître expérimenté.\n\n2) Après le premier sacrifice, l'attaque doit être menée avec une énergie maximale afin de ne laisser aucun répit au défenseur.\n\n3) Il est utile de disposer d'un filet de sécurité, c'est-à-dire d'une continuation de réserve possible (menant peut-être à la nulle), au cas où la principale variante d'attaque se révélerait moins favorable que prévu.\n\n4) Vous ne devriez probablement pas essayer de jouer ainsi sans posséder de solides capacités tactiques !",
+      "isCritical": true
+    },
+    {
+      "ply": 55,
+      "san": "Ke2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 56,
+      "san": "Qxa1",
+      "text": "",
+      "isCritical": true
+    }
+  ]
+}

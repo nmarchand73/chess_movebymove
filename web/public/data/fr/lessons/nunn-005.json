@@ -1,0 +1,337 @@
+{
+  "id": "nunn-005",
+  "book": "nunn",
+  "gameNum": 5,
+  "title": "Partie 5 : T. Markowski – A. Onishchuk",
+  "section": "Thèmes d'ouverture",
+  "players": {
+    "white": "T. Markowski",
+    "black": "A. Onishchuk"
+  },
+  "event": "Rubinstein Memorial, Polanica Zdroj 1999",
+  "opening": "Ouverture catalane",
+  "eco": "E06",
+  "pgnPath": "data/pgn/nunn/05.pgn",
+  "result": "0-1",
+  "moveCount": 52,
+  "annotatedMoves": 49,
+  "fullText": "Le jeu de gambit moderne\n\nAu milieu du XIXe siècle, les gambits étaient monnaie courante. Le gambit du roi était l'une des ouvertures les plus populaires et a mené à de nombreuses belles victoires des Blancs, surtout quand le défenseur prenait goulûment tout le matériel offert (la « Partie immortelle » en est un exemple). Depuis, le jeu des défenseurs comme des gambiteurs s'est considérablement raffiné. Tout d'abord, les défenseurs ont renforcé leur main en prenant une certaine quantité de matériel puis en refusant les offres ultérieures. Parfois, ils rendaient même tout le matériel sacrifié afin d'obtenir un avantage positionnel. Quand ces progrès de la technique défensive ont été appliqués en pratique, il est vite apparu que nombre des gambits autrefois populaires n'étaient pas vraiment corrects, et ceux-ci ont progressivement disparu. Cela ne signifie pas pour autant que le jeu de gambit a été entièrement mis de côté. Au contraire, la prise de conscience que la compensation peut être au moins en partie positionnelle a conduit au développement de nombreuses nouvelles idées de gambit. Par exemple, deux inventions de Frank Marshall, l'attaque Marshall dans l'Espagnole (1 e4 e5 2 Nf3 Nc6 3 Bb5 a6 4 Ba4 Nf6 5 0-0 Be7 6 Re1 b5 7 Bb3 0-0 8 c3 d5!?) et le gambit Marshall dans la Semi-Slave (1 d4 d5 2 c4 e6 3 Nc3 c6 4 e4!?) se voient régulièrement au plus haut niveau. Ces gambits modernes impliquent typiquement le sacrifice d'une quantité limitée de matériel (habituellement un pion, parfois deux), pour lequel l'attaquant obtient à la fois une compensation positionnelle et des chances d'attaque.\n\nT. Markowski – A. Onishchuk\n\nMémorial Rubinstein, Polanica Zdroj 1999\n\nOuverture catalane\n\n1 Nf3\n\nVoir la partie 1 pour les commentaires sur ce coup.\n\n1...d5\n\nUne réponse sans fioritures. Les Noirs occupent simplement le centre.\n\n2 g3\n\nSi les Blancs jouent d4 à un moment donné, la partie transpose normalement dans une ouverture standard du pion dame. C'est ce qui finit par se produire dans la partie actuelle, mais pour l'instant les Blancs gardent leurs options ouvertes concernant leur pion d. Le coup du texte vise, comme dans la partie 1, à exercer une pression contre le centre noir au moyen du fou fianchetté en g2. Cependant, dans la partie 1 les Noirs avaient placé leurs pions centraux sur cases sombres, ce qui leur donnait une certaine maîtrise du centre au prix de céder les cases claires aux Blancs. Ici les Noirs visent à jouer eux-mêmes sur les cases claires ; en particulier ils voudraient maintenir un pion central en d5 pour restreindre le fou g2. C'est un plan moins ambitieux, mais il laisse aussi moins de latitude aux Blancs.\n\n2...Nf6\n\nLa case la plus naturelle pour le cavalier g8 est f6, et de là il soutient le pion d5.\n\n3 Bg2\n\nC'est la suite logique du coup précédent des Blancs.\n\n3...e6\n\nLes Noirs jouent avec cohérence pour renforcer leur pion d5. Ce coup leur permet aussi de développer le reste de l'aile roi sans difficulté. Le seul grain de sable est le fou c8, maintenant bloqué par le pion e6. Dans certaines lignes les Noirs résolvent ce problème par ...b6 et ...Bb7, mais comme nous le verrons, dans cette partie ils optent pour une solution plus spectaculaire.\n\n4 c4\n\nLa lutte pour la case d5 s'intensifie. Ce coup ne constitue pas un gambit car après 4...dxc4 les Blancs peuvent facilement récupérer le pion par 5 Qa4+.\n\n4...Be7\n\nPour le moment les Noirs se contentent de poursuivre leur développement à l'aile roi.\n\n5 d4\n\nLes Blancs décident enfin de jouer d4 et de transposer ainsi dans une ouverture appelée la Catalane. Ce système repose sur l'exploitation de la puissance du fou fianchetté en g2. Si les Noirs conservent leur pion en d5, le fou exercera une pression sur lui, mais s'ils jouent ...dxc4 le rayon d'action du fou s'étendra vers l'aile dame noire.\n\n5...0-0\n\nIl est généralement préférable de jouer les coups de développement nécessaires avant les coups optionnels, afin de conserver le maximum de flexibilité. La décision principale des Noirs dans la Catalane est de savoir s'ils jouent ...dxc4. Ce coup a l'avantage que les Blancs peuvent devoir perdre du temps à récupérer le pion c4, mais l'inconvénient que la pression du fou g2 contre le pion b7 peut rendre le développement du fou c8 encore plus difficile.\n\n6 Nc3\n\nUn coup assez inhabituel, peut-être parce qu'il ne respecte pas le principe « coups nécessaires avant coups optionnels ». La suite la plus courante est 6 0-0. Si les Noirs jouent alors 6...dxc4 (maintenir le pion d5 par 6...c6 suivi de ...Nbd7 est aussi populaire), les Blancs ont le choix entre diverses méthodes pour récupérer le pion c4 : 7 Qc2 (la plus courante), 7 Qa4 et 7 Ne5. Cette dernière possibilité peut transposer dans la partie après les coups supplémentaires 7...Nc6 8 Bxc6 bxc6 9 Nxc6 Qe8 10 Nxe7+ Qxe7 11 Qa4 c5 12 Qxc4 cxd4 13 Qxd4 e5 14 Qh4 Rb8 15 Nc3.\n\n6...dxc4\n\nCette prise paraît particulièrement logique vu l'ordre de coups inhabituel des Blancs. En jouant Nc3 d'abord, les Blancs ont volontairement écarté l'un des plans mentionnés ci-dessus (celui fondé sur Qc2).\n\n7 Ne5\n\nLes Blancs sont maintenant quasiment engagés dans ce plan, car 7 Qa4 permet aux Noirs une égalisation facile par 7...a6 8 Qxc4 b5 9 Qb3 Bb7, suivi de ...c5, tandis qu'après 7 0-0?! Nc6 la pression contre d4 rend vraiment difficile la récupération du pion c4.\n\nAprès le coup du texte, les Blancs menacent de récupérer le pion par Nxc4, puis de terminer tranquillement leur développement. Cela leur donnerait l'avantage, car ils ont un pion central de plus et leur fou g2 est bien plus actif que son homologue en c8. Les Noirs doivent donc agir vite.\n\n7...Nc6!\n\nVoici le gambit. Le choix était entre ce coup et 7...c5, et les raisons de préférer le coup du texte sont typiques de l'approche moderne et dynamique des ouvertures. 7...c5 vise un échange des pions en c5 et d4, créant ainsi une structure de pions symétrique, ce qui offrirait aux Noirs des chances d'égaliser. Le problème est que les Blancs conserveraient la pression contre l'aile dame noire, ce qui pourrait rendre l'égalisation complète difficile. De plus, c'est une stratégie négative — même si tout se passe bien, le maximum que les Noirs puissent espérer est la nulle. Après 7...c5 8 dxc5, les Blancs conservent un léger avantage après 8...Qxd1+ 9 Nxd1 Bxc5 10 Bd2 Nd5 11 Nxc4 aussi bien qu'après 8...Qc7 9 Nxc4.\n\nLe coup du texte est bien plus combatif : les Noirs offrent un pion pour activer leurs pièces, en particulier le fou c8. Les Blancs ont le choix entre permettre une égalisation facile, ou accepter le pion. Dans ce dernier cas, ils affrontent une longue période de défense soigneuse dans une position très tranchante. Après 7...c5 les Blancs pouvaient jouer pour gagner sans risque, car il serait difficile de perdre dans les positions placides qui en résultent, mais 7...Nc6 monte la mise : au prix d'un certain risque, les Noirs acquièrent des chances de gagner.\n\n8 Bxc6\n\nLes Blancs acceptent le défi et jouent pour gagner un pion. Après 8 Nxc6 bxc6 9 Bxc6 Rb8 10 0-0 Nd5 les Noirs n'ont pas de problèmes. Leurs pièces sont actives et le fou blanc est isolé en c6.\n\n8...bxc6\n\n9 Nxc6\n\nAprès 9 Nxc4 c5 les Noirs liquident leurs pions doublés, et leurs deux fous et pièces actives comptent davantage que leur structure de pions un peu abîmée à l'aile dame.\n\n9...Qe8\n\nC'est probablement plus précis que 9...Qd6, car alors 10 Qa4 Bb7 11 Nxe7+ Qxe7 12 0-0 conduit à une position similaire à la partie, mais avec la différence importante que le fou noir est déjà engagé en b7. Comme nous le verrons, cela bloque la colonne b et empêche les Noirs d'attaquer le pion b2 par ...Rab8.\n\n10 Nxe7+\n\nBien que ce coup soit universellement adopté, il est aussi possible de jouer 10 Qa4 ici. Après 10...Bd6 11 Ne5 Qxa4 12 Nxa4 Ne4 13 Nxc4 Bb4+ les Noirs devraient avoir assez pour le pion ; par exemple, 14 Bd2 Nxd2 15 Nxd2 Rd8 16 e3 e5 ou 14 Kf1 Rd8 15 Be3 Bd7 16 a3 Be7 17 Nc5 Nxc5 18 dxc5 a5. Cependant, vu que la suite de la partie paraît entièrement satisfaisante pour les Noirs, ceux qui souhaitent jouer cette ligne avec les Blancs doivent examiner d'éventuelles alternatives.\n\n10...Qxe7\n\nLa liquidation qui s'est produite favorise nettement les Noirs. Toutes leurs pièces peuvent maintenant entrer librement en jeu, les tours par ...Rb8 et ...Rd8, et le fou par ...Bb7 ou ...e5. De plus, la disparition du fou des cases claires des Blancs a laissé leurs cases claires de l'aile roi faibles. Le propre fou des cases claires des Noirs est la pièce idéale pour exploiter ces faiblesses, et bien qu'il n'y ait pas encore de menaces sérieuses, les Blancs pourraient rencontrer des problèmes à long terme à l'aile roi.\n\n11 Qa4\n\nLes Blancs ont besoin de quelque chose pour compenser tous ces facteurs favorables aux Noirs, et ils sont donc essentiellement engagés dans la capture du pion c4, afin d'avoir une consolation matérielle pour leurs défauts positionnels.\n\n11...c5\n\nIl serait tout à fait faux pour les Noirs d'essayer de conserver le pion c4 par 11...Bb7 12 0-0 Bd5. Cela coûte du temps et fait donc perdre l'initiative, tandis que le fou ne peut de toute façon pas être maintenu en d5. Après 13 Bg5 c5 14 Bxf6 gxf6 15 Qa3 Rac8 16 e4 Ba8 17 d5, par exemple, les Noirs ont une position misérable avec des faiblesses de pions sur les deux ailes.\n\nLe coup du texte ouvre systématiquement la position, tout en liquidant la seule faiblesse de pion des Noirs — le pion c isolé.\n\n12 Qxc4\n\nPas 12 Qa3? Qb7, suivi de ...cxd4, et les Noirs gagnent.\n\n12...cxd4\n\n13 Qxd4\n\nIl est temps d'examiner la position et d'évaluer ce que les Noirs ont obtenu avec leur gambit. Tout d'abord, les Noirs ont une avance de développement, que l'on peut estimer à environ deux tempos : ils ont roqué alors que les Blancs non, et les Noirs gagneront au moins un tempo grâce à la position exposée de la dame blanche. Deuxièmement, les Blancs ont été privés de leur fou des cases claires, qui dans tant de lignes de la Catalane exerce une pression importune contre l'aile dame noire. En effet, ici c'est l'inverse — c'est plutôt le fou des cases claires des Noirs qui exercera une pression importune contre l'aile roi blanche. Notez que nous ne parlons pas de quelque chose d'aussi grossier qu'un mat dame et fou sur la grande diagonale. Il est assez facile pour les Blancs d'empêcher une telle attaque par une combinaison de f3 et/ou e4. Il s'agit plutôt que les Blancs doivent constamment se soucier des faiblesses près de leur roi, et ce n'est là qu'un des nombreux petits facteurs qui, individuellement, ne sont pas trop gênants, mais qui ensemble s'additionnent en un fardeau défensif considérable. Enfin, la position noire est entièrement sans faiblesses. Cela signifie que si les Blancs emploient la mesure anti-gambit classique de rendre le matériel sacrifié, ils ont peu de chances d'obtenir un avantage.\n\nLes Blancs, d'autre part, ont bien leur pion de plus. Leur position est assez solide, à la notable exception des cases claires de l'aile roi. S'ils avaient le temps de jouer f3 et e4 pour protéger la grande diagonale, puis de développer le fou c1, ils pourraient espérer de bonnes chances de gagner. Les Noirs doivent donc tenter d'achever leur développement tout en restreignant celui des Blancs.\n\nL'expérience pratique de cette position suggère que la compensation des Noirs équilibre à peu près le pion de plus des Blancs. Ceux-ci peuvent, s'ils le souhaitent, rendre le pion pour une position égale, mais s'ils tentent de le conserver ils courent des risques considérables.\n\n13...e5\n\nUn bon coup qui force la dame blanche à déclarer ses intentions. De plus, les Blancs doivent maintenant craindre que leur roi ne soit coincé au centre par ...Bh3.\n\n14 Qh4\n\nCela empêche ...Bh3 et place la dame sur une case où elle n'est pas facile à attaquer, mais la dame est hors-jeu en h4 et la réactiver ne sera pas simple. 14 Qa4 Bh3 15 Qh4 Bg2 16 Rg1 Bc6 ne résout pas non plus les problèmes des Blancs, car bien qu'ils puissent développer l'aile dame plus facilement, leur roi restera coincé au centre.\n\n14...Rb8!\n\nAfin de tirer le meilleur parti de leur avance de développement, les Noirs doivent jouer avec précision. Ce coup a deux fonctions. Premièrement, il empêche, du moins pour le moment, le développement du fou c1 ; deuxièmement, il prépare ...Rb4 pour gêner la dame blanche. Si les Blancs répondent par e4, le pion e4 sera faible et sujet à l'attaque.\n\nNotez que 14...Bb7 est beaucoup moins précis, car après 15 0-0 les Blancs menacent déjà de sortir leur fou.\n\n15 0-0\n\nLes Blancs jouent pour conserver le pion de plus. Après 15 Bg5 Rxb2 16 0-0 (après 16 Nd5 les Noirs devraient se contenter de la nulle par 16...Qb7 17 Nxf6+ gxf6 18 0-0 fxg5 19 Qxg5+, car 16...Qd6 17 Nxf6+ gxf6 18 Bh6 suivi de 19 0-0 ne peut être que meilleur pour les Blancs) 16...Qe6 17 Bxf6 Qxf6 18 Qxf6 gxf6 19 Rab1 Rxb1 20 Rxb1 la partie se réduit à une finale nulle.\n\n15...Rb4\n\nMaintenant les Blancs sont plus ou moins forcés de pousser leur pion e.\n\n16 e4\n\nAprès 16 f4 Qc5+ 17 e3 Qc6, suivi de ...Bb7, les Blancs ne peuvent plus utiliser leurs pions de l'aile roi pour bloquer la grande diagonale, et la menace de pénétrer en g2 ou h1 avec la dame est très dangereuse.\n\n16...h6!?\n\nLe premier point de ce coup est simplement de rendre plus difficile le développement du fou c1 des Blancs, puisque Bg5 est maintenant empêché. Il introduit aussi un nouvel élément dans la position — la possibilité d'enfermer la dame blanche par ...g5. Ce n'est pas une menace immédiate car le pion h6 est en prise, et même ...Kh7 ne menace pas ...g5, car alors le pion h serait cloué. Cependant, cela agit comme une influence restrictive sur les Blancs. Par exemple, il y a un alignement tentant de pièces noires sur la diagonale a3-f8, qui pourrait être exploité par b3 et Ba3. Il est plus difficile pour le fou blanc de quitter la diagonale c1-h6 quand ...g5 est dans l'air.\n\nEn fait, cette position est très confortable pour les Noirs, et bien que le coup du texte soit peut-être le plus gênant pour les Blancs, il existe des alternatives suffisantes pour tenir l'équilibre ; par exemple, 16...Bb7 17 f3 Qc5+ 18 Kg2 Rd8 19 Rf2 Rd3 20 Bg5 Qb6, quand les Blancs ne peuvent éviter la perte du pion b2.\n\n17 Re1?\n\nLes Blancs ne font face à aucune menace immédiate et ont donc un coup ou deux pour améliorer leur position. Les priorités sont :\n\n1) soutenir les cases claires faibles et le pion e4 vulnérable ;\n\n2) ramener la dame dans la partie ;\n\n3) si possible, développer le fou c1.\n\nIl n'y aura probablement pas le temps pour tout cela, mais les deux premiers points sont plus importants que le troisième, et les Blancs devraient donc s'y concentrer. Le coup qui aide vers les deux premiers objectifs est 17 f3, visant g4 et Qf2. Alors, avec le pion b2 couvert, les Blancs peuvent s'attaquer au troisième objectif. Le coup du texte est inférieur car, bien qu'il soutienne e4, il ne fait rien pour la dame, un facteur que les Noirs exploitent rapidement. Après 17 f3 Rd8 18 g4 Rd3 19 Qf2 Qb7 (clouant à nouveau le fou c1) la position est à peu près égale, la pression noire fournissant une compensation pour le pion mais pas davantage. Cependant, il ne fait aucun doute que les Blancs doivent prendre grand soin et qu'en pratique il est plus facile de jouer le camp des Noirs. Par exemple, l'évident 20 Rd1? se heurte à 20...Rxd1+ 21 Nxd1 Nxe4! 22 fxe4 Qxe4, suivi de 22...Bb7, avec une attaque décisive. 20 Re1 est meilleur, visant 21 Re3.\n\n17...Rd8\n\nMençant 18...Rd3, empêchant f3, quand les Blancs seront quasiment paralysés.\n\n18 f3\n\nLes Blancs finissent de toute façon par jouer ce coup, ce qui ne fait que souligner que 17 Re1 était une perte de temps. Cependant, il n'y avait rien de mieux ; par exemple, 18 b3 Rd3 19 Na4 (19 Bb2? Kh7, menaçant 20...g5, est une ligne où les Noirs exploitent la mauvaise position de la dame blanche) 19...Rxe4! 20 Rxe4 Rd1+ 21 Kg2 Bb7 22 Nc3 (22 f3 perd sur 22...Bxe4 23 fxe4 Qb4) 22...Qd7 23 Nxd1 (après 23 f3 Nxe4 24 fxe4 Re1 25 Kf2 Qd4+ 26 Kxe1 Qxc3+ 27 Kf2 Qxa1 28 Qd8+ Kh7 29 Qd2 Qb1 les Noirs gagnent un pion tout en conservant des chances d'attaque contre le roi blanc) 23...Nxe4! (23...Qxd1 24 Bg5! et 23...Bxe4+ 24 f3 Bxf3+ 25 Kxf3 Qxd1+ 26 Kg2 Qe2+ 27 Kg1 sont moins clairs) 24 Ne3 (24 Be3 Ng5+ 25 f3 Qf5 26 Nf2 Qxf3+ 27 Kf1 Qg2+ 28 Ke2 Ba6+ 29 Kd1 Qf3+ 30 Kc2 Qxe3 31 Nd1 Qe2+ gagne pour les Noirs) 24...Ng5+ 25 f3 Qc6 26 Qh5 (26 Qg4 Bc8 27 Qh5 g6 est la même chose) 26...g6 27 Qg4 Bc8 et les Noirs gagnent.\n\n18...Rd3\n\nMaintenant le pion f3 est faible.\n\n19 Kg2\n\nUne nécessité malheureuse ; les Blancs ne sont pas encore prêts à jouer Qf2, et le pion b2 est en prise si bien qu'ils ne peuvent pas jouer une pièce en e3. Le coup du texte est indésirable pour deux raisons : premièrement, si les Noirs capturent finalement en b2, ce sera avec échec, et deuxièmement le roi est placé sur la grande diagonale, ce qui augmente les chances d'une percée sacrificielle en e4.\n\n19...Qb7!\n\nLes Noirs exploitent immédiatement les deux défauts du coup Kg2. La menace immédiate 20...Rxb2+ 21 Bxb2 Qxb2+ 22 Ne2 Rd2 23 Kf2 Ba6 utilise le premier, tandis que la suite de la partie tire parti du second.\n\nCurieusement, Markowski avait atteint cette position dans une partie antérieure (Markowski-S.Ivanov, Krynica 1997) et avait perdu après 19...Qe6. Il est assez difficile de voir l'attrait de cette position sombre — vraisemblablement Markowski avait préparé une amélioration par rapport à sa partie antérieure, mais Onishchuk trouve un coup encore plus efficace pour les Noirs que 19...Qe6 et met fin une bonne fois pour toutes à cette position.\n\n20 Re2\n\nDéfendant b2. 20 Kf2 perd sur 20...Qb6+ 21 Kg2 Rxb2+, etc., tandis que 20 g4 est démoli par 20...Bxg4! 21 fxg4 Nxe4 22 Nxe4 Rxe4 23 Kg1 Qb6+ 24 Kg2 Qb4!.\n\n20...Bg4!\n\nOn aurait pu croire qu'une explosion en e4 passerait par ...Nxe4, mais les Noirs trouvent une autre façon d'éliminer le pion f3. Ce beau coup force l'ouverture de la grande diagonale et expose le roi blanc au feu combiné des pièces lourdes noires.\n\n21 fxg4\n\n21 Rf2 perd sur 21...Bxf3+ 22 Rxf3 Nxe4 23 Rxd3 (23 Nxe4 Rxe4 24 Rxd3 Rxh4+) 23...Nxc3+ 24 Kf2 (24 Rf3 Rxh4 25 gxh4 Ne2 conduit à de nouvelles pertes de matériel) 24...Rxh4 25 gxh4 Qb6+ 26 Ke1 (sinon la tour d3 tombe) 26...Qg1+ 27 Kd2 Ne4+ 28 Kc2 Qxh2+ 29 Bd2 Qxh4 et les quatre(!) pions passés liés sont écrasants.\n\n21...Nxe4\n\nAvec deux des pièces les plus importantes des Blancs, la dame et la tour a1, ne participant aucunement à la défense, l'attaque noire est irrésistible.\n\n22 Rxe4\n\nOu :\n\n1) Après 22 Kh3 Nf6! il n'y a pas de défense contre les nombreuses menaces noires, qui incluent 23...Rxg4 et 23...Qf3.\n\n2) 22 Kg1 Nxc3 23 bxc3 Rd1+ 24 Kf2 Qh1 et les Noirs gagnent car 25 cxb4 permet 25...Qg1+ 26 Kf3 Rf1+ 27 Ke4 Qd4#.\n\n22...Rxe4\n\n23 Kh3\n\nAprès 23 Nxe4 Qxe4+ 24 Kh3 Qe1 25 Bxh6 (25 Qe7 Rxg3+! 26 hxg3 Qh1#) 25...Qxa1 26 Qg5 Qf1+ 27 Kh4 il y a de nombreuses façons de gagner. 27...Qf6 28 Qxf6 gxf6 29 Kh3 Rd1 est l'une des plus simples, car les Noirs gagnent immédiatement un pion de l'aile dame.\n\n23...Re1\n\nMençant 24...Qh1 ou 24...Rg1.\n\n24 Bxh6\n\nProlongeant la partie de quelques coups.\n\n24...Rxa1\n\nLes Noirs ne voient aucune raison de refuser une tour gratuite.\n\n25 Qg5\n\nAu moins les Blancs ont le temps de menacer le mat avant d'abandonner.\n\n25...f6\n\nArrêtant le mat avec gain de tempo.\n\n26 Qg6 Rxc3 0-1\n\nAprès 27 bxc3 Rg1 28 Kh4 Rg2 29 h3 (29 Kh3 Re2), une victoire est 29...Qf7 30 Qe4 (30 Qxf7+ Kxf7 31 Bc1 g5+ 32 Kh5 Rxg3 33 h4 Rh3 gagne le fou) 30...Rh2, suivi de ...gxh6 ou ...g5+, quand les Blancs seront une tour entière en moins.\n\nLe jeu de gambit est encore courant aujourd'hui, mais l'accent est assez différent de celui du XIXe siècle. Au lieu de viser une attaque à tout prix contre le roi adverse, les gambits modernes reposent souvent autant sur des considérations positionnelles que sur des chances d'attaque immédiates. Dans cette partie, Onishchuk a offert un pion dès le septième coup afin de libérer sa position et d'arracher l'initiative aux Blancs. En échange du pion, il a obtenu toute une gamme de petits avantages positionnels. Parmi ceux-ci, les plus significatifs étaient sa pression sur les cases claires et la capacité d'utiliser son avance de développement pour empêcher les Blancs d'achever le leur (principalement par la pression contre b2 puis e4). Markowski aurait pu rendre le pion pour égaliser, mais il a choisi la voie risquée de conserver son matériel de plus. Il n'a fallu qu'une seule erreur, au 17e coup, et l'attaque noire était déjà imparable. Onishchuk a mené son attaque à bien avec un sacrifice de pièce puissant et attractif pour prendre le contrôle des cases claires que les Blancs avaient affaiblies en acceptant le gambit.\n\nLes leçons à retenir :\n\n1) Les gambits font partie intégrante du jeu d'ouverture. Dans cette partie, un gambit s'est révélé la meilleure réponse au plan blanc d'exercer une pression positionnelle.\n\n2) Une avance de développement et quelques avantages positionnels peuvent suffire comme compensation pour un pion.\n\n3) Restreindre le développement adverse donne souvent le temps de monter une attaque puissante.\n\n4) Mener une attaque à bien peut exiger de l'imagination et la volonté de sacrifier.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Le jeu de gambit moderne\n\nAu milieu du XIXe siècle, les gambits étaient monnaie courante. Le gambit du roi était l'une des ouvertures les plus populaires et a mené à de nombreuses belles victoires des Blancs, surtout quand le défenseur prenait goulûment tout le matériel offert (la « Partie immortelle » en est un exemple). Depuis, le jeu des défenseurs comme des gambiteurs s'est considérablement raffiné. Tout d'abord, les défenseurs ont renforcé leur main en prenant une certaine quantité de matériel puis en refusant les offres ultérieures. Parfois, ils rendaient même tout le matériel sacrifié afin d'obtenir un avantage positionnel. Quand ces progrès de la technique défensive ont été appliqués en pratique, il est vite apparu que nombre des gambits autrefois populaires n'étaient pas vraiment corrects, et ceux-ci ont progressivement disparu. Cela ne signifie pas pour autant que le jeu de gambit a été entièrement mis de côté. Au contraire, la prise de conscience que la compensation peut être au moins en partie positionnelle a conduit au développement de nombreuses nouvelles idées de gambit. Par exemple, deux inventions de Frank Marshall, l'attaque Marshall dans l'Espagnole (1 e4 e5 2 Nf3 Nc6 3 Bb5 a6 4 Ba4 Nf6 5 0-0 Be7 6 Re1 b5 7 Bb3 0-0 8 c3 d5!?) et le gambit Marshall dans la Semi-Slave (1 d4 d5 2 c4 e6 3 Nc3 c6 4 e4!?) se voient régulièrement au plus haut niveau. Ces gambits modernes impliquent typiquement le sacrifice d'une quantité limitée de matériel (habituellement un pion, parfois deux), pour lequel l'attaquant obtient à la fois une compensation positionnelle et des chances d'attaque.\n\nT. Markowski – A. Onishchuk\n\nMémorial Rubinstein, Polanica Zdroj 1999\n\nOuverture catalane"
+    },
+    {
+      "ply": 1,
+      "san": "Nf3",
+      "text": "Voir la partie 1 pour les commentaires sur ce coup.",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "d5",
+      "text": "Une réponse sans fioritures. Les Noirs occupent simplement le centre.",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "g3",
+      "text": "Si les Blancs jouent d4 à un moment donné, la partie transpose normalement dans une ouverture standard du pion dame. C'est ce qui finit par se produire dans la partie actuelle, mais pour l'instant les Blancs gardent leurs options ouvertes concernant leur pion d. Le coup du texte vise, comme dans la partie 1, à exercer une pression contre le centre noir au moyen du fou fianchetté en g2. Cependant, dans la partie 1 les Noirs avaient placé leurs pions centraux sur cases sombres, ce qui leur donnait une certaine maîtrise du centre au prix de céder les cases claires aux Blancs. Ici les Noirs visent à jouer eux-mêmes sur les cases claires ; en particulier ils voudraient maintenir un pion central en d5 pour restreindre le fou g2. C'est un plan moins ambitieux, mais il laisse aussi moins de latitude aux Blancs.",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "Nf6",
+      "text": "La case la plus naturelle pour le cavalier g8 est f6, et de là il soutient le pion d5.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "Bg2",
+      "text": "Trait aux Noirs\n\nC'est la suite logique du coup précédent des Blancs.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "e6",
+      "text": "Les Noirs jouent avec cohérence pour renforcer leur pion d5. Ce coup leur permet aussi de développer le reste de l'aile roi sans difficulté. Le seul grain de sable est le fou c8, maintenant bloqué par le pion e6. Dans certaines lignes les Noirs résolvent ce problème par ...b6 et ...Bb7, mais comme nous le verrons, dans cette partie ils optent pour une solution plus spectaculaire.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "c4",
+      "text": "La lutte pour la case d5 s'intensifie. Ce coup ne constitue pas un gambit car après 4...dxc4 les Blancs peuvent facilement récupérer le pion par 5 Qa4+.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "Be7",
+      "text": "Pour le moment les Noirs se contentent de poursuivre leur développement à l'aile roi.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "d4",
+      "text": "Les Blancs décident enfin de jouer d4 et de transposer ainsi dans une ouverture appelée la Catalane. Ce système repose sur l'exploitation de la puissance du fou fianchetté en g2. Si les Noirs conservent leur pion en d5, le fou exercera une pression sur lui, mais s'ils jouent ...dxc4 le rayon d'action du fou s'étendra vers l'aile dame noire.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "O-O",
+      "text": "Il est généralement préférable de jouer les coups de développement nécessaires avant les coups optionnels, afin de conserver le maximum de flexibilité. La décision principale des Noirs dans la Catalane est de savoir s'ils jouent ...dxc4. Ce coup a l'avantage que les Blancs peuvent devoir perdre du temps à récupérer le pion c4, mais l'inconvénient que la pression du fou g2 contre le pion b7 peut rendre le développement du fou c8 encore plus difficile.",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "Nc3",
+      "text": "Un coup assez inhabituel, peut-être parce qu'il ne respecte pas le principe « coups nécessaires avant coups optionnels ». La suite la plus courante est 6 0-0. Si les Noirs jouent alors 6...dxc4 (maintenir le pion d5 par 6...c6 suivi de ...Nbd7 est aussi populaire), les Blancs ont le choix entre diverses méthodes pour récupérer le pion c4 : 7 Qc2 (la plus courante), 7 Qa4 et 7 Ne5. Cette dernière possibilité peut transposer dans la partie après les coups supplémentaires 7...Nc6 8 Bxc6 bxc6 9 Nxc6 Qe8 10 Nxe7+ Qxe7 11 Qa4 c5 12 Qxc4 cxd4 13 Qxd4 e5 14 Qh4 Rb8 15 Nc3.",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "dxc4",
+      "text": "Trait aux Blancs\n\nCette prise paraît particulièrement logique vu l'ordre de coups inhabituel des Blancs. En jouant Nc3 d'abord, les Blancs ont volontairement écarté l'un des plans mentionnés ci-dessus (celui fondé sur Qc2).",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "Ne5",
+      "text": "Les Blancs sont maintenant quasiment engagés dans ce plan, car 7 Qa4 permet aux Noirs une égalisation facile par 7...a6 8 Qxc4 b5 9 Qb3 Bb7, suivi de ...c5, tandis qu'après 7 0-0?! Nc6 la pression contre d4 rend vraiment difficile la récupération du pion c4.\n\nAprès le coup du texte, les Blancs menacent de récupérer le pion par Nxc4, puis de terminer tranquillement leur développement. Cela leur donnerait l'avantage, car ils ont un pion central de plus et leur fou g2 est bien plus actif que son homologue en c8. Les Noirs doivent donc agir vite.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "Nc6",
+      "text": "Voici le gambit. Le choix était entre ce coup et 7...c5, et les raisons de préférer le coup du texte sont typiques de l'approche moderne et dynamique des ouvertures. 7...c5 vise un échange des pions en c5 et d4, créant ainsi une structure de pions symétrique, ce qui offrirait aux Noirs des chances d'égaliser. Le problème est que les Blancs conserveraient la pression contre l'aile dame noire, ce qui pourrait rendre l'égalisation complète difficile. De plus, c'est une stratégie négative — même si tout se passe bien, le maximum que les Noirs puissent espérer est la nulle. Après 7...c5 8 dxc5, les Blancs conservent un léger avantage après 8...Qxd1+ 9 Nxd1 Bxc5 10 Bd2 Nd5 11 Nxc4 aussi bien qu'après 8...Qc7 9 Nxc4.\n\nTrait aux Blancs\n\nLe coup du texte est bien plus combatif : les Noirs offrent un pion pour activer leurs pièces, en particulier le fou c8. Les Blancs ont le choix entre permettre une égalisation facile, ou accepter le pion. Dans ce dernier cas, ils affrontent une longue période de défense soigneuse dans une position très tranchante. Après 7...c5 les Blancs pouvaient jouer pour gagner sans risque, car il serait difficile de perdre dans les positions placides qui en résultent, mais 7...Nc6 monte la mise : au prix d'un certain risque, les Noirs acquièrent des chances de gagner.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "Bxc6",
+      "text": "Les Blancs acceptent le défi et jouent pour gagner un pion. Après 8 Nxc6 bxc6 9 Bxc6 Rb8 10 0-0 Nd5 les Noirs n'ont pas de problèmes. Leurs pièces sont actives et le fou blanc est isolé en c6.",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "bxc6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "Nxc6",
+      "text": "Après 9 Nxc4 c5 les Noirs liquident leurs pions doublés, et leurs deux fous et pièces actives comptent davantage que leur structure de pions un peu abîmée à l'aile dame.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "Qe8",
+      "text": "C'est probablement plus précis que 9...Qd6, car alors 10 Qa4 Bb7 11 Nxe7+ Qxe7 12 0-0 conduit à une position similaire à la partie, mais avec la différence importante que le fou noir est déjà engagé en b7. Comme nous le verrons, cela bloque la colonne b et empêche les Noirs d'attaquer le pion b2 par ...Rab8.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "Nxe7+",
+      "text": "Bien que ce coup soit universellement adopté, il est aussi possible de jouer 10 Qa4 ici. Après 10...Bd6 11 Ne5 Qxa4 12 Nxa4 Ne4 13 Nxc4 Bb4+ les Noirs devraient avoir assez pour le pion ; par exemple, 14 Bd2 Nxd2 15 Nxd2 Rd8 16 e3 e5 ou 14 Kf1 Rd8 15 Be3 Bd7 16 a3 Be7 17 Nc5 Nxc5 18 dxc5 a5. Cependant, vu que la suite de la partie paraît entièrement satisfaisante pour les Noirs, ceux qui souhaitent jouer cette ligne avec les Blancs doivent examiner d'éventuelles alternatives.",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "Qxe7",
+      "text": "La liquidation qui s'est produite favorise nettement les Noirs. Toutes leurs pièces peuvent maintenant entrer librement en jeu, les tours par ...Rb8 et ...Rd8, et le fou par ...Bb7 ou ...e5. De plus, la disparition du fou des cases claires des Blancs a laissé leurs cases claires de l'aile roi faibles. Le propre fou des cases claires des Noirs est la pièce idéale pour exploiter ces faiblesses, et bien qu'il n'y ait pas encore de menaces sérieuses, les Blancs pourraient rencontrer des problèmes à long terme à l'aile roi.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "Qa4",
+      "text": "Trait aux Noirs\n\nLes Blancs ont besoin de quelque chose pour compenser tous ces facteurs favorables aux Noirs, et ils sont donc essentiellement engagés dans la capture du pion c4, afin d'avoir une consolation matérielle pour leurs défauts positionnels.",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "c5",
+      "text": "Il serait tout à fait faux pour les Noirs d'essayer de conserver le pion c4 par 11...Bb7 12 0-0 Bd5. Cela coûte du temps et fait donc perdre l'initiative, tandis que le fou ne peut de toute façon pas être maintenu en d5. Après 13 Bg5 c5 14 Bxf6 gxf6 15 Qa3 Rac8 16 e4 Ba8 17 d5, par exemple, les Noirs ont une position misérable avec des faiblesses de pions sur les deux ailes.\n\nLe coup du texte ouvre systématiquement la position, tout en liquidant la seule faiblesse de pion des Noirs — le pion c isolé.",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "Qxc4",
+      "text": "Pas 12 Qa3? Qb7, suivi de ...cxd4, et les Noirs gagnent.",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "cxd4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Qxd4",
+      "text": "Trait aux Noirs\n\nIl est temps d'examiner la position et d'évaluer ce que les Noirs ont obtenu avec leur gambit. Tout d'abord, les Noirs ont une avance de développement, que l'on peut estimer à environ deux tempos : ils ont roqué alors que les Blancs non, et les Noirs gagneront au moins un tempo grâce à la position exposée de la dame blanche. Deuxièmement, les Blancs ont été privés de leur fou des cases claires, qui dans tant de lignes de la Catalane exerce une pression importune contre l'aile dame noire. En effet, ici c'est l'inverse — c'est plutôt le fou des cases claires des Noirs qui exercera une pression importune contre l'aile roi blanche. Notez que nous ne parlons pas de quelque chose d'aussi grossier qu'un mat dame et fou sur la grande diagonale. Il est assez facile pour les Blancs d'empêcher une telle attaque par une combinaison de f3 et/ou e4. Il s'agit plutôt que les Blancs doivent constamment se soucier des faiblesses près de leur roi, et ce n'est là qu'un des nombreux petits facteurs qui, individuellement, ne sont pas trop gênants, mais qui ensemble s'additionnent en un fardeau défensif considérable. Enfin, la position noire est entièrement sans faiblesses. Cela signifie que si les Blancs emploient la mesure anti-gambit classique de rendre le matériel sacrifié, ils ont peu de chances d'obtenir un avantage.\n\nLes Blancs, d'autre part, ont bien leur pion de plus. Leur position est assez solide, à la notable exception des cases claires de l'aile roi. S'ils avaient le temps de jouer f3 et e4 pour protéger la grande diagonale, puis de développer le fou c1, ils pourraient espérer de bonnes chances de gagner. Les Noirs doivent donc tenter d'achever leur développement tout en restreignant celui des Blancs.\n\nL'expérience pratique de cette position suggère que la compensation des Noirs équilibre à peu près le pion de plus des Blancs. Ceux-ci peuvent, s'ils le souhaitent, rendre le pion pour une position égale, mais s'ils tentent de le conserver ils courent des risques considérables.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "e5",
+      "text": "Trait aux Blancs\n\nUn bon coup qui force la dame blanche à déclarer ses intentions. De plus, les Blancs doivent maintenant craindre que leur roi ne soit coincé au centre par ...Bh3.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Qh4",
+      "text": "Cela empêche ...Bh3 et place la dame sur une case où elle n'est pas facile à attaquer, mais la dame est hors-jeu en h4 et la réactiver ne sera pas simple. 14 Qa4 Bh3 15 Qh4 Bg2 16 Rg1 Bc6 ne résout pas non plus les problèmes des Blancs, car bien qu'ils puissent développer l'aile dame plus facilement, leur roi restera coincé au centre.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "Rb8",
+      "text": "Pour tirer le meilleur parti de leur avance de développement, les Noirs doivent jouer avec précision. Ce coup a deux fonctions. Premièrement, il empêche, du moins pour le moment, le développement du fou c1 ; deuxièmement, il prépare ...Rb4 pour gêner la dame blanche. Si les Blancs répondent par e4, le pion e4 sera faible et sujet à l'attaque.\n\nNotez que 14...Bb7 est beaucoup moins précis, car après 15 0-0 les Blancs menacent déjà de sortir leur fou.\n\nTrait aux Blancs\n\n15 0-0\n\nLes Blancs jouent pour conserver le pion de plus. Après 15 Bg5 Rxb2 16 0-0 (après 16 Nd5 les Noirs devraient se contenter de la nulle par 16...Qb7 17 Nxf6+ gxf6 18 0-0 fxg5 19 Qxg5+, car 16...Qd6 17 Nxf6+ gxf6 18 Bh6 suivi de 19 0-0 ne peut être que meilleur pour les Blancs) 16...Qe6 17 Bxf6 Qxf6 18 Qxf6 gxf6 19 Rab1 Rxb1 20 Rxb1 la partie se réduit à une finale nulle.",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "Rb4",
+      "text": "Maintenant les Blancs sont plus ou moins forcés de pousser leur pion e.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "e4",
+      "text": "Après 16 f4 Qc5+ 17 e3 Qc6, suivi de ...Bb7, les Blancs ne peuvent plus utiliser leurs pions de l'aile roi pour bloquer la grande diagonale, et la menace de pénétrer en g2 ou h1 avec la dame est très dangereuse.",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "h6",
+      "text": "Le premier point de ce coup est simplement de rendre plus difficile le développement du fou c1 des Blancs, puisque Bg5 est maintenant empêché. Il introduit aussi un nouvel élément dans la position — la possibilité d'enfermer la dame blanche par ...g5. Ce n'est pas une menace immédiate car le pion h6 est en prise, et même ...Kh7 ne menace pas ...g5, car alors le pion h serait cloué. Cependant, cela agit comme une influence restrictive sur les Blancs. Par exemple, il y a un alignement tentant de pièces noires sur la diagonale a3-f8, qui pourrait être exploité par b3 et Ba3. Il est plus difficile pour le fou blanc de quitter la diagonale c1-h6 quand ...g5 est dans l'air.\n\nEn fait, cette position est très confortable pour les Noirs, et bien que le coup du texte soit peut-être le plus gênant pour les Blancs, il existe des alternatives suffisantes pour tenir l'équilibre ; par exemple, 16...Bb7 17 f3 Qc5+ 18 Kg2 Rd8 19 Rf2 Rd3 20 Bg5 Qb6, quand les Blancs ne peuvent éviter la perte du pion b2.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Re1",
+      "text": "Les Blancs ne font face à aucune menace immédiate et ont donc un coup ou deux pour améliorer leur position. Les priorités sont :\n\n1) soutenir les cases claires faibles et le pion e4 vulnérable ;\n\n2) ramener la dame dans la partie ;\n\n3) si possible, développer le fou c1.\n\nIl n'y aura probablement pas le temps pour tout cela, mais les deux premiers points sont plus importants que le troisième, et les Blancs devraient donc s'y concentrer. Le coup qui aide vers les deux premiers objectifs est 17 f3, visant g4 et Qf2. Alors, avec le pion b2 couvert, les Blancs peuvent s'attaquer au troisième objectif. Le coup du texte est inférieur car, bien qu'il soutienne e4, il ne fait rien pour la dame, un facteur que les Noirs exploitent rapidement. Après 17 f3 Rd8 18 g4 Rd3 19 Qf2 Qb7 (clouant à nouveau le fou c1) la position est à peu près égale, la pression noire fournissant une compensation pour le pion mais pas davantage. Cependant, il ne fait aucun doute que les Blancs doivent prendre grand soin et qu'en pratique il est plus facile de jouer le camp des Noirs. Par exemple, l'évident 20 Rd1? se heurte à 20...Rxd1+ 21 Nxd1 Nxe4! 22 fxe4 Qxe4, suivi de 22...Bb7, avec une attaque décisive. 20 Re1 est meilleur, visant 21 Re3.",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Rd8",
+      "text": "Trait aux Blancs\n\nMençant 18...Rd3, empêchant f3, quand les Blancs seront quasiment paralysés.",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "f3",
+      "text": "Les Blancs finissent de toute façon par jouer ce coup, ce qui ne fait que souligner que 17 Re1 était une perte de temps. Cependant, il n'y avait rien de mieux ; par exemple, 18 b3 Rd3 19 Na4 (19 Bb2? Kh7, menaçant 20...g5, est une ligne où les Noirs exploitent la mauvaise position de la dame blanche) 19...Rxe4! 20 Rxe4 Rd1+ 21 Kg2 Bb7 22 Nc3 (22 f3 perd sur 22...Bxe4 23 fxe4 Qb4) 22...Qd7 23 Nxd1 (après 23 f3 Nxe4 24 fxe4 Re1 25 Kf2 Qd4+ 26 Kxe1 Qxc3+ 27 Kf2 Qxa1 28 Qd8+ Kh7 29 Qd2 Qb1 les Noirs gagnent un pion tout en conservant des chances d'attaque contre le roi blanc) 23...Nxe4! (23...Qxd1 24 Bg5! et 23...Bxe4+ 24 f3 Bxf3+ 25 Kxf3 Qxd1+ 26 Kg2 Qe2+ 27 Kg1 sont moins clairs) 24 Ne3 (24 Be3 Ng5+ 25 f3 Qf5 26 Nf2 Qxf3+ 27 Kf1 Qg2+ 28 Ke2 Ba6+ 29 Kd1 Qf3+ 30 Kc2 Qxe3 31 Nd1 Qe2+ gagne pour les Noirs) 24...Ng5+ 25 f3 Qc6 26 Qh5 (26 Qg4 Bc8 27 Qh5 g6 est la même chose) 26...g6 27 Qg4 Bc8 et les Noirs gagnent.",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "Rd3",
+      "text": "Maintenant le pion f3 est faible.",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "Kg2",
+      "text": "Trait aux Noirs\n\nUne nécessité malheureuse ; les Blancs ne sont pas encore prêts à jouer Qf2, et le pion b2 est en prise si bien qu'ils ne peuvent pas jouer une pièce en e3. Le coup du texte est indésirable pour deux raisons : premièrement, si les Noirs capturent finalement en b2, ce sera avec échec, et deuxièmement le roi est placé sur la grande diagonale, ce qui augmente les chances d'une percée sacrificielle en e4.",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "Qb7",
+      "text": "Les Noirs exploitent immédiatement les deux défauts du coup Kg2. La menace immédiate 20...Rxb2+ 21 Bxb2 Qxb2+ 22 Ne2 Rd2 23 Kf2 Ba6 utilise le premier, tandis que la suite de la partie tire parti du second.\n\nCurieusement, Markowski avait atteint cette position dans une partie antérieure (Markowski-S.Ivanov, Krynica 1997) et avait perdu après 19...Qe6. Il est assez difficile de voir l'attrait de cette position sombre — vraisemblablement Markowski avait préparé une amélioration par rapport à sa partie antérieure, mais Onishchuk trouve un coup encore plus efficace pour les Noirs que 19...Qe6 et met fin une bonne fois pour toutes à cette position.",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "Re2",
+      "text": "Défendant b2. 20 Kf2 perd sur 20...Qb6+ 21 Kg2 Rxb2+, etc., tandis que 20 g4 est démoli par 20...Bxg4! 21 fxg4 Nxe4 22 Nxe4 Rxe4 23 Kg1 Qb6+ 24 Kg2 Qb4!.",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "Bg4",
+      "text": "Trait aux Blancs\n\nOn aurait pu croire qu'une explosion en e4 passerait par ...Nxe4, mais les Noirs trouvent une autre façon d'éliminer le pion f3. Ce beau coup force l'ouverture de la grande diagonale et expose le roi blanc au feu combiné des pièces lourdes noires.",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "fxg4",
+      "text": "21 Rf2 perd sur 21...Bxf3+ 22 Rxf3 Nxe4 23 Rxd3 (23 Nxe4 Rxe4 24 Rxd3 Rxh4+) 23...Nxc3+ 24 Kf2 (24 Rf3 Rxh4 25 gxh4 Ne2 conduit à de nouvelles pertes de matériel) 24...Rxh4 25 gxh4 Qb6+ 26 Ke1 (sinon la tour d3 tombe) 26...Qg1+ 27 Kd2 Ne4+ 28 Kc2 Qxh2+ 29 Bd2 Qxh4 et les quatre(!) pions passés liés sont écrasants.",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "Nxe4",
+      "text": "Trait aux Blancs\n\nAvec deux des pièces les plus importantes des Blancs, la dame et la tour a1, ne participant aucunement à la défense, l'attaque noire est irrésistible.",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "Rxe4",
+      "text": "Ou :\n\n1) Après 22 Kh3 Nf6! il n'y a pas de défense contre les nombreuses menaces noires, qui incluent 23...Rxg4 et 23...Qf3.\n\n2) 22 Kg1 Nxc3 23 bxc3 Rd1+ 24 Kf2 Qh1 et les Noirs gagnent car 25 cxb4 permet 25...Qg1+ 26 Kf3 Rf1+ 27 Ke4 Qd4#.",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "Rxe4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "Kh3",
+      "text": "Après 23 Nxe4 Qxe4+ 24 Kh3 Qe1 25 Bxh6 (25 Qe7 Rxg3+! 26 hxg3 Qh1#) 25...Qxa1 26 Qg5 Qf1+ 27 Kh4 il y a de nombreuses façons de gagner. 27...Qf6 28 Qxf6 gxf6 29 Kh3 Rd1 est l'une des plus simples, car les Noirs gagnent immédiatement un pion de l'aile dame.",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "Re1",
+      "text": "Trait aux Blancs\n\nMençant 24...Qh1 ou 24...Rg1.",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "Bxh6",
+      "text": "Prolongeant la partie de quelques coups.",
+      "isCritical": true
+    },
+    {
+      "ply": 48,
+      "san": "Rxa1",
+      "text": "Les Noirs ne voient aucune raison de refuser une tour gratuite.",
+      "isCritical": true
+    },
+    {
+      "ply": 49,
+      "san": "Qg5",
+      "text": "Au moins les Blancs ont le temps de menacer le mat avant d'abandonner.",
+      "isCritical": true
+    },
+    {
+      "ply": 50,
+      "san": "f6",
+      "text": "Arrêtant le mat avec gain de tempo.\n\n26 Qg6 Rxc3 0-1\n\nAprès 27 bxc3 Rg1 28 Kh4 Rg2 29 h3 (29 Kh3 Re2), une victoire est 29...Qf7 30 Qe4 (30 Qxf7+ Kxf7 31 Bc1 g5+ 32 Kh5 Rxg3 33 h4 Rh3 gagne le fou) 30...Rh2, suivi de ...gxh6 ou ...g5+, quand les Blancs seront une tour entière en moins.\n\nLe jeu de gambit est encore courant aujourd'hui, mais l'accent est assez différent de celui du XIXe siècle. Au lieu de viser une attaque à tout prix contre le roi adverse, les gambits modernes reposent souvent autant sur des considérations positionnelles que sur des chances d'attaque immédiates. Dans cette partie, Onishchuk a offert un pion dès le septième coup afin de libérer sa position et d'arracher l'initiative aux Blancs. En échange du pion, il a obtenu toute une gamme de petits avantages positionnels. Parmi ceux-ci, les plus significatifs étaient sa pression sur les cases claires et la capacité d'utiliser son avance de développement pour empêcher les Blancs d'achever le leur (principalement par la pression contre b2 puis e4). Markowski aurait pu rendre le pion pour égaliser, mais il a choisi la voie risquée de conserver son matériel de plus. Il n'a fallu qu'une seule erreur, au 17e coup, et l'attaque noire était déjà imparable. Onishchuk a mené son attaque à bien avec un sacrifice de pièce puissant et attractif pour prendre le contrôle des cases claires que les Blancs avaient affaiblies en acceptant le gambit.\n\nLes leçons à retenir :\n\n1) Les gambits font partie intégrante du jeu d'ouverture. Dans cette partie, un gambit s'est révélé la meilleure réponse au plan blanc d'exercer une pression positionnelle.\n\n2) Une avance de développement et quelques avantages positionnels peuvent suffire comme compensation pour un pion.\n\n3) Restreindre le développement adverse donne souvent le temps de monter une attaque puissante.\n\n4) Mener une attaque à bien peut exiger de l'imagination et la volonté de sacrifier.",
+      "isCritical": true
+    },
+    {
+      "ply": 51,
+      "san": "Qg6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 52,
+      "san": "Rxc3",
+      "text": "",
+      "isCritical": true
+    }
+  ]
+}

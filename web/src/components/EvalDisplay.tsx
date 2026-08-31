@@ -5,6 +5,8 @@ import { evalBarPercent, formatEval, formatLineEval, type PositionEval } from ".
 import type { EloSparklines as EloSparklineData, GamePerformance } from "../lib/performanceRating";
 import type { EvalStatus } from "../hooks/usePositionEval";
 import type { PerformanceStatus } from "../hooks/usePerformanceRating";
+import type { Lang } from "../lib/lang";
+import { fill, ui } from "../lib/uiCopy";
 import { EloSparklines } from "./EloSparklines";
 
 type GaugeProps = {
@@ -17,6 +19,7 @@ type GaugeProps = {
   sparklines?: EloSparklineData;
   maxPly?: number;
   hidden?: boolean;
+  lang: Lang;
 };
 
 function formatSideElo(value: number | null, loading: boolean): string {
@@ -34,7 +37,9 @@ export function EvalGauge({
   sparklines,
   maxPly = 0,
   hidden = false,
+  lang,
 }: GaugeProps) {
+  const t = ui(lang);
   const label = formatEval(evalData);
   const barPct = evalBarPercent(evalData);
   const isLoading = status === "loading";
@@ -59,33 +64,29 @@ export function EvalGauge({
         <div className="eval-bar-white" style={{ height: `${barPct}%` }} />
       </div>
       <div className="eval-readout">
-        <span className="eval-label">Eval</span>
+        <span className="eval-label">{t.eval}</span>
         <span
           className={`eval-value${isLoading ? " is-loading" : ""}${isError ? " is-error" : ""}`}
           title={
             isError
-              ? "Engine unavailable"
+              ? t.engineUnavailable
               : atStart
-                ? "Stockfish scores the starting position about +0.3 for White — moving first, not a mistake."
+                ? t.whiteMovesFirst
                 : evalData?.depth
-                  ? `Stockfish · depth ${evalData.depth} · White's perspective`
-                  : "Stockfish · White's perspective"
+                  ? fill(t.stockfishDepth, { n: evalData.depth })
+                  : t.eval
           }
         >
           {isError ? "—" : isLoading && !evalData ? "…" : label}
         </span>
         {atStart && !isLoading && !isError ? (
-          <span className="eval-hint">White moves first</span>
+          <span className="eval-hint">{t.whiteMovesFirst}</span>
         ) : showPerformance ? (
           <div
             className="eval-performance"
-            title={
-              performanceSource === "precomputed"
-                ? "Full-game Lucas Chess Elo (batch Stockfish analysis)"
-                : "Live Lucas Chess Elo from move quality so far"
-            }
+            title={performanceSource === "precomputed" ? t.lucasElo : t.runningElo}
           >
-            <span className="eval-performance-label">Est. Elo</span>
+            <span className="eval-performance-label">{t.estElo}</span>
             <div className="eval-performance-values">
               <span className="eval-performance-side">
                 W {formatSideElo(performance.white.elo, perfLoading)}
@@ -109,9 +110,11 @@ type ScenarioProps = {
   eval: PositionEval | null;
   status: EvalStatus;
   hidden?: boolean;
+  lang: Lang;
 };
 
-export function EngineBestLine({ fen, eval: evalData, status, hidden = false }: ScenarioProps) {
+export function EngineBestLine({ fen, eval: evalData, status, hidden = false, lang }: ScenarioProps) {
+  const t = ui(lang);
   const isLoading = status === "loading";
 
   const primary = useMemo(() => {
@@ -150,9 +153,10 @@ export function EngineBestLine({ fen, eval: evalData, status, hidden = false }: 
       aria-hidden={hidden}
       tabIndex={lines.length > 0 ? 0 : undefined}
     >
-      <span className="engine-scenario-label">Best line</span>
+      <span className="engine-scenario-label">{t.bestLine}</span>
       <span className="engine-scenario-moves">
-        {primary?.moves || (isLoading ? "Analyzing…" : status === "error" ? "Engine unavailable" : "…")}
+        {primary?.moves ||
+          (isLoading ? t.analyzing : status === "error" ? t.engineUnavailable : "…")}
       </span>
       {lines.length > 0 ? (
         <span className="engine-alt-lines-tooltip" role="tooltip">

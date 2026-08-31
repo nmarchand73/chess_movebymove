@@ -1,0 +1,487 @@
+{
+  "id": "nunn-010",
+  "book": "nunn",
+  "gameNum": 10,
+  "title": "Partie 10 : J. Nunn vs C. Ward",
+  "section": "Jeu d'attaque",
+  "players": {
+    "white": "J. Nunn",
+    "black": "C. Ward"
+  },
+  "event": "British League (4NCL) 1997/8",
+  "opening": "Défense sicilienne, variante du Dragon",
+  "eco": "B78",
+  "pgnPath": "data/pgn/nunn/10.pgn",
+  "result": "1-0",
+  "moveCount": 77,
+  "annotatedMoves": 76,
+  "fullText": "Roques opposés\n\nIl est souvent difficile de décider s’il faut attaquer avec les pièces ou avec les pions, car chaque méthode a ses avantages et ses inconvénients. Une attaque de pièces peut souvent être montée rapidement, mais à moins qu’il n’y ait déjà des faiblesses dans la position roquée adverse, il peut être difficile de percer avec les seules pièces. Une attaque de pions, en revanche, est beaucoup plus lente, mais une fois qu’elle arrive, elle est souvent irrésistible. Les pions qui avancent ouvrent des brèches dans la position roquée adverse, que les pièces de l’attaquant peuvent alors exploiter. Autre point : tant que les pions n’ont pas bougé, il est difficile pour l’attaquant de faire intervenir ses tours — cela peut exiger une manœuvre du type Re3-g3. Une attaque de pions crée naturellement de l’espace pour que les tours opèrent efficacement depuis la première rangée.\n\nLa position relative des rois est également importante. Lorsque les rois ont roqué du même côté, les attaques de pions sont moins probables, car elles exposent le propre roi de l’attaquant. Ce n’est que si le centre est bloqué, ou si l’attaquant dispose d’une structure centrale très solide, qu’il peut envisager une attaque de pions. En revanche, les roques opposés conduisent beaucoup plus souvent à des attaques de pions. La question principale est alors de savoir combien de pions faire avancer. Trop, et l’attaque progressera à pas de tortue. La règle de base est que l’attaquant doit avancer juste assez de pions pour créer un affaiblissement décisif dans la position roquée adverse — tout surplus est redondant. Très souvent, un seul pion suffit. Dans la partie suivante, deux pions suffisent à faire le travail, car ils convergent sur la case g6.\n\nJ. Nunn – C. Ward\n\nBritish League (4NCL) 1997/8\n\nDéfense sicilienne, variante du Dragon\n\n1 e4\n\n1...c5\n\n2 Nf3\n\nPour les commentaires sur les coups jusqu’ici, voir la partie 8.\n\n2...d6\n\nCe coup est une alternative tout aussi bonne à 2...Nc6, joué dans les parties 8 et 9. Les Noirs ont l’intention de jouer ...Nf6, attaquant le pion e4, mais empêchent d’abord la réponse e5.\n\n3 d4\n\nTout comme dans les parties 8 et 9, les Blancs sont prêts à échanger un pion central pour accélérer le développement de leurs pièces mineures.\n\n3...cxd4\n\nLes Noirs sont également satisfaits de cet échange, qui leur donne une majorité de pions au centre et une colonne c semi-ouverte.\n\n4 Nxd4\n\n4...Nf6\n\nUn coup de développement naturel, qui attaque aussi e4.\n\n5 Nc3\n\nLa façon la plus souple de défendre e4.\n\n5...g6\n\nCe coup introduit la variante du Dragon, l’un des systèmes d’ouverture les plus controversés. L’idée de base est assez logique : les Noirs veulent développer leur fou activement sur la grande diagonale, plutôt qu’en e7, comme dans la plupart des autres lignes de la Sicilienne. Les Blancs peuvent contrer le Dragon de nombreuses façons, mais le plan le plus tranchant et, selon la théorie, le meilleur, consiste à viser 0-0-0 et une attaque directe contre le roi noir. Cela mène à un jeu très à double tranchant, où l’attaque à l’aile roi des Blancs et la contre-attaque à l’aile dame des Noirs se disputent la course pour frapper les premiers. Les adeptes du Dragon tendent à être fanatiques dans leur soutien à l’ouverture. Jouer le Dragon est manifestement très addictif, car de nombreux joueurs du Dragon qui commencent en utilisateurs occasionnels se révèlent incapables de se défaire de l’habitude et restent coincés avec cette ouverture pour le reste de leur vie. La cause du Dragon a progressé lorsque Kasparov l’a employé dans son match de championnat du monde PCA contre Anand en 1995, mais malgré cet aval, il n’a séduit qu’une minorité des grands maîtres de premier plan. Soit ils le jugent trop risqué, soit peut-être craignent-ils de s’attacher à une ouverture particulière.\n\n6 Be3\n\nSi les Blancs veulent lancer une attaque contre le roi noir, alors 0-0-0 sera indispensable, aussi commencent-ils immédiatement à développer leurs pièces de l’aile dame. Leur plan d’attaque de base contiendra deux éléments clés :\n\n1) l’avance du pion h pour ramollir l’aile roi noire et faire entrer la tour h1 dans l’attaque depuis sa case initiale ;\n\n2) jouer Bh6 pour éliminer le fou g7, qui est à la fois le principal défenseur de l’aile roi noire et une pièce très utile pour soutenir la contre-attaque à l’aile dame. Cette méthode d’attaque d’une position en fianchetto à l’aile roi n’est pas limitée au Dragon, et elle apparaît souvent dans la défense Pirc (1 e4 d6) et dans certaines lignes de la défense est-indienne (surtout le Sämisch — voir la partie 14).\n\n6...Bg7\n\nLe fou du Dragon s’installe sur sa diagonale favorite. Bien qu’en ce moment de nombreuses pièces se trouvent entre g7 et l’aile dame blanche, d’innombrables parties ont été décidées par la puissance du fou du Dragon, et tous les joueurs confrontés au Dragon ont appris à le traiter avec respect. La solution idéale, du point de vue des Blancs, est d’échanger le fou par Bh6, mais cela peut ne pas être si facile à réaliser dans de bonnes conditions. Dans le Dragon, les cases noires ont une importance particulière, et les deux camps seront soucieux d’éviter l’échange de leur fou des cases noires (sauf éventuellement contre le fou des cases noires adverse).\n\n7 f3\n\nC’est une précaution nécessaire. Si les Blancs jouent 7 Qd2, alors les Noirs peuvent harceler le fou des cases noires blanc par 7...Ng4. Notez que les Noirs n’auraient pas pu jouer 6...Ng4 car la réponse 7 Bb5+ leur aurait coûté du matériel. Il est intéressant d’observer que dans les lignes de la Pirc et de l’Est-indienne incarnant la même stratégie, les Blancs jugent aussi nécessaire de jouer le précautionnaire f3. Dans tous les cas, le but n’est pas seulement de sécuriser le fou des cases noires, mais aussi de solidifier le centre en préparation d’une attaque de flanc.\n\n7...Nc6\n\nLa case la plus naturelle pour le cavalier, puisque l’attaque sur d4 rendra plus difficile aux Blancs d’organiser Bh6.\n\n8 Qd2\n\nLes Blancs préparent à la fois le grand roque et un éventuel Bh6.\n\n8...O-O\n\nMême si les Noirs sont bien conscients des intentions des Blancs, il n’y a pas de meilleur endroit pour leur roi.\n\n9 Bc4\n\nCe coup peut paraître incohérent. Pourquoi les Blancs ne se mettent-ils pas simplement au travail et ne jouent-ils pas 9 0-0-0 sans plus attendre ? La réponse est que les Noirs peuvent alors orienter la partie dans de nouvelles voies en jouant 9...d5. Il n’est pas clair si les Blancs ont un avantage dans ce cas, mais il est clair qu’ils ont été détournés du plan d’une attaque directe sur la colonne h. C’est pourquoi les Blancs préfèrent souvent jouer le coup du texte, qui exclut ...d5. Autre point positif : le fou est dirigé vers l’aile roi noire. Il y a deux principaux points négatifs. Le premier est que les Blancs doivent dépenser deux tempos à déplacer leur fou, puisque Bb3 sera inévitable tôt ou tard. Le second est que le fou peut lui-même devenir vulnérable à l’attaque, par exemple si les Noirs parviennent à pousser leurs pions a et b. Les pour et les contre s’équilibrent plus ou moins, ce qui explique pourquoi 9 0-0-0 et 9 Bc4 sont tous deux fréquemment vus en pratique.\n\n9...Bd7\n\nLa colonne c semi-ouverte sera l’une des principales avenues d’attaque des Noirs, aussi est-il logique de dégager c8 pour l’une des tours.\n\n10 O-O-O\n\nLes roques opposés mènent en général à un jeu tranchant. Lorsque les rois ont roqué du même côté, une attaque impliquant les pions comporte un risque, car les pions que l’on avance sont ceux qui défendent son propre roi. Il n’y a pas de tel frein lorsque les rois sont de côtés opposés de l’échiquier, et il est tout à fait normal que les deux joueurs lancent une attaque dès que possible. Une telle situation ressemble à une course ; celui qui parvient à porter le premier coup réel a de bonnes chances de gagner. Deux points supplémentaires. Gagner du matériel a moins d’importance dans de telles situations que d’habitude. Il ne sert à rien de gagner du matériel si le résultat est l’effondrement de son attaque, laissant l’adversaire libre de viser le mat. Ensuite, devoir ramener ses pièces de l’attaque à des fins défensives équivaut souvent à une résignation, car l’adversaire a alors tout le temps nécessaire pour percer. Cela ne signifie pas qu’aucun coup défensif ne doive être joué ; par exemple, il vaut clairement la peine de jouer un coup défensif s’il retarde l’attaque adverse de deux coups. Cela signifie en revanche que chaque coup défensif doit être soigneusement pesé pour voir s’il vaut le tempo qu’il consomme.\n\n10...Qa5\n\nCe coup un peu inhabituel est un favori de toujours de Chris Ward. L’idée est de déplacer la tour f8 en c8, ce qui a l’avantage que l’autre tour peut aussi se joindre à l’attaque, par exemple en soutenant ...b5 avec ...Rab8. Un second avantage est que les Noirs peuvent en général conserver leur fou « Dragon » clé en répondant à Bh6 par ...Bh8. Les inconvénients sont doubles : d’abord, la tour f8 est parfois utile à des fins défensives et l’éloigner de l’aile roi laisse cette partie de l’échiquier un peu à court de défenseurs. Ensuite, il n’est pas vraiment clair que a5 soit une bonne case pour la dame, car dans certaines lignes elle est vulnérable à l’attaque. Nous verrons comment tous ces facteurs jouent un rôle dans la partie.\n\nHonnêtement, je juge ce système quelque peu douteux pour les Noirs — en fait, il est assez difficile de mettre le doigt sur une erreur des Noirs dans cette partie, autre que leur choix de variante d’ouverture.\n\nLa ligne la plus courante est 10...Ne5 11 Bb3 Rc8.\n\n11 h4\n\nLes Blancs ne perdent pas de temps pour lancer leur attaque.\n\n11...Ne5\n\nC’est la case normale pour le cavalier dans cette variante. Dans certains cas les Noirs joueront finalement ...Nc4 pour forcer l’échange du fou des cases blanches, tandis que dans d’autres lignes le cavalier reste simplement en e5, défendant quelques cases à l’aile roi tout en gardant l’option d’aider à l’aile dame.\n\n12 Bb3\n\n12...Rfc8\n\nLes Noirs suivent le plan initié au coup 10.\n\n13 g4\n\nLes Blancs ont ici un assez large choix de coups. Le plus direct est peut-être 13 h5. Il est assez normal dans le Dragon que les Blancs offrent leur pion h, car en le prenant les Noirs non seulement perdent du temps avec leur cavalier, mais ouvrent aussi la colonne h. Après 13...Nxh5, il est tentant de jouer 14 Bh6 puisque à ce moment les Noirs ne peuvent éviter l’échange de fous par 14...Bh8 en raison de 15 Rxh5 gxh5 16 Qg5+, quand les Blancs gagnent la dame noire. Cependant, les Noirs ont une réponse plus forte dans le surprenant 14...Nd3+ (14...Bxh6 est aussi jouable), qui mène à une position satisfaisante pour les Noirs après 15 Kb1 Nxb2 16 Kxb2 Bxh6 17 Qxh6 Rxc3.\n\nC’est pourquoi le coup le plus populaire pour les Blancs ici est 13 Kb1, visant encore à jouer h5, mais en ayant d’abord mis le roi blanc hors de danger. Ce coup soulève la question intéressante de savoir quand les Blancs doivent jouer un coup consolidant comme Kb1. On doit certainement réfléchir bien davantage à de tels coups dans les situations de roques opposés qu’on ne le ferait, disons, à Kh1 lorsque les deux rois sont à l’aile roi. Quand les rois sont de côtés opposés, chaque tempo est vital, et un coup comme Kb1 ne doit pas être joué sans une raison concrète. Une raison typique serait d’anticiper le sacrifice d’échange ...Rxc3, bxc3 Qxc3, quand Kb1 est normalement forcé de toute façon à cause de l’échec menaçant en a1. Si les Blancs doivent de toute façon jouer Kb1, il peut être moins engageant de s’en débarrasser immédiatement. Dans la position actuelle, 13 Kb1 a certainement un sens ; nous avons déjà vu une ligne avec un échec inattendu au roi en c1, et si les Blancs jouent Bh6 à un moment donné, les Noirs pourraient bien répondre ...Bxh6 et ...Rxc3. Cependant, les arguments sont assez équilibrés.\n\nJuste avant de jouer cette partie, je me suis rappelé une conversation que j’avais eue avec Chris Ward quelques mois plus tôt. Nous prenions le petit-déjeuner ensemble le lendemain de l’une de nos batailles dans le Dragon (à cette occasion, j’avais joué 13 h5). Chris a remarqué qu’il était surprenant que 13 Kb1 soit si populaire, car 13 g4 semblait un coup plus utile. En y réfléchissant, cela paraissait un point valide, aussi ai-je décidé d’essayer sa propre recommandation ! Le coup g4 vise avant tout à jouer h5 sans sacrifier un pion, mais il a d’autres bons points : il permet à la dame blanche de basculer en h2, et dans certaines lignes il soutient le sacrifice de pièce Nf5.\n\n13...b5\n\nIl y a ici trois plans possibles pour les Noirs. Le plus évident est 13...Nc4 14 Bxc4 Rxc4, mais après 15 h5 Rac8 16 Nb3 Qa6 17 hxg6 fxg6 18 e5 les Blancs ont une attaque dangereuse, car 18...dxe5 perd une pièce face à 19 g5, tandis que si le cavalier f6 bouge les Blancs peuvent répondre 19 Qh2.\n\nUne autre option est le surprenant 13...Rc4!?. Les lignes après ce coup illustrent bien les thèmes typiques du Dragon :\n\n1) 14 Bxc4 est douteux, car les Noirs peuvent percer sur les cases noires : 14...Nxc4 15 Qd3 Qb4 16 Nb3 Nxe4! (un sacrifice surprenant sur une case triplement défendue) 17 fxe4 (17 Nxe4 Nxb2 18 Qd5 Qa3 donne aux Noirs une attaque très dangereuse en échange de la tour, tandis que 17 Qxe4 Bxc3 18 Bd4 Nxb2 19 Bxc3 Qxc3 est simplement mauvais pour les Blancs) 17...Bxc3 18 Bd4 (18 Qxc3 Qxc3 19 bxc3 Nxe3 favorise les Noirs) 18...Bxd4 19 Qxd4 Bxg4 est peu clair. Les Noirs ont deux pions pour l’échange mais les Blancs ont encore des chances d’attaque.\n\n2) 14 g5! Nh5 (14...Rxd4? 15 Bxd4 Nxf3 16 Qf2! Nxd4 17 Rxd4 et la faiblesse de f7 est fatale pour les Noirs) 15 f4 Rxd4 (15...Nf3? 16 Nxf3 Rxc3 ressemble à une autre combinaison typique du Dragon fondée sur une percée sur les cases noires ; cependant, de telles combinaisons ne marchent pas toujours : ici 17 e5! fait s’effondrer la position noire) 16 Qxd4 Ng4 17 e5 (17 Qd3!? est aussi possible) 17...Ng3 18 Rhe1 Nf5 19 Qd2 Nfxe3 20 Rxe3 Nxe3 21 Qxe3 avec un certain avantage aux Blancs.\n\nAvec le coup joué, les Noirs visent encore ...Nc4, mais maintenant avec l’idée de reprendre en c4 avec le pion. Cela donnera aux Noirs une attaque toute prête sur la colonne b. Les deux problèmes de ce plan sont d’abord qu’il est un peu lent et ensuite que, grâce à l’omission de Kb1 par les Blancs, une dame noire arrivant en b2 peut ne pas faire mat.\n\n14 h5\n\nLes Blancs poursuivent l’attaque.\n\n14...Nc4\n\n15 Bxc4\n\nC’est le meilleur. Après 15 Qd3 Ne5 les Blancs n’ont rien de mieux que de répéter les coups, car jouer 16 Qe2 invite positivement les Noirs à sacrifier en c3.\n\n15...bxc4\n\nMaintenant les Blancs ont deux coups libres avant que les Noirs s’alignent contre b2.\n\n16 Bh6\n\nUne étape logique. Soit le fou noir est échangé, soit les Blancs transfèrent leur fou sur une case plus active avec gain de tempo. Notez que les Blancs n’ont plus à s’inquiéter de ...Rxc3, aussi n’y a-t-il pas de problème à ce que la dame blanche soit attirée ailleurs si les Noirs jouent ...Bxh6.\n\n16...Bh8\n\nC’est forcé car ici les Noirs ne peuvent permettre l’échange de leur fou défensif ; par exemple, 16...Rab8 17 Bxg7 Kxg7 18 hxg6 fxg6 19 Qh6+ Kg8 20 g5 Nh5 21 Rxh5 gxh5 22 g6 hxg6 23 Qxg6+ Kf8 24 Rg1 mate, ou 16...Bxh6 17 Qxh6 g5 18 Nf5 avec une position gagnante.\n\n17 Nf5\n\nNous avons atteint un moment critique car les Blancs menacent maintenant le mat en un coup en e7.\n\n17...Re8\n\nC’est peut-être le plus exigeant, bien que les complications qui en résultent favorisent les Blancs. L’alternative est 17...Bxf5, mais cela paraît aussi insatisfaisant pour les Noirs en vue de 18 exf5! (18 gxf5 Rab8 19 hxg6 fxg6 20 fxg6 hxg6 21 Rdg1 Kf7 22 Qg2 Rg8 est peu clair car l’attaque blanche a été stoppée) 18...Rab8 19 hxg6 fxg6 (19...hxg6 20 fxg6 Qb4 21 Qe3! Qxb2+ 22 Kd2 donne aux Blancs un avantage clair) 20 Qe3 (l’avantage clé de jouer exf5 plutôt que gxf5 est que les Blancs menacent maintenant le mat en un) 20...Qe5 21 Qxe5 dxe5 22 g5 Ne8 23 Nd5 et la finale favorise les Blancs.\n\n18 Qg5\n\nAvant la partie, j’ai consulté quelques numéros récents d’Informator pour voir s’il y avait eu d’importantes parties avec la ligne 10...Qa5. Mon attention a été attirée par la partie par correspondance Pavlov-Vaskin, qui avait continué 18 Bg7 Bxf5 19 Bxh8 Kxh8 20 exf5 Rg8 21 Rde1 Rae8 22 hxg6 fxg6 23 Qh6 Rg7 24 fxg6 Rb8. Ici les Blancs ont joué 25 Qf4 Qb4 26 Nd1 (pas 26 Rxe7? Qxb2+ 27 Kd2 Qxc3+) et ont gagné après une longue et dure lutte. Il n’a pas fallu longtemps pour voir que les Noirs sont tout simplement perdus après 25 Qh4!. Cela menace encore 26 Rxe7 Rxe7 27 Qxf6+, contre quoi les Noirs n’ont guère de défense. Si les Noirs jouent 25...Qb4 comme dans la partie, alors les Blancs gagnent par 26 Rxe7 Qxb2+ 27 Kd2 puisque les Noirs n’ont plus le sacrifice en c3.\n\nÀ l’échiquier, je me frottais mentalement les mains de plaisir à l’idée de ressortir ce coup contre Chris Ward, quand j’ai décidé de vérifier les coups antérieurs de cette ligne. J’ai aussitôt reçu une douche froide ; après 18 Bg7, les Noirs peuvent simplement répondre 18...gxf5.\n\nLes Noirs rencontreront alors 19 Qg5 par 19...h6! 20 Bxh6+ Kh7, quand les Noirs sont une pièce en plus pour très peu. Clairement Chris avait vu cela et était préparé avec sa propre surprise. Malheureusement pour lui, la position est en fait mauvaise pour les Noirs, pourvu que les Blancs trouvent le 18e coup correct. Après la partie, j’ai regardé à nouveau mon Informator et j’ai remarqué une petite note que je n’avais pas vue auparavant, qui donnait 18...gxf5 comme peu clair après 19 Qg5 h6 ou 19 gxf5 Bxg7 20 h6 Bf8, ce dernier coup portant le symbole « seul coup ». Comme déjà noté, la première de ces lignes laisse les Noirs une pièce en plus pour presque rien, tandis que la seconde est encore plus saugrenue. Si les Noirs jouent 20...Bh8 21 Rhg1+ Kf8 au lieu de 20...Bf8, alors ils sont deux pièces en plus pour rien. Les Blancs ne peuvent créer une menace qu’en triplant sur la colonne g, mais même s’ils y parviennent, les Noirs jouent simplement ...e6 et toute l’attaque s’effondre. Si quelqu’un a besoin d’un avertissement cinglant que l’analyse publiée doit toujours être vérifiée avec soin, le voici.\n\nHeureusement pour moi, il n’a pas fallu longtemps pour trouver le puissant coup du texte. La menace de Nxe7+ force les Noirs à déplacer leur dame, mais l’effet net est que les Blancs ont transféré leur dame sur une position plus agressive avec gain de tempo.\n\n18...Qb6\n\nBien sûr, les Noirs placent leur dame sur la colonne b afin de poursuivre leur attaque contre b2 mais, comme noté plus haut, ...Qxb2+ n’est pas la fin du monde pour les Blancs et dans bien des cas on peut simplement l’ignorer.\n\n19 hxg6\n\nLe moment est maintenant mûr pour la combinaison Bg7, mais d’abord les Blancs ouvrent la colonne h.\n\n19...fxg6\n\n19...hxg6 20 Bf8! est immédiatement décisif, aussi est-ce forcé.\n\n20 Bg7\n\nOn ne pourrait souhaiter de démonstration plus vivante de l’importance d’éliminer le fou défensif noir. Les Blancs sont prêts à sacrifier une pièce pour s’en débarrasser.\n\n20...Bxg7\n\n20...Rab8 21 Bxh8 Qxb2+ 22 Kd2 Kxh8 perd face à 23 Rxh7+! (23 Nxe7 est aussi très fort ; par exemple, 23...Rxe7 24 Qxf6+ Rg7 25 Rb1) 23...Nxh7 24 Rh1 (menaçant 25 Rxh7+, entre autres) 24...Bxf5 25 Qh6 Kg8 26 Qxh7+ Kf8 27 gxf5 avec un mat rapide à suivre.\n\n20...Bxf5 21 Bxh8 Kxh8 22 gxf5 est aussi très gênant pour les Noirs ; par exemple, 22...Rab8 23 fxg6 Qxb2+ 24 Kd2 (menaçant 25 Rxh7+ Nxh7 26 Qh6) 24...Qb6 (24...Rg8 25 Qxf6+!) 25 Ke2! (arrêtant les échecs gênants et renouvelant la menace) 25...Rb7 26 Nd5 avec une attaque gagnante.\n\n21 Nxg7\n\n21...Reb8\n\nLes Noirs décident de décliner la pièce offerte. Après 21...Kxg7 22 Nd5! il n’y a pas de bonne case pour la dame :\n\n1) 22...Qa5 23 Qh6+ Kf7 24 Nxf6 Kxf6 (24...exf6 25 Rxd6 Be6 26 Qxh7+ Kf8 27 Rxe6 Rxe6 28 Qb7! et les Blancs prennent la tour a8 avec échec) 25 Rd5 Qb6 26 g5+ et les Blancs gagnent.\n\n2) 22...Qb7 23 Nxf6 exf6 24 Qh6+ Kf7 25 Qxh7+ Ke6 26 Qxg6 avec une attaque gagnante.\n\n3) 22...Qc5 23 Qh6+ Kf7 24 g5! Nh5 (24...Nxd5 25 Qxh7+ gagne pour les Blancs, tout comme 24...Ng8 25 Qxh7+ Kf8 26 Qxg6) 25 Rxh5 gxh5 26 Qxh7+ Kf8 27 g6 Be6 28 Qh8+ Bg8 29 Qh6#.\n\n4) 22...Qb5 23 Qh6+ Kf7 24 g5 gagne comme après 22...Qc5.\n\n22 Nh5\n\nLes Blancs ignorent la menace noire sur b2 et se concentrent sur l’élimination progressive des défenseurs de l’aile roi noire. Une fois le cavalier f6 disparu, les menaces blanches sur la colonne h seront extrêmement fortes. Notez que 22 Nf5 est mauvais, car les Noirs peuvent éliminer le cavalier avec leur fou, qui n’est pas une pièce défensive vitale.\n\n22...Nxh5\n\n22...Qxb2+ 23 Kd2 n’aide pas, puisque dans certaines lignes les Blancs peuvent effectivement utiliser la colonne b pour leur attaque :\n\n1) 23...Rf8 24 Nxf6+ Rxf6 (24...exf6 25 Qd5+ Kh8 26 Rb1 Qa3 27 Rb7 Rad8 28 Qe6! est une jolie variante qui gagne pour les Blancs) 25 Qd5+ Kg7 26 Qxa8 Rxf3 27 Rxh7+! (sinon les Blancs pourraient même perdre) 27...Kxh7 28 Rh1+ Kg7 29 Qh8+ Kf7 30 Rh7+ Ke6 31 Rxe7+ Kxe7 32 Nd5+ gagnant la dame.\n\n2) 23...Nxh5 24 gxh5 et maintenant :\n\n2a) 24...Be8 perd face à 25 hxg6 Bxg6 26 Rxh7 Kxh7 27 Rh1+ Kg7 28 Qxe7+ Kg8 29 Qf6.\n\n2b) 24...Qb6 25 Ke2! Qb2 (25...Be8 est aussi rencontré par 26 Nd5) 26 Nd5 et les Blancs gagnent.\n\n3) 23...Qb6 24 Nxf6+ exf6 25 Qd5+ Kg7 26 Rxh7+! Kxh7 27 Qf7+ Kh6 28 Rh1+ Kg5 29 f4+ Kxg4 30 Qxg6+ Kf3 31 Qh5+ Bg4 32 Rh3+ Kxf4 33 Nd5+ Kxe4 34 Nxf6+ Kf4 35 Qxg4+, etc.\n\n23 gxh5\n\n23...Be8\n\n23...Qxb2+ 24 Kd2 Be8 transpose dans la ligne « 2a » de la note précédente.\n\n24 b3\n\nLe coup le plus simple et le plus efficace. Maintenant que le dangereux fou des cases noires a disparu, les Blancs peuvent se permettre ce coup défensif, qui stoppe net le jeu noir à l’aile dame. Les Blancs, de leur côté, conservent une attaque massive à l’aile roi — la menace immédiate est 25 Nd5.\n\n24 hxg6 Bxg6 25 Rxh7 Kxh7 26 Rh1+ Kg7 27 Qxe7+ Bf7 ne mène ici qu’à la nulle, puisque la dame noire contrôle g1.\n\n24...cxb3\n\n25 axb3\n\nIl n’y a pas de réelle défense contre Nd5.\n\n25...Qc5\n\n25...e6 26 Qf6 et 25...Bf7 26 hxg6 Bxg6 27 Nd5 sont aussi sans espoir pour les Noirs.\n\n26 Nd5\n\nAvec une double attaque contre e7.\n\n26...Rb7\n\n26...Qa3+ 27 Kd2 Qa5+ 28 b4 met fin aux échecs. Après 28...Rxb4 nous avons un écho de l’idée du coup 18 en ce que les Blancs peuvent gagner la dame noire avec un échec de cavalier.\n\n27 Nxe7+\n\nRamassant l’échange.\n\n27...Rxe7\n\nSinon, 27...Kg7 (27...Kf7 28 hxg6+ hxg6 29 Rh7+) 28 Nf5+ Kg8 29 hxg6 Bxg6 30 Qf6 Bxf5 31 Rdg1+ Bg6 32 Rxg6+ hxg6 33 Rh8#.\n\n28 Qxe7\n\nLa situation matérielle des Noirs est sans espoir.\n\n28...Rc8\n\n29 Rh2\n\n29...gxh5\n\n30 Rg2+\n\n30...Bg6\n\n31 Rxd6\n\n31...Qe3+\n\n32 Rgd2\n\n32...Rf8\n\n33 Rd8\n\n33...Rxd8\n\n34 Qxd8+\n\n34...Kg7\n\n35 Qd4+\n\nLes Blancs auraient peut-être pu gagner plus vite par une autre méthode, mais on ne peut pas se tromper en liquidant vers une finale trivialement gagnée.\n\n35...Qxd4\n\n36 Rxd4\n\n36...h4\n\n37 Kd2\n\n37...h3\n\n38 Ke3\n\n38...Kh6\n\n39 Kf4\n\n39...1-0\n\nCette partie a été décidée à un stade relativement précoce. Ayant choisi une ouverture très tranchante, les Noirs se sont engagés dans une ligne un peu inhabituelle. Pour commencer, les Blancs ont simplement suivi le plan d’attaque standard contre un fianchetto à l’aile roi. Ce n’est qu’au coup 18 que les Blancs ont vraiment dû réfléchir dur et trouver la façon la plus précise de continuer. À ce stade les Blancs avaient rassemblé un impressionnant dispositif de pièces d’attaque à l’aile roi, mais il n’était toujours pas si facile de percer. Les 20e et 22e coups des Blancs ont été la clé ; à eux deux, ces deux coups ont éliminé les deux principaux défenseurs de l’aile roi noire. Après cela les Noirs étaient toujours en difficulté, et bientôt l’attaque a percé.\n\nLes leçons ici sont :\n\n1) Les roques opposés aiguisent grandement le jeu. Dans la course d’attaque qui s’ensuit, chaque tempo est vital.\n\n2) Le plan h4-h5 et Bh6 est une méthode typique d’attaque d’une position en fianchetto à l’aile roi.\n\n3) Il peut valoir un matériel considérable d’éliminer une pièce défensive clé.\n\n4) Ne croyez pas tout ce que vous voyez imprimé.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Roques opposés\n\nIl est souvent difficile de décider s’il faut attaquer avec les pièces ou avec les pions, car chaque méthode a ses avantages et ses inconvénients. Une attaque de pièces peut souvent être montée rapidement, mais à moins qu’il n’y ait déjà des faiblesses dans la position roquée adverse, il peut être difficile de percer avec les seules pièces. Une attaque de pions, en revanche, est beaucoup plus lente, mais une fois qu’elle arrive, elle est souvent irrésistible. Les pions qui avancent ouvrent des brèches dans la position roquée adverse, que les pièces de l’attaquant peuvent alors exploiter. Autre point : tant que les pions n’ont pas bougé, il est difficile pour l’attaquant de faire intervenir ses tours — cela peut exiger une manœuvre du type Re3-g3. Une attaque de pions crée naturellement de l’espace pour que les tours opèrent efficacement depuis la première rangée.\n\nLa position relative des rois est également importante. Lorsque les rois ont roqué du même côté, les attaques de pions sont moins probables, car elles exposent le propre roi de l’attaquant. Ce n’est que si le centre est bloqué, ou si l’attaquant dispose d’une structure centrale très solide, qu’il peut envisager une attaque de pions. En revanche, les roques opposés conduisent beaucoup plus souvent à des attaques de pions. La question principale est alors de savoir combien de pions faire avancer. Trop, et l’attaque progressera à pas de tortue. La règle de base est que l’attaquant doit avancer juste assez de pions pour créer un affaiblissement décisif dans la position roquée adverse — tout surplus est redondant. Très souvent, un seul pion suffit. Dans la partie suivante, deux pions suffisent à faire le travail, car ils convergent sur la case g6.\n\nJ. Nunn – C. Ward\n\nBritish League (4NCL) 1997/8\n\nDéfense sicilienne, variante du Dragon"
+    },
+    {
+      "ply": 1,
+      "san": "e4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "c5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "Nf3",
+      "text": "Pour les commentaires sur les coups jusqu’ici, voir la partie 8.",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "d6",
+      "text": "Ce coup est une alternative tout aussi bonne à 2...Nc6, joué dans les parties 8 et 9. Les Noirs ont l’intention de jouer ...Nf6, attaquant le pion e4, mais empêchent d’abord la réponse e5.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "d4",
+      "text": "Tout comme dans les parties 8 et 9, les Blancs sont prêts à échanger un pion central pour accélérer le développement de leurs pièces mineures.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "cxd4",
+      "text": "Les Noirs sont également satisfaits de cet échange, qui leur donne une majorité de pions au centre et une colonne c semi-ouverte.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "Nxd4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "Nf6",
+      "text": "Un coup de développement naturel, qui attaque aussi e4.",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "Nc3",
+      "text": "La façon la plus souple de défendre e4.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "g6",
+      "text": "Traits aux Blancs\n\nCe coup introduit la variante du Dragon, l’un des systèmes d’ouverture les plus controversés. L’idée de base est assez logique : les Noirs veulent développer leur fou activement sur la grande diagonale, plutôt qu’en e7, comme dans la plupart des autres lignes de la Sicilienne. Les Blancs peuvent contrer le Dragon de nombreuses façons, mais le plan le plus tranchant et, selon la théorie, le meilleur, consiste à viser 0-0-0 et une attaque directe contre le roi noir. Cela mène à un jeu très à double tranchant, où l’attaque à l’aile roi des Blancs et la contre-attaque à l’aile dame des Noirs se disputent la course pour frapper les premiers. Les adeptes du Dragon tendent à être fanatiques dans leur soutien à l’ouverture. Jouer le Dragon est manifestement très addictif, car de nombreux joueurs du Dragon qui commencent en utilisateurs occasionnels se révèlent incapables de se défaire de l’habitude et restent coincés avec cette ouverture pour le reste de leur vie. La cause du Dragon a progressé lorsque Kasparov l’a employé dans son match de championnat du monde PCA contre Anand en 1995, mais malgré cet aval, il n’a séduit qu’une minorité des grands maîtres de premier plan. Soit ils le jugent trop risqué, soit peut-être craignent-ils de s’attacher à une ouverture particulière.",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "Be3",
+      "text": "Si les Blancs veulent lancer une attaque contre le roi noir, alors 0-0-0 sera indispensable, aussi commencent-ils immédiatement à développer leurs pièces de l’aile dame. Leur plan d’attaque de base contiendra deux éléments clés :\n\n1) l’avance du pion h pour ramollir l’aile roi noire et faire entrer la tour h1 dans l’attaque depuis sa case initiale ;\n\n2) jouer Bh6 pour éliminer le fou g7, qui est à la fois le principal défenseur de l’aile roi noire et une pièce très utile pour soutenir la contre-attaque à l’aile dame. Cette méthode d’attaque d’une position en fianchetto à l’aile roi n’est pas limitée au Dragon, et elle apparaît souvent dans la défense Pirc (1 e4 d6) et dans certaines lignes de la défense est-indienne (surtout le Sämisch — voir la partie 14).",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "Bg7",
+      "text": "Traits aux Blancs\n\nLe fou du Dragon s’installe sur sa diagonale favorite. Bien qu’en ce moment de nombreuses pièces se trouvent entre g7 et l’aile dame blanche, d’innombrables parties ont été décidées par la puissance du fou du Dragon, et tous les joueurs confrontés au Dragon ont appris à le traiter avec respect. La solution idéale, du point de vue des Blancs, est d’échanger le fou par Bh6, mais cela peut ne pas être si facile à réaliser dans de bonnes conditions. Dans le Dragon, les cases noires ont une importance particulière, et les deux camps seront soucieux d’éviter l’échange de leur fou des cases noires (sauf éventuellement contre le fou des cases noires adverse).",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "f3",
+      "text": "C’est une précaution nécessaire. Si les Blancs jouent 7 Qd2, alors les Noirs peuvent harceler le fou des cases noires blanc par 7...Ng4. Notez que les Noirs n’auraient pas pu jouer 6...Ng4 car la réponse 7 Bb5+ leur aurait coûté du matériel. Il est intéressant d’observer que dans les lignes de la Pirc et de l’Est-indienne incarnant la même stratégie, les Blancs jugent aussi nécessaire de jouer le précautionnaire f3. Dans tous les cas, le but n’est pas seulement de sécuriser le fou des cases noires, mais aussi de solidifier le centre en préparation d’une attaque de flanc.\n\nTraits aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "Nc6",
+      "text": "La case la plus naturelle pour le cavalier, puisque l’attaque sur d4 rendra plus difficile aux Blancs d’organiser Bh6.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "Qd2",
+      "text": "Les Blancs préparent à la fois le grand roque et un éventuel Bh6.",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "O-O",
+      "text": "Même si les Noirs sont bien conscients des intentions des Blancs, il n’y a pas de meilleur endroit pour leur roi.",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "Bc4",
+      "text": "Ce coup peut paraître incohérent. Pourquoi les Blancs ne se mettent-ils pas simplement au travail et ne jouent-ils pas 9 0-0-0 sans plus attendre ? La réponse est que les Noirs peuvent alors orienter la partie dans de nouvelles voies en jouant 9...d5. Il n’est pas clair si les Blancs ont un avantage dans ce cas, mais il est clair qu’ils ont été détournés du plan d’une attaque directe sur la colonne h. C’est pourquoi les Blancs préfèrent souvent jouer le coup du texte, qui exclut ...d5. Autre point positif : le fou est dirigé vers l’aile roi noire. Il y a deux principaux points négatifs. Le premier est que les Blancs doivent dépenser deux tempos à déplacer leur fou, puisque Bb3 sera inévitable tôt ou tard. Le second est que le fou peut lui-même devenir vulnérable à l’attaque, par exemple si les Noirs parviennent à pousser leurs pions a et b. Les pour et les contre s’équilibrent plus ou moins, ce qui explique pourquoi 9 0-0-0 et 9 Bc4 sont tous deux fréquemment vus en pratique.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "Bd7",
+      "text": "La colonne c semi-ouverte sera l’une des principales avenues d’attaque des Noirs, aussi est-il logique de dégager c8 pour l’une des tours.\n\n10 0-0-0\n\nTraits aux Noirs\n\nLes roques opposés mènent en général à un jeu tranchant. Lorsque les rois ont roqué du même côté, une attaque impliquant les pions comporte un risque, car les pions que l’on avance sont ceux qui défendent son propre roi. Il n’y a pas de tel frein lorsque les rois sont de côtés opposés de l’échiquier, et il est tout à fait normal que les deux joueurs lancent une attaque dès que possible. Une telle situation ressemble à une course ; celui qui parvient à porter le premier coup réel a de bonnes chances de gagner. Deux points supplémentaires. Gagner du matériel a moins d’importance dans de telles situations que d’habitude. Il ne sert à rien de gagner du matériel si le résultat est l’effondrement de son attaque, laissant l’adversaire libre de viser le mat. Ensuite, devoir ramener ses pièces de l’attaque à des fins défensives équivaut souvent à une résignation, car l’adversaire a alors tout le temps nécessaire pour percer. Cela ne signifie pas qu’aucun coup défensif ne doive être joué ; par exemple, il vaut clairement la peine de jouer un coup défensif s’il retarde l’attaque adverse de deux coups. Cela signifie en revanche que chaque coup défensif doit être soigneusement pesé pour voir s’il vaut le tempo qu’il consomme.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "O-O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "Qa5",
+      "text": "Ce coup un peu inhabituel est un favori de toujours de Chris Ward. L’idée est de déplacer la tour f8 en c8, ce qui a l’avantage que l’autre tour peut aussi se joindre à l’attaque, par exemple en soutenant ...b5 avec ...Rab8. Un second avantage est que les Noirs peuvent en général conserver leur fou « Dragon » clé en répondant à Bh6 par ...Bh8. Les inconvénients sont doubles : d’abord, la tour f8 est parfois utile à des fins défensives et l’éloigner de l’aile roi laisse cette partie de l’échiquier un peu à court de défenseurs. Ensuite, il n’est pas vraiment clair que a5 soit une bonne case pour la dame, car dans certaines lignes elle est vulnérable à l’attaque. Nous verrons comment tous ces facteurs jouent un rôle dans la partie.\n\nHonnêtement, je juge ce système quelque peu douteux pour les Noirs — en fait, il est assez difficile de mettre le doigt sur une erreur des Noirs dans cette partie, autre que leur choix de variante d’ouverture.\n\nLa ligne la plus courante est 10...Ne5 11 Bb3 Rc8.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "h4",
+      "text": "Traits aux Noirs\n\nLes Blancs ne perdent pas de temps pour lancer leur attaque.",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "Ne5",
+      "text": "C’est la case normale pour le cavalier dans cette variante. Dans certains cas les Noirs joueront finalement ...Nc4 pour forcer l’échange du fou des cases blanches, tandis que dans d’autres lignes le cavalier reste simplement en e5, défendant quelques cases à l’aile roi tout en gardant l’option d’aider à l’aile dame.",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "Bb3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "Rfc8",
+      "text": "Les Noirs suivent le plan initié au coup 10.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "g4",
+      "text": "Les Blancs ont ici un assez large choix de coups. Le plus direct est peut-être 13 h5. Il est assez normal dans le Dragon que les Blancs offrent leur pion h, car en le prenant les Noirs non seulement perdent du temps avec leur cavalier, mais ouvrent aussi la colonne h. Après 13...Nxh5, il est tentant de jouer 14 Bh6 puisque à ce moment les Noirs ne peuvent éviter l’échange de fous par 14...Bh8 en raison de 15 Rxh5 gxh5 16 Qg5+, quand les Blancs gagnent la dame noire. Cependant, les Noirs ont une réponse plus forte dans le surprenant 14...Nd3+ (14...Bxh6 est aussi jouable), qui mène à une position satisfaisante pour les Noirs après 15 Kb1 Nxb2 16 Kxb2 Bxh6 17 Qxh6 Rxc3.\n\nC’est pourquoi le coup le plus populaire pour les Blancs ici est 13 Kb1, visant encore à jouer h5, mais en ayant d’abord mis le roi blanc hors de danger. Ce coup soulève la question intéressante de savoir quand les Blancs doivent jouer un coup consolidant comme Kb1. On doit certainement réfléchir bien davantage à de tels coups dans les situations de roques opposés qu’on ne le ferait, disons, à Kh1 lorsque les deux rois sont à l’aile roi. Quand les rois sont de côtés opposés, chaque tempo est vital, et un coup comme Kb1 ne doit pas être joué sans une raison concrète. Une raison typique serait d’anticiper le sacrifice d’échange ...Rxc3, bxc3 Qxc3, quand Kb1 est normalement forcé de toute façon à cause de l’échec menaçant en a1. Si les Blancs doivent de toute façon jouer Kb1, il peut être moins engageant de s’en débarrasser immédiatement. Dans la position actuelle, 13 Kb1 a certainement un sens ; nous avons déjà vu une ligne avec un échec inattendu au roi en c1, et si les Blancs jouent Bh6 à un moment donné, les Noirs pourraient bien répondre ...Bxh6 et ...Rxc3. Cependant, les arguments sont assez équilibrés.\n\nJuste avant de jouer cette partie, je me suis rappelé une conversation que j’avais eue avec Chris Ward quelques mois plus tôt. Nous prenions le petit-déjeuner ensemble le lendemain de l’une de nos batailles dans le Dragon (à cette occasion, j’avais joué 13 h5). Chris a remarqué qu’il était surprenant que 13 Kb1 soit si populaire, car 13 g4 semblait un coup plus utile. En y réfléchissant, cela paraissait un point valide, aussi ai-je décidé d’essayer sa propre recommandation ! Le coup g4 vise avant tout à jouer h5 sans sacrifier un pion, mais il a d’autres bons points : il permet à la dame blanche de basculer en h2, et dans certaines lignes il soutient le sacrifice de pièce Nf5.\n\nTraits aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "b5",
+      "text": "Il y a ici trois plans possibles pour les Noirs. Le plus évident est 13...Nc4 14 Bxc4 Rxc4, mais après 15 h5 Rac8 16 Nb3 Qa6 17 hxg6 fxg6 18 e5 les Blancs ont une attaque dangereuse, car 18...dxe5 perd une pièce face à 19 g5, tandis que si le cavalier f6 bouge les Blancs peuvent répondre 19 Qh2.\n\nUne autre option est le surprenant 13...Rc4!?. Les lignes après ce coup illustrent bien les thèmes typiques du Dragon :\n\n1) 14 Bxc4 est douteux, car les Noirs peuvent percer sur les cases noires : 14...Nxc4 15 Qd3 Qb4 16 Nb3 Nxe4! (un sacrifice surprenant sur une case triplement défendue) 17 fxe4 (17 Nxe4 Nxb2 18 Qd5 Qa3 donne aux Noirs une attaque très dangereuse en échange de la tour, tandis que 17 Qxe4 Bxc3 18 Bd4 Nxb2 19 Bxc3 Qxc3 est simplement mauvais pour les Blancs) 17...Bxc3 18 Bd4 (18 Qxc3 Qxc3 19 bxc3 Nxe3 favorise les Noirs) 18...Bxd4 19 Qxd4 Bxg4 est peu clair. Les Noirs ont deux pions pour l’échange mais les Blancs ont encore des chances d’attaque.\n\n2) 14 g5! Nh5 (14...Rxd4? 15 Bxd4 Nxf3 16 Qf2! Nxd4 17 Rxd4 et la faiblesse de f7 est fatale pour les Noirs) 15 f4 Rxd4 (15...Nf3? 16 Nxf3 Rxc3 ressemble à une autre combinaison typique du Dragon fondée sur une percée sur les cases noires ; cependant, de telles combinaisons ne marchent pas toujours : ici 17 e5! fait s’effondrer la position noire) 16 Qxd4 Ng4 17 e5 (17 Qd3!? est aussi possible) 17...Ng3 18 Rhe1 Nf5 19 Qd2 Nfxe3 20 Rxe3 Nxe3 21 Qxe3 avec un certain avantage aux Blancs.\n\nAvec le coup joué, les Noirs visent encore ...Nc4, mais maintenant avec l’idée de reprendre en c4 avec le pion. Cela donnera aux Noirs une attaque toute prête sur la colonne b. Les deux problèmes de ce plan sont d’abord qu’il est un peu lent et ensuite que, grâce à l’omission de Kb1 par les Blancs, une dame noire arrivant en b2 peut ne pas faire mat.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "h5",
+      "text": "Traits aux Noirs\n\nLes Blancs poursuivent l’attaque.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "Nc4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Bxc4",
+      "text": "C’est le meilleur. Après 15 Qd3 Ne5 les Blancs n’ont rien de mieux que de répéter les coups, car jouer 16 Qe2 invite positivement les Noirs à sacrifier en c3.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "bxc4",
+      "text": "Maintenant les Blancs ont deux coups libres avant que les Noirs s’alignent contre b2.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Bh6",
+      "text": "Une étape logique. Soit le fou noir est échangé, soit les Blancs transfèrent leur fou sur une case plus active avec gain de tempo. Notez que les Blancs n’ont plus à s’inquiéter de ...Rxc3, aussi n’y a-t-il pas de problème à ce que la dame blanche soit attirée ailleurs si les Noirs jouent ...Bxh6.",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Bh8",
+      "text": "C’est forcé car ici les Noirs ne peuvent permettre l’échange de leur fou défensif ; par exemple, 16...Rab8 17 Bxg7 Kxg7 18 hxg6 fxg6 19 Qh6+ Kg8 20 g5 Nh5 21 Rxh5 gxh5 22 g6 hxg6 23 Qxg6+ Kf8 24 Rg1 mate, ou 16...Bxh6 17 Qxh6 g5 18 Nf5 avec une position gagnante.",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Nf5",
+      "text": "Traits aux Noirs\n\nNous avons atteint un moment critique car les Blancs menacent maintenant le mat en un coup en e7.",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Re8",
+      "text": "C’est peut-être le plus exigeant, bien que les complications qui en résultent favorisent les Blancs. L’alternative est 17...Bxf5, mais cela paraît aussi insatisfaisant pour les Noirs en vue de 18 exf5! (18 gxf5 Rab8 19 hxg6 fxg6 20 fxg6 hxg6 21 Rdg1 Kf7 22 Qg2 Rg8 est peu clair car l’attaque blanche a été stoppée) 18...Rab8 19 hxg6 fxg6 (19...hxg6 20 fxg6 Qb4 21 Qe3! Qxb2+ 22 Kd2 donne aux Blancs un avantage clair) 20 Qe3 (l’avantage clé de jouer exf5 plutôt que gxf5 est que les Blancs menacent maintenant le mat en un) 20...Qe5 21 Qxe5 dxe5 22 g5 Ne8 23 Nd5 et la finale favorise les Blancs.",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "Qg5",
+      "text": "Avant la partie, j’ai consulté quelques numéros récents d’Informator pour voir s’il y avait eu d’importantes parties avec la ligne 10...Qa5. Mon attention a été attirée par la partie par correspondance Pavlov-Vaskin, qui avait continué 18 Bg7 Bxf5 19 Bxh8 Kxh8 20 exf5 Rg8 21 Rde1 Rae8 22 hxg6 fxg6 23 Qh6 Rg7 24 fxg6 Rb8. Ici les Blancs ont joué 25 Qf4 Qb4 26 Nd1 (pas 26 Rxe7? Qxb2+ 27 Kd2 Qxc3+) et ont gagné après une longue et dure lutte. Il n’a pas fallu longtemps pour voir que les Noirs sont tout simplement perdus après 25 Qh4!. Cela menace encore 26 Rxe7 Rxe7 27 Qxf6+, contre quoi les Noirs n’ont guère de défense. Si les Noirs jouent 25...Qb4 comme dans la partie, alors les Blancs gagnent par 26 Rxe7 Qxb2+ 27 Kd2 puisque les Noirs n’ont plus le sacrifice en c3.\n\nÀ l’échiquier, je me frottais mentalement les mains de plaisir à l’idée de ressortir ce coup contre Chris Ward, quand j’ai décidé de vérifier les coups antérieurs de cette ligne. J’ai aussitôt reçu une douche froide ; après 18 Bg7, les Noirs peuvent simplement répondre 18...gxf5.\n\nTraits aux Blancs\n\nLes Noirs rencontreront alors 19 Qg5 par 19...h6! 20 Bxh6+ Kh7, quand les Noirs sont une pièce en plus pour très peu. Clairement Chris avait vu cela et était préparé avec sa propre surprise. Malheureusement pour lui, la position est en fait mauvaise pour les Noirs, pourvu que les Blancs trouvent le 18e coup correct. Après la partie, j’ai regardé à nouveau mon Informator et j’ai remarqué une petite note que je n’avais pas vue auparavant, qui donnait 18...gxf5 comme peu clair après 19 Qg5 h6 ou 19 gxf5 Bxg7 20 h6 Bf8, ce dernier coup portant le symbole « seul coup ». Comme déjà noté, la première de ces lignes laisse les Noirs une pièce en plus pour presque rien, tandis que la seconde est encore plus saugrenue. Si les Noirs jouent 20...Bh8 21 Rhg1+ Kf8 au lieu de 20...Bf8, alors ils sont deux pièces en plus pour rien. Les Blancs ne peuvent créer une menace qu’en triplant sur la colonne g, mais même s’ils y parviennent, les Noirs jouent simplement ...e6 et toute l’attaque s’effondre. Si quelqu’un a besoin d’un avertissement cinglant que l’analyse publiée doit toujours être vérifiée avec soin, le voici.\n\nHeureusement pour moi, il n’a pas fallu longtemps pour trouver le puissant coup du texte. La menace de Nxe7+ force les Noirs à déplacer leur dame, mais l’effet net est que les Blancs ont transféré leur dame sur une position plus agressive avec gain de tempo.",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "Qb6",
+      "text": "Bien sûr, les Noirs placent leur dame sur la colonne b afin de poursuivre leur attaque contre b2 mais, comme noté plus haut, ...Qxb2+ n’est pas la fin du monde pour les Blancs et dans bien des cas on peut simplement l’ignorer.",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "hxg6",
+      "text": "Le moment est maintenant mûr pour la combinaison Bg7, mais d’abord les Blancs ouvrent la colonne h.",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "fxg6",
+      "text": "19...hxg6 20 Bf8! est immédiatement décisif, aussi est-ce forcé.\n\nTraits aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "Bg7",
+      "text": "On ne pourrait souhaiter de démonstration plus vivante de l’importance d’éliminer le fou défensif noir. Les Blancs sont prêts à sacrifier une pièce pour s’en débarrasser.",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "Bxg7",
+      "text": "20...Rab8 21 Bxh8 Qxb2+ 22 Kd2 Kxh8 perd face à 23 Rxh7+! (23 Nxe7 est aussi très fort ; par exemple, 23...Rxe7 24 Qxf6+ Rg7 25 Rb1) 23...Nxh7 24 Rh1 (menaçant 25 Rxh7+, entre autres) 24...Bxf5 25 Qh6 Kg8 26 Qxh7+ Kf8 27 gxf5 avec un mat rapide à suivre.\n\n20...Bxf5 21 Bxh8 Kxh8 22 gxf5 est aussi très gênant pour les Noirs ; par exemple, 22...Rab8 23 fxg6 Qxb2+ 24 Kd2 (menaçant 25 Rxh7+ Nxh7 26 Qh6) 24...Qb6 (24...Rg8 25 Qxf6+!) 25 Ke2! (arrêtant les échecs gênants et renouvelant la menace) 25...Rb7 26 Nd5 avec une attaque gagnante.",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "Nxg7",
+      "text": "Traits aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "Reb8",
+      "text": "Les Noirs décident de décliner la pièce offerte. Après 21...Kxg7 22 Nd5! il n’y a pas de bonne case pour la dame :\n\n1) 22...Qa5 23 Qh6+ Kf7 24 Nxf6 Kxf6 (24...exf6 25 Rxd6 Be6 26 Qxh7+ Kf8 27 Rxe6 Rxe6 28 Qb7! et les Blancs prennent la tour a8 avec échec) 25 Rd5 Qb6 26 g5+ et les Blancs gagnent.\n\n2) 22...Qb7 23 Nxf6 exf6 24 Qh6+ Kf7 25 Qxh7+ Ke6 26 Qxg6 avec une attaque gagnante.\n\n3) 22...Qc5 23 Qh6+ Kf7 24 g5! Nh5 (24...Nxd5 25 Qxh7+ gagne pour les Blancs, tout comme 24...Ng8 25 Qxh7+ Kf8 26 Qxg6) 25 Rxh5 gxh5 26 Qxh7+ Kf8 27 g6 Be6 28 Qh8+ Bg8 29 Qh6#.\n\n4) 22...Qb5 23 Qh6+ Kf7 24 g5 gagne comme après 22...Qc5.",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "Nh5",
+      "text": "Les Blancs ignorent la menace noire sur b2 et se concentrent sur l’élimination progressive des défenseurs de l’aile roi noire. Une fois le cavalier f6 disparu, les menaces blanches sur la colonne h seront extrêmement fortes. Notez que 22 Nf5 est mauvais, car les Noirs peuvent éliminer le cavalier avec leur fou, qui n’est pas une pièce défensive vitale.\n\nTraits aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "Nxh5",
+      "text": "22...Qxb2+ 23 Kd2 n’aide pas, puisque dans certaines lignes les Blancs peuvent effectivement utiliser la colonne b pour leur attaque :\n\n1) 23...Rf8 24 Nxf6+ Rxf6 (24...exf6 25 Qd5+ Kh8 26 Rb1 Qa3 27 Rb7 Rad8 28 Qe6! est une jolie variante qui gagne pour les Blancs) 25 Qd5+ Kg7 26 Qxa8 Rxf3 27 Rxh7+! (sinon les Blancs pourraient même perdre) 27...Kxh7 28 Rh1+ Kg7 29 Qh8+ Kf7 30 Rh7+ Ke6 31 Rxe7+ Kxe7 32 Nd5+ gagnant la dame.\n\n2) 23...Nxh5 24 gxh5 et maintenant :\n\n2a) 24...Be8 perd face à 25 hxg6 Bxg6 26 Rxh7 Kxh7 27 Rh1+ Kg7 28 Qxe7+ Kg8 29 Qf6.\n\n2b) 24...Qb6 25 Ke2! Qb2 (25...Be8 est aussi rencontré par 26 Nd5) 26 Nd5 et les Blancs gagnent.\n\n3) 23...Qb6 24 Nxf6+ exf6 25 Qd5+ Kg7 26 Rxh7+! Kxh7 27 Qf7+ Kh6 28 Rh1+ Kg5 29 f4+ Kxg4 30 Qxg6+ Kf3 31 Qh5+ Bg4 32 Rh3+ Kxf4 33 Nd5+ Kxe4 34 Nxf6+ Kf4 35 Qxg4+, etc.",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "gxh5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "Be8",
+      "text": "23...Qxb2+ 24 Kd2 Be8 transpose dans la ligne « 2a » de la note précédente.\n\nTraits aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "b3",
+      "text": "Le coup le plus simple et le plus efficace. Maintenant que le dangereux fou des cases noires a disparu, les Blancs peuvent se permettre ce coup défensif, qui stoppe net le jeu noir à l’aile dame. Les Blancs, de leur côté, conservent une attaque massive à l’aile roi — la menace immédiate est 25 Nd5.\n\n24 hxg6 Bxg6 25 Rxh7 Kxh7 26 Rh1+ Kg7 27 Qxe7+ Bf7 ne mène ici qu’à la nulle, puisque la dame noire contrôle g1.",
+      "isCritical": true
+    },
+    {
+      "ply": 48,
+      "san": "cxb3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 49,
+      "san": "axb3",
+      "text": "Il n’y a pas de réelle défense contre Nd5.",
+      "isCritical": true
+    },
+    {
+      "ply": 50,
+      "san": "Qc5",
+      "text": "25...e6 26 Qf6 et 25...Bf7 26 hxg6 Bxg6 27 Nd5 sont aussi sans espoir pour les Noirs.",
+      "isCritical": true
+    },
+    {
+      "ply": 51,
+      "san": "Nd5",
+      "text": "Traits aux Noirs\n\nAvec une double attaque contre e7.",
+      "isCritical": true
+    },
+    {
+      "ply": 52,
+      "san": "Rb7",
+      "text": "26...Qa3+ 27 Kd2 Qa5+ 28 b4 met fin aux échecs. Après 28...Rxb4 nous avons un écho de l’idée du coup 18 en ce que les Blancs peuvent gagner la dame noire avec un échec de cavalier.",
+      "isCritical": true
+    },
+    {
+      "ply": 53,
+      "san": "Nxe7+",
+      "text": "Ramassant l’échange.",
+      "isCritical": true
+    },
+    {
+      "ply": 54,
+      "san": "Rxe7",
+      "text": "Sinon, 27...Kg7 (27...Kf7 28 hxg6+ hxg6 29 Rh7+) 28 Nf5+ Kg8 29 hxg6 Bxg6 30 Qf6 Bxf5 31 Rdg1+ Bg6 32 Rxg6+ hxg6 33 Rh8#.",
+      "isCritical": true
+    },
+    {
+      "ply": 55,
+      "san": "Qxe7",
+      "text": "La situation matérielle des Noirs est sans espoir.",
+      "isCritical": true
+    },
+    {
+      "ply": 56,
+      "san": "Rc8",
+      "text": "Traits aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 57,
+      "san": "Rh2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 58,
+      "san": "gxh5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 59,
+      "san": "Rg2+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 60,
+      "san": "Bg6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 61,
+      "san": "Rxd6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 62,
+      "san": "Qe3+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 63,
+      "san": "Rgd2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 64,
+      "san": "Rf8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 65,
+      "san": "Rd8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 66,
+      "san": "Rxd8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 67,
+      "san": "Qxd8+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 68,
+      "san": "Kg7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 69,
+      "san": "Qd4+",
+      "text": "Les Blancs auraient peut-être pu gagner plus vite par une autre méthode, mais on ne peut pas se tromper en liquidant vers une finale trivialement gagnée.",
+      "isCritical": true
+    },
+    {
+      "ply": 70,
+      "san": "Qxd4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 71,
+      "san": "Rxd4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 72,
+      "san": "h4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 73,
+      "san": "Kd2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 74,
+      "san": "h3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 75,
+      "san": "Ke3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 76,
+      "san": "Kh6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 77,
+      "san": "Kf4",
+      "text": "39...1-0\n\nCette partie a été décidée à un stade relativement précoce. Ayant choisi une ouverture très tranchante, les Noirs se sont engagés dans une ligne un peu inhabituelle. Pour commencer, les Blancs ont simplement suivi le plan d’attaque standard contre un fianchetto à l’aile roi. Ce n’est qu’au coup 18 que les Blancs ont vraiment dû réfléchir dur et trouver la façon la plus précise de continuer. À ce stade les Blancs avaient rassemblé un impressionnant dispositif de pièces d’attaque à l’aile roi, mais il n’était toujours pas si facile de percer. Les 20e et 22e coups des Blancs ont été la clé ; à eux deux, ces deux coups ont éliminé les deux principaux défenseurs de l’aile roi noire. Après cela les Noirs étaient toujours en difficulté, et bientôt l’attaque a percé.\n\nLes leçons ici sont :\n\n1) Les roques opposés aiguisent grandement le jeu. Dans la course d’attaque qui s’ensuit, chaque tempo est vital.\n\n2) Le plan h4-h5 et Bh6 est une méthode typique d’attaque d’une position en fianchetto à l’aile roi.\n\n3) Il peut valoir un matériel considérable d’éliminer une pièce défensive clé.\n\n4) Ne croyez pas tout ce que vous voyez imprimé.",
+      "isCritical": true
+    }
+  ]
+}

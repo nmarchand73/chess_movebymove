@@ -1,0 +1,259 @@
+{
+  "id": "chernov-024",
+  "book": "chernov",
+  "gameNum": 24,
+  "title": "Partie 24 : Capablanca vs Mattison",
+  "section": "Le maître d'échecs explique ses idées",
+  "players": {
+    "white": "Capablanca",
+    "black": "Mattison"
+  },
+  "event": "Karlsbad 1929",
+  "opening": "Défense nimzo-indienne",
+  "eco": "E38",
+  "pgnPath": "data/pgn/chernov/24.pgn",
+  "result": "1-0",
+  "moveCount": 39,
+  "annotatedMoves": 37,
+  "fullText": "Capablanca – Mattison\n\nKarlsbad 1929\n\nDéfense nimzo-indienne\n\n1   d4\n\nL'impression populaire sur les ouvertures du pion roi est qu'elles offrent toutes sortes d'occasions de monter rapidement une attaque. On peut jouer une variété de gambits, sacrifier des pièces pour ouvrir des lignes, tenter des combinaisons et se livrer à la spéculation – tout cela pour le mat. Parfois ces tactiques réussissent, mais très souvent le joueur de gambit se retrouve du mauvais côté de l'attaque, car les positions largement ouvertes sont aussi dangereuses pour un camp que pour l'autre.\n\nDans les ouvertures du pion dame, l'idéal à rechercher est le développement pour lui-même. L'attaque n'est pas le « tout et la fin de tout ». On ne la cherche pas délibérément, mais, chose étrange, le seul fait que toutes les pièces soient développées économiquement, qu'elles soient mises au travail aussi vite que possible sur les cases où elles fonctionnent le mieux, semble les imprégner de merveilleux pouvoirs d'attaque. Les combinaisons naissent de rien ! Se peut-il que le simple placement des pièces là où elles ont la plus grande liberté de mouvement et le plus grand commandement de l'échiquier génère en elles tant d'énergie dynamique qu'elle doive se libérer d'une façon ou d'une autre ? Et se peut-il que la connaissance de ce fait soit ce qui pousse les virtuoses du jeu positionnel à réprimer leur instinct d'attaque jusqu'à ce que le moment soit mûr pour que l'attaque soit déchaînée ?\n\nLe coup du pion d des Blancs commence le processus de mise en jeu de toutes\n\nles pièces aussi vite que possible. Deux d'entre elles sont maintenant libres de faire leurs débuts, tandis que le pion qui les a libérées occupe le centre de la scène.\n\n1   ...     Nf6\n\nUn coup de développement, dont l'objet (outre le louable dessein d'amener une pièce sur sa case la plus appropriée) est d'empêcher les Blancs de gagner trop de terrain par 2 e4.\n\n2   c4\n\nCe coup fait plusieurs choses :\n\n1) il commence une attaque sur la case d5 ;\n\n2) il garde la colonne c ouverte pour l'usage des pièces lourdes ;\n\n3) il offre une diagonale à la dame ;\n\n4) il empêche les Noirs d'établir un pion au centre par 2...d5, car la réponse blanche 3 cxd5 forçant une reprise avec une pièce laisserait les Noirs sans pion au centre.\n\n2   ...     e6\n\nLes Noirs dégagent un chemin pour le fou des cases noires et indiquent qu'ils opteront pour une défense active.\n\n3   Nc3\n\nLe motif des Blancs est évident : ils développent d'abord le cavalier de b1, pour soutenir une avance du pion e.\n\n3   ...     Bb4\n\nÀ cela, les Noirs répondent en clouant le cavalier. Si les Blancs jouaient 4 e4, alors 4...Nxe4 les laisserait sans moyen de reprendre.\n\n4   Qc2\n\nAvec un double objectif : répondre à 4...Bxc3+ par 5 Qxc3, gardant intacte la structure de pions blanche, et menacer à nouveau l'avance 5 e4.\n\nIl existe un concept répandu selon lequel dans l'ouverture il y a un « meilleur coup » à chaque instant. La croyance est que le maître d'échecs mémorise chacun de ces meilleurs coups et sa réponse appropriée. Qu'un tel raisonnement soit spécieux est évident : le seul fait que des millions de parties aient été jouées sans duplication de coups en est la preuve suffisante.\n\nConsidérons la position sur l'échiquier. Outre le coup du texte (4 Qc2), il y a au moins sept excellentes alternatives, chacune ayant ses enthousiastes défenseurs. Ce sont : 4 Qb3 ; 4 Bd2 ; 4 a3 ; 4 Bg5 ; 4 e3 ; 4 g3 ; et 4 Nf3. Laquelle est la meilleure ? Personne ne peut le dire avec certitude, mais le coup qui mène à des positions convenant à votre style est le meilleur coup, et celui que vous devriez jouer.\n\n4   ...     c5\n\nLes Noirs aussi peuvent conduire la défense (ou la contre-attaque) de la manière qui convient à leur style et à leur tempérament. Le coup qu'ils jouent conteste immédiatement le contrôle du centre par les Blancs. Il fait d'autres choses aussi : il donne plus de champ à la dame, ouvre la colonne c, protège le fou, etc.\n\nCependant, d'autres coups, également efficaces, sont à la disposition des Noirs. Ils peuvent choisir parmi ces réponses, dont chacune a quelque chose à recommander : 4...Nc6 ; 4...d6 ; 4...d5 ; 4...0-0 ; et 4...b6. Il y en a pour tous les goûts.\n\n5   dxc5\n\nLe plus fort pour diverses raisons :\n\nLes Blancs ne perdent pas de temps en prenant le pion, car les Noirs en reprenant rendront le tempo perdu. La colonne d ouverte résultant de 5 dxc5 profitera aux Blancs, qui occuperont d1 avec une tour et exerceront une pression sur toute sa longueur, mettant particulièrement en danger le pion d arriéré.\n\nD'autres suites sont moins énergiques. Par exemple, après 5 e3, les Noirs se libèrent par 5...d5, tandis qu'après 5 Nf3 cxd4 6 Nxd4 Nc6 les Blancs ont perdu l'initiative.\n\n5   ...     Nc6\n\nLes Noirs développent une autre pièce avant de reprendre le pion.\n\n6   Nf3\n\nVers ce stade, l'amateur veut que les choses se passent. Il commence à chercher des coups surprises. « Il doit\n\ny avoir une brillance dans la position ! » Le grand maître, dans la même situation, se contente de faire des coups simples. Il sait que s'il continue à amener des pièces en jeu, il n'y aura pas besoin de chercher des combinaisons gagnantes. Elles évolueront naturellement de la position et surgiront de tous côtés !\n\n6   ...     Bxc5\n\nRetarder davantage la récupération du pion pourrait être dangereux.\n\n7   Bf4\n\nL'agressif 7 Bg5 est plus habituel, pour clouer le cavalier et garder les Noirs sous pression, mais on ne peut rien reprocher à cette méthode de développement. Elle paraît douce, mais le fou surveille une diagonale importante et pèse sur d6, un point sensible dans la position noire.\n\n7   ...     d5\n\nContestant vigoureusement la possession du centre par les Blancs.\n\n8   e3\n\nUn autre coup tranquille qui libère un fou et renforce la position de l'autre.\n\n8   ...     Qa5\n\nLes Noirs aperçoivent une chance de commencer une attaque qui aboutira à grever les Blancs d'un pion c isolé – une légère faiblesse positionnelle, aussi commencent-ils une action contre le cavalier, mais « de telles manœuvres artificielles », dit Tartakower, « peuvent difficilement réussir contre un Capablanca. »\n\nLes Noirs devraient plutôt faire quelque chose pour mettre leur fou de c8 en jeu, par exemple 8...a6 9 Be2 dxc4 10 Bxc4 b5 11 Be2 Bb6 (pas tout de suite 11...Bb7 à cause de 12 Nxb5) 12 0-0 Bb7.\n\n9   Be2\n\nEncore un coup modeste, mais il est chargé de plus d'énergie qu'on ne pourrait le soupçonner. Il accomplit ces objectifs :\n\n1) il active une pièce, en la sortant de la première rangée ;\n\n2) il développe le fou en e2 afin qu'il puisse aller en f3 et attaquer le centre ;\n\n3) il dégage l'aile roi, rendant possible un roque précoce ;\n\n4) il prépare la coopération des tours sur la première rangée, après le roque.\n\nQu'y avait-il de mauvais à jouer le coup d'apparence plus agressive 9 Bd3 ? Pour une chose, la réponse 9...Nb4 permet aux Noirs de forcer un échange de cavalier contre fou. Les Blancs perdraient les services d'une pièce précieuse pour son influence potentielle sur le centre. Pourquoi alors ne pas préparer le développement du fou en d3 en jouant d'abord 9 a3 ? La réponse est que le temps est trop précieux dans l'ouverture pour le gaspiller en coups de pions inutiles. Seuls les coups de pions essentiels au développement des pièces doivent être faits.\n\nLa circonstance supplémentaire que 9 a3 affaiblit les cases claires à l'aile dame est une preuve de plus qu'une telle stratégie est artificielle et fait perdre du temps.\n\n9   ...     Bb4\n\nContrairement à la méthode de développement classiquement simple des Blancs, les Noirs bougent le même fou une troisième fois dans l'ouverture, afin d'infliger à leur adversaire un pion isolé. Une telle tentative est prématurée eu égard au développement incomplet des Noirs.\n\nÀ la place, une suite plausible est 9...0-0 10 0-0 dxc4 11 Bxc4 Bd7, où les Noirs ont une partie correcte.\n\n10 0-0\n\nLe roi est mis en sécurité, tandis que la tour de h1 se rapproche du centre, le théâtre de l'action. La tour, bien sûr, tentera de s'emparer d'une colonne ouverte, ou, s'il n'y en a pas, d'une qui est susceptible de s'ouvrir.\n\n10   O-O\n\n10   ...     Bxc3\n\nLe fou a bougé quatre fois pour réaliser cet échange contre un cavalier qui n'a bougé qu'une fois ! Tant de déplacements d'une seule pièce indiquent que la stratégie qui le sous-tend doit être défectueuse.\n\n11   bxc3\n\nMalgré le pion c doublé des Blancs, ils jouissent de ces avantages :\n\n1) ils ont deux fous actifs contre le cavalier et le fou des Noirs ;\n\n2) toutes leurs pièces mineures sont en jeu tandis que les Noirs ont encore un fou sur la première rangée ;\n\n3) leurs tours sont en contact l'une avec l'autre et prêtes à s'emparer des colonnes b et d semi-ouvertes ;\n\n4) leur roi est bien à l'abri dans un coin tandis que celui des Noirs est au grand jour ;\n\n5) leur dame est idéalement postée et a plus d'influence sur le centre que celle des Noirs, placée sur le côté de l'échiquier ;\n\n6) un échange de pions au centre (qui paraît inévitable) ouvrira des lignes d'attaque, circonstance qui favorise le joueur dont le développement est supérieur – en l'occurrence, les Blancs ;\n\n7) ils conservent l'initiative.\n\n11   ...     O-O\n\nL'une des difficultés des Noirs est résolue avec l'échappée de leur roi vers des quartiers plus sûrs.\n\nDévelopper le fou à la place était quelque peu risqué, puisque après 11...Bd7 12 Rab1 (attaquant le pion b7) 12...b6 13 Bd6 les Blancs empêchent le petit roque et menacent 14 Nb5 Qa6 15 cxd5 exd5 16 Nxd5, et l'attaque à la découverte sur la dame gagne un pion pour les Blancs.\n\n12 Rab1 (D)\n\nEncore un de ces coups subtils, dont le but échappe habituellement au joueur moyen. « À quoi cela sert-il », dit-il, « de gaspiller un coup de tour pour attaquer un pion qui est adéquatement protégé ? »\n\nVrai, le pion est défendu, mais par un fou qui ne peut se développer sans abandonner le pion. Tôt ou tard, les Noirs seront contraints de jouer ...b6, ou d'avoir trois pièces sur leur première rangée qui se gênent mutuellement. Il y a des inconvénients à ...b6, cependant : par exemple la dame noire sera coupée et empêchée de revenir à l'aile roi et à la défense du roi. De plus, la position de leur cavalier de c6 sera précaire, une fois que l'appui (le pion b7) lui aura été retiré.\n\nLe coup des Blancs est simple et tranquille, mais il exerce une pression inconfortable sur l'aile dame des Noirs, rend le développement normal difficile, et crée des faiblesses permanentes qui se prêtent à l'exploitation.\n\n12   Rab1\n\n12   ...     Qa3\n\nLes Noirs veulent développer leur fou, et pour cela ils doivent jouer ...b6, mais le faire immédiatement pourrait mettre la dame en danger en coupant sa ligne de retraite. Par exemple, 12...b6 13 Bd6 Rd8 14 Nb5 Qa6 15 cxd5 Qxd6 (15...exd5 permet 16 Nxd5 découvrant une attaque sur la dame) 16 dxc6 Bxc6 17 Nd4 Qc7 18 Be5 gagne du matériel, car 18...Bb7 perd après 19 Bf3 Nd5 20 Bxd5 menant à un surprenant mat de dernière rangée après 20...exd5 21 Re8#.\n\n13   Rfd1\n\nAvec le placement de cette tour sur la colonne d partiellement ouverte, le développement des Blancs a été achevé de façon idéale, chaque pièce prenant son meilleur poste en pas plus d'un coup. Les Blancs n'ont pas même laissé entendre une combinaison d'attaque avant que chaque pièce ait été mise au travail.\n\n13   ...     b6\n\nPour permettre au fou de sortir, mais l'avance du pion retire son soutien au cavalier de c6 et affaiblit sa position.\n\nGarder le pion b par 13...Qe7 à la place n'aide pas beaucoup, puisque le fou ne peut se développer en d7 au coup suivant sans couper la protection de la dame sur le pion. Les Noirs ne peuvent non plus tenter de simplifier par 13...dxc4 car la réponse 14 Bd6 gagne la qualité.\n\n14   cxd5\n\nL'attaque commence ! Le premier coup détruit le centre de pions des Noirs.\n\n14   ...     Nxd5\n\nLa reprise avec le pion, 14...exd5, est mauvaise en vue de 15 c4 !. Les Noirs ne pourraient alors pas s'échapper par 15...dxc4 puisque 16 Bd6 attaque dame et tour, tandis que protéger le pion par 15...Be6 cède à 16 cxd5 Nxd5 17 Rxd5 Nxd5 18 Bxc6, et les Blancs ont gagné deux pièces pour une tour.\n\n15   Ng5\n\nUn coup de maître ! La menace brutale de 16 Nxh7# dissimule les deux vrais buts du coup : le concept stratégique de forcer les Noirs à avancer l'un de leurs pions de l'aile roi, relâchant ainsi la structure défensive ; et le dégagement de la case f6 au bénéfice du fou des cases noires, qui pèsera lourdement sur la grande diagonale.\n\n15   ...     f5\n\nLes Noirs avaient deux alternatives :\n\n1) 15...Nf6 évite d'avancer l'un des pions, mais 16 Bd6 gagne la qualité.\n\n2) 15...g6 laisse la position noire criblée de faiblesses sur les cases noires.\n\nAussi les Noirs avancent-ils le pion f, parant le mat, mais cela affaiblit leur pion e et lie le fou à sa défense.\n\n16   Bf3\n\nCet arrangement de fous leur donne une formidable puissance de balayage le long des deux diagonales parallèles.\n\nLa principale menace des Blancs est 17 Bxd5 exd5 18 Bxd5+ Kh8 19 Bxc6 suivi de 20 Bxa8, balayant une bonne partie de l'armée noire.\n\n16   ...     Qc5\n\nLa dame se précipite au secours des cavaliers vulnérables. Voici ce qui arrive sur d'autres défenses :\n\n1) 16...Nde7 17 Bd6 Qa5 18 Bxe7 Nxe7 19 Bxa8, et les Blancs gagnent une tour entière.\n\n2) 16...Nce7 17 c4 Nb4 18 Qxb4 Qxb4 19 Bxa8, et les Blancs gagnent une pièce.\n\n3) 16...Nxf4 17 Bxc6 Rb8 18 exf4, et les Blancs ont gagné une pièce.\n\n4) 16...Nxc3 17 Qxc3 Qxc3 18 Bxc6 Qxd1 19 Rxd1 Ba6 20 Bxa8 Rxa8, et les Blancs ont une pièce d'avance.\n\nAprès le coup réel des Noirs, ils semblent avoir échappé au pire, mais les Blancs ont une façon ingénieuse d'atteindre les cavaliers :\n\n17   c4\n\nCette pique contre le cavalier paraît inoffensive, le pion étant cloué et incapable de prendre, mais le point de 17 c4 est d'utiliser le pion pour soutenir une attaque par 18 Qb5. Cela chassera la dame et rendra possible la prise 19 cxd5.\n\nLes combinaisons apparaissent maintenant en rapide succession.\n\n17   ...     Ndb4\n\nContre-attaque sur la dame. Toutes les autres tentatives de défense échouent, à savoir :\n\n1) 17...Nf6 18 Bd6 Qa5 19 Bxc6 et les deux tours noires sont en prise.\n\n2) 17...Nxf4 18 Qb5 ! (un joli coup « intermédiaire ») 18...Qe7 (autrement 18...Qb4 19 Rd2 Qxc4 20 Rxb4 et les Blancs gagnent) 19 Bxc6 Nxg5 20 exf4, et l'attaque sur la dame ne laisse aux Noirs aucun temps pour sauver leur tour de a8.\n\n3) 17...Nde7 18 Bd6 Qa5 19 Bxe7 gagnant une tour entière.\n\n18   Qb3\n\nLa dame blanche doit bouger, mais la menace de 19 Bd6 plane sur les Noirs comme l'épée de Damoclès.\n\n18   ...     e5\n\nNon seulement parce qu'il n'y a pas d'autre antidote à 19 Bd6, mais avec l'espoir de freiner les terribles fous en mettant des obstacles sur leur chemin.\n\n19   a3\n\nCela commence une belle combinaison à un bout de l'échiquier qui culmine en un sacrifice de dame suivi d'un mat étouffé à l'autre bout !\n\n19   ...     Na6\n\nLe seul autre coup, 19...exf4, permet aux Blancs de forcer le gain par 20 axb4 Qe7 21 Bxc6 Rb8 22 exf4, et la pièce d'avance gagne facilement.\n\n20   Bxc6\n\nAprès la reprise 20...Qxc6, vient 21 c5+ Kh8 22 Nf7+ Kg8 (ou 22...Rxf7 23 Rd8+ et les Blancs forcent le mat) 23 Nh6++ Kh8 24 Qg8+! Rxg8 25 Nf7# !\n\nLes Noirs n'ont pas attendu d'être convaincus par une démonstration sur l'échiquier mais ont renversé leur roi en signe de reddition.\n\n1-0\n\nUne partie exquise jouée avec élégance et précision. Le propre commentaire de Capablanca fut : « J'ai fait quelques petites combinaisons dans cette partie. »",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Capablanca – Mattison\n\nKarlsbad 1929\n\nDéfense nimzo-indienne"
+    },
+    {
+      "ply": 1,
+      "san": "d4",
+      "text": "L'impression populaire sur les ouvertures du pion roi est qu'elles offrent toutes sortes d'occasions de monter rapidement une attaque. On peut jouer une variété de gambits, sacrifier des pièces pour ouvrir des lignes, tenter des combinaisons et se livrer à la spéculation – tout cela pour le mat. Parfois ces tactiques réussissent, mais très souvent le joueur de gambit se retrouve du mauvais côté de l'attaque, car les positions largement ouvertes sont aussi dangereuses pour un camp que pour l'autre.\n\nDans les ouvertures du pion dame, l'idéal à rechercher est le développement pour lui-même. L'attaque n'est pas le « tout et la fin de tout ». On ne la cherche pas délibérément, mais, chose étrange, le seul fait que toutes les pièces soient développées économiquement, qu'elles soient mises au travail aussi vite que possible sur les cases où elles fonctionnent le mieux, semble les imprégner de merveilleux pouvoirs d'attaque. Les combinaisons naissent de rien ! Se peut-il que le simple placement des pièces là où elles ont la plus grande liberté de mouvement et le plus grand commandement de l'échiquier génère en elles tant d'énergie dynamique qu'elle doive se libérer d'une façon ou d'une autre ? Et se peut-il que la connaissance de ce fait soit ce qui pousse les virtuoses du jeu positionnel à réprimer leur instinct d'attaque jusqu'à ce que le moment soit mûr pour que l'attaque soit déchaînée ?\n\nLe coup du pion d des Blancs commence le processus de mise en jeu de toutes\n\nles pièces aussi vite que possible. Deux d'entre elles sont maintenant libres de faire leurs débuts, tandis que le pion qui les a libérées occupe le centre de la scène.",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "Nf6",
+      "text": "Un coup de développement, dont l'objet (outre le louable dessein d'amener une pièce sur sa case la plus appropriée) est d'empêcher les Blancs de gagner trop de terrain par 2 e4.",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "c4",
+      "text": "Ce coup fait plusieurs choses :\n\n1) il commence une attaque sur la case d5 ;\n\n2) il garde la colonne c ouverte pour l'usage des pièces lourdes ;\n\n3) il offre une diagonale à la dame ;\n\n4) il empêche les Noirs d'établir un pion au centre par 2...d5, car la réponse blanche 3 cxd5 forçant une reprise avec une pièce laisserait les Noirs sans pion au centre.",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "e6",
+      "text": "Les Noirs dégagent un chemin pour le fou des cases noires et indiquent qu'ils opteront pour une défense active.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "Nc3",
+      "text": "Le motif des Blancs est évident : ils développent d'abord le cavalier de b1, pour soutenir une avance du pion e.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "Bb4",
+      "text": "À cela, les Noirs répondent en clouant le cavalier. Si les Blancs jouaient 4 e4, alors 4...Nxe4 les laisserait sans moyen de reprendre.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "Qc2",
+      "text": "Avec un double objectif : répondre à 4...Bxc3+ par 5 Qxc3, gardant intacte la structure de pions blanche, et menacer à nouveau l'avance 5 e4.\n\nIl existe un concept répandu selon lequel dans l'ouverture il y a un « meilleur coup » à chaque instant. La croyance est que le maître d'échecs mémorise chacun de ces meilleurs coups et sa réponse appropriée. Qu'un tel raisonnement soit spécieux est évident : le seul fait que des millions de parties aient été jouées sans duplication de coups en est la preuve suffisante.\n\nConsidérons la position sur l'échiquier. Outre le coup du texte (4 Qc2), il y a au moins sept excellentes alternatives, chacune ayant ses enthousiastes défenseurs. Ce sont : 4 Qb3 ; 4 Bd2 ; 4 a3 ; 4 Bg5 ; 4 e3 ; 4 g3 ; et 4 Nf3. Laquelle est la meilleure ? Personne ne peut le dire avec certitude, mais le coup qui mène à des positions convenant à votre style est le meilleur coup, et celui que vous devriez jouer.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "c5",
+      "text": "Les Noirs aussi peuvent conduire la défense (ou la contre-attaque) de la manière qui convient à leur style et à leur tempérament. Le coup qu'ils jouent conteste immédiatement le contrôle du centre par les Blancs. Il fait d'autres choses aussi : il donne plus de champ à la dame, ouvre la colonne c, protège le fou, etc.\n\nCependant, d'autres coups, également efficaces, sont à la disposition des Noirs. Ils peuvent choisir parmi ces réponses, dont chacune a quelque chose à recommander : 4...Nc6 ; 4...d6 ; 4...d5 ; 4...0-0 ; et 4...b6. Il y en a pour tous les goûts.",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "dxc5",
+      "text": "Le plus fort pour diverses raisons :\n\nLes Blancs ne perdent pas de temps en prenant le pion, car les Noirs en reprenant rendront le tempo perdu. La colonne d ouverte résultant de 5 dxc5 profitera aux Blancs, qui occuperont d1 avec une tour et exerceront une pression sur toute sa longueur, mettant particulièrement en danger le pion d arriéré.\n\nD'autres suites sont moins énergiques. Par exemple, après 5 e3, les Noirs se libèrent par 5...d5, tandis qu'après 5 Nf3 cxd4 6 Nxd4 Nc6 les Blancs ont perdu l'initiative.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "Nc6",
+      "text": "Les Noirs développent une autre pièce avant de reprendre le pion.",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "Nf3",
+      "text": "Vers ce stade, l'amateur veut que les choses se passent. Il commence à chercher des coups surprises. « Il doit\n\ny avoir une brillance dans la position ! » Le grand maître, dans la même situation, se contente de faire des coups simples. Il sait que s'il continue à amener des pièces en jeu, il n'y aura pas besoin de chercher des combinaisons gagnantes. Elles évolueront naturellement de la position et surgiront de tous côtés !",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "Bxc5",
+      "text": "Retarder davantage la récupération du pion pourrait être dangereux.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "Bf4",
+      "text": "L'agressif 7 Bg5 est plus habituel, pour clouer le cavalier et garder les Noirs sous pression, mais on ne peut rien reprocher à cette méthode de développement. Elle paraît douce, mais le fou surveille une diagonale importante et pèse sur d6, un point sensible dans la position noire.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "d5",
+      "text": "Contestant vigoureusement la possession du centre par les Blancs.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "e3",
+      "text": "Un autre coup tranquille qui libère un fou et renforce la position de l'autre.",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "Qa5",
+      "text": "Les Noirs aperçoivent une chance de commencer une attaque qui aboutira à grever les Blancs d'un pion c isolé – une légère faiblesse positionnelle, aussi commencent-ils une action contre le cavalier, mais « de telles manœuvres artificielles », dit Tartakower, « peuvent difficilement réussir contre un Capablanca. »\n\nLes Noirs devraient plutôt faire quelque chose pour mettre leur fou de c8 en jeu, par exemple 8...a6 9 Be2 dxc4 10 Bxc4 b5 11 Be2 Bb6 (pas tout de suite 11...Bb7 à cause de 12 Nxb5) 12 0-0 Bb7.",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "Be2",
+      "text": "Encore un coup modeste, mais il est chargé de plus d'énergie qu'on ne pourrait le soupçonner. Il accomplit ces objectifs :\n\n1) il active une pièce, en la sortant de la première rangée ;\n\n2) il développe le fou en e2 afin qu'il puisse aller en f3 et attaquer le centre ;\n\n3) il dégage l'aile roi, rendant possible un roque précoce ;\n\n4) il prépare la coopération des tours sur la première rangée, après le roque.\n\nQu'y avait-il de mauvais à jouer le coup d'apparence plus agressive 9 Bd3 ? Pour une chose, la réponse 9...Nb4 permet aux Noirs de forcer un échange de cavalier contre fou. Les Blancs perdraient les services d'une pièce précieuse pour son influence potentielle sur le centre. Pourquoi alors ne pas préparer le développement du fou en d3 en jouant d'abord 9 a3 ? La réponse est que le temps est trop précieux dans l'ouverture pour le gaspiller en coups de pions inutiles. Seuls les coups de pions essentiels au développement des pièces doivent être faits.\n\nLa circonstance supplémentaire que 9 a3 affaiblit les cases claires à l'aile dame est une preuve de plus qu'une telle stratégie est artificielle et fait perdre du temps.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "Bb4",
+      "text": "Contrairement à la méthode de développement classiquement simple des Blancs, les Noirs bougent le même fou une troisième fois dans l'ouverture, afin d'infliger à leur adversaire un pion isolé. Une telle tentative est prématurée eu égard au développement incomplet des Noirs.\n\nÀ la place, une suite plausible est 9...0-0 10 0-0 dxc4 11 Bxc4 Bd7, où les Noirs ont une partie correcte.\n\n10 0-0\n\nLe roi est mis en sécurité, tandis que la tour de h1 se rapproche du centre, le théâtre de l'action. La tour, bien sûr, tentera de s'emparer d'une colonne ouverte, ou, s'il n'y en a pas, d'une qui est susceptible de s'ouvrir.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "Bxc3",
+      "text": "Le fou a bougé quatre fois pour réaliser cet échange contre un cavalier qui n'a bougé qu'une fois ! Tant de déplacements d'une seule pièce indiquent que la stratégie qui le sous-tend doit être défectueuse.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "bxc3",
+      "text": "Malgré le pion c doublé des Blancs, ils jouissent de ces avantages :\n\n1) ils ont deux fous actifs contre le cavalier et le fou des Noirs ;\n\n2) toutes leurs pièces mineures sont en jeu tandis que les Noirs ont encore un fou sur la première rangée ;\n\n3) leurs tours sont en contact l'une avec l'autre et prêtes à s'emparer des colonnes b et d semi-ouvertes ;\n\n4) leur roi est bien à l'abri dans un coin tandis que celui des Noirs est au grand jour ;\n\n5) leur dame est idéalement postée et a plus d'influence sur le centre que celle des Noirs, placée sur le côté de l'échiquier ;\n\n6) un échange de pions au centre (qui paraît inévitable) ouvrira des lignes d'attaque, circonstance qui favorise le joueur dont le développement est supérieur – en l'occurrence, les Blancs ;\n\n7) ils conservent l'initiative.",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "O-O",
+      "text": "L'une des difficultés des Noirs est résolue avec l'échappée de leur roi vers des quartiers plus sûrs.\n\nDévelopper le fou à la place était quelque peu risqué, puisque après 11...Bd7 12 Rab1 (attaquant le pion b7) 12...b6 13 Bd6 les Blancs empêchent le petit roque et menacent 14 Nb5 Qa6 15 cxd5 exd5 16 Nxd5, et l'attaque à la découverte sur la dame gagne un pion pour les Blancs.\n\n12 Rab1 (D)\n\nEncore un de ces coups subtils, dont le but échappe habituellement au joueur moyen. « À quoi cela sert-il », dit-il, « de gaspiller un coup de tour pour attaquer un pion qui est adéquatement protégé ? »\n\nVrai, le pion est défendu, mais par un fou qui ne peut se développer sans abandonner le pion. Tôt ou tard, les Noirs seront contraints de jouer ...b6, ou d'avoir trois pièces sur leur première rangée qui se gênent mutuellement. Il y a des inconvénients à ...b6, cependant : par exemple la dame noire sera coupée et empêchée de revenir à l'aile roi et à la défense du roi. De plus, la position de leur cavalier de c6 sera précaire, une fois que l'appui (le pion b7) lui aura été retiré.\n\nLe coup des Blancs est simple et tranquille, mais il exerce une pression inconfortable sur l'aile dame des Noirs, rend le développement normal difficile, et crée des faiblesses permanentes qui se prêtent à l'exploitation.",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "Rab1",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "Qa3",
+      "text": "Les Noirs veulent développer leur fou, et pour cela ils doivent jouer ...b6, mais le faire immédiatement pourrait mettre la dame en danger en coupant sa ligne de retraite. Par exemple, 12...b6 13 Bd6 Rd8 14 Nb5 Qa6 15 cxd5 Qxd6 (15...exd5 permet 16 Nxd5 découvrant une attaque sur la dame) 16 dxc6 Bxc6 17 Nd4 Qc7 18 Be5 gagne du matériel, car 18...Bb7 perd après 19 Bf3 Nd5 20 Bxd5 menant à un surprenant mat de dernière rangée après 20...exd5 21 Re8#.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Rfd1",
+      "text": "Avec le placement de cette tour sur la colonne d partiellement ouverte, le développement des Blancs a été achevé de façon idéale, chaque pièce prenant son meilleur poste en pas plus d'un coup. Les Blancs n'ont pas même laissé entendre une combinaison d'attaque avant que chaque pièce ait été mise au travail.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "b6",
+      "text": "Pour permettre au fou de sortir, mais l'avance du pion retire son soutien au cavalier de c6 et affaiblit sa position.\n\nGarder le pion b par 13...Qe7 à la place n'aide pas beaucoup, puisque le fou ne peut se développer en d7 au coup suivant sans couper la protection de la dame sur le pion. Les Noirs ne peuvent non plus tenter de simplifier par 13...dxc4 car la réponse 14 Bd6 gagne la qualité.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "cxd5",
+      "text": "L'attaque commence ! Le premier coup détruit le centre de pions des Noirs.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "Nxd5",
+      "text": "La reprise avec le pion, 14...exd5, est mauvaise en vue de 15 c4 !. Les Noirs ne pourraient alors pas s'échapper par 15...dxc4 puisque 16 Bd6 attaque dame et tour, tandis que protéger le pion par 15...Be6 cède à 16 cxd5 Nxd5 17 Rxd5 Nxd5 18 Bxc6, et les Blancs ont gagné deux pièces pour une tour.",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Ng5",
+      "text": "Un coup de maître ! La menace brutale de 16 Nxh7# dissimule les deux vrais buts du coup : le concept stratégique de forcer les Noirs à avancer l'un de leurs pions de l'aile roi, relâchant ainsi la structure défensive ; et le dégagement de la case f6 au bénéfice du fou des cases noires, qui pèsera lourdement sur la grande diagonale.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "f5",
+      "text": "Les Noirs avaient deux alternatives :\n\n1) 15...Nf6 évite d'avancer l'un des pions, mais 16 Bd6 gagne la qualité.\n\n2) 15...g6 laisse la position noire criblée de faiblesses sur les cases noires.\n\nAussi les Noirs avancent-ils le pion f, parant le mat, mais cela affaiblit leur pion e et lie le fou à sa défense.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Bf3",
+      "text": "Cet arrangement de fous leur donne une formidable puissance de balayage le long des deux diagonales parallèles.\n\nLa principale menace des Blancs est 17 Bxd5 exd5 18 Bxd5+ Kh8 19 Bxc6 suivi de 20 Bxa8, balayant une bonne partie de l'armée noire.",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Qc5",
+      "text": "La dame se précipite au secours des cavaliers vulnérables. Voici ce qui arrive sur d'autres défenses :\n\n1) 16...Nde7 17 Bd6 Qa5 18 Bxe7 Nxe7 19 Bxa8, et les Blancs gagnent une tour entière.\n\n2) 16...Nce7 17 c4 Nb4 18 Qxb4 Qxb4 19 Bxa8, et les Blancs gagnent une pièce.\n\n3) 16...Nxf4 17 Bxc6 Rb8 18 exf4, et les Blancs ont gagné une pièce.\n\n4) 16...Nxc3 17 Qxc3 Qxc3 18 Bxc6 Qxd1 19 Rxd1 Ba6 20 Bxa8 Rxa8, et les Blancs ont une pièce d'avance.\n\nAprès le coup réel des Noirs, ils semblent avoir échappé au pire, mais les Blancs ont une façon ingénieuse d'atteindre les cavaliers :",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "c4",
+      "text": "Cette pique contre le cavalier paraît inoffensive, le pion étant cloué et incapable de prendre, mais le point de 17 c4 est d'utiliser le pion pour soutenir une attaque par 18 Qb5. Cela chassera la dame et rendra possible la prise 19 cxd5.\n\nLes combinaisons apparaissent maintenant en rapide succession.",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Ndb4",
+      "text": "Contre-attaque sur la dame. Toutes les autres tentatives de défense échouent, à savoir :\n\n1) 17...Nf6 18 Bd6 Qa5 19 Bxc6 et les deux tours noires sont en prise.\n\n2) 17...Nxf4 18 Qb5 ! (un joli coup « intermédiaire ») 18...Qe7 (autrement 18...Qb4 19 Rd2 Qxc4 20 Rxb4 et les Blancs gagnent) 19 Bxc6 Nxg5 20 exf4, et l'attaque sur la dame ne laisse aux Noirs aucun temps pour sauver leur tour de a8.\n\n3) 17...Nde7 18 Bd6 Qa5 19 Bxe7 gagnant une tour entière.",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "Qb3",
+      "text": "La dame blanche doit bouger, mais la menace de 19 Bd6 plane sur les Noirs comme l'épée de Damoclès.",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "e5",
+      "text": "Non seulement parce qu'il n'y a pas d'autre antidote à 19 Bd6, mais avec l'espoir de freiner les terribles fous en mettant des obstacles sur leur chemin.",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "a3",
+      "text": "Cela commence une belle combinaison à un bout de l'échiquier qui culmine en un sacrifice de dame suivi d'un mat étouffé à l'autre bout !",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "Na6",
+      "text": "Le seul autre coup, 19...exf4, permet aux Blancs de forcer le gain par 20 axb4 Qe7 21 Bxc6 Rb8 22 exf4, et la pièce d'avance gagne facilement.",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "Bxc6",
+      "text": "Après la reprise 20...Qxc6, vient 21 c5+ Kh8 22 Nf7+ Kg8 (ou 22...Rxf7 23 Rd8+ et les Blancs forcent le mat) 23 Nh6++ Kh8 24 Qg8+! Rxg8 25 Nf7# !\n\nLes Noirs n'ont pas attendu d'être convaincus par une démonstration sur l'échiquier mais ont renversé leur roi en signe de reddition.\n\n1-0\n\nUne partie exquise jouée avec élégance et précision. Le propre commentaire de Capablanca fut : « J'ai fait quelques petites combinaisons dans cette partie. »",
+      "isCritical": true
+    }
+  ]
+}

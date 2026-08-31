@@ -1,3 +1,6 @@
+import type { Lang } from "../lib/lang";
+import { fill, ui } from "../lib/uiCopy";
+
 type Props = {
   ply: number;
   maxPly: number;
@@ -15,6 +18,7 @@ type Props = {
   nextBlocked?: boolean;
   /** Chessnut connected — quiz uses the physical board. */
   physicalBoard?: boolean;
+  lang: Lang;
 };
 
 export function TransportBar({
@@ -33,10 +37,18 @@ export function TransportBar({
   onToggleGuess,
   nextBlocked = false,
   physicalBoard = false,
+  lang,
 }: Props) {
-  const positionLabel = ply === 0
-    ? "Starting position"
-    : `${formatMoveNumber(ply)} ${currentSan ?? ""}`.trim();
+  const t = ui(lang);
+  const positionLabel =
+    ply === 0 ? t.startingPosition : `${formatMoveNumber(ply)} ${currentSan ?? ""}`.trim();
+
+  const sideLabel =
+    sideToMove === "none"
+      ? t.introduction
+      : sideToMove === "white"
+        ? t.whiteToMove
+        : t.blackToMove;
 
   const showNextNote = nextAnnotatedPly !== null && nextAnnotatedPly > ply + 1;
 
@@ -47,7 +59,7 @@ export function TransportBar({
           {positionLabel}
           <span className="position-meta">
             {" · "}
-            {sideToMove === "none" ? "Introduction" : `${capitalize(sideToMove)} to move`}
+            {sideLabel}
             {" · "}
             {ply}/{maxPly}
           </span>
@@ -55,10 +67,24 @@ export function TransportBar({
       </div>
 
       <div className="transport-buttons">
-        <button type="button" className="secondary icon-btn" onClick={onFirst} disabled={ply === 0} aria-label="First move" title="First (Home)">
+        <button
+          type="button"
+          className="secondary icon-btn"
+          onClick={onFirst}
+          disabled={ply === 0}
+          aria-label={t.firstMove}
+          title={t.firstMove}
+        >
           <FirstIcon />
         </button>
-        <button type="button" className="secondary icon-btn" onClick={onPrev} disabled={ply === 0} aria-label="Previous move" title="Previous (←)">
+        <button
+          type="button"
+          className="secondary icon-btn"
+          onClick={onPrev}
+          disabled={ply === 0}
+          aria-label={t.previousMove}
+          title={t.previousMove}
+        >
           <PrevIcon />
         </button>
         <button
@@ -66,13 +92,20 @@ export function TransportBar({
           className="transport-next"
           onClick={onNext}
           disabled={ply >= maxPly || nextBlocked}
-          aria-label="Next move"
-          title="Next move (→ or Space)"
+          aria-label={t.nextMove}
+          title={t.nextMove}
         >
-          <span>Next</span>
+          <span>{t.next}</span>
           <PlayIcon />
         </button>
-        <button type="button" className="secondary icon-btn" onClick={onLast} disabled={ply >= maxPly} aria-label="Last move" title="Last (End)">
+        <button
+          type="button"
+          className="secondary icon-btn"
+          onClick={onLast}
+          disabled={ply >= maxPly}
+          aria-label={t.lastMove}
+          title={t.lastMove}
+        >
           <LastIcon />
         </button>
       </div>
@@ -84,7 +117,7 @@ export function TransportBar({
           onClick={onNextAnnotated}
           disabled={nextBlocked}
         >
-          Next note → {nextAnnotatedLabel}
+          {fill(t.nextNote, { label: nextAnnotatedLabel ?? "" })}
         </button>
       ) : null}
 
@@ -92,15 +125,13 @@ export function TransportBar({
         <label className="guess-toggle">
           <input type="checkbox" checked={guessEnabled} onChange={onToggleGuess} />
           <span className="guess-toggle-full">
-            {physicalBoard
-              ? "Quiz on the board (hide next move)"
-              : "Guess-the-move before advancing"}
+            {physicalBoard ? t.quizBoardFull : t.guessFull}
           </span>
           <span className="guess-toggle-short">
-            {physicalBoard ? "Quiz on board" : "Guess mode"}
+            {physicalBoard ? t.quizBoardShort : t.guessShort}
           </span>
         </label>
-        <span className="keyboard-hint">← → navigate · Space next</span>
+        <span className="keyboard-hint">{t.keyboardHint}</span>
       </div>
     </div>
   );
@@ -109,10 +140,6 @@ export function TransportBar({
 function formatMoveNumber(ply: number): string {
   const moveNum = Math.ceil(ply / 2);
   return ply % 2 === 1 ? `${moveNum}.` : `${moveNum}...`;
-}
-
-function capitalize(s: string): string {
-  return s.charAt(0).toUpperCase() + s.slice(1);
 }
 
 /** Inline SVGs — Unicode media glyphs render as emoji on iOS Safari. */

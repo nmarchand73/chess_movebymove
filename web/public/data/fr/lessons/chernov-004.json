@@ -1,0 +1,235 @@
+{
+  "id": "chernov-004",
+  "book": "chernov",
+  "gameNum": 4,
+  "title": "Partie 4 : Blackburne – Blanchard",
+  "section": "L'attaque à l'aile roi",
+  "players": {
+    "white": "Blackburne",
+    "black": "Blanchard"
+  },
+  "event": "London 1891",
+  "opening": "Gambit du roi refusé",
+  "eco": "C30",
+  "pgnPath": "data/pgn/chernov/04.pgn",
+  "result": "1-0",
+  "moveCount": 35,
+  "annotatedMoves": 30,
+  "fullText": "Blackburne – Blanchard\n\nLondres 1891\n\nGambit du roi refusé\n\n1   e4\n\nLes valeurs étaient constantes dans bien des domaines à l'époque où cette partie fut jouée :\n\nLes histoires commençaient par « Il était une fois »,\n\nLes joueurs de morpion mettaient une croix dans la case centrale,\n\nLes maîtres de dames commençaient par 11-15,\n\nLes maîtres d'échecs ouvraient par 1 e4.\n\nMalgré les recherches des savants, ce sont encore de bons commencements.\n\n1   ...     e5\n\nLes Noirs ouvrent des lignes pour deux de leurs pièces et établissent l'équilibre au centre.\n\n2   f4\n\nUne offre de pion pour induire les Noirs à abandonner leur part du centre.\n\nAccepter le cadeau permet aux Blancs de continuer par 3 Nf3, suivi de 4 d4, et de dominer le centre avec leurs pions. De plus, l'ouverture de la colonne f offrira aux Blancs l'occasion de diriger leur attaque vers le point vulnérable f7. C'est un point sensible, que le roi noir reste au centre ou roque.\n\n2   ... Bc5\n\n(D)\n\nProbablement la façon la plus sûre de refuser le gambit :\n\n1) Le fou pèse sur le centre et contrôle une excellente diagonale.\n\n2) Le fou renforce l'attaque du pion sur d4 et empêche les Blancs d'avancer leur pion d en d4.\n\n3) La présence du fou en c5, dominant g1, interdit aux Blancs de roquer précipitamment.\n\n3 Nc3\n\nLes Blancs évitent 3 fxe5 parce que la réponse (venant comme un éclair, probablement) 3...Qh4+ 4 g3 (encore pire est 4 Ke2 Qxe4#) 4...Qxe4+ gagne une tour pour les Noirs.\n\nLe coup réel des Blancs n'est pas aussi énergique que 3 Nf3, mais en jouant 3 Nc3, Blackburne tentait d'attirer son adversaire à jouer 3...Bxg1 4 Rxg1 Qh4+ 5 g3 Qxh2, quand 6 Rg2 suivi de 7 fxe5 donne aux Blancs une belle partie.\n\n3   ... Nc6\n\nUne riposte simple à l'invitation douteuse.\n\nLes Noirs continuent de rassembler leurs forces sur le champ d'action. Dans la lutte pour le contrôle du centre, leur cavalier fait sa part en exerçant une pression sur les cases e5 et d4.\n\n4 Nf3\n\nLes Blancs ont-ils manqué une chance de gagner du matériel par 4 fxe5 Nxe5 5 d4 ? Non, car 4 fxe5 est rencontré par 4...d6, par quoi les Noirs offrent un pion afin d'obtenir un développement libre et aisé.\n\nLe coup du texte met fin à la possibilité d'être importuné par un échec de dame et ravive la menace de gagner le pion e.\n\n4   ...     exf4\n\n(D)\n\nC'est un mauvais coup pour au moins quatre raisons :\n\n1) En bougeant un pion au lieu d'une pièce, les Noirs perdent de vue l'objectif principal de toute stratégie d'ouverture : Bougez les pièces ! Sortez-les de la dernière rangée et mettez-les au travail !\n\n2) Ils abandonnent leur emprise sur le centre et les privilèges qu'elle confère.\n\n3) Ils perdent du temps à prendre un pion qu'ils ne peuvent pas conserver.\n\n4) Ils permettent aux Blancs de s'emparer du centre au coup suivant, ce qui force un retrait de leur fou et une perte de temps consécutive.\n\nTarrasch considérait un coup tel que celui que viennent de faire les Noirs comme une faute pire qu'une bévue pure et simple, comme laisser une pièce en prise.\n\nAu lieu de cela, les Noirs auraient mieux fait de jouer 4...d6, qui tient tout et laisse le fou de c8 voir le jour.\n\n5   d4!\n\nBien sûr ! Aucun joueur ne devrait mettre plus d'une demi-seconde à voir la puissance de cette poussée de pion ! Le pion s'empare du contrôle d'une bonne part du centre (occupant d4 et attaquant deux autres cases importantes), déloge le fou de sa forte position, et découvre une attaque de son propre fou de c1 sur le pion f4.\n\n5   ... Bb4\n\nIl eût été plus sain de reculer en e7 à la place, où le fou est inestimable pour la défense.\n\n6 Bxf4\n\nLes Blancs gagnent un tempo avec cette prise, car ils récupèrent le pion perdu et développent une pièce en même temps.\n\n6   ...     d5\n\nLes Noirs attaquent le pion e blanc, contestant la possession du centre. Pendant ce temps, les Noirs donnent plus d'air à leurs pièces de l'aile dame.\n\n7   e5\n\nTous les coups de pion ont des aspects positifs et négatifs. (Tarrasch avait coutume de dire : « Chaque coup de pion relâche la position. »)\n\nUn inconvénient pour les Blancs dans l'avance de leur pion e est que l'occupation de e5 par un pion prive leurs pièces d'une case utile. Le cavalier surtout opère à grand avantage lorsqu'il est posté en e5.\n\nEn compensation, le pion exerce un effet entravant sur toute la position noire et impose une contrainte particulière au cavalier du roi noir, qui ne peut se développer naturellement en f6.\n\n7   ... Bxc3+\n\nLes Noirs sont séduits par la perspective de greffer à Blackburne un pion doublé, mais pourquoi prendre une pièce qui est clouée et ne peut faire de mal ? Pourquoi relâcher la pression du tout ?\n\nUne procédure plus recommandable était d'amener les réserves, en commençant par 7...Bf5.\n\n8   bxc3\n\nEn échange du handicap des pions doublés (peu de chose, puisque l'avance c4 force un échange et dédouble les pions), les Blancs jouissent d'avantages dans leurs deux fous et dans la colonne b ouverte que leur tour mettra à profit.\n\n8   ... Be6\n\n(D)\n\nUn coup superficiel, car le fou aurait pu se développer avec plus d'effet en f5. Là, il aurait empêché les Blancs de poster librement leur fou en d3, sauf au prix de permettre l'échange des fous.\n\nDévelopper les pièces sur les cases où elles sont les plus efficaces assure un avantage ; empêcher l'adversaire d'en faire autant l'accroît.\n\nIl est important de lutter pour le contrôle des cases vitales.\n\n9 Bd3\n\nClairement un excellent déploiement : le fou rayonne dans deux directions, prêt à intervenir de chaque côté de l'échiquier.\n\n9   ...     h6\n\nApparemment pour empêcher 10 Ng5 ou 10 Bg5.\n\nLes Blancs, qui ne s'intéressent qu'à achever leur développement, n'ont pas la moindre intention de faire l'un ou l'autre de ces coups.\n\nLe coup ...h6 par les Noirs (ou h3 par les Blancs) ne devrait être joué que si le pion h doit former une base pour une attaque de pions, c'est-à-dire s'il soutient une avance du pion g. Sur le plan défensif, le coup fait plus de mal que de bien, car il relâche la structure de pions et affaiblit sa résistance à l'attaque. Il est particulièrement dangereux si le roi a roqué à l'aile roi, car le pion lui-même, saillant hors des rangs, fournit une cible commode. De plus (comme si ce qui précède ne suffisait pas) il ne fait rien pour avancer la cause du développement et perd du temps qui devrait être consacré à la libération des pièces encore enfermées.\n\n10   0-0\n\nD'un seul coup, les Blancs assurent la sécurité de leur roi et amènent leur tour sur une colonne ouverte. Il est vrai que la colonne est encombrée d'un cavalier et d'un fou, qui interfèrent avec l'influence de la tour, mais ce sont des pièces, non des pions, et elles peuvent rapidement s'écarter.\n\n10   ... Nge7\n\n(D)\n\nPas l'endroit le plus heureux pour le cavalier, mais comment sinon peut-il entrer dans la partie ? Aussi pauvre que soit ce développement, il est de loin préférable de laisser le cavalier inutilement à la maison.\n\n11 Rb1!\n\nLe maître fait ce coup en un éclair, tandis que le joueur moyen ne le regarde même pas !\n\nQuel est l'avenir de la tour sur cette colonne ? Elle attaque un pion, mais le pion est facilement protégé. Pourquoi ne pas tenter une attaque à l'aile roi, au lieu de cette démonstration futile ?\n\nLa réponse est celle-ci : l'instinct du maître (ou peut-être son savoir ou son expérience) lui dit qu'il doit s'emparer de toutes les colonnes ouvertes — les contrôler aussitôt avec ses tours ou sa dame. « Faites les coups », dit-il, « qui se conforment aux exigences de la position, et vous serez dûment récompensé. Jouez les coups nécessaires pour établir une position supérieure ! Développez vos pièces de sorte qu'elles jouissent d'une mobilité maximale, et contrôlent la plus grande part du territoire. Dirigez vos efforts vers l'affaiblissement de la position ennemie, l'entrave des mouvements de ses pièces, et la réduction de sa capacité de résistance avant de faire le premier coup d'une combinaison. Quand le moment est mûr, l'attaque se joue d'elle-même. La combinaison décisive vous fixera du regard. »\n\n11   ... b6\n\nCelui-ci aussi est un coup qui distingue le maître de l'amateur !\n\nComme il est facile d'avancer le pion, le mettre à l'abri de l'attaque, et laisser la tour mordre sur du granite ! Aussi évidente que soit cette défense, aucun joueur de premier rang ne se précipiterait pour l'adopter ! Il essaierait d'éviter de perturber la formation de pions et considérerait plutôt des alternatives telles que 11...Rb8 ou 11...Qc8.\n\nAprès le coup réel, les cases claires de l'aile dame noire ont été affaiblies. Plus important encore, l'avance du pion prive le cavalier de c6 d'un soutien solide — une circonstance que les Blancs exploiteront dans leur prochaine attaque sur le roi, tout de l'autre côté de l'échiquier.\n\n12 Qd2\n\nLa dame quitte la première rangée pour permettre aux tours d'entrer en contact l'une avec l'autre. Elles peuvent souhaiter accroître la pression sur une colonne ouverte en s'y doublant, ou autrement travailler de concert.\n\nLe sens complet du coup de dame des Blancs pourrait facilement être négligé par un adversaire qui fait des réponses plausibles mais superficielles.\n\nLes échecs ne doivent pas être joués mécaniquement, même dans les positions les plus simples et les plus placides.\n\n12   ...     0-0 (D)\n\nMarcher droit dans la gueule de la tempête !\n\nAvant de faire un coup qui s'impose si facilement, les Noirs auraient pu se demander : « Comment puis-je exploiter la seule faiblesse des Blancs, les pions doublés sur la colonne c ? »\n\nIls auraient alors pu trouver 12...Na5, dans le but de faire basculer le cavalier en c4. Là, il fait le blocus du pion doublé, interfère avec le libre mouvement des pièces blanches, et en général reste comme une arête dans le gosier. Les Blancs pourraient prendre le cavalier, mais alors ils se sépareraient de l'un de leurs précieux fous, et par suite de l'échange leur position de pions serait inférieure à celle des Noirs. Enfin, les Noirs pourraient\nalors ancrer l'une de leurs pièces avec un grand effet en d5, une case d'où elle ne pourrait jamais être chassée par des pions.\n\n13 Bxh6\n\nBlackburne a dû saisir ce pion à la vitesse de l'éclair !\n\nAu prix d'un fou, il obtient immédiatement deux pions en retour matériel, démolit la barricade de pions près du roi — et davantage, comme nous le verrons.\n\n13   ...     gxh6\n\nLes Noirs doivent prendre le fou, ou se retrouver un pion en moins sans aucune compensation positionnelle.\n\n14 Qxh6\n\nVoyons ce que les Blancs obtiennent en retour de la pièce qu'ils ont sacrifiée :\n\n1) Ils ont deux pions en actifs tangibles.\n\n2) Leur dame est puissamment placée en territoire ennemi — menaçant le mat au coup suivant, en fait !\n\n3) Ils ont déchiré l'écran de pions qui abritait le roi noir.\n\n4) Ils ont une forte attaque en perspective, commençant par 15 Ng5.\n\n5) Si davantage d'aide est nécessaire, ils peuvent appeler les réserves (après 15 Ng5) par 16 Rf3, suivi de 17 Rg3.\n\n14   ... Ng6\n\n(D)\n\nY avait-il une autre défense ?\n\n1) 14...Nf5 (pour interférer avec l'action du fou), alors 15 Bxf5 Rxf5 16 Qxc6 ramasse le cavalier non protégé à l'aile dame, conséquence de l'avance instinctive du pion b des Noirs à leur onzième coup.\n\n2) 14...Bf5 15 Bxf5 Rxf5 16 Qxc6, et de nouveau les Blancs ramassent le malheureux cavalier.\n\n3) 14...f5 laisse le fou noir en prise.\n\nLes Blancs le prendraient en suivant l'excellent conseil de Tartakover : « Prenez d'abord et philosophez ensuite ! »\n\n15 Ng5\n\nMenace à nouveau le mat en h7. C'est plus rapide que l'alternative brutale 15 Bxg6 fxg6 16 Qxg6+ suivi de 17 Qxe6, qui gagne du matériel, et finalement la partie.\n\nBlackburne suit l'injonction posée par le baron von Heydebrand und der Lasa, qui florissait au XIXe siècle : « La façon la plus simple et la plus courte de gagner est la meilleure. »\n\n15   ... Re8\n\n(D)\n\nLa tour fournit au roi une case de fuite.\n\n16 Rxf7\n\nDe nouveau, il y a un agréable choix de méthodes gagnantes : deux autres sont 16 Bxg6 et si 16...fxg6, alors 17 Qh7# ; et 16 Qh7, suivi de 17 Nf6+ et un mat rapide.\n\nLe coup réellement joué cloue le roi et renouvelle la menace de mat au coup suivant.\n\n16   ... Bxf7\n\nForcé, si les Noirs veulent éviter d'abandonner.\n\n17 Qh7+\n\nPoussant le roi dans une situation fatale.\n\n17   ... Kf8\n\nLe seul coup.\n\n18 Qxf7# (1-0)\n\nLe danger de jouer des échecs plausibles mais superficiels est finement illustré dans cette partie. Blackburne, qui jouait celle-ci et sept autres parties simultanément à l'aveugle, s'appuya sur l'ordre et la méthode pour remporter la victoire. Cela se révéla aisément supérieur au tâtonnement coup par coup de son adversaire voyant.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Blackburne – Blanchard\n\nLondres 1891\n\nGambit du roi refusé"
+    },
+    {
+      "ply": 1,
+      "san": "e4",
+      "text": "Les valeurs étaient constantes dans bien des domaines à l'époque où cette partie fut jouée :\n\nLes histoires commençaient par « Il était une fois »,\n\nLes joueurs de morpion mettaient une croix dans la case centrale,\n\nLes maîtres de dames commençaient par 11-15,\n\nLes maîtres d'échecs ouvraient par 1 e4.\n\nMalgré les recherches des savants, ce sont encore de bons commencements.",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "e5",
+      "text": "Les Noirs ouvrent des lignes pour deux de leurs pièces et établissent l'équilibre au centre.",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "f4",
+      "text": "Une offre de pion pour induire les Noirs à abandonner leur part du centre.\n\nAccepter le cadeau permet aux Blancs de continuer par 3 Nf3, suivi de 4 d4, et de dominer le centre avec leurs pions. De plus, l'ouverture de la colonne f offrira aux Blancs l'occasion de diriger leur attaque vers le point vulnérable f7. C'est un point sensible, que le roi noir reste au centre ou roque.",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "Bc5",
+      "text": "Probablement la façon la plus sûre de refuser le gambit :\n\n1) Le fou pèse sur le centre et contrôle une excellente diagonale.\n\n2) Le fou renforce l'attaque du pion sur d4 et empêche les Blancs d'avancer leur pion d en d4.\n\n3) La présence du fou en c5, dominant g1, interdit aux Blancs de roquer précipitamment.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "Nc3",
+      "text": "Les Blancs évitent 3 fxe5 parce que la réponse (venant comme un éclair, probablement) 3...Qh4+ 4 g3 (encore pire est 4 Ke2 Qxe4#) 4...Qxe4+ gagne une tour pour les Noirs.\n\nLe coup réel des Blancs n'est pas aussi énergique que 3 Nf3, mais en jouant 3 Nc3, Blackburne tentait d'attirer son adversaire à jouer 3...Bxg1 4 Rxg1 Qh4+ 5 g3 Qxh2, quand 6 Rg2 suivi de 7 fxe5 donne aux Blancs une belle partie.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "Nc6",
+      "text": "Une riposte simple à l'invitation douteuse.\n\nLes Noirs continuent de rassembler leurs forces sur le champ d'action. Dans la lutte pour le contrôle du centre, leur cavalier fait sa part en exerçant une pression sur les cases e5 et d4.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "Nf3",
+      "text": "Les Blancs ont-ils manqué une chance de gagner du matériel par 4 fxe5 Nxe5 5 d4 ? Non, car 4 fxe5 est rencontré par 4...d6, par quoi les Noirs offrent un pion afin d'obtenir un développement libre et aisé.\n\nLe coup du texte met fin à la possibilité d'être importuné par un échec de dame et ravive la menace de gagner le pion e.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "exf4",
+      "text": "C'est un mauvais coup pour au moins quatre raisons :\n\n1) En bougeant un pion au lieu d'une pièce, les Noirs perdent de vue l'objectif principal de toute stratégie d'ouverture : Bougez les pièces ! Sortez-les de la dernière rangée et mettez-les au travail !\n\n2) Ils abandonnent leur emprise sur le centre et les privilèges qu'elle confère.\n\n3) Ils perdent du temps à prendre un pion qu'ils ne peuvent pas conserver.\n\n4) Ils permettent aux Blancs de s'emparer du centre au coup suivant, ce qui force un retrait de leur fou et une perte de temps consécutive.\n\nTarrasch considérait un coup tel que celui que viennent de faire les Noirs comme une faute pire qu'une bévue pure et simple, comme laisser une pièce en prise.\n\nAu lieu de cela, les Noirs auraient mieux fait de jouer 4...d6, qui tient tout et laisse le fou de c8 voir le jour.",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "d4",
+      "text": "Bien sûr ! Aucun joueur ne devrait mettre plus d'une demi-seconde à voir la puissance de cette poussée de pion ! Le pion s'empare du contrôle d'une bonne part du centre (occupant d4 et attaquant deux autres cases importantes), déloge le fou de sa forte position, et découvre une attaque de son propre fou de c1 sur le pion f4.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "Bb4",
+      "text": "Il eût été plus sain de reculer en e7 à la place, où le fou est inestimable pour la défense.",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "Bxf4",
+      "text": "Les Blancs gagnent un tempo avec cette prise, car ils récupèrent le pion perdu et développent une pièce en même temps.",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "d5",
+      "text": "Les Noirs attaquent le pion e blanc, contestant la possession du centre. Pendant ce temps, les Noirs donnent plus d'air à leurs pièces de l'aile dame.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "e5",
+      "text": "Tous les coups de pion ont des aspects positifs et négatifs. (Tarrasch avait coutume de dire : « Chaque coup de pion relâche la position. »)\n\nUn inconvénient pour les Blancs dans l'avance de leur pion e est que l'occupation de e5 par un pion prive leurs pièces d'une case utile. Le cavalier surtout opère à grand avantage lorsqu'il est posté en e5.\n\nEn compensation, le pion exerce un effet entravant sur toute la position noire et impose une contrainte particulière au cavalier du roi noir, qui ne peut se développer naturellement en f6.\n\n7   ... Bxc3+\n\nLes Noirs sont séduits par la perspective de greffer à Blackburne un pion doublé, mais pourquoi prendre une pièce qui est clouée et ne peut faire de mal ? Pourquoi relâcher la pression du tout ?\n\nUne procédure plus recommandable était d'amener les réserves, en commençant par 7...Bf5.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "Bxc3+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "bxc3",
+      "text": "En échange du handicap des pions doublés (peu de chose, puisque l'avance c4 force un échange et dédouble les pions), les Blancs jouissent d'avantages dans leurs deux fous et dans la colonne b ouverte que leur tour mettra à profit.",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "Be6",
+      "text": "Un coup superficiel, car le fou aurait pu se développer avec plus d'effet en f5. Là, il aurait empêché les Blancs de poster librement leur fou en d3, sauf au prix de permettre l'échange des fous.\n\nDévelopper les pièces sur les cases où elles sont les plus efficaces assure un avantage ; empêcher l'adversaire d'en faire autant l'accroît.\n\nIl est important de lutter pour le contrôle des cases vitales.",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "Bd3",
+      "text": "Clairement un excellent déploiement : le fou rayonne dans deux directions, prêt à intervenir de chaque côté de l'échiquier.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "h6",
+      "text": "Apparemment pour empêcher 10 Ng5 ou 10 Bg5.\n\nLes Blancs, qui ne s'intéressent qu'à achever leur développement, n'ont pas la moindre intention de faire l'un ou l'autre de ces coups.\n\nLe coup ...h6 par les Noirs (ou h3 par les Blancs) ne devrait être joué que si le pion h doit former une base pour une attaque de pions, c'est-à-dire s'il soutient une avance du pion g. Sur le plan défensif, le coup fait plus de mal que de bien, car il relâche la structure de pions et affaiblit sa résistance à l'attaque. Il est particulièrement dangereux si le roi a roqué à l'aile roi, car le pion lui-même, saillant hors des rangs, fournit une cible commode. De plus (comme si ce qui précède ne suffisait pas) il ne fait rien pour avancer la cause du développement et perd du temps qui devrait être consacré à la libération des pièces encore enfermées.\n\n10   0-0\n\nD'un seul coup, les Blancs assurent la sécurité de leur roi et amènent leur tour sur une colonne ouverte. Il est vrai que la colonne est encombrée d'un cavalier et d'un fou, qui interfèrent avec l'influence de la tour, mais ce sont des pièces, non des pions, et elles peuvent rapidement s'écarter.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "Nge7",
+      "text": "Pas l'endroit le plus heureux pour le cavalier, mais comment sinon peut-il entrer dans la partie ? Aussi pauvre que soit ce développement, il est de loin préférable de laisser le cavalier inutilement à la maison.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "Rb1",
+      "text": "Le maître fait ce coup en un éclair, tandis que le joueur moyen ne le regarde même pas !\n\nQuel est l'avenir de la tour sur cette colonne ? Elle attaque un pion, mais le pion est facilement protégé. Pourquoi ne pas tenter une attaque à l'aile roi, au lieu de cette démonstration futile ?\n\nLa réponse est celle-ci : l'instinct du maître (ou peut-être son savoir ou son expérience) lui dit qu'il doit s'emparer de toutes les colonnes ouvertes — les contrôler aussitôt avec ses tours ou sa dame. « Faites les coups », dit-il, « qui se conforment aux exigences de la position, et vous serez dûment récompensé. Jouez les coups nécessaires pour établir une position supérieure ! Développez vos pièces de sorte qu'elles jouissent d'une mobilité maximale, et contrôlent la plus grande part du territoire. Dirigez vos efforts vers l'affaiblissement de la position ennemie, l'entrave des mouvements de ses pièces, et la réduction de sa capacité de résistance avant de faire le premier coup d'une combinaison. Quand le moment est mûr, l'attaque se joue d'elle-même. La combinaison décisive vous fixera du regard. »",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "b6",
+      "text": "Celui-ci aussi est un coup qui distingue le maître de l'amateur !\n\nComme il est facile d'avancer le pion, le mettre à l'abri de l'attaque, et laisser la tour mordre sur du granite ! Aussi évidente que soit cette défense, aucun joueur de premier rang ne se précipiterait pour l'adopter ! Il essaierait d'éviter de perturber la formation de pions et considérerait plutôt des alternatives telles que 11...Rb8 ou 11...Qc8.\n\nAprès le coup réel, les cases claires de l'aile dame noire ont été affaiblies. Plus important encore, l'avance du pion prive le cavalier de c6 d'un soutien solide — une circonstance que les Blancs exploiteront dans leur prochaine attaque sur le roi, tout de l'autre côté de l'échiquier.",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "Qd2",
+      "text": "La dame quitte la première rangée pour permettre aux tours d'entrer en contact l'une avec l'autre. Elles peuvent souhaiter accroître la pression sur une colonne ouverte en s'y doublant, ou autrement travailler de concert.\n\nLe sens complet du coup de dame des Blancs pourrait facilement être négligé par un adversaire qui fait des réponses plausibles mais superficielles.\n\nLes échecs ne doivent pas être joués mécaniquement, même dans les positions les plus simples et les plus placides.\n\n12   ...     0-0 (D)\n\nMarcher droit dans la gueule de la tempête !\n\nAvant de faire un coup qui s'impose si facilement, les Noirs auraient pu se demander : « Comment puis-je exploiter la seule faiblesse des Blancs, les pions doublés sur la colonne c ? »\n\nIls auraient alors pu trouver 12...Na5, dans le but de faire basculer le cavalier en c4. Là, il fait le blocus du pion doublé, interfère avec le libre mouvement des pièces blanches, et en général reste comme une arête dans le gosier. Les Blancs pourraient prendre le cavalier, mais alors ils se sépareraient de l'un de leurs précieux fous, et par suite de l'échange leur position de pions serait inférieure à celle des Noirs. Enfin, les Noirs pourraient\nalors ancrer l'une de leurs pièces avec un grand effet en d5, une case d'où elle ne pourrait jamais être chassée par des pions.",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Bxh6",
+      "text": "Blackburne a dû saisir ce pion à la vitesse de l'éclair !\n\nAu prix d'un fou, il obtient immédiatement deux pions en retour matériel, démolit la barricade de pions près du roi — et davantage, comme nous le verrons.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "gxh6",
+      "text": "Les Noirs doivent prendre le fou, ou se retrouver un pion en moins sans aucune compensation positionnelle.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Qxh6",
+      "text": "Voyons ce que les Blancs obtiennent en retour de la pièce qu'ils ont sacrifiée :\n\n1) Ils ont deux pions en actifs tangibles.\n\n2) Leur dame est puissamment placée en territoire ennemi — menaçant le mat au coup suivant, en fait !\n\n3) Ils ont déchiré l'écran de pions qui abritait le roi noir.\n\n4) Ils ont une forte attaque en perspective, commençant par 15 Ng5.\n\n5) Si davantage d'aide est nécessaire, ils peuvent appeler les réserves (après 15 Ng5) par 16 Rf3, suivi de 17 Rg3.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "Ng6",
+      "text": "Y avait-il une autre défense ?\n\n1) 14...Nf5 (pour interférer avec l'action du fou), alors 15 Bxf5 Rxf5 16 Qxc6 ramasse le cavalier non protégé à l'aile dame, conséquence de l'avance instinctive du pion b des Noirs à leur onzième coup.\n\n2) 14...Bf5 15 Bxf5 Rxf5 16 Qxc6, et de nouveau les Blancs ramassent le malheureux cavalier.\n\n3) 14...f5 laisse le fou noir en prise.\n\nLes Blancs le prendraient en suivant l'excellent conseil de Tartakover : « Prenez d'abord et philosophez ensuite ! »",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Ng5",
+      "text": "Menace à nouveau le mat en h7. C'est plus rapide que l'alternative brutale 15 Bxg6 fxg6 16 Qxg6+ suivi de 17 Qxe6, qui gagne du matériel, et finalement la partie.\n\nBlackburne suit l'injonction posée par le baron von Heydebrand und der Lasa, qui florissait au XIXe siècle : « La façon la plus simple et la plus courte de gagner est la meilleure. »",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "Re8",
+      "text": "La tour fournit au roi une case de fuite.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Rxf7",
+      "text": "De nouveau, il y a un agréable choix de méthodes gagnantes : deux autres sont 16 Bxg6 et si 16...fxg6, alors 17 Qh7# ; et 16 Qh7, suivi de 17 Nf6+ et un mat rapide.\n\nLe coup réellement joué cloue le roi et renouvelle la menace de mat au coup suivant.",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Bxf7",
+      "text": "Forcé, si les Noirs veulent éviter d'abandonner.\n\n17 Qh7+\n\nPoussant le roi dans une situation fatale.",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Qh7+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Kf8",
+      "text": "Le seul coup.\n\n18 Qxf7# (1-0)\n\nLe danger de jouer des échecs plausibles mais superficiels est finement illustré dans cette partie. Blackburne, qui jouait celle-ci et sept autres parties simultanément à l'aveugle, s'appuya sur l'ordre et la méthode pour remporter la victoire. Cela se révéla aisément supérieur au tâtonnement coup par coup de son adversaire voyant.",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "Qxf7#",
+      "text": "",
+      "isCritical": true
+    }
+  ]
+}

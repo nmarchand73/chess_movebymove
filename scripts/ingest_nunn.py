@@ -25,7 +25,7 @@ from lib.ingest_core import (
 ROOT = Path(__file__).resolve().parents[1]
 EPUB = ROOT / "docs" / "Understanding chess move by move - [a top-class grandmaster -- John Nunn -- 2013.epub"
 PGN_DIR = ROOT / "data" / "pgn" / "nunn"
-OUT_DIR = ROOT / "data" / "lessons"
+OUT_DIR = ROOT / "data" / "en" / "lessons"
 
 TOC_FILES = ["index_split_004.html", "index_split_005.html", "index_split_006.html"]
 

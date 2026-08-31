@@ -1,5 +1,7 @@
 import { useMemo, useState } from "react";
 import { Chess } from "chess.js";
+import type { Lang } from "../lib/lang";
+import { fill, ui } from "../lib/uiCopy";
 
 type Props = {
   chess: Chess;
@@ -12,6 +14,7 @@ type Props = {
   physicalBoard?: boolean;
   /** Feedback from a physical guess (parent-owned). */
   externalFeedback?: string | null;
+  lang: Lang;
 };
 
 function HandMovingPieceIcon({ physical }: { physical: boolean }) {
@@ -106,7 +109,9 @@ export function GuessMove({
   onWrong,
   physicalBoard = false,
   externalFeedback = null,
+  lang,
 }: Props) {
+  const t = ui(lang);
   const [guess, setGuess] = useState("");
   const [feedback, setFeedback] = useState<string | null>(null);
   const [showTyped, setShowTyped] = useState(false);
@@ -120,24 +125,24 @@ export function GuessMove({
       const copy = new Chess(chess.fen());
       const played = copy.move(trimmed);
       if (!played) {
-        setFeedback("Illegal move — try again.");
+        setFeedback(t.illegalMove);
         return;
       }
       if (played.san.toLowerCase() === expectedSan.toLowerCase()) {
-        setFeedback(`Correct — same as ${commentator}!`);
+        setFeedback(fill(t.correctSame, { name: commentator }));
         onCorrect();
         onReveal();
       } else {
-        setFeedback(`${commentator} played ${expectedSan} here.`);
+        setFeedback(fill(t.authorPlayed, { name: commentator, san: expectedSan }));
         onWrong();
       }
     } catch {
-      setFeedback("Could not parse that move.");
+      setFeedback(t.couldNotParse);
     }
   }
 
-  const title = physicalBoard ? "Your move" : "Your move";
-  const hint = physicalBoard ? "On the Chessnut" : "On the screen board";
+  const title = t.yourMove;
+  const hint = physicalBoard ? t.onChessnut : t.onScreenBoard;
 
   return (
     <div
@@ -150,7 +155,9 @@ export function GuessMove({
         <strong className="guess-cue-title">{title}</strong>
         <span className="guess-cue-hint">{hint}</span>
         {shownFeedback ? (
-          <span className={`guess-cue-feedback${shownFeedback.startsWith("Correct") ? " is-ok" : ""}`}>
+          <span
+            className={`guess-cue-feedback${shownFeedback.startsWith("Correct") ? " is-ok" : ""}`}
+          >
             {shownFeedback}
           </span>
         ) : null}
@@ -164,22 +171,22 @@ export function GuessMove({
               onChange={(e) => setGuess(e.target.value)}
               onKeyDown={(e) => e.key === "Enter" && submit()}
               placeholder="Nf3"
-              aria-label="Your move guess"
+              aria-label={t.yourMove}
               autoFocus
             />
             <datalist id="legal-moves">{legal.map((m) => <option key={m} value={m} />)}</datalist>
             <button type="button" className="guess-cue-check" onClick={submit}>
-              Check
+              {t.check}
             </button>
           </div>
         ) : null}
         {!physicalBoard && !showTyped ? (
           <button type="button" className="secondary guess-cue-btn" onClick={() => setShowTyped(true)}>
-            Type
+            {t.type}
           </button>
         ) : null}
         <button type="button" className="secondary guess-cue-btn" onClick={onReveal}>
-          Show
+          {t.show}
         </button>
       </div>
     </div>

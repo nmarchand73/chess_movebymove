@@ -1,0 +1,475 @@
+{
+  "id": "nunn-003",
+  "book": "nunn",
+  "gameNum": 3,
+  "title": "Partie 3 : K. Aseev vs N. Rashkovsky",
+  "section": "Thèmes d'ouverture",
+  "players": {
+    "white": "K. Aseev",
+    "black": "N. Rashkovsky"
+  },
+  "event": "Russian Championship, St Petersburg 1998",
+  "opening": "Défense moderne, Attaque autrichienne",
+  "eco": "B06",
+  "pgnPath": "data/pgn/nunn/03.pgn",
+  "result": "1-0",
+  "moveCount": 75,
+  "annotatedMoves": 74,
+  "fullText": "Contrôle réussi du centre\n\nLe troisième objectif majeur de l’ouverture est de gagner le contrôle du centre. Le centre de l’échiquier est particulièrement important pour deux raisons. Tout d’abord, la plupart des pièces affichent une plus grande activité au centre ; cela est particulièrement marqué pour le cavalier, mais concerne toutes les pièces sauf la tour, à des degrés divers. Ainsi, si l’on contrôle le centre, ses pièces seront presque automatiquement plus efficaces que celles de l’adversaire. Le second grand avantage du contrôle central est la flexibilité. Si vos pièces sont placées à l’aile roi, elles auront peu d’influence à l’aile dame. Cela peut ne pas être un problème si vous menez une attaque à l’aile roi contre le roi adverse, par exemple, car c’est là que se joue l’action. Toutefois, s’il n’est pas encore clair où vos pièces seront nécessaires, il peut être trop engageant de les envoyer à l’aile roi. Votre adversaire peut s’arranger pour qu’elles soient inefficaces, par exemple en roquant à l’aile dame, et il peut alors s’avérer qu’elles seraient mieux placées ailleurs. Si vos pièces sont près du centre, elles peuvent facilement basculer à l’aile roi ou à l’aile dame à court préavis. Cela vous donne une flexibilité supplémentaire pour décider où attaquer, et facilite la contrepartie des plans adverses, quel que soit le côté de l’échiquier où il décide d’agir.\n\nToutefois, le contrôle du centre n’est pas facile à définir. C’est davantage une affaire de le reconnaître quand on le voit que d’appliquer une formule. Il peut s’agir d’occuper le centre avec des pions (comme dans la partie suivante), mais nous avons déjà vu dans la Partie 1 que ce n’est pas nécessairement le cas. Dans cette partie, les Blancs contrôlaient le centre avec des pièces à distance, non moins efficacement. En règle générale, que le centre soit ou non occupé par des pions, l’action des pièces est critique. Un centre de pions qui n’est pas correctement soutenu par les pièces s’écroulera probablement (voir la Partie 4). Le principe général est donc de développer ses pièces de façon à exercer la plus grande influence sur le centre.\n\nK. Aseev – N. Rashkovsky\n\nChampionnat de Russie, Saint-Pétersbourg 1998\n\nDéfense moderne, Attaque autrichienne\n\n1 e4\n\nAvec 1 d4, c’est l’un des deux coups d’ouverture les plus populaires. Les Blancs libèrent leur dame et leur fou, et plantent d’emblée un pion au centre.\n\n1...g6\n\nAlekhine, commentant la partie Edward Lasker-Capablanca, New York 1924, écrivait à propos de 1...g6 : « Du point de vue théorique actuel, ce coup ne peut être considéré comme entièrement valable, car les Noirs s’engagent dans une certaine position sans pouvoir influencer en aucune façon le développement de leur adversaire au centre. » Cela n’empêcha toutefois pas Capablanca de gagner la partie, et de nos jours le coup 1...g6 (appelé « défense moderne ») est regardé comme une ouverture tout à fait acceptable. En jouant 1...g6, les Noirs ne renoncent pas, comme le supposait Alekhine, à la possibilité d’un jeu central ; ils le différent jusqu’à ce que les Blancs se soient engagés au centre. Habituellement, la contre-action noire implique ...c5 ou ...e5, bien qu’il existe quelques lignes où les Noirs jouent ...d5.\n\nIl convient ici d’un mot d’avertissement sur la défense moderne. Dans de nombreuses ouvertures classiques, comme la française (1 e4 e6 2 d4 d5), le jeu central des Noirs est inhérent au choix d’ouverture, alors qu’avec la défense moderne les Noirs ont davantage de choix. Avec cette liberté supplémentaire vient la responsabilité d’assurer que l’action centrale noire, quand elle arrive, soit à la fois opportune et appropriée. Si les Noirs tardent trop et laissent les Blancs consolider leur emprise sur le centre, ils se heurteront à la difficulté mentionnée par Alekhine : celle de ne plus pouvoir défier les Blancs au centre du tout.\n\n2 d4\n\nFormant un centre de pions idéal — mais les Blancs pourront-ils le maintenir ?\n\n2...Bg7\n\nExerçant déjà une certaine pression contre d4. Dans la plupart des cas, les Noirs chercheront à renforcer cette pression par un jeu ultérieur sur les cases noires.\n\n3 Nc3\n\nLes Blancs doivent choisir d’occuper c3 avec leur pion c ou leur cavalier. Jouer 3 c3 renforce la case d4 et réduit l’activité du fou de g7, mais retire au cavalier de b1 sa case la plus active, aussi la plupart des joueurs préfèrent-ils le coup naturel du texte.\n\n3...d6\n\nEncore un « coup des cases noires ». C’est une bonne préparation pour un éventuel ...c5 ou ...e5.\n\n4 f4\n\nCeci représente le système le plus agressif des Blancs contre la défense moderne. Ils forment un large centre de pions, visant à développer leurs pièces derrière lui par Nf3, Bd3 (ou Be2) et 0-0. Si les Blancs sont autorisés à achever leur développement avec leur centre de pions incontesté, les Noirs rencontreront des difficultés. Une action rapide des Noirs est donc essentielle. Il existe plusieurs alternatives au coup du texte. 4 Nf3 est l’approche positionnelle, visant un développement simple par Be2 et 0-0. Les Blancs peuvent aussi adopter un système « intermédiaire » comme 4 Be3 et 4 Bg5, qui peut être mené de façon positionnelle ou agressive selon la réaction des Noirs.\n\n4...a6?!\n\nLes Noirs décident de fianchetto leur autre fou, mais ce processus prend trois coups et donne aux Blancs le temps de soutenir leur centre. Les Noirs gagnent, il est vrai, un peu d’espace à l’aile dame, mais ce n’est pas une compensation suffisante pour le temps perdu. Dans les parties de club, les joueurs s’en tirent souvent avec de tels coups excentriques parce que leurs adversaires ne cherchent pas à les exploiter, ou ne savent pas profiter de leurs faiblesses. Dans cette partie, Aseev réagit correctement : il développe aussi vite que possible, tout en dressant autant d’obstacles que possible sur la voie du développement noir. Ce seul faux pas ne suffit pas pour que les Noirs perdent, mais ils doivent être très prudents désormais, surtout qu’ils sont encore à deux coups du roque.\n\nLes Noirs ont plusieurs options acceptables. 4...Nf6 transposerait dans une ouverture proche appelée défense Pirc (1 e4 d6 2 d4 Nf6 3 Nc3 g6 4 f4 Bg7 serait l’ordre de coups de la Pirc). Si les Noirs veulent adopter un système de défense moderne pure, ils pourraient essayer 4...Nc6 ou 4...c6. Tous ces coups visent le centre, tandis que 4...a6 ne le fait pas.\n\n5 Nf3\n\nDéveloppant une pièce et soutenant d4.\n\n5...b5\n\nLes Noirs poursuivent leur plan de développement du fou en b7.\n\n6 Bd3\n\nC’est la meilleure case pour le fou, car e4 exigera un soutien après ...Bb7, surtout compte tenu que les Noirs peuvent chasser le cavalier de c3 par ...b4.\n\n6...Bb7\n\nL’intention des Noirs est de grignoter le centre blanc par ...Nd7 et ...c5, atteignant peut-être finalement une position similaire à la sicilienne après l’échange ...cxd4 (ou, de façon équivalente, dxc5).\n\n7 e5\n\nLes Blancs traitent l’ouverture de façon très agressive. Cette avance de pion a plusieurs avantages :\n\n1) Elle empêche les Noirs de développer leur cavalier de g8 sur la case naturelle f6.\n\n2) Si les Noirs jouent ...b4, le cavalier peut aller en e4 plutôt que de reculer.\n\n3) Elle introduit la possibilité du sacrifice de pion e6.\n\nLes Blancs doivent prendre garde à ne pas trop s’étendre, mais vu le jeu lent des Noirs ce n’est pas encore un danger.\n\nLes joueurs d’une disposition plus positionnelle auraient pu préférer une seconde suite prometteuse : 7 0-0 Nd7 8 Ne2. L’idée est que les Blancs sont prêts à répondre à ...c5 par c3, gardant leur centre de pions intact. Après 8...c5 9 c3 Ngf6 10 Ng3, par exemple, les Noirs n’ont encore fait aucune réelle brèche dans le contrôle central blanc, tandis que les pièces blanches s’amassent de façon menaçante pour une attaque ultérieure à l’aile roi.\n\n7...e6?\n\nLes Noirs s’inquiètent de la possibilité de e6 par les Blancs, et consacrent donc un coup à l’empêcher, mais ce coup est simplement trop lent. Ils auraient dû poursuivre leur plan par 7...Nd7. Alors la ligne clé est 8 0-0 c5 9 Be4 (9 exd6 cxd4 est peu clair) 9...Bxe4 10 Nxe4 cxd4 11 e6 (11 exd6 Qb6 offre du contre-jeu aux Noirs) 11...fxe6 12 Neg5 Nf8 (les Noirs ne peuvent laisser le cavalier sauter en e6 et 12...Nc5 n’est pas possible à cause de 13 b4) 13 Nxd4, menant à une position intrigante où les Noirs ont un pion de plus, mais l’arrangement de leurs pièces à l’aile roi est presque comique. Je préférerais être Blanc car il n’est pas clair comment le cavalier pourra jamais quitter f8, mais il est vrai que la position noire est relativement solide.\n\n8 a4!\n\nUn bon coup. Le plan de base des Blancs implique une attaque à l’aile roi fondée sur 0-0, Ne4 et Qe1-h4. Toutefois, d’abord les Blancs incitent les Noirs à pousser leur pion en b4. Alors un Qe1 ultérieur gagnera un tempo en attaquant le pion b4. Cela peut sembler peu significatif, mais de telles finesses sont très importantes. Le tempo que les Blancs gagneront accélère leur attaque, et il n’y a aucun inconvénient — c’est simplement un coup de plus gratuit.\n\n8...b4\n\nPlus ou moins forcé. Les Noirs ne peuvent continuer par 8...c6, car après 9 Ne4 le cavalier sauterait en d6, tandis que 8...bxa4 briserait les pions de l’aile dame noire et mettrait la tour de a1 en jeu.\n\n9 Ne4\n\n9...Ne7\n\nLes Noirs saisissent sagement l’occasion d’éloigner leur roi du centre.\n\n10 0-0\n\n10...0-0\n\nLes deux camps roquent, mais là s’arrête la similarité. Le roi blanc est bien en sécurité en g1, mais le roi noir restera exposé au danger à l’aile roi. La raison est que les Noirs n’ont que deux pièces mineures à l’aile roi, tandis que les Blancs ont déjà un fou et deux cavaliers prêts à l’action. Une fois que la dame blanche s’y joint, les défenseurs noirs auront du pain sur la planche.\n\n11 Qe1\n\nLes Blancs encaissent dûment le tempo qu’ils avaient réservé plus tôt.\n\n11...a5\n\n12 c3!\n\nC’est un coup très instructif et fort. Les Blancs ont clairement les germes d’une dangereuse attaque à l’aile roi, mais ils sont encore assez loin d’un mat forcé, aussi ne peuvent-ils se permettre d’ignorer le reste de l’échiquier. Sauter immédiatement avec 12 Qh4 serait contre-productif. Les Noirs répondraient 12...Nf5 et les Blancs devraient reculer par 13 Qh3 s’ils voulaient poursuivre leur attaque. Or la dame est hors-jeu en h3 et il vaut bien mieux la laisser où elle est jusqu’à ce que le basculement à l’aile roi produise un résultat plus concret.\n\nLe coup du texte place les Noirs dans une situation embarrassante. D’une part les Blancs stabilisent leur centre et le soutiennent contre une éventuelle attaque par ...c5 plus tard (par exemple, les Noirs pourraient jouer ...Bxe4, suivi de ...d5, ...Nd7 et ...c5). D’autre part, il menace immédiatement de gagner un pion par 13 cxb4, contre quoi les Noirs n’ont pas de défense naturelle. S’ils jouent 12...bxc3, alors 13 bxc3 ouvre la voie à un Ba3 ultérieur. Cela forcerait les Noirs à bouger leur pion d6, accroissant ainsi la portée du fou de a3 et libérant la case c5 pour le cavalier blanc en e4. Ces avantages donneraient aux Blancs une partie virtuellement gagnante à l’aile dame, et il pourrait n’y avoir jamais d’attaque à l’aile roi. Une suite possible : 13...Bxe4 14 Bxe4 d5 15 Bd3 c5 16 Ba3 Nd7 17 Bb5 cxd4 18 cxd4 avec une pression écrasante à l’aile dame. Les Noirs pourraient jouer 12...Nbc6, mais maintenant que d4 est sûr, les Blancs pourraient poursuivre leur attaque par 13 Nfg5, comme dans la partie.\n\n12...Ba6\n\nLes Noirs jouent pour les échanges, une manœuvre classique pour réduire la force d’une attaque. Bien qu’ils parviennent à échanger les fous, il leur reste un cavalier hors-jeu en a6 qui ne jouera guère de rôle dans la suite.\n\n13 Bxa6\n\n13...Nxa6\n\nLes Noirs préféreraient jouer 13...Rxa6, mais ils ne le peuvent car ils doivent défendre b4. Notez comment la diversion blanche à l’aile dame avec c3 a forcé les Noirs à une nouvelle concession positionnelle, qui à son tour améliore les perspectives de l’attaque blanche.\n\n14 Nfg5\n\nLes choses commencent à s’assombrir pour les Noirs. Les Blancs ont diverses menaces, mais l’une des plus simples est 15 g4, tenant le cavalier noir hors de f5, puis soit 16 Qh4 soit 16 Nf6+. Grâce à la domination centrale blanche, les Noirs trouvent impossible de faire basculer aucune de leurs pièces de l’aile dame vers la défense.\n\n14...h6\n\n14...dxe5 15 fxe5 n’aide en rien et ne sert qu’à introduire le fou de c1 dans l’attaque. Les Noirs tentent donc de repousser le cavalier blanc.\n\n15 Nf6+!\n\nIl est parfois possible de mener une attaque qui exige peu de calcul, mais c’est rare contre une opposition déterminée. Plus souvent, il arrive un moment critique où une analyse précise est requise pour que l’attaque réussisse. Ce moment est arrivé, et Aseev prouve qu’il est à la hauteur.\n\n15...Kh8\n\nRashkovsky décline l’offre, mais le cavalier en f6 s’avère trop fort. La suite critique est 15...Bxf6 16 exf6 et maintenant :\n\n1) 16...Nc8 17 Nxe6 fxe6 18 Qe4 gagne en attaquant à la fois g6 et a8.\n\n2) 16...Nd5 17 Nxe6! fxe6 18 Qxe6+ Kh7 19 Qxd5 Qxf6 20 Qxa5 et les Noirs ont peu à montrer pour les deux pions.\n\n3) 16...Nf5 (16...hxg5 17 fxg5 Nf5 18 g4 transpose) 17 g4 hxg5 (après 17...Qxf6 18 Ne4 les Blancs gagnent une pièce) 18 fxg5 Re8 19 gxf5 exf5 20 Qh4 Re4 21 Bf4, suivi de Rf3-h3, gagne.\n\n4) 16...Nc6 17 Ne4! d5 18 f5! (la suite la plus vigoureuse, ouvrant l’aile roi et activant simultanément le fou de c1) 18...dxe4 (18...exf5 19 Qh4 dxe4 20 Bxh6, suivi de Bg7, mate) 19 fxg6 fxg6 (19...Qd5 20 Qg3 Qd6 21 Qg4, suivi de Bxh6, donne aux Blancs une attaque gagnante) 20 Qxe4 Rxf6 21 Rxf6 Qxf6 22 Qxc6 est la variante la plus instructive. Le matériel est égal, mais les Noirs sont condamnés par leur faiblesse positionnelle à l’aile dame, surtout le cavalier mal placé en a6. Après 22...Rf8 23 Be3 e5 24 Qd5+ les Blancs gagnent facilement car les pions noirs tombent.\n\n16 Ngh7\n\nLes cavaliers blancs offrent un joli tableau. Pour éviter de perdre la qualité, les Noirs doivent abandonner leur important fou défensif.\n\n16...Bxf6\n\n17 Nxf6\n\nLes Blancs ont une position gagnante. Il n’y a aucun moyen de déloger le cavalier de f6, et tant que ce cavalier reste les Noirs n’ont aucun espoir de défendre leur aile roi.\n\n17...Kg7\n\nLes Noirs ne peuvent guère empêcher les Blancs d’amener les réserves à l’attaque en jouant f5. Après 17...Ng8 18 Qh4 Kg7, par exemple, les Blancs gagnent par 19 f5! exf5 20 Bg5 Qc8 21 Rf3 Rd8 (21...h5 22 Nxh5+ gxh5 23 Bf6+ mate) 22 Nxg8 hxg5 23 Qh6+ Kxg8 24 Rh3, mate.\n\n18 f5!\n\nLe coup thématique, menaçant de forcer le mat par 19 Bxh6+ Kxh6 20 Qh4+, un motif qui revient dans la suite.\n\n18...Rh8\n\n18...Nxf5 19 Rxf5 exf5 20 Bxh6+ mate, aussi les Noirs défendent-ils h6.\n\n19 fxe6\n\nMaintenant que la tour noire a été forcée d’abandonner la colonne f, il est à l’avantage des Blancs de l’ouvrir.\n\n19...fxe6\n\n20 Qf2!\n\nLes Blancs menacent le mat en deux coups par 21 Nh5+.\n\n20...Qf8\n\n20...Rf8 permet 21 Bxh6+.\n\n21 Bf4?\n\nLes Blancs conservent une position gagnante même après ce coup, mais en bloquant la colonne f ils rendent le gain plus difficile. Dommage qu’Aseev n’ait pas vu la suite forcée 21 Nh5+ gxh5 (21...Kg8 22 Qg3 Qd8 23 Rf6 Rh7 24 Rxe6 est catastrophique) 22 Qg3+ Ng6 23 Rxf8, suivi de exd6, avec un gain matériel facile.\n\nLe coup du texte menace 22 exd6 cxd6 23 Bxd6, suivi de Be5.\n\n21...d5\n\nForcé, car 21...Rd8 perd sur 22 Qe2 (encore ce cavalier de a6 !) 22...Nb8 23 exd6 cxd6 24 Bxd6! Rxd6 25 Nh5+ gxh5 26 Qe5+, suivi de la prise de la dame puis de la tour.\n\n22 Rac1\n\nUne idée typique. Les Blancs ne peuvent faire de progrès immédiat à l’aile roi, aussi inquiètent-ils les Noirs sur un autre secteur. Maintenant les Noirs doivent tenir compte de la possibilité que les Blancs ouvrent la colonne c, par cxb4 ou c4. Il n’y a aucun mal à faire de tels coups préparatoires utiles, puisque les Noirs sont incapables d’améliorer leur position.\n\n22...c5\n\nLes Noirs décident qu’ils ne peuvent plus rester passifs, et se précipitent. 22...bxc3 23 Rxc3 est mauvais pour les Noirs car la tour basculera à l’aile roi, aussi la seule alternative était d’attendre, par exemple par 22...c6. Dans ce cas les Blancs gagneraient par 23 cxb4 axb4 (ou 23...Nxb4 24 Rc3, suivi de Rh3) 24 Bd2, où il n’y a aucun moyen raisonnable d’empêcher 25 Nh5+ Kg8 (25...gxh5 26 Qg3+) 26 Qg3.\n\n23 dxc5\n\nLes Blancs prennent et gardent le pion.\n\n23...Nf5\n\nAprès 23...Nc6 24 Be3, suivi de Bd4, les Blancs cimentent leur emprise sur les cases noires des deux côtés de l’échiquier (24...Nxe5 perd aussitôt sur 25 Bd4).\n\n24 g4\n\nDe retour !\n\n24...Ne7\n\nEn induisant g4, les Noirs ont au moins empêché le truc Nh5+ et Qg3+, mais leur position est de toute façon hors d’espoir.\n\n25 Bd2\n\nMenace d’échanger en b4 puis de pousser le pion c.\n\n25...Nc6\n\nBloquant le pion c, mais maintenant les Noirs manquent le cavalier à l’aile roi.\n\n26 cxb4\n\n26...Naxb4\n\nLes Blancs gagnent aussi après 26...axb4 27 Qg3 Qe7 28 Nh5+! Kh7 29 Rf6 Raf8 30 Qe3, où h6 s’écroule.\n\n27 Rc3\n\nMaintenant que c3 est libre, la tour blanche peut basculer à l’aile roi pour le coup de grâce.\n\n27...Qe7\n\n27...Nxe5 28 Qg3 laisse les Noirs sans défense ; par exemple, 28...Nbc6 29 Nd7 Nxd7 30 Rxf8 Rhxf8 31 Qc7 Nce5 32 c6 ou 28...Qb8 29 Bf4 Nbc6 30 Nd7.\n\n28 Rh3\n\nMenace l’ancien truc 29 Bxh6+.\n\n28...g5\n\nParant la menace, mais concédant la case h5 et ouvrant la diagonale b1-h7.\n\n29 Nh5+\n\n29...Kg8\n\n30 Nf6+\n\n30...Kg7\n\n31 Nh5+\n\n31...Kg8\n\nApparemment les Blancs étaient en zeitnot, et répètent les coups pour s’approcher du contrôle de temps au 40e coup (actuellement la limite standard en compétition internationale est de 2 heures par joueur pour les 40 premiers coups).\n\n32 Bxb4\n\nSerrant l’étau pour le coup de grâce.\n\n32...axb4\n\n32...Nxb4 33 Rf3 Ra7 34 c6 Rc7 (34...Nxc6 35 Rf8+ Kh7 36 Qc2#) 35 Rf8+ Kh7 36 Rf7+ Qxf7 37 Qxf7+ Rxf7 38 Rxf7+ Kg8 39 Rg7+ Kf8 40 c7 mène au mat.\n\n33 Qc2\n\nLes Blancs menacent 34 Qg6+, exploitant la diagonale b1-h7 faible.\n\n33...Nxe5\n\nUn dernier repas.\n\n34 Nf6+\n\n34...Kg7\n\n35 Nh5+\n\n35...Kg8\n\n36 Re3\n\nLe cavalier ne peut bouger car il doit couvrir g6, aussi les Noirs sont-ils au bout du chemin.\n\n36...b3\n\n36...Qc7 perd sur 37 Rxe5.\n\n37 Qc3\n\nPas 37 Qb1? Qxc5, où les Noirs s’en tirent.\n\n37...Nxg4\n\n38 Rxe6\n\n38...1-0\n\nAprès 38...Qh7 (pour couvrir g6) 39 Qf3, menaçant 40 Qxg4, 40 Qxd5 et 40 Re8+ Rxe8 41 Qxd5+, ce sera mat en quelques coups.\n\nDans cette partie, Aseev a sévèrement puni les libertés des Noirs dans l’ouverture (4...a6?! et surtout 7...e6?). La façon dont les Blancs ont construit leur attaque est digne d’attention. Ils ont d’abord établi un coin de pions bien soutenu au centre (c3-d4-e5-f4) puis ont commencé à faire basculer leurs pièces à l’aile roi. En même temps, ils restaient attentifs à toute chance d’inquiéter les Noirs de l’autre côté (par exemple en jouant Ba3 ou en exploitant le cavalier de a6). Quand les Noirs ont été forcés d’échanger leur fou des cases noires, la fin était déjà en vue vu leurs faiblesses paralysantes sur les cases noires. Même si Aseev a manqué le gain le plus rapide, ce n’était qu’une question de temps avant qu’il trouve le moyen de briser la position noire et de conclure.\n\nLes leçons sont les suivantes :\n\n1) Le contrôle du centre est un objectif important de l’ouverture.\n\n2) Il est imprudent de laisser à l’adversaire trop libre cours au centre.\n\n3) Un centre bien soutenu est souvent le tremplin d’une attaque de flanc contre le roi.\n\n4) Un cavalier solidement installé sur la sixième rangée exerce en général un effet paralysant sur les forces adverses.\n",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Contrôle réussi du centre\n\nLe troisième objectif majeur de l’ouverture est de gagner le contrôle du centre. Le centre de l’échiquier est particulièrement important pour deux raisons. Tout d’abord, la plupart des pièces affichent une plus grande activité au centre ; cela est particulièrement marqué pour le cavalier, mais concerne toutes les pièces sauf la tour, à des degrés divers. Ainsi, si l’on contrôle le centre, ses pièces seront presque automatiquement plus efficaces que celles de l’adversaire. Le second grand avantage du contrôle central est la flexibilité. Si vos pièces sont placées à l’aile roi, elles auront peu d’influence à l’aile dame. Cela peut ne pas être un problème si vous menez une attaque à l’aile roi contre le roi adverse, par exemple, car c’est là que se joue l’action. Toutefois, s’il n’est pas encore clair où vos pièces seront nécessaires, il peut être trop engageant de les envoyer à l’aile roi. Votre adversaire peut s’arranger pour qu’elles soient inefficaces, par exemple en roquant à l’aile dame, et il peut alors s’avérer qu’elles seraient mieux placées ailleurs. Si vos pièces sont près du centre, elles peuvent facilement basculer à l’aile roi ou à l’aile dame à court préavis. Cela vous donne une flexibilité supplémentaire pour décider où attaquer, et facilite la contrepartie des plans adverses, quel que soit le côté de l’échiquier où il décide d’agir.\n\nToutefois, le contrôle du centre n’est pas facile à définir. C’est davantage une affaire de le reconnaître quand on le voit que d’appliquer une formule. Il peut s’agir d’occuper le centre avec des pions (comme dans la partie suivante), mais nous avons déjà vu dans la Partie 1 que ce n’est pas nécessairement le cas. Dans cette partie, les Blancs contrôlaient le centre avec des pièces à distance, non moins efficacement. En règle générale, que le centre soit ou non occupé par des pions, l’action des pièces est critique. Un centre de pions qui n’est pas correctement soutenu par les pièces s’écroulera probablement (voir la Partie 4). Le principe général est donc de développer ses pièces de façon à exercer la plus grande influence sur le centre.\n\nK. Aseev – N. Rashkovsky\n\nChampionnat de Russie, Saint-Pétersbourg 1998\n\nDéfense moderne, Attaque autrichienne"
+    },
+    {
+      "ply": 1,
+      "san": "e4",
+      "text": "Avec 1 d4, c’est l’un des deux coups d’ouverture les plus populaires. Les Blancs libèrent leur dame et leur fou, et plantent d’emblée un pion au centre.",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "g6",
+      "text": "Alekhine, commentant la partie Edward Lasker-Capablanca, New York 1924, écrivait à propos de 1...g6 : « Du point de vue théorique actuel, ce coup ne peut être considéré comme entièrement valable, car les Noirs s’engagent dans une certaine position sans pouvoir influencer en aucune façon le développement de leur adversaire au centre. » Cela n’empêcha toutefois pas Capablanca de gagner la partie, et de nos jours le coup 1...g6 (appelé « défense moderne ») est regardé comme une ouverture tout à fait acceptable. En jouant 1...g6, les Noirs ne renoncent pas, comme le supposait Alekhine, à la possibilité d’un jeu central ; ils le différent jusqu’à ce que les Blancs se soient engagés au centre. Habituellement, la contre-action noire implique ...c5 ou ...e5, bien qu’il existe quelques lignes où les Noirs jouent ...d5.\n\nIl convient ici d’un mot d’avertissement sur la défense moderne. Dans de nombreuses ouvertures classiques, comme la française (1 e4 e6 2 d4 d5), le jeu central des Noirs est inhérent au choix d’ouverture, alors qu’avec la défense moderne les Noirs ont davantage de choix. Avec cette liberté supplémentaire vient la responsabilité d’assurer que l’action centrale noire, quand elle arrive, soit à la fois opportune et appropriée. Si les Noirs tardent trop et laissent les Blancs consolider leur emprise sur le centre, ils se heurteront à la difficulté mentionnée par Alekhine : celle de ne plus pouvoir défier les Blancs au centre du tout.",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "d4",
+      "text": "Formant un centre de pions idéal — mais les Blancs pourront-ils le maintenir ?",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "Bg7",
+      "text": "Trait aux Blancs\n\nExerçant déjà une certaine pression contre d4. Dans la plupart des cas, les Noirs chercheront à renforcer cette pression par un jeu ultérieur sur les cases noires.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "Nc3",
+      "text": "Les Blancs doivent choisir d’occuper c3 avec leur pion c ou leur cavalier. Jouer 3 c3 renforce la case d4 et réduit l’activité du fou de g7, mais retire au cavalier de b1 sa case la plus active, aussi la plupart des joueurs préfèrent-ils le coup naturel du texte.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "d6",
+      "text": "Encore un « coup des cases noires ». C’est une bonne préparation pour un éventuel ...c5 ou ...e5.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "f4",
+      "text": "Ceci représente le système le plus agressif des Blancs contre la défense moderne. Ils forment un large centre de pions, visant à développer leurs pièces derrière lui par Nf3, Bd3 (ou Be2) et 0-0. Si les Blancs sont autorisés à achever leur développement avec leur centre de pions incontesté, les Noirs rencontreront des difficultés. Une action rapide des Noirs est donc essentielle. Il existe plusieurs alternatives au coup du texte. 4 Nf3 est l’approche positionnelle, visant un développement simple par Be2 et 0-0. Les Blancs peuvent aussi adopter un système « intermédiaire » comme 4 Be3 et 4 Bg5, qui peut être mené de façon positionnelle ou agressive selon la réaction des Noirs.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "a6",
+      "text": "Les Noirs décident de fianchetto leur autre fou, mais ce processus prend trois coups et donne aux Blancs le temps de soutenir leur centre. Les Noirs gagnent, il est vrai, un peu d’espace à l’aile dame, mais ce n’est pas une compensation suffisante pour le temps perdu. Dans les parties de club, les joueurs s’en tirent souvent avec de tels coups excentriques parce que leurs adversaires ne cherchent pas à les exploiter, ou ne savent pas profiter de leurs faiblesses. Dans cette partie, Aseev réagit correctement : il développe aussi vite que possible, tout en dressant autant d’obstacles que possible sur la voie du développement noir. Ce seul faux pas ne suffit pas pour que les Noirs perdent, mais ils doivent être très prudents désormais, surtout qu’ils sont encore à deux coups du roque.\n\nLes Noirs ont plusieurs options acceptables. 4...Nf6 transposerait dans une ouverture proche appelée défense Pirc (1 e4 d6 2 d4 Nf6 3 Nc3 g6 4 f4 Bg7 serait l’ordre de coups de la Pirc). Si les Noirs veulent adopter un système de défense moderne pure, ils pourraient essayer 4...Nc6 ou 4...c6. Tous ces coups visent le centre, tandis que 4...a6 ne le fait pas.",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "Nf3",
+      "text": "Développant une pièce et soutenant d4.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "b5",
+      "text": "Trait aux Blancs\n\nLes Noirs poursuivent leur plan de développement du fou en b7.",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "Bd3",
+      "text": "C’est la meilleure case pour le fou, car e4 exigera un soutien après ...Bb7, surtout compte tenu que les Noirs peuvent chasser le cavalier de c3 par ...b4.",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "Bb7",
+      "text": "L’intention des Noirs est de grignoter le centre blanc par ...Nd7 et ...c5, atteignant peut-être finalement une position similaire à la sicilienne après l’échange ...cxd4 (ou, de façon équivalente, dxc5).",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "e5",
+      "text": "Les Blancs traitent l’ouverture de façon très agressive. Cette avance de pion a plusieurs avantages :\n\n1) Elle empêche les Noirs de développer leur cavalier de g8 sur la case naturelle f6.\n\n2) Si les Noirs jouent ...b4, le cavalier peut aller en e4 plutôt que de reculer.\n\n3) Elle introduit la possibilité du sacrifice de pion e6.\n\nLes Blancs doivent prendre garde à ne pas trop s’étendre, mais vu le jeu lent des Noirs ce n’est pas encore un danger.\n\nLes joueurs d’une disposition plus positionnelle auraient pu préférer une seconde suite prometteuse : 7 0-0 Nd7 8 Ne2. L’idée est que les Blancs sont prêts à répondre à ...c5 par c3, gardant leur centre de pions intact. Après 8...c5 9 c3 Ngf6 10 Ng3, par exemple, les Noirs n’ont encore fait aucune réelle brèche dans le contrôle central blanc, tandis que les pièces blanches s’amassent de façon menaçante pour une attaque ultérieure à l’aile roi.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "e6",
+      "text": "Les Noirs s’inquiètent de la possibilité de e6 par les Blancs, et consacrent donc un coup à l’empêcher, mais ce coup est simplement trop lent. Ils auraient dû poursuivre leur plan par 7...Nd7. Alors la ligne clé est 8 0-0 c5 9 Be4 (9 exd6 cxd4 est peu clair) 9...Bxe4 10 Nxe4 cxd4 11 e6 (11 exd6 Qb6 offre du contre-jeu aux Noirs) 11...fxe6 12 Neg5 Nf8 (les Noirs ne peuvent laisser le cavalier sauter en e6 et 12...Nc5 n’est pas possible à cause de 13 b4) 13 Nxd4, menant à une position intrigante où les Noirs ont un pion de plus, mais l’arrangement de leurs pièces à l’aile roi est presque comique. Je préférerais être Blanc car il n’est pas clair comment le cavalier pourra jamais quitter f8, mais il est vrai que la position noire est relativement solide.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "a4",
+      "text": "Un bon coup. Le plan de base des Blancs implique une attaque à l’aile roi fondée sur 0-0, Ne4 et Qe1-h4. Toutefois, d’abord les Blancs incitent les Noirs à pousser leur pion en b4. Alors un Qe1 ultérieur gagnera un tempo en attaquant le pion b4. Cela peut sembler peu significatif, mais de telles finesses sont très importantes. Le tempo que les Blancs gagneront accélère leur attaque, et il n’y a aucun inconvénient — c’est simplement un coup de plus gratuit.",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "b4",
+      "text": "Plus ou moins forcé. Les Noirs ne peuvent continuer par 8...c6, car après 9 Ne4 le cavalier sauterait en d6, tandis que 8...bxa4 briserait les pions de l’aile dame noire et mettrait la tour de a1 en jeu.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "Ne4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "Ne7",
+      "text": "Les Noirs saisissent sagement l’occasion d’éloigner leur roi du centre.\n\n10 0-0",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "O-O",
+      "text": "Les deux camps roquent, mais là s’arrête la similarité. Le roi blanc est bien en sécurité en g1, mais le roi noir restera exposé au danger à l’aile roi. La raison est que les Noirs n’ont que deux pièces mineures à l’aile roi, tandis que les Blancs ont déjà un fou et deux cavaliers prêts à l’action. Une fois que la dame blanche s’y joint, les défenseurs noirs auront du pain sur la planche.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "Qe1",
+      "text": "Les Blancs encaissent dûment le tempo qu’ils avaient réservé plus tôt.",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "a5",
+      "text": "Trait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "c3",
+      "text": "C’est un coup très instructif et fort. Les Blancs ont clairement les germes d’une dangereuse attaque à l’aile roi, mais ils sont encore assez loin d’un mat forcé, aussi ne peuvent-ils se permettre d’ignorer le reste de l’échiquier. Sauter immédiatement avec 12 Qh4 serait contre-productif. Les Noirs répondraient 12...Nf5 et les Blancs devraient reculer par 13 Qh3 s’ils voulaient poursuivre leur attaque. Or la dame est hors-jeu en h3 et il vaut bien mieux la laisser où elle est jusqu’à ce que le basculement à l’aile roi produise un résultat plus concret.\n\nLe coup du texte place les Noirs dans une situation embarrassante. D’une part les Blancs stabilisent leur centre et le soutiennent contre une éventuelle attaque par ...c5 plus tard (par exemple, les Noirs pourraient jouer ...Bxe4, suivi de ...d5, ...Nd7 et ...c5). D’autre part, il menace immédiatement de gagner un pion par 13 cxb4, contre quoi les Noirs n’ont pas de défense naturelle. S’ils jouent 12...bxc3, alors 13 bxc3 ouvre la voie à un Ba3 ultérieur. Cela forcerait les Noirs à bouger leur pion d6, accroissant ainsi la portée du fou de a3 et libérant la case c5 pour le cavalier blanc en e4. Ces avantages donneraient aux Blancs une partie virtuellement gagnante à l’aile dame, et il pourrait n’y avoir jamais d’attaque à l’aile roi. Une suite possible : 13...Bxe4 14 Bxe4 d5 15 Bd3 c5 16 Ba3 Nd7 17 Bb5 cxd4 18 cxd4 avec une pression écrasante à l’aile dame. Les Noirs pourraient jouer 12...Nbc6, mais maintenant que d4 est sûr, les Blancs pourraient poursuivre leur attaque par 13 Nfg5, comme dans la partie.",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "Ba6",
+      "text": "Trait aux Blancs\n\nLes Noirs jouent pour les échanges, une manœuvre classique pour réduire la force d’une attaque. Bien qu’ils parviennent à échanger les fous, il leur reste un cavalier hors-jeu en a6 qui ne jouera guère de rôle dans la suite.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Bxa6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "Nxa6",
+      "text": "Les Noirs préféreraient jouer 13...Rxa6, mais ils ne le peuvent car ils doivent défendre b4. Notez comment la diversion blanche à l’aile dame avec c3 a forcé les Noirs à une nouvelle concession positionnelle, qui à son tour améliore les perspectives de l’attaque blanche.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Nfg5",
+      "text": "Les choses commencent à s’assombrir pour les Noirs. Les Blancs ont diverses menaces, mais l’une des plus simples est 15 g4, tenant le cavalier noir hors de f5, puis soit 16 Qh4 soit 16 Nf6+. Grâce à la domination centrale blanche, les Noirs trouvent impossible de faire basculer aucune de leurs pièces de l’aile dame vers la défense.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "h6",
+      "text": "14...dxe5 15 fxe5 n’aide en rien et ne sert qu’à introduire le fou de c1 dans l’attaque. Les Noirs tentent donc de repousser le cavalier blanc.",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Nf6+",
+      "text": "Trait aux Noirs\n\nIl est parfois possible de mener une attaque qui exige peu de calcul, mais c’est rare contre une opposition déterminée. Plus souvent, il arrive un moment critique où une analyse précise est requise pour que l’attaque réussisse. Ce moment est arrivé, et Aseev prouve qu’il est à la hauteur.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "Kh8",
+      "text": "Rashkovsky décline l’offre, mais le cavalier en f6 s’avère trop fort. La suite critique est 15...Bxf6 16 exf6 et maintenant :\n\n1) 16...Nc8 17 Nxe6 fxe6 18 Qe4 gagne en attaquant à la fois g6 et a8.\n\n2) 16...Nd5 17 Nxe6! fxe6 18 Qxe6+ Kh7 19 Qxd5 Qxf6 20 Qxa5 et les Noirs ont peu à montrer pour les deux pions.\n\n3) 16...Nf5 (16...hxg5 17 fxg5 Nf5 18 g4 transpose) 17 g4 hxg5 (après 17...Qxf6 18 Ne4 les Blancs gagnent une pièce) 18 fxg5 Re8 19 gxf5 exf5 20 Qh4 Re4 21 Bf4, suivi de Rf3-h3, gagne.\n\n4) 16...Nc6 17 Ne4! d5 18 f5! (la suite la plus vigoureuse, ouvrant l’aile roi et activant simultanément le fou de c1) 18...dxe4 (18...exf5 19 Qh4 dxe4 20 Bxh6, suivi de Bg7, mate) 19 fxg6 fxg6 (19...Qd5 20 Qg3 Qd6 21 Qg4, suivi de Bxh6, donne aux Blancs une attaque gagnante) 20 Qxe4 Rxf6 21 Rxf6 Qxf6 22 Qxc6 est la variante la plus instructive. Le matériel est égal, mais les Noirs sont condamnés par leur faiblesse positionnelle à l’aile dame, surtout le cavalier mal placé en a6. Après 22...Rf8 23 Be3 e5 24 Qd5+ les Blancs gagnent facilement car les pions noirs tombent.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Ngh7",
+      "text": "Trait aux Noirs\n\nLes cavaliers blancs offrent un joli tableau. Pour éviter de perdre la qualité, les Noirs doivent abandonner leur important fou défensif.",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Bxf6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Nxf6",
+      "text": "Les Blancs ont une position gagnante. Il n’y a aucun moyen de déloger le cavalier de f6, et tant que ce cavalier reste les Noirs n’ont aucun espoir de défendre leur aile roi.",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Kg7",
+      "text": "Les Noirs ne peuvent guère empêcher les Blancs d’amener les réserves à l’attaque en jouant f5. Après 17...Ng8 18 Qh4 Kg7, par exemple, les Blancs gagnent par 19 f5! exf5 20 Bg5 Qc8 21 Rf3 Rd8 (21...h5 22 Nxh5+ gxh5 23 Bf6+ mate) 22 Nxg8 hxg5 23 Qh6+ Kxg8 24 Rh3, mate.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "f5",
+      "text": "Le coup thématique, menaçant de forcer le mat par 19 Bxh6+ Kxh6 20 Qh4+, un motif qui revient dans la suite.",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "Rh8",
+      "text": "18...Nxf5 19 Rxf5 exf5 20 Bxh6+ mate, aussi les Noirs défendent-ils h6.",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "fxe6",
+      "text": "Maintenant que la tour noire a été forcée d’abandonner la colonne f, il est à l’avantage des Blancs de l’ouvrir.",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "fxe6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "Qf2",
+      "text": "Les Blancs menacent le mat en deux coups par 21 Nh5+.",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "Qf8",
+      "text": "20...Rf8 permet 21 Bxh6+.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "Bf4",
+      "text": "Les Blancs conservent une position gagnante même après ce coup, mais en bloquant la colonne f ils rendent le gain plus difficile. Dommage qu’Aseev n’ait pas vu la suite forcée 21 Nh5+ gxh5 (21...Kg8 22 Qg3 Qd8 23 Rf6 Rh7 24 Rxe6 est catastrophique) 22 Qg3+ Ng6 23 Rxf8, suivi de exd6, avec un gain matériel facile.\n\nLe coup du texte menace 22 exd6 cxd6 23 Bxd6, suivi de Be5.",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "d5",
+      "text": "Forcé, car 21...Rd8 perd sur 22 Qe2 (encore ce cavalier de a6 !) 22...Nb8 23 exd6 cxd6 24 Bxd6! Rxd6 25 Nh5+ gxh5 26 Qe5+, suivi de la prise de la dame puis de la tour.",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "Rac1",
+      "text": "Trait aux Noirs\n\nUne idée typique. Les Blancs ne peuvent faire de progrès immédiat à l’aile roi, aussi inquiètent-ils les Noirs sur un autre secteur. Maintenant les Noirs doivent tenir compte de la possibilité que les Blancs ouvrent la colonne c, par cxb4 ou c4. Il n’y a aucun mal à faire de tels coups préparatoires utiles, puisque les Noirs sont incapables d’améliorer leur position.",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "c5",
+      "text": "Les Noirs décident qu’ils ne peuvent plus rester passifs, et se précipitent. 22...bxc3 23 Rxc3 est mauvais pour les Noirs car la tour basculera à l’aile roi, aussi la seule alternative était d’attendre, par exemple par 22...c6. Dans ce cas les Blancs gagneraient par 23 cxb4 axb4 (ou 23...Nxb4 24 Rc3, suivi de Rh3) 24 Bd2, où il n’y a aucun moyen raisonnable d’empêcher 25 Nh5+ Kg8 (25...gxh5 26 Qg3+) 26 Qg3.",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "dxc5",
+      "text": "Les Blancs prennent et gardent le pion.",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "Nf5",
+      "text": "Après 23...Nc6 24 Be3, suivi de Bd4, les Blancs cimentent leur emprise sur les cases noires des deux côtés de l’échiquier (24...Nxe5 perd aussitôt sur 25 Bd4).\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "g4",
+      "text": "De retour !",
+      "isCritical": true
+    },
+    {
+      "ply": 48,
+      "san": "Ne7",
+      "text": "En induisant g4, les Noirs ont au moins empêché le truc Nh5+ et Qg3+, mais leur position est de toute façon hors d’espoir.",
+      "isCritical": true
+    },
+    {
+      "ply": 49,
+      "san": "Bd2",
+      "text": "Menace d’échanger en b4 puis de pousser le pion c.",
+      "isCritical": true
+    },
+    {
+      "ply": 50,
+      "san": "Nc6",
+      "text": "Bloquant le pion c, mais maintenant les Noirs manquent le cavalier à l’aile roi.",
+      "isCritical": true
+    },
+    {
+      "ply": 51,
+      "san": "cxb4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 52,
+      "san": "Naxb4",
+      "text": "Les Blancs gagnent aussi après 26...axb4 27 Qg3 Qe7 28 Nh5+! Kh7 29 Rf6 Raf8 30 Qe3, où h6 s’écroule.",
+      "isCritical": true
+    },
+    {
+      "ply": 53,
+      "san": "Rc3",
+      "text": "Trait aux Noirs\n\nMaintenant que c3 est libre, la tour blanche peut basculer à l’aile roi pour le coup de grâce.",
+      "isCritical": true
+    },
+    {
+      "ply": 54,
+      "san": "Qe7",
+      "text": "27...Nxe5 28 Qg3 laisse les Noirs sans défense ; par exemple, 28...Nbc6 29 Nd7 Nxd7 30 Rxf8 Rhxf8 31 Qc7 Nce5 32 c6 ou 28...Qb8 29 Bf4 Nbc6 30 Nd7.",
+      "isCritical": true
+    },
+    {
+      "ply": 55,
+      "san": "Rh3",
+      "text": "Menace l’ancien truc 29 Bxh6+.",
+      "isCritical": true
+    },
+    {
+      "ply": 56,
+      "san": "g5",
+      "text": "Parant la menace, mais concédant la case h5 et ouvrant la diagonale b1-h7.",
+      "isCritical": true
+    },
+    {
+      "ply": 57,
+      "san": "Nh5+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 58,
+      "san": "Kg8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 59,
+      "san": "Nf6+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 60,
+      "san": "Kg7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 61,
+      "san": "Nh5+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 62,
+      "san": "Kg8",
+      "text": "Apparemment les Blancs étaient en zeitnot, et répètent les coups pour s’approcher du contrôle de temps au 40e coup (actuellement la limite standard en compétition internationale est de 2 heures par joueur pour les 40 premiers coups).",
+      "isCritical": true
+    },
+    {
+      "ply": 63,
+      "san": "Bxb4",
+      "text": "Serrant l’étau pour le coup de grâce.",
+      "isCritical": true
+    },
+    {
+      "ply": 64,
+      "san": "axb4",
+      "text": "32...Nxb4 33 Rf3 Ra7 34 c6 Rc7 (34...Nxc6 35 Rf8+ Kh7 36 Qc2#) 35 Rf8+ Kh7 36 Rf7+ Qxf7 37 Qxf7+ Rxf7 38 Rxf7+ Kg8 39 Rg7+ Kf8 40 c7 mène au mat.",
+      "isCritical": true
+    },
+    {
+      "ply": 65,
+      "san": "Qc2",
+      "text": "Trait aux Noirs\n\nLes Blancs menacent 34 Qg6+, exploitant la diagonale b1-h7 faible.",
+      "isCritical": true
+    },
+    {
+      "ply": 66,
+      "san": "Nxe5",
+      "text": "Un dernier repas.",
+      "isCritical": true
+    },
+    {
+      "ply": 67,
+      "san": "Nf6+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 68,
+      "san": "Kg7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 69,
+      "san": "Nh5+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 70,
+      "san": "Kg8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 71,
+      "san": "Re3",
+      "text": "Le cavalier ne peut bouger car il doit couvrir g6, aussi les Noirs sont-ils au bout du chemin.",
+      "isCritical": true
+    },
+    {
+      "ply": 72,
+      "san": "b3",
+      "text": "36...Qc7 perd sur 37 Rxe5.",
+      "isCritical": true
+    },
+    {
+      "ply": 73,
+      "san": "Qc3",
+      "text": "Pas 37 Qb1? Qxc5, où les Noirs s’en tirent.",
+      "isCritical": true
+    },
+    {
+      "ply": 74,
+      "san": "Nxg4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 75,
+      "san": "Rxe6",
+      "text": "38...1-0\n\nAprès 38...Qh7 (pour couvrir g6) 39 Qf3, menaçant 40 Qxg4, 40 Qxd5 et 40 Re8+ Rxe8 41 Qxd5+, ce sera mat en quelques coups.\n\nDans cette partie, Aseev a sévèrement puni les libertés des Noirs dans l’ouverture (4...a6?! et surtout 7...e6?). La façon dont les Blancs ont construit leur attaque est digne d’attention. Ils ont d’abord établi un coin de pions bien soutenu au centre (c3-d4-e5-f4) puis ont commencé à faire basculer leurs pièces à l’aile roi. En même temps, ils restaient attentifs à toute chance d’inquiéter les Noirs de l’autre côté (par exemple en jouant Ba3 ou en exploitant le cavalier de a6). Quand les Noirs ont été forcés d’échanger leur fou des cases noires, la fin était déjà en vue vu leurs faiblesses paralysantes sur les cases noires. Même si Aseev a manqué le gain le plus rapide, ce n’était qu’une question de temps avant qu’il trouve le moyen de briser la position noire et de conclure.\n\nLes leçons sont les suivantes :\n\n1) Le contrôle du centre est un objectif important de l’ouverture.\n\n2) Il est imprudent de laisser à l’adversaire trop libre cours au centre.\n\n3) Un centre bien soutenu est souvent le tremplin d’une attaque de flanc contre le roi.\n\n4) Un cavalier solidement installé sur la sixième rangée exerce en général un effet paralysant sur les forces adverses.",
+      "isCritical": true
+    }
+  ]
+}

@@ -1,8 +1,11 @@
 import { useEffect, useMemo, useState } from "react";
-import { getGameProgress, loadProgress } from "../lib/progress";
+import type { Lang } from "../lib/lang";
 import { LANDING_QUOTES, landingQuoteBookLabel } from "../lib/landingQuotes";
+import { getGameProgress, loadProgress } from "../lib/progress";
+import { ui } from "../lib/uiCopy";
 
 type Props = {
+  lang: Lang;
   onEnterLibrary: () => void;
   onContinueLesson?: () => void;
 };
@@ -10,19 +13,19 @@ type Props = {
 const BASE = import.meta.env.BASE_URL;
 const KNIGHT_SRC = `${BASE}images/move-by-move-knight.png`;
 
-const SLIDES = [
-  { id: "knight", kind: "knight" as const, label: "Cover art" },
+const SLIDE_DEFS = [
+  { id: "knight", kind: "knight" as const, labelKey: "slideCover" as const },
   {
     id: "lesson",
     kind: "shot" as const,
-    label: "Study a game",
+    labelKey: "slideLesson" as const,
     src: `${BASE}images/landing-lesson.jpg`,
     alt: "Lesson view: board with knight path arrow, evaluation, best line, and move controls on 12.Nd2",
   },
   {
     id: "commentary",
     kind: "shot" as const,
-    label: "Chernev explains",
+    labelKey: "slideCommentary" as const,
     src: `${BASE}images/landing-commentary.jpg`,
     alt: "Commentary panel for 12.Nd2 with takeaway, Listen and Follow controls, and Chernev’s annotation",
   },
@@ -31,7 +34,8 @@ const SLIDES = [
 const SLIDE_MS = 5200;
 const QUOTE_MS = 6200;
 
-export function Landing({ onEnterLibrary, onContinueLesson }: Props) {
+export function Landing({ lang, onEnterLibrary, onContinueLesson }: Props) {
+  const t = ui(lang);
   const [slide, setSlide] = useState(0);
   const [paused, setPaused] = useState(false);
   const [quoteIndex, setQuoteIndex] = useState(0);
@@ -42,15 +46,18 @@ export function Landing({ onEnterLibrary, onContinueLesson }: Props) {
     const progress = loadProgress();
     if (!progress.lastLessonId) return null;
     const pct = getGameProgress(progress.lastLessonId);
-    if (pct >= 100) return { label: "Review last game", pct: null as number | null };
-    if (pct <= 0) return { label: "Continue studying", pct: null as number | null };
-    return { label: "Continue", pct };
-  }, []);
+    if (pct >= 100) return { label: t.reviewLastGame, pct: null as number | null };
+    if (pct <= 0) return { label: t.continueStudying, pct: null as number | null };
+    return { label: t.continue, pct };
+  }, [lang, t.continue, t.continueStudying, t.reviewLastGame]);
 
-  const slides = useMemo(
-    () => (narrow ? SLIDES.filter((item) => item.id !== "commentary") : [...SLIDES]),
-    [narrow],
-  );
+  const slides = useMemo(() => {
+    const labeled = SLIDE_DEFS.map((item) => ({
+      ...item,
+      label: t[item.labelKey],
+    }));
+    return narrow ? labeled.filter((item) => item.id !== "commentary") : labeled;
+  }, [narrow, t]);
 
   useEffect(() => {
     const mq = window.matchMedia("(max-width: 960px)");
@@ -86,7 +93,7 @@ export function Landing({ onEnterLibrary, onContinueLesson }: Props) {
 
   return (
     <div className="landing">
-      <section className="landing-hero" aria-label="Move by Move">
+      <section className="landing-hero" aria-label={t.brand}>
         <div className="landing-hero-content">
           <div className="landing-intro">
             <img
@@ -97,40 +104,30 @@ export function Landing({ onEnterLibrary, onContinueLesson }: Props) {
               height={86}
               decoding="async"
             />
-            <p className="landing-brand">Move by Move</p>
-            <h1 className="landing-headline">Every move explained</h1>
-            <p className="landing-lead landing-lead-full">
-              Chernev’s 1957 classic and Nunn’s modern grandmaster sequel — 63 complete games
-              where each move gets a reason, not a variation dump. Read the author’s note —
-              or listen to it — see the position on the board, then try the next move yourself.
-            </p>
-            <p className="landing-lead landing-lead-short">
-              Chernev and Nunn — 63 games where every move gets a reason. Read it, or listen,
-              with the board in sync.
-            </p>
+            <p className="landing-brand">{t.brand}</p>
+            <h1 className="landing-headline">{t.headline}</h1>
+            <p className="landing-lead landing-lead-full">{t.landingLead}</p>
+            <p className="landing-lead landing-lead-short">{t.landingLeadShort}</p>
           </div>
 
           <ul className="landing-points">
             <li>
-              <strong>Chernev · 33 games</strong>
-              Capablanca, Tarrasch, Rubinstein — development, king safety, and when to attack,
-              told in plain English for players still building intuition.
+              <strong>{t.pointChernevTitle}</strong>
+              {t.pointChernevBody}
             </li>
             <li>
-              <strong>Nunn · 30 games</strong>
-              Kasparov, Kramnik, Shirov, Polgar — the same move-by-move habit, updated for
-              how strong players think now.
+              <strong>{t.pointNunnTitle}</strong>
+              {t.pointNunnBody}
             </li>
             <li>
-              <strong>Board in sync</strong>
-              Step through commentary with a live diagram, tap Listen for chess-aware speech,
-              and optionally quiz yourself on a Chessnut board with no LED spoilers.
+              <strong>{t.pointBoardTitle}</strong>
+              {t.pointBoardBody}
             </li>
           </ul>
 
           <div className="landing-cta-group">
             <button type="button" className="landing-cta-primary" onClick={onEnterLibrary}>
-              Open the library
+              {t.openLibrary}
             </button>
             {continueAction && onContinueLesson ? (
               <button
@@ -139,7 +136,7 @@ export function Landing({ onEnterLibrary, onContinueLesson }: Props) {
                 onClick={onContinueLesson}
                 aria-label={
                   continueAction.pct != null
-                    ? `Continue studying, ${continueAction.pct}% complete`
+                    ? `${t.continueStudying}, ${continueAction.pct}% ${t.complete}`
                     : continueAction.label
                 }
               >
@@ -194,7 +191,7 @@ export function Landing({ onEnterLibrary, onContinueLesson }: Props) {
         >
           <div className="landing-hero-floor" aria-hidden="true" />
 
-          <div className="landing-slides" aria-roledescription="carousel" aria-label="Product preview">
+          <div className="landing-slides" aria-roledescription="carousel" aria-label={t.productPreview}>
             {slides.map((item, index) => {
               const isActive = index === slide;
               if (item.kind === "knight") {
@@ -239,7 +236,7 @@ export function Landing({ onEnterLibrary, onContinueLesson }: Props) {
             })}
           </div>
 
-          <div className="landing-slide-dots" role="tablist" aria-label="Choose preview">
+          <div className="landing-slide-dots" role="tablist" aria-label={t.choosePreview}>
             {slides.map((item, index) => (
               <button
                 key={item.id}

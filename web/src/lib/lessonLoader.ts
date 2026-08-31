@@ -1,4 +1,5 @@
 import type { IntentionsCurriculum, Lesson, LessonIndex, PerformanceElo } from "../types";
+import type { Lang } from "./lang";
 import { normalizeLessonIndex } from "./normalizeIndex";
 
 export type PerformanceEloData = Record<string, PerformanceElo>;
@@ -25,8 +26,15 @@ export async function loadPerformanceElos(): Promise<PerformanceEloData> {
   return res.json();
 }
 
-export async function loadLesson(file: string): Promise<Lesson> {
-  const res = await fetch(`${base}data/lessons/${file}`);
-  if (!res.ok) throw new Error(`Failed to load lesson ${file}`);
-  return res.json();
+/** Lesson commentary JSON lives under `data/{lang}/lessons/`. Falls back to English. */
+export async function loadLesson(file: string, lang: Lang = "en"): Promise<Lesson> {
+  const primary = await fetch(`${base}data/${lang}/lessons/${file}`);
+  if (primary.ok) return primary.json();
+
+  if (lang !== "en") {
+    const fallback = await fetch(`${base}data/en/lessons/${file}`);
+    if (fallback.ok) return fallback.json();
+  }
+
+  throw new Error(`Failed to load lesson ${file}`);
 }

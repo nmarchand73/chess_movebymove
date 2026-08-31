@@ -1,0 +1,409 @@
+{
+  "id": "nunn-027",
+  "book": "nunn",
+  "gameNum": 27,
+  "title": "Partie 27 : J. Lautier vs A. Shirov",
+  "section": "Jeu positionnel",
+  "players": {
+    "white": "J. Lautier",
+    "black": "A. Shirov"
+  },
+  "event": "Interzonal tournament, Manila 1990",
+  "opening": "Défense indienne du roi, variante du fianchetto",
+  "eco": "E63",
+  "pgnPath": "data/pgn/nunn/27.pgn",
+  "result": "0-1",
+  "moveCount": 64,
+  "annotatedMoves": 63,
+  "fullText": "Sacrifices positionnels\n\nIl est facile de comprendre un sacrifice qui a un résultat concret immédiat – il mène au mat, ou à la récupération du matériel avec intérêts, par exemple. Cependant, il est aussi possible de sacrifier du matériel sur le plus long terme. Dans ce cas, la compensation consiste généralement en facteurs positionnels – par exemple, la création d'une faiblesse permanente dans la position adverse, ou l'exposition du roi adverse d'une façon qui pourra finalement être exploitée. Il est souvent difficile de juger la solidité de tels sacrifices positionnels, car des facteurs tant tactiques que positionnels interviennent. Nous avons déjà vu un bon exemple de sacrifice positionnel dans la Partie 20, où Kasparov a sacrifié la qualité afin de créer un réseau de cases blanches faibles dans la position de son adversaire.\n\nComme l'exploitation d'avantages positionnels prend généralement quelque temps, les sacrifices positionnels surviennent souvent dans des positions où l'adversaire a du mal à générer du contrejeu. La partie suivante représente un cas limite.\n\nJ. Lautier – A. Shirov\n\nTournoi interzonal, Manille 1990\n\nDéfense indienne du roi, variante du fianchetto\n\n1 d4\n\n1...Nf6\n\n2 Nf3\n\n2...g6\n\nPour les commentaires sur les coups jusqu'ici, voir la Partie 24.\n\n3 g3\n\nUn coup solide. Maintenant que les Noirs sont engagés à fianchetter leur fou roi, les Blancs font de même, comptant sur leur tempo d'avance pour obtenir le léger avantage. Comme dans toutes les lignes symétriques, les Noirs doivent prendre garde à ne pas prolonger trop longtemps le mimétisme, sous peine de se retrouver avec une position déprimante et passive. Voir aussi la Partie 17.\n\n3...Bg7\n\n4 Bg2\n\n4...0-0\n\nPour le moment, les deux camps se contentent de coups de développement naturels, qui devront de toute façon être joués tôt ou tard.\n\n5 0-0\n\nLa symétrie se poursuit, mais maintenant les Noirs ont achevé leur développement à l'aile roi. Avant de pouvoir amener leurs pièces de l'aile dame en jeu, ils doivent décider comment réagir au centre.\n\n5...d6\n\nShirov décide clairement de briser la symétrie. L'alternative principale est 5...d5, où après 6 c4 il est risqué pour les Noirs de jouer le symétrique 6...c5. À la place, 6...dxc4 et 6...c6 sont des options populaires et solides.\n\n6 c4\n\nMaintenant la partie a transposé dans la défense indienne du roi, variante du fianchetto (ainsi nommée parce que les Blancs développent leur fou en g2). Comme dans pratiquement toutes les lignes de l'indienne du roi, un jeu aigu peut en résulter.\n\n6...Nc6\n\nCe coup peut paraître un peu étrange, car il bloque le coup ...c5, qui est souvent un moyen de contester le centre blanc dans l'indienne du roi avec fianchetto. De plus, les Blancs peuvent simplement chasser le cavalier avec d5. Cependant, il y a une logique considérable derrière le coup des Noirs et c'est en fait le deuxième coup le plus courant dans cette position. L'idée des Noirs est de se développer de façon flexible pour le moment. Ils peuvent décider de contester le centre avec ...e5, ou jouer à l'aile dame avec ...a6, ...Rb8 et ...b5, visant à échanger leur pion b contre le pion c plus central des Blancs. Dans ce dernier cas, toute activité noire au centre sera différée de plusieurs coups. Comme le dispositif blanc repose davantage sur la solidité que sur l'agressivité, les Noirs peuvent se permettre le temps pour ce plan de contrejeu assez tranquille.\n\nLes alternatives principales sont 6...Nbd7, suivi de ...e5, 6...c6, visant un jeu de pièces avec ...Qa5 et (probablement) ...Be6, tandis que 6...c5, attaquant directement le centre blanc, est une autre option majeure. Toutes ces lignes sont parfaitement jouables et, objectivement, il y a peu à choisir entre elles.\n\n7 Nc3\n\nLes Blancs poursuivent simplement leur développement, amenant leur cavalier dame sur sa case la plus naturelle.\n\n7...a6\n\nC'est le coup le plus courant de nos jours, car le plan d'activité à l'aile dame est considéré comme la meilleure suite à ...Nc6. L'alternative 7...e5 8 d5 Ne7 9 e4 devrait favoriser les Blancs. Le jeu évolue souvent vers une bataille traditionnelle indienne du roi aile dame contre aile roi, mais la structure de fianchetto des Blancs rend leur aile roi plus difficile à attaquer que dans les lignes similaires avec le fou en e2.\n\n8 h3\n\nCe petit coup flexible et utile empêche à la fois ...Ng4 et ...Bg4. Le premier est significatif si les Blancs développent leur fou des cases noires en e3, tandis que le second est important s'ils veulent jouer e4. L'immédiat 8 e4, par exemple, est imprécis à cause de 8...Bg4 9 h3 Bxf3 10 Bxf3 Nd7 11 Be3 e5, où les Noirs établissent un cavalier en d4. Il y a deux autres idées populaires pour les Blancs. La première est le direct 8 d5 Na5 9 Nd2 c5 10 Qc2, où les Noirs visent à attaquer le pion c4 avec ...a6, ...Rb8 et ...b5. La seconde est 8 b3, qui évite de dépenser un tempo sur h3 car ce n'est pas nécessaire si le fou est développé en b2.\n\n8...Bd7\n\nC'est un coup un peu inhabituel. Les Noirs continuent normalement 8...Rb8, afin de jouer ...b5 dès que possible. Dans cette ligne ils laissent souvent leur fou en c8 quelque temps car il n'est pas encore clair où il sera le mieux placé. Il est vrai que d7 est très souvent la destination du fou, mais les Noirs n'ont pas besoin de s'y engager si tôt.\n\n9 Bg5\n\nLautier évite les lignes standard 9 e4 et 9 Be3, et trouve un coup très inhabituel. L'idée des Blancs est d'inciter ...h6, puis de reculer leur fou en e3. Après un Qd2 ultérieur, les Noirs devront dépenser un tempo pour défendre leur pion h et les Blancs auront effectivement gagné un tempo par rapport à la ligne 9 Be3.\n\n9...h6\n\nCe n'est pas le seul coup possible, mais il est logique de chasser le fou de sa position active en g5.\n\n10 Be3\n\n10...Rb8\n\nLes Noirs continuent comme si le pion était encore en h7. Ils ont l'intention de ...b5, échangeant leur pion b contre le pion c4 plus central.\n\n11 Nd5\n\nAprès 11 Qd2 les Noirs peuvent répondre 11...Kh7 12 Nd5 Ne4 (12...b5 est aussi jouable) 13 Qc2 f5 avec une position satisfaisante. Si les Blancs poursuivent de façon aiguë par 14 Nh4!? e6 15 Bxe4 fxe4 16 Nf4, alors 16...Rxf4! (16...g5? perd sur 17 Nxe6) 17 Bxf4 g5 18 Qxe4+ Kg8 19 d5 exd5 20 Qxd5+ Kh7 mène à l'échec perpétuel.\n\n11...b5!?\n\nUn coup cohérent et très combatif. Les Noirs ne s'inquiètent pas d'avoir leurs pions brisés s'ils peuvent générer une bonne activité de pièces. Le plus calme 11...e6 12 Nxf6+ Qxf6 13 Qd2 laisse aux Blancs un petit avantage positionnel mais sûr après 13...Kh7 14 Rac1 Qe7 15 d5 Ne5 16 Nd4 ou 13...g5 14 Rac1.\n\n12 Nxf6+\n\nLes Blancs acceptent l'offre de doubler les pions noirs. Cet échange est pratiquement forcé tôt ou tard, car le cavalier blanc de d5 était en train d'être miné.\n\n12 Qd2 a été joué dans une partie ultérieure Timman-Shirov, Donner Memorial, Amsterdam 1995. Les Noirs ont obtenu une position satisfaisante après 12...bxc4 13 Nxf6+ exf6 14 Bxh6 Bxh6 15 Qxh6 Rxb2 16 Nh4 Ne7 et maintenant Timman a décidé de forcer la nulle par 17 Bd5 Nxd5 18 Nxg6 fxg6 19 Qxg6+ Kh8 20 Qh6+ avec une répétition de coups.\n\n12...exf6\n\nDans cette position les pions doublés constituent une faiblesse, bien que légère. Ce n'est pas tant que les pions soient faibles en eux-mêmes ; c'est plutôt que sans pion e les Noirs auront du mal à contester le principal point d'appui central des Blancs, le pion d4. En compensation, la colonne e est ouverte pour la tour noire et les Noirs gagnent un peu de temps, puisque les Blancs ont échangé un cavalier qui a fait trois coups contre un cavalier qui n'a bougé qu'une seule fois.\n\n13 cxb5\n\n13 d5 Ne7 14 c5 est trop agressif ; après 14...Nf5 les Noirs sont bien.\n\n13...Rxb5\n\nEncore une fois, les Noirs préfèrent l'activité à la structure. Il pourrait sembler plus solide de jouer 13...axb5 en gardant leurs pions de l'aile dame regroupés. Le problème est qu'après 14 d5 les Noirs n'ont pas de bonne réponse. Par exemple, après 14...Ne5 (14...Ne7 15 Nd4 suivi de Rc1 commence aussi à exercer une pression contre l'aile dame noire) 15 Nd2, suivi de Rc1, les Noirs font face à des problèmes à la fois avec leur aile dame et avec le cavalier presque piégé en e5. Ainsi jouer 13...axb5 ne résout pas vraiment les problèmes des Noirs à l'aile dame, et n'offre aucune activité de pièces en compensation.\n\n14 Qd2\n\n14 Qc1!? pourrait être légèrement plus précis. Si les Noirs jouent 14...g5 (comme dans la partie) alors les Blancs peuvent répondre 15 Nxg5 fxg5 16 Bxc6 Bxc6 17 Qxc6 (17 a4 Rb6 18 a5 Rb4 19 Qxc6 Qc8 est obscur) 17...Rxb2 18 Qxa6 Qa8 19 Qc4 avec un léger avantage.\n\n14...g5\n\n14...Kh7 est aussi possible, mais Shirov préfère réduire l'activité du fou des cases noires blanc.\n\n15 d5!\n\nSi les Blancs jouent passivement, alors les Noirs continueront ...Ne7-d5, occupant une excellente case centrale et préparant un jeu actif par ...f5. 15 Rac1 et 15 Ne1, par exemple, sont tous deux rencontrés par 15...Ne7 avec un jeu satisfaisant pour les Noirs.\n\n15 a4 est un coup critique. Alors :\n\n1) 15...Rb8 16 d5 Ne7 (16...Ne5 17 Rfc1 donne aussi un léger avantage aux Blancs) 17 Nd4 laisse les Noirs un peu passivement placés.\n\n2) 15...Rb3! est plus actif. Après 16 d5 Ne5 17 Rfc1 (17 Nd4 Nc4 18 Qc2 Nxe3 19 Qxb3 Nxf1 20 Rxf1 f5 active le fou des cases noires avec une position satisfaisante pour les Noirs) 17...Qb8 les Noirs ont un contrejeu suffisant.\n\n15...Ne7\n\n15...Ne5 16 Rac1! (16 Nd4?! Nc4 17 Qc3 Nxe3 18 fxe3 f5 est bien pour les Noirs) 16...Nxf3+ 17 exf3 f5 18 b3 est inconfortable pour les Noirs. Les Blancs joueront f4, et il n'est pas clair quelle compensation les Noirs ont pour leurs pions faibles de l'aile dame.\n\n16 Nd4\n\nLa suite naturelle. Les Blancs doivent déplacer leur cavalier afin de défendre le pion d5, et après tout autre coup de cavalier les Noirs obtiennent une bonne position avec ...Nf5.\n\n16...Rxd5!?\n\nCe sacrifice est le point du jeu des Noirs. Reculer passivement la tour par 16...Rb8 serait un aveu d'échec ; les Blancs obtiendraient un avantage avec le coup naturel 17 Rac1.\n\n17 Bxd5\n\n17...Nxd5\n\nLes Noirs ont abandonné la qualité en échange d'un pion. Leur compensation n'est pas sous la forme d'une attaque immédiate contre le roi, ni de menaces particulièrement fortes. Elle est de nature à long terme, et est avant tout positionnelle plutôt que tactique. De tels sacrifices sont généralement appelés « sacrifices positionnels », bien qu'il n'y ait bien sûr pas de frontière nette entre les sacrifices positionnels et ceux visant une compensation à plus court terme. En regardant le diagramme, qu'ont gagné les Noirs en retour de leur déficit matériel (assez modeste, il est vrai) ? Premièrement, ils ont éliminé le pion central contraignant des Blancs, qui à la fois bridait leur propre pion c et créait un avant-poste possible en c6. Deuxièmement, ils ont enlevé le fou des cases blanches des Blancs. Cela donne non seulement aux Blancs le problème immédiat de traiter le pion h3, mais soulève aussi la possibilité que les cases blanches faibles autour du roi blanc puissent finalement permettre aux Noirs de lancer une attaque directe.\n\nMalgré ces avantages, la partie est loin d'être un long fleuve tranquille pour les Noirs. Leur principal problème est la vulnérabilité de leurs pions c et d à l'attaque le long des colonnes semi-ouvertes. Les tours blanches sont bien placées pour entrer en action, et les Noirs pourraient facilement se retrouver face à une forte pression. Le temps est clairement un facteur important ici. Si les Blancs ont le temps d'achever leur développement sans que les Noirs aient généré de jeu actif, alors les Noirs seront forcés de revenir à une posture défensive. Par conséquent, les deux camps doivent essayer de faire compter chaque tempo. Objectivement, je crois que les Blancs ont un certain avantage, mais les positions hautement complexes qui en résultent conviennent beaucoup mieux à Shirov qu'à Lautier, si bien que même si l'équilibre de la position peut encore favoriser les Blancs, ils font face à un défi redoutable.\n\n18 Nf5!\n\nLautier sait aussi jouer pour l'initiative, et est prêt à offrir son pion h afin d'accélérer ses tours vers les colonnes centrales. Les alternatives sont :\n\n1) 18 Kh2 Qa8 (18...Nxe3? 19 fxe3! Qc8 20 g4 est mauvais, car l'emprise des Blancs sur f5 empêche les Noirs d'activer leur fou des cases noires) 19 Nc2 c5 tient les pièces blanches hors de d4, et offre aux Noirs une bonne compensation. Ils peuvent continuer avec ...Re8, ...Bc6 et ...f5 (dans un certain ordre) avec beaucoup d'activité, tandis que les pièces mineures blanches ont peu de champ.\n\n2) 18 g4 Qc8 19 f3 (sinon les Noirs peuvent au moins forcer la nulle par ...Bxg4) 19...Nxe3 20 Qxe3 f5 et avec deux fous actifs contre un cavalier et une aile roi blanche affaiblie, les Noirs sont au moins égaux.\n\n18...Bxf5\n\nForcé, car 18...Nxe3? 19 fxe3! établit un blocus en f5.\n\n19 Qxd5\n\n19...Bxh3\n\n20 Rfd1\n\n20 Rfc1 est inférieur. Après 20...Be6 21 Qb7 f5 22 Rxc7 Bd5! 23 Qxd5 (23 Qa7 f4 24 Bb6 Qf6 donne aux Noirs de dangereuses menaces, tandis qu'après 23 Qb6 f4 24 Rd1 fxe3 25 Rxd5 exf2+ 26 Kxf2 Qf6+ 27 Kg2 Qe6 28 Rd2 Qe4+ 29 Kh2 Be5 l'aile roi blanche paraît exposée) 23...Qxc7 il appartient aux Blancs de démontrer l'égalité complète.\n\n20...Re8\n\nClouant le fou de e3 contre le pion e2 non défendu.\n\n21 Rac1\n\nCe coup naturel achève le développement des Blancs. L'alternative 21 Rd2 f5 22 Bd4 Bxd4 23 Qxd4 Qa8 24 f3 paraît approximativement égale.\n\n21...f5\n\nEncore une fois, les Noirs doivent agir vite sinon les Blancs convergeront sur le pion c7 faible. Ce coup non seulement menace le pion b2, mais commence aussi une avance générale de pions en direction du roi blanc.\n\n22 Rd2\n\nCe coup défend les pions e2 et b2 en préparation de Bd4, et avec un jeu très précis devrait donner un avantage aux Blancs. Cependant, les Blancs peuvent aussi obtenir un avantage avec le plus simple 22 Qc6. Alors :\n\n1) 22...f4 23 gxf4 gxf4 24 Bxf4 Bxb2 25 Rc4 est insuffisant car les Noirs sont incapables d'exploiter la position légèrement exposée du roi blanc. Notons que 25...Rxe2? échoue sur 26 Qf3.\n\n2) 22...Rxe3!? 23 fxe3 Qe7 est douteux ici car les Blancs ont effectivement un tempo d'avance par rapport à la partie. Bien qu'il y ait quelques pièges à négocier, les Blancs devraient obtenir l'avantage :\n\n2a) 24 Rd3 Bxb2 25 Rc2 (25 Qxc7 Qe4 est bon pour les Noirs) 25...Be5 26 Qxc7 Qf6 donne un bon jeu aux Noirs ; par exemple, 27 Qc8+ (27 Kh2 g4 est similaire) 27...Kg7 28 Kh2 g4 29 Rd5 (29 Qe8? Bxg3+! 30 Kxg3 Qa1 gagne pour les Noirs) 29...h5 avec une attaque dangereuse.\n\n2b) 24 Kf2! Be5 (24...Bxb2 25 Qxc7 est très bon pour les Blancs) 25 Rd3 (25 Qxc7?? Bxg3+ mate) laisse les Noirs en lutte pour la compensation ; par exemple, 25...Qf6 (25...h5 26 Qxc7 Qf6 27 Qd7 h4 28 gxh4 g4 29 Rc8+ Kg7 30 Qd8 défend) 26 Qe8+ Kg7 27 Rxc7 f4 28 exf4 gxf4 29 gxf4 Qxf4+ 30 Ke1 Qf1+ 31 Kd2 Bf4+ 32 Re3 et les Noirs se retrouvent la qualité pour un pion de moins.\n\n3) 22...Bxb2 23 Rc2 Be5 24 Qxc7 et maintenant :\n\n3a) 24...Qa8 25 Qc6 Qxc6 (25...f4 26 gxf4 gxf4 27 Qxa8 Rxa8 28 Bd4 est aussi légèrement meilleur pour les Blancs) 26 Rxc6 Bxg3 27 Bd4 et les Blancs ont la meilleure finale.\n\n3b) 24...Qxc7 25 Rxc7 Bxg3 (25...f4 26 gxf4 gxf4 27 Bd4 favorise les Blancs) 26 Rd3 Be5 27 Bxg5 Bg4 (27...hxg5 28 Rxh3 et le pion a noir risque d'être perdu en quelques coups) 28 Re7 (28 Bxh6 Bxe2 29 Re3 Bb5 30 Rf3 Kh7 31 Bf4 Kg6 est nulle) 28...Rc8 29 Bxh6 Bxe2 30 Rh3 et les Blancs conservent un léger avantage. Il est vrai que les Noirs ont deux pions pour la qualité, mais leurs pions sont faibles et isolés. Les Blancs sont mieux, mais la réduction générale du nombre de pions signifie que les Noirs conservent de bonnes chances de nulle.\n\n22...Rxe3!?\n\nCe second sacrifice relance les enchères. Les Noirs sont prêts à investir davantage de matériel pour accroître leurs atouts positionnels. Notons qu'encore une fois le sacrifice ne mène pas à une attaque immédiate sur le roi blanc, si bien qu'on pourrait à nouveau le décrire comme un sacrifice « positionnel ». Dans ce cas, cependant, la possibilité d'une attaque est plus proche qu'auparavant, puisque les pions blancs brisés et la présence inquiétante du fou en h3 posent un danger évident au roi.\n\n23 fxe3\n\n23...Qe7\n\n24 Kf2!\n\nLes Noirs ont un contrejeu suffisant après les alternatives, p.ex. 24 Qd3 Be5 25 Kh2 Bg4 suivi de ...h5, 24 e4 fxe4 25 e3 h5, 24 Kh2 Bg4, ou 24 Qf3 g4 25 Qf2 c5 26 Rcd1 Be5 27 Qxf5 Bxg3 – dans tous les cas les Noirs ont une pleine compensation pour le matériel. Le roi blanc reste très exposé et ses tours n'ont, pour l'instant, que peu de champ.\n\nLe coup du texte est efficace car il non seulement défend g3 et e3, mais prépare aussi à évacuer le roi vers l'aile dame si les menaces noires à l'aile roi deviennent trop dangereuses.\n\n24...Be5\n\nLe principal problème des Blancs est qu'il y a peu d'activité pour leurs tours. S'ils pouvaient pénétrer avec une tour en c7 et lier les Noirs à la défense de f7, alors il serait difficile pour les Noirs de poursuivre leur attaque. Un jeu précis est nécessaire pour y parvenir.\n\n25 Rh1?\n\nJusqu'ici les Blancs ont joué simplement et directement, mais maintenant ils commettent une erreur sérieuse sous la pression imposée par le jeu sacrificiel des Noirs. Les alternatives fournissent une bonne illustration des principes qui régissent la défense contre un sacrifice positionnel :\n\n1) 25 b4 ne donne aucun avantage aux Blancs contre un jeu précis, p.ex. :\n\n1a) 25...Bxg3+? 26 Kxg3 Qxe3+ 27 Kh2 Qf2+ 28 Kh1 et les Blancs gagnent.\n\n1b) 25...h5?! 26 Rdc2 h4 (26...f4 27 gxf4 gxf4 28 Rg1+ Bg4 29 exf4 Bxf4 30 Ke1 donne aussi un avantage clair aux Blancs) 27 gxh4 g4 (27...gxh4 perd sur 28 Rxc7 Bg3+ 29 Kg1 Qxe3+ 30 Kh1) 28 Ke1 et le roi s'échappe de la zone de danger, où les Blancs sont mieux.\n\n1c) 25...g4! 26 Rd3 (26 Rdc2? Bxg3+ 27 Kxg3 Qxe3+ 28 Kh2 Qf2+ 29 Kh1 g3 gagne pour les Noirs) 26...h5 donne aux Noirs assez de contrejeu.\n\n2) 25 Rd3 et maintenant :\n\n2a) 25...h5 avec une branche supplémentaire :\n\n2a1) 26 Qb7 h4 27 Rxc7 Bxg3+ 28 Kg1 Qe5 29 Rxf7 (29 Qd5 Bf2+ 30 Kh1 Qxd5+ 31 Rxd5 g4 paraît dangereux pour les Blancs après 32 Rxd6 g3 33 Rd1 Bxe3 ou 32 Rxf5 g3 33 Rg5+ Kf8 34 Rb7 Be6) 29...d5 30 Rg7+ Qxg7 31 Qxd5+ Kh7 32 Qe6 fait nulle.\n\n2a2) 26 Qa8+! Kg7 27 Qb7 paraît prometteur pour les Blancs, car la ligne de « 2a1 » mènerait maintenant à la prise du pion f7 avec échec.\n\n2b) 25...c5 26 Rh1 g4 donne une compensation correcte aux Noirs.\n\n3) 25 Qd3 h5 26 Rh1 et maintenant 26...Bg4 est obscur, mais les Noirs devraient éviter 26...g4 27 Qxf5 Bxg3+ 28 Kxg3 Qxe3+ 29 Kh4 Qxd2 30 Qg5+ Qxg5+ 31 Kxg5, qui favorise les Blancs.\n\nAlors quel est le coup correct ? En défendant contre un sacrifice positionnel, le point clé est que l'attaque adverse arrive plus lentement qu'après un sacrifice direct. Très souvent, une partie de la compensation pour le matériel réside dans l'incapacité du défenseur à faire un usage efficace de son matériel supplémentaire. Dans la position actuelle, le problème des Blancs est qu'ils ne peuvent pas facilement mettre leurs tours en jeu – mais cela n'aurait pas dû les empêcher d'essayer !\n\n4) 25 Rdc2! est la meilleure continuation.\n\n25...c5 26 b4 (les Blancs doivent être prêts à rendre quelque matériel afin d'activer leurs tours) 26...g4 (tentant de perturber les efforts blancs par la menace d'un sacrifice en g3) 27 Rc3! (maintenant que les Noirs ont scellé leur fou des cases blanches hors de la partie avec ...g4, il vaut définitivement la peine d'abandonner une tour pour le fou des cases noires ; en particulier, une fois qu'une finale est atteinte, il importe presque peu combien de pions supplémentaires les Noirs ont puisqu'ils jouent sans le fou en h3) et maintenant :\n\n4a) 27...Bxc3 28 Rxc3 cxb4 (28...Qf6 29 Rd3 favorise les Blancs) 29 Rc6 h5 30 Rxd6 et les Blancs sont très bien.\n\n4b) 27...h5 28 bxc5 h4 29 c6 hxg3+ 30 Kg1 Bxc3 31 Rxc3 Qc7 32 Rb3 gagne pour les Blancs.\n\n4c) 27...cxb4 28 Rc7 Qf6 29 Rb7 f4 30 exf4 Bxf4 31 Rxf7 Qxf7 32 Qxf7+ Kxf7 33 gxf4 h5 34 Kg3 est une finale prometteuse pour les Blancs.\n\n25...Bxg3+!\n\nSoudain l'équilibre bascule en faveur des Noirs. Un coup imprudent et Shirov est dans son élément.\n\n26 Kxg3\n\nAprès 26 Kf3 g4+ 27 Kxg3 Qxe3+ 28 Kh4 Qf2+ 29 Kh5 Qf4 30 Kh4 (30 Qa8+ Kg7 31 Qd8 g3 mate rapidement) 30...Qg5+! 31 Kg3 f4+ 32 Kh2 Qh4 les Blancs sont sans défense.\n\n26...Qxe3+\n\n27 Qf3\n\nPas 27 Kh2? Qf2+ 28 Kxh3 g4#.\n\n27...Qxd2\n\n28 Qa8+\n\n28 Rxh3 n'est pas mieux, p.ex. 28...g4 29 Qa8+ Kg7 et maintenant :\n\n1) 30 Rh2 Qe3+ 31 Kh4 (31 Kg2 Qxe2+ transpose) 31...Qe7+ 32 Kg3 Qe5+ 33 Kg2 Qxe2+ 34 Kg1 Qe1+ 35 Kg2 f4 gagne pour les Noirs.\n\n2) 30 Rh5 Qe1+ 31 Kh2 Qxe2+ 32 Kg3 (32 Qg2 perd sur 32...g3+) 32...Qe1+ 33 Kg2 (33 Kh2 Kg6 est aussi sans espoir pour les Blancs) 33...f4 et les Noirs gagnent.\n\n3) 30 Rh1 Qe3+ 31 Kh2 Qxe2+ 32 Qg2 (32 Kg3 Qe3+ 33 Kg2 f4 34 Qxa6 Qe4+ 35 Kg1 g3 est gagnant pour les Noirs, tandis que 32 Kg1 f4 33 Qg2 Qe1+ 34 Qf1 Qe4 35 Rh5 Kg6 36 Rh2 h5 est un schéma familier) 32...Qe5+ 33 Kg1 Kg6 et les Blancs sont impuissants à empêcher ...h5 suivi de ...f4, avec une vague de pions mortelle. L'équilibre matériel de cinq pions contre une tour survient rarement en pratique. Dans ce cas, la mauvaise position de la tour blanche et la sécurité du roi noir sont les facteurs décisifs.\n\n28...Kg7\n\n29 Kxh3\n\n29 Rxh3 g4 transpose à la note précédente.\n\n29...Qxe2\n\nAussi bon est 29...g4+ 30 Kh2 Qxe2+ 31 Qg2, transposant dans la note au 28e coup des Blancs.\n\n30 Qd5?!\n\nCe coup aurait dû perdre immédiatement, mais il n'y avait pas d'alternative satisfaisante, p.ex. :\n\n1) 30 Qg2 g4+ 31 Kh2 Qe5+ 32 Kg1 transpose à nouveau à la note au 28e coup des Blancs, qui est très bon pour les Noirs.\n\n2) 30 Qc6 Qf2 31 Qc3+ Kg6 32 Qg3 Qxb2, avec six pions pour la tour, est certainement très bon pour les Noirs.\n\n30...Kg6?!\n\n30...Qf2 gagne immédiatement.\n\n31 Qd4?!\n\n31 Qg2 était à nouveau la seule chance, bien qu'après 31...g4+ 32 Kh2 Qe5+ 33 Kg1 h5 les Blancs aient la même mauvaise position qu'auparavant, seulement cette fois un tempo de moins.\n\n31...f4\n\nIl n'y a plus aucune défense.\n\n32 Rg1\n\n32...f5\n\n0-1\n\nCe fut une lutte tactique étonnante, dans laquelle les joueurs se battirent bec et ongles pour l'initiative. L'idée de Shirov était hautement créative, mais en raison de la nature relativement ouverte de la position, les Blancs avaient la chance de créer du contrejeu et cela jeta un doute sur le sacrifice de Shirov. Si les Blancs avaient trouvé la continuation correcte au 25e coup, alors la partie aurait pu se terminer autrement. Cependant, on ne devrait jamais sous-estimer le côté pratique des échecs. Quelle que soit l'évaluation objective de l'idée de Shirov, la contrer sur l'échiquier était diaboliquement difficile.\n\nLes leçons ici sont :\n\n1) Les sacrifices peuvent être faits pour des buts à long terme aussi bien qu'immédiats.\n\n2) En défendant contre un sacrifice positionnel, générer du contrejeu est critique. Un contre-sacrifice peut être nécessaire pour y parvenir.\n\n3) Si le roi adverse est suffisamment exposé, une dame plus une poignée de pions bien placés peuvent suffire à fournir une forte attaque.\n\n4) Une fois engagé sur la voie sacrificielle, il n'y a généralement pas de retour en arrière.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Sacrifices positionnels\n\nIl est facile de comprendre un sacrifice qui a un résultat concret immédiat – il mène au mat, ou à la récupération du matériel avec intérêts, par exemple. Cependant, il est aussi possible de sacrifier du matériel sur le plus long terme. Dans ce cas, la compensation consiste généralement en facteurs positionnels – par exemple, la création d'une faiblesse permanente dans la position adverse, ou l'exposition du roi adverse d'une façon qui pourra finalement être exploitée. Il est souvent difficile de juger la solidité de tels sacrifices positionnels, car des facteurs tant tactiques que positionnels interviennent. Nous avons déjà vu un bon exemple de sacrifice positionnel dans la Partie 20, où Kasparov a sacrifié la qualité afin de créer un réseau de cases blanches faibles dans la position de son adversaire.\n\nComme l'exploitation d'avantages positionnels prend généralement quelque temps, les sacrifices positionnels surviennent souvent dans des positions où l'adversaire a du mal à générer du contrejeu. La partie suivante représente un cas limite.\n\nJ. Lautier – A. Shirov\n\nTournoi interzonal, Manille 1990\n\nDéfense indienne du roi, variante du fianchetto"
+    },
+    {
+      "ply": 1,
+      "san": "d4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "Nf6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "Nf3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "g6",
+      "text": "Pour les commentaires sur les coups jusqu'ici, voir la Partie 24.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "g3",
+      "text": "Trait aux Noirs\n\nUn coup solide. Maintenant que les Noirs sont engagés à fianchetter leur fou roi, les Blancs font de même, comptant sur leur tempo d'avance pour obtenir le léger avantage. Comme dans toutes les lignes symétriques, les Noirs doivent prendre garde à ne pas prolonger trop longtemps le mimétisme, sous peine de se retrouver avec une position déprimante et passive. Voir aussi la Partie 17.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "Bg7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "Bg2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "O-O",
+      "text": "Pour le moment, les deux camps se contentent de coups de développement naturels, qui devront de toute façon être joués tôt ou tard.\n\n5 0-0\n\nLa symétrie se poursuit, mais maintenant les Noirs ont achevé leur développement à l'aile roi. Avant de pouvoir amener leurs pièces de l'aile dame en jeu, ils doivent décider comment réagir au centre.",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "d6",
+      "text": "Shirov décide clairement de briser la symétrie. L'alternative principale est 5...d5, où après 6 c4 il est risqué pour les Noirs de jouer le symétrique 6...c5. À la place, 6...dxc4 et 6...c6 sont des options populaires et solides.",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "c4",
+      "text": "Trait aux Noirs\n\nMaintenant la partie a transposé dans la défense indienne du roi, variante du fianchetto (ainsi nommée parce que les Blancs développent leur fou en g2). Comme dans pratiquement toutes les lignes de l'indienne du roi, un jeu aigu peut en résulter.",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "Nc6",
+      "text": "Ce coup peut paraître un peu étrange, car il bloque le coup ...c5, qui est souvent un moyen de contester le centre blanc dans l'indienne du roi avec fianchetto. De plus, les Blancs peuvent simplement chasser le cavalier avec d5. Cependant, il y a une logique considérable derrière le coup des Noirs et c'est en fait le deuxième coup le plus courant dans cette position. L'idée des Noirs est de se développer de façon flexible pour le moment. Ils peuvent décider de contester le centre avec ...e5, ou jouer à l'aile dame avec ...a6, ...Rb8 et ...b5, visant à échanger leur pion b contre le pion c plus central des Blancs. Dans ce dernier cas, toute activité noire au centre sera différée de plusieurs coups. Comme le dispositif blanc repose davantage sur la solidité que sur l'agressivité, les Noirs peuvent se permettre le temps pour ce plan de contrejeu assez tranquille.\n\nLes alternatives principales sont 6...Nbd7, suivi de ...e5, 6...c6, visant un jeu de pièces avec ...Qa5 et (probablement) ...Be6, tandis que 6...c5, attaquant directement le centre blanc, est une autre option majeure. Toutes ces lignes sont parfaitement jouables et, objectivement, il y a peu à choisir entre elles.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "Nc3",
+      "text": "Trait aux Noirs\n\nLes Blancs poursuivent simplement leur développement, amenant leur cavalier dame sur sa case la plus naturelle.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "a6",
+      "text": "C'est le coup le plus courant de nos jours, car le plan d'activité à l'aile dame est considéré comme la meilleure suite à ...Nc6. L'alternative 7...e5 8 d5 Ne7 9 e4 devrait favoriser les Blancs. Le jeu évolue souvent vers une bataille traditionnelle indienne du roi aile dame contre aile roi, mais la structure de fianchetto des Blancs rend leur aile roi plus difficile à attaquer que dans les lignes similaires avec le fou en e2.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "h3",
+      "text": "Ce petit coup flexible et utile empêche à la fois ...Ng4 et ...Bg4. Le premier est significatif si les Blancs développent leur fou des cases noires en e3, tandis que le second est important s'ils veulent jouer e4. L'immédiat 8 e4, par exemple, est imprécis à cause de 8...Bg4 9 h3 Bxf3 10 Bxf3 Nd7 11 Be3 e5, où les Noirs établissent un cavalier en d4. Il y a deux autres idées populaires pour les Blancs. La première est le direct 8 d5 Na5 9 Nd2 c5 10 Qc2, où les Noirs visent à attaquer le pion c4 avec ...a6, ...Rb8 et ...b5. La seconde est 8 b3, qui évite de dépenser un tempo sur h3 car ce n'est pas nécessaire si le fou est développé en b2.",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "Bd7",
+      "text": "C'est un coup un peu inhabituel. Les Noirs continuent normalement 8...Rb8, afin de jouer ...b5 dès que possible. Dans cette ligne ils laissent souvent leur fou en c8 quelque temps car il n'est pas encore clair où il sera le mieux placé. Il est vrai que d7 est très souvent la destination du fou, mais les Noirs n'ont pas besoin de s'y engager si tôt.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "Bg5",
+      "text": "Lautier évite les lignes standard 9 e4 et 9 Be3, et trouve un coup très inhabituel. L'idée des Blancs est d'inciter ...h6, puis de reculer leur fou en e3. Après un Qd2 ultérieur, les Noirs devront dépenser un tempo pour défendre leur pion h et les Blancs auront effectivement gagné un tempo par rapport à la ligne 9 Be3.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "h6",
+      "text": "Ce n'est pas le seul coup possible, mais il est logique de chasser le fou de sa position active en g5.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "Be3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "Rb8",
+      "text": "Les Noirs continuent comme si le pion était encore en h7. Ils ont l'intention de ...b5, échangeant leur pion b contre le pion c4 plus central.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "Nd5",
+      "text": "Après 11 Qd2 les Noirs peuvent répondre 11...Kh7 12 Nd5 Ne4 (12...b5 est aussi jouable) 13 Qc2 f5 avec une position satisfaisante. Si les Blancs poursuivent de façon aiguë par 14 Nh4!? e6 15 Bxe4 fxe4 16 Nf4, alors 16...Rxf4! (16...g5? perd sur 17 Nxe6) 17 Bxf4 g5 18 Qxe4+ Kg8 19 d5 exd5 20 Qxd5+ Kh7 mène à l'échec perpétuel.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "b5",
+      "text": "Un coup cohérent et très combatif. Les Noirs ne s'inquiètent pas d'avoir leurs pions brisés s'ils peuvent générer une bonne activité de pièces. Le plus calme 11...e6 12 Nxf6+ Qxf6 13 Qd2 laisse aux Blancs un petit avantage positionnel mais sûr après 13...Kh7 14 Rac1 Qe7 15 d5 Ne5 16 Nd4 ou 13...g5 14 Rac1.",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "Nxf6+",
+      "text": "Les Blancs acceptent l'offre de doubler les pions noirs. Cet échange est pratiquement forcé tôt ou tard, car le cavalier blanc de d5 était en train d'être miné.\n\n12 Qd2 a été joué dans une partie ultérieure Timman-Shirov, Donner Memorial, Amsterdam 1995. Les Noirs ont obtenu une position satisfaisante après 12...bxc4 13 Nxf6+ exf6 14 Bxh6 Bxh6 15 Qxh6 Rxb2 16 Nh4 Ne7 et maintenant Timman a décidé de forcer la nulle par 17 Bd5 Nxd5 18 Nxg6 fxg6 19 Qxg6+ Kh8 20 Qh6+ avec une répétition de coups.",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "exf6",
+      "text": "Trait aux Blancs\n\nDans cette position les pions doublés constituent une faiblesse, bien que légère. Ce n'est pas tant que les pions soient faibles en eux-mêmes ; c'est plutôt que sans pion e les Noirs auront du mal à contester le principal point d'appui central des Blancs, le pion d4. En compensation, la colonne e est ouverte pour la tour noire et les Noirs gagnent un peu de temps, puisque les Blancs ont échangé un cavalier qui a fait trois coups contre un cavalier qui n'a bougé qu'une seule fois.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "cxb5",
+      "text": "13 d5 Ne7 14 c5 est trop agressif ; après 14...Nf5 les Noirs sont bien.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "Rxb5",
+      "text": "Encore une fois, les Noirs préfèrent l'activité à la structure. Il pourrait sembler plus solide de jouer 13...axb5 en gardant leurs pions de l'aile dame regroupés. Le problème est qu'après 14 d5 les Noirs n'ont pas de bonne réponse. Par exemple, après 14...Ne5 (14...Ne7 15 Nd4 suivi de Rc1 commence aussi à exercer une pression contre l'aile dame noire) 15 Nd2, suivi de Rc1, les Noirs font face à des problèmes à la fois avec leur aile dame et avec le cavalier presque piégé en e5. Ainsi jouer 13...axb5 ne résout pas vraiment les problèmes des Noirs à l'aile dame, et n'offre aucune activité de pièces en compensation.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Qd2",
+      "text": "14 Qc1!? pourrait être légèrement plus précis. Si les Noirs jouent 14...g5 (comme dans la partie) alors les Blancs peuvent répondre 15 Nxg5 fxg5 16 Bxc6 Bxc6 17 Qxc6 (17 a4 Rb6 18 a5 Rb4 19 Qxc6 Qc8 est obscur) 17...Rxb2 18 Qxa6 Qa8 19 Qc4 avec un léger avantage.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "g5",
+      "text": "14...Kh7 est aussi possible, mais Shirov préfère réduire l'activité du fou des cases noires blanc.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "d5",
+      "text": "Si les Blancs jouent passivement, alors les Noirs continueront ...Ne7-d5, occupant une excellente case centrale et préparant un jeu actif par ...f5. 15 Rac1 et 15 Ne1, par exemple, sont tous deux rencontrés par 15...Ne7 avec un jeu satisfaisant pour les Noirs.\n\n15 a4 est un coup critique. Alors :\n\n1) 15...Rb8 16 d5 Ne7 (16...Ne5 17 Rfc1 donne aussi un léger avantage aux Blancs) 17 Nd4 laisse les Noirs un peu passivement placés.\n\n2) 15...Rb3! est plus actif. Après 16 d5 Ne5 17 Rfc1 (17 Nd4 Nc4 18 Qc2 Nxe3 19 Qxb3 Nxf1 20 Rxf1 f5 active le fou des cases noires avec une position satisfaisante pour les Noirs) 17...Qb8 les Noirs ont un contrejeu suffisant.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "Ne7",
+      "text": "15...Ne5 16 Rac1! (16 Nd4?! Nc4 17 Qc3 Nxe3 18 fxe3 f5 est bien pour les Noirs) 16...Nxf3+ 17 exf3 f5 18 b3 est inconfortable pour les Noirs. Les Blancs joueront f4, et il n'est pas clair quelle compensation les Noirs ont pour leurs pions faibles de l'aile dame.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Nd4",
+      "text": "La suite naturelle. Les Blancs doivent déplacer leur cavalier afin de défendre le pion d5, et après tout autre coup de cavalier les Noirs obtiennent une bonne position avec ...Nf5.",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Rxd5",
+      "text": "Ce sacrifice est le point du jeu des Noirs. Reculer passivement la tour par 16...Rb8 serait un aveu d'échec ; les Blancs obtiendraient un avantage avec le coup naturel 17 Rac1.",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Bxd5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Nxd5",
+      "text": "Trait aux Blancs\n\nLes Noirs ont abandonné la qualité en échange d'un pion. Leur compensation n'est pas sous la forme d'une attaque immédiate contre le roi, ni de menaces particulièrement fortes. Elle est de nature à long terme, et est avant tout positionnelle plutôt que tactique. De tels sacrifices sont généralement appelés « sacrifices positionnels », bien qu'il n'y ait bien sûr pas de frontière nette entre les sacrifices positionnels et ceux visant une compensation à plus court terme. En regardant le diagramme, qu'ont gagné les Noirs en retour de leur déficit matériel (assez modeste, il est vrai) ? Premièrement, ils ont éliminé le pion central contraignant des Blancs, qui à la fois bridait leur propre pion c et créait un avant-poste possible en c6. Deuxièmement, ils ont enlevé le fou des cases blanches des Blancs. Cela donne non seulement aux Blancs le problème immédiat de traiter le pion h3, mais soulève aussi la possibilité que les cases blanches faibles autour du roi blanc puissent finalement permettre aux Noirs de lancer une attaque directe.\n\nMalgré ces avantages, la partie est loin d'être un long fleuve tranquille pour les Noirs. Leur principal problème est la vulnérabilité de leurs pions c et d à l'attaque le long des colonnes semi-ouvertes. Les tours blanches sont bien placées pour entrer en action, et les Noirs pourraient facilement se retrouver face à une forte pression. Le temps est clairement un facteur important ici. Si les Blancs ont le temps d'achever leur développement sans que les Noirs aient généré de jeu actif, alors les Noirs seront forcés de revenir à une posture défensive. Par conséquent, les deux camps doivent essayer de faire compter chaque tempo. Objectivement, je crois que les Blancs ont un certain avantage, mais les positions hautement complexes qui en résultent conviennent beaucoup mieux à Shirov qu'à Lautier, si bien que même si l'équilibre de la position peut encore favoriser les Blancs, ils font face à un défi redoutable.",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "Nf5",
+      "text": "Lautier sait aussi jouer pour l'initiative, et est prêt à offrir son pion h afin d'accélérer ses tours vers les colonnes centrales. Les alternatives sont :\n\n1) 18 Kh2 Qa8 (18...Nxe3? 19 fxe3! Qc8 20 g4 est mauvais, car l'emprise des Blancs sur f5 empêche les Noirs d'activer leur fou des cases noires) 19 Nc2 c5 tient les pièces blanches hors de d4, et offre aux Noirs une bonne compensation. Ils peuvent continuer avec ...Re8, ...Bc6 et ...f5 (dans un certain ordre) avec beaucoup d'activité, tandis que les pièces mineures blanches ont peu de champ.\n\n2) 18 g4 Qc8 19 f3 (sinon les Noirs peuvent au moins forcer la nulle par ...Bxg4) 19...Nxe3 20 Qxe3 f5 et avec deux fous actifs contre un cavalier et une aile roi blanche affaiblie, les Noirs sont au moins égaux.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "Bxf5",
+      "text": "Forcé, car 18...Nxe3? 19 fxe3! établit un blocus en f5.",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "Qxd5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "Bxh3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "Rfd1",
+      "text": "20 Rfc1 est inférieur. Après 20...Be6 21 Qb7 f5 22 Rxc7 Bd5! 23 Qxd5 (23 Qa7 f4 24 Bb6 Qf6 donne aux Noirs de dangereuses menaces, tandis qu'après 23 Qb6 f4 24 Rd1 fxe3 25 Rxd5 exf2+ 26 Kxf2 Qf6+ 27 Kg2 Qe6 28 Rd2 Qe4+ 29 Kh2 Be5 l'aile roi blanche paraît exposée) 23...Qxc7 il appartient aux Blancs de démontrer l'égalité complète.",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "Re8",
+      "text": "Clouant le fou de e3 contre le pion e2 non défendu.",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "Rac1",
+      "text": "Ce coup naturel achève le développement des Blancs. L'alternative 21 Rd2 f5 22 Bd4 Bxd4 23 Qxd4 Qa8 24 f3 paraît approximativement égale.",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "f5",
+      "text": "Trait aux Blancs\n\nEncore une fois, les Noirs doivent agir vite sinon les Blancs convergeront sur le pion c7 faible. Ce coup non seulement menace le pion b2, mais commence aussi une avance générale de pions en direction du roi blanc.",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "Rd2",
+      "text": "Ce coup défend les pions e2 et b2 en préparation de Bd4, et avec un jeu très précis devrait donner un avantage aux Blancs. Cependant, les Blancs peuvent aussi obtenir un avantage avec le plus simple 22 Qc6. Alors :\n\n1) 22...f4 23 gxf4 gxf4 24 Bxf4 Bxb2 25 Rc4 est insuffisant car les Noirs sont incapables d'exploiter la position légèrement exposée du roi blanc. Notons que 25...Rxe2? échoue sur 26 Qf3.\n\n2) 22...Rxe3!? 23 fxe3 Qe7 est douteux ici car les Blancs ont effectivement un tempo d'avance par rapport à la partie. Bien qu'il y ait quelques pièges à négocier, les Blancs devraient obtenir l'avantage :\n\n2a) 24 Rd3 Bxb2 25 Rc2 (25 Qxc7 Qe4 est bon pour les Noirs) 25...Be5 26 Qxc7 Qf6 donne un bon jeu aux Noirs ; par exemple, 27 Qc8+ (27 Kh2 g4 est similaire) 27...Kg7 28 Kh2 g4 29 Rd5 (29 Qe8? Bxg3+! 30 Kxg3 Qa1 gagne pour les Noirs) 29...h5 avec une attaque dangereuse.\n\n2b) 24 Kf2! Be5 (24...Bxb2 25 Qxc7 est très bon pour les Blancs) 25 Rd3 (25 Qxc7?? Bxg3+ mate) laisse les Noirs en lutte pour la compensation ; par exemple, 25...Qf6 (25...h5 26 Qxc7 Qf6 27 Qd7 h4 28 gxh4 g4 29 Rc8+ Kg7 30 Qd8 défend) 26 Qe8+ Kg7 27 Rxc7 f4 28 exf4 gxf4 29 gxf4 Qxf4+ 30 Ke1 Qf1+ 31 Kd2 Bf4+ 32 Re3 et les Noirs se retrouvent la qualité pour un pion de moins.\n\n3) 22...Bxb2 23 Rc2 Be5 24 Qxc7 et maintenant :\n\nTrait aux Noirs\n\n3a) 24...Qa8 25 Qc6 Qxc6 (25...f4 26 gxf4 gxf4 27 Qxa8 Rxa8 28 Bd4 est aussi légèrement meilleur pour les Blancs) 26 Rxc6 Bxg3 27 Bd4 et les Blancs ont la meilleure finale.\n\n3b) 24...Qxc7 25 Rxc7 Bxg3 (25...f4 26 gxf4 gxf4 27 Bd4 favorise les Blancs) 26 Rd3 Be5 27 Bxg5 Bg4 (27...hxg5 28 Rxh3 et le pion a noir risque d'être perdu en quelques coups) 28 Re7 (28 Bxh6 Bxe2 29 Re3 Bb5 30 Rf3 Kh7 31 Bf4 Kg6 est nulle) 28...Rc8 29 Bxh6 Bxe2 30 Rh3 et les Blancs conservent un léger avantage. Il est vrai que les Noirs ont deux pions pour la qualité, mais leurs pions sont faibles et isolés. Les Blancs sont mieux, mais la réduction générale du nombre de pions signifie que les Noirs conservent de bonnes chances de nulle.",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "Rxe3",
+      "text": "Trait aux Blancs\n\nCe second sacrifice relance les enchères. Les Noirs sont prêts à investir davantage de matériel pour accroître leurs atouts positionnels. Notons qu'encore une fois le sacrifice ne mène pas à une attaque immédiate sur le roi blanc, si bien qu'on pourrait à nouveau le décrire comme un sacrifice « positionnel ». Dans ce cas, cependant, la possibilité d'une attaque est plus proche qu'auparavant, puisque les pions blancs brisés et la présence inquiétante du fou en h3 posent un danger évident au roi.",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "fxe3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "Qe7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "Kf2",
+      "text": "Les Noirs ont un contrejeu suffisant après les alternatives, p.ex. 24 Qd3 Be5 25 Kh2 Bg4 suivi de ...h5, 24 e4 fxe4 25 e3 h5, 24 Kh2 Bg4, ou 24 Qf3 g4 25 Qf2 c5 26 Rcd1 Be5 27 Qxf5 Bxg3 – dans tous les cas les Noirs ont une pleine compensation pour le matériel. Le roi blanc reste très exposé et ses tours n'ont, pour l'instant, que peu de champ.\n\nLe coup du texte est efficace car il non seulement défend g3 et e3, mais prépare aussi à évacuer le roi vers l'aile dame si les menaces noires à l'aile roi deviennent trop dangereuses.",
+      "isCritical": true
+    },
+    {
+      "ply": 48,
+      "san": "Be5",
+      "text": "Trait aux Blancs\n\nLe principal problème des Blancs est qu'il y a peu d'activité pour leurs tours. S'ils pouvaient pénétrer avec une tour en c7 et lier les Noirs à la défense de f7, alors il serait difficile pour les Noirs de poursuivre leur attaque. Un jeu précis est nécessaire pour y parvenir.",
+      "isCritical": true
+    },
+    {
+      "ply": 49,
+      "san": "Rh1",
+      "text": "Jusqu'ici les Blancs ont joué simplement et directement, mais maintenant ils commettent une erreur sérieuse sous la pression imposée par le jeu sacrificiel des Noirs. Les alternatives fournissent une bonne illustration des principes qui régissent la défense contre un sacrifice positionnel :\n\n1) 25 b4 ne donne aucun avantage aux Blancs contre un jeu précis, p.ex. :\n\n1a) 25...Bxg3+? 26 Kxg3 Qxe3+ 27 Kh2 Qf2+ 28 Kh1 et les Blancs gagnent.\n\n1b) 25...h5?! 26 Rdc2 h4 (26...f4 27 gxf4 gxf4 28 Rg1+ Bg4 29 exf4 Bxf4 30 Ke1 donne aussi un avantage clair aux Blancs) 27 gxh4 g4 (27...gxh4 perd sur 28 Rxc7 Bg3+ 29 Kg1 Qxe3+ 30 Kh1) 28 Ke1 et le roi s'échappe de la zone de danger, où les Blancs sont mieux.\n\n1c) 25...g4! 26 Rd3 (26 Rdc2? Bxg3+ 27 Kxg3 Qxe3+ 28 Kh2 Qf2+ 29 Kh1 g3 gagne pour les Noirs) 26...h5 donne aux Noirs assez de contrejeu.\n\n2) 25 Rd3 et maintenant :\n\n2a) 25...h5 avec une branche supplémentaire :\n\n2a1) 26 Qb7 h4 27 Rxc7 Bxg3+ 28 Kg1 Qe5 29 Rxf7 (29 Qd5 Bf2+ 30 Kh1 Qxd5+ 31 Rxd5 g4 paraît dangereux pour les Blancs après 32 Rxd6 g3 33 Rd1 Bxe3 ou 32 Rxf5 g3 33 Rg5+ Kf8 34 Rb7 Be6) 29...d5 30 Rg7+ Qxg7 31 Qxd5+ Kh7 32 Qe6 fait nulle.\n\n2a2) 26 Qa8+! Kg7 27 Qb7 paraît prometteur pour les Blancs, car la ligne de « 2a1 » mènerait maintenant à la prise du pion f7 avec échec.\n\n2b) 25...c5 26 Rh1 g4 donne une compensation correcte aux Noirs.\n\n3) 25 Qd3 h5 26 Rh1 et maintenant 26...Bg4 est obscur, mais les Noirs devraient éviter 26...g4 27 Qxf5 Bxg3+ 28 Kxg3 Qxe3+ 29 Kh4 Qxd2 30 Qg5+ Qxg5+ 31 Kxg5, qui favorise les Blancs.\n\nAlors quel est le coup correct ? En défendant contre un sacrifice positionnel, le point clé est que l'attaque adverse arrive plus lentement qu'après un sacrifice direct. Très souvent, une partie de la compensation pour le matériel réside dans l'incapacité du défenseur à faire un usage efficace de son matériel supplémentaire. Dans la position actuelle, le problème des Blancs est qu'ils ne peuvent pas facilement mettre leurs tours en jeu – mais cela n'aurait pas dû les empêcher d'essayer !\n\n4) 25 Rdc2! est la meilleure continuation.\n\nTrait aux Noirs\n\n25...c5 26 b4 (les Blancs doivent être prêts à rendre quelque matériel afin d'activer leurs tours) 26...g4 (tentant de perturber les efforts blancs par la menace d'un sacrifice en g3) 27 Rc3! (maintenant que les Noirs ont scellé leur fou des cases blanches hors de la partie avec ...g4, il vaut définitivement la peine d'abandonner une tour pour le fou des cases noires ; en particulier, une fois qu'une finale est atteinte, il importe presque peu combien de pions supplémentaires les Noirs ont puisqu'ils jouent sans le fou en h3) et maintenant :\n\n4a) 27...Bxc3 28 Rxc3 cxb4 (28...Qf6 29 Rd3 favorise les Blancs) 29 Rc6 h5 30 Rxd6 et les Blancs sont très bien.\n\n4b) 27...h5 28 bxc5 h4 29 c6 hxg3+ 30 Kg1 Bxc3 31 Rxc3 Qc7 32 Rb3 gagne pour les Blancs.\n\n4c) 27...cxb4 28 Rc7 Qf6 29 Rb7 f4 30 exf4 Bxf4 31 Rxf7 Qxf7 32 Qxf7+ Kxf7 33 gxf4 h5 34 Kg3 est une finale prometteuse pour les Blancs.",
+      "isCritical": true
+    },
+    {
+      "ply": 50,
+      "san": "Bxg3+",
+      "text": "Soudain l'équilibre bascule en faveur des Noirs. Un coup imprudent et Shirov est dans son élément.",
+      "isCritical": true
+    },
+    {
+      "ply": 51,
+      "san": "Kxg3",
+      "text": "Après 26 Kf3 g4+ 27 Kxg3 Qxe3+ 28 Kh4 Qf2+ 29 Kh5 Qf4 30 Kh4 (30 Qa8+ Kg7 31 Qd8 g3 mate rapidement) 30...Qg5+! 31 Kg3 f4+ 32 Kh2 Qh4 les Blancs sont sans défense.",
+      "isCritical": true
+    },
+    {
+      "ply": 52,
+      "san": "Qxe3+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 53,
+      "san": "Qf3",
+      "text": "Pas 27 Kh2? Qf2+ 28 Kxh3 g4#.",
+      "isCritical": true
+    },
+    {
+      "ply": 54,
+      "san": "Qxd2",
+      "text": "Trait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 55,
+      "san": "Qa8+",
+      "text": "28 Rxh3 n'est pas mieux, p.ex. 28...g4 29 Qa8+ Kg7 et maintenant :\n\n1) 30 Rh2 Qe3+ 31 Kh4 (31 Kg2 Qxe2+ transpose) 31...Qe7+ 32 Kg3 Qe5+ 33 Kg2 Qxe2+ 34 Kg1 Qe1+ 35 Kg2 f4 gagne pour les Noirs.\n\n2) 30 Rh5 Qe1+ 31 Kh2 Qxe2+ 32 Kg3 (32 Qg2 perd sur 32...g3+) 32...Qe1+ 33 Kg2 (33 Kh2 Kg6 est aussi sans espoir pour les Blancs) 33...f4 et les Noirs gagnent.\n\n3) 30 Rh1 Qe3+ 31 Kh2 Qxe2+ 32 Qg2 (32 Kg3 Qe3+ 33 Kg2 f4 34 Qxa6 Qe4+ 35 Kg1 g3 est gagnant pour les Noirs, tandis que 32 Kg1 f4 33 Qg2 Qe1+ 34 Qf1 Qe4 35 Rh5 Kg6 36 Rh2 h5 est un schéma familier) 32...Qe5+ 33 Kg1 Kg6 et les Blancs sont impuissants à empêcher ...h5 suivi de ...f4, avec une vague de pions mortelle. L'équilibre matériel de cinq pions contre une tour survient rarement en pratique. Dans ce cas, la mauvaise position de la tour blanche et la sécurité du roi noir sont les facteurs décisifs.",
+      "isCritical": true
+    },
+    {
+      "ply": 56,
+      "san": "Kg7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 57,
+      "san": "Kxh3",
+      "text": "29 Rxh3 g4 transpose à la note précédente.",
+      "isCritical": true
+    },
+    {
+      "ply": 58,
+      "san": "Qxe2",
+      "text": "Aussi bon est 29...g4+ 30 Kh2 Qxe2+ 31 Qg2, transposant dans la note au 28e coup des Blancs.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 59,
+      "san": "Qd5",
+      "text": "Ce coup aurait dû perdre immédiatement, mais il n'y avait pas d'alternative satisfaisante, p.ex. :\n\n1) 30 Qg2 g4+ 31 Kh2 Qe5+ 32 Kg1 transpose à nouveau à la note au 28e coup des Blancs, qui est très bon pour les Noirs.\n\n2) 30 Qc6 Qf2 31 Qc3+ Kg6 32 Qg3 Qxb2, avec six pions pour la tour, est certainement très bon pour les Noirs.",
+      "isCritical": true
+    },
+    {
+      "ply": 60,
+      "san": "Kg6",
+      "text": "30...Qf2 gagne immédiatement.",
+      "isCritical": true
+    },
+    {
+      "ply": 61,
+      "san": "Qd4",
+      "text": "31 Qg2 était à nouveau la seule chance, bien qu'après 31...g4+ 32 Kh2 Qe5+ 33 Kg1 h5 les Blancs aient la même mauvaise position qu'auparavant, seulement cette fois un tempo de moins.",
+      "isCritical": true
+    },
+    {
+      "ply": 62,
+      "san": "f4",
+      "text": "Il n'y a plus aucune défense.",
+      "isCritical": true
+    },
+    {
+      "ply": 63,
+      "san": "Rg1",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 64,
+      "san": "f5",
+      "text": "0-1\n\nCe fut une lutte tactique étonnante, dans laquelle les joueurs se battirent bec et ongles pour l'initiative. L'idée de Shirov était hautement créative, mais en raison de la nature relativement ouverte de la position, les Blancs avaient la chance de créer du contrejeu et cela jeta un doute sur le sacrifice de Shirov. Si les Blancs avaient trouvé la continuation correcte au 25e coup, alors la partie aurait pu se terminer autrement. Cependant, on ne devrait jamais sous-estimer le côté pratique des échecs. Quelle que soit l'évaluation objective de l'idée de Shirov, la contrer sur l'échiquier était diaboliquement difficile.\n\nLes leçons ici sont :\n\n1) Les sacrifices peuvent être faits pour des buts à long terme aussi bien qu'immédiats.\n\n2) En défendant contre un sacrifice positionnel, générer du contrejeu est critique. Un contre-sacrifice peut être nécessaire pour y parvenir.\n\n3) Si le roi adverse est suffisamment exposé, une dame plus une poignée de pions bien placés peuvent suffire à fournir une forte attaque.\n\n4) Une fois engagé sur la voie sacrificielle, il n'y a généralement pas de retour en arrière.",
+      "isCritical": true
+    }
+  ]
+}

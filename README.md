@@ -78,7 +78,7 @@ Offline **Python ingest** (EPUB ↔ PGN) produces lesson JSON. The **React/Vite*
 SOURCES (local EPUBs + PGN)
         │
         ▼  Python ingest (align commentary ↔ moves)
-data/index.json + data/lessons/*.json
+data/index.json + data/en/lessons/*.json (+ data/fr/lessons/*.json)
         │
         ▼  cp → web/public/data/
 web/ (React 19 + Vite 8 + TypeScript + chess.js + Stockfish)
@@ -110,7 +110,9 @@ Shared e-board connector (sibling folder): `../eboard-connect-js/`
 
 **`data/index.json`** — books, sections, and `LessonSummary` rows.
 
-**`data/lessons/{id}.json`** — full game: `nodes[]` (`ply`, `san?`, `text`, flags), headers, move counts.
+**`data/en/lessons/{id}.json`** — English commentary: `nodes[]` (`ply`, `san?`, `text`, flags), headers, move counts.
+
+**`data/fr/lessons/{id}.json`** — French commentary (same schema). Loader falls back to `en` when a FR file is missing.
 
 Positions are rebuilt from `nodes` with `chess.js` (no PGN at runtime).
 
@@ -143,7 +145,9 @@ pip install -r requirements.txt
 python scripts/split_chernov_pgn.py && python scripts/ingest_chernov.py
 python scripts/fetch_nunn_pgns.py && python scripts/ingest_nunn.py   # network
 cp data/index.json web/public/data/
-cp data/lessons/*.json web/public/data/lessons/
+mkdir -p web/public/data/en/lessons web/public/data/fr/lessons
+cp data/en/lessons/*.json web/public/data/en/lessons/
+cp data/fr/lessons/*.json web/public/data/fr/lessons/ 2>/dev/null || true
 ```
 
 Prerequisites: Python 3.11+, Node.js 22+, local EPUBs under `docs/` (see filenames in repo docs / `.gitignore`).

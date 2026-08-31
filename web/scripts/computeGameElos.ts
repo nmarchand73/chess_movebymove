@@ -8,7 +8,7 @@ import { analyzeFenNode, initStockfishNode, quitStockfishNode } from "./stockfis
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(ROOT, "../public/data");
-const LESSONS_DIR = path.join(DATA_DIR, "lessons");
+const LESSONS_DIR = path.join(DATA_DIR, "en", "lessons");
 const INDEX_PATH = path.join(DATA_DIR, "index.json");
 const OUTPUT_PATH = path.join(DATA_DIR, "performance-elos.json");
 

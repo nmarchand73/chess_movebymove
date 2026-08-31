@@ -4,6 +4,8 @@ import { Chessboard } from "react-chessboard";
 import type { Chess as ChessType } from "chess.js";
 import { BOARD_THEME } from "../lib/boardTheme";
 import { getLastMoveHighlight, MOVE_ARROW_OPTIONS } from "../lib/lastMoveHighlight";
+import type { Lang } from "../lib/lang";
+import { fill, ui } from "../lib/uiCopy";
 import { BoardFrame } from "./BoardFrame";
 
 const BOARD_ID = "chernov-board";
@@ -13,9 +15,11 @@ type Props = {
   orientation?: "white" | "black";
   previewLabel?: string | null;
   onClearPreview?: () => void;
+  lang: Lang;
 };
 
-export function BoardPanel({ chess, orientation = "white", previewLabel, onClearPreview }: Props) {
+export function BoardPanel({ chess, orientation = "white", previewLabel, onClearPreview, lang }: Props) {
+  const t = ui(lang);
   const highlight = useMemo(() => getLastMoveHighlight(chess), [chess]);
   const isPreview = Boolean(previewLabel);
 
@@ -23,10 +27,12 @@ export function BoardPanel({ chess, orientation = "white", previewLabel, onClear
     <div className={`board-panel${isPreview ? " is-preview" : ""}`}>
       {isPreview ? (
         <div className="board-preview-banner">
-          <span>Preview: <strong>{previewLabel}</strong></span>
+          <span>
+            {fill(t.preview, { label: previewLabel ?? "" })}
+          </span>
           {onClearPreview ? (
             <button type="button" className="text-btn" onClick={onClearPreview}>
-              Back to position
+              {t.backToPosition}
             </button>
           ) : null}
         </div>

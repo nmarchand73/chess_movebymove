@@ -1,0 +1,379 @@
+{
+  "id": "nunn-029",
+  "book": "nunn",
+  "gameNum": 29,
+  "players": {
+    "white": "V. Kramnik",
+    "black": "P. Svidler"
+  },
+  "event": "Dortmund 1998",
+  "eco": "D86",
+  "pgnPath": "data/pgn/nunn/29.pgn",
+  "result": "1-0",
+  "moveCount": 59,
+  "annotatedMoves": 59,
+  "title": "Partie 29 : V. Kramnik vs P. Svidler",
+  "section": "Thèmes de finale",
+  "opening": "Défense Grünfeld, variante d'échange",
+  "fullText": "La puissance des pions passés\n\nL'avantage d'un pion passé est évident – s'il se promeut, l'adversaire devra en général sacrifier une pièce pour lui. Cependant, il est important de noter que même si le pion passé ne peut pas se promouvoir de force, il confère généralement quand même un avantage. La raison en est que l'adversaire devra garder un œil vigilant sur le pion, et devra probablement confier à une pièce le soin de le tenir sous contrôle, ce qui fait une pièce de moins pour prendre part au reste de la bataille.\n\nComme pour tous les principes échiquéens, celui-ci s'accompagne de plusieurs réserves :\n\n1) Tout d'abord, il faut pouvoir soutenir le pion passé – en effet, le niveau de soutien est tout aussi important que le simple fait de posséder un pion passé. Un pion passé qui ne peut être soutenu peut simplement être un pion qui s'est aventuré trop loin en territoire ennemi, seulement pour être encerclé et capturé. Aussi, un pion passé peut ne pas constituer un grand avantage si toutes les pièces sont liées à sa protection. Ainsi, les pions passés les plus utiles sont ceux qui peuvent être soutenus économiquement, laissant la plupart des pièces lutter pour le reste de la bataille. Le mieux de tout est que le pion passé soit soutenu par un autre pion, comme dans la partie suivante. Dans ce cas, aucune pièce n'a besoin d'être allouée à la défense du pion.\n\n2) Le danger posé par un pion passé dépend de son degré d'avance. Un pion passé sur la deuxième rangée peut ne pas remplir l'adversaire de terreur, mais un pion sur la sixième rangée le fera probablement.\n\n3) Les pions passés deviennent plus dangereux à mesure que le nombre de pièces sur l'échiquier diminue. La raison est claire. Si vous avez six pièces, et que l'une d'elles doit surveiller un pion passé, cela peut être un désagrément mais ce n'est pas une catastrophe. Si vous n'avez qu'une seule pièce, et qu'elle est liée par un pion passé adverse, alors cela peut être la fin de la partie.\n\n4) Un pion passé solidement bloqué et qui n'est pas avancé plus loin que la cinquième rangée peut ne pas constituer un grand danger. Supposez, par exemple, que vous ayez des pions en e4 et d5, et que votre adversaire ait un pion en e5 et un cavalier en d6. Si le cavalier de blocus ne peut être délogé, alors le pion passé peut n'avoir aucune valeur. En effet, si, par exemple, les Blancs n'ont qu'un fou des cases blanches, cela peut même être un handicap.\n\nSi un pion passé est dangereux, alors deux le sont encore davantage. Cela s'applique particulièrement lorsque les deux pions passés sont sur des colonnes adjacentes – on les appelle des pions passés liés. S'ils avancent côte à côte, il peut être difficile ou impossible de les bloquer, parce qu'une pièce qui bloque un pion peut être chassée par l'autre. Dans la partie suivante, Kramnik crée d'abord un pion passé dangereux puis un second, moment auquel c'en est trop pour les Noirs.\n\nV. Kramnik – P. Svidler\n\nDortmund 1998\n\nDéfense Grünfeld, variante d'échange\n\n1 d4\n\n1...Nf6\n\n2 c4\n\n2...g6\n\n3 Nc3\n\nPour les commentaires sur les coups jusqu'ici, voir la Partie 14.\n\n3...d5\n\nCe coup introduit la défense Grünfeld. À première vue, jouer ...d5 paraît anti-positionnel, parce qu'il conduit à l'échange du pion d central des Noirs contre le pion c moins central des Blancs. Le résultat est que les Blancs obtiennent une prépondérance de pions de 2 contre 1 au centre. En effet, si les Noirs poursuivaient passivement et laissaient les Blancs consolider leur emprise au centre, alors le pion central supplémentaire serait un facteur clé. Cependant, les Noirs n'ont aucune intention de continuer passivement. Leur plan principal est d'exercer une pression sur le pion en d4, en utilisant la colonne d semi-ouverte et le fou fianchetté en g7. Dans de nombreuses lignes les Noirs jouent ...c5 pour renforcer cette pression.\n\n4 cxd5\n\nLes Blancs acceptent le défi immédiatement. Il existe un certain nombre d'autres lignes où l'échange de pions est différé. Celles-ci comprennent 4 Nf3, 4 Bf4, 4 Bg5 et même l'ennuyeux 4 e3.\n\n4...Nxd5\n\nIl y a une grande différence entre la Grünfeld et la mauvaise ligne 1 d4 Nf6 2 c4 d5? 3 cxd5 Nxd5 4 Nf3. Dans cette ligne les Noirs sont forcés de reculer leur cavalier lorsque les Blancs jouent e4, après quoi les Blancs consolident leur centre par Nc3, obtenant un avantage clair. Dans la Grünfeld, en revanche, les Noirs peuvent répondre à e4 par ...Nxc3, évitant toute perte de temps. C'est un point si important que certains joueurs ont même tenté 5 Na4!? dans la Grünfeld, afin de jouer e4 sans permettre l'échange en c3. Il n'est probablement qu'une question de temps avant que quelqu'un joue 5 Nb1!\n\n5 e4\n\nC'est la suite cohérente du coup précédent des Blancs. Ils créent aussitôt un centre de pions « côte à côte ».\n\n5...Nxc3\n\n6 bxc3\n\nC'est la position fondamentale de ce qu'on appelle la Grünfeld d'échange. La bataille tournera autour de la force ou de la faiblesse du centre de pions blanc. L'assaut des Noirs sur d4 sera mené au moyen de ...Bg7, ...c5 et ...Nc6. Si les Blancs jouent Nf3, les Noirs peuvent fort bien répondre ...Bg4. Le but des Noirs est de forcer les Blancs à déplacer leur pion d. Si les Blancs peuvent maintenir leur pion en d4 de façon permanente, sans faire de concession ailleurs, alors ils obtiendront généralement un certain avantage.\n\nSi les Blancs doivent effectivement déplacer le pion d, ils ne joueront probablement pas dxc5, même si cela gagne temporairement un pion, car prendre en c5 endommage trop la structure de pions blanche. Au lieu de cela, les Blancs joueront normalement d5. Alors une nouvelle lutte s'engage. L'avance du pion d active le fou de g7, mais si les pions centraux blancs peuvent avancer assez loin, ils peuvent devenir dangereux en eux-mêmes.\n\n6...Bg7\n\nLa première pièce mineure est amenée à peser sur d4.\n\n7 Bc4\n\nLes Blancs ont deux façons principales de traiter cette position. Ils peuvent soit essayer de garder le pion en d4, soit se préparer à jouer d5 lorsque la pression devient trop forte. Si les Blancs adoptent la première option, le pion d4 aura besoin de tout le soutien que les Blancs peuvent rassembler, aussi doivent-ils éviter Nf3, qui permet ...Bg4 éliminant un défenseur. Le cavalier sera plutôt développé en e2, où il est immunisé contre le clouage. Les Blancs développent donc d'abord leur fou des cases blanches, pour éviter qu'il soit enfermé. c4 est la case la plus active, et est clairement meilleure que d3, qui bloque le soutien de la dame sur d4.\n\n7 Bb5+ est possible, et cette ligne est assez populaire. L'idée est que chacune des intercalations possibles interfère avec l'attaque des Noirs sur d4. Clairement, jouer une pièce en d7 bloque l'attaque de la dame, tandis que si les Noirs jouent ...c6 alors ...Nc6 n'est plus possible. Le défaut est qu'après 7...c6, les Noirs ont une autre méthode pour saper le centre blanc, à savoir ...b5-b4, et cela leur permet de maintenir la partie plus ou moins en équilibre.\n\nSi les Blancs adoptent le plan alternatif de jouer d5 à un moment donné, alors ils doivent faire quelque chose contre l'attaque sur c3 et la pression sur la grande diagonale. Les Blancs peuvent continuer avec des systèmes basés sur Nf3 et Rb1, ou Be3 et Qd2, mais nous ne les examinerons pas en détail ici.\n\n7...c5\n\nLa pression commence à monter. Les Blancs doivent défendre d4.\n\n8 Ne2\n\n8...Nc6\n\nSeulement huit coups, et déjà quatre unités noires attaquent d4.\n\n9 Be3\n\nLe quatrième défenseur entre en place.\n\n9...cxd4\n\nPour le moment, l'attaque des Noirs sur d4 est dans une impasse, parce qu'il n'y a plus de pièces à amener. Bien que les Blancs soient le vainqueur immédiat de cette lutte, les Noirs peuvent revendiquer avoir lié beaucoup de pièces blanches à des positions défensives. La question principale est de savoir comment les Noirs vont poursuivre. Le coup le plus courant est 9...0-0, quand les Blancs jouent généralement 10 0-0 (bien qu'il y ait un argument pour 10 Rc1 ou même 10 h4!?). Alors les Noirs ont deux idées différentes. La première est 10...Qc7, visant le fou non défendu en c4 et préparant ...Rd8 pour aider à l'attaque sur d4. La seconde idée, plus courante de nos jours, est 10...Bg4 11 f3 Na5 12 Bd3 (12 Bxf7+ est une autre variante populaire) 12...cxd4 13 cxd4 Be6. Maintenant les Noirs menacent de jouer ...Nc4, aussi les Blancs ont le choix entre sacrifier la qualité par 14 d5, et sacrifier leur pion a par 14 Rc1. Aucune de ces lignes n'est considérée comme donnant aux Blancs un avantage significatif.\n\nLe coup joué transpose souvent dans l'une des variantes ci-dessus, mais dans cette partie les Noirs poursuivent une voie indépendante.\n\n10 cxd4\n\n10...Qa5+\n\nC'est l'idée des Noirs. Ils entendent perturber le plan de développement des Blancs.\n\n11 Bd2\n\n11 Qd2 n'offre pas grand-chose aux Blancs. Après 11...0-0 les Blancs ne peuvent pas roquer, tandis que 12 Qxa5 Nxa5 13 Bd3 Be6 donne aux Noirs un jeu de pièces actif.\n\n11 Kf1 peut paraître étrange, mais c'est un coup raisonnable. Le roi blanc est relativement en sécurité en f1, tandis que les Blancs entendent activer leur tour en lançant une attaque par h4-h5. Kramnik préfère le retrait de fou moins engageant.\n\n11...Qd8\n\nLes Noirs offrent une répétition de coups, mais si c'était aussi simple d'égaliser, tout le monde jouerait la Grünfeld ! Les alternatives sont :\n\n1) 11...Qa3 (maintenant les Blancs peuvent simplement sacrifier leur pion d) 12 0-0 et maintenant :\n\n1a) 12...Nxd4? 13 Nxd4 Bxd4 14 Bb4 Qxb4 (après 14...Qb2, 15 Rb1 piège la dame) 15 Qxd4 et les Blancs gagnent grâce aux menaces jumelles de 16 Qxh8+ et 16 Bxf7+.\n\n1b) Après 12...0-0 13 Rb1 les Noirs ne peuvent encore une fois pas prendre le pion : 13...Nxd4? 14 Bb4 Nxe2+ 15 Qxe2 Qa4 16 Bb5 et leur dame est piégée. Étant donné que les Noirs ne peuvent pas accepter le sacrifice, il est difficile de voir ce qu'ils ont accompli en jouant leur dame en a3.\n\n2) 11...Qh5 12 d5 Ne5 13 Bb5+ Bd7 14 Bxd7+ Nxd7 15 Rc1 0-0 16 0-0 Rfc8 17 f3 et les Blancs sont mieux puisque la dame noire ne remplit aucune fonction utile en h5.\n\n12 d5\n\nEn supposant que les Blancs ne veuillent pas la nulle, ils ont deux plans, qui reflètent leur choix antérieur. L'un est de maintenir le pion en d4 par 12 Bc3 0-0 13 0-0 Bd7 14 Qd2 et le second est de pousser le pion en d5. Les deux plans suffisent probablement à donner aux Blancs un léger avantage, mais le choix de Kramnik est le plus énergique.\n\n12...Ne5\n\n12...Bxa1? perd sur 13 Qxa1.\n\nCette position est typique des lignes où les Blancs jouent d5 dans la Grünfeld d'échange. Les Blancs ont encore leur majorité centrale et s'ils peuvent consolider alors ils peuvent s'attendre à obtenir l'avantage. Un jour ils pourront peut-être repousser le cavalier noir par f4, puis avancer au centre par e5. Cependant, avant que cela puisse arriver ils doivent organiser leur position, ce qui n'est pas facile face aux pièces actives des Noirs. Le plus grand contrôle d'espace des Blancs laisse la position noire un peu étriquée – en particulier, le fou de c8 n'a aucune case évidemment bonne. Ainsi, les Blancs devraient éviter les échanges de pièces, si possible.\n\n13 Bc3\n\nDu commentaire précédent, il s'ensuit que 13 Bb5+ Bd7 14 Bxd7+ Qxd7 est mauvais – les Noirs sont au moins égaux ici. 13 Rc1 0-0 14 0-0 Nxc4 15 Rxc4 e6 16 Bc3 donne peut-être aux Blancs un léger avantage, mais la simplification générale de la position offre aux Noirs de bonnes chances défensives.\n\nLe coup de Kramnik donne aux Blancs la meilleure chance de garder toutes les pièces mineures sur l'échiquier.\n\n13...0-0\n\nPas, bien sûr, 13...Nxc4 14 Bxg7, quand les Noirs ne pourront jamais roquer.\n\n14 Bb3\n\nLes Noirs doivent maintenant agir rapidement, sinon les Blancs obtiendront un grand avantage par 15 f4.\n\n14...Qb6\n\nLes Noirs anticipent le roque blanc et « clouent » à l'avance le pion f2. Un simple développement par 14...Bd7 ne suffit pas. Après 15 f4 Ng4 16 Bxg7 Kxg7 17 Qd4+ Kg8 18 h3 Qa5+ 19 Nc3 Rac8 20 Rc1 les Noirs doivent reculer leur cavalier, après quoi les Blancs roquent, consolidant leur massive supériorité centrale.\n\n15 f4!?\n\nCe coup est bien plus exigeant que 15 0-0 Bg4, quand les Noirs échappent à la plupart de leurs difficultés. Grâce au clouage du pion f, les Blancs ne peuvent pas jouer f3, et ainsi les Noirs peuvent échanger leur fou problématique. Le clouage rend aussi plus malaisé pour les Blancs de jouer f4, et ainsi les Noirs gagnent encore du temps pour activer leurs pièces. Après 16 Kh1 (16 h3 Bxe2 17 Qxe2 Rfc8 18 Rac1 a5 donne aux Noirs un contrejeu suffisant) 16...Rac8!? 17 f3 Bd7, 18 Rb1 Bb5 est égal, tandis que 18 f4 peut être rencontré par 18...Rxc3 19 Nxc3 Ng4 20 Qf3 Bxc3 21 Qxc3 Nf2+ 22 Rxf2 Qxf2 avec l'égalité.\n\n15...Ng4?!\n\nUn coup tentant mais douteux. Superficiellement, le cavalier est actif en g4 mais si les Noirs sont incapables de l'y maintenir, il devra reculer avec une perte de temps considérable. 15...Nd7 est plus solide. Après 16 Bxg7 Kxg7 17 Qd4+ Qxd4 18 Nxd4 Nc5 19 Bc2 f5 20 exf5 Bxf5 21 Nxf5+ gxf5 22 0-0 les Blancs ont un léger avantage mais rien de plus.\n\n16 Bd4!\n\nCela force plus ou moins l'échange des dames. Dans la finale résultante, les Blancs ont d'excellentes chances de soutenir leur centre de pions. Les Blancs devraient éviter 16 Bxg7 Qf2+ 17 Kd2, quand les Noirs peuvent forcer la nulle par 17...Qe3+ ou continuer la partie par 17...Kxg7 18 Qg1 Bd7, avec un jeu obscur.\n\n16...Qa5+\n\nOu 16...Bxd4 17 Qxd4 Qxd4 (17...Qa5+ 18 Nc3 Bd7 19 h3 transpose dans la note au 14e coup des Noirs) 18 Nxd4 et maintenant :\n\n1) 18...Nf6 19 e5 Ne4 (19...Nxd5 perd sur 20 Bxd5 Rd8 21 Nb5 Rxd5 22 Nc7) 20 Rc1 donne aux Blancs un avantage clair. Leur centre de pions est sûr et dans certaines lignes ils peuvent pénétrer à la septième rangée avec leur tour.\n\n2) 18...Rd8 19 0-0 favorise encore les Blancs. Si les Noirs tentent 19...e5 20 fxe5 Nxe5 alors les Blancs s'emparent de l'initiative par 21 Nf3! Nxf3+ (ou 21...f6 22 Nxe5 fxe5 23 Rac1) 22 Rxf3, quand f7 est dans la ligne de mire des Blancs.\n\n17 Qd2\n\n17...Qxd2+\n\nSinon les Noirs obtiennent une mauvaise position dans le style de la note au 14e coup des Noirs.\n\n18 Kxd2\n\n18...e5?\n\nUne erreur sérieuse. Les Noirs espèrent résoudre leurs problèmes avec le cavalier de g4 par la force, mais cela se retourne simplement contre eux. Les alternatives sont :\n\n1) 18...Nf6 19 e5 Ne4+ 20 Ke3 f5 21 Rac1 est gagnant pour les Blancs.\n\n2) 18...Bxd4 19 Nxd4 Rd8 20 h3 Nf6 21 Ke3 donne aux Blancs un avantage clair. Les Noirs n'ont toujours pas de bonne case pour leur fou puisque s'il va en d7, les Blancs peuvent jouer e5. Pendant ce temps, les Blancs menacent de pénétrer en c7 avec une tour.\n\n3) 18...Rd8 est relativement la meilleure chance, bien que la position noire reste désagréable après 19 h3 Nf6 20 Ke3 ; par exemple, 20...b6 (ou 20...e6 21 d6) 21 Rac1 Ba6 22 Bxf6 Bxf6 23 e5 Bg7 24 Rc7.\n\n19 h3!\n\n19 fxe5 est une erreur, puisque après 19...Nxe5 la prise ferme des Noirs sur e5 tient les pions centraux blancs sous contrôle. Le coup du texte sacrifie à la fois un pion et permet une liquidation vers une position de fous de couleurs opposées. Néanmoins, c'est un coup très fort. La raison en est que les Blancs sont capables d'établir une chaîne de pions prêtant un soutien ferme à un puissant pion passé en d6. Ce pion passé pose un tel danger que les divers facteurs en faveur des Noirs sont sans pertinence.\n\n19...exd4\n\nSi 19...Nf6 20 fxe5 Nxe4+, alors 21 Ke3 Bf5 (21...f5 22 d6+ Kh8 23 Rac1 donne aux Blancs un grand avantage grâce à leurs deux pions passés liés) 22 g4 Bh6+ 23 Nf4 Ng3 24 Rhe1! Bd3 25 Kxd3 Bxf4 26 d6 avec une position gagnante pour les Blancs.\n\n20 hxg4\n\nLe plan des Blancs est simple – ils joueront e5 et d6, établissant une chaîne de pions inébranlable. Grâce au fou de b3, les Noirs seront incapables de jouer ...f6, tandis que ...g5 peut simplement être rencontré par g3, si bien qu'il n'y aura aucun moyen de démonter la structure de pions blanche.\n\n20...g5\n\nLes Noirs font de leur mieux pour attaquer la chaîne de pions. 20...Bxg4 21 e5 Bxe2 22 Kxe2 est similaire à la partie, tandis qu'après 20...d3 21 Nc3 Re8 (21...Bxg4 22 Kxd3 Rac8 23 Rac1 est très bon pour les Blancs) 22 Rhe1 Bxg4 23 Kxd3, suivi de Rac1 et e5, les Blancs établissent encore leur chaîne de pions.\n\n21 g3\n\nGardant intacte leur structure de pions.\n\n21...Bxg4\n\n21...d3 22 Nc3 Bxg4 23 Kxd3 Bf3 24 Rhe1 ne résout pas les problèmes des Noirs.\n\n22 e5\n\nLes Blancs font un nouveau pas vers l'établissement d'une chaîne de pions qui court de g3 à d6. En même temps, ils mettent hors jeu le fou des cases noires des Noirs.\n\n22...Bxe2\n\nLes Noirs prennent le cavalier et préservent ainsi leur pion d, mais ce pion est incapable d'influencer l'issue de la partie. Après 22...Bf3 23 Rhf1 g4 24 d6 le pion d noir tombe.\n\n23 Kxe2\n\n23...Rfc8\n\nDans l'intention de frapper en g3 par ...Rc3.\n\n24 Rad1!\n\n24 Kd3? est une erreur sérieuse, car après 24...Rc3+ 25 Kxd4 Rxg3 la chaîne de pions blanche s'effondre.\n\n24...Rc3\n\n25 Rd3\n\nLes Blancs protègent le pion g3. Depuis quelques coups, les Noirs ont pu occuper les Blancs avec des menaces, mais maintenant ils sont arrivés au bout de ce chemin particulier.\n\n25...Rac8?!\n\nCela facilite la vie des Blancs parce que la tour s'avère tactiquement vulnérable en c8. Autres coups :\n\n1) 25...Rd8 26 d6 ne change rien de réel, p. ex. 26...Kf8 27 Rxh7 et 27...f6 est impossible à cause de 28 exf6 Bxf6 29 Rf7+.\n\n2) 25...b5 est probablement la meilleure chance. Les Noirs entendent ...a5-a4 pour déloger le fou de b3, quand ils auront de meilleures chances de s'attaquer aux pions menaçants des Blancs. Néanmoins, avec un jeu précis les Blancs devraient encore gagner à la fin : 26 d6 a5 27 Rxc3 (27 Kd2 Rd8 est moins clair) 27...dxc3 28 Kd3 b4 29 Ba4! (le meilleur, car les pions noirs sont bloqués et le roi blanc est libre d'avancer ; le fou noir est complètement enfermé par la chaîne de pions blanche et est aussi efficace qu'un pois sec qui cliquette dans une boîte de conserve) 29...Rd8 30 Ke4 gxf4 (30...Bf8 perd sur 31 Kd5 f6 32 Kc6) 31 gxf4 Bf8 32 Kd5 h6 33 Rg1+ Kh8 34 Kc6 h5 35 Kc7 Ra8 36 Bc6 Ra6 37 Kb7 et les Blancs gagnent.\n\n26 d6\n\nLe point culminant de la stratégie blanche. Le pion passé en d6 domine la position.\n\n26...b5\n\nCela permet une conclusion rapide, mais les Noirs sont perdus de toute façon, p. ex. :\n\n1) 26...Rxd3 27 Kxd3 Rc3+ 28 Kxd4 Rxg3 n'est pas possible car les Blancs promeuvent leur pion d par 29 d7.\n\n2) 26...Rd8 27 Rxc3 dxc3 28 Rc1 (menaçant Rxc3 suivi de Rc7) 28...h5 (28...gxf4 perd sur 29 gxf4 Bh6 30 Kf3) 29 Rxc3 h4 30 Rc7 hxg3 31 Rxf7 Kh8 32 e6 et les Blancs gagnent.\n\n3) 26...Kf8 27 Rxh7 Rd8 28 Rh5! f6 (ou 28...gxf4 29 gxf4, suivi de Rf5) 29 Rh7 fxe5 30 fxe5 Bxe5 31 Rf7+ Ke8 32 Re7+ ramasse le fou.\n\n4) 26...Re8 27 Rxc3 dxc3 28 Kd3 et les Blancs gagnent à peu près comme dans la note « 2 » au 25e coup des Noirs.\n\n27 Rxc3\n\n27...dxc3\n\nAprès 27...Rxc3 28 d7 le pion se promouvra.\n\n28 e6!\n\nMaintenant les Blancs acquièrent deux pions passés liés très avancés. La partie est décidée.\n\n28...Kf8\n\nLes alternatives sont sombres :\n\n1) 28...Rb8 perd sur 29 e7 Bf6 30 fxg5 Bxg5 31 Rf1.\n\n2) 28...Bf6 29 fxg5 Bxg5 30 Rh5 Bf6 31 e7 Rb8 32 Rf5 Kg7 33 d7 est la fin.\n\n3) 28...Bf8 est le seul moyen de jouer encore, mais après 29 e7 Bxe7 30 dxe7 Re8 31 Kd3 gxf4 32 gxf4 Rxe7 33 Kxc3 les Blancs gagneront à la fin.\n\n29 e7+\n\nLes pions forcent le passage.\n\n29...Ke8\n\n30 Bxf7+!\n\n30...1-0\n\nPuisque 30...Kd7 (30...Kxf7 31 d7 est un tableau séduisant – pour les Blancs !) 31 Rxh7 c2 32 e8Q+ Rxe8+ 33 Bxe8+ Kxe8 34 Kd2 achève les Noirs.\n\nLa Grünfeld est une ouverture populaire et à double tranchant ; les Blancs sont autorisés à prendre temporairement le contrôle du centre, mais les Noirs espèrent saper ce contrôle plus tard. Dans cette partie, Svidler a choisi une manœuvre inhabituelle au 10e coup, mais Kramnik a répondu énergiquement, s'emparant de plus d'espace au centre. Le 15e coup des Noirs, bien que naturel, s'est avéré une erreur. Face à la perspective de ramener lamentablement son cavalier, Svidler a tenté d'exploiter sa position en g4. Cependant, Kramnik s'est emparé de l'avantage avec le coup puissant 19 h3!, lui garantissant un puissant pion passé d. Après cela les Noirs ont toujours lutté, et Kramnik a conclu joliment avec un sacrifice de pièce pour obtenir deux pions passés liés sur la septième rangée. Une partie impressionnante de Kramnik.\n\nLes leçons ici sont :\n\n1) Dans la défense Grünfeld, la charge incombe aux Noirs de perturber le centre blanc. Si les Blancs peuvent le garder intact, alors ils peuvent s'attendre à un avantage.\n\n2) Un pion passé bien soutenu est un atout utile.\n\n3) Les pions passés deviennent plus précieux à l'approche de la finale.\n\n4) Deux pions passés liés très avancés valent généralement au moins une pièce.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "La puissance des pions passés\n\nL'avantage d'un pion passé est évident – s'il se promeut, l'adversaire devra en général sacrifier une pièce pour lui. Cependant, il est important de noter que même si le pion passé ne peut pas se promouvoir de force, il confère généralement quand même un avantage. La raison en est que l'adversaire devra garder un œil vigilant sur le pion, et devra probablement confier à une pièce le soin de le tenir sous contrôle, ce qui fait une pièce de moins pour prendre part au reste de la bataille.\n\nComme pour tous les principes échiquéens, celui-ci s'accompagne de plusieurs réserves :\n\n1) Tout d'abord, il faut pouvoir soutenir le pion passé – en effet, le niveau de soutien est tout aussi important que le simple fait de posséder un pion passé. Un pion passé qui ne peut être soutenu peut simplement être un pion qui s'est aventuré trop loin en territoire ennemi, seulement pour être encerclé et capturé. Aussi, un pion passé peut ne pas constituer un grand avantage si toutes les pièces sont liées à sa protection. Ainsi, les pions passés les plus utiles sont ceux qui peuvent être soutenus économiquement, laissant la plupart des pièces lutter pour le reste de la bataille. Le mieux de tout est que le pion passé soit soutenu par un autre pion, comme dans la partie suivante. Dans ce cas, aucune pièce n'a besoin d'être allouée à la défense du pion.\n\n2) Le danger posé par un pion passé dépend de son degré d'avance. Un pion passé sur la deuxième rangée peut ne pas remplir l'adversaire de terreur, mais un pion sur la sixième rangée le fera probablement.\n\n3) Les pions passés deviennent plus dangereux à mesure que le nombre de pièces sur l'échiquier diminue. La raison est claire. Si vous avez six pièces, et que l'une d'elles doit surveiller un pion passé, cela peut être un désagrément mais ce n'est pas une catastrophe. Si vous n'avez qu'une seule pièce, et qu'elle est liée par un pion passé adverse, alors cela peut être la fin de la partie.\n\n4) Un pion passé solidement bloqué et qui n'est pas avancé plus loin que la cinquième rangée peut ne pas constituer un grand danger. Supposez, par exemple, que vous ayez des pions en e4 et d5, et que votre adversaire ait un pion en e5 et un cavalier en d6. Si le cavalier de blocus ne peut être délogé, alors le pion passé peut n'avoir aucune valeur. En effet, si, par exemple, les Blancs n'ont qu'un fou des cases blanches, cela peut même être un handicap.\n\nSi un pion passé est dangereux, alors deux le sont encore davantage. Cela s'applique particulièrement lorsque les deux pions passés sont sur des colonnes adjacentes – on les appelle des pions passés liés. S'ils avancent côte à côte, il peut être difficile ou impossible de les bloquer, parce qu'une pièce qui bloque un pion peut être chassée par l'autre. Dans la partie suivante, Kramnik crée d'abord un pion passé dangereux puis un second, moment auquel c'en est trop pour les Noirs.\n\nV. Kramnik – P. Svidler\n\nDortmund 1998\n\nDéfense Grünfeld, variante d'échange"
+    },
+    {
+      "ply": 1,
+      "san": "d4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "Nf6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "c4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "g6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "Nc3",
+      "text": "Pour les commentaires sur les coups jusqu'ici, voir la Partie 14.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "d5",
+      "text": "Trait aux Blancs\n\nCe coup introduit la défense Grünfeld. À première vue, jouer ...d5 paraît anti-positionnel, parce qu'il conduit à l'échange du pion d central des Noirs contre le pion c moins central des Blancs. Le résultat est que les Blancs obtiennent une prépondérance de pions de 2 contre 1 au centre. En effet, si les Noirs poursuivaient passivement et laissaient les Blancs consolider leur emprise au centre, alors le pion central supplémentaire serait un facteur clé. Cependant, les Noirs n'ont aucune intention de continuer passivement. Leur plan principal est d'exercer une pression sur le pion en d4, en utilisant la colonne d semi-ouverte et le fou fianchetté en g7. Dans de nombreuses lignes les Noirs jouent ...c5 pour renforcer cette pression.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "cxd5",
+      "text": "Les Blancs acceptent le défi immédiatement. Il existe un certain nombre d'autres lignes où l'échange de pions est différé. Celles-ci comprennent 4 Nf3, 4 Bf4, 4 Bg5 et même l'ennuyeux 4 e3.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "Nxd5",
+      "text": "Il y a une grande différence entre la Grünfeld et la mauvaise ligne 1 d4 Nf6 2 c4 d5? 3 cxd5 Nxd5 4 Nf3. Dans cette ligne les Noirs sont forcés de reculer leur cavalier lorsque les Blancs jouent e4, après quoi les Blancs consolident leur centre par Nc3, obtenant un avantage clair. Dans la Grünfeld, en revanche, les Noirs peuvent répondre à e4 par ...Nxc3, évitant toute perte de temps. C'est un point si important que certains joueurs ont même tenté 5 Na4!? dans la Grünfeld, afin de jouer e4 sans permettre l'échange en c3. Il n'est probablement qu'une question de temps avant que quelqu'un joue 5 Nb1!",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "e4",
+      "text": "C'est la suite cohérente du coup précédent des Blancs. Ils créent aussitôt un centre de pions « côte à côte ».",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "Nxc3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "bxc3",
+      "text": "Trait aux Noirs\n\nC'est la position fondamentale de ce qu'on appelle la Grünfeld d'échange. La bataille tournera autour de la force ou de la faiblesse du centre de pions blanc. L'assaut des Noirs sur d4 sera mené au moyen de ...Bg7, ...c5 et ...Nc6. Si les Blancs jouent Nf3, les Noirs peuvent fort bien répondre ...Bg4. Le but des Noirs est de forcer les Blancs à déplacer leur pion d. Si les Blancs peuvent maintenir leur pion en d4 de façon permanente, sans faire de concession ailleurs, alors ils obtiendront généralement un certain avantage.\n\nSi les Blancs doivent effectivement déplacer le pion d, ils ne joueront probablement pas dxc5, même si cela gagne temporairement un pion, car prendre en c5 endommage trop la structure de pions blanche. Au lieu de cela, les Blancs joueront normalement d5. Alors une nouvelle lutte s'engage. L'avance du pion d active le fou de g7, mais si les pions centraux blancs peuvent avancer assez loin, ils peuvent devenir dangereux en eux-mêmes.",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "Bg7",
+      "text": "La première pièce mineure est amenée à peser sur d4.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "Bc4",
+      "text": "Les Blancs ont deux façons principales de traiter cette position. Ils peuvent soit essayer de garder le pion en d4, soit se préparer à jouer d5 lorsque la pression devient trop forte. Si les Blancs adoptent la première option, le pion d4 aura besoin de tout le soutien que les Blancs peuvent rassembler, aussi doivent-ils éviter Nf3, qui permet ...Bg4 éliminant un défenseur. Le cavalier sera plutôt développé en e2, où il est immunisé contre le clouage. Les Blancs développent donc d'abord leur fou des cases blanches, pour éviter qu'il soit enfermé. c4 est la case la plus active, et est clairement meilleure que d3, qui bloque le soutien de la dame sur d4.\n\n7 Bb5+ est possible, et cette ligne est assez populaire. L'idée est que chacune des intercalations possibles interfère avec l'attaque des Noirs sur d4. Clairement, jouer une pièce en d7 bloque l'attaque de la dame, tandis que si les Noirs jouent ...c6 alors ...Nc6 n'est plus possible. Le défaut est qu'après 7...c6, les Noirs ont une autre méthode pour saper le centre blanc, à savoir ...b5-b4, et cela leur permet de maintenir la partie plus ou moins en équilibre.\n\nSi les Blancs adoptent le plan alternatif de jouer d5 à un moment donné, alors ils doivent faire quelque chose contre l'attaque sur c3 et la pression sur la grande diagonale. Les Blancs peuvent continuer avec des systèmes basés sur Nf3 et Rb1, ou Be3 et Qd2, mais nous ne les examinerons pas en détail ici.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "c5",
+      "text": "La pression commence à monter. Les Blancs doivent défendre d4.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "Ne2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "Nc6",
+      "text": "Seulement huit coups, et déjà quatre unités noires attaquent d4.",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "Be3",
+      "text": "Trait aux Noirs\n\nLe quatrième défenseur entre en place.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "cxd4",
+      "text": "Pour le moment, l'attaque des Noirs sur d4 est dans une impasse, parce qu'il n'y a plus de pièces à amener. Bien que les Blancs soient le vainqueur immédiat de cette lutte, les Noirs peuvent revendiquer avoir lié beaucoup de pièces blanches à des positions défensives. La question principale est de savoir comment les Noirs vont poursuivre. Le coup le plus courant est 9...0-0, quand les Blancs jouent généralement 10 0-0 (bien qu'il y ait un argument pour 10 Rc1 ou même 10 h4!?). Alors les Noirs ont deux idées différentes. La première est 10...Qc7, visant le fou non défendu en c4 et préparant ...Rd8 pour aider à l'attaque sur d4. La seconde idée, plus courante de nos jours, est 10...Bg4 11 f3 Na5 12 Bd3 (12 Bxf7+ est une autre variante populaire) 12...cxd4 13 cxd4 Be6. Maintenant les Noirs menacent de jouer ...Nc4, aussi les Blancs ont le choix entre sacrifier la qualité par 14 d5, et sacrifier leur pion a par 14 Rc1. Aucune de ces lignes n'est considérée comme donnant aux Blancs un avantage significatif.\n\nLe coup joué transpose souvent dans l'une des variantes ci-dessus, mais dans cette partie les Noirs poursuivent une voie indépendante.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "cxd4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "Qa5+",
+      "text": "C'est l'idée des Noirs. Ils entendent perturber le plan de développement des Blancs.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "Bd2",
+      "text": "11 Qd2 n'offre pas grand-chose aux Blancs. Après 11...0-0 les Blancs ne peuvent pas roquer, tandis que 12 Qxa5 Nxa5 13 Bd3 Be6 donne aux Noirs un jeu de pièces actif.\n\n11 Kf1 peut paraître étrange, mais c'est un coup raisonnable. Le roi blanc est relativement en sécurité en f1, tandis que les Blancs entendent activer leur tour en lançant une attaque par h4-h5. Kramnik préfère le retrait de fou moins engageant.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "Qd8",
+      "text": "Les Noirs offrent une répétition de coups, mais si c'était aussi simple d'égaliser, tout le monde jouerait la Grünfeld ! Les alternatives sont :\n\n1) 11...Qa3 (maintenant les Blancs peuvent simplement sacrifier leur pion d) 12 0-0 et maintenant :\n\n1a) 12...Nxd4? 13 Nxd4 Bxd4 14 Bb4 Qxb4 (après 14...Qb2, 15 Rb1 piège la dame) 15 Qxd4 et les Blancs gagnent grâce aux menaces jumelles de 16 Qxh8+ et 16 Bxf7+.\n\n1b) Après 12...0-0 13 Rb1 les Noirs ne peuvent encore une fois pas prendre le pion : 13...Nxd4? 14 Bb4 Nxe2+ 15 Qxe2 Qa4 16 Bb5 et leur dame est piégée. Étant donné que les Noirs ne peuvent pas accepter le sacrifice, il est difficile de voir ce qu'ils ont accompli en jouant leur dame en a3.\n\n2) 11...Qh5 12 d5 Ne5 13 Bb5+ Bd7 14 Bxd7+ Nxd7 15 Rc1 0-0 16 0-0 Rfc8 17 f3 et les Blancs sont mieux puisque la dame noire ne remplit aucune fonction utile en h5.",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "d5",
+      "text": "En supposant que les Blancs ne veuillent pas la nulle, ils ont deux plans, qui reflètent leur choix antérieur. L'un est de maintenir le pion en d4 par 12 Bc3 0-0 13 0-0 Bd7 14 Qd2 et le second est de pousser le pion en d5. Les deux plans suffisent probablement à donner aux Blancs un léger avantage, mais le choix de Kramnik est le plus énergique.",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "Ne5",
+      "text": "12...Bxa1? perd sur 13 Qxa1.\n\nTrait aux Blancs\n\nCette position est typique des lignes où les Blancs jouent d5 dans la Grünfeld d'échange. Les Blancs ont encore leur majorité centrale et s'ils peuvent consolider alors ils peuvent s'attendre à obtenir l'avantage. Un jour ils pourront peut-être repousser le cavalier noir par f4, puis avancer au centre par e5. Cependant, avant que cela puisse arriver ils doivent organiser leur position, ce qui n'est pas facile face aux pièces actives des Noirs. Le plus grand contrôle d'espace des Blancs laisse la position noire un peu étriquée – en particulier, le fou de c8 n'a aucune case évidemment bonne. Ainsi, les Blancs devraient éviter les échanges de pièces, si possible.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Bc3",
+      "text": "Du commentaire précédent, il s'ensuit que 13 Bb5+ Bd7 14 Bxd7+ Qxd7 est mauvais – les Noirs sont au moins égaux ici. 13 Rc1 0-0 14 0-0 Nxc4 15 Rxc4 e6 16 Bc3 donne peut-être aux Blancs un léger avantage, mais la simplification générale de la position offre aux Noirs de bonnes chances défensives.\n\nLe coup de Kramnik donne aux Blancs la meilleure chance de garder toutes les pièces mineures sur l'échiquier.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "O-O",
+      "text": "Pas, bien sûr, 13...Nxc4 14 Bxg7, quand les Noirs ne pourront jamais roquer.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Bb3",
+      "text": "Les Noirs doivent maintenant agir rapidement, sinon les Blancs obtiendront un grand avantage par 15 f4.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "Qb6",
+      "text": "Les Noirs anticipent le roque blanc et « clouent » à l'avance le pion f2. Un simple développement par 14...Bd7 ne suffit pas. Après 15 f4 Ng4 16 Bxg7 Kxg7 17 Qd4+ Kg8 18 h3 Qa5+ 19 Nc3 Rac8 20 Rc1 les Noirs doivent reculer leur cavalier, après quoi les Blancs roquent, consolidant leur massive supériorité centrale.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "f4",
+      "text": "Ce coup est bien plus exigeant que 15 0-0 Bg4, quand les Noirs échappent à la plupart de leurs difficultés. Grâce au clouage du pion f, les Blancs ne peuvent pas jouer f3, et ainsi les Noirs peuvent échanger leur fou problématique. Le clouage rend aussi plus malaisé pour les Blancs de jouer f4, et ainsi les Noirs gagnent encore du temps pour activer leurs pièces. Après 16 Kh1 (16 h3 Bxe2 17 Qxe2 Rfc8 18 Rac1 a5 donne aux Noirs un contrejeu suffisant) 16...Rac8!? 17 f3 Bd7, 18 Rb1 Bb5 est égal, tandis que 18 f4 peut être rencontré par 18...Rxc3 19 Nxc3 Ng4 20 Qf3 Bxc3 21 Qxc3 Nf2+ 22 Rxf2 Qxf2 avec l'égalité.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "Ng4",
+      "text": "Un coup tentant mais douteux. Superficiellement, le cavalier est actif en g4 mais si les Noirs sont incapables de l'y maintenir, il devra reculer avec une perte de temps considérable. 15...Nd7 est plus solide. Après 16 Bxg7 Kxg7 17 Qd4+ Qxd4 18 Nxd4 Nc5 19 Bc2 f5 20 exf5 Bxf5 21 Nxf5+ gxf5 22 0-0 les Blancs ont un léger avantage mais rien de plus.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Bd4",
+      "text": "Cela force plus ou moins l'échange des dames. Dans la finale résultante, les Blancs ont d'excellentes chances de soutenir leur centre de pions. Les Blancs devraient éviter 16 Bxg7 Qf2+ 17 Kd2, quand les Noirs peuvent forcer la nulle par 17...Qe3+ ou continuer la partie par 17...Kxg7 18 Qg1 Bd7, avec un jeu obscur.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Qa5+",
+      "text": "Ou 16...Bxd4 17 Qxd4 Qxd4 (17...Qa5+ 18 Nc3 Bd7 19 h3 transpose dans la note au 14e coup des Noirs) 18 Nxd4 et maintenant :\n\n1) 18...Nf6 19 e5 Ne4 (19...Nxd5 perd sur 20 Bxd5 Rd8 21 Nb5 Rxd5 22 Nc7) 20 Rc1 donne aux Blancs un avantage clair. Leur centre de pions est sûr et dans certaines lignes ils peuvent pénétrer à la septième rangée avec leur tour.\n\n2) 18...Rd8 19 0-0 favorise encore les Blancs. Si les Noirs tentent 19...e5 20 fxe5 Nxe5 alors les Blancs s'emparent de l'initiative par 21 Nf3! Nxf3+ (ou 21...f6 22 Nxe5 fxe5 23 Rac1) 22 Rxf3, quand f7 est dans la ligne de mire des Blancs.",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Qd2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Qxd2+",
+      "text": "Sinon les Noirs obtiennent une mauvaise position dans le style de la note au 14e coup des Noirs.",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "Kxd2",
+      "text": "Trait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "e5",
+      "text": "Une erreur sérieuse. Les Noirs espèrent résoudre leurs problèmes avec le cavalier de g4 par la force, mais cela se retourne simplement contre eux. Les alternatives sont :\n\n1) 18...Nf6 19 e5 Ne4+ 20 Ke3 f5 21 Rac1 est gagnant pour les Blancs.\n\n2) 18...Bxd4 19 Nxd4 Rd8 20 h3 Nf6 21 Ke3 donne aux Blancs un avantage clair. Les Noirs n'ont toujours pas de bonne case pour leur fou puisque s'il va en d7, les Blancs peuvent jouer e5. Pendant ce temps, les Blancs menacent de pénétrer en c7 avec une tour.\n\n3) 18...Rd8 est relativement la meilleure chance, bien que la position noire reste désagréable après 19 h3 Nf6 20 Ke3 ; par exemple, 20...b6 (ou 20...e6 21 d6) 21 Rac1 Ba6 22 Bxf6 Bxf6 23 e5 Bg7 24 Rc7.",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "h3",
+      "text": "19 fxe5 est une erreur, puisque après 19...Nxe5 la prise ferme des Noirs sur e5 tient les pions centraux blancs sous contrôle. Le coup du texte sacrifie à la fois un pion et permet une liquidation vers une position de fous de couleurs opposées. Néanmoins, c'est un coup très fort. La raison en est que les Blancs sont capables d'établir une chaîne de pions prêtant un soutien ferme à un puissant pion passé en d6. Ce pion passé pose un tel danger que les divers facteurs en faveur des Noirs sont sans pertinence.",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "exd4",
+      "text": "Si 19...Nf6 20 fxe5 Nxe4+, alors 21 Ke3 Bf5 (21...f5 22 d6+ Kh8 23 Rac1 donne aux Blancs un grand avantage grâce à leurs deux pions passés liés) 22 g4 Bh6+ 23 Nf4 Ng3 24 Rhe1! Bd3 25 Kxd3 Bxf4 26 d6 avec une position gagnante pour les Blancs.",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "hxg4",
+      "text": "Trait aux Noirs\n\nLe plan des Blancs est simple – ils joueront e5 et d6, établissant une chaîne de pions inébranlable. Grâce au fou de b3, les Noirs seront incapables de jouer ...f6, tandis que ...g5 peut simplement être rencontré par g3, si bien qu'il n'y aura aucun moyen de démonter la structure de pions blanche.",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "g5",
+      "text": "Les Noirs font de leur mieux pour attaquer la chaîne de pions. 20...Bxg4 21 e5 Bxe2 22 Kxe2 est similaire à la partie, tandis qu'après 20...d3 21 Nc3 Re8 (21...Bxg4 22 Kxd3 Rac8 23 Rac1 est très bon pour les Blancs) 22 Rhe1 Bxg4 23 Kxd3, suivi de Rac1 et e5, les Blancs établissent encore leur chaîne de pions.",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "g3",
+      "text": "Gardant intacte leur structure de pions.",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "Bxg4",
+      "text": "21...d3 22 Nc3 Bxg4 23 Kxd3 Bf3 24 Rhe1 ne résout pas les problèmes des Noirs.",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "e5",
+      "text": "Les Blancs font un nouveau pas vers l'établissement d'une chaîne de pions qui court de g3 à d6. En même temps, ils mettent hors jeu le fou des cases noires des Noirs.",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "Bxe2",
+      "text": "Les Noirs prennent le cavalier et préservent ainsi leur pion d, mais ce pion est incapable d'influencer l'issue de la partie. Après 22...Bf3 23 Rhf1 g4 24 d6 le pion d noir tombe.",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "Kxe2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "Rfc8",
+      "text": "Trait aux Blancs\n\nDans l'intention de frapper en g3 par ...Rc3.",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "Rad1",
+      "text": "24 Kd3? est une erreur sérieuse, car après 24...Rc3+ 25 Kxd4 Rxg3 la chaîne de pions blanche s'effondre.",
+      "isCritical": true
+    },
+    {
+      "ply": 48,
+      "san": "Rc3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 49,
+      "san": "Rd3",
+      "text": "Les Blancs protègent le pion g3. Depuis quelques coups, les Noirs ont pu occuper les Blancs avec des menaces, mais maintenant ils sont arrivés au bout de ce chemin particulier.",
+      "isCritical": true
+    },
+    {
+      "ply": 50,
+      "san": "Rac8",
+      "text": "Cela facilite la vie des Blancs parce que la tour s'avère tactiquement vulnérable en c8. Autres coups :\n\n1) 25...Rd8 26 d6 ne change rien de réel, p. ex. 26...Kf8 27 Rxh7 et 27...f6 est impossible à cause de 28 exf6 Bxf6 29 Rf7+.\n\n2) 25...b5 est probablement la meilleure chance. Les Noirs entendent ...a5-a4 pour déloger le fou de b3, quand ils auront de meilleures chances de s'attaquer aux pions menaçants des Blancs. Néanmoins, avec un jeu précis les Blancs devraient encore gagner à la fin : 26 d6 a5 27 Rxc3 (27 Kd2 Rd8 est moins clair) 27...dxc3 28 Kd3 b4 29 Ba4! (le meilleur, car les pions noirs sont bloqués et le roi blanc est libre d'avancer ; le fou noir est complètement enfermé par la chaîne de pions blanche et est aussi efficace qu'un pois sec qui cliquette dans une boîte de conserve) 29...Rd8 30 Ke4 gxf4 (30...Bf8 perd sur 31 Kd5 f6 32 Kc6) 31 gxf4 Bf8 32 Kd5 h6 33 Rg1+ Kh8 34 Kc6 h5 35 Kc7 Ra8 36 Bc6 Ra6 37 Kb7 et les Blancs gagnent.",
+      "isCritical": true
+    },
+    {
+      "ply": 51,
+      "san": "d6",
+      "text": "Trait aux Noirs\n\nLe point culminant de la stratégie blanche. Le pion passé en d6 domine la position.",
+      "isCritical": true
+    },
+    {
+      "ply": 52,
+      "san": "b5",
+      "text": "Cela permet une conclusion rapide, mais les Noirs sont perdus de toute façon, p. ex. :\n\n1) 26...Rxd3 27 Kxd3 Rc3+ 28 Kxd4 Rxg3 n'est pas possible car les Blancs promeuvent leur pion d par 29 d7.\n\n2) 26...Rd8 27 Rxc3 dxc3 28 Rc1 (menaçant Rxc3 suivi de Rc7) 28...h5 (28...gxf4 perd sur 29 gxf4 Bh6 30 Kf3) 29 Rxc3 h4 30 Rc7 hxg3 31 Rxf7 Kh8 32 e6 et les Blancs gagnent.\n\n3) 26...Kf8 27 Rxh7 Rd8 28 Rh5! f6 (ou 28...gxf4 29 gxf4, suivi de Rf5) 29 Rh7 fxe5 30 fxe5 Bxe5 31 Rf7+ Ke8 32 Re7+ ramasse le fou.\n\n4) 26...Re8 27 Rxc3 dxc3 28 Kd3 et les Blancs gagnent à peu près comme dans la note « 2 » au 25e coup des Noirs.",
+      "isCritical": true
+    },
+    {
+      "ply": 53,
+      "san": "Rxc3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 54,
+      "san": "dxc3",
+      "text": "Après 27...Rxc3 28 d7 le pion se promouvra.",
+      "isCritical": true
+    },
+    {
+      "ply": 55,
+      "san": "e6",
+      "text": "Maintenant les Blancs acquièrent deux pions passés liés très avancés. La partie est décidée.",
+      "isCritical": true
+    },
+    {
+      "ply": 56,
+      "san": "Kf8",
+      "text": "Les alternatives sont sombres :\n\n1) 28...Rb8 perd sur 29 e7 Bf6 30 fxg5 Bxg5 31 Rf1.\n\n2) 28...Bf6 29 fxg5 Bxg5 30 Rh5 Bf6 31 e7 Rb8 32 Rf5 Kg7 33 d7 est la fin.\n\n3) 28...Bf8 est le seul moyen de jouer encore, mais après 29 e7 Bxe7 30 dxe7 Re8 31 Kd3 gxf4 32 gxf4 Rxe7 33 Kxc3 les Blancs gagneront à la fin.",
+      "isCritical": true
+    },
+    {
+      "ply": 57,
+      "san": "e7+",
+      "text": "Les pions forcent le passage.",
+      "isCritical": true
+    },
+    {
+      "ply": 58,
+      "san": "Ke8",
+      "text": "Trait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 59,
+      "san": "Bxf7+",
+      "text": "30...1-0\n\nPuisque 30...Kd7 (30...Kxf7 31 d7 est un tableau séduisant – pour les Blancs !) 31 Rxh7 c2 32 e8Q+ Rxe8+ 33 Bxe8+ Kxe8 34 Kd2 achève les Noirs.\n\nLa Grünfeld est une ouverture populaire et à double tranchant ; les Blancs sont autorisés à prendre temporairement le contrôle du centre, mais les Noirs espèrent saper ce contrôle plus tard. Dans cette partie, Svidler a choisi une manœuvre inhabituelle au 10e coup, mais Kramnik a répondu énergiquement, s'emparant de plus d'espace au centre. Le 15e coup des Noirs, bien que naturel, s'est avéré une erreur. Face à la perspective de ramener lamentablement son cavalier, Svidler a tenté d'exploiter sa position en g4. Cependant, Kramnik s'est emparé de l'avantage avec le coup puissant 19 h3!, lui garantissant un puissant pion passé d. Après cela les Noirs ont toujours lutté, et Kramnik a conclu joliment avec un sacrifice de pièce pour obtenir deux pions passés liés sur la septième rangée. Une partie impressionnante de Kramnik.\n\nLes leçons ici sont :\n\n1) Dans la défense Grünfeld, la charge incombe aux Noirs de perturber le centre blanc. Si les Blancs peuvent le garder intact, alors ils peuvent s'attendre à un avantage.\n\n2) Un pion passé bien soutenu est un atout utile.\n\n3) Les pions passés deviennent plus précieux à l'approche de la finale.\n\n4) Deux pions passés liés très avancés valent généralement au moins une pièce.",
+      "isCritical": true
+    }
+  ]
+}

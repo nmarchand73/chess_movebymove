@@ -1,0 +1,547 @@
+{
+  "id": "nunn-008",
+  "book": "nunn",
+  "gameNum": 8,
+  "title": "Partie 8 : A. Shirov vs D. Reinderman",
+  "section": "Le jeu d'attaque",
+  "players": {
+    "white": "A. Shirov",
+    "black": "D. Reinderman"
+  },
+  "event": "Wijk aan Zee 1999",
+  "opening": "Défense sicilienne, variante Taimanov",
+  "eco": "B46",
+  "pgnPath": "data/pgn/nunn/08.pgn",
+  "result": "1-0",
+  "moveCount": 87,
+  "annotatedMoves": 86,
+  "fullText": "Les sacrifices classiques\n\nDans les manuels consacrés au jeu d'attaque, on trouve toutes sortes de combinaisons classiques : le sacrifice grec, ou « cadeau grec » (Bxh7+ suivi de Ng5+), le double sacrifice de fous en h7 et g7, etc. Il existe aussi de nombreuses constructions de mat typiques, comme le mat d'Anastasie (avec un cavalier en e7, un sacrifice en h7 suivi d'un mat sur la colonne h) et le mat de Boden (contre un roi ayant roqué à l'aile dame, Qxc6+ suivi de Ba6#). Vous ne deviendrez probablement pas un bon joueur d'attaque sans connaître toutes ces idées classiques : elles constituent en quelque sorte le vocabulaire élémentaire de l'attaque. Je ne présenterai pas dans ce livre une liste de formations d'attaque, car mon objectif est de montrer comment les idées fondamentales des échecs s'intègrent dans la stratégie générale d'une partie.\n\nAvec un peu de chance, un adversaire vous permettra d'appliquer l'une de ces idées familières sous une forme parfaitement claire. Il vous suffira alors de vérifier que tout fonctionne comme prévu, et le point sera dans la poche. Malheureusement, les adversaires sont rarement aussi coopératifs. Lorsqu'une de ces idées classiques se présente réellement en pratique, elle apparaît donc souvent sous une forme assez obscure. Un travail considérable peut être nécessaire pour déterminer si le sacrifice est correct. Il se peut même que la position soit trop complexe pour permettre une analyse concluante ; il faut alors se fier à son jugement. Si votre style vous porte vers le jeu d'attaque, vous serez peut-être disposé à assumer le risque d'un sacrifice peu clair, tandis qu'un joueur à l'approche plus positionnelle fera peut-être le choix inverse. Le style personnel entre ainsi en ligne de compte.\n\nDans la partie suivante, personne n'a donc pu être surpris de voir Alexeï Shirov, confronté à la possibilité d'un « cadeau grec », prendre sans hésiter le pion h7.\n\nA. Shirov – D. Reinderman\n\nWijk aan Zee 1999\n\nDéfense sicilienne, variante Taimanov\n\n1 e4\n\nVoir la Partie 3 pour les commentaires sur ce coup.\n\n1...c5\n\nCe coup introduit la Défense sicilienne, l'une des ouvertures les plus courantes aujourd'hui. Sa popularité tient à son caractère combatif : dans de nombreuses variantes, les Noirs ne jouent pas seulement l'égalité, mais l'avantage. Son inconvénient est que les Blancs obtiennent souvent très tôt l'initiative ; les Noirs doivent donc veiller à ne pas succomber à une attaque rapide.\n\n2 Nf3\n\nLes Blancs aimeraient jouer d4, mais l'immédiat 2 d4 cxd4 3 Qxd4 est mauvais à cause de 3...Nc6, qui gagne un tempo. Les Blancs se préparent donc à reprendre en d4 avec leur cavalier. Une autre variante populaire est 2 c3 (voir Partie 30), qui prépare également d4, mais cette fois avec l'idée de reprendre en d4 avec un pion.\n\n2...Nc6\n\nLes Noirs disposent ici d'un vaste choix de coups : 2...d6 (Partie 10) et 2...e6 (Partie 20) sont également très populaires.\n\n3 Nc3\n\nBien que 3 d4 soit tout à fait correct, les Blancs jouent parfois 3 Nc3 afin d'éviter certaines variantes à la disposition des Noirs. Par exemple, après 3 d4, les Noirs peuvent entrer dans le populaire système Sveshnikov par 3...cxd4 4 Nxd4 Nf6 5 Nc3 e5. Si les Blancs ne souhaitent pas affronter ce système, 3 Nc3 leur permet d'en compliquer l'accès aux Noirs. Si ceux-ci jouent alors 3...Nf6, les Blancs peuvent poursuivre par 4 Bb5, et l'on atteint une Sicilienne Rossolimo (2 Nf3 Nc6 3 Bb5) dans laquelle certaines variantes ne sont plus accessibles aux Noirs. Dans les manuels sur la Sicilienne, les variantes principales sont toujours présentées selon un ordre de coups normalisé. Cela masque malheureusement des subtilités d'ordre de coups qui peuvent être très importantes en pratique.\n\n3...e6\n\nLes Noirs poursuivent par un coup souple, qui laisse encore ouverte la possibilité de transposer dans divers systèmes.\n\n4 d4\n\nLes Blancs décident de transposer dans une Sicilienne ouverte classique, même s'ils pouvaient ici encore atteindre une variante de la Rossolimo par 4 Bb5.\n\n4...cxd4\n\n5 Nxd4\n\nL'échange du pion c des Noirs contre le pion d des Blancs est caractéristique de la Sicilienne, et cette modification de la structure de pions constitue le fondement de la stratégie future des deux camps. Les Noirs disposent d'un pion central supplémentaire, ce qui représente un atout positionnel modeste mais significatif. Les Blancs, en revanche, peuvent facilement mettre en jeu toutes leurs pièces mineures et achèveront donc probablement leur développement avant les Noirs. Les lignes de bataille sont ainsi tracées : l'avance de développement et le plus grand espace central des Blancs contre les atouts positionnels à long terme des Noirs.\n\n5...a6\n\nPar ce coup, les Noirs indiquent qu'ils vont probablement s'orienter vers le système Taimanov, une variante fondée sur le retardement de ...d6 afin de conserver la possibilité de développer activement le fou de cases noires en c5 ou b4. Si les Noirs avaient joué 5...d6, on se serait dirigé vers un système Scheveningue (fondé sur des pions en d6 et e6), tandis qu'après 5...Nf6 plusieurs options seraient encore restées ouvertes (voir Partie 20).\n\n6 Be2\n\nLes Blancs disposent de nombreux coups possibles, mais Shirov choisit simplement d'achever son développement à l'aile roi et de roquer rapidement.\n\n6...Nge7\n\nNous sommes maintenant clairement dans le système Taimanov. L'idée du coup joué est de poursuivre par ...Nxd4 puis ...Nc6, en gagnant un tempo grâce à l'attaque de la dame blanche. Son défaut est que les pièces restantes des Noirs sont mal placées pour défendre l'aile roi.\n\n7 f4\n\nLes Blancs ont essayé plusieurs coups dans cette position, mais celui de Shirov est l'un des plus logiques. Maintenant que la case f2 est libérée, la manœuvre ...Nxd4 et ...Nc6 peut recevoir la réponse Qf2. La dame est très bien placée en f2, notamment parce qu'après Be3 les Blancs peuvent exercer une forte pression sur les cases noires de l'aile dame adverse. De plus, depuis f2, la dame peut participer à une éventuelle attaque à l'aile roi, par exemple après f5.\n\n7...Nxd4\n\nLes Noirs peuvent retarder cet échange, mais ils devront l'effectuer tôt ou tard, sans quoi le cavalier e7 empêchera le développement de leurs pièces de l'aile roi.\n\n8 Qxd4\n\n8...b5\n\nSi 8...Nc6, alors bien sûr 9 Qf2 ; les Noirs retardent donc ...Nc6 dans l'espoir que les Blancs commettent l'erreur de jouer Be3, empêchant le retrait en f2.\n\n9 0-0\n\nPour le moment, les Blancs n'ont pas besoin de fixer la position de leur dame.\n\n9...Qc7\n\nLes Noirs poursuivent leur développement à l'aile dame et, maintenant que la dame contrôle c5, des idées tactiques telles que 10...Nf5 sont dans l'air.\n\n10 Qf2\n\nCompte tenu du danger sur la diagonale a7-g1, les Blancs décident de ramener volontairement leur dame. Il s'avère que les Noirs n'ont rien de mieux que ...Nc6, car ils ne peuvent autrement développer leur aile roi ; ils n'ont donc en réalité rien gagné à retarder ...Nc6.\n\n10...Nc6\n\nPar rapport à une position sicilienne normale, une paire de cavaliers a disparu : il manque aux Blancs le cavalier de d4 et aux Noirs celui de f6. Cet échange a réduit la puissance d'attaque des Blancs, mais deux autres facteurs jouent légèrement en leur faveur. Premièrement, les Noirs n'ont pas de cavalier défensif à l'aile roi ; malgré leurs forces réduites, les Blancs pourraient donc encore monter une attaque victorieuse. Deuxièmement, les Noirs n'exercent aucune pression sur e4, ce qui laisse aux Blancs davantage de liberté que d'ordinaire pour manœuvrer leurs pièces. Ce système reste néanmoins parfaitement jouable pour les Noirs, et les Blancs ne peuvent espérer qu'un léger avantage.\n\n11 Be3\n\nLe coup naturel, qui porte un regard inquisiteur vers les cases c5 et b6.\n\n11...Be7\n\nLe fou est le mieux placé ici, où il contribue à défendre l'aile roi vulnérable des Noirs.\n\n12 a4!?\n\nShirov aurait bien sûr pu poursuivre son développement par 12 Rad1, mais les Blancs doivent réfléchir au plan qu'ils adopteront une fois toutes leurs pièces sorties. Une attaque directe à l'aile roi a peu de chances de réussir pour l'instant, car les pièces blanches ne sont pas orientées vers cette aile. L'idée principale des Blancs doit être d'améliorer les conditions d'une éventuelle attaque à l'aile roi. Un plan consiste à jouer 12 e5, avec des coups tels que Ne4, Rad1, Bd3, etc. Mais cela pourrait ne mener à rien si les Noirs répondent 12...d6 ou 12...d5.\n\nShirov choisit plutôt une approche plus lente. Le coup joué force plus ou moins ...b4, après quoi les Blancs peuvent redéployer leur cavalier par Nb1-d2. Puisque les Noirs ne disposent plus de ...Nb4, les Blancs peuvent jouer Bd3 et viser la position du roi adverse. Selon les circonstances, le cavalier pourra aller en f3 pour soutenir l'attaque ou en c4 pour sonder l'aile dame noire, notamment la case b6. Si les Blancs veulent adopter ce plan, ils doivent le faire avant de déplacer la tour a1, sans quoi les Noirs ne seraient pas contraints de répondre ...b4.\n\n12...b4\n\nLa tour étant encore en a1, les Blancs peuvent répondre à 12...bxa4 par 13 Rxa4, après quoi le pion a6 est très faible.\n\n13 Nb1\n\nLes Blancs entament la manœuvre de leur cavalier.\n\n13...Rb8\n\nCe coup empêche l'ennuyeux Bb6.\n\n14 Nd2\n\nLe cavalier revient activement en jeu.\n\n14...0-0\n\nLes Noirs roquent enfin. Il n'était ici pas particulièrement risqué de laisser si longtemps le roi au centre, car les pièces blanches n'étaient pas assez actives pour créer un réel danger.\n\n15 Bd3\n\nLe premier signe manifeste d'intentions agressives à l'aile roi.\n\n15...d6\n\nLes Noirs aimeraient placer leur fou de cases noires en f6, mais ils doivent d'abord empêcher la réponse e5.\n\n16 Rad1\n\nIl s'agit en fait de la première nouveauté de la partie. Dans Van der Wiel-Andersson, Wijk aan Zee 1987, les Blancs avaient attaqué plus directement par 16 Qg3 (avec l'intention de jouer f5), mais les Noirs avaient répliqué par 16...f5! 17 exf5 exf5 18 Nf3 Bf6 19 Rab1 Ne7 20 Rfe1 Bb7, avec un jeu à peu près égal. Les Noirs ont un pion d isolé, mais cette légère faiblesse est compensée par l'activité de leurs fous sur les grandes diagonales. Le coup de Shirov prépare l'attaque plus progressivement.\n\n16...b3?\n\nCe coup imaginatif et ambitieux tourne mal, car la position des Noirs n'est pas assez solide pour soutenir une idée aussi agressive. Le plan ...f5 est moins efficace lorsque la tour se trouve en d1 : après 16...f5 17 exf5 exf5 18 Rfe1, les Noirs ne peuvent pas redéployer leurs pièces aussi facilement que dans la partie Van der Wiel-Andersson citée plus haut. En effet, après 18...Bf6? 19 Nc4!, la menace 20 Nxd6 Qxd6 21 Bc4+ existe déjà, et 19...d5 20 Bc5! constitue une jolie pointe tactique qui donne un net avantage aux Blancs. Les Noirs auraient toutefois dû poursuivre leur plan initial par 16...Bf6, obligeant les Blancs à décider comment répondre à l'attaque contre le pion b2.\n\n17 cxb3\n\nAprès 17 Nxb3 Bf6 18 Bc1 Rb4, les Noirs récupèrent le pion et obtiennent une position égale ; par exemple 19 a5 Nxa5 20 Nxa5 Bd4 21 Be3 Bxe3 22 Qxe3 Qxa5.\n\n17...Bf6\n\nAprès 17...Nb4 18 Be2! Bf6 19 Rc1, suivi de Nc4, les Noirs n'ont guère de compensation pour le pion.\n\n18 Rc1!\n\nShirov trouve la meilleure réponse : il rend le pion afin de dépouiller l'aile roi noire de ses défenseurs. Les Blancs pouvaient conserver leur pion supplémentaire par 18 Bb1, car 18...Bxb2 serait alors mauvais à cause de 19 Nc4. Cependant, avec 18...a5, suivi de ...Ba6 et ...Nb4, les Noirs auraient obtenu en compensation une activité considérable de leurs pièces. 18 Rb1 est également jouable, mais les Noirs ont encore du jeu après 18...Nb4 19 Be2 Bb7. Selon toute probabilité, aucune de ces variantes ne donne aux Noirs une compensation tout à fait suffisante, mais il vaut généralement mieux avoir un matériel égal et une forte initiative que posséder un pion de plus tout en étant condamné à une défense pénible.\n\n18...Bxb2\n\nSinon, les Noirs auraient simplement un pion de moins ; par exemple 18...Bb7 19 Nf3.\n\n19 Rc2\n\nLes Noirs subissent maintenant un dangereux clouage sur la colonne c.\n\n19...Ba3\n\nLes Noirs doivent conserver le contrôle de c1, car 19...Bf6 perd après 20 Rfc1 Bb7 21 e5! Be7 (21...dxe5 22 Be4) 22 Bxa6 Bxa6 23 Rxc6 Qb7 24 exd6. À cause du malheureux 16e coup des Noirs, les conditions d'une attaque blanche à l'aile roi se sont nettement améliorées. Les Noirs n'y disposent plus d'aucune pièce mineure défensive et doivent en outre composer avec le clouage sur la colonne c.\n\n20 e5!\n\nLes Blancs ouvrent la diagonale de leur fou de cases blanches avec gain de tempo, car les Noirs doivent parer la menace 21 exd6 Qxd6 22 Be4, suivi de Nc4.\n\n20...d5\n\n20...dxe5 échoue sur 21 Be4 Bb7 22 Ra1 Bb4 23 Bxc6 Bxc6 24 Rac1, et les Blancs gagnent du matériel.\n\n21 Nf3\n\nCe coup introduit deux possibilités désagréables. La première est simplement 22 Nd4 Bb7 23 Ra1, suivi de Rac1, qui gagne du matériel ; la seconde est le sacrifice grec Bxh7+.\n\n21...Qd7?!\n\nAprès ce coup, le sacrifice en h7 est correct, même s'il exige de l'attaquant un jeu de très haute qualité. Partir dans l'autre direction par 21...Qb7 n'aide guère. Après 22 Bxh7+ Kxh7 23 Qh4+ Kg8 24 Ng5 Re8 25 Qh7+ Kf8, les Blancs obtiennent une attaque énorme avec 26 Rfc1! Bd7 27 f5! ; par exemple 27...exf5 28 Qh8+ Ke7 29 Qxg7 Kd8 30 Nxf7+ Kc8 31 Bc5 Bxc5+ 32 Rxc5, et la défense s'effondre.\n\nLa seule chance des Noirs était de jouer courageusement 21...Rxb3. La meilleure suite est alors 22 Bxh7+! Kxh7 23 Nd4 (23 Qh4+ Kg8 24 Ng5 n'est probablement pas correct, car les Blancs doivent en plus se préoccuper de leur fou e3 en prise), avec l'idée de récupérer la pièce tout en conservant de bonnes chances d'attaque à l'aile roi. Ces variantes méritent d'être examinées en détail, car elles montrent que, même en menant une attaque « à l'aile roi », il faut rester attentif aux possibilités tactiques sur l'ensemble de l'échiquier :\n\n1) 23...Rb6 24 Nb5! (en voici précisément un exemple !) 24...axb5 25 Bxb6 Qb7 26 axb5 Ne7 27 Rc3 Bb4 28 Rb3, et les Blancs gagnent facilement.\n\n2) 23...Rb2 24 Bc1! Rxc2 (après 24...Nxd4 25 Qh4+ Kg8 26 Rxc7 Ne2+ 27 Kh1, les Noirs n'ont que deux pièces mineures pour la dame) 25 Qxc2+ Kg8 26 Bxa3 Qb6 27 Bxf8, et les Blancs gagnent.\n\n3) 23...Rb4! 24 Rxc6 Qb7 25 Rc3! (25 f5 exf5 26 Rf6!? est une idée imaginative, mais après 26...Bb2! les Blancs n'ont pas de suite claire) 25...Bb2 26 Qc2+ Kg8 27 Rc7 Bxd4 (les Noirs doivent éliminer ce cavalier avant qu'il n'atteigne g5 ; après 27...Qb8 28 Nf3 Rc4 29 Rxc4 dxc4 30 Ng5 g6 31 Qxc4, les Blancs ont un pion de plus et l'aile roi noire est très faible) 28 Bxd4 Qa8 (28...Qb8 29 Ba7 Qa8 30 Rb1 Rxb1+ 31 Qxb1 paralyse les Noirs) 29 Qc3 place les Noirs dans une situation inconfortable. Le matériel est égal, mais les pièces blanches occupent des positions actives et l'aile roi noire reste faible en raison de l'absence du pion h. Après 29...Rb7, par exemple, la percée 30 f5 exf5 31 e6 fxe6 32 Rxg7+ Rxg7 33 Bxg7 Re8 34 Be5 donne aux Blancs une attaque écrasante sur les cases noires ; 29...Rxa4 reçoit également la réponse 30 f5. La meilleure chance des Noirs est donc probablement 29...Rc4 30 Rxc4 dxc4 31 Qxc4, en espérant arracher la nulle avec un pion de moins.\n\nCette analyse montre à quel point la position est finement équilibrée. Dans une variante, les Blancs poursuivent leur sacrifice en h7 non par une attaque directe contre le roi, mais par un jeu à l'aile dame, tout en gardant fréquemment un œil sur l'autre aile. Après le coup joué, en revanche, la balance penche en faveur de l'assaut direct à l'aile roi.\n\n22 Bxh7+!\n\nLe sacrifice grec est une idée bien connue que l'on retrouve dans tous les ouvrages consacrés au jeu d'attaque. Dans des circonstances favorables, il peut décider immédiatement de la partie : les Blancs poursuivent par Ng5+, répondent à ...Kg8 par Qh5 et à ...Kg6 par h4, Qg4 ou Qd3+, selon la position exacte. Ici, toutefois, la situation est beaucoup moins claire. Les Noirs sont matés rapidement s'ils jouent ...Kg6, mais la défense ...Kg8 se révèle difficile à briser. Lorsque les Blancs peuvent jouer Ng5+ et Qh5, un déplacement de la tour f8 peut souvent recevoir la réponse écrasante Qxf7+ ; ici, cependant, la dame se trouve en h4 et non en h5, de sorte qu'elle n'attaque pas f7 (le fait que la dame noire défende f7 importe peu, puisqu'elle peut être déviée par Rxc6). Les Blancs peuvent en réalité gagner, mais ils devront faire preuve d'une grande créativité. Même dans le cadre général d'une idée familière, les échecs laissent libre cours à l'imagination.\n\n22...Kxh7\n\n23 Qh4+\n\n23 Ng5+ revient au même.\n\n23...Kg8\n\nPas 23...Kg6? 24 g4, avec mat en quelques coups.\n\n24 Ng5\n\n24...Re8\n\n24...Rd8?! est inférieur, car le roi noir peut avoir besoin de d8 pour s'échapper : après 25 Qh7+ Kf8 26 Qh8+ Ke7 27 Qxg7 Rf8 (27...Re8 28 Qf6+ Kf8 29 Nh7+ Kg8 30 Qg5+ Kxh7 31 Rf3 mène au mat) 28 Nh7 Bb7 29 f5, les Blancs disposent d'une attaque écrasante.\n\n25 Rf3!\n\nLes Blancs trouvent une conception originale que l'on ne rencontrera dans aucun manuel de jeu d'attaque. Les exemples classiques du sacrifice grec impliquent presque toujours de pourchasser le roi par 25 Qh7+ Kf8 26 Qh8+ Ke7 27 Qxg7, mais ici les Noirs poursuivent par 27...Kd8 et échappent aux menaces immédiates. Shirov comprend qu'il doit renforcer son attaque sans permettre au roi noir de fuir par e7 et d8. La menace est simplement 26 Rh3.\n\n25...Ne7\n\nLe point essentiel est que 25...Kf8? perd : 26 Nh7+ Kg8 27 Nf6+! gxf6 28 Rg3+ Kf8 29 exf6, avec mat. Comme le roi noir ne peut pas fuir, les Noirs doivent tenter d'organiser une défense à l'aile roi ; un rapide examen montre que le coup joué est le seul qui évite un désastre immédiat.\n\n26 Qh7+\n\nLes échecs sont maintenant opportuns, car 26 Rh3?? Ng6 permettrait aux Noirs de se défendre.\n\n26...Kf8\n\n27 Qh8+\n\n27...Ng8\n\nCette finesse a permis aux Blancs d'amener leur dame en h8 alors que le roi noir se trouve encore en f8. Une fois de plus, pourchasser le roi par 28 Nh7+ Ke7 29 Qxg7 Kd8 ne ferait que faciliter la tâche des Noirs. Les Blancs doivent au contraire créer des difficultés au roi avant qu'il ne puisse s'échapper.\n\n28 f5!\n\nUne attaque réussie requiert souvent la participation de toutes les pièces de l'attaquant, ou presque. Pour l'instant, la dame et le cavalier blancs occupent des positions actives, tandis que la tour c2 paraît bien placée pour couper la fuite du roi noir. En revanche, le fou et la tour f3 ne font pas grand-chose. Les Blancs trouvent le moyen de les faire participer à l'attaque tout en gardant à l'esprit un deuxième principe général : les lignes ouvertes favorisent généralement l'attaquant. Le coup joué amorce une percée qui remplit ces deux objectifs : des lignes s'ouvrent et les deux pièces inactives peuvent les emprunter pour rejoindre l'attaque.\n\n28...exf5\n\nForcé, car les Noirs ne pourraient autrement parer les multiples menaces 29 fxe6 Rxe6 30 Nh7+, 29 Nh7+ Ke7 30 Bg5+ et 29 f6.\n\n29 e6!\n\nLes Blancs ouvrent encore des lignes. 29 Nh7+ Ke7 30 Qxg7 est beaucoup moins clair.\n\n29...fxe6\n\nDe nouveau forcé, car 29...Rxe6 perd après 30 Nh7+ Ke7 31 Bg5+ f6 (31...Kd6 32 Bf4+) 32 Qxg8, avec la menace de mat en f8.\n\n30 Rg3\n\nLa tour commence à jouer son rôle. Maintenant que la septième rangée est ouverte, les Blancs menacent mortellement 31 Nh7+, suivi de 32 Rxg7+.\n\n30...g6\n\nLes Noirs ne peuvent même pas tenter de rendre la dame par 30...e5 31 Nh7+ Ke7 32 Rxg7+ Kd6, car la finesse 33 Rg6+! (33 Rxd7+ n'est évidemment pas mauvais) 33...Re6 (33...Qe6 34 Qg7! menace mat en c7 et entraîne des gains matériels encore plus importants, tandis que 33...Ke7 se heurte à 34 Bg5+ Kf7 35 Qg7#) 34 Rxg8 est écrasante : les Noirs ne peuvent parer les menaces 35 Rgxc8, 35 Rd8, 35 Nf6 et 35 Nf8, pour n'en citer que quelques-unes.\n\n31 Nh7+\n\n31...Kf7\n\nOu 31...Ke7 32 Bg5+ Kd6 (32...Kf7 transpose dans la partie) 33 Bf4+ e5 (33...Ke7 34 Qg7+ Kd8 35 Bc7+) 34 Rxg6+ Re6 35 Bxe5+ Ke7 36 Qg7+, avec un mat rapide.\n\n32 Bh6\n\nUn magnifique coup final, aussi thématique qu'élégant, qui menace mat en un. Le fou blanc emprunte les lignes ouvertes par la percée f5 pour se joindre à l'attaque.\n\n32...Ke7\n\n32...Nxh6 33 Qf6+ Kg8 34 Rxg6+ Kxh7 35 Rxh6+ Kg8 36 Rh8# et 32...Bf8 33 Nxf8 Nxh6 34 Rxg6 Rxf8 35 Rf6+ Ke7 36 Qxf8# mènent tous deux au mat.\n\n33 Bg5+\n\n33...Kf7\n\nLe roi ne peut pas s'échapper : 33...Kd6 34 Bf4+ Ke7 (34...e5 35 Rxg6+ mène également au mat) 35 Qg7+ Kd8 36 Bc7+, et le mat suit au coup suivant.\n\n34 Bf6\n\n34 Nf6 gagnait plus simplement, mais il serait mesquin de critiquer Shirov après une attaque aussi splendide.\n\n34...Rf8\n\n34...Qa7+ 35 Kh1 n'aide pas les Noirs, tandis que 34...e5 35 Rc7 Qxc7 36 Qg7+ gagne la dame.\n\n35 Rc7!\n\nIci aussi, ce coup gagne la dame noire.\n\n35...Nxf6\n\n35...Qxc7 36 Qg7+ Ke8 37 Qxc7 est tout aussi désespéré pour les Noirs.\n\n36 Qxf6+\n\n36...Ke8\n\nOu 36...Kg8 37 Rxg6+ Kxh7 38 Rh6+ Kg8 39 Rh8#.\n\n37 Qxg6+\n\n37...Kd8\n\n37...Rf7 38 Nf6+ est encore pire.\n\n38 Rxd7+\n\nLes Blancs concrétisent leur avantage.\n\n38...Bxd7\n\n39 Nxf8\n\n39...Bxf8\n\nAvec seulement deux fous contre la dame, les Noirs n'ont aucun espoir.\n\n40 Qf6+\n\n40...Be7\n\n40...Ke8 perd après 41 Rg8.\n\n41 Rg8+\n\nCe coup force l'échange des tours. La suite est facile.\n\n41...Kc7\n\n42 Qc3+\n\n42...Kb7\n\n43 Rxb8+\n\n43...Kxb8\n\n44 h4\n\n44...1-0\n\nAprès 44...Bxh4, les Blancs répondent 45 Qh8+ ; sinon, le pion h file à la promotion.\n\nLe sacrifice grec remonte à au moins quatre cents ans, mais il reste toujours d'actualité. Comme les autres idées d'attaque classiques, il fait chaque jour des victimes quelque part dans le monde. De nos jours, toutefois, les défenseurs sont plus conscients de ces possibilités et les autorisent rarement sous une forme parfaitement claire.\n\nDans cette partie, les conditions préalables au sacrifice sont nées du jeu mené sur l'autre aile, où une opération malavisée des Noirs (16...b3?) a détourné leur fou de cases noires de la défense de l'aile roi. Lorsque la possibilité de jouer Bxh7+ s'est présentée, Shirov s'y est engagé sans pouvoir calculer toutes les variantes. Il en a certainement analysé plusieurs et en a conclu que la puissance des forces d'attaque serait trop grande pour que les Noirs puissent résister. L'idée essentielle consistait à associer le sacrifice à une percée centrale par f5 et e6, ouvrant ainsi davantage de lignes et permettant à toute l'armée blanche de participer à l'attaque. Une jolie conclusion est venue couronner l'excellente partie d'attaque de Shirov.\n\nLes enseignements à retenir sont les suivants :\n\n1) Une bonne maîtrise des idées et sacrifices d'attaque classiques est indispensable pour devenir un attaquant efficace.\n\n2) Les idées typiques fournissent des indications utiles, mais il faut parfois les adapter aux exigences précises de la position présente.\n\n3) Lorsque vous menez une attaque à l'aile roi, restez attentif aux possibilités tactiques sur les autres parties de l'échiquier.\n\n4) Plus les lignes sont ouvertes, plus la situation favorise l'attaquant.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Les sacrifices classiques\n\nDans les manuels consacrés au jeu d'attaque, on trouve toutes sortes de combinaisons classiques : le sacrifice grec, ou « cadeau grec » (Bxh7+ suivi de Ng5+), le double sacrifice de fous en h7 et g7, etc. Il existe aussi de nombreuses constructions de mat typiques, comme le mat d'Anastasie (avec un cavalier en e7, un sacrifice en h7 suivi d'un mat sur la colonne h) et le mat de Boden (contre un roi ayant roqué à l'aile dame, Qxc6+ suivi de Ba6#). Vous ne deviendrez probablement pas un bon joueur d'attaque sans connaître toutes ces idées classiques : elles constituent en quelque sorte le vocabulaire élémentaire de l'attaque. Je ne présenterai pas dans ce livre une liste de formations d'attaque, car mon objectif est de montrer comment les idées fondamentales des échecs s'intègrent dans la stratégie générale d'une partie.\n\nAvec un peu de chance, un adversaire vous permettra d'appliquer l'une de ces idées familières sous une forme parfaitement claire. Il vous suffira alors de vérifier que tout fonctionne comme prévu, et le point sera dans la poche. Malheureusement, les adversaires sont rarement aussi coopératifs. Lorsqu'une de ces idées classiques se présente réellement en pratique, elle apparaît donc souvent sous une forme assez obscure. Un travail considérable peut être nécessaire pour déterminer si le sacrifice est correct. Il se peut même que la position soit trop complexe pour permettre une analyse concluante ; il faut alors se fier à son jugement. Si votre style vous porte vers le jeu d'attaque, vous serez peut-être disposé à assumer le risque d'un sacrifice peu clair, tandis qu'un joueur à l'approche plus positionnelle fera peut-être le choix inverse. Le style personnel entre ainsi en ligne de compte.\n\nDans la partie suivante, personne n'a donc pu être surpris de voir Alexeï Shirov, confronté à la possibilité d'un « cadeau grec », prendre sans hésiter le pion h7.\n\nA. Shirov – D. Reinderman\n\nWijk aan Zee 1999\n\nDéfense sicilienne, variante Taimanov"
+    },
+    {
+      "ply": 1,
+      "san": "e4",
+      "text": "Voir la Partie 3 pour les commentaires sur ce coup.",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "c5",
+      "text": "Ce coup introduit la Défense sicilienne, l'une des ouvertures les plus courantes aujourd'hui. Sa popularité tient à son caractère combatif : dans de nombreuses variantes, les Noirs ne jouent pas seulement l'égalité, mais l'avantage. Son inconvénient est que les Blancs obtiennent souvent très tôt l'initiative ; les Noirs doivent donc veiller à ne pas succomber à une attaque rapide.",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "Nf3",
+      "text": "Les Blancs aimeraient jouer d4, mais l'immédiat 2 d4 cxd4 3 Qxd4 est mauvais à cause de 3...Nc6, qui gagne un tempo. Les Blancs se préparent donc à reprendre en d4 avec leur cavalier. Une autre variante populaire est 2 c3 (voir Partie 30), qui prépare également d4, mais cette fois avec l'idée de reprendre en d4 avec un pion.",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "Nc6",
+      "text": "Les Noirs disposent ici d'un vaste choix de coups : 2...d6 (Partie 10) et 2...e6 (Partie 20) sont également très populaires.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "Nc3",
+      "text": "Bien que 3 d4 soit tout à fait correct, les Blancs jouent parfois 3 Nc3 afin d'éviter certaines variantes à la disposition des Noirs. Par exemple, après 3 d4, les Noirs peuvent entrer dans le populaire système Sveshnikov par 3...cxd4 4 Nxd4 Nf6 5 Nc3 e5. Si les Blancs ne souhaitent pas affronter ce système, 3 Nc3 leur permet d'en compliquer l'accès aux Noirs. Si ceux-ci jouent alors 3...Nf6, les Blancs peuvent poursuivre par 4 Bb5, et l'on atteint une Sicilienne Rossolimo (2 Nf3 Nc6 3 Bb5) dans laquelle certaines variantes ne sont plus accessibles aux Noirs. Dans les manuels sur la Sicilienne, les variantes principales sont toujours présentées selon un ordre de coups normalisé. Cela masque malheureusement des subtilités d'ordre de coups qui peuvent être très importantes en pratique.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "e6",
+      "text": "Les Noirs poursuivent par un coup souple, qui laisse encore ouverte la possibilité de transposer dans divers systèmes.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "d4",
+      "text": "Les Blancs décident de transposer dans une Sicilienne ouverte classique, même s'ils pouvaient ici encore atteindre une variante de la Rossolimo par 4 Bb5.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "cxd4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "Nxd4",
+      "text": "Trait aux Noirs\n\nL'échange du pion c des Noirs contre le pion d des Blancs est caractéristique de la Sicilienne, et cette modification de la structure de pions constitue le fondement de la stratégie future des deux camps. Les Noirs disposent d'un pion central supplémentaire, ce qui représente un atout positionnel modeste mais significatif. Les Blancs, en revanche, peuvent facilement mettre en jeu toutes leurs pièces mineures et achèveront donc probablement leur développement avant les Noirs. Les lignes de bataille sont ainsi tracées : l'avance de développement et le plus grand espace central des Blancs contre les atouts positionnels à long terme des Noirs.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "a6",
+      "text": "Par ce coup, les Noirs indiquent qu'ils vont probablement s'orienter vers le système Taimanov, une variante fondée sur le retardement de ...d6 afin de conserver la possibilité de développer activement le fou de cases noires en c5 ou b4. Si les Noirs avaient joué 5...d6, on se serait dirigé vers un système Scheveningue (fondé sur des pions en d6 et e6), tandis qu'après 5...Nf6 plusieurs options seraient encore restées ouvertes (voir Partie 20).",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "Be2",
+      "text": "Les Blancs disposent de nombreux coups possibles, mais Shirov choisit simplement d'achever son développement à l'aile roi et de roquer rapidement.",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "Nge7",
+      "text": "Trait aux Blancs\n\nNous sommes maintenant clairement dans le système Taimanov. L'idée du coup joué est de poursuivre par ...Nxd4 puis ...Nc6, en gagnant un tempo grâce à l'attaque de la dame blanche. Son défaut est que les pièces restantes des Noirs sont mal placées pour défendre l'aile roi.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "f4",
+      "text": "Les Blancs ont essayé plusieurs coups dans cette position, mais celui de Shirov est l'un des plus logiques. Maintenant que la case f2 est libérée, la manœuvre ...Nxd4 et ...Nc6 peut recevoir la réponse Qf2. La dame est très bien placée en f2, notamment parce qu'après Be3 les Blancs peuvent exercer une forte pression sur les cases noires de l'aile dame adverse. De plus, depuis f2, la dame peut participer à une éventuelle attaque à l'aile roi, par exemple après f5.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "Nxd4",
+      "text": "Les Noirs peuvent retarder cet échange, mais ils devront l'effectuer tôt ou tard, sans quoi le cavalier e7 empêchera le développement de leurs pièces de l'aile roi.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "Qxd4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "b5",
+      "text": "Si 8...Nc6, alors bien sûr 9 Qf2 ; les Noirs retardent donc ...Nc6 dans l'espoir que les Blancs commettent l'erreur de jouer Be3, empêchant le retrait en f2.\n\nTrait aux Blancs\n\n9 0-0\n\nPour le moment, les Blancs n'ont pas besoin de fixer la position de leur dame.",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "Qc7",
+      "text": "Les Noirs poursuivent leur développement à l'aile dame et, maintenant que la dame contrôle c5, des idées tactiques telles que 10...Nf5 sont dans l'air.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "Qf2",
+      "text": "Compte tenu du danger sur la diagonale a7-g1, les Blancs décident de ramener volontairement leur dame. Il s'avère que les Noirs n'ont rien de mieux que ...Nc6, car ils ne peuvent autrement développer leur aile roi ; ils n'ont donc en réalité rien gagné à retarder ...Nc6.",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "Nc6",
+      "text": "Trait aux Blancs\n\nPar rapport à une position sicilienne normale, une paire de cavaliers a disparu : il manque aux Blancs le cavalier de d4 et aux Noirs celui de f6. Cet échange a réduit la puissance d'attaque des Blancs, mais deux autres facteurs jouent légèrement en leur faveur. Premièrement, les Noirs n'ont pas de cavalier défensif à l'aile roi ; malgré leurs forces réduites, les Blancs pourraient donc encore monter une attaque victorieuse. Deuxièmement, les Noirs n'exercent aucune pression sur e4, ce qui laisse aux Blancs davantage de liberté que d'ordinaire pour manœuvrer leurs pièces. Ce système reste néanmoins parfaitement jouable pour les Noirs, et les Blancs ne peuvent espérer qu'un léger avantage.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "Be3",
+      "text": "Le coup naturel, qui porte un regard inquisiteur vers les cases c5 et b6.",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "Be7",
+      "text": "Le fou est le mieux placé ici, où il contribue à défendre l'aile roi vulnérable des Noirs.",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "a4",
+      "text": "Shirov aurait bien sûr pu poursuivre son développement par 12 Rad1, mais les Blancs doivent réfléchir au plan qu'ils adopteront une fois toutes leurs pièces sorties. Une attaque directe à l'aile roi a peu de chances de réussir pour l'instant, car les pièces blanches ne sont pas orientées vers cette aile. L'idée principale des Blancs doit être d'améliorer les conditions d'une éventuelle attaque à l'aile roi. Un plan consiste à jouer 12 e5, avec des coups tels que Ne4, Rad1, Bd3, etc. Mais cela pourrait ne mener à rien si les Noirs répondent 12...d6 ou 12...d5.\n\nTrait aux Noirs\n\nShirov choisit plutôt une approche plus lente. Le coup joué force plus ou moins ...b4, après quoi les Blancs peuvent redéployer leur cavalier par Nb1-d2. Puisque les Noirs ne disposent plus de ...Nb4, les Blancs peuvent jouer Bd3 et viser la position du roi adverse. Selon les circonstances, le cavalier pourra aller en f3 pour soutenir l'attaque ou en c4 pour sonder l'aile dame noire, notamment la case b6. Si les Blancs veulent adopter ce plan, ils doivent le faire avant de déplacer la tour a1, sans quoi les Noirs ne seraient pas contraints de répondre ...b4.",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "b4",
+      "text": "La tour étant encore en a1, les Blancs peuvent répondre à 12...bxa4 par 13 Rxa4, après quoi le pion a6 est très faible.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Nb1",
+      "text": "Les Blancs entament la manœuvre de leur cavalier.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "Rb8",
+      "text": "Ce coup empêche l'ennuyeux Bb6.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Nd2",
+      "text": "Le cavalier revient activement en jeu.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "O-O",
+      "text": "Les Noirs roquent enfin. Il n'était ici pas particulièrement risqué de laisser si longtemps le roi au centre, car les pièces blanches n'étaient pas assez actives pour créer un réel danger.",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Bd3",
+      "text": "Le premier signe manifeste d'intentions agressives à l'aile roi.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "d6",
+      "text": "Trait aux Blancs\n\nLes Noirs aimeraient placer leur fou de cases noires en f6, mais ils doivent d'abord empêcher la réponse e5.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Rad1",
+      "text": "Il s'agit en fait de la première nouveauté de la partie. Dans Van der Wiel-Andersson, Wijk aan Zee 1987, les Blancs avaient attaqué plus directement par 16 Qg3 (avec l'intention de jouer f5), mais les Noirs avaient répliqué par 16...f5! 17 exf5 exf5 18 Nf3 Bf6 19 Rab1 Ne7 20 Rfe1 Bb7, avec un jeu à peu près égal. Les Noirs ont un pion d isolé, mais cette légère faiblesse est compensée par l'activité de leurs fous sur les grandes diagonales. Le coup de Shirov prépare l'attaque plus progressivement.",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "b3",
+      "text": "Ce coup imaginatif et ambitieux tourne mal, car la position des Noirs n'est pas assez solide pour soutenir une idée aussi agressive. Le plan ...f5 est moins efficace lorsque la tour se trouve en d1 : après 16...f5 17 exf5 exf5 18 Rfe1, les Noirs ne peuvent pas redéployer leurs pièces aussi facilement que dans la partie Van der Wiel-Andersson citée plus haut. En effet, après 18...Bf6? 19 Nc4!, la menace 20 Nxd6 Qxd6 21 Bc4+ existe déjà, et 19...d5 20 Bc5! constitue une jolie pointe tactique qui donne un net avantage aux Blancs. Les Noirs auraient toutefois dû poursuivre leur plan initial par 16...Bf6, obligeant les Blancs à décider comment répondre à l'attaque contre le pion b2.",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "cxb3",
+      "text": "Après 17 Nxb3 Bf6 18 Bc1 Rb4, les Noirs récupèrent le pion et obtiennent une position égale ; par exemple 19 a5 Nxa5 20 Nxa5 Bd4 21 Be3 Bxe3 22 Qxe3 Qxa5.",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Bf6",
+      "text": "Après 17...Nb4 18 Be2! Bf6 19 Rc1, suivi de Nc4, les Noirs n'ont guère de compensation pour le pion.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "Rc1",
+      "text": "Shirov trouve la meilleure réponse : il rend le pion afin de dépouiller l'aile roi noire de ses défenseurs. Les Blancs pouvaient conserver leur pion supplémentaire par 18 Bb1, car 18...Bxb2 serait alors mauvais à cause de 19 Nc4. Cependant, avec 18...a5, suivi de ...Ba6 et ...Nb4, les Noirs auraient obtenu en compensation une activité considérable de leurs pièces. 18 Rb1 est également jouable, mais les Noirs ont encore du jeu après 18...Nb4 19 Be2 Bb7. Selon toute probabilité, aucune de ces variantes ne donne aux Noirs une compensation tout à fait suffisante, mais il vaut généralement mieux avoir un matériel égal et une forte initiative que posséder un pion de plus tout en étant condamné à une défense pénible.",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "Bxb2",
+      "text": "Sinon, les Noirs auraient simplement un pion de moins ; par exemple 18...Bb7 19 Nf3.",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "Rc2",
+      "text": "Les Noirs subissent maintenant un dangereux clouage sur la colonne c.",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "Ba3",
+      "text": "Les Noirs doivent conserver le contrôle de c1, car 19...Bf6 perd après 20 Rfc1 Bb7 21 e5! Be7 (21...dxe5 22 Be4) 22 Bxa6 Bxa6 23 Rxc6 Qb7 24 exd6. À cause du malheureux 16e coup des Noirs, les conditions d'une attaque blanche à l'aile roi se sont nettement améliorées. Les Noirs n'y disposent plus d'aucune pièce mineure défensive et doivent en outre composer avec le clouage sur la colonne c.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "e5",
+      "text": "Les Blancs ouvrent la diagonale de leur fou de cases blanches avec gain de tempo, car les Noirs doivent parer la menace 21 exd6 Qxd6 22 Be4, suivi de Nc4.",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "d5",
+      "text": "20...dxe5 échoue sur 21 Be4 Bb7 22 Ra1 Bb4 23 Bxc6 Bxc6 24 Rac1, et les Blancs gagnent du matériel.",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "Nf3",
+      "text": "Ce coup introduit deux possibilités désagréables. La première est simplement 22 Nd4 Bb7 23 Ra1, suivi de Rac1, qui gagne du matériel ; la seconde est le sacrifice grec Bxh7+.",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "Qd7",
+      "text": "Après ce coup, le sacrifice en h7 est correct, même s'il exige de l'attaquant un jeu de très haute qualité. Partir dans l'autre direction par 21...Qb7 n'aide guère. Après 22 Bxh7+ Kxh7 23 Qh4+ Kg8 24 Ng5 Re8 25 Qh7+ Kf8, les Blancs obtiennent une attaque énorme avec 26 Rfc1! Bd7 27 f5! ; par exemple 27...exf5 28 Qh8+ Ke7 29 Qxg7 Kd8 30 Nxf7+ Kc8 31 Bc5 Bxc5+ 32 Rxc5, et la défense s'effondre.\n\nLa seule chance des Noirs était de jouer courageusement 21...Rxb3. La meilleure suite est alors 22 Bxh7+! Kxh7 23 Nd4 (23 Qh4+ Kg8 24 Ng5 n'est probablement pas correct, car les Blancs doivent en plus se préoccuper de leur fou e3 en prise), avec l'idée de récupérer la pièce tout en conservant de bonnes chances d'attaque à l'aile roi. Ces variantes méritent d'être examinées en détail, car elles montrent que, même en menant une attaque « à l'aile roi », il faut rester attentif aux possibilités tactiques sur l'ensemble de l'échiquier :\n\nTrait aux Noirs\n\n1) 23...Rb6 24 Nb5! (en voici précisément un exemple !) 24...axb5 25 Bxb6 Qb7 26 axb5 Ne7 27 Rc3 Bb4 28 Rb3, et les Blancs gagnent facilement.\n\n2) 23...Rb2 24 Bc1! Rxc2 (après 24...Nxd4 25 Qh4+ Kg8 26 Rxc7 Ne2+ 27 Kh1, les Noirs n'ont que deux pièces mineures pour la dame) 25 Qxc2+ Kg8 26 Bxa3 Qb6 27 Bxf8, et les Blancs gagnent.\n\n3) 23...Rb4! 24 Rxc6 Qb7 25 Rc3! (25 f5 exf5 26 Rf6!? est une idée imaginative, mais après 26...Bb2! les Blancs n'ont pas de suite claire) 25...Bb2 26 Qc2+ Kg8 27 Rc7 Bxd4 (les Noirs doivent éliminer ce cavalier avant qu'il n'atteigne g5 ; après 27...Qb8 28 Nf3 Rc4 29 Rxc4 dxc4 30 Ng5 g6 31 Qxc4, les Blancs ont un pion de plus et l'aile roi noire est très faible) 28 Bxd4 Qa8 (28...Qb8 29 Ba7 Qa8 30 Rb1 Rxb1+ 31 Qxb1 paralyse les Noirs) 29 Qc3 place les Noirs dans une situation inconfortable. Le matériel est égal, mais les pièces blanches occupent des positions actives et l'aile roi noire reste faible en raison de l'absence du pion h. Après 29...Rb7, par exemple, la percée 30 f5 exf5 31 e6 fxe6 32 Rxg7+ Rxg7 33 Bxg7 Re8 34 Be5 donne aux Blancs une attaque écrasante sur les cases noires ; 29...Rxa4 reçoit également la réponse 30 f5. La meilleure chance des Noirs est donc probablement 29...Rc4 30 Rxc4 dxc4 31 Qxc4, en espérant arracher la nulle avec un pion de moins.\n\nCette analyse montre à quel point la position est finement équilibrée. Dans une variante, les Blancs poursuivent leur sacrifice en h7 non par une attaque directe contre le roi, mais par un jeu à l'aile dame, tout en gardant fréquemment un œil sur l'autre aile. Après le coup joué, en revanche, la balance penche en faveur de l'assaut direct à l'aile roi.",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "Bxh7+",
+      "text": "Trait aux Noirs\n\nLe sacrifice grec est une idée bien connue que l'on retrouve dans tous les ouvrages consacrés au jeu d'attaque. Dans des circonstances favorables, il peut décider immédiatement de la partie : les Blancs poursuivent par Ng5+, répondent à ...Kg8 par Qh5 et à ...Kg6 par h4, Qg4 ou Qd3+, selon la position exacte. Ici, toutefois, la situation est beaucoup moins claire. Les Noirs sont matés rapidement s'ils jouent ...Kg6, mais la défense ...Kg8 se révèle difficile à briser. Lorsque les Blancs peuvent jouer Ng5+ et Qh5, un déplacement de la tour f8 peut souvent recevoir la réponse écrasante Qxf7+ ; ici, cependant, la dame se trouve en h4 et non en h5, de sorte qu'elle n'attaque pas f7 (le fait que la dame noire défende f7 importe peu, puisqu'elle peut être déviée par Rxc6). Les Blancs peuvent en réalité gagner, mais ils devront faire preuve d'une grande créativité. Même dans le cadre général d'une idée familière, les échecs laissent libre cours à l'imagination.",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "Kxh7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "Qh4+",
+      "text": "23 Ng5+ revient au même.",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "Kg8",
+      "text": "Pas 23...Kg6? 24 g4, avec mat en quelques coups.",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "Ng5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 48,
+      "san": "Re8",
+      "text": "24...Rd8?! est inférieur, car le roi noir peut avoir besoin de d8 pour s'échapper : après 25 Qh7+ Kf8 26 Qh8+ Ke7 27 Qxg7 Rf8 (27...Re8 28 Qf6+ Kf8 29 Nh7+ Kg8 30 Qg5+ Kxh7 31 Rf3 mène au mat) 28 Nh7 Bb7 29 f5, les Blancs disposent d'une attaque écrasante.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 49,
+      "san": "Rf3",
+      "text": "Les Blancs trouvent une conception originale que l'on ne rencontrera dans aucun manuel de jeu d'attaque. Les exemples classiques du sacrifice grec impliquent presque toujours de pourchasser le roi par 25 Qh7+ Kf8 26 Qh8+ Ke7 27 Qxg7, mais ici les Noirs poursuivent par 27...Kd8 et échappent aux menaces immédiates. Shirov comprend qu'il doit renforcer son attaque sans permettre au roi noir de fuir par e7 et d8. La menace est simplement 26 Rh3.",
+      "isCritical": true
+    },
+    {
+      "ply": 50,
+      "san": "Ne7",
+      "text": "Le point essentiel est que 25...Kf8? perd : 26 Nh7+ Kg8 27 Nf6+! gxf6 28 Rg3+ Kf8 29 exf6, avec mat. Comme le roi noir ne peut pas fuir, les Noirs doivent tenter d'organiser une défense à l'aile roi ; un rapide examen montre que le coup joué est le seul qui évite un désastre immédiat.",
+      "isCritical": true
+    },
+    {
+      "ply": 51,
+      "san": "Qh7+",
+      "text": "Les échecs sont maintenant opportuns, car 26 Rh3?? Ng6 permettrait aux Noirs de se défendre.",
+      "isCritical": true
+    },
+    {
+      "ply": 52,
+      "san": "Kf8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 53,
+      "san": "Qh8+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 54,
+      "san": "Ng8",
+      "text": "Cette finesse a permis aux Blancs d'amener leur dame en h8 alors que le roi noir se trouve encore en f8. Une fois de plus, pourchasser le roi par 28 Nh7+ Ke7 29 Qxg7 Kd8 ne ferait que faciliter la tâche des Noirs. Les Blancs doivent au contraire créer des difficultés au roi avant qu'il ne puisse s'échapper.",
+      "isCritical": true
+    },
+    {
+      "ply": 55,
+      "san": "f5",
+      "text": "Trait aux Noirs\n\nUne attaque réussie requiert souvent la participation de toutes les pièces de l'attaquant, ou presque. Pour l'instant, la dame et le cavalier blancs occupent des positions actives, tandis que la tour c2 paraît bien placée pour couper la fuite du roi noir. En revanche, le fou et la tour f3 ne font pas grand-chose. Les Blancs trouvent le moyen de les faire participer à l'attaque tout en gardant à l'esprit un deuxième principe général : les lignes ouvertes favorisent généralement l'attaquant. Le coup joué amorce une percée qui remplit ces deux objectifs : des lignes s'ouvrent et les deux pièces inactives peuvent les emprunter pour rejoindre l'attaque.",
+      "isCritical": true
+    },
+    {
+      "ply": 56,
+      "san": "exf5",
+      "text": "Forcé, car les Noirs ne pourraient autrement parer les multiples menaces 29 fxe6 Rxe6 30 Nh7+, 29 Nh7+ Ke7 30 Bg5+ et 29 f6.",
+      "isCritical": true
+    },
+    {
+      "ply": 57,
+      "san": "e6",
+      "text": "Les Blancs ouvrent encore des lignes. 29 Nh7+ Ke7 30 Qxg7 est beaucoup moins clair.",
+      "isCritical": true
+    },
+    {
+      "ply": 58,
+      "san": "fxe6",
+      "text": "De nouveau forcé, car 29...Rxe6 perd après 30 Nh7+ Ke7 31 Bg5+ f6 (31...Kd6 32 Bf4+) 32 Qxg8, avec la menace de mat en f8.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 59,
+      "san": "Rg3",
+      "text": "La tour commence à jouer son rôle. Maintenant que la septième rangée est ouverte, les Blancs menacent mortellement 31 Nh7+, suivi de 32 Rxg7+.",
+      "isCritical": true
+    },
+    {
+      "ply": 60,
+      "san": "g6",
+      "text": "Les Noirs ne peuvent même pas tenter de rendre la dame par 30...e5 31 Nh7+ Ke7 32 Rxg7+ Kd6, car la finesse 33 Rg6+! (33 Rxd7+ n'est évidemment pas mauvais) 33...Re6 (33...Qe6 34 Qg7! menace mat en c7 et entraîne des gains matériels encore plus importants, tandis que 33...Ke7 se heurte à 34 Bg5+ Kf7 35 Qg7#) 34 Rxg8 est écrasante : les Noirs ne peuvent parer les menaces 35 Rgxc8, 35 Rd8, 35 Nf6 et 35 Nf8, pour n'en citer que quelques-unes.",
+      "isCritical": true
+    },
+    {
+      "ply": 61,
+      "san": "Nh7+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 62,
+      "san": "Kf7",
+      "text": "Ou 31...Ke7 32 Bg5+ Kd6 (32...Kf7 transpose dans la partie) 33 Bf4+ e5 (33...Ke7 34 Qg7+ Kd8 35 Bc7+) 34 Rxg6+ Re6 35 Bxe5+ Ke7 36 Qg7+, avec un mat rapide.",
+      "isCritical": true
+    },
+    {
+      "ply": 63,
+      "san": "Bh6",
+      "text": "Trait aux Noirs\n\nUn magnifique coup final, aussi thématique qu'élégant, qui menace mat en un. Le fou blanc emprunte les lignes ouvertes par la percée f5 pour se joindre à l'attaque.",
+      "isCritical": true
+    },
+    {
+      "ply": 64,
+      "san": "Ke7",
+      "text": "32...Nxh6 33 Qf6+ Kg8 34 Rxg6+ Kxh7 35 Rxh6+ Kg8 36 Rh8# et 32...Bf8 33 Nxf8 Nxh6 34 Rxg6 Rxf8 35 Rf6+ Ke7 36 Qxf8# mènent tous deux au mat.",
+      "isCritical": true
+    },
+    {
+      "ply": 65,
+      "san": "Bg5+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 66,
+      "san": "Kf7",
+      "text": "Le roi ne peut pas s'échapper : 33...Kd6 34 Bf4+ Ke7 (34...e5 35 Rxg6+ mène également au mat) 35 Qg7+ Kd8 36 Bc7+, et le mat suit au coup suivant.",
+      "isCritical": true
+    },
+    {
+      "ply": 67,
+      "san": "Bf6",
+      "text": "34 Nf6 gagnait plus simplement, mais il serait mesquin de critiquer Shirov après une attaque aussi splendide.",
+      "isCritical": true
+    },
+    {
+      "ply": 68,
+      "san": "Rf8",
+      "text": "34...Qa7+ 35 Kh1 n'aide pas les Noirs, tandis que 34...e5 35 Rc7 Qxc7 36 Qg7+ gagne la dame.",
+      "isCritical": true
+    },
+    {
+      "ply": 69,
+      "san": "Rc7",
+      "text": "Trait aux Noirs\n\nIci aussi, ce coup gagne la dame noire.",
+      "isCritical": true
+    },
+    {
+      "ply": 70,
+      "san": "Nxf6",
+      "text": "35...Qxc7 36 Qg7+ Ke8 37 Qxc7 est tout aussi désespéré pour les Noirs.",
+      "isCritical": true
+    },
+    {
+      "ply": 71,
+      "san": "Qxf6+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 72,
+      "san": "Ke8",
+      "text": "Ou 36...Kg8 37 Rxg6+ Kxh7 38 Rh6+ Kg8 39 Rh8#.",
+      "isCritical": true
+    },
+    {
+      "ply": 73,
+      "san": "Qxg6+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 74,
+      "san": "Kd8",
+      "text": "37...Rf7 38 Nf6+ est encore pire.",
+      "isCritical": true
+    },
+    {
+      "ply": 75,
+      "san": "Rxd7+",
+      "text": "Les Blancs concrétisent leur avantage.",
+      "isCritical": true
+    },
+    {
+      "ply": 76,
+      "san": "Bxd7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 77,
+      "san": "Nxf8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 78,
+      "san": "Bxf8",
+      "text": "Avec seulement deux fous contre la dame, les Noirs n'ont aucun espoir.",
+      "isCritical": true
+    },
+    {
+      "ply": 79,
+      "san": "Qf6+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 80,
+      "san": "Be7",
+      "text": "40...Ke8 perd après 41 Rg8.",
+      "isCritical": true
+    },
+    {
+      "ply": 81,
+      "san": "Rg8+",
+      "text": "Ce coup force l'échange des tours. La suite est facile.",
+      "isCritical": true
+    },
+    {
+      "ply": 82,
+      "san": "Kc7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 83,
+      "san": "Qc3+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 84,
+      "san": "Kb7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 85,
+      "san": "Rxb8+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 86,
+      "san": "Kxb8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 87,
+      "san": "h4",
+      "text": "44...1-0\n\nAprès 44...Bxh4, les Blancs répondent 45 Qh8+ ; sinon, le pion h file à la promotion.\n\nLe sacrifice grec remonte à au moins quatre cents ans, mais il reste toujours d'actualité. Comme les autres idées d'attaque classiques, il fait chaque jour des victimes quelque part dans le monde. De nos jours, toutefois, les défenseurs sont plus conscients de ces possibilités et les autorisent rarement sous une forme parfaitement claire.\n\nDans cette partie, les conditions préalables au sacrifice sont nées du jeu mené sur l'autre aile, où une opération malavisée des Noirs (16...b3?) a détourné leur fou de cases noires de la défense de l'aile roi. Lorsque la possibilité de jouer Bxh7+ s'est présentée, Shirov s'y est engagé sans pouvoir calculer toutes les variantes. Il en a certainement analysé plusieurs et en a conclu que la puissance des forces d'attaque serait trop grande pour que les Noirs puissent résister. L'idée essentielle consistait à associer le sacrifice à une percée centrale par f5 et e6, ouvrant ainsi davantage de lignes et permettant à toute l'armée blanche de participer à l'attaque. Une jolie conclusion est venue couronner l'excellente partie d'attaque de Shirov.\n\nLes enseignements à retenir sont les suivants :\n\n1) Une bonne maîtrise des idées et sacrifices d'attaque classiques est indispensable pour devenir un attaquant efficace.\n\n2) Les idées typiques fournissent des indications utiles, mais il faut parfois les adapter aux exigences précises de la position présente.\n\n3) Lorsque vous menez une attaque à l'aile roi, restez attentif aux possibilités tactiques sur les autres parties de l'échiquier.\n\n4) Plus les lignes sont ouvertes, plus la situation favorise l'attaquant.",
+      "isCritical": true
+    }
+  ]
+}

@@ -16,7 +16,7 @@ import chess.pgn
 ROOT = Path(__file__).resolve().parents[1]
 EPUB = ROOT / "docs" / "Logical Chess- Move By Move.epub"
 PGN_DIR = ROOT / "data" / "pgn" / "chernov"
-OUT_DIR = ROOT / "data" / "lessons"
+OUT_DIR = ROOT / "data" / "en" / "lessons"
 
 CONTENTS_FILE = "OEBPS/text00001.html"
 GAME_FILES = [f"OEBPS/text{num:05d}.html" for num in list(range(5, 21)) + list(range(22, 29)) + list(range(30, 40))]

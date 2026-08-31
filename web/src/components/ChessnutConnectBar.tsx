@@ -1,6 +1,8 @@
 import type { BatteryStatus, TransportKind } from "eboard-connect-js";
 import type { BoardGuide } from "../lib/boardGuide";
+import type { Lang } from "../lib/lang";
 import { formatSanWithSymbols } from "../lib/sanSymbols";
+import { fill, ui, type UiCopy } from "../lib/uiCopy";
 import type { ChessnutConnectionStatus } from "../hooks/useChessnutBoard";
 
 type Props = {
@@ -16,26 +18,33 @@ type Props = {
   guidePly?: number;
   /** Optional status line under the main row (e.g. settings). */
   hint?: string | null;
+  lang: Lang;
 };
 
-function guideInlineLabel(guide: BoardGuide, ply: number): string {
+function guideInlineLabel(guide: BoardGuide, ply: number, t: UiCopy): string {
   switch (guide.kind) {
     case "waiting_signal":
-      return "Waiting for board signal";
+      return t.waitingBoard;
     case "lesson_complete":
-      return "End of game — board idle";
+      return t.endOfGame;
     case "setup":
       return ply === 0
         ? guide.mismatchCount > 0
-          ? `Reset start · ${guide.mismatchCount} sq`
-          : "Reset to starting position"
+          ? fill(t.resetStart, { n: guide.mismatchCount })
+          : t.resetToStart
         : guide.mismatchCount > 0
-          ? `Match screen · ${guide.mismatchCount} sq`
-          : "Match the screen position";
+          ? fill(t.matchScreen, { n: guide.mismatchCount })
+          : t.matchScreenPos;
     case "play_move":
-      return `Play ${formatSanWithSymbols(guide.san)} · ${guide.from}→${guide.to}`;
+      return fill(t.playSan, {
+        san: formatSanWithSymbols(guide.san),
+        from: guide.from,
+        to: guide.to,
+      });
     case "guess_waiting":
-      return `Your move · quiz · ${guide.side}`;
+      return fill(t.yourMoveQuiz, {
+        side: guide.side === "white" ? t.white : t.black,
+      });
     default: {
       const _exhaustive: never = guide;
       return _exhaustive;
@@ -54,20 +63,20 @@ export function ChessnutConnectBar({
   guide = null,
   guidePly = -1,
   hint = null,
+  lang,
 }: Props) {
+  const t = ui(lang);
   const unavailable = !supported.ble && !supported.hid;
   const connecting = status === "connecting";
   const connected = status === "connected";
-  const guideLabel = guide ? guideInlineLabel(guide, guidePly) : null;
+  const guideLabel = guide ? guideInlineLabel(guide, guidePly, t) : null;
 
   return (
     <div className={`chessnut-bar${guideLabel ? " has-guide" : ""}`}>
       <div className="chessnut-bar-main">
         <span className="chessnut-label">Chessnut</span>
         {unavailable ? (
-          <span className="chessnut-status muted">
-            Use Chrome/Edge on HTTPS or localhost
-          </span>
+          <span className="chessnut-status muted">{t.useChromeHttps}</span>
         ) : connected ? (
           <>
             {guideLabel ? (
@@ -76,11 +85,11 @@ export function ChessnutConnectBar({
               </span>
             ) : null}
             <span className="chessnut-status is-connected">
-              {transport === "ble" ? "BT" : "USB"}
+              {transport === "ble" ? "BT" : t.usb}
               {battery ? ` · ${battery.percent}%` : ""}
             </span>
             <button type="button" className="secondary" onClick={onDisconnect}>
-              Disconnect
+              {t.disconnect}
             </button>
           </>
         ) : (
@@ -91,7 +100,7 @@ export function ChessnutConnectBar({
               disabled={!supported.ble || connecting}
               onClick={() => onConnect("ble")}
             >
-              {connecting ? "Connecting…" : "Bluetooth"}
+              {connecting ? t.connecting : t.bluetooth}
             </button>
             <button
               type="button"
@@ -99,7 +108,7 @@ export function ChessnutConnectBar({
               disabled={!supported.hid || connecting}
               onClick={() => onConnect("hid")}
             >
-              USB
+              {t.usb}
             </button>
           </>
         )}

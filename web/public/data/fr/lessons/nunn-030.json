@@ -1,0 +1,523 @@
+{
+  "id": "nunn-030",
+  "book": "nunn",
+  "gameNum": 30,
+  "title": "Partie 30 : E. Handoko vs Xu Jun",
+  "section": "Thèmes de finale",
+  "players": {
+    "white": "E. Handoko",
+    "black": "Xu Jun"
+  },
+  "event": "Asian Team Championship, Singapore 1995",
+  "opening": "Sicilienne, 2 c3",
+  "eco": "B22",
+  "pgnPath": "data/pgn/nunn/30.pgn",
+  "result": "0-1",
+  "moveCount": 83,
+  "annotatedMoves": 82,
+  "fullText": "La tour en septième\n\nDans la position initiale, tous les pions sont alignés sur la deuxième rangée. Ce simple fait est le fondement principal de la puissance d'une tour en septième rangée en finale. Bien que certains pions (surtout les pions centraux) aient avancé lorsque l'on arrive en finale, il en restera presque toujours un certain nombre sur la deuxième rangée. Quand une tour adverse arrive sur cette rangée, elle attaque des pions à gauche et à droite ; même si l'un d'eux s'écarte du chemin de la tour, il y en aura probablement un autre vulnérable derrière.\n\nLe schéma habituel pour obtenir et exploiter l'avantage d'une tour en septième se déroule ainsi : prendre le contrôle d'une colonne ouverte ; échanger suffisamment de pièces pour qu'une tour s'installe en septième rangée, liant les pièces adverses à la défense des pions vulnérables ; exploiter l'avantage résultant en entreprenant une activité ailleurs sur l'échiquier.\n\nDans la partie suivante, les Noirs sont prêts à sacrifier un pion pour mettre ce plan en œuvre.\n\nE. Handoko – Xu Jun\n\nChampionnat d'Asie par équipes, Singapour 1995\n\nSicilienne, 2 c3\n\n1 e4\n\n1...c5\n\nPour les commentaires sur les coups jusqu'ici, voir la Partie 8.\n\n2 c3\n\nDans toutes les parties précédentes de ce livre avec la défense sicilienne, les Blancs ont poursuivi par 2 Nf3. L'idée de Nf3 est de jouer rapidement d4, où l'avance de développement des Blancs compense l'avantage des Noirs d'avoir un pion central supplémentaire. Le coup 2 c3, en revanche, vise à jouer d4 dans une position où les Blancs peuvent reprendre en d4 avec un pion, gagnant ainsi le contrôle du centre sans faire de concession. Bien sûr, la vie n'est jamais aussi simple et les Noirs disposent de divers moyens de contrer le plan blanc. C'est une méthode assez populaire pour rencontrer la Sicilienne, peut-être parce qu'elle peut se jouer avec moins de connaissances théoriques que 2 Nf3.\n\n2...Nf6\n\nC'est l'un des deux systèmes principaux que les Noirs peuvent employer contre 2 c3. L'autre est 2...d5 3 exd5 Qxd5, qui n'expose qu'en apparence la dame noire à l'attaque ; en réalité il n'est pas facile pour les Blancs de gagner du temps sur la dame parce que le coup c3 a retiré la case naturelle à leur cavalier de dame.\n\nLe coup du texte repose sur une autre idée. Les Noirs veulent attirer le pion e blanc en avant jusqu'en e5, afin de pouvoir l'attaquer par ...d6, éliminant ainsi le principal avant-poste blanc au centre. Les deux systèmes sont populaires et l'on estime que tous deux donnent aux Noirs une partie plus ou moins égale s'ils sont poursuivis avec précision. Il vaut la peine de mentionner que 2...e5, 2...d6 et 2...e6 sont tous des systèmes parfaitement jouables, mais n'ont jamais atteint la même popularité que 2...d5 et 2...Nf6.\n\n3 e5\n\nLe seul coup dangereux.\n\n3...Nd5\n\nUn peu comme dans la défense Alekhine (voir la Partie 4), le cavalier noir saute d'une case à l'autre, attirant les pions blancs en avant.\n\n4 d4\n\nLes Blancs ont réalisé leur ambition de jouer d4, mais leurs pions centraux ne sont plus côte à côte et les Noirs peuvent aisément frapper le pion e avancé par ...d6.\n\n4...cxd4\n\nLes Noirs doivent échanger immédiatement, sinon les Blancs pourraient jouer c4 suivi de d5, ou éventuellement dxc5.\n\n5 Nf3\n\nC'est la suite principale. Les Blancs utilisent le clouage le long de la colonne d pour laisser les Noirs dans l'incertitude sur la façon dont ils reprendront en d4. 5 cxd4 d6 rend la vie assez facile aux Noirs, tandis que 5 Qxd4 e6 est aussi relativement inoffensif — les Blancs ont gagné du temps en attaquant le cavalier noir, mais cela est compensé par le fait qu'ils n'ont fait aucun usage du coup c3.\n\n5...Nc6\n\nLes Noirs poursuivent par un coup de développement flexible. Il est aussi parfaitement raisonnable de jouer 5...e6 6 cxd4 (maintenant que d5 est défendu, les Blancs doivent reprendre en d4) 6...d6 (6...b6 est une autre ligne populaire), sapant le pion e5.\n\n6 Bc4\n\nLa ligne la plus vive, dans laquelle les Blancs offrent un pion, bien qu'il ne soit pas souvent pris. L'alternative, 6 cxd4 d6 7 Bc4 Nb6 8 Bb5 dxe5 9 Nxe5 Bd7, offre peu aux Blancs car elle conduit à des échanges de pièces qui ne font que retirer une bonne part de la tension de la position.\n\n6...Nb6\n\nTout comme au coup précédent, les Noirs peuvent jouer prudemment avec 6...e6 7 cxd4 d6, qui est moins provocant mais probablement aussi égal.\n\n7 Bb3\n\nLe fou reste sur la diagonale menant à la case sensible f7.\n\n7...g6!?\n\nLa ligne habituelle est 7...d6 8 exd6 Qxd6, où les Blancs poursuivent par 9 Na3 ou 9 0-0, offrantant encore un pion en échange d'une avance de développement. Les variantes qui en résultent sont très vives et la suite du texte, bien qu'assez inhabituelle, offre une alternative intéressante à 7...d6. L'idée reste de contester le pion central blanc par ...d6, mais seulement après que les Noirs aient progressé vers le roque.\n\nTrès peu de joueurs ont osé accepter le sacrifice de pion par 7...dxc3 8 Nxc3. Les Blancs ont une avance substantielle de développement pour le pion, même s'il n'y a certainement pas de KO immédiat. Après 8...g6 (8...e6 9 Ne4 Bb4+ 10 Bd2 0-0 11 Bxb4 Nxb4 12 Nd6 rend le développement noir très difficile) 9 0-0 Bg7 10 Qe2 0-0 11 Rd1 les Blancs ont une forte pression. Les Noirs peuvent difficilement se libérer sans rendre le pion, mais alors les pièces plus actives des Blancs tendent à leur donner l'avantage.\n\n8 Ng5\n\nUn moment critique pour les Blancs. Ils doivent décider s'ils poursuivent de façon positionnelle par 8 cxd4, ou s'ils optent pour le coup disruptif du texte, qui frappe le point faible traditionnel, f7. Après 8 cxd4 Bg7 9 0-0 0-0 10 Nc3 d6 la position est à peu près égale. Les Noirs exercent déjà une forte pression contre e5, qu'ils peuvent accroître par ...Bg4. Si les Blancs ne peuvent maintenir leur pion e5, ils ont peu de chances d'obtenir un avantage digne de ce nom. Le coup du texte est très engageant. S'il ne conduit à aucune concession concrète des Noirs, tôt ou tard le cavalier devra se retirer de g5, avec une perte de temps considérable. Les Blancs sont donc obligés de poursuivre leurs tactiques disruptives, afin que le coup de cavalier ne soit pas vain.\n\n8...d5\n\n8...e6 9 Ne4, menaçant à la fois Nf6+ et Bg5, est très gênant pour les Noirs, tandis que 8...Nxe5 9 Bf4 ! (9 Qxd4 d5 10 Qxe5 f6 11 Qe2 fxg5 12 Bxg5 favorise aussi les Blancs) 9...Nec4 10 Bxc4 Nxc4 11 Qxd4 f6 12 Qxc4 fxg5 13 Be5 est excellent pour les Blancs, si bien que le coup du texte est forcé.\n\n9 exd6\n\nLes Blancs sont engagés dans cette voie puisque 9 cxd4 f6 10 Nf3 ne fait que perdre du temps avec le cavalier — après 10...Bg7 les Noirs sont au moins égaux.\n\n9...e6\n\nLe plan des Noirs est assez simple. Ils visent à poursuivre leur développement par ...Bg7, ...0-0 et ...Qxd6. Les Blancs devront probablement retirer leur cavalier de g5 à un moment donné, et ils n'auront alors guère de résultat à montrer pour leur attaque précoce sur f7.\n\n10 Qf3\n\n10 Ne4 Bg7 paraît correct pour les Noirs, puisque les Blancs ne peuvent pas maintenir leur pion en d6 indéfiniment. Les Noirs n'ont pas non plus de problèmes après 10 cxd4 Qxd6, car les Blancs doivent s'occuper de la menace contre leur pion d4.\n\n10...f5!?\n\nC'est un coup provocateur et quelque peu risqué. Les Noirs empêchent définitivement l'attaque blanche sur f7, mais au prix d'abandonner le pion e6, qui est un défenseur clé de la position de leur roi. De plus, dans la ligne principale les Noirs sont virtuellement engagés à sacrifier un pion. La seule raison pour laquelle ce coup n'est pas suicidaire est que le développement des Blancs n'est pas assez bon pour soutenir une attaque vraiment dangereuse. Ils n'ont pas encore roqué, et leurs pièces de l'aile dame sont toutes à la maison, si bien que les Noirs ont le temps de défendre leur roi avant que les Blancs ne puissent créer de menaces sérieuses. Les alternatives sont :\n\n1) 10...Ne5 11 Qg3 Bg7 12 0-0 0-0 est obscur. Les Noirs ont paré l'attaque sur f7, mais au prix de perdre du temps avec leur cavalier, qui devra bientôt bouger à nouveau.\n\n2) 10...f6 !? et maintenant :\n\n2a) 11 Bxe6 Bxd6 12 Bf7+ (12 Nf7 Qe7 13 Nxd6+ Qxd6 14 Bxc8 Qe7+ est correct pour les Noirs) 12...Kd7 13 Qg4+ Kc7 14 Ne6+ Bxe6 15 Qxe6 Qf8 est un bon exemple de la façon dont une attaque précoce mal soutenue peut se retourner. Les Blancs sont confrontés à la menace de ...Nd8 et après 16 Na3 (16 Qb3 Ne5 17 Bd5 Nd3+ 18 Kd2 Nc5 gagne pour les Noirs) 16...a6 17 Nc4 Re8 ! les Noirs gagnent deux pièces pour une tour.\n\n2b) 11 Nxe6 Bxe6 12 Bxe6 Bxd6 13 Qh3 (13 0-0 Bxh2+ 14 Kxh2 Qd6+ est au moins égal pour les Noirs) 13...f5 14 0-0 Qf6 15 Re1 est légèrement meilleur pour les Blancs.\n\nNous revenons maintenant à 10...f5 !? :\n\n11 Bxe6\n\nLe coup critique. 11 Nxe6 Bxe6 12 Bxe6 Bxd6 est satisfaisant pour les Noirs, puisque 13...Qe7 est une menace, et après 13 0-0 Bxh2+ 14 Kxh2 Qd6+ 15 Bf4 Qxe6 16 Nd2 0-0 les Blancs n'ont pas assez de compensation pour le pion. Une autre idée est 11 0-0 Bxd6 12 Nxe6 Bxe6 13 Qe2, cherchant à prendre en e6 avec la dame (ce qui serait effectivement très dangereux). Cependant, après 13...Bxh2+ ! 14 Kxh2 Qd6+ 15 Kg1 Kf7 les Blancs n'ont encore une fois pas assez pour le pion.\n\n11...Bxe6\n\n11...Bxd6 n'est pas possible ici, car les Blancs peuvent simplement jouer 12 0-0 avec une attaque dangereuse (le cavalier en g5 n'est pas en prise comme il l'était dans la ligne analogue après 10...f6).\n\n12 Nxe6\n\n12...Qxd6\n\n13 Nxd4\n\nC'est le choix naturel. Après 13 Nxf8 Rxf8 14 0-0 0-0-0 les Noirs sont plutôt bien. Toutes leurs pièces sont en jeu, tandis que l'aile dame blanche est encore à la maison.\n\n13...Nxd4\n\n14 cxd4\n\nUne position critique pour l'évaluation de la ligne avec 7...g6 est née. L'attaque précoce des Blancs s'est essoufflée, et les Noirs peuvent même revendiquer une légère avance de développement — ils ont deux pièces en jeu contre une pour les Blancs, et c'est à eux de jouer. De plus, le pion d4 est faible. En face, les Blancs ont un pion de plus et l'attaque sur b7 compense le fait que d4 est en prise. Au total, je soupçonne que les avantages des Noirs ne compensent pas tout à fait le pion supplémentaire. Même si les Noirs peuvent parfois récupérer le pion en d4, le temps que cela prend peut permettre aux Blancs de s'emparer de l'initiative. Si les Noirs refusent de prendre le pion pour se concentrer plutôt sur un développement rapide, ils peuvent perdre définitivement la chance de le récupérer. Un point positif pour les Noirs est que même si les Blancs parviennent à conserver leur pion d, le gain peut s'avérer fuyant. Gagner une position dans laquelle toutes les pièces blanches sont liées à la défense du pion d4 ne sera pas facile. Il s'ensuit que les Noirs seront heureux d'obtenir la nulle à partir de la position du diagramme, puisque la plupart du danger est de leur côté.\n\n14...Qd5\n\nLes Noirs ne peuvent se permettre d'abandonner le pion b7, car l'échange de ce pion sain contre le faible pion d4 des Blancs favoriserait sans doute les Blancs. 14...Bg7 15 0-0 0-0 16 Qxb7, par exemple, est très bon pour les Blancs. Récupérer le pion par 14...Qxd4 est trop risqué ; après 15 0-0 (pas 15 Qxb7 ? Bb4+ 16 Bd2 0-0, quand le roi blanc est fatalement coincé au centre) 15...0-0-0 (accroché au pion b7, mais le roi noir est trop exposé en c8) 16 Bg5 Rd7 17 Nc3 (soudain les Blancs ont de l'avance en développement) 17...Kb8 18 Rfd1 Qg7 19 Bf4+ Ka8 20 Nb5 les Blancs ont une attaque décisive.\n\n15 Qxd5?\n\nCe coup montre une mauvaise compréhension de la position et abandonne toute chance d'obtenir l'avantage. En finale, les pièces noires peuvent rapidement occuper des cases idéales : cavalier en d5, fou en g7 attaquant d4, et tours en c8 et e8. Il s'avère que les Blancs ne peuvent pas jouer Nc3 pour contester le cavalier en d5, si bien que le blocus noir est virtuellement inexpugnable. Si les Blancs veulent obtenir l'avantage, ils doivent essayer de garder les dames. Cela a deux avantages : ils ont la chance de déranger le roi noir, et ils pourraient gagner un tempo avec Nc3 plus tard. Les deux principales alternatives sont :\n\n1) 15 Qe2+ Kf7 16 0-0 (pas 16 Nc3 ? Qxg2) 16...Re8 17 Qd3 Qc4 !? (le meilleur coup ; après 17...Bg7 18 Be3 Qc4 19 Qa3 les Blancs attaquent a7, et gagneront du temps en attaquant la dame noire) 18 Qf3 Qd5 (18...Qxd4 19 Qxb7+ Re7 20 Qf3 Qd5 21 Qh3 ne donne pas assez aux Noirs pour le pion) 19 Qxd5+ (maintenant c'est bien plus dangereux, car les Blancs peuvent immédiatement contester le cavalier en d5 ; si la dame blanche s'éloigne vers une autre case, comme g3 ou h3, alors les Noirs jouent ...Bg7 et récupèrent rapidement le pion d4) 19...Nxd5 20 Nc3 et maintenant :\n\n1a) 20...Nb4 21 Rb1 Bg7 22 a3 paraît bon pour les Blancs.\n\n1b) 20...Rd8 21 Bg5 Rd7 22 Rfe1 h6 23 Be3 Bg7 24 Nxd5 Rxd5 25 Rac1 Rhd8 26 Rc7+ R8d7 27 Rxd7+ Rxd7 28 Kf1 h5 29 Ke2 offre aux Blancs quelques chances de gain.\n\n1c) 20...Nxc3 21 bxc3 Bd6 (21...Rc8 22 Rb1 b6 23 Bd2 Rc4 est une autre ligne raisonnable qui offre de bonnes chances de nulle) paraît la meilleure ligne des Noirs. Il est difficile pour les Blancs de gagner lorsqu'ils sont handicapés par le pion c arriéré. La suite pourrait être 22 Rb1 b6 23 Rb2 Rc8 24 Bd2 Rhe8, quand les Noirs ont une compensation correcte pour le pion. Il est difficile de voir comment les Blancs peuvent activer leurs pièces, mais les Noirs ont la possibilité de déplacer leur roi vers une position plus active en jouant ...Ke6-d5. La conclusion est qu'avec un jeu précis les Noirs ont de bonnes chances de nulle contre 15 Qe2+.\n\n2) 15 Qe3+ Kf7 16 0-0 Re8 17 Nc3 (c'est le point tactique derrière le choix de e3 pour la dame ; 17 Qd3 transpose dans la ligne « 1 ») 17...Rxe3 18 Nxd5 Rd3 19 Nxb6 axb6 20 Bf4 Bg7 et une fois de plus la pression noire sur le pion d et des pièces globalement plus actives offrent une compensation raisonnable pour le pion. Néanmoins, les Noirs ne jouent que pour la nulle et un jeu précis est requis pour atteindre cet objectif : 21 Rac1 (21 Be5 Bxe5 22 dxe5 f4 coupe tout soutien de pion pour le pion e5 ; les Noirs annulent aisément par ...Ke6 et ...Rhd8) 21...Re8 22 Rc7+ Re7 23 Rxe7+ Kxe7 24 Re1+ Kd7 25 Be5 Bxe5 26 dxe5 atteint une position critique.\n\nLes Blancs peuvent-ils faire compter leur pion supplémentaire ? Les Noirs peuvent essayer :\n\n2a) 26...Rd2 suffit probablement pour la nulle ; par exemple, 27 g3 Rxb2 28 Rd1+ Ke8 29 Rd6 b5 30 Rb6 Rxa2 31 Rxb7 Ra5 32 Rxh7 b4 33 Rb7 Rxe5 34 Rxb4 Kf7 et les Noirs sont sauvés car la finale avec T+3p contre T+2p et tous les pions du même côté est nulle. C'est particulièrement facile lorsque, comme ici, le camp défenseur a les pions f+g plutôt que g+h.\n\n2b) 26...f4 ! (probablement encore plus sûr) 27 Kf1 Rd2 28 Re4 Rxb2 29 Rxf4 Ke6 30 a3 Rb1+ 31 Ke2 Rb2+ 32 Ke1 Rb1+ 33 Kd2 Ra1 34 Rf6+ Kxe5 35 Rxb6 Ra2+ 36 Ke1 Ra1+ 37 Ke2 Ra2+ et les Noirs annulent, car les Blancs ne peuvent espérer un avantage s'ils laissent tomber leur pion a3 avec échec. La conclusion est que dans cette ligne aussi les Noirs peuvent, avec une défense précise, maintenir la position dans les limites d'une nulle.\n\n15...Nxd5\n\n16 0-0\n\nMaintenant 16 Nc3 ne pose aucun problème aux Noirs vu 16...Nb4 17 0-0 Nc2 18 Rb1 Nxd4 19 Re1+ Kf7 20 Bf4 Bg7 avec une égalité totale.\n\n16...Rc8!\n\nC'est le coup clé. Les Noirs empêchent Nc3 (car ici cela impliquerait de rendre immédiatement le pion) et s'emparent du contrôle d'une colonne ouverte. Les Blancs font maintenant face à la perspective déplaisante d'une tour noire arrivant sur leur deuxième rangée. La célèbre « tour en septième » est un facteur important dans un large éventail de finales de tours. Même en finale, il reste vraisemblablement plusieurs pions sur la deuxième rangée. Quand une tour adverse y arrive, ces pions passent sous le feu. Même si un pion avance pour échapper à l'attaque, les problèmes ne sont pas terminés. L'avance du pion peut exposer un autre pion à l'attaque, ou la tour peut se placer derrière le pion qui vient de bouger. Même si la tour en septième ne gagne pas un pion immédiatement, elle liera les pièces adverses à la défense des pions vulnérables. Parfois la tour peut être chassée, mais une tour en septième qui ne peut être délogée représente un avantage significatif, et dans bien des cas suffit à décider la partie à elle seule.\n\nUne tour installée en septième en milieu de jeu peut être tout aussi forte, mais bien sûr cette situation est moins susceptible de se produire, car il y a généralement des pièces mineures disponibles pour chasser la tour.\n\n16...Bg7 est inférieur car les Blancs peuvent jouer 17 Nc3 ! Nxc3 (17...Nb4 18 Be3 est aussi légèrement meilleur pour les Blancs, tandis que 17...Rd8 18 Bg5 Rd7 19 Nxd5 Rxd5 20 Rfe1+ Kf8 21 Rac1 Rd7 22 b3 Kf7 23 d5 donne aux Blancs un avantage clair) 18 bxc3 avec un léger avantage (le fou noir serait mieux en d6, comme dans l'analyse de 15 Qe2+).\n\n17 Nd2\n\nMaintenant le cavalier doit être développé de façon plus lourde, laissant le cavalier noir incontesté en d5.\n\n17...Bg7\n\nExerçant une pression sur le pion d.\n\n18 Re1+\n\n18...Kd7\n\nMaintenant que les dames sont échangées, c'est en fait un atout pour le roi noir d'être au centre de l'échiquier. Grâce au pion blanc en d4, il n'y a aucun danger que le cavalier ou le roi noir soient harcelés par les tours blanches.\n\n19 Nf3\n\n19...Rhe8\n\nUn bon coup. La tour en e1 est la pièce la plus active des Blancs. Les Noirs visent à l'échanger, ne laissant aux Blancs que des pièces placées passivement.\n\n20 Ne5+?\n\nUne deuxième erreur d'appréciation. Avant ce coup, la situation était plus ou moins équilibrée, les avantages positionnels des Noirs compensant le pion supplémentaire. Cependant, ce coup fait basculer l'équilibre en faveur des Noirs. La combinaison d'une tour dominante en septième et du mauvais fou blanc pèse plus que le pion supplémentaire peu utile des Blancs. Les Blancs auraient dû se contenter de la nulle, qu'ils pouvaient obtenir par 20 Rxe8 ! Kxe8 21 Kf1 Rc2 22 Ne1 (22 b3 Kd7) 22...Rc6 23 Nf3 en répétant les coups. 20 Bd2 est moins net ; après 20...Rxe1+ (20...Re4 21 Rad1 est similaire) 21 Rxe1 Rc2 22 Bc1 les Noirs n'ont pas besoin de forcer la nulle par 22...Nb4 23 Bg5 (23 a3 ?? Nd3) 23...Nd5 24 Bc1 mais peuvent continuer 22...a5 et gagner progressivement de l'espace, tandis que les Blancs ont peu de coups constructifs.\n\n20...Bxe5\n\nLes pièces les plus actives des Blancs sont échangées, ne leur laissant que la tour et le fou morts de l'aile dame.\n\n21 dxe5\n\nRelativement la meilleure chance. Comme nous le verrons, les chances des Blancs sont encore pires lorsqu'une paire de tours est échangée ; par exemple, après 21 Rxe5 Rxe5 22 dxe5 f4 ! (enfermant le fou et empêchant les Blancs de soutenir le pion e5 par f4) 23 b3 (23 g3 f3 24 Bf4 Ke6 est aussi très bon pour les Noirs) 23...Ke6 24 Ba3 Rc2 25 Bd6 Nc3 26 a4 Rb2 les Blancs perdent un pion de l'aile dame, sans résoudre aucun de leurs problèmes positionnels.\n\n21...Rc2\n\nLa tour noire arrive en septième rangée, où elle restera jusqu'à la fin de la partie. Le développement des Blancs est encore retardé par l'attaque sur le pion b2.\n\n22 b3\n\nLibérant le fou. Les autres coups sont aussi insatisfaisants :\n\n1) 22 g3 Ke6 23 b3 Rec8 24 Bh6 (24 Ba3 Nc3 favorise les Noirs) 24...R8c3 25 Rec1 Rb2 et il ne faudra pas longtemps avant qu'un des pions de l'aile dame blanche tombe.\n\n2) 22 f4 (cela sécurise le pion e5, mais enferme le fou et ouvre un plus grand champ d'activité à la tour en c2) 22...Ke6 23 b3 Rec8 24 g3 (sinon les Blancs ne peuvent développer leur fou en a3, mais ce coup affaiblit encore la deuxième rangée ; 24 Be3 est fortement rencontré par 24...R8c3) 24...a5 (visant à sceller aussi le fou blanc à l'aile dame) 25 Ba3 b5 26 Rec1 (26 Bd6 tente de sortir le fou avant que la porte ne se ferme avec ...b4, mais après 26...Nc3 27 a4 b4 28 Rf1 Ne4 29 Rad1 R8c3 les Blancs perdront un pion après l'autre) 26...b4 27 Bb2 g5 ! (une belle percée menant à une attaque décisive) 28 fxg5 f4 29 gxf4 Nxf4 30 Kh1 Ne2 31 Rxc2 Rxc2 32 Rb1 Nc3 33 Bxc3 bxc3, suivi de ...Rd2 et ...c2, et le pion c passe.\n\n22...f4!\n\nLes Noirs saisissent l'occasion d'empêcher les Blancs de développer le fou le long de la diagonale c1-h6. 22...Ke6 23 Bh6 Rec8 24 Red1 offre aux Blancs de meilleures chances défensives, puisque depuis h6 le fou contrôle les cases utiles d2 et c1. Par exemple, 24...Re2 25 Rd4 (25 Rd3 Rc3 26 Rxc3 Nxc3 favorise les Noirs) 25...Rcc2 26 Rad1 offre aux Blancs un contrejeu considérable — abandonner le cavalier par 26...Rxf2 27 Rxd5 Rxg2+ 28 Kf1 n'est que nulle.\n\n23 Rd1\n\nOu 23 Ba3 Ke6 24 Kf1 g5 25 Re2 (25 Rec1 Rec8 26 Rxc2 Rxc2 est très bon pour les Noirs) 25...Rec8 26 Rae1 f3 ! 27 gxf3 Nf4 28 Rxc2 Rxc2 29 Bd6 Rxa2 et bien que les Blancs aient encore un pion de plus, ils sont presque certainement perdus. Leur mauvaise position de roi signifie que leur tour ne peut quitter la première rangée, tandis que les pions b3 et f2 sont tous deux très vulnérables. De plus, les Noirs ont une majorité utile à l'aile dame.\n\n23...Ke6\n\nLes avantages des Noirs sont substantiels, puisque outre la tour en septième, ils dominent la colonne c ouverte, leur roi bloque le pion e5 et leur cavalier est bien placé, bloquant la colonne d. Leur plan est d'échanger une paire de tours puis de gagner l'un des pions de l'aile dame avec leur tour et leur cavalier restants.\n\n24 Ba3\n\nMaintenant les Noirs ne peuvent bouger le cavalier sans permettre Rd6+. De toute façon, les Blancs menacent de doubler les tours sur la colonne d et ainsi forcer le cavalier à bouger.\n\n24...Rec8\n\nLes Blancs ne peuvent se permettre de marquer le pas car les Noirs peuvent progresser de diverses façons. La plus simple est de jouer ...b5, menaçant de repousser le fou blanc en c1. Pour éviter cela les Blancs doivent jouer Bd6, mais alors les Noirs peuvent doubler les tours en septième rangée. De plus, maintenant que la menace d'un échec en d6 est écartée, ils peuvent bouger leur cavalier.\n\n25 Rd3\n\nLa variante suivante illustre comment les Noirs gagnent s'ils peuvent échanger une paire de tours : 25 Rac1 (25 Bd6 Nc3 26 Rd3 Rxa2 n'aide pas les Blancs) 25...b5 26 Bb2 b4 27 Kf1 R8c7 (menaçant de prendre le fou) 28 Rxc2 Rxc2 29 Bd4 Nc3 (c'est plus fort que 29...a5 30 Ra1 Nc3 31 Bb6 a4 32 bxa4 Nxa2 33 Bd4, quand les choses ne sont pas entièrement claires, et 29...Rxa2 30 Rc1, quand les Blancs peuvent activer leur tour) 30 Bxc3 (30 Ra1 Nb5 31 Rd1 Rxa2 32 Bc5 a5 est sans espoir pour les Blancs car leur contrejeu est frustré par l'excellente position du cavalier noir) 30...bxc3 31 Rd3 Kxe5 32 f3 et maintenant :\n\n1) 32...Rc1+ (c'est trop tôt) 33 Ke2 (33 Kf2 ? c2 34 Rc3 Kd4 35 Rc7 Kd3 promeut le pion) 33...Rg1 34 Rxc3 Rxg2+ 35 Kd3 Rxa2 36 Rc5+ Kf6 37 h4 et il n'est pas clair si les Noirs peuvent exploiter leur pion supplémentaire.\n\n2) 32...g5 ! (c'est bien plus fort ; les Noirs avancent leurs pions de l'aile roi et seulement ensuite visent la liquidation avec ...Rc1+ et ...Rg1) 33 a4 (les Blancs n'ont guère d'autre choix que d'avancer à l'aile dame) 33...h5 34 b4 (après 34 g3 fxg3 35 hxg3 h4 36 gxh4 gxh4 le second pion passé est décisif) 34...g4 35 b5 Rc1+ 36 Ke2 c2 (maintenant cela gagne) 37 Kd2 (ou 37 Rc3 Rg1 38 Rxc2 Rxg2+ 39 Kd3 Rxc2 40 Kxc2 g3 et les Noirs gagnent) 37...Rg1 38 Kxc2 Rxg2+ 39 Kc3 Rxh2 et les Noirs gagnent aisément avec leurs pions de l'aile roi.\n\nNous revenons maintenant à 25 Rd3 :\n\n25...Re2?!\n\nLes Noirs poussent le plan de doubler les tours en septième, mais ils auraient dû dépenser un tempo pour ôter son venin au contrejeu blanc. 25...R8c6 ! 26 Rad1 Nc3 était bien meilleur, quand les Blancs font face au choix désagréable entre abandonner leur contrejeu sur la colonne d et échequer en d6, permettant un échange de tours :\n\n1) 27 Re1 Rxa2 28 Bd6 Rb2 29 b4 Nb5 et les Noirs ont pris un pion sans relâcher aucune de la pression.\n\n2) 27 Rd6+ Rxd6 28 Rxd6+ Kxe5 29 Rd8 (29 Rd7 perd une pièce sur 29...Rxa2) 29...Rxa2 30 Bd6+ Ke6 31 f3 Rd2 32 Bc7 (après 32 Rc8 Rxd6 33 Rxc3 Rc6 34 Rd3 a5 le pion passé éloigné donnera aux Noirs un gain aisé dans la finale de tours) 32...Rxd8 33 Bxd8 Ne2+ 34 Kf2 Nd4 et le pion b blanc tombe.\n\n26 Rad1\n\nPas 26 Bd6 Rxa2 27 Rad1 Nc3 28 Re1 a5 avec un avantage décisif pour les Noirs. Les Blancs ne peuvent même pas bouger le fou de façon à menacer Rd6+.\n\n26...Nc3\n\nAprès 26...Rxe5 27 Bb2, les Noirs n'ont certainement aucun avantage, si bien qu'ils sont forcés de bouger le cavalier et de permettre à au moins une tour blanche d'entrer dans leur position.\n\n27 Ra1?\n\nLes Blancs ratent une chance de nulle par 27 Rd6+ Kxe5 :\n\n1) 28 Ra1 ?! Nb5 29 Rd7 offre des chances de nulle, même si les Noirs peuvent encore obtenir un léger avantage soit par 29...Kf6 30 Bd6 (30 Bb4 ?! Rxa2 31 Rad1 Rc7 est clairement meilleur pour les Noirs) 30...Rxa2 31 Rd1 Nxd6 32 R1xd6+ Kg5 33 h4+ Kxh4 34 Rxh7+ Kg5 35 Rd5+ Kf6 36 Rd6+ Ke5 37 Rxg6 Rc1+ 38 Kh2 Raa1 soit par 29...Rcc2 30 Bb4 (30 Re7+ Kf6 31 Rxe2 Rxe2 32 Bb4 Rc2 est aussi légèrement meilleur pour les Noirs) 30...Rxf2 (30...Rxa2 31 Rad1 donne aux Blancs un contrejeu correct) 31 Re1+ Kf5 32 Rd5+ Kf6 33 Rxb5 Rxg2+ 34 Kh1 Rxh2+ 35 Kg1 Rhg2+ 36 Kh1 f3 37 Bd6.\n\n2) 28 Rd7 ! (ce point tactique permet aux Blancs d'annuler) 28...Nxd1 29 Re7+ Kf5 30 Rxe2 Rc7 (30...Nc3 31 Re7 est égal) 31 f3 Ne3 32 g4+ Kf6 33 Kf2 et les Noirs ont peu de chances de tirer quoi que ce soit de leur avantage microscopique.\n\n27...Ne4?\n\nJusqu'ici, la partie a été extrêmement instructive concernant le jeu sur la colonne ouverte et la septième rangée, mais le reste de la partie porte toutes les marques d'un sérieux zeitnot. Ici les Noirs auraient dû jouer 27...Nb5 ! 28 Bb4 Rxa2, gagnant le pion a2 tout en neutralisant le contrejeu blanc en couvrant d6, avec un avantage quasi décisif.\n\n28 f3\n\n28...Ng5\n\nAprès 28...Rcc2 !? 29 fxe4 Rxg2+ 30 Kf1 Rxh2 31 Kg1 Rcg2+ 32 Kf1 Kxe5 33 Re1 il est douteux que les Noirs aient mieux que la nulle.\n\n29 Rd6+\n\n29...Kf5\n\nForcé, car 29...Kxe5 30 Rad1 Ne6 31 R6d2 donne aux Blancs une nulle aisée.\n\n30 Rd5?\n\nLes Blancs ratent une possibilité de nulle, il est vrai surprenante et inhabituelle. 30 h4 ! est correct : 30...Ne6 31 Rd7 Rcc2 (il n'y a rien de mieux) 32 Rad1 et maintenant la menace de mat en deux par 33 Rf7+ Kxe5 34 Bd6# s'avère étonnamment difficile à parer ; par exemple, 32...Rxg2+ 33 Kh1 Kxe5 (33...Nc7 34 Rf7+ Ke6 35 Re7+ Kf5 36 Rf7+ est aussi nulle) 34 R1d5+ Kf6 35 Rxh7 (créant une nouvelle menace de mat par 36 Be7#) 35...Ng7 36 Rd6+ Ke5 37 Rxg7 Rh2+ 38 Kg1 Rcg2+ 39 Kf1 Rf2+ 40 Ke1 Rxa2 41 Re7+ Kf5 42 Rf7+ avec échecs perpétuels.\n\n30...Ne6\n\nLes Noirs avaient une forte alternative en 30...Rcc2 31 e6+ Kf6 32 Be7+ (la seule chance, car 32 e7 Rxg2+ mate en trois coups de plus) 32...Kxe7 33 Rxg5 Kxe6 34 a4 Rb2 ramassant le pion b3 tout en conservant une pression considérable contre la position blanche. Cependant, le coup joué devrait aussi suffire à gagner puisque le nouveau blocus du pion e retient les Blancs assez longtemps pour que les Noirs doublent les tours en septième rangée.\n\n31 Kh1\n\n31 g4+ fxg3 32 hxg3 Rcc2 est sans espoir, car les tours doublées feront un massacre des pions de l'aile roi blanche.\n\n31...Rcc2\n\n32 Rad1?!\n\nCela permet un gain simple, mais même après 32 Rg1 Rxa2 33 Bb4 (33 Bd6 Ng5, menaçant à la fois 34...Nxf3 et 34...Nh3, gagne après 34 e6+ Kxe6 35 Rxg5 Kxd6) 33...b6 34 Rd7 Ng5 l'attaque noire est décisive. La fin pourrait être 35 h3 (la meilleure chance, tendant un vilain piège) 35...a5 ! (35...Nxf3 ? 36 Rf7+ Ke6 37 Re7+ force la nulle car 37...Kd5 38 Rd1+ Kc6 39 gxf3 n'offre aux Noirs rien de plus que l'échec perpétuel) 36 Bf8 Rad2 ! 37 Rb7 (37 Rxd2 Rxd2 donne aux Noirs un pion de plus et une bonne position) 37...Rf2 ! 38 Rxb6 (38 e6 Nxf3 39 e7 Rxg2 mate) 38...Nxh3 39 Bc5 Rfe2 et les Noirs gagnent du matériel.\n\n32...Rxa2\n\nIl n'y a rien de mal à prendre ce pion, mais 32...Rxg2 gagne aisément : 33 Rd7 Rxh2+ 34 Kg1 Ng5.\n\n33 Bb4\n\n33...h6?\n\nIl est difficile d'imaginer le raisonnement derrière ce coup. Peut-être les Noirs croyaient-ils que les Blancs étaient si impuissants qu'ils pouvaient simplement jouer des coups d'attente jusqu'au contrôle du temps. En tout cas, les Noirs avaient encore un gain simple par 33...Rxg2 34 Bd2 Rf2.\n\n34 h4?\n\nC'était le moment pour les Blancs d'activer leur tour par 34 Rd7 Rxg2 (34...Kg5 35 Re7 est aussi nulle) 35 h4 quand à nouveau la menace de mat avec Rf7+ assure la nulle ; par exemple, 35...g5 36 Rf7+ Kg6 37 Rf6+ Kh5 38 Rxe6 Rh2+.\n\n34...g5!\n\nC'est un bon coup, qui donne de l'air au roi noir. 34...Rxg2 35 Rd7 transpose dans la nulle de la note précédente.\n\n35 Rd7\n\nLa meilleure chance, car 35 hxg5 Rxg2 36 gxh6 Rh2+ 37 Kg1 Rag2+ 38 Kf1 Rg3 donne aux Noirs une attaque très forte. Ni 39 Rd7 Rxf3+ 40 Kg1 Rfh3 ni 39 R5d3 Ng5 40 Bc5 Rh1+ 41 Ke2 Rg2+ 42 Bf2 Rhh2 43 Rf1 Nh3 44 Ke1 Nxf2 45 Rd2 Kxe5 46 Rdxf2 Rxf2 47 Rxf2 Rxf2 48 Kxf2 Kf6 n'offrent aux Blancs aucun espoir de survie.\n\n35...gxh4\n\nMaintenant les Blancs ne peuvent forcer une nulle immédiate, mais ils peuvent encore inquiéter le roi noir.\n\n36 Rf7+\n\n36...Kg5\n\nÉvitant 36...Kxe5 ?? 37 Bd6#.\n\n37 Be7+\n\nLes Blancs doivent maintenir l'élan, sinon les Noirs gagneront rapidement. Cela s'applique particulièrement maintenant que le pion h4 peut se joindre à l'attaque ; par exemple, 37 Re7 ? Rxg2 38 Rxe6 Rh2+ 39 Kg1 Rag2+ 40 Kf1 h3 avec un mat rapide.\n\n37...Kh5\n\n38 Rf5+\n\n38...Ng5\n\n39 Rxf4?\n\nLes Blancs ne tirent pas le maximum de leur contrejeu. Ils auraient dû jouer 39 Bxg5 hxg5 40 Rf7 h3, et maintenant :\n\n1) 41 gxh3 ? permet au roi noir de participer à l'attaque et perd donc sur 41...Kh4 42 Rg7 Rh2+ 43 Kg1 Rhg2+ 44 Kh1 (ou 44 Kf1 Raf2+ 45 Ke1 Rh2 46 e6 Ra2) 44...Kxh3 45 Rh7+ Kg3 46 e6 Rh2+ 47 Rxh2 Rxh2+ 48 Kg1 Re2.\n\n2) 41 Rh7+ Kg6 42 Rxh3 (rétablissant l'égalité matérielle ; les tours actives des Noirs leur donnent les meilleures chances mais la partie est loin d'être finie) 42...Ra6 (le point est que 42...Rxg2 43 Rd6+ Kf5 44 Rhh6 met en place un échec perpétuel inévitable, si bien que les Noirs n'ont rien de mieux que de retirer leurs tours de leurs positions actives afin d'encercler le pion e) 43 g3 ! (liquider les pions est le seul espoir de nulle ; 43 Rd6+ Rxd6 44 exd6 Rd2 gagne pour les Noirs car ils ont un pion de plus et leurs pièces sont bien plus activement placées) 43...Rxe5 44 gxf4 gxf4 avec un grand avantage, mais pas encore décisif, pour les Noirs.\n\n39...h3?\n\n39...Rxg2 ! 40 Bxg5 hxg5 est une méthode de gain bien plus simple ; par exemple, 41 Rg4 (41 Rf8 Rh2+ 42 Kg1 h3 est aussi décisif) 41...Rh2+ 42 Kg1 Rhe2 et les Noirs auront deux pions clairs de plus.\n\n40 Bxg5\n\n40 gxh3 permet le mat par 40...Rh2+ 41 Kg1 Nxh3+ 42 Kf1 Rh1#.\n\n40...hxg5\n\n41 Rf7\n\n41 Rg4 hxg2+ 42 Kg1 Kg6 devrait gagner pour les Noirs, p. ex. 43 f4 Kf5 44 Rxg5+ Kxf4 45 Rg7 b6 46 e6 (sinon les Noirs prennent le pion e et ont simplement deux pions de plus) 46...Rxe6 47 Rxg2 Rxg2+ 48 Kxg2 Re3 49 b4 Rb3 50 Ra1 Rxb4 51 Rxa7 Rb2+ 52 Kf1 Ke3 et le roi noir peut se placer devant le pion, menant à une position de Lucena inévitable.\n\n41 Ra4 échoue aussi à sauver la partie : 41...hxg2+ 42 Kg1 Rxa4 43 bxa4 Kh4 44 Kh2 g1Q+ 45 Kxg1 Kg3 46 Kf1 Rxe5 47 Rd7 a5 48 Rxb7 Kxf3 49 Rb3+ Kf4 gagne car la tour blanche sera désespérément passive après ...Re4.\n\n41...hxg2+\n\n42 Kh2\n\n0-1\n\nUn moment étrange pour jeter l'éponge. Les Noirs devraient gagner, mais un jeu très précis est encore requis. La meilleure ligne est 42...b6 ! (42...g1Q++ 43 Kxg1 Kh4 44 f4 et 42...Rxe5 43 Rh7+ Kg6 44 Rxb7 sont moins clairs) et maintenant :\n\n1) 43 Rf5 Rab2 44 Rg1 (44 f4 Kg4 45 Rxg5+ Kxf4 46 Rg7 Rxe5 47 Rd4+ Kf5 48 Rxg2 Rxb3 et les Noirs gagnent) 44...a5 45 Kh3 (les Blancs ont peu de coups) 45...Rxb3 46 Rxg2 Rxg2 47 Kxg2 Rb2+ ! (certainement pas 47...Rb5 ? 48 f4 Kg4 49 e6 !, tandis que 47...a4 48 Rf8 n'est pas particulièrement clair) 48 Kg3 (48 Kf1 Rb5 49 f4 Kg4 50 e6 Rxf5 et 48 Kg1 a4 49 e6 a3 50 e7 Re2 gagnent pour les Noirs) 48...Re2 49 Rf6 (49 f4 Re3+ 50 Kf2 Kg4 51 Rxg5+ Kxf4 52 Rg6 b5 53 e6 Re5 gagne pour les Noirs) 49...b5 50 Ra6 a4 51 e6 Re5 52 Ra5 (52 Rc6 a3) 52...Rxe6 53 Rxb5 Ra6 54 Rb2 (après 54 f4 a3 les Blancs n'ont pas le temps de prendre le pion g5, si bien qu'ils doivent retirer leur tour pour bloquer le pion a) 54...a3 55 Ra2 Ra4 56 Kf2 Kg6 57 Ke2 Kf5 58 Ke3 Ra8 59 Ke2 Kf4 60 Kf2 Ra7 61 Kg2 (après 61 Ke2 Re7+ 62 Kf2 Re3 les Noirs gagnent le pion f3) 61...Ke3 62 Kg3 Ra4 63 Kg2 Kd3 et le roi se dirige vers le pion a.\n\n2) 43 Rg1 Rxe5 44 Rxg2 Rxg2+ 45 Kxg2 a5 (les Noirs joueront ...Rb5, forçant la tour blanche dans une position passive) 46 Rh7+ Kg6 47 Rd7 Rb5 48 Rd3 Kf5 et le pion supplémentaire des Noirs ainsi que leurs pièces plus actives devraient suffire à gagner. Voici une ligne type : 49 Kg3 (ou 49 Kf2 Kf4 50 Re3 Rb4 51 Rd3 b5 52 Ke2 a4 53 bxa4 bxa4 54 Kf2 Rb2+ 55 Kg1 Ra2) 49...Rb4 50 Re3 b5 51 Rc3 Ke5 52 Rd3 a4 53 bxa4 bxa4 54 Rd7 a3 55 Ra7 Rb3 56 Ra4 Kd5 57 Kg4 Rc3 58 Kxg5 Rxf3 et le roi blanc est tout simplement trop loin : 59 Kg4 Rc3 60 Kf5 Kc5 61 Ra8 Kb4 62 Ke4 Kb3 63 Rb8+ Kc2 64 Kd4 Rh3 65 Ra8 Kb2 et le pion avance.\n\nBien que la dernière partie de cette partie ait été assez confuse, la première partie est une démonstration parfaite de la façon d'établir et d'exploiter la puissance d'une tour en septième. Malgré le pion supplémentaire des Blancs, la tour a exercé une influence si paralysante que les Blancs ont à peine pu offrir une réelle résistance. Au final, la partie a basculé en faveur des Noirs, mais seulement après une lutte très fluctuante.\n\nLes leçons ici sont :\n\n1) La liquidation vers une finale n'est pas toujours le meilleur moyen d'exploiter un avantage matériel.\n\n2) Une tour installée de façon permanente en septième rangée peut aisément compenser un pion supplémentaire.\n\n3) Lorsque votre adversaire est complètement lié, vous pouvez vous permettre de prendre votre temps pour neutraliser tout contrejeu potentiel.\n\n4) Ne résignez pas à moins d'être vraiment sûr que la position est sans espoir.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "La tour en septième\n\nDans la position initiale, tous les pions sont alignés sur la deuxième rangée. Ce simple fait est le fondement principal de la puissance d'une tour en septième rangée en finale. Bien que certains pions (surtout les pions centraux) aient avancé lorsque l'on arrive en finale, il en restera presque toujours un certain nombre sur la deuxième rangée. Quand une tour adverse arrive sur cette rangée, elle attaque des pions à gauche et à droite ; même si l'un d'eux s'écarte du chemin de la tour, il y en aura probablement un autre vulnérable derrière.\n\nLe schéma habituel pour obtenir et exploiter l'avantage d'une tour en septième se déroule ainsi : prendre le contrôle d'une colonne ouverte ; échanger suffisamment de pièces pour qu'une tour s'installe en septième rangée, liant les pièces adverses à la défense des pions vulnérables ; exploiter l'avantage résultant en entreprenant une activité ailleurs sur l'échiquier.\n\nDans la partie suivante, les Noirs sont prêts à sacrifier un pion pour mettre ce plan en œuvre.\n\nE. Handoko – Xu Jun\n\nChampionnat d'Asie par équipes, Singapour 1995\n\nSicilienne, 2 c3"
+    },
+    {
+      "ply": 1,
+      "san": "e4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "c5",
+      "text": "Pour les commentaires sur les coups jusqu'ici, voir la Partie 8.",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "c3",
+      "text": "Dans toutes les parties précédentes de ce livre avec la défense sicilienne, les Blancs ont poursuivi par 2 Nf3. L'idée de Nf3 est de jouer rapidement d4, où l'avance de développement des Blancs compense l'avantage des Noirs d'avoir un pion central supplémentaire. Le coup 2 c3, en revanche, vise à jouer d4 dans une position où les Blancs peuvent reprendre en d4 avec un pion, gagnant ainsi le contrôle du centre sans faire de concession. Bien sûr, la vie n'est jamais aussi simple et les Noirs disposent de divers moyens de contrer le plan blanc. C'est une méthode assez populaire pour rencontrer la Sicilienne, peut-être parce qu'elle peut se jouer avec moins de connaissances théoriques que 2 Nf3.",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "Nf6",
+      "text": "C'est l'un des deux systèmes principaux que les Noirs peuvent employer contre 2 c3. L'autre est 2...d5 3 exd5 Qxd5, qui n'expose qu'en apparence la dame noire à l'attaque ; en réalité il n'est pas facile pour les Blancs de gagner du temps sur la dame parce que le coup c3 a retiré la case naturelle à leur cavalier de dame.\n\nLe coup du texte repose sur une autre idée. Les Noirs veulent attirer le pion e blanc en avant jusqu'en e5, afin de pouvoir l'attaquer par ...d6, éliminant ainsi le principal avant-poste blanc au centre. Les deux systèmes sont populaires et l'on estime que tous deux donnent aux Noirs une partie plus ou moins égale s'ils sont poursuivis avec précision. Il vaut la peine de mentionner que 2...e5, 2...d6 et 2...e6 sont tous des systèmes parfaitement jouables, mais n'ont jamais atteint la même popularité que 2...d5 et 2...Nf6.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "e5",
+      "text": "Le seul coup dangereux.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "Nd5",
+      "text": "Un peu comme dans la défense Alekhine (voir la Partie 4), le cavalier noir saute d'une case à l'autre, attirant les pions blancs en avant.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "d4",
+      "text": "Les Blancs ont réalisé leur ambition de jouer d4, mais leurs pions centraux ne sont plus côte à côte et les Noirs peuvent aisément frapper le pion e avancé par ...d6.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "cxd4",
+      "text": "Les Noirs doivent échanger immédiatement, sinon les Blancs pourraient jouer c4 suivi de d5, ou éventuellement dxc5.",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "Nf3",
+      "text": "C'est la suite principale. Les Blancs utilisent le clouage le long de la colonne d pour laisser les Noirs dans l'incertitude sur la façon dont ils reprendront en d4. 5 cxd4 d6 rend la vie assez facile aux Noirs, tandis que 5 Qxd4 e6 est aussi relativement inoffensif — les Blancs ont gagné du temps en attaquant le cavalier noir, mais cela est compensé par le fait qu'ils n'ont fait aucun usage du coup c3.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "Nc6",
+      "text": "Les Noirs poursuivent par un coup de développement flexible. Il est aussi parfaitement raisonnable de jouer 5...e6 6 cxd4 (maintenant que d5 est défendu, les Blancs doivent reprendre en d4) 6...d6 (6...b6 est une autre ligne populaire), sapant le pion e5.",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "Bc4",
+      "text": "La ligne la plus vive, dans laquelle les Blancs offrent un pion, bien qu'il ne soit pas souvent pris. L'alternative, 6 cxd4 d6 7 Bc4 Nb6 8 Bb5 dxe5 9 Nxe5 Bd7, offre peu aux Blancs car elle conduit à des échanges de pièces qui ne font que retirer une bonne part de la tension de la position.",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "Nb6",
+      "text": "Tout comme au coup précédent, les Noirs peuvent jouer prudemment avec 6...e6 7 cxd4 d6, qui est moins provocant mais probablement aussi égal.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "Bb3",
+      "text": "Trait aux Noirs\n\nLe fou reste sur la diagonale menant à la case sensible f7.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "g6",
+      "text": "La ligne habituelle est 7...d6 8 exd6 Qxd6, où les Blancs poursuivent par 9 Na3 ou 9 0-0, offrantant encore un pion en échange d'une avance de développement. Les variantes qui en résultent sont très vives et la suite du texte, bien qu'assez inhabituelle, offre une alternative intéressante à 7...d6. L'idée reste de contester le pion central blanc par ...d6, mais seulement après que les Noirs aient progressé vers le roque.\n\nTrès peu de joueurs ont osé accepter le sacrifice de pion par 7...dxc3 8 Nxc3. Les Blancs ont une avance substantielle de développement pour le pion, même s'il n'y a certainement pas de KO immédiat. Après 8...g6 (8...e6 9 Ne4 Bb4+ 10 Bd2 0-0 11 Bxb4 Nxb4 12 Nd6 rend le développement noir très difficile) 9 0-0 Bg7 10 Qe2 0-0 11 Rd1 les Blancs ont une forte pression. Les Noirs peuvent difficilement se libérer sans rendre le pion, mais alors les pièces plus actives des Blancs tendent à leur donner l'avantage.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "Ng5",
+      "text": "Un moment critique pour les Blancs. Ils doivent décider s'ils poursuivent de façon positionnelle par 8 cxd4, ou s'ils optent pour le coup disruptif du texte, qui frappe le point faible traditionnel, f7. Après 8 cxd4 Bg7 9 0-0 0-0 10 Nc3 d6 la position est à peu près égale. Les Noirs exercent déjà une forte pression contre e5, qu'ils peuvent accroître par ...Bg4. Si les Blancs ne peuvent maintenir leur pion e5, ils ont peu de chances d'obtenir un avantage digne de ce nom. Le coup du texte est très engageant. S'il ne conduit à aucune concession concrète des Noirs, tôt ou tard le cavalier devra se retirer de g5, avec une perte de temps considérable. Les Blancs sont donc obligés de poursuivre leurs tactiques disruptives, afin que le coup de cavalier ne soit pas vain.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "d5",
+      "text": "8...e6 9 Ne4, menaçant à la fois Nf6+ et Bg5, est très gênant pour les Noirs, tandis que 8...Nxe5 9 Bf4 ! (9 Qxd4 d5 10 Qxe5 f6 11 Qe2 fxg5 12 Bxg5 favorise aussi les Blancs) 9...Nec4 10 Bxc4 Nxc4 11 Qxd4 f6 12 Qxc4 fxg5 13 Be5 est excellent pour les Blancs, si bien que le coup du texte est forcé.",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "exd6",
+      "text": "Les Blancs sont engagés dans cette voie puisque 9 cxd4 f6 10 Nf3 ne fait que perdre du temps avec le cavalier — après 10...Bg7 les Noirs sont au moins égaux.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "e6",
+      "text": "Le plan des Noirs est assez simple. Ils visent à poursuivre leur développement par ...Bg7, ...0-0 et ...Qxd6. Les Blancs devront probablement retirer leur cavalier de g5 à un moment donné, et ils n'auront alors guère de résultat à montrer pour leur attaque précoce sur f7.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "Qf3",
+      "text": "10 Ne4 Bg7 paraît correct pour les Noirs, puisque les Blancs ne peuvent pas maintenir leur pion en d6 indéfiniment. Les Noirs n'ont pas non plus de problèmes après 10 cxd4 Qxd6, car les Blancs doivent s'occuper de la menace contre leur pion d4.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "f5",
+      "text": "C'est un coup provocateur et quelque peu risqué. Les Noirs empêchent définitivement l'attaque blanche sur f7, mais au prix d'abandonner le pion e6, qui est un défenseur clé de la position de leur roi. De plus, dans la ligne principale les Noirs sont virtuellement engagés à sacrifier un pion. La seule raison pour laquelle ce coup n'est pas suicidaire est que le développement des Blancs n'est pas assez bon pour soutenir une attaque vraiment dangereuse. Ils n'ont pas encore roqué, et leurs pièces de l'aile dame sont toutes à la maison, si bien que les Noirs ont le temps de défendre leur roi avant que les Blancs ne puissent créer de menaces sérieuses. Les alternatives sont :\n\n1) 10...Ne5 11 Qg3 Bg7 12 0-0 0-0 est obscur. Les Noirs ont paré l'attaque sur f7, mais au prix de perdre du temps avec leur cavalier, qui devra bientôt bouger à nouveau.\n\n2) 10...f6 !? et maintenant :\n\n2a) 11 Bxe6 Bxd6 12 Bf7+ (12 Nf7 Qe7 13 Nxd6+ Qxd6 14 Bxc8 Qe7+ est correct pour les Noirs) 12...Kd7 13 Qg4+ Kc7 14 Ne6+ Bxe6 15 Qxe6 Qf8 est un bon exemple de la façon dont une attaque précoce mal soutenue peut se retourner. Les Blancs sont confrontés à la menace de ...Nd8 et après 16 Na3 (16 Qb3 Ne5 17 Bd5 Nd3+ 18 Kd2 Nc5 gagne pour les Noirs) 16...a6 17 Nc4 Re8 ! les Noirs gagnent deux pièces pour une tour.\n\n2b) 11 Nxe6 Bxe6 12 Bxe6 Bxd6 13 Qh3 (13 0-0 Bxh2+ 14 Kxh2 Qd6+ est au moins égal pour les Noirs) 13...f5 14 0-0 Qf6 15 Re1 est légèrement meilleur pour les Blancs.\n\nNous revenons maintenant à 10...f5 !? :\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "Bxe6",
+      "text": "Le coup critique. 11 Nxe6 Bxe6 12 Bxe6 Bxd6 est satisfaisant pour les Noirs, puisque 13...Qe7 est une menace, et après 13 0-0 Bxh2+ 14 Kxh2 Qd6+ 15 Bf4 Qxe6 16 Nd2 0-0 les Blancs n'ont pas assez de compensation pour le pion. Une autre idée est 11 0-0 Bxd6 12 Nxe6 Bxe6 13 Qe2, cherchant à prendre en e6 avec la dame (ce qui serait effectivement très dangereux). Cependant, après 13...Bxh2+ ! 14 Kxh2 Qd6+ 15 Kg1 Kf7 les Blancs n'ont encore une fois pas assez pour le pion.",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "Bxe6",
+      "text": "11...Bxd6 n'est pas possible ici, car les Blancs peuvent simplement jouer 12 0-0 avec une attaque dangereuse (le cavalier en g5 n'est pas en prise comme il l'était dans la ligne analogue après 10...f6).",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "Nxe6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "Qxd6",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Nxd4",
+      "text": "C'est le choix naturel. Après 13 Nxf8 Rxf8 14 0-0 0-0-0 les Noirs sont plutôt bien. Toutes leurs pièces sont en jeu, tandis que l'aile dame blanche est encore à la maison.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "Nxd4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "cxd4",
+      "text": "Trait aux Noirs\n\nUne position critique pour l'évaluation de la ligne avec 7...g6 est née. L'attaque précoce des Blancs s'est essoufflée, et les Noirs peuvent même revendiquer une légère avance de développement — ils ont deux pièces en jeu contre une pour les Blancs, et c'est à eux de jouer. De plus, le pion d4 est faible. En face, les Blancs ont un pion de plus et l'attaque sur b7 compense le fait que d4 est en prise. Au total, je soupçonne que les avantages des Noirs ne compensent pas tout à fait le pion supplémentaire. Même si les Noirs peuvent parfois récupérer le pion en d4, le temps que cela prend peut permettre aux Blancs de s'emparer de l'initiative. Si les Noirs refusent de prendre le pion pour se concentrer plutôt sur un développement rapide, ils peuvent perdre définitivement la chance de le récupérer. Un point positif pour les Noirs est que même si les Blancs parviennent à conserver leur pion d, le gain peut s'avérer fuyant. Gagner une position dans laquelle toutes les pièces blanches sont liées à la défense du pion d4 ne sera pas facile. Il s'ensuit que les Noirs seront heureux d'obtenir la nulle à partir de la position du diagramme, puisque la plupart du danger est de leur côté.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "Qd5",
+      "text": "Les Noirs ne peuvent se permettre d'abandonner le pion b7, car l'échange de ce pion sain contre le faible pion d4 des Blancs favoriserait sans doute les Blancs. 14...Bg7 15 0-0 0-0 16 Qxb7, par exemple, est très bon pour les Blancs. Récupérer le pion par 14...Qxd4 est trop risqué ; après 15 0-0 (pas 15 Qxb7 ? Bb4+ 16 Bd2 0-0, quand le roi blanc est fatalement coincé au centre) 15...0-0-0 (accroché au pion b7, mais le roi noir est trop exposé en c8) 16 Bg5 Rd7 17 Nc3 (soudain les Blancs ont de l'avance en développement) 17...Kb8 18 Rfd1 Qg7 19 Bf4+ Ka8 20 Nb5 les Blancs ont une attaque décisive.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Qxd5",
+      "text": "Ce coup montre une mauvaise compréhension de la position et abandonne toute chance d'obtenir l'avantage. En finale, les pièces noires peuvent rapidement occuper des cases idéales : cavalier en d5, fou en g7 attaquant d4, et tours en c8 et e8. Il s'avère que les Blancs ne peuvent pas jouer Nc3 pour contester le cavalier en d5, si bien que le blocus noir est virtuellement inexpugnable. Si les Blancs veulent obtenir l'avantage, ils doivent essayer de garder les dames. Cela a deux avantages : ils ont la chance de déranger le roi noir, et ils pourraient gagner un tempo avec Nc3 plus tard. Les deux principales alternatives sont :\n\n1) 15 Qe2+ Kf7 16 0-0 (pas 16 Nc3 ? Qxg2) 16...Re8 17 Qd3 Qc4 !? (le meilleur coup ; après 17...Bg7 18 Be3 Qc4 19 Qa3 les Blancs attaquent a7, et gagneront du temps en attaquant la dame noire) 18 Qf3 Qd5 (18...Qxd4 19 Qxb7+ Re7 20 Qf3 Qd5 21 Qh3 ne donne pas assez aux Noirs pour le pion) 19 Qxd5+ (maintenant c'est bien plus dangereux, car les Blancs peuvent immédiatement contester le cavalier en d5 ; si la dame blanche s'éloigne vers une autre case, comme g3 ou h3, alors les Noirs jouent ...Bg7 et récupèrent rapidement le pion d4) 19...Nxd5 20 Nc3 et maintenant :\n\nTrait aux Noirs\n\n1a) 20...Nb4 21 Rb1 Bg7 22 a3 paraît bon pour les Blancs.\n\n1b) 20...Rd8 21 Bg5 Rd7 22 Rfe1 h6 23 Be3 Bg7 24 Nxd5 Rxd5 25 Rac1 Rhd8 26 Rc7+ R8d7 27 Rxd7+ Rxd7 28 Kf1 h5 29 Ke2 offre aux Blancs quelques chances de gain.\n\n1c) 20...Nxc3 21 bxc3 Bd6 (21...Rc8 22 Rb1 b6 23 Bd2 Rc4 est une autre ligne raisonnable qui offre de bonnes chances de nulle) paraît la meilleure ligne des Noirs. Il est difficile pour les Blancs de gagner lorsqu'ils sont handicapés par le pion c arriéré. La suite pourrait être 22 Rb1 b6 23 Rb2 Rc8 24 Bd2 Rhe8, quand les Noirs ont une compensation correcte pour le pion. Il est difficile de voir comment les Blancs peuvent activer leurs pièces, mais les Noirs ont la possibilité de déplacer leur roi vers une position plus active en jouant ...Ke6-d5. La conclusion est qu'avec un jeu précis les Noirs ont de bonnes chances de nulle contre 15 Qe2+.\n\n2) 15 Qe3+ Kf7 16 0-0 Re8 17 Nc3 (c'est le point tactique derrière le choix de e3 pour la dame ; 17 Qd3 transpose dans la ligne « 1 ») 17...Rxe3 18 Nxd5 Rd3 19 Nxb6 axb6 20 Bf4 Bg7 et une fois de plus la pression noire sur le pion d et des pièces globalement plus actives offrent une compensation raisonnable pour le pion. Néanmoins, les Noirs ne jouent que pour la nulle et un jeu précis est requis pour atteindre cet objectif : 21 Rac1 (21 Be5 Bxe5 22 dxe5 f4 coupe tout soutien de pion pour le pion e5 ; les Noirs annulent aisément par ...Ke6 et ...Rhd8) 21...Re8 22 Rc7+ Re7 23 Rxe7+ Kxe7 24 Re1+ Kd7 25 Be5 Bxe5 26 dxe5 atteint une position critique.\n\nTrait aux Noirs\n\nLes Blancs peuvent-ils faire compter leur pion supplémentaire ? Les Noirs peuvent essayer :\n\n2a) 26...Rd2 suffit probablement pour la nulle ; par exemple, 27 g3 Rxb2 28 Rd1+ Ke8 29 Rd6 b5 30 Rb6 Rxa2 31 Rxb7 Ra5 32 Rxh7 b4 33 Rb7 Rxe5 34 Rxb4 Kf7 et les Noirs sont sauvés car la finale avec T+3p contre T+2p et tous les pions du même côté est nulle. C'est particulièrement facile lorsque, comme ici, le camp défenseur a les pions f+g plutôt que g+h.\n\n2b) 26...f4 ! (probablement encore plus sûr) 27 Kf1 Rd2 28 Re4 Rxb2 29 Rxf4 Ke6 30 a3 Rb1+ 31 Ke2 Rb2+ 32 Ke1 Rb1+ 33 Kd2 Ra1 34 Rf6+ Kxe5 35 Rxb6 Ra2+ 36 Ke1 Ra1+ 37 Ke2 Ra2+ et les Noirs annulent, car les Blancs ne peuvent espérer un avantage s'ils laissent tomber leur pion a3 avec échec. La conclusion est que dans cette ligne aussi les Noirs peuvent, avec une défense précise, maintenir la position dans les limites d'une nulle.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "Nxd5",
+      "text": "16 0-0\n\nMaintenant 16 Nc3 ne pose aucun problème aux Noirs vu 16...Nb4 17 0-0 Nc2 18 Rb1 Nxd4 19 Re1+ Kf7 20 Bf4 Bg7 avec une égalité totale.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Rc8",
+      "text": "C'est le coup clé. Les Noirs empêchent Nc3 (car ici cela impliquerait de rendre immédiatement le pion) et s'emparent du contrôle d'une colonne ouverte. Les Blancs font maintenant face à la perspective déplaisante d'une tour noire arrivant sur leur deuxième rangée. La célèbre « tour en septième » est un facteur important dans un large éventail de finales de tours. Même en finale, il reste vraisemblablement plusieurs pions sur la deuxième rangée. Quand une tour adverse y arrive, ces pions passent sous le feu. Même si un pion avance pour échapper à l'attaque, les problèmes ne sont pas terminés. L'avance du pion peut exposer un autre pion à l'attaque, ou la tour peut se placer derrière le pion qui vient de bouger. Même si la tour en septième ne gagne pas un pion immédiatement, elle liera les pièces adverses à la défense des pions vulnérables. Parfois la tour peut être chassée, mais une tour en septième qui ne peut être délogée représente un avantage significatif, et dans bien des cas suffit à décider la partie à elle seule.\n\nUne tour installée en septième en milieu de jeu peut être tout aussi forte, mais bien sûr cette situation est moins susceptible de se produire, car il y a généralement des pièces mineures disponibles pour chasser la tour.\n\n16...Bg7 est inférieur car les Blancs peuvent jouer 17 Nc3 ! Nxc3 (17...Nb4 18 Be3 est aussi légèrement meilleur pour les Blancs, tandis que 17...Rd8 18 Bg5 Rd7 19 Nxd5 Rxd5 20 Rfe1+ Kf8 21 Rac1 Rd7 22 b3 Kf7 23 d5 donne aux Blancs un avantage clair) 18 bxc3 avec un léger avantage (le fou noir serait mieux en d6, comme dans l'analyse de 15 Qe2+).",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Nd2",
+      "text": "Maintenant le cavalier doit être développé de façon plus lourde, laissant le cavalier noir incontesté en d5.",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "Bg7",
+      "text": "Exerçant une pression sur le pion d.",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "Re1+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "Kd7",
+      "text": "Maintenant que les dames sont échangées, c'est en fait un atout pour le roi noir d'être au centre de l'échiquier. Grâce au pion blanc en d4, il n'y a aucun danger que le cavalier ou le roi noir soient harcelés par les tours blanches.",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "Nf3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "Rhe8",
+      "text": "Un bon coup. La tour en e1 est la pièce la plus active des Blancs. Les Noirs visent à l'échanger, ne laissant aux Blancs que des pièces placées passivement.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "Ne5+",
+      "text": "Une deuxième erreur d'appréciation. Avant ce coup, la situation était plus ou moins équilibrée, les avantages positionnels des Noirs compensant le pion supplémentaire. Cependant, ce coup fait basculer l'équilibre en faveur des Noirs. La combinaison d'une tour dominante en septième et du mauvais fou blanc pèse plus que le pion supplémentaire peu utile des Blancs. Les Blancs auraient dû se contenter de la nulle, qu'ils pouvaient obtenir par 20 Rxe8 ! Kxe8 21 Kf1 Rc2 22 Ne1 (22 b3 Kd7) 22...Rc6 23 Nf3 en répétant les coups. 20 Bd2 est moins net ; après 20...Rxe1+ (20...Re4 21 Rad1 est similaire) 21 Rxe1 Rc2 22 Bc1 les Noirs n'ont pas besoin de forcer la nulle par 22...Nb4 23 Bg5 (23 a3 ?? Nd3) 23...Nd5 24 Bc1 mais peuvent continuer 22...a5 et gagner progressivement de l'espace, tandis que les Blancs ont peu de coups constructifs.",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "Bxe5",
+      "text": "Les pièces les plus actives des Blancs sont échangées, ne leur laissant que la tour et le fou morts de l'aile dame.",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "dxe5",
+      "text": "Relativement la meilleure chance. Comme nous le verrons, les chances des Blancs sont encore pires lorsqu'une paire de tours est échangée ; par exemple, après 21 Rxe5 Rxe5 22 dxe5 f4 ! (enfermant le fou et empêchant les Blancs de soutenir le pion e5 par f4) 23 b3 (23 g3 f3 24 Bf4 Ke6 est aussi très bon pour les Noirs) 23...Ke6 24 Ba3 Rc2 25 Bd6 Nc3 26 a4 Rb2 les Blancs perdent un pion de l'aile dame, sans résoudre aucun de leurs problèmes positionnels.",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "Rc2",
+      "text": "Trait aux Blancs\n\nLa tour noire arrive en septième rangée, où elle restera jusqu'à la fin de la partie. Le développement des Blancs est encore retardé par l'attaque sur le pion b2.",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "b3",
+      "text": "Libérant le fou. Les autres coups sont aussi insatisfaisants :\n\n1) 22 g3 Ke6 23 b3 Rec8 24 Bh6 (24 Ba3 Nc3 favorise les Noirs) 24...R8c3 25 Rec1 Rb2 et il ne faudra pas longtemps avant qu'un des pions de l'aile dame blanche tombe.\n\n2) 22 f4 (cela sécurise le pion e5, mais enferme le fou et ouvre un plus grand champ d'activité à la tour en c2) 22...Ke6 23 b3 Rec8 24 g3 (sinon les Blancs ne peuvent développer leur fou en a3, mais ce coup affaiblit encore la deuxième rangée ; 24 Be3 est fortement rencontré par 24...R8c3) 24...a5 (visant à sceller aussi le fou blanc à l'aile dame) 25 Ba3 b5 26 Rec1 (26 Bd6 tente de sortir le fou avant que la porte ne se ferme avec ...b4, mais après 26...Nc3 27 a4 b4 28 Rf1 Ne4 29 Rad1 R8c3 les Blancs perdront un pion après l'autre) 26...b4 27 Bb2 g5 ! (une belle percée menant à une attaque décisive) 28 fxg5 f4 29 gxf4 Nxf4 30 Kh1 Ne2 31 Rxc2 Rxc2 32 Rb1 Nc3 33 Bxc3 bxc3, suivi de ...Rd2 et ...c2, et le pion c passe.",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "f4",
+      "text": "Les Noirs saisissent l'occasion d'empêcher les Blancs de développer le fou le long de la diagonale c1-h6. 22...Ke6 23 Bh6 Rec8 24 Red1 offre aux Blancs de meilleures chances défensives, puisque depuis h6 le fou contrôle les cases utiles d2 et c1. Par exemple, 24...Re2 25 Rd4 (25 Rd3 Rc3 26 Rxc3 Nxc3 favorise les Noirs) 25...Rcc2 26 Rad1 offre aux Blancs un contrejeu considérable — abandonner le cavalier par 26...Rxf2 27 Rxd5 Rxg2+ 28 Kf1 n'est que nulle.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "Rd1",
+      "text": "Ou 23 Ba3 Ke6 24 Kf1 g5 25 Re2 (25 Rec1 Rec8 26 Rxc2 Rxc2 est très bon pour les Noirs) 25...Rec8 26 Rae1 f3 ! 27 gxf3 Nf4 28 Rxc2 Rxc2 29 Bd6 Rxa2 et bien que les Blancs aient encore un pion de plus, ils sont presque certainement perdus. Leur mauvaise position de roi signifie que leur tour ne peut quitter la première rangée, tandis que les pions b3 et f2 sont tous deux très vulnérables. De plus, les Noirs ont une majorité utile à l'aile dame.",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "Ke6",
+      "text": "Les avantages des Noirs sont substantiels, puisque outre la tour en septième, ils dominent la colonne c ouverte, leur roi bloque le pion e5 et leur cavalier est bien placé, bloquant la colonne d. Leur plan est d'échanger une paire de tours puis de gagner l'un des pions de l'aile dame avec leur tour et leur cavalier restants.",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "Ba3",
+      "text": "Maintenant les Noirs ne peuvent bouger le cavalier sans permettre Rd6+. De toute façon, les Blancs menacent de doubler les tours sur la colonne d et ainsi forcer le cavalier à bouger.",
+      "isCritical": true
+    },
+    {
+      "ply": 48,
+      "san": "Rec8",
+      "text": "Trait aux Blancs\n\nLes Blancs ne peuvent se permettre de marquer le pas car les Noirs peuvent progresser de diverses façons. La plus simple est de jouer ...b5, menaçant de repousser le fou blanc en c1. Pour éviter cela les Blancs doivent jouer Bd6, mais alors les Noirs peuvent doubler les tours en septième rangée. De plus, maintenant que la menace d'un échec en d6 est écartée, ils peuvent bouger leur cavalier.",
+      "isCritical": true
+    },
+    {
+      "ply": 49,
+      "san": "Rd3",
+      "text": "La variante suivante illustre comment les Noirs gagnent s'ils peuvent échanger une paire de tours : 25 Rac1 (25 Bd6 Nc3 26 Rd3 Rxa2 n'aide pas les Blancs) 25...b5 26 Bb2 b4 27 Kf1 R8c7 (menaçant de prendre le fou) 28 Rxc2 Rxc2 29 Bd4 Nc3 (c'est plus fort que 29...a5 30 Ra1 Nc3 31 Bb6 a4 32 bxa4 Nxa2 33 Bd4, quand les choses ne sont pas entièrement claires, et 29...Rxa2 30 Rc1, quand les Blancs peuvent activer leur tour) 30 Bxc3 (30 Ra1 Nb5 31 Rd1 Rxa2 32 Bc5 a5 est sans espoir pour les Blancs car leur contrejeu est frustré par l'excellente position du cavalier noir) 30...bxc3 31 Rd3 Kxe5 32 f3 et maintenant :\n\n1) 32...Rc1+ (c'est trop tôt) 33 Ke2 (33 Kf2 ? c2 34 Rc3 Kd4 35 Rc7 Kd3 promeut le pion) 33...Rg1 34 Rxc3 Rxg2+ 35 Kd3 Rxa2 36 Rc5+ Kf6 37 h4 et il n'est pas clair si les Noirs peuvent exploiter leur pion supplémentaire.\n\n2) 32...g5 ! (c'est bien plus fort ; les Noirs avancent leurs pions de l'aile roi et seulement ensuite visent la liquidation avec ...Rc1+ et ...Rg1) 33 a4 (les Blancs n'ont guère d'autre choix que d'avancer à l'aile dame) 33...h5 34 b4 (après 34 g3 fxg3 35 hxg3 h4 36 gxh4 gxh4 le second pion passé est décisif) 34...g4 35 b5 Rc1+ 36 Ke2 c2 (maintenant cela gagne) 37 Kd2 (ou 37 Rc3 Rg1 38 Rxc2 Rxg2+ 39 Kd3 Rxc2 40 Kxc2 g3 et les Noirs gagnent) 37...Rg1 38 Kxc2 Rxg2+ 39 Kc3 Rxh2 et les Noirs gagnent aisément avec leurs pions de l'aile roi.\n\nNous revenons maintenant à 25 Rd3 :\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 50,
+      "san": "Re2",
+      "text": "Les Noirs poussent le plan de doubler les tours en septième, mais ils auraient dû dépenser un tempo pour ôter son venin au contrejeu blanc. 25...R8c6 ! 26 Rad1 Nc3 était bien meilleur, quand les Blancs font face au choix désagréable entre abandonner leur contrejeu sur la colonne d et échequer en d6, permettant un échange de tours :\n\n1) 27 Re1 Rxa2 28 Bd6 Rb2 29 b4 Nb5 et les Noirs ont pris un pion sans relâcher aucune de la pression.\n\n2) 27 Rd6+ Rxd6 28 Rxd6+ Kxe5 29 Rd8 (29 Rd7 perd une pièce sur 29...Rxa2) 29...Rxa2 30 Bd6+ Ke6 31 f3 Rd2 32 Bc7 (après 32 Rc8 Rxd6 33 Rxc3 Rc6 34 Rd3 a5 le pion passé éloigné donnera aux Noirs un gain aisé dans la finale de tours) 32...Rxd8 33 Bxd8 Ne2+ 34 Kf2 Nd4 et le pion b blanc tombe.",
+      "isCritical": true
+    },
+    {
+      "ply": 51,
+      "san": "Rad1",
+      "text": "Pas 26 Bd6 Rxa2 27 Rad1 Nc3 28 Re1 a5 avec un avantage décisif pour les Noirs. Les Blancs ne peuvent même pas bouger le fou de façon à menacer Rd6+.",
+      "isCritical": true
+    },
+    {
+      "ply": 52,
+      "san": "Nc3",
+      "text": "Après 26...Rxe5 27 Bb2, les Noirs n'ont certainement aucun avantage, si bien qu'ils sont forcés de bouger le cavalier et de permettre à au moins une tour blanche d'entrer dans leur position.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 53,
+      "san": "Ra1",
+      "text": "Les Blancs ratent une chance de nulle par 27 Rd6+ Kxe5 :\n\n1) 28 Ra1 ?! Nb5 29 Rd7 offre des chances de nulle, même si les Noirs peuvent encore obtenir un léger avantage soit par 29...Kf6 30 Bd6 (30 Bb4 ?! Rxa2 31 Rad1 Rc7 est clairement meilleur pour les Noirs) 30...Rxa2 31 Rd1 Nxd6 32 R1xd6+ Kg5 33 h4+ Kxh4 34 Rxh7+ Kg5 35 Rd5+ Kf6 36 Rd6+ Ke5 37 Rxg6 Rc1+ 38 Kh2 Raa1 soit par 29...Rcc2 30 Bb4 (30 Re7+ Kf6 31 Rxe2 Rxe2 32 Bb4 Rc2 est aussi légèrement meilleur pour les Noirs) 30...Rxf2 (30...Rxa2 31 Rad1 donne aux Blancs un contrejeu correct) 31 Re1+ Kf5 32 Rd5+ Kf6 33 Rxb5 Rxg2+ 34 Kh1 Rxh2+ 35 Kg1 Rhg2+ 36 Kh1 f3 37 Bd6.\n\n2) 28 Rd7 ! (ce point tactique permet aux Blancs d'annuler) 28...Nxd1 29 Re7+ Kf5 30 Rxe2 Rc7 (30...Nc3 31 Re7 est égal) 31 f3 Ne3 32 g4+ Kf6 33 Kf2 et les Noirs ont peu de chances de tirer quoi que ce soit de leur avantage microscopique.",
+      "isCritical": true
+    },
+    {
+      "ply": 54,
+      "san": "Ne4",
+      "text": "Jusqu'ici, la partie a été extrêmement instructive concernant le jeu sur la colonne ouverte et la septième rangée, mais le reste de la partie porte toutes les marques d'un sérieux zeitnot. Ici les Noirs auraient dû jouer 27...Nb5 ! 28 Bb4 Rxa2, gagnant le pion a2 tout en neutralisant le contrejeu blanc en couvrant d6, avec un avantage quasi décisif.",
+      "isCritical": true
+    },
+    {
+      "ply": 55,
+      "san": "f3",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 56,
+      "san": "Ng5",
+      "text": "Après 28...Rcc2 !? 29 fxe4 Rxg2+ 30 Kf1 Rxh2 31 Kg1 Rcg2+ 32 Kf1 Kxe5 33 Re1 il est douteux que les Noirs aient mieux que la nulle.",
+      "isCritical": true
+    },
+    {
+      "ply": 57,
+      "san": "Rd6+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 58,
+      "san": "Kf5",
+      "text": "Forcé, car 29...Kxe5 30 Rad1 Ne6 31 R6d2 donne aux Blancs une nulle aisée.\n\nTrait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 59,
+      "san": "Rd5",
+      "text": "Les Blancs ratent une possibilité de nulle, il est vrai surprenante et inhabituelle. 30 h4 ! est correct : 30...Ne6 31 Rd7 Rcc2 (il n'y a rien de mieux) 32 Rad1 et maintenant la menace de mat en deux par 33 Rf7+ Kxe5 34 Bd6# s'avère étonnamment difficile à parer ; par exemple, 32...Rxg2+ 33 Kh1 Kxe5 (33...Nc7 34 Rf7+ Ke6 35 Re7+ Kf5 36 Rf7+ est aussi nulle) 34 R1d5+ Kf6 35 Rxh7 (créant une nouvelle menace de mat par 36 Be7#) 35...Ng7 36 Rd6+ Ke5 37 Rxg7 Rh2+ 38 Kg1 Rcg2+ 39 Kf1 Rf2+ 40 Ke1 Rxa2 41 Re7+ Kf5 42 Rf7+ avec échecs perpétuels.",
+      "isCritical": true
+    },
+    {
+      "ply": 60,
+      "san": "Ne6",
+      "text": "Les Noirs avaient une forte alternative en 30...Rcc2 31 e6+ Kf6 32 Be7+ (la seule chance, car 32 e7 Rxg2+ mate en trois coups de plus) 32...Kxe7 33 Rxg5 Kxe6 34 a4 Rb2 ramassant le pion b3 tout en conservant une pression considérable contre la position blanche. Cependant, le coup joué devrait aussi suffire à gagner puisque le nouveau blocus du pion e retient les Blancs assez longtemps pour que les Noirs doublent les tours en septième rangée.",
+      "isCritical": true
+    },
+    {
+      "ply": 61,
+      "san": "Kh1",
+      "text": "31 g4+ fxg3 32 hxg3 Rcc2 est sans espoir, car les tours doublées feront un massacre des pions de l'aile roi blanche.",
+      "isCritical": true
+    },
+    {
+      "ply": 62,
+      "san": "Rcc2",
+      "text": "Trait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 63,
+      "san": "Rad1",
+      "text": "Cela permet un gain simple, mais même après 32 Rg1 Rxa2 33 Bb4 (33 Bd6 Ng5, menaçant à la fois 34...Nxf3 et 34...Nh3, gagne après 34 e6+ Kxe6 35 Rxg5 Kxd6) 33...b6 34 Rd7 Ng5 l'attaque noire est décisive. La fin pourrait être 35 h3 (la meilleure chance, tendant un vilain piège) 35...a5 ! (35...Nxf3 ? 36 Rf7+ Ke6 37 Re7+ force la nulle car 37...Kd5 38 Rd1+ Kc6 39 gxf3 n'offre aux Noirs rien de plus que l'échec perpétuel) 36 Bf8 Rad2 ! 37 Rb7 (37 Rxd2 Rxd2 donne aux Noirs un pion de plus et une bonne position) 37...Rf2 ! 38 Rxb6 (38 e6 Nxf3 39 e7 Rxg2 mate) 38...Nxh3 39 Bc5 Rfe2 et les Noirs gagnent du matériel.",
+      "isCritical": true
+    },
+    {
+      "ply": 64,
+      "san": "Rxa2",
+      "text": "Il n'y a rien de mal à prendre ce pion, mais 32...Rxg2 gagne aisément : 33 Rd7 Rxh2+ 34 Kg1 Ng5.",
+      "isCritical": true
+    },
+    {
+      "ply": 65,
+      "san": "Bb4",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 66,
+      "san": "h6",
+      "text": "Il est difficile d'imaginer le raisonnement derrière ce coup. Peut-être les Noirs croyaient-ils que les Blancs étaient si impuissants qu'ils pouvaient simplement jouer des coups d'attente jusqu'au contrôle du temps. En tout cas, les Noirs avaient encore un gain simple par 33...Rxg2 34 Bd2 Rf2.",
+      "isCritical": true
+    },
+    {
+      "ply": 67,
+      "san": "h4",
+      "text": "C'était le moment pour les Blancs d'activer leur tour par 34 Rd7 Rxg2 (34...Kg5 35 Re7 est aussi nulle) 35 h4 quand à nouveau la menace de mat avec Rf7+ assure la nulle ; par exemple, 35...g5 36 Rf7+ Kg6 37 Rf6+ Kh5 38 Rxe6 Rh2+.\n\nTrait aux Noirs",
+      "isCritical": true
+    },
+    {
+      "ply": 68,
+      "san": "g5",
+      "text": "C'est un bon coup, qui donne de l'air au roi noir. 34...Rxg2 35 Rd7 transpose dans la nulle de la note précédente.",
+      "isCritical": true
+    },
+    {
+      "ply": 69,
+      "san": "Rd7",
+      "text": "La meilleure chance, car 35 hxg5 Rxg2 36 gxh6 Rh2+ 37 Kg1 Rag2+ 38 Kf1 Rg3 donne aux Noirs une attaque très forte. Ni 39 Rd7 Rxf3+ 40 Kg1 Rfh3 ni 39 R5d3 Ng5 40 Bc5 Rh1+ 41 Ke2 Rg2+ 42 Bf2 Rhh2 43 Rf1 Nh3 44 Ke1 Nxf2 45 Rd2 Kxe5 46 Rdxf2 Rxf2 47 Rxf2 Rxf2 48 Kxf2 Kf6 n'offrent aux Blancs aucun espoir de survie.",
+      "isCritical": true
+    },
+    {
+      "ply": 70,
+      "san": "gxh4",
+      "text": "Maintenant les Blancs ne peuvent forcer une nulle immédiate, mais ils peuvent encore inquiéter le roi noir.",
+      "isCritical": true
+    },
+    {
+      "ply": 71,
+      "san": "Rf7+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 72,
+      "san": "Kg5",
+      "text": "Évitant 36...Kxe5 ?? 37 Bd6#.",
+      "isCritical": true
+    },
+    {
+      "ply": 73,
+      "san": "Be7+",
+      "text": "Les Blancs doivent maintenir l'élan, sinon les Noirs gagneront rapidement. Cela s'applique particulièrement maintenant que le pion h4 peut se joindre à l'attaque ; par exemple, 37 Re7 ? Rxg2 38 Rxe6 Rh2+ 39 Kg1 Rag2+ 40 Kf1 h3 avec un mat rapide.",
+      "isCritical": true
+    },
+    {
+      "ply": 74,
+      "san": "Kh5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 75,
+      "san": "Rf5+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 76,
+      "san": "Ng5",
+      "text": "Trait aux Blancs",
+      "isCritical": true
+    },
+    {
+      "ply": 77,
+      "san": "Rxf4",
+      "text": "Les Blancs ne tirent pas le maximum de leur contrejeu. Ils auraient dû jouer 39 Bxg5 hxg5 40 Rf7 h3, et maintenant :\n\n1) 41 gxh3 ? permet au roi noir de participer à l'attaque et perd donc sur 41...Kh4 42 Rg7 Rh2+ 43 Kg1 Rhg2+ 44 Kh1 (ou 44 Kf1 Raf2+ 45 Ke1 Rh2 46 e6 Ra2) 44...Kxh3 45 Rh7+ Kg3 46 e6 Rh2+ 47 Rxh2 Rxh2+ 48 Kg1 Re2.\n\n2) 41 Rh7+ Kg6 42 Rxh3 (rétablissant l'égalité matérielle ; les tours actives des Noirs leur donnent les meilleures chances mais la partie est loin d'être finie) 42...Ra6 (le point est que 42...Rxg2 43 Rd6+ Kf5 44 Rhh6 met en place un échec perpétuel inévitable, si bien que les Noirs n'ont rien de mieux que de retirer leurs tours de leurs positions actives afin d'encercler le pion e) 43 g3 ! (liquider les pions est le seul espoir de nulle ; 43 Rd6+ Rxd6 44 exd6 Rd2 gagne pour les Noirs car ils ont un pion de plus et leurs pièces sont bien plus activement placées) 43...Rxe5 44 gxf4 gxf4 avec un grand avantage, mais pas encore décisif, pour les Noirs.",
+      "isCritical": true
+    },
+    {
+      "ply": 78,
+      "san": "h3",
+      "text": "39...Rxg2 ! 40 Bxg5 hxg5 est une méthode de gain bien plus simple ; par exemple, 41 Rg4 (41 Rf8 Rh2+ 42 Kg1 h3 est aussi décisif) 41...Rh2+ 42 Kg1 Rhe2 et les Noirs auront deux pions clairs de plus.",
+      "isCritical": true
+    },
+    {
+      "ply": 79,
+      "san": "Bxg5",
+      "text": "40 gxh3 permet le mat par 40...Rh2+ 41 Kg1 Nxh3+ 42 Kf1 Rh1#.",
+      "isCritical": true
+    },
+    {
+      "ply": 80,
+      "san": "hxg5",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 81,
+      "san": "Rf7",
+      "text": "41 Rg4 hxg2+ 42 Kg1 Kg6 devrait gagner pour les Noirs, p. ex. 43 f4 Kf5 44 Rxg5+ Kxf4 45 Rg7 b6 46 e6 (sinon les Noirs prennent le pion e et ont simplement deux pions de plus) 46...Rxe6 47 Rxg2 Rxg2+ 48 Kxg2 Re3 49 b4 Rb3 50 Ra1 Rxb4 51 Rxa7 Rb2+ 52 Kf1 Ke3 et le roi noir peut se placer devant le pion, menant à une position de Lucena inévitable.\n\n41 Ra4 échoue aussi à sauver la partie : 41...hxg2+ 42 Kg1 Rxa4 43 bxa4 Kh4 44 Kh2 g1Q+ 45 Kxg1 Kg3 46 Kf1 Rxe5 47 Rd7 a5 48 Rxb7 Kxf3 49 Rb3+ Kf4 gagne car la tour blanche sera désespérément passive après ...Re4.",
+      "isCritical": true
+    },
+    {
+      "ply": 82,
+      "san": "hxg2+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 83,
+      "san": "Kh2",
+      "text": "Trait aux Noirs\n\n0-1\n\nUn moment étrange pour jeter l'éponge. Les Noirs devraient gagner, mais un jeu très précis est encore requis. La meilleure ligne est 42...b6 ! (42...g1Q++ 43 Kxg1 Kh4 44 f4 et 42...Rxe5 43 Rh7+ Kg6 44 Rxb7 sont moins clairs) et maintenant :\n\n1) 43 Rf5 Rab2 44 Rg1 (44 f4 Kg4 45 Rxg5+ Kxf4 46 Rg7 Rxe5 47 Rd4+ Kf5 48 Rxg2 Rxb3 et les Noirs gagnent) 44...a5 45 Kh3 (les Blancs ont peu de coups) 45...Rxb3 46 Rxg2 Rxg2 47 Kxg2 Rb2+ ! (certainement pas 47...Rb5 ? 48 f4 Kg4 49 e6 !, tandis que 47...a4 48 Rf8 n'est pas particulièrement clair) 48 Kg3 (48 Kf1 Rb5 49 f4 Kg4 50 e6 Rxf5 et 48 Kg1 a4 49 e6 a3 50 e7 Re2 gagnent pour les Noirs) 48...Re2 49 Rf6 (49 f4 Re3+ 50 Kf2 Kg4 51 Rxg5+ Kxf4 52 Rg6 b5 53 e6 Re5 gagne pour les Noirs) 49...b5 50 Ra6 a4 51 e6 Re5 52 Ra5 (52 Rc6 a3) 52...Rxe6 53 Rxb5 Ra6 54 Rb2 (après 54 f4 a3 les Blancs n'ont pas le temps de prendre le pion g5, si bien qu'ils doivent retirer leur tour pour bloquer le pion a) 54...a3 55 Ra2 Ra4 56 Kf2 Kg6 57 Ke2 Kf5 58 Ke3 Ra8 59 Ke2 Kf4 60 Kf2 Ra7 61 Kg2 (après 61 Ke2 Re7+ 62 Kf2 Re3 les Noirs gagnent le pion f3) 61...Ke3 62 Kg3 Ra4 63 Kg2 Kd3 et le roi se dirige vers le pion a.\n\n2) 43 Rg1 Rxe5 44 Rxg2 Rxg2+ 45 Kxg2 a5 (les Noirs joueront ...Rb5, forçant la tour blanche dans une position passive) 46 Rh7+ Kg6 47 Rd7 Rb5 48 Rd3 Kf5 et le pion supplémentaire des Noirs ainsi que leurs pièces plus actives devraient suffire à gagner. Voici une ligne type : 49 Kg3 (ou 49 Kf2 Kf4 50 Re3 Rb4 51 Rd3 b5 52 Ke2 a4 53 bxa4 bxa4 54 Kf2 Rb2+ 55 Kg1 Ra2) 49...Rb4 50 Re3 b5 51 Rc3 Ke5 52 Rd3 a4 53 bxa4 bxa4 54 Rd7 a3 55 Ra7 Rb3 56 Ra4 Kd5 57 Kg4 Rc3 58 Kxg5 Rxf3 et le roi blanc est tout simplement trop loin : 59 Kg4 Rc3 60 Kf5 Kc5 61 Ra8 Kb4 62 Ke4 Kb3 63 Rb8+ Kc2 64 Kd4 Rh3 65 Ra8 Kb2 et le pion avance.\n\nBien que la dernière partie de cette partie ait été assez confuse, la première partie est une démonstration parfaite de la façon d'établir et d'exploiter la puissance d'une tour en septième. Malgré le pion supplémentaire des Blancs, la tour a exercé une influence si paralysante que les Blancs ont à peine pu offrir une réelle résistance. Au final, la partie a basculé en faveur des Noirs, mais seulement après une lutte très fluctuante.\n\nLes leçons ici sont :\n\n1) La liquidation vers une finale n'est pas toujours le meilleur moyen d'exploiter un avantage matériel.\n\n2) Une tour installée de façon permanente en septième rangée peut aisément compenser un pion supplémentaire.\n\n3) Lorsque votre adversaire est complètement lié, vous pouvez vous permettre de prendre votre temps pour neutraliser tout contrejeu potentiel.\n\n4) Ne résignez pas à moins d'être vraiment sûr que la position est sans espoir.",
+      "isCritical": true
+    }
+  ]
+}

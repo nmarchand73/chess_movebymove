@@ -1,0 +1,223 @@
+{
+  "id": "chernov-007",
+  "book": "chernov",
+  "gameNum": 7,
+  "title": "Partie 7 : Spielmann – Wahle",
+  "section": "L'attaque à l'aile roi",
+  "players": {
+    "white": "Spielmann",
+    "black": "Wahle"
+  },
+  "event": "Vienna 1926",
+  "opening": "Défense française",
+  "eco": "C01",
+  "pgnPath": "data/pgn/chernov/07.pgn",
+  "result": "1-0",
+  "moveCount": 33,
+  "annotatedMoves": 30,
+  "fullText": "Spielmann – Wahle\n\nVienna 1926\n\nDéfense française\n\n1   e4\n\nCe coup accomplit beaucoup :\n\nUn pion est fixé au centre de l'échiquier.\n\nLe pion exerce une emprise sur d5 et f5, et empêche les pièces noires de s'installer sur ces cases.\n\nLa dame et le fou blancs ont immédiatement de l'air.\n\n1   ...     e6\n\nAvec plusieurs objectifs en vue :\n\nPremier, empêcher les Blancs de dicter l'ouverture. Après la réponse conventionnelle 1...e5 les Blancs peuvent jouer la Partie espagnole, le Giuoco Piano, l'Écossaise, la Partie viennoise ou un gambit dangereux de quelque sorte.\n\nEnsuite, la position resserrée des Noirs peut inciter les Blancs à une attaque prématurée désastreuse.\n\nTroisième, le pion en e6 soutient une avance par 2...d5, une attaque sur le pion e qui pourrait arracher l'initiative.\n\nLa Défense française n'est pas à sous-estimer. Elle dissimule une grande énergie dynamique derrière une façade modeste.\n\n2   d4\n\nS'il vaut la peine d'établir un pion au centre, alors en garder deux devrait doubler les bénéfices.\n\n2   ...     d5\n\nLes Noirs donnent plus de champ à leur dame et défient le centre.\n\n3 Nc3\n\nClairement une excellente réponse, car le cavalier se développe sur sa case propre, protège le pion e, et pèse sur d5.\n\n3   ... Nf6\n\n(D)\n\nLes Noirs à leur tour amènent leur propre cavalier sur sa position la plus forte avec gain de temps – une nouvelle attaque sur le pion e4.\n\n4   exd5\n\nBeaucoup de joueurs préfèrent accroître la pression par 4 Bg5 (qui développe une pièce et rend impotente l'une de celles de l'ennemi) plutôt qu'échanger les pions, ce qui relâche la tension.\n\nSpielmann, qui aime les positions largement ouvertes, écarte une paire de pions pour donner à ses pièces plus d'espace pour leurs activités.\n\nQuel coup est meilleur ? Lequel devez-vous jouer ? La réponse est : jouez le coup que vous aimez, celui qui convient le mieux à votre style et à votre tempérament. Si vous êtes un joueur prudent et circonspect qui connaît toute la valeur d'un pion – que chacun est une dame en puissance, et que la perte d'un pion peut être la perte de la partie – tenez-vous-en à 4 Bg5 et aux ouvertures du jeu positionnel, la Partie espagnole, les ouvertures du pion dame, la Réti et l'Anglaise. En revanche, si vous préférez les échecs audacieux et aventureux, et qu'un pion n'est qu'une barrière à la ruée d'une attaque de vos pièces, jouez les ouvertures qui laissent du champ à votre imagination, le gambit Evans, le danois, le gambit du roi et autres gambits.\n\nLes meilleures ouvertures à jouer sont celles où vous êtes le plus à l'aise.\n\n4   ...     exd5\n\nMieux que de prendre avec le cavalier. Les Noirs gardent un pion au centre et libèrent leur fou c8.\n\n5 Bg5\n\nLes Blancs clouent le cavalier et menacent de briser le jeu noir par 6 Bxf6 gxf6 (6...Qxf6 perd le pion d5), où les Noirs se retrouvent avec un pion doublé faible.\n\n5   ... Be7\n\nLa façon la plus simple de déclouer le cavalier. Ne déplacer le fou que d'une case peut ne pas sembler grand-chose, mais cela respecte la première loi du développement rapide : Sortez les pièces de la dernière rangée !\n\n6 Bd3\n\nLa posture de ce fou est agressive, surtout contre le petit roque.\n\n6   ... Nc6\n\n(D)\n\nLes débuts de ce cavalier sont encore plus menaçants, car il menace de prendre le pion d.\n\n7 Nge2!\n\nAprès le développement habituel 7 Nf3, les Noirs clouent le cavalier par 7...Bg4 et menacent à nouveau le pion d. Les Blancs pourraient sauver le pion, par exemple par 8 Be2, mais perdraient l'initiative.\n\nAprès le coup du texte, si les Noirs clouent le cavalier par 7...Bg4, 8 f3 repousse le fou et lui fait perdre du temps à reculer.\n\n7   ... Nb4\n\nDans l'intention de se débarrasser d'une pièce ennemie dangereuse et aussi de s'assurer un petit avantage en conservant les deux fous.\n\n8 Ng3\n\nNous voyons maintenant une autre raison de développer le cavalier en e2. Les Blancs veulent ancrer une pièce en f5, position dominante pour un cavalier ou un fou. Une pièce n'a qu'à se tenir là et avoir l'air menaçante pour déconcerter l'adversaire.\n\n8   ... Nxd3+\n\nMission accomplie. Les Noirs ont une légère supériorité technique en conservant deux fous à longue portée contre le cavalier et le fou blancs, mais...\n\n9 Qxd3\n\n...au prix d'une perte de temps. Les Noirs ont fait trois coups avec le cavalier pour l'échanger contre un fou qui n'a bougé qu'une fois. Qui plus est, leur cavalier a quitté complètement l'échiquier, tandis que le fou a laissé une pièce à sa place. Le résultat est que les Blancs ont quatre pièces actives en jeu contre deux des Noirs. Les Blancs sont aussi prêts à roquer de chaque côté et à mobiliser rapidement les deux tours. Quel que soit l'avantage qui existe, il appartient donc aux Blancs.\n\n9   ...     g6\n\n(D)\n\nCe coup de pion empêche les Blancs de placer leur cavalier en f5, mais il crée une faiblesse organique dans la position noire, irrémédiable.\n\nLes cases f6 et h6, n'étant plus gardées par le pion, sont faibles et le restent de façon permanente.\n\nRemarquez que le pion a été induit mais non forcé à avancer. La simple menace d'une intrusion du cavalier a suffi à influencer les Noirs à faire un coup préventif naturel. C'est le genre de coup que neuf joueurs sur dix font automatiquement dans des situations similaires, d'où l'importance de savoir exploiter ses défauts, car aucun coup n'est faible si l'on ne tire pas correctement parti de ses failles.\n\n10   0-0\n\nPas de violence, s'il vous plaît, tant que les réserves n'ont pas été amenées. Blackburne avait coutume de dire : « Ne commencez jamais une attaque avant que votre tour dame ne soit développée. »\n\nLes Blancs assurent la sécurité de leur roi et sortent une tour de sa cachette.\n\n10   ...     c6\n\nRenforce le centre de pions des Noirs et ouvre une autre voie à leur dame.\n\n11 Rae1\n\nLes Blancs s'emparent de la seule colonne ouverte (car les tours appartiennent aux colonnes ouvertes ou susceptibles de s'ouvrir) et clouent le fou.\n\nIl convient de noter qu'une pièce clouée non seulement ne peut pas bouger, mais est aussi impuissante à capturer. Elle ne protège aucune autre pièce, car elle est complètement paralysée.\n\nIl s'ensuit que non seulement le fou est immobilisé et en danger de mort (car il peut être attaqué encore et encore), mais le cavalier qui dépend de lui pour sa protection n'est plus en sécurité. Bref, les Noirs sont maintenant menacés de perdre une pièce par 12 Bxf6.\n\n11   ...     0-0\n\n(D)\n\nLe roi se réfugie dans la fuite, déclouant au passage le fou et préservant son cavalier.\n\nLa stratégie de Spielmann jusqu'ici et la combinaison décisive qui suit auraient plu à Lasker, qui disait un jour : « Au début de la partie, ignorez la recherche de combinaisons, abstenez-vous des coups violents. Visez de petits avantages, accumulez-les, et seulement après avoir atteint ces buts cherchez la combinaison – et alors avec toute la force de la volonté et de l'intellect, car alors la combinaison doit exister, aussi profondément cachée soit-elle. »\n\nUn coup d'œil montre que les Blancs ont atteint la supériorité positionnelle requise. S'il y a une combinaison à élaborer, ce doit être maintenant, avant que les Noirs n'aient le temps de réorganiser leurs pièces pour la défense. Maintenant, tandis qu'ils ont cinq pièces activement en jeu contre deux des Noirs. Maintenant, tandis qu'ils ont une colonne ouverte – assez ! assez ! La combinaison doit être là !\n\nVoici le raisonnement des Blancs :\n\nL'avance du pion g des Noirs a privé le cavalier d'un soutien stable. Il est encore gardé par deux pièces, mais si le fou n'était pas là, il ne serait défendu qu'une seule fois. En fait, si le fou n'était pas là, le cavalier serait cloué et soumis à une attaque durable. Le fou apparaît dans les deux équations.\n\nÉvidemment le fou est le coupable, et il doit être détruit ! Et tout de suite, avant que les Noirs n'aient le temps de 12...Be6 !\n\n12 Rxe7!!\n\n« Quand nous connaissons les idées inspiratrices, comme les sacrifices paraissent simples ! » dit Znosko-Borovsky.\n\n12   ... Qxe7\n\n(D)\n\nLes Noirs doivent reprendre, laissant le cavalier cloué et une belle cible pour de nouvelles attaques.\n\n13 Qf3\n\nMettant la pression sur la pièce clouée, et menaçant de prendre le cavalier.\n\n13   ... Kg7\n\n(D)\n\nLe roi vient au secours du cavalier. Contre la défense alternative 13...Bf5 Spielmann avait cette jolie suite : 14 Bxf5 gxf5 15 Qg3 (menaçant le mat au coup suivant par 16 Bxf6#) 15...Kg7 (ou 15...Kh8 16 Qh4 Kg7 17 Bh6+ Kg8 18 Bxf6 et les Blancs gagnent) 16 Bxf6++ Kxf6 17 Qh4+ Ke6 18 Re1+ Kd7 19 Rxe7+ et toutes les pièces noires tombent.\n\n14 Nce4!\n\nLes Blancs doivent continuer à marteler le cavalier cloué, peu importe combien de coups brillants ils doivent trouver ! Encore une fois, la menace immédiate des Blancs est simple : 15 Nxf6+, gagnant instantanément.\n\n14   ...     dxe4\n\nLes Noirs doivent prendre ce cavalier ou perdre le leur.\n\n15 Nxe4\n\nTrois pièces attaquent maintenant le cavalier sans défense. « Les échecs ne sont pas pour les bons cœurs », dit le proverbe français.\n\nLes Blancs menacent maintenant 16 Nxf6+ suivi de 17 Rxe7.\n\n15   ... Qe6\n\nSur 15...Nxe4 les Blancs ont le plaisir de choisir entre gagner la dame par 16 Bxf6+ (éliminant le protecteur de la dame), suivi de 17 Qxe4, ou forcer le mat par 16 Bxf6+ Kg8 17 Bh6 suivi de 18 Qg7#.\n\nDans cette dernière ligne, remarquez comment les Blancs vissent fermement leurs pièces dans les deux trous de la position noire, f6 et h6, les cases n'étant plus gardées par le pion g après son avance.\n\nPar leur dernier coup, les Noirs sauvent la dame. Ils sont encore en avance matériellement mais ont une partie perdue, car les pièces blanches s'insinueront le long des cases noires pour atteindre le roi.\n\n16 Bxf6+\n\nLes Blancs récupèrent une pièce et limitent le roi noir à deux coups.\n\n16   ... Kg8\n\nSi 16...Kh6, alors 17 Qf4+ et mat au coup suivant.\n\n17 Qf4\n\nMenace une invasion finale en h6 suivie du mat en g7 – triomphe sur les cases noires.\n\n1-0\n\nLes Noirs, impuissants à empêcher le mat, abandonnèrent.",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Spielmann – Wahle\n\nVienna 1926\n\nDéfense française"
+    },
+    {
+      "ply": 1,
+      "san": "e4",
+      "text": "Ce coup accomplit beaucoup :\n\nUn pion est fixé au centre de l'échiquier.\n\nLe pion exerce une emprise sur d5 et f5, et empêche les pièces noires de s'installer sur ces cases.\n\nLa dame et le fou blancs ont immédiatement de l'air.",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "e6",
+      "text": "Avec plusieurs objectifs en vue :\n\nPremier, empêcher les Blancs de dicter l'ouverture. Après la réponse conventionnelle 1...e5 les Blancs peuvent jouer la Partie espagnole, le Giuoco Piano, l'Écossaise, la Partie viennoise ou un gambit dangereux de quelque sorte.\n\nEnsuite, la position resserrée des Noirs peut inciter les Blancs à une attaque prématurée désastreuse.\n\nTroisième, le pion en e6 soutient une avance par 2...d5, une attaque sur le pion e qui pourrait arracher l'initiative.\n\nLa Défense française n'est pas à sous-estimer. Elle dissimule une grande énergie dynamique derrière une façade modeste.",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "d4",
+      "text": "S'il vaut la peine d'établir un pion au centre, alors en garder deux devrait doubler les bénéfices.",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "d5",
+      "text": "Les Noirs donnent plus de champ à leur dame et défient le centre.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "Nc3",
+      "text": "Clairement une excellente réponse, car le cavalier se développe sur sa case propre, protège le pion e, et pèse sur d5.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "Nf6",
+      "text": "Les Noirs à leur tour amènent leur propre cavalier sur sa position la plus forte avec gain de temps – une nouvelle attaque sur le pion e4.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "exd5",
+      "text": "Beaucoup de joueurs préfèrent accroître la pression par 4 Bg5 (qui développe une pièce et rend impotente l'une de celles de l'ennemi) plutôt qu'échanger les pions, ce qui relâche la tension.\n\nSpielmann, qui aime les positions largement ouvertes, écarte une paire de pions pour donner à ses pièces plus d'espace pour leurs activités.\n\nQuel coup est meilleur ? Lequel devez-vous jouer ? La réponse est : jouez le coup que vous aimez, celui qui convient le mieux à votre style et à votre tempérament. Si vous êtes un joueur prudent et circonspect qui connaît toute la valeur d'un pion – que chacun est une dame en puissance, et que la perte d'un pion peut être la perte de la partie – tenez-vous-en à 4 Bg5 et aux ouvertures du jeu positionnel, la Partie espagnole, les ouvertures du pion dame, la Réti et l'Anglaise. En revanche, si vous préférez les échecs audacieux et aventureux, et qu'un pion n'est qu'une barrière à la ruée d'une attaque de vos pièces, jouez les ouvertures qui laissent du champ à votre imagination, le gambit Evans, le danois, le gambit du roi et autres gambits.\n\nLes meilleures ouvertures à jouer sont celles où vous êtes le plus à l'aise.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "exd5",
+      "text": "Mieux que de prendre avec le cavalier. Les Noirs gardent un pion au centre et libèrent leur fou c8.",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "Bg5",
+      "text": "Les Blancs clouent le cavalier et menacent de briser le jeu noir par 6 Bxf6 gxf6 (6...Qxf6 perd le pion d5), où les Noirs se retrouvent avec un pion doublé faible.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "Be7",
+      "text": "La façon la plus simple de déclouer le cavalier. Ne déplacer le fou que d'une case peut ne pas sembler grand-chose, mais cela respecte la première loi du développement rapide : Sortez les pièces de la dernière rangée !",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "Bd3",
+      "text": "La posture de ce fou est agressive, surtout contre le petit roque.",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "Nc6",
+      "text": "Les débuts de ce cavalier sont encore plus menaçants, car il menace de prendre le pion d.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "Nge2",
+      "text": "Après le développement habituel 7 Nf3, les Noirs clouent le cavalier par 7...Bg4 et menacent à nouveau le pion d. Les Blancs pourraient sauver le pion, par exemple par 8 Be2, mais perdraient l'initiative.\n\nAprès le coup du texte, si les Noirs clouent le cavalier par 7...Bg4, 8 f3 repousse le fou et lui fait perdre du temps à reculer.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "Nb4",
+      "text": "Dans l'intention de se débarrasser d'une pièce ennemie dangereuse et aussi de s'assurer un petit avantage en conservant les deux fous.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "Ng3",
+      "text": "Nous voyons maintenant une autre raison de développer le cavalier en e2. Les Blancs veulent ancrer une pièce en f5, position dominante pour un cavalier ou un fou. Une pièce n'a qu'à se tenir là et avoir l'air menaçante pour déconcerter l'adversaire.\n\n8   ... Nxd3+\n\nMission accomplie. Les Noirs ont une légère supériorité technique en conservant deux fous à longue portée contre le cavalier et le fou blancs, mais...",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "Nxd3+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "Qxd3",
+      "text": "...au prix d'une perte de temps. Les Noirs ont fait trois coups avec le cavalier pour l'échanger contre un fou qui n'a bougé qu'une fois. Qui plus est, leur cavalier a quitté complètement l'échiquier, tandis que le fou a laissé une pièce à sa place. Le résultat est que les Blancs ont quatre pièces actives en jeu contre deux des Noirs. Les Blancs sont aussi prêts à roquer de chaque côté et à mobiliser rapidement les deux tours. Quel que soit l'avantage qui existe, il appartient donc aux Blancs.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "g6",
+      "text": "Ce coup de pion empêche les Blancs de placer leur cavalier en f5, mais il crée une faiblesse organique dans la position noire, irrémédiable.\n\nLes cases f6 et h6, n'étant plus gardées par le pion, sont faibles et le restent de façon permanente.\n\nRemarquez que le pion a été induit mais non forcé à avancer. La simple menace d'une intrusion du cavalier a suffi à influencer les Noirs à faire un coup préventif naturel. C'est le genre de coup que neuf joueurs sur dix font automatiquement dans des situations similaires, d'où l'importance de savoir exploiter ses défauts, car aucun coup n'est faible si l'on ne tire pas correctement parti de ses failles.\n\n10   0-0\n\nPas de violence, s'il vous plaît, tant que les réserves n'ont pas été amenées. Blackburne avait coutume de dire : « Ne commencez jamais une attaque avant que votre tour dame ne soit développée. »\n\nLes Blancs assurent la sécurité de leur roi et sortent une tour de sa cachette.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "c6",
+      "text": "Renforce le centre de pions des Noirs et ouvre une autre voie à leur dame.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "Rae1",
+      "text": "Les Blancs s'emparent de la seule colonne ouverte (car les tours appartiennent aux colonnes ouvertes ou susceptibles de s'ouvrir) et clouent le fou.\n\nIl convient de noter qu'une pièce clouée non seulement ne peut pas bouger, mais est aussi impuissante à capturer. Elle ne protège aucune autre pièce, car elle est complètement paralysée.\n\nIl s'ensuit que non seulement le fou est immobilisé et en danger de mort (car il peut être attaqué encore et encore), mais le cavalier qui dépend de lui pour sa protection n'est plus en sécurité. Bref, les Noirs sont maintenant menacés de perdre une pièce par 12 Bxf6.",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "O-O",
+      "text": "Le roi se réfugie dans la fuite, déclouant au passage le fou et préservant son cavalier.\n\nLa stratégie de Spielmann jusqu'ici et la combinaison décisive qui suit auraient plu à Lasker, qui disait un jour : « Au début de la partie, ignorez la recherche de combinaisons, abstenez-vous des coups violents. Visez de petits avantages, accumulez-les, et seulement après avoir atteint ces buts cherchez la combinaison – et alors avec toute la force de la volonté et de l'intellect, car alors la combinaison doit exister, aussi profondément cachée soit-elle. »\n\nUn coup d'œil montre que les Blancs ont atteint la supériorité positionnelle requise. S'il y a une combinaison à élaborer, ce doit être maintenant, avant que les Noirs n'aient le temps de réorganiser leurs pièces pour la défense. Maintenant, tandis qu'ils ont cinq pièces activement en jeu contre deux des Noirs. Maintenant, tandis qu'ils ont une colonne ouverte – assez ! assez ! La combinaison doit être là !\n\nVoici le raisonnement des Blancs :\n\nL'avance du pion g des Noirs a privé le cavalier d'un soutien stable. Il est encore gardé par deux pièces, mais si le fou n'était pas là, il ne serait défendu qu'une seule fois. En fait, si le fou n'était pas là, le cavalier serait cloué et soumis à une attaque durable. Le fou apparaît dans les deux équations.\n\nÉvidemment le fou est le coupable, et il doit être détruit ! Et tout de suite, avant que les Noirs n'aient le temps de 12...Be6 !",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "Rxe7",
+      "text": "« Quand nous connaissons les idées inspiratrices, comme les sacrifices paraissent simples ! » dit Znosko-Borovsky.",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "Qxe7",
+      "text": "Les Noirs doivent reprendre, laissant le cavalier cloué et une belle cible pour de nouvelles attaques.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Qf3",
+      "text": "Mettant la pression sur la pièce clouée, et menaçant de prendre le cavalier.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "Kg7",
+      "text": "Le roi vient au secours du cavalier. Contre la défense alternative 13...Bf5 Spielmann avait cette jolie suite : 14 Bxf5 gxf5 15 Qg3 (menaçant le mat au coup suivant par 16 Bxf6#) 15...Kg7 (ou 15...Kh8 16 Qh4 Kg7 17 Bh6+ Kg8 18 Bxf6 et les Blancs gagnent) 16 Bxf6++ Kxf6 17 Qh4+ Ke6 18 Re1+ Kd7 19 Rxe7+ et toutes les pièces noires tombent.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Nce4",
+      "text": "Les Blancs doivent continuer à marteler le cavalier cloué, peu importe combien de coups brillants ils doivent trouver ! Encore une fois, la menace immédiate des Blancs est simple : 15 Nxf6+, gagnant instantanément.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "dxe4",
+      "text": "Les Noirs doivent prendre ce cavalier ou perdre le leur.",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "Nxe4",
+      "text": "Trois pièces attaquent maintenant le cavalier sans défense. « Les échecs ne sont pas pour les bons cœurs », dit le proverbe français.\n\nLes Blancs menacent maintenant 16 Nxf6+ suivi de 17 Rxe7.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "Qe6",
+      "text": "Sur 15...Nxe4 les Blancs ont le plaisir de choisir entre gagner la dame par 16 Bxf6+ (éliminant le protecteur de la dame), suivi de 17 Qxe4, ou forcer le mat par 16 Bxf6+ Kg8 17 Bh6 suivi de 18 Qg7#.\n\nDans cette dernière ligne, remarquez comment les Blancs vissent fermement leurs pièces dans les deux trous de la position noire, f6 et h6, les cases n'étant plus gardées par le pion g après son avance.\n\nPar leur dernier coup, les Noirs sauvent la dame. Ils sont encore en avance matériellement mais ont une partie perdue, car les pièces blanches s'insinueront le long des cases noires pour atteindre le roi.\n\n16 Bxf6+\n\nLes Blancs récupèrent une pièce et limitent le roi noir à deux coups.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "Bxf6+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "Kg8",
+      "text": "Si 16...Kh6, alors 17 Qf4+ et mat au coup suivant.",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Qf4",
+      "text": "Menace une invasion finale en h6 suivie du mat en g7 – triomphe sur les cases noires.\n\n1-0\n\nLes Noirs, impuissants à empêcher le mat, abandonnèrent.",
+      "isCritical": true
+    }
+  ]
+}

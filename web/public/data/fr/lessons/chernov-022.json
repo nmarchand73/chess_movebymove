@@ -1,0 +1,355 @@
+{
+  "id": "chernov-022",
+  "book": "chernov",
+  "gameNum": 22,
+  "title": "Partie 22 : Pillsbury vs Marco",
+  "section": "L'ouverture du pion dame",
+  "players": {
+    "white": "Pillsbury",
+    "black": "Marco"
+  },
+  "event": "Paris 1900",
+  "opening": "Gambit dame refusé",
+  "eco": "D55",
+  "pgnPath": "data/pgn/chernov/22.pgn",
+  "result": "1-0",
+  "moveCount": 55,
+  "annotatedMoves": 41,
+  "fullText": "Pillsbury – Marco\n\nParis 1900\n\nGambit dame refusé\n\n1   d4\n\nQue ce soit pour le plaisir, l'honneur ou le sang, c'est l'une des meilleures façons de commencer le combat. Des issues sont créées pour la dame et un fou, tandis que le pion d lui-même prend une part active à la lutte pour le contrôle du centre. Il occupe d4 et veille sur e5 et c5, rendant ces cases indisponibles pour les pièces adverses.\n\n1   ...     d5\n\nLa façon la plus simple d'empêcher les Blancs de gagner davantage de terrain au centre. Si l'on permettait aux Blancs de jouer librement 2 e4, les deux pions côte à côte au centre leur donneraient la balance du pouvoir dans ce secteur important.\n\n2   c4\n\nLes Blancs offrent un pion afin d'éliminer le point fort des Noirs au centre. Il est nécessaire de jouer ce coup avant de développer le cavalier de b1 en c3, car la colonne c ne doit pas être obstruée.\n\n2   ...     e6\n\nLes Noirs sont prêts à répondre à 3 cxd5 par 3...exd5, maintenant un pion en d5. S'ils reprenaient avec une pièce, les Blancs pourraient l'attaquer, la chasser et créer un fort centre de pions en jouant e4.\n\nAccepter l'offre de pion des Blancs par 2...dxc4 n'est pas une politique recommandée. Les Noirs ne pourraient pas conserver le pion supplémentaire, de sorte qu'au bout du compte cela reviendrait à échanger un pion du centre contre un pion d'aile. Il est vrai que le coup du texte limite le rayon d'action du fou de c8, mais c'est un mal nécessaire de ce qui est probablement la défense la plus saine des Noirs. Là réside la grande force du Gambit dame (pour les Blancs) et sa popularité auprès de la majorité des joueurs qui se sentent à l'aise avec une ouverture qui leur permet d'exercer une pression dès le premier coup.\n\n3   Nc3\n\nLe cavalier se développe agressivement, avançant vers le centre et intensifiant l'attaque sur le pion d des Noirs.\n\n3   ...     Nf6\n\nUn excellent coup : il amène le cavalier de g8 sur sa case la plus appropriée dans l'ouverture, exerce une pression sur d5 et e4 (pour neutraliser l'influence du cavalier blanc sur ces cases), aide à défendre le pion central d5 et facilite un roque petit précoce.\n\n4   Bg5\n\nCe coup puissant développe une pièce, cloue l'une des pièces noires et menace, par 5 Bxf6 gxf6 (si 5...Qxf6, alors 6 cxd5 exd5 7 Nxd5 et les Blancs gagnent un pion), de disloquer la structure de pions des Noirs à l'aile roi.\n\nCurieusement, bien que Pillsbury ait utiliséé ce coup avec un grand effet dans une magnifique victoire sur Tarrasch à Hastings en 1895, le commentaire de Gunsberg, qui annotait la partie pour le livre du tournoi, était : « Rien de bon ne résulte de cette sortie précoce du fou. L'attaque, ou plutôt la soi-disant attaque, diffère du jeu similaire dans la Défense française, en ce que les Blancs n'ont pas le coup e5 à leur disposition. D'une manière générale, le premier comme le second joueur dans cette ouverture ont besoin de leur fou dame à l'aile dame. »\n\nCe point de vue, s'est-il avéré, méritait amplement d'entrer dans « le département de la boule de cristal embuée ». Pillsbury utilisa l'attaque découlant de 4 Bg5 pour quelques-uns de ses plus merveilleux triomphes, battant de tels maîtres du jeu que Steinitz, Maroczy, Janowsky, Burn, Marco et Tarrasch. D'autres qui évitèrent cette ligne, comme Lasker, Marshall et Tchigorine (pour n'en nommer que quelques-uns) furent victimes d'autres formes du Gambit dame. Gunsberg, qui critiquait si sévèrement cette forme d'attaque, choisit ce que Lasker appela « une manière de développement particulière, mais pas tout à fait saine », avec pour résultat que Pillsbury le battit dans une finale qui est l'une des plus belles de la littérature échiquéenne. En bref, ce furent les grands succès de Pillsbury avec le Gambit dame qui révélèrent sa formidable force aux autres maîtres et lui donnèrent une popularité qui s'est poursuivie jusqu'à ce jour.\n\n4   ...     Be7\n\nLe plus simple : les Noirs développent le fou là où il est le mieux placé pour la défense – près de la maison. En passant, ils neutralisent le clouage du cavalier.\n\n5   e3\n\nLes pions doivent être avancés avec parcimonie dans l'ouverture, mais les coups qui aident les pièces à entrer en jeu sont des coups de développement. En jouant 5 e3, les Blancs se développent car ils créent une issue pour leur fou de f1.\n\n5   ...     O-O\n\nLe roi trouve des quartiers plus sûrs tandis que la tour se prépare à se rendre utile.\n\n6   Nf3\n\nAvec le développement de cette pièce, les cavaliers blancs exercent maintenant une pression sur les quatre cases du centre. De plus, le cavalier de f3 a en vue d'utiliser e5 comme avant-poste. Une fois solidement installé là, il mettra la position noire dans un étau mortel.\n\n6   ...     b6\n\nIl est naturel de développer le fou en b7, surtout puisqu'il est entravé de l'autre côté, et c'est en effet l'un des plans les plus sains des Noirs – cependant, il eût été plus précis de le faire précéder de 6...h6, afin d'éloigner le pion h de la case vulnérable h7 avec gain de tempo.\n\nUne suite alternative était 6...Nbd7 pour soutenir une poussée contre le centre blanc par ...c5 ou ...e5. Le coup de cavalier freinerait aussi l'ambition des Blancs d'ancrer leur cavalier de f3 en e5.\n\n7   Bd3\n\nUn emplacement idéal pour le fou : il commande une diagonale importante et vise le pion h des Noirs. Ce pion n'est en aucun danger immédiat, mais il se trouve bien dans la ligne de tir.\n\n7   ...     Bb7\n\nLes Noirs s'attendent à contrôler la grande diagonale avec leur fou au moyen de ce fianchetto. Cependant, le coup suivant de Pillsbury met les Noirs dans un dilemme.\n\n8   cxd5\n\nLes Blancs enlèvent un pion et laissent les Noirs reprendre de l'une des quatre façons – aucune n'étant satisfaisante !\n\n8   ...     exd5\n\nLes Noirs veulent maintenir un pion au centre, mais ce pion bloque le chemin de leur fou de b7 et l'empêche d'accomplir quoi que ce soit d'utile sur la diagonale.\n\nLes Noirs auraient pu prendre avec une pièce à la place, mais cela revient à une reddition éventuelle du centre. Les Blancs chasseraient la pièce par e4 et resteraient maîtres de toutes les cases centrales stratégiquement importantes.\n\n9   Ne5\n\nC'est le coup clé de la célèbre « Attaque Pillsbury ». Le cavalier s'ancre sur une case d'où sa puissance de frappe est formidable ! Son attaque s'étend dans toutes les directions, affectant l'aile dame aussi bien que l'aile roi.\n\n9   ...     Nbd7\n\nCe cavalier fait ce qu'il peut : il se développe, il menace d'en découdre avec le cavalier blanc, et il se tient prêt à soutenir une rupture par 10...c5, contestant le contrôle du centre.\n\n10   f4\n\nCe pion non seulement renforce la position du cavalier en lui fournissant une base solide, mais il décourage les Noirs d'échanger les pièces. Sur 10...Nxe5, la reprise par 11 fxe5 ouvre largement la colonne f pour une attaque des pièces lourdes. Le pion qui capture lui-même frappera alors le cavalier noir de f6 et le chassera de son solide poste défensif.\n\n10   ...     c5\n\nCette démonstration à l'aile dame est soit trop tôt, soit trop tard. Les Noirs veulent attaquer à l'aile dame où, après avoir joué 11...c4, ils auront une majorité de trois pions contre deux. Ce qu'ils sous-estiment, c'est la vitesse et la vigueur avec lesquelles les Blancs peuvent lancer une attaque à l'aile roi. Elle frappera plus vite et avec plus de force que toute action des Noirs à l'aile dame. Les Noirs doivent priver l'attaque blanche d'une partie de sa force en réalisant quelques échanges, puis contre-attaquer au centre. Une possibilité était 10...Re8 11 Bxe7 Qxe7 12 0-0 Nxe5 13 fxe5 f6. Cela respecterait deux principes importants de la défense :\n\nUn échange soulage une position encombrée.\n\nUne attaque sur une aile se rencontre le mieux par un jeu au centre.\n\n11  0-0\n\nUne mesure défensive (le roi doit être abrité) mais surtout pour mettre immédiatement la tour au travail sur la colonne f partiellement ouverte.\n\n11   O-O\n\n11   ...     c4\n\nAvec l'idée d'assurer une majorité de pions à l'aile dame. C'est une stratégie louable pour la finale, mais les Noirs n'ont pas encore survécu au milieu de jeu !\n\nLe coup 11...c4 est une erreur stratégique. Il enlève la pression sur le pion d des Blancs et relâche la tension. Tant que les Noirs ont l'option de prendre le pion d et de troubler le centre blanc, il est difficile pour les Blancs de stabiliser le centre. Et tant que le centre n'est pas stabilisé, le succès d'une attaque à l'aile roi pour les Blancs est douteux.\n\nLa morale est claire : gardez la position de pions au centre fluide ; réservez-vous l'option de capturer le pion central.\n\n12   Bc2\n\nLe fou recule mais ne relâche pas son emprise sur la diagonale menant à l'aile roi des Noirs.\n\n12   ...     a6\n\nPrépare une avance balayante des pions de l'aile dame, commençant par 13...b5 et 14...b4.\n\n13   Qf3\n\nLes Blancs amènent l'artillerie lourde. L'objet du coup de dame est de commencer une attaque directe sur le roi, et ils gagnent du temps parce qu'ils forcent les Noirs à parer la menace de gagner un pion par 14 Bxc4 dxc4 15 Qxb7. Pour se défendre contre les menaces blanches, les Noirs seront forcés d'avancer quelque pion près de leur roi. Ce changement dans la formation de pions relâchera la structure et créera une faiblesse irréparable dans les défenses du roi.\n\n13   ...     b5\n\nMarco protège le pion c et poursuit sa contre-attaque à l'aile dame. Notez comment les trois derniers coups des Noirs, remplissant les cases claires de pions, réduisent encore la faible mobilité de leur fou des cases claires.\n\n14   Qh3\n\nMenançant 15 Nxd7 Nxd7 (certainement pas 15...Qxd7 16 Qxh7#), après quoi les Blancs ont le choix entre trois suites gagnantes :\n\n1) 16 Bxd7 Qxd7 17 Bxe7, et les Blancs gagnent une pièce.\n\n2) 16 Bxh7+ Kh8 (si 16...Kxh7, alors 17 Nxd7 gagne) 17 Nf5+, et les Blancs gagnent la dame.\n\n3) 16 Bf5 Qd8 17 Nxf6 Bxf6 18 Qxh7#.\n\n« Tout cela est très intéressant », pourriez-vous dire, « mais comment les Blancs conçoivent-ils cette série de coups ? Qu'est-ce qui les fait même regarder le premier coup de la combinaison ? »\n\nTrès bien ! Essayons de suivre leur raisonnement :\n\nLes Blancs attaquent le point critique, le pion h7 des Noirs, avec dame et fou.\n\nSi ce pion n'était protégé que par le roi, les Blancs pourraient le prendre et annoncer mat.\n\nMais le pion a un autre protecteur, un cavalier.\n\nEt si l'on enlevait le cavalier ?\n\nCela ne ferait rien. Il ne serait remplacé que par un autre cavalier.\n\nEt si l'on se débarrassait de l'autre cavalier ? Avec ce cavalier éliminé, toute la structure ne s'écroulerait-elle pas ?\n\nUne fois que les Blancs pensent dans cette direction et voient le premier coup de la combinaison, le reste se joue tout seul. En fait, une fois qu'ils trouvent la clé – enlever le cavalier qui protège le cavalier qui protège contre le mat – ils peuvent gagner de la façon qui leur plaît.\n\n14   ...     g6\n\nLes Noirs évitent le mat en jouant un simple coup de pion. Qu'ont donc accompli les Blancs, si leur combinaison de mat peut être si facilement déjouée ?\n\nIl est vrai que les Blancs n'ont pas infligé le mat, mais la menace de le faire leur a permis d'atteindre leur vrai objectif – un trouble dans l'alignement des pions près du roi noir. Ce changement dans la configuration de pions affaiblit toute la structure défensive.\n\nAprès le coup réel des Noirs, leur cavalier de f6, privé de son soutien de pion, est un objet d'attaque vulnérable, nonobstant le fait qu'il est protégé par trois pièces.\n\nQuelle autre défense les Noirs avaient-ils ? Si 14...h6, alors 15 Bxh6 gxh6 16 Qxh6 Ne4 17 Rf3 (menaçant 18 Rg3+ Nxg3 19 Qh7#) 17...Ndf6 18 Rh3, gagne pour les Blancs. Ou si 14...Nxe5 (pour éviter d'avancer les pions de l'aile roi), alors 15 dxe5 Ne4 16 Bxe4 dxe4 17 Rad1 Re8 18 Bxe7 Rxe7 19 Rd7 et le fou de b7 périt.\n\n15   f5\n\nUn pion est une merveilleuse arme d'attaque ! Celui-ci menace de briser le cordon de pions noirs par 16 fxg6. La prise découvrira aussi une attaque de la tour sur le cavalier noir de f6, attaque qui pourrait être renforcée en doublant les tours.\n\n15   ...     b4\n\nClairement 15...gxf5 est hors de question. Les Blancs pourraient reprendre avec le fou avec une partie formidable.\n\nLes Noirs espèrent, avec leur menace sur le cavalier de c3, détourner l'attention des Blancs du cours des événements à l'aile roi. S'ils peuvent persuader les Blancs de retarder l'attaque ne serait-ce qu'un instant, ils pourraient opposer de la résistance. Si, par exemple, les Blancs reculent prudemment le cavalier en e2, alors 16...Ne4 complique la tâche des Blancs.\n\n16   fxg6\n\nEnfonçant droit dans la position noire ! La portée d'attaque de la tour est allongée – elle a toute la colonne f pour travailler – tandis que l'attaque du fou mène droit au roi ennemi !\n\n16   ...     hxg6\n\nÉliminons les alternatives :\n\n1) 16...bxc3 17 Nxf6 Bxf6 18 Rxf6 fxg6 (ou 18...Bxf6 19 Qxh7#) 19 Bxg6 hxg6 20 Qxg6#.\n\n2) 16...fxg6 17 Bxg6+ Kh8 18 Nxd7 Nxd7 (ou 18...Qxd7 19 Rxf6+ suivi de 20 Bxd7) 19 Rxf8+ Bxf8 20 Ne5+ Kg8 21 Bxe7, et les Blancs gagnent.\n\n17   Qh4\n\nConcentrant son feu sur le cavalier de f6, dont la position a été affaiblie par la perte de son soutien de pion.\n\n17   ...     bxc3\n\nLes Noirs peuvent aussi bien prendre le cavalier. L'alternative 17...Nxe5 perd sur 18 dxe5 bxc3 19 exf6 Bd6 20 Qh6.\n\nAvant que les Blancs ne jouent leur prochain coup, regardons l'objet de leur attaque, le cavalier en f6. Bien qu'il ait perdu la protection du pion g7, qui a dû aller en g6, il reste encore à l'abri de la capture, puisqu'il a un défenseur pour chaque pièce qui l'attaque. En fait, si les Blancs essaient quelque chose comme 18 Bxf6 Bxf6 19 Rxf6 Rxf6 20 Qxf6 Qxf6, ils se retrouvent une tour en moins. Donc l'assaut direct ne suffit pas ! La réponse doit alors résider dans des moyens indirects. Nous avons éloigné l'un des défenseurs du cavalier, le pion. Pouvons-nous nous débarrasser de ses autres protecteurs ? Certainement !\n\n18   Nxd7\n\nCela enlève l'un des piliers soutenant le cavalier.\n\n18   ...     Qxd7\n\nEt cette reprise en éloigne un autre ! Remarquez la technique du siège d'un objectif lourdement gardé en éliminant les pièces qui le protègent. Dans ce cas, deux des défenseurs du cavalier ont disparu – l'un enlevé corporellement, et l'autre détourné par l'obligation de reprendre.\n\nLes Noirs n'avaient pas de meilleure défense en 18...Nxd7 car 19 Bxe7 Qa5 20 b4 (plus rapide que 20 Bxf8) 20...cxb3 21 axb3 Qb6 22 Rf3, suivi de 23 Rh3, force un mat rapide.\n\n19   Rxf6\n\nPlus fort que 19 Bxf6 car les Noirs n'osent pas prendre la tour.\n\n19   ...     a5\n\nSi 19...Bxf6, alors 20 Rxf6 menaçant 21 Qh8# est concluant.\n\nLe coup réel des Noirs prépare 20...Ra6, pour aider à défendre le pion g vulnérable et peut-être pour repousser la tour blanche.\n\n20   Raf1\n\nLe doublement des tours institue deux nouvelles menaces gagnantes : 21 Bxg6 fxg6 22 Qxg6# et 21 Rf3, suivi de 22 Rh3 et 23 Qh8#.\n\n20   ...     Ra6\n\nEspérant provoquer un échange de tours qui détournerait l'une des pièces blanches de l'attaque. Les Blancs pourraient encore gagner, mais le jeu exigerait du soin. Cela pourrait aller ainsi : 21 Rxa6 Bxg5 22 Qxg5 Rxa6 23 Rf6 (23 Qxg6 d'emblée est risqué et pourrait même perdre) 23...cxb2 24 Qxg6 fxg6 25 Rxg6+ Kf7 26 Rg7+ Ke8 27 Qe5+ Kd8 28 Qb8+ Bc8 29 Rxd7+ Kxd7 30 Qxb2, etc.\n\nMais Pillsbury ne se laisse pas détourner ! Il mène le motif de l'attaque avec une admirable constance en anéantissant le pion g qui est sorti du rang et a affaibli la formation défensive.\n\n21   Bxg6\n\nLa logique et la justice poétique dictent que ce pion soit détruit !\n\n21   ...     fxg6\n\nLes Blancs menaçaient le mat sur le coup.\n\nPillsbury montra alors un mat forcé en sept coups par 22 Rxf8+ Rxf8 23 Rxf8+ Kxf8 24 Qh8+ Kf7 25 Qh7+ Kf8 (25...Ke8 26 Qg8# ou 25...Ke6 26 Qxg6#) 26 Qxd7 suivi de 27 Bh6+ Kg8 28 Qg7#.\n\n1-0\n\nPlus que toute autre, cette partie fit prendre conscience au monde des échecs du formidable potentiel du Gambit dame, une ouverture positionnelle, comme instrument d'attaque. L'assaut à l'aile roi est mené avec vitesse et puissance, et contrairement aux attaques découlant de gambits spéculatifs du pion roi, il repose sur une position saine jusqu'au cœur.\n\n22   Rxf8+\n\n22   ...     Bxf8\n\n23   Rxf8+\n\n23   ...     Kxf8\n\n24   Qh8+\n\n24   ...     Kf7\n\n25   Qh7+\n\n25   ...     Kf8\n\n26   Qxd7\n\n26   ...     cxb2\n\n27   Bh6+\n\n27   ...     Kg8\n\n28   Qg7#",
+  "nodes": [
+    {
+      "ply": 0,
+      "text": "Pillsbury – Marco\n\nParis 1900\n\nGambit dame refusé"
+    },
+    {
+      "ply": 1,
+      "san": "d4",
+      "text": "Que ce soit pour le plaisir, l'honneur ou le sang, c'est l'une des meilleures façons de commencer le combat. Des issues sont créées pour la dame et un fou, tandis que le pion d lui-même prend une part active à la lutte pour le contrôle du centre. Il occupe d4 et veille sur e5 et c5, rendant ces cases indisponibles pour les pièces adverses.",
+      "isCritical": true
+    },
+    {
+      "ply": 2,
+      "san": "d5",
+      "text": "La façon la plus simple d'empêcher les Blancs de gagner davantage de terrain au centre. Si l'on permettait aux Blancs de jouer librement 2 e4, les deux pions côte à côte au centre leur donneraient la balance du pouvoir dans ce secteur important.",
+      "isCritical": true
+    },
+    {
+      "ply": 3,
+      "san": "c4",
+      "text": "Les Blancs offrent un pion afin d'éliminer le point fort des Noirs au centre. Il est nécessaire de jouer ce coup avant de développer le cavalier de b1 en c3, car la colonne c ne doit pas être obstruée.",
+      "isCritical": true
+    },
+    {
+      "ply": 4,
+      "san": "e6",
+      "text": "Les Noirs sont prêts à répondre à 3 cxd5 par 3...exd5, maintenant un pion en d5. S'ils reprenaient avec une pièce, les Blancs pourraient l'attaquer, la chasser et créer un fort centre de pions en jouant e4.\n\nAccepter l'offre de pion des Blancs par 2...dxc4 n'est pas une politique recommandée. Les Noirs ne pourraient pas conserver le pion supplémentaire, de sorte qu'au bout du compte cela reviendrait à échanger un pion du centre contre un pion d'aile. Il est vrai que le coup du texte limite le rayon d'action du fou de c8, mais c'est un mal nécessaire de ce qui est probablement la défense la plus saine des Noirs. Là réside la grande force du Gambit dame (pour les Blancs) et sa popularité auprès de la majorité des joueurs qui se sentent à l'aise avec une ouverture qui leur permet d'exercer une pression dès le premier coup.",
+      "isCritical": true
+    },
+    {
+      "ply": 5,
+      "san": "Nc3",
+      "text": "Le cavalier se développe agressivement, avançant vers le centre et intensifiant l'attaque sur le pion d des Noirs.",
+      "isCritical": true
+    },
+    {
+      "ply": 6,
+      "san": "Nf6",
+      "text": "Un excellent coup : il amène le cavalier de g8 sur sa case la plus appropriée dans l'ouverture, exerce une pression sur d5 et e4 (pour neutraliser l'influence du cavalier blanc sur ces cases), aide à défendre le pion central d5 et facilite un roque petit précoce.",
+      "isCritical": true
+    },
+    {
+      "ply": 7,
+      "san": "Bg5",
+      "text": "Ce coup puissant développe une pièce, cloue l'une des pièces noires et menace, par 5 Bxf6 gxf6 (si 5...Qxf6, alors 6 cxd5 exd5 7 Nxd5 et les Blancs gagnent un pion), de disloquer la structure de pions des Noirs à l'aile roi.\n\nCurieusement, bien que Pillsbury ait utiliséé ce coup avec un grand effet dans une magnifique victoire sur Tarrasch à Hastings en 1895, le commentaire de Gunsberg, qui annotait la partie pour le livre du tournoi, était : « Rien de bon ne résulte de cette sortie précoce du fou. L'attaque, ou plutôt la soi-disant attaque, diffère du jeu similaire dans la Défense française, en ce que les Blancs n'ont pas le coup e5 à leur disposition. D'une manière générale, le premier comme le second joueur dans cette ouverture ont besoin de leur fou dame à l'aile dame. »\n\nCe point de vue, s'est-il avéré, méritait amplement d'entrer dans « le département de la boule de cristal embuée ». Pillsbury utilisa l'attaque découlant de 4 Bg5 pour quelques-uns de ses plus merveilleux triomphes, battant de tels maîtres du jeu que Steinitz, Maroczy, Janowsky, Burn, Marco et Tarrasch. D'autres qui évitèrent cette ligne, comme Lasker, Marshall et Tchigorine (pour n'en nommer que quelques-uns) furent victimes d'autres formes du Gambit dame. Gunsberg, qui critiquait si sévèrement cette forme d'attaque, choisit ce que Lasker appela « une manière de développement particulière, mais pas tout à fait saine », avec pour résultat que Pillsbury le battit dans une finale qui est l'une des plus belles de la littérature échiquéenne. En bref, ce furent les grands succès de Pillsbury avec le Gambit dame qui révélèrent sa formidable force aux autres maîtres et lui donnèrent une popularité qui s'est poursuivie jusqu'à ce jour.",
+      "isCritical": true
+    },
+    {
+      "ply": 8,
+      "san": "Be7",
+      "text": "Le plus simple : les Noirs développent le fou là où il est le mieux placé pour la défense – près de la maison. En passant, ils neutralisent le clouage du cavalier.",
+      "isCritical": true
+    },
+    {
+      "ply": 9,
+      "san": "e3",
+      "text": "Les pions doivent être avancés avec parcimonie dans l'ouverture, mais les coups qui aident les pièces à entrer en jeu sont des coups de développement. En jouant 5 e3, les Blancs se développent car ils créent une issue pour leur fou de f1.",
+      "isCritical": true
+    },
+    {
+      "ply": 10,
+      "san": "O-O",
+      "text": "Le roi trouve des quartiers plus sûrs tandis que la tour se prépare à se rendre utile.",
+      "isCritical": true
+    },
+    {
+      "ply": 11,
+      "san": "Nf3",
+      "text": "Avec le développement de cette pièce, les cavaliers blancs exercent maintenant une pression sur les quatre cases du centre. De plus, le cavalier de f3 a en vue d'utiliser e5 comme avant-poste. Une fois solidement installé là, il mettra la position noire dans un étau mortel.",
+      "isCritical": true
+    },
+    {
+      "ply": 12,
+      "san": "b6",
+      "text": "Il est naturel de développer le fou en b7, surtout puisqu'il est entravé de l'autre côté, et c'est en effet l'un des plans les plus sains des Noirs – cependant, il eût été plus précis de le faire précéder de 6...h6, afin d'éloigner le pion h de la case vulnérable h7 avec gain de tempo.\n\nUne suite alternative était 6...Nbd7 pour soutenir une poussée contre le centre blanc par ...c5 ou ...e5. Le coup de cavalier freinerait aussi l'ambition des Blancs d'ancrer leur cavalier de f3 en e5.",
+      "isCritical": true
+    },
+    {
+      "ply": 13,
+      "san": "Bd3",
+      "text": "Un emplacement idéal pour le fou : il commande une diagonale importante et vise le pion h des Noirs. Ce pion n'est en aucun danger immédiat, mais il se trouve bien dans la ligne de tir.",
+      "isCritical": true
+    },
+    {
+      "ply": 14,
+      "san": "Bb7",
+      "text": "Les Noirs s'attendent à contrôler la grande diagonale avec leur fou au moyen de ce fianchetto. Cependant, le coup suivant de Pillsbury met les Noirs dans un dilemme.",
+      "isCritical": true
+    },
+    {
+      "ply": 15,
+      "san": "cxd5",
+      "text": "Les Blancs enlèvent un pion et laissent les Noirs reprendre de l'une des quatre façons – aucune n'étant satisfaisante !",
+      "isCritical": true
+    },
+    {
+      "ply": 16,
+      "san": "exd5",
+      "text": "Les Noirs veulent maintenir un pion au centre, mais ce pion bloque le chemin de leur fou de b7 et l'empêche d'accomplir quoi que ce soit d'utile sur la diagonale.\n\nLes Noirs auraient pu prendre avec une pièce à la place, mais cela revient à une reddition éventuelle du centre. Les Blancs chasseraient la pièce par e4 et resteraient maîtres de toutes les cases centrales stratégiquement importantes.",
+      "isCritical": true
+    },
+    {
+      "ply": 17,
+      "san": "Ne5",
+      "text": "C'est le coup clé de la célèbre « Attaque Pillsbury ». Le cavalier s'ancre sur une case d'où sa puissance de frappe est formidable ! Son attaque s'étend dans toutes les directions, affectant l'aile dame aussi bien que l'aile roi.",
+      "isCritical": true
+    },
+    {
+      "ply": 18,
+      "san": "Nbd7",
+      "text": "Ce cavalier fait ce qu'il peut : il se développe, il menace d'en découdre avec le cavalier blanc, et il se tient prêt à soutenir une rupture par 10...c5, contestant le contrôle du centre.",
+      "isCritical": true
+    },
+    {
+      "ply": 19,
+      "san": "f4",
+      "text": "Ce pion non seulement renforce la position du cavalier en lui fournissant une base solide, mais il décourage les Noirs d'échanger les pièces. Sur 10...Nxe5, la reprise par 11 fxe5 ouvre largement la colonne f pour une attaque des pièces lourdes. Le pion qui capture lui-même frappera alors le cavalier noir de f6 et le chassera de son solide poste défensif.",
+      "isCritical": true
+    },
+    {
+      "ply": 20,
+      "san": "c5",
+      "text": "Cette démonstration à l'aile dame est soit trop tôt, soit trop tard. Les Noirs veulent attaquer à l'aile dame où, après avoir joué 11...c4, ils auront une majorité de trois pions contre deux. Ce qu'ils sous-estiment, c'est la vitesse et la vigueur avec lesquelles les Blancs peuvent lancer une attaque à l'aile roi. Elle frappera plus vite et avec plus de force que toute action des Noirs à l'aile dame. Les Noirs doivent priver l'attaque blanche d'une partie de sa force en réalisant quelques échanges, puis contre-attaquer au centre. Une possibilité était 10...Re8 11 Bxe7 Qxe7 12 0-0 Nxe5 13 fxe5 f6. Cela respecterait deux principes importants de la défense :\n\nUn échange soulage une position encombrée.\n\nUne attaque sur une aile se rencontre le mieux par un jeu au centre.\n\n11  0-0\n\nUne mesure défensive (le roi doit être abrité) mais surtout pour mettre immédiatement la tour au travail sur la colonne f partiellement ouverte.",
+      "isCritical": true
+    },
+    {
+      "ply": 21,
+      "san": "O-O",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 22,
+      "san": "c4",
+      "text": "Avec l'idée d'assurer une majorité de pions à l'aile dame. C'est une stratégie louable pour la finale, mais les Noirs n'ont pas encore survécu au milieu de jeu !\n\nLe coup 11...c4 est une erreur stratégique. Il enlève la pression sur le pion d des Blancs et relâche la tension. Tant que les Noirs ont l'option de prendre le pion d et de troubler le centre blanc, il est difficile pour les Blancs de stabiliser le centre. Et tant que le centre n'est pas stabilisé, le succès d'une attaque à l'aile roi pour les Blancs est douteux.\n\nLa morale est claire : gardez la position de pions au centre fluide ; réservez-vous l'option de capturer le pion central.",
+      "isCritical": true
+    },
+    {
+      "ply": 23,
+      "san": "Bc2",
+      "text": "Le fou recule mais ne relâche pas son emprise sur la diagonale menant à l'aile roi des Noirs.",
+      "isCritical": true
+    },
+    {
+      "ply": 24,
+      "san": "a6",
+      "text": "Prépare une avance balayante des pions de l'aile dame, commençant par 13...b5 et 14...b4.",
+      "isCritical": true
+    },
+    {
+      "ply": 25,
+      "san": "Qf3",
+      "text": "Les Blancs amènent l'artillerie lourde. L'objet du coup de dame est de commencer une attaque directe sur le roi, et ils gagnent du temps parce qu'ils forcent les Noirs à parer la menace de gagner un pion par 14 Bxc4 dxc4 15 Qxb7. Pour se défendre contre les menaces blanches, les Noirs seront forcés d'avancer quelque pion près de leur roi. Ce changement dans la formation de pions relâchera la structure et créera une faiblesse irréparable dans les défenses du roi.",
+      "isCritical": true
+    },
+    {
+      "ply": 26,
+      "san": "b5",
+      "text": "Marco protège le pion c et poursuit sa contre-attaque à l'aile dame. Notez comment les trois derniers coups des Noirs, remplissant les cases claires de pions, réduisent encore la faible mobilité de leur fou des cases claires.",
+      "isCritical": true
+    },
+    {
+      "ply": 27,
+      "san": "Qh3",
+      "text": "Menançant 15 Nxd7 Nxd7 (certainement pas 15...Qxd7 16 Qxh7#), après quoi les Blancs ont le choix entre trois suites gagnantes :\n\n1) 16 Bxd7 Qxd7 17 Bxe7, et les Blancs gagnent une pièce.\n\n2) 16 Bxh7+ Kh8 (si 16...Kxh7, alors 17 Nxd7 gagne) 17 Nf5+, et les Blancs gagnent la dame.\n\n3) 16 Bf5 Qd8 17 Nxf6 Bxf6 18 Qxh7#.\n\n« Tout cela est très intéressant », pourriez-vous dire, « mais comment les Blancs conçoivent-ils cette série de coups ? Qu'est-ce qui les fait même regarder le premier coup de la combinaison ? »\n\nTrès bien ! Essayons de suivre leur raisonnement :\n\nLes Blancs attaquent le point critique, le pion h7 des Noirs, avec dame et fou.\n\nSi ce pion n'était protégé que par le roi, les Blancs pourraient le prendre et annoncer mat.\n\nMais le pion a un autre protecteur, un cavalier.\n\nEt si l'on enlevait le cavalier ?\n\nCela ne ferait rien. Il ne serait remplacé que par un autre cavalier.\n\nEt si l'on se débarrassait de l'autre cavalier ? Avec ce cavalier éliminé, toute la structure ne s'écroulerait-elle pas ?\n\nUne fois que les Blancs pensent dans cette direction et voient le premier coup de la combinaison, le reste se joue tout seul. En fait, une fois qu'ils trouvent la clé – enlever le cavalier qui protège le cavalier qui protège contre le mat – ils peuvent gagner de la façon qui leur plaît.",
+      "isCritical": true
+    },
+    {
+      "ply": 28,
+      "san": "g6",
+      "text": "Les Noirs évitent le mat en jouant un simple coup de pion. Qu'ont donc accompli les Blancs, si leur combinaison de mat peut être si facilement déjouée ?\n\nIl est vrai que les Blancs n'ont pas infligé le mat, mais la menace de le faire leur a permis d'atteindre leur vrai objectif – un trouble dans l'alignement des pions près du roi noir. Ce changement dans la configuration de pions affaiblit toute la structure défensive.\n\nAprès le coup réel des Noirs, leur cavalier de f6, privé de son soutien de pion, est un objet d'attaque vulnérable, nonobstant le fait qu'il est protégé par trois pièces.\n\nQuelle autre défense les Noirs avaient-ils ? Si 14...h6, alors 15 Bxh6 gxh6 16 Qxh6 Ne4 17 Rf3 (menaçant 18 Rg3+ Nxg3 19 Qh7#) 17...Ndf6 18 Rh3, gagne pour les Blancs. Ou si 14...Nxe5 (pour éviter d'avancer les pions de l'aile roi), alors 15 dxe5 Ne4 16 Bxe4 dxe4 17 Rad1 Re8 18 Bxe7 Rxe7 19 Rd7 et le fou de b7 périt.",
+      "isCritical": true
+    },
+    {
+      "ply": 29,
+      "san": "f5",
+      "text": "Un pion est une merveilleuse arme d'attaque ! Celui-ci menace de briser le cordon de pions noirs par 16 fxg6. La prise découvrira aussi une attaque de la tour sur le cavalier noir de f6, attaque qui pourrait être renforcée en doublant les tours.",
+      "isCritical": true
+    },
+    {
+      "ply": 30,
+      "san": "b4",
+      "text": "Clairement 15...gxf5 est hors de question. Les Blancs pourraient reprendre avec le fou avec une partie formidable.\n\nLes Noirs espèrent, avec leur menace sur le cavalier de c3, détourner l'attention des Blancs du cours des événements à l'aile roi. S'ils peuvent persuader les Blancs de retarder l'attaque ne serait-ce qu'un instant, ils pourraient opposer de la résistance. Si, par exemple, les Blancs reculent prudemment le cavalier en e2, alors 16...Ne4 complique la tâche des Blancs.",
+      "isCritical": true
+    },
+    {
+      "ply": 31,
+      "san": "fxg6",
+      "text": "Enfonçant droit dans la position noire ! La portée d'attaque de la tour est allongée – elle a toute la colonne f pour travailler – tandis que l'attaque du fou mène droit au roi ennemi !",
+      "isCritical": true
+    },
+    {
+      "ply": 32,
+      "san": "hxg6",
+      "text": "Éliminons les alternatives :\n\n1) 16...bxc3 17 Nxf6 Bxf6 18 Rxf6 fxg6 (ou 18...Bxf6 19 Qxh7#) 19 Bxg6 hxg6 20 Qxg6#.\n\n2) 16...fxg6 17 Bxg6+ Kh8 18 Nxd7 Nxd7 (ou 18...Qxd7 19 Rxf6+ suivi de 20 Bxd7) 19 Rxf8+ Bxf8 20 Ne5+ Kg8 21 Bxe7, et les Blancs gagnent.",
+      "isCritical": true
+    },
+    {
+      "ply": 33,
+      "san": "Qh4",
+      "text": "Concentrant son feu sur le cavalier de f6, dont la position a été affaiblie par la perte de son soutien de pion.",
+      "isCritical": true
+    },
+    {
+      "ply": 34,
+      "san": "bxc3",
+      "text": "Les Noirs peuvent aussi bien prendre le cavalier. L'alternative 17...Nxe5 perd sur 18 dxe5 bxc3 19 exf6 Bd6 20 Qh6.\n\nAvant que les Blancs ne jouent leur prochain coup, regardons l'objet de leur attaque, le cavalier en f6. Bien qu'il ait perdu la protection du pion g7, qui a dû aller en g6, il reste encore à l'abri de la capture, puisqu'il a un défenseur pour chaque pièce qui l'attaque. En fait, si les Blancs essaient quelque chose comme 18 Bxf6 Bxf6 19 Rxf6 Rxf6 20 Qxf6 Qxf6, ils se retrouvent une tour en moins. Donc l'assaut direct ne suffit pas ! La réponse doit alors résider dans des moyens indirects. Nous avons éloigné l'un des défenseurs du cavalier, le pion. Pouvons-nous nous débarrasser de ses autres protecteurs ? Certainement !",
+      "isCritical": true
+    },
+    {
+      "ply": 35,
+      "san": "Nxd7",
+      "text": "Cela enlève l'un des piliers soutenant le cavalier.",
+      "isCritical": true
+    },
+    {
+      "ply": 36,
+      "san": "Qxd7",
+      "text": "Et cette reprise en éloigne un autre ! Remarquez la technique du siège d'un objectif lourdement gardé en éliminant les pièces qui le protègent. Dans ce cas, deux des défenseurs du cavalier ont disparu – l'un enlevé corporellement, et l'autre détourné par l'obligation de reprendre.\n\nLes Noirs n'avaient pas de meilleure défense en 18...Nxd7 car 19 Bxe7 Qa5 20 b4 (plus rapide que 20 Bxf8) 20...cxb3 21 axb3 Qb6 22 Rf3, suivi de 23 Rh3, force un mat rapide.",
+      "isCritical": true
+    },
+    {
+      "ply": 37,
+      "san": "Rxf6",
+      "text": "Plus fort que 19 Bxf6 car les Noirs n'osent pas prendre la tour.",
+      "isCritical": true
+    },
+    {
+      "ply": 38,
+      "san": "a5",
+      "text": "Si 19...Bxf6, alors 20 Rxf6 menaçant 21 Qh8# est concluant.\n\nLe coup réel des Noirs prépare 20...Ra6, pour aider à défendre le pion g vulnérable et peut-être pour repousser la tour blanche.",
+      "isCritical": true
+    },
+    {
+      "ply": 39,
+      "san": "Raf1",
+      "text": "Le doublement des tours institue deux nouvelles menaces gagnantes : 21 Bxg6 fxg6 22 Qxg6# et 21 Rf3, suivi de 22 Rh3 et 23 Qh8#.",
+      "isCritical": true
+    },
+    {
+      "ply": 40,
+      "san": "Ra6",
+      "text": "Espérant provoquer un échange de tours qui détournerait l'une des pièces blanches de l'attaque. Les Blancs pourraient encore gagner, mais le jeu exigerait du soin. Cela pourrait aller ainsi : 21 Rxa6 Bxg5 22 Qxg5 Rxa6 23 Rf6 (23 Qxg6 d'emblée est risqué et pourrait même perdre) 23...cxb2 24 Qxg6 fxg6 25 Rxg6+ Kf7 26 Rg7+ Ke8 27 Qe5+ Kd8 28 Qb8+ Bc8 29 Rxd7+ Kxd7 30 Qxb2, etc.\n\nMais Pillsbury ne se laisse pas détourner ! Il mène le motif de l'attaque avec une admirable constance en anéantissant le pion g qui est sorti du rang et a affaibli la formation défensive.",
+      "isCritical": true
+    },
+    {
+      "ply": 41,
+      "san": "Bxg6",
+      "text": "La logique et la justice poétique dictent que ce pion soit détruit !",
+      "isCritical": true
+    },
+    {
+      "ply": 42,
+      "san": "fxg6",
+      "text": "Les Blancs menaçaient le mat sur le coup.\n\nPillsbury montra alors un mat forcé en sept coups par 22 Rxf8+ Rxf8 23 Rxf8+ Kxf8 24 Qh8+ Kf7 25 Qh7+ Kf8 (25...Ke8 26 Qg8# ou 25...Ke6 26 Qxg6#) 26 Qxd7 suivi de 27 Bh6+ Kg8 28 Qg7#.\n\n1-0\n\nPlus que toute autre, cette partie fit prendre conscience au monde des échecs du formidable potentiel du Gambit dame, une ouverture positionnelle, comme instrument d'attaque. L'assaut à l'aile roi est mené avec vitesse et puissance, et contrairement aux attaques découlant de gambits spéculatifs du pion roi, il repose sur une position saine jusqu'au cœur.",
+      "isCritical": true
+    },
+    {
+      "ply": 43,
+      "san": "Rxf8+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 44,
+      "san": "Bxf8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 45,
+      "san": "Rxf8+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 46,
+      "san": "Kxf8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 47,
+      "san": "Qh8+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 48,
+      "san": "Kf7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 49,
+      "san": "Qh7+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 50,
+      "san": "Kf8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 51,
+      "san": "Qxd7",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 52,
+      "san": "cxb2",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 53,
+      "san": "Bh6+",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 54,
+      "san": "Kg8",
+      "text": "",
+      "isCritical": true
+    },
+    {
+      "ply": 55,
+      "san": "Qg7#",
+      "text": "",
+      "isCritical": true
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 import type { BatteryStatus } from "eboard-connect-js";
 import type { ChessUpConnectionStatus } from "../hooks/useChessUpBoard";
+import type { Lang } from "../lib/lang";
+import { ui } from "../lib/uiCopy";
 
 type Props = {
   status: ChessUpConnectionStatus;
@@ -10,6 +12,7 @@ type Props = {
   onDisconnect: () => void;
   /** Optional status line under the main row. */
   hint?: string | null;
+  lang: Lang;
 };
 
 export function ChessUpConnectBar({
@@ -20,7 +23,9 @@ export function ChessUpConnectBar({
   onConnect,
   onDisconnect,
   hint = null,
+  lang,
 }: Props) {
+  const t = ui(lang);
   const unavailable = !supported.ble;
   const connecting = status === "connecting";
   const connected = status === "connected";
@@ -30,9 +35,7 @@ export function ChessUpConnectBar({
       <div className="chessnut-bar-main">
         <span className="chessnut-label">ChessUp</span>
         {unavailable ? (
-          <span className="chessnut-status muted">
-            Use Chrome/Edge on HTTPS or localhost
-          </span>
+          <span className="chessnut-status muted">{t.useChromeHttps}</span>
         ) : connected ? (
           <>
             <span className="chessnut-status is-connected">
@@ -40,7 +43,7 @@ export function ChessUpConnectBar({
               {battery ? ` · ${battery.percent}%` : ""}
             </span>
             <button type="button" className="secondary" onClick={onDisconnect}>
-              Disconnect
+              {t.disconnect}
             </button>
           </>
         ) : (
@@ -50,7 +53,7 @@ export function ChessUpConnectBar({
             disabled={connecting}
             onClick={onConnect}
           >
-            {connecting ? "Connecting…" : "Bluetooth"}
+            {connecting ? t.connecting : t.bluetooth}
           </button>
         )}
       </div>

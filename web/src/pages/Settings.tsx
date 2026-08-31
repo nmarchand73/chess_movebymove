@@ -6,6 +6,8 @@ import { useChessUpBoard } from "../hooks/useChessUpBoard";
 import { speakCommentary, speechSupported, stopCommentarySpeech } from "../lib/commentarySpeech";
 import { buildLedBallet } from "../lib/ledBallet";
 import { APP_COMMIT, APP_VERSION } from "../lib/appVersion";
+import type { Lang } from "../lib/lang";
+import { fill, ui } from "../lib/uiCopy";
 import {
   englishSpeechVoices,
   ensureDefaultVoiceSelected,
@@ -21,13 +23,16 @@ import {
 } from "../lib/listenSettings";
 
 type Props = {
+  lang: Lang;
+  onLangChange: (lang: Lang) => void;
   onBack: () => void;
 };
 
 const PREVIEW_LINE =
   "White anchors a pawn in the centre. His next move will be knight to f three.";
 
-export function SettingsPage({ onBack }: Props) {
+export function SettingsPage({ lang, onLangChange, onBack }: Props) {
+  const t = ui(lang);
   const chessnut = useChessnutBoard();
   const chessup = useChessUpBoard();
   const [balletRunning, setBalletRunning] = useState(false);
@@ -100,7 +105,7 @@ export function SettingsPage({ onBack }: Props) {
       for (let i = 0; i < frames.length; i++) {
         if (cancelRef.current) break;
         const frame = frames[i]!;
-        setBalletProgress(`Frame ${i + 1} / ${frames.length}`);
+        setBalletProgress(fill(t.frameProgress, { x: i + 1, y: frames.length }));
         await chessnut.setLeds(frame.squares);
         await sleep(frame.holdMs);
       }
@@ -111,7 +116,7 @@ export function SettingsPage({ onBack }: Props) {
       setBalletRunning(false);
       setBalletProgress(null);
     }
-  }, [balletRunning, chessnut.setLeds, chessnut.status, sleep]);
+  }, [balletRunning, chessnut.setLeds, chessnut.status, sleep, t.frameProgress]);
 
   useEffect(() => {
     if (chessnut.status !== "connected" && balletRunning) {
@@ -140,17 +145,45 @@ export function SettingsPage({ onBack }: Props) {
     <div className="settings-page">
       <header className="settings-header">
         <button type="button" className="back-btn" onClick={onBack}>
-          ← Library
+          {t.backLibrary}
         </button>
-        <h1>Settings</h1>
-        <p className="settings-lead muted">Tune how commentary is read aloud, and connect a Chessnut board.</p>
+        <h1>{t.settings}</h1>
+        <p className="settings-lead muted">{t.settingsLead}</p>
       </header>
+
+      <section className="settings-panel settings-panel-lang">
+        <div className="settings-panel-head">
+          <div>
+            <p className="settings-eyebrow">{t.language}</p>
+            <h2>{t.language}</h2>
+          </div>
+        </div>
+        <div className="settings-lang-toggle" role="group" aria-label={t.language}>
+          <button
+            type="button"
+            className={`settings-lang-btn${lang === "en" ? " is-active" : ""}`}
+            aria-pressed={lang === "en"}
+            onClick={() => onLangChange("en")}
+          >
+            {t.languageEn}
+          </button>
+          <button
+            type="button"
+            className={`settings-lang-btn${lang === "fr" ? " is-active" : ""}`}
+            aria-pressed={lang === "fr"}
+            onClick={() => onLangChange("fr")}
+          >
+            {t.languageFr}
+          </button>
+        </div>
+        <p className="settings-copy muted">{t.languageHint}</p>
+      </section>
 
       <section className="settings-panel settings-panel-listen">
         <div className="settings-panel-head">
           <div>
-            <p className="settings-eyebrow">Commentary</p>
-            <h2>Listen</h2>
+            <p className="settings-eyebrow">{t.commentary}</p>
+            <h2>{t.listen}</h2>
           </div>
           {canListen && selectedVoice ? (
             <p className="settings-voice-chip" title={formatVoiceLabel(selectedVoice)}>
@@ -160,24 +193,24 @@ export function SettingsPage({ onBack }: Props) {
         </div>
 
         {!canListen ? (
-          <p className="settings-copy muted">Speech is not available in this browser.</p>
+          <p className="settings-copy muted">{t.speechUnavailable}</p>
         ) : (
           <div className="settings-fields">
             {platformTip ? <p className="settings-tip">{platformTip}</p> : null}
 
             <label className="settings-field">
-              <span className="settings-field-label">Voice</span>
+              <span className="settings-field-label">{t.voice}</span>
               <div className="settings-select-wrap">
                 <select
                   className="settings-select"
                   value={listen.voiceURI}
                   onChange={(event) => updateListen({ voiceURI: event.target.value })}
                 >
-                  {voices.length === 0 ? <option value="">Loading voices…</option> : null}
+                  {voices.length === 0 ? <option value="">{t.loadingVoices}</option> : null}
                   {voices.map((voice) => (
                     <option key={voice.voiceURI} value={voice.voiceURI}>
                       {formatVoiceLabel(voice)}
-                      {isPreferredDefaultVoice(voice) ? " · recommended" : ""}
+                      {isPreferredDefaultVoice(voice) ? ` ${t.recommended}` : ""}
                     </option>
                   ))}
                 </select>
@@ -186,7 +219,7 @@ export function SettingsPage({ onBack }: Props) {
 
             <label className="settings-field">
               <span className="settings-field-label">
-                Speed <span className="settings-field-value">{ratePercent}%</span>
+                {t.speed} <span className="settings-field-value">{ratePercent}%</span>
               </span>
               <div className="settings-range-wrap">
                 <input
@@ -199,9 +232,9 @@ export function SettingsPage({ onBack }: Props) {
                   onChange={(event) => updateListen({ rate: Number(event.target.value) })}
                 />
                 <span className="settings-range-hints muted">
-                  <span>Slower</span>
-                  <span>Normal</span>
-                  <span>Faster</span>
+                  <span>{t.slower}</span>
+                  <span>{t.normal}</span>
+                  <span>{t.faster}</span>
                 </span>
               </div>
             </label>
@@ -214,12 +247,12 @@ export function SettingsPage({ onBack }: Props) {
               {previewing ? (
                 <>
                   <StopGlyph />
-                  Stop preview
+                  {t.stopPreview}
                 </>
               ) : (
                 <>
                   <SpeakerGlyph />
-                  Preview voice
+                  {t.previewVoice}
                 </>
               )}
             </button>
@@ -230,13 +263,11 @@ export function SettingsPage({ onBack }: Props) {
       <section className="settings-panel settings-panel-board">
         <div className="settings-panel-head">
           <div>
-            <p className="settings-eyebrow">Hardware</p>
-            <h2>Chessnut board</h2>
+            <p className="settings-eyebrow">{t.hardware}</p>
+            <h2>{t.chessnutBoard}</h2>
           </div>
         </div>
-        <p className="settings-copy muted">
-          Connect over Bluetooth or USB. Run the LED ballet to verify every square lights cleanly.
-        </p>
+        <p className="settings-copy muted">{t.chessnutCopy}</p>
         <ChessnutConnectBar
           status={chessnut.status}
           transport={chessnut.transport}
@@ -251,17 +282,14 @@ export function SettingsPage({ onBack }: Props) {
             void stopBallet();
             void chessnut.disconnect();
           }}
-          hint={
-            chessnut.status === "connected"
-              ? "Board ready — try the LED ballet below."
-              : null
-          }
+          hint={chessnut.status === "connected" ? t.boardReadyBallet : null}
+          lang={lang}
         />
 
         <div className="settings-ballet">
           <div className="settings-ballet-copy">
-            <h3>LED ballet</h3>
-            <p className="muted">Breath, diagonal wave, then a spiral across all 64 squares.</p>
+            <h3>{t.ledBallet}</h3>
+            <p className="muted">{t.ledBalletCopy}</p>
           </div>
           <div className="settings-actions">
             <button
@@ -269,7 +297,7 @@ export function SettingsPage({ onBack }: Props) {
               disabled={chessnut.status !== "connected" || balletRunning}
               onClick={() => void runBallet()}
             >
-              {balletRunning ? "Dancing…" : "Run LED ballet"}
+              {balletRunning ? t.dancing : t.runLedBallet}
             </button>
             <button
               type="button"
@@ -277,7 +305,7 @@ export function SettingsPage({ onBack }: Props) {
               disabled={!balletRunning}
               onClick={() => void stopBallet()}
             >
-              Stop
+              {t.stop}
             </button>
           </div>
           {balletProgress ? (
@@ -291,8 +319,8 @@ export function SettingsPage({ onBack }: Props) {
       <section className="settings-panel settings-panel-board">
         <div className="settings-panel-head">
           <div>
-            <p className="settings-eyebrow">Hardware</p>
-            <h2>ChessUp board</h2>
+            <p className="settings-eyebrow">{t.hardware}</p>
+            <h2>{t.chessUpBoard}</h2>
           </div>
         </div>
         <p className="settings-copy muted">
@@ -310,16 +338,13 @@ export function SettingsPage({ onBack }: Props) {
             void chessup.connect();
           }}
           onDisconnect={() => void chessup.disconnect()}
-          hint={
-            chessup.status === "connected"
-              ? "Listen-only connection — open a lesson and play moves on the ChessUp."
-              : null
-          }
+          hint={chessup.status === "connected" ? t.listenOnlyBoard : null}
+          lang={lang}
         />
       </section>
 
       <p className="settings-version muted" title={`commit ${APP_COMMIT}`}>
-        Move by Move · v{APP_VERSION}
+        {fill(t.versionLabel, { version: APP_VERSION })}
       </p>
     </div>
   );

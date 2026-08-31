@@ -21,6 +21,8 @@ import {
   speechSupported,
   stopCommentarySpeech,
 } from "../lib/commentarySpeech";
+import type { Lang } from "../lib/lang";
+import { fill, ui, type UiCopy } from "../lib/uiCopy";
 
 type ListenMode = "idle" | "once" | "follow";
 
@@ -31,6 +33,7 @@ type Props = {
   onSanClick: (notation: string) => void;
   onAltClick: (alt: AlternativeMove) => void;
   commentator: string;
+  lang: Lang;
 };
 
 function CommentaryParagraph({
@@ -65,7 +68,7 @@ function CommentarySegment({
         type="button"
         className="san san-link"
         onClick={() => onSanClick(segment.value)}
-        title="Show this move on the board"
+        title={segment.value}
       >
         {segment.value}
       </button>
@@ -77,9 +80,11 @@ function CommentarySegment({
 function AlternativeChip({
   alt,
   onAltClick,
+  playedLabel,
 }: {
   alt: AlternativeMove;
   onAltClick: (alt: AlternativeMove) => void;
+  playedLabel: string;
 }) {
   const showQuote = hasSubstantiveAltQuote(alt);
 
@@ -89,12 +94,12 @@ function AlternativeChip({
         type="button"
         className={`alt-chip tone-${alt.tone}${alt.isPlayed ? " played" : ""}`}
         onClick={() => onAltClick(alt)}
-        title={showQuote ? alt.quote : "Preview this move on the board"}
+        title={showQuote ? alt.quote : alt.label}
       >
         <span className="alt-chip-move">{formatSanWithSymbols(alt.label)}</span>
         {alt.verdict ? <span className="alt-chip-verdict">{alt.verdict}</span> : null}
         {alt.isPlayed ? (
-          <span className="alt-chip-played" aria-label="Played">
+          <span className="alt-chip-played" aria-label={playedLabel}>
             <svg className="alt-chip-played-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
               <path
                 fill="currentColor"
@@ -113,10 +118,12 @@ function BeatContent({
   beat,
   onSanClick,
   onAltClick,
+  t,
 }: {
   beat: CommentaryBeat;
   onSanClick: (notation: string) => void;
   onAltClick: (alt: AlternativeMove) => void;
+  t: UiCopy;
 }) {
   switch (beat.kind) {
     case "heading":
@@ -127,12 +134,17 @@ function BeatContent({
     case "alternatives":
       return (
         <div className="prelude-block">
-          <h3>{beat.intro ? "Choosing the reply" : "Alternatives considered"}</h3>
+          <h3>{beat.intro ? t.choosingReply : t.alternatives}</h3>
           <div className="alt-intro-row">
             {beat.intro ? <p className="alt-intro">{beat.intro}</p> : null}
             <ul className="alt-chip-row">
               {beat.alternatives.map((alt) => (
-                <AlternativeChip key={alt.label + alt.quote.slice(0, 24)} alt={alt} onAltClick={onAltClick} />
+                <AlternativeChip
+                  key={alt.label + alt.quote.slice(0, 24)}
+                  alt={alt}
+                  onAltClick={onAltClick}
+                  playedLabel={t.played}
+                />
               ))}
             </ul>
           </div>
@@ -152,12 +164,19 @@ export function CommentaryPanel({
   onSanClick,
   onAltClick,
   commentator,
+  lang,
 }: Props) {
+  const t = ui(lang);
   const [speaking, setSpeaking] = useState(false);
   const [listenMode, setListenMode] = useState<ListenMode>("idle");
   const canSpeak = speechSupported();
 
-  const label = ply === 0 ? "Introduction" : node?.san ? `${formatMoveNumber(ply)} ${node.san}` : `Move ${ply}`;
+  const label =
+    ply === 0
+      ? t.introduction
+      : node?.san
+        ? `${formatMoveNumber(ply)} ${node.san}`
+        : fill(t.moveN, { n: ply });
 
   const normalized = useMemo(
     () => normalizeCommentary(node?.text ?? "", node?.san),
@@ -255,14 +274,14 @@ export function CommentaryPanel({
     <section className="commentary">
       <header className="commentary-header">
         <div>
-          <p className="eyebrow">{commentator} explains</p>
+          <p className="eyebrow">{fill(t.explains, { name: commentator })}</p>
           <h2>{label}</h2>
         </div>
         <div className="commentary-badges">
           <span className="pill">{ply}/{totalPlies}</span>
-          {node?.isCritical ? <span className="pill critical">Key moment</span> : null}
-          {hasContent ? <span className="pill accent">Annotated</span> : null}
-          {followActive ? <span className="pill accent">Follow</span> : null}
+          {node?.isCritical ? <span className="pill critical">{t.keyMoment}</span> : null}
+          {hasContent ? <span className="pill accent">{t.annotated}</span> : null}
+          {followActive ? <span className="pill accent">{t.follow}</span> : null}
           {canListen ? (
             <div className="commentary-listen-wrap">
               <button
@@ -270,8 +289,8 @@ export function CommentaryPanel({
                 className={`commentary-listen${onceActive ? " is-speaking" : ""}`}
                 onClick={toggleOnce}
                 aria-pressed={onceActive}
-                aria-label={onceActive ? "Stop listening" : "Listen to this move"}
-                title={onceActive ? "Stop" : "This move"}
+                aria-label={onceActive ? t.stopListening : t.listenThisMove}
+                title={onceActive ? t.stop : t.thisMove}
               >
                 {onceActive ? <StopIcon /> : <SpeakerIcon />}
               </button>
@@ -280,8 +299,8 @@ export function CommentaryPanel({
                 className={`commentary-listen commentary-listen-follow${followActive ? " is-follow" : ""}`}
                 onClick={toggleFollow}
                 aria-pressed={followActive}
-                aria-label={followActive ? "Stop following moves" : "Listen to this move and each next move"}
-                title={followActive ? "Stop following" : "This & next moves"}
+                aria-label={followActive ? t.stopFollowing : t.listenFollow}
+                title={followActive ? t.stopFollowingShort : t.thisAndNext}
               >
                 {followActive ? <StopIcon /> : <FollowIcon />}
               </button>
@@ -292,11 +311,11 @@ export function CommentaryPanel({
 
       <article className="commentary-body">
         {!hasContent && (
-          <p className="muted empty-note">{commentator} does not pause on this move — continue to the next.</p>
+          <p className="muted empty-note">{fill(t.emptyNote, { name: commentator })}</p>
         )}
 
         {normalized.hadDiagram && hasContent && (
-          <p className="board-hint">Study the position on the board ←</p>
+          <p className="board-hint">{t.studyBoard}</p>
         )}
 
         {displayTakeaway && hasContent ? (
@@ -309,6 +328,7 @@ export function CommentaryPanel({
             beat={beat}
             onSanClick={onSanClick}
             onAltClick={onAltClick}
+            t={t}
           />
         ))}
       </article>

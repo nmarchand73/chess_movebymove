@@ -32,13 +32,17 @@ import { buildBoardGuide, guideLedSquares } from "../lib/boardGuide";
 import { chessUpAssistanceClear, chessUpAssistanceForMove } from "../lib/chessUpAssistance";
 import { chessUpMoveMatchesSan } from "../lib/chessUpMove";
 import { legalMoveMatchingPlacement } from "../lib/physicalGuess";
+import type { Lang } from "../lib/lang";
+import { fill, ui } from "../lib/uiCopy";
 
 type Props = {
   summary: LessonSummary;
+  lang: Lang;
   onBack: () => void;
 };
 
-export function LessonPage({ summary, onBack }: Props) {
+export function LessonPage({ summary, lang, onBack }: Props) {
+  const t = ui(lang);
   const [lesson, setLesson] = useState<Lesson | null>(null);
   const [ply, setPly] = useState(0);
   const [preview, setPreview] = useState<{ fen: string; label: string } | null>(null);
@@ -70,14 +74,31 @@ export function LessonPage({ summary, onBack }: Props) {
   const physicalConnected = physicalSource !== null;
 
   useEffect(() => {
-    loadLesson(summary.file)
+    let cancelled = false;
+    setError(null);
+    loadLesson(summary.file, lang)
       .then((data) => {
+        if (cancelled) return;
         setLesson(data);
-        const saved = loadProgress();
-        if (saved.lastLessonId === data.id && saved.lastPly !== undefined) setPly(saved.lastPly);
       })
-      .catch((e: Error) => setError(e.message));
-  }, [summary.file]);
+      .catch((e: Error) => {
+        if (!cancelled) setError(e.message);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [summary.file, lang]);
+
+  useEffect(() => {
+    const saved = loadProgress();
+    if (saved.lastLessonId === summary.id && saved.lastPly !== undefined) {
+      setPly(saved.lastPly);
+    } else {
+      setPly(0);
+    }
+    setPreview(null);
+    setRevealed(true);
+  }, [summary.file, summary.id]);
 
   const node = useMemo(() => lesson?.nodes.find((n) => n.ply === ply), [lesson, ply]);
   const chess = useMemo(() => (lesson ? buildPositionAtPly(lesson.nodes, ply) : null), [lesson, ply]);
@@ -230,12 +251,14 @@ export function LessonPage({ summary, onBack }: Props) {
 
       if (isGuessing) {
         if (chessUpMoveMatchesSan(chess, nextNode.san, move)) {
-          setPhysicalGuessFeedback(`Correct — same as ${commentator}!`);
+          setPhysicalGuessFeedback(fill(t.correctSame, { name: commentator }));
           setRevealed(true);
           goTo(ply + 1);
           return;
         }
-        setPhysicalGuessFeedback(`${commentator} played ${nextNode.san} here.`);
+        setPhysicalGuessFeedback(
+          fill(t.authorPlayed, { name: commentator, san: nextNode.san }),
+        );
         enqueueReview(lesson.id, ply + 1);
         return;
       }
@@ -256,6 +279,7 @@ export function LessonPage({ summary, onBack }: Props) {
     isGuessing,
     nextNode?.san,
     commentator,
+    t,
   ]);
 
   // Chessnut (and ChessUp boardState fallback): placement-delta advance.
@@ -283,7 +307,7 @@ export function LessonPage({ summary, onBack }: Props) {
 
       if (guess.san.toLowerCase() === nextNode.san.toLowerCase()) {
         lastAutoAdvancedPlacement.current = physicalPlacement;
-        setPhysicalGuessFeedback(`Correct — same as ${commentator}!`);
+        setPhysicalGuessFeedback(fill(t.correctSame, { name: commentator }));
         setRevealed(true);
         goTo(ply + 1);
         return;
@@ -291,7 +315,9 @@ export function LessonPage({ summary, onBack }: Props) {
 
       if (lastWrongGuessPlacement.current !== physicalPlacement) {
         lastWrongGuessPlacement.current = physicalPlacement;
-        setPhysicalGuessFeedback(`${commentator} played ${nextNode.san} here.`);
+        setPhysicalGuessFeedback(
+          fill(t.authorPlayed, { name: commentator, san: nextNode.san }),
+        );
         enqueueReview(lesson.id, ply + 1);
       }
       return;
@@ -316,6 +342,7 @@ export function LessonPage({ summary, onBack }: Props) {
     nextNode?.san,
     lessonPlacement,
     commentator,
+    t,
   ]);
 
   const boardGuide = useMemo(() => {
@@ -402,7 +429,7 @@ export function LessonPage({ summary, onBack }: Props) {
   }, [ply, maxPly, goTo, guessEnabled, revealed, nextNode, advance, preview]);
 
   if (error) return <p className="error">{error}</p>;
-  if (!lesson || !chess || !displayChess) return <div className="loading">Loading lesson…</div>;
+  if (!lesson || !chess || !displayChess) return <div className="loading">{t.loadingLesson}</div>;
 
   const openingTip = getOpeningTooltip(lesson.opening);
   const sideToMove = ply === 0 ? "none" as const : chess.turn() === "w" ? "white" as const : "black" as const;
@@ -417,15 +444,15 @@ export function LessonPage({ summary, onBack }: Props) {
     <div className="lesson">
       <header className="lesson-header">
         <div className="lesson-header-bar">
-          <button type="button" className="back-btn" onClick={onBack}>← Games</button>
+          <button type="button" className="back-btn" onClick={onBack}>{t.backGames}</button>
           <div className="lesson-header-identity">
-            <span className="lesson-game-num">Game {lesson.gameNum}</span>
+            <span className="lesson-game-num">{fill(t.gameN, { n: lesson.gameNum })}</span>
           </div>
           <div className="lesson-header-actions">
-            <ExportPromptButton lesson={lesson} ply={ply} />
+            <ExportPromptButton lesson={lesson} ply={ply} lang={lang} />
             <div className="lesson-header-progress">
               <span className="lesson-progress-label">
-                Move {ply} <span className="muted">/ {maxPly}</span>
+                {fill(t.moveProgress, { x: ply, y: maxPly })}
               </span>
               <div className="progress-track">
                 <div className="progress-fill" style={{ width: `${progressPct}%` }} />
@@ -438,7 +465,7 @@ export function LessonPage({ summary, onBack }: Props) {
           <div className="lesson-header-main">
             <h1 className="lesson-matchup">
               <span className="player-name">{lesson.players.white}</span>
-              <span className="matchup-vs">vs</span>
+              <span className="matchup-vs">{t.vs}</span>
               <span className="player-name">{lesson.players.black}</span>
             </h1>
 
@@ -448,11 +475,11 @@ export function LessonPage({ summary, onBack }: Props) {
                   className="meta-chip meta-intention"
                   title={
                     summary.openingIdea
-                      ? `${summary.openingName ?? "Ouverture"} — ${summary.openingIdea}`
+                      ? `${summary.openingName ?? t.opening} — ${summary.openingIdea}`
                       : summary.why
                   }
                 >
-                  Intention · {summary.section}
+                  {t.intention} · {summary.section}
                 </span>
               ) : null}
               {lesson.event && <span className="meta-chip">{lesson.event}</span>}
@@ -467,7 +494,7 @@ export function LessonPage({ summary, onBack }: Props) {
 
           {openingTip && lesson.opening && ply === 0 ? (
             <details className="opening-hint-details">
-              <summary>Opening idea</summary>
+              <summary>{t.openingIdea}</summary>
               <p className="opening-hint-goal">{openingTip.goal}</p>
               <p className="opening-hint-explanation">
                 {contextualizeOpeningExplanation(lesson.opening, openingTip.explanation)}
@@ -486,6 +513,7 @@ export function LessonPage({ summary, onBack }: Props) {
                   chess={displayChess}
                   previewLabel={preview?.label ?? null}
                   onClearPreview={() => setPreview(null)}
+                  lang={lang}
                 />
               </div>
               <EvalGauge
@@ -498,6 +526,7 @@ export function LessonPage({ summary, onBack }: Props) {
                 sparklines={sparklines}
                 maxPly={maxPly}
                 hidden={!showEngine}
+                lang={lang}
               />
             </div>
             <EngineBestLine
@@ -505,6 +534,7 @@ export function LessonPage({ summary, onBack }: Props) {
               eval={positionEval}
               status={evalStatus}
               hidden={!showEngine || guessing}
+              lang={lang}
             />
           </div>
 
@@ -520,6 +550,7 @@ export function LessonPage({ summary, onBack }: Props) {
                 onWrong={() => enqueueReview(lesson.id, ply + 1)}
                 physicalBoard={physicalConnected}
                 externalFeedback={physicalGuessFeedback}
+                lang={lang}
               />
             ) : null}
 
@@ -539,6 +570,7 @@ export function LessonPage({ summary, onBack }: Props) {
               onToggleGuess={() => setGuessEnabled((v) => !v)}
               nextBlocked={guessing}
               physicalBoard={physicalConnected}
+              lang={lang}
             />
 
             <ChessnutConnectBar
@@ -554,6 +586,7 @@ export function LessonPage({ summary, onBack }: Props) {
               onDisconnect={() => void chessnut.disconnect()}
               guide={boardGuide}
               guidePly={ply}
+              lang={lang}
             />
 
             <ChessUpConnectBar
@@ -566,11 +599,8 @@ export function LessonPage({ summary, onBack }: Props) {
                 void chessup.connect();
               }}
               onDisconnect={() => void chessup.disconnect()}
-              hint={
-                chessup.status === "connected"
-                  ? "Assistance lights on (unofficial) — green = book move when you lift a piece"
-                  : null
-              }
+              hint={chessup.status === "connected" ? t.chessUpHint : null}
+              lang={lang}
             />
 
             <MoveStrip
@@ -578,6 +608,7 @@ export function LessonPage({ summary, onBack }: Props) {
               ply={ply}
               onSelect={goTo}
               hideFuture={guessing}
+              lang={lang}
             />
           </div>
         </aside>
@@ -589,6 +620,7 @@ export function LessonPage({ summary, onBack }: Props) {
           onSanClick={handleSanClick}
           onAltClick={handleAltClick}
           commentator={commentator}
+          lang={lang}
         />
       </div>
     </div>
