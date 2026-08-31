@@ -38,20 +38,30 @@ describe("speakableSan", () => {
     assert.equal(speakableSan("Nc6⁈"), "knight to c six dubious");
   });
 
-  it("speaks French chess vocabulary", () => {
+  it("speaks French pieces, captures, checks and mates", () => {
     assert.equal(speakableSan("Nf3", "fr"), "cavalier en f trois");
     assert.equal(speakableSan("Nxf7+", "fr"), "cavalier prend f sept échec");
     assert.equal(speakableSan("exd4", "fr"), "e prend d quatre");
     assert.equal(speakableSan("Qh4#", "fr"), "dame en h quatre mat");
     assert.equal(speakableSan("e8=Q+", "fr"), "e huit promu en dame échec");
+  });
+
+  it("speaks French castling and move numbers", () => {
     assert.equal(speakableSan("O-O", "fr"), "petit roque");
     assert.equal(speakableSan("0-0-0+", "fr"), "grand roque échec");
     assert.equal(speakableSan("5...exd4", "fr"), "coup 5 des Noirs, e prend d quatre");
     assert.equal(speakableSan("2.d4", "fr"), "coup 2, d quatre");
+  });
+
+  it("speaks French ASCII and Unicode evaluation marks", () => {
     assert.equal(speakableSan("Nf3!!", "fr"), "cavalier en f trois brillant");
+    assert.equal(speakableSan("Nf3‼", "fr"), "cavalier en f trois brillant");
     assert.equal(speakableSan("e5??", "fr"), "e cinq gaffe");
+    assert.equal(speakableSan("e5⁇", "fr"), "e cinq gaffe");
     assert.equal(speakableSan("Bd6!?", "fr"), "fou en d six intéressant");
+    assert.equal(speakableSan("Bd6⁉", "fr"), "fou en d six intéressant");
     assert.equal(speakableSan("Nc6?!", "fr"), "cavalier en c six douteux");
+    assert.equal(speakableSan("Nc6⁈", "fr"), "cavalier en c six douteux");
   });
 });
 
@@ -117,7 +127,7 @@ describe("prepareCommentarySpeech", () => {
     );
   });
 
-  it("expands French SAN, castling, and Informator symbols", () => {
+  it("expands French inline checks instead of reading plus or hash", () => {
     const text = prepareCommentarySpeech(
       "Les Noirs jouent Bb4+ puis menacent xh7#. Aussi 9 0-0 e7.",
       "fr",
@@ -127,10 +137,49 @@ describe("prepareCommentarySpeech", () => {
     assert.match(text, /petit roque/);
     assert.doesNotMatch(text, /\+/);
     assert.doesNotMatch(text, /#/);
+  });
 
+  it("softens French pawn jargon", () => {
+    assert.match(prepareCommentarySpeech("protège le e-pawn", "fr"), /pion e/);
+    assert.match(prepareCommentarySpeech("protège le pion e", "fr"), /pion e/);
+  });
+
+  it("speaks French Informator evaluation symbols in prose", () => {
+    const text = prepareCommentarySpeech(
+      "Après l'échange les Blancs sont ± et les Noirs ont ⇄. L'idée △ Nf3 est □.",
+      "fr",
+    );
+    assert.match(text, /les Blancs sont mieux/);
+    assert.match(text, /avec contrejeu/);
+    assert.match(text, /avec l'idée/);
+    assert.match(text, /seul coup/);
+    assert.equal(normalizeEvalMarks("g3‼"), "g3!!");
+    assert.match(speakInformatorSymbols("position ∞", "fr"), /peu clair/);
+  });
+
+  it("speaks French full move pairs with a pause between white and black", () => {
     assert.equal(
       prepareCommentarySpeech("28 f3 exf3+", "fr"),
       "coup 28, f trois, e prend f trois échec",
+    );
+    assert.equal(
+      prepareCommentarySpeech("28. f3 exf3+", "fr"),
+      "coup 28, f trois, e prend f trois échec",
+    );
+    assert.match(
+      prepareCommentarySpeech("par 28 f3 exf3+ 29 Kxf3, suivi de d4", "fr"),
+      /coup 28, f trois, e prend f trois échec\. coup 29, roi prend f trois/,
+    );
+  });
+
+  it("handles French promotions, diagonals, and glued move sequences", () => {
+    assert.equal(
+      prepareCommentarySpeech("e8=Q+", "fr"),
+      "e huit promu en dame échec",
+    );
+    assert.match(
+      prepareCommentarySpeech("a2-g8 diagonales", "fr"),
+      /a deux à g huit diagonales/,
     );
     assert.match(
       prepareCommentarySpeech("16...Nxf3+ 17 exf3", "fr"),
@@ -140,20 +189,6 @@ describe("prepareCommentarySpeech", () => {
       prepareCommentarySpeech("45 Bxa7?? perd", "fr"),
       /gaffe et perd/,
     );
-    assert.match(
-      prepareCommentarySpeech("a2-g8 diagonales", "fr"),
-      /a deux à g huit diagonales/,
-    );
-
-    const symbols = prepareCommentarySpeech(
-      "Après l'échange les Blancs sont ± et les Noirs ont ⇄. L'idée △ Nf3 est □.",
-      "fr",
-    );
-    assert.match(symbols, /les Blancs sont mieux/);
-    assert.match(symbols, /avec contrejeu/);
-    assert.match(symbols, /avec l'idée/);
-    assert.match(symbols, /seul coup/);
-    assert.match(speakInformatorSymbols("position ∞", "fr"), /peu clair/);
   });
 });
 
@@ -229,7 +264,18 @@ describe("commentaryToSpeechText", () => {
     assert.equal(commentaryToSpeechText([]), "");
   });
 
-  it("prepares French commentary with spoken SAN", () => {
+  it("joins French prose beats and a non-duplicate takeaway", () => {
+    const beats: CommentaryBeat[] = [
+      { kind: "heading", text: "Le centre s'ouvre" },
+      { kind: "prose", text: "Les Blancs frappent au centre." },
+    ];
+    const text = commentaryToSpeechText(beats, "Espérons un échange.", "fr");
+    assert.match(text, /Espérons un échange/);
+    assert.match(text, /Le centre s'ouvre/);
+    assert.match(text, /Les Blancs frappent au centre/);
+  });
+
+  it("does not repeat a French takeaway already in the prose", () => {
     const beats: CommentaryBeat[] = [
       { kind: "prose", text: "Pratiquement forcé, car 5...d6 est maladroit." },
     ];
@@ -240,5 +286,27 @@ describe("commentaryToSpeechText", () => {
     );
     assert.equal(text.match(/Pratiquement forcé/g)?.length, 1);
     assert.match(text, /coup 5 des Noirs, d six/);
+  });
+
+  it("includes spoken French alternatives", () => {
+    const beats: CommentaryBeat[] = [
+      {
+        kind: "alternatives",
+        intro: "Les Noirs peuvent essayer",
+        alternatives: [
+          {
+            label: "6...exd4",
+            move: "exd4",
+            quote: "Cela ouvre le centre.",
+            tone: "neutral",
+            isPlayed: false,
+          },
+        ],
+      },
+    ];
+    const text = commentaryToSpeechText(beats, null, "fr");
+    assert.match(text, /Les Noirs peuvent essayer/);
+    assert.match(text, /coup 6 des Noirs, e prend d quatre/);
+    assert.match(text, /ouvre le centre/);
   });
 });
