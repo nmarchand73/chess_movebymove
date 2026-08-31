@@ -390,7 +390,7 @@ const FR: { [K in keyof typeof EN]: string } = {
   black: "Noirs",
 };
 
-export type UiCopy = typeof EN;
+export type UiCopy = { readonly [K in keyof typeof EN]: string };
 
 export function ui(lang: Lang): UiCopy {
   return lang === "fr" ? FR : EN;
