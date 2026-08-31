@@ -3985,6 +3985,16 @@ button:disabled {
   color: var(--ink-muted);
 }
 
+.book-hero-highlights {
+  margin: 0.85rem 0 0;
+  max-width: 42rem;
+}
+
+.book-hero-quote {
+  margin: 0.85rem 0 0;
+  max-width: 42rem;
+}
+
 .library-back {
   /* Prefer .landing-back-link for top nav; keep as alias for older markup */
   padding: 0.35rem 0.75rem;

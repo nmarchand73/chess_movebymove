@@ -29,6 +29,10 @@ const EN = {
   slideCommentary: "Chernev explains",
   productPreview: "Product preview",
   choosePreview: "Choose preview",
+  slideLessonAlt:
+    "Lesson view: board with knight path arrow, evaluation, best line, and move controls on 12.Nd2",
+  slideCommentaryAlt:
+    "Commentary panel for 12.Nd2 with takeaway, Listen and Follow controls, and Chernev’s annotation",
 
   about: "← About",
   settings: "Settings",
@@ -218,6 +222,10 @@ const FR: { [K in keyof typeof EN]: string } = {
   slideCommentary: "Chernev explique",
   productPreview: "Aperçu du produit",
   choosePreview: "Choisir l’aperçu",
+  slideLessonAlt:
+    "Vue leçon : échiquier avec flèche de trajet du cavalier, évaluation, meilleure ligne et commandes sur 12.Nd2",
+  slideCommentaryAlt:
+    "Panneau de commentaire pour 12.Nd2 avec l’idée clé, boutons Écouter et Suivre, et l’annotation de Chernev",
 
   about: "← À propos",
   settings: "Réglages",

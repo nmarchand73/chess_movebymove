@@ -1,6 +1,10 @@
 import { useEffect, useMemo, useState } from "react";
 import type { Lang } from "../lib/lang";
-import { LANDING_QUOTES, landingQuoteBookLabel } from "../lib/landingQuotes";
+import {
+  LANDING_QUOTES,
+  landingQuoteBookLabel,
+  landingQuoteText,
+} from "../lib/landingQuotes";
 import { getGameProgress, loadProgress } from "../lib/progress";
 import { ui } from "../lib/uiCopy";
 
@@ -19,15 +23,15 @@ const SLIDE_DEFS = [
     id: "lesson",
     kind: "shot" as const,
     labelKey: "slideLesson" as const,
+    altKey: "slideLessonAlt" as const,
     src: `${BASE}images/landing-lesson.jpg`,
-    alt: "Lesson view: board with knight path arrow, evaluation, best line, and move controls on 12.Nd2",
   },
   {
     id: "commentary",
     kind: "shot" as const,
     labelKey: "slideCommentary" as const,
+    altKey: "slideCommentaryAlt" as const,
     src: `${BASE}images/landing-commentary.jpg`,
-    alt: "Commentary panel for 12.Nd2 with takeaway, Listen and Follow controls, and Chernev’s annotation",
   },
 ] as const;
 
@@ -55,6 +59,7 @@ export function Landing({ lang, onEnterLibrary, onContinueLesson }: Props) {
     const labeled = SLIDE_DEFS.map((item) => ({
       ...item,
       label: t[item.labelKey],
+      alt: "altKey" in item ? t[item.altKey] : undefined,
     }));
     return narrow ? labeled.filter((item) => item.id !== "commentary") : labeled;
   }, [narrow, t]);
@@ -169,10 +174,10 @@ export function Landing({ lang, onEnterLibrary, onContinueLesson }: Props) {
                   className={`landing-quote${isActive ? " is-active" : ""}`}
                   aria-hidden={!isActive}
                 >
-                  <p className="landing-quote-text">“{quote.text}”</p>
+                  <p className="landing-quote-text">“{landingQuoteText(quote, lang)}”</p>
                   <footer className="landing-quote-meta">
                     <cite> — {quote.attribution}</cite>
-                    <span className="landing-quote-book">{landingQuoteBookLabel(quote.book)}</span>
+                    <span className="landing-quote-book">{landingQuoteBookLabel(quote.book, lang)}</span>
                   </footer>
                 </blockquote>
               );
@@ -225,7 +230,7 @@ export function Landing({ lang, onEnterLibrary, onContinueLesson }: Props) {
                   <img
                     className="landing-lesson-shot"
                     src={item.src}
-                    alt={item.alt}
+                    alt={item.alt ?? item.label}
                     width={1170}
                     height={2532}
                     decoding="async"

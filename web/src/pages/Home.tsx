@@ -6,9 +6,10 @@ import { usePerformanceElos } from "../hooks/usePerformanceElos";
 import { loadIndex } from "../lib/lessonLoader";
 import { aggregatePlayerElos, formatPlayerWithElo } from "../lib/playerStats";
 import { getGameProgress, loadProgress } from "../lib/progress";
-import { getBookDetails } from "../lib/bookDetails";
+import { bookDisplayTitle, getBookDetails } from "../lib/bookDetails";
 import { sourceBookLabel } from "../lib/bookMeta";
 import type { Lang } from "../lib/lang";
+import { localizeSectionBlurb, localizeSectionTitle } from "../lib/sectionI18n";
 import { fill, ui, type UiCopy } from "../lib/uiCopy";
 
 type Props = {
@@ -157,7 +158,7 @@ function LibraryView({
       <div className="book-card-grid" role="list">
         {index.books.map((book) => {
           const lessons = index[book.id] ?? [];
-          const details = getBookDetails(book.id);
+          const details = getBookDetails(book.id, lang);
           const { completedCount, inProgressCount } = bookProgress(lessons);
           const pctComplete = book.gameCount
             ? Math.round((completedCount / book.gameCount) * 100)
@@ -180,7 +181,7 @@ function LibraryView({
                 </p>
                 {isResumeBook ? <span className="book-card-pill">{t.inProgress}</span> : null}
               </div>
-              <h2 className="book-card-title">{book.title}</h2>
+              <h2 className="book-card-title">{bookDisplayTitle(book.id, lang, book.title)}</h2>
               {details ? (
                 <>
                   <p className="book-card-tagline">{details.tagline}</p>
@@ -208,8 +209,13 @@ function LibraryView({
               {book.sections && book.sections.length > 0 ? (
                 <ul className="book-card-sections" aria-label={t.books}>
                   {(book.id === "intentions" ? book.sections.slice(0, 6) : book.sections).map((section) => (
-                    <li key={section.title} title={section.blurb}>
-                      <span className="book-card-section-name">{section.title}</span>
+                    <li
+                      key={section.title}
+                      title={localizeSectionBlurb(section.title, section.blurb, lang)}
+                    >
+                      <span className="book-card-section-name">
+                        {localizeSectionTitle(section.title, lang)}
+                      </span>
                       <span className="book-card-section-range">
                         {fill(t.gamesRange, { range: section.range })}
                       </span>
@@ -266,7 +272,7 @@ function BookHomeView({
   const progress = loadProgress();
   const { performanceByLesson, loading: elosLoading } = usePerformanceElos();
   const sections = book.sections ?? [];
-  const details = getBookDetails(book.id);
+  const details = getBookDetails(book.id, lang);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -336,12 +342,20 @@ function BookHomeView({
             </button>
           </div>
           <p className="eyebrow">{book.author}{book.publisher ? ` · ${book.publisher}` : ""}</p>
-          <h1>{book.title}</h1>
+          <h1>{bookDisplayTitle(book.id, lang, book.title)}</h1>
           {details ? (
             <>
               <p className="hero-sub book-hero-tagline">{details.tagline}</p>
               <p className="book-hero-description">{details.description}</p>
               <p className="book-hero-meta">{details.published} · {details.audience}</p>
+              <ul className="book-card-highlights book-hero-highlights">
+                {details.highlights.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+              {details.famousFor ? (
+                <blockquote className="book-card-quote book-hero-quote">{details.famousFor}</blockquote>
+              ) : null}
             </>
           ) : (
             <p className="hero-sub">
@@ -436,10 +450,11 @@ function BookHomeView({
               <section key={section} className="section-block">
                 <div className="section-head">
                   <div>
-                    <h3>{section}</h3>
+                    <h3>{localizeSectionTitle(section, lang)}</h3>
                     {meta && (
                       <p className="section-blurb">
-                        {fill(t.gamesRange, { range: meta.range })} · {meta.blurb}
+                        {fill(t.gamesRange, { range: meta.range })} ·{" "}
+                        {localizeSectionBlurb(section, meta.blurb, lang)}
                       </p>
                     )}
                     {meta?.openings && meta.openings.length > 0 ? (
