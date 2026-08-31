@@ -1,16 +1,137 @@
 import type { CommentaryBeat } from "./commentaryBeats.ts";
-import { loadLang } from "./lang.ts";
+import { loadLang, type Lang } from "./lang.ts";
 import { loadListenSettings, resolveSpeechVoice, speechVoicesForLang } from "./listenSettings.ts";
 
-const RANK_WORDS = ["", "one", "two", "three", "four", "five", "six", "seven", "eight"] as const;
-
-const PIECE_WORDS: Record<string, string> = {
-  N: "knight",
-  B: "bishop",
-  R: "rook",
-  Q: "queen",
-  K: "king",
+type SpeechLexicon = {
+  ranks: readonly string[];
+  pieces: Record<string, string>;
+  annotations: Array<[string, string]>;
+  castlesLong: string;
+  castlesShort: string;
+  move: string;
+  forBlack: string;
+  takes: string;
+  to: string;
+  promotesTo: string;
+  pawn: string;
+  square: string;
+  and: string;
+  informator: Array<[RegExp, string]>;
+  /** Word forms after a spoken move, used to insert a pause before the next numbered move. */
+  spokenMoveTailWords: string;
 };
+
+const EN_LEXICON: SpeechLexicon = {
+  ranks: ["", "one", "two", "three", "four", "five", "six", "seven", "eight"],
+  pieces: { N: "knight", B: "bishop", R: "rook", Q: "queen", K: "king" },
+  annotations: [
+    ["!!", "brilliant"],
+    ["??", "blunder"],
+    ["!?", "interesting"],
+    ["?!", "dubious"],
+    ["!", "good"],
+    ["?", "mistake"],
+    ["#", "checkmate"],
+    ["+", "check"],
+  ],
+  castlesLong: "castles queenside",
+  castlesShort: "castles kingside",
+  move: "move",
+  forBlack: "for black",
+  takes: "takes",
+  to: "to",
+  promotesTo: "promotes to",
+  pawn: "pawn",
+  square: "square",
+  and: "and",
+  spokenMoveTailWords:
+    "checkmate|check|brilliant|blunder|interesting|dubious|good|mistake|kingside|queenside|knight|bishop|rook|queen|king|one|two|three|four|five|six|seven|eight",
+  informator: [
+    [/\+\-\-/g, "White is winning"],
+    [/--\+/g, "Black is winning"],
+    [/\+\/\-/g, "White is better"],
+    [/-\/\+/g, "Black is better"],
+    [/\+\/=/g, "White is slightly better"],
+    [/=\/\+/g, "Black is slightly better"],
+    [/=\/∞/g, "with compensation"],
+    [/∞\/=/g, "with compensation"],
+    [/±/g, "White is better"],
+    [/∓/g, "Black is better"],
+    [/⩲/g, "White is slightly better"],
+    [/⩱/g, "Black is slightly better"],
+    [/∞/g, "unclear"],
+    [/△/g, "with the idea"],
+    [/▲/g, "with the idea"],
+    [/□/g, "only move"],
+    [/⊙/g, "zugzwang"],
+    [/◯/g, "zugzwang"],
+    [/↑/g, "with initiative"],
+    [/↓/g, "with a disadvantage"],
+    [/⇄/g, "with counterplay"],
+    [/⊕/g, "in time trouble"],
+    [/†/g, "check"],
+    [/‡/g, "checkmate"],
+    [/(?<=\s|^)→(?=\s|$)/g, "with an attack"],
+  ],
+};
+
+const FR_LEXICON: SpeechLexicon = {
+  ranks: ["", "un", "deux", "trois", "quatre", "cinq", "six", "sept", "huit"],
+  pieces: { N: "cavalier", B: "fou", R: "tour", Q: "dame", K: "roi" },
+  annotations: [
+    ["!!", "brillant"],
+    ["??", "gaffe"],
+    ["!?", "intéressant"],
+    ["?!", "douteux"],
+    ["!", "bon"],
+    ["?", "erreur"],
+    ["#", "mat"],
+    ["+", "échec"],
+  ],
+  castlesLong: "grand roque",
+  castlesShort: "petit roque",
+  move: "coup",
+  forBlack: "des Noirs",
+  takes: "prend",
+  to: "en",
+  promotesTo: "promu en",
+  pawn: "pion",
+  square: "case",
+  and: "et",
+  spokenMoveTailWords:
+    "mat|échec|brillant|gaffe|intéressant|douteux|bon|erreur|aile|roi|dame|cavalier|fou|tour|un|deux|trois|quatre|cinq|six|sept|huit|roque",
+  informator: [
+    [/\+\-\-/g, "les Blancs gagnent"],
+    [/--\+/g, "les Noirs gagnent"],
+    [/\+\/\-/g, "les Blancs sont mieux"],
+    [/-\/\+/g, "les Noirs sont mieux"],
+    [/\+\/=/g, "les Blancs sont légèrement mieux"],
+    [/=\/\+/g, "les Noirs sont légèrement mieux"],
+    [/=\/∞/g, "avec compensation"],
+    [/∞\/=/g, "avec compensation"],
+    [/±/g, "les Blancs sont mieux"],
+    [/∓/g, "les Noirs sont mieux"],
+    [/⩲/g, "les Blancs sont légèrement mieux"],
+    [/⩱/g, "les Noirs sont légèrement mieux"],
+    [/∞/g, "peu clair"],
+    [/△/g, "avec l'idée"],
+    [/▲/g, "avec l'idée"],
+    [/□/g, "seul coup"],
+    [/⊙/g, "zugzwang"],
+    [/◯/g, "zugzwang"],
+    [/↑/g, "avec l'initiative"],
+    [/↓/g, "avec un désavantage"],
+    [/⇄/g, "avec contrejeu"],
+    [/⊕/g, "en zeitnot"],
+    [/†/g, "échec"],
+    [/‡/g, "mat"],
+    [/(?<=\s|^)→(?=\s|$)/g, "avec une attaque"],
+  ],
+};
+
+function lexiconFor(lang: Lang): SpeechLexicon {
+  return lang === "fr" ? FR_LEXICON : EN_LEXICON;
+}
 
 /** One SAN / castling token (no move number). */
 const SAN_TOKEN =
@@ -25,10 +146,6 @@ const SPEECH_MOVE_PATTERN = new RegExp(
   "gi",
 );
 
-/** Spoken SAN endings — used to insert a pause before the next numbered move. */
-const SPOKEN_MOVE_TAIL =
-  /(?:checkmate|check|brilliant|blunder|interesting|dubious|good|mistake|kingside|queenside|knight|bishop|rook|queen|king|one|two|three|four|five|six|seven|eight)\s+(?=move\s+\d+)/gi;
-
 /** Unicode NAG glyphs → ASCII, so one suffix parser covers both. */
 export function normalizeEvalMarks(text: string): string {
   return text
@@ -38,26 +155,11 @@ export function normalizeEvalMarks(text: string): string {
     .replace(/⁈/g, "?!");
 }
 
-/**
- * Classic NAG / check marks after a move (longest tokens first).
- * Order matters: !! before !, !? before !, etc.
- */
-const ANNOTATION_SUFFIX_TOKENS: Array<[string, string]> = [
-  ["!!", "brilliant"],
-  ["??", "blunder"],
-  ["!?", "interesting"],
-  ["?!", "dubious"],
-  ["!", "good"],
-  ["?", "mistake"],
-  ["#", "checkmate"],
-  ["+", "check"],
-];
-
-function speakAnnotationSuffix(raw: string): string {
+function speakAnnotationSuffix(raw: string, lex: SpeechLexicon): string {
   const words: string[] = [];
   let rest = normalizeEvalMarks(raw);
   while (rest.length > 0) {
-    const hit = ANNOTATION_SUFFIX_TOKENS.find(([token]) => rest.startsWith(token));
+    const hit = lex.annotations.find(([token]) => rest.startsWith(token));
     if (!hit) break;
     words.push(hit[1]);
     rest = rest.slice(hit[0].length);
@@ -65,75 +167,43 @@ function speakAnnotationSuffix(raw: string): string {
   return words.join(" ");
 }
 
-/**
- * Informator / evaluation symbols in prose (not SAN suffixes).
- * Longer / more specific patterns first.
- */
-const INFORMATOR_SPEECH: Array<[RegExp, string]> = [
-  [/\+\-\-/g, "White is winning"],
-  [/--\+/g, "Black is winning"],
-  [/\+\/\-/g, "White is better"],
-  [/-\/\+/g, "Black is better"],
-  [/\+\/=/g, "White is slightly better"],
-  [/=\/\+/g, "Black is slightly better"],
-  [/=\/∞/g, "with compensation"],
-  [/∞\/=/g, "with compensation"],
-  [/±/g, "White is better"],
-  [/∓/g, "Black is better"],
-  [/⩲/g, "White is slightly better"],
-  [/⩱/g, "Black is slightly better"],
-  [/∞/g, "unclear"],
-  [/△/g, "with the idea"],
-  [/▲/g, "with the idea"],
-  [/□/g, "only move"],
-  [/⊙/g, "zugzwang"],
-  [/◯/g, "zugzwang"],
-  [/↑/g, "with initiative"],
-  [/↓/g, "with a disadvantage"],
-  [/⇄/g, "with counterplay"],
-  [/⊕/g, "in time trouble"],
-  [/†/g, "check"],
-  [/‡/g, "checkmate"],
-  // Informator attack arrow — only as a spaced symbol, not prose arrows.
-  [/(?<=\s|^)→(?=\s|$)/g, "with an attack"],
-];
-
-export function speakInformatorSymbols(text: string): string {
+export function speakInformatorSymbols(text: string, lang: Lang = "en"): string {
   let out = text;
-  for (const [pattern, spoken] of INFORMATOR_SPEECH) {
+  for (const [pattern, spoken] of lexiconFor(lang).informator) {
     out = out.replace(pattern, ` ${spoken} `);
   }
   return out;
 }
 
-function speakRank(rank: string): string {
-  return RANK_WORDS[Number(rank)] ?? rank;
+function speakRank(rank: string, lex: SpeechLexicon): string {
+  return lex.ranks[Number(rank)] ?? rank;
 }
 
-function speakSquare(square: string): string {
-  return `${square[0]!.toLowerCase()} ${speakRank(square[1]!)}`;
+function speakSquare(square: string, lex: SpeechLexicon): string {
+  return `${square[0]!.toLowerCase()} ${speakRank(square[1]!, lex)}`;
 }
 
-function speakPiece(letter: string): string {
-  return PIECE_WORDS[letter.toUpperCase()] ?? letter;
+function speakPiece(letter: string, lex: SpeechLexicon): string {
+  return lex.pieces[letter.toUpperCase()] ?? letter;
 }
 
-/** Expand a single SAN / castling token into spoken English. */
-export function speakableSan(token: string): string {
+/** Expand a single SAN / castling token into spoken language. */
+export function speakableSan(token: string, lang: Lang = "en"): string {
+  const lex = lexiconFor(lang);
   const trimmed = normalizeEvalMarks(token.trim());
   if (!trimmed) return trimmed;
 
   // Castling before move-number parsing — "0-0" must not become "move 0".
   const castleLong = trimmed.match(/^(?:O-O-O|0-0-0)([+#?!]*)$/i);
   if (castleLong) {
-    const ann = speakAnnotationSuffix(castleLong[1] ?? "");
-    return ann ? `castles queenside ${ann}` : "castles queenside";
+    const ann = speakAnnotationSuffix(castleLong[1] ?? "", lex);
+    return ann ? `${lex.castlesLong} ${ann}` : lex.castlesLong;
   }
 
   const castleShort = trimmed.match(/^(?:O-O|0-0)([+#?!]*)$/i);
   if (castleShort) {
-    const ann = speakAnnotationSuffix(castleShort[1] ?? "");
-    return ann ? `castles kingside ${ann}` : "castles kingside";
+    const ann = speakAnnotationSuffix(castleShort[1] ?? "", lex);
+    return ann ? `${lex.castlesShort} ${ann}` : lex.castlesShort;
   }
 
   const prefixed = trimmed.match(/^([1-9]\d*)\s*(\.{2,3}|\.)?\s*(.+)$/);
@@ -144,9 +214,11 @@ export function speakableSan(token: string): string {
     if (restIsMove) {
       const moveNum = prefixed[1]!;
       const dots = prefixed[2] ?? "";
-      const spokenMove = speakableSan(rest);
-      if (dots.startsWith("..")) return `move ${moveNum} for black, ${spokenMove}`;
-      return `move ${moveNum}, ${spokenMove}`;
+      const spokenMove = speakableSan(rest, lang);
+      if (dots.startsWith("..")) {
+        return `${lex.move} ${moveNum} ${lex.forBlack}, ${spokenMove}`;
+      }
+      return `${lex.move} ${moveNum}, ${spokenMove}`;
     }
   }
 
@@ -164,25 +236,26 @@ export function speakableSan(token: string): string {
   const parts: string[] = [];
 
   if (piece) {
-    parts.push(speakPiece(piece));
+    parts.push(speakPiece(piece, lex));
     if (disambig) {
-      parts.push(/[a-h]/i.test(disambig) ? disambig.toLowerCase() : speakRank(disambig));
+      parts.push(/[a-h]/i.test(disambig) ? disambig.toLowerCase() : speakRank(disambig, lex));
     }
-    parts.push(capture ? "takes" : "to");
-    parts.push(speakSquare(dest));
+    parts.push(capture ? lex.takes : lex.to);
+    parts.push(speakSquare(dest, lex));
   } else if (capture && disambig) {
-    parts.push(disambig.toLowerCase(), "takes", speakSquare(dest));
+    // French: "e prend d quatre" ; English: "e takes d four"
+    parts.push(disambig.toLowerCase(), lex.takes, speakSquare(dest, lex));
   } else if (capture) {
-    parts.push("takes", speakSquare(dest));
+    parts.push(lex.takes, speakSquare(dest, lex));
   } else {
-    parts.push(speakSquare(dest));
+    parts.push(speakSquare(dest, lex));
   }
 
   if (promo) {
-    parts.push("promotes to", speakPiece(promo));
+    parts.push(lex.promotesTo, speakPiece(promo, lex));
   }
 
-  const annWords = speakAnnotationSuffix(ann);
+  const annWords = speakAnnotationSuffix(ann, lex);
   if (annWords) parts.push(annWords);
 
   return parts.join(" ");
@@ -190,18 +263,30 @@ export function speakableSan(token: string): string {
 
 /**
  * Rewrite chess notation so browser TTS says "check" / "knight to f three"
- * instead of "plus" / "N F three".
+ * (or FR: "échec" / "cavalier en f trois") instead of "plus" / "N F three".
  */
-export function prepareCommentarySpeech(text: string): string {
+export function prepareCommentarySpeech(text: string, lang: Lang = "en"): string {
+  const lex = lexiconFor(lang);
   let out = normalizeEvalMarks(text);
 
   // Hyphenated chess jargon before generic square rewrites.
-  out = out.replace(/\b([a-h])-pawn\b/gi, (_, file: string) => `${file.toLowerCase()} pawn`);
+  if (lang === "fr") {
+    out = out.replace(/\b([a-h])-pawn\b/gi, (_, file: string) => `${lex.pawn} ${file.toLowerCase()}`);
+    out = out.replace(/\bpion\s+([a-h])\b/gi, (_, file: string) => `${lex.pawn} ${file.toLowerCase()}`);
+  } else {
+    out = out.replace(/\b([a-h])-pawn\b/gi, (_, file: string) => `${file.toLowerCase()} ${lex.pawn}`);
+  }
+
   // Diagonals / segments: "a2-g8" before bare squares are rewritten.
   out = out.replace(/\b([a-h][1-8])-([a-h][1-8])\b/gi, (_match, a: string, b: string) => {
-    return `${speakSquare(a)} to ${speakSquare(b)}`;
+    const link = lang === "fr" ? "à" : "to";
+    return `${speakSquare(a, lex)} ${link} ${speakSquare(b, lex)}`;
   });
-  out = out.replace(/\b([a-h][1-8])-square\b/gi, (_, sq: string) => `${speakSquare(sq)} square`);
+  out = out.replace(/\b([a-h][1-8])-square\b/gi, (_, sq: string) => {
+    return lang === "fr"
+      ? `${lex.square} ${speakSquare(sq, lex)}`
+      : `${speakSquare(sq, lex)} ${lex.square}`;
+  });
 
   // Spaced check / mate marks left by EPUB cleanup: "h4 +" / "xe4 #"
   out = out.replace(/\b([NBRQK]?[a-h]?x?[a-h][1-8])\s+\+/gi, "$1+");
@@ -209,21 +294,26 @@ export function prepareCommentarySpeech(text: string): string {
 
   // Full move pairs before single moves: "28 f3 exf3+" → clear white / black pause.
   out = out.replace(FULL_MOVE_PAIR, (_match, num: string, white: string, black: string) => {
-    return `move ${num}, ${speakableSan(white)}, ${speakableSan(black)}`;
+    return `${lex.move} ${num}, ${speakableSan(white, lang)}, ${speakableSan(black, lang)}`;
   });
 
-  out = out.replace(SPEECH_MOVE_PATTERN, (match) => speakableSan(match));
+  out = out.replace(SPEECH_MOVE_PATTERN, (match) => speakableSan(match, lang));
 
-  // "… check move 17 …" → "… check. move 17 …"
-  out = out.replace(SPOKEN_MOVE_TAIL, (tail) => `${tail.trimEnd()}. `);
-
-  // "blunder loses" → "blunder and loses"
-  out = out.replace(
-    /\b(brilliant|blunder|interesting|dubious|good|mistake)\s+(loses|wins|gives|leads|allows|misses|fails)\b/gi,
-    "$1 and $2",
+  // "… check move 17 …" → "… check. move 17 …" (FR: "… échec. coup 17 …")
+  const spokenMoveTail = new RegExp(
+    `(?:${lex.spokenMoveTailWords})\\s+(?=${lex.move}\\s+\\d+)`,
+    "gi",
   );
+  out = out.replace(spokenMoveTail, (tail) => `${tail.trimEnd()}. `);
 
-  out = speakInformatorSymbols(out);
+  // "blunder loses" → "blunder and loses" / "gaffe perd" → "gaffe et perd"
+  const softAnn =
+    lang === "fr"
+      ? /\b(brillant|gaffe|intéressant|douteux|bon|erreur)\s+(perd|gagne|donne|mène|autorise|rate|échoue)\b/gi
+      : /\b(brilliant|blunder|interesting|dubious|good|mistake)\s+(loses|wins|gives|leads|allows|misses|fails)\b/gi;
+  out = out.replace(softAnn, `$1 ${lex.and} $2`);
+
+  out = speakInformatorSymbols(out, lang);
 
   return out.replace(/\s+/g, " ").trim();
 }
@@ -287,6 +377,7 @@ function takeawayAlreadyInBeats(takeaway: string, beats: CommentaryBeat[]): bool
 export function commentaryToSpeechText(
   beats: CommentaryBeat[],
   takeaway?: string | null,
+  lang: Lang = "en",
 ): string {
   const parts: string[] = [];
 
@@ -318,7 +409,7 @@ export function commentaryToSpeechText(
     }
   }
 
-  return prepareCommentarySpeech(joinSpeechParts(parts));
+  return prepareCommentarySpeech(joinSpeechParts(parts), lang);
 }
 
 export function speechSupported(): boolean {
@@ -401,7 +492,7 @@ export function speakCommentary(text: string, handlers: SpeakHandlers = {}): boo
   const lang = loadLang();
   const voice = resolveSpeechVoice(settings.voiceURI, speechVoicesForLang(lang), lang);
 
-  const sentences = splitIntoSpeechSentences(prepareCommentarySpeech(text));
+  const sentences = splitIntoSpeechSentences(prepareCommentarySpeech(text, lang));
   if (sentences.length === 0) return false;
 
   let index = 0;
@@ -444,5 +535,3 @@ export function speakCommentary(text: string, handlers: SpeakHandlers = {}): boo
   queueNext();
   return true;
 }
-
-

@@ -17,6 +17,7 @@ import {
 import {
   commentaryToSpeechText,
   normalizeEvalMarks,
+  prepareCommentarySpeech,
   speakCommentary,
   speechSupported,
   stopCommentarySpeech,
@@ -198,12 +199,13 @@ export function CommentaryPanel({
   );
 
   const speechText = useMemo(() => {
-    const body = commentaryToSpeechText(beats, displayTakeaway);
+    const body = commentaryToSpeechText(beats, displayTakeaway, lang);
     if (ply === 0) return body;
     if (!speakLabel) return body;
-    if (!body) return speakLabel;
-    return `${speakLabel}. ${body}`;
-  }, [beats, displayTakeaway, speakLabel, ply]);
+    const spokenLabel = prepareCommentarySpeech(speakLabel, lang);
+    if (!body) return spokenLabel;
+    return `${spokenLabel}. ${body}`;
+  }, [beats, displayTakeaway, speakLabel, ply, lang]);
 
   const canListen = canSpeak && Boolean(speechText.trim());
   const followActive = listenMode === "follow";

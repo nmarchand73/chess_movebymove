@@ -37,6 +37,22 @@ describe("speakableSan", () => {
     assert.equal(speakableSan("Nc6?!"), "knight to c six dubious");
     assert.equal(speakableSan("Nc6⁈"), "knight to c six dubious");
   });
+
+  it("speaks French chess vocabulary", () => {
+    assert.equal(speakableSan("Nf3", "fr"), "cavalier en f trois");
+    assert.equal(speakableSan("Nxf7+", "fr"), "cavalier prend f sept échec");
+    assert.equal(speakableSan("exd4", "fr"), "e prend d quatre");
+    assert.equal(speakableSan("Qh4#", "fr"), "dame en h quatre mat");
+    assert.equal(speakableSan("e8=Q+", "fr"), "e huit promu en dame échec");
+    assert.equal(speakableSan("O-O", "fr"), "petit roque");
+    assert.equal(speakableSan("0-0-0+", "fr"), "grand roque échec");
+    assert.equal(speakableSan("5...exd4", "fr"), "coup 5 des Noirs, e prend d quatre");
+    assert.equal(speakableSan("2.d4", "fr"), "coup 2, d quatre");
+    assert.equal(speakableSan("Nf3!!", "fr"), "cavalier en f trois brillant");
+    assert.equal(speakableSan("e5??", "fr"), "e cinq gaffe");
+    assert.equal(speakableSan("Bd6!?", "fr"), "fou en d six intéressant");
+    assert.equal(speakableSan("Nc6?!", "fr"), "cavalier en c six douteux");
+  });
 });
 
 describe("prepareCommentarySpeech", () => {
@@ -99,6 +115,45 @@ describe("prepareCommentarySpeech", () => {
       prepareCommentarySpeech("45 Bxa7?? loses"),
       /blunder and loses/,
     );
+  });
+
+  it("expands French SAN, castling, and Informator symbols", () => {
+    const text = prepareCommentarySpeech(
+      "Les Noirs jouent Bb4+ puis menacent xh7#. Aussi 9 0-0 e7.",
+      "fr",
+    );
+    assert.match(text, /fou en b quatre échec/);
+    assert.match(text, /prend h sept mat/);
+    assert.match(text, /petit roque/);
+    assert.doesNotMatch(text, /\+/);
+    assert.doesNotMatch(text, /#/);
+
+    assert.equal(
+      prepareCommentarySpeech("28 f3 exf3+", "fr"),
+      "coup 28, f trois, e prend f trois échec",
+    );
+    assert.match(
+      prepareCommentarySpeech("16...Nxf3+ 17 exf3", "fr"),
+      /échec\. coup 17/,
+    );
+    assert.match(
+      prepareCommentarySpeech("45 Bxa7?? perd", "fr"),
+      /gaffe et perd/,
+    );
+    assert.match(
+      prepareCommentarySpeech("a2-g8 diagonales", "fr"),
+      /a deux à g huit diagonales/,
+    );
+
+    const symbols = prepareCommentarySpeech(
+      "Après l'échange les Blancs sont ± et les Noirs ont ⇄. L'idée △ Nf3 est □.",
+      "fr",
+    );
+    assert.match(symbols, /les Blancs sont mieux/);
+    assert.match(symbols, /avec contrejeu/);
+    assert.match(symbols, /avec l'idée/);
+    assert.match(symbols, /seul coup/);
+    assert.match(speakInformatorSymbols("position ∞", "fr"), /peu clair/);
   });
 });
 
@@ -172,5 +227,18 @@ describe("commentaryToSpeechText", () => {
 
   it("returns empty string for empty beats", () => {
     assert.equal(commentaryToSpeechText([]), "");
+  });
+
+  it("prepares French commentary with spoken SAN", () => {
+    const beats: CommentaryBeat[] = [
+      { kind: "prose", text: "Pratiquement forcé, car 5...d6 est maladroit." },
+    ];
+    const text = commentaryToSpeechText(
+      beats,
+      "Pratiquement forcé, car 5...d6 est maladroit.",
+      "fr",
+    );
+    assert.equal(text.match(/Pratiquement forcé/g)?.length, 1);
+    assert.match(text, /coup 5 des Noirs, d six/);
   });
 });
