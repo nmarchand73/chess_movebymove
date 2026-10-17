@@ -38,6 +38,22 @@ const SECTION_I18N: Record<string, { title: string; blurb: string }> = {
     title: "Thèmes de finale",
     blurb: "Roi actif, pions passés, tour en septième",
   },
+  "Open games (1.e4 e5)": {
+    title: "Parties ouvertes (1.e4 e5)",
+    blurb: "Parties ouvertes (1.e4 e5)",
+  },
+  "Semi-open (1.e4 other)": {
+    title: "Semi-ouvertes (1.e4 autres)",
+    blurb: "Semi-ouvertes (1.e4 autres)",
+  },
+  "Closed & Indian (1.d4)": {
+    title: "Fermées et indiennes (1.d4)",
+    blurb: "Fermées et indiennes (1.d4)",
+  },
+  "Flank openings": {
+    title: "Ouvertures de flanc",
+    blurb: "Ouvertures de flanc",
+  },
 };
 
 export function localizeSectionTitle(title: string, lang: Lang): string {

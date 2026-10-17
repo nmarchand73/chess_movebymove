@@ -1,4 +1,11 @@
-import type { IntentionsCurriculum, Lesson, LessonIndex, PerformanceElo } from "../types";
+import type {
+  IntentionsCurriculum,
+  Lesson,
+  LessonIndex,
+  OpeningsRevisionCurriculum,
+  OpeningsRevisionLocalOverlay,
+  PerformanceElo,
+} from "../types";
 import type { Lang } from "./lang";
 import { normalizeLessonIndex } from "./normalizeIndex";
 
@@ -6,10 +13,71 @@ export type PerformanceEloData = Record<string, PerformanceElo>;
 
 const base = import.meta.env.BASE_URL;
 
+let openingsRevisionCache: OpeningsRevisionCurriculum | null | undefined;
+
+function mergeOpeningsLocalOverlay(
+  curriculum: OpeningsRevisionCurriculum,
+  overlay: OpeningsRevisionLocalOverlay | null,
+): OpeningsRevisionCurriculum {
+  // Curriculum may already embed book excerpts (committed). Overlay only refreshes/overrides.
+  if (!overlay?.modules) return curriculum;
+  const modules = curriculum.modules.map((mod) => {
+    const excerpt = overlay.modules[mod.id];
+    if (!excerpt) return mod;
+    const { basePositions: overlayQuizzes, ...bookExcerpt } = excerpt;
+    return {
+      ...mod,
+      tagline: mod.tagline ?? (excerpt.subtitle
+        ? { en: excerpt.subtitle, fr: excerpt.subtitle }
+        : undefined),
+      bookExcerpt: mod.bookExcerpt ?? bookExcerpt,
+      basePositions:
+        overlayQuizzes && overlayQuizzes.length > 0
+          ? overlayQuizzes
+          : mod.basePositions,
+    };
+  });
+  const principles =
+    overlay.principles && overlay.principles.length > 0
+      ? [
+          ...overlay.principles,
+          ...curriculum.principles.filter(
+            (p) => !overlay.principles!.some((op) => op.id === p.id),
+          ),
+        ]
+      : curriculum.principles;
+  return { ...curriculum, modules, principles };
+}
+
+export async function loadOpeningsRevision(): Promise<OpeningsRevisionCurriculum | null> {
+  if (openingsRevisionCache !== undefined) return openingsRevisionCache;
+  const [res, localRes] = await Promise.all([
+    fetch(`${base}data/openings-revision.json`),
+    fetch(`${base}data/openings-revision-local.json`),
+  ]);
+  if (!res.ok) {
+    openingsRevisionCache = null;
+    return null;
+  }
+  let curriculum = (await res.json()) as OpeningsRevisionCurriculum;
+  let overlay: OpeningsRevisionLocalOverlay | null = null;
+  if (localRes.ok) {
+    try {
+      overlay = (await localRes.json()) as OpeningsRevisionLocalOverlay;
+    } catch {
+      overlay = null;
+    }
+  }
+  curriculum = mergeOpeningsLocalOverlay(curriculum, overlay);
+  openingsRevisionCache = curriculum;
+  return openingsRevisionCache;
+}
+
 export async function loadIndex(): Promise<LessonIndex> {
-  const [indexRes, intentionsRes] = await Promise.all([
+  const [indexRes, intentionsRes, openingsRevision] = await Promise.all([
     fetch(`${base}data/index.json`),
     fetch(`${base}data/intentions.json`),
+    loadOpeningsRevision(),
   ]);
   if (!indexRes.ok) throw new Error("Failed to load lesson index");
   const raw = (await indexRes.json()) as Record<string, unknown>;
@@ -17,7 +85,7 @@ export async function loadIndex(): Promise<LessonIndex> {
   if (intentionsRes.ok) {
     curriculum = (await intentionsRes.json()) as IntentionsCurriculum;
   }
-  return normalizeLessonIndex(raw, curriculum);
+  return normalizeLessonIndex(raw, curriculum, openingsRevision);
 }
 
 export async function loadPerformanceElos(): Promise<PerformanceEloData> {

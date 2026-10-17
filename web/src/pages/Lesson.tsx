@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import type { Lesson, LessonSummary } from "../types";
+import type { Lesson, LessonSummary, OpeningsRevisionCurriculum } from "../types";
 import { loadLesson } from "../lib/lessonLoader";
+import { findModuleByEco, findModuleByOpeningName } from "../lib/openingRevision";
 import { buildPositionAtPly } from "../lib/chess";
 import { type AlternativeMove } from "../lib/commentary";
 import {
@@ -39,9 +40,17 @@ type Props = {
   summary: LessonSummary;
   lang: Lang;
   onBack: () => void;
+  onReviseOpening?: (moduleId: string) => void;
+  openingsRevision?: OpeningsRevisionCurriculum | null;
 };
 
-export function LessonPage({ summary, lang, onBack }: Props) {
+export function LessonPage({
+  summary,
+  lang,
+  onBack,
+  onReviseOpening,
+  openingsRevision,
+}: Props) {
   const t = ui(lang);
   const [lesson, setLesson] = useState<Lesson | null>(null);
   const [ply, setPly] = useState(0);
@@ -489,6 +498,23 @@ export function LessonPage({ summary, lang, onBack }: Props) {
                 </span>
               )}
               {lesson.result && <span className="meta-chip meta-result">{lesson.result}</span>}
+              {openingsRevision && onReviseOpening
+                ? (() => {
+                    const mod =
+                      findModuleByEco(openingsRevision, lesson.eco) ??
+                      findModuleByOpeningName(openingsRevision, lesson.opening);
+                    if (!mod) return null;
+                    return (
+                      <button
+                        type="button"
+                        className="meta-chip meta-revise"
+                        onClick={() => onReviseOpening(mod.id)}
+                      >
+                        {t.reviseThisOpening}
+                      </button>
+                    );
+                  })()
+                : null}
             </div>
           </div>
 

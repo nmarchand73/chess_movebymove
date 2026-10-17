@@ -1,8 +1,9 @@
 import { describe, it } from "node:test";
 import assert from "node:assert/strict";
-import type { IntentionsCurriculum, LessonSummary } from "../types.ts";
+import type { IntentionsCurriculum, LessonSummary, OpeningsRevisionCurriculum } from "../types.ts";
 import {
   buildIntentionsBook,
+  buildOpeningsRevisionBook,
   matchIntentionOpening,
   normalizeLessonIndex,
 } from "./normalizeIndex.ts";
@@ -35,6 +36,7 @@ describe("normalizeLessonIndex", () => {
     assert.equal(index.books.length, 1);
     assert.equal(index.chernov.length, 1);
     assert.equal(index.intentions.length, 0);
+    assert.equal(index["openings-revision"].length, 0);
   });
 
   it("builds books from legacy chernov-only index", () => {
@@ -91,6 +93,41 @@ describe("normalizeLessonIndex", () => {
     assert.equal(index.intentions[0]?.file, "chernov-001.json");
     assert.equal(index.intentions[1]?.openingName, "Partie Espagnole");
     assert.equal(index.books[2]?.sections?.[0]?.openings?.length, 2);
+  });
+
+  it("appends the openings-revision book when curriculum is provided", () => {
+    const raw = {
+      books: [{ id: "chernov", title: "Logical Chess", author: "Chernev", gameCount: 1 }],
+      chernov: [sampleSource("chernov-001", "chernov", 1)],
+      nunn: [],
+    };
+    const openings: OpeningsRevisionCurriculum = {
+      id: "openings-revision",
+      title: { en: "Opening Revision", fr: "Révision" },
+      author: { en: "Curriculum", fr: "Parcours" },
+      principles: [],
+      sections: [
+        { id: "open-games", title: { en: "Open", fr: "Ouvertes" }, refs: [1] },
+      ],
+      modules: [
+        {
+          id: "giuoco-piano",
+          bookRef: 1,
+          names: { en: "Giuoco Piano", fr: "Giuoco Piano" },
+          ecoPrefixes: ["C53"],
+          plan: { en: "Develop", fr: "Développer" },
+          themes: { en: ["f7"], fr: ["f7"] },
+          exampleLine: { san: ["e4", "e5"], startFen: "start" },
+          basePositions: [],
+          gameIds: [],
+        },
+      ],
+      batteries: { knowledge: [], skill: [] },
+    };
+    const index = normalizeLessonIndex(raw, null, openings);
+    assert.equal(index.books.at(-1)?.id, "openings-revision");
+    assert.equal(index.books.at(-1)?.gameCount, 1);
+    assert.equal(buildOpeningsRevisionBook(openings).gameCount, 1);
   });
 });
 

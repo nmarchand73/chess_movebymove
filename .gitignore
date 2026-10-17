@@ -25,3 +25,10 @@ data/ingest_report.json
 # Large copyrighted sources — place locally before running ingest
 docs/*.epub
 docs/nunn.pgn
+
+# Copyrighted book PDFs + local text extracts (study only — do not publish)
+docs/*.pdf
+docs/_ouvertures-enfants-texte/
+docs/*ouvertures*
+data/openings-revision-local.json
+web/public/data/openings-revision-local.json

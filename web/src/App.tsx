@@ -1,10 +1,11 @@
-import { useCallback, useEffect, useState } from "react";
-import type { BookId, LessonSummary } from "./types";
+import { useCallback, useEffect, useMemo, useState } from "react";
+import type { BookId, LessonSummary, OpeningsRevisionCurriculum } from "./types";
 import { Home } from "./pages/Home";
 import { Landing } from "./pages/Landing";
 import { LessonPage } from "./pages/Lesson";
+import { OpeningRevisionPage } from "./pages/OpeningRevision";
 import { SettingsPage } from "./pages/Settings";
-import { loadIndex } from "./lib/lessonLoader";
+import { loadIndex, loadOpeningsRevision } from "./lib/lessonLoader";
 import { loadLang, saveLang, type Lang } from "./lib/lang";
 import { loadProgress } from "./lib/progress";
 import "./App.css";
@@ -33,6 +34,10 @@ function App() {
   );
   const [selectedBook, setSelectedBook] = useState<BookId | null>(null);
   const [activeLesson, setActiveLesson] = useState<LessonSummary | null>(null);
+  const [activeOpeningModuleId, setActiveOpeningModuleId] = useState<string | null>(null);
+  const [showOpeningRevision, setShowOpeningRevision] = useState(false);
+  const [openingsRevision, setOpeningsRevision] = useState<OpeningsRevisionCurriculum | null>(null);
+  const [lessonsById, setLessonsById] = useState<Map<string, LessonSummary>>(new Map());
   const [showSettings, setShowSettings] = useState(false);
 
   const setLang = useCallback((next: Lang) => {
@@ -53,9 +58,32 @@ function App() {
     return () => window.removeEventListener("hashchange", onHashChange);
   }, []);
 
+  useEffect(() => {
+    let cancelled = false;
+    void (async () => {
+      try {
+        const [index, curriculum] = await Promise.all([loadIndex(), loadOpeningsRevision()]);
+        if (cancelled) return;
+        setOpeningsRevision(curriculum);
+        const map = new Map<string, LessonSummary>();
+        for (const lesson of [...index.chernov, ...index.nunn]) {
+          map.set(lesson.id, lesson);
+        }
+        setLessonsById(map);
+      } catch {
+        /* library load still works from Home */
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
   const goLanding = useCallback(() => {
     setShowSettings(false);
     setActiveLesson(null);
+    setShowOpeningRevision(false);
+    setActiveOpeningModuleId(null);
     setView("landing");
     setHash("landing");
   }, []);
@@ -63,14 +91,28 @@ function App() {
   const goLibrary = useCallback(() => {
     setShowSettings(false);
     setActiveLesson(null);
+    setShowOpeningRevision(false);
+    setActiveOpeningModuleId(null);
     setView("library");
     setHash("library");
   }, []);
 
   function openLesson(lesson: LessonSummary) {
     setShowSettings(false);
+    setShowOpeningRevision(false);
+    setActiveOpeningModuleId(null);
     setSelectedBook(lesson.book as BookId);
     setActiveLesson(lesson);
+    setView("library");
+    setHash("library");
+  }
+
+  function openOpeningsRevision(moduleId?: string | null) {
+    setShowSettings(false);
+    setActiveLesson(null);
+    setSelectedBook("openings-revision");
+    setActiveOpeningModuleId(moduleId ?? null);
+    setShowOpeningRevision(true);
     setView("library");
     setHash("library");
   }
@@ -97,14 +139,44 @@ function App() {
   }
 
   const shellClass =
-    !activeLesson && !showSettings && view === "landing"
+    !activeLesson && !showSettings && !showOpeningRevision && view === "landing"
       ? "app-shell is-landing"
       : "app-shell";
+
+  const tLoading = useMemo(() => {
+    // Avoid importing uiCopy at module top for a one-liner loading state in App.
+    return lang === "fr"
+      ? "Chargement des modules d’ouverture…"
+      : "Loading opening modules…";
+  }, [lang]);
 
   return (
     <main className={shellClass}>
       {activeLesson ? (
-        <LessonPage summary={activeLesson} lang={lang} onBack={() => setActiveLesson(null)} />
+        <LessonPage
+          summary={activeLesson}
+          lang={lang}
+          onBack={() => setActiveLesson(null)}
+          onReviseOpening={(moduleId) => openOpeningsRevision(moduleId)}
+          openingsRevision={openingsRevision}
+        />
+      ) : showOpeningRevision ? (
+        openingsRevision ? (
+          <OpeningRevisionPage
+            curriculum={openingsRevision}
+            lang={lang}
+            initialModuleId={activeOpeningModuleId}
+            lessonsById={lessonsById}
+            onOpenLesson={openLesson}
+            onBack={() => {
+              setShowOpeningRevision(false);
+              setActiveOpeningModuleId(null);
+              setSelectedBook(null);
+            }}
+          />
+        ) : (
+          <p className="opening-revision-loading">{tLoading}</p>
+        )
       ) : showSettings ? (
         <SettingsPage lang={lang} onLangChange={setLang} onBack={() => setShowSettings(false)} />
       ) : view === "landing" ? (
@@ -116,8 +188,15 @@ function App() {
       ) : (
         <Home
           lang={lang}
-          selectedBook={selectedBook}
-          onSelectBook={setSelectedBook}
+          selectedBook={selectedBook === "openings-revision" ? null : selectedBook}
+          onSelectBook={(bookId) => {
+            if (bookId === "openings-revision") {
+              openOpeningsRevision(null);
+              return;
+            }
+            setShowOpeningRevision(false);
+            setSelectedBook(bookId);
+          }}
           onOpenLesson={openLesson}
           onOpenSettings={() => setShowSettings(true)}
           onBackToLanding={goLanding}

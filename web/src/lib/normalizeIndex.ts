@@ -5,6 +5,7 @@ import type {
   IntentionsOpening,
   LessonIndex,
   LessonSummary,
+  OpeningsRevisionCurriculum,
 } from "../types";
 
 const DEFAULT_BOOKS: Record<"chernov" | "nunn", BookMeta> = {
@@ -214,9 +215,32 @@ export function buildIntentionsBook(
   };
 }
 
+export function buildOpeningsRevisionBook(
+  curriculum: OpeningsRevisionCurriculum,
+): BookMeta {
+  return {
+    id: "openings-revision",
+    title: curriculum.title.en,
+    author: typeof curriculum.author === "string" ? curriculum.author : curriculum.author.en,
+    publisher:
+      typeof curriculum.publisher === "string"
+        ? curriculum.publisher
+        : curriculum.publisher?.en,
+    gameCount: curriculum.modules.length,
+    sections: curriculum.sections.map((section) => ({
+      title: section.title.en,
+      range: section.refs.length
+        ? `${section.refs[0]}–${section.refs[section.refs.length - 1]}`
+        : "",
+      blurb: section.title.en,
+    })),
+  };
+}
+
 export function normalizeLessonIndex(
   raw: Record<string, unknown>,
   curriculum?: IntentionsCurriculum | null,
+  openingsRevision?: OpeningsRevisionCurriculum | null,
 ): LessonIndex {
   const chernov = lessonsForBook(raw, "chernov");
   const nunn = lessonsForBook(raw, "nunn");
@@ -247,7 +271,11 @@ export function normalizeLessonIndex(
     books = [...books, built.book];
   }
 
-  return { books, chernov, nunn, intentions };
+  if (openingsRevision?.modules?.length) {
+    books = [...books, buildOpeningsRevisionBook(openingsRevision)];
+  }
+
+  return { books, chernov, nunn, intentions, "openings-revision": [] };
 }
 
 export function isSourceBookId(bookId: BookId | string): bookId is "chernov" | "nunn" {

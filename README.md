@@ -13,6 +13,8 @@ Study classic chess books the way they were written: **every move explained**, w
 
 **Languages:** English and French UI, with bilingual lesson commentary (`data/en` / `data/fr`) and chess-aware speech in both languages.
 
+**Opening revision:** a fourth virtual book — **50 Super Openings** (method inspired by Watson & Burgess / *Chess Openings for Kids*) with example lines, **book-aligned** base-position quizzes (Super Ouverture N + themes), taglines, and links into Chernev/Nunn games when available. Rebuild with `build_openings_revision.mjs` then optionally `enrich_openings_from_book.mjs` (needs local Olibris page extract under `docs/`, gitignored). **Full chapter OCR** stays in `openings-revision-local.json` (gitignored) for personal study — it is **not** committed or deployed to GitHub Pages.
+
 ---
 
 ## Copyright disclaimer
@@ -175,6 +177,8 @@ Prerequisites: Python 3.11+, Node.js 22+, local EPUBs under `docs/` (see filenam
 | `cd web && npm run build` | Production build |
 | `cd web && npm test` | Unit tests |
 | `cd web && npm run compute-elos` | Batch Lucas Elo JSON |
+| `node scripts/build_openings_revision.mjs` | Rebuild `data/openings-revision.json` (50 modules) |
+| `node scripts/enrich_openings_from_book.mjs` | From local Olibris pages: bake taglines + book-aligned quizzes into curriculum; full excerpts → `openings-revision-local.json` (gitignored) |
 
 ---
 

@@ -66,6 +66,24 @@ const EN: Record<BookId, BookDetails> = {
     famousFor:
       "Study the same classics twice: once in book order, once by intention.",
   },
+  "openings-revision": {
+    title: "Opening Revision — 50 Super Openings",
+    published: "Curriculum · method inspired by Watson & Burgess",
+    tagline: "Principles first, then fifty short opening modules with examples.",
+    description:
+      "Revise every Super Opening from the kids’ openings syllabus: a plan, an example line on the board, "
+      + "base-position quizzes, and links into Chernev/Nunn games when the library has one. "
+      + "Original study content — not a reprint of the Olibris / Gambit book.",
+    audience: "Juniors and club players · after basic tactics",
+    highlights: [
+      "50 modules: Giuoco Piano through Réti",
+      "Example lines and base positions you can step through",
+      "Knowledge and skills test batteries",
+      "Linked practice games from the annotated library when available",
+    ],
+    famousFor:
+      "Ideas over memorisation — then compare with the paper book if you own it.",
+  },
 };
 
 const FR: Record<BookId, BookDetails> = {
@@ -121,6 +139,24 @@ const FR: Record<BookId, BookDetails> = {
     ],
     famousFor:
       "Étudiez les mêmes classiques deux fois : une fois dans l’ordre du livre, une fois par intention.",
+  },
+  "openings-revision": {
+    title: "Révision d’ouvertures — 50 Super Ouvertures",
+    published: "Parcours · méthode inspirée de Watson & Burgess",
+    tagline: "Les principes d’abord, puis cinquante modules courts avec exemples.",
+    description:
+      "Révisez chaque Super Ouverture du syllabus enfant : un plan, une ligne d’exemple sur l’échiquier, "
+      + "des quiz de positions de base, et des liens vers Chernev/Nunn quand la bibliothèque en a. "
+      + "Contenu pédagogique original — pas une republication du livre Olibris / Gambit.",
+    audience: "Juniors et joueurs de club · après les tactiques de base",
+    highlights: [
+      "50 modules : du Giuoco Piano au Réti",
+      "Lignes d’exemple et positions de base à parcourir",
+      "Batteries de tests connaissances et savoir-faire",
+      "Parties liées depuis la bibliothèque annotée quand disponibles",
+    ],
+    famousFor:
+      "Les idées avant la mémorisation — puis comparez avec le livre papier si vous l’avez.",
   },
 };
 
