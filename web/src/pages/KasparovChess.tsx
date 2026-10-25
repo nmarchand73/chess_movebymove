@@ -66,9 +66,10 @@ export function KasparovChessPage({
   const resolved = resolveInitial(curriculum, initialExerciseId);
   const [mode, setMode] = useState<Mode>(resolved ? "exercise" : "catalog");
   const [exerciseId, setExerciseId] = useState<string | null>(resolved);
-  const [guess, setGuess] = useState("");
   const [feedback, setFeedback] = useState<string | null>(null);
   const [showSolution, setShowSolution] = useState(false);
+  /** When set, the book move is applied so the board keeps history (arrow + square rings). */
+  const [playedSan, setPlayedSan] = useState<string | null>(null);
   const [progressTick, setProgressTick] = useState(0);
 
   const exercise = useMemo(
@@ -77,10 +78,26 @@ export function KasparovChessPage({
   );
 
   useEffect(() => {
-    setGuess("");
     setFeedback(null);
-    setShowSolution(false);
-  }, [exerciseId]);
+    if (!exercise) {
+      setShowSolution(false);
+      setPlayedSan(null);
+      return;
+    }
+    const prior = getExerciseProgress(exercise.id);
+    if (prior.solved || prior.revealed) {
+      setShowSolution(true);
+      setPlayedSan(exercise.expectedSan);
+      setFeedback(
+        prior.solved
+          ? fill(t.kasparovCorrect, { san: exercise.expectedSan })
+          : fill(t.kasparovRevealed, { san: exercise.expectedSan }),
+      );
+    } else {
+      setShowSolution(false);
+      setPlayedSan(null);
+    }
+  }, [exerciseId, exercise, t]);
 
   const progress = useMemo(() => {
     void progressTick;
@@ -95,11 +112,15 @@ export function KasparovChessPage({
   const boardChess = useMemo(() => {
     if (!exercise) return new Chess();
     try {
-      return new Chess(exercise.fen);
+      const chess = new Chess(exercise.fen);
+      if (playedSan) {
+        chess.move(playedSan);
+      }
+      return chess;
     } catch {
       return new Chess();
     }
-  }, [exercise]);
+  }, [exercise, playedSan]);
 
   function bumpProgress() {
     setProgressTick((n) => n + 1);
@@ -115,24 +136,43 @@ export function KasparovChessPage({
     setExerciseId(null);
   }
 
-  function submitGuess(ex: KasparovExercise) {
-    const trimmed = guess.trim();
-    if (!trimmed) return;
-    const result = checkKasparovMove(trimmed, ex.legal, ex.expectedUci);
+  function applyGuessResult(
+    ex: KasparovExercise,
+    result: ReturnType<typeof checkKasparovMove>,
+  ): boolean {
     if (result.status === "unknown") {
       setFeedback(t.couldNotParse);
-      return;
+      return false;
     }
     if (result.status === "correct") {
       recordKasparovAttempt(ex.id, "correct");
       bumpProgress();
       setFeedback(fill(t.kasparovCorrect, { san: result.san }));
       setShowSolution(true);
-      return;
+      setPlayedSan(result.san);
+      return true;
     }
     recordKasparovAttempt(ex.id, "wrong");
     bumpProgress();
     setFeedback(t.kasparovWrong);
+    return false;
+  }
+
+  function handleBoardMove(ex: KasparovExercise, from: string, to: string): boolean {
+    if (doneLockedFor(ex)) return false;
+    const probe = new Chess(ex.fen);
+    let played;
+    try {
+      played = probe.move({ from, to, promotion: "q" });
+    } catch {
+      played = null;
+    }
+    if (!played) {
+      setFeedback(t.illegalMove);
+      return false;
+    }
+    const uci = `${played.from}${played.to}${played.promotion ?? ""}`;
+    return applyGuessResult(ex, checkKasparovMove(uci, ex.legal, ex.expectedUci));
   }
 
   function reveal(ex: KasparovExercise) {
@@ -140,6 +180,12 @@ export function KasparovChessPage({
     bumpProgress();
     setShowSolution(true);
     setFeedback(fill(t.kasparovRevealed, { san: ex.expectedSan }));
+    setPlayedSan(ex.expectedSan);
+  }
+
+  function doneLockedFor(ex: KasparovExercise): boolean {
+    const s = getExerciseProgress(ex.id);
+    return Boolean(s.solved || s.revealed || showSolution);
   }
 
   function nextUndone(): KasparovExercise | null {
@@ -152,7 +198,7 @@ export function KasparovChessPage({
   }
 
   const currentProg = exercise ? getExerciseProgress(exercise.id, progress) : null;
-  const doneLocked = Boolean(currentProg?.solved || currentProg?.revealed || showSolution);
+  const doneLocked = exercise ? doneLockedFor(exercise) : false;
 
   return (
     <div className="kasparov-chess opening-revision">
@@ -350,30 +396,13 @@ export function KasparovChessPage({
               chess={boardChess}
               orientation={exercise.boardOrientation}
               lang={lang}
+              allowMove={!doneLocked}
+              onPlayerMove={(from, to) => handleBoardMove(exercise, from, to)}
             />
             <div className="kasparov-guess-panel">
-              <label className="kasparov-guess-label" htmlFor="kasparov-guess">
-                {t.yourMove}
-              </label>
+              <p className="kasparov-guess-label">{t.yourMove}</p>
+              <p className="kasparov-play-hint">{t.onScreenBoard}</p>
               <div className="kasparov-guess-row">
-                <input
-                  id="kasparov-guess"
-                  value={guess}
-                  disabled={doneLocked}
-                  onChange={(e) => setGuess(e.target.value)}
-                  onKeyDown={(e) => {
-                    if (e.key === "Enter" && !doneLocked) submitGuess(exercise);
-                  }}
-                  placeholder={lang === "fr" ? "Cf3 / Nf3 / e2e4" : "Nf3 / e2e4"}
-                  autoFocus
-                />
-                <button
-                  type="button"
-                  disabled={doneLocked || !guess.trim()}
-                  onClick={() => submitGuess(exercise)}
-                >
-                  {t.check}
-                </button>
                 <button
                   type="button"
                   className="secondary"

@@ -94,7 +94,7 @@ const EN: Record<BookId, BookDetails> = {
     audience: "Club players · after basic tactics",
     highlights: [
       "64 positions across 8 annotated games",
-      "Typed guesses: English SAN, French letters, or UCI",
+      "Play the move on the board (drag or click)",
       "Recommended computer level from the original method",
       "Full book prompts stay in a local overlay when you have the extract",
     ],
@@ -185,7 +185,7 @@ const FR: Record<BookId, BookDetails> = {
     audience: "Joueurs de club · après les tactiques de base",
     highlights: [
       "64 positions sur 8 parties",
-      "Saisie : SAN anglaise, lettres françaises ou UCI",
+      "Jouez le coup sur l’échiquier (glisser ou cliquer)",
       "Niveau d’ordinateur recommandé d’après la méthode d’origine",
       "Prompts complets du livre dans un overlay local si vous avez l’extrait",
     ],

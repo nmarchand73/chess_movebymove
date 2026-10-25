@@ -5479,7 +5479,18 @@ button.opening-linked-game:hover:not(:disabled),
 }
 
 .kasparov-guess-label {
+  margin: 0;
   font-weight: 650;
+}
+
+.kasparov-play-hint {
+  margin: -0.25rem 0 0.15rem;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.board-panel.is-interactive .board-wrap {
+  cursor: grab;
 }
 
 .kasparov-guess-row {
