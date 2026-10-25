@@ -1,4 +1,9 @@
-export type BookId = "chernov" | "nunn" | "intentions" | "openings-revision";
+export type BookId =
+  | "chernov"
+  | "nunn"
+  | "intentions"
+  | "openings-revision"
+  | "kasparov-chess";
 
 export type LocalizedText = { en: string; fr: string };
 
@@ -184,6 +189,61 @@ export type IntentionsCurriculum = {
   entries: Record<string, IntentionsEntry>;
 };
 
+export type KasparovLegalMove = [uci: string, san: string, fr: string];
+
+export type KasparovExercise = {
+  id: string;
+  game: number;
+  study: number;
+  gameTitle: string;
+  fen: string;
+  boardOrientation: "white" | "black";
+  sideToMove: "white" | "black";
+  moveNumber: number;
+  expectedSan: string;
+  expectedUci: string;
+  recommendedLevel: number;
+  task: LocalizedText;
+  cue: LocalizedText;
+  legal: KasparovLegalMove[];
+  stockfish?: {
+    bookMoveEval: number | null;
+    bookMoveRankInTop3: number | null;
+  };
+  /** Present when the gitignored local overlay is loaded. */
+  prompt?: LocalizedText;
+  solution?: LocalizedText;
+};
+
+export type KasparovGame = {
+  id: number;
+  white: string;
+  black: string;
+  event: string;
+  date: string;
+  opening: LocalizedText;
+  result: string;
+  gameIds: string[];
+  /** Present when the gitignored local overlay is loaded. */
+  intro?: LocalizedText;
+};
+
+export type KasparovChessCurriculum = {
+  id: "kasparov-chess";
+  title: LocalizedText;
+  author: LocalizedText;
+  publisher?: LocalizedText;
+  methodNote: LocalizedText;
+  games: KasparovGame[];
+  exercises: KasparovExercise[];
+};
+
+export type KasparovChessLocalOverlay = {
+  id: "kasparov-chess-local";
+  games?: Record<string, { intro?: LocalizedText }>;
+  exercises: Record<string, { prompt?: LocalizedText; solution?: LocalizedText }>;
+};
+
 export type LessonIndex = {
   books: BookMeta[];
   chernov: LessonSummary[];
@@ -191,4 +251,6 @@ export type LessonIndex = {
   intentions: LessonSummary[];
   /** Virtual book: modules live in openings-revision.json, not lesson rows. */
   "openings-revision": LessonSummary[];
+  /** Virtual book: exercises live in kasparov-chess.json, not lesson rows. */
+  "kasparov-chess": LessonSummary[];
 };

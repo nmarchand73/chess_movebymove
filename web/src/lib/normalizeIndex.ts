@@ -3,6 +3,7 @@ import type {
   BookMeta,
   IntentionsCurriculum,
   IntentionsOpening,
+  KasparovChessCurriculum,
   LessonIndex,
   LessonSummary,
   OpeningsRevisionCurriculum,
@@ -237,10 +238,26 @@ export function buildOpeningsRevisionBook(
   };
 }
 
+export function buildKasparovChessBook(curriculum: KasparovChessCurriculum): BookMeta {
+  return {
+    id: "kasparov-chess",
+    title: curriculum.title.en,
+    author: curriculum.author.en,
+    publisher: curriculum.publisher?.en,
+    gameCount: curriculum.exercises.length,
+    sections: curriculum.games.map((game) => ({
+      title: `Game ${game.id}`,
+      range: String(game.id),
+      blurb: `${game.white} – ${game.black} · ${game.opening.en}`,
+    })),
+  };
+}
+
 export function normalizeLessonIndex(
   raw: Record<string, unknown>,
   curriculum?: IntentionsCurriculum | null,
   openingsRevision?: OpeningsRevisionCurriculum | null,
+  kasparovChess?: KasparovChessCurriculum | null,
 ): LessonIndex {
   const chernov = lessonsForBook(raw, "chernov");
   const nunn = lessonsForBook(raw, "nunn");
@@ -275,7 +292,18 @@ export function normalizeLessonIndex(
     books = [...books, buildOpeningsRevisionBook(openingsRevision)];
   }
 
-  return { books, chernov, nunn, intentions, "openings-revision": [] };
+  if (kasparovChess?.exercises?.length) {
+    books = [...books, buildKasparovChessBook(kasparovChess)];
+  }
+
+  return {
+    books,
+    chernov,
+    nunn,
+    intentions,
+    "openings-revision": [],
+    "kasparov-chess": [],
+  };
 }
 
 export function isSourceBookId(bookId: BookId | string): bookId is "chernov" | "nunn" {

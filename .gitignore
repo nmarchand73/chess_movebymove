@@ -30,5 +30,9 @@ docs/nunn.pgn
 docs/*.pdf
 docs/_ouvertures-enfants-texte/
 docs/*ouvertures*
+# Saitek / Winslow study site (prompts + solutions verbatim — personal use)
+docs/site/
 data/openings-revision-local.json
 web/public/data/openings-revision-local.json
+data/kasparov-chess-local.json
+web/public/data/kasparov-chess-local.json

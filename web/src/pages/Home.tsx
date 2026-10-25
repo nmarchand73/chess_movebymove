@@ -9,6 +9,7 @@ import { getGameProgress, loadProgress } from "../lib/progress";
 import { bookDisplayTitle, getBookDetails } from "../lib/bookDetails";
 import { sourceBookLabel } from "../lib/bookMeta";
 import type { Lang } from "../lib/lang";
+import { doneExerciseCount } from "../lib/kasparovChessProgress";
 import { seenModuleCount } from "../lib/openingRevisionProgress";
 import { localizeSectionBlurb, localizeSectionTitle } from "../lib/sectionI18n";
 import { fill, ui, type UiCopy } from "../lib/uiCopy";
@@ -161,10 +162,14 @@ function LibraryView({
           const lessons = index[book.id] ?? [];
           const details = getBookDetails(book.id, lang);
           const isOpeningsRevision = book.id === "openings-revision";
+          const isKasparovChess = book.id === "kasparov-chess";
           const revisionSeen = isOpeningsRevision ? seenModuleCount() : 0;
+          const kasparovDone = isKasparovChess ? doneExerciseCount() : 0;
           const { completedCount, inProgressCount } = isOpeningsRevision
             ? { completedCount: revisionSeen, inProgressCount: 0 }
-            : bookProgress(lessons);
+            : isKasparovChess
+              ? { completedCount: kasparovDone, inProgressCount: 0 }
+              : bookProgress(lessons);
           const pctComplete = book.gameCount
             ? Math.round((completedCount / book.gameCount) * 100)
             : 0;
@@ -211,7 +216,9 @@ function LibraryView({
                   ? fill(t.selectedFromBoth, { n: book.gameCount })
                   : book.id === "openings-revision"
                     ? fill(t.openingModules, { n: book.gameCount })
-                    : fill(t.annotatedGames, { n: book.gameCount })}
+                    : book.id === "kasparov-chess"
+                      ? fill(t.kasparovPositions, { n: book.gameCount })
+                      : fill(t.annotatedGames, { n: book.gameCount })}
               </p>
               {book.sections && book.sections.length > 0 ? (
                 <ul className="book-card-sections" aria-label={t.books}>

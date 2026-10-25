@@ -1,5 +1,7 @@
 import type {
   IntentionsCurriculum,
+  KasparovChessCurriculum,
+  KasparovChessLocalOverlay,
   Lesson,
   LessonIndex,
   OpeningsRevisionCurriculum,
@@ -14,6 +16,7 @@ export type PerformanceEloData = Record<string, PerformanceElo>;
 const base = import.meta.env.BASE_URL;
 
 let openingsRevisionCache: OpeningsRevisionCurriculum | null | undefined;
+let kasparovChessCache: KasparovChessCurriculum | null | undefined;
 
 function mergeOpeningsLocalOverlay(
   curriculum: OpeningsRevisionCurriculum,
@@ -73,11 +76,58 @@ export async function loadOpeningsRevision(): Promise<OpeningsRevisionCurriculum
   return openingsRevisionCache;
 }
 
+function mergeKasparovLocalOverlay(
+  curriculum: KasparovChessCurriculum,
+  overlay: KasparovChessLocalOverlay | null,
+): KasparovChessCurriculum {
+  if (!overlay) return curriculum;
+  const exercises = curriculum.exercises.map((ex) => {
+    const extra = overlay.exercises?.[ex.id];
+    if (!extra) return ex;
+    return {
+      ...ex,
+      prompt: ex.prompt ?? extra.prompt,
+      solution: ex.solution ?? extra.solution,
+    };
+  });
+  const games = curriculum.games.map((game) => {
+    const extra = overlay.games?.[String(game.id)];
+    if (!extra?.intro) return game;
+    return { ...game, intro: game.intro ?? extra.intro };
+  });
+  return { ...curriculum, exercises, games };
+}
+
+export async function loadKasparovChess(): Promise<KasparovChessCurriculum | null> {
+  if (kasparovChessCache !== undefined) return kasparovChessCache;
+  const [res, localRes] = await Promise.all([
+    fetch(`${base}data/kasparov-chess.json`),
+    fetch(`${base}data/kasparov-chess-local.json`),
+  ]);
+  if (!res.ok) {
+    kasparovChessCache = null;
+    return null;
+  }
+  let curriculum = (await res.json()) as KasparovChessCurriculum;
+  let overlay: KasparovChessLocalOverlay | null = null;
+  if (localRes.ok) {
+    try {
+      overlay = (await localRes.json()) as KasparovChessLocalOverlay;
+    } catch {
+      overlay = null;
+    }
+  }
+  curriculum = mergeKasparovLocalOverlay(curriculum, overlay);
+  kasparovChessCache = curriculum;
+  return kasparovChessCache;
+}
+
 export async function loadIndex(): Promise<LessonIndex> {
-  const [indexRes, intentionsRes, openingsRevision] = await Promise.all([
+  const [indexRes, intentionsRes, openingsRevision, kasparovChess] = await Promise.all([
     fetch(`${base}data/index.json`),
     fetch(`${base}data/intentions.json`),
     loadOpeningsRevision(),
+    loadKasparovChess(),
   ]);
   if (!indexRes.ok) throw new Error("Failed to load lesson index");
   const raw = (await indexRes.json()) as Record<string, unknown>;
@@ -85,7 +135,7 @@ export async function loadIndex(): Promise<LessonIndex> {
   if (intentionsRes.ok) {
     curriculum = (await intentionsRes.json()) as IntentionsCurriculum;
   }
-  return normalizeLessonIndex(raw, curriculum, openingsRevision);
+  return normalizeLessonIndex(raw, curriculum, openingsRevision, kasparovChess);
 }
 
 export async function loadPerformanceElos(): Promise<PerformanceEloData> {

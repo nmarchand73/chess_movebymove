@@ -13,13 +13,15 @@ Study classic chess books the way they were written: **every move explained**, w
 
 **Languages:** English and French UI, with bilingual lesson commentary (`data/en` / `data/fr`) and chess-aware speech in both languages.
 
-**Opening revision:** a fourth virtual book — **50 Super Openings** (method inspired by Watson & Burgess / *Chess Openings for Kids*) with example lines, **book-aligned** base-position quizzes (Super Ouverture N + themes), taglines, and links into Chernev/Nunn games when available. Rebuild with `build_openings_revision.mjs` then optionally `enrich_openings_from_book.mjs` (needs local Olibris page extract under `docs/`, gitignored). **Full chapter OCR** stays in `openings-revision-local.json` (gitignored) for personal study — it is **not** committed or deployed to GitHub Pages.
+**Opening revision:** a virtual book — **50 Super Openings** (method inspired by Watson & Burgess / *Chess Openings for Kids*) with example lines, **book-aligned** base-position quizzes (Super Ouverture N + themes), taglines, and links into Chernev/Nunn games when available. Rebuild with `build_openings_revision.mjs` then optionally `enrich_openings_from_book.mjs` (needs local Olibris page extract under `docs/`, gitignored). **Full chapter OCR** stays in `openings-revision-local.json` (gitignored) for personal study — it is **not** committed or deployed to GitHub Pages.
+
+**Kasparov Chess:** a virtual book — **64 study positions** across 8 classics (method inspired by Saitek / Elliott Winslow, 1988). Guess the book move (SAN / French / UCI), local score 3·2·1·0. Rebuild with `build_kasparov_chess.mjs` from `docs/site`. **Full book prompts/solutions** stay in `kasparov-chess-local.json` (gitignored) — not committed or deployed.
 
 ---
 
 ## Copyright disclaimer
 
-This is a **personal / educational** study tool. It is **not** affiliated with, endorsed by, or published by Irving Chernev, John Nunn, Batsford, Gambit Publications, or their rights holders.
+This is a **personal / educational** study tool. It is **not** affiliated with, endorsed by, or published by Irving Chernev, John Nunn, Batsford, Gambit Publications, Saitek, Elliott Winslow, or their rights holders.
 
 - **Book PDFs / EPUB / full commercial text are copyrighted.** They are **not** included in this repository and are **not** deployed to GitHub Pages. Keep any legally obtained EPUB sources under local `docs/` (gitignored) for ingest only.
 - Lesson JSON, FENs, and board positions in the app are a **study aid** for interactive practice. If you own the books, prefer them as the primary source.

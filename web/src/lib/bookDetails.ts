@@ -84,6 +84,23 @@ const EN: Record<BookId, BookDetails> = {
     famousFor:
       "Ideas over memorisation — then compare with the paper book if you own it.",
   },
+  "kasparov-chess": {
+    title: "Kasparov Chess — 64 study positions",
+    published: "Curriculum · method inspired by Saitek / Winslow (1988)",
+    tagline: "Eight classics, eight critical positions each — find the book move.",
+    description:
+      "Guess-the-move training on Morphy, Steinitz, Rubinstein, Capablanca, Torre, Fischer, Spassky, and Kasparov. "
+      + "Score locally (3 / 2 / 1 / 0). Interactive study aid — not a reprint of the Saitek booklet.",
+    audience: "Club players · after basic tactics",
+    highlights: [
+      "64 positions across 8 annotated games",
+      "Typed guesses: English SAN, French letters, or UCI",
+      "Recommended computer level from the original method",
+      "Full book prompts stay in a local overlay when you have the extract",
+    ],
+    famousFor:
+      "The Saitek training loop: study the diagram, try a move, then check the answer.",
+  },
 };
 
 const FR: Record<BookId, BookDetails> = {
@@ -157,6 +174,23 @@ const FR: Record<BookId, BookDetails> = {
     ],
     famousFor:
       "Les idées avant la mémorisation — puis comparez avec le livre papier si vous l’avez.",
+  },
+  "kasparov-chess": {
+    title: "Kasparov Chess — 64 positions d’étude",
+    published: "Parcours · méthode inspirée de Saitek / Winslow (1988)",
+    tagline: "Huit classiques, huit positions critiques chacune — trouvez le coup du livre.",
+    description:
+      "Entraînement « trouvez le coup » sur Morphy, Steinitz, Rubinstein, Capablanca, Torre, Fischer, Spassky et Kasparov. "
+      + "Score local (3 / 2 / 1 / 0). Aide d’étude interactive — pas une republication du livret Saitek.",
+    audience: "Joueurs de club · après les tactiques de base",
+    highlights: [
+      "64 positions sur 8 parties",
+      "Saisie : SAN anglaise, lettres françaises ou UCI",
+      "Niveau d’ordinateur recommandé d’après la méthode d’origine",
+      "Prompts complets du livre dans un overlay local si vous avez l’extrait",
+    ],
+    famousFor:
+      "La boucle Saitek : étudiez le diagramme, proposez un coup, puis vérifiez la réponse.",
   },
 };
 

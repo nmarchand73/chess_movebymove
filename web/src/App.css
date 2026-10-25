@@ -3767,6 +3767,14 @@ button:disabled {
   border-top: 3px solid #3d5a80;
 }
 
+.book-card-openings-revision {
+  border-top: 3px solid #9b2d5a;
+}
+
+.book-card-kasparov-chess {
+  border-top: 3px solid #c45c26;
+}
+
 .book-card.is-resume {
   border-color: color-mix(in srgb, var(--accent) 40%, var(--border));
 }
@@ -5331,4 +5339,202 @@ button.opening-linked-game:hover:not(:disabled),
   cursor: pointer;
   border: 1px solid color-mix(in srgb, var(--magenta, #9b2d5a) 40%, transparent);
   background: color-mix(in srgb, var(--magenta, #9b2d5a) 10%, white);
+}
+
+/* Kasparov Chess — 64 study positions */
+.kasparov-header h1 {
+  margin: 0.15rem 0 0.25rem;
+}
+
+.kasparov-progress-line {
+  margin: 0;
+  font-size: 0.92rem;
+  opacity: 0.85;
+}
+
+.kasparov-method {
+  margin: 0 0 1rem;
+  max-width: 52rem;
+  line-height: 1.45;
+}
+
+.kasparov-catalog-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 1.25rem;
+}
+
+.kasparov-games {
+  display: grid;
+  gap: 1rem;
+}
+
+.kasparov-game-card {
+  padding: 1rem 1.1rem;
+  border: 1px solid color-mix(in srgb, var(--ink) 12%, transparent);
+  border-radius: 0.45rem;
+  background: color-mix(in srgb, var(--paper) 92%, #f7efe6);
+}
+
+.kasparov-game-card h2 {
+  margin: 0 0 0.4rem;
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+
+.kasparov-game-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.85rem;
+  margin: 0 0 0.65rem;
+  font-size: 0.82rem;
+  opacity: 0.8;
+}
+
+.kasparov-game-intro {
+  margin: 0 0 0.75rem;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  opacity: 0.9;
+}
+
+.kasparov-exlist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.kasparov-ex-chip {
+  min-width: 2.4rem;
+  padding: 0.35rem 0.45rem !important;
+  font-variant-numeric: tabular-nums;
+  border: 1px solid color-mix(in srgb, var(--ink) 18%, transparent) !important;
+  background: var(--paper) !important;
+  color: var(--ink) !important;
+}
+
+.kasparov-ex-chip.ok1 {
+  background: color-mix(in srgb, #1b7a3d 22%, white) !important;
+  border-color: #1b7a3d !important;
+}
+
+.kasparov-ex-chip.ok {
+  background: color-mix(in srgb, #3d9b5f 18%, white) !important;
+  border-color: #3d9b5f !important;
+}
+
+.kasparov-ex-chip.rev {
+  background: color-mix(in srgb, #c45c7a 16%, white) !important;
+  border-color: #c45c7a !important;
+}
+
+.kasparov-legend {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  opacity: 0.75;
+}
+
+.kasparov-score-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+.kasparov-score-table th,
+.kasparov-score-table td {
+  text-align: left;
+  padding: 0.4rem 0.5rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--ink) 10%, transparent);
+}
+
+.kasparov-exercise-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(16rem, 22rem);
+  gap: 1.25rem;
+  align-items: start;
+  margin-top: 1rem;
+}
+
+@media (max-width: 860px) {
+  .kasparov-exercise-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.kasparov-cue,
+.kasparov-task,
+.kasparov-game-title {
+  margin: 0.35rem 0;
+}
+
+.kasparov-game-title {
+  font-weight: 600;
+}
+
+.kasparov-guess-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.kasparov-guess-label {
+  font-weight: 650;
+}
+
+.kasparov-guess-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.kasparov-guess-row input {
+  flex: 1 1 8rem;
+  min-width: 0;
+}
+
+.kasparov-feedback {
+  margin: 0;
+  font-weight: 600;
+}
+
+.kasparov-feedback.is-ok {
+  color: #1b7a3d;
+}
+
+.kasparov-level {
+  margin: 0;
+  font-size: 0.88rem;
+  opacity: 0.8;
+}
+
+.kasparov-book-quote {
+  margin: 0.5rem 0;
+  padding: 0.75rem 0.9rem;
+  border-left: 3px solid color-mix(in srgb, #c45c26 55%, transparent);
+  background: color-mix(in srgb, var(--paper) 88%, #f3ebe3);
+  border-radius: 0 0.35rem 0.35rem 0;
+  white-space: pre-wrap;
+  line-height: 1.45;
+}
+
+.kasparov-book-label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  opacity: 0.7;
+  margin-bottom: 0.35rem;
+}
+
+.kasparov-ex-nav {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.kasparov-linked {
+  margin: 0.65rem 0 0;
+  padding-left: 1.1rem;
 }

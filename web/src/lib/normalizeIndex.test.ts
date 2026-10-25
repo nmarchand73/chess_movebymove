@@ -37,6 +37,7 @@ describe("normalizeLessonIndex", () => {
     assert.equal(index.chernov.length, 1);
     assert.equal(index.intentions.length, 0);
     assert.equal(index["openings-revision"].length, 0);
+    assert.equal(index["kasparov-chess"].length, 0);
   });
 
   it("builds books from legacy chernov-only index", () => {
