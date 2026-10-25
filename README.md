@@ -17,7 +17,7 @@ Study classic chess books the way they were written: **every move explained**, w
 
 **Opening revision:** virtual book — example lines, **book-aligned** base-position quizzes (Super Ouverture N + themes), taglines, and links into Chernev/Nunn when available. Rebuild with `build_openings_revision.mjs` then optionally `enrich_openings_from_book.mjs` (local Olibris extract under `docs/`, gitignored). **Full chapter OCR** stays in `openings-revision-local.json` (gitignored) — not deployed.
 
-**Kasparov Chess:** virtual book — eight classics × eight studies. Play the book move **on the board** (drag or click); local score 3·2·1·0; solution arrow when revealed. Rebuild with `build_kasparov_chess.mjs` from local `docs/site`. **Full book prompts/solutions** stay in `kasparov-chess-local.json` (gitignored) — not deployed.
+**Kasparov Chess:** virtual book — eight classics × eight studies. Play the book move **on the screen board** (drag or click) **or on Chessnut / ChessUp** (sync to the diagram, then guess with no LED spoilers); local score 3·2·1·0; solution arrow when revealed. Rebuild with `build_kasparov_chess.mjs` from local `docs/site`. **Full book prompts/solutions** stay in `kasparov-chess-local.json` (gitignored) — not deployed.
 
 ---
 
@@ -58,7 +58,7 @@ If you are a rights holder and want content removed or adjusted, open an issue o
 
 ### Guess-the-move
 - Optional quiz mode in lessons: hide the next move and try it before advancing
-- **Kasparov Chess:** play the study move on the screen board (drag or click-to-move); typed entry removed
+- **Kasparov Chess:** play the study move on the screen board (drag or click) or on **Chessnut / ChessUp** (exact sync, then guess, no spoilers)
 - On a **Chessnut** board (lessons): physical guess without LED spoilers — play the move on the board to advance
 
 ### Engine & ratings

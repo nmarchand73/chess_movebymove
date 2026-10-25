@@ -5179,6 +5179,21 @@ button.opening-pos-choice.is-wrong {
   margin: 0;
 }
 
+.opening-quiz-play-hint {
+  margin: 0.35rem 0 0.75rem;
+  font-size: 0.92rem;
+  opacity: 0.85;
+}
+
+.opening-quiz-move-feedback {
+  margin: 0.5rem 0;
+  font-weight: 600;
+}
+
+.opening-quiz-move-feedback.is-ok {
+  color: #1b7a3d;
+}
+
 .opening-revision-loading {
   padding: 2rem;
   text-align: center;
@@ -5548,4 +5563,11 @@ button.opening-linked-game:hover:not(:disabled),
 .kasparov-linked {
   margin: 0.65rem 0 0;
   padding-left: 1.1rem;
+}
+
+.kasparov-physical-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  margin-top: 1rem;
 }

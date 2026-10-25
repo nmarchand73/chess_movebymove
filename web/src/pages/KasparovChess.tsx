@@ -1,7 +1,14 @@
 import { Chess } from "chess.js";
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { KasparovChessCurriculum, KasparovExercise, LessonSummary } from "../types";
 import { BoardPanel } from "../components/BoardPanel";
+import { ChessnutConnectBar } from "../components/ChessnutConnectBar";
+import { ChessUpConnectBar } from "../components/ChessUpConnectBar";
+import { useChessnutBoard } from "../hooks/useChessnutBoard";
+import { useChessUpBoard } from "../hooks/useChessUpBoard";
+import { buildBoardGuide, guideLedSquares } from "../lib/boardGuide";
+import { chessUpAssistanceClear, chessUpAssistanceForMove } from "../lib/chessUpAssistance";
+import { chessUpMoveMatchesSan } from "../lib/chessUpMove";
 import type { Lang } from "../lib/lang";
 import { checkKasparovMove } from "../lib/kasparovMoveMatch";
 import {
@@ -11,6 +18,7 @@ import {
   recordKasparovAttempt,
   resetKasparovChessProgress,
 } from "../lib/kasparovChessProgress";
+import { legalMoveMatchingPlacement } from "../lib/physicalGuess";
 import { fill, ui } from "../lib/uiCopy";
 
 type Props = {
@@ -71,6 +79,26 @@ export function KasparovChessPage({
   /** When set, the book move is applied so the board keeps history (arrow + square rings). */
   const [playedSan, setPlayedSan] = useState<string | null>(null);
   const [progressTick, setProgressTick] = useState(0);
+  const [awaitingPhysicalSync, setAwaitingPhysicalSync] = useState(false);
+
+  const chessnut = useChessnutBoard();
+  const chessup = useChessUpBoard();
+  const lastWrongGuessPlacement = useRef<string | null>(null);
+  const lastAcceptedPlacement = useRef<string | null>(null);
+
+  const physicalSource =
+    chessnut.status === "connected"
+      ? ("chessnut" as const)
+      : chessup.status === "connected"
+        ? ("chessup" as const)
+        : null;
+  const physicalPlacement =
+    physicalSource === "chessnut"
+      ? chessnut.placement
+      : physicalSource === "chessup"
+        ? chessup.placement
+        : null;
+  const physicalConnected = physicalSource !== null;
 
   const exercise = useMemo(
     () => curriculum.exercises.find((e) => e.id === exerciseId) ?? null,
@@ -79,15 +107,19 @@ export function KasparovChessPage({
 
   useEffect(() => {
     setFeedback(null);
+    lastWrongGuessPlacement.current = null;
+    lastAcceptedPlacement.current = null;
     if (!exercise) {
       setShowSolution(false);
       setPlayedSan(null);
+      setAwaitingPhysicalSync(false);
       return;
     }
     const prior = getExerciseProgress(exercise.id);
     if (prior.solved || prior.revealed) {
       setShowSolution(true);
       setPlayedSan(exercise.expectedSan);
+      setAwaitingPhysicalSync(false);
       setFeedback(
         prior.solved
           ? fill(t.kasparovCorrect, { san: exercise.expectedSan })
@@ -99,6 +131,20 @@ export function KasparovChessPage({
     }
   }, [exerciseId, exercise, t]);
 
+  // Require an exact physical match to the study diagram before accepting a guess.
+  useEffect(() => {
+    if (!exercise || mode !== "exercise") {
+      setAwaitingPhysicalSync(false);
+      return;
+    }
+    const prior = getExerciseProgress(exercise.id);
+    if (prior.solved || prior.revealed || showSolution) {
+      setAwaitingPhysicalSync(false);
+      return;
+    }
+    setAwaitingPhysicalSync(physicalConnected);
+  }, [exerciseId, exercise, mode, physicalConnected, showSolution]);
+
   const progress = useMemo(() => {
     void progressTick;
     return loadKasparovChessProgress();
@@ -108,6 +154,18 @@ export function KasparovChessPage({
     void progressTick;
     return kasparovProgressSummary(curriculum.exercises.map((e) => e.id));
   }, [curriculum.exercises, progressTick]);
+
+  /** Position for guessing (study diagram — never includes the solved move). */
+  const studyChess = useMemo(() => {
+    if (!exercise) return new Chess();
+    try {
+      return new Chess(exercise.fen);
+    } catch {
+      return new Chess();
+    }
+  }, [exercise]);
+
+  const studyPlacement = studyChess.fen().split(" ")[0] ?? null;
 
   const boardChess = useMemo(() => {
     if (!exercise) return new Chess();
@@ -136,27 +194,40 @@ export function KasparovChessPage({
     setExerciseId(null);
   }
 
-  function applyGuessResult(
-    ex: KasparovExercise,
-    result: ReturnType<typeof checkKasparovMove>,
-  ): boolean {
-    if (result.status === "unknown") {
-      setFeedback(t.couldNotParse);
+  const applyGuessResult = useCallback(
+    (
+      ex: KasparovExercise,
+      result: ReturnType<typeof checkKasparovMove>,
+    ): boolean => {
+      if (result.status === "unknown") {
+        setFeedback(t.couldNotParse);
+        return false;
+      }
+      if (result.status === "correct") {
+        recordKasparovAttempt(ex.id, "correct");
+        setProgressTick((n) => n + 1);
+        setFeedback(fill(t.kasparovCorrect, { san: result.san }));
+        setShowSolution(true);
+        setPlayedSan(result.san);
+        setAwaitingPhysicalSync(false);
+        return true;
+      }
+      recordKasparovAttempt(ex.id, "wrong");
+      setProgressTick((n) => n + 1);
+      setFeedback(t.kasparovWrong);
       return false;
-    }
-    if (result.status === "correct") {
-      recordKasparovAttempt(ex.id, "correct");
-      bumpProgress();
-      setFeedback(fill(t.kasparovCorrect, { san: result.san }));
-      setShowSolution(true);
-      setPlayedSan(result.san);
-      return true;
-    }
-    recordKasparovAttempt(ex.id, "wrong");
-    bumpProgress();
-    setFeedback(t.kasparovWrong);
-    return false;
+    },
+    [t],
+  );
+
+  function doneLockedFor(ex: KasparovExercise): boolean {
+    const s = getExerciseProgress(ex.id);
+    return Boolean(s.solved || s.revealed || showSolution);
   }
+
+  const currentProg = exercise ? getExerciseProgress(exercise.id, progress) : null;
+  const doneLocked = exercise ? doneLockedFor(exercise) : false;
+  const isGuessing = Boolean(exercise && mode === "exercise" && !doneLocked);
 
   function handleBoardMove(ex: KasparovExercise, from: string, to: string): boolean {
     if (doneLockedFor(ex)) return false;
@@ -181,11 +252,7 @@ export function KasparovChessPage({
     setShowSolution(true);
     setFeedback(fill(t.kasparovRevealed, { san: ex.expectedSan }));
     setPlayedSan(ex.expectedSan);
-  }
-
-  function doneLockedFor(ex: KasparovExercise): boolean {
-    const s = getExerciseProgress(ex.id);
-    return Boolean(s.solved || s.revealed || showSolution);
+    setAwaitingPhysicalSync(false);
   }
 
   function nextUndone(): KasparovExercise | null {
@@ -197,8 +264,167 @@ export function KasparovChessPage({
     );
   }
 
-  const currentProg = exercise ? getExerciseProgress(exercise.id, progress) : null;
-  const doneLocked = exercise ? doneLockedFor(exercise) : false;
+  // Clear sync gate once the physical board matches the study diagram.
+  useEffect(() => {
+    if (!awaitingPhysicalSync || !physicalPlacement || !studyPlacement) return;
+    if (physicalPlacement === studyPlacement) {
+      setAwaitingPhysicalSync(false);
+      lastWrongGuessPlacement.current = null;
+    }
+  }, [awaitingPhysicalSync, physicalPlacement, studyPlacement]);
+
+  // ChessUp: resolve guesses from the move event.
+  useEffect(() => {
+    if (physicalSource !== "chessup" || !exercise || !isGuessing) return;
+
+    return chessup.onMove((move) => {
+      if (awaitingPhysicalSync) return;
+      if (chessUpMoveMatchesSan(studyChess, exercise.expectedSan, move)) {
+        applyGuessResult(
+          exercise,
+          checkKasparovMove(exercise.expectedUci, exercise.legal, exercise.expectedUci),
+        );
+        return;
+      }
+      applyGuessResult(
+        exercise,
+        checkKasparovMove(`${move.from}${move.to}`, exercise.legal, exercise.expectedUci),
+      );
+    });
+  }, [
+    physicalSource,
+    chessup.onMove,
+    exercise,
+    isGuessing,
+    awaitingPhysicalSync,
+    studyChess,
+    applyGuessResult,
+  ]);
+
+  // Chessnut: placement-delta guess (no LED spoilers).
+  useEffect(() => {
+    if (!physicalConnected || !physicalPlacement || !exercise || !studyPlacement) return;
+    if (physicalSource === "chessup") return;
+    if (!isGuessing) return;
+    if (awaitingPhysicalSync) return;
+
+    if (physicalPlacement === studyPlacement) {
+      lastWrongGuessPlacement.current = null;
+      return;
+    }
+    if (physicalPlacement === lastAcceptedPlacement.current) return;
+
+    const guess = legalMoveMatchingPlacement(exercise.fen, physicalPlacement);
+    if (!guess) return;
+
+    const uci = `${guess.from}${guess.to}`;
+    const result = checkKasparovMove(uci, exercise.legal, exercise.expectedUci);
+    if (result.status === "correct") {
+      lastAcceptedPlacement.current = physicalPlacement;
+      applyGuessResult(exercise, result);
+      return;
+    }
+
+    if (lastWrongGuessPlacement.current !== physicalPlacement) {
+      lastWrongGuessPlacement.current = physicalPlacement;
+      applyGuessResult(exercise, result);
+    }
+  }, [
+    physicalConnected,
+    physicalSource,
+    physicalPlacement,
+    exercise,
+    studyPlacement,
+    isGuessing,
+    awaitingPhysicalSync,
+    applyGuessResult,
+  ]);
+
+  const boardGuide = useMemo(() => {
+    if (!physicalConnected || !exercise || mode !== "exercise") return null;
+    return buildBoardGuide({
+      boardPlacement: physicalPlacement,
+      lessonPlacement: studyPlacement ?? studyChess.fen().split(" ")[0]!,
+      nextSan: isGuessing ? exercise.expectedSan : null,
+      chess: studyChess,
+      atEnd: doneLocked,
+      requireExactSync: awaitingPhysicalSync,
+      hideNextMove: isGuessing,
+    });
+  }, [
+    physicalConnected,
+    physicalPlacement,
+    exercise,
+    mode,
+    studyPlacement,
+    studyChess,
+    isGuessing,
+    doneLocked,
+    awaitingPhysicalSync,
+  ]);
+
+  useEffect(() => {
+    if (physicalSource !== "chessnut") {
+      if (chessnut.status === "connected") void chessnut.setLeds([]);
+      return;
+    }
+    if (!boardGuide) {
+      void chessnut.setLeds([]);
+      return;
+    }
+    const squares = guideLedSquares(boardGuide);
+    if (boardGuide.kind !== "setup" || awaitingPhysicalSync) {
+      void chessnut.setLeds(squares);
+      return;
+    }
+    const timer = window.setTimeout(() => {
+      void chessnut.setLeds(squares);
+    }, 140);
+    return () => window.clearTimeout(timer);
+  }, [boardGuide, chessnut.setLeds, chessnut.status, awaitingPhysicalSync, physicalSource]);
+
+  useEffect(() => {
+    if (physicalSource !== "chessup") return;
+    if (!boardGuide || boardGuide.kind !== "play_move") {
+      void chessup.sendAssistance(chessUpAssistanceClear());
+      return;
+    }
+    const colours = chessUpAssistanceForMove(studyChess, boardGuide.from, boardGuide.to);
+    void chessup.sendAssistance(colours);
+  }, [physicalSource, boardGuide, studyChess, chessup.sendAssistance]);
+
+  const physicalBars = (
+    <div className="kasparov-physical-bars">
+      <ChessnutConnectBar
+        status={chessnut.status}
+        transport={chessnut.transport}
+        battery={chessnut.battery}
+        error={chessnut.error}
+        supported={chessnut.supported}
+        onConnect={(kind) => {
+          void chessup.disconnect();
+          void chessnut.connect(kind);
+        }}
+        onDisconnect={() => void chessnut.disconnect()}
+        guide={mode === "exercise" ? boardGuide : null}
+        guidePly={exercise ? exercise.moveNumber : -1}
+        lang={lang}
+      />
+      <ChessUpConnectBar
+        status={chessup.status}
+        battery={chessup.battery}
+        error={chessup.error}
+        supported={chessup.supported}
+        onConnect={() => {
+          void chessnut.disconnect();
+          void chessup.connect();
+        }}
+        onDisconnect={() => void chessup.disconnect()}
+        hint={chessup.status === "connected" ? t.chessUpHint : null}
+        lang={lang}
+      />
+    </div>
+  );
 
   return (
     <div className="kasparov-chess opening-revision">
@@ -325,6 +551,7 @@ export function KasparovChessPage({
             })}
           </div>
           <p className="kasparov-legend">{t.kasparovLegend}</p>
+          {physicalBars}
         </div>
       ) : null}
 
@@ -370,6 +597,7 @@ export function KasparovChessPage({
               })}
             </tbody>
           </table>
+          {physicalBars}
         </div>
       ) : null}
 
@@ -401,7 +629,9 @@ export function KasparovChessPage({
             />
             <div className="kasparov-guess-panel">
               <p className="kasparov-guess-label">{t.yourMove}</p>
-              <p className="kasparov-play-hint">{t.onScreenBoard}</p>
+              <p className="kasparov-play-hint">
+                {physicalConnected ? t.onChessnut : t.onScreenBoard}
+              </p>
               <div className="kasparov-guess-row">
                 <button
                   type="button"
@@ -465,6 +695,7 @@ export function KasparovChessPage({
                   );
                 })()}
               </div>
+              {physicalBars}
             </div>
           </div>
         </div>

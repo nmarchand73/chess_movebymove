@@ -1,21 +1,30 @@
 import { Chess } from "chess.js";
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type {
   LessonSummary,
   OpeningModule,
+  OpeningSkillItem,
   OpeningsRevisionCurriculum,
 } from "../types";
 import { BoardPanel } from "../components/BoardPanel";
+import { ChessnutConnectBar } from "../components/ChessnutConnectBar";
+import { ChessUpConnectBar } from "../components/ChessUpConnectBar";
+import { useChessnutBoard } from "../hooks/useChessnutBoard";
+import { useChessUpBoard } from "../hooks/useChessUpBoard";
+import { buildBoardGuide, guideLedSquares } from "../lib/boardGuide";
+import { formatBookExcerpt } from "../lib/bookExcerptFormat";
+import { chessUpAssistanceClear } from "../lib/chessUpAssistance";
+import { chessUpMoveMatchesSan } from "../lib/chessUpMove";
 import type { Lang } from "../lib/lang";
-import { localized, modulesForSection } from "../lib/openingRevision";
 import { moveSanMatches, openingNameMatches } from "../lib/openingNameMatch";
+import { localized, modulesForSection } from "../lib/openingRevision";
 import {
   loadOpeningRevisionProgress,
   markModuleSeen,
   recordBatteryScore,
   seenModuleCount,
 } from "../lib/openingRevisionProgress";
-import { formatBookExcerpt } from "../lib/bookExcerptFormat";
+import { legalMoveMatchingPlacement } from "../lib/physicalGuess";
 import { fill, ui } from "../lib/uiCopy";
 
 type Props = {
@@ -102,12 +111,38 @@ export function OpeningRevisionPage({
   const [quizDone, setQuizDone] = useState(false);
   const [guessOpening, setGuessOpening] = useState("");
   const [guessMove, setGuessMove] = useState("");
+  const [moveFeedback, setMoveFeedback] = useState<string | null>(null);
+  const [awaitingPhysicalSync, setAwaitingPhysicalSync] = useState(false);
   const [progressTick, setProgressTick] = useState(0);
+
+  const chessnut = useChessnutBoard();
+  const chessup = useChessUpBoard();
+  const lastWrongGuessPlacement = useRef<string | null>(null);
+  const lastAcceptedPlacement = useRef<string | null>(null);
+
+  const physicalSource =
+    chessnut.status === "connected"
+      ? ("chessnut" as const)
+      : chessup.status === "connected"
+        ? ("chessup" as const)
+        : null;
+  const physicalPlacement =
+    physicalSource === "chessnut"
+      ? chessnut.placement
+      : physicalSource === "chessup"
+        ? chessup.placement
+        : null;
+  const physicalConnected = physicalSource !== null;
 
   const module = useMemo(
     () => curriculum.modules.find((m) => m.id === moduleId) ?? null,
     [curriculum.modules, moduleId],
   );
+
+  const skillItem: OpeningSkillItem | null =
+    mode === "skill" && !quizDone
+      ? curriculum.batteries.skill[quizIndex] ?? null
+      : null;
 
   useEffect(() => {
     if (module) {
@@ -124,6 +159,20 @@ export function OpeningRevisionPage({
     return loadOpeningRevisionProgress();
   }, [progressTick]);
 
+  const studyChess = useMemo(() => {
+    if (skillItem) {
+      try {
+        return new Chess(skillItem.fen);
+      } catch {
+        return new Chess();
+      }
+    }
+    return new Chess();
+  }, [skillItem]);
+
+  const studyPlacement = studyChess.fen().split(" ")[0] ?? null;
+  const moveLocked = Boolean(guessMove && skillItem && moveSanMatches(guessMove, skillItem.bestMoveSan));
+
   const boardChess = useMemo(() => {
     if (mode === "module" && module) {
       if (posIndex >= 0 && module.basePositions[posIndex]) {
@@ -131,12 +180,19 @@ export function OpeningRevisionPage({
       }
       return chessAtLine(module.exampleLine.san, linePly, module.exampleLine.startFen);
     }
-    if (mode === "skill" && !quizDone) {
-      const item = curriculum.batteries.skill[quizIndex];
-      if (item) return new Chess(item.fen);
+    if (skillItem) {
+      try {
+        const chess = new Chess(skillItem.fen);
+        if (moveLocked) {
+          chess.move(skillItem.bestMoveSan);
+        }
+        return chess;
+      } catch {
+        return new Chess();
+      }
     }
     return new Chess();
-  }, [mode, module, linePly, posIndex, quizIndex, quizDone, curriculum.batteries.skill]);
+  }, [mode, module, linePly, posIndex, skillItem, moveLocked]);
 
   function openModule(id: string) {
     setModuleId(id);
@@ -150,6 +206,17 @@ export function OpeningRevisionPage({
     setQuizDone(false);
     setGuessOpening("");
     setGuessMove("");
+    setMoveFeedback(null);
+    lastWrongGuessPlacement.current = null;
+    lastAcceptedPlacement.current = null;
+  }
+
+  function resetSkillMoveState() {
+    setGuessOpening("");
+    setGuessMove("");
+    setMoveFeedback(null);
+    lastWrongGuessPlacement.current = null;
+    lastAcceptedPlacement.current = null;
   }
 
   function submitKnowledge() {
@@ -187,10 +254,146 @@ export function OpeningRevisionPage({
     } else {
       setQuizScore(nextScore);
       setQuizIndex((i) => i + 1);
-      setGuessOpening("");
-      setGuessMove("");
+      resetSkillMoveState();
     }
   }
+
+  const acceptSkillMove = useCallback(
+    (item: OpeningSkillItem, san: string): boolean => {
+      if (!moveSanMatches(san, item.bestMoveSan)) {
+        setMoveFeedback(t.openingRevisionMoveWrong);
+        return false;
+      }
+      setGuessMove(item.bestMoveSan);
+      setMoveFeedback(fill(t.openingRevisionMoveFound, { san: item.bestMoveSan }));
+      setAwaitingPhysicalSync(false);
+      return true;
+    },
+    [t],
+  );
+
+  function handleSkillBoardMove(from: string, to: string): boolean {
+    if (!skillItem || moveLocked) return false;
+    const probe = new Chess(skillItem.fen);
+    let played;
+    try {
+      played = probe.move({ from, to, promotion: "q" });
+    } catch {
+      played = null;
+    }
+    if (!played) return false;
+    return acceptSkillMove(skillItem, played.san);
+  }
+
+  useEffect(() => {
+    if (!skillItem) {
+      setAwaitingPhysicalSync(false);
+      return;
+    }
+    setAwaitingPhysicalSync(physicalConnected && !moveLocked);
+  }, [skillItem, quizIndex, physicalConnected, moveLocked]);
+
+  useEffect(() => {
+    if (!awaitingPhysicalSync || !physicalPlacement || !studyPlacement) return;
+    if (physicalPlacement === studyPlacement) {
+      setAwaitingPhysicalSync(false);
+      lastWrongGuessPlacement.current = null;
+    }
+  }, [awaitingPhysicalSync, physicalPlacement, studyPlacement]);
+
+  useEffect(() => {
+    if (physicalSource !== "chessup" || !skillItem || moveLocked) return;
+    return chessup.onMove((move) => {
+      if (awaitingPhysicalSync) return;
+      if (chessUpMoveMatchesSan(studyChess, skillItem.bestMoveSan, move)) {
+        acceptSkillMove(skillItem, skillItem.bestMoveSan);
+        return;
+      }
+      setMoveFeedback(t.openingRevisionMoveWrong);
+    });
+  }, [
+    physicalSource,
+    chessup.onMove,
+    skillItem,
+    moveLocked,
+    awaitingPhysicalSync,
+    studyChess,
+    acceptSkillMove,
+    t,
+  ]);
+
+  useEffect(() => {
+    if (!physicalConnected || !physicalPlacement || !skillItem || !studyPlacement) return;
+    if (physicalSource === "chessup") return;
+    if (moveLocked || awaitingPhysicalSync) return;
+
+    if (physicalPlacement === studyPlacement) {
+      lastWrongGuessPlacement.current = null;
+      return;
+    }
+    if (physicalPlacement === lastAcceptedPlacement.current) return;
+
+    const guess = legalMoveMatchingPlacement(skillItem.fen, physicalPlacement);
+    if (!guess) return;
+
+    if (moveSanMatches(guess.san, skillItem.bestMoveSan)) {
+      lastAcceptedPlacement.current = physicalPlacement;
+      acceptSkillMove(skillItem, skillItem.bestMoveSan);
+      return;
+    }
+    if (lastWrongGuessPlacement.current !== physicalPlacement) {
+      lastWrongGuessPlacement.current = physicalPlacement;
+      setMoveFeedback(t.openingRevisionMoveWrong);
+    }
+  }, [
+    physicalConnected,
+    physicalSource,
+    physicalPlacement,
+    skillItem,
+    studyPlacement,
+    moveLocked,
+    awaitingPhysicalSync,
+    acceptSkillMove,
+    t,
+  ]);
+
+  const skillBoardGuide = useMemo(() => {
+    if (!physicalConnected || !skillItem) return null;
+    return buildBoardGuide({
+      boardPlacement: physicalPlacement,
+      lessonPlacement: studyPlacement ?? studyChess.fen().split(" ")[0]!,
+      nextSan: moveLocked ? null : skillItem.bestMoveSan,
+      chess: studyChess,
+      atEnd: moveLocked,
+      requireExactSync: awaitingPhysicalSync,
+      hideNextMove: !moveLocked,
+    });
+  }, [
+    physicalConnected,
+    physicalPlacement,
+    skillItem,
+    studyPlacement,
+    studyChess,
+    moveLocked,
+    awaitingPhysicalSync,
+  ]);
+
+  useEffect(() => {
+    if (physicalSource !== "chessnut") {
+      if (chessnut.status === "connected") void chessnut.setLeds([]);
+      return;
+    }
+    if (!skillBoardGuide) {
+      void chessnut.setLeds([]);
+      return;
+    }
+    void chessnut.setLeds(guideLedSquares(skillBoardGuide));
+  }, [skillBoardGuide, chessnut.setLeds, chessnut.status, physicalSource]);
+
+  useEffect(() => {
+    if (physicalSource !== "chessup") return;
+    void chessup.sendAssistance(chessUpAssistanceClear());
+  }, [physicalSource, skillItem, quizIndex, chessup.sendAssistance]);
 
   const seen = seenModuleCount(progress);
 
@@ -319,7 +522,7 @@ export function OpeningRevisionPage({
                 total: curriculum.batteries.skill.length * 2,
               })}
             </p>
-          ) : (
+          ) : skillItem ? (
             <>
               <p className="eyebrow">
                 {fill(t.openingRevisionQuizProgress, {
@@ -327,19 +530,23 @@ export function OpeningRevisionPage({
                   y: curriculum.batteries.skill.length,
                 })}
               </p>
-              <p>{localized(curriculum.batteries.skill[quizIndex]!.prompt, lang)}</p>
+              <p>{localized(skillItem.prompt, lang)}</p>
+              <p className="opening-quiz-play-hint">
+                {physicalConnected ? t.onChessnut : t.openingRevisionPlayMove}
+              </p>
               <div className="opening-quiz-board">
-                <BoardPanel chess={boardChess} lang={lang} />
-              </div>
-              <label className="opening-quiz-field">
-                <span>{t.openingRevisionBestMove}</span>
-                <input
-                  value={guessMove}
-                  onChange={(e) => setGuessMove(e.target.value)}
-                  placeholder="Nf3"
-                  aria-label={t.openingRevisionBestMove}
+                <BoardPanel
+                  chess={boardChess}
+                  lang={lang}
+                  allowMove={!moveLocked}
+                  onPlayerMove={(from, to) => handleSkillBoardMove(from, to)}
                 />
-              </label>
+              </div>
+              {moveFeedback ? (
+                <p className={`opening-quiz-move-feedback${moveLocked ? " is-ok" : ""}`}>
+                  {moveFeedback}
+                </p>
+              ) : null}
               <label className="opening-quiz-field">
                 <span>{t.openingRevisionNamePlaceholder}</span>
                 <input
@@ -347,13 +554,49 @@ export function OpeningRevisionPage({
                   onChange={(e) => setGuessOpening(e.target.value)}
                   placeholder={t.openingRevisionNamePlaceholder}
                   aria-label={t.openingRevisionNamePlaceholder}
+                  disabled={!moveLocked}
                 />
               </label>
-              <button type="button" className="primary-btn" onClick={submitSkill}>
+              <button
+                type="button"
+                className="primary-btn"
+                disabled={!moveLocked}
+                onClick={submitSkill}
+              >
                 {t.openingRevisionCheck}
               </button>
+              <div className="kasparov-physical-bars">
+                <ChessnutConnectBar
+                  status={chessnut.status}
+                  transport={chessnut.transport}
+                  battery={chessnut.battery}
+                  error={chessnut.error}
+                  supported={chessnut.supported}
+                  onConnect={(kind) => {
+                    void chessup.disconnect();
+                    void chessnut.connect(kind);
+                  }}
+                  onDisconnect={() => void chessnut.disconnect()}
+                  guide={skillBoardGuide}
+                  guidePly={0}
+                  lang={lang}
+                />
+                <ChessUpConnectBar
+                  status={chessup.status}
+                  battery={chessup.battery}
+                  error={chessup.error}
+                  supported={chessup.supported}
+                  onConnect={() => {
+                    void chessnut.disconnect();
+                    void chessup.connect();
+                  }}
+                  onDisconnect={() => void chessup.disconnect()}
+                  hint={chessup.status === "connected" ? t.chessUpHint : null}
+                  lang={lang}
+                />
+              </div>
             </>
-          )}
+          ) : null}
         </section>
       ) : null}
     </div>
