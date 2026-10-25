@@ -8,18 +8,18 @@ const EN = {
   brand: "Move by Move",
   headline: "Every move explained",
   landingLead:
-    "Chernev’s 1957 classic and Nunn’s modern grandmaster sequel — 63 complete games where each move gets a reason, not a variation dump. Read the author’s note — or listen to it — see the position on the board, then try the next move yourself.",
+    "Chernev and Nunn — 63 annotated games where each move gets a reason — plus 50 Super Openings to revise and 64 Kasparov Chess study positions to play on the board. Read or listen, then try the critical move yourself.",
   landingLeadShort:
-    "Chernev and Nunn — 63 games where every move gets a reason. Read it, or listen, with the board in sync.",
+    "63 annotated games, 50 openings, 64 Kasparov studies — board in sync.",
   pointChernevTitle: "Chernev · 33 games",
   pointChernevBody:
     "Capablanca, Tarrasch, Rubinstein — development, king safety, and when to attack, told in plain English for players still building intuition.",
   pointNunnTitle: "Nunn · 30 games",
   pointNunnBody:
     "Kasparov, Kramnik, Shirov, Polgar — the same move-by-move habit, updated for how strong players think now.",
-  pointBoardTitle: "Board in sync",
+  pointBoardTitle: "Practice on the board",
   pointBoardBody:
-    "Step through commentary with a live diagram, tap Listen for chess-aware speech, and optionally quiz yourself on a Chessnut board with no LED spoilers.",
+    "Revise 50 Super Openings, solve 64 Kasparov Chess positions by playing the move, listen with chess-aware speech, and optionally quiz on a Chessnut with no LED spoilers.",
   openLibrary: "Open the library",
   continue: "Continue",
   continueStudying: "Continue studying",
@@ -37,9 +37,9 @@ const EN = {
   about: "← About",
   settings: "Settings",
   coachEyebrow: "Move-by-Move Coach",
-  libraryHeadline: "Study classic games move by move",
+  libraryHeadline: "Annotated classics and practice curricula",
   libraryLead:
-    "Chernev and Nunn, {n} games — synced board, commentary, Stockfish, and AI analysis prompts.",
+    "{n} books — Chernev & Nunn games, 50 Super Openings, and 64 Kasparov Chess studies.",
   books: "Books",
   games: "Games",
   completed: "Completed",
@@ -263,18 +263,18 @@ const FR: { [K in keyof typeof EN]: string } = {
   brand: "Move by Move",
   headline: "Chaque coup expliqué",
   landingLead:
-    "Le classique de Chernev (1957) et la suite moderne de Nunn — 63 parties complètes où chaque coup a une raison, pas un tas de variantes. Lisez la note de l’auteur — ou écoutez-la —, voyez la position sur l’échiquier, puis jouez le coup suivant vous-même.",
+    "Chernev et Nunn — 63 parties annotées où chaque coup a une raison — plus 50 Super Ouvertures à réviser et 64 positions Kasparov Chess à jouer sur l’échiquier. Lisez ou écoutez, puis jouez le coup critique vous-même.",
   landingLeadShort:
-    "Chernev et Nunn — 63 parties où chaque coup a une raison. Lisez, ou écoutez, avec l’échiquier synchronisé.",
+    "63 parties annotées, 50 ouvertures, 64 études Kasparov — échiquier synchronisé.",
   pointChernevTitle: "Chernev · 33 parties",
   pointChernevBody:
     "Capablanca, Tarrasch, Rubinstein — développement, sécurité du roi et moment d’attaquer, en langage clair pour construire l’intuition.",
   pointNunnTitle: "Nunn · 30 parties",
   pointNunnBody:
     "Kasparov, Kramnik, Shirov, Polgar — la même habitude coup par coup, actualisée pour la pensée des joueurs forts d’aujourd’hui.",
-  pointBoardTitle: "Échiquier synchronisé",
+  pointBoardTitle: "S’entraîner sur l’échiquier",
   pointBoardBody:
-    "Parcourez le commentaire avec un diagramme vivant, touchez Écouter pour une voix qui connaît les échecs, et entraînez-vous éventuellement sur un Chessnut sans spoilers LED.",
+    "Révisez 50 Super Ouvertures, résolvez 64 positions Kasparov Chess en jouant le coup, écoutez une voix qui connaît les échecs, et quizzez éventuellement sur un Chessnut sans spoilers LED.",
   openLibrary: "Ouvrir la bibliothèque",
   continue: "Continuer",
   continueStudying: "Continuer l’étude",
@@ -292,9 +292,9 @@ const FR: { [K in keyof typeof EN]: string } = {
   about: "← À propos",
   settings: "Réglages",
   coachEyebrow: "Coach Move-by-Move",
-  libraryHeadline: "Étudiez les classiques coup par coup",
+  libraryHeadline: "Classiques annotés et parcours d’entraînement",
   libraryLead:
-    "Chernev et Nunn, {n} parties — échiquier synchronisé, commentaires, Stockfish et prompts d’analyse IA.",
+    "{n} livres — parties Chernev & Nunn, 50 Super Ouvertures et 64 études Kasparov Chess.",
   books: "Livres",
   games: "Parties",
   completed: "Terminées",

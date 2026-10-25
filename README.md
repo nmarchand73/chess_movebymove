@@ -4,18 +4,20 @@ Study classic chess books the way they were written: **every move explained**, w
 
 **Live:** https://nmarchand73.github.io/chess_movebymove/
 
-| Book | Author | Games |
-|------|--------|-------|
-| *Logical Chess: Move By Move* | Irving Chernev | 33 |
-| *Understanding Chess Move by Move* | John Nunn | 30 |
+| Book | Author | Content |
+|------|--------|---------|
+| *Logical Chess: Move By Move* | Irving Chernev | 33 annotated games |
+| *Understanding Chess Move by Move* | John Nunn | 30 annotated games |
+| Opening Revision — 50 Super Openings | Curriculum (Watson & Burgess method) | 50 modules |
+| Kasparov Chess — 64 study positions | Curriculum (Saitek / Winslow method) | 64 guess-the-move studies |
 
-**63 annotated games** from Capablanca and Tarrasch through Kasparov and Polgar.
+**63 annotated games** from Capablanca and Tarrasch through Kasparov and Polgar, plus **practice curricula** for openings and critical positions.
 
 **Languages:** English and French UI, with bilingual lesson commentary (`data/en` / `data/fr`) and chess-aware speech in both languages.
 
-**Opening revision:** a virtual book — **50 Super Openings** (method inspired by Watson & Burgess / *Chess Openings for Kids*) with example lines, **book-aligned** base-position quizzes (Super Ouverture N + themes), taglines, and links into Chernev/Nunn games when available. Rebuild with `build_openings_revision.mjs` then optionally `enrich_openings_from_book.mjs` (needs local Olibris page extract under `docs/`, gitignored). **Full chapter OCR** stays in `openings-revision-local.json` (gitignored) for personal study — it is **not** committed or deployed to GitHub Pages.
+**Opening revision:** virtual book — example lines, **book-aligned** base-position quizzes (Super Ouverture N + themes), taglines, and links into Chernev/Nunn when available. Rebuild with `build_openings_revision.mjs` then optionally `enrich_openings_from_book.mjs` (local Olibris extract under `docs/`, gitignored). **Full chapter OCR** stays in `openings-revision-local.json` (gitignored) — not deployed.
 
-**Kasparov Chess:** a virtual book — **64 study positions** across 8 classics (method inspired by Saitek / Elliott Winslow, 1988). Guess the book move (SAN / French / UCI), local score 3·2·1·0. Rebuild with `build_kasparov_chess.mjs` from `docs/site`. **Full book prompts/solutions** stay in `kasparov-chess-local.json` (gitignored) — not committed or deployed.
+**Kasparov Chess:** virtual book — eight classics × eight studies. Play the book move **on the board** (drag or click); local score 3·2·1·0; solution arrow when revealed. Rebuild with `build_kasparov_chess.mjs` from local `docs/site`. **Full book prompts/solutions** stay in `kasparov-chess-local.json` (gitignored) — not deployed.
 
 ---
 
@@ -35,8 +37,8 @@ If you are a rights holder and want content removed or adjusted, open an issue o
 ## What the app delivers
 
 ### Library & progress
-- Browse both books by section, with search and opening filters
-- Resume where you left off (local progress per game)
+- Browse annotated books and practice curricula (openings, Kasparov Chess)
+- Resume where you left off (local progress per game / module / study)
 - Estimated Elo / progress cues on game lists
 - **EN / FR** language toggle in Settings (chrome, book intros, landing quotes, lesson text)
 
@@ -55,9 +57,9 @@ If you are a rights holder and want content removed or adjusted, open an issue o
 - Copy an AI analysis prompt for the current position
 
 ### Guess-the-move
-- Optional quiz mode: hide the next move and try it before advancing
-- On screen: typed guess or board interaction cues
-- On a **Chessnut** board: physical guess without LED spoilers — play the move on the board to advance
+- Optional quiz mode in lessons: hide the next move and try it before advancing
+- **Kasparov Chess:** play the study move on the screen board (drag or click-to-move); typed entry removed
+- On a **Chessnut** board (lessons): physical guess without LED spoilers — play the move on the board to advance
 
 ### Engine & ratings
 - Stockfish evaluation bar and best line (optional)
@@ -72,7 +74,7 @@ If you are a rights holder and want content removed or adjusted, open an issue o
 
 ### Experience
 - Chernev-inspired visual design (cream / violet / magenta)
-- Landing page: product preview carousel + rotating Chernev / Nunn quotations (localized)
+- Landing page: product preview carousel + rotating Chernev / Nunn quotations (localized); copy covers annotated games and practice books
 - Book intro pages and section blurbs follow the UI language
 - Responsive layout: desktop 50/50 board+notes; mobile brand-first landing and scrollable lesson chrome
 - Settings footer shows a **semantic version** from GitHub Pages deploys (`major.minor` from `package.json`, patch = Actions run number)
@@ -108,7 +110,7 @@ move_by_move/
 │   ├── public/data/      # Served lesson JSON + Elo cache (mirrors en/fr)
 │   ├── public/images/    # Landing assets
 │   └── src/
-│       ├── pages/        # Landing, library, lesson, settings
+│       ├── pages/        # Landing, library, lesson, openings, Kasparov, settings
 │       ├── components/   # Board, commentary, transport, guess, Chessnut
 │       ├── hooks/        # Eval, performance, Chessnut connect
 │       └── lib/          # Chess, commentary, speech (EN/FR), i18n, progress

@@ -111,7 +111,7 @@ function LibraryView({
             </button>
           </div>
           <h1>{t.libraryHeadline}</h1>
-          <p className="library-hero-lead">{fill(t.libraryLead, { n: totalGames })}</p>
+          <p className="library-hero-lead">{fill(t.libraryLead, { n: index.books.length })}</p>
         </div>
 
         <div className="library-stats" aria-label={t.books}>
