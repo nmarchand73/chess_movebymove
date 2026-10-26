@@ -50,7 +50,7 @@ If you are a rights holder and want content removed or adjusted, open an issue o
   - **Follow** — keep narrating as you press Next
   - Chess-aware speech (EN + FR): SAN → spoken pieces/squares, castling, checks/mates, NAG marks (`!` `!!` `?` … and Unicode), Informator symbols (`±` `△` `□` …)
   - French examples: `Nf3` → « cavalier en f trois », `O-O` → « petit roque », `±` → « les Blancs sont mieux »
-  - Voice & speed in Settings; prefers Google UK English Male / Google français when the browser exposes them. On iPhone, Safari/Chrome WebKit only offers compact system voices (Daniel, Thomas, …)
+  - Voice & speed in Settings; prefers Google UK English Male / Google français when the browser exposes them. On iPhone, optional **real-time neural** voices via a Cloudflare Worker (Workers AI) — sentence-pipelined Listen/Follow; system voices remain the offline fallback
 - Clickable SAN and alternative lines that jump or preview on the board (SAN stays English notation in the data)
 - Transport controls: first / prev / next / last (SVG icons for consistent Safari rendering), jump to next annotated note
 - Horizontal move strip for quick navigation
@@ -191,6 +191,10 @@ Prerequisites: Python 3.11+, Node.js 22+, local EPUBs under `docs/` (see filenam
 Pushes to `main` run GitHub Actions: build `web/` and publish `web/dist/` to GitHub Pages (`base`: `/chess_movebymove/`).
 
 Each deploy injects a semver into Settings: `v{major}.{minor}.{github.run_number}` (major/minor from `web/package.json`).
+
+### Real-time premium voices (iPhone)
+
+Optional Cloudflare Worker under [`workers/tts`](workers/tts): Workers AI neural TTS, one sentence at a time. See that folder’s README. Set repo Variable `VITE_TTS_URL` (and optional Secret `VITE_TTS_KEY`) so Pages builds enable the premium voices in Settings.
 
 ---
 

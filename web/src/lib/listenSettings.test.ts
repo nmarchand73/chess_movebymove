@@ -1,6 +1,5 @@
 import assert from "node:assert/strict";
 import { describe, it } from "node:test";
-import { CLOUD_GOOGLE_EN } from "./cloudTts.ts";
 import {
   DEFAULT_VOICE_NAME,
   DEFAULT_VOICE_NAME_FR,
@@ -84,25 +83,22 @@ describe("listenSettings", () => {
     );
   });
 
-  it("does not offer broken online Google voices when system Google is missing", () => {
+  it("uses system voices when premium Worker is not configured", () => {
     const voices = [
       fakeVoice({ name: "Daniel", lang: "en-GB", localService: true, voiceURI: "daniel" }),
-      fakeVoice({ name: "Samantha", lang: "en-US", localService: true, voiceURI: "samantha" }),
     ];
     const options = listenVoiceOptions("en", voices);
-    assert.equal(options.some((option) => option.kind === "cloud"), false);
-    assert.equal(options[0]?.voiceURI, "daniel");
-
+    assert.equal(options.some((option) => option.kind === "premium"), false);
     const next = ensureDefaultVoiceSelected({ voiceURI: "", rate: 1 }, voices, "en");
     assert.equal(next.voiceURI, "daniel");
   });
 
-  it("migrates saved cloud:google voice URIs back to a system voice", () => {
+  it("migrates legacy cloud:google URIs back to a system voice", () => {
     const voices = [
       fakeVoice({ name: "Daniel", lang: "en-GB", localService: true, voiceURI: "daniel" }),
     ];
     const next = ensureDefaultVoiceSelected(
-      { voiceURI: CLOUD_GOOGLE_EN.voiceURI, rate: 1 },
+      { voiceURI: "cloud:google:en-GB", rate: 1 },
       voices,
       "en",
     );
@@ -122,18 +118,17 @@ describe("listenSettings", () => {
     );
   });
 
-  it("explains iPhone WebKit voice limits without promising online Google", () => {
+  it("explains iPhone WebKit limits when Worker is unset", () => {
     assert.equal(isAppleMobileWeb("Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X)"), true);
     const voices = [fakeVoice({ name: "Daniel", lang: "en-GB", localService: true })];
     const tip =
       listenVoicePlatformTip(
         voices,
         "en",
-        "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/129.0.0.0 Mobile/15E148 Safari/604.1",
+        "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15",
       ) ?? "";
     assert.match(tip, /iPhone/);
     assert.match(tip, /Silent Mode/);
-    assert.equal(/premium · online/.test(tip), false);
   });
 
   it("replaces a missing Chrome voiceURI with the Safari system default", () => {

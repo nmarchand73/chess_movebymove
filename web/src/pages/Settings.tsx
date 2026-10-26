@@ -197,6 +197,11 @@ export function SettingsPage({ lang, onLangChange, onBack }: Props) {
               title={formatListenVoiceOption(selectedOption, lang)}
             >
               {selectedOption.name.replace(/^Google\s+/i, "")}
+              {selectedOption.kind === "premium"
+                ? lang === "fr"
+                  ? " · temps réel"
+                  : " · real-time"
+                : ""}
             </p>
           ) : null}
         </div>

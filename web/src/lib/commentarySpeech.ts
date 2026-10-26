@@ -2,11 +2,17 @@ import type { CommentaryBeat } from "./commentaryBeats.ts";
 import { loadLang, type Lang } from "./lang.ts";
 import {
   isAppleMobileWeb,
-  isCloudVoiceURI,
+  isOnlineVoiceURI,
   loadListenSettings,
   resolveSpeechVoice,
   speechVoicesForLang,
 } from "./listenSettings.ts";
+import {
+  fetchPremiumAudio,
+  isPremiumVoiceURI,
+  premiumTtsConfigured,
+  premiumVoiceByURI,
+} from "./premiumTts.ts";
 
 type SpeechLexicon = {
   ranks: readonly string[];
@@ -419,7 +425,10 @@ export function commentaryToSpeechText(
 }
 
 export function speechSupported(): boolean {
-  return typeof window !== "undefined" && "speechSynthesis" in window;
+  return (
+    typeof window !== "undefined" &&
+    ("speechSynthesis" in window || (premiumTtsConfigured() && "Audio" in window))
+  );
 }
 
 /** Bumped on cancel so in-flight sentence queues stop cleanly. */
@@ -429,6 +438,9 @@ let resumeAfterHold: (() => void) | null = null;
 const pendingPauseTimers = new Set<ReturnType<typeof setTimeout>>();
 /** iOS Safari often pauses speechSynthesis mid-utterance; nudge it while speaking. */
 let iosSpeechWatchdog: ReturnType<typeof setInterval> | null = null;
+let activePremiumAudio: HTMLAudioElement | null = null;
+let activePremiumObjectUrl: string | null = null;
+let premiumAbort: AbortController | null = null;
 
 function clearSpeechPauseTimers(): void {
   for (const timer of pendingPauseTimers) clearTimeout(timer);
@@ -453,28 +465,61 @@ function startIosSpeechWatchdog(): void {
   }, 250);
 }
 
+function clearCurrentPremiumElement(): void {
+  if (activePremiumAudio) {
+    activePremiumAudio.onended = null;
+    activePremiumAudio.onerror = null;
+    activePremiumAudio.pause();
+    activePremiumAudio.removeAttribute("src");
+    activePremiumAudio.load();
+    activePremiumAudio = null;
+  }
+  if (activePremiumObjectUrl) {
+    URL.revokeObjectURL(activePremiumObjectUrl);
+    activePremiumObjectUrl = null;
+  }
+}
+
+function stopPremiumAudio(): void {
+  premiumAbort?.abort();
+  premiumAbort = null;
+  clearCurrentPremiumElement();
+}
+
 export function stopCommentarySpeech(): void {
   speakGeneration += 1;
   speechHoldPaused = false;
   resumeAfterHold = null;
   clearSpeechPauseTimers();
   stopIosSpeechWatchdog();
+  stopPremiumAudio();
   if (typeof window !== "undefined" && "speechSynthesis" in window) {
     window.speechSynthesis.cancel();
   }
 }
 
 export function pauseCommentarySpeech(): boolean {
-  if (!speechSupported()) return false;
   speechHoldPaused = true;
-  window.speechSynthesis.pause();
-  return true;
+  if (activePremiumAudio && !activePremiumAudio.paused) {
+    activePremiumAudio.pause();
+    return true;
+  }
+  if (typeof window !== "undefined" && "speechSynthesis" in window) {
+    window.speechSynthesis.pause();
+    return true;
+  }
+  return false;
 }
 
 export function resumeCommentarySpeech(): boolean {
-  if (!speechSupported()) return false;
   speechHoldPaused = false;
-  window.speechSynthesis.resume();
+  if (activePremiumAudio && activePremiumAudio.paused && activePremiumAudio.src) {
+    void activePremiumAudio.play().catch(() => undefined);
+    return true;
+  }
+  if (typeof window !== "undefined" && "speechSynthesis" in window) {
+    window.speechSynthesis.resume();
+  }
   if (resumeAfterHold) {
     const cont = resumeAfterHold;
     resumeAfterHold = null;
@@ -484,7 +529,9 @@ export function resumeCommentarySpeech(): boolean {
 }
 
 export function commentarySpeechPaused(): boolean {
-  return speechHoldPaused || (speechSupported() && window.speechSynthesis.paused);
+  if (speechHoldPaused) return true;
+  if (activePremiumAudio) return activePremiumAudio.paused;
+  return typeof window !== "undefined" && "speechSynthesis" in window && window.speechSynthesis.paused;
 }
 
 type SpeakHandlers = {
@@ -509,27 +556,147 @@ function scheduleNextSentence(myGeneration: number, queueNext: () => void): void
   pendingPauseTimers.add(timer);
 }
 
-/** Speak commentary sentence-by-sentence so end-of-sentence pauses are heard. */
-export function speakCommentary(text: string, handlers: SpeakHandlers = {}): boolean {
-  if (!speechSupported() || !text.trim()) return false;
+/**
+ * Real-time premium path: fetch sentence N, play it, prefetch N+1 while playing.
+ * Falls back to system speechSynthesis if the Worker fails.
+ */
+function speakPremiumRealtime(
+  sentences: string[],
+  voiceURI: string,
+  rate: number,
+  lang: Lang,
+  myGeneration: number,
+  handlers: SpeakHandlers,
+): boolean {
+  const premium = premiumVoiceByURI(voiceURI);
+  if (!premium || !premiumTtsConfigured() || typeof Audio === "undefined") return false;
 
-  stopCommentarySpeech();
-  const myGeneration = speakGeneration;
-  speechHoldPaused = false;
-  const settings = loadListenSettings();
-  const lang = loadLang();
-  // Retired cloud:google:… URIs (blocked on iPhone) → treat as unset and use best system voice.
-  const voiceURI = isCloudVoiceURI(settings.voiceURI) ? "" : settings.voiceURI;
-  const voice = resolveSpeechVoice(voiceURI, speechVoicesForLang(lang), lang);
+  const abort = new AbortController();
+  premiumAbort = abort;
 
-  const sentences = splitIntoSpeechSentences(prepareCommentarySpeech(text, lang));
-  if (sentences.length === 0) return false;
+  type ReadyClip = { url: string; blob: Blob };
+  const prefetch = new Map<number, Promise<ReadyClip | null>>();
+
+  const loadSentence = (index: number): Promise<ReadyClip | null> => {
+    if (prefetch.has(index)) return prefetch.get(index)!;
+    const task = (async () => {
+      try {
+        const blob = await fetchPremiumAudio({
+          text: sentences[index]!,
+          voice: premium.id,
+          rate,
+          signal: abort.signal,
+        });
+        if (myGeneration !== speakGeneration) return null;
+        const url = URL.createObjectURL(blob);
+        return { url, blob };
+      } catch {
+        return null;
+      }
+    })();
+    prefetch.set(index, task);
+    return task;
+  };
+
+  // Kick off sentence 0 immediately; prefetch 1 in parallel for real-time Follow.
+  void loadSentence(0);
+  if (sentences.length > 1) void loadSentence(1);
 
   let index = 0;
 
-  const queueNext = () => {
+  const playIndex = async () => {
+    if (myGeneration !== speakGeneration) return;
+    if (index >= sentences.length) {
+      handlers.onEnd?.();
+      return;
+    }
+
+    const clip = await loadSentence(index);
     if (myGeneration !== speakGeneration) return;
 
+    if (!clip) {
+      // Worker failure → finish with system voices for the remainder.
+      stopPremiumAudio();
+      speakSystemSentences(sentences.slice(index), rate, lang, myGeneration, handlers);
+      return;
+    }
+
+    // Prefetch next while current plays (real-time pipeline).
+    if (index + 1 < sentences.length) void loadSentence(index + 1);
+
+    clearCurrentPremiumElement();
+
+    const audio = new Audio();
+    audio.preload = "auto";
+    audio.src = clip.url;
+    audio.playbackRate = Math.min(1.4, Math.max(0.5, rate));
+    activePremiumAudio = audio;
+    activePremiumObjectUrl = clip.url;
+
+    const advance = () => {
+      if (myGeneration !== speakGeneration) return;
+      index += 1;
+      if (index >= sentences.length) {
+        handlers.onEnd?.();
+        return;
+      }
+      scheduleNextSentence(myGeneration, () => {
+        void playIndex();
+      });
+    };
+
+    audio.onended = advance;
+    audio.onerror = () => {
+      if (myGeneration !== speakGeneration) return;
+      const rest = sentences.slice(index);
+      stopPremiumAudio();
+      speakSystemSentences(rest, rate, lang, myGeneration, handlers);
+    };
+
+    const startPlay = () => {
+      if (myGeneration !== speakGeneration) return;
+      void audio.play().catch(() => {
+        if (myGeneration !== speakGeneration) return;
+        const rest = sentences.slice(index);
+        stopPremiumAudio();
+        speakSystemSentences(rest, rate, lang, myGeneration, handlers);
+      });
+    };
+
+    if (speechHoldPaused) {
+      resumeAfterHold = startPlay;
+      return;
+    }
+    startPlay();
+  };
+
+  void playIndex();
+  return true;
+}
+
+function speakSystemSentences(
+  sentences: string[],
+  rate: number,
+  lang: Lang,
+  myGeneration: number,
+  handlers: SpeakHandlers,
+  voiceURI: string = "",
+): void {
+  if (typeof window === "undefined" || !("speechSynthesis" in window)) {
+    handlers.onError?.();
+    return;
+  }
+  if (sentences.length === 0) {
+    handlers.onEnd?.();
+    return;
+  }
+
+  const voice = resolveSpeechVoice(voiceURI, speechVoicesForLang(lang), lang);
+  let index = 0;
+  startIosSpeechWatchdog();
+
+  const queueNext = () => {
+    if (myGeneration !== speakGeneration) return;
     if (index >= sentences.length) {
       stopIosSpeechWatchdog();
       handlers.onEnd?.();
@@ -539,7 +706,7 @@ export function speakCommentary(text: string, handlers: SpeakHandlers = {}): boo
     const utterance = new SpeechSynthesisUtterance(sentences[index]!);
     index += 1;
     utterance.lang = voice?.lang ?? (lang === "fr" ? "fr-FR" : "en-GB");
-    utterance.rate = settings.rate;
+    utterance.rate = rate;
     utterance.pitch = 1;
     if (voice) utterance.voice = voice;
     utterance.onend = () => {
@@ -553,7 +720,6 @@ export function speakCommentary(text: string, handlers: SpeakHandlers = {}): boo
     };
     utterance.onerror = () => {
       if (myGeneration !== speakGeneration) return;
-      // cancel() triggers error on the current utterance — ignore if we stopped on purpose
       if (index >= sentences.length) {
         stopIosSpeechWatchdog();
         handlers.onEnd?.();
@@ -564,15 +730,9 @@ export function speakCommentary(text: string, handlers: SpeakHandlers = {}): boo
     };
 
     window.speechSynthesis.speak(utterance);
-    // iOS may start the utterance in a paused state after cancel().
-    if (isAppleMobileWeb()) {
-      window.speechSynthesis.resume();
-    }
+    if (isAppleMobileWeb()) window.speechSynthesis.resume();
   };
 
-  startIosSpeechWatchdog();
-
-  // iOS: speaking in the same turn as cancel() often produces silence.
   if (isAppleMobileWeb()) {
     const timer = setTimeout(() => {
       pendingPauseTimers.delete(timer);
@@ -582,5 +742,30 @@ export function speakCommentary(text: string, handlers: SpeakHandlers = {}): boo
   } else {
     queueNext();
   }
+}
+
+/** Speak commentary sentence-by-sentence so end-of-sentence pauses are heard. */
+export function speakCommentary(text: string, handlers: SpeakHandlers = {}): boolean {
+  if (!speechSupported() || !text.trim()) return false;
+
+  stopCommentarySpeech();
+  const myGeneration = speakGeneration;
+  speechHoldPaused = false;
+  const settings = loadListenSettings();
+  const lang = loadLang();
+  const sentences = splitIntoSpeechSentences(prepareCommentarySpeech(text, lang));
+  if (sentences.length === 0) return false;
+
+  if (
+    isPremiumVoiceURI(settings.voiceURI) &&
+    premiumTtsConfigured() &&
+    speakPremiumRealtime(sentences, settings.voiceURI, settings.rate, lang, myGeneration, handlers)
+  ) {
+    return true;
+  }
+
+  // Legacy / unset online URIs → system voices.
+  const voiceURI = isOnlineVoiceURI(settings.voiceURI) ? "" : settings.voiceURI;
+  speakSystemSentences(sentences, settings.rate, lang, myGeneration, handlers, voiceURI);
   return true;
 }

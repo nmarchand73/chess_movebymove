@@ -1,5 +1,11 @@
-import { isCloudVoiceURI } from "./cloudTts.ts";
 import type { Lang } from "./lang.ts";
+import {
+  isLegacyCloudVoiceURI,
+  isOnlineVoiceURI,
+  isPremiumVoiceURI,
+  premiumTtsConfigured,
+  premiumVoicesForLang,
+} from "./premiumTts.ts";
 
 const KEY = "move-by-move-listen";
 
@@ -8,9 +14,8 @@ export const LISTEN_RATE_MAX = 1.4;
 export const LISTEN_RATE_DEFAULT = 1;
 
 /**
- * Preferred Chrome locutor (EN). Not available in Safari / iOS WebKit — we offer the same
- * Google voice via online TTS (`cloud:google:…`) there. On macOS Safari, Daniel Enhanced
- * remains the best local fallback.
+ * Preferred Chrome locutor (EN). On iPhone / Safari without Google system voices,
+ * Settings offers Workers AI neural voices when `VITE_TTS_URL` is configured.
  */
 export const DEFAULT_VOICE_NAME = "Google UK English Male";
 export const DEFAULT_VOICE_NAME_FR = "Google français";
@@ -18,17 +23,17 @@ export const SAFARI_PREFERRED_VOICE_NAME = "Daniel";
 export const SAFARI_PREFERRED_VOICE_NAME_FR = "Thomas";
 
 export type ListenSettings = {
-  /** SpeechSynthesisVoice.voiceURI, cloud:google:… URI, or empty for preferred default. */
+  /** SpeechSynthesisVoice.voiceURI, premium:… URI, or empty for preferred default. */
   voiceURI: string;
   rate: number;
 };
 
-/** Unified picker row for Settings (system + optional online Google). */
+/** Unified picker row for Settings (system + optional real-time neural). */
 export type ListenVoiceOption = {
   voiceURI: string;
   name: string;
   lang: string;
-  kind: "system" | "cloud";
+  kind: "system" | "premium";
   recommended: boolean;
   localService: boolean;
 };
@@ -145,7 +150,7 @@ export function resolveSpeechVoice(
   voices: SpeechSynthesisVoice[] = listSpeechVoices(),
   lang: Lang = "en",
 ): SpeechSynthesisVoice | null {
-  if (isCloudVoiceURI(voiceURI)) return null;
+  if (isOnlineVoiceURI(voiceURI)) return null;
   if (voices.length === 0) return null;
   if (voiceURI) {
     const exact = voices.find((voice) => voice.voiceURI === voiceURI);
@@ -167,9 +172,8 @@ export function hasSystemGoogleVoice(voices: SpeechSynthesisVoice[], lang: Lang)
 }
 
 /**
- * Lock in a usable default: empty, or a voiceURI missing from the current language list
- * (e.g. Chrome-only EN voice on Safari, EN voice after switching UI to FR, or a retired
- * cloud:google:… URI that cannot play on iPhone).
+ * Lock in a usable default: empty, missing, or a retired online URI
+ * (legacy cloud:google:…, or premium:… when Worker URL is unset).
  */
 export function ensureDefaultVoiceSelected(
   settings: ListenSettings,
@@ -181,7 +185,8 @@ export function ensureDefaultVoiceSelected(
 
   const stillAvailable =
     Boolean(settings.voiceURI) &&
-    !isCloudVoiceURI(settings.voiceURI) &&
+    !isLegacyCloudVoiceURI(settings.voiceURI) &&
+    !(isPremiumVoiceURI(settings.voiceURI) && !premiumTtsConfigured()) &&
     options.some((option) => option.voiceURI === settings.voiceURI);
 
   if (stillAvailable) return settings;
@@ -209,10 +214,10 @@ export function formatVoiceLabel(voice: SpeechSynthesisVoice, lang: Lang = "en")
 
 export function formatListenVoiceOption(option: ListenVoiceOption, lang: Lang = "en"): string {
   const locale = option.lang.replace("_", "-");
-  if (option.kind === "cloud") {
+  if (option.kind === "premium") {
     return lang === "fr"
-      ? `${option.name} (${locale}) · premium · en ligne`
-      : `${option.name} (${locale}) · premium · online`;
+      ? `${option.name} (${locale}) · premium · temps réel`
+      : `${option.name} (${locale}) · premium · real-time`;
   }
   const quality = /enhanced|premium|neural|siri/i.test(option.name)
     ? lang === "fr"
@@ -244,13 +249,15 @@ export function speechVoicesForLang(
   });
 }
 
-/** System voices for `lang` (best first). Online Google TTS is not offered — browsers
- * that send a Referer (iPhone Safari/Chrome) get a 404 from translate_tts. */
+/**
+ * System voices for `lang`, plus real-time neural premium voices when the
+ * Cloudflare Worker URL is configured (`VITE_TTS_URL`).
+ */
 export function listenVoiceOptions(
   lang: Lang,
   voices: SpeechSynthesisVoice[] = listSpeechVoices(),
 ): ListenVoiceOption[] {
-  return speechVoicesForLang(lang, voices).map((voice) => ({
+  const system = speechVoicesForLang(lang, voices).map((voice) => ({
     voiceURI: voice.voiceURI,
     name: voice.name,
     lang: voice.lang,
@@ -258,6 +265,31 @@ export function listenVoiceOptions(
     recommended: isPreferredDefaultVoice(voice, lang),
     localService: voice.localService,
   }));
+
+  if (!premiumTtsConfigured()) {
+    return system;
+  }
+
+  const preferPremium =
+    isAppleMobileWeb() || !hasSystemGoogleVoice(voices, lang);
+
+  const premium = premiumVoicesForLang(lang).map((voice) => ({
+    voiceURI: voice.voiceURI,
+    name: voice.name,
+    lang: voice.lang,
+    kind: "premium" as const,
+    recommended: preferPremium,
+    localService: false,
+  }));
+
+  if (!preferPremium) {
+    return [...system, ...premium.map((option) => ({ ...option, recommended: false }))];
+  }
+
+  return [
+    ...premium,
+    ...system.map((option) => ({ ...option, recommended: false })),
+  ];
 }
 
 export function resolveListenVoiceOption(
@@ -266,14 +298,14 @@ export function resolveListenVoiceOption(
   voices: SpeechSynthesisVoice[] = listSpeechVoices(),
 ): ListenVoiceOption | null {
   const options = listenVoiceOptions(lang, voices);
-  if (voiceURI && !isCloudVoiceURI(voiceURI)) {
+  if (voiceURI && !isLegacyCloudVoiceURI(voiceURI)) {
     const exact = options.find((option) => option.voiceURI === voiceURI);
     if (exact) return exact;
   }
   return options.find((option) => option.recommended) ?? options[0] ?? null;
 }
 
-export { isCloudVoiceURI };
+export { isOnlineVoiceURI, isPremiumVoiceURI };
 
 /** @deprecated Use speechVoicesForLang("en") */
 export function englishSpeechVoices(
@@ -299,11 +331,25 @@ export function listenVoicePlatformTip(
   lang: Lang = "en",
   userAgent?: string,
 ): string | null {
+  if (premiumTtsConfigured()) {
+    if (isAppleMobileWeb(userAgent)) {
+      return lang === "fr"
+        ? "Voix neuronale en temps réel (Workers AI). Nécessite le réseau — désactivez le mode silencieux. Les voix système restent disponibles hors ligne."
+        : "Real-time neural voice (Workers AI). Needs network — turn Silent Mode off. System voices remain available offline.";
+    }
+    if (!hasSystemGoogleVoice(voices, lang)) {
+      return lang === "fr"
+        ? "Voix neuronale en temps réel disponible (réseau requis). Les voix Apple Enhanced restent optionnelles via Réglages système."
+        : "Real-time neural voice available (needs network). Apple Enhanced voices remain optional via System Settings.";
+    }
+    return null;
+  }
+
   if (isAppleMobileWeb(userAgent)) {
     if (lang === "fr") {
-      return "Sur iPhone, Safari et Chrome partagent WebKit. Les voix Premium Apple et Google Chrome ne sont pas disponibles pour les sites — choisissez une voix compacte (Thomas, Amélie…). Vérifiez que le mode silencieux n’est pas activé.";
+      return "Sur iPhone, Safari et Chrome partagent WebKit. Sans serveur TTS configuré, seules les voix compactes système sont disponibles — désactivez le mode silencieux.";
     }
-    return "On iPhone, Safari and Chrome share WebKit. Apple Premium and Chrome Google voices are not available to websites — pick a compact system voice (Daniel, Samantha…). Make sure Silent Mode is off.";
+    return "On iPhone, Safari and Chrome share WebKit. Without a TTS Worker configured, only compact system voices are available — turn Silent Mode off.";
   }
 
   if (lang === "fr") {

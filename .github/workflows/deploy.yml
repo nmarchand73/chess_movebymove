@@ -51,6 +51,9 @@ jobs:
         env:
           APP_VERSION: ${{ steps.version.outputs.app_version }}
           APP_COMMIT: ${{ github.sha }}
+          # Optional real-time neural TTS (Cloudflare Worker). Set as repo Variables/Secrets.
+          VITE_TTS_URL: ${{ vars.VITE_TTS_URL }}
+          VITE_TTS_KEY: ${{ secrets.VITE_TTS_KEY }}
         run: |
           npm --prefix ../../eboard-connect-js ci
           npm --prefix ../../eboard-connect-js run build

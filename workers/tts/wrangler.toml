@@ -1,0 +1,11 @@
+name = "chess-movebymove-tts"
+main = "src/index.ts"
+compatibility_date = "2026-01-01"
+
+# Bind Workers AI for real-time neural TTS (Deepgram Aura + MeloTTS).
+[ai]
+binding = "AI"
+
+# Optional shared secret: wrangler secret put TTS_SHARED_KEY
+# [vars]
+# ALLOWED_ORIGINS = "https://nmarchand73.github.io,http://localhost:5173"
