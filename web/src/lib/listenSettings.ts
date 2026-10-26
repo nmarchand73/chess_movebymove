@@ -209,11 +209,30 @@ export function englishSpeechVoices(
   return speechVoicesForLang("en", voices);
 }
 
-/** Short tip when the preferred cloud voice is missing (typical on Safari). */
+/**
+ * iPhone / iPad browsers all use WebKit for speechSynthesis — including Chrome.
+ * Apple Premium / Enhanced packs are for system Spoken Content and are not exposed
+ * to the Web Speech API (and downloading them can even hide compact voices).
+ */
+export function isAppleMobileWeb(
+  userAgent: string = typeof navigator !== "undefined" ? navigator.userAgent : "",
+): boolean {
+  return /iPhone|iPad|iPod/i.test(userAgent) || (/Macintosh/i.test(userAgent) && /Mobile/i.test(userAgent));
+}
+
+/** Short tip when the preferred cloud voice is missing (Safari / iOS WebKit). */
 export function listenVoicePlatformTip(
   voices: SpeechSynthesisVoice[],
   lang: Lang = "en",
+  userAgent?: string,
 ): string | null {
+  if (isAppleMobileWeb(userAgent)) {
+    if (lang === "fr") {
+      return "Sur iPhone, Safari et Chrome utilisent le même moteur vocal Apple. Les voix Premium / Enhanced de Réglages → Accessibilité → Contenu énoncé ne sont pas disponibles pour les sites web — seuls les packs compact listés ici fonctionnent.";
+    }
+    return "On iPhone, Safari and Chrome share Apple’s WebKit voices. Premium / Enhanced packs from Settings → Accessibility → Spoken Content are not available to websites — only the compact voices listed here work.";
+  }
+
   if (lang === "fr") {
     const hasGoogleFr = voices.some((voice) => /google\s+fran[cç]ais/i.test(voice.name));
     if (hasGoogleFr) return null;
