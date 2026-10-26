@@ -1,4 +1,12 @@
-import type { Lang } from "./lang";
+import {
+  CLOUD_GOOGLE_EN,
+  CLOUD_GOOGLE_FR,
+  cloudVoiceByURI,
+  cloudVoicesForLang,
+  isCloudVoiceURI,
+  type CloudGoogleVoice,
+} from "./cloudTts.ts";
+import type { Lang } from "./lang.ts";
 
 const KEY = "move-by-move-listen";
 
@@ -7,8 +15,9 @@ export const LISTEN_RATE_MAX = 1.4;
 export const LISTEN_RATE_DEFAULT = 1;
 
 /**
- * Preferred Chrome locutor (EN). Not available in Safari — Apple voices are used instead
- * (Daniel Enhanced is the closest British male quality on macOS).
+ * Preferred Chrome locutor (EN). Not available in Safari / iOS WebKit — we offer the same
+ * Google voice via online TTS (`cloud:google:…`) there. On macOS Safari, Daniel Enhanced
+ * remains the best local fallback.
  */
 export const DEFAULT_VOICE_NAME = "Google UK English Male";
 export const DEFAULT_VOICE_NAME_FR = "Google français";
@@ -16,9 +25,19 @@ export const SAFARI_PREFERRED_VOICE_NAME = "Daniel";
 export const SAFARI_PREFERRED_VOICE_NAME_FR = "Thomas";
 
 export type ListenSettings = {
-  /** SpeechSynthesisVoice.voiceURI, or empty for preferred default. */
+  /** SpeechSynthesisVoice.voiceURI, cloud:google:… URI, or empty for preferred default. */
   voiceURI: string;
   rate: number;
+};
+
+/** Unified picker row for Settings (system + optional online Google). */
+export type ListenVoiceOption = {
+  voiceURI: string;
+  name: string;
+  lang: string;
+  kind: "system" | "cloud";
+  recommended: boolean;
+  localService: boolean;
 };
 
 function clampRate(rate: number): number {
@@ -133,6 +152,7 @@ export function resolveSpeechVoice(
   voices: SpeechSynthesisVoice[] = listSpeechVoices(),
   lang: Lang = "en",
 ): SpeechSynthesisVoice | null {
+  if (isCloudVoiceURI(voiceURI)) return null;
   if (voices.length === 0) return null;
   if (voiceURI) {
     const exact = voices.find((voice) => voice.voiceURI === voiceURI);
@@ -146,6 +166,22 @@ export function resolveSpeechVoice(
   return matched ?? voices[0] ?? null;
 }
 
+export function hasSystemGoogleVoice(voices: SpeechSynthesisVoice[], lang: Lang): boolean {
+  if (lang === "fr") {
+    return voices.some((voice) => /google\s+fran[cç]ais/i.test(voice.name));
+  }
+  return voices.some((voice) => /google\s+uk\s+english\s+male/i.test(voice.name));
+}
+
+/** Online Google voice when the browser does not expose the matching system voice. */
+export function preferredCloudVoice(
+  voices: SpeechSynthesisVoice[],
+  lang: Lang,
+): CloudGoogleVoice | null {
+  if (hasSystemGoogleVoice(voices, lang)) return null;
+  return lang === "fr" ? CLOUD_GOOGLE_FR : CLOUD_GOOGLE_EN;
+}
+
 /**
  * Lock in a usable default: empty, or a voiceURI missing from the current language list
  * (e.g. Chrome-only EN voice on Safari, or EN voice after switching UI to FR).
@@ -155,15 +191,15 @@ export function ensureDefaultVoiceSelected(
   voices: SpeechSynthesisVoice[],
   lang: Lang = "en",
 ): ListenSettings {
-  if (voices.length === 0) return settings;
+  const options = listenVoiceOptions(lang, voices);
+  if (options.length === 0) return settings;
 
   const stillAvailable =
-    Boolean(settings.voiceURI) &&
-    voices.some((voice) => voice.voiceURI === settings.voiceURI);
+    Boolean(settings.voiceURI) && options.some((option) => option.voiceURI === settings.voiceURI);
 
   if (stillAvailable) return settings;
 
-  const preferred = findPreferredDefaultVoice(voices, lang);
+  const preferred = options.find((option) => option.recommended) ?? options[0];
   if (!preferred) return settings;
   const next = { ...settings, voiceURI: preferred.voiceURI };
   saveListenSettings(next);
@@ -184,6 +220,25 @@ export function formatVoiceLabel(voice: SpeechSynthesisVoice, lang: Lang = "en")
   return `${voice.name} (${locale})${quality}`;
 }
 
+export function formatListenVoiceOption(option: ListenVoiceOption, lang: Lang = "en"): string {
+  const locale = option.lang.replace("_", "-");
+  if (option.kind === "cloud") {
+    return lang === "fr"
+      ? `${option.name} (${locale}) · premium · en ligne`
+      : `${option.name} (${locale}) · premium · online`;
+  }
+  const quality = /enhanced|premium|neural|siri/i.test(option.name)
+    ? lang === "fr"
+      ? " · haute qualité"
+      : " · high quality"
+    : option.localService
+      ? ""
+      : lang === "fr"
+        ? " · en ligne"
+        : " · online";
+  return `${option.name} (${locale})${quality}`;
+}
+
 export function isPreferredDefaultVoice(voice: SpeechSynthesisVoice, lang: Lang = "en"): boolean {
   return voicePreferenceScore(voice, lang) >= (lang === "fr" ? 860 : 880);
 }
@@ -201,6 +256,57 @@ export function speechVoicesForLang(
     return a.name.localeCompare(b.name);
   });
 }
+
+/**
+ * System voices for `lang`, plus an online Google “premium” option when WebKit
+ * (iPhone / Safari) does not expose Google SpeechSynthesis voices.
+ */
+export function listenVoiceOptions(
+  lang: Lang,
+  voices: SpeechSynthesisVoice[] = listSpeechVoices(),
+): ListenVoiceOption[] {
+  const system = speechVoicesForLang(lang, voices).map((voice) => ({
+    voiceURI: voice.voiceURI,
+    name: voice.name,
+    lang: voice.lang,
+    kind: "system" as const,
+    recommended: isPreferredDefaultVoice(voice, lang),
+    localService: voice.localService,
+  }));
+
+  const cloud = preferredCloudVoice(voices, lang);
+  if (!cloud) return system;
+
+  const cloudOption: ListenVoiceOption = {
+    voiceURI: cloud.voiceURI,
+    name: cloud.name,
+    lang: cloud.lang,
+    kind: "cloud",
+    recommended: true,
+    localService: false,
+  };
+
+  // Cloud Google outranks local compact voices when the real Google voice is missing.
+  return [
+    cloudOption,
+    ...system.map((option) => ({ ...option, recommended: false })),
+  ];
+}
+
+export function resolveListenVoiceOption(
+  voiceURI: string,
+  lang: Lang,
+  voices: SpeechSynthesisVoice[] = listSpeechVoices(),
+): ListenVoiceOption | null {
+  const options = listenVoiceOptions(lang, voices);
+  if (voiceURI) {
+    const exact = options.find((option) => option.voiceURI === voiceURI);
+    if (exact) return exact;
+  }
+  return options.find((option) => option.recommended) ?? options[0] ?? null;
+}
+
+export { cloudVoiceByURI, cloudVoicesForLang, isCloudVoiceURI };
 
 /** @deprecated Use speechVoicesForLang("en") */
 export function englishSpeechVoices(
@@ -228,34 +334,18 @@ export function listenVoicePlatformTip(
 ): string | null {
   if (isAppleMobileWeb(userAgent)) {
     if (lang === "fr") {
-      return "Sur iPhone, Safari et Chrome utilisent le même moteur vocal Apple. Les voix Premium / Enhanced de Réglages → Accessibilité → Contenu énoncé ne sont pas disponibles pour les sites web — seuls les packs compact listés ici fonctionnent.";
+      return "Sur iPhone, Safari et Chrome partagent WebKit : les voix Premium Apple système ne sont pas exposées aux sites. Choisissez « Google français · premium · en ligne » pour la même voix Google que sur Chrome ordinateur (nécessite le réseau).";
     }
-    return "On iPhone, Safari and Chrome share Apple’s WebKit voices. Premium / Enhanced packs from Settings → Accessibility → Spoken Content are not available to websites — only the compact voices listed here work.";
+    return "On iPhone, Safari and Chrome share WebKit — Apple’s system Premium packs are not available to websites. Pick “Google UK English Male · premium · online” for the same Google voice as desktop Chrome (needs network).";
   }
 
   if (lang === "fr") {
-    const hasGoogleFr = voices.some((voice) => /google\s+fran[cç]ais/i.test(voice.name));
-    if (hasGoogleFr) return null;
-
-    const hasThomas = voices.some((voice) => /^thomas\b/i.test(voice.name));
-    if (hasThomas) {
-      return "Safari ne peut pas utiliser les voix Google. Thomas est sélectionné — téléchargez Thomas Enhanced dans Réglages système → Accessibilité → Contenu énoncé pour une meilleure qualité.";
-    }
-
-    return "Safari ne peut pas utiliser les voix Google. Choisissez une voix française (Thomas, Amélie…) et installez la version Enhanced dans Réglages système → Accessibilité → Contenu énoncé.";
+    if (hasSystemGoogleVoice(voices, "fr")) return null;
+    return "Safari ne peut pas utiliser les voix Google système. « Google français · premium · en ligne » est sélectionné (réseau requis). Les voix Apple Enhanced restent optionnelles via Réglages système → Accessibilité → Contenu énoncé.";
   }
 
-  const hasGoogleMale = voices.some((voice) =>
-    /google\s+uk\s+english\s+male/i.test(voice.name),
-  );
-  if (hasGoogleMale) return null;
-
-  const hasDaniel = voices.some((voice) => /^daniel\b/i.test(voice.name));
-  if (hasDaniel) {
-    return "Safari cannot use Google voices. Daniel (British) is selected instead — download Daniel Enhanced in macOS System Settings → Accessibility → Spoken Content for the best quality.";
-  }
-
-  return "Safari cannot use Google voices. Pick a British voice such as Daniel or Arthur, and install the Enhanced version in macOS System Settings → Accessibility → Spoken Content.";
+  if (hasSystemGoogleVoice(voices, "en")) return null;
+  return "Safari cannot use Google system voices. “Google UK English Male · premium · online” is selected instead (needs network). Apple Enhanced voices remain optional via System Settings → Accessibility → Spoken Content.";
 }
 
 export function listenPreviewLine(lang: Lang): string {
