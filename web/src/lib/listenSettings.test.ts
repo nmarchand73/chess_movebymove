@@ -6,6 +6,7 @@ import {
   defaultListenSettings,
   ensureDefaultVoiceSelected,
   findPreferredDefaultVoice,
+  isAppleMobileWeb,
   LISTEN_RATE_DEFAULT,
   LISTEN_RATE_MAX,
   LISTEN_RATE_MIN,
@@ -73,7 +74,11 @@ describe("listenSettings", () => {
       fakeVoice({ name: "Arthur", lang: "en-GB", localService: true }),
     ];
     assert.equal(findPreferredDefaultVoice(voices, "en")?.name, "Daniel (Enhanced)");
-    assert.match(listenVoicePlatformTip(voices, "en") ?? "", /Safari cannot use Google/);
+    assert.match(
+      listenVoicePlatformTip(voices, "en", "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) Safari/605.1.15") ??
+        "",
+      /Safari cannot use Google/,
+    );
   });
 
   it("falls back to Thomas for French Safari-like lists", () => {
@@ -82,7 +87,25 @@ describe("listenSettings", () => {
       fakeVoice({ name: "Amélie", lang: "fr-FR", localService: true }),
     ];
     assert.equal(findPreferredDefaultVoice(voices, "fr")?.name, "Thomas (Enhanced)");
-    assert.match(listenVoicePlatformTip(voices, "fr") ?? "", /Thomas/);
+    assert.match(
+      listenVoicePlatformTip(voices, "fr", "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) Safari/605.1.15") ??
+        "",
+      /Thomas/,
+    );
+  });
+
+  it("explains that iPhone Premium voices are unavailable to websites", () => {
+    assert.equal(isAppleMobileWeb("Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X)"), true);
+    const voices = [fakeVoice({ name: "Daniel", lang: "en-GB", localService: true })];
+    const tip =
+      listenVoicePlatformTip(
+        voices,
+        "en",
+        "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/129.0.0.0 Mobile/15E148 Safari/604.1",
+      ) ?? "";
+    assert.match(tip, /iPhone/);
+    assert.match(tip, /Premium/);
+    assert.match(tip, /not available to websites/);
   });
 
   it("replaces a missing Chrome voiceURI with the Safari default", () => {
