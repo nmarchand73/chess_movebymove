@@ -1,11 +1,4 @@
-import {
-  CLOUD_GOOGLE_EN,
-  CLOUD_GOOGLE_FR,
-  cloudVoiceByURI,
-  cloudVoicesForLang,
-  isCloudVoiceURI,
-  type CloudGoogleVoice,
-} from "./cloudTts.ts";
+import { isCloudVoiceURI } from "./cloudTts.ts";
 import type { Lang } from "./lang.ts";
 
 const KEY = "move-by-move-listen";
@@ -173,18 +166,10 @@ export function hasSystemGoogleVoice(voices: SpeechSynthesisVoice[], lang: Lang)
   return voices.some((voice) => /google\s+uk\s+english\s+male/i.test(voice.name));
 }
 
-/** Online Google voice when the browser does not expose the matching system voice. */
-export function preferredCloudVoice(
-  voices: SpeechSynthesisVoice[],
-  lang: Lang,
-): CloudGoogleVoice | null {
-  if (hasSystemGoogleVoice(voices, lang)) return null;
-  return lang === "fr" ? CLOUD_GOOGLE_FR : CLOUD_GOOGLE_EN;
-}
-
 /**
  * Lock in a usable default: empty, or a voiceURI missing from the current language list
- * (e.g. Chrome-only EN voice on Safari, or EN voice after switching UI to FR).
+ * (e.g. Chrome-only EN voice on Safari, EN voice after switching UI to FR, or a retired
+ * cloud:google:… URI that cannot play on iPhone).
  */
 export function ensureDefaultVoiceSelected(
   settings: ListenSettings,
@@ -195,7 +180,9 @@ export function ensureDefaultVoiceSelected(
   if (options.length === 0) return settings;
 
   const stillAvailable =
-    Boolean(settings.voiceURI) && options.some((option) => option.voiceURI === settings.voiceURI);
+    Boolean(settings.voiceURI) &&
+    !isCloudVoiceURI(settings.voiceURI) &&
+    options.some((option) => option.voiceURI === settings.voiceURI);
 
   if (stillAvailable) return settings;
 
@@ -257,15 +244,13 @@ export function speechVoicesForLang(
   });
 }
 
-/**
- * System voices for `lang`, plus an online Google “premium” option when WebKit
- * (iPhone / Safari) does not expose Google SpeechSynthesis voices.
- */
+/** System voices for `lang` (best first). Online Google TTS is not offered — browsers
+ * that send a Referer (iPhone Safari/Chrome) get a 404 from translate_tts. */
 export function listenVoiceOptions(
   lang: Lang,
   voices: SpeechSynthesisVoice[] = listSpeechVoices(),
 ): ListenVoiceOption[] {
-  const system = speechVoicesForLang(lang, voices).map((voice) => ({
+  return speechVoicesForLang(lang, voices).map((voice) => ({
     voiceURI: voice.voiceURI,
     name: voice.name,
     lang: voice.lang,
@@ -273,24 +258,6 @@ export function listenVoiceOptions(
     recommended: isPreferredDefaultVoice(voice, lang),
     localService: voice.localService,
   }));
-
-  const cloud = preferredCloudVoice(voices, lang);
-  if (!cloud) return system;
-
-  const cloudOption: ListenVoiceOption = {
-    voiceURI: cloud.voiceURI,
-    name: cloud.name,
-    lang: cloud.lang,
-    kind: "cloud",
-    recommended: true,
-    localService: false,
-  };
-
-  // Cloud Google outranks local compact voices when the real Google voice is missing.
-  return [
-    cloudOption,
-    ...system.map((option) => ({ ...option, recommended: false })),
-  ];
 }
 
 export function resolveListenVoiceOption(
@@ -299,14 +266,14 @@ export function resolveListenVoiceOption(
   voices: SpeechSynthesisVoice[] = listSpeechVoices(),
 ): ListenVoiceOption | null {
   const options = listenVoiceOptions(lang, voices);
-  if (voiceURI) {
+  if (voiceURI && !isCloudVoiceURI(voiceURI)) {
     const exact = options.find((option) => option.voiceURI === voiceURI);
     if (exact) return exact;
   }
   return options.find((option) => option.recommended) ?? options[0] ?? null;
 }
 
-export { cloudVoiceByURI, cloudVoicesForLang, isCloudVoiceURI };
+export { isCloudVoiceURI };
 
 /** @deprecated Use speechVoicesForLang("en") */
 export function englishSpeechVoices(
@@ -334,18 +301,18 @@ export function listenVoicePlatformTip(
 ): string | null {
   if (isAppleMobileWeb(userAgent)) {
     if (lang === "fr") {
-      return "Sur iPhone, Safari et Chrome partagent WebKit : les voix Premium Apple système ne sont pas exposées aux sites. Choisissez « Google français · premium · en ligne » pour la même voix Google que sur Chrome ordinateur (nécessite le réseau).";
+      return "Sur iPhone, Safari et Chrome partagent WebKit. Les voix Premium Apple et Google Chrome ne sont pas disponibles pour les sites — choisissez une voix compacte (Thomas, Amélie…). Vérifiez que le mode silencieux n’est pas activé.";
     }
-    return "On iPhone, Safari and Chrome share WebKit — Apple’s system Premium packs are not available to websites. Pick “Google UK English Male · premium · online” for the same Google voice as desktop Chrome (needs network).";
+    return "On iPhone, Safari and Chrome share WebKit. Apple Premium and Chrome Google voices are not available to websites — pick a compact system voice (Daniel, Samantha…). Make sure Silent Mode is off.";
   }
 
   if (lang === "fr") {
     if (hasSystemGoogleVoice(voices, "fr")) return null;
-    return "Safari ne peut pas utiliser les voix Google système. « Google français · premium · en ligne » est sélectionné (réseau requis). Les voix Apple Enhanced restent optionnelles via Réglages système → Accessibilité → Contenu énoncé.";
+    return "Safari ne peut pas utiliser les voix Google. Choisissez Thomas ou Amélie — téléchargez la version Enhanced dans Réglages système → Accessibilité → Contenu énoncé pour une meilleure qualité.";
   }
 
   if (hasSystemGoogleVoice(voices, "en")) return null;
-  return "Safari cannot use Google system voices. “Google UK English Male · premium · online” is selected instead (needs network). Apple Enhanced voices remain optional via System Settings → Accessibility → Spoken Content.";
+  return "Safari cannot use Google voices. Pick Daniel or Arthur — download the Enhanced version in macOS System Settings → Accessibility → Spoken Content for better quality.";
 }
 
 export function listenPreviewLine(lang: Lang): string {
