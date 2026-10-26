@@ -7,6 +7,8 @@ __pycache__/
 # Node / web build
 web/node_modules/
 web/dist/
+workers/tts/node_modules/
+workers/tts/.wrangler/
 
 # OS & editors
 .DS_Store
