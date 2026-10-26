@@ -197,7 +197,6 @@ export function SettingsPage({ lang, onLangChange, onBack }: Props) {
               title={formatListenVoiceOption(selectedOption, lang)}
             >
               {selectedOption.name.replace(/^Google\s+/i, "")}
-              {selectedOption.kind === "cloud" ? (lang === "fr" ? " · premium" : " · premium") : ""}
             </p>
           ) : null}
         </div>
