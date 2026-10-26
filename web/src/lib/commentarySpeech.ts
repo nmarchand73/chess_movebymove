@@ -1,4 +1,10 @@
 import type { CommentaryBeat } from "./commentaryBeats.ts";
+import {
+  buildGoogleTtsUrl,
+  chunkForCloudTts,
+  cloudVoiceByURI,
+  isCloudVoiceURI,
+} from "./cloudTts.ts";
 import { loadLang, type Lang } from "./lang.ts";
 import { loadListenSettings, resolveSpeechVoice, speechVoicesForLang } from "./listenSettings.ts";
 
@@ -413,7 +419,7 @@ export function commentaryToSpeechText(
 }
 
 export function speechSupported(): boolean {
-  return typeof window !== "undefined" && "speechSynthesis" in window;
+  return typeof window !== "undefined" && ("speechSynthesis" in window || "Audio" in window);
 }
 
 /** Bumped on cancel so in-flight sentence queues stop cleanly. */
@@ -421,10 +427,21 @@ let speakGeneration = 0;
 let speechHoldPaused = false;
 let resumeAfterHold: (() => void) | null = null;
 const pendingPauseTimers = new Set<ReturnType<typeof setTimeout>>();
+let activeCloudAudio: HTMLAudioElement | null = null;
 
 function clearSpeechPauseTimers(): void {
   for (const timer of pendingPauseTimers) clearTimeout(timer);
   pendingPauseTimers.clear();
+}
+
+function stopCloudAudio(): void {
+  if (!activeCloudAudio) return;
+  activeCloudAudio.onended = null;
+  activeCloudAudio.onerror = null;
+  activeCloudAudio.pause();
+  activeCloudAudio.removeAttribute("src");
+  activeCloudAudio.load();
+  activeCloudAudio = null;
 }
 
 export function stopCommentarySpeech(): void {
@@ -432,21 +449,34 @@ export function stopCommentarySpeech(): void {
   speechHoldPaused = false;
   resumeAfterHold = null;
   clearSpeechPauseTimers();
-  if (!speechSupported()) return;
-  window.speechSynthesis.cancel();
+  stopCloudAudio();
+  if (typeof window !== "undefined" && "speechSynthesis" in window) {
+    window.speechSynthesis.cancel();
+  }
 }
 
 export function pauseCommentarySpeech(): boolean {
-  if (!speechSupported()) return false;
   speechHoldPaused = true;
-  window.speechSynthesis.pause();
-  return true;
+  if (activeCloudAudio && !activeCloudAudio.paused) {
+    activeCloudAudio.pause();
+    return true;
+  }
+  if (typeof window !== "undefined" && "speechSynthesis" in window) {
+    window.speechSynthesis.pause();
+    return true;
+  }
+  return false;
 }
 
 export function resumeCommentarySpeech(): boolean {
-  if (!speechSupported()) return false;
   speechHoldPaused = false;
-  window.speechSynthesis.resume();
+  if (activeCloudAudio && activeCloudAudio.paused && activeCloudAudio.src) {
+    void activeCloudAudio.play().catch(() => undefined);
+    return true;
+  }
+  if (typeof window !== "undefined" && "speechSynthesis" in window) {
+    window.speechSynthesis.resume();
+  }
   if (resumeAfterHold) {
     const cont = resumeAfterHold;
     resumeAfterHold = null;
@@ -456,7 +486,9 @@ export function resumeCommentarySpeech(): boolean {
 }
 
 export function commentarySpeechPaused(): boolean {
-  return speechHoldPaused || (speechSupported() && window.speechSynthesis.paused);
+  if (speechHoldPaused) return true;
+  if (activeCloudAudio) return activeCloudAudio.paused;
+  return typeof window !== "undefined" && "speechSynthesis" in window && window.speechSynthesis.paused;
 }
 
 type SpeakHandlers = {
@@ -481,6 +513,75 @@ function scheduleNextSentence(myGeneration: number, queueNext: () => void): void
   pendingPauseTimers.add(timer);
 }
 
+function speakCloudCommentary(
+  text: string,
+  voiceURI: string,
+  rate: number,
+  lang: Lang,
+  myGeneration: number,
+  handlers: SpeakHandlers,
+): boolean {
+  const cloud = cloudVoiceByURI(voiceURI);
+  if (!cloud || typeof Audio === "undefined") return false;
+
+  const sentences = splitIntoSpeechSentences(prepareCommentarySpeech(text, lang));
+  const chunks = sentences.flatMap((sentence) => chunkForCloudTts(sentence));
+  if (chunks.length === 0) return false;
+
+  let index = 0;
+
+  const queueNext = () => {
+    if (myGeneration !== speakGeneration) return;
+    if (index >= chunks.length) {
+      handlers.onEnd?.();
+      return;
+    }
+
+    const chunk = chunks[index]!;
+    index += 1;
+    stopCloudAudio();
+
+    const audio = new Audio();
+    audio.setAttribute("referrerpolicy", "no-referrer");
+    audio.preload = "auto";
+    audio.src = buildGoogleTtsUrl(chunk, cloud.tl);
+    audio.playbackRate = Math.min(LISTEN_RATE_MAX_PLAYBACK, Math.max(0.5, rate));
+    activeCloudAudio = audio;
+
+    audio.onended = () => {
+      if (myGeneration !== speakGeneration) return;
+      if (index >= chunks.length) {
+        handlers.onEnd?.();
+        return;
+      }
+      scheduleNextSentence(myGeneration, queueNext);
+    };
+    audio.onerror = () => {
+      if (myGeneration !== speakGeneration) return;
+      handlers.onError?.();
+    };
+
+    const play = () => {
+      if (myGeneration !== speakGeneration) return;
+      void audio.play().catch(() => {
+        if (myGeneration === speakGeneration) handlers.onError?.();
+      });
+    };
+
+    if (speechHoldPaused) {
+      resumeAfterHold = play;
+      return;
+    }
+    play();
+  };
+
+  queueNext();
+  return true;
+}
+
+/** Cap for HTMLAudioElement.playbackRate on iOS. */
+const LISTEN_RATE_MAX_PLAYBACK = 1.4;
+
 /** Speak commentary sentence-by-sentence so end-of-sentence pauses are heard. */
 export function speakCommentary(text: string, handlers: SpeakHandlers = {}): boolean {
   if (!speechSupported() || !text.trim()) return false;
@@ -490,6 +591,13 @@ export function speakCommentary(text: string, handlers: SpeakHandlers = {}): boo
   speechHoldPaused = false;
   const settings = loadListenSettings();
   const lang = loadLang();
+
+  if (isCloudVoiceURI(settings.voiceURI)) {
+    return speakCloudCommentary(text, settings.voiceURI, settings.rate, lang, myGeneration, handlers);
+  }
+
+  if (typeof window === "undefined" || !("speechSynthesis" in window)) return false;
+
   const voice = resolveSpeechVoice(settings.voiceURI, speechVoicesForLang(lang), lang);
 
   const sentences = splitIntoSpeechSentences(prepareCommentarySpeech(text, lang));

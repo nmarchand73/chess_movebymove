@@ -50,7 +50,7 @@ If you are a rights holder and want content removed or adjusted, open an issue o
   - **Follow** — keep narrating as you press Next
   - Chess-aware speech (EN + FR): SAN → spoken pieces/squares, castling, checks/mates, NAG marks (`!` `!!` `?` … and Unicode), Informator symbols (`±` `△` `□` …)
   - French examples: `Nf3` → « cavalier en f trois », `O-O` → « petit roque », `±` → « les Blancs sont mieux »
-  - Voice & speed in Settings; French UI prefers Google français / Thomas (desktop Chrome / Safari). On iPhone, Safari and Chrome share WebKit — Apple Premium / Enhanced packs are not exposed to websites
+  - Voice & speed in Settings; prefers Google UK English Male / Google français. On iPhone (and Safari without Google system voices), Settings offers the same Google voice as **premium · online** via cloud TTS
 - Clickable SAN and alternative lines that jump or preview on the board (SAN stays English notation in the data)
 - Transport controls: first / prev / next / last (SVG icons for consistent Safari rendering), jump to next annotated note
 - Horizontal move strip for quick navigation

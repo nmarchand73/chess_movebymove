@@ -1,5 +1,6 @@
 import assert from "node:assert/strict";
 import { describe, it } from "node:test";
+import { CLOUD_GOOGLE_EN, CLOUD_GOOGLE_FR } from "./cloudTts.ts";
 import {
   DEFAULT_VOICE_NAME,
   DEFAULT_VOICE_NAME_FR,
@@ -10,6 +11,7 @@ import {
   LISTEN_RATE_DEFAULT,
   LISTEN_RATE_MAX,
   LISTEN_RATE_MIN,
+  listenVoiceOptions,
   listenVoicePlatformTip,
   resolveSpeechVoice,
   speechVoicesForLang,
@@ -51,6 +53,11 @@ describe("listenSettings", () => {
     ];
     assert.equal(findPreferredDefaultVoice(voices, "en")?.name, "Google UK English Male");
     assert.equal(resolveSpeechVoice("", voices, "en")?.name, "Google UK English Male");
+    assert.equal(listenVoiceOptions("en", voices)[0]?.kind, "system");
+    assert.equal(
+      listenVoiceOptions("en", voices).some((option) => option.kind === "cloud"),
+      false,
+    );
   });
 
   it("prefers Google français for French UI", () => {
@@ -77,8 +84,28 @@ describe("listenSettings", () => {
     assert.match(
       listenVoicePlatformTip(voices, "en", "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) Safari/605.1.15") ??
         "",
-      /Safari cannot use Google/,
+      /premium · online/,
     );
+  });
+
+  it("offers online Google premium when system Google voices are missing", () => {
+    const voices = [
+      fakeVoice({ name: "Daniel", lang: "en-GB", localService: true, voiceURI: "daniel" }),
+      fakeVoice({ name: "Samantha", lang: "en-US", localService: true, voiceURI: "samantha" }),
+    ];
+    const options = listenVoiceOptions("en", voices);
+    assert.equal(options[0]?.voiceURI, CLOUD_GOOGLE_EN.voiceURI);
+    assert.equal(options[0]?.kind, "cloud");
+    assert.equal(options[0]?.recommended, true);
+
+    const next = ensureDefaultVoiceSelected({ voiceURI: "", rate: 1 }, voices, "en");
+    assert.equal(next.voiceURI, CLOUD_GOOGLE_EN.voiceURI);
+  });
+
+  it("offers online Google français when system FR Google is missing", () => {
+    const voices = [fakeVoice({ name: "Thomas", lang: "fr-FR", localService: true })];
+    const options = listenVoiceOptions("fr", voices);
+    assert.equal(options[0]?.voiceURI, CLOUD_GOOGLE_FR.voiceURI);
   });
 
   it("falls back to Thomas for French Safari-like lists", () => {
@@ -90,11 +117,11 @@ describe("listenSettings", () => {
     assert.match(
       listenVoicePlatformTip(voices, "fr", "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) Safari/605.1.15") ??
         "",
-      /Thomas/,
+      /premium · en ligne/,
     );
   });
 
-  it("explains that iPhone Premium voices are unavailable to websites", () => {
+  it("explains iPhone premium online Google voice", () => {
     assert.equal(isAppleMobileWeb("Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X)"), true);
     const voices = [fakeVoice({ name: "Daniel", lang: "en-GB", localService: true })];
     const tip =
@@ -104,11 +131,10 @@ describe("listenSettings", () => {
         "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/129.0.0.0 Mobile/15E148 Safari/604.1",
       ) ?? "";
     assert.match(tip, /iPhone/);
-    assert.match(tip, /Premium/);
-    assert.match(tip, /not available to websites/);
+    assert.match(tip, /premium · online/);
   });
 
-  it("replaces a missing Chrome voiceURI with the Safari default", () => {
+  it("replaces a missing Chrome voiceURI with the online Google default on Safari", () => {
     const voices = [
       fakeVoice({ name: "Daniel (Enhanced)", lang: "en-GB", voiceURI: "daniel-enhanced" }),
     ];
@@ -117,7 +143,7 @@ describe("listenSettings", () => {
       voices,
       "en",
     );
-    assert.equal(next.voiceURI, "daniel-enhanced");
+    assert.equal(next.voiceURI, CLOUD_GOOGLE_EN.voiceURI);
   });
 
   it("switches default when UI language changes and saved voice is other-language", () => {

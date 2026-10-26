@@ -10,17 +10,19 @@ import type { Lang } from "../lib/lang";
 import { fill, ui } from "../lib/uiCopy";
 import {
   ensureDefaultVoiceSelected,
-  formatVoiceLabel,
-  isPreferredDefaultVoice,
+  formatListenVoiceOption,
   LISTEN_RATE_DEFAULT,
   LISTEN_RATE_MAX,
   LISTEN_RATE_MIN,
   listenPreviewLine,
+  listenVoiceOptions,
   listenVoicePlatformTip,
   loadListenSettings,
+  resolveListenVoiceOption,
   saveListenSettings,
   speechVoicesForLang,
   type ListenSettings,
+  type ListenVoiceOption,
 } from "../lib/listenSettings";
 
 type Props = {
@@ -42,6 +44,7 @@ export function SettingsPage({ lang, onLangChange, onBack }: Props) {
     typeof window !== "undefined" ? loadListenSettings() : { voiceURI: "", rate: LISTEN_RATE_DEFAULT },
   );
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
+  const [voiceOptions, setVoiceOptions] = useState<ListenVoiceOption[]>([]);
   const [previewing, setPreviewing] = useState(false);
   const canListen = speechSupported();
 
@@ -63,12 +66,17 @@ export function SettingsPage({ lang, onLangChange, onBack }: Props) {
 
     const refresh = () => {
       const nextVoices = speechVoicesForLang(lang);
+      const nextOptions = listenVoiceOptions(lang, nextVoices);
       setVoices(nextVoices);
+      setVoiceOptions(nextOptions);
       setListen((prev) => ensureDefaultVoiceSelected(prev, nextVoices, lang));
     };
     refresh();
-    window.speechSynthesis.addEventListener("voiceschanged", refresh);
-    return () => window.speechSynthesis.removeEventListener("voiceschanged", refresh);
+    if (typeof window !== "undefined" && "speechSynthesis" in window) {
+      window.speechSynthesis.addEventListener("voiceschanged", refresh);
+      return () => window.speechSynthesis.removeEventListener("voiceschanged", refresh);
+    }
+    return undefined;
   }, [canListen, lang]);
 
   const updateListen = useCallback((patch: Partial<ListenSettings>) => {
@@ -136,7 +144,7 @@ export function SettingsPage({ lang, onLangChange, onBack }: Props) {
   }
 
   const ratePercent = Math.round(listen.rate * 100);
-  const selectedVoice = voices.find((voice) => voice.voiceURI === listen.voiceURI);
+  const selectedOption = resolveListenVoiceOption(listen.voiceURI, lang, voices);
   const platformTip = listenVoicePlatformTip(voices, lang);
 
   return (
@@ -183,9 +191,13 @@ export function SettingsPage({ lang, onLangChange, onBack }: Props) {
             <p className="settings-eyebrow">{t.commentary}</p>
             <h2>{t.listen}</h2>
           </div>
-          {canListen && selectedVoice ? (
-            <p className="settings-voice-chip" title={formatVoiceLabel(selectedVoice, lang)}>
-              {selectedVoice.name.replace(/^Google\s+/i, "")}
+          {canListen && selectedOption ? (
+            <p
+              className="settings-voice-chip"
+              title={formatListenVoiceOption(selectedOption, lang)}
+            >
+              {selectedOption.name.replace(/^Google\s+/i, "")}
+              {selectedOption.kind === "cloud" ? (lang === "fr" ? " · premium" : " · premium") : ""}
             </p>
           ) : null}
         </div>
@@ -204,11 +216,11 @@ export function SettingsPage({ lang, onLangChange, onBack }: Props) {
                   value={listen.voiceURI}
                   onChange={(event) => updateListen({ voiceURI: event.target.value })}
                 >
-                  {voices.length === 0 ? <option value="">{t.loadingVoices}</option> : null}
-                  {voices.map((voice) => (
-                    <option key={voice.voiceURI} value={voice.voiceURI}>
-                      {formatVoiceLabel(voice, lang)}
-                      {isPreferredDefaultVoice(voice, lang) ? ` ${t.recommended}` : ""}
+                  {voiceOptions.length === 0 ? <option value="">{t.loadingVoices}</option> : null}
+                  {voiceOptions.map((option) => (
+                    <option key={option.voiceURI} value={option.voiceURI}>
+                      {formatListenVoiceOption(option, lang)}
+                      {option.recommended ? ` ${t.recommended}` : ""}
                     </option>
                   ))}
                 </select>
