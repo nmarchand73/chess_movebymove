@@ -9,6 +9,13 @@ Ultralytics/
 web/node_modules/
 web/dist/
 
+# Desktop (Electron) shell
+desktop/node_modules/
+desktop/www/
+desktop/icon.icns
+desktop/icon.png
+dist-app/
+
 # OS & editors
 .DS_Store
 .idea/

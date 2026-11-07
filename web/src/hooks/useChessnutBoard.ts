@@ -50,11 +50,35 @@ function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+/** Map low-level transport errors to actionable UI copy. */
+function friendlyChessnutError(message: string, kind: TransportKind): string {
+  if (/No Chessnut HID device selected/i.test(message)) {
+    return "Aucun périphérique USB sélectionné. Si l’échiquier est en Bluetooth, cliquez Bluetooth (pas USB).";
+  }
+  if (/No previously paired Chessnut HID/i.test(message)) {
+    return "Aucun Chessnut USB mémorisé. Branchez le câble et cliquez USB, ou utilisez Bluetooth.";
+  }
+  if (/No previously paired Chessnut BLE|getDevices/i.test(message)) {
+    return "Premier branchement Bluetooth : cliquez Bluetooth pour autoriser l’échiquier.";
+  }
+  if (/Web Bluetooth is not available/i.test(message)) {
+    return "Bluetooth web indisponible dans cette fenêtre. Relancez l’app desktop Move by Move.";
+  }
+  if (/WebHID is not available/i.test(message)) {
+    return "USB (WebHID) indisponible ici. Essayez Bluetooth.";
+  }
+  if (kind === "ble" && /GATT|connect|advertisement|Bluetooth/i.test(message)) {
+    return `Bluetooth : ${message}. Vérifiez que l’échiquier est allumé et proche.`;
+  }
+  return message;
+}
+
 export function useChessnutBoard() {
   const boardRef = useRef<ChessnutBoard | null>(null);
   const statusRef = useRef<ChessnutConnectionStatus>("disconnected");
   const [status, setStatus] = useState<ChessnutConnectionStatus>("disconnected");
   const [transport, setTransport] = useState<TransportKind | null>(null);
+  const [connectingKind, setConnectingKind] = useState<TransportKind | null>(null);
   const [placement, setPlacement] = useState<string | null>(null);
   const [battery, setBattery] = useState<BatteryStatus | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -97,6 +121,7 @@ export function useChessnutBoard() {
     if (!board) return;
     const reconnect = options?.reconnect === true;
     setError(null);
+    setConnectingKind(kind);
     setStatusBoth("connecting");
     try {
       await board.connect({ transport: kind, reconnect });
@@ -121,9 +146,12 @@ export function useChessnutBoard() {
         console.info("[Chessnut] auto-reconnect skipped:", message);
         return;
       }
-      if (!/cancel|chooser|user/i.test(message)) {
-        setError(message);
+      if (/cancel|chooser|user/i.test(message)) {
+        return;
       }
+      setError(friendlyChessnutError(message, kind));
+    } finally {
+      setConnectingKind(null);
     }
   }, [setStatusBoth]);
 
@@ -183,6 +211,7 @@ export function useChessnutBoard() {
   return {
     status,
     transport,
+    connectingKind,
     placement,
     battery,
     error,

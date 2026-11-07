@@ -1,0 +1,14 @@
+{
+  "name": "move-by-move-desktop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Move by Move desktop shell (Chromium + Web Bluetooth)",
+  "main": "main.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^35.2.1"
+  }
+}

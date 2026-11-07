@@ -25,6 +25,13 @@ export type OpeningModuleBookExcerpt = {
   basePositions?: OpeningBasePosition[];
 };
 
+export type OpeningExampleLine = {
+  id: string;
+  label: LocalizedText;
+  san: string[];
+  startFen: string;
+};
+
 export type OpeningModule = {
   id: string;
   bookRef: number;
@@ -34,7 +41,10 @@ export type OpeningModule = {
   ecoPrefixes: string[];
   plan: LocalizedText;
   themes: { en: string[]; fr: string[] };
+  /** Primary / default line (kept for older consumers). */
   exampleLine: { san: string[]; startFen: string };
+  /** Optional named variants to scrub through in the module view. */
+  exampleLines?: OpeningExampleLine[];
   basePositions: OpeningBasePosition[];
   gameIds: string[];
   /** Present only when the gitignored local Olibris overlay is loaded. */

@@ -153,6 +153,23 @@ cd web && npm install && npm run dev
 
 Open http://localhost:5173/chess_movebymove/
 
+### Local desktop app (macOS)
+
+Package a double-clickable app into `~/Applications/Move by Move.app`:
+
+```bash
+cd web && npm run app:package
+open "$HOME/Applications/Move by Move.app"
+```
+
+The `.app` embeds the production build, starts a local static server on port 4173, and opens a Chrome/Edge app window. No Node required at runtime (Python 3 only).
+
+One-shot without packaging (dev helper):
+
+```bash
+cd web && npm run app
+```
+
 ### Regenerate lessons (optional)
 
 Lesson JSON is already committed. Re-run only after EPUB/PGN changes.

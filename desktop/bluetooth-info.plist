@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>NSBluetoothAlwaysUsageDescription</key>
+  <string>Move by Move utilise le Bluetooth pour se connecter aux échiquiers Chessnut et ChessUp.</string>
+  <key>NSBluetoothPeripheralUsageDescription</key>
+  <string>Move by Move utilise le Bluetooth pour se connecter aux échiquiers Chessnut et ChessUp.</string>
+</dict>
+</plist>

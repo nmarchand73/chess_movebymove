@@ -76,7 +76,7 @@ const EN: Record<BookId, BookDetails> = {
       + "Original study content — not a reprint of the Olibris / Gambit book.",
     audience: "Juniors and club players · after basic tactics",
     highlights: [
-      "50 modules: Giuoco Piano through Réti",
+      "50 modules: Italian Game through Réti",
       "Example lines and base positions you can step through",
       "Knowledge and skills test batteries",
       "Linked practice games from the annotated library when available",
@@ -184,7 +184,7 @@ const FR: Record<BookId, BookDetails> = {
       + "Contenu pédagogique original — pas une republication du livre Olibris / Gambit.",
     audience: "Juniors et joueurs de club · après les tactiques de base",
     highlights: [
-      "50 modules : du Giuoco Piano au Réti",
+      "50 modules : de l’Italienne au Réti",
       "Lignes d’exemple et positions de base à parcourir",
       "Batteries de tests connaissances et savoir-faire",
       "Parties liées depuis la bibliothèque annotée quand disponibles",

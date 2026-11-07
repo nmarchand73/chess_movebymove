@@ -2,6 +2,7 @@ const KEY = "move-by-move-opening-revision";
 
 export type OpeningRevisionProgress = {
   seenModules: Record<string, boolean>;
+  lastModuleId?: string | null;
   knowledgeScore: number;
   knowledgeTotal: number;
   skillScore: number;
@@ -11,6 +12,7 @@ export type OpeningRevisionProgress = {
 function defaultState(): OpeningRevisionProgress {
   return {
     seenModules: {},
+    lastModuleId: null,
     knowledgeScore: 0,
     knowledgeTotal: 0,
     skillScore: 0,
@@ -35,6 +37,7 @@ export function saveOpeningRevisionProgress(state: OpeningRevisionProgress): voi
 export function markModuleSeen(moduleId: string): void {
   const state = loadOpeningRevisionProgress();
   state.seenModules[moduleId] = true;
+  state.lastModuleId = moduleId;
   saveOpeningRevisionProgress(state);
 }
 

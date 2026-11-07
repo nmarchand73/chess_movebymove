@@ -398,6 +398,7 @@ export function KasparovChessPage({
       <ChessnutConnectBar
         status={chessnut.status}
         transport={chessnut.transport}
+        connectingKind={chessnut.connectingKind}
         battery={chessnut.battery}
         error={chessnut.error}
         supported={chessnut.supported}

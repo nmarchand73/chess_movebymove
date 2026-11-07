@@ -12,26 +12,115 @@ import { Chess } from "../web/node_modules/chess.js/dist/esm/chess.js";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
 
-/** @typedef {{ bookRef: number, id: string, names: {en: string, fr: string}, ecoPrefixes: string[], plan: {en: string, fr: string}, themes: {en: string[], fr: string[]}, line: string[], branches?: string[][], gameIds: string[] }} RawModule */
+/**
+ * @typedef {{ en: string, fr: string }} Loc
+ * @typedef {{ id: string, label: Loc, san: string[] }} NamedLine
+ * @typedef {{
+ *   bookRef: number,
+ *   id: string,
+ *   names: Loc,
+ *   ecoPrefixes: string[],
+ *   plan: Loc,
+ *   themes: { en: string[], fr: string[] },
+ *   line: string[],
+ *   lines?: NamedLine[],
+ *   branches?: string[][],
+ *   gameIds: string[],
+ *   skillDrills?: Array<{ fen: string, bestMoveSan: string, prompt: Loc }>,
+ * }} RawModule
+ */
 
 /** @type {RawModule[]} */
 const RAW = [
   {
     bookRef: 1,
     id: "giuoco-piano",
-    names: { en: "Giuoco Piano", fr: "Giuoco Piano" },
+    names: { en: "Italian Game (Giuoco Piano)", fr: "Partie italienne (Giuoco Piano)" },
     ecoPrefixes: ["C50", "C53", "C54"],
     plan: {
-      en: "Develop fast, castle, and fight for the centre with c3 and d4 while eyeing f7.",
-      fr: "Développez vite, roquez, et disputez le centre avec c3 et d4 en visant f7.",
+      en: "After 1.e4 e5 2.Nf3 Nc6 3.Bc4, develop fast, castle, and fight for the centre (c3–d4 or quiet d3) while eyeing f7.",
+      fr: "Après 1.e4 e5 2.Cf3 Cc6 3.Fc4, développez vite, roquez, et disputez le centre (c3–d4 ou d3 tranquille) en visant f7.",
     },
     themes: {
-      en: ["Bc4 eyes f7", "c3 prepares d4", "Don’t neglect ...d5 for Black"],
-      fr: ["Fc4 vise f7", "c3 prépare d4", "Les Noirs ne doivent pas négliger …d5"],
+      en: [
+        "Bc4 eyes f7",
+        "c3 prepares d4",
+        "Don’t neglect ...d5 for Black",
+        "Pianissimo: d3, solid then expand",
+      ],
+      fr: [
+        "Fc4 vise f7",
+        "c3 prépare d4",
+        "Les Noirs ne doivent pas négliger …d5",
+        "Pianissimo : d3, solide puis expansion",
+      ],
     },
     line: ["e4", "e5", "Nf3", "Nc6", "Bc4", "Bc5", "c3", "Nf6", "d4", "exd4", "cxd4", "Bb4+"],
-    branches: [["e4", "e5", "Nf3", "Nc6", "Bc4", "Bc5", "d3"], ["e4", "e5", "Nf3", "Nc6", "Bc4", "Bc5", "b4"]],
+    lines: [
+      {
+        id: "classical",
+        label: { en: "Classical (c3 & d4)", fr: "Classique (c3 et d4)" },
+        san: ["e4", "e5", "Nf3", "Nc6", "Bc4", "Bc5", "c3", "Nf6", "d4", "exd4", "cxd4", "Bb4+", "Bd2", "Bxd2+", "Nbxd2", "d5"],
+      },
+      {
+        id: "pianissimo",
+        label: { en: "Giuoco Pianissimo", fr: "Giuoco Pianissimo" },
+        san: ["e4", "e5", "Nf3", "Nc6", "Bc4", "Bc5", "d3", "Nf6", "O-O", "d6", "c3", "a6", "Bb3", "Ba7", "Nbd2", "O-O"],
+      },
+      {
+        id: "hungarian",
+        label: { en: "vs …Be7 (Hungarian)", fr: "Contre …Fe7 (Hongroise)" },
+        san: ["e4", "e5", "Nf3", "Nc6", "Bc4", "Be7", "d4", "d6", "dxe5", "dxe5", "Qxd8+", "Bxd8", "Nc3"],
+      },
+    ],
+    branches: [
+      ["e4", "e5", "Nf3", "Nc6", "Bc4", "Bc5", "d3", "Nf6", "O-O"],
+      ["e4", "e5", "Nf3", "Nc6", "Bc4", "Bc5", "c3", "Nf6", "d4", "exd4", "cxd4", "Bb4+", "Bd2"],
+      ["e4", "e5", "Nf3", "Nc6", "Bc4", "Bc5", "b4"],
+    ],
     gameIds: ["chernov-001", "chernov-002", "chernov-005"],
+    skillDrills: [
+      {
+        fen: "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+        bestMoveSan: "Bc4",
+        prompt: {
+          en: "Italian start — find White’s bishop development.",
+          fr: "Début italien — trouvez le développement du fou blanc.",
+        },
+      },
+      {
+        fen: "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+        bestMoveSan: "c3",
+        prompt: {
+          en: "Prepare the central strike — which pawn move?",
+          fr: "Préparez la rupture centrale — quel coup de pion ?",
+        },
+      },
+      {
+        fen: "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2P2N2/PP1P1PPP/RNBQK2R w KQkq - 1 5",
+        bestMoveSan: "d4",
+        prompt: {
+          en: "c3 is played — strike in the centre.",
+          fr: "c3 est joué — frappez au centre.",
+        },
+      },
+      {
+        fen: "r1bqk2r/pppp1ppp/2n2n2/8/1bBPP3/5N2/PP3PPP/RNBQK2R w KQkq - 1 7",
+        bestMoveSan: "Bd2",
+        prompt: {
+          en: "After …Bb4+ — block the check calmly.",
+          fr: "Après …Fb4+ — interposez calmement.",
+        },
+      },
+      {
+        fen: "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+        bestMoveSan: "d3",
+        prompt: {
+          en: "Prefer a solid Italian — which quiet move?",
+          fr: "Préférez une Italienne solide — quel coup calme ?",
+        },
+      },
+    ],
   },
   {
     bookRef: 2,
@@ -1064,15 +1153,77 @@ function buildSkillItem(raw) {
   };
 }
 
+function buildSkillBattery(rawModules) {
+  /** @type {ReturnType<typeof buildSkillItem>[]} */
+  const items = [];
+  for (const raw of rawModules) {
+    if (raw.skillDrills?.length) {
+      for (const drill of raw.skillDrills) {
+        // Validate fen + move
+        const chess = new Chess(drill.fen);
+        const played = chess.move(drill.bestMoveSan);
+        if (!played) {
+          console.warn(`Invalid skill drill ${raw.id} ${drill.bestMoveSan}`);
+          continue;
+        }
+        items.push({
+          fen: drill.fen,
+          bestMoveSan: drill.bestMoveSan,
+          answerModuleId: raw.id,
+          prompt: drill.prompt,
+        });
+      }
+    } else if (raw.bookRef % 2 === 1) {
+      items.push(buildSkillItem(raw));
+    }
+  }
+  return items;
+}
+
+function namedLinesFor(mod) {
+  const startFen = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1";
+  if (mod.lines?.length) {
+    for (const line of mod.lines) applyMoves(line.san);
+    return mod.lines.map((line) => ({
+      id: line.id,
+      label: line.label,
+      san: line.san,
+      startFen,
+    }));
+  }
+  applyMoves(mod.line);
+  return [
+    {
+      id: "main",
+      label: { en: "Main line", fr: "Ligne principale" },
+      san: mod.line,
+      startFen,
+    },
+  ];
+}
+
 const familySections = [
-  { id: "open-games", title: { en: "Open games (1.e4 e5)", fr: "Parties ouvertes (1.e4 e5)" }, refs: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14] },
+  {
+    id: "italian-family",
+    title: {
+      en: "Start here · Italian family",
+      fr: "Commencer ici · Famille italienne",
+    },
+    refs: [1, 2, 3],
+  },
+  {
+    id: "open-games",
+    title: { en: "More open games (1.e4 e5)", fr: "Autres parties ouvertes (1.e4 e5)" },
+    refs: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+  },
   { id: "semi-open", title: { en: "Semi-open (1.e4 other)", fr: "Semi-ouvertes (1.e4 autres)" }, refs: [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28] },
   { id: "closed", title: { en: "Closed & Indian (1.d4)", fr: "Fermées et indiennes (1.d4)" }, refs: [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46] },
   { id: "flank", title: { en: "Flank openings", fr: "Ouvertures de flanc" }, refs: [47, 48, 49, 50] },
 ];
 
 const modules = RAW.map((mod) => {
-  applyMoves(mod.line); // validate
+  const exampleLines = namedLinesFor(mod);
+  const main = exampleLines[0];
   return {
     id: mod.id,
     bookRef: mod.bookRef,
@@ -1080,7 +1231,8 @@ const modules = RAW.map((mod) => {
     ecoPrefixes: mod.ecoPrefixes,
     plan: mod.plan,
     themes: mod.themes,
-    exampleLine: { san: mod.line, startFen: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" },
+    exampleLine: { san: main.san, startFen: main.startFen },
+    exampleLines,
     basePositions: buildBasePositions(mod, RAW),
     gameIds: mod.gameIds,
   };
@@ -1146,7 +1298,7 @@ const curriculum = {
   modules,
   batteries: {
     knowledge: RAW.map(buildKnowledgeItem),
-    skill: RAW.filter((_, i) => i % 2 === 0).map(buildSkillItem),
+    skill: buildSkillBattery(RAW),
   },
 };
 

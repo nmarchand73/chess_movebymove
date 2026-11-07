@@ -8,6 +8,8 @@ import type { ChessnutConnectionStatus } from "../hooks/useChessnutBoard";
 type Props = {
   status: ChessnutConnectionStatus;
   transport: TransportKind | null;
+  /** Which transport is mid-handshake (for button labels). */
+  connectingKind?: TransportKind | null;
   battery: BatteryStatus | null;
   error: string | null;
   supported: { ble: boolean; hid: boolean };
@@ -55,6 +57,7 @@ function guideInlineLabel(guide: BoardGuide, ply: number, t: UiCopy): string {
 export function ChessnutConnectBar({
   status,
   transport,
+  connectingKind = null,
   battery,
   error,
   supported,
@@ -96,19 +99,21 @@ export function ChessnutConnectBar({
           <>
             <button
               type="button"
-              className="secondary"
+              className="secondary chessnut-connect-primary"
               disabled={!supported.ble || connecting}
               onClick={() => onConnect("ble")}
+              title="Échiquier allumé en Bluetooth"
             >
-              {connecting ? t.connecting : t.bluetooth}
+              {connectingKind === "ble" ? t.connecting : t.bluetooth}
             </button>
             <button
               type="button"
               className="secondary"
               disabled={!supported.hid || connecting}
               onClick={() => onConnect("hid")}
+              title="Uniquement avec câble USB"
             >
-              {t.usb}
+              {connectingKind === "hid" ? t.connecting : `${t.usb} (câble)`}
             </button>
           </>
         )}
