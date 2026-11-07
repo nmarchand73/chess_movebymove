@@ -230,6 +230,7 @@ export function buildOpeningsRevisionBook(
         : curriculum.publisher?.en,
     gameCount: curriculum.modules.length,
     sections: curriculum.sections.map((section) => ({
+      id: section.id,
       title: section.title.en,
       range: section.refs.length
         ? `${section.refs[0]}–${section.refs[section.refs.length - 1]}`
@@ -247,8 +248,9 @@ export function buildKasparovChessBook(curriculum: KasparovChessCurriculum): Boo
     publisher: curriculum.publisher?.en,
     gameCount: curriculum.exercises.length,
     sections: curriculum.games.map((game) => {
-      const positions = curriculum.exercises.filter((ex) => ex.gameId === game.id).length;
+      const positions = curriculum.exercises.filter((ex) => ex.game === game.id).length;
       return {
+        id: `game-${game.id}`,
         title: `Game ${game.id}`,
         range: String(positions),
         blurb: `${game.white} – ${game.black} · ${game.opening.en}`,
@@ -265,6 +267,7 @@ export function buildTacticsRevisionBook(curriculum: TacticsRevisionCurriculum):
     publisher: curriculum.publisher?.en,
     gameCount: curriculum.modules.length,
     sections: curriculum.sections.map((section) => ({
+      id: section.id,
       title: section.title.en,
       range: String(section.moduleIds.length),
       blurb: section.title.en,

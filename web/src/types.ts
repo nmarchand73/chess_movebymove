@@ -82,6 +82,8 @@ export type OpeningsRevisionCurriculum = {
 };
 
 export type BookSection = {
+  /** Stable id for deep-linking (curriculum sections). */
+  id?: string;
   title: string;
   range: string;
   blurb: string;

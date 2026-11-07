@@ -56,6 +56,7 @@ function App() {
   const [activeOpeningModuleId, setActiveOpeningModuleId] = useState<string | null>(null);
   const [activeKasparovExerciseId, setActiveKasparovExerciseId] = useState<string | null>(null);
   const [activeTacticsModuleId, setActiveTacticsModuleId] = useState<string | null>(null);
+  const [activeTacticsSectionId, setActiveTacticsSectionId] = useState<string | null>(null);
   const [showOpeningRevision, setShowOpeningRevision] = useState(false);
   const [showKasparovChess, setShowKasparovChess] = useState(false);
   const [showTacticsRevision, setShowTacticsRevision] = useState(false);
@@ -118,7 +119,14 @@ function App() {
     setActiveKasparovExerciseId(null);
     setShowTacticsRevision(false);
     setActiveTacticsModuleId(null);
+    setActiveTacticsSectionId(null);
   }, []);
+
+  function scrollAppToTop() {
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+  }
 
   const goLanding = useCallback(() => {
     setShowSettings(false);
@@ -126,6 +134,7 @@ function App() {
     clearVirtualViews();
     setView("landing");
     setHash("landing");
+    scrollAppToTop();
   }, [clearVirtualViews]);
 
   const goLibrary = useCallback(() => {
@@ -134,6 +143,7 @@ function App() {
     clearVirtualViews();
     setView("library");
     setHash("library");
+    scrollAppToTop();
   }, [clearVirtualViews]);
 
   function openLesson(lesson: LessonSummary) {
@@ -143,6 +153,7 @@ function App() {
     setActiveLesson(lesson);
     setView("library");
     setHash("library");
+    scrollAppToTop();
   }
 
   function openOpeningsRevision(moduleId?: string | null) {
@@ -157,6 +168,7 @@ function App() {
     setShowOpeningRevision(true);
     setView("library");
     setHash("library");
+    scrollAppToTop();
   }
 
   function openKasparovChess(exerciseId?: string | null) {
@@ -171,9 +183,10 @@ function App() {
     setShowKasparovChess(true);
     setView("library");
     setHash("library");
+    scrollAppToTop();
   }
 
-  function openTacticsRevision(moduleId?: string | null) {
+  function openTacticsRevision(moduleId?: string | null, sectionId?: string | null) {
     setShowSettings(false);
     setActiveLesson(null);
     setShowOpeningRevision(false);
@@ -182,9 +195,11 @@ function App() {
     setActiveKasparovExerciseId(null);
     setSelectedBook("tactics-revision");
     setActiveTacticsModuleId(moduleId ?? null);
+    setActiveTacticsSectionId(sectionId ?? null);
     setShowTacticsRevision(true);
     setView("library");
     setHash("library");
+    if (!sectionId) scrollAppToTop();
   }
 
   async function continueStudying() {
@@ -280,9 +295,11 @@ function App() {
             curriculum={tacticsRevision}
             lang={lang}
             initialModuleId={activeTacticsModuleId}
+            initialSectionId={activeTacticsSectionId}
             onBack={() => {
               setShowTacticsRevision(false);
               setActiveTacticsModuleId(null);
+              setActiveTacticsSectionId(null);
               setSelectedBook(null);
             }}
           />
@@ -301,7 +318,7 @@ function App() {
         <Home
           lang={lang}
           selectedBook={selectedBook && VIRTUAL_BOOKS.has(selectedBook) ? null : selectedBook}
-          onSelectBook={(bookId) => {
+          onSelectBook={(bookId, options) => {
             if (bookId === "openings-revision") {
               openOpeningsRevision(null);
               return;
@@ -311,11 +328,12 @@ function App() {
               return;
             }
             if (bookId === "tactics-revision") {
-              openTacticsRevision(null);
+              openTacticsRevision(null, options?.sectionId ?? null);
               return;
             }
             clearVirtualViews();
             setSelectedBook(bookId);
+            scrollAppToTop();
           }}
           onOpenLesson={openLesson}
           onOpenSettings={() => setShowSettings(true)}

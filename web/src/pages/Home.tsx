@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import type { BookId, BookMeta, LessonIndex, LessonSummary } from "../types";
+import type { BookId, BookMeta, BookSection, LessonIndex, LessonSummary } from "../types";
 import { OpeningLabel } from "../components/OpeningLabel";
 import { GameResultBadge, gameWinner, resultWinnerClass } from "../components/GameResultBadge";
 import { usePerformanceElos } from "../hooks/usePerformanceElos";
@@ -15,10 +15,14 @@ import { seenTacticsModuleCount } from "../lib/tacticsRevisionProgress";
 import { localizeSectionBlurb, localizeSectionTitle } from "../lib/sectionI18n";
 import { fill, ui, type UiCopy } from "../lib/uiCopy";
 
+type SelectBookOptions = {
+  sectionId?: string;
+};
+
 type Props = {
   lang: Lang;
   selectedBook: BookId | null;
-  onSelectBook: (bookId: BookId | null) => void;
+  onSelectBook: (bookId: BookId | null, options?: SelectBookOptions) => void;
   onOpenLesson: (lesson: LessonSummary) => void;
   onOpenSettings: () => void;
   onBackToLanding?: () => void;
@@ -70,7 +74,7 @@ function LibraryView({
 }: {
   index: LessonIndex;
   lang: Lang;
-  onSelectBook: (bookId: BookId) => void;
+  onSelectBook: (bookId: BookId, options?: SelectBookOptions) => void;
   onOpenLesson: (lesson: LessonSummary) => void;
   onOpenSettings: () => void;
   onBackToLanding?: () => void;
@@ -181,82 +185,106 @@ function LibraryView({
           const hasProgress = completedCount > 0 || inProgressCount > 0;
           const isResumeBook = lessons.some((l) => l.id === progress.lastLessonId);
 
+          const sectionRangeLabel = (section: BookSection) => {
+            const n = Number(section.range);
+            if (book.id === "kasparov-chess" && Number.isFinite(n)) {
+              return fill(n === 1 ? t.sectionPosition : t.sectionPositions, { n });
+            }
+            if (book.id === "tactics-revision" && Number.isFinite(n)) {
+              return fill(n === 1 ? t.sectionMotif : t.sectionMotifs, { n });
+            }
+            if (book.id === "openings-revision") {
+              return fill(t.openingsRange, { range: section.range });
+            }
+            return fill(t.gamesRange, { range: section.range });
+          };
+
           return (
-            <button
+            <article
               key={book.id}
-              type="button"
               className={`book-card book-card-${book.id}${isResumeBook ? " is-resume" : ""}${hasProgress ? " has-progress" : ""}`}
-              onClick={() => onSelectBook(book.id)}
               role="listitem"
             >
-              <div className="book-card-top">
-                <p className="book-card-author">
-                  {book.author}
-                  {book.publisher ? <span className="book-card-publisher"> · {book.publisher}</span> : null}
-                </p>
-                {isResumeBook ? <span className="book-card-pill">{t.inProgress}</span> : null}
-              </div>
-              <h2 className="book-card-title">{bookDisplayTitle(book.id, lang, book.title)}</h2>
-              {details ? (
-                <>
-                  <p className="book-card-tagline">{details.tagline}</p>
-                  <p className="book-card-meta">
-                    <span>{details.published}</span>
-                    <span className="book-card-meta-sep" aria-hidden="true">·</span>
-                    <span>{details.audience}</span>
+              <button
+                type="button"
+                className="book-card-main"
+                onClick={() => onSelectBook(book.id)}
+              >
+                <div className="book-card-top">
+                  <p className="book-card-author">
+                    {book.author}
+                    {book.publisher ? <span className="book-card-publisher"> · {book.publisher}</span> : null}
                   </p>
-                  <p className="book-card-description">{details.description}</p>
-                  <ul className="book-card-highlights">
-                    {details.highlights.map((item) => (
-                      <li key={item}>{item}</li>
-                    ))}
-                  </ul>
-                  {details.famousFor ? (
-                    <blockquote className="book-card-quote">{details.famousFor}</blockquote>
-                  ) : null}
-                </>
-              ) : null}
-              <p className="book-card-stats">
-                {book.id === "intentions"
-                  ? fill(t.selectedFromBoth, { n: book.gameCount })
-                  : book.id === "openings-revision"
-                    ? fill(t.openingModules, { n: book.gameCount })
-                    : book.id === "kasparov-chess"
-                      ? fill(t.kasparovPositions, { n: book.gameCount })
-                      : book.id === "tactics-revision"
-                        ? fill(t.tacticsRevisionProgress, {
-                            seen: tacticsSeen,
-                            total: book.gameCount,
-                          })
-                        : fill(t.annotatedGames, { n: book.gameCount })}
-              </p>
+                  {isResumeBook ? <span className="book-card-pill">{t.inProgress}</span> : null}
+                </div>
+                <h2 className="book-card-title">{bookDisplayTitle(book.id, lang, book.title)}</h2>
+                {details ? (
+                  <>
+                    <p className="book-card-tagline">{details.tagline}</p>
+                    <p className="book-card-meta">
+                      <span>{details.published}</span>
+                      <span className="book-card-meta-sep" aria-hidden="true">·</span>
+                      <span>{details.audience}</span>
+                    </p>
+                    <p className="book-card-description">{details.description}</p>
+                    <ul className="book-card-highlights">
+                      {details.highlights.map((item) => (
+                        <li key={item}>{item}</li>
+                      ))}
+                    </ul>
+                    {details.famousFor ? (
+                      <blockquote className="book-card-quote">{details.famousFor}</blockquote>
+                    ) : null}
+                  </>
+                ) : null}
+                <p className="book-card-stats">
+                  {book.id === "intentions"
+                    ? fill(t.selectedFromBoth, { n: book.gameCount })
+                    : book.id === "openings-revision"
+                      ? fill(t.openingModules, { n: book.gameCount })
+                      : book.id === "kasparov-chess"
+                        ? fill(t.kasparovPositions, { n: book.gameCount })
+                        : book.id === "tactics-revision"
+                          ? fill(t.tacticsRevisionProgress, {
+                              seen: tacticsSeen,
+                              total: book.gameCount,
+                            })
+                          : fill(t.annotatedGames, { n: book.gameCount })}
+                </p>
+              </button>
               {book.sections && book.sections.length > 0 ? (
                 <ul className="book-card-sections" aria-label={t.books}>
-                  {(book.id === "intentions" ? book.sections.slice(0, 6) : book.sections).map((section) => (
-                    <li
-                      key={section.title}
-                      title={localizeSectionBlurb(section.title, section.blurb, lang)}
-                    >
-                      <span className="book-card-section-name">
-                        {localizeSectionTitle(section.title, lang)}
-                      </span>
-                      <span className="book-card-section-range">
-                        {(() => {
-                          const n = Number(section.range);
-                          if (book.id === "kasparov-chess" && Number.isFinite(n)) {
-                            return fill(n === 1 ? t.sectionPosition : t.sectionPositions, { n });
-                          }
-                          if (book.id === "tactics-revision" && Number.isFinite(n)) {
-                            return fill(n === 1 ? t.sectionMotif : t.sectionMotifs, { n });
-                          }
-                          if (book.id === "openings-revision") {
-                            return fill(t.openingsRange, { range: section.range });
-                          }
-                          return fill(t.gamesRange, { range: section.range });
-                        })()}
-                      </span>
-                    </li>
-                  ))}
+                  {(book.id === "intentions" ? book.sections.slice(0, 6) : book.sections).map((section) => {
+                    const canDeepLink =
+                      Boolean(section.id) &&
+                      (isTacticsRevision || isOpeningsRevision || isKasparovChess);
+                    const label = (
+                      <>
+                        <span className="book-card-section-name">
+                          {localizeSectionTitle(section.title, lang)}
+                        </span>
+                        <span className="book-card-section-range">{sectionRangeLabel(section)}</span>
+                      </>
+                    );
+                    return (
+                      <li
+                        key={section.id ?? section.title}
+                        title={localizeSectionBlurb(section.title, section.blurb, lang)}
+                      >
+                        {canDeepLink ? (
+                          <button
+                            type="button"
+                            className="book-card-section-link"
+                            onClick={() => onSelectBook(book.id, { sectionId: section.id })}
+                          >
+                            {label}
+                          </button>
+                        ) : (
+                          label
+                        )}
+                      </li>
+                    );
+                  })}
                   {book.id === "intentions" && book.sections.length > 6 ? (
                     <li className="book-card-sections-more">
                       {fill(t.moreIntentions, { n: book.sections.length - 6 })}
@@ -264,7 +292,11 @@ function LibraryView({
                   ) : null}
                 </ul>
               ) : null}
-              <div className="book-card-footer">
+              <button
+                type="button"
+                className="book-card-footer"
+                onClick={() => onSelectBook(book.id)}
+              >
                 <div className="book-card-progress-wrap">
                   <div className="book-card-progress-bar" aria-hidden="true">
                     <span style={{ width: `${pctComplete}%` }} />
@@ -283,8 +315,8 @@ function LibraryView({
                     ? t.browseCurriculum
                     : t.browseGames}
                 </span>
-              </div>
-            </button>
+              </button>
+            </article>
           );
         })}
       </div>

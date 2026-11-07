@@ -2964,14 +2964,14 @@ button {
   transition: background 0.12s ease, border-color 0.12s ease, transform 0.1s ease, filter 0.12s ease, box-shadow 0.12s ease;
 }
 
-button:hover:not(:disabled):not(.secondary):not(.back-btn):not(.text-btn):not(.back-link):not(.library-back):not(.book-card):not(.continue-card):not(.lesson-row):not(.library-resume):not(.san-link):not(.alt-chip):not(.icon-btn):not(.landing-cta-primary):not(.landing-cta-secondary):not(.landing-slide-dot):not(.commentary-listen):not(.settings-preview-btn):not(.settings-lang-btn):not(.opening-pos-choice):not(.opening-pos-tab):not(.opening-module-card):not(.opening-linked-game) {
+button:hover:not(:disabled):not(.secondary):not(.back-btn):not(.text-btn):not(.back-link):not(.library-back):not(.book-card):not(.book-card-main):not(.book-card-footer):not(.book-card-section-link):not(.continue-card):not(.lesson-row):not(.library-resume):not(.san-link):not(.alt-chip):not(.icon-btn):not(.landing-cta-primary):not(.landing-cta-secondary):not(.landing-slide-dot):not(.commentary-listen):not(.settings-preview-btn):not(.settings-lang-btn):not(.opening-pos-choice):not(.opening-pos-tab):not(.opening-module-card):not(.opening-linked-game) {
   background: linear-gradient(135deg, #ff4d7f 0%, var(--accent-hover) 60%, #ad1457 100%);
   border-color: transparent;
   filter: brightness(1.03);
   box-shadow: 0 10px 22px rgba(233, 30, 99, 0.3);
 }
 
-button:active:not(:disabled):not(.book-card):not(.continue-card):not(.lesson-row):not(.library-resume):not(.landing-slide-dot):not(.commentary-listen):not(.opening-module-card):not(.opening-pos-choice):not(.opening-pos-tab) {
+button:active:not(:disabled):not(.book-card):not(.book-card-main):not(.book-card-footer):not(.book-card-section-link):not(.continue-card):not(.lesson-row):not(.library-resume):not(.landing-slide-dot):not(.commentary-listen):not(.opening-module-card):not(.opening-pos-choice):not(.opening-pos-tab) {
   transform: scale(0.98);
 }
 
@@ -3747,12 +3747,62 @@ button:disabled {
   transition: border-color 0.15s, box-shadow 0.15s, transform 0.12s;
 }
 
-.book-card:hover:not(:disabled) {
+.book-card:hover {
   background: color-mix(in srgb, var(--accent-pale) 28%, var(--bg-elevated));
   border-color: var(--accent-soft);
   box-shadow: var(--shadow);
   transform: translateY(-1px);
   color: var(--ink);
+}
+
+button.book-card-main,
+button.book-card-footer,
+button.book-card-section-link {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.5rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  background-image: none;
+  color: inherit;
+  font: inherit;
+  font-weight: inherit;
+  text-align: left;
+  box-shadow: none;
+  filter: none;
+  cursor: pointer;
+}
+
+button.book-card-main:hover:not(:disabled),
+button.book-card-footer:hover:not(:disabled),
+button.book-card-section-link:hover:not(:disabled) {
+  background: transparent;
+  background-image: none;
+  border-color: transparent;
+  color: inherit;
+  box-shadow: none;
+  filter: none;
+  transform: none;
+}
+
+button.book-card-main:active:not(:disabled),
+button.book-card-footer:active:not(:disabled),
+button.book-card-section-link:active:not(:disabled) {
+  transform: none;
+  filter: none;
+  box-shadow: none;
+}
+
+.book-card-main:focus-visible,
+.book-card-footer:focus-visible,
+.book-card-section-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 .book-card-chernov {
@@ -3902,12 +3952,31 @@ button:disabled {
   align-items: baseline;
   justify-content: space-between;
   gap: 0.35rem 0.75rem;
-  padding: 0.35rem 0.55rem;
+  padding: 0;
   border-radius: var(--radius-sm);
   font-size: 0.76rem;
   color: var(--ink-muted);
   background: var(--bg);
   border: 1px solid var(--border);
+}
+
+button.book-card-section-link {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.35rem 0.75rem;
+  padding: 0.35rem 0.55rem;
+  border-radius: inherit;
+}
+
+button.book-card-section-link:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--accent-pale) 40%, transparent);
+  color: var(--ink);
+}
+
+.book-card-sections li:not(:has(.book-card-section-link)) {
+  padding: 0.35rem 0.55rem;
 }
 
 .book-card-section-name {
@@ -3929,7 +3998,8 @@ button:disabled {
   padding-left: 0;
 }
 
-.book-card-footer {
+.book-card-footer,
+button.book-card-footer {
   display: flex;
   flex-direction: column;
   gap: 0.55rem;
@@ -5625,6 +5695,7 @@ button.opening-linked-game:hover:not(:disabled),
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+  scroll-margin-top: 0.75rem;
 }
 
 .tactics-revision .tactics-catalog-section h2 {

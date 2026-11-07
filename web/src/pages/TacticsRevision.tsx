@@ -27,6 +27,7 @@ type Props = {
   curriculum: TacticsRevisionCurriculum;
   lang: Lang;
   initialModuleId?: string | null;
+  initialSectionId?: string | null;
   onBack: () => void;
 };
 
@@ -141,7 +142,13 @@ function sourceBadge(book: string, ref: string, wcLabel: string): string {
   return ref ? `${book} · ${ref}` : book;
 }
 
-export function TacticsRevisionPage({ curriculum, lang, initialModuleId, onBack }: Props) {
+export function TacticsRevisionPage({
+  curriculum,
+  lang,
+  initialModuleId,
+  initialSectionId,
+  onBack,
+}: Props) {
   const t = ui(lang);
   const [mode, setMode] = useState<Mode>(initialModuleId ? "teach" : "catalog");
   const [moduleId, setModuleId] = useState<string | null>(initialModuleId ?? null);
@@ -156,6 +163,7 @@ export function TacticsRevisionPage({ curriculum, lang, initialModuleId, onBack 
   const [awaitingPhysicalSync, setAwaitingPhysicalSync] = useState(false);
   const lastWrongGuessPlacement = useRef<string | null>(null);
   const lastAcceptedPlacement = useRef<string | null>(null);
+  const landedSectionRef = useRef(false);
 
   const progress = useMemo(() => {
     void progressTick;
@@ -209,6 +217,12 @@ export function TacticsRevisionPage({ curriculum, lang, initialModuleId, onBack 
         ? chessnut.placement
         : null;
 
+  function scrollPageToTop() {
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+  }
+
   function openModule(id: string) {
     setModuleId(id);
     markTacticsModuleSeen(id);
@@ -221,6 +235,7 @@ export function TacticsRevisionPage({ curriculum, lang, initialModuleId, onBack 
     setPlayedSan(null);
     setPracticeDone(false);
     setExerciseIndex(0);
+    scrollPageToTop();
   }
 
   function startPractice() {
@@ -233,6 +248,7 @@ export function TacticsRevisionPage({ curriculum, lang, initialModuleId, onBack 
     setPracticeDone(false);
     lastWrongGuessPlacement.current = null;
     lastAcceptedPlacement.current = null;
+    scrollPageToTop();
   }
 
   const doneLocked = Boolean(
@@ -430,6 +446,31 @@ export function TacticsRevisionPage({ curriculum, lang, initialModuleId, onBack 
     void chessup.sendAssistance(chessUpAssistanceClear());
   }, [physicalSource, exercise, exerciseIndex, chessup.sendAssistance]);
 
+  useEffect(() => {
+    const shouldLandOnSection =
+      mode === "catalog" && Boolean(initialSectionId) && !landedSectionRef.current;
+    if (!shouldLandOnSection) {
+      scrollPageToTop();
+      return;
+    }
+    landedSectionRef.current = true;
+    const targetId = `tactics-section-${initialSectionId}`;
+    const scrollToSection = (attempts = 0) => {
+      const el = document.getElementById(targetId);
+      if (!el) {
+        if (attempts < 12) {
+          requestAnimationFrame(() => scrollToSection(attempts + 1));
+          return;
+        }
+        scrollPageToTop();
+        return;
+      }
+      const top = el.getBoundingClientRect().top + window.scrollY;
+      window.scrollTo({ top: Math.max(0, top - 8), left: 0, behavior: "auto" });
+    };
+    requestAnimationFrame(() => scrollToSection());
+  }, [mode, moduleId, initialSectionId]);
+
   const seen = seenTacticsModuleCount(progress);
   const coachStep =
     example && linePly === 0
@@ -517,7 +558,11 @@ export function TacticsRevisionPage({ curriculum, lang, initialModuleId, onBack 
             );
           })()}
           {curriculum.sections.map((section) => (
-            <section key={section.id} className="opening-revision-section tactics-catalog-section">
+            <section
+              key={section.id}
+              id={`tactics-section-${section.id}`}
+              className="opening-revision-section tactics-catalog-section"
+            >
               <h2>{localized(section.title, lang)}</h2>
               <ul className="opening-module-grid tactics-catalog-grid">
                 {section.moduleIds.map((id) => {
