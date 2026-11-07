@@ -1,0 +1,205 @@
+{
+  "batch": 1,
+  "items": [
+    {
+      "id": "wc-00083",
+      "caption": "23A. Black moves. When a player castles King-side, his f-Pawn is often pinned by the hostile King Bishop. In this case, White is trying to drive off the hostile pinning Bishop. He has overlooked Black’s reply, which wins the exchange: 1 ... xg3!",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00084",
+      "caption": "23B. White moves. His Rook is attacked by Black’s Knight. The reply 2 fxg3 is impossible because White’s f-Pawn is pinned. White must therefore play 2 hxg4, permitting the loss of the exchange by 2 ... xf1. A pinned Pawn is a paralyzed Pawn!",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00085",
+      "caption": "24A. White moves. Observe how his opponent’s pieces are all jumbled together. His Queen, normally the strongest piece on the board, has no move whatever! 1 g6! exploits this tragicomic situation.",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00086",
+      "caption": "25. Black moves. Mindful of the axiom “the defensive power of a pinned Pawn is only imaginary,” how does he win material at once?",
+      "chapter": "QUIZ ON PINS"
+    },
+    {
+      "id": "wc-00088",
+      "caption": "26. White moves. Black’s King and Queen are diagonally in line. What winning idea does White immediately look for?",
+      "chapter": "QUIZ ON PINS"
+    },
+    {
+      "id": "wc-00089",
+      "caption": "27. White moves. Is there a direct pin? If not, can he exchange and then enforce a winning pin?",
+      "chapter": "QUIZ ON PINS"
+    },
+    {
+      "id": "wc-00090",
+      "caption": "28. White moves. How can he force Black’s King and Knight into a pin? How will White then add pressure to the pin?",
+      "chapter": "QUIZ ON PINS"
+    },
+    {
+      "id": "wc-00091",
+      "caption": "29. White moves. Black’s King and Queen are in line. Is there a winning pin?",
+      "chapter": "QUIZ ON PINS"
+    },
+    {
+      "id": "wc-00092",
+      "caption": "31A. White moves. He sees that his opponent’s King and Queen are in line on the e-file; therefore he plays 1 e1 pinning the Black Queen. Despite the fact that the Rook is guarded by White’s Queen, this move is a gross blunder. This Black demonstrates by breaking the pin, which must be done at once: 1 ... xf2+.",
+      "chapter": "BREAKING A PIN"
+    },
+    {
+      "id": "wc-00094",
+      "caption": "33A. White moves. Black’s Knight at e5 is pinned: moving it would cost Black the exchange. White wants to strike at the pinned Knight (already attacked three times!) still another time. As a rule, the most effective way to do this is to hit the pinned piece with a Pawn, therefore: 1 d4. Instead of meekly losing the exchange, Black, showing great presence of mind, replies 1 ... bc8!",
+      "chapter": "BREAKING A PIN"
+    },
+    {
+      "id": "wc-00096",
+      "caption": "31B. White moves. His only means of getting out of check is to move his King. If 2 g2, xe1+ wins at once: it removes the pinning piece and also wins White’s Queen. If 2 h1, xe1+ again removing the pinning piece and remaining with an enormous material advantage. White’s pin was tempting but much too superficial.",
+      "chapter": "BREAKING A PIN"
+    },
+    {
+      "id": "wc-00097",
+      "caption": "33B. White moves. White’s quadruple attack on the pinned Knight has been ably parried by his opponent’s counter-thrust. If White captures the pinned Knight, Black simply answers 2 ... xc2.",
+      "chapter": "BREAKING A PIN"
+    },
+    {
+      "id": "wc-00098",
+      "caption": "34A. White moves. Black is giving check and simultaneously attacking the Knight. White is helpless to salvage the Knight, but he notes that after it is captured, Black’s King and Queen will be diagonally in line. A pin by d3 will then be feasible. So:",
+      "chapter": "BREAKING A PIN"
+    },
+    {
+      "id": "wc-00101",
+      "caption": "35A. Black moves. How can he increase his pressure on the pinned Bishop? Not by 1 ... af8, even though the Bishop is then attacked three times and defended twice. This would be useless, for 2 ... xf4 would obviously be out of the question. Black therefore strikes at the Bishop with a Pawn – the best way: 1 ... g5. White tries his only defense: 2 g4, pinning the pinner!",
+      "chapter": "BREAKING A PIN"
+    },
+    {
+      "id": "wc-00102",
+      "caption": "36A. White moves. He is a Rook down but sees a ray of hope. Black’s King and Queen are in direct line, permitting the pin 1 c4. Black cannot immediately remove the Bishop, which is supported by a Pawn. But this Pawn is in turn supported by a Pawn which is pinned! Hence the Knight’s Pawn is not really protected!",
+      "chapter": "BREAKING A PIN"
+    },
+    {
+      "id": "wc-00103",
+      "caption": "35B. Black moves. If he moves his King to f8 (not 2 ... h8??; 3 e5 with a winning pin) to unpin the g-Pawn, White has time to retreat his Bishop. Hence, if Black is to break the pin, he must do so at once. The way to do this is 2 ... h5! White’s Queen must release the pin, allowing Black to win the unfortunate Bishop.",
+      "chapter": "BREAKING A PIN"
+    },
+    {
+      "id": "wc-00105",
+      "caption": "37. Black moves. White has just played f4, hitting out at the pinned Bishop. How does Black break the pin, winning at once by demonstrating that the advance of the Pawn was a mistake?",
+      "chapter": "QUIZ ON BREAKING A PIN"
+    },
+    {
+      "id": "wc-00107",
+      "caption": "38. Black moves. His Knight is attacked twice, defended only once and cannot obtain any additional support. Yet Black can release himself from the pin by creating a mating threat with ... ?",
+      "chapter": "QUIZ ON BREAKING A PIN"
+    },
+    {
+      "id": "wc-00108",
+      "caption": "39. Black moves. White’s last move was f3, striking at the pinned Knight. What counter-pin will give Black a decisive advantage?",
+      "chapter": "QUIZ ON BREAKING A PIN"
+    },
+    {
+      "id": "wc-00110",
+      "caption": "41. White moves. Black’s Knight has moved from d5 to e3, attacking three pieces: White’s Queen and both Rooks. The threats are as deadly as they are graceful: a Knight attack does not permit interposition to ward off the blow. Knight forks occur almost as often as pins; it is vital to recognize forking opportunities as they arise. Expert handling of the Knights is the hallmark of a fine player.",
+      "chapter": "BASIC PATTERN FOR THE KNIGHT FORK"
+    },
+    {
+      "id": "wc-00113",
+      "caption": "42A. White moves. He has a Knight fork at his disposal, although it seems futile to look for it when his Knight is pinned and unable to move! To find the combination (and nearly all of chess is analysis of combinations), we must examine every possible check or capture. Then we can anticipate the following:",
+      "chapter": "BASIC PATTERN FOR THE KNIGHT FORK"
+    },
+    {
+      "id": "wc-00114",
+      "caption": "44A. White moves. He sees that he has a murderous check at e7 – if only Black’s Bishop did not guard this forking square. He therefore removes the protective Bishop:",
+      "chapter": "BASIC PATTERN FOR THE KNIGHT FORK"
+    },
+    {
+      "id": "wc-00117",
+      "caption": "42B. Black moves. White’s surprising Queen sacrifice set the stage for the elegant Knight fork which followed. This violent thrust unpinned the Knight, freeing it for the fork pictured above. The deadliness and economy of the fork on King and Queen displays this tactical device in its most attractive form. In the following example, a mating threat is used to produce the same effect.",
+      "chapter": "BASIC PATTERN FOR THE KNIGHT FORK"
+    },
+    {
+      "id": "wc-00119",
+      "caption": "44B. Black moves. Having removed the hindrance to his plans, White was able to execute an elegant Knight fork. Black must move his King, allowing the Knight to capture the Queen.",
+      "chapter": "BASIC PATTERN FOR THE KNIGHT FORK"
+    },
+    {
+      "id": "wc-00120",
+      "caption": "45A. Black moves. When you plan a combination, you must review every possible check and capture. Black sees that 1 ... f3+ would win White’s Bishop if the forking square were not protected by White’s Queen. Yet there is a way to lure the Queen from the protection of f3: 1 ... xd4!! This is pretty much the same combination as in 42A.",
+      "chapter": "BASIC PATTERN FOR THE KNIGHT FORK"
+    },
+    {
+      "id": "wc-00122",
+      "caption": "46A. Black moves. He is a Pawn ahead, but his King is exposed to attack. He frees himself from all difficulties with the astonishing resource 1 ... xe2+! Thereby he gives up the Queen for only a Knight; but after 2 xe2 we see the point: 2 ... xd4+.",
+      "chapter": "BASIC PATTERN FOR THE KNIGHT FORK"
+    },
+    {
+      "id": "wc-00124",
+      "caption": "45B. White moves. He naturally replies 2 xd4. Has Black made a mistake? No; he has simply followed the basic combinative principle of examining every possible capture and check on the board. Now comes 2 ... f3+, a pretty forking move which regains the Queen and leaves Black a piece ahead. Such opportunities are frequently overlooked.",
+      "chapter": "BASIC PATTERN FOR THE KNIGHT FORK"
+    },
+    {
+      "id": "wc-00126",
+      "caption": "47B. White moves. His King must get out of check, whereupon Black replies 3 xc3, coming out the exchange ahead.",
+      "chapter": "BASIC PATTERN FOR THE KNIGHT FORK"
+    },
+    {
+      "id": "wc-00127",
+      "caption": "48A. White moves. The only forcing measure is a check: 1 a8+. Black must interpose: 1 ... d8. Now there is a win by 2 c6 followed by a general exchange of pieces. But something even more forceful is available.",
+      "chapter": "BASIC PATTERN FOR THE KNIGHT FORK"
+    },
+    {
+      "id": "wc-00130",
+      "caption": "49A. Black moves. The scope of the White Queen is severely limited. This prompts Black’s first move; the object is to drive the Queen to an even more unfavorable square, when Black is sure to profit thereby.",
+      "chapter": "BASIC PATTERN FOR THE KNIGHT FORK"
+    },
+    {
+      "id": "wc-00132",
+      "caption": "50A. White moves. His extra Pawn is not enough to assure an easy win. Following our rules, he looks for a check or capture. 1 xc6+ is not feasible, the c-Pawn is doubly protected. But, continuing to look for violent moves, we hit on this:",
+      "chapter": "BASIC PATTERN FOR THE KNIGHT FORK"
+    },
+    {
+      "id": "wc-00133",
+      "caption": "48B. White moves. Our rule for planning combinations still holds: examine every capture and check! Therefore: 2 xd8+! (a capture and a check), xd8 and now the pretty Knight fork 3 f7+ wins the Rook.",
+      "chapter": "BASIC PATTERN FOR THE KNIGHT FORK"
+    },
+    {
+      "id": "wc-00134",
+      "caption": "50B. White moves. If he plays 2 xc6+, then 2 ... xc6 leaves each player with a Rook apiece. Instead, White obeys an important general principle: when you have a choice in capturing, take the most important enemy piece. Thus: 2 xb4!, xb4 and now the fork 3 xc6+ leaves White a piece ahead!",
+      "chapter": "BASIC PATTERN FOR THE KNIGHT FORK"
+    },
+    {
+      "id": "wc-00136",
+      "caption": "51A. White moves. He has a strong move here in 1 ae1 (pinning!). But he prefers a clearer, because more forceful move. White therefore plays 1 d5, already picturing a piquant Knight fork in his mind’s eye. Continuing to guard his exposed Knight, Black replies 1 ... e6.",
+      "chapter": "BASIC PATTERN FOR THE KNIGHT FORK"
+    },
+    {
+      "id": "wc-00138",
+      "caption": "53A. Black moves. He begins with 1 ... xe3! in order to force a pretty Knight fork. White would like to play 2 xd4 to eliminate the dangerous Knight, but this would lose a piece (why?). White therefore plays 2 fxe3. Black replies 2 ... c2, revealing his nefarious little plan.",
+      "chapter": "BASIC PATTERN FOR THE KNIGHT FORK"
+    },
+    {
+      "id": "wc-00140",
+      "caption": "52B. White moves. After the previous exchange, it is easy to see that the Black Rooks would be particularly susceptible to a Knight fork at d5. How can we vacate this square for immediate occupation by the Knight? By another exchange, of course!",
+      "chapter": "BASIC PATTERN FOR THE KNIGHT FORK"
+    },
+    {
+      "id": "wc-00142",
+      "caption": "53B. White moves. Wherever he moves the menaced Rook, there follows 3 ... xe3+, forking King and Rook. The sequence is enchantingly economical: (1) Black removes the protective Knight; (2) he gains time by attacking a Rook; (3) he wins the other Rook by a forking check, with the exchange to the good.",
+      "chapter": "BASIC PATTERN FOR THE KNIGHT FORK"
+    },
+    {
+      "id": "wc-00144",
+      "caption": "54A. Black moves. His Queen is attacked by White’s Knight. Should the Queen flee timidly? – or should we apply the rule of first looking at every possible check or capture? Several captures are possible, and one of them is good; but which one is it? The move is 1 ... xd4! And there is method in its madness!",
+      "chapter": "BASIC PATTERN FOR THE KNIGHT FORK"
+    },
+    {
+      "id": "wc-00145",
+      "caption": "55A. White moves. He begins with 1 c6, attacking the Rook at Black’s d8. Relatively best is 1 ... xc6, losing “only” the exchange. But suppose Black is stubborn and tries to save the Rook? Then we get 1 ... e8; 2 e7+! with a “family check” on Black’s King, Queen and Rook! A remarkable concentration of force.",
+      "chapter": "BASIC PATTERN FOR THE KNIGHT FORK"
+    },
+    {
+      "id": "wc-00146",
+      "caption": "54B. White moves. He naturally plays 2 xc7. Then comes the expected Knight fork 2 ... e2+, and after 3 h1, xc1 Black is a whole Rook to the good.",
+      "chapter": "BASIC PATTERN FOR THE KNIGHT FORK"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "batch": 11,
+  "translations": [
+    {
+      "id": "wc-00676",
+      "captionEn": "White’s Knight at c3 has been unpinned, and may come into the game very quickly. Black therefore decides to remove the Knight.",
+      "captionFr": "Le Cavalier blanc en c3 a été délivré du clouage et peut entrer très vite en jeu. Les Noirs décident donc d’éliminer ce Cavalier."
+    },
+    {
+      "id": "wc-00679",
+      "captionEn": "No retreat is necessary! The impertinent Knight cannot be captured, as Black’s f6-Pawn is pinned.",
+      "captionFr": "Nul besoin de retraite ! L’impertinent Cavalier ne peut être capturé, car le Pion f6 noir est cloué."
+    },
+    {
+      "id": "wc-00682",
+      "captionEn": "If 19 ... e8; 20 h8+, g8 (or 20 ... e7; 21 xg7+); 21 xf6+ and mate next move. Or 19 ... e8; 20 h5+ d8; 21 h8+ leading to mate.",
+      "captionFr": "Si 19 ... e8 ; 20 h8+, g8 (ou 20 ... e7 ; 21 xg7+) ; 21 xf6+ et mat au coup suivant. Ou bien 19 ... e8 ; 20 h5+, d8 ; 21 h8+ conduisant au mat."
+    },
+    {
+      "id": "wc-00685",
+      "captionEn": "Still taking advantage of the pin, White forces the King to e7 (removal of the guard), so that 23 xg7+ will be possible. As Black cannot prevent this, he resigns.",
+      "captionFr": "Toujours en tirant parti du clouage, les Blancs forcent le Roi à gagner e7 (suppression du défenseur), afin que 23 xg7+ devienne possible. Les Noirs ne pouvant l’empêcher, ils abandonnent."
+    },
+    {
+      "id": "wc-00686",
+      "captionEn": "Black’s position is somewhat cramped, and the fact that his Knight at c3 is pinned adds to the generally uncomfortable effect.",
+      "captionFr": "La position noire est quelque peu à l’étroit, et le clouage de leur Cavalier en c3 accentue l’impression générale d’inconfort."
+    },
+    {
+      "id": "wc-00690",
+      "captionEn": "Wrong! He retreats to threaten a Pawn fork, but the idea is unsound.",
+      "captionFr": "Erreur ! Il bat en retraite pour menacer une fourchette de Pion, mais l’idée est peu solide."
+    },
+    {
+      "id": "wc-00693",
+      "captionEn": "The e-Pawn needed support.",
+      "captionFr": "Le Pion e avait besoin d’un soutien."
+    },
+    {
+      "id": "wc-00695",
+      "captionEn": "11 b5+ also wins, but the text is prettier.",
+      "captionFr": "11 b5+ gagne aussi, mais le coup du texte est plus joli."
+    },
+    {
+      "id": "wc-00700",
+      "captionEn": "White plans to “fianchetto” his King’s Bishop (play it to g2). As soon as he castles, this Bishop will be guarded by the White King and therefore in a more secure position than the Black Bishop whom he faces on the long diagonal.",
+      "captionFr": "Les Blancs projettent de « fianchetter » leur Fou-roi (le jouer en g2). Dès qu’ils auront roqué, ce Fou sera gardé par le Roi blanc et donc plus en sûreté que le Fou noir auquel il fait face sur la grande diagonale."
+    },
+    {
+      "id": "wc-00704",
+      "captionEn": "Even at this early stage, White has a won game. The d5-Pawn is pinned (why?) and is therefore an immobile target. It is attacked three times and defended three times, but it cannot be guarded by a Pawn (the most secure form of protection).",
+      "captionFr": "Même à ce stade précoce, les Blancs ont une partie gagnée. Le Pion d5 est cloué (pourquoi ?) et constitue donc une cible immobile. Il est attaqué trois fois et défendu trois fois, mais il ne peut être gardé par un Pion (la forme de protection la plus sûre)."
+    },
+    {
+      "id": "wc-00706",
+      "captionEn": "A neat tactical device makes this move possible despite the fact that the Queen’s Pawn seems to be defended as many times as it is attacked.",
+      "captionFr": "Un procédé tactique élégant rend ce coup possible, bien que le Pion dame semble défendu autant de fois qu’il est attaqué."
+    },
+    {
+      "id": "wc-00710",
+      "captionEn": "What pathetic helplessness! If 14 ... xd5 the Knight fork 15 xe7+ wins a piece. If Black tries to trap the Queen by 14 ... c7 then 15 xa8 (15 xe7+, xe7; 16 xa8 is even simpler), c6; 16 xc6!, xc6; 17 xe7+ still echoes the same theme!",
+      "captionFr": "Quelle pitoyable impuissance ! Si 14 ... xd5, la fourchette de Cavalier 15 xe7+ gagne une pièce. Si les Noirs tentent de piéger la Dame par 14 ... c7, alors 15 xa8 (15 xe7+, xe7 ; 16 xa8 est plus simple encore), c6 ; 16 xc6 !, xc6 ; 17 xe7+ fait encore résonner le même thème !"
+    },
+    {
+      "id": "wc-00712",
+      "captionEn": "The first point. After the exchange of Bishops, the white squares on the Queen-side become “holes” and vulnerable to occupation by White.",
+      "captionFr": "Premier point. Après l’échange des Fous, les cases blanches de l’aile-dame deviennent des « trous », vulnérables à l’occupation par les Blancs."
+    },
+    {
+      "id": "wc-00716",
+      "captionEn": "The attack on the weak c-Pawn cannot be parried. Thus 14 ... ac8 allows the same continuation as actually happens in the game; 14 ... d6 allows 15 xe4, dxe4; 16 xc6 and wins; while 14 ... c5 loses by 15 xe4, dxe4; 16 e5 (exploiting the pin), fd8; 17 c6, the Knight Fork winning the exchange.",
+      "captionFr": "L’attaque contre le faible Pion c est imparable. Ainsi 14 ... ac8 permet la même suite que celle qui se produit dans la partie ; 14 ... d6 permet 15 xe4, dxe4 ; 16 xc6 et gagne ; tandis que 14 ... c5 perd par 15 xe4, dxe4 ; 16 e5 (exploitant le clouage), fd8 ; 17 c6, fourchette de Cavalier qui gagne la qualité."
+    },
+    {
+      "id": "wc-00718",
+      "captionEn": "He must guard the c-Pawn. It is clear that if 15 ... cxd5; 16 xc8+, xc8; 17 xc8+, f8; 18 c1 and White wins easily.",
+      "captionFr": "Les Noirs doivent garder le Pion c. Il est clair que si 15 ... cxd5 ; 16 xc8+, xc8 ; 17 xc8+, f8 ; 18 c1, les Blancs gagnent aisément."
+    },
+    {
+      "id": "wc-00720",
+      "captionEn": "Black resigns, for if 16 ... xc6; 17 e7+ wins the Queen by a Knight fork. If 16 ... xd5; 17 xc8+ wins the Queen by discovered attack. Finally, if 16 ... xc6; 17 xa8+, b8 forced; 18 e5, c8; 19 b7, f8; 20 e7+!, h8; 21 xe4, xe7; 22 g6+ again winning the Queen by discovered attack. Even speedier is 21 xf7+, xf7; 22 c8+ and mate in two more moves (vulnerable first rank).",
+      "captionFr": "Les Noirs abandonnent, car si 16 ... xc6 ; 17 e7+ gagne la Dame par une fourchette de Cavalier. Si 16 ... xd5 ; 17 xc8+ gagne la Dame par attaque à la découverte. Enfin, si 16 ... xc6 ; 17 xa8+, b8 forcé ; 18 e5, c8 ; 19 b7, f8 ; 20 e7+ !, h8 ; 21 xe4, xe7 ; 22 g6+ gagne encore la Dame par attaque à la découverte. Plus rapide encore est 21 xf7+, xf7 ; 22 c8+ et mat en deux autres coups (première rangée vulnérable)."
+    },
+    {
+      "id": "wc-00721",
+      "captionEn": "White’s game is much freer, and his pieces are posted more aggressively. From this it follows that: (a) if new lines are opened, White will benefit accordingly; (b) Black should avoid such line-opening.",
+      "captionFr": "Le jeu des Blancs est beaucoup plus libre, et leurs pièces sont postées de façon plus agressive. Il s’ensuit que : (a) si de nouvelles lignes s’ouvrent, les Blancs en tireront profit ; (b) les Noirs doivent éviter toute ouverture de lignes."
+    },
+    {
+      "id": "wc-00724",
+      "captionEn": "So far, so good. Black is momentarily holding his own, for if 11 exf6??, xe2 etc. But White parries cleverly.",
+      "captionFr": "Jusqu’ici, tout va bien. Les Noirs tiennent momentanément leur rang, car si 11 exf6 ??, xe2, etc. Mais les Blancs parent avec astuce."
+    },
+    {
+      "id": "wc-00726",
+      "captionEn": "Instead of playing 12 cxd4 (which is quite good), White chooses an even sharper method. He now threatens 13 xh7+ or 13 xf7+.",
+      "captionFr": "Au lieu de jouer 12 cxd4 (qui est fort bon), les Blancs choisissent une méthode plus tranchante encore. Ils menacent maintenant 13 xh7+ ou 13 xf7+."
+    },
+    {
+      "id": "wc-00729",
+      "captionEn": "White threatens 16 d5 (blocking the flight of Black’s King) with a quick win.",
+      "captionFr": "Les Blancs menacent 16 d5 (coupant la fuite du Roi noir) avec un gain rapide."
+    },
+    {
+      "id": "wc-00731",
+      "captionEn": "White could also play h8+, as this move is superfluous.",
+      "captionFr": "Les Blancs pourraient aussi jouer h8+, car ce coup est superflu."
+    },
+    {
+      "id": "wc-00734",
+      "captionEn": "Stops White’s threat, but the Black King is not happy.",
+      "captionFr": "Cela arrête la menace des Blancs, mais le Roi noir n’est pas à la fête."
+    },
+    {
+      "id": "wc-00736",
+      "captionEn": "Preventing the skewer check.",
+      "captionFr": "Prévient l’échec d’enfilade."
+    },
+    {
+      "id": "wc-00738",
+      "captionEn": "White can win in various ways, for example by the Knight fork 23 f6+. But the method he chooses (concentrating on the pin) is certainly the most forthright.",
+      "captionFr": "Les Blancs peuvent gagner de plusieurs façons, par exemple par la fourchette de Cavalier 23 f6+. Mais la méthode qu’ils choisissent (en se concentrant sur le clouage) est assurément la plus franche."
+    },
+    {
+      "id": "wc-00740",
+      "captionEn": "Black resigns, for the pin is beyond endurance; if 25 ... d7; 26 f6 or 26 f6+ wins easily.",
+      "captionFr": "Les Noirs abandonnent, car le clouage est insoutenable ; si 25 ... d7 ; 26 f6 ou 26 f6+ gagne aisément."
+    },
+    {
+      "id": "wc-00741",
+      "captionEn": "With his fourth move, Black “gave up the center” – his center Pawn captured away from the center. The long-range consequence is that White may be able to establish a strong center by playing e4 – now that Black’s Pawn has disappeared from d5.",
+      "captionFr": "Au quatrième coup, les Noirs ont « cédé le centre » : leur Pion central a capturé en s’éloignant du centre. La conséquence à long terme est que les Blancs pourront peut-être établir un centre fort par e4 – maintenant que le Pion noir a disparu de d5."
+    },
+    {
+      "id": "wc-00743",
+      "captionEn": "Black’s pieces do not have access to the center squares. They are therefore likely to be poorly placed. This is particularly true of the Bishop at g6.",
+      "captionFr": "Les pièces noires n’ont pas accès aux cases centrales. Elles risquent donc d’être mal placées. Cela vaut tout particulièrement pour le Fou en g6."
+    },
+    {
+      "id": "wc-00747",
+      "captionEn": "If White removes his Queen from attack, his advantage will disappear. For example: 16 d3, h5 saving the Bishop and threatening the double attack ... e2. 16 f3 looks better, but then conies 16 ... h4. (with the mating pattern of Diagrams 307A and 307B); 17 g3, xd4+ followed by 17 ... e5 and again Black has the initiative by coun terattack.",
+      "captionFr": "Si les Blancs retirent leur Dame de l’attaque, leur avantage s’évanouira. Par exemple : 16 d3, h5, qui sauve le Fou et menace la double attaque ... e2. 16 f3 paraît meilleur, mais vient alors 16 ... h4 (avec le schéma de mat des Diagrammes 307A et 307B) ; 17 g3, xd4+, suivi de 17 ... e5, et les Noirs ont de nouveau l’initiative par la contre-attaque."
+    },
+    {
+      "id": "wc-00749",
+      "captionEn": "If now 16 ... h5; 17 xh5, xe4; 18 xf7+ h8; 19 f3 retaining a strong initiative.",
+      "captionFr": "Si maintenant 16 ... h5 ; 17 xh5, xe4 ; 18 xf7+, h8 ; 19 f3, les Blancs conservent une forte initiative."
+    },
+    {
+      "id": "wc-00750",
+      "captionEn": "Still directed against the pinned Knight. The idea is if 17 xh2, h4+ (double attack); 18 g1, xe4 followed by ... h5.",
+      "captionFr": "Toujours dirigé contre le Cavalier cloué. L’idée est la suivante : si 17 xh2, h4+ (double attaque) ; 18 g1, xe4, suivi de ... h5."
+    },
+    {
+      "id": "wc-00752",
+      "captionEn": "Apparently 17 ... h4 is crushing, but it is defeated by the surprising reply 18 g5! If then 18 ... xe4; 19 xe4, xe4; 20 fxg6, d6; 21 xf7 and wins. Or 18 ... h5; 19 g4 etc. Of course, 18 ... xg5; 19 xg5 is quite hopeless for Black, as he loses too much material.",
+      "captionFr": "En apparence, 17 ... h4 est écrasant, mais il est mis en échec par la réponse surprenante 18 g5 ! Si alors 18 ... xe4 ; 19 xe4, xe4 ; 20 fxg6, d6 ; 21 xf7 et gagne. Ou 18 ... h5 ; 19 g4, etc. Bien entendu, 18 ... xg5 ; 19 xg5 est tout à fait désespéré pour les Noirs, qui perdent trop de matériel."
+    },
+    {
+      "id": "wc-00754",
+      "captionEn": "Decisive! Black cannot play 18 ... f6 (his f-Pawn is pinned). If his Queen moves off the attacking diagonal, 19 fxg6 at last becomes feasible. If 18 ... xg5?; 19 xg5, xe2; 20 xe2 winning Rook and Bishop.",
+      "captionFr": "Décisif ! Les Noirs ne peuvent jouer 18 ... f6 (leur Pion f est cloué). Si leur Dame quitte la diagonale d’attaque, 19 fxg6 devient enfin possible. Si 18 ... xg5 ? ; 19 xg5, xe2 ; 20 xe2, avec gain de la Tour et du Fou."
+    }
+  ]
+}

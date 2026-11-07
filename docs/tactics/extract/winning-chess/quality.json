@@ -1,0 +1,118 @@
+{
+  "done": 613,
+  "total": 614,
+  "ok": 561,
+  "fail": 52,
+  "no_board": 5,
+  "ok_rate": 0.915,
+  "samples": [
+    {
+      "id": "wc-00103",
+      "fen": "r5k1/ppp1br1p/2p2q2/2P3p1/3P1BQ1/6P1/PP3P1P/R4R1K b - - 0 1",
+      "fen_ok": true,
+      "side_to_move": "b",
+      "caption": "35B. Black moves. If he moves his King to f8 (not 2 ... h8??; 3 e5 with a winning pin) to unpin the g-Pawn, White has time to retreat his Bishop. Hence, if Blac",
+      "chapter_title": "BREAKING A PIN",
+      "image": "images/00103.jpeg"
+    },
+    {
+      "id": "wc-00104",
+      "fen": "8/1p3k2/8/p2qp1QP/P1Bpb3/1P3r2/2P5/1K6 b - - 0 1",
+      "fen_ok": true,
+      "side_to_move": "b",
+      "caption": "35B. Black moves. If he moves his King to f8 (not 2 ... h8??; 3 e5 with a winning pin) to unpin the g-Pawn, White has time to retreat his Bishop. Hence, if Blac",
+      "chapter_title": "BREAKING A PIN",
+      "image": "images/00104.jpeg"
+    },
+    {
+      "id": "wc-00105",
+      "fen": "7k/6p1/1p2r2p/4bp2/5P2/6P1/2P4P/4RBK1 b - - 0 1",
+      "fen_ok": true,
+      "side_to_move": "b",
+      "caption": "37. Black moves. White has just played f4, hitting out at the pinned Bishop. How does Black break the pin, winning at once by demonstrating that the advance of ",
+      "chapter_title": "QUIZ ON BREAKING A PIN",
+      "image": "images/00105.jpeg"
+    },
+    {
+      "id": "wc-00106",
+      "fen": "8/ppk3p1/1r6/3pN2p/2p2PP1/4r2P/P2Rn3/K3R3 b - - 0 1",
+      "fen_ok": true,
+      "side_to_move": "b",
+      "caption": "37. Black moves. White has just played f4, hitting out at the pinned Bishop. How does Black break the pin, winning at once by demonstrating that the advance of ",
+      "chapter_title": "QUIZ ON BREAKING A PIN",
+      "image": "images/00106.jpeg"
+    },
+    {
+      "id": "wc-00107",
+      "fen": "r3kb1r/ppp3pp/8/q4p2/3Qn3/2N2P2/PPP3PP/R1B1R1K1 b - - 0 1",
+      "fen_ok": true,
+      "side_to_move": "b",
+      "caption": "38. Black moves. His Knight is attacked twice, defended only once and cannot obtain any additional support. Yet Black can release himself from the pin by creati",
+      "chapter_title": "QUIZ ON BREAKING A PIN",
+      "image": "images/00107.jpeg"
+    },
+    {
+      "id": "wc-00108",
+      "fen": "rn2k2r/pp3p2/4p1pp/q2pP3/3Q4/2n2P2/P1PBN1PP/R3KB1R b - - 0 1",
+      "fen_ok": true,
+      "side_to_move": "b",
+      "caption": "39. Black moves. White’s last move was f3, striking at the pinned Knight. What counter-pin will give Black a decisive advantage?",
+      "chapter_title": "QUIZ ON BREAKING A PIN",
+      "image": "images/00108.jpeg"
+    },
+    {
+      "id": "wc-00110",
+      "fen": "3r1rk1/p4p2/1p1Np1pp/2p1PP2/2BP2Pq/2P1N2P/P1R4K/3Q1R2 w - - 0 1",
+      "fen_ok": true,
+      "side_to_move": "w",
+      "caption": "41. White moves. Black’s Knight has moved from d5 to e3, attacking three pieces: White’s Queen and both Rooks. The threats are as deadly as they are graceful: a",
+      "chapter_title": "BASIC PATTERN FOR THE KNIGHT FORK",
+      "image": "images/00110.jpeg"
+    },
+    {
+      "id": "wc-00111",
+      "fen": "8/6k1/8/8/Q2n2q1/6N1/5P2/6K1 w - - 0 1",
+      "fen_ok": true,
+      "side_to_move": "w",
+      "caption": "41. White moves. Black’s Knight has moved from d5 to e3, attacking three pieces: White’s Queen and both Rooks. The threats are as deadly as they are graceful: a",
+      "chapter_title": "BASIC PATTERN FOR THE KNIGHT FORK",
+      "image": "images/00111.jpeg"
+    },
+    {
+      "id": "wc-00113",
+      "fen": "r3qrk1/2p4p/pb1ppp2/1p2pN2/3PP3/2P5/PP2QPPP/1N1R2K1 w - - 0 1",
+      "fen_ok": true,
+      "side_to_move": "w",
+      "caption": "42A. White moves. He has a Knight fork at his disposal, although it seems futile to look for it when his Knight is pinned and unable to move! To find the combin",
+      "chapter_title": "BASIC PATTERN FOR THE KNIGHT FORK",
+      "image": "images/00113.jpeg"
+    },
+    {
+      "id": "wc-00114",
+      "fen": "r1q2rk1/2pn1p1p/ppNb1np1/4p3/2N5/8/PPP2PPP/R2QR1K1 w - - 0 1",
+      "fen_ok": true,
+      "side_to_move": "w",
+      "caption": "44A. White moves. He sees that he has a murderous check at e7 – if only Black’s Bishop did not guard this forking square. He therefore removes the protective Bi",
+      "chapter_title": "BASIC PATTERN FOR THE KNIGHT FORK",
+      "image": "images/00114.jpeg"
+    },
+    {
+      "id": "wc-00117",
+      "fen": "8/6k1/8/5N2/3q4/8/5P2/6K1 b - - 0 1",
+      "fen_ok": true,
+      "side_to_move": "b",
+      "caption": "42B. Black moves. White’s surprising Queen sacrifice set the stage for the elegant Knight fork which followed. This violent thrust unpinned the Knight, freeing ",
+      "chapter_title": "BASIC PATTERN FOR THE KNIGHT FORK",
+      "image": "images/00117.jpeg"
+    },
+    {
+      "id": "wc-00118",
+      "fen": "r4rk1/2p1N2p/pb1pppq1/1p2p3/3PP1Q1/2P5/PP3PPP/RN1R2K1 b - - 0 1",
+      "fen_ok": true,
+      "side_to_move": "b",
+      "caption": "42B. Black moves. White’s surprising Queen sacrifice set the stage for the elegant Knight fork which followed. This violent thrust unpinned the Knight, freeing ",
+      "chapter_title": "BASIC PATTERN FOR THE KNIGHT FORK",
+      "image": "images/00118.jpeg"
+    }
+  ]
+}

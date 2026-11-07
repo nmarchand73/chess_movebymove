@@ -1,0 +1,205 @@
+{
+  "batch": 2,
+  "items": [
+    {
+      "id": "wc-00147",
+      "caption": "55B. Black moves. He must capture the Knight, as the Queen is attacked. There follows 2 ... xe7 allowing 3 xc8+ followed by 4 xb8 (after 3 ... f8). Thus the family check has made it possible for White to win a whole Rook. The fork was a preliminary to attack on the last rank.",
+      "chapter": "BASIC PATTERN FOR THE KNIGHT FORK"
+    },
+    {
+      "id": "wc-00149",
+      "caption": "57A. White moves. Again we apply the stratagem of a series of exchanges, but here the play is tricky. We begin with 1 xd4!, xd4 (can you see how 1 ... cxd4 loses the exchange?); 2 xd4!, cxd4; 3 xc6, xc6. White is a Rook down. What has he accomplished? But here is the point: 4 e7+!",
+      "chapter": "BASIC PATTERN FOR THE KNIGHT FORK"
+    },
+    {
+      "id": "wc-00151",
+      "caption": "58A. White moves. The winning idea is forceful, pleasing and startling. White begins with the Knight fork 1 xc6! – a surprising move since Black replies 1 ... xc6. But now comes 2 e7+, forking King and Bishop. Black’s King goes to h8.",
+      "chapter": "BASIC PATTERN FOR THE KNIGHT FORK"
+    },
+    {
+      "id": "wc-00153",
+      "caption": "58B. White moves. He continues with 3 xc6, ending up with the exchange to the good.",
+      "chapter": "BASIC PATTERN FOR THE KNIGHT FORK"
+    },
+    {
+      "id": "wc-00154",
+      "caption": "59B. Black moves. He plays 2 ... f7, as the Rook was attacked. But 3 xb6 forks Queen and Rook and wins the exchange. Observe that the violent character of 1 b6! enabled White to foresee the consequences, since Black had no choice.",
+      "chapter": "BASIC PATTERN FOR THE KNIGHT FORK"
+    },
+    {
+      "id": "wc-00155",
+      "caption": "60. Black moves. His Queen and Bishop are menaced by a Knight fork. He breaks the attack by 1 ... h3+; 2 xh3 (forced), g1 mate. Black saved himself by means of a violent move, in this case a check.",
+      "chapter": "BREAKING A KNIGHT FORK"
+    },
+    {
+      "id": "wc-00157",
+      "caption": "62. White moves. He wins by combining the fork and the pin: 1 xd6+ forks King and Queen. If Black replies 1 ... cxd6, then 2 xc8. Thus he loses his Queen through a fork or a pin.",
+      "chapter": "THE FORK AND THE PIN"
+    },
+    {
+      "id": "wc-00159",
+      "caption": "63. Black moves. He plays 1 ... e2+ forking the King and Queen. True, White can play 2 xe2, but then comes 2 ... xc3. The pinned Bishop cannot parry the forking check.",
+      "chapter": "THE FORK AND THE PIN"
+    },
+    {
+      "id": "wc-00160",
+      "caption": "64. Black moves. He continues 1 ... c2+, forking King and Rook. White’s Queen is pinned, therefore helpless to prevent the fork. After 2 f1 there follows 2 ... xc3 and 3 ... xa1.",
+      "chapter": "THE FORK AND THE PIN"
+    },
+    {
+      "id": "wc-00161",
+      "caption": "65. Black moves. 1 ... xf3+ forks King and Rook at e1. 2 xf3 must be played, allowing the loss of the exchange by 2 ... xe1. White’s Rook at e3 was pinned; therefore its protection of the Pawn was an illusion.",
+      "chapter": "THE FORK AND THE PIN"
+    },
+    {
+      "id": "wc-00163",
+      "caption": "67A. Black moves. It is not easy to see at first glance that a pin can arise in this position. Exploiting the fact that his Queen Rook and White’s King are in line, Black plays 1 ... d4 and White retreats 2 e2 (other Knight moves are no better). Now the villain appears: 2 ... b3+.",
+      "chapter": "THE FORK AND THE PIN"
+    },
+    {
+      "id": "wc-00166",
+      "caption": "66B. White moves. The delightful Knight fork (based on a pin) will leave Black a Rook ahead after White’s King moves and Black replies 3 ... xd3. The fact that White’s g-Pawn is pinned in the above diagram is what makes the combination possible.",
+      "chapter": "THE FORK AND THE PIN"
+    },
+    {
+      "id": "wc-00167",
+      "caption": "67B. White moves. He is helpless: the Knight forks his King and Queen, and the White c-Pawn, being pinned, is unable to capture the intruder! “A pinned piece is a paralyzed piece.” So White must move his King, allowing his Queen to be captured. A subtle example of this theme.",
+      "chapter": "THE FORK AND THE PIN"
+    },
+    {
+      "id": "wc-00168",
+      "caption": "68B. Black moves. He strikes at once: a violent move is required, before the defense can be reinforced. The solution: 2 ... xf2+! As White’s Rook is pinned, he is limited to 3 xf2 (allowing 3 ... d3+); or 3 e1 (again allowing 3 ... d3+); or 3 g1 (allowing 3 ... xg2 mate). The fork and pin worked hand in glove!",
+      "chapter": "THE FORK AND THE PIN"
+    },
+    {
+      "id": "wc-00169",
+      "caption": "69A. White moves. He wins by a neat combination involving two successive Knight forks followed by a capture based on a pin. In actual play, this is easier done than said! White begins with 1 xc6, a Knight fork threatening Queen and Bishop. This forces 1 ... c7, and now comes the astonishing fork 2 e7+ attacking King and Rook.",
+      "chapter": "THE FORK AND THE PIN"
+    },
+    {
+      "id": "wc-00170",
+      "caption": "70A. White moves. White utilizes a Knight fork, not to gain material, but as a means to an end – to enforce a pin. He begins with 1 b6+, attacking King and Queen. Black must therefore reply 1 ... cxb6. Now the point: 2 e6.",
+      "chapter": "THE FORK AND THE PIN"
+    },
+    {
+      "id": "wc-00172",
+      "caption": "69B. Black moves. He plays 2 ... xe7 (else 3 xf5 winning the exchange). Now comes 3 xf5! with a simple and familiar pinning position. Whether White succumbs to 3 ... exf5; 4 xe7 or not, he is the exchange down. Picture 69A without the Knight at e5, and the capture xf5 immediately strikes your eye. White forced this position with no loss of time.",
+      "chapter": "THE FORK AND THE PIN"
+    },
+    {
+      "id": "wc-00173",
+      "caption": "70B. Black moves. His Queen is pinned, and must be lost. (The attempt to break the pin with 2 ... e8 is foiled by 3 xd7+ – remember the priority of check!) White’s forceful first move left Black no choice; it also cleared the path for the Bishop.",
+      "chapter": "THE FORK AND THE PIN"
+    },
+    {
+      "id": "wc-00174",
+      "caption": "72. White moves. How does he sacrifice his Queen in order to win with a Knight fork?",
+      "chapter": "QUIZ ON KNIGHT FORKS"
+    },
+    {
+      "id": "wc-00176",
+      "caption": "73. How does he take advantage of a pin in order to win material with a Knight fork?",
+      "chapter": "QUIZ ON KNIGHT FORKS"
+    },
+    {
+      "id": "wc-00177",
+      "caption": "74. White moves. How does he win a piece at once? How does a threatened Knight fork prevent Black from regaining his piece?",
+      "chapter": "QUIZ ON KNIGHT FORKS"
+    },
+    {
+      "id": "wc-00178",
+      "caption": "75. White moves. What does White play in order to create the possibility of a devastating Knight fork at e7?",
+      "chapter": "QUIZ ON KNIGHT FORKS"
+    },
+    {
+      "id": "wc-00179",
+      "caption": "76. White moves. How does he profit by a pin in order to gain decisive material by a Knight fork.",
+      "chapter": "QUIZ ON KNIGHT FORKS"
+    },
+    {
+      "id": "wc-00181",
+      "caption": "78A. White moves. Double attacks need not necessarily be directed against two pieces. The type of attack which menaces a piece while threatening mate is often deadly and certainly difficult to ward off. White plays 1 f5 with a double threat.",
+      "chapter": "DOUBLE ATTACKS WITH MATING THREATS"
+    },
+    {
+      "id": "wc-00183",
+      "caption": "78B. Black moves. His Rook is menaced by the Queen, and at the same time 2 xh7+, f8; 3 h8 mate is threatened. The combined threats are too much for Black. He must stop mate, losing his Rook in the process.",
+      "chapter": "DOUBLE ATTACKS WITH MATING THREATS"
+    },
+    {
+      "id": "wc-00184",
+      "caption": "79A. White moves. He is under a double attack as both his Rook at f3 and his d-Pawn are attacked; 1 d4! threatens mate and simultaneously attacks the Bishop a second time.",
+      "chapter": "DOUBLE ATTACKS WITH MATING THREATS"
+    },
+    {
+      "id": "wc-00185",
+      "caption": "79B. Black moves. He must defend the mating threat with 1 ... f6, leaving his Bishop in the lurch. Then comes 2 xe4, xe4; 3 xe4, xb2; 4 e1 and White has won the ex change.",
+      "chapter": "DOUBLE ATTACKS WITH MATING THREATS"
+    },
+    {
+      "id": "wc-00187",
+      "caption": "80A. White moves. Here a double attack must be created! 1 d4 (threatening mate) would not do because of 1 ... h2+ (discovered attack!) winning the White Queen. In any event, there would be no real threat after 1 d4: Black would stop the mate, after which 2 xd6 would be too expensive (the Bishop is protected by a Rook). All very complicated, but the solution is deliciously simple:",
+      "chapter": "DOUBLE ATTACKS WITH MATING THREATS"
+    },
+    {
+      "id": "wc-00188",
+      "caption": "81A. Black moves. He operates with two double attacks to achieve his objective. First comes 1 ... e7, attacking White’s Rook and also threatening 2 ... e1 mate. White parries by defending his Rook and at the same time providing an outlet for his King: 2 h4. Is White safe now?!",
+      "chapter": "DOUBLE ATTACKS WITH MATING THREATS"
+    },
+    {
+      "id": "wc-00190",
+      "caption": "82A. Black moves. He plays to win the Pawn at e4, as it is protected twice, while he attacks it three times. His calculations are mathematically correct; yet he loses because he overlooks the eventual double attack.",
+      "chapter": "DOUBLE ATTACKS WITH MATING THREATS"
+    },
+    {
+      "id": "wc-00191",
+      "caption": "80B. White moves. His sacrifice of the exchange has forced Black’s recapturing Rook into a really exposed position. Such loose pieces make wonderful targets for a double attack. Hence the logical sequel readily suggests itself: 2 e5, with designs on the unguarded Rook in addition to the mate threat on g7. Black must stop this mate. While he does so, he loses the hapless Rook.",
+      "chapter": "DOUBLE ATTACKS WITH MATING THREATS"
+    },
+    {
+      "id": "wc-00192",
+      "caption": "81B. Black moves. No indeed, White is not safe: 2 ... e1+; 3 h2 and now we have a second double attack: 3 ... xh4+ winning the Rook. Although this combination is four moves long, it is easy to execute; the double attacks are so forcing that they dictate White’s replies.",
+      "chapter": "DOUBLE ATTACKS WITH MATING THREATS"
+    },
+    {
+      "id": "wc-00193",
+      "caption": "83A. Black moves. His target is the unprotected Knight at e5. If he attacks it by some such move as 1 ... d6, the Knight can simply retreat and nothing has been accomplished. But if Black can threaten the Knight and some more important object simultaneously, the Knight will be lost! The right way is 1 ... a5+!",
+      "chapter": "DOUBLE ATTACKS WITH CHECK"
+    },
+    {
+      "id": "wc-00196",
+      "caption": "85A. White moves. Who would dream that he has a double attack at his disposal?! The method is the familiar one of substitution: he replaces the Black Bishop on b4 with another Black piece – one that is vulnerable to double attack. A little sleight of hand does it:",
+      "chapter": "DOUBLE ATTACKS WITH CHECK"
+    },
+    {
+      "id": "wc-00198",
+      "caption": "83B. White moves. He must get out of check before doing anything else! He has seven ways of getting out of check, but none of them can save the Knight. Black’s next move will be 2 ... xe5.",
+      "chapter": "DOUBLE ATTACKS WITH CHECK"
+    },
+    {
+      "id": "wc-00199",
+      "caption": "84B. Black moves. White had to accept the sacrifice of the exchange. Now the path has been cleared for 2 ... d4+. Black wins the exposed Rook, coming out a piece to the good. The whole transaction may seem startling, but it was rigorously logical. Black had a plan; saw a hindrance; then disposed of the hindrance in the most forcible way: capture!",
+      "chapter": "DOUBLE ATTACKS WITH CHECK"
+    },
+    {
+      "id": "wc-00201",
+      "caption": "86A. White moves. As in 80A, it is possible to create a target for double attack. Here the method is to force a hostile piece to a square on which it will be unprotected. White begins with 1 a3, attacking the Knight. Such Pawn pushes cannot be disregarded, as they threaten a decisive gain of material (winning a piece for a Pawn). 1 ... a6 is therefore necessary.",
+      "chapter": "DOUBLE ATTACKS WITH CHECK"
+    },
+    {
+      "id": "wc-00203",
+      "caption": "87A. White moves. Black’s Rook is defended by the Bishop, but the Bishop in turn has no defender. He can be attacked in various ways, but the most economical is by way of a check. Hence White maneuvers the Black King into position for a double attack: 1 h8+.",
+      "chapter": "DOUBLE ATTACKS WITH CHECK"
+    },
+    {
+      "id": "wc-00205",
+      "caption": "88A. White moves. As in the case of other attacking motifs, the process of forcing a series of preliminary exchanges will often wind up in a double attack. Frequently the final capturing piece is left unguarded; a position that seemed impregnable suddenly gives way.",
+      "chapter": "DOUBLE ATTACKS WITH CHECK"
+    },
+    {
+      "id": "wc-00206",
+      "caption": "87B. Black moves. He has only one way of getting out of check, by playing 1 ... g5. Now the King and Bishop are in line for a double attack. White plays 2 e5+ (or 2 d8+), winning the Bishop. Again the check has been a means to an end.",
+      "chapter": "DOUBLE ATTACKS WITH CHECK"
+    }
+  ]
+}

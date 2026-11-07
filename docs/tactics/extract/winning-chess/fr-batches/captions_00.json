@@ -1,0 +1,205 @@
+{
+  "batch": 0,
+  "items": [
+    {
+      "id": "wc-00008",
+      "caption": "The pieces set up at the beginning of a game. The bottom row from left to right is the first rank. The White Pawns stand on the second rank. The row above the second rank is the third rank, and so on to the last row, which is the eighth rank.",
+      "chapter": "Introduction"
+    },
+    {
+      "id": "wc-00009",
+      "caption": "Position after 1 e4.",
+      "chapter": "Introduction"
+    },
+    {
+      "id": "wc-00013",
+      "caption": "Position after Black’s third move. Note that Black has two Pawns on the e-file. In switching to the e-file, Black’s d-Pawn now becomes an e-Pawn.",
+      "chapter": "Introduction"
+    },
+    {
+      "id": "wc-00015",
+      "caption": "Black’s Queen gave check on the 6th move and then captured the White Pawn on e5. Black is now threatening to take the opponent’s knight on e4. But White’s next move, Queen-side castling, sets a deadly trap.",
+      "chapter": "Introduction"
+    },
+    {
+      "id": "wc-00016",
+      "caption": "White forces a mate in three moves, beginning with a beautiful Queen sacrifice.",
+      "chapter": "Introduction"
+    },
+    {
+      "id": "wc-00021",
+      "caption": "White attacks the weak c-Pawn five times; it is defended only four times. The Pawn cannot be saved. This is an example of concentration of superior force.",
+      "chapter": "BASIC PATTERNS FOR TACTICAL PLAY"
+    },
+    {
+      "id": "wc-00024",
+      "caption": "1. Black moves. The Rook has just pinned the Bishop, which is immobile; it cannot expose the King to check. The Bishop cannot be guarded. The Rook will capture it next move.",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00026",
+      "caption": "2. White moves. He can win the exchange with 1 xd4+. Instead, he exploits the Rook’s helpless state: he hits it again with 1 e3, winning a whole Rook.",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00027",
+      "caption": "3A. White moves. He has taken advantage of the vulnerable position of the two Black pieces placed in a straight line. How? His Rook pins the Black Knight, which must not move because of the resulting loss of Black’s Rook. How can White increase the pressure in order to exploit Black’s predicament? The indicated answer is: attack the Knight again! Therefore: 1 f4! See Diagram 3B.",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00030",
+      "caption": "4A. White moves. He is threatened with 1 ... f2 mate, and there seems to be no way of saving the game. Casting about desperately for some resource, he notes that Black’s King and Queen are placed on the same straight line, but that a Black Pawn blocks any chance of a pin by g1. Therefore, he removes the Pawn: 1 xg7+!! See Diagram 4B.",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00032",
+      "caption": "3B. Black moves. His Knight is now menaced by two pieces, defended by only one. The Knight is lost, and will be captured by White on the following move.",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00033",
+      "caption": "4B. Black moves. He can capture the violently sacrificed Rook by 1 ... xg7 or 1 ... xg7. Whichever way he captures, his King and Queen will be in a straight line. Then comes 2 g1 pinning the Queen. In this way, White not only stops the mate, but actually wins the game. Defeat has been transformed into victory. A pinned piece is a paralyzed piece!",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00036",
+      "caption": "6A. Black moves. Here there are no less than three enemy pieces on a straight line. In such cases, the screening pieces (here the Knight and Bishop) are especially vulnerable to the advance of a hostile Pawn. Accordingly Black advances:",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00040",
+      "caption": "7A. White moves. This time it is Black who has two pieces between his King and the hostile potential pinning piece (the Rook). By this time, we know how to clear the path for the Rook’s deadly pressure to be felt:",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00041",
+      "caption": "8A. White moves. The Knight is pinned in a particularly troublesome way; he is protected only by his King. When his Pawn moves are exhausted, the King will have to move, leaving the Knight unguarded. White begins with 1 g3, and Black answers 1 ... f4 intending to free himself from the pin with ... f5. Now comes 2 g4!",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00042",
+      "caption": "6B. White moves. White’s Bishop is attacked, but, being pinned, it is powerless to retreat and will be captured by Black’s h-Pawn. Note that (1) the lowly Pawn can be extremely dangerous when it advances to attack a pinned piece; (2) White can now block the line of attack with 3 g3 – too late to save the Bishop!",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00043",
+      "caption": "7B. Black moves. The Knight has been driven off, and his colleague, the Bishop, is pinned. Black must lose this piece: the attempt to free the Bishop by 2 ... xf6 fails after 3 xf6, the Bishop being unable to recapture. With this defense knocked out, Black is helpless. A pinned piece is a paralyzed piece.",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00044",
+      "caption": "9A. Black moves. He exploits a pin by concentrating on an overburdened piece, in this case the White Queen. This piece has the double duty of protecting White’s Rook and guarding against the convergence of Black’s forces against g2. Black turns this to account:",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00048",
+      "caption": "10A. White moves. His opponent threatens to break the pin with 1 ... xc4, remaining a Pawn ahead with a won ending. Therefore White must immediately make use of the pin: “Hit him again while he’s down.”",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00050",
+      "caption": "11A. White moves. His Queen is pinned and therefore immobile; but his Rook and Bishop are free to act. He can force Black’s King and Queen onto the same diagonal, allowing a deadly pin. How?",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00052",
+      "caption": "10B. Black moves. Instead of recapturing the Queen (which would have been a gross blunder), White took the Rook with check’. Black must of course get out of check before doing anything else, whereupon White replies 3 bxc4. White benefits by the principle of “Priority of check” – a useful device.",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00053",
+      "caption": "11B. Black moves. Although White’s Queen is unprotected, it is quite safe! For Black cannot play 2 ... xd5+, as that would expose his own King to check. (The typical quandary of the pinned piece!) Thus White wins the Queen and the game at once.",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00055",
+      "caption": "12A. Black moves. Effective pins can often be brought about by replacing one hostile piece with another one on the same square. In this case, the presence of Black’s Rooks on the d-file allows him to replace White’s Bishop with a Rook, followed by a brutal pin with ... b5:",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00057",
+      "caption": "14A. White moves. It is by no means easy to discern prospects of a pin here; the intended target, Black’s e-Pawn, is defended three times and only attacked twice. White begins by knocking out one of the defenders:",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00060",
+      "caption": "12B. White moves. Behold! His opponent’s sacrifice of the exchange has produced a position in which White’s King and Rook occupy the same diagonal. They are thus vulnerable to a Bishop pin which is absolutely decisive: for White can offer the wretched Rook no further support, and the piece is irretrievably lost.",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00061",
+      "caption": "13B. Black moves. His King, Rook and Bishop at f4 can do nothing to strengthen the pin. By elimination, we arrive at the Pawns. There lies our solution! Black plays 3 ... e5!, and White is helpless against 4 ... e4 winning the Rook. Once more we see the value of the maxim “Hit him again while he’s down!” Note how these basic themes recur.",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00062",
+      "caption": "14B. White moves. And now the point: 3 xe5! Black’s d-Pawn is pinned, for 3 ... dxe5 allows 4 xd7. Note that White’s clever first move brought Black’s Rook to a square (d7) where it was no longer guarded by its fellow Rook. Let us see more examples of how players are forced into pins.",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00064",
+      "caption": "15A. Black moves. Again and again we shall stress the importance of picturing to oneself the consequences of every possible check or capture. A check gives the opponent no alternative to getting out of check; a capture almost always calls for instant recapture. The opponent’s lack of choice makes calculation easy:",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00066",
+      "caption": "16A. White moves. The presence of Black’s King and Queen on the same open diagonal makes us sense the possibility of a winning pin. Obviously, 1 c3 is pointless, as Black simply removes the unguarded Bishop. How, then, do we proceed from intuition to analysis? We call on the White Queen for assistance:",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00068",
+      "caption": "17A. White moves. Black is badly pinned right at the start, with his King, Queen and Bishop on the same rank with White’s Rook. Yet Black’s position is well barricaded, and it does not seem easy to exploit the Bishop’s unfortunate position. But a simple capture works wonders:",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00069",
+      "caption": "15B. White moves. The check forced White’s King onto a white square. Then, with both King and Queen on the same diagonal, the pin with 2 ... c6 naturally proved deadly. Had White played 2 g2, the result would have been the same; in each case he loses Queen for Bishop. In 16A, we shall need to find two checks before we force their Majesties into a fatal pin.",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00070",
+      "caption": "16B. White moves. Nothing has been changed but the position of the White Queen. But what a big “but!” For now the White Queen protects the square c3, making possible the crushing sequel 3 c3, winning the hostile Queen. The zig-zag checking maneuver, so innocent in appearance, changed a potential pin into a winning pin. Now let us see how captures may prove useful.",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00071",
+      "caption": "18A. White moves. Again, capturing technique sets the stage for a devastating pin. White sees that after he plays xd7 and Black retakes, the remaining Bishop will be pinned, the Rook on the last rank is unprotected. In that event, 2 b6 would be decisive ... if only Black did not have the resource of 2 ... xb6. The proper procedure is:",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00074",
+      "caption": "20A. White moves. Bearing in mind that captures limit the range of his opponent’s replies, White dabbles with the possibility of 1 xe6! The point is that after the obvious reply 1 ... xe6, White continues with 2 xe6! – all part of his plan. Let us now take stock of the situation in Diagram 20B.",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00076",
+      "caption": "18B. White moves. The removal of the Knight has cleared away the final obstacle to the execution of White’s plan: we are left with a simple pinning position on the c-file. One more blow at Black’s paralyzed Bishop is needed: 3 b6 wins a piece. Once more the maxim of “hit him again while he’s down” has proved its usefulness. In 19A we get another example of the same technique.",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00077",
+      "caption": "19B. Black moves. He has given up the exchange in order to replace White’s Bishop on e3 with White’s Rook. “Hitting him again while he’s down,” Black puts on more pressure with 3 ... e8. To the inexperienced player, this move is startling – Black’s Rook is unprotected. But of course this Rook cannot be captured, for “a pinned piece is a paralyzed piece.” Black now wins a Rook.",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00078",
+      "caption": "21A. Black moves. He begins with the aggressive 1 ... f3+, forcing 2 f2 (why?). Now that the Bishop is pinned, Black increases the pressure by 2 ... f8, threatening mate. White must defend with 3 c5.",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00080",
+      "caption": "21B. Black moves. Now another – and final – blow at the helpless Bishop: 3 ... g4 wins the piece, as White cannot bring up any more defensive forces. A splendid example of how to “pile up” on a pinned piece.",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00081",
+      "caption": "22A. White moves. The target here is Black’s awkwardly placed Rook at d2. First we force Black into a real pin by removing his Queen’s protection: 1 xc6! Black must reply 1 ... bxc6; but now his Queen is unguarded and the Rook is really pinned!",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    },
+    {
+      "id": "wc-00082",
+      "caption": "22B. White moves. Now that the target is immobile, we “pile up” on it: 2 d1. Black defends with 2 ... ad8. So far, so good. But we continue to “pile up” on the wretched Rook: 3 c1. Black has no more defensive resources and suffers decisive loss of material.",
+      "chapter": "BASIC PATTERN FOR THE PIN"
+    }
+  ]
+}

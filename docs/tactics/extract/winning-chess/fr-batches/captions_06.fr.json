@@ -1,0 +1,205 @@
+{
+  "batch": 6,
+  "translations": [
+    {
+      "id": "wc-00379",
+      "captionEn": "179A. White moves. He is a piece down, but can regain it with 1 xe4+, xe4; 2 e5+ etc. But he wants something more forceful. White works out a daring idea by removing the guard: 1 xc5!!, xf3.",
+      "captionFr": "179A. Trait aux Blancs. Il a une pièce de moins, mais peut la récupérer par 1 xe4+, xe4 ; 2 e5+ etc. Or il vise quelque chose de plus incisif. Les Blancs échafaudent une idée audacieuse : supprimer le défenseur par 1 xc5!!, xf3."
+    },
+    {
+      "id": "wc-00380",
+      "captionEn": "180. White moves. His Queen, now unprotected, attacks Black’s Queen, which is protected. Has White time to remove the guard? How?",
+      "captionFr": "180. Trait aux Blancs. Leur Dame, désormais sans protection, attaque la Dame noire, qui, elle, est protégée. Les Blancs ont-ils le temps de supprimer le défenseur ? Comment ?"
+    },
+    {
+      "id": "wc-00382",
+      "captionEn": "181. White moves. Instead of retreating his menaced Knight, he finds a way to remove the guard from the Black Rook which he attacks. How?",
+      "captionFr": "181. Trait aux Blancs. Plutôt que de retirer leur Cavalier menacé, ils trouvent le moyen d'ôter son défenseur à la Tour noire qu'ils attaquent. Comment ?"
+    },
+    {
+      "id": "wc-00383",
+      "captionEn": "182. Black moves. How does he win the Queen by removing its guard?",
+      "captionFr": "182. Trait aux Noirs. Comment gagnent-ils la Dame en supprimant son défenseur ?"
+    },
+    {
+      "id": "wc-00385",
+      "captionEn": "The right way is the Pawn stab 1 ... g5! winning the Knight. Against a Pawn’s attack on a piece, neither exchange nor protection can be satisfactory.",
+      "captionFr": "La bonne méthode est le coup de poignard du Pion, 1 ... g5!, qui gagne le Cavalier. Face à l'attaque d'un Pion contre une pièce, ni l'échange ni la protection ne constituent une parade satisfaisante."
+    },
+    {
+      "id": "wc-00386",
+      "captionEn": "These two examples illustrate the power of the “weak” Pawn in this type of attack. Flight, when possible, is generally the only defense to a Pawn’s attack.",
+      "captionFr": "Ces deux exemples montrent la puissance du « faible » Pion dans ce type d'attaque. Quand elle est possible, la fuite est généralement l'unique défense contre l'attaque d'un Pion."
+    },
+    {
+      "id": "wc-00388",
+      "captionEn": "186. Black moves. He is immediately struck by the fact that White’s Bishop has no retreat. It cannot go forward, while flight is blocked by its own pieces. A Pawn attack will be painful: 1 ... f5 wins the Bishop at once. Such situations often turn up in practical play.",
+      "captionFr": "186. Trait aux Noirs. Ce qui frappe d'emblée, c'est que le Fou blanc n'a aucune retraite : il ne peut avancer, et la fuite lui est barrée par ses propres pièces. Une attaque de Pion sera douloureuse : 1 ... f5 gagne le Fou sur-le-champ. De telles situations se rencontrent souvent dans la pratique."
+    },
+    {
+      "id": "wc-00389",
+      "captionEn": "187. Black moves. What feature, above all, stands out in this position? White’s Queen does not have a single move! The Queen, having no retreat, is an easy prey to attack. Black hits out at the paralyzed Queen with the immediately decisive 1 ... h4! White resigns!",
+      "captionFr": "187. Trait aux Noirs. Quel trait domine avant tout cette position ? La Dame blanche n'a pas un seul coup à jouer ! Privée de retraite, elle est une proie facile. Les Noirs frappent la Dame paralysée par le coup immédiatement décisif 1 ... h4! Les Blancs abandonnent !"
+    },
+    {
+      "id": "wc-00390",
+      "captionEn": "188. Black moves. The hostile Queen has no retreat. To win the Queen, it is sufficient to attack it with any piece of lesser value. This hint yields us 1 ... g6, winning the Queen. After 2 xd8+, xd8, White has no relief.",
+      "captionFr": "188. Trait aux Noirs. La Dame adverse n'a aucune retraite. Pour la gagner, il suffit de l'attaquer avec n'importe quelle pièce de moindre valeur. Cet indice nous mène à 1 ... g6, qui gagne la Dame. Après 2 xd8+, xd8, les Blancs n'ont plus aucun recours."
+    },
+    {
+      "id": "wc-00391",
+      "captionEn": "189. White moves. The candidate for destruction is Black’s Queen, which has an off-side position with few flight squares, while White’s minor pieces have great freedom of action. 1 h4 does the trick, leaving the Queen 14 untouchable squares!",
+      "captionFr": "189. Trait aux Blancs. La victime désignée est la Dame noire, excentrée et privée de cases de fuite, tandis que les pièces mineures blanches jouissent d'une grande liberté d'action. 1 h4 fait l'affaire et laisse à la Dame 14 cases intouchables !"
+    },
+    {
+      "id": "wc-00392",
+      "captionEn": "190. White moves. A Knight has least mobility at the side of the board. Black’s Knight has only one flight square: g1. The logical course is therefore 1 f1. White follows this up with 2 g2, winning the Knight, which has no retreat.",
+      "captionFr": "190. Trait aux Blancs. Le Cavalier est d'autant moins mobile qu'il se trouve au bord de l'échiquier. Celui des Noirs n'a qu'une seule case de fuite : g1. La suite logique est donc 1 f1. Les Blancs enchaînent par 2 g2 et gagnent le Cavalier, qui n'a aucune retraite."
+    },
+    {
+      "id": "wc-00393",
+      "captionEn": "191. Black moves. This position is an example of one of the most common no retreat patterns: Black’s Bishop goes Pawn-snatching and soon finds itself in a cul-de-sac. He plays 1 ... xa2? But with 2 b3 the steel trap closes on the Bishop, which has no retreat.",
+      "captionFr": "191. Trait aux Noirs. Cette position illustre l'un des schémas les plus courants du piège « sans retraite » : le Fou noir part à la chasse aux Pions et se retrouve bientôt dans un cul-de-sac. Il joue 1 ... xa2? Mais, par 2 b3, le piège d'acier se referme sur le Fou, qui n'a aucune retraite."
+    },
+    {
+      "id": "wc-00394",
+      "captionEn": "192. Black moves. He plays 1 ... xa2? under the impression that his attack on the Knight will give him the needed time to retreat the Queen to safety. But 2 c4 closes the exit gate. Black’s Queen has no retreat and will be won by 3 a1.",
+      "captionFr": "192. Trait aux Noirs. Il joue 1 ... xa2? avec l'idée que son attaque contre le Cavalier lui donnera le temps nécessaire de mettre sa Dame à l'abri. Mais 2 c4 ferme la porte de sortie. La Dame noire n'a plus de retraite et sera gagnée par 3 a1."
+    },
+    {
+      "id": "wc-00395",
+      "captionEn": "193. Black moves. His Knights are menaced by the threat of f5. If 1 ... c5; 2 f5!, xe5; 3 d4 forking the Knights. Or 1 ... c7; 2 f5!, xe5; 3 d4 and there is no retreat for the Knight of the Rueful Countenance.",
+      "captionFr": "193. Trait aux Noirs. Ses Cavaliers sont menacés par la poussée f5. Si 1 ... c5 ; 2 f5!, xe5 ; 3 d4, fourchette sur les Cavaliers. Ou 1 ... c7 ; 2 f5!, xe5 ; 3 d4, et le Cavalier à la triste figure n'a plus aucune retraite."
+    },
+    {
+      "id": "wc-00397",
+      "captionEn": "194A. Black moves. His f-Pawn requires protection. Instead of resorting to passive defense, he prefers to counterattack. This takes the form of exploiting the awkward position of White’s Bishop and his Knight on g4. When fleeing from attack, they are bound to get in each other’s way:",
+      "captionFr": "194A. Trait aux Noirs. Son Pion f demande à être protégé. Plutôt que de recourir à une défense passive, il préfère contre-attaquer. Il met à profit la position malcommode du Fou blanc et du Cavalier en g4. En fuyant l'attaque, ces deux pièces ne peuvent manquer de se gêner mutuellement :"
+    },
+    {
+      "id": "wc-00398",
+      "captionEn": "195A. White moves. Tarrasch has said: “No piece can be so easily won by Pawns as a Bishop.” The target here is Black’s Bishop at g6. White intends to surround it with Pawns. He begins with 1 xd6+, xd6 (if 1 ... cxd6; 2 f5 with double attack). The sequel is easy.",
+      "captionFr": "195A. Trait aux Blancs. Tarrasch a dit : « Aucune pièce ne se gagne aussi aisément par des Pions qu'un Fou. » La cible est ici le Fou noir en g6. Les Blancs entendent l'encercler de Pions. Ils commencent par 1 xd6+, xd6 (si 1 ... cxd6 ; 2 f5 avec double attaque). La suite est facile."
+    },
+    {
+      "id": "wc-00399",
+      "captionEn": "196A. Black moves. This position from the Ruy Lopez is so old that it is known as the “Noah’s Ark” Trap. As in 195A, the hemming-in process is used to trap a Bishop. Knowing what to look for, Black begins with a forcible move, a capture: 1 ... xd4; 2 xd4. Now another forcible move, a threat: 2 ... c5 attacking White’s Queen.",
+      "captionFr": "196A. Trait aux Noirs. Cette position de la Partie espagnole est si ancienne qu'on la connaît sous le nom de piège de « l'Arche de Noé ». Comme en 195A, on emprisonne un Fou en le murant. Sachant ce qu'il faut chercher, les Noirs débutent par un coup forcé, une capture : 1 ... xd4 ; 2 xd4. Vient alors un second coup forcé, une menace : 2 ... c5, qui attaque la Dame blanche."
+    },
+    {
+      "id": "wc-00400",
+      "captionEn": "194B. White moves. The menaced Knight must retreat, and he has only one square for the purpose: h2. But by going there (3 h2), he robs the Bishop of its only flight square. Now 3 ... h4 strikes at the helpless Bishop, which has no retreat and is therefore lost. This is an elaboration of the much simpler position in Diagram 186, where the Bishop obviously had no retreat. Here his flight is prevented.",
+      "captionFr": "194B. Trait aux Blancs. Le Cavalier menacé doit se replier, et il n'a pour cela qu'une seule case : h2. Mais en s'y rendant (3 h2), il prive le Fou de son unique case de fuite. Maintenant 3 ... h4 frappe le Fou sans défense, qui n'a aucune retraite et est donc perdu. C'est un développement de la position beaucoup plus simple du diagramme 186, où le Fou n'avait manifestement aucune retraite. Ici, sa fuite est empêchée."
+    },
+    {
+      "id": "wc-00401",
+      "captionEn": "195B. White moves. He executes his plan with 2 f5 forcing 2 ... h5. Now 3 g4 wins the Bishop, which is attacked and has no retreat. Trapping a Bishop inside a web of Pawns is a fairly frequently seen stratagem. It has some similarity to the method used in Diagram 191.",
+      "captionFr": "195B. Trait aux Blancs. Ils exécutent leur plan par 2 f5, qui force 2 ... h5. Alors 3 g4 gagne le Fou, attaqué et sans retraite. Enfermer un Fou dans une toile de Pions est un stratagème assez fréquent. Il s'apparente à la méthode employée au diagramme 191."
+    },
+    {
+      "id": "wc-00402",
+      "captionEn": "197A. Black moves. He goes after a stray Pawn at the side of the board: 1 ... c2+? After 2 d3 (moving in for the kill), Black is forced to do what he wants to do: 2 ... xa3.",
+      "captionFr": "197A. Trait aux Noirs. Il court après un Pion égaré au bord de l'échiquier : 1 ... c2+? Après 2 d3 (les Blancs s'approchent pour l'estocade), les Noirs sont contraints de faire ce qu'ils désirent : 2 ... xa3."
+    },
+    {
+      "id": "wc-00404",
+      "captionEn": "197B. White moves. He is well satisfied with the position: the Black Knight has no moves – no retreat! White swoops down with 3 b3, attacking and winning the miserable Knight.",
+      "captionFr": "197B. Trait aux Blancs. Il est fort satisfait de la position : le Cavalier noir n'a aucun coup, aucune retraite ! Les Blancs fondent sur lui par 3 b3, qui attaque et gagne le misérable Cavalier."
+    },
+    {
+      "id": "wc-00405",
+      "captionEn": "198A. Black moves. He goes in for a tempting but unsound combination. Relying on a “clever” Knight fork, he wins a Pawn: 1 ... xf5?; 2 xd8, d4+; 3 d3, xb5. Thus Black has regained the sacrificed piece and is a Pawn to the good. It is a case of “ ‘Will you come into my parlor?’ said the spider.”",
+      "captionFr": "198A. Trait aux Noirs. Il se lance dans une combinaison séduisante mais incorrecte. Comptant sur une « astucieuse » fourchette de Cavalier, il gagne un Pion : 1 ... xf5? ; 2 xd8, d4+ ; 3 d3, xb5. Les Noirs ont ainsi récupéré la pièce sacrifiée et se retrouvent un Pion à l'avance. C'est le cas de « Voulez-vous entrer dans mon salon ? dit l'araignée. »"
+    },
+    {
+      "id": "wc-00407",
+      "captionEn": "199. White moves. One of Black’s pieces has no mobility. Which Pawn move by White will win this piece?",
+      "captionFr": "199. Trait aux Blancs. L'une des pièces noires est privée de toute mobilité. Quel coup de Pion permet aux Blancs de la gagner ?"
+    },
+    {
+      "id": "wc-00409",
+      "captionEn": "200. White moves. What moves must you make to (a) cut off the retreat of Black’s Bishop and (b) win the Bishop?",
+      "captionFr": "200. Trait aux Blancs. Quels coups devez-vous jouer pour (a) couper la retraite du Fou noir et (b) gagner ce Fou ?"
+    },
+    {
+      "id": "wc-00410",
+      "captionEn": "201. White moves. Black’s pieces stand in each other’s way. How does White win a piece?",
+      "captionFr": "201. Trait aux Blancs. Les pièces noires se font mutuellement obstacle. Comment les Blancs gagnent-ils une pièce ?"
+    },
+    {
+      "id": "wc-00412",
+      "captionEn": "203A. Black moves. He sees an opportunity for a skewer attack in the diagonal placement of White’s Bishop on c4 and his Rook at a2. The two pieces are in line, and there ought to be a way ...",
+      "captionFr": "203A. Trait aux Noirs. Il aperçoit une occasion d'enfilade dans la disposition en diagonale du Fou blanc en c4 et de la Tour en a2. Les deux pièces sont alignées, et il doit bien exister un moyen…"
+    },
+    {
+      "id": "wc-00413",
+      "captionEn": "203B. White moves. He is trapped in a classic example of the skewer attack. The previous exchange placed two of White’s major pieces in line on the same diagonal. Major pieces always make good targets, as they can rarely afford capture when menaced by minor pieces. White must discreetly withdraw the Queen; after 3 e2, xa2; 4 xa2 etc. he has lost the exchange without any compensation.",
+      "captionFr": "203B. Trait aux Blancs. Les voici pris dans un exemple classique d'enfilade. L'échange précédent a placé deux pièces majeures blanches sur une même diagonale. Les pièces majeures font toujours de bonnes cibles : elles peuvent rarement se permettre d'être prises quand une pièce mineure les menace. Les Blancs doivent discrètement retirer la Dame ; après 3 e2, xa2 ; 4 xa2 etc., ils ont perdu la qualité sans la moindre compensation."
+    },
+    {
+      "id": "wc-00415",
+      "captionEn": "204A. Black moves. He can create a skewer attack by forcing the substitution of White’s King for White’s Bishop. In that case, White will be susceptible to a powerful check by Black’s Bishop. Now for the mechanics: we start with a forcing move, therefore 1 ... xf3+. White must recapture: 2 xf3.",
+      "captionFr": "204A. Trait aux Noirs. Il peut créer une enfilade en forçant la substitution du Roi blanc au Fou blanc. Les Blancs deviendront alors vulnérables à un puissant échec du Fou noir. Voyons la mécanique : nous commençons par un coup forcé, donc 1 ... xf3+. Les Blancs doivent reprendre : 2 xf3."
+    },
+    {
+      "id": "wc-00417",
+      "captionEn": "206A. Black moves. His opponent’s King and Queen are in line on the diagonal. Is a skewer attack possible? Apparently not, as White’s Bishop guards the critical diagonal. But if we can drive the Bishop off, then the skewer will be possible. Therefore: 1 ... f5. The White Bishop cannot be protected, so White plays 2 h4.",
+      "captionFr": "206A. Trait aux Noirs. Le Roi et la Dame adverses sont alignés sur la diagonale. Une enfilade est-elle possible ? Apparemment non, puisque le Fou blanc garde la diagonale critique. Mais si l'on parvient à chasser ce Fou, l'enfilade deviendra réalisable. D'où : 1 ... f5. Le Fou blanc ne pouvant être protégé, les Blancs jouent 2 h4."
+    },
+    {
+      "id": "wc-00419",
+      "captionEn": "204B. Black moves. He has brought about a position where two major enemy pieces occupy the same diagonal – an ideal target for the skewer. Black plays 2 ... g4+. After White moves his King away, 3 ... xd1 leaves Black a piece ahead. The Rook was the real target of Black’s combination.",
+      "captionFr": "204B. Trait aux Noirs. Il a amené une position où deux pièces majeures adverses occupent la même diagonale : cible idéale pour l'enfilade. Les Noirs jouent 2 ... g4+. Une fois le Roi blanc écarté, 3 ... xd1 leur laisse une pièce d'avance. La Tour était le véritable objectif de la combinaison noire."
+    },
+    {
+      "id": "wc-00420",
+      "captionEn": "205B. White plays. By sheer force, he has produced a position ripe for the skewer. Black’s King and Rook are in line on the diagonal. White strikes at both pieces with 2 f2+. After Black’s King moves, White captures the Rook with a piece ahead. Again the Rook was the target.",
+      "captionFr": "205B. Les Blancs jouent. Par pure force, ils ont obtenu une position mûre pour l'enfilade. Le Roi et la Tour noirs sont alignés sur la diagonale. Les Blancs frappent les deux pièces par 2 f2+. Une fois le Roi noir déplacé, ils capturent la Tour et gagnent une pièce. Là encore, la Tour était la cible."
+    },
+    {
+      "id": "wc-00421",
+      "captionEn": "206B. Black moves. The hindrance to the skewer has been driven off, so that 2 ... h6+ is now possible. This attacks not only the King, but White’s Queen as well. White must play 3 f4, allowing 3 ... exf4+ with complete collapse. (White’s Queen will now be lost just the same. How?)",
+      "captionFr": "206B. Trait aux Noirs. L'obstacle à l'enfilade a été chassé, si bien que 2 ... h6+ est maintenant possible. Ce coup attaque non seulement le Roi, mais aussi la Dame blanche. Les Blancs doivent jouer 3 f4, permettant 3 ... exf4+ avec un effondrement complet. (La Dame blanche sera perdue de toute façon. Comment ?)"
+    },
+    {
+      "id": "wc-00423",
+      "captionEn": "208A. Black moves. He is so far behind in material (Rook for Queen) that only a miracle can save him. The miracle is available, for the White King and Queen are in line, making possible a skewer in veiled form. At the moment 1 ... b1+ is meaningless, as White’s Bishop on b5 stops the skewer. The Bishop must be removed: 1 ... c6+!",
+      "captionFr": "208A. Trait aux Noirs. Il est si loin derrière en matériel (Tour contre Dame) que seul un miracle peut le sauver. Le miracle est à portée de main, car le Roi et la Dame blancs sont alignés, ce qui rend possible une enfilade voilée. Pour l'instant, 1 ... b1+ n'a aucun sens, puisque le Fou blanc en b5 arrête l'enfilade. Il faut ôter ce Fou : 1 ... c6+ !"
+    },
+    {
+      "id": "wc-00424",
+      "captionEn": "209A. White moves. He has two possible captures: 1 xg2 (which wins) or 1 xf7 (which loses). Like Portia’s suitors, he makes the wrong choice: 1 xf7. The move looks attractive, for it threatens mate and leaves Black with (apparently) nothing but a desperate check or two. But Black heads straight for a skewer! – 1 ... h1+; 2 g3, xh3+; 3 f4.",
+      "captionFr": "209A. Trait aux Blancs. Ils ont deux captures possibles : 1 xg2 (qui gagne) ou 1 xf7 (qui perd). Comme les prétendants de Portia, ils font le mauvais choix : 1 xf7. Le coup paraît séduisant, car il menace le mat et ne laisse aux Noirs (apparemment) que l'un ou l'autre échec désespéré. Mais les Noirs vont droit à l'enfilade ! – 1 ... h1+ ; 2 g3, xh3+ ; 3 f4."
+    },
+    {
+      "id": "wc-00426",
+      "captionEn": "209B. Black moves. He has driven White’s King to the f-file, so that both their majesties are in line. With the chief actors in their proper places, we are ready for the skewer: 3 ... f3+. White’s King must step aside, letting the skewer penetrate to his Queen (4 ... xf7).",
+      "captionFr": "209B. Trait aux Noirs. Il a chassé le Roi blanc sur la colonne f, de sorte que les deux majestés sont alignées. Les protagonistes étant à leur poste, nous voilà prêts pour l'enfilade : 3 ... f3+. Le Roi blanc doit s'écarter, laissant l'enfilade atteindre sa Dame (4 ... xf7)."
+    },
+    {
+      "id": "wc-00427",
+      "captionEn": "210A. Black moves. He threatens mate at g2, but this is prevented by White’s Queen. But at c2 the Queen is undefended, which gives Black the idea of trying to work out a skewer attack. He needs forcing moves for this, and he has them: plenty of checks.",
+      "captionFr": "210A. Trait aux Noirs. Il menace mat en g2, mais la Dame blanche l'en empêche. Or, en c2, la Dame est sans défense, ce qui donne aux Noirs l'idée de monter une enfilade. Il leur faut pour cela des coups forcés, et ils en ont : les échecs ne manquent pas."
+    },
+    {
+      "id": "wc-00431",
+      "captionEn": "211A. Black moves. As we know, the favorable elements for a skewer attack are in evidence. White’s Queen is unguarded; his King can be forced back to the second rank, where it will be in line with the White Queen. Play proceeds logically:",
+      "captionFr": "211A. Trait aux Noirs. Comme nous le savons, les éléments favorables à l'enfilade sont réunis. La Dame blanche n'est pas protégée ; son Roi peut être refoulé sur la deuxième rangée, où il se trouvera aligné avec la Dame blanche. La partie se poursuit avec logique :"
+    },
+    {
+      "id": "wc-00432",
+      "captionEn": "212A. White moves. We look for forcing moves, noting that Black has only a limited number of King moves in reply. In such situations the defender is generally helpless to change the inexorable course of events, and he is frequently forced into a skewer position. We begin with 1 d7+, h6 (other King moves allow a mate in one); 2 g7+, h5.",
+      "captionFr": "212A. Trait aux Blancs. Nous cherchons les coups forcés, en notant que les Noirs n'ont qu'un nombre limité de coups de Roi en réponse. Dans de telles situations, le défenseur est généralement impuissant à infléchir le cours inexorable des événements, et il est souvent contraint d'entrer dans une position d'enfilade. Nous commençons par 1 d7+, h6 (les autres coups de Roi permettent un mat en un coup) ; 2 g7+, h5."
+    },
+    {
+      "id": "wc-00433",
+      "captionEn": "210B. Black moves. He has brought about the desired position by means of two checks. Now comes the skewer with 3 ... h2+ (or, if you wish, 3 ... g2+ – a matter of taste). After White’s King moves, Black plays 4 ... xc2 and it is all over. This type of skewer attack is quite frequent and deserves careful study. See 211A for a very similar procedure.",
+      "captionFr": "210B. Trait aux Noirs. Il a obtenu la position désirée au moyen de deux échecs. Vient maintenant l'enfilade avec 3 ... h2+ (ou, si vous préférez, 3 ... g2+ – affaire de goût). Une fois le Roi blanc déplacé, les Noirs jouent 4 ... xc2 et tout est fini. Ce type d'enfilade est très fréquent et mérite une étude attentive. Voir 211A pour un procédé très semblable."
+    },
+    {
+      "id": "wc-00434",
+      "captionEn": "212B. White moves. He is almost ready now for the skewer, aimed at Black’s Queen. First 3 h7+, forcing 3 ... g4. Now Black’s King and Queen are in line – the maximum objective of a skewer attack. White plays 4 xg6+, and the attack pierces through to win the unfortunate Black Queen, as White ends up with 5 xg1.",
+      "captionFr": "212B. Trait aux Blancs. Ils sont maintenant presque prêts pour l'enfilade visant la Dame noire. D'abord 3 h7+, qui force 3 ... g4. Le Roi et la Dame noirs sont alors alignés – objectif suprême de l'enfilade. Les Blancs jouent 4 xg6+, et l'attaque transperce jusqu'à la malheureuse Dame noire, que les Blancs gagnent en finale par 5 xg1."
+    }
+  ]
+}

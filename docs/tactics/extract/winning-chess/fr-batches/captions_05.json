@@ -1,0 +1,205 @@
+{
+  "batch": 5,
+  "items": [
+    {
+      "id": "wc-00323",
+      "caption": "151A. Black moves. He wants to play ... e2, threatening ... xh2 mate or ... g2 mate. At first sight ... e2 seems impossible, as the square in question is guarded by White’s Rook at e1. But this Rook also has to guard the Rook at f1, and is therefore an overworked piece! We undermine it with 1 ... e2!",
+      "chapter": "BASIC PATTERN FOR UNDERMINING THE OVERWORKED PIECE"
+    },
+    {
+      "id": "wc-00324",
+      "caption": "149B. White moves. The overworked e-Pawn has now been displaced, no longer defending the Bishop. So White continues 2 xf6, with a piece to the good. (Sometimes there is more than one way of undermining a piece. For example, White could have played 1 xf6, exf6; 2 xd6 with two pieces for a Rook. But 1 xd6 is even stronger.)",
+      "chapter": "BASIC PATTERN FOR UNDERMINING THE OVERWORKED PIECE"
+    },
+    {
+      "id": "wc-00325",
+      "caption": "151B. White moves. He is menaced by two different mates on the second rank, and the only plausible defense 2 xe2 allows 2 ... xf1 mate in reply. In Diagram 151B, White’s Rook at e1 is an overworked piece; it cannot defend against every threat. The brilliant 1 ... e2! is easy to see once we realize that the overworked piece must be undermined.",
+      "chapter": "BASIC PATTERN FOR UNDERMINING THE OVERWORKED PIECE"
+    },
+    {
+      "id": "wc-00327",
+      "caption": "152A. White moves. There are Knight forks in the air! Following the maxim that one must look at every check and capture, White studies 1 xb7 forking Queen and Rook. Then he notices 1 xe6+ forking King and Queen. But in each case, the fork is guarded by Black’s Bishop. In each case?! That is our clue! We play 1 xb7!",
+      "chapter": "BASIC PATTERN FOR UNDERMINING THE OVERWORKED PIECE"
+    },
+    {
+      "id": "wc-00328",
+      "caption": "153A. White moves. His first impulse is to move away his Queen from attack. But note this: the Bishop which is doing the attacking is guarded by Black’s Queen. But the other Black Bishop at e7 is also protected by the Queen from capture by White’s Rook. Doesn’t that make Black’s Queen an overworked piece? And if so, shouldn’t White do something about it, instead of meekly retreating? He plays 1 xe7!",
+      "chapter": "BASIC PATTERN FOR UNDERMINING THE OVERWORKED PIECE"
+    },
+    {
+      "id": "wc-00329",
+      "caption": "154A. Black moves. He sees that White’s pinned Knight is protected by King and Queen – two pieces – and attacked by two pieces. He also sees that White’s Bishop is protected by the Queen. In other words, the protection of the Queen is common to both the Knight and Bishop. To undermine the overworked Queen, Black plays 1 ... xd2+. White re plies 2 xd2.",
+      "chapter": "BASIC PATTERN FOR UNDERMINING THE OVERWORKED PIECE"
+    },
+    {
+      "id": "wc-00330",
+      "caption": "153B. Black moves. His attack on the Queen has become meaningless, as 1 ... xf3 is answered by 2 xd7, and White has gained a piece.",
+      "chapter": "BASIC PATTERN FOR UNDERMINING THE OVERWORKED PIECE"
+    },
+    {
+      "id": "wc-00331",
+      "caption": "154B. Black moves. White’s Queen has been diverted from the protection of the Bishop, so that Black can now wind up with the killing 2 ... xf3+, forking King and Queen.",
+      "chapter": "BASIC PATTERN FOR UNDERMINING THE OVERWORKED PIECE"
+    },
+    {
+      "id": "wc-00332",
+      "caption": "155A. White moves. Black’s game looks solid, but it has weaknesses. The weak chink in his armor is the Bishop at f6, which has to be guarded by Black’s Queen; Black’s g-Pawn, being pinned, has no defensive value. But Black’s Queen also has to guard the Bishop at b7, so our problem boils down to this: how can we harry the Queen? Answer: 1 e4!",
+      "chapter": "BASIC PATTERN FOR UNDERMINING THE OVERWORKED PIECE"
+    },
+    {
+      "id": "wc-00334",
+      "caption": "156A. White moves. Once we spot the overworked piece, the method of undermining it is as delightful as it is logical. In this case it is the Black Rook at f8 which is overworked, improbable as it may seem. This Rook has the duty of guarding the Queen and the other Rook at h8. The undermining process begins with 1 d8+!",
+      "chapter": "BASIC PATTERN FOR UNDERMINING THE OVERWORKED PIECE"
+    },
+    {
+      "id": "wc-00335",
+      "caption": "157A. White moves. Is Black’s Queen overworked? The Queen protects the Rook and also prevents mate at Black’s g7. Yet the Queen is not overworked, as after 1 xg5, xg5 the mate is still guarded. To convert the Queen into an overworked piece, it is necessary to shift the scene of the exchange of Rooks. This is done by 1 h4+.",
+      "chapter": "BASIC PATTERN FOR UNDERMINING THE OVERWORKED PIECE"
+    },
+    {
+      "id": "wc-00336",
+      "caption": "155B. Black moves. If he plays 1 ... xe4, then 2 xf6+ forks King and Queen. Hence Black tries 1 ... c7 but loses a piece after 2 xb7, xb7; 3 xf6+ etc. (The pinned state of the g-Pawn is crucial!) 1 e4! is an ideal example of undermining an overworked piece, as the Queen can no longer guard both Bishops. Maxim: Disturb the overworked piece!",
+      "chapter": "BASIC PATTERN FOR UNDERMINING THE OVERWORKED PIECE"
+    },
+    {
+      "id": "wc-00337",
+      "caption": "156B. Black moves. He is in check, and he realizes that the checking move will draw the Rook away from f8, so that one of the guarded pieces will lose its protection. Thus if 1 ... xd8; 2 xf4 wins the Queen. Or if 1 ... c7; 2 xf4, xf4; 3 xh8 with an easy win. Rarely has an overworked piece been undermined so artistically.",
+      "chapter": "BASIC PATTERN FOR UNDERMINING THE OVERWORKED PIECE"
+    },
+    {
+      "id": "wc-00338",
+      "caption": "157B. Black moves. He finds that the check is not easy to answer: if 1 ... g8; 2 e7+ forks King and Queen. He therefore interposes: 1 ... h5. But now the scene of the exchange has been shifted. The Queen must stand guard over two unrelated points and thus becomes an overworked piece. The proof: 2 xh5+, xh5; 3 xg7 mate.",
+      "chapter": "BASIC PATTERN FOR UNDERMINING THE OVERWORKED PIECE"
+    },
+    {
+      "id": "wc-00340",
+      "caption": "159A. White moves. He sees that the Black Queen is overworked: it has the double duty of guarding the f-Pawn and the Rook at c6. A capture by White will undermine the overworked piece – but what is the right capture? 1 xc6?, xc6 brings the Rook at a7 to the defense of the f-Pawn. So we try reverse English: 1 xf7+!",
+      "chapter": "BASIC PATTERN FOR UNDERMINING THE OVERWORKED PIECE"
+    },
+    {
+      "id": "wc-00341",
+      "caption": "160A. White moves. The play pivots on the fact that Black’s Queen is overworked: she defends the b-Pawn and also prevents f8 mate. White fastens on this weakness by playing 1 xb7! As 1 ... xb7? permits 2 f8 mate, Black has nothing better than 1 ... c7. Now his Rook at d8 guards the mate on the last rank.",
+      "chapter": "BASIC PATTERN FOR UNDERMINING THE OVERWORKED PIECE"
+    },
+    {
+      "id": "wc-00342",
+      "caption": "159B. Black moves. He must play 1 ... xf7 (if 1 ... h8??; 2 g8 mate). Now comes 2 xf7+, (or )xf7; 3 xc6. White’s combination has won the exchange and a Pawn.",
+      "chapter": "BASIC PATTERN FOR UNDERMINING THE OVERWORKED PIECE"
+    },
+    {
+      "id": "wc-00343",
+      "caption": "160B. White moves. True, the mate on the back rank is stopped, but White is merciless: he spots a newly created weakness in Black’s camp. Black’s Queen is still overworked, guarding the Knight at c7 and also parrying the threat of f6+, made possible by the removal of the Knight to c7. So: 2 xc7!, xc7; 3 f6+ forcing mate!",
+      "chapter": "BASIC PATTERN FOR UNDERMINING THE OVERWORKED PIECE"
+    },
+    {
+      "id": "wc-00344",
+      "caption": "161. Black moves. White’s Rook at c1 guards the other White Rook and the Bishop as well. What capture undermines the overworked piece?",
+      "chapter": "QUIZ ON THE OVERWORKED PIECE"
+    },
+    {
+      "id": "wc-00346",
+      "caption": "162. Black moves. White’s Queen prevents mate at g2 and also guards the Knight at d3. What capture demonstrates that the White Queen is overworked?",
+      "chapter": "QUIZ ON THE OVERWORKED PIECE"
+    },
+    {
+      "id": "wc-00347",
+      "caption": "163. White moves. Black’s Knight at c6 defends two pieces. How does White prove that this Knight is overworked?",
+      "chapter": "QUIZ ON THE OVERWORKED PIECE"
+    },
+    {
+      "id": "wc-00349",
+      "caption": "165. White moves. Black’s King is tied down to the defense of his Queen. If the King can be forced away, the Queen will be lost. The most forceful move is always a check or a capture. White plays 1 g7+! forcing the removal of the piece guarding the Queen. Black must play 1 ... xg7, whereupon 2 xe7+ is decisive.",
+      "chapter": "BASIC PATTERN FOR REMOVING THE GUARD"
+    },
+    {
+      "id": "wc-00351",
+      "caption": "166A. White moves. He sees that the vulnerable point in Black’s game is the Rook on d5, guarded only by the Black Queen. With White’s Queen and both Black Rooks in line, thoughts of a double attack suggest themselves. The guard must be removed! Therefore: 1 e7! This forces Black to abandon the protection of the Rook, with the continuation 1 ... xe7; 2 xd5+.",
+      "chapter": "BASIC PATTERN FOR REMOVING THE GUARD"
+    },
+    {
+      "id": "wc-00352",
+      "caption": "168A. White moves. He can play 1 e4, attacking the Queen with his Knight, and meanwhile discovering attack on the Knight at f7 with his own Queen. But this would be pointless, as the Knight is guarded by the Black Bishop. “Is guarded by ...” – there is our clue! Remove the guard!",
+      "chapter": "BASIC PATTERN FOR REMOVING THE GUARD"
+    },
+    {
+      "id": "wc-00355",
+      "caption": "167B. Black moves. He strikes at the Queen once more by 3 ... b6, and wins the Queen (and eventually the game) as the Queen must leave the vital diagonal.",
+      "chapter": "BASIC PATTERN FOR REMOVING THE GUARD"
+    },
+    {
+      "id": "wc-00357",
+      "caption": "169A. White moves. He can simplify with 1 xe8+, xe8; 2 xc7, e2+; 3 h3 etc., which is good enough. But he looks for a quick win, based on removing the guard. The indications are there, for the Black Rook, which can be captured with check, is guarded only by the Queen. White plays 1 g4+!",
+      "chapter": "BASIC PATTERN FOR REMOVING THE GUARD"
+    },
+    {
+      "id": "wc-00359",
+      "caption": "170A. Black moves. His pin on the Knight would normally yield dividends by the application of more pressure – say by ... e6. But he has no time, as his own Bishop is attacked. But there is a quicker course. The unhappy Knight is protected only by pieces. Therefore Black removes one of the guards with 1 ... xg2+.",
+      "chapter": "BASIC PATTERN FOR REMOVING THE GUARD"
+    },
+    {
+      "id": "wc-00363",
+      "caption": "171B. Black moves. As we have shown, 1 ... xh7 is forced. But now White has removed the only defender (the Black King!) of the f-Pawn, or, more exactly, of the square f7. After 2 xf7+, Black has 2 ... h8 or 2 ... h6; in either event 3 h1+ puts Black out of his misery. In this case, removing the guard led to a mating attack.",
+      "chapter": "BASIC PATTERN FOR REMOVING THE GUARD"
+    },
+    {
+      "id": "wc-00364",
+      "caption": "172A. White moves. He attacks the hostile Knight twice. It is defended twice. Both guards are pieces. If either defender can be captured or driven off, the Knight will be lost – his guard will be removed. These reflections lead logically to 1 b6, which forks both guards: the Rook and Bishop.",
+      "chapter": "BASIC PATTERN FOR REMOVING THE GUARD"
+    },
+    {
+      "id": "wc-00365",
+      "caption": "173A. Black moves. His Rook attacks White’s Knight, which is defended by a Bishop. Remove this guard and White’s position collapses. As in 172A, a Knight fork does the trick: 1 ... c4. The menaced Rook must stay on the second rank to guard the Bishop, hence 2 c2. Black is well on the way to achieving his objective.",
+      "chapter": "BASIC PATTERN FOR REMOVING THE GUARD"
+    },
+    {
+      "id": "wc-00366",
+      "caption": "174A. White moves. He sees that the position of the hostile Knight is shaky. It has two defenders – but both can be knocked out. How? Not by 1 xd6?, cxd6; 2 dxe5, dxe5 and the Knight is guarded by a sturdy Pawn. We need a more accurate order of moves: 1 dxe5!, xe5 (if 1 ... xe5; 2 xf4 wins a piece). Now to remove a guard.",
+      "chapter": "BASIC PATTERN FOR REMOVING THE GUARD"
+    },
+    {
+      "id": "wc-00367",
+      "caption": "172B. Black moves. He plays 1 ... b8. This is inadequate, but he has nothing better. Now there follows 2 xa8, xa8 and, amusingly enough, neither of the Black Knight’s guards is functioning. White now captures the Knight, with a piece ahead. Maxim: Knock out the prop, and the piece falls!",
+      "chapter": "BASIC PATTERN FOR REMOVING THE GUARD"
+    },
+    {
+      "id": "wc-00368",
+      "caption": "173B. Black moves. Has he really come nearer to his goal? He has blocked the action of his own Rook, and even permitted White to increase the Knight’s protection. But, as has been pointed out, pieces are unstable guards. Now comes 2 ... xb2; 3 xb2. Both defenders are gone; 3 ... xc3 wins the piece after all. An impressive example because of its simplicity.",
+      "chapter": "BASIC PATTERN FOR REMOVING THE GUARD"
+    },
+    {
+      "id": "wc-00369",
+      "caption": "174B. White moves. With the Knight guarded by two pieces, the rest is easy: remove one of the guards. The move we want is 2 xd6, and whichever way Black recaptures, we continue with 3 xf4. The way in which White proves that the Knight is inadequately defended is genuinely instructive.",
+      "chapter": "BASIC PATTERN FOR REMOVING THE GUARD"
+    },
+    {
+      "id": "wc-00370",
+      "caption": "175A. White moves. His attack is concentrated against the pinned Knight. He can remove the guard (the King) by 1 h8+, but after 1 ... xh8; 2 xg6 he has lost material: the Knight is less valuable than the sacrificed Rook. But try a different order of moves: 1 xg6+ xg6.",
+      "chapter": "BASIC PATTERN FOR REMOVING THE GUARD"
+    },
+    {
+      "id": "wc-00371",
+      "caption": "176A. White moves. Our familiarity with removing the guard suggests that Black’s Queen, being defended by only the Knight, is in difficulties. But we must force Black’s hand, else he escapes by ... xd2+. What we need is a forcing move which reduces Black’s choice of a reply; we look for a capture or a check. Therefore: 1 e7+.",
+      "chapter": "BASIC PATTERN FOR REMOVING THE GUARD"
+    },
+    {
+      "id": "wc-00373",
+      "caption": "177A. White moves. His Rook menaces Black’s Bishop, which is guarded by his Knight, which in turn is guarded by a Pawn. To remove the guard, it is necessary to “destroy the house that Jack built” by removing the Pawn that guards the Knight that guards the Bishop.",
+      "chapter": "BASIC PATTERN FOR REMOVING THE GUARD"
+    },
+    {
+      "id": "wc-00375",
+      "caption": "176B. Black moves. If 1 ... xe7, the Queen’s guard is removed, allowing 2 xd4. Therefore Black must play 1 ... d8 or 1 ... b8. The problem is still “Delenda est Carthago!” – remove the guard! We accomplish this with another check (priority of check!) by playing 2 xc6+. Now Black’s defense topples. White will play 3 xd4.",
+      "chapter": "BASIC PATTERN FOR REMOVING THE GUARD"
+    },
+    {
+      "id": "wc-00376",
+      "caption": "178A. Black moves. He sees that the weak link in his opponent’s game is the Bishop. This piece is guarded only by means of other pieces. Black removes the guard by 1 ... xc3, forcing 2 bxc3. White’s defense is about to collapse.",
+      "chapter": "BASIC PATTERN FOR REMOVING THE GUARD"
+    },
+    {
+      "id": "wc-00378",
+      "caption": "178B. Black moves. He has knocked out one guard. The Pawn push 2 ... g5 disposes of the remaining guard. White has the sad choice of moving the Knight and losing the Bishop, or of saving the Bishop and losing the Knight.",
+      "chapter": "BASIC PATTERN FOR REMOVING THE GUARD"
+    }
+  ]
+}

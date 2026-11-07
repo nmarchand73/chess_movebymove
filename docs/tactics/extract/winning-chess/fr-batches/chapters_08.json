@@ -1,0 +1,25 @@
+{
+  "batch": 8,
+  "items": [
+    {
+      "index": 33,
+      "title": "185. White moves. His Knight at e3 is attacked. He can move it safely to d1 or c2. But suppose he becomes thoughtlessly aggressive, and wants to post the Knight at d5? The Knight would then have no flight-square – no retreat. Black would play 1 ... c6 winning the Knight.",
+      "text": "These two examples illustrate the power of the “weak” Pawn in this type of attack. Flight, when possible, is generally the only defense to a Pawn’s attack."
+    },
+    {
+      "index": 36,
+      "title": "188. Black moves. The hostile Queen has no retreat. To win the Queen, it is sufficient to attack it with any piece of lesser value. This hint yields us 1 ... g6, winning the Queen. After 2 xd8+, xd8, White has no relief.",
+      "text": "189. White moves. The candidate for destruction is Black’s Queen, which has an off-side position with few flight squares, while White’s minor pieces have great freedom of action. 1 h4 does the trick, leaving the Queen 14 untouchable squares!"
+    },
+    {
+      "index": 40,
+      "title": "193. Black moves. His Knights are menaced by the threat of f5. If 1 ... c5; 2 f5!, xe5; 3 d4 forking the Knights. Or 1 ... c7; 2 f5!, xe5; 3 d4 and there is no retreat for the Knight of the Rueful Countenance.",
+      "text": "194A. Black moves. His f-Pawn requires protection. Instead of resorting to passive defense, he prefers to counterattack. This takes the form of exploiting the awkward position of White’s Bishop and his Knight on g4. When fleeing from attack, they are bound to get in each other’s way:\n\n195A. White moves. Tarrasch has said: “No piece can be so easily won by Pawns as a Bishop.” The target here is Black’s Bishop at g6. White intends to surround it with Pawns. He begins with 1 xd6+, xd6 (if 1 ... cxd6; 2 f5 with double attack). The sequel is easy.\n\n196A. Black moves. This position from the Ruy Lopez is so old that it is known as the “Noah’s Ark” Trap. As in 195A, the hemming-in process is used to trap a Bishop. Knowing what to look for, Black begins with a forcible move, a capture: 1 ... xd4; 2 xd4. Now another forcible move, a threat: 2 ... c5 attacking White’s Queen.\n\n194B. White moves. The menaced Knight must retreat, and he has only one square for the purpose: h2. But by going there (3 h2), he robs the Bishop of its only flight square. Now 3 ... h4 strikes at the helpless Bishop, which has no retreat and is therefore lost. This is an elaboration of the much simpler position in Diagram 186, where the Bishop obviously had no retreat. Here his flight is prevented.\n\n195B. White moves. He executes his plan with 2 f5 forcing 2 ... h5. Now 3 g4 wins the Bishop, which is attacked and has no retreat. Trapping a Bishop inside a web of Pawns is a fairly frequently seen stratagem. It has some similarity to the method used in Diagram 191.\n\n196B. White moves. Now he sees the coming threat to his Bishop, but he has no choice: he must save his Queen. Once the Queen retreats, 3 ... c4 closes in on the Bishop, leaving it no retreat.\n\nAside from its practical value, this trap teaches the importance of preparatory forcing moves.\n\n197A. Black moves. He goes after a stray Pawn at the side of the board: 1 ... c2+? After 2 d3 (moving in for the kill), Black is forced to do what he wants to do: 2 ... xa3.\n\n197B. White moves. He is well satisfied with the position: the Black Knight has no moves – no retreat! White swoops down with 3 b3, attacking and winning the miserable Knight.\n\n198A. Black moves. He goes in for a tempting but unsound combination. Relying on a “clever” Knight fork, he wins a Pawn: 1 ... xf5?; 2 xd8, d4+; 3 d3, xb5. Thus Black has regained the sacrificed piece and is a Pawn to the good. It is a case of “ ‘Will you come into my parlor?’ said the spider.”\n\n198B. White moves. His opponent has won a Pawn, but the Knight is stranded on a square where it has little mobility. Again we have the drama of no retreat:\n\nThe Knight is lost!"
+    },
+    {
+      "index": 41,
+      "title": "QUIZ ON “NO RETREAT”",
+      "text": "199. White moves. One of Black’s pieces has no mobility. Which Pawn move by White will win this piece?\n\n200. White moves. What moves must you make to (a) cut off the retreat of Black’s Bishop and (b) win the Bishop?\n\n201. White moves. Black’s pieces stand in each other’s way. How does White win a piece?"
+    }
+  ]
+}

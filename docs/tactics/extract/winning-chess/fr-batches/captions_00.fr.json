@@ -1,0 +1,205 @@
+{
+  "batch": 0,
+  "translations": [
+    {
+      "id": "wc-00008",
+      "captionEn": "The pieces set up at the beginning of a game. The bottom row from left to right is the first rank. The White Pawns stand on the second rank. The row above the second rank is the third rank, and so on to the last row, which is the eighth rank.",
+      "captionFr": "Les pièces disposées au début de la partie. La rangée du bas, de gauche à droite, est la première rangée. Les Pions blancs occupent la deuxième rangée. Celle qui la surmonte est la troisième rangée, et ainsi de suite jusqu’à la dernière, la huitième."
+    },
+    {
+      "id": "wc-00009",
+      "captionEn": "Position after 1 e4.",
+      "captionFr": "Position après 1 e4."
+    },
+    {
+      "id": "wc-00013",
+      "captionEn": "Position after Black’s third move. Note that Black has two Pawns on the e-file. In switching to the e-file, Black’s d-Pawn now becomes an e-Pawn.",
+      "captionFr": "Position après le troisième coup des Noirs. Remarquez que les Noirs ont deux Pions sur la colonne e : en changeant de colonne, le Pion d noir est devenu un Pion e."
+    },
+    {
+      "id": "wc-00015",
+      "captionEn": "Black’s Queen gave check on the 6th move and then captured the White Pawn on e5. Black is now threatening to take the opponent’s knight on e4. But White’s next move, Queen-side castling, sets a deadly trap.",
+      "captionFr": "Au sixième coup, la Dame noire a donné échec, puis capturé le Pion blanc en e5. Les Noirs menacent désormais de prendre le Cavalier adverse en e4. Mais le coup suivant des Blancs, le grand roque, tend un piège mortel."
+    },
+    {
+      "id": "wc-00016",
+      "captionEn": "White forces a mate in three moves, beginning with a beautiful Queen sacrifice.",
+      "captionFr": "Les Blancs forcent le mat en trois coups, en commençant par un superbe sacrifice de Dame."
+    },
+    {
+      "id": "wc-00021",
+      "captionEn": "White attacks the weak c-Pawn five times; it is defended only four times. The Pawn cannot be saved. This is an example of concentration of superior force.",
+      "captionFr": "Les Blancs attaquent le faible Pion c cinq fois ; il n’est défendu que quatre fois. Le Pion est perdu. C’est là un exemple de concentration de forces supérieures."
+    },
+    {
+      "id": "wc-00024",
+      "captionEn": "1. Black moves. The Rook has just pinned the Bishop, which is immobile; it cannot expose the King to check. The Bishop cannot be guarded. The Rook will capture it next move.",
+      "captionFr": "1. Trait aux Noirs. La Tour vient de clouer le Fou, qui est immobile : il ne peut exposer le Roi à l’échec. Le Fou ne peut être défendu. La Tour le capturera au coup suivant."
+    },
+    {
+      "id": "wc-00026",
+      "captionEn": "2. White moves. He can win the exchange with 1 xd4+. Instead, he exploits the Rook’s helpless state: he hits it again with 1 e3, winning a whole Rook.",
+      "captionFr": "2. Trait aux Blancs. Les Blancs pourraient gagner la qualité par 1 xd4+. Mais ils préfèrent exploiter l’impuissance de la Tour : ils l’attaquent une seconde fois par 1 e3 et gagnent une Tour entière."
+    },
+    {
+      "id": "wc-00027",
+      "captionEn": "3A. White moves. He has taken advantage of the vulnerable position of the two Black pieces placed in a straight line. How? His Rook pins the Black Knight, which must not move because of the resulting loss of Black’s Rook. How can White increase the pressure in order to exploit Black’s predicament? The indicated answer is: attack the Knight again! Therefore: 1 f4! See Diagram 3B.",
+      "captionFr": "3A. Trait aux Blancs. Ils ont su tirer parti de la position vulnérable des deux pièces noires alignées. Comment ? Sa Tour cloue le Cavalier noir, qui ne doit pas bouger sous peine de perdre la Tour noire. Comment accroître la pression afin d’exploiter l’embarras de l’adversaire ? La réponse qui s’impose : attaquer le Cavalier une fois de plus ! Donc : 1 f4 ! Voir le diagramme 3B."
+    },
+    {
+      "id": "wc-00030",
+      "captionEn": "4A. White moves. He is threatened with 1 ... f2 mate, and there seems to be no way of saving the game. Casting about desperately for some resource, he notes that Black’s King and Queen are placed on the same straight line, but that a Black Pawn blocks any chance of a pin by g1. Therefore, he removes the Pawn: 1 xg7+!! See Diagram 4B.",
+      "captionFr": "4A. Trait aux Blancs. Ils sont menacés de 1 ... f2 mat, et rien ne semble pouvoir sauver la partie. Cherchant désespérément une ressource, les Blancs remarquent que le Roi et la Dame noirs se trouvent sur la même ligne, mais qu’un Pion noir interdit tout clouage par g1. Ils ôtent donc ce Pion : 1 xg7+ !! Voir le diagramme 4B."
+    },
+    {
+      "id": "wc-00032",
+      "captionEn": "3B. Black moves. His Knight is now menaced by two pieces, defended by only one. The Knight is lost, and will be captured by White on the following move.",
+      "captionFr": "3B. Trait aux Noirs. Leur Cavalier est désormais menacé par deux pièces et défendu par une seule. Il est perdu : les Blancs le captureront au coup suivant."
+    },
+    {
+      "id": "wc-00033",
+      "captionEn": "4B. Black moves. He can capture the violently sacrificed Rook by 1 ... xg7 or 1 ... xg7. Whichever way he captures, his King and Queen will be in a straight line. Then comes 2 g1 pinning the Queen. In this way, White not only stops the mate, but actually wins the game. Defeat has been transformed into victory. A pinned piece is a paralyzed piece!",
+      "captionFr": "4B. Trait aux Noirs. Ils peuvent capturer la Tour sacrifiée si violemment par 1 ... xg7 ou 1 ... xg7. Quelle que soit la prise, leur Roi et leur Dame se retrouveront sur une même ligne. Vient alors 2 g1, qui cloue la Dame. Ainsi, les Blancs non seulement parent le mat, mais gagnent la partie. La défaite s’est muée en victoire. Pièce clouée, pièce paralysée !"
+    },
+    {
+      "id": "wc-00036",
+      "captionEn": "6A. Black moves. Here there are no less than three enemy pieces on a straight line. In such cases, the screening pieces (here the Knight and Bishop) are especially vulnerable to the advance of a hostile Pawn. Accordingly Black advances:",
+      "captionFr": "6A. Trait aux Noirs. Trois pièces ennemies se trouvent ici sur une même ligne. En pareil cas, les pièces-écrans (ici le Cavalier et le Fou) sont particulièrement vulnérables à l’avance d’un Pion adverse. Les Noirs avancent donc :"
+    },
+    {
+      "id": "wc-00040",
+      "captionEn": "7A. White moves. This time it is Black who has two pieces between his King and the hostile potential pinning piece (the Rook). By this time, we know how to clear the path for the Rook’s deadly pressure to be felt:",
+      "captionFr": "7A. Trait aux Blancs. Cette fois, ce sont les Noirs qui ont deux pièces entre leur Roi et la pièce adverse susceptible de les clouer (la Tour). Nous savons à présent comment dégager la voie pour que se fasse sentir la terrible pression de la Tour :"
+    },
+    {
+      "id": "wc-00041",
+      "captionEn": "8A. White moves. The Knight is pinned in a particularly troublesome way; he is protected only by his King. When his Pawn moves are exhausted, the King will have to move, leaving the Knight unguarded. White begins with 1 g3, and Black answers 1 ... f4 intending to free himself from the pin with ... f5. Now comes 2 g4!",
+      "captionFr": "8A. Trait aux Blancs. Le Cavalier est cloué de façon particulièrement gênante : il n’est protégé que par son Roi. Quand les coups de Pion seront épuisés, le Roi devra bouger, laissant le Cavalier sans défense. Les Blancs commencent par 1 g3, et les Noirs répondent 1 ... f4, dans l’intention de se libérer du clouage par ... f5. Vient alors 2 g4 !"
+    },
+    {
+      "id": "wc-00042",
+      "captionEn": "6B. White moves. White’s Bishop is attacked, but, being pinned, it is powerless to retreat and will be captured by Black’s h-Pawn. Note that (1) the lowly Pawn can be extremely dangerous when it advances to attack a pinned piece; (2) White can now block the line of attack with 3 g3 – too late to save the Bishop!",
+      "captionFr": "6B. Trait aux Blancs. Le Fou blanc est attaqué mais, étant cloué, il est impuissant à battre en retraite et sera pris par le Pion h noir. Notez que : (1) le modeste Pion peut être extrêmement dangereux lorsqu’il s’avance contre une pièce clouée ; (2) les Blancs peuvent maintenant bloquer la ligne d’attaque par 3 g3 – trop tard pour sauver le Fou !"
+    },
+    {
+      "id": "wc-00043",
+      "captionEn": "7B. Black moves. The Knight has been driven off, and his colleague, the Bishop, is pinned. Black must lose this piece: the attempt to free the Bishop by 2 ... xf6 fails after 3 xf6, the Bishop being unable to recapture. With this defense knocked out, Black is helpless. A pinned piece is a paralyzed piece.",
+      "captionFr": "7B. Trait aux Noirs. Le Cavalier a été chassé, et son compagnon, le Fou, est cloué. Les Noirs doivent perdre cette pièce : la tentative de libérer le Fou par 2 ... xf6 échoue après 3 xf6, le Fou ne pouvant reprendre. Cette défense balayée, les Noirs sont sans recours. Pièce clouée, pièce paralysée."
+    },
+    {
+      "id": "wc-00044",
+      "captionEn": "9A. Black moves. He exploits a pin by concentrating on an overburdened piece, in this case the White Queen. This piece has the double duty of protecting White’s Rook and guarding against the convergence of Black’s forces against g2. Black turns this to account:",
+      "captionFr": "9A. Trait aux Noirs. Ils exploitent un clouage en s’acharnant sur une pièce surchargée, ici la Dame blanche. Celle-ci doit à la fois protéger la Tour blanche et garder g2 contre la convergence des forces noires. Les Noirs en tirent parti :"
+    },
+    {
+      "id": "wc-00048",
+      "captionEn": "10A. White moves. His opponent threatens to break the pin with 1 ... xc4, remaining a Pawn ahead with a won ending. Therefore White must immediately make use of the pin: “Hit him again while he’s down.”",
+      "captionFr": "10A. Trait aux Blancs. Leur adversaire menace de rompre le clouage par 1 ... xc4, restant un Pion à l’avant avec une finale gagnée. Les Blancs doivent donc user sur-le-champ du clouage : « Frappe-le encore quand il est à terre. »"
+    },
+    {
+      "id": "wc-00050",
+      "captionEn": "11A. White moves. His Queen is pinned and therefore immobile; but his Rook and Bishop are free to act. He can force Black’s King and Queen onto the same diagonal, allowing a deadly pin. How?",
+      "captionFr": "11A. Trait aux Blancs. Leur Dame est clouée, donc immobile ; mais leur Tour et leur Fou sont libres d’agir. Ils peuvent contraindre le Roi et la Dame noirs à se placer sur la même diagonale, ce qui permettra un clouage fatal. Comment ?"
+    },
+    {
+      "id": "wc-00052",
+      "captionEn": "10B. Black moves. Instead of recapturing the Queen (which would have been a gross blunder), White took the Rook with check’. Black must of course get out of check before doing anything else, whereupon White replies 3 bxc4. White benefits by the principle of “Priority of check” – a useful device.",
+      "captionFr": "10B. Trait aux Noirs. Au lieu de reprendre la Dame (ce qui eût été une bévue grossière), les Blancs ont pris la Tour avec échec. Les Noirs doivent évidemment parer l’échec avant toute autre chose, après quoi les Blancs répondent 3 bxc4. Les Blancs bénéficient ici du principe de la « priorité de l’échec » – un procédé fort utile."
+    },
+    {
+      "id": "wc-00053",
+      "captionEn": "11B. Black moves. Although White’s Queen is unprotected, it is quite safe! For Black cannot play 2 ... xd5+, as that would expose his own King to check. (The typical quandary of the pinned piece!) Thus White wins the Queen and the game at once.",
+      "captionFr": "11B. Trait aux Noirs. Bien que la Dame blanche ne soit pas protégée, elle est parfaitement en sûreté ! Car les Noirs ne peuvent jouer 2 ... xd5+, ce qui exposerait leur propre Roi à l’échec. (Le dilemme typique de la pièce clouée !) Ainsi les Blancs gagnent la Dame, et du même coup la partie."
+    },
+    {
+      "id": "wc-00055",
+      "captionEn": "12A. Black moves. Effective pins can often be brought about by replacing one hostile piece with another one on the same square. In this case, the presence of Black’s Rooks on the d-file allows him to replace White’s Bishop with a Rook, followed by a brutal pin with ... b5:",
+      "captionFr": "12A. Trait aux Noirs. On peut souvent provoquer des clouages efficaces en remplaçant une pièce adverse par une autre sur la même case. Ici, la présence des Tours noires sur la colonne d permet aux Noirs de substituer une Tour au Fou blanc, puis de clouer brutalement par ... b5 :"
+    },
+    {
+      "id": "wc-00057",
+      "captionEn": "14A. White moves. It is by no means easy to discern prospects of a pin here; the intended target, Black’s e-Pawn, is defended three times and only attacked twice. White begins by knocking out one of the defenders:",
+      "captionFr": "14A. Trait aux Blancs. Il n’est nullement aisé de discerner ici une perspective de clouage ; la cible visée, le Pion e noir, est défendue trois fois et seulement attaquée deux fois. Les Blancs commencent par éliminer l’un des défenseurs :"
+    },
+    {
+      "id": "wc-00060",
+      "captionEn": "12B. White moves. Behold! His opponent’s sacrifice of the exchange has produced a position in which White’s King and Rook occupy the same diagonal. They are thus vulnerable to a Bishop pin which is absolutely decisive: for White can offer the wretched Rook no further support, and the piece is irretrievably lost.",
+      "captionFr": "12B. Trait aux Blancs. Voyez ! Le sacrifice de la qualité de leur adversaire a produit une position où le Roi et la Tour blancs occupent la même diagonale. Ils sont donc exposés à un clouage par le Fou, absolument décisif : les Blancs ne peuvent plus apporter aucun soutien à la malheureuse Tour, et la pièce est irrémédiablement perdue."
+    },
+    {
+      "id": "wc-00061",
+      "captionEn": "13B. Black moves. His King, Rook and Bishop at f4 can do nothing to strengthen the pin. By elimination, we arrive at the Pawns. There lies our solution! Black plays 3 ... e5!, and White is helpless against 4 ... e4 winning the Rook. Once more we see the value of the maxim “Hit him again while he’s down!” Note how these basic themes recur.",
+      "captionFr": "13B. Trait aux Noirs. Leur Roi, leur Tour et leur Fou en f4 ne peuvent rien pour renforcer le clouage. Par élimination, nous en venons aux Pions. Voilà la solution ! Les Noirs jouent 3 ... e5 !, et les Blancs sont sans défense contre 4 ... e4, qui gagne la Tour. Une fois de plus, nous voyons la valeur de la maxime « Frappe-le encore quand il est à terre ! » Remarquez comme ces thèmes fondamentaux reviennent sans cesse."
+    },
+    {
+      "id": "wc-00062",
+      "captionEn": "14B. White moves. And now the point: 3 xe5! Black’s d-Pawn is pinned, for 3 ... dxe5 allows 4 xd7. Note that White’s clever first move brought Black’s Rook to a square (d7) where it was no longer guarded by its fellow Rook. Let us see more examples of how players are forced into pins.",
+      "captionFr": "14B. Trait aux Blancs. Et voici le point essentiel : 3 xe5 ! Le Pion d noir est cloué, car 3 ... dxe5 permet 4 xd7. Notez que le premier coup, si ingénieux, des Blancs a amené la Tour noire sur une case (d7) où elle n’était plus gardée par sa consœur. Voyons d’autres exemples de la manière dont on contraint l’adversaire au clouage."
+    },
+    {
+      "id": "wc-00064",
+      "captionEn": "15A. Black moves. Again and again we shall stress the importance of picturing to oneself the consequences of every possible check or capture. A check gives the opponent no alternative to getting out of check; a capture almost always calls for instant recapture. The opponent’s lack of choice makes calculation easy:",
+      "captionFr": "15A. Trait aux Noirs. Nous insisterons sans cesse sur l’importance de se représenter les conséquences de chaque échec ou capture possible. Un échec ne laisse à l’adversaire d’autre choix que de se mettre à l’abri ; une capture appelle presque toujours une reprise immédiate. Le manque de choix de l’adversaire rend le calcul aisé :"
+    },
+    {
+      "id": "wc-00066",
+      "captionEn": "16A. White moves. The presence of Black’s King and Queen on the same open diagonal makes us sense the possibility of a winning pin. Obviously, 1 c3 is pointless, as Black simply removes the unguarded Bishop. How, then, do we proceed from intuition to analysis? We call on the White Queen for assistance:",
+      "captionFr": "16A. Trait aux Blancs. La présence du Roi et de la Dame noirs sur la même diagonale ouverte nous fait pressentir un clouage gagnant. Manifestement, 1 c3 est sans objet, car les Noirs n’ont qu’à ôter le Fou non protégé. Comment passer alors de l’intuition à l’analyse ? Nous appelons la Dame blanche à la rescousse :"
+    },
+    {
+      "id": "wc-00068",
+      "captionEn": "17A. White moves. Black is badly pinned right at the start, with his King, Queen and Bishop on the same rank with White’s Rook. Yet Black’s position is well barricaded, and it does not seem easy to exploit the Bishop’s unfortunate position. But a simple capture works wonders:",
+      "captionFr": "17A. Trait aux Blancs. Les Noirs sont d’emblée sérieusement cloués, avec leur Roi, leur Dame et leur Fou sur la même rangée que la Tour blanche. Pourtant la position noire est bien barricadée, et il ne paraît pas facile d’exploiter la situation fâcheuse du Fou. Mais une simple capture fait merveille :"
+    },
+    {
+      "id": "wc-00069",
+      "captionEn": "15B. White moves. The check forced White’s King onto a white square. Then, with both King and Queen on the same diagonal, the pin with 2 ... c6 naturally proved deadly. Had White played 2 g2, the result would have been the same; in each case he loses Queen for Bishop. In 16A, we shall need to find two checks before we force their Majesties into a fatal pin.",
+      "captionFr": "15B. Trait aux Blancs. L’échec a contraint le Roi blanc à gagner une case blanche. Puis, le Roi et la Dame se trouvant sur la même diagonale, le clouage par 2 ... c6 s’est naturellement révélé mortel. Si les Blancs avaient joué 2 g2, le résultat eût été identique ; dans les deux cas ils perdent la Dame contre un Fou. En 16A, il nous faudra trouver deux échecs avant de contraindre Leurs Majestés à un clouage fatal."
+    },
+    {
+      "id": "wc-00070",
+      "captionEn": "16B. White moves. Nothing has been changed but the position of the White Queen. But what a big “but!” For now the White Queen protects the square c3, making possible the crushing sequel 3 c3, winning the hostile Queen. The zig-zag checking maneuver, so innocent in appearance, changed a potential pin into a winning pin. Now let us see how captures may prove useful.",
+      "captionFr": "16B. Trait aux Blancs. Rien n’a changé, sinon la place de la Dame blanche. Mais quel « sinon » ! Car désormais la Dame blanche protège la case c3, ce qui rend possible la suite écrasante 3 c3, gagnant la Dame adverse. La manœuvre en zigzag des échecs, d’apparence si innocente, a changé un clouage potentiel en clouage gagnant. Voyons maintenant comment les captures peuvent se révéler utiles."
+    },
+    {
+      "id": "wc-00071",
+      "captionEn": "18A. White moves. Again, capturing technique sets the stage for a devastating pin. White sees that after he plays xd7 and Black retakes, the remaining Bishop will be pinned, the Rook on the last rank is unprotected. In that event, 2 b6 would be decisive ... if only Black did not have the resource of 2 ... xb6. The proper procedure is:",
+      "captionFr": "18A. Trait aux Blancs. Là encore, la technique de la capture prépare le terrain d’un clouage dévastateur. Les Blancs voient qu’après qu’ils auront joué xd7 et que les Noirs auront repris, le Fou restant sera cloué, la Tour de la dernière rangée n’étant pas protégée. Dans ce cas, 2 b6 serait décisif ... si seulement les Noirs ne disposaient de la ressource 2 ... xb6. La bonne méthode est :"
+    },
+    {
+      "id": "wc-00074",
+      "captionEn": "20A. White moves. Bearing in mind that captures limit the range of his opponent’s replies, White dabbles with the possibility of 1 xe6! The point is that after the obvious reply 1 ... xe6, White continues with 2 xe6! – all part of his plan. Let us now take stock of the situation in Diagram 20B.",
+      "captionFr": "20A. Trait aux Blancs. Se souvenant que les captures limitent l’éventail des réponses adverses, les Blancs envisagent 1 xe6 ! Le point est qu’après la réponse évidente 1 ... xe6, les Blancs poursuivent par 2 xe6 ! – le tout conformément à leur plan. Faisons maintenant le point de la situation dans le diagramme 20B."
+    },
+    {
+      "id": "wc-00076",
+      "captionEn": "18B. White moves. The removal of the Knight has cleared away the final obstacle to the execution of White’s plan: we are left with a simple pinning position on the c-file. One more blow at Black’s paralyzed Bishop is needed: 3 b6 wins a piece. Once more the maxim of “hit him again while he’s down” has proved its usefulness. In 19A we get another example of the same technique.",
+      "captionFr": "18B. Trait aux Blancs. L’enlèvement du Cavalier a écarté le dernier obstacle à l’exécution du plan blanc : nous voici devant un simple clouage sur la colonne c. Il faut encore un coup contre le Fou noir paralysé : 3 b6 gagne une pièce. Une fois de plus, la maxime « frappe-le encore quand il est à terre » a prouvé son utilité. Dans le diagramme 19A, nous trouverons un autre exemple de la même technique."
+    },
+    {
+      "id": "wc-00077",
+      "captionEn": "19B. Black moves. He has given up the exchange in order to replace White’s Bishop on e3 with White’s Rook. “Hitting him again while he’s down,” Black puts on more pressure with 3 ... e8. To the inexperienced player, this move is startling – Black’s Rook is unprotected. But of course this Rook cannot be captured, for “a pinned piece is a paralyzed piece.” Black now wins a Rook.",
+      "captionFr": "19B. Trait aux Noirs. Ils ont sacrifié la qualité afin de remplacer le Fou blanc en e3 par la Tour blanche. « Frappant encore alors qu’il est à terre », les Noirs accentuent la pression par 3 ... e8. Pour le joueur inexpérimenté, ce coup est saisissant – la Tour noire n’est pas protégée. Mais naturellement cette Tour ne peut être prise, car « pièce clouée, pièce paralysée ». Les Noirs gagnent maintenant une Tour."
+    },
+    {
+      "id": "wc-00078",
+      "captionEn": "21A. Black moves. He begins with the aggressive 1 ... f3+, forcing 2 f2 (why?). Now that the Bishop is pinned, Black increases the pressure by 2 ... f8, threatening mate. White must defend with 3 c5.",
+      "captionFr": "21A. Trait aux Noirs. Ils débutent par l’agressif 1 ... f3+, qui force 2 f2 (pourquoi ?). Le Fou étant désormais cloué, les Noirs augmentent la pression par 2 ... f8, menaçant le mat. Les Blancs doivent se défendre par 3 c5."
+    },
+    {
+      "id": "wc-00080",
+      "captionEn": "21B. Black moves. Now another – and final – blow at the helpless Bishop: 3 ... g4 wins the piece, as White cannot bring up any more defensive forces. A splendid example of how to “pile up” on a pinned piece.",
+      "captionFr": "21B. Trait aux Noirs. Voici maintenant un nouveau – et dernier – coup contre le Fou impuissant : 3 ... g4 gagne la pièce, car les Blancs ne peuvent amener aucune force défensive supplémentaire. Splendide exemple de la façon de « s’acharner » sur une pièce clouée."
+    },
+    {
+      "id": "wc-00081",
+      "captionEn": "22A. White moves. The target here is Black’s awkwardly placed Rook at d2. First we force Black into a real pin by removing his Queen’s protection: 1 xc6! Black must reply 1 ... bxc6; but now his Queen is unguarded and the Rook is really pinned!",
+      "captionFr": "22A. Trait aux Blancs. La cible est ici la Tour noire, fâcheusement placée en d2. Commençons par contraindre les Noirs à un véritable clouage en retirant la protection de leur Dame : 1 xc6 ! Les Noirs doivent répondre 1 ... bxc6 ; mais leur Dame est maintenant sans garde et la Tour est réellement clouée !"
+    },
+    {
+      "id": "wc-00082",
+      "captionEn": "22B. White moves. Now that the target is immobile, we “pile up” on it: 2 d1. Black defends with 2 ... ad8. So far, so good. But we continue to “pile up” on the wretched Rook: 3 c1. Black has no more defensive resources and suffers decisive loss of material.",
+      "captionFr": "22B. Trait aux Blancs. La cible étant désormais immobile, nous nous « acharnons » sur elle : 2 d1. Les Noirs se défendent par 2 ... ad8. Jusqu’ici, tout va bien. Mais nous continuons à nous acharner sur la malheureuse Tour : 3 c1. Les Noirs n’ont plus de ressource défensive et subissent une perte décisive de matériel."
+    }
+  ]
+}

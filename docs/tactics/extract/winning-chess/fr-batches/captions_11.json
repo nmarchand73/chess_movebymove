@@ -1,0 +1,165 @@
+{
+  "batch": 11,
+  "items": [
+    {
+      "id": "wc-00676",
+      "caption": "White’s Knight at c3 has been unpinned, and may come into the game very quickly. Black therefore decides to remove the Knight.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00679",
+      "caption": "No retreat is necessary! The impertinent Knight cannot be captured, as Black’s f6-Pawn is pinned.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00682",
+      "caption": "If 19 ... e8; 20 h8+, g8 (or 20 ... e7; 21 xg7+); 21 xf6+ and mate next move. Or 19 ... e8; 20 h5+ d8; 21 h8+ leading to mate.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00685",
+      "caption": "Still taking advantage of the pin, White forces the King to e7 (removal of the guard), so that 23 xg7+ will be possible. As Black cannot prevent this, he resigns.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00686",
+      "caption": "Black’s position is somewhat cramped, and the fact that his Knight at c3 is pinned adds to the generally uncomfortable effect.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00690",
+      "caption": "Wrong! He retreats to threaten a Pawn fork, but the idea is unsound.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00693",
+      "caption": "The e-Pawn needed support.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00695",
+      "caption": "11 b5+ also wins, but the text is prettier.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00700",
+      "caption": "White plans to “fianchetto” his King’s Bishop (play it to g2). As soon as he castles, this Bishop will be guarded by the White King and therefore in a more secure position than the Black Bishop whom he faces on the long diagonal.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00704",
+      "caption": "Even at this early stage, White has a won game. The d5-Pawn is pinned (why?) and is therefore an immobile target. It is attacked three times and defended three times, but it cannot be guarded by a Pawn (the most secure form of protection).",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00706",
+      "caption": "A neat tactical device makes this move possible despite the fact that the Queen’s Pawn seems to be defended as many times as it is attacked.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00710",
+      "caption": "What pathetic helplessness! If 14 ... xd5 the Knight fork 15 xe7+ wins a piece. If Black tries to trap the Queen by 14 ... c7 then 15 xa8 (15 xe7+, xe7; 16 xa8 is even simpler), c6; 16 xc6!, xc6; 17 xe7+ still echoes the same theme!",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00712",
+      "caption": "The first point. After the exchange of Bishops, the white squares on the Queen-side become “holes” and vulnerable to occupation by White.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00716",
+      "caption": "The attack on the weak c-Pawn cannot be parried. Thus 14 ... ac8 allows the same continuation as actually happens in the game; 14 ... d6 allows 15 xe4, dxe4; 16 xc6 and wins; while 14 ... c5 loses by 15 xe4, dxe4; 16 e5 (exploiting the pin), fd8; 17 c6, the Knight Fork winning the exchange.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00718",
+      "caption": "He must guard the c-Pawn. It is clear that if 15 ... cxd5; 16 xc8+, xc8; 17 xc8+, f8; 18 c1 and White wins easily.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00720",
+      "caption": "Black resigns, for if 16 ... xc6; 17 e7+ wins the Queen by a Knight fork. If 16 ... xd5; 17 xc8+ wins the Queen by discovered attack. Finally, if 16 ... xc6; 17 xa8+, b8 forced; 18 e5, c8; 19 b7, f8; 20 e7+!, h8; 21 xe4, xe7; 22 g6+ again winning the Queen by discovered attack. Even speedier is 21 xf7+, xf7; 22 c8+ and mate in two more moves (vulnerable first rank).",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00721",
+      "caption": "White’s game is much freer, and his pieces are posted more aggressively. From this it follows that: (a) if new lines are opened, White will benefit accordingly; (b) Black should avoid such line-opening.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00724",
+      "caption": "So far, so good. Black is momentarily holding his own, for if 11 exf6??, xe2 etc. But White parries cleverly.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00726",
+      "caption": "Instead of playing 12 cxd4 (which is quite good), White chooses an even sharper method. He now threatens 13 xh7+ or 13 xf7+.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00729",
+      "caption": "White threatens 16 d5 (blocking the flight of Black’s King) with a quick win.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00731",
+      "caption": "White could also play h8+, as this move is superfluous.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00734",
+      "caption": "Stops White’s threat, but the Black King is not happy.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00736",
+      "caption": "Preventing the skewer check.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00738",
+      "caption": "White can win in various ways, for example by the Knight fork 23 f6+. But the method he chooses (concentrating on the pin) is certainly the most forthright.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00740",
+      "caption": "Black resigns, for the pin is beyond endurance; if 25 ... d7; 26 f6 or 26 f6+ wins easily.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00741",
+      "caption": "With his fourth move, Black “gave up the center” – his center Pawn captured away from the center. The long-range consequence is that White may be able to establish a strong center by playing e4 – now that Black’s Pawn has disappeared from d5.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00743",
+      "caption": "Black’s pieces do not have access to the center squares. They are therefore likely to be poorly placed. This is particularly true of the Bishop at g6.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00747",
+      "caption": "If White removes his Queen from attack, his advantage will disappear. For example: 16 d3, h5 saving the Bishop and threatening the double attack ... e2. 16 f3 looks better, but then conies 16 ... h4. (with the mating pattern of Diagrams 307A and 307B); 17 g3, xd4+ followed by 17 ... e5 and again Black has the initiative by coun terattack.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00749",
+      "caption": "If now 16 ... h5; 17 xh5, xe4; 18 xf7+ h8; 19 f3 retaining a strong initiative.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00750",
+      "caption": "Still directed against the pinned Knight. The idea is if 17 xh2, h4+ (double attack); 18 g1, xe4 followed by ... h5.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00752",
+      "caption": "Apparently 17 ... h4 is crushing, but it is defeated by the surprising reply 18 g5! If then 18 ... xe4; 19 xe4, xe4; 20 fxg6, d6; 21 xf7 and wins. Or 18 ... h5; 19 g4 etc. Of course, 18 ... xg5; 19 xg5 is quite hopeless for Black, as he loses too much material.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00754",
+      "caption": "Decisive! Black cannot play 18 ... f6 (his f-Pawn is pinned). If his Queen moves off the attacking diagonal, 19 fxg6 at last becomes feasible. If 18 ... xg5?; 19 xg5, xe2; 20 xe2 winning Rook and Bishop.",
+      "chapter": "ANALYZINGA COMBINATION"
+    }
+  ]
+}

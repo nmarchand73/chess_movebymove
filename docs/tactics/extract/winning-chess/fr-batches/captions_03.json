@@ -1,0 +1,205 @@
+{
+  "batch": 3,
+  "items": [
+    {
+      "id": "wc-00208",
+      "caption": "88B. White moves. He has given up the exchange in order to force the Black Rook to a square where it is unprotected. Is there a check which will take advantage of the Rook’s vulnerable state? 3 b5+ is the move. Black must attend to his King’s safety, leaving the defenseless Rook to its fate. The Bishop on a6 had to be replaced by the helpless Rook.",
+      "chapter": "DOUBLE ATTACKS WITH CHECK"
+    },
+    {
+      "id": "wc-00210",
+      "caption": "89A. White moves. To bring about the desired position, we require a series of preliminary exchanges:",
+      "chapter": "DOUBLE ATTACKS WITH CHECK"
+    },
+    {
+      "id": "wc-00211",
+      "caption": "89B. White moves. He has succeeded in stripping the Rook of its defenders. 3 g4+ now wins the Rook in familiar fashion. Such combinations occur frequently in practical play.",
+      "chapter": "DOUBLE ATTACKS WITH CHECK"
+    },
+    {
+      "id": "wc-00212",
+      "caption": "90A. White moves. 1 g5! clears the diagonal for the White Queen. 1 ... hxg5 is forced, as the Rook at f6 must remain at its station to guard the Knight. Now the first point: 2 xd6! (stripping the Rook at b7 of its defender), xd6; 3 xd6, xd6. What now?",
+      "chapter": "DOUBLE ATTACKS WITH CHECK"
+    },
+    {
+      "id": "wc-00213",
+      "caption": "91A. White moves. Unpro tected pieces (like Black’s Bishop here) are the best possible targets for double attack. 1 f5 menaces the Bishop, and the Knight at e5 as well.",
+      "chapter": "DOUBLE ATTACKS ON LOOSE PIECES"
+    },
+    {
+      "id": "wc-00215",
+      "caption": "91B. Black moves. His Knight is now attacked by two pieces, defended by only one. After 1 ... g6 (what else is there?) White captures the Knight, winning a piece.",
+      "chapter": "DOUBLE ATTACKS ON LOOSE PIECES"
+    },
+    {
+      "id": "wc-00216",
+      "caption": "92A. White moves. Black’s Knight at g3 is an exposed piece, but it can always save itself by the forceful move (capture!) ... xf1. White kills this resource by 1 xa6, forcing 1 ... xa6. Now White is ready for the double attack.",
+      "chapter": "DOUBLE ATTACKS ON LOOSE PIECES"
+    },
+    {
+      "id": "wc-00217",
+      "caption": "92B. White moves. Black’s forced recapture has made it easy for White to foresee the next step. The Knight at g3 is now really exposed, and in addition the Rook at a6 has become a loose piece. White wins a piece with 2 d3!",
+      "chapter": "DOUBLE ATTACKS ON LOOSE PIECES"
+    },
+    {
+      "id": "wc-00218",
+      "caption": "93A. Black moves. His object is to penetrate with his Queen into the enemy’s territory. Black begins with 1 ... xh3, and after 2 xh3 he is ready to carry out his plan: he makes good use of the Queen’s attacking potentialities.",
+      "chapter": "DOUBLE ATTACKS ON LOOSE PIECES"
+    },
+    {
+      "id": "wc-00219",
+      "caption": "93B. Black moves. The previous exchange has drawn White’s King away from the protection of his Knight. Now both White’s Knight and Bishop are exposed pieces. 2 ... g1 threatens both pieces and wins one of them.",
+      "chapter": "DOUBLE ATTACKS ON LOOSE PIECES"
+    },
+    {
+      "id": "wc-00221",
+      "caption": "94A. Black moves. Picture this diagram with the Queens removed. In that event, both White Bishops would be loose pieces, vulnerable to the double attack ... c2. How can Black force this ideal situation?",
+      "chapter": "DOUBLE ATTACKS ON LOOSE PIECES"
+    },
+    {
+      "id": "wc-00222",
+      "caption": "95A. Black moves. He employs a double attack to prepare for a second double attack – a witty idea. First comes 1 ... d3, attacking Queen and Knight and forcing 2 xd3. To this the reply is 2 ... xd3! forcing 3 xd3. Why did Black give up a Pawn?",
+      "chapter": "DOUBLE ATTACKS WITH THE PAWN PUSH"
+    },
+    {
+      "id": "wc-00224",
+      "caption": "95B. Black moves. Now the second, and this time fatal, double attack: 3 ... e4, menacing Queen and Knight. He can try to break the double attack by 4 xf6. But Black warily replies 4 ... gxf6! and the double attack remains, forcing the win of a piece.",
+      "chapter": "DOUBLE ATTACKS WITH THE PAWN PUSH"
+    },
+    {
+      "id": "wc-00225",
+      "caption": "96A. White moves. He plays 1 d5, a double attack which wins material indirectly. The Bishop and Knight are attacked, so that 1 ... xd5 is forced.",
+      "chapter": "DOUBLE ATTACKS WITH THE PAWN PUSH"
+    },
+    {
+      "id": "wc-00226",
+      "caption": "96B. White moves. He continues with 2 xf5, a Knight fork attacking Queen and Rook. So the initial double attack was not an end in itself!",
+      "chapter": "DOUBLE ATTACKS WITH THE PAWN PUSH"
+    },
+    {
+      "id": "wc-00227",
+      "caption": "97A. Black moves. An attack by a piece on a piece of equal value can be met in various ways. For example, you can defend the threatened piece so that its capture will result in an even exchange. Not so with attacks by Pawns: the threatened piece must flee at once. (To support it and permit its capture by a Pawn would mean losing a piece for only a Pawn.) Black plays 1 ... c5.",
+      "chapter": "DOUBLE ATTACKS WITH THE PAWN PUSH"
+    },
+    {
+      "id": "wc-00228",
+      "caption": "98A. Black moves. Another Pawn push to gain time for the subsequent double attack by a Pawn: 1 ... c5 attacks the Knight at d4. White has no choice: he must retreat the Knight at once; no other move can be considered. The Pawn attack admits of no alternative to retreat. There follows 2 f3, and now comes the Pawn fork 2 ... c4 (the second half of the Pawn push).",
+      "chapter": "DOUBLE ATTACKS WITH THE PAWN PUSH"
+    },
+    {
+      "id": "wc-00229",
+      "caption": "99A. White moves. He hits the Knight at e6 with 1 d5. As we know, the Pawn push forces the threatened piece to run away; bringing up a defender is of no avail, as it would only lose a piece for a Pawn. Black plays 1 ... c7 – the only square left for the attacked Knight. Now for the second part of the Pawn push: 2 d6.",
+      "chapter": "DOUBLE ATTACKS WITH THE PAWN PUSH"
+    },
+    {
+      "id": "wc-00230",
+      "caption": "98B. White moves. His Queen and Knight are attacked by the on-rushing Pawn. The more important of the two menaced pieces, the Queen, must be saved, allowing 3 ... cxb3 with a piece to the good for Black.",
+      "chapter": "DOUBLE ATTACKS WITH THE PAWN PUSH"
+    },
+    {
+      "id": "wc-00232",
+      "caption": "100A. Black moves. An interesting form of double attack is one directed against a piece and a square already weakened by a pin. Black begins with the forcing 1 ... d3. White defends with 2 ac1.",
+      "chapter": "DOUBLE ATTACKS WITH PINS"
+    },
+    {
+      "id": "wc-00234",
+      "caption": "100B. Black moves. The twoedged nature of his previous move is brought out by the sequel: 2 ... h3 mate! The White Pawn is pinned, and the defensive power of a pinned piece is only imaginary!",
+      "chapter": "DOUBLE ATTACKS WITH PINS"
+    },
+    {
+      "id": "wc-00236",
+      "caption": "101A. White moves. He operates with a double attack against King and Queen.",
+      "chapter": "DOUBLE ATTACKS WITH PINS"
+    },
+    {
+      "id": "wc-00237",
+      "caption": "102. White moves. (adapted from 83A) He nullifies both threats by interposing: 1 c3!",
+      "chapter": "BREAKING A DOUBLE ATTACK"
+    },
+    {
+      "id": "wc-00239",
+      "caption": "103. White moves. (adapted from 84A) Instead of playing 1 axb3? (allowing 1 ... d4+), he equalizes with 1 xf6!",
+      "chapter": "BREAKING A DOUBLE ATTACK"
+    },
+    {
+      "id": "wc-00240",
+      "caption": "104. White moves. He frees himself from the double attack on Knight and Queen by means of 1 b1+!",
+      "chapter": "BREAKING A DOUBLE ATTACK"
+    },
+    {
+      "id": "wc-00241",
+      "caption": "106. White moves. How can White make use of a double attack with check to win a piece?",
+      "chapter": "QUIZ ON DOUBLE ATTACKS"
+    },
+    {
+      "id": "wc-00243",
+      "caption": "107. White moves. How does he win a piece at once by double attack on two loose pieces?",
+      "chapter": "QUIZ ON DOUBLE ATTACKS"
+    },
+    {
+      "id": "wc-00244",
+      "caption": "108. Black moves. How does he take advantage of a two-move Pawn push to win a piece by double attack?",
+      "chapter": "QUIZ ON DOUBLE ATTACKS"
+    },
+    {
+      "id": "wc-00246",
+      "caption": "110. White moves. The position of the two Queens, with the Bishop between them, constitutes the basic pattern. The Bishop makes a “discovered attack” by 1 xf7+! Black sees that his Queen is attacked, but he cannot save her, because of the rule of priority of check. White’s next move will be 2 xg4.",
+      "chapter": "BASIC PATTERN FOR DISCOVERED ATTACK"
+    },
+    {
+      "id": "wc-00247",
+      "caption": "111A. White moves. He sees at once that the forces on the c-file are arranged in the basic pattern for a discovered attack. Any move of White’s Bishop will release his Rooks. A check or a capture (or a combination of both!) will keep Black too busy to save his Rook at c8. So White plays 1 xf7+! This is surprising at first sight, for the Bishop can be captured in four dif ferent ways!",
+      "chapter": "DISCOVERED ATTACK WITH CHECK"
+    },
+    {
+      "id": "wc-00249",
+      "caption": "112A. Black moves. A vulnerable target must be created here. Black’s Bishop at f5 attacks the d-Pawn directly. Black’s Rook at d8 attacks it indirectly. Black’s Bishop at d6 can give check. Add up these three factors, and you have a combination! We start with 1 ... xd3! White must reply 2 xd3, unless he prefers to lose the exchange by running away with the Queen.",
+      "chapter": "DISCOVERED ATTACK WITH CHECK"
+    },
+    {
+      "id": "wc-00250",
+      "caption": "113A. Black moves. Our solution of 112A gives us a clue here: we must unmask an attack on the Queen file. We therefore begin with an exchange which will bring White’s Queen into a vulnerable position for the discovered attack. We begin with 1 ... xd3, forcing 2 xd3 (unless White prefers to remain a piece down). Now comes the discovered attack: 2 ... xh2+.",
+      "chapter": "DISCOVERED ATTACK WITH CHECK"
+    },
+    {
+      "id": "wc-00251",
+      "caption": "112B. Black moves. Now he has the position he wanted. He must “discover” an attack on the Queen at once, so that she cannot escape. Only one move will answer that requirement: 2 ... xh2+ attacking the White King with the Bishop, and attacking the White Queen with the Rook! White must reply 3 xh2, whereupon 3 ... xd3 wins. Q.E.D.",
+      "chapter": "DISCOVERED ATTACK WITH CHECK"
+    },
+    {
+      "id": "wc-00253",
+      "caption": "113B. White moves. He must get out of check, permitting the loss of his Queen by 3 ... xd3. We are becoming familiar with the basic pattern for the discovered attack. The Black Bishop masked a possible attack on White’s Queen. Therefore we moved the Bishop with check, unmasking the Rook’s attack on White’s helpless Queen. Remember the priority of check!",
+      "chapter": "DISCOVERED ATTACK WITH CHECK"
+    },
+    {
+      "id": "wc-00254",
+      "caption": "114A. White moves. One of the most dangerous features of the discovered attack is that it is often a concealed weapon. In the diagram, for example, White’s Queen has enormous power on the c-file, even though its action is masked by the White Bishop. There follows 1 xc7!, threatening to remove the Black Rook. Black naturally answers 1 ... xc7.",
+      "chapter": "DISCOVERED ATTACK WITH CHECK"
+    },
+    {
+      "id": "wc-00255",
+      "caption": "115A. White moves. Here his problem is the correct sequence of his moves. There is a potential attack via the d-file, but how is White’s Bishop to leave d4 in order to unmask an attack by the Rook? 1 xb6?? is a gross blunder because of 1 ... xb6+. 1 xg7+, xg7; 2 xd7 is much better, but wins only a Pawn. The correct sequence begins with 1 xd7!, which must be answered by 1 ... xd7.",
+      "chapter": "DISCOVERED ATTACK WITH CHECK"
+    },
+    {
+      "id": "wc-00256",
+      "caption": "116A. White moves. He has just sacrificed a Rook, relying on the basic pattern for a discovered attack which is now available. The position on the first rank is suggestive: White’s Bishop is obviously going to unmask an attack on the Black Queen. But how, with Black’s King on a white square?! White cuts the Gordian knot: 1 xf8+! Black replies 1 ... xf8.",
+      "chapter": "DISCOVERED ATTACK WITH CHECK"
+    },
+    {
+      "id": "wc-00257",
+      "caption": "115B. White moves. Black has been given no option. That is the first good point about the proper order of moves. The second valuable feature is that the Black target has been transformed from a Knight into the immensely valuable Queen. Now comes 2 xg7+, “discovering” a Rook attack on Black’s Queen, which is lost next move. Also feasible is 2 xb6, winning a piece by “dis covery.”",
+      "chapter": "DISCOVERED ATTACK WITH CHECK"
+    },
+    {
+      "id": "wc-00259",
+      "caption": "116B. White moves. Now that Black’s King is on a black square, White continues 2 h6+ winning the Queen, as Black must get out of check. With a Pawn ahead, White wins easily. Suppose that after 1 xf8+, Black had replied 1 ... d7. There would still be a “discovery” pattern after 2 d6+, e8; 3 g5! threatening mate!",
+      "chapter": "DISCOVERED ATTACK WITH CHECK"
+    },
+    {
+      "id": "wc-00261",
+      "caption": "117A. White moves. This diagram illustrates a basic idea which occurs innumerable times. To understand and apply this idea, you need only understand the pattern for discovered attack: White’s Queen is a potential threat to any piece on the d-file, even though momentarily masked by the Bishop.",
+      "chapter": "DISCOVERED ATTACK WITH CHECK"
+    }
+  ]
+}

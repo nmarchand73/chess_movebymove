@@ -1,0 +1,205 @@
+{
+  "batch": 8,
+  "items": [
+    {
+      "id": "wc-00487",
+      "caption": "242A. White moves. He plays the “brilliant” move 1 xf6?, reckoning on 1 ... gxf6; 2 xf6+ and mate next move. But, by removing his Rook from the first rank, White has weakened that line. Black reasons that if the other Rook disappears, the vulnerable first rank will be open to mating threats. This leads to the forcing 1 ... xa1!",
+      "chapter": "BASIC PATTERN FOR THE VULNERABLE FIRST RANK"
+    },
+    {
+      "id": "wc-00488",
+      "caption": "240B. Black moves. There is no adequate defense to the threat of 3 xg7 mate. If Black plays 3 ... xf7; 4 xe8+ forcing mate next move on the vital rank. 3 ... g8 guards the mate, but 4 xe8 has catastrophic consequences for Black. The chief cause of Black’s downfall is the uselessness of his Queen. Successful attack or efficient defense is difficult without the Queen.",
+      "chapter": "BASIC PATTERN FOR THE VULNERABLE FIRST RANK"
+    },
+    {
+      "id": "wc-00489",
+      "caption": "241B. White moves. His brilliant next move should be seen in a flash – look for checks and captures! Black’s first rank, guarded only by a Rook, is attacked by White’s Queen and Rook. How can this concentrated menace be utilized? Answer: 3 f8+! xf8; 4 xf8 mate. Four consecutive checks, two of them captures, led to Black’s downfall.",
+      "chapter": "BASIC PATTERN FOR THE VULNERABLE FIRST RANK"
+    },
+    {
+      "id": "wc-00490",
+      "caption": "243A. White moves. He has two attacking “batteries”, the Queen, Bishop and f-Pawn operate against g7; the Rooks control the only open line. To obtain the cooperation of all these forces, he uses a discovered attack: 1 xd7!, xd7; 2 f6! (This Pawn has been unpinned by the sacrifice of the exchange.)",
+      "chapter": "BASIC PATTERN FOR THE VULNERABLE FIRST RANK"
+    },
+    {
+      "id": "wc-00492",
+      "caption": "244A. Black moves. He must not snatch at the Queen: 1 ... xb7??; 2 xe8+, xe8; 3 xe8 mate – vulnerable first rank! Instead, Black plays the startling but logical 1 ... xe2! making use of the same weapon to checkmate White! After 2 xe2 White’s first rank is vulnerable. Black proves this immediately as his Rook whizzes down the open file: 2 ... c1+.",
+      "chapter": "BASIC PATTERN FOR THE VULNERABLE FIRST RANK"
+    },
+    {
+      "id": "wc-00493",
+      "caption": "245A. White moves. His first observation is that Black’s Rooks are disconnected – always a likely indication of a weak first rank. But White’s goal is not mate; he sees that he can only force the win of a piece. After 1 xb4, xb4; 2 d2 there is a double attack menacing the Rook at b5 and also threatening 3 d8+, xd8; 4 xd8 mate.",
+      "chapter": "BASIC PATTERN FOR THE VULNERABLE FIRST RANK"
+    },
+    {
+      "id": "wc-00494",
+      "caption": "243B. Black moves. He is confronted with two threats: 3 xd7 or 3 fxg7+, which wins at least a Rook. To parry both threats, he is forced to play 2 ... fd8. But White wins anyway: 3 xd7! After 3 ... xd7 Black’s first rank is denuded of defenders. He is helpless against the deadly Rook move: 4 e8 mate.",
+      "chapter": "BASIC PATTERN FOR THE VULNERABLE FIRST RANK"
+    },
+    {
+      "id": "wc-00495",
+      "caption": "244B. White moves. He cannot stave off mate, but he has a venomous last trap. If he tries 3 e1, then 3 ... xe1+; 4 xe1, xe1 mate. Instead, White plays 3 e1, inviting the blunder 3 ... xe2?? when 4 b8+ (or 4 a8+) forces checkmate on Black! But Black is wary: he plays 3 ... xe1+! 4 xe1, xe1 mate. These witty possibilities deserve careful study.",
+      "chapter": "BASIC PATTERN FOR THE VULNERABLE FIRST RANK"
+    },
+    {
+      "id": "wc-00496",
+      "caption": "246. White moves. What is the quickest way to remove the guardian of Black’s first rank, making the Black King vulnerable to mate next move?",
+      "chapter": "QUIZ ON THE VULNERABLE FIRST RANK"
+    },
+    {
+      "id": "wc-00498",
+      "caption": "247. White moves. He cannot force mate, but he can make use of the vulnerable first rank idea to queen his Passed Pawn. How? (Hint: see 221B.)",
+      "chapter": "QUIZ ON THE VULNERABLE FIRST RANK"
+    },
+    {
+      "id": "wc-00499",
+      "caption": "248. White moves. His situation is apparently critical, for if he plays 1 d6 (forced?) there follows 1 ... xe1+; 2 f2, e4+. Yet White can win by exploiting Black’s vulnerable first rank. How?",
+      "chapter": "QUIZ ON THE VULNERABLE FIRST RANK"
+    },
+    {
+      "id": "wc-00501",
+      "caption": "250A. Black moves. His powerful pressure against the h-Pawn is neutralized by White’s Queen. Black breaks the line of communication by 1 ... d3!!",
+      "chapter": "BASIC PATTERN FOR BREAKING COMMUNICATION"
+    },
+    {
+      "id": "wc-00503",
+      "caption": "250B. White moves. If he plays 2 xd3, Black continues 2 ... xh3+; 3 g1, g2 mate. Or if 2 xd3, xd3; 3 xd3, d6+ (double attack!) and wins.",
+      "chapter": "BASIC PATTERN FOR BREAKING COMMUNICATION"
+    },
+    {
+      "id": "wc-00504",
+      "caption": "251A. Black moves. His Bishop attacks White’s Knight, which is protected by his Rook. The Rook cannot be driven off, nor threatened with capture or exchange. Yet its protective power can be nullified by 1 ... d2+, forcing 2 c1.",
+      "chapter": "BASIC PATTERN FOR BREAKING COMMUNICATION"
+    },
+    {
+      "id": "wc-00505",
+      "caption": "251B. Black moves. He still attacks the Knight, but it is no longer guarded by the Rook. The line of communication has been snapped by the forced retreat of White’s King. Consequently Black wins easily by simply removing the Knight: 2 ... xe1.",
+      "chapter": "BASIC PATTERN FOR BREAKING COMMUNICATION"
+    },
+    {
+      "id": "wc-00506",
+      "caption": "252A. Black moves. He plays to win a Pawn, without realizing that he will be breaking the line of communication that guards a vital piece. He captures by 1 ... gxf4 and after 2 gxf4, he snatches the seemingly undefended Pawn by 2 ... xf4?",
+      "chapter": "BASIC PATTERN FOR BREAKING COMMUNICATION"
+    },
+    {
+      "id": "wc-00507",
+      "caption": "252B. White moves. His Queen attacks Black’s Queen, which is protected by a Rook. He severs the line of communication with 3 g3+. If now 3 ... f7, Black’s Queen has lost the protection of the Rook, so that 4 xf4+ wins at once.",
+      "chapter": "BASIC PATTERN FOR BREAKING COMMUNICATION"
+    },
+    {
+      "id": "wc-00508",
+      "caption": "253A. White moves. He pins and doubly attacks Black’s Bishop at e7, which is doubly defended. To drive away Black’s Queen from the defense, White plays 1 f4. Now Black cannot play 1 ... xf4?? (removal of the guard) because of 2 xe7 mate. Or, if 1 ... f6, the skewer 2 g5 makes the pin decisive. Black therefore tries 1 ... c5.",
+      "chapter": "BASIC PATTERN FOR BREAKING COMMUNICATION"
+    },
+    {
+      "id": "wc-00509",
+      "caption": "253B. White moves. He plays 2 d6, striking for the third time at the pinned Bishop, which is overwhelmed, as it is attacked three times and defended only once. The d-Pawn has added its weight to the attack; but more important is the fact that it has wedged itself between Bishop and Queen, cutting their line of communication. Black is lost; if 2 ... cxd6; 3 xe7 mate.",
+      "chapter": "BASIC PATTERN FOR BREAKING COMMUNICATION"
+    },
+    {
+      "id": "wc-00510",
+      "caption": "254B. Black moves. With the venomous Pawn push 2 ... b5, he breaks the line of communication, attacking the Queen and winning the Bishop. Creating a line of communication in order to break it is a novel device! There is an analogy in the story of the preacher who was exhorting his congregation to repent, and save themselves from the lot of sinners in the Hereafter – where “There will be weeping and wailing and gnashing of teeth.” “Suppose I have no teeth?” an old lady asked. “Teeth will be provided,” was the preacher’s quick reply.",
+      "chapter": "BASIC PATTERN FOR BREAKING COMMUNICATION"
+    },
+    {
+      "id": "wc-00512",
+      "caption": "255A. Black moves. He invades enemy territory by 1 ... e2, threatening 2 ... xf2 mate or 2 ... xf2 mate. It is relatively best for White to make a temporary escape with 2 h3, with a prosaic loss in prospect. But he instinctively guards the weak spot with 2 f1?",
+      "chapter": "BASIC PATTERN FOR BREAKING COMMUNICATION"
+    },
+    {
+      "id": "wc-00515",
+      "caption": "257A. White moves. How can his Queen participate in the attack with no loss of time? To avoid giving Black a breathing spell, White plays 1 b5! Black must do something about his Queen – at once! Therefore he has no time to attend to his King’s welfare. Black replies 1 ... xb5 (other Queen moves allow the same continuation).",
+      "chapter": "BASIC PATTERN FOR BREAKING COMMUNICATION"
+    },
+    {
+      "id": "wc-00516",
+      "caption": "255B. Black moves. He has a surprise move: 2 ... xf3! White captures by 3 gxf3, whereupon Black gracefully winds up the White King’s career with 3 ... g6 mate – an “epaulet” mate! The White Rooks which hover so anxiously around their King actually bring about his downfall!",
+      "chapter": "BASIC PATTERN FOR BREAKING COMMUNICATION"
+    },
+    {
+      "id": "wc-00517",
+      "caption": "256B. Black moves. Rocked on his heels by the unexpected Queen sacrifice, he has no choice but to accept: 2 ... xe6. The capture is answered by 3 dxe6 mate! Despite the army of White pieces trained on Black’s King, it remained for the not-so-humble Pawn to deal the death -blow!",
+      "chapter": "BASIC PATTERN FOR BREAKING COMMUNICATION"
+    },
+    {
+      "id": "wc-00518",
+      "caption": "257B. White moves. His clever Bishop sacrifice cleared the way for action by the Queen – but not at once (2 h5??, f1 mate!). Again time is of the essence – another violent move is needed: 2 xh7+!, forcing 2 ... xh7. Now White mates by 3 h5+, h6; 4 xh6 mate. “Surprise is nothing more than logic that packs a wallop.”",
+      "chapter": "BASIC PATTERN FOR BREAKING COMMUNICATION"
+    },
+    {
+      "id": "wc-00519",
+      "caption": "258A. White moves. Threatened with mate on the move, he hits on the superb surprise move 1 b6+!! Pundits would analyze this fearless plunge into a nest of hostile Pawns as a Knight fork, based on a pin (Black’s c-Pawn is paralyzed), plus a sacrifice as a clearance for the White Queen. But for our purposes the Knight move is a magnificent stroke, too delightful to desecrate by dissection!",
+      "chapter": "BASIC PATTERN FOR BREAKING COMMUNICATION"
+    },
+    {
+      "id": "wc-00520",
+      "caption": "259A. Black moves. He sees the three-move threat of mate with 1 h7+, f8; 2 e6+, fxe6; 3 xg7 mate. What more natural than 1 ... xd4 parrying the threat and winning a piece? But Black gets a rude awakening, as White replies with the electrifying 2 h8+.",
+      "chapter": "BASIC PATTERN FOR BREAKING COMMUNICATION"
+    },
+    {
+      "id": "wc-00521",
+      "caption": "258B. Black moves. He captures: 1 ... axb6. Utilizing the open a- file, White replies 2 a8 mate. (Black could have avoided the mate by moving his King in reply to 1 b6+!! – but this would have meant losing the Queen.)",
+      "chapter": "BASIC PATTERN FOR BREAKING COMMUNICATION"
+    },
+    {
+      "id": "wc-00522",
+      "caption": "259B. Black moves. He has no choice: he must play 2 ... xh8, allowing 3 xh8 mate. The Queen sacrifice seems a lot less startling to one who is familiar with mating patterns (see the section on that subject). An early combination by Dr. Euwe, who later became World Champion.",
+      "chapter": "BASIC PATTERN FOR BREAKING COMMUNICATION"
+    },
+    {
+      "id": "wc-00524",
+      "caption": "261A. White moves. He is the exchange ahead – enough to win, but there is no obvious immediate decision. However, White has a beautiful surprise move which gives Black his quietus: 1 d5!!, offering his Rook in four different ways! Despite these alternative ways of capturing, the White Rook is anything but vulnerable.",
+      "chapter": "BASIC PATTERN FOR BREAKING COMMUNICATION"
+    },
+    {
+      "id": "wc-00526",
+      "caption": "262A. Black moves. Since White’s King cannot move, mate can be administered by any Black checking piece safe from capture. This is the logical explanation of the extraordinary play that follows: 1 ... xb2!! threatening 2 ... xh2 mate. If now 2 h3, h2 or if 2 h1, e1, forcing mate in either case. White prefers to be “shown.” He plays 2 xb2, which is answered by the stunning 2 ... e5!!",
+      "chapter": "BASIC PATTERN FOR BREAKING COMMUNICATION"
+    },
+    {
+      "id": "wc-00527",
+      "caption": "261B. Black moves. Which way does he want to be mated? If 1 xd5; 2 f6 mate (overworked Queen). If 1 ... xd5; 2 f8 mate (vulnerable first rank). Finally, if 1 ... exd5 or 1 ... xd5; 2 xd8 mate (breaking communications)! Nor can Black really refuse the Rook, as 2 xd8 mate and 2 xd4 are threatened.",
+      "chapter": "BASIC PATTERN FOR BREAKING COMMUNICATION"
+    },
+    {
+      "id": "wc-00529",
+      "caption": "262B. White moves. Life is still very difficult for him, the threat being 3 ... g6 mate! He has no alternative but to play 3 fxe5. But now the real blow descends, for Black’s earlier sacrifices, brilliant though they were, served only as preliminaries. Black plays 3 ... g5 mate! It was the fatal position of the White King that made the surprise moves logical.",
+      "chapter": "BASIC PATTERN FOR BREAKING COMMUNICATION"
+    },
+    {
+      "id": "wc-00531",
+      "caption": "264. Black moves. He sees that 1 ... h3+ wins against all four possible replies: if 2 gxh3, xf2+; 3 h1, xh2 mate. If 2 xh3, xe4, and White’s overworked Rook cannot recapture; for if 3 xe4, d1+ leads to mate on the vulnerable first rank. If 2 f1, xf2 mate or 2 ... xf2 mate. Finally, if 2 h1, xf2+ wins the Queen by a Knight fork.",
+      "chapter": "BASIC PATTERN FOR COMBINED OPERATIONS"
+    },
+    {
+      "id": "wc-00533",
+      "caption": "265A. Black moves. He sees an attractive Knight fork which threatens King and Queen: 1 ... e4+. But White has a Pawn guarding the crucial square! The unthinking player would discard the idea at this point; but one familiar with combination patterns looks further ahead. He makes the impossible moves become possible! Black plays 1 ... e4+! forcing 2 fxe4.",
+      "chapter": "BASIC PATTERN FOR COMBINED OPERATIONS"
+    },
+    {
+      "id": "wc-00534",
+      "caption": "266A. White moves. Will it be giving away the plot to say that White wins material by a combination involving a Knight fork followed by a pin? The first link in the chain is an attack on Black’s Queen: 1 g5. (His object, improbable as it may seem, is to play 2 e6, forking the Black Rooks.) Black replies 1 ... e8, hoping to guard the vital square.",
+      "chapter": "BASIC PATTERN FOR COMBINED OPERATIONS"
+    },
+    {
+      "id": "wc-00535",
+      "caption": "267A. White moves. He notes that the mobility of Black’s Queen is severely constricted. How can White exploit this state of affairs? He looks for a violent move. 1 b4, attacking the Queen and unpinning the Knight, answers the purpose. After the forced reply 1 ... b6, White follows up with 2 xd5, this time forcing 2 ... c6.",
+      "chapter": "BASIC PATTERN FOR COMBINED OPERATIONS"
+    },
+    {
+      "id": "wc-00536",
+      "caption": "265B. Black moves. His opponent’s King and Queen are in line, making possible a pin on the King Bishop file. 2 ... f8 wins White’s Queen. Black has combined two familiar patterns, the Knight fork and the pin, to form his winning combination. Heaven-sent inspiration? No! Black succeeded because he knew what to look for!",
+      "chapter": "BASIC PATTERN FOR COMBINED OPERATIONS"
+    },
+    {
+      "id": "wc-00537",
+      "caption": "266B. White moves. His intended invasion is prevented, but only ostensibly so. As a combination player (one who is familiar with the basic winning patterns), White is not discouraged: he merely looks one move ahead and plays 2 e6! menacing both Rooks. After 2 ... xe6 he plays 3 xf4! exploiting the pin on Black’s e-Pawn. White has won the exchange.",
+      "chapter": "BASIC PATTERN FOR COMBINED OPERATIONS"
+    },
+    {
+      "id": "wc-00538",
+      "caption": "267B. White moves. Should he retreat his attacked Knight? No, because he has a stronger move. Note that Black’s King and Queen are in line. This makes a pin possible: 3 b5. The pin works even though the Bishop is unguarded: 3 ... xb5 is answered by the picturesque family check 4 xc7+ winning the Queen with an easy win.",
+      "chapter": "BASIC PATTERN FOR COMBINED OPERATIONS"
+    }
+  ]
+}

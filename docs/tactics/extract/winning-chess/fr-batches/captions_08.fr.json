@@ -1,0 +1,205 @@
+{
+  "batch": 8,
+  "translations": [
+    {
+      "id": "wc-00487",
+      "captionEn": "242A. White moves. He plays the “brilliant” move 1 xf6?, reckoning on 1 ... gxf6; 2 xf6+ and mate next move. But, by removing his Rook from the first rank, White has weakened that line. Black reasons that if the other Rook disappears, the vulnerable first rank will be open to mating threats. This leads to the forcing 1 ... xa1!",
+      "captionFr": "242A. Trait aux Blancs. Ils jouent le coup « brillant » 1 xf6?, comptant sur 1 ... gxf6 ; 2 xf6+ suivi du mat au coup suivant. Mais, en retirant leur Tour de la première rangée, les Blancs ont affaibli cette ligne. Les Noirs raisonnent ainsi : si l'autre Tour disparaît, la première rangée vulnérable sera exposée aux menaces de mat. D'où le coup forcé 1 ... xa1 !"
+    },
+    {
+      "id": "wc-00488",
+      "captionEn": "240B. Black moves. There is no adequate defense to the threat of 3 xg7 mate. If Black plays 3 ... xf7; 4 xe8+ forcing mate next move on the vital rank. 3 ... g8 guards the mate, but 4 xe8 has catastrophic consequences for Black. The chief cause of Black’s downfall is the uselessness of his Queen. Successful attack or efficient defense is difficult without the Queen.",
+      "captionFr": "240B. Trait aux Noirs. Il n'existe aucune parade satisfaisante à la menace 3 xg7 mat. Si les Noirs jouent 3 ... xf7 ; 4 xe8+ force le mat au coup suivant sur la rangée vitale. 3 ... g8 garde le point de mat, mais 4 xe8 a des conséquences catastrophiques pour les Noirs. La cause principale de leur chute est l'inutilité de leur Dame. Sans la Dame, il est difficile de mener une attaque victorieuse ou une défense efficace."
+    },
+    {
+      "id": "wc-00489",
+      "captionEn": "241B. White moves. His brilliant next move should be seen in a flash – look for checks and captures! Black’s first rank, guarded only by a Rook, is attacked by White’s Queen and Rook. How can this concentrated menace be utilized? Answer: 3 f8+! xf8; 4 xf8 mate. Four consecutive checks, two of them captures, led to Black’s downfall.",
+      "captionFr": "241B. Trait aux Blancs. Leur brillant coup suivant devrait se voir en un éclair : cherchez les échecs et les prises ! La première rangée noire, gardée par une seule Tour, est attaquée par la Dame et la Tour blanches. Comment utiliser cette menace concentrée ? Réponse : 3 f8+ ! xf8 ; 4 xf8 mat. Quatre échecs consécutifs, dont deux avec prise, ont causé la perte des Noirs."
+    },
+    {
+      "id": "wc-00490",
+      "captionEn": "243A. White moves. He has two attacking “batteries”, the Queen, Bishop and f-Pawn operate against g7; the Rooks control the only open line. To obtain the cooperation of all these forces, he uses a discovered attack: 1 xd7!, xd7; 2 f6! (This Pawn has been unpinned by the sacrifice of the exchange.)",
+      "captionFr": "243A. Trait aux Blancs. Ils disposent de deux « batteries » d'attaque : la Dame, le Fou et le Pion f opèrent contre g7 ; les Tours contrôlent la seule colonne ouverte. Pour obtenir la coopération de toutes ces forces, ils recourent à une attaque à la découverte : 1 xd7 !, xd7 ; 2 f6 ! (Ce Pion a été débloqué par le sacrifice de la qualité.)"
+    },
+    {
+      "id": "wc-00492",
+      "captionEn": "244A. Black moves. He must not snatch at the Queen: 1 ... xb7??; 2 xe8+, xe8; 3 xe8 mate – vulnerable first rank! Instead, Black plays the startling but logical 1 ... xe2! making use of the same weapon to checkmate White! After 2 xe2 White’s first rank is vulnerable. Black proves this immediately as his Rook whizzes down the open file: 2 ... c1+.",
+      "captionFr": "244A. Trait aux Noirs. Ils ne doivent pas se jeter sur la Dame : 1 ... xb7?? ; 2 xe8+, xe8 ; 3 xe8 mat – première rangée vulnérable ! Les Noirs jouent au contraire le coup surprenant mais logique 1 ... xe2 ! en se servant de la même arme pour mater les Blancs ! Après 2 xe2, la première rangée blanche est vulnérable. Les Noirs le prouvent aussitôt, tandis que leur Tour fuse le long de la colonne ouverte : 2 ... c1+."
+    },
+    {
+      "id": "wc-00493",
+      "captionEn": "245A. White moves. His first observation is that Black’s Rooks are disconnected – always a likely indication of a weak first rank. But White’s goal is not mate; he sees that he can only force the win of a piece. After 1 xb4, xb4; 2 d2 there is a double attack menacing the Rook at b5 and also threatening 3 d8+, xd8; 4 xd8 mate.",
+      "captionFr": "245A. Trait aux Blancs. Leur première observation est que les Tours noires sont désunies – signe presque infaillible d'une première rangée faible. Mais le but des Blancs n'est pas le mat ; ils voient qu'ils peuvent seulement forcer le gain d'une pièce. Après 1 xb4, xb4 ; 2 d2, la double attaque menace la Tour en b5 et annonce aussi 3 d8+, xd8 ; 4 xd8 mat."
+    },
+    {
+      "id": "wc-00494",
+      "captionEn": "243B. Black moves. He is confronted with two threats: 3 xd7 or 3 fxg7+, which wins at least a Rook. To parry both threats, he is forced to play 2 ... fd8. But White wins anyway: 3 xd7! After 3 ... xd7 Black’s first rank is denuded of defenders. He is helpless against the deadly Rook move: 4 e8 mate.",
+      "captionFr": "243B. Trait aux Noirs. Ils font face à deux menaces : 3 xd7 ou 3 fxg7+, qui gagne au moins une Tour. Pour parer les deux, ils sont contraints de jouer 2 ... fd8. Mais les Blancs gagnent quand même : 3 xd7 ! Après 3 ... xd7, la première rangée noire est dépouillée de ses défenseurs. Les Noirs sont impuissants contre le coup de Tour fatal : 4 e8 mat."
+    },
+    {
+      "id": "wc-00495",
+      "captionEn": "244B. White moves. He cannot stave off mate, but he has a venomous last trap. If he tries 3 e1, then 3 ... xe1+; 4 xe1, xe1 mate. Instead, White plays 3 e1, inviting the blunder 3 ... xe2?? when 4 b8+ (or 4 a8+) forces checkmate on Black! But Black is wary: he plays 3 ... xe1+! 4 xe1, xe1 mate. These witty possibilities deserve careful study.",
+      "captionFr": "244B. Trait aux Blancs. Ils ne peuvent écarter le mat, mais il leur reste un dernier piège venimeux. S'ils essayaient 3 e1, alors 3 ... xe1+ ; 4 xe1, xe1 mat. Les Blancs jouent donc 3 e1, invitant à la gaffe 3 ... xe2?? après laquelle 4 b8+ (ou 4 a8+) mate les Noirs ! Mais les Noirs se méfient : ils jouent 3 ... xe1+ ! 4 xe1, xe1 mat. Ces possibilités spirituelles méritent une étude attentive."
+    },
+    {
+      "id": "wc-00496",
+      "captionEn": "246. White moves. What is the quickest way to remove the guardian of Black’s first rank, making the Black King vulnerable to mate next move?",
+      "captionFr": "246. Trait aux Blancs. Quel est le moyen le plus rapide d'éliminer le gardien de la première rangée noire, afin de rendre le Roi noir vulnérable au mat dès le coup suivant ?"
+    },
+    {
+      "id": "wc-00498",
+      "captionEn": "247. White moves. He cannot force mate, but he can make use of the vulnerable first rank idea to queen his Passed Pawn. How? (Hint: see 221B.)",
+      "captionFr": "247. Trait aux Blancs. Ils ne peuvent forcer le mat, mais ils peuvent tirer parti de l'idée de la première rangée vulnérable pour promouvoir leur Pion passé. Comment ? (Indice : voir 221B.)"
+    },
+    {
+      "id": "wc-00499",
+      "captionEn": "248. White moves. His situation is apparently critical, for if he plays 1 d6 (forced?) there follows 1 ... xe1+; 2 f2, e4+. Yet White can win by exploiting Black’s vulnerable first rank. How?",
+      "captionFr": "248. Trait aux Blancs. Leur situation semble critique, car s'ils jouent 1 d6 (forcé ?), il s'ensuit 1 ... xe1+ ; 2 f2, e4+. Pourtant les Blancs peuvent gagner en exploitant la première rangée vulnérable des Noirs. Comment ?"
+    },
+    {
+      "id": "wc-00501",
+      "captionEn": "250A. Black moves. His powerful pressure against the h-Pawn is neutralized by White’s Queen. Black breaks the line of communication by 1 ... d3!!",
+      "captionFr": "250A. Trait aux Noirs. Leur puissante pression contre le Pion h est neutralisée par la Dame blanche. Les Noirs rompent la ligne de communication par 1 ... d3 !!"
+    },
+    {
+      "id": "wc-00503",
+      "captionEn": "250B. White moves. If he plays 2 xd3, Black continues 2 ... xh3+; 3 g1, g2 mate. Or if 2 xd3, xd3; 3 xd3, d6+ (double attack!) and wins.",
+      "captionFr": "250B. Trait aux Blancs. S'ils jouent 2 xd3, les Noirs poursuivent par 2 ... xh3+ ; 3 g1, g2 mat. Ou bien, si 2 xd3, xd3 ; 3 xd3, d6+ (double attaque !) et les Noirs gagnent."
+    },
+    {
+      "id": "wc-00504",
+      "captionEn": "251A. Black moves. His Bishop attacks White’s Knight, which is protected by his Rook. The Rook cannot be driven off, nor threatened with capture or exchange. Yet its protective power can be nullified by 1 ... d2+, forcing 2 c1.",
+      "captionFr": "251A. Trait aux Noirs. Leur Fou attaque le Cavalier blanc, protégé par la Tour. La Tour ne peut être chassée, ni menacée de capture ou d'échange. Pourtant son pouvoir protecteur peut être annulé par 1 ... d2+, qui force 2 c1."
+    },
+    {
+      "id": "wc-00505",
+      "captionEn": "251B. Black moves. He still attacks the Knight, but it is no longer guarded by the Rook. The line of communication has been snapped by the forced retreat of White’s King. Consequently Black wins easily by simply removing the Knight: 2 ... xe1.",
+      "captionFr": "251B. Trait aux Noirs. Ils attaquent toujours le Cavalier, mais celui-ci n'est plus gardé par la Tour. La ligne de communication a été brisée par la retraite forcée du Roi blanc. Les Noirs gagnent donc aisément en supprimant simplement le Cavalier : 2 ... xe1."
+    },
+    {
+      "id": "wc-00506",
+      "captionEn": "252A. Black moves. He plays to win a Pawn, without realizing that he will be breaking the line of communication that guards a vital piece. He captures by 1 ... gxf4 and after 2 gxf4, he snatches the seemingly undefended Pawn by 2 ... xf4?",
+      "captionFr": "252A. Trait aux Noirs. Ils jouent pour gagner un Pion, sans s'apercevoir qu'ils vont rompre la ligne de communication qui garde une pièce vitale. Ils capturent par 1 ... gxf4 et, après 2 gxf4, ils s'emparent du Pion apparemment sans défense par 2 ... xf4 ?"
+    },
+    {
+      "id": "wc-00507",
+      "captionEn": "252B. White moves. His Queen attacks Black’s Queen, which is protected by a Rook. He severs the line of communication with 3 g3+. If now 3 ... f7, Black’s Queen has lost the protection of the Rook, so that 4 xf4+ wins at once.",
+      "captionFr": "252B. Trait aux Blancs. Leur Dame attaque la Dame noire, protégée par une Tour. Ils coupent la ligne de communication par 3 g3+. Si maintenant 3 ... f7, la Dame noire a perdu la protection de la Tour, si bien que 4 xf4+ gagne sur-le-champ."
+    },
+    {
+      "id": "wc-00508",
+      "captionEn": "253A. White moves. He pins and doubly attacks Black’s Bishop at e7, which is doubly defended. To drive away Black’s Queen from the defense, White plays 1 f4. Now Black cannot play 1 ... xf4?? (removal of the guard) because of 2 xe7 mate. Or, if 1 ... f6, the skewer 2 g5 makes the pin decisive. Black therefore tries 1 ... c5.",
+      "captionFr": "253A. Trait aux Blancs. Ils clouent et attaquent doublement le Fou noir en e7, doublement défendu. Pour chasser la Dame noire de la défense, les Blancs jouent 1 f4. Les Noirs ne peuvent maintenant pas jouer 1 ... xf4 ?? (suppression du gardien) à cause de 2 xe7 mat. Et si 1 ... f6, l'enfilade 2 g5 rend le clouage décisif. Les Noirs tentent donc 1 ... c5."
+    },
+    {
+      "id": "wc-00509",
+      "captionEn": "253B. White moves. He plays 2 d6, striking for the third time at the pinned Bishop, which is overwhelmed, as it is attacked three times and defended only once. The d-Pawn has added its weight to the attack; but more important is the fact that it has wedged itself between Bishop and Queen, cutting their line of communication. Black is lost; if 2 ... cxd6; 3 xe7 mate.",
+      "captionFr": "253B. Trait aux Blancs. Ils jouent 2 d6, frappant pour la troisième fois le Fou cloué, qui est submergé : attaqué trois fois et défendu une seule. Le Pion d a ajouté son poids à l'attaque ; mais, plus important encore, il s'est inséré entre le Fou et la Dame, coupant leur ligne de communication. Les Noirs sont perdus ; si 2 ... cxd6 ; 3 xe7 mat."
+    },
+    {
+      "id": "wc-00510",
+      "captionEn": "254B. Black moves. With the venomous Pawn push 2 ... b5, he breaks the line of communication, attacking the Queen and winning the Bishop. Creating a line of communication in order to break it is a novel device! There is an analogy in the story of the preacher who was exhorting his congregation to repent, and save themselves from the lot of sinners in the Hereafter – where “There will be weeping and wailing and gnashing of teeth.” “Suppose I have no teeth?” an old lady asked. “Teeth will be provided,” was the preacher’s quick reply.",
+      "captionFr": "254B. Trait aux Noirs. Par la poussée venimeuse du Pion 2 ... b5, ils rompent la ligne de communication, attaquent la Dame et gagnent le Fou. Créer une ligne de communication dans le seul but de la rompre : voilà un procédé inédit ! On y trouve une analogie dans l'histoire du prédicateur qui exhortait ses ouailles à se repentir pour échapper au sort des pécheurs dans l'Au-delà – où « il y aura des pleurs et des grincements de dents ». « Et si je n'ai plus de dents ? » demanda une vieille dame. « Des dents vous seront fournies », répondit prestement le prédicateur."
+    },
+    {
+      "id": "wc-00512",
+      "captionEn": "255A. Black moves. He invades enemy territory by 1 ... e2, threatening 2 ... xf2 mate or 2 ... xf2 mate. It is relatively best for White to make a temporary escape with 2 h3, with a prosaic loss in prospect. But he instinctively guards the weak spot with 2 f1?",
+      "captionFr": "255A. Trait aux Noirs. Ils envahissent le territoire ennemi par 1 ... e2, menaçant 2 ... xf2 mat ou 2 ... xf2 mat. Le mieux pour les Blancs est de s'échapper provisoirement par 2 h3, avec une perte prosaïque en perspective. Mais, d'instinct, ils gardent le point faible par 2 f1 ?"
+    },
+    {
+      "id": "wc-00515",
+      "captionEn": "257A. White moves. How can his Queen participate in the attack with no loss of time? To avoid giving Black a breathing spell, White plays 1 b5! Black must do something about his Queen – at once! Therefore he has no time to attend to his King’s welfare. Black replies 1 ... xb5 (other Queen moves allow the same continuation).",
+      "captionFr": "257A. Trait aux Blancs. Comment leur Dame peut-elle participer à l'attaque sans perdre de temps ? Pour ne laisser aucun répit aux Noirs, les Blancs jouent 1 b5 ! Les Noirs doivent s'occuper de leur Dame – tout de suite ! Ils n'ont donc pas le temps de veiller au sort de leur Roi. Ils répondent 1 ... xb5 (les autres coups de Dame permettent la même suite)."
+    },
+    {
+      "id": "wc-00516",
+      "captionEn": "255B. Black moves. He has a surprise move: 2 ... xf3! White captures by 3 gxf3, whereupon Black gracefully winds up the White King’s career with 3 ... g6 mate – an “epaulet” mate! The White Rooks which hover so anxiously around their King actually bring about his downfall!",
+      "captionFr": "255B. Trait aux Noirs. Ils tiennent un coup surprise : 2 ... xf3 ! Les Blancs capturent par 3 gxf3, sur quoi les Noirs mettent élégamment un terme à la carrière du Roi blanc par 3 ... g6 mat – un mat « à l'épaulette » ! Les Tours blanches, qui planent si anxieusement autour de leur Roi, causent en réalité sa perte !"
+    },
+    {
+      "id": "wc-00517",
+      "captionEn": "256B. Black moves. Rocked on his heels by the unexpected Queen sacrifice, he has no choice but to accept: 2 ... xe6. The capture is answered by 3 dxe6 mate! Despite the army of White pieces trained on Black’s King, it remained for the not-so-humble Pawn to deal the death -blow!",
+      "captionFr": "256B. Trait aux Noirs. Ébranlés par le sacrifice inattendu de la Dame, ils n'ont d'autre choix que d'accepter : 2 ... xe6. La prise est suivie de 3 dxe6 mat ! Malgré l'armée de pièces blanches braquées sur le Roi noir, c'est au Pion, loin d'être si humble, qu'il revint de porter le coup mortel !"
+    },
+    {
+      "id": "wc-00518",
+      "captionEn": "257B. White moves. His clever Bishop sacrifice cleared the way for action by the Queen – but not at once (2 h5??, f1 mate!). Again time is of the essence – another violent move is needed: 2 xh7+!, forcing 2 ... xh7. Now White mates by 3 h5+, h6; 4 xh6 mate. “Surprise is nothing more than logic that packs a wallop.”",
+      "captionFr": "257B. Trait aux Blancs. Leur ingénieux sacrifice de Fou a dégagé la voie à la Dame – mais pas immédiatement (2 h5 ??, f1 mat !). Là encore, le temps est compté – il faut un autre coup violent : 2 xh7+ !, forçant 2 ... xh7. Les Blancs matent alors par 3 h5+, h6 ; 4 xh6 mat. « La surprise n'est rien d'autre que la logique armée d'un coup de massue. »"
+    },
+    {
+      "id": "wc-00519",
+      "captionEn": "258A. White moves. Threatened with mate on the move, he hits on the superb surprise move 1 b6+!! Pundits would analyze this fearless plunge into a nest of hostile Pawns as a Knight fork, based on a pin (Black’s c-Pawn is paralyzed), plus a sacrifice as a clearance for the White Queen. But for our purposes the Knight move is a magnificent stroke, too delightful to desecrate by dissection!",
+      "captionFr": "258A. Trait aux Blancs. Menacés de mat dans l'instant, ils trouvent le superbe coup surprise 1 b6+ !! Les érudits analyseraient cette plongée intrépide dans un nid de Pions hostiles comme une fourchette de Cavalier fondée sur un clouage (le Pion c noir est paralysé), doublée d'un sacrifice de déblaiement pour la Dame blanche. Mais, pour notre propos, ce coup de Cavalier est un trait magnifique, trop délicieux pour être profané par la dissection !"
+    },
+    {
+      "id": "wc-00520",
+      "captionEn": "259A. Black moves. He sees the three-move threat of mate with 1 h7+, f8; 2 e6+, fxe6; 3 xg7 mate. What more natural than 1 ... xd4 parrying the threat and winning a piece? But Black gets a rude awakening, as White replies with the electrifying 2 h8+.",
+      "captionFr": "259A. Trait aux Noirs. Ils voient la menace de mat en trois coups : 1 h7+, f8 ; 2 e6+, fxe6 ; 3 xg7 mat. Quoi de plus naturel que 1 ... xd4, qui pare la menace et gagne une pièce ? Mais les Noirs connaissent un rude réveil, car les Blancs répliquent par l'électrisant 2 h8+."
+    },
+    {
+      "id": "wc-00521",
+      "captionEn": "258B. Black moves. He captures: 1 ... axb6. Utilizing the open a- file, White replies 2 a8 mate. (Black could have avoided the mate by moving his King in reply to 1 b6+!! – but this would have meant losing the Queen.)",
+      "captionFr": "258B. Trait aux Noirs. Ils capturent : 1 ... axb6. Mettant à profit la colonne a ouverte, les Blancs répondent 2 a8 mat. (Les Noirs auraient pu éviter le mat en déplaçant leur Roi en réponse à 1 b6+ !! – mais cela leur aurait coûté la Dame.)"
+    },
+    {
+      "id": "wc-00522",
+      "captionEn": "259B. Black moves. He has no choice: he must play 2 ... xh8, allowing 3 xh8 mate. The Queen sacrifice seems a lot less startling to one who is familiar with mating patterns (see the section on that subject). An early combination by Dr. Euwe, who later became World Champion.",
+      "captionFr": "259B. Trait aux Noirs. Ils n'ont pas le choix : ils doivent jouer 2 ... xh8, ce qui permet 3 xh8 mat. Le sacrifice de Dame paraît bien moins stupéfiant à qui connaît les schémas de mat (voir la section consacrée à ce sujet). Une des premières combinaisons du Dr Euwe, qui devint plus tard champion du monde."
+    },
+    {
+      "id": "wc-00524",
+      "captionEn": "261A. White moves. He is the exchange ahead – enough to win, but there is no obvious immediate decision. However, White has a beautiful surprise move which gives Black his quietus: 1 d5!!, offering his Rook in four different ways! Despite these alternative ways of capturing, the White Rook is anything but vulnerable.",
+      "captionFr": "261A. Trait aux Blancs. Ils ont l'avantage de la qualité – de quoi gagner, mais sans décision immédiate évidente. Or les Blancs tiennent un magnifique coup surprise qui donne aux Noirs leur coup de grâce : 1 d5 !!, offrant leur Tour de quatre manières différentes ! Malgré ces diverses façons de la capturer, la Tour blanche est tout sauf vulnérable."
+    },
+    {
+      "id": "wc-00526",
+      "captionEn": "262A. Black moves. Since White’s King cannot move, mate can be administered by any Black checking piece safe from capture. This is the logical explanation of the extraordinary play that follows: 1 ... xb2!! threatening 2 ... xh2 mate. If now 2 h3, h2 or if 2 h1, e1, forcing mate in either case. White prefers to be “shown.” He plays 2 xb2, which is answered by the stunning 2 ... e5!!",
+      "captionFr": "262A. Trait aux Noirs. Puisque le Roi blanc ne peut bouger, le mat peut être donné par n'importe quelle pièce noire qui donne échec sans risquer d'être prise. Telle est l'explication logique du jeu extraordinaire qui suit : 1 ... xb2 !! menaçant 2 ... xh2 mat. Si maintenant 2 h3, h2 ou si 2 h1, e1, le mat est forcé dans les deux cas. Les Blancs préfèrent qu'on le leur « démontre ». Ils jouent 2 xb2, qui reçoit pour réponse l'étourdissant 2 ... e5 !!"
+    },
+    {
+      "id": "wc-00527",
+      "captionEn": "261B. Black moves. Which way does he want to be mated? If 1 xd5; 2 f6 mate (overworked Queen). If 1 ... xd5; 2 f8 mate (vulnerable first rank). Finally, if 1 ... exd5 or 1 ... xd5; 2 xd8 mate (breaking communications)! Nor can Black really refuse the Rook, as 2 xd8 mate and 2 xd4 are threatened.",
+      "captionFr": "261B. Trait aux Noirs. De quelle façon veulent-ils être maté ? Si 1 xd5 ; 2 f6 mat (Dame surmenée). Si 1 ... xd5 ; 2 f8 mat (première rangée vulnérable). Enfin, si 1 ... exd5 ou 1 ... xd5 ; 2 xd8 mat (rupture des communications) ! Les Noirs ne peuvent d'ailleurs pas vraiment refuser la Tour, car 2 xd8 mat et 2 xd4 sont menacés."
+    },
+    {
+      "id": "wc-00529",
+      "captionEn": "262B. White moves. Life is still very difficult for him, the threat being 3 ... g6 mate! He has no alternative but to play 3 fxe5. But now the real blow descends, for Black’s earlier sacrifices, brilliant though they were, served only as preliminaries. Black plays 3 ... g5 mate! It was the fatal position of the White King that made the surprise moves logical.",
+      "captionFr": "262B. Trait aux Blancs. La vie reste très difficile pour eux, la menace étant 3 ... g6 mat ! Ils n'ont d'autre ressource que de jouer 3 fxe5. Mais voici que s'abat le coup véritable, car les sacrifices antérieurs des Noirs, pour brillants qu'ils fussent, n'étaient que des préliminaires. Les Noirs jouent 3 ... g5 mat ! C'est la position fatale du Roi blanc qui rendait logiques ces coups surprises."
+    },
+    {
+      "id": "wc-00531",
+      "captionEn": "264. Black moves. He sees that 1 ... h3+ wins against all four possible replies: if 2 gxh3, xf2+; 3 h1, xh2 mate. If 2 xh3, xe4, and White’s overworked Rook cannot recapture; for if 3 xe4, d1+ leads to mate on the vulnerable first rank. If 2 f1, xf2 mate or 2 ... xf2 mate. Finally, if 2 h1, xf2+ wins the Queen by a Knight fork.",
+      "captionFr": "264. Trait aux Noirs. Ils voient que 1 ... h3+ gagne contre les quatre réponses possibles : si 2 gxh3, xf2+ ; 3 h1, xh2 mat. Si 2 xh3, xe4, et la Tour blanche surmenée ne peut reprendre ; car si 3 xe4, d1+ mène au mat sur la première rangée vulnérable. Si 2 f1, xf2 mat ou 2 ... xf2 mat. Enfin, si 2 h1, xf2+ gagne la Dame par une fourchette de Cavalier."
+    },
+    {
+      "id": "wc-00533",
+      "captionEn": "265A. Black moves. He sees an attractive Knight fork which threatens King and Queen: 1 ... e4+. But White has a Pawn guarding the crucial square! The unthinking player would discard the idea at this point; but one familiar with combination patterns looks further ahead. He makes the impossible moves become possible! Black plays 1 ... e4+! forcing 2 fxe4.",
+      "captionFr": "265A. Trait aux Noirs. Ils voient une séduisante fourchette de Cavalier qui menace le Roi et la Dame : 1 ... e4+. Mais un Pion blanc garde la case cruciale ! Le joueur irréfléchi abandonnerait l'idée à ce stade ; celui qui connaît les schémas de combinaison regarde plus loin. Il rend possibles les coups impossibles ! Les Noirs jouent 1 ... e4+ ! forçant 2 fxe4."
+    },
+    {
+      "id": "wc-00534",
+      "captionEn": "266A. White moves. Will it be giving away the plot to say that White wins material by a combination involving a Knight fork followed by a pin? The first link in the chain is an attack on Black’s Queen: 1 g5. (His object, improbable as it may seem, is to play 2 e6, forking the Black Rooks.) Black replies 1 ... e8, hoping to guard the vital square.",
+      "captionFr": "266A. Trait aux Blancs. Est-ce trahir l'intrigue que de dire que les Blancs gagnent du matériel par une combinaison où une fourchette de Cavalier est suivie d'un clouage ? Le premier maillon de la chaîne est une attaque contre la Dame noire : 1 g5. (Leur but, si improbable que cela paraisse, est de jouer 2 e6, fourchette des deux Tours noires.) Les Noirs répondent 1 ... e8, dans l'espoir de garder la case vitale."
+    },
+    {
+      "id": "wc-00535",
+      "captionEn": "267A. White moves. He notes that the mobility of Black’s Queen is severely constricted. How can White exploit this state of affairs? He looks for a violent move. 1 b4, attacking the Queen and unpinning the Knight, answers the purpose. After the forced reply 1 ... b6, White follows up with 2 xd5, this time forcing 2 ... c6.",
+      "captionFr": "267A. Trait aux Blancs. Ils remarquent que la mobilité de la Dame noire est fortement entravée. Comment exploiter cet état de choses ? Ils cherchent un coup violent. 1 b4, qui attaque la Dame et débloque le Cavalier, remplit ce dessein. Après la réponse forcée 1 ... b6, les Blancs enchaînent par 2 xd5, forçant cette fois 2 ... c6."
+    },
+    {
+      "id": "wc-00536",
+      "captionEn": "265B. Black moves. His opponent’s King and Queen are in line, making possible a pin on the King Bishop file. 2 ... f8 wins White’s Queen. Black has combined two familiar patterns, the Knight fork and the pin, to form his winning combination. Heaven-sent inspiration? No! Black succeeded because he knew what to look for!",
+      "captionFr": "265B. Trait aux Noirs. Le Roi et la Dame adverses sont alignés, ce qui rend possible un clouage sur la colonne du Fou-Roi. 2 ... f8 gagne la Dame blanche. Les Noirs ont combiné deux schémas familiers, la fourchette de Cavalier et le clouage, pour former leur combinaison gagnante. Inspiration tombée du ciel ? Non ! Les Noirs ont réussi parce qu'ils savaient quoi chercher !"
+    },
+    {
+      "id": "wc-00537",
+      "captionEn": "266B. White moves. His intended invasion is prevented, but only ostensibly so. As a combination player (one who is familiar with the basic winning patterns), White is not discouraged: he merely looks one move ahead and plays 2 e6! menacing both Rooks. After 2 ... xe6 he plays 3 xf4! exploiting the pin on Black’s e-Pawn. White has won the exchange.",
+      "captionFr": "266B. Trait aux Blancs. Leur invasion projetée est empêchée, mais en apparence seulement. En joueur de combinaisons (celui qui connaît les schémas gagnants fondamentaux), les Blancs ne se découragent pas : ils regardent simplement un coup plus loin et jouent 2 e6 ! menaçant les deux Tours. Après 2 ... xe6, ils jouent 3 xf4 ! en exploitant le clouage du Pion e noir. Les Blancs ont gagné la qualité."
+    },
+    {
+      "id": "wc-00538",
+      "captionEn": "267B. White moves. Should he retreat his attacked Knight? No, because he has a stronger move. Note that Black’s King and Queen are in line. This makes a pin possible: 3 b5. The pin works even though the Bishop is unguarded: 3 ... xb5 is answered by the picturesque family check 4 xc7+ winning the Queen with an easy win.",
+      "captionFr": "267B. Trait aux Blancs. Doivent-ils retirer leur Cavalier attaqué ? Non, car ils disposent d'un coup plus fort. Remarquez que le Roi et la Dame noirs sont alignés. Cela rend un clouage possible : 3 b5. Le clouage fonctionne même si le Fou n'est pas gardé : 3 ... xb5 est suivi du pittoresque échec en famille 4 xc7+, qui gagne la Dame et assure une victoire facile."
+    }
+  ]
+}

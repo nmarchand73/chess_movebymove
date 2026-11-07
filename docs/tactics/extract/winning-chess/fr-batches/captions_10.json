@@ -1,0 +1,205 @@
+{
+  "batch": 10,
+  "items": [
+    {
+      "id": "wc-00609",
+      "caption": "307B. White moves. He has forced Black’s King to a square which is ideal for the hit-and-hold trick. Next comes a discovered check, but there is only one correct one! To wit: 2 g6+! The rest is easy: 2 ... g8; 3 h7+, f8; 4 xf7 mate. (Why did the Bishop go to g6 on the second move?!)",
+      "chapter": "BASIC MATING PATTERNS"
+    },
+    {
+      "id": "wc-00610",
+      "caption": "308A. White moves. The pattern called for comes from Diagram 295. It is both pretty and picturesque, and has the added attraction of being of practical value. 1 d5+ forces 1 ... h8 (if 1 ... f8 2 f7 mate).",
+      "chapter": "BASIC MATING PATTERNS"
+    },
+    {
+      "id": "wc-00611",
+      "caption": "308B. White moves. Now comes 2 f7+, g8; 3 h6+ forcing 3 ... h8. Now we are ready for the smothered mate. The sensational 4 g8+! forces 4 ... xg8; and now 5 f7 mate!",
+      "chapter": "BASIC MATING PATTERNS"
+    },
+    {
+      "id": "wc-00612",
+      "caption": "309A. Black moves. He uses one mating pattern (Diagram 287) to bring about another (Diagram 286). 1 ... g4 threatens 2 ... xh2 mate. White defends with 2 fxg4 (not 2 e1, xh2+; 3 f1, xf2 mate). But after 2 ... hxg4 Black has a new mate threat.",
+      "chapter": "BASIC MATING PATTERNS"
+    },
+    {
+      "id": "wc-00613",
+      "caption": "310. White moves. His advanced Knight at h5 is a wonderful support for a mating pattern, with the Queen mating at g7. What is the quickest way for White to bring about the mate?",
+      "chapter": "QUIZ ON DESIGNS FOR CHECKMATE"
+    },
+    {
+      "id": "wc-00615",
+      "caption": "311. White moves. Working in harmony, his Rook at c3 and his Bishop at e5 can combine to form a mating pattern. How does White use them to force mate in two moves?",
+      "chapter": "QUIZ ON DESIGNS FOR CHECKMATE"
+    },
+    {
+      "id": "wc-00616",
+      "caption": "312. White moves. His Queen and Bishop are in line to threaten mate at h7; but his own Knight stands in the way of the Bishop. How does White get rid of the Knight, forcing mate in moves?",
+      "chapter": "QUIZ ON DESIGNS FOR CHECKMATE"
+    },
+    {
+      "id": "wc-00618",
+      "caption": "314A. White moves. His Pawn at c3 is attacked twice, defended only once. White “disregards” the attack because he sees an indirect defense.",
+      "chapter": "BASIC PATTERN FOR DEFENSIVE PLAY"
+    },
+    {
+      "id": "wc-00621",
+      "caption": "315A. Black moves. He should retreat his Queen, which is attacked by the White Knight at f3. Instead of retreating, Black plays to win the exchange. He succeeds in this, but loses the game because he fails to look ahead one more move:",
+      "chapter": "DEFENSE TO A COMBINATION"
+    },
+    {
+      "id": "wc-00623",
+      "caption": "315B. Black moves. He continues 3 ... xf2 (of course not 3 ... xf2, as his Queen is attacked). Now White plays his ace in the hole: 4 e4! Black’s Queen is trapped, and has no way of returning to safety!",
+      "chapter": "DEFENSE TO A COMBINATION"
+    },
+    {
+      "id": "wc-00624",
+      "caption": "316A. White moves. He decides to sacrifice his Bishop at d3 for three Pawns. His idea is to denude the Black King of Pawn protection. White begins with 1 xh7, anticipating 1 ... g6 (leaving the Bishop no retreat); 2 xg6, fxg6; 3 xg6 with a good attack. But Black finds a subtle defense: 1 ... xf3!; 2 gxf3, g6.",
+      "chapter": "DEFENSE TO A COMBINATION"
+    },
+    {
+      "id": "wc-00626",
+      "caption": "316B. White moves. He proceeds with his plan: 3 xg6, fxg6; 4 xg6? At this instructive moment we can see why Black played 1 ... xf3! For with that move he opened the g-file, with the result that White’s King and Queen are now in line on an open file. A pin is called for: 4 ... g8 pins – and wins – White’s Queen!",
+      "chapter": "DEFENSE TO A COMBINATION"
+    },
+    {
+      "id": "wc-00628",
+      "caption": "317B. Black moves. His refutation takes the form of a queening threat: 3 ... c2! 4 d1 is answered by 4 ... cxd1(). 4 c5 is answered by 4 ... xc5. 4 d8 (in order to play 5 c8) is impossible because of 4 ... xd8. The Knight is truly “monarch of all he surveys.”",
+      "chapter": "DEFENSE TO A COMBINATION"
+    },
+    {
+      "id": "wc-00630",
+      "caption": "318A. White moves. The subtle opening move 1 g1! permits 1 ... xb2?! and White “bites” with 2 xb2!! allowing 2 ... f4+; 3 h2, xd3. Black is a full Queen ahead!",
+      "chapter": "DEFENSE TO A COMBINATION"
+    },
+    {
+      "id": "wc-00631",
+      "caption": "319A. Black moves. His Knight is badly out of play, with little prospect of reaching a better post. He sees what looks like a good opportunity of getting rid of the Knight and then regaining the piece by a double attack.",
+      "chapter": "DON’ T GRAB !"
+    },
+    {
+      "id": "wc-00633",
+      "caption": "319B. Black moves. He must take Bishop or Knight (else he remains a piece down). Whichever way he captures, he opens the d-file. This creates a familiar picture: the pattern for discovered attack! 4 ... dxc3 or 4 ... dxe3 is answered by 5 xh7+, uncovering an attack on the Black Queen. After Black’s King moves, 6 xd8 wins easily. White’s calculations were simple: Black’s moves were forced.",
+      "chapter": "DON’ T GRAB !"
+    },
+    {
+      "id": "wc-00635",
+      "caption": "320A. Black moves. His Knight attacks White’s Rook at e5. He grabs it by 1 ... xe5? Thus he snatches at the opportunity of winning the exchange, without taking the precaution of trying to discover White’s defense to the threat. White calmly recaptures by 2 dxe5. The new Pawn at e5 menaces the Black Queen, which is sadly hampered by lack of lebensraum. This awkward situation should have been foreseen by Black.",
+      "chapter": "DON’ T GRAB !"
+    },
+    {
+      "id": "wc-00636",
+      "caption": "321A. White moves. Ostensibly he can win two pieces for a Rook – a clear material gain. Is there a catch? White sees no danger and grabs! After 1 xd5?, xd5; 2 xd5 we have a position which illustrates the most familiar of all familiar themes: the pin!",
+      "chapter": "DON’ T GRAB !"
+    },
+    {
+      "id": "wc-00638",
+      "caption": "321B. Black moves. His defense is predicated on the fact that the White Bishop on d6 is pinned and therefore paralyzed. The approved procedure against the pinned piece is, hit it again! 2 ... d8 increases the pressure, forces the win of the Bishop with the exchange ahead.",
+      "chapter": "DON’ T GRAB !"
+    },
+    {
+      "id": "wc-00639",
+      "caption": "322A. Black moves. What could be more tempting than capturing the Bishop, forking Queen and both Rooks at the same time?! The temptation is irresistible: Black pounces on the Bishop with 1 ... xd3? The reply is electrifying!",
+      "chapter": "DON’ T GRAB !"
+    },
+    {
+      "id": "wc-00640",
+      "caption": "323A. Black moves. His Queen and Bishop are menaced by a Pawn fork: he must lose a piece. “Counterattack is the best defense,” so: 1 ... d6; 2 fxg5 and now Black swoops down with a powerful check: 2 ... g3+.",
+      "chapter": "DEFENSE TO A THREAT"
+    },
+    {
+      "id": "wc-00642",
+      "caption": "323B. Black moves. His King is in a bad way. If 3 h1, g7! is decisive (threat: 4 ... h8+). White tries 3 f1, but after 3 ... h3+; 4 e2, g2 mate ends the King’s agony.",
+      "chapter": "DEFENSE TO A THREAT"
+    },
+    {
+      "id": "wc-00643",
+      "caption": "324A. White moves. He has the pattern for a discovered attack by moving his Knight from c4 and unmasking the action of his Rook on the c-file. The most effective way is (apparently) 1 xe5, attacking Black’s Queen and thereby winning his Knight on g6. But Black coolly allows his Queen to be captured! There follows 1 ... xe5!; 2 xc5.",
+      "chapter": "DEFENSE TO A THREAT"
+    },
+    {
+      "id": "wc-00644",
+      "caption": "325A. Black moves. He tries an unsound sacrifice in order to penetrate into the heart of the adverse King-side position. He plays 1 ... d5, to open the diagonal leading from his Queen to the hostile King. There follows 2 xg7, xg7; 3 cxd5 and now 3 ... exf4? He hopes for 4 gxf4, xf4+; 5 h1, g3 with good attacking chances.",
+      "chapter": "DEFENSE BY DECLINING A SACRIFICE"
+    },
+    {
+      "id": "wc-00646",
+      "caption": "325B. White moves. He defends with a subtle retreating move: 4 f1! Thus he guards the precious Knight’s Pawn, allows his Queen to shift to the threatened zone – and leaves the sacrificed Black Knight dangling with no retreat! Later, at his leisure, White will capture the doomed Knight, with Black bereft of attacking chances. Witty play!",
+      "chapter": "DEFENSE BY DECLINING A SACRIFICE"
+    },
+    {
+      "id": "wc-00647",
+      "caption": "326A. White moves. His sacrifice 1 xf7?! is sound if Black accepts it (1 ... xf7; 2 xf7, xf7; 3 xe6, f8; 4 f1+ and wins). But Black defends by refusing the Knight! He plays 1 ... f8 (now he really threatens to capture the Knight), and after 2 e5, xf1+ White is forced to reply 3 xf1 (on 3 xf1 or xf1, xe5 wins a piece).",
+      "chapter": "DEFENSE BY DECLINING A SACRIFICE"
+    },
+    {
+      "id": "wc-00648",
+      "caption": "327A. White moves. In this exciting position, he plays 1 xf6, expecting 1 ... gxf6; 2 b1 (threatening 3 h7 mate), f5; 3 b2+ (or 3 h1+) followed by mate. Black therefore defends with 1 ... e2, threatening 2 ... g2 mate. Passive defense by White will lose: 2 f1?, xh2 mate. Therefore he continues the attack: 2 c8+!",
+      "chapter": "ATTACK AND COUNTERATTACK"
+    },
+    {
+      "id": "wc-00650",
+      "caption": "328A. White moves. His combination wins the exchange, but fails to take Black’s resources into account. 1 xa6 is based on the notion that it forces 1 ... bxa6 when 2 xc6 wins a Pawn. Instead Black has the crafty rejoinder 1 ... xa6!; 2 xa6 (this is what Black wants: the removal of the Bishop from e2), bxa6; 3 xc6. White has won the ex change.",
+      "chapter": "ATTACK AND COUNTERATTACK"
+    },
+    {
+      "id": "wc-00652",
+      "caption": "327B. Black moves. What to do? If he tries flight with 2 ... h7, then 3 b1+ g6; 4 h8 mate. So Black tries the alternative 2 ... xc8; but now he has given up the defense of his h-Pawn, whose other defender is pinned and paralyzed! The sequel: 3 xh6+, g8; 4 xg7 mate. An exciting, fascinating battle of wits!",
+      "chapter": "ATTACK AND COUNTERATTACK"
+    },
+    {
+      "id": "wc-00653",
+      "caption": "328B. Black moves. He is the exchange down, yet he has a sly move which turns defeat into victory. The move is 3 ... b7!, with a skewer attack on White’s Queen and on the Knight behind the Queen. If now 4 xb7?, xh2+ (discovered attack) wins the Queen. After 4 c3, xf3 (White’s g-Pawn is pinned), Black has two Bishops for a Rook, with an easy win.",
+      "chapter": "ATTACK AND COUNTERATTACK"
+    },
+    {
+      "id": "wc-00655",
+      "caption": "330A. White moves. He sacrifices a Rook to force a “family check” Knight fork. Yet Black wins, as he has a brilliant defense by means of Knight forks! The play goes 1 h7+?!, xh7!; 2 xf6+, g7! If now (see Diagram 330B) 3 xd5, xe1+ 4 c2 xd4+ winning the Queen and the game by a Knight fork.",
+      "chapter": "ATTACK AND COUNTERATTACK"
+    },
+    {
+      "id": "wc-00656",
+      "caption": "331A. Black moves. He pushes 1 ... e2, giving his Bishop more scope and threatening to win by 2 ... e3; 3 c4 (if 3 xe3??, xg2 mate), xf3; 4 xd5, f1+ etc. White fights back with 2 xe2. Black presses on the King file with 2 ... e6, threatening 3 ... xe2. White has no additional defense for the Rook at e2, nor can he move it away. Therefore: 3 xe4, fxe4.",
+      "chapter": "ATTACK AND COUNTERATTACK"
+    },
+    {
+      "id": "wc-00658",
+      "caption": "330B. White moves. He tries 3 xe8+ expecting a King move. But Black, after studying all checks and captures, counters with 3 ... xe8. After 4 xd5 (what else?), he wins artistically with 4 ... xe1+; 5 c2, e3+ followed by 6 ... xd5. A delightful example of resourceful defensive play.",
+      "chapter": "ATTACK AND COUNTERATTACK"
+    },
+    {
+      "id": "wc-00659",
+      "caption": "331B. White moves. His only defense is counterattack, now that his own Queen and Rook are exposed to double attack. He plays 4 f5, leaving Black in the same predicament, and hoping for the simplifying 4 ... exd3; 5 fxe6 etc. Instead there comes 4 ... exf3! (study every capture!); 5 fxe6 fxg2+ 6 h2 g1() mate! Black looked one move further ahead.",
+      "chapter": "ATTACK AND COUNTERATTACK"
+    },
+    {
+      "id": "wc-00661",
+      "caption": "At first glance, it seems that you have a familiar winning pattern here: double attack. The idea is: you can play 1 xe8 (a move of violence). Then, after 1 ... xe8, you play 2 b5+ followed by 3 xa4 and win.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00662",
+      "caption": "The pins begin! Black has fianchettoed his Queen’s Bishop so that it will bear down on the long diagonal. He is particularly interested in controlling the vital center square e4.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00664",
+      "caption": "Now the otherwise desirable 6 e4 cannot be played, for then Black simply replies 6 ... xe4! taking advantage of the pin on White’s Knight at c3.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00669",
+      "caption": "Black now anticipates the following: 10 h3 (to make room for the Bishop), xc3+; 11 bxc3, xg3; 12 fxg3, e7 followed by ... d6, ... d7 and ... 0-0-0. Black would then have a fine game and White’s position would be riddled with Pawn weaknesses.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00671",
+      "caption": "White’s first aggressive move, curtly changing the picture with kaleidoscopic suddenness. Black’s Bishop at b7 is blocked out of action. Meanwhile Black is menaced with double attack against his Rook at h8 and Knight at e4.",
+      "chapter": "ANALYZINGA COMBINATION"
+    },
+    {
+      "id": "wc-00673",
+      "caption": "It is generally desirable for Pawns to capture toward the center. In this case, however, 13 hxg3 was out of the question because of the pin by Black’s King Rook.",
+      "chapter": "ANALYZINGA COMBINATION"
+    }
+  ]
+}

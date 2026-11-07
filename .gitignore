@@ -27,12 +27,19 @@ data/ingest_report.json
 docs/*.epub
 docs/nunn.pgn
 
-# Copyrighted book PDFs + local text extracts (study only — do not publish)
+# Copyrighted book PDFs / EPUBs (study only — do not publish binaries)
 docs/*.pdf
 docs/tactics/*.epub
 docs/tactics/*.pdf
-docs/tactics/extract/
 docs/tactics/source/
+# OCR intermediate rasters are huge; keep JSON/text extracts in git
+docs/tactics/extract/**/images/
+docs/tactics/extract/**/crops/
+docs/tactics/extract/**/pages/
+docs/tactics/extract/**/*.jpeg
+docs/tactics/extract/**/*.jpg
+docs/tactics/extract/**/*.png
+docs/tactics/extract/**/*.log
 docs/_ouvertures-enfants-texte/
 docs/*ouvertures*
 # Saitek / Winslow study site (prompts + solutions verbatim — personal use)
@@ -41,5 +48,3 @@ data/openings-revision-local.json
 web/public/data/openings-revision-local.json
 data/kasparov-chess-local.json
 web/public/data/kasparov-chess-local.json
-data/tactics-revision-local.json
-web/public/data/tactics-revision-local.json

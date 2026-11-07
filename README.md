@@ -20,7 +20,7 @@ Study classic chess books the way they were written: **every move explained**, w
 
 **Kasparov Chess:** virtual book — eight classics × eight studies. Play the book move **on the screen board** (drag or click) **or on Chessnut / ChessUp** (sync to the diagram, then guess with no LED spoilers); local score 3·2·1·0; solution arrow when revealed. Rebuild with `build_kasparov_chess.mjs` from local `docs/site`. **Full book prompts/solutions** stay in `kasparov-chess-local.json` (gitignored) — not deployed.
 
-**Tactics revision:** virtual book — hybrid motifs (Winning Chess chapters + Predator drills). Coach **teach** mode with stepped examples, then **practice** batteries (3·2·1·0). Rebuild with `build_tactics_revision.mjs`. Diagram OCR for book extracts uses sibling package `../chess-diagram-ocr` (`tactics_extract_winning_chess.py`, `tactics_extract_predator.py`). **Local overlays / extracts** stay gitignored — not deployed.
+**Tactics revision:** virtual book — hybrid motifs (Winning Chess chapters + Predator drills). Coach **teach** mode with stepped examples, then **practice** batteries (3·2·1·0). Rebuild with `build_tactics_revision.mjs` / `build_tactics_from_extract.mjs`. Diagram OCR for book extracts uses sibling package `../chess-diagram-ocr` (`tactics_extract_winning_chess.py`, `tactics_extract_predator.py`). **Book prose overlay** (`tactics-revision-local.json`) and **text/JSON extracts** under `docs/tactics/extract/` are committed and deployed; EPUB/PDF sources and OCR raster crops stay local.
 
 ---
 

@@ -1,0 +1,205 @@
+{
+  "batch": 4,
+  "items": [
+    {
+      "id": "wc-00262",
+      "caption": "118A. Black moves. The possibility of a discovered attack is obscured here; but when you know the pattern, you know what to look for. The decisive clue is the fact that White’s Queen is not protected. Black begins with a Knight fork sacrifice: 1 ... f3+. White’s Rook is attacked, so he plays 2 gxf3. Now 2 ... g6+ forces 3 h1. The pattern for a discovered attack is established!",
+      "chapter": "DISCOVERED ATTACK WITH CHECK"
+    },
+    {
+      "id": "wc-00264",
+      "caption": "119A. White moves. White’s Bishop seems to have but little scope, yet it is easy to imagine a situation in which the Bishop attacks through the medium of a forceful utilization of the Knight. The problem is to make a possible Knight check practical. The doubled Rooks give us a point of departure:",
+      "chapter": "DISCOVERED ATTACK WITH CHECK"
+    },
+    {
+      "id": "wc-00265",
+      "caption": "118B. Black moves. His Queen is now on the same diagonal as the adverse Queen – separated only by a Black Knight; a perfect setting for a discovered attack. Black plays 3 ... g3+, forcing White to do something about the check. Consequently White has no time to save his defenseless Queen. Had White’s Queen been protected, the combination would have been impossible.",
+      "chapter": "DISCOVERED ATTACK WITH CHECK"
+    },
+    {
+      "id": "wc-00267",
+      "caption": "120A. Black moves. He sees a familiar pattern in the position of the two Queens, with the Knight between them. What move can the Knight make which will be a “smite” while at the same time exposing White’s Queen to attack? Black has no check and no mate threat, but he does have a capture: 1 ... xe4!",
+      "chapter": "DISCOVERED ATTACK WITH CAPTURE"
+    },
+    {
+      "id": "wc-00269",
+      "caption": "121A. Black moves. He produces a drastic example of the crushing power of the discovered attack. The key idea is to move his Rook from f3, unmasking an attack by his Bishop on White’s Queen. To create the most havoc, he combines this “discovery” with a capture: 1 ... xd3! Note that White’s Queen is now pinned and cannot guard the Rook at d1!",
+      "chapter": "DISCOVERED ATTACK WITH CAPTURE"
+    },
+    {
+      "id": "wc-00270",
+      "caption": "122A. White moves. Both his Bishops mask a possible attack by his Rook on Black’s Queen. To bring about a discovered attack along the d-file, it is necessary to move the Bishops. First comes a threat: 1 c4, attacking Black’s Rook on a2. Black replies 1 ... a8. Now we have gained time to devise the proper setting for the discovered attack.",
+      "chapter": "DISCOVERED ATTACK WITH CAPTURE"
+    },
+    {
+      "id": "wc-00271",
+      "caption": "120B. White moves. He is in a terrible predicament! He cannot capture the Knight, for his Queen is en prise. Nor can he merely move his Queen out of the line of attack, for then 2 ... xd2+ will win both Rooks. White must submit to playing 2 xe5, xd2+! (this interpolation is vital!) followed by 3 ... xe5.",
+      "chapter": "DISCOVERED ATTACK WITH CAPTURE"
+    },
+    {
+      "id": "wc-00272",
+      "caption": "121B. White moves. He is threatened with 2 ... xd1 mate. If he plays 2 xd3, then comes 2 ... e1 mate (remember the Queen is pinned!). White therefore tries 2 xa8, hoping for 2 ... xa8?; 3 xd3 etc. But, utilizing the priority of check (as in 120B) Black plays 2 ... xd1+! first, confiscating White’s Queen later on, and remaining a Rook and Bishop ahead.",
+      "chapter": "DISCOVERED ATTACK WITH CAPTURE"
+    },
+    {
+      "id": "wc-00273",
+      "caption": "123A. Black moves. By moving his Bishop, he can uncover an attack on White’s Knight. The Bishop cannot check, capture or threaten mate. What forceful possibility remains?! He can attack! Therefore: 1 ... h3. Black’s Queen attacks the Knight; Black’s Bishop attacks the Rook.",
+      "chapter": "DISCOVERED ATTACK WITH SECONDARY THREAT"
+    },
+    {
+      "id": "wc-00276",
+      "caption": "125A. White moves. A discovered attack is indicated on the c-file. But there is a difficulty to be ironed out: White’s Queen is en prise!",
+      "chapter": "DISCOVERED ATTACK WITH SECONDARY THREAT"
+    },
+    {
+      "id": "wc-00278",
+      "caption": "123B. White moves. He must lose some material, as both Knight and Rook are menaced. His “best” course is to save his Knight, allowing the loss of the exchange.",
+      "chapter": "DISCOVERED ATTACK WITH SECONDARY THREAT"
+    },
+    {
+      "id": "wc-00279",
+      "caption": "124B. White moves. By advancing, the Black Pawn has attacked the Queen, simultaneously opening up the diagonal of his King’s Bishop for an attack on White’s unguarded Bishop on a3.",
+      "chapter": "DISCOVERED ATTACK WITH SECONDARY THREAT"
+    },
+    {
+      "id": "wc-00280",
+      "caption": "125B. White moves. He continues with the pretty move 2 b5, discovering attack on Black’s Queen by the White Rook, and at the same time forking Black’s Queen and Rook with the Knight. Black must move his Queen (obviously 2 ... axb5? is out of the question); and after 3 xd4, White winds up the exchange ahead. The double threat was too potent to be parried.",
+      "chapter": "DISCOVERED ATTACK WITH SECONDARY THREAT"
+    },
+    {
+      "id": "wc-00281",
+      "caption": "126A. Black moves. The position on the c-file calls for a discovered attack on White’s Queen by a move of Black’s Bishop.",
+      "chapter": "DISCOVERED ATTACK WITH MATE THREATS"
+    },
+    {
+      "id": "wc-00284",
+      "caption": "126B. White moves. Black has “discovered” an attack on White’s Queen; at the same time the unmasking Bishop creates the terrible threat ... xh2 mate. White must lose at least a piece (3 c4, xc4).",
+      "chapter": "DISCOVERED ATTACK WITH MATE THREATS"
+    },
+    {
+      "id": "wc-00285",
+      "caption": "127A. White moves. He begins by driving the Black Rook at f8 into position for the discovered attack pattern: 1 e7. Black replies 1 ... e8. Now 2 b4 threatens 3 xe8 mate, or 3 xb4.",
+      "chapter": "DISCOVERED ATTACK WITH MATE THREATS"
+    },
+    {
+      "id": "wc-00286",
+      "caption": "128. White moves. By what discovered attack does he win the Queen?",
+      "chapter": "QUIZ ON DISCOVERED ATTACKS"
+    },
+    {
+      "id": "wc-00288",
+      "caption": "129. White moves. By what discovered attack does he win a piece?",
+      "chapter": "QUIZ ON DISCOVERED ATTACKS"
+    },
+    {
+      "id": "wc-00289",
+      "caption": "130. Black moves. By what discovered attack does he win the Queen?",
+      "chapter": "QUIZ ON DISCOVERED ATTACKS"
+    },
+    {
+      "id": "wc-00291",
+      "caption": "132. White moves. He will give the discovered check on the e-file. In the diagram, Black’s King is screened from check by the White Knight. Any move of the Knight will keep Black’s King busy getting out of check from the unmasked White Rook.",
+      "chapter": "BASIC PATTERN FOR DISCOVERED CHECK"
+    },
+    {
+      "id": "wc-00292",
+      "caption": "133A. White moves. His seventh rank forms the basic pattern for a discovered check: any move by the Bishop will discover a check by White’s Rook. The problem is to find a target for the white-squared Bishop. This is done by forcing the Knight to a white square: 1 b4!",
+      "chapter": "BASIC PATTERN FOR DISCOVERED CHECK"
+    },
+    {
+      "id": "wc-00294",
+      "caption": "133B. Black moves. His Knight is lost! 1 ... b7? or 1 ... b3? is out of the question. 1 ... c4 is answered by 2 xc4+ leaving Black no time to capture (remember the priority of check!). So Black tries 1 ... c6, but 2 d5+ wins the piece.",
+      "chapter": "BASIC PATTERN FOR DISCOVERED CHECK"
+    },
+    {
+      "id": "wc-00296",
+      "caption": "134B. Black moves. His King has been lured into occupying the same file as White’s Rook. The f-Pawn opens the way for the Rook’s gunfire and stabs at the Black Queen. However Black may play, his Queen is lost.",
+      "chapter": "BASIC PATTERN FOR DISCOVERED CHECK"
+    },
+    {
+      "id": "wc-00297",
+      "caption": "135A. Black moves. Any Rook move by Black will subject his opponent to check while the Rook tries to gobble up material. The most forceful way is 1 ... xa2+; 2 g1, g2+; but after 3 h1, what has White gained?!",
+      "chapter": "BASIC PATTERN FOR DISCOVERED CHECK"
+    },
+    {
+      "id": "wc-00298",
+      "caption": "135B. Black moves. He has altered the position slightly but decisively. The pattern for discovered check remains, but in a more deadly form: White’s Bishop is no longer supported by a Pawn! Now comes 3 ... b2+; 4 g1, xb3.",
+      "chapter": "BASIC PATTERN FOR DISCOVERED CHECK"
+    },
+    {
+      "id": "wc-00299",
+      "caption": "136A. Black moves. By removing the extraneous factors in complicated positions, you produce the design for winning; thus the “brilliant” 1 ... xg3! forces 2 fxg3. What has Black achieved by the sacrifice? How will he turn it to account? By means of a discovered check.",
+      "chapter": "BASIC PATTERN FOR DISCOVERED CHECK"
+    },
+    {
+      "id": "wc-00300",
+      "caption": "136B. Black moves. By sacrificing his Queen, he forced the opening of the diagonal between Black’s Bishop and White’s King, creating the basic pattern for a discovered check. White’s Queen is the biggest prey in sight, so Black pounces on it with 2 ... d1+.",
+      "chapter": "BASIC PATTERN FOR DISCOVERED CHECK"
+    },
+    {
+      "id": "wc-00302",
+      "caption": "137B. Black moves. His Bishop is attacked, but cannot be saved. The Black King has been put in check by White’s double-duty Bishop. Once the King moves out of check, White plays 4 xg7, winning easily.",
+      "chapter": "BASIC PATTERN FOR DISCOVERED CHECK"
+    },
+    {
+      "id": "wc-00305",
+      "caption": "139. White moves. How does he win the Queen by a discovered check?",
+      "chapter": "QUIZ ON DISCOVERED CHECK"
+    },
+    {
+      "id": "wc-00307",
+      "caption": "140. White moves. How does he win the Queen by a discovered check?",
+      "chapter": "QUIZ ON DISCOVERED CHECK"
+    },
+    {
+      "id": "wc-00309",
+      "caption": "142. Black moves. He ignores the fact that his Queen is en prise, for he notes that his Queen is in line with the hostile King, separated only by a piece which can also give check. This is the basic pattern for double check. Black plays 1 ... f3+, giving checkmate on the move. White cannot capture, he cannot interpose, he cannot move his King.",
+      "chapter": "BASIC PATTERN FOR DOUBLE CHECK"
+    },
+    {
+      "id": "wc-00311",
+      "caption": "143A. White moves. He begins by examining possible captures and checks. 1 xg6 leads to nothing, so he turns to 1 g5+, noting that Black can reply 1 ... xf7. Can reply?! – no: must reply! This excites White’s interest, for he sees that he can force Black into a double check. The play goes: 1 g5+!, xf7; and now we have the pattern for a double check.",
+      "chapter": "BASIC PATTERN FOR DOUBLE CHECK"
+    },
+    {
+      "id": "wc-00312",
+      "caption": "144A. Black moves. The mighty Bishop on the “long diagonal” leading to White’s King is the star actor here. But the diagonal is momentarily blocked by a White Pawn. To suggest the obstacle is to remove it: 1 ... xf3! Black surrenders his Queen in order to achieve the basic pattern for a double check. There follows 2 xe2, xf1 mate!",
+      "chapter": "BASIC PATTERN FOR DOUBLE CHECK"
+    },
+    {
+      "id": "wc-00313",
+      "caption": "145A. White moves. The position of his Rook on the g-file gives him an idea for constructing the basic pattern for a double check. The g-file is now half open; do you see how it can be forced open all the way against Black’s vulnerable King? The answer: 1 xh5!, gxh5; 2 xe6+.",
+      "chapter": "BASIC PATTERN FOR DOUBLE CHECK"
+    },
+    {
+      "id": "wc-00314",
+      "caption": "143B. White moves. He completes the combination with 2 d6 mate! This drastic finish bears out the deadly reputation of the double check: the Knight cannot be captured because of the Queen check, and interposition is impossible because of the Knight check! All that remains is self-help: move the King. But all exits are blocked. The King is checkmated.",
+      "chapter": "BASIC PATTERN FOR DOUBLE CHECK"
+    },
+    {
+      "id": "wc-00315",
+      "caption": "145B. Black moves. His King is doubly checked, and must move. The impudent Knight is therefore immune. After Black’s King moves, there follows 3 xc7 and White has won a piece.",
+      "chapter": "BASIC PATTERN FOR DOUBLE CHECK"
+    },
+    {
+      "id": "wc-00316",
+      "caption": "146. Black moves. If he plays 1 ... xg4, how does White win at once?",
+      "chapter": "QUIZ ON DOUBLE CHECK"
+    },
+    {
+      "id": "wc-00319",
+      "caption": "148. Black moves. His Queen attacks a Rook, his Knight attacks the Bishop. The Knight at d2 serves no defensive purpose, being pinned and therefore paralyzed. Hence White’s Queen must guard the menaced pieces. To prove that the Queen is overworked, Black plays 1 ... xf3+. After 2 xf3 White’s Queen no longer guards the Rook, so that 2 ... xb1+ wins.",
+      "chapter": "BASIC PATTERN FOR UNDERMINING THE OVERWORKED PIECE"
+    },
+    {
+      "id": "wc-00321",
+      "caption": "149A. White moves. Searching for a weakness in Black’s position, he spots it in Black’s e-Pawn. This Pawn guards the Knight at d6 (which is attacked by a White Bishop) and also the Bishop at f6 (which is attacked by a White Rook). Thus the e-Pawn has a double task; it is overworked; it can be undermined. The most logical course is 1 xd6 forcing 1 ... exd6.",
+      "chapter": "BASIC PATTERN FOR UNDERMINING THE OVERWORKED PIECE"
+    },
+    {
+      "id": "wc-00322",
+      "caption": "150A. White moves. Black’s pieces seem amply protected, but the fact that they are mutually dependent on each other for support is thoughtprovoking. The overworked motif may be present! Sure enough, the Rook at h8 guards both Rook and Bishop, which are both attacked by the Rook at g7. The Rook at h8 is therefore overworked. There follows 1 xh7!",
+      "chapter": "BASIC PATTERN FOR UNDERMINING THE OVERWORKED PIECE"
+    }
+  ]
+}

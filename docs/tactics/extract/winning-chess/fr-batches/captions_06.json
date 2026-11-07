@@ -1,0 +1,205 @@
+{
+  "batch": 6,
+  "items": [
+    {
+      "id": "wc-00379",
+      "caption": "179A. White moves. He is a piece down, but can regain it with 1 xe4+, xe4; 2 e5+ etc. But he wants something more forceful. White works out a daring idea by removing the guard: 1 xc5!!, xf3.",
+      "chapter": "BASIC PATTERN FOR REMOVING THE GUARD"
+    },
+    {
+      "id": "wc-00380",
+      "caption": "180. White moves. His Queen, now unprotected, attacks Black’s Queen, which is protected. Has White time to remove the guard? How?",
+      "chapter": "QUIZ ON REMOVING THE GUARD"
+    },
+    {
+      "id": "wc-00382",
+      "caption": "181. White moves. Instead of retreating his menaced Knight, he finds a way to remove the guard from the Black Rook which he attacks. How?",
+      "chapter": "QUIZ ON REMOVING THE GUARD"
+    },
+    {
+      "id": "wc-00383",
+      "caption": "182. Black moves. How does he win the Queen by removing its guard?",
+      "chapter": "QUIZ ON REMOVING THE GUARD"
+    },
+    {
+      "id": "wc-00385",
+      "caption": "The right way is the Pawn stab 1 ... g5! winning the Knight. Against a Pawn’s attack on a piece, neither exchange nor protection can be satisfactory.",
+      "chapter": "184. Black moves. He has an easy victim in White’s Knight at the side of the board. This piece has no retreat. But how should the Knight’s awkward situation be exploited? Should Black attack it with his Queen by 1 ... e8? No, for after 2 g3 the Knight would be protected."
+    },
+    {
+      "id": "wc-00386",
+      "caption": "These two examples illustrate the power of the “weak” Pawn in this type of attack. Flight, when possible, is generally the only defense to a Pawn’s attack.",
+      "chapter": "185. White moves. His Knight at e3 is attacked. He can move it safely to d1 or c2. But suppose he becomes thoughtlessly aggressive, and wants to post the Knight at d5? The Knight would then have no flight-square – no retreat. Black would play 1 ... c6 winning the Knight."
+    },
+    {
+      "id": "wc-00388",
+      "caption": "186. Black moves. He is immediately struck by the fact that White’s Bishop has no retreat. It cannot go forward, while flight is blocked by its own pieces. A Pawn attack will be painful: 1 ... f5 wins the Bishop at once. Such situations often turn up in practical play.",
+      "chapter": "186. Black moves. He is immediately struck by the fact that White’s Bishop has no retreat. It cannot go forward, while flight is blocked by its own pieces. A Pawn attack will be painful: 1 ... f5 wins the Bishop at once. Such situations often turn up in practical play."
+    },
+    {
+      "id": "wc-00389",
+      "caption": "187. Black moves. What feature, above all, stands out in this position? White’s Queen does not have a single move! The Queen, having no retreat, is an easy prey to attack. Black hits out at the paralyzed Queen with the immediately decisive 1 ... h4! White resigns!",
+      "chapter": "187. Black moves. What feature, above all, stands out in this position? White’s Queen does not have a single move! The Queen, having no retreat, is an easy prey to attack. Black hits out at the paralyzed Queen with the immediately decisive 1 ... h4! White resigns!"
+    },
+    {
+      "id": "wc-00390",
+      "caption": "188. Black moves. The hostile Queen has no retreat. To win the Queen, it is sufficient to attack it with any piece of lesser value. This hint yields us 1 ... g6, winning the Queen. After 2 xd8+, xd8, White has no relief.",
+      "chapter": "188. Black moves. The hostile Queen has no retreat. To win the Queen, it is sufficient to attack it with any piece of lesser value. This hint yields us 1 ... g6, winning the Queen. After 2 xd8+, xd8, White has no relief."
+    },
+    {
+      "id": "wc-00391",
+      "caption": "189. White moves. The candidate for destruction is Black’s Queen, which has an off-side position with few flight squares, while White’s minor pieces have great freedom of action. 1 h4 does the trick, leaving the Queen 14 untouchable squares!",
+      "chapter": "188. Black moves. The hostile Queen has no retreat. To win the Queen, it is sufficient to attack it with any piece of lesser value. This hint yields us 1 ... g6, winning the Queen. After 2 xd8+, xd8, White has no relief."
+    },
+    {
+      "id": "wc-00392",
+      "caption": "190. White moves. A Knight has least mobility at the side of the board. Black’s Knight has only one flight square: g1. The logical course is therefore 1 f1. White follows this up with 2 g2, winning the Knight, which has no retreat.",
+      "chapter": "190. White moves. A Knight has least mobility at the side of the board. Black’s Knight has only one flight square: g1. The logical course is therefore 1 f1. White follows this up with 2 g2, winning the Knight, which has no retreat."
+    },
+    {
+      "id": "wc-00393",
+      "caption": "191. Black moves. This position is an example of one of the most common no retreat patterns: Black’s Bishop goes Pawn-snatching and soon finds itself in a cul-de-sac. He plays 1 ... xa2? But with 2 b3 the steel trap closes on the Bishop, which has no retreat.",
+      "chapter": "191. Black moves. This position is an example of one of the most common no retreat patterns: Black’s Bishop goes Pawn-snatching and soon finds itself in a cul-de-sac. He plays 1 ... xa2? But with 2 b3 the steel trap closes on the Bishop, which has no retreat."
+    },
+    {
+      "id": "wc-00394",
+      "caption": "192. Black moves. He plays 1 ... xa2? under the impression that his attack on the Knight will give him the needed time to retreat the Queen to safety. But 2 c4 closes the exit gate. Black’s Queen has no retreat and will be won by 3 a1.",
+      "chapter": "192. Black moves. He plays 1 ... xa2? under the impression that his attack on the Knight will give him the needed time to retreat the Queen to safety. But 2 c4 closes the exit gate. Black’s Queen has no retreat and will be won by 3 a1."
+    },
+    {
+      "id": "wc-00395",
+      "caption": "193. Black moves. His Knights are menaced by the threat of f5. If 1 ... c5; 2 f5!, xe5; 3 d4 forking the Knights. Or 1 ... c7; 2 f5!, xe5; 3 d4 and there is no retreat for the Knight of the Rueful Countenance.",
+      "chapter": "193. Black moves. His Knights are menaced by the threat of f5. If 1 ... c5; 2 f5!, xe5; 3 d4 forking the Knights. Or 1 ... c7; 2 f5!, xe5; 3 d4 and there is no retreat for the Knight of the Rueful Countenance."
+    },
+    {
+      "id": "wc-00397",
+      "caption": "194A. Black moves. His f-Pawn requires protection. Instead of resorting to passive defense, he prefers to counterattack. This takes the form of exploiting the awkward position of White’s Bishop and his Knight on g4. When fleeing from attack, they are bound to get in each other’s way:",
+      "chapter": "193. Black moves. His Knights are menaced by the threat of f5. If 1 ... c5; 2 f5!, xe5; 3 d4 forking the Knights. Or 1 ... c7; 2 f5!, xe5; 3 d4 and there is no retreat for the Knight of the Rueful Countenance."
+    },
+    {
+      "id": "wc-00398",
+      "caption": "195A. White moves. Tarrasch has said: “No piece can be so easily won by Pawns as a Bishop.” The target here is Black’s Bishop at g6. White intends to surround it with Pawns. He begins with 1 xd6+, xd6 (if 1 ... cxd6; 2 f5 with double attack). The sequel is easy.",
+      "chapter": "193. Black moves. His Knights are menaced by the threat of f5. If 1 ... c5; 2 f5!, xe5; 3 d4 forking the Knights. Or 1 ... c7; 2 f5!, xe5; 3 d4 and there is no retreat for the Knight of the Rueful Countenance."
+    },
+    {
+      "id": "wc-00399",
+      "caption": "196A. Black moves. This position from the Ruy Lopez is so old that it is known as the “Noah’s Ark” Trap. As in 195A, the hemming-in process is used to trap a Bishop. Knowing what to look for, Black begins with a forcible move, a capture: 1 ... xd4; 2 xd4. Now another forcible move, a threat: 2 ... c5 attacking White’s Queen.",
+      "chapter": "193. Black moves. His Knights are menaced by the threat of f5. If 1 ... c5; 2 f5!, xe5; 3 d4 forking the Knights. Or 1 ... c7; 2 f5!, xe5; 3 d4 and there is no retreat for the Knight of the Rueful Countenance."
+    },
+    {
+      "id": "wc-00400",
+      "caption": "194B. White moves. The menaced Knight must retreat, and he has only one square for the purpose: h2. But by going there (3 h2), he robs the Bishop of its only flight square. Now 3 ... h4 strikes at the helpless Bishop, which has no retreat and is therefore lost. This is an elaboration of the much simpler position in Diagram 186, where the Bishop obviously had no retreat. Here his flight is prevented.",
+      "chapter": "193. Black moves. His Knights are menaced by the threat of f5. If 1 ... c5; 2 f5!, xe5; 3 d4 forking the Knights. Or 1 ... c7; 2 f5!, xe5; 3 d4 and there is no retreat for the Knight of the Rueful Countenance."
+    },
+    {
+      "id": "wc-00401",
+      "caption": "195B. White moves. He executes his plan with 2 f5 forcing 2 ... h5. Now 3 g4 wins the Bishop, which is attacked and has no retreat. Trapping a Bishop inside a web of Pawns is a fairly frequently seen stratagem. It has some similarity to the method used in Diagram 191.",
+      "chapter": "193. Black moves. His Knights are menaced by the threat of f5. If 1 ... c5; 2 f5!, xe5; 3 d4 forking the Knights. Or 1 ... c7; 2 f5!, xe5; 3 d4 and there is no retreat for the Knight of the Rueful Countenance."
+    },
+    {
+      "id": "wc-00402",
+      "caption": "197A. Black moves. He goes after a stray Pawn at the side of the board: 1 ... c2+? After 2 d3 (moving in for the kill), Black is forced to do what he wants to do: 2 ... xa3.",
+      "chapter": "193. Black moves. His Knights are menaced by the threat of f5. If 1 ... c5; 2 f5!, xe5; 3 d4 forking the Knights. Or 1 ... c7; 2 f5!, xe5; 3 d4 and there is no retreat for the Knight of the Rueful Countenance."
+    },
+    {
+      "id": "wc-00404",
+      "caption": "197B. White moves. He is well satisfied with the position: the Black Knight has no moves – no retreat! White swoops down with 3 b3, attacking and winning the miserable Knight.",
+      "chapter": "193. Black moves. His Knights are menaced by the threat of f5. If 1 ... c5; 2 f5!, xe5; 3 d4 forking the Knights. Or 1 ... c7; 2 f5!, xe5; 3 d4 and there is no retreat for the Knight of the Rueful Countenance."
+    },
+    {
+      "id": "wc-00405",
+      "caption": "198A. Black moves. He goes in for a tempting but unsound combination. Relying on a “clever” Knight fork, he wins a Pawn: 1 ... xf5?; 2 xd8, d4+; 3 d3, xb5. Thus Black has regained the sacrificed piece and is a Pawn to the good. It is a case of “ ‘Will you come into my parlor?’ said the spider.”",
+      "chapter": "193. Black moves. His Knights are menaced by the threat of f5. If 1 ... c5; 2 f5!, xe5; 3 d4 forking the Knights. Or 1 ... c7; 2 f5!, xe5; 3 d4 and there is no retreat for the Knight of the Rueful Countenance."
+    },
+    {
+      "id": "wc-00407",
+      "caption": "199. White moves. One of Black’s pieces has no mobility. Which Pawn move by White will win this piece?",
+      "chapter": "QUIZ ON “NO RETREAT”"
+    },
+    {
+      "id": "wc-00409",
+      "caption": "200. White moves. What moves must you make to (a) cut off the retreat of Black’s Bishop and (b) win the Bishop?",
+      "chapter": "QUIZ ON “NO RETREAT”"
+    },
+    {
+      "id": "wc-00410",
+      "caption": "201. White moves. Black’s pieces stand in each other’s way. How does White win a piece?",
+      "chapter": "QUIZ ON “NO RETREAT”"
+    },
+    {
+      "id": "wc-00412",
+      "caption": "203A. Black moves. He sees an opportunity for a skewer attack in the diagonal placement of White’s Bishop on c4 and his Rook at a2. The two pieces are in line, and there ought to be a way ...",
+      "chapter": "BASIC PATTERN FOR THE SKEWER"
+    },
+    {
+      "id": "wc-00413",
+      "caption": "203B. White moves. He is trapped in a classic example of the skewer attack. The previous exchange placed two of White’s major pieces in line on the same diagonal. Major pieces always make good targets, as they can rarely afford capture when menaced by minor pieces. White must discreetly withdraw the Queen; after 3 e2, xa2; 4 xa2 etc. he has lost the exchange without any compensation.",
+      "chapter": "BASIC PATTERN FOR THE SKEWER"
+    },
+    {
+      "id": "wc-00415",
+      "caption": "204A. Black moves. He can create a skewer attack by forcing the substitution of White’s King for White’s Bishop. In that case, White will be susceptible to a powerful check by Black’s Bishop. Now for the mechanics: we start with a forcing move, therefore 1 ... xf3+. White must recapture: 2 xf3.",
+      "chapter": "BASIC PATTERN FOR THE SKEWER"
+    },
+    {
+      "id": "wc-00417",
+      "caption": "206A. Black moves. His opponent’s King and Queen are in line on the diagonal. Is a skewer attack possible? Apparently not, as White’s Bishop guards the critical diagonal. But if we can drive the Bishop off, then the skewer will be possible. Therefore: 1 ... f5. The White Bishop cannot be protected, so White plays 2 h4.",
+      "chapter": "BASIC PATTERN FOR THE SKEWER"
+    },
+    {
+      "id": "wc-00419",
+      "caption": "204B. Black moves. He has brought about a position where two major enemy pieces occupy the same diagonal – an ideal target for the skewer. Black plays 2 ... g4+. After White moves his King away, 3 ... xd1 leaves Black a piece ahead. The Rook was the real target of Black’s combination.",
+      "chapter": "BASIC PATTERN FOR THE SKEWER"
+    },
+    {
+      "id": "wc-00420",
+      "caption": "205B. White plays. By sheer force, he has produced a position ripe for the skewer. Black’s King and Rook are in line on the diagonal. White strikes at both pieces with 2 f2+. After Black’s King moves, White captures the Rook with a piece ahead. Again the Rook was the target.",
+      "chapter": "BASIC PATTERN FOR THE SKEWER"
+    },
+    {
+      "id": "wc-00421",
+      "caption": "206B. Black moves. The hindrance to the skewer has been driven off, so that 2 ... h6+ is now possible. This attacks not only the King, but White’s Queen as well. White must play 3 f4, allowing 3 ... exf4+ with complete collapse. (White’s Queen will now be lost just the same. How?)",
+      "chapter": "BASIC PATTERN FOR THE SKEWER"
+    },
+    {
+      "id": "wc-00423",
+      "caption": "208A. Black moves. He is so far behind in material (Rook for Queen) that only a miracle can save him. The miracle is available, for the White King and Queen are in line, making possible a skewer in veiled form. At the moment 1 ... b1+ is meaningless, as White’s Bishop on b5 stops the skewer. The Bishop must be removed: 1 ... c6+!",
+      "chapter": "BASIC PATTERN FOR THE SKEWER"
+    },
+    {
+      "id": "wc-00424",
+      "caption": "209A. White moves. He has two possible captures: 1 xg2 (which wins) or 1 xf7 (which loses). Like Portia’s suitors, he makes the wrong choice: 1 xf7. The move looks attractive, for it threatens mate and leaves Black with (apparently) nothing but a desperate check or two. But Black heads straight for a skewer! – 1 ... h1+; 2 g3, xh3+; 3 f4.",
+      "chapter": "BASIC PATTERN FOR THE SKEWER"
+    },
+    {
+      "id": "wc-00426",
+      "caption": "209B. Black moves. He has driven White’s King to the f-file, so that both their majesties are in line. With the chief actors in their proper places, we are ready for the skewer: 3 ... f3+. White’s King must step aside, letting the skewer penetrate to his Queen (4 ... xf7).",
+      "chapter": "BASIC PATTERN FOR THE SKEWER"
+    },
+    {
+      "id": "wc-00427",
+      "caption": "210A. Black moves. He threatens mate at g2, but this is prevented by White’s Queen. But at c2 the Queen is undefended, which gives Black the idea of trying to work out a skewer attack. He needs forcing moves for this, and he has them: plenty of checks.",
+      "chapter": "BASIC PATTERN FOR THE SKEWER"
+    },
+    {
+      "id": "wc-00431",
+      "caption": "211A. Black moves. As we know, the favorable elements for a skewer attack are in evidence. White’s Queen is unguarded; his King can be forced back to the second rank, where it will be in line with the White Queen. Play proceeds logically:",
+      "chapter": "BASIC PATTERN FOR THE SKEWER"
+    },
+    {
+      "id": "wc-00432",
+      "caption": "212A. White moves. We look for forcing moves, noting that Black has only a limited number of King moves in reply. In such situations the defender is generally helpless to change the inexorable course of events, and he is frequently forced into a skewer position. We begin with 1 d7+, h6 (other King moves allow a mate in one); 2 g7+, h5.",
+      "chapter": "BASIC PATTERN FOR THE SKEWER"
+    },
+    {
+      "id": "wc-00433",
+      "caption": "210B. Black moves. He has brought about the desired position by means of two checks. Now comes the skewer with 3 ... h2+ (or, if you wish, 3 ... g2+ – a matter of taste). After White’s King moves, Black plays 4 ... xc2 and it is all over. This type of skewer attack is quite frequent and deserves careful study. See 211A for a very similar procedure.",
+      "chapter": "BASIC PATTERN FOR THE SKEWER"
+    },
+    {
+      "id": "wc-00434",
+      "caption": "212B. White moves. He is almost ready now for the skewer, aimed at Black’s Queen. First 3 h7+, forcing 3 ... g4. Now Black’s King and Queen are in line – the maximum objective of a skewer attack. White plays 4 xg6+, and the attack pierces through to win the unfortunate Black Queen, as White ends up with 5 xg1.",
+      "chapter": "BASIC PATTERN FOR THE SKEWER"
+    }
+  ]
+}

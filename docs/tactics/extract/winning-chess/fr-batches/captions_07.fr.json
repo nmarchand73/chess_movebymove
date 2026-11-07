@@ -1,0 +1,205 @@
+{
+  "batch": 7,
+  "translations": [
+    {
+      "id": "wc-00435",
+      "captionEn": "213. White moves. Black’s Queen and Bishop are in line on the c-file. How does White win a piece by the skewer attack?",
+      "captionFr": "213. Trait aux Blancs. La Dame et le Fou noirs sont alignés sur la colonne c. Comment les Blancs gagnent-ils une pièce par l'enfilade ?"
+    },
+    {
+      "id": "wc-00437",
+      "captionEn": "214. White moves. Black’s King and Queen are in line on a rank. How does White win the Queen by the skewer attack?",
+      "captionFr": "214. Trait aux Blancs. Le Roi et la Dame noirs sont alignés sur une même rangée. Comment les Blancs gagnent-ils la Dame par l'enfilade ?"
+    },
+    {
+      "id": "wc-00440",
+      "captionEn": "217A. White moves. Follow ing the basic rule for the handling of Passed Pawns, he plays 1 c7. Passed Pawns must be pushed! White threatens to advance the Pawn now to the queening-square. The only way Black can prevent this is to give up his Queen for the Pawn. Whichever course he takes, White remains a whole Rook ahead, with (of course) an easy win.",
+      "captionFr": "217A. Trait aux Blancs. Fidèle à la règle fondamentale du maniement des Pions passés, il joue 1 c7. Les Pions passés doivent être poussés ! Les Blancs menacent maintenant d'avancer le Pion jusqu'à la case de promotion. Les Noirs n'ont qu'un moyen de l'empêcher : donner leur Dame pour le Pion. Quelle que soit l'option choisie, les Blancs conservent une Tour entière d'avance, avec, bien sûr, une victoire facile."
+    },
+    {
+      "id": "wc-00441",
+      "captionEn": "217B. White moves. His Passed Pawn does not look very formidable.",
+      "captionFr": "217B. Trait aux Blancs. Leur Pion passé ne paraît guère redoutable."
+    },
+    {
+      "id": "wc-00442",
+      "captionEn": "218A. White moves. He has a Passed Pawn on the d-file. His course is clear: advance the Pawn! Hence 1 d6, threatening 2 d7. Black dare not defend with 1 ... d3, for then 2 xd3, xd3; 3 d7 and the Passed Pawn becomes a Queen. Therefore Black blockades the Passed Pawn with 1 ... d7. White promptly attacks the blockader with 2 c6.",
+      "captionFr": "218A. Trait aux Blancs. Il possède un Pion passé sur la colonne d. Sa route est tracée : avancer le Pion ! D'où 1 d6, qui menace 2 d7. Les Noirs n'osent le défendre par 1 ... d3, car après 2 xd3, xd3 ; 3 d7, le Pion passé devient Dame. Les Noirs bloquent donc le Pion passé par 1 ... d7. Les Blancs attaquent aussitôt le bloqueur par 2 c6."
+    },
+    {
+      "id": "wc-00445",
+      "captionEn": "219A. White moves. He has a Passed Pawn on f6, but apparently there is no way to advance it. Black’s Queen blockades its advance; the Black Bishop exerts pressure on the next square of the Pawn’s march; Black’s Rook guards the last rank. But White applies the magic formula: Remove the blockader!",
+      "captionFr": "219A. Trait aux Blancs. Il possède un Pion passé en f6, mais il semble qu'aucun moyen de l'avancer n'existe. La Dame noire bloque sa progression ; le Fou noir exerce une pression sur la case suivante de la marche du Pion ; la Tour noire garde la dernière rangée. Mais les Blancs appliquent la formule magique : chasser le bloqueur !"
+    },
+    {
+      "id": "wc-00446",
+      "captionEn": "220A. White moves. He has many winning lines, but the great Paul Morphy, famous for the elegance of his attacking play, naturally seeks the quickest way. His e-Pawn is already advanced to the seventh rank. What stops its promotion? The Black Queen. Therefore that piece must be removed, and here is how it is done: 1 e6+!, xe6 (forced); 2 dxe6.",
+      "captionFr": "220A. Trait aux Blancs. Ils disposent de nombreuses suites gagnantes, mais le grand Paul Morphy, fameux pour l'élégance de son jeu d'attaque, cherche naturellement le chemin le plus court. Son Pion e est déjà parvenu à la septième rangée. Qu'est-ce qui empêche sa promotion ? La Dame noire. Il faut donc écarter cette pièce, et voici comment : 1 e6+ !, xe6 (forcé) ; 2 dxe6."
+    },
+    {
+      "id": "wc-00447",
+      "captionEn": "218B. Black moves. Alas, his blockader (the Knight at d7) must leave his post: 2 ... b8, attacking the Bishop. White replies 3 e8, controlling the next square in the Pawn’s path. Thus all further blockade is impossible. After 4 d7, Black will have to give up his Knight for the Pawn to prevent it from queening. The extra piece will win easily.",
+      "captionFr": "218B. Trait aux Noirs. Hélas, leur bloqueur (le Cavalier en d7) doit quitter son poste : 2 ... b8, qui attaque le Fou. Les Blancs répondent 3 e8, contrôlant la case suivante sur le chemin du Pion. Tout nouveau blocus devient ainsi impossible. Après 4 d7, les Noirs devront donner leur Cavalier pour le Pion afin d'empêcher la promotion. La pièce en plus l'emportera aisément."
+    },
+    {
+      "id": "wc-00448",
+      "captionEn": "219B. White moves. The two obstacles to the Passed Pawn’s advance have been thrust aside, and the Pawn (which should have been kept “under lock and key”) advances: 2 f7! Passed Pawns must be pushed! Black is helpless against the specter of the Pawn’s promotion. There followed: 2 ... d8; 3 f8()+, xf8; 4 xf8+ winning the Queen.",
+      "captionFr": "219B. Trait aux Blancs. Les deux obstacles à l'avance du Pion passé ont été balayés, et le Pion (qu'on aurait dû garder « sous clef ») s'élance : 2 f7 ! Les Pions passés doivent être poussés ! Les Noirs sont sans défense devant le spectre de la promotion. La partie se poursuivit ainsi : 2 ... d8 ; 3 f8()+, xf8 ; 4 xf8+, qui gagne la Dame."
+    },
+    {
+      "id": "wc-00449",
+      "captionEn": "221A. Black moves. He is confronted with the imminent queening of White’s Passed Pawn. As the queening-square is covered by White’s Bishop, the promotion of the Passed Pawn will cost Black his Rook. He therefore plays 1 ... xa4, intending to answer the obvious 2 bxa4 with ... e8 – after which the worst will have been avoided.",
+      "captionFr": "221A. Trait aux Noirs. Ils sont confrontés à la promotion imminente du Pion passé blanc. La case de promotion étant couverte par le Fou blanc, la promotion du Pion passé coûtera aux Noirs leur Tour. Ils jouent donc 1 ... xa4, avec l'intention de répondre à la reprise évidente 2 bxa4 par ... e8, après quoi le pire aura été évité."
+    },
+    {
+      "id": "wc-00451",
+      "captionEn": "222A. Black moves. He wants to push his Passed Pawn to f2 and f1, acquiring a Queen. But White’s Bishop at c5 prevents the advance of the Passed Pawn. 1 ... f4 looks like a good try, but then 2 f2 stops the Passed Pawn. We must proceed according to the slogan Remove the blockader! The right way is 1 ... c4+. White plays 2 d2 edging nearer to the dangerous Passed Pawn.",
+      "captionFr": "222A. Trait aux Noirs. Ils veulent pousser leur Pion passé en f2, puis en f1, pour obtenir une Dame. Mais le Fou blanc en c5 s'oppose à l'avance du Pion passé. 1 ... f4 semble un bon essai, mais 2 f2 arrête alors le Pion passé. Il faut procéder selon la devise : chasser le bloqueur ! La bonne méthode est 1 ... c4+. Les Blancs jouent 2 d2, se rapprochant du dangereux Pion passé."
+    },
+    {
+      "id": "wc-00452",
+      "captionEn": "223A. Black moves. There is no Passed Pawn yet. But by means of a startling sacrifice Black will create a Passed Pawn. Then, according to principle, he will advance the Passed Pawn to the queening-square. He begins with 1 ... f4+, forcing 2 c2. Now he creates the Passed Pawn with 2 ... xg2!",
+      "captionFr": "223A. Trait aux Noirs. Il n'existe pas encore de Pion passé. Mais, par un sacrifice stupéfiant, les Noirs vont en créer un. Puis, conformément au principe, ils l'avanceront jusqu'à la case de promotion. Ils commencent par 1 ... f4+, qui force 2 c2. Ils créent alors le Pion passé par 2 ... xg2 !"
+    },
+    {
+      "id": "wc-00453",
+      "captionEn": "221B. White moves. But he does not care to play the obvious recapture! He studies the situation: he has a Passed Pawn, and Passed Pawns must be pushed! What stops the Pawn from queening? The Rook. Therefore the Rook must be removed! White plays 2 d1! (threat: 3 d8+, xd8; 4 exd8()+ and wins). Black tries 2 ... e8 but must lose after 3 d8! pinning.",
+      "captionFr": "221B. Trait aux Blancs. Mais ils n'ont garde de jouer la reprise évidente ! Ils étudient la situation : ils possèdent un Pion passé, et les Pions passés doivent être poussés ! Qu'est-ce qui empêche le Pion de se promouvoir ? La Tour. Il faut donc éliminer la Tour ! Les Blancs jouent 2 d1 ! (menace : 3 d8+, xd8 ; 4 exd8()+, et ils gagnent). Les Noirs tentent 2 ... e8, mais perdent après 3 d8 !, clouage."
+    },
+    {
+      "id": "wc-00454",
+      "captionEn": "223B. White moves. Having no better reply, he accepts the sacrifice by 3 xg2. In return for the piece, Black has a powerful Passed Pawn. He advances it at once: 3 ... h3. No matter how White plays now, he cannot prevent the Passed Pawn from queening! (Prove this.) Another clever Capablanca ending.",
+      "captionFr": "223B. Trait aux Blancs. Faute de meilleure réponse, ils acceptent le sacrifice par 3 xg2. En échange de la pièce, les Noirs possèdent un puissant Pion passé. Ils l'avancent aussitôt : 3 ... h3. Quoi que jouent désormais les Blancs, ils ne peuvent empêcher le Pion passé de se promouvoir ! (Démontrez-le.) Encore une finale astucieuse de Capablanca."
+    },
+    {
+      "id": "wc-00456",
+      "captionEn": "224A. Black moves. The imminent promotion of his Passed Pawn on the b-file is prevented by White’s Queen, which acts as “goal-keeper.” To break through the defense, it is necessary for Black to control the queening-square. Hence he plays 1 ... e4+, so that if 2 g1, b1(), he is a whole Queen ahead! White tries 2 f3.",
+      "captionFr": "224A. Trait aux Noirs. La promotion imminente de leur Pion passé sur la colonne b est empêchée par la Dame blanche, qui joue le rôle de « gardien de but ». Pour percer la défense, les Noirs doivent contrôler la case de promotion. Ils jouent donc 1 ... e4+, de sorte que si 2 g1, b1(), ils ont une Dame entière d'avance ! Les Blancs tentent 2 f3."
+    },
+    {
+      "id": "wc-00457",
+      "captionEn": "225A. Black moves. He would like to queen his Passed Pawn without loss of time. But see all the difficulties: White’s Knight controls the queening-square; his King threatens to advance toward the precious Pawn and capture it; finally, Black’s Bishop is attacked. But one startling move changes the picture: 1 ... b2!",
+      "captionFr": "225A. Trait aux Noirs. Ils aimeraient promouvoir leur Pion passé sans perdre de temps. Mais voyez les difficultés : le Cavalier blanc contrôle la case de promotion ; son Roi menace de s'avancer vers le précieux Pion pour le capturer ; enfin, le Fou noir est attaqué. Un seul coup stupéfiant change pourtant le tableau : 1 ... b2 !"
+    },
+    {
+      "id": "wc-00458",
+      "captionEn": "226A. Black moves. He has a considerable advantage in material, and his Passed Pawn has a clear road ahead of it. But advancing the Passed Pawn is premature, for example 1 ... d2?; 2 g7+, h8 (not 2 ... h6??; 3 g8 mate!); 3 g8+ and Black’s King cannot escape the perpetual check. Relying on the Passed Pawn he plays 1 ... g4+!",
+      "captionFr": "226A. Trait aux Noirs. Ils jouissent d'un avantage matériel considérable, et leur Pion passé a la route libre devant lui. Mais avancer le Pion passé serait prématuré, par exemple 1 ... d2? ; 2 g7+, h8 (et non 2 ... h6?? ; 3 g8 mat !) ; 3 g8+, et le Roi noir ne peut échapper à l'échec perpétuel. Comptant sur le Pion passé, ils jouent 1 ... g4+ !"
+    },
+    {
+      "id": "wc-00459",
+      "captionEn": "224B. Black moves. His Queen is attacked. Instead of moving it away, he observes the maxim Passed Pawns must be pushed! He therefore plays 2 ... b1(), for now White’s Queen is also attacked. If 3 fxe4, xd1+. No matter what White does on his third move, he must remain a Queen behind. Note the immediately decisive effect of controlling the queening-square.",
+      "captionFr": "224B. Trait aux Noirs. Leur Dame est attaquée. Au lieu de la déplacer, ils observent la maxime : les Pions passés doivent être poussés ! Ils jouent donc 2 ... b1(), car la Dame blanche est maintenant attaquée à son tour. Si 3 fxe4, xd1+. Quoi que fassent les Blancs à leur troisième coup, ils resteront une Dame en moins. Notez l'effet immédiatement décisif du contrôle de la case de promotion."
+    },
+    {
+      "id": "wc-00460",
+      "captionEn": "225B. White moves. His hopes have been dashed. His Knight is an overworked piece: if 2 xb2, c1()+. The Bishop is tabu, but he controls the queening-square; so that if 2 e2 (trying to approach the Passed Pawn), c1(); 3 xc1, xc1 and Black’s material advantage gives him an easy win. A Passed Pawn is no longer a “humble” or “lowly” Pawn.",
+      "captionFr": "225B. Trait aux Blancs. Leurs espoirs sont anéantis. Leur Cavalier est une pièce surchargée : si 2 xb2, c1()+. Le Fou est tabou, mais il contrôle la case de promotion ; de sorte que si 2 e2 (pour s'approcher du Pion passé), c1() ; 3 xc1, xc1, et l'avantage matériel des Noirs leur donne une victoire aisée. Un Pion passé n'est plus un Pion « humble » ou « modeste »."
+    },
+    {
+      "id": "wc-00461",
+      "captionEn": "226B. White moves. He has no good continuation. If 2 h2, xg8; 3 xg8, xg8 and White cannot prevent the Passed Pawn from marching on to become a Queen. No better for White is 2 xg4, hxg4+. If White were not in check now, he could play 3 d5 or 3 f5, followed by 4 e3 stopping the Passed Pawn. But priority of check forces White to play a King move, allowing 3 ... d2 etc.",
+      "captionFr": "226B. Trait aux Blancs. Ils n'ont aucune bonne suite. Si 2 h2, xg8 ; 3 xg8, xg8, et les Blancs ne peuvent empêcher le Pion passé de poursuivre sa marche jusqu'à la Dame. Ce n'est pas mieux pour eux après 2 xg4, hxg4+. S'ils n'étaient pas en échec, ils pourraient jouer 3 d5 ou 3 f5, suivi de 4 e3, pour arrêter le Pion passé. Mais la priorité de l'échec contraint les Blancs à jouer un coup de Roi, ce qui permet 3 ... d2 etc."
+    },
+    {
+      "id": "wc-00462",
+      "captionEn": "227A. Black moves. He has a deep plan for making use of his Passed Pawn on e3. He begins with 1 ... c7, intensifying the pin on the Knight. 2 f6+ is refuted by 2 ... xf6; 3 xf6, e2 (threatens 4 ... d1+, as in 221B); 4 c1, cd7 and wins. White therefore tries 2 hd1. Momentarily his Knight is adequately guarded.",
+      "captionFr": "227A. Trait aux Noirs. Ils ont un plan profond pour tirer parti de leur Pion passé en e3. Ils commencent par 1 ... c7, qui renforce le clouage du Cavalier. 2 f6+ est réfuté par 2 ... xf6 ; 3 xf6, e2 (menaçant 4 ... d1+, comme en 221B) ; 4 c1, cd7, et les Noirs gagnent. Les Blancs tentent donc 2 hd1. Pour un instant, leur Cavalier est suffisamment gardé."
+    },
+    {
+      "id": "wc-00463",
+      "captionEn": "227B. Black moves. He has two ways of utilizing his Passed Pawn. One is: 2 ... e2, making White’s attacked Rook an overworked piece. If it moves on the file, then the Pawn advances and becomes a Queen; if the Rook moves on the rank, then White’s Knight is lost. The second method is: 2 ... cxd7; 3 xd7, xd7; 4 xd7, e2! and queens.",
+      "captionFr": "227B. Trait aux Noirs. Ils disposent de deux manières d'exploiter leur Pion passé. La première : 2 ... e2, qui fait de la Tour blanche attaquée une pièce surchargée. Si elle se déplace sur la colonne, le Pion avance et devient Dame ; si la Tour se déplace sur la rangée, le Cavalier blanc est perdu. La seconde méthode : 2 ... cxd7 ; 3 xd7, xd7 ; 4 xd7, e2 !, et le Pion se promeut."
+    },
+    {
+      "id": "wc-00464",
+      "captionEn": "228A. White moves. In 226 and 227 we have seen the value of simplifying in order to exploit the strength of a Passed Pawn. Here the combination begins with 1 xf6! forcing 1 ... gxf6.",
+      "captionFr": "228A. Trait aux Blancs. Aux diagrammes 226 et 227, nous avons vu l'intérêt de simplifier pour exploiter la force d'un Pion passé. Ici, la combinaison débute par 1 xf6 !, qui force 1 ... gxf6."
+    },
+    {
+      "id": "wc-00465",
+      "captionEn": "229. White moves. His Passed Pawn is prevented from advancing by Black’s King. How does he drive off the blockader and win the game?",
+      "captionFr": "229. Trait aux Blancs. Leur Pion passé est empêché d'avancer par le Roi noir. Comment chassent-ils le bloqueur et gagnent-ils la partie ?"
+    },
+    {
+      "id": "wc-00467",
+      "captionEn": "230. Black moves. His Passed Pawn is prevented from advancing to the queening-square by White’s Bishop. How does Black get rid of the Bishop?",
+      "captionFr": "230. Trait aux Noirs. Leur Pion passé est empêché de gagner la case de promotion par le Fou blanc. Comment les Noirs se débarrassent-ils de ce Fou ?"
+    },
+    {
+      "id": "wc-00468",
+      "captionEn": "231. White moves. He is ahead in material and has several ways of winning. The quickest method is to simplify by sacrificing, so that his Passed Pawn can march on irresistibly. How does White accomplish this?",
+      "captionFr": "231. Trait aux Blancs. Ils ont l'avantage matériel et plusieurs manières de gagner. La plus rapide consiste à simplifier par un sacrifice, afin que leur Pion passé puisse poursuivre sa marche irrésistible. Comment les Blancs y parviennent-ils ?"
+    },
+    {
+      "id": "wc-00471",
+      "captionEn": "233A. Black is checkmated. Offhand it might seem that he had been a bit careless and overlooked the mate pictured in the diagram. That this is not the case, can be seen from the next diagram, which shows how this position came about. Later on, we shall see that the weakness of the first rank often makes remarkable combinations possible. Sometimes the result is outright mate, as here; other times, exploitation is indirect.",
+      "captionFr": "233A. Les Noirs sont mats. À première vue, on pourrait croire qu'ils ont été un peu négligents et ont laissé passer le mat que montre le diagramme. Il n'en est rien, comme le montre le diagramme suivant, qui indique comment cette position a été obtenue. Nous verrons plus loin que la faiblesse de la première rangée rend souvent possibles des combinaisons remarquables. Parfois le résultat est un mat pur et simple, comme ici ; d'autres fois, l'exploitation est indirecte."
+    },
+    {
+      "id": "wc-00472",
+      "captionEn": "233B. White moves. Spotting the weakness of Black’s first rank, he plays 1 xa8! The sacrifice is decisive, because it removes one of the defenders of Black’s first rank. After 1 ... xa8 Black has only one Rook guarding his d8, while White has two Rooks trained on it. There follows: 2 d8+, xd8; 3 xd8 mate, as in 233A. In such situations, the creation of a “loophole” by (say) ... h6 is advisable.",
+      "captionFr": "233B. Trait aux Blancs. Repérant la faiblesse de la première rangée noire, ils jouent 1 xa8 ! Le sacrifice est décisif, car il élimine l'un des défenseurs de cette rangée. Après 1 ... xa8, les Noirs n'ont plus qu'une Tour pour garder d8, alors que les Blancs en ont deux braquées dessus. Suit : 2 d8+, xd8 ; 3 xd8 mat, comme en 233A. Dans de telles situations, il est prudent de ménager une « lucarne » par (disons) ... h6."
+    },
+    {
+      "id": "wc-00473",
+      "captionEn": "234A. Black moves. His Queen and a Rook are trained on White’s first rank, which is guarded by a Rook and Bishop. But the Bishop, being pinned, is paralyzed. Therefore the first rank is vulnerable to attack. Black can invade by sacrificing his Queen: 1 ... e1+! forcing 2 xe1.",
+      "captionFr": "234A. Trait aux Noirs. Leur Dame et une Tour sont braquées sur la première rangée blanche, gardée par une Tour et un Fou. Mais le Fou, étant cloué, est paralysé. La première rangée est donc vulnérable à l'attaque. Les Noirs peuvent y pénétrer en sacrifiant leur Dame : 1 ... e1+ !, qui force 2 xe1."
+    },
+    {
+      "id": "wc-00474",
+      "captionEn": "235A. White moves. It seems difficult if not impossible to penetrate Black’s first rank. Yet it can be done; and if we look for all possible checks and captures, we find the violent move 1 xd7+! Black plays 1 ... xd7 (1 ... b8 avoids mate but leads to frightful loss of material).",
+      "captionFr": "235A. Trait aux Blancs. Il paraît difficile, sinon impossible, de pénétrer la première rangée noire. Pourtant, c'est faisable ; et si l'on recherche tous les échecs et toutes les captures possibles, on découvre le coup violent 1 xd7+ ! Les Noirs jouent 1 ... xd7 (1 ... b8 évite le mat, mais entraîne une effroyable perte de matériel)."
+    },
+    {
+      "id": "wc-00475",
+      "captionEn": "236A. White moves. He attacks the h-Pawn twice, and it is defended only once. Not realizing that his Queen is tied to the defense of the first rank, he plays 1 xh5? With this capture, White’s first rank becomes vulnerable. To prove this, Black sacrifices his Queen with 1 ... xh5! As he cannot remain a Rook down, White retakes: 2 xh5.",
+      "captionFr": "236A. Trait aux Blancs. Ils attaquent deux fois le Pion h, qui n'est défendu qu'une fois. Ne réalisant pas que leur Dame est liée à la défense de la première rangée, ils jouent 1 xh5 ? Par cette capture, la première rangée blanche devient vulnérable. Pour le prouver, les Noirs sacrifient leur Dame par 1 ... xh5 ! Les Blancs ne pouvant rester une Tour en moins, ils reprennent : 2 xh5."
+    },
+    {
+      "id": "wc-00476",
+      "captionEn": "235B. White moves. He continues with occupation of the vulnerable rank: 2 e8+. Black must interpose by 2 ... d8. Now either White Rook captures the Rook, giving checkmate. The brilliant sacrifice 1 xd7+! was perpetrated in actual play by Paul Keres on World Champion Alekhine.",
+      "captionFr": "235B. Trait aux Blancs. Ils poursuivent en occupant la rangée vulnérable : 2 e8+. Les Noirs doivent interposer par 2 ... d8. L'une ou l'autre Tour blanche capture alors la Tour et donne mat. Le brillant sacrifice 1 xd7+ ! fut réellement joué par Paul Keres contre le champion du monde Alekhine."
+    },
+    {
+      "id": "wc-00478",
+      "captionEn": "236B. Black moves. He swoops down the whole length of the open file: 2 ... c1+. White interposes with 3 f1; perhaps he overlooks the long-range effect of Black’s Bishop at a6! Black now follows through with 3 ... xf1 mate. (Had White played 3 d1, he would have delayed the mate for one move.) The Queen sacrifice was startling but logical.",
+      "captionFr": "236B. Trait aux Noirs. Ils fondent sur toute la longueur de la colonne ouverte : 2 ... c1+. Les Blancs interposent par 3 f1 ; peut-être ont-ils négligé l'action à longue portée du Fou noir en a6 ! Les Noirs poursuivent par 3 ... xf1 mat. (Si les Blancs avaient joué 3 d1, ils auraient retardé le mat d'un coup.) Le sacrifice de Dame était saisissant, mais logique."
+    },
+    {
+      "id": "wc-00479",
+      "captionEn": "237A. Black moves. He wants to invade White’s first rank via the e-file. The play in 235A tells us what to look for. Searching for forcing moves such as checks or captures, Black decides in favor of 1 ... axd2 White recaptures by 2 xd2. (If 2 xd2, xd2; 3 xd2, e1 mate!)",
+      "captionFr": "237A. Trait aux Noirs. Ils veulent envahir la première rangée blanche par la colonne e. Le jeu du diagramme 235A nous indique ce qu'il faut chercher. En recherchant les coups forcés, échecs ou captures, les Noirs se décident pour 1 ... axd2. Les Blancs reprennent par 2 xd2. (Si 2 xd2, xd2 ; 3 xd2, e1 mat !)"
+    },
+    {
+      "id": "wc-00480",
+      "captionEn": "238A. White moves. His Queen and Rook are doubled on the c-file – one of the surest methods of dominating an open line. Such control enables one to use the file as a “jumping-off place” for forcible entry into the hostile position. The opponent’s first rank is a favorite target for this type of attack. White plays 1 g3 with a double threat.",
+      "captionFr": "238A. Trait aux Blancs. Leur Dame et leur Tour sont doublées sur la colonne c, l'un des moyens les plus sûrs de dominer une ligne ouverte. Un tel contrôle permet d'user de la colonne comme d'une « base de départ » pour forcer l'entrée dans le camp adverse. La première rangée de l'adversaire est la cible favorite de ce genre d'attaque. Les Blancs jouent 1 g3 avec une double menace."
+    },
+    {
+      "id": "wc-00481",
+      "captionEn": "239A. Black moves. It is not clear how he can work up an attack against White’s first rank. But the process of looking for checks and captures again gives us a priceless hint. We begin with 1 ... f3+, which forces White’s King to g1 in order to keep the Rook guarded. Now White’s first rank is vulnerable. The search for checks and captures yields a delightful sequel: 2 ... xf1+!",
+      "captionFr": "239A. Trait aux Noirs. On ne voit pas bien comment ils pourraient monter une attaque contre la première rangée blanche. Mais la recherche des échecs et des captures nous livre à nouveau un indice inestimable. Nous commençons par 1 ... f3+, qui force le Roi blanc en g1 afin que la Tour reste protégée. La première rangée blanche est désormais vulnérable. La recherche des échecs et des captures fournit une suite délicieuse : 2 ... xf1+ !"
+    },
+    {
+      "id": "wc-00482",
+      "captionEn": "237B. Black moves. By sacrificing the exchange, he has rendered White’s first rank vulnerable to invasion. Two of the defenders of White’s e1 are gone, so that Black can play 2 ... e1+!; 3 xe1 (or 3 f2, e3 mate), xe1 mate. Black’s first move was an example of removing the guard.",
+      "captionFr": "237B. Trait aux Noirs. En sacrifiant la qualité, ils ont rendu la première rangée blanche vulnérable à l'invasion. Deux des défenseurs de e1 ont disparu, si bien que les Noirs peuvent jouer 2 ... e1+ ! ; 3 xe1 (ou 3 f2, e3 mat), xe1 mat. Le premier coup des Noirs était un exemple d'élimination du défenseur."
+    },
+    {
+      "id": "wc-00484",
+      "captionEn": "239B. White moves. He has only one reply, 3 xf1, which is resoundingly answered by 3 ... d1 mate. Black’s Pawn at f3 acts as a powerful wedge (actually doing the work of a Bishop or Queen) in blocking the escape of the White King. All of Black’s moves were violent: the more stringently the defense is limited, the easier it is to foresee the consequences.",
+      "captionFr": "239B. Trait aux Blancs. Ils n'ont qu'une seule réponse, 3 xf1, à laquelle les Noirs répondent avec éclat par 3 ... d1 mat. Le Pion noir en f3 joue le rôle d'un coin puissant (faisant en réalité le travail d'un Fou ou d'une Dame) en barrant la fuite du Roi blanc. Tous les coups des Noirs furent violents : plus la défense est étroitement limitée, plus il est facile de prévoir les conséquences."
+    },
+    {
+      "id": "wc-00485",
+      "captionEn": "240A. White moves. He begins with 1 c4+ (1 b3+ has the same effect), which is as strong as it is obvious. Strong because it drives Black’s King into the corner, which makes his first rank vulnerable; obvious because all checks and captures are obvious – they must be the first moves one looks at. Black is forced (why?) to play 1 ... h8. Now comes the brilliant 2 f7!",
+      "captionFr": "240A. Trait aux Blancs. Ils commencent par 1 c4+ (1 b3+ a le même effet), aussi fort qu'évident. Fort, parce qu'il refoule le Roi noir dans le coin, ce qui rend sa première rangée vulnérable ; évident, parce que tous les échecs et toutes les captures sont évidents : ce sont les premiers coups que l'on examine. Les Noirs sont contraints (pourquoi ?) de jouer 1 ... h8. Vient alors le brillant 2 f7 !"
+    },
+    {
+      "id": "wc-00486",
+      "captionEn": "241A. White moves. He plans to drive Black’s King into the corner. As in 240A, Black’s King will have no mobility – no space to move freely if checked. Knowing what to look for, White plays the brilliant 1 xg7+! Black replies 1 ... xg7 (1 ... h8 allows mate in two – how?). The play continues 2 f7+, h8.",
+      "captionFr": "241A. Trait aux Blancs. Ils projettent de refouler le Roi noir dans le coin. Comme en 240A, le Roi noir n'aura aucune mobilité, aucun espace pour se mouvoir librement s'il est mis en échec. Sachant ce qu'il faut chercher, les Blancs jouent le brillant 1 xg7+ ! Les Noirs répondent 1 ... xg7 (1 ... h8 permet un mat en deux coups – comment ?). La partie se poursuit par 2 f7+, h8."
+    }
+  ]
+}

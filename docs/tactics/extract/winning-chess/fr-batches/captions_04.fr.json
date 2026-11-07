@@ -1,0 +1,205 @@
+{
+  "batch": 4,
+  "translations": [
+    {
+      "id": "wc-00262",
+      "captionEn": "118A. Black moves. The possibility of a discovered attack is obscured here; but when you know the pattern, you know what to look for. The decisive clue is the fact that White’s Queen is not protected. Black begins with a Knight fork sacrifice: 1 ... f3+. White’s Rook is attacked, so he plays 2 gxf3. Now 2 ... g6+ forces 3 h1. The pattern for a discovered attack is established!",
+      "captionFr": "118A. Trait aux Noirs. La possibilité d’une attaque à la découverte est ici dissimulée ; mais lorsqu’on connaît le schéma, on sait ce qu’il faut chercher. L’indice décisif est que la Dame blanche n’est pas protégée. Les Noirs commencent par un sacrifice de fourchette de Cavalier : 1 ... f3+. La Tour blanche est attaquée, aussi les Blancs jouent-ils 2 gxf3. Maintenant 2 ... g6+ force 3 h1. Le schéma de l’attaque à la découverte est en place !"
+    },
+    {
+      "id": "wc-00264",
+      "captionEn": "119A. White moves. White’s Bishop seems to have but little scope, yet it is easy to imagine a situation in which the Bishop attacks through the medium of a forceful utilization of the Knight. The problem is to make a possible Knight check practical. The doubled Rooks give us a point of departure:",
+      "captionFr": "119A. Trait aux Blancs. Le Fou blanc semble n’avoir qu’un faible rayon d’action, et pourtant il est aisé d’imaginer une situation où il attaque grâce à l’emploi énergique du Cavalier. Le problème est de rendre praticable un échec de Cavalier. Les Tours doublées nous fournissent un point de départ :"
+    },
+    {
+      "id": "wc-00265",
+      "captionEn": "118B. Black moves. His Queen is now on the same diagonal as the adverse Queen – separated only by a Black Knight; a perfect setting for a discovered attack. Black plays 3 ... g3+, forcing White to do something about the check. Consequently White has no time to save his defenseless Queen. Had White’s Queen been protected, the combination would have been impossible.",
+      "captionFr": "118B. Trait aux Noirs. Leur Dame se trouve à présent sur la même diagonale que la Dame adverse — séparée d’elle par le seul Cavalier noir : cadre parfait pour une attaque à la découverte. Les Noirs jouent 3 ... g3+, contraignant les Blancs à s’occuper de l’échec. Les Blancs n’ont par conséquent pas le temps de sauver leur Dame sans défense. Si la Dame blanche avait été protégée, la combinaison eût été impossible."
+    },
+    {
+      "id": "wc-00267",
+      "captionEn": "120A. Black moves. He sees a familiar pattern in the position of the two Queens, with the Knight between them. What move can the Knight make which will be a “smite” while at the same time exposing White’s Queen to attack? Black has no check and no mate threat, but he does have a capture: 1 ... xe4!",
+      "captionFr": "120A. Trait aux Noirs. Il reconnaît un schéma familier dans la position des deux Dames, avec le Cavalier entre elles. Quel coup du Cavalier sera un « coup de massue » tout en exposant la Dame blanche à l’attaque ? Les Noirs n’ont ni échec ni menace de mat, mais ils disposent d’une prise : 1 ... xe4!"
+    },
+    {
+      "id": "wc-00269",
+      "captionEn": "121A. Black moves. He produces a drastic example of the crushing power of the discovered attack. The key idea is to move his Rook from f3, unmasking an attack by his Bishop on White’s Queen. To create the most havoc, he combines this “discovery” with a capture: 1 ... xd3! Note that White’s Queen is now pinned and cannot guard the Rook at d1!",
+      "captionFr": "121A. Trait aux Noirs. Il offre un exemple saisissant de la puissance écrasante de l’attaque à la découverte. L’idée maîtresse est d’écarter la Tour de f3 pour démasquer l’attaque du Fou sur la Dame blanche. Pour causer le plus de ravages, il combine cette « découverte » avec une prise : 1 ... xd3! Remarquez que la Dame blanche est maintenant clouée et ne peut plus garder la Tour de d1 !"
+    },
+    {
+      "id": "wc-00270",
+      "captionEn": "122A. White moves. Both his Bishops mask a possible attack by his Rook on Black’s Queen. To bring about a discovered attack along the d-file, it is necessary to move the Bishops. First comes a threat: 1 c4, attacking Black’s Rook on a2. Black replies 1 ... a8. Now we have gained time to devise the proper setting for the discovered attack.",
+      "captionFr": "122A. Trait aux Blancs. Ses deux Fous masquent une attaque possible de la Tour sur la Dame noire. Pour réaliser une attaque à la découverte sur la colonne d, il faut déplacer les Fous. Vient d’abord une menace : 1 c4, qui attaque la Tour noire de a2. Les Noirs répondent 1 ... a8. Nous avons ainsi gagné le temps nécessaire pour ménager le cadre propice à l’attaque à la découverte."
+    },
+    {
+      "id": "wc-00271",
+      "captionEn": "120B. White moves. He is in a terrible predicament! He cannot capture the Knight, for his Queen is en prise. Nor can he merely move his Queen out of the line of attack, for then 2 ... xd2+ will win both Rooks. White must submit to playing 2 xe5, xd2+! (this interpolation is vital!) followed by 3 ... xe5.",
+      "captionFr": "120B. Trait aux Blancs. Il se trouve dans une situation terrible ! Il ne peut prendre le Cavalier, car sa Dame est en prise. Il ne peut pas davantage écarter simplement sa Dame de la ligne d’attaque, car alors 2 ... xd2+ gagnerait les deux Tours. Les Blancs doivent se résigner à jouer 2 xe5, xd2+! (cette intercalation est vitale !), suivi de 3 ... xe5."
+    },
+    {
+      "id": "wc-00272",
+      "captionEn": "121B. White moves. He is threatened with 2 ... xd1 mate. If he plays 2 xd3, then comes 2 ... e1 mate (remember the Queen is pinned!). White therefore tries 2 xa8, hoping for 2 ... xa8?; 3 xd3 etc. But, utilizing the priority of check (as in 120B) Black plays 2 ... xd1+! first, confiscating White’s Queen later on, and remaining a Rook and Bishop ahead.",
+      "captionFr": "121B. Trait aux Blancs. Il est menacé de 2 ... xd1 mat. S’il joue 2 xd3, vient alors 2 ... e1 mat (rappelez-vous que la Dame est clouée !). Les Blancs tentent donc 2 xa8, dans l’espoir de 2 ... xa8? ; 3 xd3, etc. Mais, usant de la priorité de l’échec (comme en 120B), les Noirs jouent d’abord 2 ... xd1+!, s’emparant plus tard de la Dame blanche, et conservant une Tour et un Fou d’avance."
+    },
+    {
+      "id": "wc-00273",
+      "captionEn": "123A. Black moves. By moving his Bishop, he can uncover an attack on White’s Knight. The Bishop cannot check, capture or threaten mate. What forceful possibility remains?! He can attack! Therefore: 1 ... h3. Black’s Queen attacks the Knight; Black’s Bishop attacks the Rook.",
+      "captionFr": "123A. Trait aux Noirs. En déplaçant son Fou, il peut découvrir une attaque sur le Cavalier blanc. Le Fou ne peut ni donner échec, ni prendre, ni menacer de mat. Que reste-t-il comme ressource énergique ?! Il peut attaquer ! Aussi : 1 ... h3. La Dame noire attaque le Cavalier ; le Fou noir attaque la Tour."
+    },
+    {
+      "id": "wc-00276",
+      "captionEn": "125A. White moves. A discovered attack is indicated on the c-file. But there is a difficulty to be ironed out: White’s Queen is en prise!",
+      "captionFr": "125A. Trait aux Blancs. Une attaque à la découverte est indiquée sur la colonne c. Mais il y a une difficulté à aplanir : la Dame blanche est en prise !"
+    },
+    {
+      "id": "wc-00278",
+      "captionEn": "123B. White moves. He must lose some material, as both Knight and Rook are menaced. His “best” course is to save his Knight, allowing the loss of the exchange.",
+      "captionFr": "123B. Trait aux Blancs. Il doit perdre du matériel, puisque le Cavalier et la Tour sont tous deux menacés. Son « meilleur » parti est de sauver le Cavalier en acceptant la perte de la qualité."
+    },
+    {
+      "id": "wc-00279",
+      "captionEn": "124B. White moves. By advancing, the Black Pawn has attacked the Queen, simultaneously opening up the diagonal of his King’s Bishop for an attack on White’s unguarded Bishop on a3.",
+      "captionFr": "124B. Trait aux Blancs. En avançant, le Pion noir a attaqué la Dame, tout en ouvrant la diagonale du Fou-Roi pour une attaque contre le Fou blanc de a3, qui n’est pas gardé."
+    },
+    {
+      "id": "wc-00280",
+      "captionEn": "125B. White moves. He continues with the pretty move 2 b5, discovering attack on Black’s Queen by the White Rook, and at the same time forking Black’s Queen and Rook with the Knight. Black must move his Queen (obviously 2 ... axb5? is out of the question); and after 3 xd4, White winds up the exchange ahead. The double threat was too potent to be parried.",
+      "captionFr": "125B. Trait aux Blancs. Il poursuit par le joli coup 2 b5, qui découvre l’attaque de la Tour blanche sur la Dame noire et fourche en même temps, avec le Cavalier, la Dame et la Tour noires. Les Noirs doivent déplacer leur Dame (il est évidemment hors de question de jouer 2 ... axb5?) ; et après 3 xd4, les Blancs terminent l’échange avec la qualité d’avance. La double menace était trop puissante pour être parée."
+    },
+    {
+      "id": "wc-00281",
+      "captionEn": "126A. Black moves. The position on the c-file calls for a discovered attack on White’s Queen by a move of Black’s Bishop.",
+      "captionFr": "126A. Trait aux Noirs. La position sur la colonne c appelle une attaque à la découverte contre la Dame blanche par un coup du Fou noir."
+    },
+    {
+      "id": "wc-00284",
+      "captionEn": "126B. White moves. Black has “discovered” an attack on White’s Queen; at the same time the unmasking Bishop creates the terrible threat ... xh2 mate. White must lose at least a piece (3 c4, xc4).",
+      "captionFr": "126B. Trait aux Blancs. Les Noirs ont « découvert » une attaque sur la Dame blanche ; en même temps, le Fou démasquant crée la terrible menace ... xh2 mat. Les Blancs doivent perdre au moins une pièce (3 c4, xc4)."
+    },
+    {
+      "id": "wc-00285",
+      "captionEn": "127A. White moves. He begins by driving the Black Rook at f8 into position for the discovered attack pattern: 1 e7. Black replies 1 ... e8. Now 2 b4 threatens 3 xe8 mate, or 3 xb4.",
+      "captionFr": "127A. Trait aux Blancs. Il commence par chasser la Tour noire de f8 pour l’amener dans la position requise par le schéma de l’attaque à la découverte : 1 e7. Les Noirs répondent 1 ... e8. Maintenant 2 b4 menace 3 xe8 mat, ou 3 xb4."
+    },
+    {
+      "id": "wc-00286",
+      "captionEn": "128. White moves. By what discovered attack does he win the Queen?",
+      "captionFr": "128. Trait aux Blancs. Par quelle attaque à la découverte gagne-t-il la Dame ?"
+    },
+    {
+      "id": "wc-00288",
+      "captionEn": "129. White moves. By what discovered attack does he win a piece?",
+      "captionFr": "129. Trait aux Blancs. Par quelle attaque à la découverte gagne-t-il une pièce ?"
+    },
+    {
+      "id": "wc-00289",
+      "captionEn": "130. Black moves. By what discovered attack does he win the Queen?",
+      "captionFr": "130. Trait aux Noirs. Par quelle attaque à la découverte gagne-t-il la Dame ?"
+    },
+    {
+      "id": "wc-00291",
+      "captionEn": "132. White moves. He will give the discovered check on the e-file. In the diagram, Black’s King is screened from check by the White Knight. Any move of the Knight will keep Black’s King busy getting out of check from the unmasked White Rook.",
+      "captionFr": "132. Trait aux Blancs. Il va donner l’échec à la découverte sur la colonne e. Dans le diagramme, le Roi noir est à l’abri de l’échec par le Cavalier blanc. N’importe quel coup du Cavalier laissera le Roi noir fort occupé à parer l’échec de la Tour blanche démasquée."
+    },
+    {
+      "id": "wc-00292",
+      "captionEn": "133A. White moves. His seventh rank forms the basic pattern for a discovered check: any move by the Bishop will discover a check by White’s Rook. The problem is to find a target for the white-squared Bishop. This is done by forcing the Knight to a white square: 1 b4!",
+      "captionFr": "133A. Trait aux Blancs. Sa septième rangée forme le schéma fondamental de l’échec à la découverte : tout coup du Fou découvrira un échec de la Tour blanche. Le problème consiste à trouver une cible pour le Fou de cases blanches. On y parvient en forçant le Cavalier à gagner une case blanche : 1 b4!"
+    },
+    {
+      "id": "wc-00294",
+      "captionEn": "133B. Black moves. His Knight is lost! 1 ... b7? or 1 ... b3? is out of the question. 1 ... c4 is answered by 2 xc4+ leaving Black no time to capture (remember the priority of check!). So Black tries 1 ... c6, but 2 d5+ wins the piece.",
+      "captionFr": "133B. Trait aux Noirs. Leur Cavalier est perdu ! 1 ... b7? ou 1 ... b3? est hors de question. 1 ... c4 se heurte à 2 xc4+, qui ne laisse pas aux Noirs le temps de prendre (souvenez-vous de la priorité de l’échec !). Les Noirs tentent donc 1 ... c6, mais 2 d5+ gagne la pièce."
+    },
+    {
+      "id": "wc-00296",
+      "captionEn": "134B. Black moves. His King has been lured into occupying the same file as White’s Rook. The f-Pawn opens the way for the Rook’s gunfire and stabs at the Black Queen. However Black may play, his Queen is lost.",
+      "captionFr": "134B. Trait aux Noirs. Leur Roi a été attiré sur la même colonne que la Tour blanche. Le Pion f ouvre la voie au feu de la Tour et pique la Dame noire. Quoi que jouent les Noirs, leur Dame est perdue."
+    },
+    {
+      "id": "wc-00297",
+      "captionEn": "135A. Black moves. Any Rook move by Black will subject his opponent to check while the Rook tries to gobble up material. The most forceful way is 1 ... xa2+; 2 g1, g2+; but after 3 h1, what has White gained?!",
+      "captionFr": "135A. Trait aux Noirs. Tout coup de Tour des Noirs soumettra l’adversaire à un échec tandis que la Tour s’empare du matériel. La voie la plus énergique est 1 ... xa2+ ; 2 g1, g2+ ; mais après 3 h1, qu’ont gagné les Blancs ?!"
+    },
+    {
+      "id": "wc-00298",
+      "captionEn": "135B. Black moves. He has altered the position slightly but decisively. The pattern for discovered check remains, but in a more deadly form: White’s Bishop is no longer supported by a Pawn! Now comes 3 ... b2+; 4 g1, xb3.",
+      "captionFr": "135B. Trait aux Noirs. Il a légèrement, mais décisivement, modifié la position. Le schéma de l’échec à la découverte demeure, sous une forme plus meurtrière encore : le Fou blanc n’est plus soutenu par un Pion ! Vient maintenant 3 ... b2+ ; 4 g1, xb3."
+    },
+    {
+      "id": "wc-00299",
+      "captionEn": "136A. Black moves. By removing the extraneous factors in complicated positions, you produce the design for winning; thus the “brilliant” 1 ... xg3! forces 2 fxg3. What has Black achieved by the sacrifice? How will he turn it to account? By means of a discovered check.",
+      "captionFr": "136A. Trait aux Noirs. En écartant les éléments étrangers dans les positions compliquées, on fait apparaître le dessein gagnant ; ainsi le « brillant » 1 ... xg3! force 2 fxg3. Qu’ont obtenu les Noirs par ce sacrifice ? Comment le mettront-ils à profit ? Au moyen d’un échec à la découverte."
+    },
+    {
+      "id": "wc-00300",
+      "captionEn": "136B. Black moves. By sacrificing his Queen, he forced the opening of the diagonal between Black’s Bishop and White’s King, creating the basic pattern for a discovered check. White’s Queen is the biggest prey in sight, so Black pounces on it with 2 ... d1+.",
+      "captionFr": "136B. Trait aux Noirs. En sacrifiant sa Dame, il a forcé l’ouverture de la diagonale entre le Fou noir et le Roi blanc, créant le schéma fondamental de l’échec à la découverte. La Dame blanche est la plus grosse proie en vue ; les Noirs fondent donc sur elle par 2 ... d1+."
+    },
+    {
+      "id": "wc-00302",
+      "captionEn": "137B. Black moves. His Bishop is attacked, but cannot be saved. The Black King has been put in check by White’s double-duty Bishop. Once the King moves out of check, White plays 4 xg7, winning easily.",
+      "captionFr": "137B. Trait aux Noirs. Leur Fou est attaqué, mais ne peut être sauvé. Le Roi noir a été mis en échec par le Fou blanc, qui remplit une double fonction. Dès que le Roi aura quitté l’échec, les Blancs joueront 4 xg7 et gagneront sans peine."
+    },
+    {
+      "id": "wc-00305",
+      "captionEn": "139. White moves. How does he win the Queen by a discovered check?",
+      "captionFr": "139. Trait aux Blancs. Comment gagne-t-il la Dame par un échec à la découverte ?"
+    },
+    {
+      "id": "wc-00307",
+      "captionEn": "140. White moves. How does he win the Queen by a discovered check?",
+      "captionFr": "140. Trait aux Blancs. Comment gagne-t-il la Dame par un échec à la découverte ?"
+    },
+    {
+      "id": "wc-00309",
+      "captionEn": "142. Black moves. He ignores the fact that his Queen is en prise, for he notes that his Queen is in line with the hostile King, separated only by a piece which can also give check. This is the basic pattern for double check. Black plays 1 ... f3+, giving checkmate on the move. White cannot capture, he cannot interpose, he cannot move his King.",
+      "captionFr": "142. Trait aux Noirs. Il ne tient aucun compte du fait que sa Dame est en prise, car il remarque qu’elle est alignée avec le Roi adverse, séparée de lui par une seule pièce, laquelle peut aussi donner échec. C’est le schéma fondamental de l’échec double. Les Noirs jouent 1 ... f3+, qui donne mat sur-le-champ. Les Blancs ne peuvent ni prendre, ni interposer, ni déplacer leur Roi."
+    },
+    {
+      "id": "wc-00311",
+      "captionEn": "143A. White moves. He begins by examining possible captures and checks. 1 xg6 leads to nothing, so he turns to 1 g5+, noting that Black can reply 1 ... xf7. Can reply?! – no: must reply! This excites White’s interest, for he sees that he can force Black into a double check. The play goes: 1 g5+!, xf7; and now we have the pattern for a double check.",
+      "captionFr": "143A. Trait aux Blancs. Il commence par passer en revue les prises et les échecs possibles. 1 xg6 ne mène à rien ; il se tourne donc vers 1 g5+, notant que les Noirs peuvent répondre 1 ... xf7. Peuvent répondre ?! — non : doivent répondre ! Voilà qui éveille l’intérêt des Blancs, car ils voient qu’ils peuvent forcer les Noirs à un échec double. La suite est : 1 g5+!, xf7 ; et nous voici devant le schéma de l’échec double."
+    },
+    {
+      "id": "wc-00312",
+      "captionEn": "144A. Black moves. The mighty Bishop on the “long diagonal” leading to White’s King is the star actor here. But the diagonal is momentarily blocked by a White Pawn. To suggest the obstacle is to remove it: 1 ... xf3! Black surrenders his Queen in order to achieve the basic pattern for a double check. There follows 2 xe2, xf1 mate!",
+      "captionFr": "144A. Trait aux Noirs. Le puissant Fou de la « grande diagonale » qui conduit au Roi blanc est ici l’acteur principal. Mais la diagonale est momentanément obstruée par un Pion blanc. Désigner l’obstacle, c’est l’écarter : 1 ... xf3! Les Noirs livrent leur Dame pour obtenir le schéma fondamental de l’échec double. Suit 2 xe2, xf1 mat !"
+    },
+    {
+      "id": "wc-00313",
+      "captionEn": "145A. White moves. The position of his Rook on the g-file gives him an idea for constructing the basic pattern for a double check. The g-file is now half open; do you see how it can be forced open all the way against Black’s vulnerable King? The answer: 1 xh5!, gxh5; 2 xe6+.",
+      "captionFr": "145A. Trait aux Blancs. La position de sa Tour sur la colonne g lui suggère une idée pour construire le schéma fondamental de l’échec double. La colonne g est à présent à demi ouverte ; voyez-vous comment l’ouvrir entièrement contre le Roi noir vulnérable ? La réponse : 1 xh5!, gxh5 ; 2 xe6+."
+    },
+    {
+      "id": "wc-00314",
+      "captionEn": "143B. White moves. He completes the combination with 2 d6 mate! This drastic finish bears out the deadly reputation of the double check: the Knight cannot be captured because of the Queen check, and interposition is impossible because of the Knight check! All that remains is self-help: move the King. But all exits are blocked. The King is checkmated.",
+      "captionFr": "143B. Trait aux Blancs. Il achève la combinaison par 2 d6 mat ! Cette fin brutale confirme la redoutable réputation de l’échec double : le Cavalier ne peut être pris à cause de l’échec de la Dame, et l’interposition est impossible à cause de l’échec du Cavalier ! Il ne reste plus qu’à s’en tirer soi-même : déplacer le Roi. Mais toutes les issues sont barrées. Le Roi est mat."
+    },
+    {
+      "id": "wc-00315",
+      "captionEn": "145B. Black moves. His King is doubly checked, and must move. The impudent Knight is therefore immune. After Black’s King moves, there follows 3 xc7 and White has won a piece.",
+      "captionFr": "145B. Trait aux Noirs. Leur Roi est en échec double et doit bouger. Le Cavalier effronté est donc immunisé. Une fois le Roi noir déplacé, suit 3 xc7 et les Blancs ont gagné une pièce."
+    },
+    {
+      "id": "wc-00316",
+      "captionEn": "146. Black moves. If he plays 1 ... xg4, how does White win at once?",
+      "captionFr": "146. Trait aux Noirs. S’il joue 1 ... xg4, comment les Blancs gagnent-ils sur-le-champ ?"
+    },
+    {
+      "id": "wc-00319",
+      "captionEn": "148. Black moves. His Queen attacks a Rook, his Knight attacks the Bishop. The Knight at d2 serves no defensive purpose, being pinned and therefore paralyzed. Hence White’s Queen must guard the menaced pieces. To prove that the Queen is overworked, Black plays 1 ... xf3+. After 2 xf3 White’s Queen no longer guards the Rook, so that 2 ... xb1+ wins.",
+      "captionFr": "148. Trait aux Noirs. Leur Dame attaque une Tour, leur Cavalier attaque le Fou. Le Cavalier de d2 ne sert à rien en défense, étant cloué et donc paralysé. La Dame blanche doit par conséquent garder à elle seule les pièces menacées. Pour prouver qu’elle est surmenée, les Noirs jouent 1 ... xf3+. Après 2 xf3, la Dame blanche ne garde plus la Tour, de sorte que 2 ... xb1+ l’emporte."
+    },
+    {
+      "id": "wc-00321",
+      "captionEn": "149A. White moves. Searching for a weakness in Black’s position, he spots it in Black’s e-Pawn. This Pawn guards the Knight at d6 (which is attacked by a White Bishop) and also the Bishop at f6 (which is attacked by a White Rook). Thus the e-Pawn has a double task; it is overworked; it can be undermined. The most logical course is 1 xd6 forcing 1 ... exd6.",
+      "captionFr": "149A. Trait aux Blancs. À la recherche d’une faiblesse dans la position noire, il la repère dans le Pion e noir. Ce Pion garde le Cavalier de d6 (attaqué par un Fou blanc) et aussi le Fou de f6 (attaqué par une Tour blanche). Le Pion e a donc une double tâche ; il est surmené ; on peut le saper. Le plan le plus logique est 1 xd6, qui force 1 ... exd6."
+    },
+    {
+      "id": "wc-00322",
+      "captionEn": "150A. White moves. Black’s pieces seem amply protected, but the fact that they are mutually dependent on each other for support is thoughtprovoking. The overworked motif may be present! Sure enough, the Rook at h8 guards both Rook and Bishop, which are both attacked by the Rook at g7. The Rook at h8 is therefore overworked. There follows 1 xh7!",
+      "captionFr": "150A. Trait aux Blancs. Les pièces noires semblent amplement protégées, mais le fait qu’elles dépendent mutuellement les unes des autres pour leur soutien donne à réfléchir. Le motif de la pièce surmenée est peut-être présent ! Et en effet, la Tour de h8 garde à la fois la Tour et le Fou, tous deux attaqués par la Tour de g7. La Tour de h8 est donc surmenée. Suit 1 xh7!"
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "batch": 2,
+  "translations": [
+    {
+      "id": "wc-00147",
+      "captionEn": "55B. Black moves. He must capture the Knight, as the Queen is attacked. There follows 2 ... xe7 allowing 3 xc8+ followed by 4 xb8 (after 3 ... f8). Thus the family check has made it possible for White to win a whole Rook. The fork was a preliminary to attack on the last rank.",
+      "captionFr": "55B. Trait aux Noirs. Ils doivent capturer le Cavalier, car la Dame est attaquée. Suit 2 ... xe7, qui permet 3 xc8+ puis 4 xb8 (après 3 ... f8). Ainsi l’échec de famille a permis aux Blancs de gagner une Tour entière. La fourchette n’était qu’un préliminaire à l’attaque sur la dernière rangée."
+    },
+    {
+      "id": "wc-00149",
+      "captionEn": "57A. White moves. Again we apply the stratagem of a series of exchanges, but here the play is tricky. We begin with 1 xd4!, xd4 (can you see how 1 ... cxd4 loses the exchange?); 2 xd4!, cxd4; 3 xc6, xc6. White is a Rook down. What has he accomplished? But here is the point: 4 e7+!",
+      "captionFr": "57A. Trait aux Blancs. Nous appliquons de nouveau le stratagème d’une série d’échanges, mais le jeu est ici retors. Nous commençons par 1 xd4 !, xd4 (voyez-vous comment 1 ... cxd4 perd la qualité ?) ; 2 xd4 !, cxd4 ; 3 xc6, xc6. Les Blancs ont une Tour de moins. Qu’ont-ils donc obtenu ? Mais voici l’essentiel : 4 e7+ !"
+    },
+    {
+      "id": "wc-00151",
+      "captionEn": "58A. White moves. The winning idea is forceful, pleasing and startling. White begins with the Knight fork 1 xc6! – a surprising move since Black replies 1 ... xc6. But now comes 2 e7+, forking King and Bishop. Black’s King goes to h8.",
+      "captionFr": "58A. Trait aux Blancs. L’idée gagnante est énergique, plaisante et saisissante. Les Blancs commencent par la fourchette de Cavalier 1 xc6 ! – coup surprenant, puisque les Noirs répondent 1 ... xc6. Mais vient alors 2 e7+, fourchette sur le Roi et le Fou. Le Roi noir se rend en h8."
+    },
+    {
+      "id": "wc-00153",
+      "captionEn": "58B. White moves. He continues with 3 xc6, ending up with the exchange to the good.",
+      "captionFr": "58B. Trait aux Blancs. Ils poursuivent par 3 xc6, finissant avec la qualité d’avance."
+    },
+    {
+      "id": "wc-00154",
+      "captionEn": "59B. Black moves. He plays 2 ... f7, as the Rook was attacked. But 3 xb6 forks Queen and Rook and wins the exchange. Observe that the violent character of 1 b6! enabled White to foresee the consequences, since Black had no choice.",
+      "captionFr": "59B. Trait aux Noirs. Ils jouent 2 ... f7, car la Tour était attaquée. Mais 3 xb6 fourche la Dame et la Tour et gagne la qualité. Observez que le caractère violent de 1 b6 ! a permis aux Blancs de prévoir les conséquences, puisque les Noirs n’avaient aucun choix."
+    },
+    {
+      "id": "wc-00155",
+      "captionEn": "60. Black moves. His Queen and Bishop are menaced by a Knight fork. He breaks the attack by 1 ... h3+; 2 xh3 (forced), g1 mate. Black saved himself by means of a violent move, in this case a check.",
+      "captionFr": "60. Trait aux Noirs. Leur Dame et leur Fou sont menacés par une fourchette de Cavalier. Ils brisent l’attaque par 1 ... h3+ ; 2 xh3 (forcé), g1 mat. Les Noirs se sont sauvés au moyen d’un coup violent, ici un échec."
+    },
+    {
+      "id": "wc-00157",
+      "captionEn": "62. White moves. He wins by combining the fork and the pin: 1 xd6+ forks King and Queen. If Black replies 1 ... cxd6, then 2 xc8. Thus he loses his Queen through a fork or a pin.",
+      "captionFr": "62. Trait aux Blancs. Ils gagnent en combinant la fourchette et le clouage : 1 xd6+ fourche le Roi et la Dame. Si les Noirs répondent 1 ... cxd6, alors 2 xc8. Ainsi les Noirs perdent leur Dame par une fourchette ou par un clouage."
+    },
+    {
+      "id": "wc-00159",
+      "captionEn": "63. Black moves. He plays 1 ... e2+ forking the King and Queen. True, White can play 2 xe2, but then comes 2 ... xc3. The pinned Bishop cannot parry the forking check.",
+      "captionFr": "63. Trait aux Noirs. Ils jouent 1 ... e2+, fourchette sur le Roi et la Dame. Certes, les Blancs peuvent jouer 2 xe2, mais vient alors 2 ... xc3. Le Fou cloué ne peut parer l’échec à la fourchette."
+    },
+    {
+      "id": "wc-00160",
+      "captionEn": "64. Black moves. He continues 1 ... c2+, forking King and Rook. White’s Queen is pinned, therefore helpless to prevent the fork. After 2 f1 there follows 2 ... xc3 and 3 ... xa1.",
+      "captionFr": "64. Trait aux Noirs. Ils poursuivent par 1 ... c2+, fourchette sur le Roi et la Tour. La Dame blanche est clouée et donc impuissante à empêcher la fourchette. Après 2 f1 suivent 2 ... xc3 et 3 ... xa1."
+    },
+    {
+      "id": "wc-00161",
+      "captionEn": "65. Black moves. 1 ... xf3+ forks King and Rook at e1. 2 xf3 must be played, allowing the loss of the exchange by 2 ... xe1. White’s Rook at e3 was pinned; therefore its protection of the Pawn was an illusion.",
+      "captionFr": "65. Trait aux Noirs. 1 ... xf3+ fourche le Roi et la Tour en e1. Les Blancs doivent jouer 2 xf3, concédant la perte de la qualité après 2 ... xe1. La Tour blanche en e3 était clouée ; sa protection du Pion n’était donc qu’une illusion."
+    },
+    {
+      "id": "wc-00163",
+      "captionEn": "67A. Black moves. It is not easy to see at first glance that a pin can arise in this position. Exploiting the fact that his Queen Rook and White’s King are in line, Black plays 1 ... d4 and White retreats 2 e2 (other Knight moves are no better). Now the villain appears: 2 ... b3+.",
+      "captionFr": "67A. Trait aux Noirs. Il n’est pas facile de voir au premier coup d’œil qu’un clouage puisse surgir dans cette position. Exploitant l’alignement de leur Tour-Dame et du Roi blanc, les Noirs jouent 1 ... d4, et les Blancs se retirent par 2 e2 (les autres coups de Cavalier ne valent pas mieux). Voici maintenant que paraît le coupable : 2 ... b3+."
+    },
+    {
+      "id": "wc-00166",
+      "captionEn": "66B. White moves. The delightful Knight fork (based on a pin) will leave Black a Rook ahead after White’s King moves and Black replies 3 ... xd3. The fact that White’s g-Pawn is pinned in the above diagram is what makes the combination possible.",
+      "captionFr": "66B. Trait aux Blancs. La ravissante fourchette de Cavalier (fondée sur un clouage) laissera aux Noirs une Tour d’avance après que le Roi blanc aura bougé et que les Noirs auront répondu 3 ... xd3. Que le Pion g blanc soit cloué dans le diagramme ci-dessus, c’est précisément ce qui rend la combinaison possible."
+    },
+    {
+      "id": "wc-00167",
+      "captionEn": "67B. White moves. He is helpless: the Knight forks his King and Queen, and the White c-Pawn, being pinned, is unable to capture the intruder! “A pinned piece is a paralyzed piece.” So White must move his King, allowing his Queen to be captured. A subtle example of this theme.",
+      "captionFr": "67B. Trait aux Blancs. Ils sont impuissants : le Cavalier fourche leur Roi et leur Dame, et le Pion c blanc, étant cloué, ne peut capturer l’intrus ! « Pièce clouée, pièce paralysée. » Les Blancs doivent donc déplacer leur Roi, laissant prendre la Dame. Un exemple subtil de ce thème."
+    },
+    {
+      "id": "wc-00168",
+      "captionEn": "68B. Black moves. He strikes at once: a violent move is required, before the defense can be reinforced. The solution: 2 ... xf2+! As White’s Rook is pinned, he is limited to 3 xf2 (allowing 3 ... d3+); or 3 e1 (again allowing 3 ... d3+); or 3 g1 (allowing 3 ... xg2 mate). The fork and pin worked hand in glove!",
+      "captionFr": "68B. Trait aux Noirs. Ils frappent sur-le-champ : un coup violent s’impose, avant que la défense ne puisse être renforcée. La solution : 2 ... xf2+ ! La Tour blanche étant clouée, les Blancs sont réduits à 3 xf2 (qui permet 3 ... d3+) ; ou 3 e1 (qui permet de nouveau 3 ... d3+) ; ou 3 g1 (qui permet 3 ... xg2 mat). La fourchette et le clouage ont œuvré main dans la main !"
+    },
+    {
+      "id": "wc-00169",
+      "captionEn": "69A. White moves. He wins by a neat combination involving two successive Knight forks followed by a capture based on a pin. In actual play, this is easier done than said! White begins with 1 xc6, a Knight fork threatening Queen and Bishop. This forces 1 ... c7, and now comes the astonishing fork 2 e7+ attacking King and Rook.",
+      "captionFr": "69A. Trait aux Blancs. Ils gagnent par une jolie combinaison comportant deux fourchettes de Cavalier successives, suivies d’une capture fondée sur un clouage. Dans la partie réelle, c’est plus facile à faire qu’à dire ! Les Blancs commencent par 1 xc6, fourchette de Cavalier menaçant la Dame et le Fou. Cela force 1 ... c7, et vient alors l’étonnante fourchette 2 e7+, attaquant le Roi et la Tour."
+    },
+    {
+      "id": "wc-00170",
+      "captionEn": "70A. White moves. White utilizes a Knight fork, not to gain material, but as a means to an end – to enforce a pin. He begins with 1 b6+, attacking King and Queen. Black must therefore reply 1 ... cxb6. Now the point: 2 e6.",
+      "captionFr": "70A. Trait aux Blancs. Ils se servent d’une fourchette de Cavalier non pour gagner du matériel, mais comme moyen d’arriver à leurs fins – imposer un clouage. Ils commencent par 1 b6+, attaquant le Roi et la Dame. Les Noirs doivent donc répondre 1 ... cxb6. Voici maintenant le point essentiel : 2 e6."
+    },
+    {
+      "id": "wc-00172",
+      "captionEn": "69B. Black moves. He plays 2 ... xe7 (else 3 xf5 winning the exchange). Now comes 3 xf5! with a simple and familiar pinning position. Whether White succumbs to 3 ... exf5; 4 xe7 or not, he is the exchange down. Picture 69A without the Knight at e5, and the capture xf5 immediately strikes your eye. White forced this position with no loss of time.",
+      "captionFr": "69B. Trait aux Noirs. Ils jouent 2 ... xe7 (sinon 3 xf5 gagnerait la qualité). Vient alors 3 xf5 !, avec une position de clouage simple et familière. Que les Noirs succombent ou non à 3 ... exf5 ; 4 xe7, ils perdent la qualité. Imaginez le diagramme 69A sans le Cavalier en e5 : la capture xf5 saute aussitôt aux yeux. Les Blancs ont forcé cette position sans perdre un temps."
+    },
+    {
+      "id": "wc-00173",
+      "captionEn": "70B. Black moves. His Queen is pinned, and must be lost. (The attempt to break the pin with 2 ... e8 is foiled by 3 xd7+ – remember the priority of check!) White’s forceful first move left Black no choice; it also cleared the path for the Bishop.",
+      "captionFr": "70B. Trait aux Noirs. Leur Dame est clouée et doit être perdue. (La tentative de rompre le clouage par 2 ... e8 est déjouée par 3 xd7+ – souvenez-vous de la priorité de l’échec !) Le premier coup, énergique, des Blancs n’a laissé aux Noirs aucun choix ; il a aussi dégagé la voie du Fou."
+    },
+    {
+      "id": "wc-00174",
+      "captionEn": "72. White moves. How does he sacrifice his Queen in order to win with a Knight fork?",
+      "captionFr": "72. Trait aux Blancs. Comment sacrifient-ils la Dame afin de gagner par une fourchette de Cavalier ?"
+    },
+    {
+      "id": "wc-00176",
+      "captionEn": "73. How does he take advantage of a pin in order to win material with a Knight fork?",
+      "captionFr": "73. Comment tirer parti d’un clouage pour gagner du matériel par une fourchette de Cavalier ?"
+    },
+    {
+      "id": "wc-00177",
+      "captionEn": "74. White moves. How does he win a piece at once? How does a threatened Knight fork prevent Black from regaining his piece?",
+      "captionFr": "74. Trait aux Blancs. Comment gagnent-ils une pièce sur-le-champ ? Et comment une menace de fourchette de Cavalier empêche-t-elle les Noirs de récupérer leur pièce ?"
+    },
+    {
+      "id": "wc-00178",
+      "captionEn": "75. White moves. What does White play in order to create the possibility of a devastating Knight fork at e7?",
+      "captionFr": "75. Trait aux Blancs. Que jouent-ils pour créer la possibilité d’une dévastatrice fourchette de Cavalier en e7 ?"
+    },
+    {
+      "id": "wc-00179",
+      "captionEn": "76. White moves. How does he profit by a pin in order to gain decisive material by a Knight fork.",
+      "captionFr": "76. Trait aux Blancs. Comment profitent-ils d’un clouage pour gagner un matériel décisif par une fourchette de Cavalier ?"
+    },
+    {
+      "id": "wc-00181",
+      "captionEn": "78A. White moves. Double attacks need not necessarily be directed against two pieces. The type of attack which menaces a piece while threatening mate is often deadly and certainly difficult to ward off. White plays 1 f5 with a double threat.",
+      "captionFr": "78A. Trait aux Blancs. Les doubles attaques ne visent pas nécessairement deux pièces. L’attaque qui menace une pièce tout en menaçant le mat est souvent meurtrière et assurément difficile à parer. Les Blancs jouent 1 f5, avec une double menace."
+    },
+    {
+      "id": "wc-00183",
+      "captionEn": "78B. Black moves. His Rook is menaced by the Queen, and at the same time 2 xh7+, f8; 3 h8 mate is threatened. The combined threats are too much for Black. He must stop mate, losing his Rook in the process.",
+      "captionFr": "78B. Trait aux Noirs. Leur Tour est menacée par la Dame, et en même temps 2 xh7+, f8 ; 3 h8 mat est menacé. Les menaces conjuguées sont trop lourdes pour les Noirs. Ils doivent arrêter le mat, perdant la Tour au passage."
+    },
+    {
+      "id": "wc-00184",
+      "captionEn": "79A. White moves. He is under a double attack as both his Rook at f3 and his d-Pawn are attacked; 1 d4! threatens mate and simultaneously attacks the Bishop a second time.",
+      "captionFr": "79A. Trait aux Blancs. Ils subissent une double attaque, car leur Tour en f3 et leur Pion d sont attaqués ; 1 d4 ! menace le mat et attaque simultanément le Fou une seconde fois."
+    },
+    {
+      "id": "wc-00185",
+      "captionEn": "79B. Black moves. He must defend the mating threat with 1 ... f6, leaving his Bishop in the lurch. Then comes 2 xe4, xe4; 3 xe4, xb2; 4 e1 and White has won the ex change.",
+      "captionFr": "79B. Trait aux Noirs. Ils doivent parer la menace de mat par 1 ... f6, abandonnant leur Fou à son sort. Vient alors 2 xe4, xe4 ; 3 xe4, xb2 ; 4 e1, et les Blancs ont gagné la qualité."
+    },
+    {
+      "id": "wc-00187",
+      "captionEn": "80A. White moves. Here a double attack must be created! 1 d4 (threatening mate) would not do because of 1 ... h2+ (discovered attack!) winning the White Queen. In any event, there would be no real threat after 1 d4: Black would stop the mate, after which 2 xd6 would be too expensive (the Bishop is protected by a Rook). All very complicated, but the solution is deliciously simple:",
+      "captionFr": "80A. Trait aux Blancs. Il faut ici créer une double attaque ! 1 d4 (menaçant le mat) ne conviendrait pas à cause de 1 ... h2+ (attaque à la découverte !) qui gagnerait la Dame blanche. De toute façon, 1 d4 ne constituerait pas une menace réelle : les Noirs pareraient le mat, après quoi 2 xd6 coûterait trop cher (le Fou est protégé par une Tour). Tout cela est fort compliqué, mais la solution est délicieusement simple :"
+    },
+    {
+      "id": "wc-00188",
+      "captionEn": "81A. Black moves. He operates with two double attacks to achieve his objective. First comes 1 ... e7, attacking White’s Rook and also threatening 2 ... e1 mate. White parries by defending his Rook and at the same time providing an outlet for his King: 2 h4. Is White safe now?!",
+      "captionFr": "81A. Trait aux Noirs. Ils opèrent par deux doubles attaques pour atteindre leur but. C’est d’abord 1 ... e7, attaquant la Tour blanche et menaçant aussi 2 ... e1 mat. Les Blancs parent en défendant leur Tour tout en ménageant une issue à leur Roi : 2 h4. Les Blancs sont-ils maintenant à l’abri ?!"
+    },
+    {
+      "id": "wc-00190",
+      "captionEn": "82A. Black moves. He plays to win the Pawn at e4, as it is protected twice, while he attacks it three times. His calculations are mathematically correct; yet he loses because he overlooks the eventual double attack.",
+      "captionFr": "82A. Trait aux Noirs. Ils jouent pour gagner le Pion e4, protégé deux fois alors qu’ils l’attaquent trois fois. Leurs calculs sont mathématiquement exacts ; pourtant ils perdent, car ils ont négligé la double attaque finale."
+    },
+    {
+      "id": "wc-00191",
+      "captionEn": "80B. White moves. His sacrifice of the exchange has forced Black’s recapturing Rook into a really exposed position. Such loose pieces make wonderful targets for a double attack. Hence the logical sequel readily suggests itself: 2 e5, with designs on the unguarded Rook in addition to the mate threat on g7. Black must stop this mate. While he does so, he loses the hapless Rook.",
+      "captionFr": "80B. Trait aux Blancs. Leur sacrifice de la qualité a contraint la Tour noire qui reprend à se placer dans une position vraiment exposée. Ces pièces libres sont de merveilleuses cibles pour une double attaque. La suite logique s’impose donc d’elle-même : 2 e5, visant la Tour sans défense en plus de la menace de mat en g7. Les Noirs doivent arrêter ce mat. Ce faisant, ils perdent la malheureuse Tour."
+    },
+    {
+      "id": "wc-00192",
+      "captionEn": "81B. Black moves. No indeed, White is not safe: 2 ... e1+; 3 h2 and now we have a second double attack: 3 ... xh4+ winning the Rook. Although this combination is four moves long, it is easy to execute; the double attacks are so forcing that they dictate White’s replies.",
+      "captionFr": "81B. Trait aux Noirs. Non, certes, les Blancs ne sont pas à l’abri : 2 ... e1+ ; 3 h2, et voici une seconde double attaque : 3 ... xh4+ gagnant la Tour. Bien que cette combinaison compte quatre coups, elle est facile à exécuter ; les doubles attaques sont si contraignantes qu’elles dictent les réponses des Blancs."
+    },
+    {
+      "id": "wc-00193",
+      "captionEn": "83A. Black moves. His target is the unprotected Knight at e5. If he attacks it by some such move as 1 ... d6, the Knight can simply retreat and nothing has been accomplished. But if Black can threaten the Knight and some more important object simultaneously, the Knight will be lost! The right way is 1 ... a5+!",
+      "captionFr": "83A. Trait aux Noirs. Leur cible est le Cavalier blanc non protégé en e5. S’ils l’attaquent par quelque coup tel que 1 ... d6, le Cavalier n’a qu’à se retirer et rien n’est accompli. Mais si les Noirs parviennent à menacer le Cavalier et, en même temps, un objectif plus important, le Cavalier sera perdu ! La bonne méthode est 1 ... a5+ !"
+    },
+    {
+      "id": "wc-00196",
+      "captionEn": "85A. White moves. Who would dream that he has a double attack at his disposal?! The method is the familiar one of substitution: he replaces the Black Bishop on b4 with another Black piece – one that is vulnerable to double attack. A little sleight of hand does it:",
+      "captionFr": "85A. Trait aux Blancs. Qui irait rêver qu’ils disposent d’une double attaque ?! La méthode est la méthode familière de la substitution : ils remplacent le Fou noir en b4 par une autre pièce noire – une pièce vulnérable à la double attaque. Un peu de prestidigitation y suffit :"
+    },
+    {
+      "id": "wc-00198",
+      "captionEn": "83B. White moves. He must get out of check before doing anything else! He has seven ways of getting out of check, but none of them can save the Knight. Black’s next move will be 2 ... xe5.",
+      "captionFr": "83B. Trait aux Blancs. Ils doivent d’abord parer l’échec avant toute autre chose ! Ils ont sept façons d’y échapper, mais aucune ne peut sauver le Cavalier. Le coup suivant des Noirs sera 2 ... xe5."
+    },
+    {
+      "id": "wc-00199",
+      "captionEn": "84B. Black moves. White had to accept the sacrifice of the exchange. Now the path has been cleared for 2 ... d4+. Black wins the exposed Rook, coming out a piece to the good. The whole transaction may seem startling, but it was rigorously logical. Black had a plan; saw a hindrance; then disposed of the hindrance in the most forcible way: capture!",
+      "captionFr": "84B. Trait aux Noirs. Les Blancs ont dû accepter le sacrifice de la qualité. La voie est maintenant dégagée pour 2 ... d4+. Les Noirs gagnent la Tour exposée, finissant avec une pièce d’avance. L’opération tout entière peut paraître saisissante, mais elle était rigoureusement logique. Les Noirs avaient un plan ; ils ont vu un obstacle ; puis ils s’en sont débarrassés de la manière la plus énergique : par la capture !"
+    },
+    {
+      "id": "wc-00201",
+      "captionEn": "86A. White moves. As in 80A, it is possible to create a target for double attack. Here the method is to force a hostile piece to a square on which it will be unprotected. White begins with 1 a3, attacking the Knight. Such Pawn pushes cannot be disregarded, as they threaten a decisive gain of material (winning a piece for a Pawn). 1 ... a6 is therefore necessary.",
+      "captionFr": "86A. Trait aux Blancs. Comme en 80A, il est possible de créer une cible pour la double attaque. La méthode consiste ici à contraindre une pièce adverse à gagner une case où elle sera sans protection. Les Blancs commencent par 1 a3, attaquant le Cavalier. De telles poussées de Pion ne peuvent être négligées, car elles menacent un gain matériel décisif (une pièce pour un Pion). 1 ... a6 est donc nécessaire."
+    },
+    {
+      "id": "wc-00203",
+      "captionEn": "87A. White moves. Black’s Rook is defended by the Bishop, but the Bishop in turn has no defender. He can be attacked in various ways, but the most economical is by way of a check. Hence White maneuvers the Black King into position for a double attack: 1 h8+.",
+      "captionFr": "87A. Trait aux Blancs. La Tour noire est défendue par le Fou, mais le Fou n’a à son tour aucun défenseur. On peut l’attaquer de diverses façons, mais la plus économique passe par un échec. Les Blancs manœuvrent donc le Roi noir jusqu’à la position d’une double attaque : 1 h8+."
+    },
+    {
+      "id": "wc-00205",
+      "captionEn": "88A. White moves. As in the case of other attacking motifs, the process of forcing a series of preliminary exchanges will often wind up in a double attack. Frequently the final capturing piece is left unguarded; a position that seemed impregnable suddenly gives way.",
+      "captionFr": "88A. Trait aux Blancs. Comme pour d’autres motifs d’attaque, le processus qui consiste à forcer une série d’échanges préliminaires aboutit souvent à une double attaque. Fréquemment, la dernière pièce qui capture reste sans garde ; une position qui semblait imprenable cède soudain."
+    },
+    {
+      "id": "wc-00206",
+      "captionEn": "87B. Black moves. He has only one way of getting out of check, by playing 1 ... g5. Now the King and Bishop are in line for a double attack. White plays 2 e5+ (or 2 d8+), winning the Bishop. Again the check has been a means to an end.",
+      "captionFr": "87B. Trait aux Noirs. Ils n’ont qu’un seul moyen de parer l’échec, en jouant 1 ... g5. Le Roi et le Fou sont maintenant alignés pour une double attaque. Les Blancs jouent 2 e5+ (ou 2 d8+), gagnant le Fou. Là encore, l’échec a été un moyen d’arriver à ses fins."
+    }
+  ]
+}

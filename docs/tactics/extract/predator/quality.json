@@ -1,0 +1,93 @@
+{
+  "pages": 99,
+  "boards": 226,
+  "ok": 169,
+  "fail": 57,
+  "ok_rate": 0.748,
+  "samples": [
+    {
+      "id": "p441-b0",
+      "fen": "4r1k1/1pp2bbp/p1n3p1/5p2/5N2/2N2P2/PPP1B1PP/1K1R4 w - - 0 1",
+      "fen_ok": true,
+      "page": "p441",
+      "crop_rel": "p441_b0_crop.png"
+    },
+    {
+      "id": "p441-b1",
+      "fen": "1k3n2/1pp5/p1bq2p1/6Pp/2Pp1r1P/3P2QB/PP6/1K2R1N1 w - - 0 1",
+      "fen_ok": true,
+      "page": "p441",
+      "crop_rel": "p441_b1_crop.png"
+    },
+    {
+      "id": "p441-b2",
+      "fen": "3r2k1/rp5q/2p1pn1p/pnQb1pp1/3P4/P2N1PP1/4PBBP/R3R1K1 w - - 0 1",
+      "fen_ok": true,
+      "page": "p441",
+      "crop_rel": "p441_b2_crop.png"
+    },
+    {
+      "id": "p443-b0",
+      "fen": "6rk/p3qp2/1np5/2b1pP2/4P1nr/1BN2Q2/PP3P2/3R1K1R w - - 0 1",
+      "fen_ok": true,
+      "page": "p443",
+      "crop_rel": "p443_b0_crop.png"
+    },
+    {
+      "id": "p443-b1",
+      "fen": "5rk1/p2q1ppp/5n2/3p1r2/8/5N2/PPQ2KPP/8 w - - 0 1",
+      "fen_ok": true,
+      "page": "p443",
+      "crop_rel": "p443_b1_crop.png"
+    },
+    {
+      "id": "p444-b0",
+      "fen": "3r4/1pk4p/1p4p1/2n2p2/2B5/P1P1pP2/2K2bPP/1R2N3 w - - 0 1",
+      "fen_ok": true,
+      "page": "p444",
+      "crop_rel": "p444_b0_crop.png"
+    },
+    {
+      "id": "p444-b1",
+      "fen": "r1b1nrk1/pn4bp/1p1p1qp1/2pP1pN1/1PP1p3/PQN3P1/3BPP1P/1R2K3 w - - 0 1",
+      "fen_ok": true,
+      "page": "p444",
+      "crop_rel": "p444_b1_crop.png"
+    },
+    {
+      "id": "p445-b0",
+      "fen": "1rb2rk1/7p/p3p3/2Pp4/3Q1q2/2R5/P1P3BP/K2R4 w - - 0 1",
+      "fen_ok": true,
+      "page": "p445",
+      "crop_rel": "p445_b0_crop.png"
+    },
+    {
+      "id": "p445-b1",
+      "fen": "6k1/pr2Bpb1/7p/4q2N/2p5/2Pn4/r4PP1/3Q2K1 w - - 0 1",
+      "fen_ok": true,
+      "page": "p445",
+      "crop_rel": "p445_b1_crop.png"
+    },
+    {
+      "id": "p445-b2",
+      "fen": "4q3/2r5/5K2/4R3/1P6/8/3k3P/2q5 w - - 0 1",
+      "fen_ok": true,
+      "page": "p445",
+      "crop_rel": "p445_b2_crop.png"
+    },
+    {
+      "id": "p446-b0",
+      "fen": "5bk1/2p3p1/3p3p/3P3q/2R1N3/P4r1P/1P2QP2/1K6 w - - 0 1",
+      "fen_ok": true,
+      "page": "p446",
+      "crop_rel": "p446_b0_crop.png"
+    },
+    {
+      "id": "p446-b1",
+      "fen": "3r1rk1/6pp/3Q4/5qP1/4Nn2/8/8/8 w - - 0 1",
+      "fen_ok": false,
+      "page": "p446",
+      "crop_rel": "p446_b1_crop.png"
+    }
+  ]
+}
