@@ -3,7 +3,8 @@ export type BookId =
   | "nunn"
   | "intentions"
   | "openings-revision"
-  | "kasparov-chess";
+  | "kasparov-chess"
+  | "tactics-revision";
 
 export type LocalizedText = { en: string; fr: string };
 
@@ -244,6 +245,80 @@ export type KasparovChessLocalOverlay = {
   exercises: Record<string, { prompt?: LocalizedText; solution?: LocalizedText }>;
 };
 
+export type TacticsSourceRef = {
+  book: "winning-chess" | "predator";
+  ref: string;
+};
+
+export type TacticsPhase = "lesson" | "technique" | "quiz";
+
+export type TacticsExample = {
+  id: string;
+  fen: string;
+  sans: string[];
+  coach: LocalizedText;
+  stepCoaches?: LocalizedText[];
+  /** Winning Chess chapter role when built from extract. */
+  phase?: TacticsPhase;
+  theme?: LocalizedText;
+  label?: string | null;
+};
+
+export type TacticsModule = {
+  id: string;
+  names: LocalizedText;
+  plan: LocalizedText;
+  themes: { en: string[]; fr: string[] };
+  sources: TacticsSourceRef[];
+  examples: TacticsExample[];
+  exerciseIds: string[];
+  /** Present when the gitignored local overlay is loaded. */
+  bookExcerpt?: { excerptFr?: string; excerptEn?: string };
+};
+
+export type TacticsExercise = {
+  id: string;
+  moduleId: string;
+  fen: string;
+  boardOrientation: "white" | "black";
+  sideToMove: "white" | "black";
+  expectedSan: string;
+  expectedUci: string;
+  task: LocalizedText;
+  cue: LocalizedText;
+  legal: KasparovLegalMove[];
+  source: TacticsSourceRef;
+  role: "teach" | "quiz";
+  phase?: TacticsPhase;
+  /** Present when the gitignored local overlay is loaded. */
+  prompt?: LocalizedText;
+  solution?: LocalizedText;
+};
+
+export type TacticsRevisionSection = {
+  id: string;
+  title: LocalizedText;
+  refs: number[];
+  moduleIds: string[];
+};
+
+export type TacticsRevisionCurriculum = {
+  id: "tactics-revision";
+  title: LocalizedText;
+  author: LocalizedText;
+  publisher?: LocalizedText;
+  methodNote: LocalizedText;
+  sections: TacticsRevisionSection[];
+  modules: TacticsModule[];
+  exercises: TacticsExercise[];
+};
+
+export type TacticsRevisionLocalOverlay = {
+  id: "tactics-revision-local";
+  modules?: Record<string, { bookExcerpt?: { excerptFr?: string; excerptEn?: string } }>;
+  exercises: Record<string, { prompt?: LocalizedText; solution?: LocalizedText }>;
+};
+
 export type LessonIndex = {
   books: BookMeta[];
   chernov: LessonSummary[];
@@ -253,4 +328,6 @@ export type LessonIndex = {
   "openings-revision": LessonSummary[];
   /** Virtual book: exercises live in kasparov-chess.json, not lesson rows. */
   "kasparov-chess": LessonSummary[];
+  /** Virtual book: modules live in tactics-revision.json, not lesson rows. */
+  "tactics-revision": LessonSummary[];
 };

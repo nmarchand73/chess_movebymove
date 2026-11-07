@@ -7,6 +7,8 @@ import type {
   OpeningsRevisionCurriculum,
   OpeningsRevisionLocalOverlay,
   PerformanceElo,
+  TacticsRevisionCurriculum,
+  TacticsRevisionLocalOverlay,
 } from "../types";
 import type { Lang } from "./lang";
 import { normalizeLessonIndex } from "./normalizeIndex";
@@ -17,6 +19,7 @@ const base = import.meta.env.BASE_URL;
 
 let openingsRevisionCache: OpeningsRevisionCurriculum | null | undefined;
 let kasparovChessCache: KasparovChessCurriculum | null | undefined;
+let tacticsRevisionCache: TacticsRevisionCurriculum | null | undefined;
 
 function mergeOpeningsLocalOverlay(
   curriculum: OpeningsRevisionCurriculum,
@@ -122,20 +125,68 @@ export async function loadKasparovChess(): Promise<KasparovChessCurriculum | nul
   return kasparovChessCache;
 }
 
-export async function loadIndex(): Promise<LessonIndex> {
-  const [indexRes, intentionsRes, openingsRevision, kasparovChess] = await Promise.all([
-    fetch(`${base}data/index.json`),
-    fetch(`${base}data/intentions.json`),
-    loadOpeningsRevision(),
-    loadKasparovChess(),
+function mergeTacticsLocalOverlay(
+  curriculum: TacticsRevisionCurriculum,
+  overlay: TacticsRevisionLocalOverlay | null,
+): TacticsRevisionCurriculum {
+  if (!overlay) return curriculum;
+  const exercises = curriculum.exercises.map((ex) => {
+    const extra = overlay.exercises?.[ex.id];
+    if (!extra) return ex;
+    return {
+      ...ex,
+      prompt: ex.prompt ?? extra.prompt,
+      solution: ex.solution ?? extra.solution,
+    };
+  });
+  const modules = curriculum.modules.map((mod) => {
+    const extra = overlay.modules?.[mod.id];
+    if (!extra?.bookExcerpt) return mod;
+    return { ...mod, bookExcerpt: mod.bookExcerpt ?? extra.bookExcerpt };
+  });
+  return { ...curriculum, exercises, modules };
+}
+
+export async function loadTacticsRevision(): Promise<TacticsRevisionCurriculum | null> {
+  if (tacticsRevisionCache !== undefined) return tacticsRevisionCache;
+  const [res, localRes] = await Promise.all([
+    fetch(`${base}data/tactics-revision.json`),
+    fetch(`${base}data/tactics-revision-local.json`),
   ]);
+  if (!res.ok) {
+    tacticsRevisionCache = null;
+    return null;
+  }
+  let curriculum = (await res.json()) as TacticsRevisionCurriculum;
+  let overlay: TacticsRevisionLocalOverlay | null = null;
+  if (localRes.ok) {
+    try {
+      overlay = (await localRes.json()) as TacticsRevisionLocalOverlay;
+    } catch {
+      overlay = null;
+    }
+  }
+  curriculum = mergeTacticsLocalOverlay(curriculum, overlay);
+  tacticsRevisionCache = curriculum;
+  return tacticsRevisionCache;
+}
+
+export async function loadIndex(): Promise<LessonIndex> {
+  const [indexRes, intentionsRes, openingsRevision, kasparovChess, tacticsRevision] =
+    await Promise.all([
+      fetch(`${base}data/index.json`),
+      fetch(`${base}data/intentions.json`),
+      loadOpeningsRevision(),
+      loadKasparovChess(),
+      loadTacticsRevision(),
+    ]);
   if (!indexRes.ok) throw new Error("Failed to load lesson index");
   const raw = (await indexRes.json()) as Record<string, unknown>;
   let curriculum: IntentionsCurriculum | null = null;
   if (intentionsRes.ok) {
     curriculum = (await intentionsRes.json()) as IntentionsCurriculum;
   }
-  return normalizeLessonIndex(raw, curriculum, openingsRevision, kasparovChess);
+  return normalizeLessonIndex(raw, curriculum, openingsRevision, kasparovChess, tacticsRevision);
 }
 
 export async function loadPerformanceElos(): Promise<PerformanceEloData> {

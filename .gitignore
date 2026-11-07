@@ -3,6 +3,7 @@
 __pycache__/
 *.py[cod]
 .Python
+Ultralytics/
 
 # Node / web build
 web/node_modules/
@@ -28,6 +29,10 @@ docs/nunn.pgn
 
 # Copyrighted book PDFs + local text extracts (study only — do not publish)
 docs/*.pdf
+docs/tactics/*.epub
+docs/tactics/*.pdf
+docs/tactics/extract/
+docs/tactics/source/
 docs/_ouvertures-enfants-texte/
 docs/*ouvertures*
 # Saitek / Winslow study site (prompts + solutions verbatim — personal use)
@@ -36,3 +41,5 @@ data/openings-revision-local.json
 web/public/data/openings-revision-local.json
 data/kasparov-chess-local.json
 web/public/data/kasparov-chess-local.json
+data/tactics-revision-local.json
+web/public/data/tactics-revision-local.json

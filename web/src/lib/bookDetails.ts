@@ -101,6 +101,23 @@ const EN: Record<BookId, BookDetails> = {
     famousFor:
       "The Saitek training loop: study the diagram, try a move, then check the answer.",
   },
+  "tactics-revision": {
+    title: "Tactics Revision — Winning Chess",
+    published: "Curriculum · Chernev & Reinfeld method",
+    tagline: "Coach explains each motif, then you revise on the board.",
+    description:
+      "Winning Chess tactics in book order: eight theme sections, lesson → technique → quiz. "
+      + "Study worked examples with the coach, then solve the motif battery (score 3·2·1·0).",
+    audience: "Club players · after basic mates",
+    highlights: [
+      "Eight sections following the book: pins through defense & counterattack",
+      "Teach mode grouped by lesson / technique / quiz",
+      "Play on screen or Chessnut / ChessUp",
+      "Book prose stays in the local overlay",
+    ],
+    famousFor:
+      "Learn the pattern with the coach, then prove it under the clock of your own attention.",
+  },
 };
 
 const FR: Record<BookId, BookDetails> = {
@@ -191,6 +208,23 @@ const FR: Record<BookId, BookDetails> = {
     ],
     famousFor:
       "La boucle Saitek : étudiez le diagramme, proposez un coup, puis vérifiez la réponse.",
+  },
+  "tactics-revision": {
+    title: "Révision tactiques — Winning Chess",
+    published: "Parcours · méthode Chernev & Reinfeld",
+    tagline: "Le coach explique chaque motif, puis vous révisez sur l’échiquier.",
+    description:
+      "Les tactiques de Winning Chess dans l’ordre du livre : huit sections, leçon → technique → quiz. "
+      + "Étudiez les exemples commentés, puis résolvez la batterie du motif (score 3·2·1·0).",
+    audience: "Joueurs de club · après les mats de base",
+    highlights: [
+      "Huit sections : du clouage à la défense et contre-attaque",
+      "Cours groupé leçon / technique / quiz",
+      "Jouez à l’écran ou sur Chessnut / ChessUp",
+      "La prose du livre reste dans l’overlay local",
+    ],
+    famousFor:
+      "Apprenez le motif avec le coach, puis prouvez-le sur l’échiquier.",
   },
 };
 

@@ -7,6 +7,7 @@ import type {
   LessonIndex,
   LessonSummary,
   OpeningsRevisionCurriculum,
+  TacticsRevisionCurriculum,
 } from "../types";
 
 const DEFAULT_BOOKS: Record<"chernov" | "nunn", BookMeta> = {
@@ -253,11 +254,27 @@ export function buildKasparovChessBook(curriculum: KasparovChessCurriculum): Boo
   };
 }
 
+export function buildTacticsRevisionBook(curriculum: TacticsRevisionCurriculum): BookMeta {
+  return {
+    id: "tactics-revision",
+    title: curriculum.title.en,
+    author: curriculum.author.en,
+    publisher: curriculum.publisher?.en,
+    gameCount: curriculum.modules.length,
+    sections: curriculum.sections.map((section) => ({
+      title: section.title.en,
+      range: String(section.moduleIds.length),
+      blurb: section.title.en,
+    })),
+  };
+}
+
 export function normalizeLessonIndex(
   raw: Record<string, unknown>,
   curriculum?: IntentionsCurriculum | null,
   openingsRevision?: OpeningsRevisionCurriculum | null,
   kasparovChess?: KasparovChessCurriculum | null,
+  tacticsRevision?: TacticsRevisionCurriculum | null,
 ): LessonIndex {
   const chernov = lessonsForBook(raw, "chernov");
   const nunn = lessonsForBook(raw, "nunn");
@@ -296,6 +313,10 @@ export function normalizeLessonIndex(
     books = [...books, buildKasparovChessBook(kasparovChess)];
   }
 
+  if (tacticsRevision?.modules?.length) {
+    books = [...books, buildTacticsRevisionBook(tacticsRevision)];
+  }
+
   return {
     books,
     chernov,
@@ -303,6 +324,7 @@ export function normalizeLessonIndex(
     intentions,
     "openings-revision": [],
     "kasparov-chess": [],
+    "tactics-revision": [],
   };
 }
 

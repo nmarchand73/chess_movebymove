@@ -4,14 +4,21 @@ import type {
   KasparovChessCurriculum,
   LessonSummary,
   OpeningsRevisionCurriculum,
+  TacticsRevisionCurriculum,
 } from "./types";
 import { Home } from "./pages/Home";
 import { Landing } from "./pages/Landing";
 import { LessonPage } from "./pages/Lesson";
 import { KasparovChessPage } from "./pages/KasparovChess";
 import { OpeningRevisionPage } from "./pages/OpeningRevision";
+import { TacticsRevisionPage } from "./pages/TacticsRevision";
 import { SettingsPage } from "./pages/Settings";
-import { loadIndex, loadKasparovChess, loadOpeningsRevision } from "./lib/lessonLoader";
+import {
+  loadIndex,
+  loadKasparovChess,
+  loadOpeningsRevision,
+  loadTacticsRevision,
+} from "./lib/lessonLoader";
 import { loadLang, saveLang, type Lang } from "./lib/lang";
 import { loadProgress } from "./lib/progress";
 import "./App.css";
@@ -31,7 +38,11 @@ function setHash(view: AppView) {
   }
 }
 
-const VIRTUAL_BOOKS = new Set<BookId>(["openings-revision", "kasparov-chess"]);
+const VIRTUAL_BOOKS = new Set<BookId>([
+  "openings-revision",
+  "kasparov-chess",
+  "tactics-revision",
+]);
 
 function App() {
   const [view, setView] = useState<AppView>(() =>
@@ -44,10 +55,13 @@ function App() {
   const [activeLesson, setActiveLesson] = useState<LessonSummary | null>(null);
   const [activeOpeningModuleId, setActiveOpeningModuleId] = useState<string | null>(null);
   const [activeKasparovExerciseId, setActiveKasparovExerciseId] = useState<string | null>(null);
+  const [activeTacticsModuleId, setActiveTacticsModuleId] = useState<string | null>(null);
   const [showOpeningRevision, setShowOpeningRevision] = useState(false);
   const [showKasparovChess, setShowKasparovChess] = useState(false);
+  const [showTacticsRevision, setShowTacticsRevision] = useState(false);
   const [openingsRevision, setOpeningsRevision] = useState<OpeningsRevisionCurriculum | null>(null);
   const [kasparovChess, setKasparovChess] = useState<KasparovChessCurriculum | null>(null);
+  const [tacticsRevision, setTacticsRevision] = useState<TacticsRevisionCurriculum | null>(null);
   const [lessonsById, setLessonsById] = useState<Map<string, LessonSummary>>(new Map());
   const [showSettings, setShowSettings] = useState(false);
 
@@ -73,14 +87,16 @@ function App() {
     let cancelled = false;
     void (async () => {
       try {
-        const [index, curriculum, kasparov] = await Promise.all([
+        const [index, curriculum, kasparov, tactics] = await Promise.all([
           loadIndex(),
           loadOpeningsRevision(),
           loadKasparovChess(),
+          loadTacticsRevision(),
         ]);
         if (cancelled) return;
         setOpeningsRevision(curriculum);
         setKasparovChess(kasparov);
+        setTacticsRevision(tactics);
         const map = new Map<string, LessonSummary>();
         for (const lesson of [...index.chernov, ...index.nunn]) {
           map.set(lesson.id, lesson);
@@ -100,6 +116,8 @@ function App() {
     setActiveOpeningModuleId(null);
     setShowKasparovChess(false);
     setActiveKasparovExerciseId(null);
+    setShowTacticsRevision(false);
+    setActiveTacticsModuleId(null);
   }, []);
 
   const goLanding = useCallback(() => {
@@ -132,6 +150,8 @@ function App() {
     setActiveLesson(null);
     setShowKasparovChess(false);
     setActiveKasparovExerciseId(null);
+    setShowTacticsRevision(false);
+    setActiveTacticsModuleId(null);
     setSelectedBook("openings-revision");
     setActiveOpeningModuleId(moduleId ?? null);
     setShowOpeningRevision(true);
@@ -144,9 +164,25 @@ function App() {
     setActiveLesson(null);
     setShowOpeningRevision(false);
     setActiveOpeningModuleId(null);
+    setShowTacticsRevision(false);
+    setActiveTacticsModuleId(null);
     setSelectedBook("kasparov-chess");
     setActiveKasparovExerciseId(exerciseId ?? null);
     setShowKasparovChess(true);
+    setView("library");
+    setHash("library");
+  }
+
+  function openTacticsRevision(moduleId?: string | null) {
+    setShowSettings(false);
+    setActiveLesson(null);
+    setShowOpeningRevision(false);
+    setActiveOpeningModuleId(null);
+    setShowKasparovChess(false);
+    setActiveKasparovExerciseId(null);
+    setSelectedBook("tactics-revision");
+    setActiveTacticsModuleId(moduleId ?? null);
+    setShowTacticsRevision(true);
     setView("library");
     setHash("library");
   }
@@ -173,18 +209,26 @@ function App() {
   }
 
   const shellClass =
-    !activeLesson && !showSettings && !showOpeningRevision && !showKasparovChess && view === "landing"
+    !activeLesson &&
+    !showSettings &&
+    !showOpeningRevision &&
+    !showKasparovChess &&
+    !showTacticsRevision &&
+    view === "landing"
       ? "app-shell is-landing"
       : "app-shell";
 
   const tLoading = useMemo(() => {
+    if (showTacticsRevision) {
+      return lang === "fr" ? "Chargement des modules tactiques…" : "Loading tactics modules…";
+    }
     if (showKasparovChess) {
       return lang === "fr" ? "Chargement de Kasparov Chess…" : "Loading Kasparov Chess…";
     }
     return lang === "fr"
       ? "Chargement des modules d’ouverture…"
       : "Loading opening modules…";
-  }, [lang, showKasparovChess]);
+  }, [lang, showKasparovChess, showTacticsRevision]);
 
   return (
     <main className={shellClass}>
@@ -230,6 +274,21 @@ function App() {
         ) : (
           <p className="opening-revision-loading">{tLoading}</p>
         )
+      ) : showTacticsRevision ? (
+        tacticsRevision ? (
+          <TacticsRevisionPage
+            curriculum={tacticsRevision}
+            lang={lang}
+            initialModuleId={activeTacticsModuleId}
+            onBack={() => {
+              setShowTacticsRevision(false);
+              setActiveTacticsModuleId(null);
+              setSelectedBook(null);
+            }}
+          />
+        ) : (
+          <p className="opening-revision-loading">{tLoading}</p>
+        )
       ) : showSettings ? (
         <SettingsPage lang={lang} onLangChange={setLang} onBack={() => setShowSettings(false)} />
       ) : view === "landing" ? (
@@ -249,6 +308,10 @@ function App() {
             }
             if (bookId === "kasparov-chess") {
               openKasparovChess(null);
+              return;
+            }
+            if (bookId === "tactics-revision") {
+              openTacticsRevision(null);
               return;
             }
             clearVirtualViews();

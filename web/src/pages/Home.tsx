@@ -11,6 +11,7 @@ import { sourceBookLabel } from "../lib/bookMeta";
 import type { Lang } from "../lib/lang";
 import { doneExerciseCount } from "../lib/kasparovChessProgress";
 import { seenModuleCount } from "../lib/openingRevisionProgress";
+import { seenTacticsModuleCount } from "../lib/tacticsRevisionProgress";
 import { localizeSectionBlurb, localizeSectionTitle } from "../lib/sectionI18n";
 import { fill, ui, type UiCopy } from "../lib/uiCopy";
 
@@ -163,13 +164,17 @@ function LibraryView({
           const details = getBookDetails(book.id, lang);
           const isOpeningsRevision = book.id === "openings-revision";
           const isKasparovChess = book.id === "kasparov-chess";
+          const isTacticsRevision = book.id === "tactics-revision";
           const revisionSeen = isOpeningsRevision ? seenModuleCount() : 0;
           const kasparovDone = isKasparovChess ? doneExerciseCount() : 0;
+          const tacticsSeen = isTacticsRevision ? seenTacticsModuleCount() : 0;
           const { completedCount, inProgressCount } = isOpeningsRevision
             ? { completedCount: revisionSeen, inProgressCount: 0 }
             : isKasparovChess
               ? { completedCount: kasparovDone, inProgressCount: 0 }
-              : bookProgress(lessons);
+              : isTacticsRevision
+                ? { completedCount: tacticsSeen, inProgressCount: 0 }
+                : bookProgress(lessons);
           const pctComplete = book.gameCount
             ? Math.round((completedCount / book.gameCount) * 100)
             : 0;
@@ -218,7 +223,12 @@ function LibraryView({
                     ? fill(t.openingModules, { n: book.gameCount })
                     : book.id === "kasparov-chess"
                       ? fill(t.kasparovPositions, { n: book.gameCount })
-                      : fill(t.annotatedGames, { n: book.gameCount })}
+                      : book.id === "tactics-revision"
+                        ? fill(t.tacticsRevisionProgress, {
+                            seen: tacticsSeen,
+                            total: book.gameCount,
+                          })
+                        : fill(t.annotatedGames, { n: book.gameCount })}
               </p>
               {book.sections && book.sections.length > 0 ? (
                 <ul className="book-card-sections" aria-label={t.books}>

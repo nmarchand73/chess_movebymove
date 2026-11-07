@@ -10,8 +10,9 @@ Study classic chess books the way they were written: **every move explained**, w
 | *Understanding Chess Move by Move* | John Nunn | 30 annotated games |
 | Opening Revision — 50 Super Openings | Curriculum (Watson & Burgess method) | 50 modules |
 | Kasparov Chess — 64 study positions | Curriculum (Saitek / Winslow method) | 64 guess-the-move studies |
+| Tactics Revision | Hybrid (Winning Chess × Predator) | Motif teach → practice batteries |
 
-**63 annotated games** from Capablanca and Tarrasch through Kasparov and Polgar, plus **practice curricula** for openings and critical positions.
+**63 annotated games** from Capablanca and Tarrasch through Kasparov and Polgar, plus **practice curricula** for openings, critical positions, and tactics.
 
 **Languages:** English and French UI, with bilingual lesson commentary (`data/en` / `data/fr`) and chess-aware speech in both languages.
 
@@ -19,11 +20,13 @@ Study classic chess books the way they were written: **every move explained**, w
 
 **Kasparov Chess:** virtual book — eight classics × eight studies. Play the book move **on the screen board** (drag or click) **or on Chessnut / ChessUp** (sync to the diagram, then guess with no LED spoilers); local score 3·2·1·0; solution arrow when revealed. Rebuild with `build_kasparov_chess.mjs` from local `docs/site`. **Full book prompts/solutions** stay in `kasparov-chess-local.json` (gitignored) — not deployed.
 
+**Tactics revision:** virtual book — hybrid motifs (Winning Chess chapters + Predator drills). Coach **teach** mode with stepped examples, then **practice** batteries (3·2·1·0). Rebuild with `build_tactics_revision.mjs`. Diagram OCR for book extracts uses sibling package `../chess-diagram-ocr` (`tactics_extract_winning_chess.py`, `tactics_extract_predator.py`). **Local overlays / extracts** stay gitignored — not deployed.
+
 ---
 
 ## Copyright disclaimer
 
-This is a **personal / educational** study tool. It is **not** affiliated with, endorsed by, or published by Irving Chernev, John Nunn, Batsford, Gambit Publications, Saitek, Elliott Winslow, or their rights holders.
+This is a **personal / educational** study tool. It is **not** affiliated with, endorsed by, or published by Irving Chernev, Fred Reinfeld, John Nunn, Ward Farnsworth, Batsford, Gambit Publications, Saitek, Elliott Winslow, or their rights holders.
 
 - **Book PDFs / EPUB / full commercial text are copyrighted.** They are **not** included in this repository and are **not** deployed to GitHub Pages. Keep any legally obtained EPUB sources under local `docs/` (gitignored) for ingest only.
 - Lesson JSON, FENs, and board positions in the app are a **study aid** for interactive practice. If you own the books, prefer them as the primary source.
