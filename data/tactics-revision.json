@@ -267,22 +267,6 @@
             "fr": "Motifs tactiques de base"
           },
           "label": null
-        },
-        {
-          "id": "wc-00387",
-          "fen": "2kr1b1r/1p3p1p/1p2b1p1/4p3/2n1B3/P1PN1PN1/1P3KPP/1R1R4 w - - 0 1",
-          "sans": [],
-          "coach": {
-            "en": "",
-            "fr": ""
-          },
-          "stepCoaches": [],
-          "phase": "lesson",
-          "theme": {
-            "en": "Diagram",
-            "fr": "Diagramme"
-          },
-          "label": null
         }
       ],
       "exerciseIds": []
@@ -559,6 +543,22 @@
             "fr": "Schéma de base — clouage"
           },
           "label": "9A"
+        },
+        {
+          "id": "wc-00051",
+          "fen": "3R2k1/1p5p/6p1/p4p2/P1q5/1P5P/1P6/6K1 b - - 0 1",
+          "sans": [],
+          "coach": {
+            "en": "9B. White moves. His Queen is pinned by the hostile Bishop and attacked by the Rook as well. 3 xe2 is clearly impossible (“a pinned piece is a paralyzed piece”!). There is nothing left but 3 xc6, bxc6, leaving Black with the exchange and two Pawns ahead: an easy win for him. 10A runs on similar lines.",
+            "fr": "9B. Trait aux Blancs. Leur Dame est clouée par le Fou adverse et attaquée aussi par la Tour. 3 xe2 est clairement impossible (« une pièce clouée est une pièce paralysée » !). Il ne reste que 3 xc6, bxc6, laissant les Noirs avec la qualité et deux Pions d’avance : une victoire aisée. 10A suit la même logique."
+          },
+          "stepCoaches": [],
+          "phase": "lesson",
+          "theme": {
+            "en": "Basic pattern — pin",
+            "fr": "Schéma de base — clouage"
+          },
+          "label": "9B"
         },
         {
           "id": "wc-00048",
@@ -2011,6 +2011,22 @@
           "label": "58B"
         },
         {
+          "id": "wc-00152",
+          "fen": "6k1/3nNp1p/p1r3p1/8/3pP3/1P3P2/P5PP/6K1 b - - 0 1",
+          "sans": [],
+          "coach": {
+            "en": "59A. White moves. He begins with a surprising move: 1 b6!, a Knight fork which menaces Queen, Rook and Bishop. Black naturally plays 1 ... axb6 and White counters with 2 xd7. What has White accomplished so far? He now has two threats.",
+            "fr": "59A. Trait aux Blancs. Ils commencent par un coup surprenant : 1 b6 !, une fourchette de Cavalier qui menace Dame, Tour et Fou. Les Noirs jouent naturellement 1 ... axb6, et les Blancs répondent 2 xd7. Qu’ont-ils obtenu ? Deux menaces à la fois."
+          },
+          "stepCoaches": [],
+          "phase": "lesson",
+          "theme": {
+            "en": "Basic pattern — knight fork",
+            "fr": "Schéma de base — fourchette"
+          },
+          "label": "59A"
+        },
+        {
           "id": "wc-00154",
           "fen": "r1q1nrk1/1p1N2bp/1pn1p1p1/4ppP1/5P2/8/PPP1B2P/R1BQ1RK1 b - - 0 1",
           "sans": [],
@@ -2207,6 +2223,22 @@
             "fr": "Fourchette et clouage"
           },
           "label": "67B"
+        },
+        {
+          "id": "wc-00165",
+          "fen": "3r1kr1/5p2/3P4/2P1p3/4Pn2/P2QR1P1/6K1/8 w - - 0 1",
+          "sans": [],
+          "coach": {
+            "en": "68A. Black moves. His target is the f-Pawn – although it is defended by three pieces! He begins with a capture, 1 ... xe5, enabling him to foresee White’s reply, 2 xe5. Now the vulnerable point has only two defenders – one of them pinned! But how does the Knight fork materialize?!",
+            "fr": "68A. Trait aux Noirs. Leur cible est le Pion f — bien qu’il soit défendu par trois pièces ! Ils commencent par une prise, 1 ... xe5, prévoyant la réponse 2 xe5. Le point faible n’a plus que deux défenseurs — dont un cloué ! Mais comment la fourchette de Cavalier va-t-elle apparaître ?"
+          },
+          "stepCoaches": [],
+          "phase": "technique",
+          "theme": {
+            "en": "Fork and pin together",
+            "fr": "Fourchette et clouage"
+          },
+          "label": "68A"
         },
         {
           "id": "wc-00168",
@@ -2724,6 +2756,22 @@
             "fr": "Attaques doubles avec poussée de pion"
           },
           "label": "99A"
+        },
+        {
+          "id": "wc-00231",
+          "fen": "r2q1rk1/ppn1nppp/3P4/8/4P3/P3Q1B1/4N1PP/R4RK1 b - - 0 1",
+          "sans": [],
+          "coach": {
+            "en": "99B. Black moves. The Knight retreated to his only available square, but this did not save him from a devastating Pawn fork. (In 98A, the Pawn fork was effective because the Pawn was guarded by a Black Knight; here the forking Pawn is protected by the Bishop.) As only one of the Knights can be saved, Black is forced to lose a piece.",
+            "fr": "99B. Trait aux Noirs. Le Cavalier s’est replié sur sa seule case disponible, mais cela ne l’a pas sauvé d’une fourchette de Pion dévastatrice. (En 98A, la fourchette de Pion était efficace parce que le Pion était gardé par un Cavalier noir ; ici le Pion fourcheur est protégé par le Fou.) Un seul Cavalier pouvant être sauvé, les Noirs perdent forcément une pièce."
+          },
+          "stepCoaches": [],
+          "phase": "lesson",
+          "theme": {
+            "en": "Double attacks with pawn push",
+            "fr": "Attaques doubles avec poussée de pion"
+          },
+          "label": "99B"
         },
         {
           "id": "wc-00181",
@@ -4139,6 +4187,22 @@
           "label": "133B"
         },
         {
+          "id": "wc-00295",
+          "fen": "r6r/pp1n1k1p/2pb3q/3p2P1/3Pp3/2N1P3/PP4PP/R2QBRK1 b - - 0 1",
+          "sans": [],
+          "coach": {
+            "en": "134A. White moves. He begins with a startling sacrifice: 1 f7! forks Black’s Queen and Rook. After 1 ... xf7 the f-file forms the pattern for a discovered check: 2 fxg5+. Now we see the point of the diabolical first move.",
+            "fr": "134A. Trait aux Blancs. Ils ouvrent par un sacrifice fulgurant : 1 f7 ! fourchette Dame et Tour noires. Après 1 ... xf7, la colonne f forme le schéma d’un échec à découverte : 2 fxg5+. On voit alors le sens du premier coup diabolique."
+          },
+          "stepCoaches": [],
+          "phase": "lesson",
+          "theme": {
+            "en": "Basic pattern — discovered check",
+            "fr": "Schéma de base — échec à découverte"
+          },
+          "label": "134A"
+        },
+        {
           "id": "wc-00296",
           "fen": "8/8/8/3p4/7p/1B2k3/P5r1/5R1K b - - 0 1",
           "sans": [],
@@ -4219,6 +4283,24 @@
           "label": "136B"
         },
         {
+          "id": "wc-00301",
+          "fen": "5B1r/2k3bp/p5p1/4p3/8/8/5PPP/2R3K1 b - - 0 1",
+          "sans": [
+            "Kd7"
+          ],
+          "coach": {
+            "en": "137A. White moves. He plays 1 d7+ (double attack), when 1 ... c7 is compulsory. Now 2 xc7+, xc7 and we have the basic pattern for discovered check on the c-file. So: 3 f8+!",
+            "fr": "137A. Trait aux Blancs. Ils jouent 1 d7+ (attaque double), et 1 ... c7 s’impose. Puis 2 xc7+, xc7 : voici le schéma de base de l’échec à découverte sur la colonne c. Donc : 3 f8+ !"
+          },
+          "stepCoaches": [],
+          "phase": "lesson",
+          "theme": {
+            "en": "Basic pattern — discovered check",
+            "fr": "Schéma de base — échec à découverte"
+          },
+          "label": "137A"
+        },
+        {
           "id": "wc-00302",
           "fen": "r4r1k/p1q3pp/1p1b4/5p2/1PP5/1BBR3P/P5P1/R5K1 b - - 0 1",
           "sans": [],
@@ -4284,7 +4366,8 @@
         }
       ],
       "exerciseIds": [
-        "wc-00292"
+        "wc-00292",
+        "wc-00301"
       ]
     },
     {
@@ -5152,6 +5235,22 @@
           "label": "169A"
         },
         {
+          "id": "wc-00361",
+          "fen": "2r4k/p3qp2/1pn4p/5b2/4NQ2/2P1P2P/P5rK/1R3R2 w - - 0 1",
+          "sans": [],
+          "coach": {
+            "en": "169B. Black moves. To save his Queen he must play 1 ... xg4. Now White does not continue 2 fxg4? (which leaves him a Rook down after 2 ... xe1). Instead he continues as planned: 2 xe8+, now that the Rook’s defender has been removed. Black has no time to save his Queen (priority of check!). After 2 ... g7; 3 fxg4 wins easily.",
+            "fr": "169B. Trait aux Noirs. Pour sauver leur Dame, ils doivent jouer 1 ... xg4. Les Blancs ne continuent pas 2 fxg4 ? (ce qui les laisserait une Tour en moins après 2 ... xe1). Ils suivent le plan : 2 xe8+, maintenant que le défenseur de la Tour a disparu. Les Noirs n’ont pas le temps de sauver leur Dame (priorité de l’échec !). Après 2 ... g7 ; 3 fxg4 gagne aisément."
+          },
+          "stepCoaches": [],
+          "phase": "lesson",
+          "theme": {
+            "en": "Removing the guard",
+            "fr": "Éliminer le défenseur"
+          },
+          "label": "169B"
+        },
+        {
           "id": "wc-00359",
           "fen": "r2q4/5pk1/p1npr3/1pp1p1p1/4P1P1/1PPP1Q2/1P1B1PK1/R6R b - - 0 1",
           "sans": [],
@@ -5166,6 +5265,38 @@
             "fr": "Éliminer le défenseur"
           },
           "label": "170A"
+        },
+        {
+          "id": "wc-00362",
+          "fen": "r2q4/5pkR/p1npr3/1pp1p1p1/4P1P1/1PPP1Q2/1P1B1PK1/R7 b - - 0 1",
+          "sans": [],
+          "coach": {
+            "en": "170B. White moves. His reply is forced: 2 xg2. Now that White’s Knight has lost a vital prop, Black has a winning double attack: 2 ... xe4+ (2 ... xe4+ is also good); 3 xe4, xe4+ followed by 4 ... xb1. An inventory of the final position shows Black to be a piece ahead, with an easy win. The winning method here is of great practical value.",
+            "fr": "170B. Trait aux Blancs. Leur réponse est forcée : 2 xg2. Le Cavalier blanc ayant perdu un appui vital, les Noirs ont une attaque double gagnante : 2 ... xe4+ (2 ... xe4+ est aussi bon) ; 3 xe4, xe4+ puis 4 ... xb1. Le bilan final laisse les Noirs une pièce en avant, avec une victoire aisée. La méthode a ici une grande valeur pratique."
+          },
+          "stepCoaches": [],
+          "phase": "lesson",
+          "theme": {
+            "en": "Removing the guard",
+            "fr": "Éliminer le défenseur"
+          },
+          "label": "170B"
+        },
+        {
+          "id": "wc-00360",
+          "fen": "4r1k1/p1pq1p1p/8/3p4/6Q1/1P3PP1/P1P3KP/4R3 b - - 0 1",
+          "sans": [],
+          "coach": {
+            "en": "171A. White moves. He has an open file for his King’s Rook, and simple doubling on this file would suffice to win (1 h5, g6; 2 ah1 etc.). But there is a quicker, more dynamic way, based on the fact that Black’s defensive force is scattered: 1 h7+! The Rook must be captured (if 1 ... g8? or 1 ... g6?; 2 xf7 mate).",
+            "fr": "171A. Trait aux Blancs. Ils ont une colonne ouverte pour la Tour du Roi ; doubler simplement sur cette colonne suffirait (1 h5, g6 ; 2 ah1 etc.). Mais il y a une voie plus vive, fondée sur la dispersion des forces noires : 1 h7+ ! La Tour doit être prise (si 1 ... g8 ? ou 1 ... g6 ? ; 2 xf7 mat)."
+          },
+          "stepCoaches": [],
+          "phase": "lesson",
+          "theme": {
+            "en": "Removing the guard",
+            "fr": "Éliminer le défenseur"
+          },
+          "label": "171A"
         },
         {
           "id": "wc-00363",
@@ -5294,6 +5425,22 @@
             "fr": "Éliminer le défenseur"
           },
           "label": "175A"
+        },
+        {
+          "id": "wc-00374",
+          "fen": "r1k4r/pppbN3/2np1R2/6B1/2Bq3P/6p1/PPPQ2P1/2K5 b - - 0 1",
+          "sans": [],
+          "coach": {
+            "en": "175B. White moves. He has forced a position where the pinned piece (the Queen) is of greater value than the sacrificial Rook. Now 2 h8+ is successful, for it forcibly tears away Black’s King from the defense of his Queen. After 2 ... xh8; 3 xg6 White has an easy win.",
+            "fr": "175B. Trait aux Blancs. Ils ont forcé une position où la pièce clouée (la Dame) vaut plus que la Tour sacrifiée. Alors 2 h8+ réussit : il arrache le Roi noir à la défense de sa Dame. Après 2 ... xh8 ; 3 xg6, les Blancs gagnent aisément."
+          },
+          "stepCoaches": [],
+          "phase": "lesson",
+          "theme": {
+            "en": "Removing the guard",
+            "fr": "Éliminer le défenseur"
+          },
+          "label": "175B"
         },
         {
           "id": "wc-00371",
@@ -5724,6 +5871,22 @@
           "label": "255B"
         },
         {
+          "id": "wc-00514",
+          "fen": "4r1rk/pp1qppbp/3p4/3nnPB1/R3P2R/1P6/1PP1B2P/3Q3K w - - 0 1",
+          "sans": [],
+          "coach": {
+            "en": "256A. White moves. He has given up a piece for a strong attack, which is all the more virulent because Black’s Queen is cut off from the defense. For his concluding combination, he has prepared a charming sacrifice. He plays 1 g7+ forcing 1 ... f7. And now the sur prise: 2 e6+!!",
+            "fr": "256A. Trait aux Blancs. Ils ont sacrifié une pièce pour une attaque virulente, d’autant plus dangereuse que la Dame noire est coupée de la défense. Pour la combinaison finale, ils ont préparé un joli sacrifice. Ils jouent 1 g7+ forçant 1 ... f7. Et voici la surprise : 2 e6+ !!"
+          },
+          "stepCoaches": [],
+          "phase": "lesson",
+          "theme": {
+            "en": "Breaking communication",
+            "fr": "Couper la communication"
+          },
+          "label": "256A"
+        },
+        {
           "id": "wc-00517",
           "fen": "4r1rk/pp2ppbp/3p4/1q1nnPB1/R3P2R/1P6/1PP4P/3Q3K b - - 0 1",
           "sans": [],
@@ -5981,10 +6144,12 @@
       "themes": {
         "en": [
           "No-retreat examples",
+          "No retreat",
           "Quiz — no retreat"
         ],
         "fr": [
           "Exemples sans retraite",
+          "Sans retraite",
           "Quiz — sans retraite"
         ]
       },
@@ -5996,6 +6161,38 @@
       ],
       "examples": [
         {
+          "id": "wc-00385",
+          "fen": "rn3rk1/pp2qppp/2pb1n2/3p4/2PPp2N/1P2P3/PBQNBPPP/5RK1 b - - 0 1",
+          "sans": [],
+          "coach": {
+            "en": "184. Black moves. He has an easy victim in White’s Knight at the side of the board. This piece has no retreat. But how should the Knight’s awkward situation be exploited? Should Black attack it with his Queen by 1 ... e8? No, for after 2 g3 the Knight would be protected.\n\nThe right way is the Pawn stab 1 ... g5! winning the Knight. Against a Pawn’s attack on a piece, neither exchange nor protection can be satisfactory.",
+            "fr": "La bonne méthode est le coup de poignard du Pion, 1 ... g5!, qui gagne le Cavalier. Face à l'attaque d'un Pion contre une pièce, ni l'échange ni la protection ne constituent une parade satisfaisante."
+          },
+          "stepCoaches": [],
+          "phase": "lesson",
+          "theme": {
+            "en": "No-retreat examples",
+            "fr": "Exemples sans retraite"
+          },
+          "label": "184"
+        },
+        {
+          "id": "wc-00386",
+          "fen": "r2q1rk1/1ppn3p/3p2p1/p3p3/1PP1Pp2/2PQNP2/P2N2PP/R4RK1 w - - 0 1",
+          "sans": [],
+          "coach": {
+            "en": "185. White moves. His Knight at e3 is attacked. He can move it safely to d1 or c2. But suppose he becomes thoughtlessly aggressive, and wants to post the Knight at d5? The Knight would then have no flight-square – no retreat. Black would play 1 ... c6 winning the Knight.\n\nThese two examples illustrate the power of the “weak” Pawn in this type of attack. Flight, when possible, is generally the only defense to a Pawn’s attack.",
+            "fr": "Ces deux exemples montrent la puissance du « faible » Pion dans ce type d'attaque. Quand elle est possible, la fuite est généralement l'unique défense contre l'attaque d'un Pion."
+          },
+          "stepCoaches": [],
+          "phase": "lesson",
+          "theme": {
+            "en": "No-retreat examples",
+            "fr": "Exemples sans retraite"
+          },
+          "label": "185"
+        },
+        {
           "id": "wc-00388",
           "fen": "2k1r3/ppp5/6n1/1q1p3p/3Prp2/P1P3nP/1P1N1RP1/K2N2R1 b - - 0 1",
           "sans": [
@@ -6006,7 +6203,7 @@
             "fr": "186. Trait aux Noirs. Ce qui frappe d'emblée, c'est que le Fou blanc n'a aucune retraite : il ne peut avancer, et la fuite lui est barrée par ses propres pièces. Une attaque de Pion sera douloureuse : 1 ... f5 gagne le Fou sur-le-champ. De telles situations se rencontrent souvent dans la pratique."
           },
           "stepCoaches": [],
-          "phase": "technique",
+          "phase": "lesson",
           "theme": {
             "en": "No-retreat examples",
             "fr": "Exemples sans retraite"
@@ -6024,7 +6221,7 @@
             "fr": "187. Trait aux Noirs. Quel trait domine avant tout cette position ? La Dame blanche n'a pas un seul coup à jouer ! Privée de retraite, elle est une proie facile. Les Noirs frappent la Dame paralysée par le coup immédiatement décisif 1 ... h4! Les Blancs abandonnent !"
           },
           "stepCoaches": [],
-          "phase": "technique",
+          "phase": "lesson",
           "theme": {
             "en": "No-retreat examples",
             "fr": "Exemples sans retraite"
@@ -6040,7 +6237,7 @@
             "fr": "188. Trait aux Noirs. La Dame adverse n'a aucune retraite. Pour la gagner, il suffit de l'attaquer avec n'importe quelle pièce de moindre valeur. Cet indice nous mène à 1 ... g6, qui gagne la Dame. Après 2 xd8+, xd8, les Blancs n'ont plus aucun recours."
           },
           "stepCoaches": [],
-          "phase": "technique",
+          "phase": "lesson",
           "theme": {
             "en": "No-retreat examples",
             "fr": "Exemples sans retraite"
@@ -6050,13 +6247,15 @@
         {
           "id": "wc-00391",
           "fen": "8/8/8/1pkpNp2/p4P2/P3P2n/1PP5/4K3 w - - 0 1",
-          "sans": [],
+          "sans": [
+            "Ng6"
+          ],
           "coach": {
-            "en": "189. White moves. The candidate for destruction is Black’s Queen, which has an off-side position with few flight squares, while White’s minor pieces have great freedom of action. 1 h4 does the trick, leaving the Queen 14 untouchable squares!",
+            "en": "188. Black moves. The hostile Queen has no retreat. To win the Queen, it is sufficient to attack it with any piece of lesser value. This hint yields us 1 ... g6, winning the Queen. After 2 xd8+, xd8, White has no relief.\n\n189. White moves. The candidate for destruction is Black’s Queen, which has an off-side position with few flight squares, while White’s minor pieces have great freedom of action. 1 h4 does the trick, leaving the Queen 14 untouchable squares!",
             "fr": "189. Trait aux Blancs. La victime désignée est la Dame noire, excentrée et privée de cases de fuite, tandis que les pièces mineures blanches jouissent d'une grande liberté d'action. 1 h4 fait l'affaire et laisse à la Dame 14 cases intouchables !"
           },
           "stepCoaches": [],
-          "phase": "technique",
+          "phase": "lesson",
           "theme": {
             "en": "No-retreat examples",
             "fr": "Exemples sans retraite"
@@ -6072,7 +6271,7 @@
             "fr": "190. Trait aux Blancs. Le Cavalier est d'autant moins mobile qu'il se trouve au bord de l'échiquier. Celui des Noirs n'a qu'une seule case de fuite : g1. La suite logique est donc 1 f1. Les Blancs enchaînent par 2 g2 et gagnent le Cavalier, qui n'a aucune retraite."
           },
           "stepCoaches": [],
-          "phase": "technique",
+          "phase": "lesson",
           "theme": {
             "en": "No-retreat examples",
             "fr": "Exemples sans retraite"
@@ -6090,7 +6289,7 @@
             "fr": "191. Trait aux Noirs. Cette position illustre l'un des schémas les plus courants du piège « sans retraite » : le Fou noir part à la chasse aux Pions et se retrouve bientôt dans un cul-de-sac. Il joue 1 ... xa2? Mais, par 2 b3, le piège d'acier se referme sur le Fou, qui n'a aucune retraite."
           },
           "stepCoaches": [],
-          "phase": "technique",
+          "phase": "lesson",
           "theme": {
             "en": "No-retreat examples",
             "fr": "Exemples sans retraite"
@@ -6106,7 +6305,7 @@
             "fr": "192. Trait aux Noirs. Il joue 1 ... xa2? avec l'idée que son attaque contre le Cavalier lui donnera le temps nécessaire de mettre sa Dame à l'abri. Mais 2 c4 ferme la porte de sortie. La Dame noire n'a plus de retraite et sera gagnée par 3 a1."
           },
           "stepCoaches": [],
-          "phase": "technique",
+          "phase": "lesson",
           "theme": {
             "en": "No-retreat examples",
             "fr": "Exemples sans retraite"
@@ -6122,7 +6321,7 @@
             "fr": "193. Trait aux Noirs. Ses Cavaliers sont menacés par la poussée f5. Si 1 ... c5 ; 2 f5!, xe5 ; 3 d4, fourchette sur les Cavaliers. Ou 1 ... c7 ; 2 f5!, xe5 ; 3 d4, et le Cavalier à la triste figure n'a plus aucune retraite."
           },
           "stepCoaches": [],
-          "phase": "technique",
+          "phase": "lesson",
           "theme": {
             "en": "No-retreat examples",
             "fr": "Exemples sans retraite"
@@ -6132,13 +6331,15 @@
         {
           "id": "wc-00397",
           "fen": "2kr2r1/1pp2ppp/p1pbqnb1/4pN2/4PP1N/3P3P/PPP1Q1P1/R1B2RK1 b - - 0 1",
-          "sans": [],
+          "sans": [
+            "c5"
+          ],
           "coach": {
-            "en": "194A. Black moves. His f-Pawn requires protection. Instead of resorting to passive defense, he prefers to counterattack. This takes the form of exploiting the awkward position of White’s Bishop and his Knight on g4. When fleeing from attack, they are bound to get in each other’s way:",
+            "en": "193. Black moves. His Knights are menaced by the threat of f5. If 1 ... c5; 2 f5!, xe5; 3 d4 forking the Knights. Or 1 ... c7; 2 f5!, xe5; 3 d4 and there is no retreat for the Knight of the Rueful Countenance.\n\n194A. Black moves. His f-Pawn requires protection. Instead of resorting to passive defense, he prefers to counterattack. This takes the form of exploiting the awkward position of White’s Bishop and his Knight on g4. When fleeing from attack, they are bound to get in each other’s way:",
             "fr": "194A. Trait aux Noirs. Son Pion f demande à être protégé. Plutôt que de recourir à une défense passive, il préfère contre-attaquer. Il met à profit la position malcommode du Fou blanc et du Cavalier en g4. En fuyant l'attaque, ces deux pièces ne peuvent manquer de se gêner mutuellement :"
           },
           "stepCoaches": [],
-          "phase": "technique",
+          "phase": "lesson",
           "theme": {
             "en": "No-retreat examples",
             "fr": "Exemples sans retraite"
@@ -6150,11 +6351,11 @@
           "fen": "2kr2r1/1pp2ppp/p1pq1nb1/4p3/4PP1N/3P3P/PPP1Q1P1/R1B2RK1 w - - 0 1",
           "sans": [],
           "coach": {
-            "en": "194B. White moves. The menaced Knight must retreat, and he has only one square for the purpose: h2. But by going there (3 h2), he robs the Bishop of its only flight square. Now 3 ... h4 strikes at the helpless Bishop, which has no retreat and is therefore lost. This is an elaboration of the much simpler position in Diagram 186, where the Bishop obviously had no retreat. Here his flight is prevented.",
+            "en": "193. Black moves. His Knights are menaced by the threat of f5. If 1 ... c5; 2 f5!, xe5; 3 d4 forking the Knights. Or 1 ... c7; 2 f5!, xe5; 3 d4 and there is no retreat for the Knight of the Rueful Countenance.\n\n194B. White moves. The menaced Knight must retreat, and he has only one square for the purpose: h2. But by going there (3 h2), he robs the Bishop of its only flight square. Now 3 ... h4 strikes at the helpless Bishop, which has no retreat and is therefore lost. This is an elaboration of the much simpler position in Diagram 186, where the Bishop obviously had no retreat. Here his flight is prevented.",
             "fr": "194B. Trait aux Blancs. Le Cavalier menacé doit se replier, et il n'a pour cela qu'une seule case : h2. Mais en s'y rendant (3 h2), il prive le Fou de son unique case de fuite. Maintenant 3 ... h4 frappe le Fou sans défense, qui n'a aucune retraite et est donc perdu. C'est un développement de la position beaucoup plus simple du diagramme 186, où le Fou n'avait manifestement aucune retraite. Ici, sa fuite est empêchée."
           },
           "stepCoaches": [],
-          "phase": "technique",
+          "phase": "lesson",
           "theme": {
             "en": "No-retreat examples",
             "fr": "Exemples sans retraite"
@@ -6166,11 +6367,11 @@
           "fen": "r2qkb1r/2p2ppp/p1np1n2/1p6/3NP3/1BN5/PPP2PPP/R1BQK2R w - - 0 1",
           "sans": [],
           "coach": {
-            "en": "195A. White moves. Tarrasch has said: “No piece can be so easily won by Pawns as a Bishop.” The target here is Black’s Bishop at g6. White intends to surround it with Pawns. He begins with 1 xd6+, xd6 (if 1 ... cxd6; 2 f5 with double attack). The sequel is easy.",
+            "en": "193. Black moves. His Knights are menaced by the threat of f5. If 1 ... c5; 2 f5!, xe5; 3 d4 forking the Knights. Or 1 ... c7; 2 f5!, xe5; 3 d4 and there is no retreat for the Knight of the Rueful Countenance.\n\n195A. White moves. Tarrasch has said: “No piece can be so easily won by Pawns as a Bishop.” The target here is Black’s Bishop at g6. White intends to surround it with Pawns. He begins with 1 xd6+, xd6 (if 1 ... cxd6; 2 f5 with double attack). The sequel is easy.",
             "fr": "195A. Trait aux Blancs. Tarrasch a dit : « Aucune pièce ne se gagne aussi aisément par des Pions qu'un Fou. » La cible est ici le Fou noir en g6. Les Blancs entendent l'encercler de Pions. Ils commencent par 1 xd6+, xd6 (si 1 ... cxd6 ; 2 f5 avec double attaque). La suite est facile."
           },
           "stepCoaches": [],
-          "phase": "technique",
+          "phase": "lesson",
           "theme": {
             "en": "No-retreat examples",
             "fr": "Exemples sans retraite"
@@ -6180,13 +6381,15 @@
         {
           "id": "wc-00401",
           "fen": "r2qkb1r/5ppp/p2p1n2/1pp5/3QP3/1BN5/PPP2PPP/R1B1K2R w - - 0 1",
-          "sans": [],
+          "sans": [
+            "Qxc5"
+          ],
           "coach": {
-            "en": "195B. White moves. He executes his plan with 2 f5 forcing 2 ... h5. Now 3 g4 wins the Bishop, which is attacked and has no retreat. Trapping a Bishop inside a web of Pawns is a fairly frequently seen stratagem. It has some similarity to the method used in Diagram 191.",
+            "en": "193. Black moves. His Knights are menaced by the threat of f5. If 1 ... c5; 2 f5!, xe5; 3 d4 forking the Knights. Or 1 ... c7; 2 f5!, xe5; 3 d4 and there is no retreat for the Knight of the Rueful Countenance.\n\n195B. White moves. He executes his plan with 2 f5 forcing 2 ... h5. Now 3 g4 wins the Bishop, which is attacked and has no retreat. Trapping a Bishop inside a web of Pawns is a fairly frequently seen stratagem. It has some similarity to the method used in Diagram 191.",
             "fr": "195B. Trait aux Blancs. Ils exécutent leur plan par 2 f5, qui force 2 ... h5. Alors 3 g4 gagne le Fou, attaqué et sans retraite. Enfermer un Fou dans une toile de Pions est un stratagème assez fréquent. Il s'apparente à la méthode employée au diagramme 191."
           },
           "stepCoaches": [],
-          "phase": "technique",
+          "phase": "lesson",
           "theme": {
             "en": "No-retreat examples",
             "fr": "Exemples sans retraite"
@@ -6198,11 +6401,11 @@
           "fen": "5rk1/2p2rb1/ppn2p2/4p1pp/4P1N1/1P1PN1BP/1PP2RP1/4QRK1 b - - 0 1",
           "sans": [],
           "coach": {
-            "en": "196A. Black moves. This position from the Ruy Lopez is so old that it is known as the “Noah’s Ark” Trap. As in 195A, the hemming-in process is used to trap a Bishop. Knowing what to look for, Black begins with a forcible move, a capture: 1 ... xd4; 2 xd4. Now another forcible move, a threat: 2 ... c5 attacking White’s Queen.",
+            "en": "193. Black moves. His Knights are menaced by the threat of f5. If 1 ... c5; 2 f5!, xe5; 3 d4 forking the Knights. Or 1 ... c7; 2 f5!, xe5; 3 d4 and there is no retreat for the Knight of the Rueful Countenance.\n\n196A. Black moves. This position from the Ruy Lopez is so old that it is known as the “Noah’s Ark” Trap. As in 195A, the hemming-in process is used to trap a Bishop. Knowing what to look for, Black begins with a forcible move, a capture: 1 ... xd4; 2 xd4. Now another forcible move, a threat: 2 ... c5 attacking White’s Queen.",
             "fr": "196A. Trait aux Noirs. Cette position de la Partie espagnole est si ancienne qu'on la connaît sous le nom de piège de « l'Arche de Noé ». Comme en 195A, on emprisonne un Fou en le murant. Sachant ce qu'il faut chercher, les Noirs débutent par un coup forcé, une capture : 1 ... xd4 ; 2 xd4. Vient alors un second coup forcé, une menace : 2 ... c5, qui attaque la Dame blanche."
           },
           "stepCoaches": [],
-          "phase": "technique",
+          "phase": "lesson",
           "theme": {
             "en": "No-retreat examples",
             "fr": "Exemples sans retraite"
@@ -6213,14 +6416,14 @@
           "id": "wc-00402",
           "fen": "1R6/p2r1k1p/3P1pp1/8/3nP2P/P3K1B1/6P1/8 b - - 0 1",
           "sans": [
-            "Nc2+"
+            "Rc7"
           ],
           "coach": {
-            "en": "197A. Black moves. He goes after a stray Pawn at the side of the board: 1 ... c2+? After 2 d3 (moving in for the kill), Black is forced to do what he wants to do: 2 ... xa3.",
+            "en": "193. Black moves. His Knights are menaced by the threat of f5. If 1 ... c5; 2 f5!, xe5; 3 d4 forking the Knights. Or 1 ... c7; 2 f5!, xe5; 3 d4 and there is no retreat for the Knight of the Rueful Countenance.\n\n197A. Black moves. He goes after a stray Pawn at the side of the board: 1 ... c2+? After 2 d3 (moving in for the kill), Black is forced to do what he wants to do: 2 ... xa3.",
             "fr": "197A. Trait aux Noirs. Il court après un Pion égaré au bord de l'échiquier : 1 ... c2+? Après 2 d3 (les Blancs s'approchent pour l'estocade), les Noirs sont contraints de faire ce qu'ils désirent : 2 ... xa3."
           },
           "stepCoaches": [],
-          "phase": "technique",
+          "phase": "lesson",
           "theme": {
             "en": "No-retreat examples",
             "fr": "Exemples sans retraite"
@@ -6231,14 +6434,14 @@
           "id": "wc-00403",
           "fen": "1R6/p2r1k1p/3P1pp1/8/4P2P/n2K2B1/6P1/8 b - - 0 1",
           "sans": [
-            "Nc2"
+            "Rc7"
           ],
           "coach": {
-            "en": "197A. Black moves. He goes after a stray Pawn at the side of the board: 1 ... c2+? After 2 d3 (moving in for the kill), Black is forced to do what he wants to do: 2 ... xa3.",
-            "fr": "197A. Trait aux Noirs. Il court après un Pion égaré au bord de l'échiquier : 1 ... c2+? Après 2 d3 (les Blancs s'approchent pour l'estocade), les Noirs sont contraints de faire ce qu'ils désirent : 2 ... xa3."
+            "en": "193. Black moves. His Knights are menaced by the threat of f5. If 1 ... c5; 2 f5!, xe5; 3 d4 forking the Knights. Or 1 ... c7; 2 f5!, xe5; 3 d4 and there is no retreat for the Knight of the Rueful Countenance.\n\n197A. Black moves. He goes after a stray Pawn at the side of the board: 1 ... c2+? After 2 d3 (moving in for the kill), Black is forced to do what he wants to do: 2 ... xa3.",
+            "fr": "193. Trait aux Noirs. His Cavaliers are menaced by the menace of f5. If 1... C5; 2 f5!, xe5; 3 d4 en fourchette the Cavaliers. Or 1... C7; 2 f5!, xe5; 3 d4 and there is sans retraite for le Cavalier of the Rueful Countenance. 197A. Trait aux Noirs. He goes after a stray Pion at the side of the board: 1... C2+? After 2 d3 (moving in for the kill), Noirs is forced to do what he wants to do: 2... Xa3."
           },
           "stepCoaches": [],
-          "phase": "technique",
+          "phase": "lesson",
           "theme": {
             "en": "No-retreat examples",
             "fr": "Exemples sans retraite"
@@ -6250,11 +6453,11 @@
           "fen": "3b2k1/pp2nppp/8/1B2PP2/7B/7P/P3K1P1/8 w - - 0 1",
           "sans": [],
           "coach": {
-            "en": "197B. White moves. He is well satisfied with the position: the Black Knight has no moves – no retreat! White swoops down with 3 b3, attacking and winning the miserable Knight.",
+            "en": "193. Black moves. His Knights are menaced by the threat of f5. If 1 ... c5; 2 f5!, xe5; 3 d4 forking the Knights. Or 1 ... c7; 2 f5!, xe5; 3 d4 and there is no retreat for the Knight of the Rueful Countenance.\n\n197B. White moves. He is well satisfied with the position: the Black Knight has no moves – no retreat! White swoops down with 3 b3, attacking and winning the miserable Knight.",
             "fr": "197B. Trait aux Blancs. Il est fort satisfait de la position : le Cavalier noir n'a aucun coup, aucune retraite ! Les Blancs fondent sur lui par 3 b3, qui attaque et gagne le misérable Cavalier."
           },
           "stepCoaches": [],
-          "phase": "technique",
+          "phase": "lesson",
           "theme": {
             "en": "No-retreat examples",
             "fr": "Exemples sans retraite"
@@ -6265,51 +6468,19 @@
           "id": "wc-00405",
           "fen": "3B2k1/pp3ppp/8/1n2P3/8/3K3P/P5P1/8 b - - 0 1",
           "sans": [
-            "f5"
+            "Nc7"
           ],
           "coach": {
-            "en": "198A. Black moves. He goes in for a tempting but unsound combination. Relying on a “clever” Knight fork, he wins a Pawn: 1 ... xf5?; 2 xd8, d4+; 3 d3, xb5. Thus Black has regained the sacrificed piece and is a Pawn to the good. It is a case of “ ‘Will you come into my parlor?’ said the spider.”",
+            "en": "193. Black moves. His Knights are menaced by the threat of f5. If 1 ... c5; 2 f5!, xe5; 3 d4 forking the Knights. Or 1 ... c7; 2 f5!, xe5; 3 d4 and there is no retreat for the Knight of the Rueful Countenance.\n\n198A. Black moves. He goes in for a tempting but unsound combination. Relying on a “clever” Knight fork, he wins a Pawn: 1 ... xf5?; 2 xd8, d4+; 3 d3, xb5. Thus Black has regained the sacrificed piece and is a Pawn to the good. It is a case of “ ‘Will you come into my parlor?’ said the spider.”",
             "fr": "198A. Trait aux Noirs. Il se lance dans une combinaison séduisante mais incorrecte. Comptant sur une « astucieuse » fourchette de Cavalier, il gagne un Pion : 1 ... xf5? ; 2 xd8, d4+ ; 3 d3, xb5. Les Noirs ont ainsi récupéré la pièce sacrifiée et se retrouvent un Pion à l'avance. C'est le cas de « Voulez-vous entrer dans mon salon ? dit l'araignée. »"
           },
           "stepCoaches": [],
-          "phase": "technique",
+          "phase": "lesson",
           "theme": {
             "en": "No-retreat examples",
             "fr": "Exemples sans retraite"
           },
           "label": "198A"
-        },
-        {
-          "id": "wc-00385",
-          "fen": "rn3rk1/pp2qppp/2pb1n2/3p4/2PPp2N/1P2P3/PBQNBPPP/5RK1 w - - 0 1",
-          "sans": [],
-          "coach": {
-            "en": "The right way is the Pawn stab 1 ... g5! winning the Knight. Against a Pawn’s attack on a piece, neither exchange nor protection can be satisfactory.",
-            "fr": "La bonne méthode est le coup de poignard du Pion, 1 ... g5!, qui gagne le Cavalier. Face à l'attaque d'un Pion contre une pièce, ni l'échange ni la protection ne constituent une parade satisfaisante."
-          },
-          "stepCoaches": [],
-          "phase": "technique",
-          "theme": {
-            "en": "No-retreat examples",
-            "fr": "Exemples sans retraite"
-          },
-          "label": null
-        },
-        {
-          "id": "wc-00386",
-          "fen": "r2q1rk1/1ppn3p/3p2p1/p3p3/1PP1Pp2/2PQNP2/P2N2PP/R4RK1 w - - 0 1",
-          "sans": [],
-          "coach": {
-            "en": "These two examples illustrate the power of the “weak” Pawn in this type of attack. Flight, when possible, is generally the only defense to a Pawn’s attack.",
-            "fr": "Ces deux exemples montrent la puissance du « faible » Pion dans ce type d'attaque. Quand elle est possible, la fuite est généralement l'unique défense contre l'attaque d'un Pion."
-          },
-          "stepCoaches": [],
-          "phase": "technique",
-          "theme": {
-            "en": "No-retreat examples",
-            "fr": "Exemples sans retraite"
-          },
-          "label": null
         },
         {
           "id": "wc-00407",
@@ -6379,7 +6550,10 @@
       "exerciseIds": [
         "wc-00388",
         "wc-00389",
+        "wc-00391",
         "wc-00393",
+        "wc-00397",
+        "wc-00401",
         "wc-00402",
         "wc-00403",
         "wc-00405"
@@ -7454,6 +7628,22 @@
           "label": "238A"
         },
         {
+          "id": "wc-00483",
+          "fen": "3r1b1k/pp4p1/2p1Qp2/5N2/PP2P3/2P2p2/5P1P/5qK1 w - - 0 1",
+          "sans": [],
+          "coach": {
+            "en": "238B. Black moves. His Knight is attacked; hence 1 ... g6, parrying the threat. But White had another threat, made possible by the retreat of the Bishop. This menace, far from obvious, now becomes reality: 2 c8+, xc8; 3 xc8 mate! Black could have avoided this mate, but only at the cost of leaving his attacked Knight in the lurch.",
+            "fr": "238B. Trait aux Noirs. Leur Cavalier est attaqué ; d’où 1 ... g6, qui pare la menace. Mais les Blancs en avaient une autre, rendue possible par le recul du Fou. Cette menace, peu évidente, devient réalité : 2 c8+, xc8 ; 3 xc8 mat ! Les Noirs auraient pu éviter ce mat, mais au prix d’abandonner le Cavalier attaqué."
+          },
+          "stepCoaches": [],
+          "phase": "lesson",
+          "theme": {
+            "en": "Vulnerable first rank",
+            "fr": "Premier rang vulnérable"
+          },
+          "label": "238B"
+        },
+        {
           "id": "wc-00481",
           "fen": "6k1/7p/p1p1q1p1/1p1p1n2/3P2R1/1P3P2/3Rr1PP/2Q3K1 b - - 0 1",
           "sans": [],
@@ -7751,10 +7941,12 @@
       "themes": {
         "en": [
           "Basic mating patterns",
+          "Skeleton mating pattern",
           "Quiz — mating designs"
         ],
         "fr": [
           "Mats modèles de base",
+          "Squelette d’un mat",
           "Quiz — mats modèles"
         ]
       },
@@ -8522,6 +8714,24 @@
           "label": "269B"
         },
         {
+          "id": "wc-00541",
+          "fen": "r3k2r/ppp3pp/1bn1R1q1/7N/2pp4/8/PPP2PPP/R1BQ2K1 b - - 0 1",
+          "sans": [
+            "Kd8"
+          ],
+          "coach": {
+            "en": "270A. White moves. In the most innocent-looking positions, there often lurk deadly but delightful combinations. Who would suspect that White can impale his opponent’s King and Queen by a pin, or run them through with a skewer? To combine these motifs – that is the art of chess. 1 d8+ forces 1 ... f7; now 2 e6+! is decisive.",
+            "fr": "270A. Trait aux Blancs. Dans les positions les plus innocentes se cachent souvent des combinaisons mortelles et délicieuses. Qui soupçonnerait que les Blancs peuvent empaler Roi et Dame adverses par un clouage, ou les transpercer d’une enfilade ? Combiner ces motifs — voilà l’art des Échecs. 1 d8+ force 1 ... f7 ; alors 2 e6+ ! est décisif."
+          },
+          "stepCoaches": [],
+          "phase": "lesson",
+          "theme": {
+            "en": "Combined operations",
+            "fr": "Opérations combinées"
+          },
+          "label": "270A"
+        },
+        {
           "id": "wc-00544",
           "fen": "r2qr1k1/p1p2ppp/2p5/8/4nPQ1/3B4/PPP3PP/R1B2R1K b - - 0 1",
           "sans": [],
@@ -8666,6 +8876,22 @@
             "fr": "Opérations combinées"
           },
           "label": "275A"
+        },
+        {
+          "id": "wc-00558",
+          "fen": "1k3b1r/p3q2p/p1Np1ppn/2pPp3/P3P3/6N1/1PPB1PPP/5RK1 b - - 0 1",
+          "sans": [],
+          "coach": {
+            "en": "275B. Black moves. Now for the pretty point of the combination: 3 ... f3+!, forking King and Queen. If White moves his King, then 4 ... xd2. If instead 4 xf3 (overworked Rook!), then 4 ... xd2+. In either event, White’s Queen is lost, and with it the game.",
+            "fr": "275B. Trait aux Noirs. Voici le joli point de la combinaison : 3 ... f3+ !, fourchette Roi et Dame. Si les Blancs bougent leur Roi, alors 4 ... xd2. S’ils jouent 4 xf3 (Tour surchargée !), alors 4 ... xd2+. Dans les deux cas, la Dame blanche est perdue, et avec elle la partie."
+          },
+          "stepCoaches": [],
+          "phase": "lesson",
+          "theme": {
+            "en": "Combined operations",
+            "fr": "Opérations combinées"
+          },
+          "label": "275B"
         },
         {
           "id": "wc-00556",
@@ -9439,6 +9665,7 @@
         "wc-00534",
         "wc-00535",
         "wc-00539",
+        "wc-00541",
         "wc-00548",
         "wc-00559",
         "wc-00685",
@@ -11343,6 +11570,36 @@
       "phase": "lesson"
     },
     {
+      "id": "wc-00301",
+      "moduleId": "discovered-check",
+      "fen": "5B1r/2k3bp/p5p1/4p3/8/8/5PPP/2R3K1 b - - 0 1",
+      "boardOrientation": "black",
+      "sideToMove": "black",
+      "expectedSan": "Kd7",
+      "expectedUci": "c7d7",
+      "task": {
+        "en": "Black to move · 137A",
+        "fr": "Trait aux Noirs · 137A"
+      },
+      "cue": {
+        "en": "Basic pattern — discovered check",
+        "fr": "Schéma de base — échec à découverte"
+      },
+      "legal": [
+        [
+          "c7d7",
+          "Kd7",
+          "Kd7"
+        ]
+      ],
+      "source": {
+        "book": "winning-chess",
+        "ref": "137A"
+      },
+      "role": "teach",
+      "phase": "lesson"
+    },
+    {
       "id": "wc-00316",
       "moduleId": "double-check",
       "fen": "r5rk/p6p/1pq2R2/n2pB3/2pP2Q1/2P3N1/PP4PP/R5K1 b - - 0 1",
@@ -12030,7 +12287,7 @@
         "ref": "186"
       },
       "role": "teach",
-      "phase": "technique"
+      "phase": "lesson"
     },
     {
       "id": "wc-00389",
@@ -12060,7 +12317,37 @@
         "ref": "187"
       },
       "role": "teach",
-      "phase": "technique"
+      "phase": "lesson"
+    },
+    {
+      "id": "wc-00391",
+      "moduleId": "no-retreat",
+      "fen": "8/8/8/1pkpNp2/p4P2/P3P2n/1PP5/4K3 w - - 0 1",
+      "boardOrientation": "white",
+      "sideToMove": "white",
+      "expectedSan": "Ng6",
+      "expectedUci": "e5g6",
+      "task": {
+        "en": "White to move · 189",
+        "fr": "Trait aux Blancs · 189"
+      },
+      "cue": {
+        "en": "No-retreat examples",
+        "fr": "Exemples sans retraite"
+      },
+      "legal": [
+        [
+          "e5g6",
+          "Ng6",
+          "Ng6"
+        ]
+      ],
+      "source": {
+        "book": "winning-chess",
+        "ref": "189"
+      },
+      "role": "teach",
+      "phase": "lesson"
     },
     {
       "id": "wc-00393",
@@ -12090,7 +12377,67 @@
         "ref": "191"
       },
       "role": "teach",
-      "phase": "technique"
+      "phase": "lesson"
+    },
+    {
+      "id": "wc-00397",
+      "moduleId": "no-retreat",
+      "fen": "2kr2r1/1pp2ppp/p1pbqnb1/4pN2/4PP1N/3P3P/PPP1Q1P1/R1B2RK1 b - - 0 1",
+      "boardOrientation": "black",
+      "sideToMove": "black",
+      "expectedSan": "c5",
+      "expectedUci": "c6c5",
+      "task": {
+        "en": "Black to move · 194A",
+        "fr": "Trait aux Noirs · 194A"
+      },
+      "cue": {
+        "en": "No-retreat examples",
+        "fr": "Exemples sans retraite"
+      },
+      "legal": [
+        [
+          "c6c5",
+          "c5",
+          "c5"
+        ]
+      ],
+      "source": {
+        "book": "winning-chess",
+        "ref": "194A"
+      },
+      "role": "teach",
+      "phase": "lesson"
+    },
+    {
+      "id": "wc-00401",
+      "moduleId": "no-retreat",
+      "fen": "r2qkb1r/5ppp/p2p1n2/1pp5/3QP3/1BN5/PPP2PPP/R1B1K2R w - - 0 1",
+      "boardOrientation": "white",
+      "sideToMove": "white",
+      "expectedSan": "Qxc5",
+      "expectedUci": "d4c5",
+      "task": {
+        "en": "White to move · 195B",
+        "fr": "Trait aux Blancs · 195B"
+      },
+      "cue": {
+        "en": "No-retreat examples",
+        "fr": "Exemples sans retraite"
+      },
+      "legal": [
+        [
+          "d4c5",
+          "Qxc5",
+          "Qxc5"
+        ]
+      ],
+      "source": {
+        "book": "winning-chess",
+        "ref": "195B"
+      },
+      "role": "teach",
+      "phase": "lesson"
     },
     {
       "id": "wc-00402",
@@ -12098,8 +12445,8 @@
       "fen": "1R6/p2r1k1p/3P1pp1/8/3nP2P/P3K1B1/6P1/8 b - - 0 1",
       "boardOrientation": "black",
       "sideToMove": "black",
-      "expectedSan": "Nc2+",
-      "expectedUci": "d4c2",
+      "expectedSan": "Rc7",
+      "expectedUci": "d7c7",
       "task": {
         "en": "Black to move · 197A",
         "fr": "Trait aux Noirs · 197A"
@@ -12110,9 +12457,9 @@
       },
       "legal": [
         [
-          "d4c2",
-          "Nc2+",
-          "Nc2+"
+          "d7c7",
+          "Rc7",
+          "Rc7"
         ]
       ],
       "source": {
@@ -12120,7 +12467,7 @@
         "ref": "197A"
       },
       "role": "teach",
-      "phase": "technique"
+      "phase": "lesson"
     },
     {
       "id": "wc-00403",
@@ -12128,8 +12475,8 @@
       "fen": "1R6/p2r1k1p/3P1pp1/8/4P2P/n2K2B1/6P1/8 b - - 0 1",
       "boardOrientation": "black",
       "sideToMove": "black",
-      "expectedSan": "Nc2",
-      "expectedUci": "a3c2",
+      "expectedSan": "Rc7",
+      "expectedUci": "d7c7",
       "task": {
         "en": "Black to move · 197A",
         "fr": "Trait aux Noirs · 197A"
@@ -12140,9 +12487,9 @@
       },
       "legal": [
         [
-          "a3c2",
-          "Nc2",
-          "Nc2"
+          "d7c7",
+          "Rc7",
+          "Rc7"
         ]
       ],
       "source": {
@@ -12150,7 +12497,7 @@
         "ref": "197A"
       },
       "role": "teach",
-      "phase": "technique"
+      "phase": "lesson"
     },
     {
       "id": "wc-00405",
@@ -12158,8 +12505,8 @@
       "fen": "3B2k1/pp3ppp/8/1n2P3/8/3K3P/P5P1/8 b - - 0 1",
       "boardOrientation": "black",
       "sideToMove": "black",
-      "expectedSan": "f5",
-      "expectedUci": "f7f5",
+      "expectedSan": "Nc7",
+      "expectedUci": "b5c7",
       "task": {
         "en": "Black to move · 198A",
         "fr": "Trait aux Noirs · 198A"
@@ -12170,9 +12517,9 @@
       },
       "legal": [
         [
-          "f7f5",
-          "f5",
-          "f5"
+          "b5c7",
+          "Nc7",
+          "Nc7"
         ]
       ],
       "source": {
@@ -12180,7 +12527,7 @@
         "ref": "198A"
       },
       "role": "teach",
-      "phase": "technique"
+      "phase": "lesson"
     },
     {
       "id": "wc-00417",
@@ -13108,6 +13455,36 @@
       "source": {
         "book": "winning-chess",
         "ref": "268A"
+      },
+      "role": "teach",
+      "phase": "lesson"
+    },
+    {
+      "id": "wc-00541",
+      "moduleId": "combined-operations",
+      "fen": "r3k2r/ppp3pp/1bn1R1q1/7N/2pp4/8/PPP2PPP/R1BQ2K1 b - - 0 1",
+      "boardOrientation": "black",
+      "sideToMove": "black",
+      "expectedSan": "Kd8",
+      "expectedUci": "e8d8",
+      "task": {
+        "en": "Black to move · 270A",
+        "fr": "Trait aux Noirs · 270A"
+      },
+      "cue": {
+        "en": "Combined operations",
+        "fr": "Opérations combinées"
+      },
+      "legal": [
+        [
+          "e8d8",
+          "Kd8",
+          "Kd8"
+        ]
+      ],
+      "source": {
+        "book": "winning-chess",
+        "ref": "270A"
       },
       "role": "teach",
       "phase": "lesson"

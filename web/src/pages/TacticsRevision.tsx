@@ -21,6 +21,12 @@ import {
   seenTacticsModuleCount,
 } from "../lib/tacticsRevisionProgress";
 import { formatBookExcerpt } from "../lib/bookExcerptFormat";
+import {
+  findPairedExample,
+  groupExampleNav,
+  parseDiagramPairLabel,
+  teachLineSource,
+} from "../lib/tacticsDiagramPair";
 import { fill, ui } from "../lib/uiCopy";
 
 type Props = {
@@ -37,34 +43,54 @@ function localized(text: { en: string; fr: string }, lang: Lang): string {
   return lang === "fr" ? text.fr : text.en;
 }
 
+function bookTeaser(paragraphs: string[], maxChars = 140): string {
+  const first = paragraphs[0]?.trim() ?? "";
+  if (!first) return "";
+  if (first.length <= maxChars) return first;
+  const cut = first.slice(0, maxChars);
+  const lastSpace = cut.lastIndexOf(" ");
+  return `${(lastSpace > 120 ? cut.slice(0, lastSpace) : cut).trim()}…`;
+}
+
 function BookExcerptSection({
   excerpt,
   heading,
   notesHeading,
   collapsedLabel,
+  collapseLabel,
+  teaserMoreLabel,
 }: {
   excerpt: string;
   heading: string;
   notesHeading: string;
   collapsedLabel: string;
+  collapseLabel: string;
+  teaserMoreLabel: string;
 }) {
   const [open, setOpen] = useState(false);
   const { paragraphs, notes } = useMemo(() => formatBookExcerpt(excerpt), [excerpt]);
+  const teaser = useMemo(() => bookTeaser(paragraphs), [paragraphs]);
+  useEffect(() => {
+    setOpen(false);
+  }, [excerpt]);
   if (!paragraphs.length && !notes.length) return null;
 
   return (
-    <details
-      className="opening-book-excerpt tactics-book-excerpt"
-      open={open}
-      onToggle={(event) => setOpen(event.currentTarget.open)}
-    >
-      <summary>
-        <span className="tactics-book-excerpt-title">{heading}</span>
-        <span className="tactics-book-excerpt-hint">{collapsedLabel}</span>
-      </summary>
+    <section className="tactics-book-panel" aria-label={heading}>
+      <header className="tactics-book-panel-head">
+        <p className="tactics-book-panel-kicker">{heading}</p>
+        <button
+          type="button"
+          className="tactics-book-panel-toggle"
+          aria-expanded={open}
+          onClick={() => setOpen((value) => !value)}
+        >
+          {open ? collapseLabel : collapsedLabel}
+        </button>
+      </header>
       {open ? (
         <>
-          <div className="opening-book-excerpt-body">
+          <div className="opening-book-excerpt-body tactics-book-panel-body">
             {paragraphs.map((paragraph, index) => (
               <p key={`p-${index}`}>{paragraph}</p>
             ))}
@@ -80,8 +106,17 @@ function BookExcerptSection({
             </div>
           ) : null}
         </>
+      ) : teaser ? (
+        <button
+          type="button"
+          className="tactics-book-teaser"
+          onClick={() => setOpen(true)}
+        >
+          <p className="tactics-book-teaser-text">{teaser}</p>
+          <span className="tactics-book-teaser-more">{teaserMoreLabel}</span>
+        </button>
       ) : null}
-    </details>
+    </section>
   );
 }
 
@@ -128,6 +163,23 @@ function formatModuleCounts(
   return `${diagrams} · ${drillPart}`;
 }
 
+function phaseCounts(examples: { phase?: string }[]): {
+  lesson: number;
+  technique: number;
+  quiz: number;
+} {
+  let lesson = 0;
+  let technique = 0;
+  let quiz = 0;
+  for (const ex of examples) {
+    const phase = ex.phase ?? "lesson";
+    if (phase === "technique") technique += 1;
+    else if (phase === "quiz") quiz += 1;
+    else lesson += 1;
+  }
+  return { lesson, technique, quiz };
+}
+
 function chessAtLine(fen: string, sans: string[], ply: number): Chess {
   const chess = new Chess(fen);
   for (const san of sans.slice(0, ply)) {
@@ -140,6 +192,49 @@ function sourceBadge(book: string, ref: string, wcLabel: string): string {
   if (book === "winning-chess") return wcLabel;
   if (book === "predator") return ref ? `Predator · ${ref}` : "Predator";
   return ref ? `${book} · ${ref}` : book;
+}
+
+function sideToMoveFromFen(fen: string): "white" | "black" {
+  const turn = fen.trim().split(/\s+/)[1];
+  return turn === "b" ? "black" : "white";
+}
+
+function escapeRegExp(value: string): string {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+/** Drop label / side-to-move leads already shown in the lesson chrome. */
+function stripCoachLead(text: string, label: string | null | undefined): string {
+  let out = text.trim();
+  const trimmedLabel = label?.trim();
+  if (trimmedLabel) {
+    out = out.replace(new RegExp(`^${escapeRegExp(trimmedLabel)}[.:=\\s—–-]+`, "i"), "");
+  }
+  out = out.replace(
+    /^(White (to )?moves?\.?\s*|Black (to )?moves?\.?\s*|Trait aux Blancs\.?\s*|Trait aux Noirs\.?\s*)/i,
+    "",
+  );
+  return out.trim();
+}
+
+function diagramHeading(
+  label: string | null | undefined,
+  indexInPhase: number,
+  t: ReturnType<typeof ui>,
+): string {
+  const trimmed = label?.trim();
+  if (trimmed) return fill(t.tacticsRevisionDiagram, { n: trimmed });
+  return fill(t.tacticsRevisionDiagram, { n: indexInPhase + 1 });
+}
+
+function formatKeySans(sans: string[]): string {
+  return sans
+    .map((san, index) => {
+      const moveNo = Math.floor(index / 2) + 1;
+      if (index % 2 === 0) return `${moveNo}. ${san}`;
+      return san;
+    })
+    .join(" ");
 }
 
 export function TacticsRevisionPage({
@@ -185,10 +280,23 @@ export function TacticsRevisionPage({
   const exercise = exercises[exerciseIndex] ?? null;
 
   const example = module?.examples[exampleIndex] ?? null;
+  const teachLine = useMemo(() => {
+    if (!module || !example) return null;
+    return teachLineSource(module.examples, example);
+  }, [module, example]);
   const teachChess = useMemo(() => {
-    if (!example) return new Chess();
-    return chessAtLine(example.fen, example.sans, linePly);
-  }, [example, linePly]);
+    if (!teachLine) return new Chess();
+    return chessAtLine(teachLine.fen, teachLine.sans, linePly);
+  }, [teachLine, linePly]);
+
+  function goToExample(index: number) {
+    if (!module) return;
+    const next = module.examples[index];
+    if (!next) return;
+    const line = teachLineSource(module.examples, next);
+    setExampleIndex(index);
+    setLinePly(line.arrowOnOpen ? line.sans.length : 0);
+  }
 
   const studyChess = useMemo(() => {
     if (!exercise) return new Chess();
@@ -224,11 +332,14 @@ export function TacticsRevisionPage({
   }
 
   function openModule(id: string) {
+    const nextModule = curriculum.modules.find((m) => m.id === id) ?? null;
+    const first = nextModule?.examples[0];
+    const line = first ? teachLineSource(nextModule.examples, first) : null;
     setModuleId(id);
-    markTacticsModuleSeen(id);
+    markTacticsModuleSeen(id, nextModule?.names ?? null);
     setProgressTick((n) => n + 1);
     setExampleIndex(0);
-    setLinePly(0);
+    setLinePly(line?.arrowOnOpen ? line.sans.length : 0);
     setMode("teach");
     setFeedback(null);
     setShowSolution(false);
@@ -447,6 +558,14 @@ export function TacticsRevisionPage({
   }, [physicalSource, exercise, exerciseIndex, chessup.sendAssistance]);
 
   useEffect(() => {
+    if (!initialModuleId || !module || module.id !== initialModuleId) return;
+    markTacticsModuleSeen(module.id, module.names);
+    setProgressTick((n) => n + 1);
+    // Once on deep-link / library resume entry.
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- mount + initial module only
+  }, [initialModuleId, module?.id]);
+
+  useEffect(() => {
     const shouldLandOnSection =
       mode === "catalog" && Boolean(initialSectionId) && !landedSectionRef.current;
     if (!shouldLandOnSection) {
@@ -506,13 +625,6 @@ export function TacticsRevisionPage({
           </div>
         )}
         <nav className="opening-revision-nav" aria-label={t.tacticsRevisionNav}>
-          <button
-            type="button"
-            className={mode === "catalog" ? "is-active" : ""}
-            onClick={() => setMode("catalog")}
-          >
-            {t.tacticsRevisionCatalog}
-          </button>
           {module ? (
             <button
               type="button"
@@ -531,27 +643,52 @@ export function TacticsRevisionPage({
               {t.tacticsRevisionPracticeNav}
             </button>
           ) : null}
+          <button
+            type="button"
+            className={mode === "catalog" ? "is-active" : ""}
+            onClick={() => setMode("catalog")}
+          >
+            {t.tacticsRevisionCatalog}
+          </button>
         </nav>
       </header>
 
       {mode === "catalog" ? (
         <div className="opening-revision-catalog tactics-catalog">
           {(() => {
+            const resumeId = progress.lastModuleId;
+            const resume =
+              resumeId != null
+                ? curriculum.modules.find((m) => m.id === resumeId) ?? null
+                : null;
             const next =
               curriculum.modules.find((m) => !progress.seenModules[m.id]) ??
               curriculum.modules[0];
+            const featured = resume ?? next;
+            const ctaLabel = resume
+              ? fill(t.tacticsRevisionResumeAs, {
+                  name: localized(resume.names, lang),
+                })
+              : featured
+                ? fill(t.tacticsRevisionContinueAs, {
+                    name: localized(featured.names, lang),
+                  })
+                : null;
             return (
               <div className="tactics-catalog-intro">
-                <p className="tactics-catalog-method">{localized(curriculum.methodNote, lang)}</p>
-                {next ? (
+                <div className="tactics-catalog-intro-copy">
+                  <p className="tactics-catalog-path">{t.tacticsRevisionCoursePath}</p>
+                  <p className="tactics-catalog-method">
+                    {localized(curriculum.methodNote, lang)}
+                  </p>
+                </div>
+                {featured && ctaLabel ? (
                   <button
                     type="button"
                     className="primary-btn tactics-catalog-continue"
-                    onClick={() => openModule(next.id)}
+                    onClick={() => openModule(featured.id)}
                   >
-                    {fill(t.tacticsRevisionContinueAs, {
-                      name: localized(next.names, lang),
-                    })}
+                    {ctaLabel}
                   </button>
                 ) : null}
               </div>
@@ -574,15 +711,29 @@ export function TacticsRevisionPage({
                     (theme) => theme.trim().toLowerCase() !== title.trim().toLowerCase(),
                   );
                   const seen = Boolean(progress.seenModules[mod.id]);
+                  const phases = phaseCounts(mod.examples);
+                  const isResume = progress.lastModuleId === id;
                   return (
                     <li key={id}>
                       <button
                         type="button"
-                        className={`opening-module-card tactics-catalog-card${seen ? " is-seen" : ""}`}
+                        className={`opening-module-card tactics-catalog-card${seen ? " is-seen" : ""}${isResume ? " is-resume" : ""}`}
                         onClick={() => openModule(id)}
                       >
-                        <strong>{title}</strong>
+                        <span className="tactics-catalog-card-top">
+                          <strong>{title}</strong>
+                          <span className="tactics-catalog-open-hint">
+                            {t.tacticsRevisionOpenCourse}
+                          </span>
+                        </span>
                         <span className="opening-module-plan">{localized(mod.plan, lang)}</span>
+                        <span className="tactics-catalog-phases">
+                          {fill(t.tacticsRevisionPhases, {
+                            lesson: phases.lesson,
+                            technique: phases.technique,
+                            quiz: phases.quiz,
+                          })}
+                        </span>
                         {themes.length > 0 ? (
                           <span className="tactics-catalog-themes">
                             {themes.slice(0, 3).join(" · ")}
@@ -594,6 +745,11 @@ export function TacticsRevisionPage({
                             {formatModuleCounts(mod.examples.length, mod.exerciseIds.length, t)}
                           </span>
                           <span className="tactics-catalog-card-status">
+                            {isResume ? (
+                              <span className="tactics-catalog-resume-pill">
+                                {t.tacticsRevisionContinue}
+                              </span>
+                            ) : null}
                             {seen ? (
                               <span className="opening-module-seen">{t.tacticsRevisionSeen}</span>
                             ) : null}
@@ -619,64 +775,172 @@ export function TacticsRevisionPage({
       ) : null}
 
       {mode === "teach" && module && example ? (
-        <div className="tactics-teach-layout">
-          <aside className="tactics-teach-board">
-            <BoardPanel chess={teachChess} lang={lang} allowMove={false} />
-            {example.sans.length > 0 ? (
-              <div className="opening-line-scrubber">
-                <button
-                  type="button"
-                  disabled={linePly <= 0}
-                  onClick={() => setLinePly((p) => Math.max(0, p - 1))}
-                >
-                  ‹
-                </button>
-                <span>
-                  {linePly === 0
-                    ? t.tacticsRevisionLineStart
-                    : fill(t.tacticsRevisionLineProgress, {
-                        x: linePly,
-                        y: example.sans.length,
-                      })}
-                </span>
-                <button
-                  type="button"
-                  disabled={linePly >= example.sans.length}
-                  onClick={() => setLinePly((p) => Math.min(example.sans.length, p + 1))}
-                >
-                  ›
-                </button>
-              </div>
-            ) : (
-              <p className="tactics-line-static">{t.tacticsRevisionLineStart}</p>
-            )}
-          </aside>
+        (() => {
+          const phase = example.phase ?? "lesson";
+          const phaseOrder = (["lesson", "technique", "quiz"] as const).filter((p) =>
+            module.examples.some((ex) => (ex.phase ?? "lesson") === p),
+          );
+          const phaseItems = module.examples
+            .map((ex, i) => ({ ex, i }))
+            .filter(({ ex }) => (ex.phase ?? "lesson") === phase);
+          const phaseLocalIndex = Math.max(
+            0,
+            phaseItems.findIndex(({ i }) => i === exampleIndex),
+          );
+          const navGroups = groupExampleNav(phaseItems);
+          const pairLabel = parseDiagramPairLabel(example.label);
+          const paired = findPairedExample(module.examples, example);
+          const pairA =
+            pairLabel?.side === "A"
+              ? example
+              : paired && parseDiagramPairLabel(paired.label)?.side === "A"
+                ? paired
+                : null;
+          const pairB =
+            pairLabel?.side === "B"
+              ? example
+              : paired && parseDiagramPairLabel(paired.label)?.side === "B"
+                ? paired
+                : null;
+          const pairAIndex = pairA
+            ? module.examples.findIndex((ex) => ex.id === pairA.id)
+            : -1;
+          const pairBIndex = pairB
+            ? module.examples.findIndex((ex) => ex.id === pairB.id)
+            : -1;
+          const boardSide = sideToMoveFromFen(teachChess.fen());
+          const keySans =
+            pairLabel?.side === "A"
+              ? []
+              : teachLine && teachLine.sans.length > 0
+                ? teachLine.sans
+                : example.sans;
+          const moduleName = localized(module.names, lang);
+          const themeRaw = example.theme ? localized(example.theme, lang).trim() : "";
+          const themeText =
+            themeRaw && themeRaw.toLocaleLowerCase() !== moduleName.toLocaleLowerCase()
+              ? themeRaw
+              : "";
+          const motifPlan = localized(module.plan, lang).trim();
+          const coachText = coachStep
+            ? stripCoachLead(localized(coachStep, lang), example.label)
+            : "";
+          const coachParagraphs = coachText
+            ? formatBookExcerpt(coachText).paragraphs
+            : [];
+          const diagramRef = diagramHeading(example.label, phaseLocalIndex, t);
 
-          <div className="tactics-teach-copy">
-            <header className="tactics-teach-header">
-              <p className="tactics-idea">{localized(module.plan, lang)}</p>
-              <p className="tactics-source-line">
-                {module.sources
-                  .map((s) => sourceBadge(s.book, s.ref, t.tacticsRevisionSourceWc))
-                  .join(" · ")}
-                {" · "}
-                {formatModuleCounts(module.examples.length, module.exerciseIds.length, t)}
-              </p>
-            </header>
+          return (
+            <div className="tactics-teach-layout">
+              <aside className="tactics-teach-board">
+                <BoardPanel chess={teachChess} lang={lang} allowMove={false} />
+                <div className="tactics-board-meta">
+                  <span
+                    className={
+                      boardSide === "white"
+                        ? "tactics-side-chip is-white"
+                        : "tactics-side-chip is-black"
+                    }
+                  >
+                    {boardSide === "white"
+                      ? t.tacticsRevisionSideWhite
+                      : t.tacticsRevisionSideBlack}
+                  </span>
+                  {keySans.length > 0 ? (
+                    <span className="tactics-key-chip">
+                      <span className="tactics-key-chip-label">{t.tacticsRevisionKeyMove}</span>
+                      <span className="tactics-key-chip-san">{formatKeySans(keySans)}</span>
+                    </span>
+                  ) : null}
+                </div>
+                {teachLine && teachLine.sans.length > 0 ? (
+                  <div className="opening-line-scrubber">
+                    <button
+                      type="button"
+                      disabled={linePly <= 0}
+                      onClick={() => setLinePly((p) => Math.max(0, p - 1))}
+                    >
+                      ‹
+                    </button>
+                    <span>
+                      {linePly === 0
+                        ? t.tacticsRevisionLineStart
+                        : fill(t.tacticsRevisionLineProgress, {
+                            x: linePly,
+                            y: teachLine.sans.length,
+                          })}
+                    </span>
+                    <button
+                      type="button"
+                      disabled={linePly >= teachLine.sans.length}
+                      onClick={() =>
+                        setLinePly((p) => Math.min(teachLine.sans.length, p + 1))
+                      }
+                    >
+                      ›
+                    </button>
+                  </div>
+                ) : (
+                  <p className="tactics-line-static">{t.tacticsRevisionLineStart}</p>
+                )}
+              </aside>
 
-            {(() => {
-              const phase = example.phase ?? "lesson";
-              const phaseOrder = (["lesson", "technique", "quiz"] as const).filter((p) =>
-                module.examples.some((ex) => (ex.phase ?? "lesson") === p),
-              );
-              const phaseItems = module.examples
-                .map((ex, i) => ({ ex, i }))
-                .filter(({ ex }) => (ex.phase ?? "lesson") === phase);
-              const phaseLocalIndex = Math.max(
-                0,
-                phaseItems.findIndex(({ i }) => i === exampleIndex),
-              );
-              return (
+              <div className="tactics-teach-copy">
+                <header className="tactics-lesson-meta">
+                  <p className="tactics-diagram-ref">
+                    <span className="tactics-diagram-phase">{phaseLabelFor(phase, t)}</span>
+                    <span className="tactics-diagram-sep" aria-hidden="true">
+                      ·
+                    </span>
+                    <span className="tactics-diagram-num">{diagramRef}</span>
+                    {themeText ? (
+                      <>
+                        <span className="tactics-diagram-sep" aria-hidden="true">
+                          ·
+                        </span>
+                        <span className="tactics-diagram-theme">{themeText}</span>
+                      </>
+                    ) : null}
+                  </p>
+                </header>
+
+                {coachParagraphs.length > 0 ? (
+                  <section className="tactics-coach" aria-label={t.tacticsRevisionCoach}>
+                    <div className="tactics-coach-head">
+                      <p className="tactics-coach-label">{t.tacticsRevisionCoach}</p>
+                      {keySans.length > 0 ? (
+                        <p className="tactics-coach-key">
+                          <span>{t.tacticsRevisionKeyMove}</span>
+                          <strong>{formatKeySans(keySans)}</strong>
+                        </p>
+                      ) : null}
+                    </div>
+                    <div className="opening-book-excerpt-body">
+                      {coachParagraphs.map((paragraph, index) => (
+                        <p key={`coach-${index}`}>{paragraph}</p>
+                      ))}
+                    </div>
+                  </section>
+                ) : null}
+
+                {(() => {
+                  const excerpt =
+                    lang === "fr"
+                      ? module.bookExcerpt?.excerptFr || module.bookExcerpt?.excerptEn
+                      : module.bookExcerpt?.excerptEn || module.bookExcerpt?.excerptFr;
+                  if (!excerpt) return null;
+                  return (
+                    <BookExcerptSection
+                      excerpt={excerpt}
+                      heading={t.tacticsRevisionBookExcerpt}
+                      notesHeading={t.tacticsRevisionBookNotes}
+                      collapsedLabel={t.tacticsRevisionBookToggle}
+                      collapseLabel={t.tacticsRevisionBookCollapse}
+                      teaserMoreLabel={t.tacticsRevisionBookTeaserMore}
+                    />
+                  );
+                })()}
+
                 <section className="tactics-examples" aria-label={t.tacticsRevisionExamples}>
                   {phaseOrder.length > 1 ? (
                     <div className="tactics-phase-tabs" role="tablist">
@@ -684,6 +948,9 @@ export function TacticsRevisionPage({
                         const first = module.examples.findIndex(
                           (ex) => (ex.phase ?? "lesson") === p,
                         );
+                        const count = module.examples.filter(
+                          (ex) => (ex.phase ?? "lesson") === p,
+                        ).length;
                         const active = phase === p;
                         return (
                           <button
@@ -691,16 +958,57 @@ export function TacticsRevisionPage({
                             type="button"
                             role="tab"
                             aria-selected={active}
-                            className={active ? "is-active" : ""}
-                            onClick={() => {
-                              setExampleIndex(first);
-                              setLinePly(0);
-                            }}
+                            className={active ? "is-current" : ""}
+                            onClick={() => goToExample(first)}
                           >
-                            {phaseLabelFor(p, t)}
+                            <span className="tactics-phase-label">{phaseLabelFor(p, t)}</span>
+                            <span className="tactics-phase-count">{count}</span>
                           </button>
                         );
                       })}
+                    </div>
+                  ) : null}
+
+                  {pairLabel && pairA && pairB && pairAIndex >= 0 && pairBIndex >= 0 ? (
+                    <div
+                      className="tactics-pair-switch"
+                      role="group"
+                      aria-label={t.tacticsRevisionPairSides}
+                    >
+                      <p className="tactics-pair-figure">
+                        {fill(t.tacticsRevisionPairFigure, { n: pairLabel.num })}
+                      </p>
+                      <div className="tactics-pair-track">
+                        <button
+                          type="button"
+                          className={
+                            pairLabel.side === "A"
+                              ? "tactics-pair-side is-current"
+                              : "tactics-pair-side"
+                          }
+                          aria-pressed={pairLabel.side === "A"}
+                          onClick={() => goToExample(pairAIndex)}
+                        >
+                          <span className="tactics-pair-letter">A</span>
+                          <span className="tactics-pair-caption">{t.tacticsRevisionPairOnA}</span>
+                        </button>
+                        <span className="tactics-pair-bridge" aria-hidden="true">
+                          →
+                        </span>
+                        <button
+                          type="button"
+                          className={
+                            pairLabel.side === "B"
+                              ? "tactics-pair-side is-current is-result"
+                              : "tactics-pair-side is-result"
+                          }
+                          aria-pressed={pairLabel.side === "B"}
+                          onClick={() => goToExample(pairBIndex)}
+                        >
+                          <span className="tactics-pair-letter">B</span>
+                          <span className="tactics-pair-caption">{t.tacticsRevisionPairOnB}</span>
+                        </button>
+                      </div>
                     </div>
                   ) : null}
 
@@ -710,10 +1018,7 @@ export function TacticsRevisionPage({
                       className="secondary"
                       disabled={exampleIndex <= 0}
                       aria-label={t.tacticsRevisionPrevExample}
-                      onClick={() => {
-                        setExampleIndex((i) => Math.max(0, i - 1));
-                        setLinePly(0);
-                      }}
+                      onClick={() => goToExample(Math.max(0, exampleIndex - 1))}
                     >
                       ‹
                     </button>
@@ -722,16 +1027,35 @@ export function TacticsRevisionPage({
                       <select
                         value={exampleIndex}
                         aria-label={t.tacticsRevisionJumpExample}
-                        onChange={(event) => {
-                          setExampleIndex(Number(event.target.value));
-                          setLinePly(0);
-                        }}
+                        onChange={(event) => goToExample(Number(event.target.value))}
                       >
-                        {phaseItems.map(({ ex, i }, local) => (
-                          <option key={ex.id} value={i}>
-                            {exampleLabel(ex, local, t.tacticsRevisionExampleN)}
-                          </option>
-                        ))}
+                        {navGroups.map((group) => {
+                          if (group.kind === "pair") {
+                            return (
+                              <optgroup
+                                key={`pair-${group.num}`}
+                                label={fill(t.tacticsRevisionPairFigure, { n: group.num })}
+                              >
+                                <option value={group.a.i}>
+                                  {group.a.ex.label?.trim() || "A"} · {t.tacticsRevisionPairOnA}
+                                </option>
+                                <option value={group.b.i}>
+                                  {group.b.ex.label?.trim() || "B"} · {t.tacticsRevisionPairOnB}
+                                </option>
+                              </optgroup>
+                            );
+                          }
+                          const local = phaseItems.findIndex(({ i }) => i === group.item.i);
+                          return (
+                            <option key={group.item.ex.id} value={group.item.i}>
+                              {exampleLabel(
+                                group.item.ex,
+                                Math.max(0, local),
+                                t.tacticsRevisionExampleN,
+                              )}
+                            </option>
+                          );
+                        })}
                       </select>
                     </label>
                     <span className="tactics-example-count" aria-hidden="true">
@@ -742,55 +1066,45 @@ export function TacticsRevisionPage({
                       className="secondary"
                       disabled={exampleIndex >= module.examples.length - 1}
                       aria-label={t.tacticsRevisionNextExample}
-                      onClick={() => {
-                        setExampleIndex((i) => Math.min(module.examples.length - 1, i + 1));
-                        setLinePly(0);
-                      }}
+                      onClick={() =>
+                        goToExample(Math.min(module.examples.length - 1, exampleIndex + 1))
+                      }
                     >
                       ›
                     </button>
                   </div>
                 </section>
-              );
-            })()}
 
-            {coachStep ? (
-              <section className="tactics-coach" aria-label={t.tacticsRevisionCoach}>
-                <p className="eyebrow">{t.tacticsRevisionCoach}</p>
-                <div className="opening-book-excerpt-body">
-                  {formatBookExcerpt(localized(coachStep, lang)).paragraphs.map(
-                    (paragraph, index) => (
-                      <p key={`coach-${index}`}>{paragraph}</p>
-                    ),
-                  )}
-                </div>
-              </section>
-            ) : null}
-
-            <footer className="tactics-teach-footer">
-              {module.exerciseIds.length > 0 ? (
-                <button type="button" className="primary-btn" onClick={startPractice}>
-                  {t.tacticsRevisionPractice}
-                </button>
-              ) : null}
-              {(() => {
-                const excerpt =
-                  lang === "fr"
-                    ? module.bookExcerpt?.excerptFr || module.bookExcerpt?.excerptEn
-                    : module.bookExcerpt?.excerptEn || module.bookExcerpt?.excerptFr;
-                if (!excerpt) return null;
-                return (
-                  <BookExcerptSection
-                    excerpt={excerpt}
-                    heading={t.tacticsRevisionBookExcerpt}
-                    notesHeading={t.tacticsRevisionBookNotes}
-                    collapsedLabel={t.tacticsRevisionBookToggle}
-                  />
-                );
-              })()}
-            </footer>
-          </div>
-        </div>
+                <footer className="tactics-teach-footer">
+                  {motifPlan ? (
+                    <p className="tactics-motif-line">
+                      <span className="tactics-motif-line-label">
+                        {t.tacticsRevisionMotifPlan}
+                      </span>
+                      <span className="tactics-motif-line-text">{motifPlan}</span>
+                    </p>
+                  ) : null}
+                  <p className="tactics-source-line">
+                    {module.sources
+                      .map((s) => sourceBadge(s.book, s.ref, t.tacticsRevisionSourceWc))
+                      .join(" · ")}
+                    {" · "}
+                    {formatModuleCounts(
+                      module.examples.length,
+                      module.exerciseIds.length,
+                      t,
+                    )}
+                  </p>
+                  {module.exerciseIds.length > 0 ? (
+                    <button type="button" className="primary-btn" onClick={startPractice}>
+                      {t.tacticsRevisionPractice}
+                    </button>
+                  ) : null}
+                </footer>
+              </div>
+            </div>
+          );
+        })()
       ) : null}
 
       {mode === "practice" && module ? (

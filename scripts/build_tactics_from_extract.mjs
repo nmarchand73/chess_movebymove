@@ -309,8 +309,39 @@ function chapterPhase(title) {
   if (/basic pattern|basic mating|skeleton pattern|introduction|tactical play|analyzing|attack and counter/i.test(t)) {
     return "lesson";
   }
-  if (/^\d+[AB]?\./.test(t) || /no retreat|flight/i.test(t)) return "technique";
+  // Numbered diagram captions promoted to chapter titles (extract quirk) are still lessons.
+  if (/^\d+[AB]?\./.test(t)) return "lesson";
+  if (/no retreat|flight/i.test(t)) return "technique";
   return "lesson";
+}
+
+/** Prefer diagram prompt + follow-up when the extract split caption into chapter_title. */
+function coachCaption(item) {
+  const cap = String(item.caption || "").trim();
+  const ch = String(item.chapter_title || "").trim();
+  if (/^\d+[AB]?\./i.test(ch)) {
+    if (!cap) return ch;
+    if (cap.startsWith(ch.slice(0, Math.min(24, ch.length)))) return cap;
+    if (!cap.includes(ch.slice(0, Math.min(40, ch.length)))) return `${ch}\n\n${cap}`;
+    return cap;
+  }
+  return cap || ch;
+}
+
+function inferLabel(item) {
+  if (item.label) return item.label;
+  const from = String(item.chapter_title || item.caption || "");
+  const match = from.match(/^(\d+)([ABab])?\./);
+  if (!match?.[1]) return null;
+  return match[2] ? `${match[1]}${match[2].toUpperCase()}` : match[1];
+}
+
+function inferSide(item) {
+  if (item.side_to_move === "b" || item.side_to_move === "w") return item.side_to_move;
+  const text = `${item.chapter_title || ""} ${item.caption || ""}`;
+  if (/\bBlack moves\b/i.test(text)) return "b";
+  if (/\bWhite moves\b/i.test(text)) return "w";
+  return "w";
 }
 
 const PHASE_RANK = { lesson: 0, technique: 1, quiz: 2 };
@@ -455,32 +486,50 @@ function main() {
 
   const byMotif = new Map();
   let fenOkCount = 0;
+  let skippedEmpty = 0;
   for (const item of manifest.items) {
     if (!item.fen_ok || !item.fen) continue;
     fenOkCount += 1;
+    const caption = coachCaption(item);
+    if (!caption.trim()) {
+      skippedEmpty += 1;
+      continue;
+    }
     const motif = motifForItem(item);
     if (!byMotif.has(motif.id)) {
       byMotif.set(motif.id, { meta: motif, examples: [], quizzes: [], titles: new Set() });
     }
     const bucket = byMotif.get(motif.id);
     if (item.chapter_title) bucket.titles.add(item.chapter_title);
-    const side = item.side_to_move === "b" ? "b" : "w";
-    const tokens = parseSuggestedTokens(item.caption || "");
+    const side = inferSide(item);
+    const tokens = parseSuggestedTokens(caption);
     const expected = resolveExpected(item.fen, side, tokens);
     const phase = chapterPhase(item.chapter_title);
     const entry = {
       id: item.id,
-      fen: item.fen.includes(" ") ? item.fen : `${item.fen} ${side} - - 0 1`,
+      fen: item.fen.includes(" ")
+        ? item.fen.replace(/ [wb] /, ` ${side} `)
+        : `${item.fen} ${side} - - 0 1`,
       side,
-      caption: item.caption || "",
-      label: item.label,
+      caption,
+      label: inferLabel(item),
       chapter: item.chapter_title,
       phase,
       expected,
     };
-    // Every fen_ok board is a teach example; those with a resolved key move are also practice.
+    // Every fen_ok board with a caption is a teach example; resolved SAN → practice too.
     bucket.examples.push(entry);
     if (expected) bucket.quizzes.push(entry);
+  }
+
+  // Attach literary chapter titles that belong to a motif even when no diagram carries them
+  // (e.g. BASIC PATTERN FOR “NO RETREAT” has empty extract body but a FR essay).
+  if (literary?.chaptersByTitle) {
+    for (const title of Object.keys(literary.chaptersByTitle)) {
+      const motif = motifForItem({ chapter_title: title, caption: "" });
+      if (!motif || !byMotif.has(motif.id)) continue;
+      byMotif.get(motif.id).titles.add(title);
+    }
   }
 
   const modulesById = new Map();
@@ -679,10 +728,12 @@ function main() {
 
   const exampleTotal = modules.reduce((n, m) => n + m.examples.length, 0);
   console.log(
-    `Built ${modules.length} modules · ${exercises.length} practice (SAN ok) · ${exampleTotal} teach examples · fen_ok source=${fenOkCount}`,
+    `Built ${modules.length} modules · ${exercises.length} practice (SAN ok) · ${exampleTotal} teach examples · fen_ok source=${fenOkCount} · skipped empty caption=${skippedEmpty}`,
   );
-  if (exampleTotal !== fenOkCount) {
-    console.warn(`WARNING: examples (${exampleTotal}) ≠ fen_ok (${fenOkCount})`);
+  if (exampleTotal + skippedEmpty !== fenOkCount) {
+    console.warn(
+      `WARNING: examples (${exampleTotal}) + skipped (${skippedEmpty}) ≠ fen_ok (${fenOkCount})`,
+    );
   }
 }
 

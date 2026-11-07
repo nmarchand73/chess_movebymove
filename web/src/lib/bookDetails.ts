@@ -104,19 +104,19 @@ const EN: Record<BookId, BookDetails> = {
   "tactics-revision": {
     title: "Tactics Revision — Winning Chess",
     published: "Curriculum · Chernev & Reinfeld method",
-    tagline: "Coach explains each motif, then you revise on the board.",
+    tagline: "Twenty coached courses — then prove each motif on the board.",
     description:
-      "Winning Chess tactics in book order: eight theme sections, lesson → technique → quiz. "
-      + "Study worked examples with literary French coaching, then solve the motif battery (score 3·2·1·0).",
+      "Winning Chess tactics as a course path: eight sections, each motif taught lesson → technique → quiz. "
+      + "Read the coach on every diagram, then solve the practice battery (score 3·2·1·0).",
     audience: "Club players · after basic mates",
     highlights: [
-      "Eight sections: pins through defense & counterattack",
-      "Teach mode: lesson → technique → quiz",
+      "20 courses in book order (pin → counterattack)",
+      "Each course: coached diagrams, then drills",
       "Chapter essays and diagram captions in the app",
       "Play on screen or Chessnut / ChessUp",
     ],
     famousFor:
-      "Learn the pattern with the coach, then prove it under the clock of your own attention.",
+      "Open a course, follow the coach, then prove the motif on the board.",
   },
 };
 
@@ -212,19 +212,19 @@ const FR: Record<BookId, BookDetails> = {
   "tactics-revision": {
     title: "Révision tactiques — Winning Chess",
     published: "Parcours · méthode Chernev & Reinfeld",
-    tagline: "Le coach explique chaque motif, puis vous révisez sur l’échiquier.",
+    tagline: "Vingt cours coachés — puis prouvez chaque motif sur l’échiquier.",
     description:
-      "Les tactiques de Winning Chess dans l’ordre du livre : huit sections, leçon → technique → quiz. "
-      + "Étudiez les exemples avec un coaching littéraire en français, puis résolvez la batterie du motif (score 3·2·1·0).",
+      "Les tactiques de Winning Chess en parcours de cours : huit sections, chaque motif enseigné leçon → technique → quiz. "
+      + "Lisez le coach sur chaque diagramme, puis résolvez la batterie d’exercices (score 3·2·1·0).",
     audience: "Joueurs de club · après les mats de base",
     highlights: [
-      "Huit sections : du clouage à la défense et contre-attaque",
-      "Cours : leçon → technique → quiz",
-      "Essais de chapitre et légendes des diagrammes dans l’app",
+      "20 cours dans l’ordre du livre (clouage → contre-attaque)",
+      "Chaque cours : diagrammes coachés, puis exercices",
+      "Essais de chapitre et légendes dans l’app",
       "Jouez à l’écran ou sur Chessnut / ChessUp",
     ],
     famousFor:
-      "Apprenez le motif avec le coach, puis prouvez-le sur l’échiquier.",
+      "Ouvrez un cours, suivez le coach, puis prouvez le motif sur l’échiquier.",
   },
 };
 

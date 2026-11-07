@@ -6,10 +6,10 @@
   "ocr": {
     "done": 614,
     "total": 614,
-    "ok": 561,
-    "fail": 53,
-    "no_board": 6,
-    "ok_rate": 0.914,
+    "ok": 575,
+    "fail": 39,
+    "no_board": 5,
+    "ok_rate": 0.936,
     "samples": [
       {
         "id": "wc-00103",
@@ -119,7 +119,8 @@
         "chapter_title": "BASIC PATTERN FOR THE KNIGHT FORK",
         "image": "images/00118.jpeg"
       }
-    ]
+    ],
+    "retry_note": "2026-11-07 re-OCR of 15 incomplete A/B pair sides"
   },
   "items": [
     {
@@ -517,15 +518,19 @@
       "html": "text/part0011_split_001.html",
       "caption": "9B. White moves. His Queen is pinned by the hostile Bishop and attacked by the Rook as well. 3 xe2 is clearly impossible (“a pinned piece is a paralyzed piece”!). There is nothing left but 3 xc6, bxc6, leaving Black with the exchange and two Pawns ahead: an easy win for him. 10A runs on similar lines.",
       "label": "9B",
-      "side_to_move": "w",
+      "side_to_move": "b",
       "chapter_id": "basic-pattern-for-the-pin",
       "chapter_title": "BASIC PATTERN FOR THE PIN",
       "orphan": false,
-      "fen": "3R2k1/1p5p/6p1/p4p2/P1q5/1P5P/1P6/6K1 w - - 0 1",
+      "fen": "3R2k1/1p5p/6p1/p4p2/P1q5/1P5P/1P6/6K1 b - - 0 1",
       "fen_board": "3R2k1/1p5p/6p1/p4p2/P1q5/1P5P/1P6/6K1",
-      "fen_ok": false,
+      "fen_ok": true,
       "n_boards_detected": 1,
-      "fen_error": "invalid board status"
+      "ocr_retry": {
+        "mode": "crop",
+        "stm": "b",
+        "board_index": 0
+      }
     },
     {
       "id": "wc-00052",
@@ -1778,15 +1783,19 @@
       "html": "text/part0012_split_001.html",
       "caption": "59A. White moves. He begins with a surprising move: 1 b6!, a Knight fork which menaces Queen, Rook and Bishop. Black naturally plays 1 ... axb6 and White counters with 2 xd7. What has White accomplished so far? He now has two threats.",
       "label": "59A",
-      "side_to_move": "w",
+      "side_to_move": "b",
       "chapter_id": "basic-pattern-for-the-knight-fork",
       "chapter_title": "BASIC PATTERN FOR THE KNIGHT FORK",
       "orphan": false,
-      "fen": "6k1/3nNp1p/p1r3p1/8/3pP3/1P3P2/P5PP/6K1 w - - 0 1",
+      "fen": "6k1/3nNp1p/p1r3p1/8/3pP3/1P3P2/P5PP/6K1 b - - 0 1",
       "fen_board": "6k1/3nNp1p/p1r3p1/8/3pP3/1P3P2/P5PP/6K1",
-      "fen_ok": false,
+      "fen_ok": true,
       "n_boards_detected": 1,
-      "fen_error": "invalid board status"
+      "ocr_retry": {
+        "mode": "crop",
+        "stm": "b",
+        "board_index": 0
+      }
     },
     {
       "id": "wc-00153",
@@ -1959,15 +1968,19 @@
       "html": "text/part0012_split_003.html",
       "caption": "68A. Black moves. His target is the f-Pawn – although it is defended by three pieces! He begins with a capture, 1 ... xe5, enabling him to foresee White’s reply, 2 xe5. Now the vulnerable point has only two defenders – one of them pinned! But how does the Knight fork materialize?!",
       "label": "68A",
-      "side_to_move": "b",
+      "side_to_move": "w",
       "chapter_id": "the-fork-and-the-pin",
       "chapter_title": "THE FORK AND THE PIN",
       "orphan": false,
-      "fen": "3r1kr1/5p2/3P4/2P1p3/4Pn2/P2QR1P1/6K1/8 b - - 0 1",
+      "fen": "3r1kr1/5p2/3P4/2P1p3/4Pn2/P2QR1P1/6K1/8 w - - 0 1",
       "fen_board": "3r1kr1/5p2/3P4/2P1p3/4Pn2/P2QR1P1/6K1/8",
-      "fen_ok": false,
+      "fen_ok": true,
       "n_boards_detected": 1,
-      "fen_error": "invalid board status"
+      "ocr_retry": {
+        "mode": "crop",
+        "stm": "w",
+        "board_index": 0
+      }
     },
     {
       "id": "wc-00166",
@@ -2835,11 +2848,15 @@
       "chapter_id": "double-attacks-with-the-pawn-push",
       "chapter_title": "DOUBLE ATTACKS WITH THE PAWN PUSH",
       "orphan": false,
-      "fen": "r2q1rk1/ppn1nppp/3P4/8/4P3/P3K1B1/4N1PP/R4RK1 b - - 0 1",
-      "fen_board": "r2q1rk1/ppn1nppp/3P4/8/4P3/P3K1B1/4N1PP/R4RK1",
-      "fen_ok": false,
+      "fen": "r2q1rk1/ppn1nppp/3P4/8/4P3/P3Q1B1/4N1PP/R4RK1 b - - 0 1",
+      "fen_board": "r2q1rk1/ppn1nppp/3P4/8/4P3/P3Q1B1/4N1PP/R4RK1",
+      "fen_ok": true,
       "n_boards_detected": 1,
-      "fen_error": "invalid board status"
+      "ocr_retry": {
+        "fix": "drop_extra_white_king",
+        "stm": "b",
+        "dropped_conf": 0.5767796039581299
+      }
     },
     {
       "id": "wc-00232",
@@ -3672,15 +3689,19 @@
       "html": "text/part0015_split_001.html",
       "caption": "134A. White moves. He begins with a startling sacrifice: 1 f7! forks Black’s Queen and Rook. After 1 ... xf7 the f-file forms the pattern for a discovered check: 2 fxg5+. Now we see the point of the diabolical first move.",
       "label": "134A",
-      "side_to_move": "w",
+      "side_to_move": "b",
       "chapter_id": "basic-pattern-for-discovered-check",
       "chapter_title": "BASIC PATTERN FOR DISCOVERED CHECK",
       "orphan": false,
-      "fen": "r6r/pp1n1k1p/2pb3q/3p2P1/3Pp3/2N1P3/PP4PP/R2QBRK1 w - - 0 1",
+      "fen": "r6r/pp1n1k1p/2pb3q/3p2P1/3Pp3/2N1P3/PP4PP/R2QBRK1 b - - 0 1",
       "fen_board": "r6r/pp1n1k1p/2pb3q/3p2P1/3Pp3/2N1P3/PP4PP/R2QBRK1",
-      "fen_ok": false,
+      "fen_ok": true,
       "n_boards_detected": 1,
-      "fen_error": "invalid board status"
+      "ocr_retry": {
+        "mode": "crop",
+        "stm": "b",
+        "board_index": 0
+      }
     },
     {
       "id": "wc-00296",
@@ -3763,15 +3784,19 @@
       "html": "text/part0015_split_001.html",
       "caption": "137A. White moves. He plays 1 d7+ (double attack), when 1 ... c7 is compulsory. Now 2 xc7+, xc7 and we have the basic pattern for discovered check on the c-file. So: 3 f8+!",
       "label": "137A",
-      "side_to_move": "w",
+      "side_to_move": "b",
       "chapter_id": "basic-pattern-for-discovered-check",
       "chapter_title": "BASIC PATTERN FOR DISCOVERED CHECK",
       "orphan": false,
-      "fen": "5B1r/2k3bp/p5p1/4p3/8/8/5PPP/2R3K1 w - - 0 1",
+      "fen": "5B1r/2k3bp/p5p1/4p3/8/8/5PPP/2R3K1 b - - 0 1",
       "fen_board": "5B1r/2k3bp/p5p1/4p3/8/8/5PPP/2R3K1",
-      "fen_ok": false,
+      "fen_ok": true,
       "n_boards_detected": 2,
-      "fen_error": "invalid board status"
+      "ocr_retry": {
+        "mode": "crop",
+        "stm": "b",
+        "board_index": 0
+      }
     },
     {
       "id": "wc-00302",
@@ -4577,15 +4602,19 @@
       "html": "text/part0018_split_001.html",
       "caption": "171A. White moves. He has an open file for his King’s Rook, and simple doubling on this file would suffice to win (1 h5, g6; 2 ah1 etc.). But there is a quicker, more dynamic way, based on the fact that Black’s defensive force is scattered: 1 h7+! The Rook must be captured (if 1 ... g8? or 1 ... g6?; 2 xf7 mate).",
       "label": "171A",
-      "side_to_move": "w",
+      "side_to_move": "b",
       "chapter_id": "basic-pattern-for-removing-the-guard",
       "chapter_title": "BASIC PATTERN FOR REMOVING THE GUARD",
       "orphan": false,
-      "fen": "4r1k1/p1pq1p1p/8/3p4/6Q1/1P3PP1/P1P3KP/4R3 w - - 0 1",
+      "fen": "4r1k1/p1pq1p1p/8/3p4/6Q1/1P3PP1/P1P3KP/4R3 b - - 0 1",
       "fen_board": "4r1k1/p1pq1p1p/8/3p4/6Q1/1P3PP1/P1P3KP/4R3",
-      "fen_ok": false,
+      "fen_ok": true,
       "n_boards_detected": 1,
-      "fen_error": "invalid board status"
+      "ocr_retry": {
+        "mode": "crop",
+        "stm": "b",
+        "board_index": 0
+      }
     },
     {
       "id": "wc-00361",
@@ -4593,15 +4622,19 @@
       "html": "text/part0018_split_001.html",
       "caption": "169B. Black moves. To save his Queen he must play 1 ... xg4. Now White does not continue 2 fxg4? (which leaves him a Rook down after 2 ... xe1). Instead he continues as planned: 2 xe8+, now that the Rook’s defender has been removed. Black has no time to save his Queen (priority of check!). After 2 ... g7; 3 fxg4 wins easily.",
       "label": "169B",
-      "side_to_move": "b",
+      "side_to_move": "w",
       "chapter_id": "basic-pattern-for-removing-the-guard",
       "chapter_title": "BASIC PATTERN FOR REMOVING THE GUARD",
       "orphan": false,
-      "fen": "2r4k/p3qp2/1pn4p/5b2/4NQ2/2P1P2P/P5rK/1R3R2 b - - 0 1",
+      "fen": "2r4k/p3qp2/1pn4p/5b2/4NQ2/2P1P2P/P5rK/1R3R2 w - - 0 1",
       "fen_board": "2r4k/p3qp2/1pn4p/5b2/4NQ2/2P1P2P/P5rK/1R3R2",
-      "fen_ok": false,
+      "fen_ok": true,
       "n_boards_detected": 2,
-      "fen_error": "invalid board status"
+      "ocr_retry": {
+        "mode": "crop",
+        "stm": "w",
+        "board_index": 0
+      }
     },
     {
       "id": "wc-00362",
@@ -4609,15 +4642,19 @@
       "html": "text/part0018_split_001.html",
       "caption": "170B. White moves. His reply is forced: 2 xg2. Now that White’s Knight has lost a vital prop, Black has a winning double attack: 2 ... xe4+ (2 ... xe4+ is also good); 3 xe4, xe4+ followed by 4 ... xb1. An inventory of the final position shows Black to be a piece ahead, with an easy win. The winning method here is of great practical value.",
       "label": "170B",
-      "side_to_move": "w",
+      "side_to_move": "b",
       "chapter_id": "basic-pattern-for-removing-the-guard",
       "chapter_title": "BASIC PATTERN FOR REMOVING THE GUARD",
       "orphan": false,
-      "fen": "r2q4/5pkR/p1npr3/1pp1p1p1/4P1P1/1PPP1Q2/1P1B1PK1/R7 w - - 0 1",
+      "fen": "r2q4/5pkR/p1npr3/1pp1p1p1/4P1P1/1PPP1Q2/1P1B1PK1/R7 b - - 0 1",
       "fen_board": "r2q4/5pkR/p1npr3/1pp1p1p1/4P1P1/1PPP1Q2/1P1B1PK1/R7",
-      "fen_ok": false,
+      "fen_ok": true,
       "n_boards_detected": 1,
-      "fen_error": "invalid board status"
+      "ocr_retry": {
+        "mode": "crop",
+        "stm": "b",
+        "board_index": 0
+      }
     },
     {
       "id": "wc-00363",
@@ -4775,15 +4812,19 @@
       "html": "text/part0018_split_001.html",
       "caption": "175B. White moves. He has forced a position where the pinned piece (the Queen) is of greater value than the sacrificial Rook. Now 2 h8+ is successful, for it forcibly tears away Black’s King from the defense of his Queen. After 2 ... xh8; 3 xg6 White has an easy win.",
       "label": "175B",
-      "side_to_move": "w",
+      "side_to_move": "b",
       "chapter_id": "basic-pattern-for-removing-the-guard",
       "chapter_title": "BASIC PATTERN FOR REMOVING THE GUARD",
       "orphan": false,
-      "fen": "r1k4r/pppbN3/2np1R2/6B1/2Bq3P/6p1/PPPQ2P1/2K5 w - - 0 1",
+      "fen": "r1k4r/pppbN3/2np1R2/6B1/2Bq3P/6p1/PPPQ2P1/2K5 b - - 0 1",
       "fen_board": "r1k4r/pppbN3/2np1R2/6B1/2Bq3P/6p1/PPPQ2P1/2K5",
-      "fen_ok": false,
+      "fen_ok": true,
       "n_boards_detected": 1,
-      "fen_error": "invalid board status"
+      "ocr_retry": {
+        "mode": "crop",
+        "stm": "b",
+        "board_index": 0
+      }
     },
     {
       "id": "wc-00375",
@@ -6252,15 +6293,19 @@
       "html": "text/part0022_split_001.html",
       "caption": "238B. Black moves. His Knight is attacked; hence 1 ... g6, parrying the threat. But White had another threat, made possible by the retreat of the Bishop. This menace, far from obvious, now becomes reality: 2 c8+, xc8; 3 xc8 mate! Black could have avoided this mate, but only at the cost of leaving his attacked Knight in the lurch.",
       "label": "238B",
-      "side_to_move": "b",
+      "side_to_move": "w",
       "chapter_id": "basic-pattern-for-the-vulnerable-first-r",
       "chapter_title": "BASIC PATTERN FOR THE VULNERABLE FIRST RANK",
       "orphan": false,
-      "fen": "3r1b1k/pp4p1/2p1Qp2/5N2/PP2P3/2P2p2/5P1P/5qK1 b - - 0 1",
+      "fen": "3r1b1k/pp4p1/2p1Qp2/5N2/PP2P3/2P2p2/5P1P/5qK1 w - - 0 1",
       "fen_board": "3r1b1k/pp4p1/2p1Qp2/5N2/PP2P3/2P2p2/5P1P/5qK1",
-      "fen_ok": false,
+      "fen_ok": true,
       "n_boards_detected": 1,
-      "fen_error": "invalid board status"
+      "ocr_retry": {
+        "mode": "crop",
+        "stm": "w",
+        "board_index": 0
+      }
     },
     {
       "id": "wc-00484",
@@ -6692,7 +6737,15 @@
       "chapter_id": "basic-pattern-for-breaking-communication",
       "chapter_title": "BASIC PATTERN FOR BREAKING COMMUNICATION",
       "orphan": false,
-      "ocr_error": "no board"
+      "fen": "4r1rk/pp1qppbp/3p4/3nnPB1/R3P2R/1P6/1PP1B2P/3Q3K w - - 0 1",
+      "fen_board": "4r1rk/pp1qppbp/3p4/3nnPB1/R3P2R/1P6/1PP1B2P/3Q3K",
+      "fen_ok": true,
+      "n_boards_detected": 2,
+      "ocr_retry": {
+        "mode": "crop",
+        "stm": "w",
+        "note": "retry_imgsz_default"
+      }
     },
     {
       "id": "wc-00515",
@@ -7075,15 +7128,19 @@
       "html": "text/part0025_split_001.html",
       "caption": "270A. White moves. In the most innocent-looking positions, there often lurk deadly but delightful combinations. Who would suspect that White can impale his opponent’s King and Queen by a pin, or run them through with a skewer? To combine these motifs – that is the art of chess. 1 d8+ forces 1 ... f7; now 2 e6+! is decisive.",
       "label": "270A",
-      "side_to_move": "w",
+      "side_to_move": "b",
       "chapter_id": "basic-pattern-for-combined-operations",
       "chapter_title": "BASIC PATTERN FOR COMBINED OPERATIONS",
       "orphan": false,
-      "fen": "r3k2r/ppp3pp/1bn1R1q1/7N/2pp4/8/PPP2PPP/R1BQ2K1 w - - 0 1",
+      "fen": "r3k2r/ppp3pp/1bn1R1q1/7N/2pp4/8/PPP2PPP/R1BQ2K1 b - - 0 1",
       "fen_board": "r3k2r/ppp3pp/1bn1R1q1/7N/2pp4/8/PPP2PPP/R1BQ2K1",
-      "fen_ok": false,
+      "fen_ok": true,
       "n_boards_detected": 2,
-      "fen_error": "invalid board status"
+      "ocr_retry": {
+        "mode": "crop",
+        "stm": "b",
+        "board_index": 0
+      }
     },
     {
       "id": "wc-00542",
@@ -7287,15 +7344,19 @@
       "html": "text/part0025_split_001.html",
       "caption": "275B. Black moves. Now for the pretty point of the combination: 3 ... f3+!, forking King and Queen. If White moves his King, then 4 ... xd2. If instead 4 xf3 (overworked Rook!), then 4 ... xd2+. In either event, White’s Queen is lost, and with it the game.",
       "label": "275B",
-      "side_to_move": "w",
+      "side_to_move": "b",
       "chapter_id": "basic-pattern-for-combined-operations",
       "chapter_title": "BASIC PATTERN FOR COMBINED OPERATIONS",
       "orphan": false,
-      "fen": "1k3b1r/p3q2p/p1Np1ppn/2pPp3/P3P3/6N1/1PPB1PPP/5RK1 w - - 0 1",
+      "fen": "1k3b1r/p3q2p/p1Np1ppn/2pPp3/P3P3/6N1/1PPB1PPP/5RK1 b - - 0 1",
       "fen_board": "1k3b1r/p3q2p/p1Np1ppn/2pPp3/P3P3/6N1/1PPB1PPP/5RK1",
-      "fen_ok": false,
+      "fen_ok": true,
       "n_boards_detected": 1,
-      "fen_error": "invalid board status"
+      "ocr_retry": {
+        "mode": "crop",
+        "stm": "b",
+        "board_index": 0
+      }
     },
     {
       "id": "wc-00559",

@@ -2,6 +2,12 @@
   "batch": 8,
   "translations": [
     {
+      "index": 31,
+      "title": "BASIC PATTERN FOR “NO RETREAT”",
+      "titleFr": "Sans retraite : le schéma de base",
+      "textFr": "Il est des pièces qui, sur l’échiquier, semblent encore libres, et qui ne le sont déjà plus. Elles ont des cases autour d’elles, elles ont des alliés, elles ont même parfois l’apparence d’une force ; et pourtant, si l’on compte leurs issues, on s’aperçoit qu’aucune ne les mène à la sûreté. C’est le thème de la pièce sans retraite : une figure piégée par le bord du plateau, par ses propres Pions, ou par l’encombrement de ses amis.\n\nLe principe est simple, et c’est pourquoi il est redoutable. Une pièce qui ne peut plus fuir n’a plus que trois ressources : l’échange, la protection, ou la contre-attaque. Contre un attaquant de moindre valeur — surtout un Pion — l’échange est ruineux, la protection est illusoire, et la contre-attaque arrive trop tard. Il suffit donc d’identifier la pièce captive, de fermer ses dernières cases, et de la frapper avec l’arme la plus humble.\n\nLe Cavalier au bord de l’échiquier est le cas d’école. Sur la colonne a ou h, il ne dispose déjà que de peu de cases ; un Pion adverse bien avancé peut les supprimer toutes. Le Fou enfermé derrière une chaîne de Pions, la Dame coincée dans un coin, la Tour embouteillée par ses propres pièces : autant de variations du même malheur. Dans chaque cas, la méthode est la même : compter les fuites, les fermer, frapper bas.\n\nCette leçon précède les exemples chiffrés qui suivent. Elle n’exige pas encore la combinaison brillante ; elle exige l’œil. Avant de chercher le sacrifice, cherchez la pièce qui n’a nulle part où aller. Si vous la voyez, vous tenez déjà la moitié de la combinaison. Si vous ne la voyez pas, aucune combinaison ne vous sauvera d’en laisser une chez vous.\n\nEn défense, la règle est symétrique : ne placez jamais une pièce dans un cul-de-sac, et vérifiez, avant chaque avance aventureuse, le chemin du retour. La mobilité est la richesse d’une pièce ; la retraite en est le coffre-fort."
+    },
+    {
       "index": 33,
       "title": "185. White moves. His Knight at e3 is attacked. He can move it safely to d1 or c2. But suppose he becomes thoughtlessly aggressive, and wants to post the Knight at d5? The Knight would then have no flight-square – no retreat. Black would play 1 ... c6 winning the Knight.",
       "titleFr": "Sans retraite : le Pion, ce faible redoutable",

@@ -11,6 +11,10 @@ export type TacticsExerciseProgress = {
 
 export type TacticsRevisionProgress = {
   seenModules: Record<string, boolean>;
+  /** Last motif opened in teach mode — drives “resume course”. */
+  lastModuleId: string | null;
+  /** Display names for the last course (library resume strip). */
+  lastModuleNames: { en: string; fr: string } | null;
   exercises: Record<string, TacticsExerciseProgress>;
 };
 
@@ -24,17 +28,28 @@ function defaultExercise(): TacticsExerciseProgress {
   };
 }
 
+function emptyProgress(): TacticsRevisionProgress {
+  return {
+    seenModules: {},
+    lastModuleId: null,
+    lastModuleNames: null,
+    exercises: {},
+  };
+}
+
 export function loadTacticsRevisionProgress(): TacticsRevisionProgress {
   try {
     const raw = localStorage.getItem(KEY);
-    if (!raw) return { seenModules: {}, exercises: {} };
+    if (!raw) return emptyProgress();
     const parsed = JSON.parse(raw) as TacticsRevisionProgress;
     return {
       seenModules: parsed.seenModules ?? {},
+      lastModuleId: parsed.lastModuleId ?? null,
+      lastModuleNames: parsed.lastModuleNames ?? null,
       exercises: parsed.exercises ?? {},
     };
   } catch {
-    return { seenModules: {}, exercises: {} };
+    return emptyProgress();
   }
 }
 
@@ -42,10 +57,29 @@ export function saveTacticsRevisionProgress(state: TacticsRevisionProgress): voi
   localStorage.setItem(KEY, JSON.stringify(state));
 }
 
-export function markTacticsModuleSeen(moduleId: string): void {
+export function markTacticsModuleSeen(
+  moduleId: string,
+  names?: { en: string; fr: string } | null,
+): void {
   const state = loadTacticsRevisionProgress();
   state.seenModules[moduleId] = true;
+  state.lastModuleId = moduleId;
+  if (names?.en && names?.fr) {
+    state.lastModuleNames = { en: names.en, fr: names.fr };
+  }
   saveTacticsRevisionProgress(state);
+}
+
+export function lastTacticsModuleId(
+  state: TacticsRevisionProgress = loadTacticsRevisionProgress(),
+): string | null {
+  return state.lastModuleId;
+}
+
+export function lastTacticsModuleNames(
+  state: TacticsRevisionProgress = loadTacticsRevisionProgress(),
+): { en: string; fr: string } | null {
+  return state.lastModuleNames;
 }
 
 export function seenTacticsModuleCount(state: TacticsRevisionProgress = loadTacticsRevisionProgress()): number {

@@ -11,12 +11,18 @@ import { sourceBookLabel } from "../lib/bookMeta";
 import type { Lang } from "../lib/lang";
 import { doneExerciseCount } from "../lib/kasparovChessProgress";
 import { seenModuleCount } from "../lib/openingRevisionProgress";
-import { seenTacticsModuleCount } from "../lib/tacticsRevisionProgress";
+import {
+  lastTacticsModuleId,
+  lastTacticsModuleNames,
+  seenTacticsModuleCount,
+} from "../lib/tacticsRevisionProgress";
 import { localizeSectionBlurb, localizeSectionTitle } from "../lib/sectionI18n";
 import { fill, ui, type UiCopy } from "../lib/uiCopy";
 
 type SelectBookOptions = {
   sectionId?: string;
+  /** Open a tactics course directly (teach mode). */
+  moduleId?: string;
 };
 
 type Props = {
@@ -88,6 +94,13 @@ function LibraryView({
         .find((lesson) => lesson.id === progress.lastLessonId)
     : undefined;
   const continuePct = continueLesson ? getGameProgress(continueLesson.id) : 0;
+  const tacticsResumeId = lastTacticsModuleId();
+  const tacticsResumeNames = lastTacticsModuleNames();
+  const tacticsResumeTitle = tacticsResumeNames
+    ? lang === "fr"
+      ? tacticsResumeNames.fr
+      : tacticsResumeNames.en
+    : null;
 
   return (
     <div className="book-library">
@@ -139,6 +152,25 @@ function LibraryView({
         </div>
       </header>
 
+      {tacticsResumeId && tacticsResumeTitle ? (
+        <button
+          type="button"
+          className="library-resume library-resume-tactics"
+          onClick={() =>
+            onSelectBook("tactics-revision", { moduleId: tacticsResumeId })
+          }
+        >
+          <span className="library-resume-label">{t.continueWhereLeft}</span>
+          <strong>
+            {fill(t.tacticsRevisionResumeAs, { name: tacticsResumeTitle })}
+          </strong>
+          <span className="library-resume-meta">
+            {bookDisplayTitle("tactics-revision", lang, "Tactics Revision")}
+          </span>
+          <span className="library-resume-cta">{t.resume}</span>
+        </button>
+      ) : null}
+
       {continueLesson ? (
         <button
           type="button"
@@ -172,6 +204,7 @@ function LibraryView({
           const revisionSeen = isOpeningsRevision ? seenModuleCount() : 0;
           const kasparovDone = isKasparovChess ? doneExerciseCount() : 0;
           const tacticsSeen = isTacticsRevision ? seenTacticsModuleCount() : 0;
+          const tacticsLastId = isTacticsRevision ? lastTacticsModuleId() : null;
           const { completedCount, inProgressCount } = isOpeningsRevision
             ? { completedCount: revisionSeen, inProgressCount: 0 }
             : isKasparovChess
@@ -183,7 +216,9 @@ function LibraryView({
             ? Math.round((completedCount / book.gameCount) * 100)
             : 0;
           const hasProgress = completedCount > 0 || inProgressCount > 0;
-          const isResumeBook = lessons.some((l) => l.id === progress.lastLessonId);
+          const isResumeBook =
+            lessons.some((l) => l.id === progress.lastLessonId) ||
+            Boolean(isTacticsRevision && tacticsLastId);
 
           const sectionRangeLabel = (section: BookSection) => {
             const n = Number(section.range);
@@ -311,9 +346,11 @@ function LibraryView({
                   </span>
                 </div>
                 <span className="book-card-open">
-                  {isOpeningsRevision || isKasparovChess || isTacticsRevision
-                    ? t.browseCurriculum
-                    : t.browseGames}
+                  {isTacticsRevision && tacticsLastId
+                    ? t.resume
+                    : isOpeningsRevision || isKasparovChess || isTacticsRevision
+                      ? t.browseCurriculum
+                      : t.browseGames}
                 </span>
               </button>
             </article>

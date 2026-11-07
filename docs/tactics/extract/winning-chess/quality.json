@@ -1,10 +1,10 @@
 {
-  "done": 613,
+  "done": 614,
   "total": 614,
-  "ok": 561,
-  "fail": 52,
+  "ok": 575,
+  "fail": 39,
   "no_board": 5,
-  "ok_rate": 0.915,
+  "ok_rate": 0.936,
   "samples": [
     {
       "id": "wc-00103",
@@ -114,5 +114,6 @@
       "chapter_title": "BASIC PATTERN FOR THE KNIGHT FORK",
       "image": "images/00118.jpeg"
     }
-  ]
+  ],
+  "retry_note": "2026-11-07 re-OCR of 15 incomplete A/B pair sides"
 }

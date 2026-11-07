@@ -21,6 +21,7 @@ import {
 } from "./lib/lessonLoader";
 import { loadLang, saveLang, type Lang } from "./lib/lang";
 import { loadProgress } from "./lib/progress";
+import { lastTacticsModuleId } from "./lib/tacticsRevisionProgress";
 import "./App.css";
 
 type AppView = "landing" | "library";
@@ -328,7 +329,11 @@ function App() {
               return;
             }
             if (bookId === "tactics-revision") {
-              openTacticsRevision(null, options?.sectionId ?? null);
+              const sectionId = options?.sectionId ?? null;
+              const moduleId = sectionId
+                ? null
+                : (options?.moduleId ?? lastTacticsModuleId());
+              openTacticsRevision(moduleId, sectionId);
               return;
             }
             clearVirtualViews();
