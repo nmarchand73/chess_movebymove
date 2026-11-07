@@ -54,6 +54,46 @@ const SECTION_I18N: Record<string, { title: string; blurb: string }> = {
     title: "Ouvertures de flanc",
     blurb: "Ouvertures de flanc",
   },
+  "1 · Foundations": {
+    title: "1 · Fondations",
+    blurb: "1 · Fondations",
+  },
+  "2 · Pins": {
+    title: "2 · Clouages",
+    blurb: "2 · Clouages",
+  },
+  "3 · Forks & double attacks": {
+    title: "3 · Fourchettes & attaques doubles",
+    blurb: "3 · Fourchettes & attaques doubles",
+  },
+  "4 · Discoveries & double check": {
+    title: "4 · Découvertes & double échec",
+    blurb: "4 · Découvertes & double échec",
+  },
+  "5 · Guards & overload": {
+    title: "5 · Défenseurs & surcharge",
+    blurb: "5 · Défenseurs & surcharge",
+  },
+  "6 · No retreat & skewer": {
+    title: "6 · Sans retraite & enfilade",
+    blurb: "6 · Sans retraite & enfilade",
+  },
+  "7 · Promotion, back rank & mates": {
+    title: "7 · Promotion, dernier rang & mats",
+    blurb: "7 · Promotion, dernier rang & mats",
+  },
+  "8 · Defense & counterattack": {
+    title: "8 · Défense & contre-attaque",
+    blurb: "8 · Défense & contre-attaque",
+  },
+  "Game 1": { title: "Partie 1", blurb: "Partie 1" },
+  "Game 2": { title: "Partie 2", blurb: "Partie 2" },
+  "Game 3": { title: "Partie 3", blurb: "Partie 3" },
+  "Game 4": { title: "Partie 4", blurb: "Partie 4" },
+  "Game 5": { title: "Partie 5", blurb: "Partie 5" },
+  "Game 6": { title: "Partie 6", blurb: "Partie 6" },
+  "Game 7": { title: "Partie 7", blurb: "Partie 7" },
+  "Game 8": { title: "Partie 8", blurb: "Partie 8" },
 };
 
 export function localizeSectionTitle(title: string, lang: Lang): string {

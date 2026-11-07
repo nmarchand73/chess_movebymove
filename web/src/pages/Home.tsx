@@ -241,7 +241,19 @@ function LibraryView({
                         {localizeSectionTitle(section.title, lang)}
                       </span>
                       <span className="book-card-section-range">
-                        {fill(t.gamesRange, { range: section.range })}
+                        {(() => {
+                          const n = Number(section.range);
+                          if (book.id === "kasparov-chess" && Number.isFinite(n)) {
+                            return fill(n === 1 ? t.sectionPosition : t.sectionPositions, { n });
+                          }
+                          if (book.id === "tactics-revision" && Number.isFinite(n)) {
+                            return fill(n === 1 ? t.sectionMotif : t.sectionMotifs, { n });
+                          }
+                          if (book.id === "openings-revision") {
+                            return fill(t.openingsRange, { range: section.range });
+                          }
+                          return fill(t.gamesRange, { range: section.range });
+                        })()}
                       </span>
                     </li>
                   ))}
@@ -266,7 +278,11 @@ function LibraryView({
                       : `${completedCount} ${t.complete}`}
                   </span>
                 </div>
-                <span className="book-card-open">{t.browseGames}</span>
+                <span className="book-card-open">
+                  {isOpeningsRevision || isKasparovChess || isTacticsRevision
+                    ? t.browseCurriculum
+                    : t.browseGames}
+                </span>
               </div>
             </button>
           );

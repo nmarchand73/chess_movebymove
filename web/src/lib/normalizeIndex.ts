@@ -246,11 +246,14 @@ export function buildKasparovChessBook(curriculum: KasparovChessCurriculum): Boo
     author: curriculum.author.en,
     publisher: curriculum.publisher?.en,
     gameCount: curriculum.exercises.length,
-    sections: curriculum.games.map((game) => ({
-      title: `Game ${game.id}`,
-      range: String(game.id),
-      blurb: `${game.white} – ${game.black} · ${game.opening.en}`,
-    })),
+    sections: curriculum.games.map((game) => {
+      const positions = curriculum.exercises.filter((ex) => ex.gameId === game.id).length;
+      return {
+        title: `Game ${game.id}`,
+        range: String(positions),
+        blurb: `${game.white} – ${game.black} · ${game.opening.en}`,
+      };
+    }),
   };
 }
 
