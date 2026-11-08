@@ -1,5 +1,12 @@
 import { Chess } from "chess.js";
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import {
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+  type ReactNode,
+} from "react";
 import type {
   LessonSummary,
   OpeningExampleLine,
@@ -7,12 +14,13 @@ import type {
   OpeningSkillItem,
   OpeningsRevisionCurriculum,
 } from "../types";
-import { BoardPanel } from "../components/BoardPanel";
+import { BoardPanel, type BoardLinkState } from "../components/BoardPanel";
 import { ChessnutConnectBar } from "../components/ChessnutConnectBar";
 import { ChessUpConnectBar } from "../components/ChessUpConnectBar";
 import { useChessnutBoard } from "../hooks/useChessnutBoard";
 import { useChessUpBoard } from "../hooks/useChessUpBoard";
 import { buildBoardGuide, guideLedSquares, type BoardGuide } from "../lib/boardGuide";
+import { physicalBoardLink } from "../lib/boardLink";
 import { formatBookExcerpt } from "../lib/bookExcerptFormat";
 import { chessUpAssistanceClear, chessUpAssistanceForMove } from "../lib/chessUpAssistance";
 import { chessUpMoveMatchesSan } from "../lib/chessUpMove";
@@ -82,8 +90,8 @@ function BookExcerptSection({
   if (!paragraphs.length && !notes.length) return null;
 
   return (
-    <section className="opening-book-excerpt">
-      <h3>{heading}</h3>
+    <section className={`opening-book-excerpt${heading ? "" : " is-nested"}`}>
+      {heading ? <h3>{heading}</h3> : null}
       {subtitle ? <p className="opening-module-tagline">{subtitle}</p> : null}
       <div className="opening-book-excerpt-body">
         {paragraphs.map((paragraph, index) => (
@@ -109,46 +117,69 @@ function PhysicalBars({
   chessup,
   guide,
   lang,
+  compact = false,
 }: {
   chessnut: ReturnType<typeof useChessnutBoard>;
   chessup: ReturnType<typeof useChessUpBoard>;
   guide: BoardGuide | null;
   lang: Lang;
+  compact?: boolean;
 }) {
   const t = ui(lang);
-  return (
-    <div className="kasparov-physical-bars opening-physical-bars">
-      <ChessnutConnectBar
-        status={chessnut.status}
-        transport={chessnut.transport}
-        connectingKind={chessnut.connectingKind}
-        battery={chessnut.battery}
-        error={chessnut.error}
-        supported={chessnut.supported}
-        onConnect={(kind) => {
-          void chessup.disconnect();
-          void chessnut.connect(kind);
-        }}
-        onDisconnect={() => void chessnut.disconnect()}
-        guide={guide}
-        guidePly={0}
-        lang={lang}
-      />
-      <ChessUpConnectBar
-        status={chessup.status}
-        battery={chessup.battery}
-        error={chessup.error}
-        supported={chessup.supported}
-        onConnect={() => {
-          void chessnut.disconnect();
-          void chessup.connect();
-        }}
-        onDisconnect={() => void chessup.disconnect()}
-        hint={chessup.status === "connected" ? t.chessUpHint : null}
-        lang={lang}
-      />
+  const chessnutOn = chessnut.status === "connected";
+  const chessupOn = chessup.status === "connected";
+  const anyConnected = chessnutOn || chessupOn;
+  const showChessnut = !compact || !anyConnected || chessnutOn;
+  const showChessup = !compact || !anyConnected || chessupOn;
+
+  const bars = (
+    <div className={`kasparov-physical-bars opening-physical-bars${compact ? " is-compact" : ""}`}>
+      {showChessnut ? (
+        <ChessnutConnectBar
+          status={chessnut.status}
+          transport={chessnut.transport}
+          connectingKind={chessnut.connectingKind}
+          battery={chessnut.battery}
+          error={chessnut.error}
+          supported={chessnut.supported}
+          onConnect={(kind) => {
+            void chessup.disconnect();
+            void chessnut.connect(kind);
+          }}
+          onDisconnect={() => void chessnut.disconnect()}
+          guide={guide}
+          guidePly={0}
+          lang={lang}
+        />
+      ) : null}
+      {showChessup ? (
+        <ChessUpConnectBar
+          status={chessup.status}
+          battery={chessup.battery}
+          error={chessup.error}
+          supported={chessup.supported}
+          onConnect={() => {
+            void chessnut.disconnect();
+            void chessup.connect();
+          }}
+          onDisconnect={() => void chessup.disconnect()}
+          hint={chessupOn ? t.chessUpHint : null}
+          lang={lang}
+        />
+      ) : null}
     </div>
   );
+
+  if (compact && !anyConnected) {
+    return (
+      <details className="opening-board-dock">
+        <summary>{t.openingRevisionConnectBoard}</summary>
+        {bars}
+      </details>
+    );
+  }
+
+  return bars;
 }
 
 export function OpeningRevisionPage({
@@ -194,6 +225,7 @@ export function OpeningRevisionPage({
         ? chessup.placement
         : null;
   const physicalConnected = physicalSource !== null;
+  const boardLink = physicalBoardLink(chessnut, chessup);
 
   const module = useMemo(
     () => curriculum.modules.find((m) => m.id === moduleId) ?? null,
@@ -640,41 +672,56 @@ export function OpeningRevisionPage({
   ]);
 
   const seen = seenModuleCount(progress);
-  const showPhysical = mode === "module" || mode === "skill";
   const studying = mode === "module" || mode === "skill" || mode === "knowledge";
 
   return (
-    <div className={`opening-revision${studying ? " is-studying" : ""}`}>
-      <header className="opening-revision-header">
-        <button type="button" className="text-btn" onClick={onBack}>
-          {t.backLibrary}
-        </button>
-        <div className="opening-revision-header-copy">
-          <p className="eyebrow">{localized(curriculum.title, lang)}</p>
-          <h1>{t.openingRevisionHeadline}</h1>
-          {mode === "catalog" ? (
-            <p className="opening-revision-lead">{t.openingRevisionLead}</p>
-          ) : (
-            <p className="opening-revision-lead">
-              {fill(t.openingRevisionProgress, { seen, total: curriculum.modules.length })}
-            </p>
-          )}
-        </div>
-        <nav className="opening-revision-nav" aria-label={t.openingRevisionNav}>
-          <button type="button" className={mode === "catalog" ? "is-active" : ""} onClick={() => setMode("catalog")}>
-            {t.openingRevisionCatalog}
+    <div
+      className={`opening-revision${studying ? " is-studying" : ""}${mode === "module" ? " is-module-focus" : ""}`}
+    >
+      {mode !== "module" ? (
+        <header className="opening-revision-header">
+          <button type="button" className="text-btn" onClick={onBack}>
+            {t.backLibrary}
           </button>
-          <button type="button" className={mode === "principles" ? "is-active" : ""} onClick={() => setMode("principles")}>
-            {t.openingRevisionPrinciples}
-          </button>
-          <button type="button" className={mode === "knowledge" ? "is-active" : ""} onClick={() => startBattery("knowledge")}>
-            {t.openingRevisionKnowledge}
-          </button>
-          <button type="button" className={mode === "skill" ? "is-active" : ""} onClick={() => startBattery("skill")}>
-            {t.openingRevisionSkill}
-          </button>
-        </nav>
-      </header>
+          <div className="opening-revision-header-copy">
+            <p className="eyebrow">{localized(curriculum.title, lang)}</p>
+            <h1>{t.openingRevisionHeadline}</h1>
+            {mode === "catalog" ? (
+              <p className="opening-revision-lead">{t.openingRevisionLead}</p>
+            ) : (
+              <p className="opening-revision-lead">
+                {fill(t.openingRevisionProgress, { seen, total: curriculum.modules.length })}
+              </p>
+            )}
+          </div>
+          <nav className="opening-revision-nav" aria-label={t.openingRevisionNav}>
+            <button type="button" className={mode === "catalog" ? "is-active" : ""} onClick={() => setMode("catalog")}>
+              {t.openingRevisionCatalog}
+            </button>
+            <button
+              type="button"
+              className={mode === "principles" ? "is-active" : ""}
+              onClick={() => setMode("principles")}
+            >
+              {t.openingRevisionPrinciples}
+            </button>
+            <button
+              type="button"
+              className={mode === "knowledge" ? "is-active" : ""}
+              onClick={() => startBattery("knowledge")}
+            >
+              {t.openingRevisionKnowledge}
+            </button>
+            <button
+              type="button"
+              className={mode === "skill" ? "is-active" : ""}
+              onClick={() => startBattery("skill")}
+            >
+              {t.openingRevisionSkill}
+            </button>
+          </nav>
+        </header>
+      ) : null}
 
       {mode === "principles" ? (
         <section className="opening-revision-principles">
@@ -756,8 +803,17 @@ export function OpeningRevisionPage({
           nextSan={nextLineSan}
           lineComplete={lineComplete}
           moveFeedback={moveFeedback}
-          physicalConnected={physicalConnected}
+          boardLink={boardLink}
           onLineMove={handleLineBoardMove}
+          physicalBars={
+            <PhysicalBars
+              chessnut={chessnut}
+              chessup={chessup}
+              guide={activeGuide}
+              lang={lang}
+              compact
+            />
+          }
           lessonsById={lessonsById}
           onOpenLesson={onOpenLesson}
           onBackCatalog={() => setMode("catalog")}
@@ -776,7 +832,7 @@ export function OpeningRevisionPage({
           ) : (
             <div className="kasparov-exercise-layout">
               <div className="opening-module-board">
-                <BoardPanel chess={boardChess} lang={lang} />
+                <BoardPanel chess={boardChess} lang={lang} boardLink={boardLink} />
               </div>
               <div className="kasparov-guess-panel">
                 <p className="eyebrow">
@@ -829,6 +885,13 @@ export function OpeningRevisionPage({
                   lang={lang}
                   allowMove={!moveLocked}
                   onPlayerMove={(from, to) => handleSkillBoardMove(from, to)}
+                  boardLink={boardLink}
+                />
+                <PhysicalBars
+                  chessnut={chessnut}
+                  chessup={chessup}
+                  guide={activeGuide}
+                  lang={lang}
                 />
               </div>
               <div className="kasparov-guess-panel">
@@ -874,9 +937,6 @@ export function OpeningRevisionPage({
         </section>
       ) : null}
 
-      {showPhysical ? (
-        <PhysicalBars chessnut={chessnut} chessup={chessup} guide={activeGuide} lang={lang} />
-      ) : null}
     </div>
   );
 }
@@ -896,8 +956,9 @@ function ModuleView({
   nextSan,
   lineComplete,
   moveFeedback,
-  physicalConnected,
+  boardLink,
   onLineMove,
+  physicalBars,
   lessonsById,
   onOpenLesson,
   onBackCatalog,
@@ -916,8 +977,9 @@ function ModuleView({
   nextSan: string | null;
   lineComplete: boolean;
   moveFeedback: string | null;
-  physicalConnected: boolean;
+  boardLink: BoardLinkState;
   onLineMove: (from: string, to: string) => boolean;
+  physicalBars: ReactNode;
   lessonsById: Map<string, LessonSummary>;
   onOpenLesson: (lesson: LessonSummary) => void;
   onBackCatalog: () => void;
@@ -934,156 +996,190 @@ function ModuleView({
 
   return (
     <div className="opening-module-view">
-      <button type="button" className="text-btn" onClick={onBackCatalog}>
-        {t.openingRevisionBackCatalog}
-      </button>
-      <div className="kasparov-exercise-layout opening-module-study">
+      <div className="opening-module-study">
         <div className="opening-module-board-col">
+          <div className="opening-module-topbar">
+            <button type="button" className="text-btn" onClick={onBackCatalog}>
+              {t.openingRevisionBackCatalog}
+            </button>
+            <p className="eyebrow opening-module-topbar-ref">
+              {fill(t.openingRevisionSuperN, { n: module.bookRef })}
+            </p>
+          </div>
+
           <div className="opening-module-board">
             <BoardPanel
               chess={boardChess}
               lang={lang}
               allowMove={interactive}
               onPlayerMove={interactive ? onLineMove : undefined}
+              boardLink={boardLink}
             />
           </div>
-          {lines.length > 1 ? (
-            <div className="opening-line-picker" role="tablist" aria-label={t.openingRevisionLines}>
-              {lines.map((line, i) => (
-                <button
-                  key={line.id}
-                  type="button"
-                  role="tab"
-                  aria-selected={i === lineIndex}
-                  className={`opening-line-tab${i === lineIndex ? " is-active" : ""}`}
-                  onClick={() => setLineIndex(i)}
+
+          <div className="opening-module-controls">
+            {lines.length > 1 ? (
+              <label className="opening-line-select-wrap">
+                <span className="opening-line-select-label">{t.openingRevisionChooseLine}</span>
+                <select
+                  className="opening-line-select"
+                  value={lineIndex}
+                  aria-label={t.openingRevisionLines}
+                  onChange={(e) => setLineIndex(Number(e.target.value))}
                 >
-                  {localized(line.label, lang)}
+                  {lines.map((line, i) => (
+                    <option key={line.id} value={i}>
+                      {localized(line.label, lang)}
+                    </option>
+                  ))}
+                </select>
+              </label>
+            ) : null}
+
+            {posIndex < 0 && nextSan ? (
+              <button
+                type="button"
+                className="opening-play-next"
+                onClick={() => setLinePly(Math.min(activeLine.san.length, linePly + 1))}
+              >
+                {fill(t.openingRevisionStepNext, { san: nextSan })}
+              </button>
+            ) : null}
+
+            <div className="opening-module-toolbar">
+              <div className="opening-line-scrubber">
+                <button
+                  type="button"
+                  className="opening-step-btn"
+                  disabled={linePly <= 0 || posIndex >= 0}
+                  onClick={() => setLinePly(Math.max(0, linePly - 1))}
+                  aria-label="Previous"
+                >
+                  ←
                 </button>
-              ))}
+                <span className="opening-line-progress">
+                  {posIndex >= 0
+                    ? fill(t.openingRevisionSuperN, { n: posIndex + 1 })
+                    : linePly === 0
+                      ? t.openingRevisionLineStart
+                      : `${linePly}/${activeLine.san.length}`}
+                </span>
+                <button
+                  type="button"
+                  className="opening-step-btn"
+                  disabled={linePly >= activeLine.san.length || posIndex >= 0}
+                  onClick={() => setLinePly(Math.min(activeLine.san.length, linePly + 1))}
+                  aria-label="Next"
+                >
+                  →
+                </button>
+              </div>
+              {linePly > 0 ? (
+                <p className="opening-line-sans">{activeLine.san.slice(0, linePly).join(" ")}</p>
+              ) : null}
             </div>
-          ) : null}
-          <div className="opening-line-scrubber">
-            <button
-              type="button"
-              disabled={linePly <= 0 || posIndex >= 0}
-              onClick={() => setLinePly(Math.max(0, linePly - 1))}
-            >
-              ←
-            </button>
-            <span>
-              {posIndex >= 0
-                ? fill(t.openingRevisionSuperN, { n: posIndex + 1 })
-                : linePly === 0
-                  ? t.openingRevisionLineStart
-                  : fill(t.openingRevisionLineProgress, {
-                      x: linePly,
-                      y: activeLine.san.length,
-                    })}
-            </span>
-            <button
-              type="button"
-              disabled={linePly >= activeLine.san.length || posIndex >= 0}
-              onClick={() => setLinePly(Math.min(activeLine.san.length, linePly + 1))}
-            >
-              →
-            </button>
+
+            {posIndex < 0 && lineComplete ? (
+              <p className="opening-quiz-play-hint">{t.openingRevisionLineDone}</p>
+            ) : null}
+            {moveFeedback && posIndex < 0 ? (
+              <p className="opening-quiz-move-feedback">{moveFeedback}</p>
+            ) : null}
           </div>
-          <p className="opening-line-sans">
-            {activeLine.san.slice(0, linePly).join(" ") || "…"}
-            {nextSan ? ` · ${nextSan}?` : ""}
-          </p>
-          {posIndex < 0 ? (
-            <p className="opening-quiz-play-hint">
-              {lineComplete
-                ? t.openingRevisionLineDone
-                : physicalConnected
-                  ? t.onChessnut
-                  : t.openingRevisionPlayNext}
-            </p>
-          ) : null}
-          {moveFeedback && posIndex < 0 ? (
-            <p className="opening-quiz-move-feedback">{moveFeedback}</p>
-          ) : null}
+
+          {physicalBars}
         </div>
 
-        <div className="kasparov-guess-panel opening-module-copy">
-          <p className="eyebrow">{fill(t.openingRevisionSuperN, { n: module.bookRef })}</p>
-          <h2>{localized(module.names, lang)}</h2>
-          {module.tagline ? (
-            <p className="opening-module-tagline">{localized(module.tagline, lang)}</p>
-          ) : null}
-          <p>{localized(module.plan, lang)}</p>
-          {module.bookExcerpt?.excerptFr ? (
-            <BookExcerptSection
-              excerptFr={module.bookExcerpt.excerptFr}
-              subtitle={module.tagline ? null : module.bookExcerpt.subtitle}
-              heading={t.openingRevisionBookExcerpt}
-              notesHeading={t.openingRevisionBookNotes}
-            />
-          ) : null}
-          <h3>{t.openingRevisionThemes}</h3>
-          <ul className="opening-theme-list">
-            {(lang === "fr" ? module.themes.fr : module.themes.en).map((theme) => (
-              <li key={theme}>{theme}</li>
-            ))}
-          </ul>
+        <aside className="opening-module-copy">
+          <header className="opening-module-copy-head">
+            <h2>{localized(module.names, lang)}</h2>
+            {module.tagline ? (
+              <p className="opening-module-tagline">{localized(module.tagline, lang)}</p>
+            ) : null}
+            <p className="opening-module-plan-line">{localized(module.plan, lang)}</p>
+          </header>
 
-          <h3>{t.openingRevisionBasePositions}</h3>
-          <div className="opening-pos-tabs">
-            <button
-              type="button"
-              className={`opening-pos-tab${posIndex < 0 ? " is-active" : ""}`}
-              onClick={() => {
-                setPosIndex(-1);
-                setChoice(null);
-              }}
-            >
-              {t.openingRevisionLines}
-            </button>
-            {module.basePositions.map((_, i) => (
-              <button
-                key={i}
-                type="button"
-                className={`opening-pos-tab${posIndex === i ? " is-active" : ""}`}
-                onClick={() => {
-                  setPosIndex(i);
-                  setChoice(null);
-                }}
-              >
-                {i + 1}
-              </button>
+          <div className="opening-theme-chips" aria-label={t.openingRevisionThemes}>
+            {(lang === "fr" ? module.themes.fr : module.themes.en).map((theme) => (
+              <span key={theme} className="opening-theme-chip">
+                {theme}
+              </span>
             ))}
           </div>
-          {position ? (
-            <div className="opening-pos-quiz">
-              <p>{localized(position.ask, lang)}</p>
-              <ul className="opening-pos-choices">
-                {(lang === "fr" ? position.choices.fr : position.choices.en).map((c, i) => (
-                  <li key={c}>
-                    <button
-                      type="button"
-                      className={[
-                        "opening-pos-choice",
-                        choice === null
-                          ? ""
-                          : i === position.answer
-                            ? "is-correct"
-                            : choice === i
-                              ? "is-wrong"
-                              : "",
-                      ]
-                        .filter(Boolean)
-                        .join(" ")}
-                      onClick={() => setChoice(i)}
-                    >
-                      {c}
-                    </button>
-                  </li>
+
+          <section className="opening-ideas">
+            <div className="opening-ideas-head">
+              <h3>{t.openingRevisionBasePositions}</h3>
+              <div className="opening-pos-tabs">
+                <button
+                  type="button"
+                  className={`opening-pos-tab${posIndex < 0 ? " is-active" : ""}`}
+                  onClick={() => {
+                    setPosIndex(-1);
+                    setChoice(null);
+                  }}
+                >
+                  {t.openingRevisionLines}
+                </button>
+                {module.basePositions.map((_, i) => (
+                  <button
+                    key={i}
+                    type="button"
+                    className={`opening-pos-tab${posIndex === i ? " is-active" : ""}`}
+                    onClick={() => {
+                      setPosIndex(i);
+                      setChoice(null);
+                    }}
+                  >
+                    {i + 1}
+                  </button>
                 ))}
-              </ul>
-              {choice !== null ? <p className="opening-pos-why">{localized(position.why, lang)}</p> : null}
+              </div>
             </div>
+            {position ? (
+              <div className="opening-pos-quiz">
+                <p>{localized(position.ask, lang)}</p>
+                <ul className="opening-pos-choices">
+                  {(lang === "fr" ? position.choices.fr : position.choices.en).map((c, i) => (
+                    <li key={c}>
+                      <button
+                        type="button"
+                        className={[
+                          "opening-pos-choice",
+                          choice === null
+                            ? ""
+                            : i === position.answer
+                              ? "is-correct"
+                              : choice === i
+                                ? "is-wrong"
+                                : "",
+                        ]
+                          .filter(Boolean)
+                          .join(" ")}
+                        onClick={() => setChoice(i)}
+                      >
+                        {c}
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+                {choice !== null ? (
+                  <p className="opening-pos-why">{localized(position.why, lang)}</p>
+                ) : null}
+              </div>
+            ) : null}
+          </section>
+
+          {module.bookExcerpt?.excerptFr ? (
+            <details className="opening-book-details">
+              <summary>{t.openingRevisionBookExcerpt}</summary>
+              <BookExcerptSection
+                excerptFr={module.bookExcerpt.excerptFr}
+                subtitle={module.tagline ? null : module.bookExcerpt.subtitle}
+                heading=""
+                notesHeading={t.openingRevisionBookNotes}
+              />
+            </details>
           ) : null}
 
           {linked.length > 0 ? (
@@ -1114,10 +1210,8 @@ function ModuleView({
                 })}
               </ul>
             </section>
-          ) : (
-            <p className="opening-no-games">{t.openingRevisionNoGames}</p>
-          )}
-        </div>
+          ) : null}
+        </aside>
       </div>
     </div>
   );

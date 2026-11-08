@@ -7,6 +7,7 @@ import { ChessUpConnectBar } from "../components/ChessUpConnectBar";
 import { useChessnutBoard } from "../hooks/useChessnutBoard";
 import { useChessUpBoard } from "../hooks/useChessUpBoard";
 import { buildBoardGuide, guideLedSquares } from "../lib/boardGuide";
+import { physicalBoardLink } from "../lib/boardLink";
 import { chessUpAssistanceClear } from "../lib/chessUpAssistance";
 import { chessUpMoveMatchesSan } from "../lib/chessUpMove";
 import { checkKasparovMove } from "../lib/kasparovMoveMatch";
@@ -316,6 +317,7 @@ export function TacticsRevisionPage({
   const chessup = useChessUpBoard();
   const physicalConnected =
     chessnut.status === "connected" || chessup.status === "connected";
+  const boardLink = physicalBoardLink(chessnut, chessup);
   const physicalSource =
     chessup.status === "connected" ? "chessup" : chessnut.status === "connected" ? "chessnut" : null;
   const physicalPlacement =
@@ -833,7 +835,7 @@ export function TacticsRevisionPage({
           return (
             <div className="tactics-teach-layout">
               <aside className="tactics-teach-board">
-                <BoardPanel chess={teachChess} lang={lang} allowMove={false} />
+                <BoardPanel chess={teachChess} lang={lang} allowMove={false} boardLink={boardLink} />
                 <div className="tactics-board-meta">
                   <span
                     className={
@@ -1141,6 +1143,7 @@ export function TacticsRevisionPage({
                   allowMove={!doneLocked}
                   orientation={exercise.boardOrientation}
                   onPlayerMove={(from, to) => handleBoardMove(exercise, from, to)}
+                  boardLink={boardLink}
                 />
               </div>
               <div className="kasparov-guess-panel">

@@ -107,6 +107,7 @@ const EN = {
   openingRevisionBestMove: "Your move (SAN)",
   openingRevisionPlayMove: "Play the best move on the board",
   openingRevisionPlayNext: "Play the next book move on the board",
+  openingRevisionStepNext: "Next: {san}",
   openingRevisionLineDone: "End of this line — try another variant or an idea check.",
   openingRevisionMoveFound: "Move found: {san} — now name the opening.",
   openingRevisionMoveWrong: "Not the book move — try again.",
@@ -116,6 +117,8 @@ const EN = {
   openingRevisionLoading: "Loading opening modules…",
   openingRevisionBookExcerpt: "From the book",
   openingRevisionBookNotes: "Diagram notes",
+  openingRevisionConnectBoard: "Connect a board",
+  openingRevisionChooseLine: "Line",
   reviseThisOpening: "Revise this opening",
 
   kasparovPositions: "{n} study positions",
@@ -292,6 +295,9 @@ const EN = {
 
   yourMove: "Your move",
   onChessnut: "On the Chessnut",
+  boardLinkOn: "Board connected",
+  boardLinkOff: "Board not connected",
+  boardLinkConnecting: "Connecting board…",
   onScreenBoard: "On the screen board",
   type: "Type",
   check: "Check",
@@ -444,6 +450,7 @@ const FR: { [K in keyof typeof EN]: string } = {
   openingRevisionBestMove: "Votre coup (SAN)",
   openingRevisionPlayMove: "Jouez le meilleur coup sur l’échiquier",
   openingRevisionPlayNext: "Jouez le prochain coup du livre sur l’échiquier",
+  openingRevisionStepNext: "Suivant : {san}",
   openingRevisionLineDone: "Fin de cette ligne — essayez une autre variante ou une idée.",
   openingRevisionMoveFound: "Coup trouvé : {san} — nommez maintenant l’ouverture.",
   openingRevisionMoveWrong: "Ce n’est pas le coup du livre — réessayez.",
@@ -453,6 +460,8 @@ const FR: { [K in keyof typeof EN]: string } = {
   openingRevisionLoading: "Chargement des modules d’ouverture…",
   openingRevisionBookExcerpt: "D’après le livre",
   openingRevisionBookNotes: "Notes des diagrammes",
+  openingRevisionConnectBoard: "Connecter un échiquier",
+  openingRevisionChooseLine: "Ligne",
   reviseThisOpening: "Réviser cette ouverture",
 
   kasparovPositions: "{n} positions d’étude",
@@ -630,6 +639,9 @@ const FR: { [K in keyof typeof EN]: string } = {
 
   yourMove: "À vous de jouer",
   onChessnut: "Sur le Chessnut",
+  boardLinkOn: "Échiquier connecté",
+  boardLinkOff: "Échiquier non connecté",
+  boardLinkConnecting: "Connexion de l’échiquier…",
   onScreenBoard: "Sur l’échiquier à l’écran",
   type: "Saisir",
   check: "Vérifier",

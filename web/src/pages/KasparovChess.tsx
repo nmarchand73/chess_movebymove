@@ -7,6 +7,7 @@ import { ChessUpConnectBar } from "../components/ChessUpConnectBar";
 import { useChessnutBoard } from "../hooks/useChessnutBoard";
 import { useChessUpBoard } from "../hooks/useChessUpBoard";
 import { buildBoardGuide, guideLedSquares } from "../lib/boardGuide";
+import { physicalBoardLink } from "../lib/boardLink";
 import { chessUpAssistanceClear, chessUpAssistanceForMove } from "../lib/chessUpAssistance";
 import { chessUpMoveMatchesSan } from "../lib/chessUpMove";
 import type { Lang } from "../lib/lang";
@@ -99,6 +100,7 @@ export function KasparovChessPage({
         ? chessup.placement
         : null;
   const physicalConnected = physicalSource !== null;
+  const boardLink = physicalBoardLink(chessnut, chessup);
 
   const exercise = useMemo(
     () => curriculum.exercises.find((e) => e.id === exerciseId) ?? null,
@@ -627,6 +629,7 @@ export function KasparovChessPage({
               lang={lang}
               allowMove={!doneLocked}
               onPlayerMove={(from, to) => handleBoardMove(exercise, from, to)}
+              boardLink={boardLink}
             />
             <div className="kasparov-guess-panel">
               <p className="kasparov-guess-label">{t.yourMove}</p>

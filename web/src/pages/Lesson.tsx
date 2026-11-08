@@ -30,6 +30,7 @@ import { ExportPromptButton } from "../components/ExportPromptButton";
 import { contextualizeOpeningExplanation, getOpeningTooltip } from "../lib/openingTooltips";
 import { commentatorName } from "../lib/bookMeta";
 import { buildBoardGuide, guideLedSquares } from "../lib/boardGuide";
+import { physicalBoardLink } from "../lib/boardLink";
 import { chessUpAssistanceClear, chessUpAssistanceForMove } from "../lib/chessUpAssistance";
 import { chessUpMoveMatchesSan } from "../lib/chessUpMove";
 import { legalMoveMatchingPlacement } from "../lib/physicalGuess";
@@ -81,6 +82,7 @@ export function LessonPage({
         ? chessup.placement
         : null;
   const physicalConnected = physicalSource !== null;
+  const boardLink = physicalBoardLink(chessnut, chessup);
 
   useEffect(() => {
     let cancelled = false;
@@ -540,6 +542,7 @@ export function LessonPage({
                   previewLabel={preview?.label ?? null}
                   onClearPreview={() => setPreview(null)}
                   lang={lang}
+                  boardLink={boardLink}
                 />
               </div>
               <EvalGauge

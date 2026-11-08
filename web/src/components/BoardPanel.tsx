@@ -1,5 +1,5 @@
 import { Chess } from "chess.js";
-import { useMemo, useState } from "react";
+import { useId, useMemo, useState } from "react";
 import { Chessboard } from "react-chessboard";
 import type { Chess as ChessType } from "chess.js";
 import type { PieceDropHandlerArgs, SquareHandlerArgs } from "react-chessboard";
@@ -7,9 +7,9 @@ import { BOARD_THEME } from "../lib/boardTheme";
 import { getLastMoveHighlight, MOVE_ARROW_OPTIONS } from "../lib/lastMoveHighlight";
 import type { Lang } from "../lib/lang";
 import { fill, ui } from "../lib/uiCopy";
-import { BoardFrame } from "./BoardFrame";
+import { BoardFrame, type BoardLinkState } from "./BoardFrame";
 
-const BOARD_ID = "chernov-board";
+export type { BoardLinkState };
 
 type Props = {
   chess: ChessType;
@@ -25,6 +25,8 @@ type Props = {
    * false to snap back.
    */
   onPlayerMove?: (from: string, to: string) => boolean;
+  /** Discreet Chessnut / ChessUp connection light (corner of the board). */
+  boardLink?: BoardLinkState | null;
 };
 
 function sideToMove(fen: string): "w" | "b" {
@@ -39,12 +41,22 @@ export function BoardPanel({
   lang,
   allowMove = false,
   onPlayerMove,
+  boardLink = null,
 }: Props) {
   const t = ui(lang);
+  const boardId = useId();
   const highlight = useMemo(() => getLastMoveHighlight(chess), [chess]);
   const isPreview = Boolean(previewLabel);
   const [selectedSquare, setSelectedSquare] = useState<string | null>(null);
   const turn = sideToMove(chess.fen());
+  const boardLinkTitle =
+    boardLink === "on"
+      ? t.boardLinkOn
+      : boardLink === "connecting"
+        ? t.boardLinkConnecting
+        : boardLink === "off"
+          ? t.boardLinkOff
+          : undefined;
 
   const squareStyles = useMemo(() => {
     const styles = { ...highlight.squareStyles };
@@ -106,10 +118,14 @@ export function BoardPanel({
           ) : null}
         </div>
       ) : null}
-      <BoardFrame orientation={orientation}>
+      <BoardFrame
+        orientation={orientation}
+        boardLink={boardLink}
+        boardLinkTitle={boardLinkTitle}
+      >
         <Chessboard
           options={{
-            id: BOARD_ID,
+            id: boardId,
             position: chess.fen(),
             boardOrientation: orientation,
             allowDragging: allowMove,
